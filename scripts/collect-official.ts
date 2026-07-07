@@ -16,6 +16,17 @@ type OfficialCandidateClassification = {
   labels: string[];
 };
 
+const FOOTBALL_CONTEXT_KEYWORDS = [
+  "대한축구협회",
+  "대한축구협회장",
+  "축구협회",
+  "축구협회장",
+  "KFA",
+  "K-축구혁신위원회",
+  "축구혁신위",
+  "축구"
+];
+
 function stableItemId(url: string): string {
   return `item_${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
 }
@@ -33,10 +44,25 @@ export function resolveSourceUrl(href: string, baseUrl: string): string | null {
   }
 }
 
-export function shouldKeepOfficialCandidate(
-  classification: OfficialCandidateClassification
-): boolean {
-  return classification.issueTags.length > 0 || classification.personTags.length > 0;
+export function shouldKeepOfficialCandidate({
+  classification,
+  sourceId
+}: {
+  classification: OfficialCandidateClassification;
+  sourceId: string;
+}): boolean {
+  const hasTag = classification.issueTags.length > 0 || classification.personTags.length > 0;
+  if (!hasTag) {
+    return false;
+  }
+
+  if (sourceId === "kfa_media") {
+    return true;
+  }
+
+  return classification.matchedKeywords.some((keyword) =>
+    FOOTBALL_CONTEXT_KEYWORDS.includes(keyword)
+  );
 }
 
 async function collectOfficialSource({
@@ -89,7 +115,7 @@ async function collectOfficialSource({
       isOfficial: true
     });
 
-    if (!shouldKeepOfficialCandidate(classification)) {
+    if (!shouldKeepOfficialCandidate({ classification, sourceId: source.id })) {
       return;
     }
 
