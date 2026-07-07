@@ -1,0 +1,58 @@
+[
+  {
+    "id": "election",
+    "name": "회장 선거",
+    "description": "대한축구협회장 선거와 후보, 일정, 선거 운영 관련 이슈",
+    "keywords": ["회장 선거", "축구협회장", "대한축구협회장", "후보 등록"],
+    "priority": 1
+  },
+  {
+    "id": "electoral-college",
+    "name": "선거인단",
+    "description": "선거인단 구성, 대표성, 투표권 관련 이슈",
+    "keywords": ["선거인단", "선거인", "대의원", "투표권"],
+    "priority": 2
+  },
+  {
+    "id": "statute-revision",
+    "name": "정관 개정",
+    "description": "정관, 규정, 제도 개편과 관련한 이슈",
+    "keywords": ["정관", "정관 개정", "규정 개정", "제도 개편"],
+    "priority": 3
+  },
+  {
+    "id": "innovation-committee",
+    "name": "K-축구혁신위",
+    "description": "K-축구혁신위원회와 축구 혁신 논의 관련 이슈",
+    "keywords": ["K-축구혁신위원회", "축구혁신위", "혁신위원회", "축구 혁신"],
+    "priority": 4
+  },
+  {
+    "id": "mcst-audit",
+    "name": "문체부 감사",
+    "description": "문화체육관광부 감사, 조사, 후속 조치 관련 이슈",
+    "keywords": ["문체부 감사", "문화체육관광부 감사", "감사", "조사 결과"],
+    "priority": 5
+  },
+  {
+    "id": "kfa-executives",
+    "name": "KFA 임원 동향",
+    "description": "대한축구협회 임원, 이사회, 집행부 동향",
+    "keywords": ["임원", "이사회", "집행부", "부회장", "전무"],
+    "priority": 6
+  },
+  {
+    "id": "coach-appointment",
+    "name": "감독 선임",
+    "description": "대표팀 감독 선임, 절차, 전력강화위원회 관련 이슈",
+    "keywords": ["감독 선임", "대표팀 감독", "전력강화위원회", "감독 후보"],
+    "priority": 7
+  },
+  {
+    "id": "youth-governance",
+    "name": "유소년·거버넌스",
+    "description": "유소년 육성, 거버넌스, 시스템 개편 관련 이슈",
+    "keywords": ["유소년", "거버넌스", "육성 시스템", "지도자"],
+    "priority": 8
+  }
+]

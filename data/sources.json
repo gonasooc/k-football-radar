@@ -1,0 +1,30 @@
+[
+  {
+    "id": "naver_news",
+    "name": "Naver News Search API",
+    "type": "news-api",
+    "url": "https://developers.naver.com/docs/serviceapi/search/news/news.md",
+    "enabled": true
+  },
+  {
+    "id": "kfa_media",
+    "name": "KFA 미디어채널",
+    "type": "official",
+    "url": "https://media.kfa.or.kr/",
+    "enabled": true
+  },
+  {
+    "id": "mcst_press",
+    "name": "문화체육관광부 보도자료",
+    "type": "official",
+    "url": "https://www.mcst.go.kr/kor/s_notice/press/pressList.jsp",
+    "enabled": true
+  },
+  {
+    "id": "sports_council",
+    "name": "대한체육회 공지사항",
+    "type": "official",
+    "url": "https://www.sports.or.kr/home/010501/0000/main.do",
+    "enabled": true
+  }
+]

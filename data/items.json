@@ -1,0 +1,116 @@
+[
+  {
+    "id": "item_sample_news_20260707_003",
+    "type": "news",
+    "title": "[샘플] 대표팀 감독 선임 절차 관련 발언 메타데이터",
+    "summary": "인물 태그와 감독 선임 이슈 필터를 확인하기 위한 샘플 항목입니다.",
+    "url": "https://example.com/news-sample-coach",
+    "originalUrl": "https://example.com/news-sample-coach",
+    "publisher": "샘플 스포츠",
+    "publishedAt": "2026-07-07T02:10:00.000Z",
+    "collectedAt": "2026-07-07T02:20:00.000Z",
+    "matchedKeywords": [
+      "감독 선임",
+      "홍명보"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 58,
+    "labels": [
+      "자동 수집",
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_sample_news_20260707_002",
+    "type": "news",
+    "title": "[샘플] 축구협회 정관 개정 논의 흐름 정리",
+    "summary": "뉴스 API 메타데이터 표시를 확인하기 위한 샘플 설명입니다.",
+    "url": "https://example.com/news-sample-statute",
+    "originalUrl": "https://example.com/news-sample-statute",
+    "publisher": "샘플 뉴스",
+    "publishedAt": "2026-07-07T01:15:00.000Z",
+    "collectedAt": "2026-07-07T01:25:00.000Z",
+    "matchedKeywords": [
+      "축구협회",
+      "정관",
+      "정관 개정"
+    ],
+    "issueTags": [
+      "statute-revision"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 62,
+    "labels": [
+      "자동 수집"
+    ]
+  },
+  {
+    "id": "item_sample_official_20260707_001",
+    "type": "official",
+    "title": "[샘플] 대한축구협회 선거 운영 관련 공지 메타데이터",
+    "summary": "공식자료 카드 표시와 태그 분류를 확인하기 위한 짧은 샘플 설명입니다.",
+    "url": "https://example.com/kfa-sample-notice",
+    "originalUrl": "https://example.com/kfa-sample-notice",
+    "publisher": "샘플 공식자료",
+    "publishedAt": "2026-07-07T00:20:00.000Z",
+    "collectedAt": "2026-07-07T00:35:00.000Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "선거인단",
+      "회장 선거"
+    ],
+    "issueTags": [
+      "election",
+      "electoral-college"
+    ],
+    "personTags": [],
+    "sourceType": "official",
+    "isOfficial": true,
+    "relevanceScore": 85,
+    "labels": [
+      "공식 출처",
+      "자동 수집",
+      "선거 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_sample_official_20260706_004",
+    "type": "official",
+    "title": "[샘플] 문체부 감사 관련 공식자료 메타데이터",
+    "summary": "공식자료 우선 노출과 감사 키워드 표시를 확인하기 위한 샘플 항목입니다.",
+    "url": "https://example.com/mcst-sample-audit",
+    "originalUrl": "https://example.com/mcst-sample-audit",
+    "publisher": "샘플 문체부",
+    "publishedAt": "2026-07-06T08:00:00.000Z",
+    "collectedAt": "2026-07-06T08:15:00.000Z",
+    "matchedKeywords": [
+      "문체부 감사",
+      "감사",
+      "대한축구협회"
+    ],
+    "issueTags": [
+      "mcst-audit"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "official",
+    "isOfficial": true,
+    "relevanceScore": 90,
+    "labels": [
+      "공식 출처",
+      "자동 수집",
+      "감사 키워드 포함",
+      "인물 언급"
+    ]
+  }
+]
