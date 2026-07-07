@@ -1,4 +1,4 @@
-# Korea Football Radar — Codex Goal Plan
+# Korea Football Radar — Codex 목표 계획서
 
 문서 버전: 2026-07-07  
 목적: Codex의 `/goal` 기능에 그대로 투입할 수 있는 MVP 구현 계획서  
@@ -6,18 +6,18 @@
 
 ---
 
-## 0. Codex에 줄 Goal 문장
+## 0. Codex에 줄 목표 문장
 
 아래 문장을 Codex의 `/goal`에 넣고, 이 문서를 프로젝트 루트에 `KOREA_FOOTBALL_RADAR_GOAL.md`로 둔다.
 
 ```text
-/goal Implement the Korea Football Radar MVP according to KOREA_FOOTBALL_RADAR_GOAL.md. Build a Next.js TypeScript app deployed on Vercel. Use GitHub Actions to collect Naver News API and official-source metadata into JSON files committed under /data. The MVP is complete when the dashboard, feed, issue pages, people pages, source archive, data validation, scheduled collector workflow, and Vercel-ready build all work without a database, CMS, login, comments, AI summaries, or messenger notifications.
+/goal KOREA_FOOTBALL_RADAR_GOAL.md에 따라 Korea Football Radar MVP를 구현한다. Vercel 배포에 적합한 Next.js TypeScript 앱을 만들고, GitHub Actions로 Naver News API와 공식자료 메타데이터를 수집해 /data 아래 JSON 파일로 커밋한다. 데이터베이스, CMS, 로그인, 댓글, AI 요약, 메신저 알림 없이 대시보드, 피드, 이슈 페이지, 인물 페이지, 출처 아카이브, 데이터 검증, 예약 수집 워크플로, Vercel 빌드가 모두 동작하면 MVP를 완료로 본다.
 ```
 
 Codex가 작업 중 참고해야 할 원칙:
 
 - 한 번에 모든 기능을 완성하려 하지 말고, **작동하는 얇은 세로 조각**을 먼저 만든다.
-- 각 단계는 `npm run lint`, `npm run typecheck`, `npm run validate:data`, `npm run build` 중 가능한 검증을 통과해야 한다.
+- 각 단계는 `pnpm run lint`, `pnpm run typecheck`, `pnpm run validate:data`, `pnpm run build` 중 가능한 검증을 통과해야 한다.
 - 자동 수집 결과는 뉴스·공식자료의 **메타데이터와 원문 링크**만 저장한다.
 - 기사 본문 전체, 유료 기사, 로그인 필요 본문, 기사 이미지 원본은 저장하거나 재게시하지 않는다.
 - 자동으로 “비리”, “범죄”, “의혹 확정” 같은 단정적 라벨을 붙이지 않는다.
@@ -53,8 +53,8 @@ Codex가 작업 중 참고해야 할 원칙:
 | 프론트엔드 | Next.js, TypeScript |
 | 스타일 | Tailwind CSS |
 | 배포 | Vercel |
-| 데이터 저장 | Git repository 안의 JSON 파일 |
-| 자동 수집 | GitHub Actions scheduled workflow |
+| 데이터 저장 | Git 저장소 안의 JSON 파일 |
+| 자동 수집 | GitHub Actions 예약 워크플로 |
 | 뉴스 소스 | Naver News Search API |
 | 공식자료 소스 | KFA, 문체부, 대한체육회 등 공식 페이지 HTML/RSS 감시 |
 | DB | MVP 제외 |
@@ -72,15 +72,15 @@ Codex가 작업 중 참고해야 할 원칙:
         ↓
 [GitHub Actions: 30분마다 실행]
         ↓
-[collector scripts]
+[수집 스크립트]
         ↓
 [중복 제거 + 키워드 기반 이슈/인물 태그]
         ↓
 [data/items.json 업데이트]
         ↓
-[GitHub commit]
+[GitHub 커밋]
         ↓
-[Vercel Git integration 자동 배포]
+[Vercel Git 연동 자동 배포]
         ↓
 [Next.js Korea Football Radar]
         ↓
@@ -91,7 +91,7 @@ Codex가 작업 중 참고해야 할 원칙:
 
 Vercel은 **화면을 배포하는 곳**으로 사용한다.  
 데이터 수집과 JSON 업데이트는 Vercel Runtime에서 하지 않는다.  
-데이터 수집은 GitHub Actions가 담당하고, 수집 결과를 repository의 `/data` 폴더에 commit한다. Vercel은 GitHub push를 감지해 자동으로 재배포한다.
+데이터 수집은 GitHub Actions가 담당하고, 수집 결과를 저장소의 `/data` 폴더에 커밋한다. Vercel은 GitHub push를 감지해 자동으로 재배포한다.
 
 ---
 
@@ -386,7 +386,7 @@ K-축구혁신위원회
 
 ## 8. 수집 로직
 
-### 8.1 Naver News Collector
+### 8.1 Naver News 수집기
 
 파일 예시:
 
@@ -399,7 +399,7 @@ scripts/collect-naver-news.ts
 1. `issues.json`, `people.json`에서 검색 키워드를 읽는다.
 2. 기본 키워드와 인물별 키워드를 합쳐 검색 쿼리 목록을 만든다.
 3. Naver News Search API를 호출한다.
-4. 결과의 제목, 설명, 원문 링크, 네이버 링크, 발행일, publisher를 정규화한다.
+4. 결과의 제목, 설명, 원문 링크, 네이버 링크, 발행일, 발행사를 정규화한다.
 5. HTML entity와 태그를 제거한다.
 6. URL 기준 중복 제거를 수행한다.
 7. 제목/설명/키워드 기반으로 `issueTags`, `personTags`를 부여한다.
@@ -414,7 +414,7 @@ display=20
 start=1
 ```
 
-### 8.2 Official Source Collector
+### 8.2 공식자료 수집기
 
 파일 예시:
 
@@ -431,10 +431,10 @@ scripts/collect-official.ts
 5. 기존 항목과 중복 제거한다.
 6. `type: official`, `isOfficial: true`로 저장한다.
 
-초기에는 selector가 완벽하지 않아도 된다.  
-공식 페이지 수집은 뉴스 API보다 우선순위가 높지만, 파싱이 깨질 수 있으므로 실패해도 전체 workflow가 죽지 않도록 처리한다.
+초기에는 선택자가 완벽하지 않아도 된다.
+공식 페이지 수집은 뉴스 API보다 우선순위가 높지만, 파싱이 깨질 수 있으므로 실패해도 전체 워크플로가 죽지 않도록 처리한다.
 
-### 8.3 Dedupe
+### 8.3 중복 제거
 
 파일 예시:
 
@@ -446,10 +446,10 @@ lib/dedupe.ts
 
 1. canonical URL
 2. `originalUrl`
-3. 제목 + publisher + 발행일 조합
+3. 제목 + 발행사 + 발행일 조합
 4. 동일 제목의 유사 항목은 최신 수집 건만 유지
 
-### 8.4 Classification
+### 8.4 분류
 
 파일 예시:
 
@@ -461,7 +461,7 @@ lib/classify.ts
 
 - 이슈 태그: `issues.json.keywords`가 제목/설명에 포함되면 부여
 - 인물 태그: `people.json.keywords`가 제목/설명에 포함되면 부여
-- 공식자료 여부: official collector 또는 source domain 기반으로 판단
+- 공식자료 여부: 공식자료 수집기 또는 출처 도메인 기반으로 판단
 - relevanceScore: 단순 규칙 기반 점수
 
 예시 점수:
@@ -570,9 +570,9 @@ export default nextConfig;
 
 ## 11. GitHub Actions 설계
 
-### 11.1 Secrets
+### 11.1 시크릿
 
-GitHub Repository Secrets에 다음 값을 넣는다.
+GitHub 저장소 시크릿에 다음 값을 넣는다.
 
 ```text
 NAVER_CLIENT_ID
@@ -581,9 +581,9 @@ NAVER_CLIENT_SECRET
 
 주의:
 
-- `.env` 파일을 public repo에 commit하지 않는다.
-- API secret을 브라우저 코드에 노출하지 않는다.
-- Vercel 환경변수에는 MVP 기준으로 Naver secret을 넣을 필요가 없다. 수집은 GitHub Actions에서만 한다.
+- `.env` 파일을 공개 저장소에 커밋하지 않는다.
+- API 시크릿을 브라우저 코드에 노출하지 않는다.
+- Vercel 환경변수에는 MVP 기준으로 Naver 시크릿을 넣을 필요가 없다. 수집은 GitHub Actions에서만 한다.
 
 ### 11.2 `collect.yml`
 
@@ -606,25 +606,30 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          run_install: false
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
-          cache: npm
+          cache: pnpm
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Collect data
-        run: npm run collect
+        run: pnpm run collect
         env:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
 
       - name: Validate data
-        run: npm run validate:data
+        run: pnpm run validate:data
 
       - name: Commit updated data
         run: |
@@ -635,7 +640,7 @@ jobs:
           git push
 ```
 
-Vercel은 GitHub repository의 push를 감지해 자동 배포한다.
+Vercel은 GitHub 저장소의 push를 감지해 자동 배포한다.
 
 ### 11.3 `ci.yml`
 
@@ -653,18 +658,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          run_install: false
+
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
-          cache: npm
+          cache: pnpm
 
-      - run: npm ci
-      - run: npm run lint
-      - run: npm run typecheck
-      - run: npm run validate:data
-      - run: npm run build
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run lint
+      - run: pnpm run typecheck
+      - run: pnpm test
+      - run: pnpm run validate:data
+      - run: pnpm run build
 ```
 
 ---
@@ -673,17 +684,17 @@ jobs:
 
 ### 12.1 배포 방식
 
-1. GitHub repository 생성
-2. Vercel에서 해당 repository import
-3. Framework preset: Next.js
-4. Build command: `npm run build`
-5. Output directory: 기본값 사용
-6. Production branch: `main`
-7. 이후 GitHub Actions가 `data/` 변경을 commit하면 Vercel이 자동 재배포
+1. GitHub 저장소 생성
+2. Vercel에서 해당 저장소 가져오기
+3. 프레임워크 프리셋: Next.js
+4. 빌드 명령: `pnpm run build`
+5. 출력 디렉터리: 기본값 사용
+6. 운영 브랜치: `main`
+7. 이후 GitHub Actions가 `data/` 변경을 커밋하면 Vercel이 자동 재배포
 
 ### 12.2 Vercel 환경변수
 
-MVP 기준 Vercel에는 필수 secret이 없다.
+MVP 기준 Vercel에는 필수 시크릿이 없다.
 
 수집은 GitHub Actions에서만 실행한다.  
 Vercel은 이미 생성된 JSON을 읽어 화면만 렌더링한다.
@@ -696,7 +707,7 @@ Vercel은 이미 생성된 JSON을 읽어 화면만 렌더링한다.
 
 ---
 
-## 13. Package scripts
+## 13. 패키지 스크립트
 
 `package.json`에는 최소한 아래 scripts를 둔다.
 
@@ -706,12 +717,14 @@ Vercel은 이미 생성된 JSON을 읽어 화면만 렌더링한다.
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint . --max-warnings=0",
     "typecheck": "tsc --noEmit",
-    "collect": "tsx scripts/update-data.ts",
-    "collect:naver": "tsx scripts/collect-naver-news.ts",
-    "collect:official": "tsx scripts/collect-official.ts",
-    "validate:data": "tsx scripts/validate-data.ts"
+    "test": "node --import tsx --test tests/*.test.ts",
+    "collect": "node --import tsx scripts/update-data.ts",
+    "collect:naver": "node --import tsx scripts/collect-naver-news.ts",
+    "collect:official": "node --import tsx scripts/collect-official.ts",
+    "check:readiness": "node --import tsx scripts/check-readiness.ts",
+    "validate:data": "node --import tsx scripts/validate-data.ts"
   }
 }
 ```
@@ -790,7 +803,7 @@ html-entities
 
 ## 15. 개발 순서
 
-### Phase 1 — Next.js 뼈대와 샘플 데이터
+### 단계 1 — Next.js 뼈대와 샘플 데이터
 
 완료 조건:
 
@@ -798,9 +811,9 @@ html-entities
 - Tailwind CSS 설정
 - `/data` 샘플 JSON 작성
 - `/`, `/feed`, `/issues`, `/people`, `/sources` 라우트 생성
-- `npm run build` 성공
+- `pnpm run build` 성공
 
-### Phase 2 — 데이터 로딩과 UI 카드
+### 단계 2 — 데이터 로딩과 UI 카드
 
 완료 조건:
 
@@ -810,16 +823,16 @@ html-entities
 - 피드 필터 구현
 - 이슈/인물 상세 페이지 구현
 
-### Phase 3 — 데이터 검증
+### 단계 3 — 데이터 검증
 
 완료 조건:
 
 - `zod` schema 작성
 - `scripts/validate-data.ts` 작성
-- `npm run validate:data` 통과
+- `pnpm run validate:data` 통과
 - 잘못된 JSON 구조일 때 명확한 에러 출력
 
-### Phase 4 — Naver News Collector
+### 단계 4 — Naver News 수집기
 
 완료 조건:
 
@@ -829,54 +842,54 @@ html-entities
 - 중복 제거
 - issue/person 태그 부여
 - `items.json` 업데이트
-- API secret은 GitHub Actions 환경변수로만 사용
+- API 시크릿은 GitHub Actions 환경변수로만 사용
 
-### Phase 5 — 공식자료 Collector
+### 단계 5 — 공식자료 수집기
 
 완료 조건:
 
-- `sources.json` 기반 official source fetch
+- `sources.json` 기반 공식자료 가져오기
 - 링크/제목 추출
 - 실패해도 전체 수집은 계속 진행
 - 공식자료 항목은 `isOfficial: true`로 저장
 
-### Phase 6 — GitHub Actions 자동 수집
+### 단계 6 — GitHub Actions 자동 수집
 
 완료 조건:
 
 - `collect.yml` 작성
 - `workflow_dispatch`로 수동 실행 가능
-- schedule로 자동 실행 가능
-- `data/` 변경이 있을 때만 commit
-- commit 후 Vercel 자동 배포 확인
+- 예약 일정으로 자동 실행 가능
+- `data/` 변경이 있을 때만 커밋
+- 커밋 후 Vercel 자동 배포 확인
 
-### Phase 7 — Vercel 배포
+### 단계 7 — Vercel 배포
 
 완료 조건:
 
-- Vercel에 GitHub repo import
-- main branch push 시 자동 배포
+- Vercel에 GitHub 저장소 가져오기
+- `main` 브랜치 push 시 자동 배포
 - 최신 JSON 데이터가 반영된 화면 확인
 - 모바일 화면 기본 사용성 확인
 
 ---
 
-## 16. 완료 기준 Definition of Done
+## 16. 완료 기준
 
-Codex는 아래 조건을 모두 만족하면 goal을 완료로 판단한다.
+Codex는 아래 조건을 모두 만족하면 목표를 완료로 판단한다.
 
-1. `npm run build`가 성공한다.
-2. `npm run typecheck`가 성공한다.
-3. `npm run validate:data`가 성공한다.
+1. `pnpm run build`가 성공한다.
+2. `pnpm run typecheck`가 성공한다.
+3. `pnpm run validate:data`가 성공한다.
 4. `/` 대시보드에서 최신 수집 항목과 통계가 보인다.
 5. `/feed`에서 전체 수집 항목이 최신순으로 보인다.
 6. `/feed`에서 유형, 이슈, 인물 필터가 동작한다.
 7. `/issues`와 `/issues/[id]`가 동작한다.
 8. `/people`와 `/people/[id]`가 동작한다.
 9. `/sources`에서 수집 출처가 보인다.
-10. `npm run collect`가 `data/items.json`을 갱신한다.
+10. `pnpm run collect`가 `data/items.json`을 갱신한다.
 11. 중복 URL이 반복 저장되지 않는다.
-12. Naver API 키가 repository에 노출되지 않는다.
+12. Naver API 키가 저장소에 노출되지 않는다.
 13. GitHub Actions `collect.yml`이 수동 실행 가능하다.
 14. Vercel 배포에 적합한 Next.js 프로젝트 구조다.
 15. 기사 본문 전체를 저장하거나 재게시하지 않는다.
@@ -925,7 +938,7 @@ MVP 완료 후 고려할 기능:
 
 - Naver API 호출량을 제한한다.
 - 실패 시 재시도 폭주를 막는다.
-- 수집 실패가 build 실패로 이어지지 않도록 일부 collector는 graceful failure 처리한다.
+- 수집 실패가 빌드 실패로 이어지지 않도록 일부 수집기는 점진적 실패 처리를 한다.
 
 ---
 
@@ -933,15 +946,15 @@ MVP 완료 후 고려할 기능:
 
 확인일: 2026-07-07
 
-- OpenAI Codex Goal mode: https://developers.openai.com/codex/use-cases/follow-goals
-- OpenAI Codex Goals cookbook: https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex
-- OpenAI Codex prompting best practices: https://developers.openai.com/codex/prompting
-- Next.js Static Exports guide: https://nextjs.org/docs/app/guides/static-exports
-- Vercel for GitHub: https://vercel.com/docs/git/vercel-for-github
-- Vercel deployments: https://vercel.com/docs/deployments
-- GitHub Actions scheduled workflows: https://docs.github.com/actions/using-workflows/events-that-trigger-workflows
-- GitHub Actions workflow syntax: https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions
-- GitHub Actions billing: https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions
+- OpenAI Codex 목표 모드: https://developers.openai.com/codex/use-cases/follow-goals
+- OpenAI Codex 목표 사용 예시: https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex
+- OpenAI Codex 프롬프트 모범 사례: https://developers.openai.com/codex/prompting
+- Next.js 정적 내보내기 가이드: https://nextjs.org/docs/app/guides/static-exports
+- Vercel GitHub 연동: https://vercel.com/docs/git/vercel-for-github
+- Vercel 배포 문서: https://vercel.com/docs/deployments
+- GitHub Actions 예약 워크플로 문서: https://docs.github.com/actions/using-workflows/events-that-trigger-workflows
+- GitHub Actions 워크플로 문법: https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions
+- GitHub Actions 과금 문서: https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions
 - Naver News Search API: https://developers.naver.com/docs/serviceapi/search/news/news.md
 
 ---
