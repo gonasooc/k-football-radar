@@ -12,9 +12,14 @@ function stableItemId(url: string): string {
   return `item_${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
 }
 
-function resolveUrl(href: string, baseUrl: string): string | null {
+export function resolveSourceUrl(href: string, baseUrl: string): string | null {
   try {
-    return new URL(href, baseUrl).toString();
+    const url = new URL(href, baseUrl);
+    if (url.protocol !== "http:" && url.protocol !== "https:") {
+      return null;
+    }
+    url.hash = "";
+    return url.toString();
   } catch {
     return null;
   }
@@ -56,7 +61,7 @@ async function collectOfficialSource({
       return;
     }
 
-    const url = resolveUrl(href, source.url);
+    const url = resolveSourceUrl(href, source.url);
     if (!url || seen.has(url)) {
       return;
     }
@@ -64,7 +69,7 @@ async function collectOfficialSource({
 
     const classification = classifyItemText({
       title,
-      summary: source.name,
+      summary: "",
       issues,
       people,
       isOfficial: true

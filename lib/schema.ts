@@ -1,14 +1,27 @@
 import { z } from "zod";
 
 const isoDateString = z.string().datetime({ offset: true });
+const httpUrlString = z.string().url().refine(
+  (value) => {
+    try {
+      const protocol = new URL(value).protocol;
+      return protocol === "http:" || protocol === "https:";
+    } catch {
+      return false;
+    }
+  },
+  {
+    message: "Expected an http or https URL"
+  }
+);
 
 export const radarItemSchema = z.object({
   id: z.string().min(1),
   type: z.enum(["news", "official"]),
   title: z.string().min(1),
   summary: z.string().max(600),
-  url: z.string().url(),
-  originalUrl: z.string().url(),
+  url: httpUrlString,
+  originalUrl: httpUrlString,
   publisher: z.string().min(1),
   publishedAt: isoDateString,
   collectedAt: isoDateString,
@@ -43,7 +56,7 @@ export const sourceSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   type: z.enum(["news-api", "official"]),
-  url: z.string().url(),
+  url: httpUrlString,
   enabled: z.boolean()
 });
 
