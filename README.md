@@ -26,6 +26,7 @@ pnpm run lint
 pnpm run typecheck
 pnpm run validate:data
 pnpm run build
+pnpm run check:readiness
 ```
 
 ## Data Collection
@@ -46,6 +47,22 @@ NAVER_CLIENT_SECRET=
 ```
 
 For GitHub Actions, add both values as repository secrets. Without them, the collector still runs official-source checks and skips Naver API calls.
+
+## Readiness Check
+
+`pnpm run check:readiness` checks the external evidence that cannot be proven by a local build:
+
+- `NAVER_CLIENT_ID` repository secret
+- `NAVER_CLIENT_SECRET` repository secret
+- GitHub deployment records from Vercel Git integration
+- latest CI workflow result
+- latest collect workflow result
+
+Use strict mode when you want the command to fail until all external setup is complete:
+
+```bash
+pnpm run check:readiness -- --strict
+```
 
 ## Deployment
 

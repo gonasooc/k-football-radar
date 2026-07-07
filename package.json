@@ -13,6 +13,7 @@
     "collect": "node --import tsx scripts/update-data.ts",
     "collect:naver": "node --import tsx scripts/collect-naver-news.ts",
     "collect:official": "node --import tsx scripts/collect-official.ts",
+    "check:readiness": "node --import tsx scripts/check-readiness.ts",
     "validate:data": "node --import tsx scripts/validate-data.ts"
   },
   "dependencies": {
