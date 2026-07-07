@@ -8,6 +8,14 @@ import { normalizePublisher, stripHtml, truncateSummary } from "../lib/normalize
 import type { Issue, Person, RadarItem, Source } from "../lib/schema";
 import { readIssues, readItems, readPeople, readSources, writeItems } from "./data-io";
 
+type OfficialCandidateClassification = {
+  issueTags: string[];
+  personTags: string[];
+  matchedKeywords: string[];
+  relevanceScore: number;
+  labels: string[];
+};
+
 function stableItemId(url: string): string {
   return `item_${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
 }
@@ -23,6 +31,12 @@ export function resolveSourceUrl(href: string, baseUrl: string): string | null {
   } catch {
     return null;
   }
+}
+
+export function shouldKeepOfficialCandidate(
+  classification: OfficialCandidateClassification
+): boolean {
+  return classification.issueTags.length > 0 || classification.personTags.length > 0;
 }
 
 async function collectOfficialSource({
@@ -75,7 +89,7 @@ async function collectOfficialSource({
       isOfficial: true
     });
 
-    if (classification.issueTags.length === 0 && classification.matchedKeywords.length === 0) {
+    if (!shouldKeepOfficialCandidate(classification)) {
       return;
     }
 
