@@ -74,6 +74,24 @@ function addSafeLabel(target: string[], value: string): void {
   }
 }
 
+function toSearchQuery(keyword: string): string {
+  const normalizedKeyword = keyword.toLocaleLowerCase("ko-KR");
+  const hasFootballContext =
+    ORGANIZATION_KEYWORDS.some((contextKeyword) =>
+      includesKeyword(keyword, contextKeyword)
+    ) ||
+    normalizedKeyword.includes("축구") ||
+    normalizedKeyword.includes("kfa") ||
+    keyword.includes("대표팀") ||
+    keyword.includes("전력강화위원회");
+
+  if (hasFootballContext) {
+    return keyword;
+  }
+
+  return `축구협회 ${keyword}`;
+}
+
 export function classifyItemText(input: ClassifyInput): Classification {
   const text = `${input.title} ${input.summary ?? ""}`;
   const issueTags: string[] = [];
@@ -167,7 +185,7 @@ export function getSearchQueries({
 
   for (const issue of [...issues].sort((a, b) => a.priority - b.priority)) {
     for (const keyword of issue.keywords) {
-      addUnique(queries, keyword);
+      addUnique(queries, toSearchQuery(keyword));
     }
   }
 

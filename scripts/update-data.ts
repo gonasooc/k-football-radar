@@ -1,4 +1,4 @@
-import { collectNaverNews } from "./collect-naver-news";
+import { collectNaverNews, filterNewsItemsForCollection } from "./collect-naver-news";
 import { collectOfficialSources } from "./collect-official";
 import {
   readCollectionState,
@@ -25,7 +25,9 @@ async function updateData(): Promise<void> {
     collectOfficialSources({ sources, issues, people })
   ]);
 
-  const mergedItems = limitItems([...existingItems, ...naverItems, ...officialItems]);
+  const mergedItems = limitItems(
+    filterNewsItemsForCollection([...existingItems, ...naverItems, ...officialItems])
+  );
   const previousIds = new Set(existingItems.map((item) => item.id));
   const newItemCount = mergedItems.filter((item) => !previousIds.has(item.id)).length;
   const hasCollectorInput = Boolean(process.env.NAVER_CLIENT_ID && process.env.NAVER_CLIENT_SECRET);

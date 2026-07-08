@@ -35,6 +35,7 @@ pnpm run check:readiness
 
 ```bash
 pnpm run collect
+pnpm run collect:local
 pnpm run collect:naver
 pnpm run collect:official
 ```
@@ -47,6 +48,8 @@ NAVER_CLIENT_SECRET=
 ```
 
 GitHub Actions에서 Naver News API를 사용하려면 두 값을 저장소 시크릿에 추가해야 합니다. 값이 없으면 Naver API 수집은 건너뛰고 공식자료 수집과 데이터 검증만 실행합니다.
+
+로컬 `.env` 파일에 Naver 키를 넣어 테스트할 때는 `pnpm run collect:local`을 사용합니다. 기본 수집 명령인 `pnpm run collect`는 GitHub Actions 환경변수 또는 현재 셸 환경변수만 읽습니다.
 
 ## 준비 상태 확인
 

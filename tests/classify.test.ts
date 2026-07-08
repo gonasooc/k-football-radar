@@ -63,4 +63,26 @@ describe("getSearchQueries", () => {
     assert.ok(queries.includes("\"정몽규\" 대한축구협회"));
     assert.equal(new Set(queries).size, queries.length);
   });
+
+  it("adds football context to broad standalone issue keywords", () => {
+    const queries = getSearchQueries({
+      issues: [
+        {
+          id: "executives",
+          name: "임원 동향",
+          description: "임원 관련 이슈",
+          keywords: ["임원", "이사회", "집행부"],
+          priority: 1
+        }
+      ],
+      people: []
+    });
+
+    assert.equal(queries.includes("임원"), false);
+    assert.equal(queries.includes("이사회"), false);
+    assert.equal(queries.includes("집행부"), false);
+    assert.ok(queries.includes("축구협회 임원"));
+    assert.ok(queries.includes("축구협회 이사회"));
+    assert.ok(queries.includes("축구협회 집행부"));
+  });
 });
