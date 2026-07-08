@@ -1,5 +1,6 @@
 import crypto from "node:crypto";
 import { pathToFileURL } from "node:url";
+import * as cheerio from "cheerio";
 
 import { classifyItemText, getSearchQueries } from "../lib/classify";
 import { dedupeItems } from "../lib/dedupe";
@@ -35,6 +36,7 @@ type NewsCandidateInput = {
 export const DEFAULT_NAVER_QUERY_DELAY_MS = 800;
 export const MAX_NAVER_SEARCH_QUERIES = 100;
 export const NAVER_NEWS_DISPLAY_COUNT = 40;
+export const ARTICLE_TITLE_TIMEOUT_MS = 3000;
 
 const FOOTBALL_CONTEXT_KEYWORDS = [
   "대한축구협회",
@@ -147,6 +149,9 @@ const FOREIGN_FOOTBALL_CONTEXT_PATTERNS = [
   /전차\s*군단/u
 ];
 
+const TRAILING_ELLIPSIS_PATTERN = /(?:\.\.\.|…)\s*$/u;
+const SITE_TITLE_SEPARATOR_PATTERN = /\s+(?:[-|:·])\s+/u;
+
 function stableItemId(url: string): string {
   return `item_${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
 }
@@ -207,6 +212,125 @@ async function fetchNaverNews(query: string): Promise<NaverNewsItem[]> {
 
   const data = (await response.json()) as NaverNewsResponse;
   return data.items ?? [];
+}
+
+export function shouldResolveArticleTitle(title: string): boolean {
+  return TRAILING_ELLIPSIS_PATTERN.test(title.trim());
+}
+
+function titlePrefix(title: string): string {
+  return title.replace(TRAILING_ELLIPSIS_PATTERN, "").trim();
+}
+
+function pickMatchingArticleTitlePart(articleTitle: string, prefix: string): string {
+  const parts = articleTitle
+    .split(SITE_TITLE_SEPARATOR_PATTERN)
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  return parts.find((part) => part.startsWith(prefix)) ?? articleTitle;
+}
+
+export function pickArticleTitle(apiTitle: string, articleTitle: string | null): string {
+  if (!articleTitle || !shouldResolveArticleTitle(apiTitle)) {
+    return apiTitle;
+  }
+
+  const prefix = titlePrefix(apiTitle);
+  const normalizedArticleTitle = stripInlineHtml(articleTitle);
+  const candidate = pickMatchingArticleTitlePart(normalizedArticleTitle, prefix);
+
+  if (candidate.length <= apiTitle.length || !candidate.startsWith(prefix)) {
+    return apiTitle;
+  }
+
+  return candidate;
+}
+
+function extractJsonLdHeadline(value: unknown): string | null {
+  if (!value || typeof value !== "object") {
+    return null;
+  }
+
+  if (Array.isArray(value)) {
+    for (const item of value) {
+      const headline = extractJsonLdHeadline(item);
+      if (headline) {
+        return headline;
+      }
+    }
+    return null;
+  }
+
+  const record = value as Record<string, unknown>;
+  if (typeof record.headline === "string" && record.headline.trim()) {
+    return record.headline;
+  }
+
+  return extractJsonLdHeadline(record["@graph"]);
+}
+
+export function extractArticleTitle(html: string): string | null {
+  const $ = cheerio.load(html);
+  const metaTitle =
+    $("meta[property='og:title']").attr("content") ??
+    $("meta[name='og:title']").attr("content") ??
+    $("meta[name='twitter:title']").attr("content");
+
+  if (metaTitle?.trim()) {
+    return stripInlineHtml(metaTitle);
+  }
+
+  for (const element of $("script[type='application/ld+json']").toArray()) {
+    const rawJson = $(element).contents().text().trim();
+    if (!rawJson) {
+      continue;
+    }
+
+    try {
+      const headline = extractJsonLdHeadline(JSON.parse(rawJson));
+      if (headline) {
+        return stripInlineHtml(headline);
+      }
+    } catch {
+      continue;
+    }
+  }
+
+  const title = $("title").first().text();
+  return title.trim() ? stripInlineHtml(title) : null;
+}
+
+async function fetchArticleTitle(url: string): Promise<string | null> {
+  try {
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": "KoreaFootballRadar/0.1 metadata monitor"
+      },
+      signal: AbortSignal.timeout(ARTICLE_TITLE_TIMEOUT_MS)
+    });
+
+    if (!response.ok) {
+      return null;
+    }
+
+    const contentType = response.headers.get("content-type") ?? "";
+    if (contentType && !contentType.includes("text/html")) {
+      return null;
+    }
+
+    return extractArticleTitle(await response.text());
+  } catch {
+    return null;
+  }
+}
+
+async function resolveArticleTitle(apiTitle: string, url: string): Promise<string> {
+  if (!shouldResolveArticleTitle(apiTitle)) {
+    return apiTitle;
+  }
+
+  return pickArticleTitle(apiTitle, await fetchArticleTitle(url));
 }
 
 function hasKoreanFootballContext(text: string): boolean {
@@ -346,7 +470,8 @@ export async function collectNaverNews({
       const newsItems = await fetchNaverNews(query);
       for (const newsItem of newsItems) {
         const originalUrl = newsItem.originallink || newsItem.link;
-        const title = stripInlineHtml(newsItem.title);
+        const apiTitle = stripInlineHtml(newsItem.title);
+        const title = await resolveArticleTitle(apiTitle, originalUrl);
         const summary = truncateSummary(newsItem.description);
         const classification = classifyItemText({
           title,

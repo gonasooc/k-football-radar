@@ -3,9 +3,12 @@ import assert from "node:assert/strict";
 
 import {
   DEFAULT_NAVER_QUERY_DELAY_MS,
+  extractArticleTitle,
   filterNewsItemsForCollection,
   getNaverQueryDelayMs,
   getNaverSearchQueries,
+  pickArticleTitle,
+  shouldResolveArticleTitle,
   shouldKeepNewsCandidate
 } from "../scripts/collect-naver-news";
 import type { Issue, Person, RadarItem } from "../lib/schema";
@@ -253,6 +256,53 @@ describe("getNaverQueryDelayMs", () => {
     assert.equal(getNaverQueryDelayMs("-1"), DEFAULT_NAVER_QUERY_DELAY_MS);
     assert.equal(getNaverQueryDelayMs("99999"), DEFAULT_NAVER_QUERY_DELAY_MS);
     assert.equal(getNaverQueryDelayMs("abc"), DEFAULT_NAVER_QUERY_DELAY_MS);
+  });
+});
+
+describe("article title resolution", () => {
+  it("resolves only likely truncated API titles", () => {
+    assert.equal(shouldResolveArticleTitle("홍명보 감독 선임 논란"), false);
+    assert.equal(
+      shouldResolveArticleTitle("“나중에 다 밝혀질 것!” 미국으로 떠난 홍명보 감독..."),
+      true
+    );
+    assert.equal(shouldResolveArticleTitle("월드컵 탈락 후폭풍…"), true);
+  });
+
+  it("extracts article titles from common metadata fields", () => {
+    assert.equal(
+      extractArticleTitle(
+        '<html><head><meta property="og:title" content="원문 기사 전체 제목"></head></html>'
+      ),
+      "원문 기사 전체 제목"
+    );
+
+    assert.equal(
+      extractArticleTitle(
+        '<script type="application/ld+json">{"@type":"NewsArticle","headline":"JSON-LD 기사 제목"}</script>'
+      ),
+      "JSON-LD 기사 제목"
+    );
+  });
+
+  it("uses a longer source title only when it expands the API prefix", () => {
+    const apiTitle = "'국제 망신' 韓 월드컵 망치고 남몰래 도주→역시 '비난 세례' 못 피했다...";
+    const fullTitle =
+      "'국제 망신' 韓 월드컵 망치고 남몰래 도주→역시 '비난 세례' 못 피했다, 끝내 사과 없이 출국";
+
+    assert.equal(pickArticleTitle(apiTitle, `${fullTitle} | 스타뉴스`), fullTitle);
+    assert.equal(pickArticleTitle(apiTitle, "전혀 다른 기사 제목"), apiTitle);
+    assert.equal(pickArticleTitle("이미 완성된 기사 제목", fullTitle), "이미 완성된 기사 제목");
+  });
+
+  it("keeps inline title text together after source metadata extraction", () => {
+    assert.equal(
+      pickArticleTitle(
+        "대륜고 축구...",
+        "<b>대륜고</b> 축구부, 지역리그 전승 우승 | 테스트뉴스"
+      ),
+      "대륜고 축구부, 지역리그 전승 우승"
+    );
   });
 });
 

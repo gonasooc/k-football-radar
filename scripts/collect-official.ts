@@ -16,6 +16,14 @@ type OfficialCandidateClassification = {
   labels: string[];
 };
 
+type OfficialLinkCandidate = {
+  title: string;
+  url: string;
+  publishedAt?: string;
+};
+
+const MAX_OFFICIAL_ITEMS_PER_SOURCE = 20;
+
 const FOOTBALL_CONTEXT_KEYWORDS = [
   "대한축구협회",
   "대한축구협회장",
@@ -24,8 +32,15 @@ const FOOTBALL_CONTEXT_KEYWORDS = [
   "KFA",
   "K-축구혁신위원회",
   "축구혁신위",
-  "축구"
+  "축구",
+  "축구 혁신",
+  "한국 축구",
+  "한국축구"
 ];
+
+const KFA_VIEW_CONTENTS_PATTERN =
+  /view_contents\(\s*['"]([^'"]+)['"]\s*,\s*['"]([^'"]+)['"]\s*\)/u;
+const SPORTS_BBS_VIEW_PATTERN = /bbsView\(\s*['"]?(\d+)['"]?\s*\)/u;
 
 function stableItemId(url: string): string {
   return `item_${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
@@ -42,6 +57,44 @@ export function resolveSourceUrl(href: string, baseUrl: string): string | null {
   } catch {
     return null;
   }
+}
+
+export function parseOfficialDate(value: string, fallback = new Date().toISOString()): string {
+  const match = value
+    .replace(/\([^)]*\)/g, " ")
+    .match(/(\d{4})[.-](\d{1,2})[.-](\d{1,2})\.?(?:\s+(\d{1,2}):(\d{2}))?/u);
+
+  if (!match) {
+    return fallback;
+  }
+
+  const [, year, rawMonth, rawDay, rawHour = "0", rawMinute = "0"] = match;
+  const month = rawMonth.padStart(2, "0");
+  const day = rawDay.padStart(2, "0");
+  const hour = rawHour.padStart(2, "0");
+  const minute = rawMinute.padStart(2, "0");
+  const date = new Date(`${year}-${month}-${day}T${hour}:${minute}:00+09:00`);
+
+  return Number.isNaN(date.getTime()) ? fallback : date.toISOString();
+}
+
+export function resolveKfaMediaUrl(onclick: string, baseUrl: string): string | null {
+  const match = onclick.match(KFA_VIEW_CONTENTS_PATTERN);
+  if (!match) {
+    return null;
+  }
+
+  const [, idx, con] = match;
+  return resolveSourceUrl(`/bbs/bbs.php?act=bbs_view_layer&idx=${idx}&con=${con}`, baseUrl);
+}
+
+export function resolveSportsCouncilUrl(href: string, baseUrl: string): string | null {
+  const match = href.match(SPORTS_BBS_VIEW_PATTERN);
+  if (!match) {
+    return resolveSourceUrl(href, baseUrl);
+  }
+
+  return resolveSourceUrl(`/sports/bbs/BMSR00001/view.do?boardId=${match[1]}&menuNo=200024`, baseUrl);
 }
 
 export function shouldKeepOfficialCandidate({
@@ -65,6 +118,136 @@ export function shouldKeepOfficialCandidate({
   );
 }
 
+function extractKfaMediaCandidates(
+  $: cheerio.CheerioAPI,
+  source: Source,
+  fallbackPublishedAt: string
+): OfficialLinkCandidate[] {
+  return $("a[onclick*='view_contents']")
+    .toArray()
+    .flatMap((element) => {
+      const url = resolveKfaMediaUrl($(element).attr("onclick") ?? "", source.url);
+      const title =
+        stripHtml($(element).find(".caption p").first().text()) ||
+        stripHtml($(element).text());
+      if (!url || title.length < 8) {
+        return [];
+      }
+
+      const dateText = stripHtml($(element).find(".caption .date").first().text());
+      return [
+        {
+          title,
+          url,
+          publishedAt: dateText ? parseOfficialDate(dateText, fallbackPublishedAt) : undefined
+        }
+      ];
+    });
+}
+
+function extractMcstPressCandidates(
+  $: cheerio.CheerioAPI,
+  source: Source,
+  fallbackPublishedAt: string
+): OfficialLinkCandidate[] {
+  return $("td.tit_wrap a[href]")
+    .toArray()
+    .flatMap((element) => {
+      const href = $(element).attr("href");
+      const url = href ? resolveSourceUrl(href, source.url) : null;
+      const titleSource = ($(element).attr("title") ?? $(element).find(".tit").text()) ||
+        $(element).text();
+      const title = stripHtml(titleSource);
+      if (!url || title.length < 8) {
+        return [];
+      }
+
+      const dateText = stripHtml(
+        $(element).closest("tr").find("td[aria-label='게시일']").first().text()
+      );
+      return [
+        {
+          title,
+          url,
+          publishedAt: dateText ? parseOfficialDate(dateText, fallbackPublishedAt) : undefined
+        }
+      ];
+    });
+}
+
+function extractSportsCouncilCandidates(
+  $: cheerio.CheerioAPI,
+  source: Source,
+  fallbackPublishedAt: string
+): OfficialLinkCandidate[] {
+  return $("td.tit a[href]")
+    .toArray()
+    .flatMap((element) => {
+      const href = $(element).attr("href");
+      const url = href ? resolveSportsCouncilUrl(href, source.url) : null;
+      const title = stripHtml($(element).text());
+      if (!url || title.length < 8) {
+        return [];
+      }
+
+      const row = $(element).closest("tr");
+      const mobileDateText = row
+        .find("li")
+        .toArray()
+        .map((item) => stripHtml($(item).text()))
+        .find((text) => text.includes("등록일"));
+      const dateText =
+        mobileDateText?.replace("등록일", "") || stripHtml(row.find("td.pc").last().text());
+
+      return [
+        {
+          title,
+          url,
+          publishedAt: dateText ? parseOfficialDate(dateText, fallbackPublishedAt) : undefined
+        }
+      ];
+    });
+}
+
+function extractGenericCandidates(
+  $: cheerio.CheerioAPI,
+  source: Source
+): OfficialLinkCandidate[] {
+  return $("a[href]")
+    .toArray()
+    .flatMap((element) => {
+      const href = $(element).attr("href");
+      const title = stripHtml($(element).text());
+      const url = href ? resolveSourceUrl(href, source.url) : null;
+      return url && title.length >= 8 ? [{ title, url }] : [];
+    });
+}
+
+export function extractOfficialCandidates(
+  html: string,
+  source: Source,
+  fallbackPublishedAt = new Date().toISOString()
+): OfficialLinkCandidate[] {
+  const $ = cheerio.load(html);
+  const candidates =
+    source.id === "kfa_media"
+      ? extractKfaMediaCandidates($, source, fallbackPublishedAt)
+      : source.id === "mcst_press"
+        ? extractMcstPressCandidates($, source, fallbackPublishedAt)
+        : source.id === "sports_council"
+          ? extractSportsCouncilCandidates($, source, fallbackPublishedAt)
+          : extractGenericCandidates($, source);
+
+  const seen = new Set<string>();
+  return candidates.filter((candidate) => {
+    if (seen.has(candidate.url)) {
+      return false;
+    }
+    seen.add(candidate.url);
+    return true;
+  });
+}
+
 async function collectOfficialSource({
   source,
   issues,
@@ -85,30 +268,15 @@ async function collectOfficialSource({
   }
 
   const html = await response.text();
-  const $ = cheerio.load(html);
   const collectedAt = new Date().toISOString();
   const items: RadarItem[] = [];
-  const seen = new Set<string>();
 
-  $("a[href]").each((_, element) => {
-    if (items.length >= 20) {
-      return false;
+  for (const candidate of extractOfficialCandidates(html, source, collectedAt)) {
+    if (items.length >= MAX_OFFICIAL_ITEMS_PER_SOURCE) {
+      break;
     }
-
-    const href = $(element).attr("href");
-    const title = stripHtml($(element).text());
-    if (!href || title.length < 8) {
-      return;
-    }
-
-    const url = resolveSourceUrl(href, source.url);
-    if (!url || seen.has(url)) {
-      return;
-    }
-    seen.add(url);
-
     const classification = classifyItemText({
-      title,
+      title: candidate.title,
       summary: "",
       issues,
       people,
@@ -116,18 +284,18 @@ async function collectOfficialSource({
     });
 
     if (!shouldKeepOfficialCandidate({ classification, sourceId: source.id })) {
-      return;
+      continue;
     }
 
     items.push({
-      id: stableItemId(url),
+      id: stableItemId(candidate.url),
       type: "official",
-      title,
+      title: candidate.title,
       summary: truncateSummary(`${source.name}에서 감지된 공식자료 링크입니다.`),
-      url,
-      originalUrl: url,
-      publisher: source.name || normalizePublisher(url),
-      publishedAt: collectedAt,
+      url: candidate.url,
+      originalUrl: candidate.url,
+      publisher: source.name || normalizePublisher(candidate.url),
+      publishedAt: candidate.publishedAt ?? collectedAt,
       collectedAt,
       matchedKeywords: classification.matchedKeywords,
       issueTags: classification.issueTags,
@@ -137,7 +305,7 @@ async function collectOfficialSource({
       relevanceScore: classification.relevanceScore,
       labels: classification.labels
     });
-  });
+  }
 
   return items;
 }
@@ -180,7 +348,7 @@ async function run(): Promise<void> {
   console.log(`Official collector merged ${collected.length} candidate items`);
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   run().catch((error: unknown) => {
     console.error(error);
     process.exitCode = 1;
