@@ -34,6 +34,38 @@ const HIGH_INTEREST_KEYWORDS = [
   "정관"
 ] as const;
 
+const KFA_EXECUTIVES_ISSUE_ID = "kfa-executives";
+
+const KFA_EXECUTIVE_CONTEXT_KEYWORDS = [
+  "대한축구협회",
+  "대한 축구협회",
+  "대한축구협회장",
+  "대한 축구협회장",
+  "K-축구혁신위원회",
+  "축구혁신위",
+  "박항서"
+] as const;
+
+const KFA_ABBREVIATED_EXECUTIVE_CONTEXT_KEYWORDS = [
+  "KFA 임원",
+  "KFA 이사회",
+  "KFA 집행부",
+  "KFA 부회장",
+  "KFA 전무",
+  "KFA 전무이사",
+  "KFA 사무총장"
+] as const;
+
+const KFA_EXECUTIVE_PERSON_IDS = new Set([
+  "person_chung_mong_gyu",
+  "person_lee_yong_soo",
+  "person_kim_byung_ji",
+  "person_kim_seung_hee",
+  "person_hyun_young_min",
+  "person_jeon_han_jin",
+  "person_lee_im_saeng"
+]);
+
 const DANGEROUS_LABELS = new Set([
   "비리",
   "범죄",
@@ -77,6 +109,41 @@ function addSafeLabel(target: string[], value: string): void {
   }
 }
 
+function hasTrackedKfaExecutivePerson(text: string, people: Person[]): boolean {
+  return people.some(
+    (person) =>
+      person.published &&
+      KFA_EXECUTIVE_PERSON_IDS.has(person.id) &&
+      person.keywords.some((keyword) => includesKeyword(text, keyword))
+  );
+}
+
+function shouldAssignKfaExecutiveIssue(text: string, people: Person[]): boolean {
+  return (
+    KFA_EXECUTIVE_CONTEXT_KEYWORDS.some((keyword) => includesKeyword(text, keyword)) ||
+    KFA_ABBREVIATED_EXECUTIVE_CONTEXT_KEYWORDS.some((keyword) =>
+      includesKeyword(text, keyword)
+    ) ||
+    hasTrackedKfaExecutivePerson(text, people)
+  );
+}
+
+function includesKfaExecutiveIssueKeyword(text: string, keyword: string): boolean {
+  if (keyword === "임원") {
+    return /(?:대한\s*축구협회|KFA|축구협회)\s*임원|임원\s*(회의|인선|진|명단|구성|사퇴|선임|개편|동향)/u.test(
+      text
+    );
+  }
+
+  if (keyword !== "전무") {
+    return includesKeyword(text, keyword);
+  }
+
+  return /전무\s*(이사|직|가|는|를|의|와|및|겸|으로|로|에게|인|도|,|\.|\)|$)/u.test(
+    text
+  );
+}
+
 function toSearchQuery(keyword: string): string {
   const normalizedKeyword = keyword.toLocaleLowerCase("ko-KR");
   const hasFootballContext =
@@ -116,17 +183,30 @@ export function classifyItemText(input: ClassifyInput): Classification {
   }
 
   for (const issue of input.issues) {
-    let issueMatched = false;
-    for (const keyword of issue.keywords) {
-      if (includesKeyword(text, keyword)) {
-        issueMatched = true;
-        addUnique(matchedKeywords, keyword);
-        score += 10;
+    const matchedIssueKeywords = issue.keywords.filter((keyword) => {
+      if (issue.id === KFA_EXECUTIVES_ISSUE_ID) {
+        return includesKfaExecutiveIssueKeyword(text, keyword);
       }
+
+      return includesKeyword(text, keyword);
+    });
+
+    if (matchedIssueKeywords.length === 0) {
+      continue;
     }
-    if (issueMatched) {
-      addUnique(issueTags, issue.id);
+
+    if (
+      issue.id === KFA_EXECUTIVES_ISSUE_ID &&
+      !shouldAssignKfaExecutiveIssue(text, input.people)
+    ) {
+      continue;
     }
+
+    for (const keyword of matchedIssueKeywords) {
+      addUnique(matchedKeywords, keyword);
+      score += 10;
+    }
+    addUnique(issueTags, issue.id);
   }
 
   for (const person of input.people) {

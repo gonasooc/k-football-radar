@@ -4,21 +4,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-const navItems = [
-  { href: "/", label: "프론트 페이지" },
-  { href: "/feed", label: "전체 기사" },
-  { href: "/issues", label: "이슈" },
-  { href: "/people", label: "인물" },
-  { href: "/sources", label: "출처" }
-] as const;
-
-function isActivePath(pathname: string, href: string): boolean {
-  return href === "/" ? pathname === href : pathname === href || pathname.startsWith(`${href}/`);
-}
+import { getActiveNavItem, navItems } from "@/lib/navigation";
 
 export function AppNav() {
   const pathname = usePathname();
   const [showStickyNav, setShowStickyNav] = useState(false);
+  const activeNavItem = getActiveNavItem(pathname);
 
   useEffect(() => {
     const updateStickyNav = () => {
@@ -31,7 +22,7 @@ export function AppNav() {
   }, []);
 
   const links = navItems.map((item) => {
-    const active = isActivePath(pathname, item.href);
+    const active = activeNavItem?.href === item.href;
 
     return (
       <Link
@@ -50,7 +41,7 @@ export function AppNav() {
   });
 
   const stickyLinks = navItems.map((item) => {
-    const active = isActivePath(pathname, item.href);
+    const active = activeNavItem?.href === item.href;
 
     return (
       <Link
@@ -85,7 +76,7 @@ export function AppNav() {
           showStickyNav ? "block" : "hidden"
         }`}
       >
-        <div className="mx-auto grid max-w-2xl grid-cols-5">{stickyLinks}</div>
+        <div className="mx-auto grid max-w-xl grid-cols-4">{stickyLinks}</div>
       </nav>
     </>
   );

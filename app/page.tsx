@@ -22,7 +22,7 @@ export default function DashboardPage() {
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
       <div className="flex flex-col gap-2 border-b border-rule pb-3 text-xs font-bold text-muted sm:flex-row sm:items-center sm:justify-between">
-        <span>프론트 페이지</span>
+        <span>홈</span>
         <span>업데이트 {formatDateTime(stats.lastCollectedAt)}</span>
       </div>
 
