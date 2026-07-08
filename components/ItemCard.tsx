@@ -8,9 +8,10 @@ type ItemCardProps = {
   item: RadarItem;
   issues: Issue[];
   people: Person[];
+  variant?: "row" | "lead" | "compact";
 };
 
-export function ItemCard({ item, issues, people }: ItemCardProps) {
+export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProps) {
   const issueMap = new Map(issues.map((issue) => [issue.id, issue]));
   const personMap = new Map(people.map((person) => [person.id, person]));
   const taggedIssues = item.issueTags.flatMap((id) => {
@@ -22,10 +23,109 @@ export function ItemCard({ item, issues, people }: ItemCardProps) {
     return person ? [person] : [];
   });
 
+  const badgeRow = (
+    <div className="flex flex-wrap items-center gap-2">
+      <SourceBadge item={item} />
+      {item.labels?.slice(0, variant === "lead" ? 4 : 2).map((label) => (
+        <span
+          className="inline-flex items-center rounded-chip border border-line bg-paper px-2 py-1 text-xs font-semibold text-muted"
+          key={label}
+        >
+          {label}
+        </span>
+      ))}
+    </div>
+  );
+
+  const tagRow = (
+    <div className="flex flex-wrap gap-2">
+      {taggedIssues.map((issue) => (
+        <IssueBadge issue={issue} key={issue.id} />
+      ))}
+      {taggedPeople.map((person) => (
+        <PersonBadge person={person} key={person.id} />
+      ))}
+    </div>
+  );
+
+  const sourceLink = (
+    <a
+      className="focus-ring motion-soft inline-flex min-h-11 w-fit items-center gap-2 rounded-control border border-rule bg-canvas px-3 py-2 text-sm font-black text-ink hover:border-accent-soft hover:bg-blush hover:text-accent"
+      href={item.url}
+      rel="noreferrer"
+      target="_blank"
+    >
+      원문 보기
+      <ExternalLink aria-hidden="true" className="size-4" />
+    </a>
+  );
+
+  if (variant === "lead") {
+    return (
+      <article className="radar-list-item border-y border-rule py-5">
+        <div className="flex flex-col gap-4">
+          {badgeRow}
+          <div>
+            <h2 className="max-w-3xl font-serif text-3xl font-black leading-tight text-ink sm:text-4xl">
+              {item.title}
+            </h2>
+            <p className="mt-4 max-w-3xl text-base font-medium leading-8 text-ink-soft">
+              {item.summary}
+            </p>
+          </div>
+          <div className="flex flex-col gap-4 border-t border-line pt-4 lg:flex-row lg:items-end lg:justify-between">
+            <div className="space-y-3">
+              {tagRow}
+              <p className="text-xs font-bold leading-5 text-muted">
+                {item.publisher} · {formatDate(item.publishedAt)} · 수집{" "}
+                {formatDateTime(item.collectedAt)} · 관련도{" "}
+                <span className="metric-tabular text-ink">{item.relevanceScore}</span>
+              </p>
+            </div>
+            {sourceLink}
+          </div>
+        </div>
+      </article>
+    );
+  }
+
+  if (variant === "compact") {
+    return (
+      <article className="radar-list-item border-t border-line py-4">
+        <div className="space-y-3">
+          {badgeRow}
+          <h2 className="font-serif text-xl font-black leading-snug text-ink">
+            {item.title}
+          </h2>
+          <p className="line-clamp-3 text-sm font-medium leading-7 text-ink-soft">
+            {item.summary}
+          </p>
+          <div className="space-y-3">
+            {tagRow}
+            <div className="flex flex-col gap-3 text-xs font-bold leading-5 text-muted sm:flex-row sm:items-center sm:justify-between">
+              <span>
+                {item.publisher} · {formatDate(item.publishedAt)}
+              </span>
+              <a
+                className="focus-ring motion-soft inline-flex w-fit items-center gap-1 font-black text-accent hover:text-ink"
+                href={item.url}
+                rel="noreferrer"
+                target="_blank"
+              >
+                원문
+                <ExternalLink aria-hidden="true" className="size-3.5" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+    );
+  }
+
   return (
-    <article className="radar-list-item motion-soft overflow-hidden rounded-panel border border-line bg-panel hover:border-accent-soft hover:shadow-lift">
-      <div className="grid gap-0 md:grid-cols-[150px_1fr]">
-        <aside className="border-b border-line bg-paper p-4 md:border-b-0 md:border-r">
+    <article className="radar-list-item motion-soft border-t border-line py-4 hover:bg-paper">
+      <div className="grid gap-4 md:grid-cols-[150px_1fr]">
+        <aside>
           <div className="flex flex-wrap items-center gap-2 md:flex-col md:items-start">
             <SourceBadge item={item} />
             <p className="metric-tabular text-xs font-bold text-muted">
@@ -46,48 +146,35 @@ export function ItemCard({ item, issues, people }: ItemCardProps) {
           </dl>
         </aside>
 
-        <div className="p-4 sm:p-5">
+        <div>
           <div className="flex flex-col gap-3">
-            <div className="flex flex-wrap items-center gap-2">
-              {item.labels?.slice(0, 3).map((label) => (
-                <span
-                  className="inline-flex items-center rounded-chip border border-line bg-paper px-2 py-1 text-xs font-semibold text-muted"
-                  key={label}
-                >
-                  {label}
-                </span>
-              ))}
-            </div>
-            <h2 className="text-lg font-black leading-snug text-ink sm:text-xl">
+            {item.labels?.length ? (
+              <div className="flex flex-wrap items-center gap-2">
+                {item.labels.slice(0, 3).map((label) => (
+                  <span
+                    className="inline-flex items-center rounded-chip border border-line bg-paper px-2 py-1 text-xs font-semibold text-muted"
+                    key={label}
+                  >
+                    {label}
+                  </span>
+                ))}
+              </div>
+            ) : null}
+            <h2 className="font-serif text-xl font-black leading-snug text-ink sm:text-2xl">
               {item.title}
             </h2>
             <p className="max-w-4xl text-sm font-medium leading-7 text-ink-soft">{item.summary}</p>
           </div>
 
-          <div className="mt-4 grid gap-3 border-t border-line pt-4 lg:grid-cols-[1fr_auto] lg:items-end">
+          <div className="mt-4 grid gap-3 lg:grid-cols-[1fr_auto] lg:items-end">
             <div className="space-y-3">
-              <div className="flex flex-wrap gap-2">
-                {taggedIssues.map((issue) => (
-                  <IssueBadge issue={issue} key={issue.id} />
-                ))}
-                {taggedPeople.map((person) => (
-                  <PersonBadge person={person} key={person.id} />
-                ))}
-              </div>
+              {tagRow}
               <p className="line-clamp-2 text-xs font-medium leading-5 text-muted">
                 감지 키워드: {item.matchedKeywords.join(", ") || "없음"} · 관련도{" "}
                 <span className="metric-tabular font-bold text-ink">{item.relevanceScore}</span>
               </p>
             </div>
-            <a
-              className="focus-ring motion-soft inline-flex min-h-11 w-fit items-center gap-2 rounded-control bg-accent px-3 py-2 text-sm font-bold text-canvas hover:bg-ink"
-              href={item.url}
-              rel="noreferrer"
-              target="_blank"
-            >
-              원문 보기
-              <ExternalLink aria-hidden="true" className="size-4" />
-            </a>
+            {sourceLink}
           </div>
         </div>
       </div>

@@ -29,6 +29,13 @@ const config: Config = {
           "Apple SD Gothic Neo",
           "Malgun Gothic",
           "sans-serif"
+        ],
+        serif: [
+          "Georgia",
+          "Iowan Old Style",
+          "Times New Roman",
+          "Noto Serif KR",
+          "serif"
         ]
       },
       boxShadow: {

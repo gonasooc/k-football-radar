@@ -17,14 +17,14 @@ export default function IssuesPage() {
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <SectionHeader
         description="초기 이슈별로 자동 매칭된 뉴스와 공식자료를 모아서 확인합니다."
-        eyebrow="Issues"
+        eyebrow="이슈"
         title="이슈별 보기"
       />
       <div className="mt-8 overflow-hidden rounded-panel border border-line bg-panel shadow-panel">
         <div className="grid grid-cols-[64px_1fr_auto] border-b border-line bg-paper px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-muted">
-          <span>rank</span>
-          <span>issue</span>
-          <span>items</span>
+          <span>순위</span>
+          <span>이슈</span>
+          <span>항목</span>
         </div>
         <div className="divide-y divide-line">
           {data.issues.map((issue, index) => (

@@ -12,28 +12,28 @@ const statItems = [
 
 export function DashboardStats({ stats }: { stats: DashboardStatsData }) {
   return (
-    <section className="overflow-hidden rounded-panel border border-line bg-panel shadow-panel">
-      <div className="flex flex-col gap-2 border-b border-line px-5 py-4 sm:flex-row sm:items-end sm:justify-between">
-        <div>
-          <p className="text-[11px] font-black uppercase tracking-[0.18em] text-accent">
-            dashboard brief
-          </p>
-          <h2 className="mt-1 text-lg font-black text-ink">수집 현황</h2>
-        </div>
+    <section className="border-y border-rule bg-canvas">
+      <div className="flex flex-col gap-1 py-3 sm:flex-row sm:items-center sm:justify-between">
+        <p className="text-[11px] font-black uppercase tracking-[0.16em] text-accent">
+          레이더 인덱스
+        </p>
         <p className="text-xs font-bold text-muted">
           마지막 수집 {formatDateTime(stats.lastCollectedAt)}
         </p>
       </div>
-      <div className="grid divide-y divide-line sm:grid-cols-2 sm:divide-x sm:divide-y-0 lg:grid-cols-4">
+      <div className="grid border-t border-line sm:grid-cols-2 lg:grid-cols-4">
         {statItems.map((item) => {
           const Icon = item.icon;
           return (
-            <div className="p-5" key={item.key}>
-              <div className="flex items-center justify-between gap-3">
-                <p className="text-sm font-bold text-ink-soft">{item.label}</p>
-                <Icon aria-hidden="true" className="size-4 text-accent" />
+            <div
+              className="border-b border-line py-3 sm:odd:border-r lg:border-b-0 lg:border-r lg:last:border-r-0"
+              key={item.key}
+            >
+              <div className="flex items-center gap-2">
+                <Icon aria-hidden="true" className="size-3.5 text-accent" />
+                <p className="text-xs font-black text-ink-soft">{item.label}</p>
               </div>
-              <p className="metric-tabular mt-4 text-3xl font-black leading-none text-ink">
+              <p className="metric-tabular mt-2 font-serif text-3xl font-black leading-none text-ink">
                 {stats[item.key]}
               </p>
               <p className="mt-2 text-xs font-semibold text-muted">

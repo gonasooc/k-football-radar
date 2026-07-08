@@ -9,7 +9,10 @@ export const BASE_SEARCH_KEYWORDS = [
   "축구협회 선거인단",
   "축구협회 정관",
   "축구협회 감사",
-  "축구협회 해명"
+  "축구협회 해명",
+  "전력강화위원회",
+  "대표팀 감독 선임",
+  "감독 후보"
 ] as const;
 
 const ORGANIZATION_KEYWORDS = [

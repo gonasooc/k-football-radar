@@ -5,9 +5,10 @@ import {
   DEFAULT_NAVER_QUERY_DELAY_MS,
   filterNewsItemsForCollection,
   getNaverQueryDelayMs,
+  getNaverSearchQueries,
   shouldKeepNewsCandidate
 } from "../scripts/collect-naver-news";
-import type { RadarItem } from "../lib/schema";
+import type { Issue, Person, RadarItem } from "../lib/schema";
 
 const baseNewsItem: RadarItem = {
   id: "item_news",
@@ -94,6 +95,20 @@ describe("shouldKeepNewsCandidate", () => {
       true
     );
   });
+
+  it("rejects foreign football association president matches without Korean football context", () => {
+    assert.equal(
+      shouldKeepNewsCandidate({
+        classification: {
+          issueTags: ["election"],
+          personTags: [],
+          matchedKeywords: ["축구협회", "축구협회장"],
+          relevanceScore: 20
+        }
+      }),
+      false
+    );
+  });
 });
 
 describe("getNaverQueryDelayMs", () => {
@@ -136,5 +151,66 @@ describe("filterNewsItemsForCollection", () => {
       filtered.map((item) => item.id),
       ["item_official", "item_relevant"]
     );
+  });
+});
+
+describe("getNaverSearchQueries", () => {
+  it("keeps coach appointment and person queries inside the collection query window", () => {
+    const issues: Issue[] = [
+      {
+        id: "coach-appointment",
+        name: "감독 선임",
+        description: "대표팀 감독 선임 관련 이슈",
+        keywords: ["감독 선임", "대표팀 감독", "전력강화위원회", "감독 후보"],
+        priority: 7
+      }
+    ];
+    const fillerPeople: Person[] = Array.from({ length: 8 }, (_, index) => ({
+      id: `person_filler_${index}`,
+      name: `추적인물${index}`,
+      aliases: [],
+      role: "수집 쿼리 제한 재현용 인물",
+      keywords: [`추적인물${index}`],
+      priority: index + 4,
+      published: true
+    }));
+    const people: Person[] = [
+      {
+        id: "person_hong_myung_bo",
+        name: "홍명보",
+        aliases: ["Hong Myung-bo"],
+        role: "대표팀 감독 관련 인물",
+        keywords: ["홍명보"],
+        priority: 3,
+        published: true
+      },
+      ...fillerPeople,
+      {
+        id: "person_hyun_young_min",
+        name: "현영민",
+        aliases: ["Hyun Young-min"],
+        role: "전력강화위원장",
+        keywords: ["현영민"],
+        priority: 12,
+        published: true
+      },
+      {
+        id: "person_lee_im_saeng",
+        name: "이임생",
+        aliases: ["Lee Lim-saeng"],
+        role: "전 대한축구협회 기술총괄이사",
+        keywords: ["이임생"],
+        priority: 13,
+        published: true
+      }
+    ];
+
+    const queries = getNaverSearchQueries({ issues, people });
+
+    assert.ok(queries.includes("전력강화위원회"));
+    assert.ok(queries.includes("감독 후보"));
+    assert.ok(queries.includes("\"홍명보\" 대한축구협회"));
+    assert.ok(queries.includes("\"현영민\" 대한축구협회"));
+    assert.ok(queries.includes("\"이임생\" 대한축구협회"));
   });
 });

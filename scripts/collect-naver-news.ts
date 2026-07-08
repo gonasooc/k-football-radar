@@ -27,6 +27,8 @@ type NewsCandidateClassification = {
 };
 
 export const DEFAULT_NAVER_QUERY_DELAY_MS = 800;
+export const MAX_NAVER_SEARCH_QUERIES = 100;
+export const NAVER_NEWS_DISPLAY_COUNT = 40;
 
 const FOOTBALL_CONTEXT_KEYWORDS = [
   "대한축구협회",
@@ -39,8 +41,14 @@ const FOOTBALL_CONTEXT_KEYWORDS = [
   "축구 혁신",
   "한국 축구",
   "대표팀 감독",
+  "대표팀 감독 선임",
   "전력강화위원회"
 ];
+
+const GENERIC_ASSOCIATION_KEYWORDS = new Set([
+  "축구협회",
+  "축구협회장"
+]);
 
 function stableItemId(url: string): string {
   return `item_${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
@@ -85,7 +93,7 @@ async function fetchNaverNews(query: string): Promise<NaverNewsItem[]> {
 
   const url = new URL("https://openapi.naver.com/v1/search/news.json");
   url.searchParams.set("query", query);
-  url.searchParams.set("display", "20");
+  url.searchParams.set("display", String(NAVER_NEWS_DISPLAY_COUNT));
   url.searchParams.set("start", "1");
   url.searchParams.set("sort", "date");
 
@@ -113,6 +121,16 @@ export function shouldKeepNewsCandidate({
     return true;
   }
 
+  const hasOnlyGenericAssociationKeywords =
+    classification.matchedKeywords.length > 0 &&
+    classification.matchedKeywords.every((keyword) =>
+      GENERIC_ASSOCIATION_KEYWORDS.has(keyword)
+    );
+
+  if (hasOnlyGenericAssociationKeywords) {
+    return false;
+  }
+
   const hasFootballContext = classification.matchedKeywords.some((keyword) =>
     FOOTBALL_CONTEXT_KEYWORDS.includes(keyword)
   );
@@ -134,6 +152,16 @@ export function filterNewsItemsForCollection(items: RadarItem[]): RadarItem[] {
   );
 }
 
+export function getNaverSearchQueries({
+  issues,
+  people
+}: {
+  issues: Issue[];
+  people: Person[];
+}): string[] {
+  return getSearchQueries({ issues, people }).slice(0, MAX_NAVER_SEARCH_QUERIES);
+}
+
 export async function collectNaverNews({
   issues,
   people
@@ -141,7 +169,7 @@ export async function collectNaverNews({
   issues: Issue[];
   people: Person[];
 }): Promise<RadarItem[]> {
-  const queries = getSearchQueries({ issues, people }).slice(0, 30);
+  const queries = getNaverSearchQueries({ issues, people });
   const queryDelayMs = getNaverQueryDelayMs();
   const collectedAt = new Date().toISOString();
   const results: RadarItem[] = [];

@@ -19,13 +19,19 @@ colors:
   warning: "oklch(62% 0.12 78)"
 typography:
   display:
-    fontFamily: "Pretendard, SUIT, Apple SD Gothic Neo, Malgun Gothic, sans-serif"
-    fontSize: "1.875rem"
+    fontFamily: "Georgia, Iowan Old Style, Times New Roman, Noto Serif KR, serif"
+    fontSize: "3rem"
     fontWeight: 900
     lineHeight: 1.15
     letterSpacing: "0"
+  headline:
+    fontFamily: "Georgia, Iowan Old Style, Times New Roman, Noto Serif KR, serif"
+    fontSize: "1.5rem"
+    fontWeight: 900
+    lineHeight: 1.25
+    letterSpacing: "0"
   title:
-    fontFamily: "Pretendard, SUIT, Apple SD Gothic Neo, Malgun Gothic, sans-serif"
+    fontFamily: "Georgia, Iowan Old Style, Times New Roman, Noto Serif KR, serif"
     fontSize: "1.125rem"
     fontWeight: 900
     lineHeight: 1.35
@@ -81,17 +87,18 @@ components:
 
 ## 1. Overview
 
-**Creative North Star: "The Editorial Wire Desk"**
+**Creative North Star: "The Football Front Page"**
 
-The UI should resemble a clean editorial workflow product: white workspace, light gray side navigation, thin table rules, small red brand accents, and content-first hierarchy. The reference is closer to a news desk or publishing CMS than a sports scoreboard.
+The UI should resemble a clean digital newspaper front page: centered masthead, thin section rules, serif headlines, varied story scale, compact briefs, and content-first hierarchy. The reference is closer to a newspaper homepage than a sports scoreboard or SaaS dashboard.
 
 The system must prioritize readability. Titles, summaries, source names, dates, filters, and original links should be immediately legible on desktop and mobile. Decorative sports motifs, dark hero sections, and large metric showpieces are not part of this direction.
 
 **Key Characteristics:**
 
 - White canvas with subtle gray surfaces.
-- Left editor-style navigation on desktop.
-- Compact summary cards, tables, and ledger rows.
+- Centered masthead and horizontal section navigation.
+- Serif headline typography with sans-serif metadata and controls.
+- Lead story, compact secondary stories, and row entries on the same page.
 - Red accent used sparingly for brand, actions, and emphasis.
 - Neutral, source-first news language.
 
@@ -124,17 +131,19 @@ The palette is quiet and editorial: warm white, gray rules, black-brown ink, and
 
 ## 3. Typography
 
-**Display Font:** Pretendard, SUIT, Apple SD Gothic Neo, Malgun Gothic, sans-serif
+**Display Font:** Georgia, Iowan Old Style, Times New Roman, Noto Serif KR, serif
+**Headline Font:** Georgia, Iowan Old Style, Times New Roman, Noto Serif KR, serif
 **Body Font:** Pretendard, SUIT, Apple SD Gothic Neo, Malgun Gothic, sans-serif
 **Label/Mono Font:** same family with tabular numeric styling for counts and dates.
 
-**Character:** Korean readability comes first. Use moderate sizes, strong title weight, generous body line-height, and avoid viewport-scaled type.
+**Character:** Korean readability comes first. Use serif type for masthead and article headlines, but keep summaries, metadata, filters, and controls in the sans family for dense scanning.
 
 ### Hierarchy
 
-- **Display** (900, 1.875rem, 1.15): page titles.
-- **Headline** (900, 1.25rem, 1.3): section headings.
-- **Title** (900, 1.125rem, 1.35): article titles and row names.
+- **Display** (serif, 900, 3rem, 1.15): masthead and major page titles.
+- **Lead Headline** (serif, 900, 2.25rem, 1.15): front page lead story.
+- **Headline** (serif, 900, 1.5rem, 1.25): section headings and compact story titles.
+- **Title** (serif, 900, 1.125rem, 1.35): article row names.
 - **Body** (500, 0.875rem, 1.75): summaries and descriptions.
 - **Label** (900, 0.6875rem, 0.18em uppercase): table headers and section kickers.
 
@@ -165,13 +174,14 @@ Elevation is minimal. The interface relies on rules, spacing, and tonal contrast
 - **Style:** small bordered labels with neutral text and very light background.
 - **State:** official source may use green text; news/source labels otherwise stay quiet.
 
-### Cards / Containers
+### Article Blocks
 
-- **Corner Style:** panels use 6px, controls use 4px, chips use 3px. Avoid large rounded cards.
-- **Background:** panel on canvas, paper for sidebars and metadata.
-- **Shadow Strategy:** only major panels use soft shadow.
-- **Border:** line-colored full borders. Never colored side stripes.
-- **Internal Padding:** 16px to 20px; avoid padded marketing-card proportions.
+- **Lead:** full-width ruled article block with a large serif headline, summary, tags, metadata, and original link.
+- **Compact:** ruled secondary block for scanning multiple stories without identical cards.
+- **Row:** metadata column plus article body for dense lists.
+- **Corner Style:** article blocks generally use no visible rounding. Controls use 4px and chips use 3px.
+- **Border:** thin horizontal and vertical rules. Never colored side stripes.
+- **Shadow Strategy:** avoid shadows on article lists. Let type scale, rules, and columns create hierarchy.
 
 ### Inputs / Fields
 
@@ -181,22 +191,23 @@ Elevation is minimal. The interface relies on rules, spacing, and tonal contrast
 
 ### Navigation
 
-- **Desktop:** left sidebar with logo, short product statement, stacked nav links.
-- **Mobile:** sidebar content becomes top stacked navigation. Links wrap naturally.
-- **Active State:** future active links should use blush background and red icon/text.
+- **Desktop:** centered masthead, small utility row, horizontal section navigation.
+- **Mobile:** masthead scales down and nav scrolls horizontally with 44px touch targets.
+- **Active State:** active section uses an accent underline and darker text.
 
 ### Article Rows
 
-- **Structure:** metadata column, article body, action link.
+- **Structure:** lead, compact, and row variants.
 - **Metadata:** source type, date, publisher, collected time.
 - **Body:** title first, summary second, tags third.
-- **Action:** original link remains a visible red button.
+- **Action:** original link remains visible on every item, usually as a bordered editorial control.
 
 ## 6. Do's and Don'ts
 
 Do:
 
 - Use white space, thin rules, and readable line-height.
+- Use masthead, section nav, lead story, compact briefs, and rows to create a newspaper rhythm.
 - Keep article summaries easy to scan.
 - Make original links obvious.
 - Keep filters in predictable form controls.

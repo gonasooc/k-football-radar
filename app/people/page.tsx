@@ -17,14 +17,14 @@ export default function PeoplePage() {
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <SectionHeader
         description="자동 수집 항목에서 인물명이 언급된 기록을 중립적으로 모아 봅니다."
-        eyebrow="People"
+        eyebrow="인물"
         title="인물별 언급 기록"
       />
       <div className="mt-8 overflow-hidden rounded-panel border border-line bg-panel shadow-panel">
         <div className="grid grid-cols-[1fr_auto] border-b border-line bg-paper px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-muted md:grid-cols-[1fr_1fr_auto]">
-          <span>person</span>
-          <span className="hidden md:block">keywords</span>
-          <span>mentions</span>
+          <span>인물</span>
+          <span className="hidden md:block">키워드</span>
+          <span>언급</span>
         </div>
         <div className="divide-y divide-line">
           {data.people

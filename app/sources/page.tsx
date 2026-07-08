@@ -17,7 +17,7 @@ export default function SourcesPage() {
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <SectionHeader
         description="공식자료 감시 대상과 뉴스 API 기반 수집 방식을 공개하고, 수집된 원문 출처를 확인합니다."
-        eyebrow="Sources"
+        eyebrow="출처"
         title="출처 아카이브"
       />
 
@@ -52,7 +52,7 @@ export default function SourcesPage() {
         <section className="overflow-hidden rounded-panel border border-line bg-panel shadow-panel">
           <div className="border-b border-line bg-paper px-4 py-3">
             <h2 className="text-sm font-black uppercase tracking-[0.16em] text-muted">
-              Publisher 통계
+              발행처 통계
             </h2>
           </div>
           <div className="divide-y divide-line">
@@ -73,7 +73,7 @@ export default function SourcesPage() {
         <div className="flex items-end justify-between gap-3 border-b border-line pb-3">
           <div>
             <p className="text-xs font-black uppercase tracking-[0.18em] text-accent">
-              source ledger
+              출처 원장
             </p>
             <h2 className="mt-1 text-xl font-black text-ink">원문 링크 목록</h2>
           </div>

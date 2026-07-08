@@ -8,7 +8,7 @@ product
 
 Korea Football Radar is used by people who want to monitor Korean football governance issues quickly: the project owner, football fans following reform debates, and readers tracking KFA, K-League governance, MCST audits, elections, committees, and official statements.
 
-Users arrive to scan current movement, compare sources, follow issue/person timelines, and open original links for verification. They are not looking for a campaign landing page or community platform; they need a compact, credible information desk.
+Users arrive to scan current movement, compare sources, follow issue/person timelines, and open original links for verification. They are not looking for a campaign landing page or community platform; they need a compact, credible front page that makes many collected items feel readable.
 
 ## Product Purpose
 
@@ -20,7 +20,7 @@ Success means a user can understand what changed recently, identify which issues
 
 Editorial, readable, restrained.
 
-The interface should feel like a clean news desk product: closer to an editorial CMS or wire assignment tool than a sports dashboard. It should support careful reading, source verification, and fast scanning without looking like a campaign page or a generated dashboard.
+The interface should feel like a clean digital newspaper desk: masthead, section navigation, thin rules, serif headlines, varied article density, and source-first metadata. It should support careful reading, source verification, and fast scanning without looking like a campaign page or a generated dashboard.
 
 ## Anti-references
 
@@ -28,15 +28,16 @@ The interface should feel like a clean news desk product: closer to an editorial
 - Sports betting dashboards, fantasy sports neon, aggressive scoreboards, or gamified hype.
 - Campaign or activism pages that imply conclusions before the reader opens the source.
 - Card-heavy SaaS layouts where every section has identical rounded containers.
-- News sites that hide verification behind visual clutter, ads, or sensational labels.
+- News sites that hide verification behind visual clutter, ads, sensational labels, or clickbait hierarchy.
 
 ## Design Principles
 
 1. Lead with readability. Article titles, summaries, source names, dates, and original links should be easier to read than any decoration.
 2. Separate monitoring from judgment. Visual hierarchy can show importance, but language and labels must remain neutral.
 3. Make source verification obvious. Every collected item should keep the path back to the original article or official page visible.
-4. Use editorial structure, not dashboard decoration. Borrow from desks, wires, tables, assignment queues, and publishing ledgers.
-5. Keep scanning fast. Filters, tags, dates, and source types should be predictable across routes.
+4. Use editorial structure, not dashboard decoration. Borrow from front pages, article columns, desks, wires, tables, and publishing ledgers.
+5. Vary article rhythm. Lead stories, compact briefs, and row entries should prevent long feeds from becoming visually monotonous.
+6. Keep scanning fast. Filters, tags, dates, and source types should be predictable across routes.
 
 ## Accessibility & Inclusion
 
