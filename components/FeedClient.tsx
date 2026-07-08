@@ -1,6 +1,6 @@
 "use client";
 
-import { Search } from "lucide-react";
+import { Search, SlidersHorizontal, X } from "lucide-react";
 import { useMemo, useState } from "react";
 
 import { filterItems, type FeedTypeFilter } from "@/lib/filter";
@@ -29,21 +29,50 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
     });
   }, [items, typeFilter, issueFilter, personFilter, query]);
 
+  const resetFilters = () => {
+    setTypeFilter("all");
+    setIssueFilter("all");
+    setPersonFilter("all");
+    setQuery("");
+  };
+
   return (
     <div className="space-y-5">
-      <div className="border border-line bg-white/82 p-4 shadow-sm">
-        <div className="grid gap-3 lg:grid-cols-[1.4fr_0.8fr_0.8fr_0.8fr]">
+      <div className="rounded-panel border border-line bg-panel p-4 shadow-panel">
+        <div className="mb-4 flex flex-col gap-3 border-b border-line pb-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-center gap-2">
+            <span className="grid size-9 place-items-center rounded-control border border-line bg-blush text-accent">
+              <SlidersHorizontal aria-hidden="true" className="size-4" />
+            </span>
+            <div>
+              <p className="text-sm font-black text-ink">피드 컨트롤</p>
+              <p className="text-xs font-semibold text-muted">
+                출처, 이슈, 인물, 키워드로 좁혀봅니다.
+              </p>
+            </div>
+          </div>
+          <button
+            className="focus-ring motion-soft inline-flex min-h-11 w-fit items-center gap-2 rounded-control border border-line bg-paper px-3 text-xs font-bold text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent"
+            onClick={resetFilters}
+            type="button"
+          >
+            <X aria-hidden="true" className="size-4" />
+            초기화
+          </button>
+        </div>
+
+        <div className="grid gap-3 lg:grid-cols-[1.25fr_0.95fr_0.95fr] xl:grid-cols-[1.35fr_0.9fr_0.9fr_0.85fr]">
           <label className="block">
-            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/55">
+            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/50">
               검색
             </span>
             <span className="relative block">
               <Search
                 aria-hidden="true"
-                className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-ink/45"
+                className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-ink/40"
               />
               <input
-                className="focus-ring h-11 w-full border-line bg-paper pl-10 text-sm font-semibold text-ink placeholder:text-ink/38"
+                className="focus-ring h-11 w-full rounded-control border-line bg-panel pl-10 text-sm font-semibold text-ink placeholder:text-muted"
                 onChange={(event) => setQuery(event.target.value)}
                 placeholder="제목, 출처, 키워드"
                 type="search"
@@ -51,26 +80,37 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               />
             </span>
           </label>
-          <label className="block">
-            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/55">
+          <div>
+            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/50">
               유형
             </span>
-            <select
-              className="focus-ring h-11 w-full border-line bg-paper text-sm font-bold text-ink"
-              onChange={(event) => setTypeFilter(event.target.value as FeedTypeFilter)}
-              value={typeFilter}
-            >
-              <option value="all">전체</option>
-              <option value="news">뉴스</option>
-              <option value="official">공식자료</option>
-            </select>
-          </label>
+            <div className="grid grid-cols-3 overflow-hidden rounded-control border border-line bg-paper">
+              {[
+                ["all", "전체"],
+                ["news", "뉴스"],
+                ["official", "공식"]
+              ].map(([value, label]) => (
+                <button
+                  className={`focus-ring motion-soft min-h-11 text-sm font-black ${
+                    typeFilter === value
+                      ? "bg-accent text-canvas"
+                      : "text-ink/60 hover:bg-panel-strong hover:text-ink"
+                  }`}
+                  key={value}
+                  onClick={() => setTypeFilter(value as FeedTypeFilter)}
+                  type="button"
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
           <label className="block">
-            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/55">
+            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/50">
               이슈
             </span>
             <select
-              className="focus-ring h-11 w-full border-line bg-paper text-sm font-bold text-ink"
+              className="focus-ring h-11 w-full rounded-control border-line bg-panel text-sm font-bold text-ink"
               onChange={(event) => setIssueFilter(event.target.value)}
               value={issueFilter}
             >
@@ -83,11 +123,11 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
             </select>
           </label>
           <label className="block">
-            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/55">
+            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/50">
               인물
             </span>
             <select
-              className="focus-ring h-11 w-full border-line bg-paper text-sm font-bold text-ink"
+              className="focus-ring h-11 w-full rounded-control border-line bg-panel text-sm font-bold text-ink"
               onChange={(event) => setPersonFilter(event.target.value)}
               value={personFilter}
             >
@@ -101,9 +141,9 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
           </label>
         </div>
       </div>
-      <div className="flex items-center justify-between gap-3 text-sm font-bold text-ink/62">
-        <span>표시 항목 {filteredItems.length}개</span>
-        <span>최신순</span>
+      <div className="flex items-center justify-between gap-3 border-y border-line py-3 text-sm font-bold text-ink/60">
+        <span className="metric-tabular">표시 항목 {filteredItems.length}개</span>
+        <span>최신순 정렬</span>
       </div>
       {filteredItems.length > 0 ? (
         <div className="space-y-3">

@@ -20,28 +20,37 @@ export default function IssuesPage() {
         eyebrow="Issues"
         title="이슈별 보기"
       />
-      <div className="mt-8 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
-        {data.issues.map((issue) => (
-          <Link
-            className="focus-ring group flex min-h-52 flex-col justify-between border border-line bg-white/82 p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-brass"
-            href={`/issues/${issue.id}`}
-            key={issue.id}
-          >
-            <span>
-              <span className="text-xs font-black uppercase tracking-[0.18em] text-brass">
-                {issueCounts.get(issue.id) ?? 0} items
+      <div className="mt-8 overflow-hidden rounded-panel border border-line bg-panel shadow-panel">
+        <div className="grid grid-cols-[64px_1fr_auto] border-b border-line bg-paper px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-muted">
+          <span>rank</span>
+          <span>issue</span>
+          <span>items</span>
+        </div>
+        <div className="divide-y divide-line">
+          {data.issues.map((issue, index) => (
+            <Link
+              className="focus-ring motion-soft grid grid-cols-[64px_1fr_auto] items-center gap-4 px-4 py-4 text-ink hover:bg-blush"
+              href={`/issues/${issue.id}`}
+              key={issue.id}
+            >
+              <span className="metric-tabular text-xl font-black text-accent">
+                {String(index + 1).padStart(2, "0")}
               </span>
-              <span className="mt-3 block text-2xl font-black text-ink">{issue.name}</span>
-              <span className="mt-3 block text-sm leading-6 text-ink/66">
-                {issue.description}
+              <span>
+                <span className="block text-base font-black">{issue.name}</span>
+                <span className="mt-1 block max-w-3xl text-sm font-medium leading-6 text-ink-soft">
+                  {issue.description}
+                </span>
               </span>
-            </span>
-            <span className="mt-5 inline-flex items-center gap-2 text-sm font-black text-ink group-hover:text-brass">
-              상세 보기
-              <ArrowRight aria-hidden="true" className="size-4" />
-            </span>
-          </Link>
-        ))}
+              <span className="inline-flex items-center gap-3">
+                <span className="metric-tabular text-2xl font-black text-ink">
+                  {issueCounts.get(issue.id) ?? 0}
+                </span>
+                <ArrowRight aria-hidden="true" className="hidden size-4 text-accent sm:block" />
+              </span>
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   );

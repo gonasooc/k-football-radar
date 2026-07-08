@@ -34,24 +34,26 @@ export default async function PersonDetailPage({
         eyebrow={`${items.length} mentions`}
         title={person.name}
       />
-      <div className="mt-6 grid gap-3 lg:grid-cols-3">
-        <div className="border border-line bg-white/82 p-4">
-          <p className="text-xs font-black uppercase tracking-[0.18em] text-ink/48">별칭</p>
-          <p className="mt-2 text-sm font-bold text-ink">
+      <div className="mt-6 grid gap-0 overflow-hidden rounded-panel border border-line bg-panel shadow-panel lg:grid-cols-3">
+        <div className="border-b border-line p-4 lg:border-b-0 lg:border-r">
+          <p className="text-xs font-black uppercase tracking-[0.18em] text-muted">별칭</p>
+          <p className="mt-2 text-sm font-bold leading-6 text-ink">
             {[person.name, ...person.aliases].join(", ")}
           </p>
         </div>
-        <div className="border border-line bg-white/82 p-4">
-          <p className="text-xs font-black uppercase tracking-[0.18em] text-ink/48">
+        <div className="border-b border-line p-4 lg:border-b-0 lg:border-r">
+          <p className="text-xs font-black uppercase tracking-[0.18em] text-muted">
             검색 키워드
           </p>
-          <p className="mt-2 text-sm font-bold text-ink">{person.keywords.join(", ")}</p>
+          <p className="mt-2 text-sm font-bold leading-6 text-ink">
+            {person.keywords.join(", ")}
+          </p>
         </div>
-        <div className="border border-line bg-white/82 p-4">
-          <p className="text-xs font-black uppercase tracking-[0.18em] text-ink/48">
+        <div className="p-4">
+          <p className="text-xs font-black uppercase tracking-[0.18em] text-muted">
             관련 이슈
           </p>
-          <p className="mt-2 text-sm font-bold text-ink">
+          <p className="mt-2 text-sm font-bold leading-6 text-ink">
             {relatedIssues.map((issue) => issue.name).join(", ") || "없음"}
           </p>
         </div>

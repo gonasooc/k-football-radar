@@ -20,31 +20,39 @@ export default function PeoplePage() {
         eyebrow="People"
         title="인물별 언급 기록"
       />
-      <div className="mt-8 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
-        {data.people
-          .filter((person) => person.published)
-          .map((person) => (
-            <Link
-              className="focus-ring group flex min-h-56 flex-col justify-between border border-line bg-white/82 p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-signal"
-              href={`/people/${person.id}`}
-              key={person.id}
-            >
-              <span>
-                <span className="text-xs font-black uppercase tracking-[0.18em] text-signal">
-                  {personCounts.get(person.id) ?? 0} mentions
+      <div className="mt-8 overflow-hidden rounded-panel border border-line bg-panel shadow-panel">
+        <div className="grid grid-cols-[1fr_auto] border-b border-line bg-paper px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-muted md:grid-cols-[1fr_1fr_auto]">
+          <span>person</span>
+          <span className="hidden md:block">keywords</span>
+          <span>mentions</span>
+        </div>
+        <div className="divide-y divide-line">
+          {data.people
+            .filter((person) => person.published)
+            .map((person) => (
+              <Link
+                className="focus-ring motion-soft grid grid-cols-[1fr_auto] items-center gap-4 px-4 py-4 text-ink hover:bg-blush md:grid-cols-[1fr_1fr_auto]"
+                href={`/people/${person.id}`}
+                key={person.id}
+              >
+                <span>
+                  <span className="block text-base font-black">{person.name}</span>
+                  <span className="mt-1 block text-sm font-medium leading-6 text-ink-soft">
+                    {person.role}
+                  </span>
                 </span>
-                <span className="mt-3 block text-2xl font-black text-ink">{person.name}</span>
-                <span className="mt-2 block text-sm font-bold text-ink/58">{person.role}</span>
-                <span className="mt-4 block text-xs leading-5 text-ink/58">
+                <span className="hidden text-xs font-medium leading-5 text-muted md:block">
                   {person.keywords.join(", ")}
                 </span>
-              </span>
-              <span className="mt-5 inline-flex items-center gap-2 text-sm font-black text-ink group-hover:text-signal">
-                타임라인 보기
-                <ArrowRight aria-hidden="true" className="size-4" />
-              </span>
-            </Link>
-          ))}
+                <span className="inline-flex items-center gap-3">
+                  <span className="metric-tabular text-xl font-black text-accent">
+                    {personCounts.get(person.id) ?? 0}
+                  </span>
+                  <ArrowRight aria-hidden="true" className="hidden size-4 text-accent sm:block" />
+                </span>
+              </Link>
+            ))}
+        </div>
       </div>
     </div>
   );

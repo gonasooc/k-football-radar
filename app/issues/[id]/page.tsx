@@ -31,15 +31,20 @@ export default async function IssueDetailPage({
         eyebrow={`${items.length} matched items`}
         title={issue.name}
       />
-      <div className="mt-5 flex flex-wrap gap-2">
-        {issue.keywords.map((keyword) => (
-          <span
-            className="border border-brass/30 bg-brass/10 px-2 py-1 text-xs font-black text-ink/72"
-            key={keyword}
-          >
-            {keyword}
-          </span>
-        ))}
+      <div className="mt-6 rounded-panel border border-line bg-panel p-4 shadow-panel">
+        <p className="mb-3 text-xs font-black uppercase tracking-[0.16em] text-muted">
+          감지 키워드
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {issue.keywords.map((keyword) => (
+            <span
+              className="rounded-chip border border-line bg-paper px-2.5 py-1 text-xs font-bold text-ink-soft"
+              key={keyword}
+            >
+              {keyword}
+            </span>
+          ))}
+        </div>
       </div>
       <div className="mt-8 space-y-3">
         {items.length > 0 ? (

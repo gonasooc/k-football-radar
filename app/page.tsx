@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, RadioTower } from "lucide-react";
 
 import { DashboardStats } from "@/components/DashboardStats";
 import { ItemCard } from "@/components/ItemCard";
@@ -21,7 +21,7 @@ export default function DashboardPage() {
       <SectionHeader
         action={
           <Link
-            className="focus-ring inline-flex items-center gap-2 border border-ink bg-ink px-4 py-3 text-sm font-black text-paper transition hover:bg-pine"
+            className="focus-ring motion-soft inline-flex min-h-11 items-center gap-2 rounded-control bg-accent px-4 py-2 text-sm font-bold text-canvas hover:bg-ink"
             href="/feed"
           >
             전체 피드
@@ -37,50 +37,66 @@ export default function DashboardPage() {
         <DashboardStats stats={stats} />
       </div>
 
-      <div className="mt-8 grid gap-6 lg:grid-cols-[0.9fr_1.2fr]">
-        <section className="space-y-4">
-          <h2 className="text-xl font-black text-ink">많이 언급된 이슈</h2>
+      <section className="mt-8 grid gap-0 overflow-hidden rounded-panel border border-line bg-panel shadow-panel lg:grid-cols-2">
+        <div className="border-b border-line p-5 lg:border-b-0 lg:border-r">
+          <div className="mb-4 flex items-center justify-between gap-3">
+            <h2 className="text-lg font-black text-ink">이슈 움직임</h2>
+            <RadioTower aria-hidden="true" className="size-5 text-accent" />
+          </div>
           <div className="space-y-2">
             {stats.topIssues.map((issue) => (
               <Link
-                className="focus-ring flex items-center justify-between border border-line bg-white/82 px-4 py-3 text-sm font-bold text-ink transition hover:border-brass"
+                className="focus-ring motion-soft grid grid-cols-[1fr_auto] items-center gap-3 rounded-control border border-line bg-panel px-4 py-3 text-sm font-bold text-ink hover:border-accent-soft hover:bg-blush"
                 href={`/issues/${issue.id}`}
                 key={issue.id}
               >
                 <span>{issue.name}</span>
-                <span className="text-brass">{issue.count}</span>
+                <span className="metric-tabular text-accent">{issue.count}</span>
               </Link>
             ))}
           </div>
+        </div>
 
-          <h2 className="pt-4 text-xl font-black text-ink">많이 언급된 인물</h2>
+        <div className="p-5">
+          <div className="mb-4 flex items-center justify-between gap-3">
+            <h2 className="text-lg font-black text-ink">인물 언급</h2>
+            <span className="text-xs font-black uppercase tracking-[0.16em] text-accent">
+              neutral log
+            </span>
+          </div>
           <div className="space-y-2">
             {stats.topPeople.map((person) => (
               <Link
-                className="focus-ring flex items-center justify-between border border-line bg-white/82 px-4 py-3 text-sm font-bold text-ink transition hover:border-signal"
+                className="focus-ring motion-soft grid grid-cols-[1fr_auto] items-center gap-3 rounded-control border border-line bg-panel px-4 py-3 text-sm font-bold text-ink hover:border-accent-soft hover:bg-blush"
                 href={`/people/${person.id}`}
                 key={person.id}
               >
                 <span>{person.name}</span>
-                <span className="text-signal">{person.count}</span>
+                <span className="metric-tabular text-accent">{person.count}</span>
               </Link>
             ))}
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="space-y-4">
-          <h2 className="text-xl font-black text-ink">최신 수집 항목</h2>
-          <div className="space-y-3">
-            {stats.latestItems.map((item) => (
-              <ItemCard item={item} issues={data.issues} key={item.id} people={data.people} />
-            ))}
+      <section className="mt-8 space-y-4">
+        <div className="flex items-end justify-between gap-3 border-b border-line pb-3">
+          <div>
+            <p className="text-xs font-black uppercase tracking-[0.18em] text-accent">
+              latest desk
+            </p>
+            <h2 className="mt-1 text-xl font-black text-ink">최신 수집 항목</h2>
           </div>
-        </section>
-      </div>
-
-      <p className="mt-8 border-l-4 border-pine bg-white/72 px-4 py-3 text-sm font-semibold leading-6 text-ink/65">
-        자동 태그는 제목과 짧은 설명의 키워드 기반 분류입니다. 원문 판단은 각 카드의 원문 링크에서 확인합니다.
-      </p>
+          <p className="hidden max-w-md text-right text-sm font-medium leading-6 text-muted sm:block">
+            자동 태그는 키워드 기반입니다. 판단은 각 카드의 원문 링크에서 확인합니다.
+          </p>
+        </div>
+        <div className="space-y-3">
+          {stats.latestItems.map((item) => (
+            <ItemCard item={item} issues={data.issues} key={item.id} people={data.people} />
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

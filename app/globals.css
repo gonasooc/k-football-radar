@@ -4,8 +4,8 @@
 
 :root {
   color-scheme: light;
-  background: #f7f4ee;
-  color: #1d2329;
+  background: oklch(99% 0.003 80);
+  color: oklch(20% 0.012 70);
 }
 
 * {
@@ -14,11 +14,10 @@
 
 body {
   min-height: 100vh;
-  background:
-    linear-gradient(90deg, rgb(29 35 41 / 0.035) 1px, transparent 1px),
-    linear-gradient(0deg, rgb(29 35 41 / 0.025) 1px, transparent 1px),
-    #f7f4ee;
-  background-size: 44px 44px;
+  background: oklch(99% 0.003 80);
+  font-feature-settings:
+    "tnum" 1,
+    "ss01" 1;
 }
 
 a {
@@ -31,5 +30,29 @@ a {
 }
 
 .focus-ring {
-  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pine;
+  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent;
+}
+
+.field-mark {
+  position: relative;
+}
+
+.field-mark::before {
+  position: absolute;
+  inset: 12px;
+  pointer-events: none;
+  content: "";
+  border: 1px solid oklch(52% 0.175 28 / 0.14);
+}
+
+.metric-tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .motion-soft {
+    transition-duration: 180ms;
+    transition-property: background-color, border-color, color, opacity, transform;
+    transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  }
 }
