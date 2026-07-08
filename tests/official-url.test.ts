@@ -48,7 +48,7 @@ describe("resolveSourceUrl", () => {
         "view_contents('5102','a75967294d386d51454b69d160c77e3b');",
         kfaSource.url
       ),
-      "https://media.kfa.or.kr/bbs/bbs.php?act=bbs_view_layer&idx=5102&con=a75967294d386d51454b69d160c77e3b"
+      "https://media.kfa.or.kr/bbs/bbs.php?act=bbs_view&idx=5102&con=a75967294d386d51454b69d160c77e3b"
     );
     assert.equal(
       resolveSportsCouncilUrl("javascript:bbsView('72669');", sportsCouncilSource.url),
@@ -75,7 +75,7 @@ describe("extractOfficialCandidates", () => {
     assert.deepEqual(candidates, [
       {
         title: "[보도자료] 정몽규 대한축구협회장 사임서 제출",
-        url: "https://media.kfa.or.kr/bbs/bbs.php?act=bbs_view_layer&idx=5102&con=abc123",
+        url: "https://media.kfa.or.kr/bbs/bbs.php?act=bbs_view&idx=5102&con=abc123",
         publishedAt: new Date("2026-07-06T00:00:00+09:00").toISOString()
       }
     ]);

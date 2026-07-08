@@ -85,7 +85,7 @@ export function resolveKfaMediaUrl(onclick: string, baseUrl: string): string | n
   }
 
   const [, idx, con] = match;
-  return resolveSourceUrl(`/bbs/bbs.php?act=bbs_view_layer&idx=${idx}&con=${con}`, baseUrl);
+  return resolveSourceUrl(`/bbs/bbs.php?act=bbs_view&idx=${idx}&con=${con}`, baseUrl);
 }
 
 export function resolveSportsCouncilUrl(href: string, baseUrl: string): string | null {
