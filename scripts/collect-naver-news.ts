@@ -56,6 +56,29 @@ const GENERIC_ASSOCIATION_KEYWORDS = new Set([
   "축구협회장"
 ]);
 
+const BROAD_AUDIT_KEYWORDS = new Set([
+  "감사",
+  "축구협회 감사"
+]);
+
+const STRONG_KFA_AUDIT_CONTEXT_KEYWORDS = [
+  "문체부",
+  "문화체육관광부",
+  "대한축구협회",
+  "대한 축구협회",
+  "KFA",
+  "축구협회 감사",
+  "축구협회 특정 감사",
+  "대표팀 감독",
+  "대표팀 감독 선임",
+  "감독 선임",
+  "전력강화위원회",
+  "한국 축구",
+  "한국축구",
+  "대한민국 축구",
+  "대한민국 대표팀"
+];
+
 const KOREAN_FOOTBALL_CONTEXT_KEYWORDS = [
   "대한축구협회",
   "대한 축구협회",
@@ -146,6 +169,22 @@ function hasForeignFootballContext(text: string): boolean {
   return FOREIGN_FOOTBALL_CONTEXT_PATTERNS.some((pattern) => pattern.test(text));
 }
 
+function hasStrongKfaAuditContext(text: string): boolean {
+  return STRONG_KFA_AUDIT_CONTEXT_KEYWORDS.some((keyword) => text.includes(keyword));
+}
+
+function hasOnlyBroadAuditAndGenericAssociationKeywords(
+  classification: NewsCandidateClassification
+): boolean {
+  return (
+    classification.matchedKeywords.length > 0 &&
+    classification.matchedKeywords.every(
+      (keyword) =>
+        BROAD_AUDIT_KEYWORDS.has(keyword) || GENERIC_ASSOCIATION_KEYWORDS.has(keyword)
+    )
+  );
+}
+
 export function shouldKeepNewsCandidate({
   title,
   summary,
@@ -167,6 +206,14 @@ export function shouldKeepNewsCandidate({
     );
 
   if (hasOnlyGenericAssociationKeywords) {
+    return false;
+  }
+
+  if (
+    classification.issueTags.includes("mcst-audit") &&
+    hasOnlyBroadAuditAndGenericAssociationKeywords(classification) &&
+    !hasStrongKfaAuditContext(text)
+  ) {
     return false;
   }
 
@@ -272,7 +319,7 @@ async function run(): Promise<void> {
   console.log(`Naver collector merged ${collected.length} candidate items`);
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   run().catch((error: unknown) => {
     console.error(error);
     process.exitCode = 1;

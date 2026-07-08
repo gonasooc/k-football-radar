@@ -35,6 +35,25 @@ const HIGH_INTEREST_KEYWORDS = [
 ] as const;
 
 const KFA_EXECUTIVES_ISSUE_ID = "kfa-executives";
+const MCST_AUDIT_ISSUE_ID = "mcst-audit";
+
+const MCST_AUDIT_CONTEXT_KEYWORDS = [
+  "문체부",
+  "문화체육관광부",
+  "대한축구협회",
+  "대한 축구협회",
+  "KFA",
+  "축구협회 감사",
+  "축구협회 특정 감사",
+  "대표팀 감독",
+  "대표팀 감독 선임",
+  "감독 선임",
+  "전력강화위원회",
+  "한국 축구",
+  "한국축구",
+  "대한민국 축구",
+  "대한민국 대표팀"
+] as const;
 
 const KFA_EXECUTIVE_CONTEXT_KEYWORDS = [
   "대한축구협회",
@@ -144,6 +163,31 @@ function includesKfaExecutiveIssueKeyword(text: string, keyword: string): boolea
   );
 }
 
+function isMcstAuditIssue(issue: Issue): boolean {
+  return (
+    issue.id === MCST_AUDIT_ISSUE_ID ||
+    issue.keywords.some(
+      (keyword) => keyword === "문체부 감사" || keyword === "문화체육관광부 감사"
+    )
+  );
+}
+
+function hasMcstAuditContext(text: string): boolean {
+  return MCST_AUDIT_CONTEXT_KEYWORDS.some((keyword) => includesKeyword(text, keyword));
+}
+
+function includesMcstAuditIssueKeyword(text: string, keyword: string): boolean {
+  if (!includesKeyword(text, keyword)) {
+    return false;
+  }
+
+  if (keyword === "감사" || keyword === "조사 결과") {
+    return hasMcstAuditContext(text);
+  }
+
+  return true;
+}
+
 function toSearchQuery(keyword: string): string {
   const normalizedKeyword = keyword.toLocaleLowerCase("ko-KR");
   const hasFootballContext =
@@ -186,6 +230,10 @@ export function classifyItemText(input: ClassifyInput): Classification {
     const matchedIssueKeywords = issue.keywords.filter((keyword) => {
       if (issue.id === KFA_EXECUTIVES_ISSUE_ID) {
         return includesKfaExecutiveIssueKeyword(text, keyword);
+      }
+
+      if (isMcstAuditIssue(issue)) {
+        return includesMcstAuditIssueKeyword(text, keyword);
       }
 
       return includesKeyword(text, keyword);

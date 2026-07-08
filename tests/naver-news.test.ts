@@ -96,6 +96,39 @@ describe("shouldKeepNewsCandidate", () => {
     );
   });
 
+  it("rejects local association interview matched by broad audit keywords", () => {
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "[99.9MHz] 안광률 경기도의회 민주당 대표의원 인터뷰",
+        summary:
+          "지방의회가 독립적인 예산 편성권과 감사권을 가져야 한다. 시흥시 축구협회 사무국장을 역임한 그는 정치는 축구와 같은 팀 스포츠라고 정의했다.",
+        classification: {
+          issueTags: ["mcst-audit"],
+          personTags: [],
+          matchedKeywords: ["축구협회 감사", "축구협회", "감사"],
+          relevanceScore: 25
+        }
+      }),
+      false
+    );
+  });
+
+  it("keeps explicit MCST audit coverage about KFA governance", () => {
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "문체부, 대한축구협회 감사 결과 후속 조치 검토",
+        summary: "대표팀 감독 선임 절차와 KFA 운영 개선안을 함께 들여다본다.",
+        classification: {
+          issueTags: ["mcst-audit"],
+          personTags: [],
+          matchedKeywords: ["문체부 감사", "대한축구협회", "감사"],
+          relevanceScore: 35
+        }
+      }),
+      true
+    );
+  });
+
   it("rejects foreign football association president matches without Korean football context", () => {
     assert.equal(
       shouldKeepNewsCandidate({

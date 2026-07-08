@@ -60,6 +60,20 @@ describe("classifyItemText", () => {
     assert.equal(result.labels.includes("비리"), false);
   });
 
+  it("does not assign audit issue from local association and generic thanks text", () => {
+    const result = classifyItemText({
+      title: "[99.9MHz] 안광률 경기도의회 민주당 대표의원 인터뷰",
+      summary:
+        "그는 \"지방의회가 독립적인 예산 편성권과 감사권을 가져야 위상이 강화된다\"며 중앙당 및 정부에 이를 적극 요청했다. 시흥시 축구협회 사무국장을 오랫동안 역임한 그는 \"정치는 축구와 같은 팀 스포츠\"라고 정의했다.",
+      issues,
+      people,
+      isOfficial: false
+    });
+
+    assert.equal(result.issueTags.includes("audit"), false);
+    assert.equal(result.relevanceScore < 20, true);
+  });
+
   it("does not assign KFA executive issue from local youth tournament roles", () => {
     const result = classifyItemText({
       title: "홍천서 경기도 U-12 상비군 선발전 개최…104개 팀 참가",
