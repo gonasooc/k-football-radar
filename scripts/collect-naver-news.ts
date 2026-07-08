@@ -3,7 +3,7 @@ import { pathToFileURL } from "node:url";
 
 import { classifyItemText, getSearchQueries } from "../lib/classify";
 import { dedupeItems } from "../lib/dedupe";
-import { normalizePublisher, stripHtml, truncateSummary } from "../lib/normalize";
+import { normalizePublisher, stripInlineHtml, truncateSummary } from "../lib/normalize";
 import type { Issue, Person, RadarItem } from "../lib/schema";
 import { readIssues, readItems, readPeople, writeItems } from "./data-io";
 
@@ -89,14 +89,25 @@ const COMPETITION_RESULT_PATTERNS = [
   /(?:전승|무패|우승|정상|최강|최종전|승리|대회|리그)/u
 ];
 
+const LOW_VALUE_PERFORMANCE_CONTEXT_PATTERNS = [
+  /(?:월드컵|본선|조별리그|32강|16강|탈락|조기탈락|경기력|패배|참사)/u,
+  /(?:원흉|책임자로\s*지목|레전드들|슈퍼스타|외신이\s*본|일본\s*언론|충격진단|탓만|불화|패자|전술\s*문제|쓴소리|골\s*걱정)/u
+];
+
 const TRACKED_GOVERNANCE_CONTEXT_KEYWORDS = [
   "문체부",
   "문화체육관광부",
   "대한축구협회장",
   "대한 축구협회장",
+  "축구협회장",
   "KFA",
   "K-축구혁신위원회",
+  "K-축구 혁신",
+  "K- 축구 혁신",
   "축구혁신위",
+  "축구 혁신",
+  "혁신위",
+  "박지성 혁신위",
   "회장 선거",
   "선거인단",
   "정관",
@@ -112,6 +123,7 @@ const TRACKED_GOVERNANCE_CONTEXT_KEYWORDS = [
   "감독 선임 절차",
   "제도 개편",
   "거버넌스",
+  "인물보다 구조",
   "후속 조치"
 ];
 
@@ -220,6 +232,10 @@ function hasLocalCompetitionResultContext(text: string): boolean {
   );
 }
 
+function hasLowValuePerformanceContext(text: string): boolean {
+  return LOW_VALUE_PERFORMANCE_CONTEXT_PATTERNS.every((pattern) => pattern.test(text));
+}
+
 function hasOnlyBroadAuditAndGenericAssociationKeywords(
   classification: NewsCandidateClassification
 ): boolean {
@@ -237,20 +253,24 @@ export function shouldKeepNewsCandidate({
   summary,
   classification
 }: NewsCandidateInput): boolean {
-  if (classification.personTags.length > 0) {
-    return true;
-  }
-
-  if (classification.issueTags.length === 0) {
-    return false;
-  }
-
   const text = `${title ?? ""} ${summary ?? ""}`;
   if (text && hasForeignFootballContext(text) && !hasKoreanFootballContext(text)) {
     return false;
   }
 
   if (hasLocalCompetitionResultContext(text) && !hasTrackedGovernanceContext(text)) {
+    return false;
+  }
+
+  if (hasLowValuePerformanceContext(text) && !hasTrackedGovernanceContext(text)) {
+    return false;
+  }
+
+  if (classification.personTags.length > 0) {
+    return true;
+  }
+
+  if (classification.issueTags.length === 0) {
     return false;
   }
 
@@ -326,7 +346,7 @@ export async function collectNaverNews({
       const newsItems = await fetchNaverNews(query);
       for (const newsItem of newsItems) {
         const originalUrl = newsItem.originallink || newsItem.link;
-        const title = stripHtml(newsItem.title);
+        const title = stripInlineHtml(newsItem.title);
         const summary = truncateSummary(newsItem.description);
         const classification = classifyItemText({
           title,

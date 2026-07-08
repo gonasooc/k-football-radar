@@ -7,6 +7,10 @@ export function stripHtml(value: string): string {
   return decode(value.replace(TAG_PATTERN, " ")).replace(WHITESPACE_PATTERN, " ").trim();
 }
 
+export function stripInlineHtml(value: string): string {
+  return decode(value.replace(TAG_PATTERN, "")).replace(WHITESPACE_PATTERN, " ").trim();
+}
+
 export function truncateSummary(value: string, maxLength = 220): string {
   const normalized = stripHtml(value);
   if (normalized.length <= maxLength) {

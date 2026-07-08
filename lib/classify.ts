@@ -211,7 +211,7 @@ export function classifyItemText(input: ClassifyInput): Classification {
   const issueTags: string[] = [];
   const personTags: string[] = [];
   const matchedKeywords: string[] = [];
-  const labels: string[] = ["자동 수집"];
+  const labels: string[] = [];
   let score = 0;
 
   if (input.isOfficial) {

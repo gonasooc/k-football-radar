@@ -34,7 +34,7 @@ export function filterItems(items: RadarItem[], filters: FeedFilters): RadarItem
       item.summary,
       item.publisher,
       ...item.matchedKeywords,
-      ...(item.labels ?? [])
+      ...(item.labels?.filter((label) => label !== "자동 수집") ?? [])
     ]
       .join(" ")
       .toLocaleLowerCase("ko-KR");

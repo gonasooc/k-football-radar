@@ -56,6 +56,7 @@ describe("classifyItemText", () => {
     assert.ok(result.matchedKeywords.includes("선거인단"));
     assert.ok(result.matchedKeywords.includes("정몽규"));
     assert.ok(result.relevanceScore >= 70);
+    assert.equal(result.labels.includes("자동 수집"), false);
     assert.equal(result.labels.includes("논란"), false);
     assert.equal(result.labels.includes("비리"), false);
   });

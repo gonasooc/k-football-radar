@@ -20,7 +20,7 @@ describe("shouldKeepOfficialCandidate", () => {
           personTags: [],
           matchedKeywords: ["KFA"],
           relevanceScore: 40,
-          labels: ["공식 출처", "자동 수집"]
+          labels: ["공식 출처"]
         },
         sourceId: "kfa_media"
       }),
@@ -33,7 +33,7 @@ describe("shouldKeepOfficialCandidate", () => {
           personTags: [],
           matchedKeywords: ["대한축구협회장"],
           relevanceScore: 70,
-          labels: ["공식 출처", "자동 수집"]
+          labels: ["공식 출처"]
         },
         sourceId: "sports_council"
       }),
@@ -46,7 +46,7 @@ describe("shouldKeepOfficialCandidate", () => {
           personTags: [],
           matchedKeywords: ["유소년"],
           relevanceScore: 45,
-          labels: ["공식 출처", "자동 수집"]
+          labels: ["공식 출처"]
         },
         sourceId: "sports_council"
       }),

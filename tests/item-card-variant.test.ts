@@ -11,6 +11,23 @@ describe("ItemCard variants", () => {
     assert.equal(itemCardSource.includes("variant === \"lead\""), false);
   });
 
+  it("clamps article titles to two lines in card layouts", () => {
+    assert.match(itemCardSource, /line-clamp-2 text-xl font-black/);
+    assert.match(itemCardSource, /title=\{item\.title\}/);
+  });
+
+  it("keeps relevance visible before clamped detected keywords", () => {
+    assert.match(itemCardSource, /관련도 \{item\.relevanceScore\}/);
+    assert.match(itemCardSource, /감지 키워드: \{keywordText\}/);
+    assert.match(itemCardSource, /grid-cols-\[auto_minmax\(0,1fr\)\]/);
+  });
+
+  it("hides the automatic collection label from article badges", () => {
+    assert.match(itemCardSource, /HIDDEN_LABELS/);
+    assert.match(itemCardSource, /자동 수집/);
+    assert.match(itemCardSource, /visibleLabels/);
+  });
+
   it("renders the home page as the searchable latest feed", () => {
     assert.equal(homePageSource.includes("primaryItem"), false);
     assert.equal(homePageSource.includes("secondaryItems"), false);

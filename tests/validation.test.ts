@@ -60,7 +60,7 @@ function item(id: string, override: Partial<RadarItem> = {}): RadarItem {
     sourceType: "news",
     isOfficial: false,
     relevanceScore: 40,
-    labels: ["자동 수집"],
+    labels: [],
     ...override
   };
 }

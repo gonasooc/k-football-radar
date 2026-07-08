@@ -26,7 +26,7 @@ const baseNewsItem: RadarItem = {
   sourceType: "news",
   isOfficial: false,
   relevanceScore: 15,
-  labels: ["자동 수집"]
+  labels: []
 };
 
 describe("shouldKeepNewsCandidate", () => {
@@ -147,6 +147,23 @@ describe("shouldKeepNewsCandidate", () => {
     );
   });
 
+  it("rejects performance blame stories without governance context", () => {
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "월드컵 탈락 원흉으로 지목된 레전드들",
+        summary:
+          "홍명보 전 대한민국 축구 국가대표팀 감독이 2026 북중미월드컵에서 한국의 32강 진출 실패 및 조기탈락의 책임자로 지목되는 가운데 포르투갈의 슈퍼스타도 언급됐다.",
+        classification: {
+          issueTags: ["coach-appointment"],
+          personTags: ["person_hong_myung_bo"],
+          matchedKeywords: ["대표팀 감독", "홍명보"],
+          relevanceScore: 18
+        }
+      }),
+      false
+    );
+  });
+
   it("keeps explicit MCST audit coverage about KFA governance", () => {
     assert.equal(
       shouldKeepNewsCandidate({
@@ -173,6 +190,22 @@ describe("shouldKeepNewsCandidate", () => {
           personTags: [],
           matchedKeywords: ["대한축구협회", "지도자", "유소년", "거버넌스"],
           relevanceScore: 40
+        }
+      }),
+      true
+    );
+  });
+
+  it("keeps coach appointment stories with explicit procedure context", () => {
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "대한축구협회, 대표팀 감독 선임 절차 개선안 논의",
+        summary: "전력강화위원회 운영과 감독 선임 절차의 투명성 제고 방안을 검토했다.",
+        classification: {
+          issueTags: ["coach-appointment"],
+          personTags: ["person_hong_myung_bo"],
+          matchedKeywords: ["대한축구협회", "대표팀 감독", "전력강화위원회"],
+          relevanceScore: 38
         }
       }),
       true

@@ -4,6 +4,8 @@ import { formatDate, formatDateTime } from "@/lib/date";
 import type { Issue, Person, RadarItem } from "@/lib/schema";
 import { IssueBadge, PersonBadge, SourceBadge } from "./Badges";
 
+const HIDDEN_LABELS = new Set(["자동 수집"]);
+
 type ItemCardProps = {
   item: RadarItem;
   issues: Issue[];
@@ -22,11 +24,13 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
     const person = personMap.get(id);
     return person ? [person] : [];
   });
+  const visibleLabels = item.labels?.filter((label) => !HIDDEN_LABELS.has(label)) ?? [];
+  const keywordText = item.matchedKeywords.join(", ") || "없음";
 
   const badgeRow = (
     <div className="flex flex-wrap items-center gap-2">
       <SourceBadge item={item} />
-      {item.labels?.slice(0, 2).map((label) => (
+      {visibleLabels.slice(0, 2).map((label) => (
         <span
           className="inline-flex items-center rounded-chip border border-line bg-paper px-2 py-1 text-xs font-semibold text-muted"
           key={label}
@@ -48,6 +52,13 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
     </div>
   );
 
+  const relevanceRow = (
+    <p className="grid grid-cols-[auto_minmax(0,1fr)] items-baseline gap-x-2 text-xs font-medium leading-5 text-muted">
+      <span className="metric-tabular font-bold text-ink">관련도 {item.relevanceScore}</span>
+      <span className="line-clamp-2">감지 키워드: {keywordText}</span>
+    </p>
+  );
+
   const sourceLink = (
     <a
       className="focus-ring motion-soft inline-flex min-h-10 w-fit shrink-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-control border border-rule bg-canvas px-3 py-2 text-sm font-black leading-none text-ink hover:border-accent-soft hover:bg-blush hover:text-accent"
@@ -65,12 +76,15 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
       <article className="radar-list-item h-full border-t border-line py-4">
         <div className="flex h-full flex-col gap-3">
           {badgeRow}
-          <h2 className="text-xl font-black leading-snug text-ink">{item.title}</h2>
+          <h2 className="line-clamp-2 text-xl font-black leading-snug text-ink" title={item.title}>
+            {item.title}
+          </h2>
           <p className="line-clamp-3 text-sm font-medium leading-7 text-ink-soft">
             {item.summary}
           </p>
           <div className="mt-auto space-y-3">
             {tagRow}
+            {relevanceRow}
             <div className="flex flex-col gap-3 text-xs font-bold leading-5 text-muted sm:flex-row sm:items-center sm:justify-between">
               <span className="min-w-0">
                 {item.publisher} · {formatDate(item.publishedAt)}
@@ -109,9 +123,9 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
 
         <div>
           <div className="flex flex-col gap-3">
-            {item.labels?.length ? (
+            {visibleLabels.length ? (
               <div className="flex flex-wrap items-center gap-2">
-                {item.labels.slice(0, 3).map((label) => (
+                {visibleLabels.slice(0, 3).map((label) => (
                   <span
                     className="inline-flex items-center rounded-chip border border-line bg-paper px-2 py-1 text-xs font-semibold text-muted"
                     key={label}
@@ -121,7 +135,10 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
                 ))}
               </div>
             ) : null}
-            <h2 className="text-xl font-black leading-snug text-ink sm:text-2xl">
+            <h2
+              className="line-clamp-2 text-xl font-black leading-snug text-ink sm:text-2xl"
+              title={item.title}
+            >
               {item.title}
             </h2>
             <p className="max-w-4xl text-sm font-medium leading-7 text-ink-soft">{item.summary}</p>
@@ -130,10 +147,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
           <div className="mt-4 grid gap-3 lg:grid-cols-[1fr_auto] lg:items-end">
             <div className="space-y-3">
               {tagRow}
-              <p className="line-clamp-2 text-xs font-medium leading-5 text-muted">
-                감지 키워드: {item.matchedKeywords.join(", ") || "없음"} · 관련도{" "}
-                <span className="metric-tabular font-bold text-ink">{item.relevanceScore}</span>
-              </p>
+              {relevanceRow}
             </div>
             {sourceLink}
           </div>
