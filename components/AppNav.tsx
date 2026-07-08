@@ -76,7 +76,7 @@ export function AppNav() {
           showStickyNav ? "block" : "hidden"
         }`}
       >
-        <div className="mx-auto grid max-w-xl grid-cols-4">{stickyLinks}</div>
+        <div className="mx-auto grid max-w-xl grid-cols-3">{stickyLinks}</div>
       </nav>
     </>
   );

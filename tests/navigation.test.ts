@@ -9,11 +9,12 @@ import {
 } from "../lib/navigation";
 
 describe("navItems", () => {
-  it("uses tracking as the single top-level entry for issues and people", () => {
+  it("uses home as the article feed and tracking as the single top-level entry for issues and people", () => {
     assert.deepEqual(
       navItems.map((item) => item.label),
-      ["홈", "전체 기사", "트래킹", "출처"]
+      ["홈", "트래킹", "출처"]
     );
+    assert.equal(navItems.some((item) => item.href === "/feed"), false);
     assert.equal(navItems.some((item) => item.href === "/issues"), false);
     assert.equal(navItems.some((item) => item.href === "/people"), false);
   });

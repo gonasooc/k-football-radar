@@ -31,7 +31,7 @@ export default function RootLayout({
                   width={1830}
                 />
                 <span className="mx-auto mt-1 block w-fit max-w-full border-y border-line px-3 py-1.5 text-[13px] font-bold leading-6 text-ink-soft">
-                  한국축구 이슈와 공식자료를 모아 보는 편집 데스크
+                  한국축구 이슈와 공식자료를 한곳에 모은 뉴스 레이더
                 </span>
               </Link>
             </div>

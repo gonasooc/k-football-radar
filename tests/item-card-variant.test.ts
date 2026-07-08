@@ -11,15 +11,15 @@ describe("ItemCard variants", () => {
     assert.equal(itemCardSource.includes("variant === \"lead\""), false);
   });
 
-  it("renders the home page latest items as one compact grid", () => {
+  it("renders the home page as the searchable latest feed", () => {
     assert.equal(homePageSource.includes("primaryItem"), false);
     assert.equal(homePageSource.includes("secondaryItems"), false);
     assert.equal(homePageSource.includes("remainingItems"), false);
+    assert.equal(homePageSource.includes("latestGridItems"), false);
+    assert.equal(homePageSource.includes("moreItems"), false);
+    assert.equal(homePageSource.includes("최신 큐"), false);
+    assert.equal(homePageSource.includes("전체 피드"), false);
 
-    const latestGridBlock = homePageSource.match(/latestGridItems\.map\(\(item\) => \(([\s\S]*?)\s+\)\)/);
-
-    assert.ok(latestGridBlock);
-    assert.match(latestGridBlock[1], /variant="compact"/);
-    assert.doesNotMatch(latestGridBlock[1], /variant="lead"/);
+    assert.match(homePageSource, /<FeedClient/);
   });
 });
