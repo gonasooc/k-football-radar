@@ -1,20 +1,20 @@
-# Korea Football Radar — Codex 목표 계획서
+# Korea Football Radar MVP 기획서
 
 문서 버전: 2026-07-07  
-목적: Codex의 `/goal` 기능에 그대로 투입할 수 있는 MVP 구현 계획서  
+목적: Korea Football Radar MVP의 제품 범위, 기술 구조, 구현 기준을 정리한다.  
 최종 배포 방향: **Next.js + Vercel + GitHub Actions + JSON 데이터**
 
 ---
 
-## 0. Codex에 줄 목표 문장
+## 0. 구현 목표 요약
 
-아래 문장을 Codex의 `/goal`에 넣고, 이 문서를 프로젝트 루트에 `KOREA_FOOTBALL_RADAR_GOAL.md`로 둔다.
+초기 구현 목표는 다음과 같다.
 
 ```text
-/goal KOREA_FOOTBALL_RADAR_GOAL.md에 따라 Korea Football Radar MVP를 구현한다. Vercel 배포에 적합한 Next.js TypeScript 앱을 만들고, GitHub Actions로 Naver News API와 공식자료 메타데이터를 수집해 /data 아래 JSON 파일로 커밋한다. 데이터베이스, CMS, 로그인, 댓글, AI 요약, 메신저 알림 없이 대시보드, 피드, 이슈 페이지, 인물 페이지, 출처 아카이브, 데이터 검증, 예약 수집 워크플로, Vercel 빌드가 모두 동작하면 MVP를 완료로 본다.
+Korea Football Radar MVP를 구현한다. Vercel 배포에 적합한 Next.js TypeScript 앱을 만들고, GitHub Actions로 Naver News API와 공식자료 메타데이터를 수집해 /data 아래 JSON 파일로 커밋한다. 데이터베이스, CMS, 로그인, 댓글, AI 요약, 메신저 알림 없이 대시보드, 피드, 이슈 페이지, 인물 페이지, 출처 아카이브, 데이터 검증, 예약 수집 워크플로, Vercel 빌드가 모두 동작하면 MVP를 완료로 본다.
 ```
 
-Codex가 작업 중 참고해야 할 원칙:
+구현 중 참고해야 할 원칙:
 
 - 한 번에 모든 기능을 완성하려 하지 말고, **작동하는 얇은 세로 조각**을 먼저 만든다.
 - 각 단계는 `pnpm run lint`, `pnpm run typecheck`, `pnpm run validate:data`, `pnpm run build` 중 가능한 검증을 통과해야 한다.
@@ -721,6 +721,7 @@ Vercel은 이미 생성된 JSON을 읽어 화면만 렌더링한다.
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test tests/*.test.ts",
     "collect": "node --import tsx scripts/update-data.ts",
+    "collect:local": "node --env-file=.env --import tsx scripts/update-data.ts",
     "collect:naver": "node --import tsx scripts/collect-naver-news.ts",
     "collect:official": "node --import tsx scripts/collect-official.ts",
     "check:readiness": "node --import tsx scripts/check-readiness.ts",
@@ -946,9 +947,6 @@ MVP 완료 후 고려할 기능:
 
 확인일: 2026-07-07
 
-- OpenAI Codex 목표 모드: https://developers.openai.com/codex/use-cases/follow-goals
-- OpenAI Codex 목표 사용 예시: https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex
-- OpenAI Codex 프롬프트 모범 사례: https://developers.openai.com/codex/prompting
 - Next.js 정적 내보내기 가이드: https://nextjs.org/docs/app/guides/static-exports
 - Vercel GitHub 연동: https://vercel.com/docs/git/vercel-for-github
 - Vercel 배포 문서: https://vercel.com/docs/deployments
@@ -959,9 +957,9 @@ MVP 완료 후 고려할 기능:
 
 ---
 
-## 20. Codex 작업 메모
+## 20. 구현 작업 메모
 
-Codex가 막히면 다음 우선순위를 따른다.
+구현자가 막히면 다음 우선순위를 따른다.
 
 1. 먼저 샘플 데이터로 UI가 작동하게 만든다.
 2. 그다음 데이터 검증을 붙인다.
