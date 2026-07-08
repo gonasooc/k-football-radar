@@ -29,11 +29,7 @@ export default async function PersonDetailPage({
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <SectionHeader
-        description={person.role}
-        eyebrow={`${items.length} mentions`}
-        title={person.name}
-      />
+      <SectionHeader description={person.role} title={person.name} />
       <div className="mt-6 grid gap-0 overflow-hidden rounded-panel border border-line bg-panel shadow-panel lg:grid-cols-3">
         <div className="border-b border-line p-4 lg:border-b-0 lg:border-r">
           <p className="text-xs font-black uppercase tracking-[0.18em] text-muted">별칭</p>

@@ -8,9 +8,9 @@ const dashboardStatsSource = readFileSync(
 );
 
 describe("DashboardStats layout", () => {
-  it("keeps the radar index compact on mobile", () => {
+  it("keeps the stats compact without a redundant label", () => {
     assert.match(dashboardStatsSource, /grid-cols-2/);
-    assert.match(dashboardStatsSource, /py-2 sm:py-4/);
+    assert.doesNotMatch(dashboardStatsSource, /레이더 인덱스/);
     assert.match(dashboardStatsSource, /px-3 py-3/);
     assert.match(dashboardStatsSource, /text-2xl/);
     assert.match(dashboardStatsSource, /sm:text-3xl/);

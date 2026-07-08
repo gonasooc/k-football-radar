@@ -134,7 +134,7 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-between gap-3 border-y border-line py-3 text-sm font-bold text-ink/60">
+      <div className="flex items-center justify-between gap-3 py-1 text-sm font-bold text-ink/60">
         <span className="metric-tabular">표시 항목 {filteredItems.length}개</span>
         <span>게시 시각 최신순</span>
       </div>

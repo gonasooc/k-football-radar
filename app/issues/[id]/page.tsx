@@ -26,11 +26,7 @@ export default async function IssueDetailPage({
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <SectionHeader
-        description={issue.description}
-        eyebrow={`${items.length} matched items`}
-        title={issue.name}
-      />
+      <SectionHeader description={issue.description} title={issue.name} />
       <div className="mt-6 rounded-panel border border-line bg-panel p-4 shadow-panel">
         <p className="mb-3 text-xs font-black uppercase tracking-[0.16em] text-muted">
           감지 키워드

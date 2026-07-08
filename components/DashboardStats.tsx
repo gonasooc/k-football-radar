@@ -12,12 +12,7 @@ const statItems = [
 export function DashboardStats({ stats }: { stats: DashboardStatsData }) {
   return (
     <section className="border-y border-rule bg-canvas">
-      <div className="px-1 py-2 sm:py-4">
-        <p className="text-[11px] font-black uppercase tracking-[0.16em] text-accent">
-          레이더 인덱스
-        </p>
-      </div>
-      <div className="grid grid-cols-2 border-t border-line lg:grid-cols-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4">
         {statItems.map((item) => {
           const Icon = item.icon;
           return (
