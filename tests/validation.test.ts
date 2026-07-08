@@ -66,6 +66,67 @@ function item(id: string, override: Partial<RadarItem> = {}): RadarItem {
 }
 
 describe("validateDataBundle", () => {
+  it("rejects duplicate item IDs", () => {
+    assert.throws(
+      () =>
+        validateDataBundle({
+          items: [
+            item("duplicate", {
+              url: "https://example.com/one",
+              originalUrl: "https://example.com/one"
+            }),
+            item("duplicate", {
+              url: "https://example.com/two",
+              originalUrl: "https://example.com/two"
+            })
+          ],
+          issues,
+          people,
+          sources,
+          collectionState: { ...state, totalItems: 2 }
+        }),
+      /Duplicate item id/
+    );
+  });
+
+  it("rejects duplicate issue, person, and source IDs", () => {
+    assert.throws(
+      () =>
+        validateDataBundle({
+          items: [item("one")],
+          issues: [...issues, { ...issues[0], name: "중복 이슈" }],
+          people,
+          sources,
+          collectionState: state
+        }),
+      /Duplicate issue id/
+    );
+
+    assert.throws(
+      () =>
+        validateDataBundle({
+          items: [item("one")],
+          issues,
+          people: [...people, { ...people[0], name: "중복 인물" }],
+          sources,
+          collectionState: state
+        }),
+      /Duplicate person id/
+    );
+
+    assert.throws(
+      () =>
+        validateDataBundle({
+          items: [item("one")],
+          issues,
+          people,
+          sources: [...sources, { ...sources[0], name: "중복 출처" }],
+          collectionState: state
+        }),
+      /Duplicate source id/
+    );
+  });
+
   it("rejects dangerous automatic labels", () => {
     assert.throws(
       () =>
@@ -87,6 +148,29 @@ describe("validateDataBundle", () => {
           items: [
             item("one", { url: "https://example.com/story?utm_source=x" }),
             item("two", { url: "https://example.com/story" })
+          ],
+          issues,
+          people,
+          sources,
+          collectionState: { ...state, totalItems: 2 }
+        }),
+      /Duplicate canonical item url/
+    );
+  });
+
+  it("rejects canonical duplicate original URLs", () => {
+    assert.throws(
+      () =>
+        validateDataBundle({
+          items: [
+            item("naver_redirect", {
+              url: "https://news.naver.com/article/001/0000000001",
+              originalUrl: "https://publisher.example/story?utm_medium=naver"
+            }),
+            item("publisher_original", {
+              url: "https://publisher.example/story",
+              originalUrl: "https://publisher.example/story"
+            })
           ],
           issues,
           people,

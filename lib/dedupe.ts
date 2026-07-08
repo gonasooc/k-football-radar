@@ -26,10 +26,12 @@ export function canonicalizeUrl(rawUrl: string): string {
     const url = new URL(rawUrl);
     url.hash = "";
     for (const param of Array.from(url.searchParams.keys())) {
-      if (param.startsWith("utm_") || TRACKING_PARAMS.includes(param)) {
+      const normalizedParam = param.toLocaleLowerCase("en-US");
+      if (normalizedParam.startsWith("utm_") || TRACKING_PARAMS.includes(normalizedParam)) {
         url.searchParams.delete(param);
       }
     }
+    url.searchParams.sort();
     url.hostname = url.hostname.toLocaleLowerCase("en-US");
     const normalized = url.toString();
     return normalized.endsWith("/") ? normalized.slice(0, -1) : normalized;

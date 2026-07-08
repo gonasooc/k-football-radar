@@ -29,6 +29,13 @@ describe("canonicalizeUrl", () => {
       "https://example.com/news/1"
     );
   });
+
+  it("sorts significant query parameters and strips tracking parameters case-insensitively", () => {
+    assert.equal(
+      canonicalizeUrl("https://EXAMPLE.com/news/1?b=2&UTM_Source=x&a=1"),
+      "https://example.com/news/1?a=1&b=2"
+    );
+  });
 });
 
 describe("dedupeItems", () => {

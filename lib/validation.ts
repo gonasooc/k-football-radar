@@ -12,6 +12,16 @@ const DANGEROUS_LABELS = new Set([
   "논란"
 ]);
 
+function assertUniqueIds(records: Array<{ id: string }>, label: string): void {
+  const ids = new Set<string>();
+  for (const record of records) {
+    if (ids.has(record.id)) {
+      throw new Error(`Duplicate ${label} id: ${record.id}`);
+    }
+    ids.add(record.id);
+  }
+}
+
 export function validateDataBundle({
   items,
   people,
@@ -25,16 +35,30 @@ export function validateDataBundle({
   sources: Source[];
   collectionState: CollectionState;
 }): void {
+  assertUniqueIds(items, "item");
+  assertUniqueIds(issues, "issue");
+  assertUniqueIds(people, "person");
+  assertUniqueIds(sources, "source");
+
   const issueIds = new Set(issues.map((issue) => issue.id));
   const personIds = new Set(people.map((person) => person.id));
-  const canonicalUrls = new Set<string>();
+  const canonicalUrls = new Map<string, string>();
 
   for (const item of items) {
-    const canonicalUrl = canonicalizeUrl(item.url);
-    if (canonicalUrls.has(canonicalUrl)) {
-      throw new Error(`Duplicate canonical item url: ${item.url}`);
+    const itemCanonicalUrls = new Set([
+      canonicalizeUrl(item.url),
+      canonicalizeUrl(item.originalUrl)
+    ]);
+
+    for (const canonicalUrl of itemCanonicalUrls) {
+      const existingItemId = canonicalUrls.get(canonicalUrl);
+      if (existingItemId && existingItemId !== item.id) {
+        throw new Error(
+          `Duplicate canonical item url: ${canonicalUrl} in ${existingItemId} and ${item.id}`
+        );
+      }
+      canonicalUrls.set(canonicalUrl, item.id);
     }
-    canonicalUrls.add(canonicalUrl);
 
     for (const issueId of item.issueTags) {
       if (!issueIds.has(issueId)) {
