@@ -79,6 +79,42 @@ const STRONG_KFA_AUDIT_CONTEXT_KEYWORDS = [
   "대한민국 대표팀"
 ];
 
+const LOCAL_COMPETITION_CONTEXT_PATTERNS = [
+  /(?:고등학교|고교|중학교|초등학교|U-?\d{2}|여성\s*축구\s*단|여자\s*축구\s*단)/u,
+  /(?:생활체육|구청|시청|군청|지역\s*리그|지역리그|권역\s*리그|전국대회|도지사배)/u,
+  /(?:대구\/경북|대구·경북|충북\s*축구협회|충주시\s*축구협회|시흥시\s*축구협회)/u
+];
+
+const COMPETITION_RESULT_PATTERNS = [
+  /(?:전승|무패|우승|정상|최강|최종전|승리|대회|리그)/u
+];
+
+const TRACKED_GOVERNANCE_CONTEXT_KEYWORDS = [
+  "문체부",
+  "문화체육관광부",
+  "대한축구협회장",
+  "대한 축구협회장",
+  "KFA",
+  "K-축구혁신위원회",
+  "축구혁신위",
+  "회장 선거",
+  "선거인단",
+  "정관",
+  "감사 결과",
+  "특정 감사",
+  "행정소송",
+  "징계",
+  "청문회",
+  "이사회",
+  "집행부",
+  "전력강화위원회",
+  "대표팀 감독 선임",
+  "감독 선임 절차",
+  "제도 개편",
+  "거버넌스",
+  "후속 조치"
+];
+
 const KOREAN_FOOTBALL_CONTEXT_KEYWORDS = [
   "대한축구협회",
   "대한 축구협회",
@@ -173,6 +209,17 @@ function hasStrongKfaAuditContext(text: string): boolean {
   return STRONG_KFA_AUDIT_CONTEXT_KEYWORDS.some((keyword) => text.includes(keyword));
 }
 
+function hasTrackedGovernanceContext(text: string): boolean {
+  return TRACKED_GOVERNANCE_CONTEXT_KEYWORDS.some((keyword) => text.includes(keyword));
+}
+
+function hasLocalCompetitionResultContext(text: string): boolean {
+  return (
+    LOCAL_COMPETITION_CONTEXT_PATTERNS.some((pattern) => pattern.test(text)) &&
+    COMPETITION_RESULT_PATTERNS.some((pattern) => pattern.test(text))
+  );
+}
+
 function hasOnlyBroadAuditAndGenericAssociationKeywords(
   classification: NewsCandidateClassification
 ): boolean {
@@ -194,8 +241,16 @@ export function shouldKeepNewsCandidate({
     return true;
   }
 
+  if (classification.issueTags.length === 0) {
+    return false;
+  }
+
   const text = `${title ?? ""} ${summary ?? ""}`;
   if (text && hasForeignFootballContext(text) && !hasKoreanFootballContext(text)) {
+    return false;
+  }
+
+  if (hasLocalCompetitionResultContext(text) && !hasTrackedGovernanceContext(text)) {
     return false;
   }
 

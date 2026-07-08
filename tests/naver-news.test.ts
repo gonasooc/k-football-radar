@@ -113,6 +113,40 @@ describe("shouldKeepNewsCandidate", () => {
     );
   });
 
+  it("rejects broad KFA mentions without tracked issues or people", () => {
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "대륜고 축구 부, 지역리그 '전승 우승'",
+        summary:
+          "대한축구협회 주최 대구/경북 권역 리그에서 대륜고등학교가 리그 최종전에서 승리했다.",
+        classification: {
+          issueTags: [],
+          personTags: [],
+          matchedKeywords: ["대한축구협회", "축구협회"],
+          relevanceScore: 30
+        }
+      }),
+      false
+    );
+  });
+
+  it("rejects local competition result stories matched by broad governance keywords", () => {
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "달서구청 여성 축구 단 '전국 정상'",
+        summary:
+          "충청북도 축구협회가 주최하고 충주시 축구협회가 주관한 전국대회에서 여성 축구단이 우승했다. 최우수 지도자 상도 받았다.",
+        classification: {
+          issueTags: ["youth-governance"],
+          personTags: [],
+          matchedKeywords: ["지도자", "축구협회", "축구협회 지도자"],
+          relevanceScore: 25
+        }
+      }),
+      false
+    );
+  });
+
   it("keeps explicit MCST audit coverage about KFA governance", () => {
     assert.equal(
       shouldKeepNewsCandidate({
@@ -123,6 +157,22 @@ describe("shouldKeepNewsCandidate", () => {
           personTags: [],
           matchedKeywords: ["문체부 감사", "대한축구협회", "감사"],
           relevanceScore: 35
+        }
+      }),
+      true
+    );
+  });
+
+  it("keeps youth governance coverage with explicit system reform context", () => {
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "대한축구협회, 유소년 지도자 제도 개편안 발표",
+        summary: "유소년 육성 시스템과 거버넌스 개선을 위한 후속 조치를 공개했다.",
+        classification: {
+          issueTags: ["youth-governance"],
+          personTags: [],
+          matchedKeywords: ["대한축구협회", "지도자", "유소년", "거버넌스"],
+          relevanceScore: 40
         }
       }),
       true
