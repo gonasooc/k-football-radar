@@ -20,7 +20,7 @@ Success means a user can understand what changed recently, identify which issues
 
 Editorial, readable, restrained.
 
-The interface should feel like a clean digital newspaper desk: masthead, section navigation, thin rules, serif headlines, varied article density, and source-first metadata. It should support careful reading, source verification, and fast scanning without looking like a campaign page or a generated dashboard.
+The interface should feel like a clean digital newspaper desk: masthead, section navigation, thin rules, strong Pretendard headlines, varied article density, and source-first metadata. It should support careful reading, source verification, and fast scanning without looking like a campaign page or a generated dashboard.
 
 ## Anti-references
 

@@ -15,9 +15,7 @@ export function SectionHeader({ eyebrow, title, description, action }: SectionHe
               {eyebrow}
             </p>
           ) : null}
-          <h1 className="mt-2 font-serif text-4xl font-black leading-tight text-ink">
-            {title}
-          </h1>
+          <h1 className="mt-2 text-4xl font-black leading-tight text-ink">{title}</h1>
           {description ? (
             <p className="mt-3 max-w-3xl text-[15px] font-medium leading-7 text-ink-soft">
               {description}

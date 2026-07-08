@@ -50,13 +50,13 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
 
   const sourceLink = (
     <a
-      className="focus-ring motion-soft inline-flex min-h-11 w-fit items-center gap-2 rounded-control border border-rule bg-canvas px-3 py-2 text-sm font-black text-ink hover:border-accent-soft hover:bg-blush hover:text-accent"
+      className="focus-ring motion-soft inline-flex min-h-10 w-fit shrink-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-control border border-rule bg-canvas px-3 py-2 text-sm font-black leading-none text-ink hover:border-accent-soft hover:bg-blush hover:text-accent"
       href={item.url}
       rel="noreferrer"
       target="_blank"
     >
-      원문 보기
-      <ExternalLink aria-hidden="true" className="size-4" />
+      원문
+      <ExternalLink aria-hidden="true" className="size-4 shrink-0" />
     </a>
   );
 
@@ -66,7 +66,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
         <div className="flex flex-col gap-4">
           {badgeRow}
           <div>
-            <h2 className="max-w-3xl font-serif text-3xl font-black leading-tight text-ink sm:text-4xl">
+            <h2 className="max-w-3xl text-3xl font-black leading-tight text-ink sm:text-4xl">
               {item.title}
             </h2>
             <p className="mt-4 max-w-3xl text-base font-medium leading-8 text-ink-soft">
@@ -94,27 +94,17 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
       <article className="radar-list-item border-t border-line py-4">
         <div className="space-y-3">
           {badgeRow}
-          <h2 className="font-serif text-xl font-black leading-snug text-ink">
-            {item.title}
-          </h2>
+          <h2 className="text-xl font-black leading-snug text-ink">{item.title}</h2>
           <p className="line-clamp-3 text-sm font-medium leading-7 text-ink-soft">
             {item.summary}
           </p>
           <div className="space-y-3">
             {tagRow}
             <div className="flex flex-col gap-3 text-xs font-bold leading-5 text-muted sm:flex-row sm:items-center sm:justify-between">
-              <span>
+              <span className="min-w-0">
                 {item.publisher} · {formatDate(item.publishedAt)}
               </span>
-              <a
-                className="focus-ring motion-soft inline-flex w-fit items-center gap-1 font-black text-accent hover:text-ink"
-                href={item.url}
-                rel="noreferrer"
-                target="_blank"
-              >
-                원문
-                <ExternalLink aria-hidden="true" className="size-3.5" />
-              </a>
+              {sourceLink}
             </div>
           </div>
         </div>
@@ -160,7 +150,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
                 ))}
               </div>
             ) : null}
-            <h2 className="font-serif text-xl font-black leading-snug text-ink sm:text-2xl">
+            <h2 className="text-xl font-black leading-snug text-ink sm:text-2xl">
               {item.title}
             </h2>
             <p className="max-w-4xl text-sm font-medium leading-7 text-ink-soft">{item.summary}</p>

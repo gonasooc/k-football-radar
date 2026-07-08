@@ -1,6 +1,6 @@
 "use client";
 
-import { Search, SlidersHorizontal, X } from "lucide-react";
+import { Search, X } from "lucide-react";
 import { useMemo, useState } from "react";
 
 import { filterItems, type FeedTypeFilter } from "@/lib/filter";
@@ -36,40 +36,20 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
     setQuery("");
   };
 
-  const [leadItem, ...remainingItems] = filteredItems;
-  const featuredItems = remainingItems.slice(0, 4);
-  const listItems = remainingItems.slice(4);
+  const hasActiveFilters =
+    typeFilter !== "all" ||
+    issueFilter !== "all" ||
+    personFilter !== "all" ||
+    query.trim() !== "";
+  const gridItems = filteredItems.slice(0, 6);
+  const listItems = filteredItems.slice(6);
 
   return (
     <div className="space-y-6">
-      <div className="border-y border-rule bg-canvas py-4">
-        <div className="mb-4 flex flex-col gap-3 border-b border-line pb-4 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex items-center gap-2">
-            <span className="grid size-9 place-items-center rounded-control border border-rule bg-canvas text-accent">
-              <SlidersHorizontal aria-hidden="true" className="size-4" />
-            </span>
-            <div>
-              <p className="font-serif text-xl font-black text-ink">피드 컨트롤</p>
-              <p className="text-xs font-semibold text-muted">
-                출처, 이슈, 인물, 키워드로 좁혀봅니다.
-              </p>
-            </div>
-          </div>
-          <button
-            className="focus-ring motion-soft inline-flex min-h-11 w-fit items-center gap-2 rounded-control border border-rule bg-canvas px-3 text-xs font-bold text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent"
-            onClick={resetFilters}
-            type="button"
-          >
-            <X aria-hidden="true" className="size-4" />
-            초기화
-          </button>
-        </div>
-
-        <div className="grid gap-3 lg:grid-cols-[1.25fr_0.95fr_0.95fr] xl:grid-cols-[1.35fr_0.9fr_0.9fr_0.85fr]">
+      <div className="border-y border-rule bg-paper/45 px-4 py-4 sm:px-5">
+        <div className="grid gap-3 lg:grid-cols-[1.25fr_0.95fr_0.95fr] xl:grid-cols-[1.35fr_0.9fr_0.9fr_0.85fr_auto]">
           <label className="block">
-            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/50">
-              검색
-            </span>
+            <span className="mb-2 block text-xs font-black text-ink/55">검색</span>
             <span className="relative block">
               <Search
                 aria-hidden="true"
@@ -85,9 +65,7 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
             </span>
           </label>
           <div>
-            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/50">
-              유형
-            </span>
+            <span className="mb-2 block text-xs font-black text-ink/55">유형</span>
             <div className="grid grid-cols-3 overflow-hidden rounded-control border border-rule bg-canvas">
               {[
                 ["all", "전체"],
@@ -110,9 +88,7 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
             </div>
           </div>
           <label className="block">
-            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/50">
-              이슈
-            </span>
+            <span className="mb-2 block text-xs font-black text-ink/55">이슈</span>
             <select
               className="focus-ring h-11 w-full rounded-control border-line bg-canvas text-sm font-bold text-ink"
               onChange={(event) => setIssueFilter(event.target.value)}
@@ -127,9 +103,7 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
             </select>
           </label>
           <label className="block">
-            <span className="mb-2 block text-xs font-black uppercase tracking-[0.16em] text-ink/50">
-              인물
-            </span>
+            <span className="mb-2 block text-xs font-black text-ink/55">인물</span>
             <select
               className="focus-ring h-11 w-full rounded-control border-line bg-canvas text-sm font-bold text-ink"
               onChange={(event) => setPersonFilter(event.target.value)}
@@ -143,26 +117,42 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               ))}
             </select>
           </label>
+          <div className="flex items-end">
+            <button
+              className={`focus-ring motion-soft inline-flex h-11 w-full items-center justify-center gap-2 rounded-control border px-3 text-xs font-bold xl:w-auto ${
+                hasActiveFilters
+                  ? "border-rule bg-canvas text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent"
+                  : "cursor-not-allowed border-line bg-panel-strong text-muted"
+              }`}
+              disabled={!hasActiveFilters}
+              onClick={resetFilters}
+              type="button"
+            >
+              <X aria-hidden="true" className="size-4" />
+              초기화
+            </button>
+          </div>
         </div>
       </div>
       <div className="flex items-center justify-between gap-3 border-y border-line py-3 text-sm font-bold text-ink/60">
         <span className="metric-tabular">표시 항목 {filteredItems.length}개</span>
-        <span>최신순 정렬</span>
+        <span>게시 시각 최신순</span>
       </div>
-      {leadItem ? (
-        <div>
-          <ItemCard item={leadItem} issues={issues} people={people} variant="lead" />
-          {featuredItems.length > 0 ? (
-            <div className="grid gap-0 border-b border-rule md:grid-cols-2 md:divide-x md:divide-line">
-              {featuredItems.map((item) => (
-                <div className="md:px-5 md:first:pl-0 md:last:pr-0" key={item.id}>
-                  <ItemCard item={item} issues={issues} people={people} variant="compact" />
-                </div>
-              ))}
-            </div>
-          ) : null}
+      {filteredItems.length > 0 ? (
+        <div className="space-y-6">
+          <div className="grid gap-x-6 border-b border-rule md:grid-cols-2 xl:grid-cols-3">
+            {gridItems.map((item) => (
+              <ItemCard
+                item={item}
+                issues={issues}
+                key={item.id}
+                people={people}
+                variant="compact"
+              />
+            ))}
+          </div>
           {listItems.length > 0 ? (
-            <div>
+            <div className="border-b border-rule">
               {listItems.map((item) => (
                 <ItemCard item={item} issues={issues} key={item.id} people={people} />
               ))}

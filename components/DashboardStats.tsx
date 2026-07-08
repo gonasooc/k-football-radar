@@ -1,6 +1,5 @@
 import { Archive, Clock3, FileText, Newspaper } from "lucide-react";
 
-import { formatDateTime } from "@/lib/date";
 import type { DashboardStats as DashboardStatsData } from "@/lib/stats";
 
 const statItems = [
@@ -13,12 +12,9 @@ const statItems = [
 export function DashboardStats({ stats }: { stats: DashboardStatsData }) {
   return (
     <section className="border-y border-rule bg-canvas">
-      <div className="flex flex-col gap-1 py-3 sm:flex-row sm:items-center sm:justify-between">
+      <div className="px-1 py-4">
         <p className="text-[11px] font-black uppercase tracking-[0.16em] text-accent">
           레이더 인덱스
-        </p>
-        <p className="text-xs font-bold text-muted">
-          마지막 수집 {formatDateTime(stats.lastCollectedAt)}
         </p>
       </div>
       <div className="grid border-t border-line sm:grid-cols-2 lg:grid-cols-4">
@@ -26,14 +22,14 @@ export function DashboardStats({ stats }: { stats: DashboardStatsData }) {
           const Icon = item.icon;
           return (
             <div
-              className="border-b border-line py-3 sm:odd:border-r lg:border-b-0 lg:border-r lg:last:border-r-0"
+              className="border-b border-line px-4 py-5 sm:px-5 sm:odd:border-r lg:border-b-0 lg:border-r lg:px-6 lg:last:border-r-0"
               key={item.key}
             >
-              <div className="flex items-center gap-2">
-                <Icon aria-hidden="true" className="size-3.5 text-accent" />
+              <div className="flex items-center gap-2.5">
+                <Icon aria-hidden="true" className="size-4 shrink-0 text-accent" />
                 <p className="text-xs font-black text-ink-soft">{item.label}</p>
               </div>
-              <p className="metric-tabular mt-2 font-serif text-3xl font-black leading-none text-ink">
+              <p className="metric-tabular mt-3 text-3xl font-black leading-none text-ink">
                 {stats[item.key]}
               </p>
               <p className="mt-2 text-xs font-semibold text-muted">

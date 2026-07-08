@@ -51,7 +51,7 @@ export default function DashboardPage() {
 
         <aside className="border-t border-rule pt-5 lg:border-l lg:border-t-0 lg:pl-6 lg:pt-0">
           <div className="flex items-center justify-between gap-3">
-            <h2 className="font-serif text-2xl font-black text-ink">브리핑</h2>
+            <h2 className="text-2xl font-black text-ink">브리핑</h2>
             <RadioTower aria-hidden="true" className="size-5 text-accent" />
           </div>
 
@@ -99,7 +99,7 @@ export default function DashboardPage() {
             <p className="text-[11px] font-black uppercase tracking-[0.16em] text-accent">
               최신 큐
             </p>
-            <h2 className="mt-1 font-serif text-2xl font-black text-ink">최신 수집 항목</h2>
+            <h2 className="mt-1 text-2xl font-black text-ink">최신 수집 항목</h2>
           </div>
           <Link
             className="focus-ring motion-soft inline-flex min-h-11 items-center gap-2 rounded-control border border-rule bg-canvas px-3 py-2 text-sm font-black text-ink hover:border-accent-soft hover:bg-blush hover:text-accent"

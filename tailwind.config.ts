@@ -23,20 +23,7 @@ const config: Config = {
         warning: "oklch(62% 0.12 78)"
       },
       fontFamily: {
-        sans: [
-          "Pretendard",
-          "SUIT",
-          "Apple SD Gothic Neo",
-          "Malgun Gothic",
-          "sans-serif"
-        ],
-        serif: [
-          "Georgia",
-          "Iowan Old Style",
-          "Times New Roman",
-          "Noto Serif KR",
-          "serif"
-        ]
+        sans: ["Pretendard", "sans-serif"]
       },
       boxShadow: {
         panel: "0 18px 48px oklch(20% 0.012 70 / 0.055)",

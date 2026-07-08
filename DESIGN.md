@@ -19,31 +19,31 @@ colors:
   warning: "oklch(62% 0.12 78)"
 typography:
   display:
-    fontFamily: "Georgia, Iowan Old Style, Times New Roman, Noto Serif KR, serif"
+    fontFamily: "Pretendard, sans-serif"
     fontSize: "3rem"
     fontWeight: 900
     lineHeight: 1.15
     letterSpacing: "0"
   headline:
-    fontFamily: "Georgia, Iowan Old Style, Times New Roman, Noto Serif KR, serif"
+    fontFamily: "Pretendard, sans-serif"
     fontSize: "1.5rem"
     fontWeight: 900
     lineHeight: 1.25
     letterSpacing: "0"
   title:
-    fontFamily: "Georgia, Iowan Old Style, Times New Roman, Noto Serif KR, serif"
+    fontFamily: "Pretendard, sans-serif"
     fontSize: "1.125rem"
     fontWeight: 900
     lineHeight: 1.35
     letterSpacing: "0"
   body:
-    fontFamily: "Pretendard, SUIT, Apple SD Gothic Neo, Malgun Gothic, sans-serif"
+    fontFamily: "Pretendard, sans-serif"
     fontSize: "0.875rem"
     fontWeight: 500
     lineHeight: 1.75
     letterSpacing: "0"
   label:
-    fontFamily: "Pretendard, SUIT, Apple SD Gothic Neo, Malgun Gothic, sans-serif"
+    fontFamily: "Pretendard, sans-serif"
     fontSize: "0.6875rem"
     fontWeight: 900
     lineHeight: 1.2
@@ -89,7 +89,7 @@ components:
 
 **Creative North Star: "The Football Front Page"**
 
-The UI should resemble a clean digital newspaper front page: centered masthead, thin section rules, serif headlines, varied story scale, compact briefs, and content-first hierarchy. The reference is closer to a newspaper homepage than a sports scoreboard or SaaS dashboard.
+The UI should resemble a clean digital newspaper front page: centered masthead, thin section rules, strong Pretendard headlines, varied story scale, compact briefs, and content-first hierarchy. The reference is closer to a newspaper homepage than a sports scoreboard or SaaS dashboard.
 
 The system must prioritize readability. Titles, summaries, source names, dates, filters, and original links should be immediately legible on desktop and mobile. Decorative sports motifs, dark hero sections, and large metric showpieces are not part of this direction.
 
@@ -97,7 +97,7 @@ The system must prioritize readability. Titles, summaries, source names, dates, 
 
 - White canvas with subtle gray surfaces.
 - Centered masthead and horizontal section navigation.
-- Serif headline typography with sans-serif metadata and controls.
+- Pretendard typography across headlines, metadata, and controls.
 - Lead story, compact secondary stories, and row entries on the same page.
 - Red accent used sparingly for brand, actions, and emphasis.
 - Neutral, source-first news language.
@@ -131,19 +131,19 @@ The palette is quiet and editorial: warm white, gray rules, black-brown ink, and
 
 ## 3. Typography
 
-**Display Font:** Georgia, Iowan Old Style, Times New Roman, Noto Serif KR, serif
-**Headline Font:** Georgia, Iowan Old Style, Times New Roman, Noto Serif KR, serif
-**Body Font:** Pretendard, SUIT, Apple SD Gothic Neo, Malgun Gothic, sans-serif
+**Display Font:** Pretendard, sans-serif
+**Headline Font:** Pretendard, sans-serif
+**Body Font:** Pretendard, sans-serif
 **Label/Mono Font:** same family with tabular numeric styling for counts and dates.
 
-**Character:** Korean readability comes first. Use serif type for masthead and article headlines, but keep summaries, metadata, filters, and controls in the sans family for dense scanning.
+**Character:** Korean readability comes first. Use Pretendard for every live text role: headings, summaries, metadata, filters, controls, and numbers.
 
 ### Hierarchy
 
-- **Display** (serif, 900, 3rem, 1.15): masthead and major page titles.
-- **Lead Headline** (serif, 900, 2.25rem, 1.15): front page lead story.
-- **Headline** (serif, 900, 1.5rem, 1.25): section headings and compact story titles.
-- **Title** (serif, 900, 1.125rem, 1.35): article row names.
+- **Display** (Pretendard, 900, 3rem, 1.15): masthead and major page titles.
+- **Lead Headline** (Pretendard, 900, 2.25rem, 1.15): front page lead story.
+- **Headline** (Pretendard, 900, 1.5rem, 1.25): section headings and compact story titles.
+- **Title** (Pretendard, 900, 1.125rem, 1.35): article row names.
 - **Body** (500, 0.875rem, 1.75): summaries and descriptions.
 - **Label** (900, 0.6875rem, 0.18em uppercase): table headers and section kickers.
 
@@ -176,7 +176,7 @@ Elevation is minimal. The interface relies on rules, spacing, and tonal contrast
 
 ### Article Blocks
 
-- **Lead:** full-width ruled article block with a large serif headline, summary, tags, metadata, and original link.
+- **Lead:** full-width ruled article block with a large high-weight headline, summary, tags, metadata, and original link.
 - **Compact:** ruled secondary block for scanning multiple stories without identical cards.
 - **Row:** metadata column plus article body for dense lists.
 - **Corner Style:** article blocks generally use no visible rounding. Controls use 4px and chips use 3px.
