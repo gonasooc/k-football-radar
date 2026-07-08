@@ -84,7 +84,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
   }
 
   return (
-    <article className="radar-list-item motion-soft border-t border-line py-4 hover:bg-paper">
+    <article className="radar-list-item motion-soft border-t border-line py-4">
       <div className="grid gap-4 md:grid-cols-[150px_1fr]">
         <aside>
           <div className="flex flex-wrap items-center gap-2 md:flex-col md:items-start">
