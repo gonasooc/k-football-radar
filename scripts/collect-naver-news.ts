@@ -26,6 +26,12 @@ type NewsCandidateClassification = {
   relevanceScore: number;
 };
 
+type NewsCandidateInput = {
+  title?: string;
+  summary?: string;
+  classification: NewsCandidateClassification;
+};
+
 export const DEFAULT_NAVER_QUERY_DELAY_MS = 800;
 export const MAX_NAVER_SEARCH_QUERIES = 100;
 export const NAVER_NEWS_DISPLAY_COUNT = 40;
@@ -49,6 +55,26 @@ const GENERIC_ASSOCIATION_KEYWORDS = new Set([
   "축구협회",
   "축구협회장"
 ]);
+
+const KOREAN_FOOTBALL_CONTEXT_KEYWORDS = [
+  "대한축구협회",
+  "대한 축구협회",
+  "대한축구협회장",
+  "대한 축구협회장",
+  "KFA",
+  "K-축구혁신위원회",
+  "축구혁신위",
+  "한국 축구",
+  "한국축구",
+  "대한민국 축구",
+  "대한민국 대표팀"
+];
+
+const FOREIGN_FOOTBALL_CONTEXT_PATTERNS = [
+  /(?:독일|이탈리아|일본|이집트|포르투갈|스페인|프랑스|잉글랜드|브라질|아르헨티나|네덜란드|벨기에|크로아티아|튀르키예|터키|미국|멕시코|캐나다|호주|중국|베트남|태국|인도네시아|말레이시아|사우디|카타르|이라크|이란|우즈베키스탄|북한)\s*(?:축구협회|대표팀|국가대표|사령탑|감독)/u,
+  /\b(?:DFB|JFA|FIGC|EFA)\b/u,
+  /전차\s*군단/u
+];
 
 function stableItemId(url: string): string {
   return `item_${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
@@ -112,13 +138,26 @@ async function fetchNaverNews(query: string): Promise<NaverNewsItem[]> {
   return data.items ?? [];
 }
 
+function hasKoreanFootballContext(text: string): boolean {
+  return KOREAN_FOOTBALL_CONTEXT_KEYWORDS.some((keyword) => text.includes(keyword));
+}
+
+function hasForeignFootballContext(text: string): boolean {
+  return FOREIGN_FOOTBALL_CONTEXT_PATTERNS.some((pattern) => pattern.test(text));
+}
+
 export function shouldKeepNewsCandidate({
+  title,
+  summary,
   classification
-}: {
-  classification: NewsCandidateClassification;
-}): boolean {
+}: NewsCandidateInput): boolean {
   if (classification.personTags.length > 0) {
     return true;
+  }
+
+  const text = `${title ?? ""} ${summary ?? ""}`;
+  if (text && hasForeignFootballContext(text) && !hasKoreanFootballContext(text)) {
+    return false;
   }
 
   const hasOnlyGenericAssociationKeywords =
@@ -147,6 +186,8 @@ export function filterNewsItemsForCollection(items: RadarItem[]): RadarItem[] {
     (item) =>
       item.sourceType !== "news" ||
       shouldKeepNewsCandidate({
+        title: item.title,
+        summary: item.summary,
         classification: item
       })
   );
@@ -193,7 +234,7 @@ export async function collectNaverNews({
           isOfficial: false
         });
 
-        if (!shouldKeepNewsCandidate({ classification })) {
+        if (!shouldKeepNewsCandidate({ title, summary, classification })) {
           continue;
         }
 

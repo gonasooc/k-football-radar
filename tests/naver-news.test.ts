@@ -109,6 +109,24 @@ describe("shouldKeepNewsCandidate", () => {
       false
     );
   });
+
+  it("rejects foreign national team coaching articles matched by generic association keywords", () => {
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title:
+          "'HERE WE GO'에 '오피셜'만 남았다…클롭, '전차 군단' 독일 대표팀 사령탑 부임 임박",
+        summary:
+          "글로벌 매체 '디 애슬래틱'은 클롭 감독과 독일 축구협회가 차기 사령탑 자리를 두고 논의한다고 전했다.",
+        classification: {
+          issueTags: ["youth-governance"],
+          personTags: [],
+          matchedKeywords: ["축구협회", "지도자"],
+          relevanceScore: 20
+        }
+      }),
+      false
+    );
+  });
 });
 
 describe("getNaverQueryDelayMs", () => {

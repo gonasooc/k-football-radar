@@ -62,10 +62,10 @@ export function AppNav() {
   return (
     <>
       <nav
-        className="-mx-4 overflow-x-auto border-t border-rule sm:mx-0"
+        className="overflow-x-auto border-t border-rule px-4 sm:px-0"
         aria-label="주요 화면"
       >
-        <div className="mx-auto flex min-h-11 w-full max-w-7xl items-center gap-5 px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto flex min-h-11 w-full max-w-7xl items-center gap-5 sm:px-6 lg:px-8">
           {links}
         </div>
       </nav>

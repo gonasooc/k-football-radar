@@ -8,7 +8,7 @@ type ItemCardProps = {
   item: RadarItem;
   issues: Issue[];
   people: Person[];
-  variant?: "row" | "lead" | "compact";
+  variant?: "row" | "compact";
 };
 
 export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProps) {
@@ -26,7 +26,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
   const badgeRow = (
     <div className="flex flex-wrap items-center gap-2">
       <SourceBadge item={item} />
-      {item.labels?.slice(0, variant === "lead" ? 4 : 2).map((label) => (
+      {item.labels?.slice(0, 2).map((label) => (
         <span
           className="inline-flex items-center rounded-chip border border-line bg-paper px-2 py-1 text-xs font-semibold text-muted"
           key={label}
@@ -60,45 +60,16 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
     </a>
   );
 
-  if (variant === "lead") {
-    return (
-      <article className="radar-list-item border-y border-rule py-5">
-        <div className="flex flex-col gap-4">
-          {badgeRow}
-          <div>
-            <h2 className="max-w-3xl text-3xl font-black leading-tight text-ink sm:text-4xl">
-              {item.title}
-            </h2>
-            <p className="mt-4 max-w-3xl text-base font-medium leading-8 text-ink-soft">
-              {item.summary}
-            </p>
-          </div>
-          <div className="flex flex-col gap-4 border-t border-line pt-4 lg:flex-row lg:items-end lg:justify-between">
-            <div className="space-y-3">
-              {tagRow}
-              <p className="text-xs font-bold leading-5 text-muted">
-                {item.publisher} · {formatDate(item.publishedAt)} · 수집{" "}
-                {formatDateTime(item.collectedAt)} · 관련도{" "}
-                <span className="metric-tabular text-ink">{item.relevanceScore}</span>
-              </p>
-            </div>
-            {sourceLink}
-          </div>
-        </div>
-      </article>
-    );
-  }
-
   if (variant === "compact") {
     return (
-      <article className="radar-list-item border-t border-line py-4">
-        <div className="space-y-3">
+      <article className="radar-list-item h-full border-t border-line py-4">
+        <div className="flex h-full flex-col gap-3">
           {badgeRow}
           <h2 className="text-xl font-black leading-snug text-ink">{item.title}</h2>
           <p className="line-clamp-3 text-sm font-medium leading-7 text-ink-soft">
             {item.summary}
           </p>
-          <div className="space-y-3">
+          <div className="mt-auto space-y-3">
             {tagRow}
             <div className="flex flex-col gap-3 text-xs font-bold leading-5 text-muted sm:flex-row sm:items-center sm:justify-between">
               <span className="min-w-0">

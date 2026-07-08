@@ -15,9 +15,8 @@ export default function DashboardPage() {
     people: data.people,
     collectionState: data.collectionState
   });
-  const [leadItem, ...remainingItems] = stats.latestItems;
-  const secondaryItems = remainingItems.slice(0, 4);
-  const moreItems = remainingItems.slice(4, 10);
+  const latestGridItems = stats.latestItems.slice(0, 5);
+  const moreItems = stats.latestItems.slice(5, 11);
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
@@ -30,15 +29,9 @@ export default function DashboardPage() {
         <DashboardStats stats={stats} />
       </div>
 
-      <section className="mt-6 grid gap-6 border-b border-rule pb-6 lg:grid-cols-[1.35fr_0.95fr_0.7fr]">
-        <div className="lg:border-r lg:border-line lg:pr-6">
-          {leadItem ? (
-            <ItemCard item={leadItem} issues={data.issues} people={data.people} variant="lead" />
-          ) : null}
-        </div>
-
-        <div className="grid gap-x-5 md:grid-cols-2 lg:block lg:space-y-0 lg:divide-y lg:divide-line">
-          {secondaryItems.map((item) => (
+      <section className="mt-6 grid gap-6 border-b border-rule pb-6 lg:grid-cols-[1fr_280px] xl:grid-cols-[1fr_320px]">
+        <div className="grid auto-rows-fr gap-x-5 md:grid-cols-2 xl:grid-cols-3">
+          {latestGridItems.map((item) => (
             <ItemCard
               item={item}
               issues={data.issues}
@@ -110,7 +103,7 @@ export default function DashboardPage() {
           </Link>
         </div>
 
-        <div className="grid gap-x-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid auto-rows-fr gap-x-6 md:grid-cols-2 lg:grid-cols-3">
           {moreItems.map((item) => (
             <ItemCard
               item={item}
