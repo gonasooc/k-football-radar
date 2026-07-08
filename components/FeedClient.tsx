@@ -1,12 +1,16 @@
 "use client";
 
 import { Search, X } from "lucide-react";
-import { useMemo, useState } from "react";
+import { memo, useEffect, useMemo, useState } from "react";
 
 import { filterItems, type FeedTypeFilter } from "@/lib/filter";
 import type { Issue, Person, RadarItem } from "@/lib/schema";
 import { EmptyState } from "./EmptyState";
 import { ItemCard } from "./ItemCard";
+
+const SEARCH_DEBOUNCE_MS = 250;
+const FEED_PAGE_SIZE = 30;
+const MemoizedItemCard = memo(ItemCard);
 
 type FeedClientProps = {
   items: RadarItem[];
@@ -18,7 +22,20 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
   const [typeFilter, setTypeFilter] = useState<FeedTypeFilter>("all");
   const [issueFilter, setIssueFilter] = useState("all");
   const [personFilter, setPersonFilter] = useState("all");
+  const [searchInput, setSearchInput] = useState("");
   const [query, setQuery] = useState("");
+  const [visibleCount, setVisibleCount] = useState(FEED_PAGE_SIZE);
+
+  useEffect(() => {
+    const timeoutId = window.setTimeout(() => {
+      setVisibleCount(FEED_PAGE_SIZE);
+      setQuery(searchInput);
+    }, SEARCH_DEBOUNCE_MS);
+
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
+  }, [searchInput]);
 
   const filteredItems = useMemo(() => {
     return filterItems(items, {
@@ -33,16 +50,21 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
     setTypeFilter("all");
     setIssueFilter("all");
     setPersonFilter("all");
+    setSearchInput("");
     setQuery("");
+    setVisibleCount(FEED_PAGE_SIZE);
   };
 
   const hasActiveFilters =
     typeFilter !== "all" ||
     issueFilter !== "all" ||
     personFilter !== "all" ||
+    searchInput.trim() !== "" ||
     query.trim() !== "";
-  const gridItems = filteredItems.slice(0, 6);
-  const listItems = filteredItems.slice(6);
+  const visibleItems = filteredItems.slice(0, visibleCount);
+  const gridItems = visibleItems.slice(0, 6);
+  const listItems = visibleItems.slice(6);
+  const hasMoreItems = visibleItems.length < filteredItems.length;
 
   return (
     <div className="space-y-6">
@@ -57,10 +79,10 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               />
               <input
                 className="focus-ring h-11 w-full rounded-control border-line bg-canvas pl-10 text-sm font-semibold text-ink placeholder:text-muted"
-                onChange={(event) => setQuery(event.target.value)}
+                onChange={(event) => setSearchInput(event.target.value)}
                 placeholder="제목, 출처, 키워드"
                 type="search"
-                value={query}
+                value={searchInput}
               />
             </span>
           </label>
@@ -79,7 +101,10 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
                       : "text-ink/60 hover:bg-panel-strong hover:text-ink"
                   }`}
                   key={value}
-                  onClick={() => setTypeFilter(value as FeedTypeFilter)}
+                  onClick={() => {
+                    setVisibleCount(FEED_PAGE_SIZE);
+                    setTypeFilter(value as FeedTypeFilter);
+                  }}
                   type="button"
                 >
                   {label}
@@ -91,7 +116,10 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
             <span className="mb-2 block text-xs font-black text-ink/55">이슈</span>
             <select
               className="focus-ring h-11 w-full rounded-control border-line bg-canvas text-sm font-bold text-ink"
-              onChange={(event) => setIssueFilter(event.target.value)}
+              onChange={(event) => {
+                setVisibleCount(FEED_PAGE_SIZE);
+                setIssueFilter(event.target.value);
+              }}
               value={issueFilter}
             >
               <option value="all">전체</option>
@@ -106,7 +134,10 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
             <span className="mb-2 block text-xs font-black text-ink/55">인물</span>
             <select
               className="focus-ring h-11 w-full rounded-control border-line bg-canvas text-sm font-bold text-ink"
-              onChange={(event) => setPersonFilter(event.target.value)}
+              onChange={(event) => {
+                setVisibleCount(FEED_PAGE_SIZE);
+                setPersonFilter(event.target.value);
+              }}
               value={personFilter}
             >
               <option value="all">전체</option>
@@ -135,14 +166,16 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
         </div>
       </div>
       <div className="flex items-center justify-between gap-3 py-1 text-sm font-bold text-ink/60">
-        <span className="metric-tabular">표시 항목 {filteredItems.length}개</span>
+        <span className="metric-tabular">
+          표시 항목 {visibleItems.length} / 검색 결과 {filteredItems.length}개
+        </span>
         <span>게시 시각 최신순</span>
       </div>
       {filteredItems.length > 0 ? (
         <div className="space-y-6">
           <div className="grid gap-x-6 border-b border-rule md:grid-cols-2 xl:grid-cols-3">
             {gridItems.map((item) => (
-              <ItemCard
+              <MemoizedItemCard
                 item={item}
                 issues={issues}
                 key={item.id}
@@ -154,8 +187,23 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
           {listItems.length > 0 ? (
             <div className="border-b border-rule">
               {listItems.map((item) => (
-                <ItemCard item={item} issues={issues} key={item.id} people={people} />
+                <MemoizedItemCard item={item} issues={issues} key={item.id} people={people} />
               ))}
+            </div>
+          ) : null}
+          {hasMoreItems ? (
+            <div className="flex justify-center">
+              <button
+                className="focus-ring motion-soft min-h-11 rounded-control border border-rule bg-canvas px-4 text-sm font-black text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent"
+                onClick={() =>
+                  setVisibleCount((current) =>
+                    Math.min(current + FEED_PAGE_SIZE, filteredItems.length)
+                  )
+                }
+                type="button"
+              >
+                더보기
+              </button>
             </div>
           ) : null}
         </div>

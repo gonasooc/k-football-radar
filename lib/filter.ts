@@ -13,10 +13,22 @@ export function filterItems(items: RadarItem[], filters: FeedFilters): RadarItem
   const normalizedQuery = filters.query.trim().toLocaleLowerCase("ko-KR");
 
   return items.filter((item) => {
-    const matchesType = filters.type === "all" || item.sourceType === filters.type;
-    const matchesIssue = filters.issueId === "all" || item.issueTags.includes(filters.issueId);
-    const matchesPerson =
-      filters.personId === "all" || item.personTags.includes(filters.personId);
+    if (filters.type !== "all" && item.sourceType !== filters.type) {
+      return false;
+    }
+
+    if (filters.issueId !== "all" && !item.issueTags.includes(filters.issueId)) {
+      return false;
+    }
+
+    if (filters.personId !== "all" && !item.personTags.includes(filters.personId)) {
+      return false;
+    }
+
+    if (normalizedQuery.length === 0) {
+      return true;
+    }
+
     const searchText = [
       item.title,
       item.summary,
@@ -26,8 +38,7 @@ export function filterItems(items: RadarItem[], filters: FeedFilters): RadarItem
     ]
       .join(" ")
       .toLocaleLowerCase("ko-KR");
-    const matchesQuery = normalizedQuery.length === 0 || searchText.includes(normalizedQuery);
 
-    return matchesType && matchesIssue && matchesPerson && matchesQuery;
+    return searchText.includes(normalizedQuery);
   });
 }
