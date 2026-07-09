@@ -21,17 +21,9 @@ export default function DashboardPage() {
         <DashboardStats stats={stats} />
       </div>
 
-      <section className="mt-6">
-        <div className="flex flex-col gap-3 border-rule sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <h1 className="text-3xl font-black text-ink sm:text-4xl">최신 기사</h1>
-          </div>
-        </div>
-
-        <div className="mt-5">
-          <FeedClient items={data.items} issues={data.issues} people={data.people} />
-        </div>
-      </section>
+      <div className="mt-4">
+        <FeedClient items={data.items} issues={data.issues} people={data.people} />
+      </div>
     </div>
   );
 }

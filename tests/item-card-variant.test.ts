@@ -91,6 +91,7 @@ describe("ItemCard variants", () => {
     assert.equal(homePageSource.includes("latestGridItems"), false);
     assert.equal(homePageSource.includes("moreItems"), false);
     assert.equal(homePageSource.includes("최신 큐"), false);
+    assert.equal(homePageSource.includes("최신 기사"), false);
     assert.equal(homePageSource.includes("전체 피드"), false);
 
     assert.match(homePageSource, /<FeedClient/);
