@@ -1,23 +1,15 @@
-import { describe, it } from "node:test";
+import { describe, it, mock } from "node:test";
 import assert from "node:assert/strict";
 
 import {
-  ARTICLE_TITLE_RESOLUTION_CONCURRENCY,
-  ARTICLE_TITLE_TIMEOUT_MS,
+  collectNaverNews,
   DEFAULT_NAVER_QUERY_DELAY_MS,
-  MAX_ARTICLE_TITLE_RESOLUTIONS,
   NAVER_NEWS_TIMEOUT_MS,
-  extractArticleTitle,
   filterNewsItemsForCollection,
-  getArticleTitleResolutionConcurrency,
-  getArticleTitleTimeoutMs,
-  getMaxArticleTitleResolutions,
   getNewsCandidateRelevanceTier,
   getNaverFetchTimeoutMs,
   getNaverQueryDelayMs,
   getNaverSearchQueries,
-  pickArticleTitle,
-  shouldResolveArticleTitle,
   shouldKeepNewsCandidate
 } from "../scripts/collect-naver-news";
 import type { Issue, Person, RadarItem } from "../lib/schema";
@@ -452,77 +444,88 @@ describe("getNaverQueryDelayMs", () => {
   });
 });
 
-describe("collector timeout and title resolution settings", () => {
-  it("uses bounded defaults for external fetches and title resolution", () => {
+describe("collector timeout settings", () => {
+  it("uses bounded defaults for external fetches", () => {
     assert.equal(getNaverFetchTimeoutMs(undefined), NAVER_NEWS_TIMEOUT_MS);
     assert.equal(getNaverFetchTimeoutMs("5000"), 5000);
     assert.equal(getNaverFetchTimeoutMs("99999"), NAVER_NEWS_TIMEOUT_MS);
-
-    assert.equal(getArticleTitleTimeoutMs(undefined), ARTICLE_TITLE_TIMEOUT_MS);
-    assert.equal(getArticleTitleTimeoutMs("1000"), 1000);
-    assert.equal(getArticleTitleTimeoutMs("100"), ARTICLE_TITLE_TIMEOUT_MS);
-
-    assert.equal(getMaxArticleTitleResolutions(undefined), MAX_ARTICLE_TITLE_RESOLUTIONS);
-    assert.equal(getMaxArticleTitleResolutions("0"), 0);
-    assert.equal(getMaxArticleTitleResolutions("40"), 40);
-    assert.equal(getMaxArticleTitleResolutions("99999"), MAX_ARTICLE_TITLE_RESOLUTIONS);
-
-    assert.equal(
-      getArticleTitleResolutionConcurrency(undefined),
-      ARTICLE_TITLE_RESOLUTION_CONCURRENCY
-    );
-    assert.equal(getArticleTitleResolutionConcurrency("4"), 4);
-    assert.equal(
-      getArticleTitleResolutionConcurrency("0"),
-      ARTICLE_TITLE_RESOLUTION_CONCURRENCY
-    );
   });
 });
 
-describe("article title resolution", () => {
-  it("resolves only likely truncated API titles", () => {
-    assert.equal(shouldResolveArticleTitle("홍명보 감독 선임 논란"), false);
-    assert.equal(
-      shouldResolveArticleTitle("“나중에 다 밝혀질 것!” 미국으로 떠난 홍명보 감독..."),
-      true
+describe("collectNaverNews", () => {
+  it("keeps the Naver API title without resolving ellipsis from the source article", async () => {
+    const envBackup = {
+      NAVER_CLIENT_ID: process.env.NAVER_CLIENT_ID,
+      NAVER_CLIENT_SECRET: process.env.NAVER_CLIENT_SECRET,
+      NAVER_QUERY_DELAY_MS: process.env.NAVER_QUERY_DELAY_MS
+    };
+    const apiTitle = "대한축구협회, 대표팀 감독 선임 절차 개선 논의...";
+    const originalUrl = "https://news.example.com/article/1";
+    const fetchCalls: string[] = [];
+    const fetchMock = mock.method(
+      globalThis,
+      "fetch",
+      async (input: string | URL | Request): Promise<Response> => {
+        const url =
+          typeof input === "string" ? input : input instanceof URL ? input.toString() : input.url;
+        fetchCalls.push(url);
+
+        if (!url.startsWith("https://openapi.naver.com/")) {
+          throw new Error(`Unexpected source article fetch: ${url}`);
+        }
+
+        return new Response(
+          JSON.stringify({
+            items: [
+              {
+                title: apiTitle,
+                originallink: originalUrl,
+                link: "https://n.news.naver.com/mnews/article/001/0000000001",
+                description:
+                  "대한축구협회와 전력강화위원회가 대표팀 감독 선임 절차 개선 방안을 논의했다.",
+                pubDate: new Date().toUTCString()
+              }
+            ]
+          }),
+          {
+            status: 200,
+            headers: { "content-type": "application/json" }
+          }
+        );
+      }
     );
-    assert.equal(shouldResolveArticleTitle("월드컵 탈락 후폭풍…"), true);
-  });
 
-  it("extracts article titles from common metadata fields", () => {
-    assert.equal(
-      extractArticleTitle(
-        '<html><head><meta property="og:title" content="원문 기사 전체 제목"></head></html>'
-      ),
-      "원문 기사 전체 제목"
-    );
+    try {
+      process.env.NAVER_CLIENT_ID = "test-client-id";
+      process.env.NAVER_CLIENT_SECRET = "test-client-secret";
+      process.env.NAVER_QUERY_DELAY_MS = "0";
 
-    assert.equal(
-      extractArticleTitle(
-        '<script type="application/ld+json">{"@type":"NewsArticle","headline":"JSON-LD 기사 제목"}</script>'
-      ),
-      "JSON-LD 기사 제목"
-    );
-  });
+      const items = await collectNaverNews({
+        issues: [
+          {
+            id: "coach-appointment",
+            name: "감독 선임",
+            description: "대표팀 감독 선임 관련 이슈",
+            keywords: ["감독 선임", "대표팀 감독", "전력강화위원회"],
+            priority: 1
+          }
+        ],
+        people: []
+      });
 
-  it("uses a longer source title only when it expands the API prefix", () => {
-    const apiTitle = "'국제 망신' 韓 월드컵 망치고 남몰래 도주→역시 '비난 세례' 못 피했다...";
-    const fullTitle =
-      "'국제 망신' 韓 월드컵 망치고 남몰래 도주→역시 '비난 세례' 못 피했다, 끝내 사과 없이 출국";
-
-    assert.equal(pickArticleTitle(apiTitle, `${fullTitle} | 스타뉴스`), fullTitle);
-    assert.equal(pickArticleTitle(apiTitle, "전혀 다른 기사 제목"), apiTitle);
-    assert.equal(pickArticleTitle("이미 완성된 기사 제목", fullTitle), "이미 완성된 기사 제목");
-  });
-
-  it("keeps inline title text together after source metadata extraction", () => {
-    assert.equal(
-      pickArticleTitle(
-        "대륜고 축구...",
-        "<b>대륜고</b> 축구부, 지역리그 전승 우승 | 테스트뉴스"
-      ),
-      "대륜고 축구부, 지역리그 전승 우승"
-    );
+      assert.equal(items.length, 1);
+      assert.equal(items[0].title, apiTitle);
+      assert.ok(fetchCalls.every((url) => url.startsWith("https://openapi.naver.com/")));
+    } finally {
+      fetchMock.mock.restore();
+      for (const [key, value] of Object.entries(envBackup)) {
+        if (value === undefined) {
+          delete process.env[key];
+        } else {
+          process.env[key] = value;
+        }
+      }
+    }
   });
 });
 
