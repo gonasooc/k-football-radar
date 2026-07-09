@@ -2,8 +2,7 @@ name: Collect Korea Football Radar Data
 
 on:
   schedule:
-    - cron: "31 * * * *"
-      timezone: "Asia/Seoul"
+    - cron: "47 * * * *"
   workflow_dispatch:
 
 permissions:
