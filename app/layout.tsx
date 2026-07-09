@@ -5,9 +5,52 @@ import Link from "next/link";
 import { AppNav } from "@/components/AppNav";
 import "./globals.css";
 
+const siteName = "Korea Football Radar";
+const siteDescription = "한국축구 이슈 뉴스와 공식자료 메타데이터를 모아 보는 정보 레이더";
+const openGraphImage = {
+  url: "/brand/korea-football-radar-og.png",
+  width: 800,
+  height: 800,
+  alt: siteName
+};
+
+function getSiteUrl() {
+  const explicitSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  if (explicitSiteUrl) {
+    return explicitSiteUrl;
+  }
+
+  const productionUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
+  if (productionUrl) {
+    return `https://${productionUrl}`;
+  }
+
+  const vercelUrl = process.env.VERCEL_URL?.trim();
+  if (vercelUrl) {
+    return `https://${vercelUrl}`;
+  }
+
+  return "http://localhost:3000";
+}
+
 export const metadata: Metadata = {
-  title: "Korea Football Radar",
-  description: "한국축구 이슈 뉴스와 공식자료 메타데이터를 모아 보는 정보 레이더"
+  metadataBase: new URL(getSiteUrl()),
+  title: siteName,
+  description: siteDescription,
+  openGraph: {
+    title: siteName,
+    description: siteDescription,
+    type: "website",
+    locale: "ko_KR",
+    siteName,
+    images: [openGraphImage]
+  },
+  twitter: {
+    card: "summary",
+    title: siteName,
+    description: siteDescription,
+    images: [openGraphImage]
+  }
 };
 
 export default function RootLayout({
