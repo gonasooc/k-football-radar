@@ -58,7 +58,7 @@ export default async function TrackingPage({ searchParams }: TrackingPageProps) 
             })}
           </div>
         }
-        description="이슈와 인물을 하나의 추적 화면에서 전환해 보고, 관련 기사와 공식자료 상세로 바로 이동합니다."
+        description="이슈와 인물 중심으로 관련 기사와 공식자료를 확인합니다."
         title="트래킹"
       />
 

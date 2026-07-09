@@ -16,7 +16,7 @@ export default function SourcesPage() {
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <SectionHeader
-        description="공식자료 감시 대상과 뉴스 API 기반 수집 방식을 공개하고, 수집된 원문 출처를 확인합니다."
+        description="수집 대상을 공개하고, 수집 항목의 원문 출처를 확인합니다."
         title="출처 아카이브"
       />
 
