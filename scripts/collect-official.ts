@@ -4,6 +4,7 @@ import * as cheerio from "cheerio";
 
 import { classifyItemText } from "../lib/classify";
 import { dedupeItems } from "../lib/dedupe";
+import { applyItemRetentionPolicy } from "../lib/item-retention";
 import { normalizePublisher, stripHtml, truncateSummary } from "../lib/normalize";
 import type { Issue, Person, RadarItem, Source } from "../lib/schema";
 import { readIssues, readItems, readPeople, readSources, writeItems } from "./data-io";
@@ -23,6 +24,7 @@ type OfficialLinkCandidate = {
 };
 
 const MAX_OFFICIAL_ITEMS_PER_SOURCE = 20;
+export const OFFICIAL_SOURCE_TIMEOUT_MS = 10000;
 
 const FOOTBALL_CONTEXT_KEYWORDS = [
   "대한축구협회",
@@ -44,6 +46,21 @@ const SPORTS_BBS_VIEW_PATTERN = /bbsView\(\s*['"]?(\d+)['"]?\s*\)/u;
 
 function stableItemId(url: string): string {
   return `item_${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
+}
+
+export function getOfficialSourceTimeoutMs(
+  value = process.env.OFFICIAL_SOURCE_TIMEOUT_MS
+): number {
+  if (!value) {
+    return OFFICIAL_SOURCE_TIMEOUT_MS;
+  }
+
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed < 1000 || parsed > 30000) {
+    return OFFICIAL_SOURCE_TIMEOUT_MS;
+  }
+
+  return parsed;
 }
 
 export function resolveSourceUrl(href: string, baseUrl: string): string | null {
@@ -260,7 +277,8 @@ async function collectOfficialSource({
   const response = await fetch(source.url, {
     headers: {
       "User-Agent": "KoreaFootballRadar/0.1 metadata monitor"
-    }
+    },
+    signal: AbortSignal.timeout(getOfficialSourceTimeoutMs())
   });
 
   if (!response.ok) {
@@ -344,7 +362,7 @@ async function run(): Promise<void> {
     readPeople()
   ]);
   const collected = await collectOfficialSources({ sources, issues, people });
-  await writeItems(dedupeItems([...items, ...collected]));
+  await writeItems(applyItemRetentionPolicy(dedupeItems([...items, ...collected])));
   console.log(`Official collector merged ${collected.length} candidate items`);
 }
 

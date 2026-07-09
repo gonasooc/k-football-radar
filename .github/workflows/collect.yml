@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: collect-radar-data
+  cancel-in-progress: false
+
 jobs:
   collect:
     runs-on: ubuntu-latest
@@ -44,5 +48,17 @@ jobs:
           git config user.name "korea-football-radar-bot"
           git config user.email "korea-football-radar-bot@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || git commit -m "Update radar data"
-          git push
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+            exit 0
+          fi
+          git commit -m "Update radar data"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            git fetch origin main
+            sleep $((attempt * 5))
+          done
+          exit 1

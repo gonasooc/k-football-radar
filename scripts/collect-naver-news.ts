@@ -4,6 +4,11 @@ import * as cheerio from "cheerio";
 
 import { classifyItemText, getSearchQueries } from "../lib/classify";
 import { dedupeItems } from "../lib/dedupe";
+import {
+  applyItemRetentionPolicy,
+  getItemRetentionDays,
+  isPublishedAtWithinRetention
+} from "../lib/item-retention";
 import { normalizePublisher, stripInlineHtml, truncateSummary } from "../lib/normalize";
 import type { Issue, Person, RadarItem, RelevanceTier } from "../lib/schema";
 import { readIssues, readItems, readPeople, writeItems } from "./data-io";
@@ -38,6 +43,7 @@ type NewsCandidateRelevanceTier = RelevanceTier | "reject";
 export const DEFAULT_NAVER_QUERY_DELAY_MS = 800;
 export const MAX_NAVER_SEARCH_QUERIES = 100;
 export const NAVER_NEWS_DISPLAY_COUNT = 40;
+export const NAVER_NEWS_TIMEOUT_MS = 10000;
 export const ARTICLE_TITLE_TIMEOUT_MS = 3000;
 
 const FOOTBALL_CONTEXT_KEYWORDS = [
@@ -240,6 +246,21 @@ export function getNaverQueryDelayMs(
   return parsed;
 }
 
+export function getNaverFetchTimeoutMs(
+  value = process.env.NAVER_FETCH_TIMEOUT_MS
+): number {
+  if (!value) {
+    return NAVER_NEWS_TIMEOUT_MS;
+  }
+
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed < 1000 || parsed > 30000) {
+    return NAVER_NEWS_TIMEOUT_MS;
+  }
+
+  return parsed;
+}
+
 async function fetchNaverNews(query: string): Promise<NaverNewsItem[]> {
   const clientId = process.env.NAVER_CLIENT_ID;
   const clientSecret = process.env.NAVER_CLIENT_SECRET;
@@ -258,7 +279,8 @@ async function fetchNaverNews(query: string): Promise<NaverNewsItem[]> {
     headers: {
       "X-Naver-Client-Id": clientId,
       "X-Naver-Client-Secret": clientSecret
-    }
+    },
+    signal: AbortSignal.timeout(getNaverFetchTimeoutMs())
   });
 
   if (!response.ok) {
@@ -642,7 +664,9 @@ export async function collectNaverNews({
 }): Promise<RadarItem[]> {
   const queries = getNaverSearchQueries({ issues, people });
   const queryDelayMs = getNaverQueryDelayMs();
-  const collectedAt = new Date().toISOString();
+  const collectedDate = new Date();
+  const collectedAt = collectedDate.toISOString();
+  const retentionDays = getItemRetentionDays();
   const results: RadarItem[] = [];
 
   for (const [index, query] of queries.entries()) {
@@ -654,6 +678,17 @@ export async function collectNaverNews({
       const newsItems = await fetchNaverNews(query);
       for (const newsItem of newsItems) {
         const originalUrl = newsItem.originallink || newsItem.link;
+        const publishedAt = toIsoDate(newsItem.pubDate);
+        if (
+          !isPublishedAtWithinRetention({
+            publishedAt,
+            now: collectedDate,
+            retentionDays
+          })
+        ) {
+          continue;
+        }
+
         const apiTitle = stripInlineHtml(newsItem.title);
         const title = await resolveArticleTitle(apiTitle, originalUrl);
         const summary = truncateSummary(newsItem.description);
@@ -682,7 +717,7 @@ export async function collectNaverNews({
           url: originalUrl,
           originalUrl,
           publisher: normalizePublisher(originalUrl),
-          publishedAt: toIsoDate(newsItem.pubDate),
+          publishedAt,
           collectedAt,
           matchedKeywords: Array.from(new Set([query, ...classification.matchedKeywords])),
           issueTags: classification.issueTags,
@@ -705,7 +740,9 @@ export async function collectNaverNews({
 async function run(): Promise<void> {
   const [items, issues, people] = await Promise.all([readItems(), readIssues(), readPeople()]);
   const collected = await collectNaverNews({ issues, people });
-  await writeItems(dedupeItems(filterNewsItemsForCollection([...items, ...collected])));
+  await writeItems(
+    applyItemRetentionPolicy(dedupeItems(filterNewsItemsForCollection([...items, ...collected])))
+  );
   console.log(`Naver collector merged ${collected.length} candidate items`);
 }
 
