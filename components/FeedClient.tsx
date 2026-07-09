@@ -3,7 +3,12 @@
 import { Search, X } from "lucide-react";
 import { memo, useEffect, useMemo, useState } from "react";
 
-import { filterItems, type FeedTypeFilter } from "@/lib/filter";
+import {
+  filterItems,
+  type FeedScopeFilter,
+  type FeedSortOrder,
+  type FeedTypeFilter
+} from "@/lib/filter";
 import type { Issue, Person, RadarItem } from "@/lib/schema";
 import { EmptyState } from "./EmptyState";
 import { ItemCard } from "./ItemCard";
@@ -20,6 +25,8 @@ type FeedClientProps = {
 
 export function FeedClient({ items, issues, people }: FeedClientProps) {
   const [typeFilter, setTypeFilter] = useState<FeedTypeFilter>("all");
+  const [scopeFilter, setScopeFilter] = useState<FeedScopeFilter>("primary");
+  const [sortOrder, setSortOrder] = useState<FeedSortOrder>("latest");
   const [issueFilter, setIssueFilter] = useState("all");
   const [personFilter, setPersonFilter] = useState("all");
   const [searchInput, setSearchInput] = useState("");
@@ -40,14 +47,18 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
   const filteredItems = useMemo(() => {
     return filterItems(items, {
       type: typeFilter,
+      scope: scopeFilter,
+      sort: sortOrder,
       issueId: issueFilter,
       personId: personFilter,
       query
     });
-  }, [items, typeFilter, issueFilter, personFilter, query]);
+  }, [items, typeFilter, scopeFilter, sortOrder, issueFilter, personFilter, query]);
 
   const resetFilters = () => {
     setTypeFilter("all");
+    setScopeFilter("primary");
+    setSortOrder("latest");
     setIssueFilter("all");
     setPersonFilter("all");
     setSearchInput("");
@@ -57,6 +68,8 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
 
   const hasActiveFilters =
     typeFilter !== "all" ||
+    scopeFilter !== "primary" ||
+    sortOrder !== "latest" ||
     issueFilter !== "all" ||
     personFilter !== "all" ||
     searchInput.trim() !== "" ||
@@ -65,11 +78,18 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
   const gridItems = visibleItems.slice(0, 6);
   const listItems = visibleItems.slice(6);
   const hasMoreItems = visibleItems.length < filteredItems.length;
+  const hasSearchQuery = query.trim().length > 0;
+  let feedScopeLabel = "전체 피드";
+  if (hasSearchQuery) {
+    feedScopeLabel = "전체 검색";
+  } else if (scopeFilter === "primary") {
+    feedScopeLabel = "주요 피드";
+  }
 
   return (
     <div className="space-y-6">
       <div className="border-y border-rule bg-paper/45 px-4 py-4 sm:px-5">
-        <div className="grid gap-3 lg:grid-cols-[1.25fr_0.95fr_0.95fr] xl:grid-cols-[1.35fr_0.9fr_0.9fr_0.85fr_auto]">
+        <div className="grid gap-3 lg:grid-cols-[1.25fr_0.85fr_0.85fr] xl:grid-cols-[1.25fr_0.75fr_0.75fr_0.85fr_0.85fr_auto]">
           <label className="block">
             <span className="mb-2 block text-xs font-black text-ink/55">검색</span>
             <span className="relative block">
@@ -104,6 +124,31 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
                   onClick={() => {
                     setVisibleCount(FEED_PAGE_SIZE);
                     setTypeFilter(value as FeedTypeFilter);
+                  }}
+                  type="button"
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div>
+            <span className="mb-2 block text-xs font-black text-ink/55">범위</span>
+            <div className="grid grid-cols-2 overflow-hidden rounded-control border border-rule bg-canvas">
+              {[
+                ["primary", "주요"],
+                ["all", "전체"]
+              ].map(([value, label]) => (
+                <button
+                  className={`focus-ring motion-soft min-h-11 text-sm font-black ${
+                    scopeFilter === value
+                      ? "bg-accent text-canvas"
+                      : "text-ink/60 hover:bg-panel-strong hover:text-ink"
+                  }`}
+                  key={value}
+                  onClick={() => {
+                    setVisibleCount(FEED_PAGE_SIZE);
+                    setScopeFilter(value as FeedScopeFilter);
                   }}
                   type="button"
                 >
@@ -165,11 +210,39 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-between gap-3 py-1 text-sm font-bold text-ink/60">
+      <div className="flex flex-wrap items-center justify-between gap-3 py-1 text-sm font-bold text-ink/60">
         <span className="metric-tabular">
           표시 항목 {visibleItems.length} / 검색 결과 {filteredItems.length}개
         </span>
-        <span>게시 시각 최신순</span>
+        <div className="flex flex-wrap items-center justify-end gap-2">
+          <span>{feedScopeLabel}</span>
+          <div
+            aria-label="정렬"
+            className="grid grid-cols-2 overflow-hidden rounded-control border border-rule bg-canvas"
+            role="group"
+          >
+            {[
+              ["latest", "최신순"],
+              ["relevance", "관련도순"]
+            ].map(([value, label]) => (
+              <button
+                className={`focus-ring motion-soft min-h-9 px-3 text-xs font-black ${
+                  sortOrder === value
+                    ? "bg-accent text-canvas"
+                    : "text-ink/60 hover:bg-panel-strong hover:text-ink"
+                }`}
+                key={value}
+                onClick={() => {
+                  setVisibleCount(FEED_PAGE_SIZE);
+                  setSortOrder(value as FeedSortOrder);
+                }}
+                type="button"
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
       {filteredItems.length > 0 ? (
         <div className="space-y-6">

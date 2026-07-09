@@ -24,7 +24,12 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
     const person = personMap.get(id);
     return person ? [person] : [];
   });
-  const visibleLabels = item.labels?.filter((label) => !HIDDEN_LABELS.has(label)) ?? [];
+  const visibleLabels = Array.from(
+    new Set([
+      ...(item.relevanceTier === "secondary" ? ["보조 수집"] : []),
+      ...(item.labels?.filter((label) => !HIDDEN_LABELS.has(label)) ?? [])
+    ])
+  );
   const keywordText = item.matchedKeywords.join(", ") || "없음";
 
   const badgeRow = (

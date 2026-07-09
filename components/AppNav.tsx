@@ -2,24 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
 
 import { getActiveNavItem, navItems } from "@/lib/navigation";
 
 export function AppNav() {
   const pathname = usePathname();
-  const [showStickyNav, setShowStickyNav] = useState(false);
   const activeNavItem = getActiveNavItem(pathname);
-
-  useEffect(() => {
-    const updateStickyNav = () => {
-      setShowStickyNav(window.scrollY > 180);
-    };
-
-    updateStickyNav();
-    window.addEventListener("scroll", updateStickyNav, { passive: true });
-    return () => window.removeEventListener("scroll", updateStickyNav);
-  }, []);
 
   const links = navItems.map((item) => {
     const active = activeNavItem?.href === item.href;
@@ -62,7 +50,7 @@ export function AppNav() {
   return (
     <>
       <nav
-        className="overflow-x-auto border-t border-rule px-4 sm:px-0"
+        className="hidden overflow-x-auto border-t border-rule sm:block"
         aria-label="주요 화면"
       >
         <div className="mx-auto flex min-h-11 w-full max-w-7xl items-center gap-5 sm:px-6 lg:px-8">
@@ -72,9 +60,7 @@ export function AppNav() {
 
       <nav
         aria-label="고정 주요 화면"
-        className={`fixed inset-x-0 bottom-0 z-50 border-t border-rule bg-canvas px-3 pb-[calc(env(safe-area-inset-bottom)+8px)] pt-2 shadow-panel ${
-          showStickyNav ? "block" : "hidden"
-        }`}
+        className="fixed inset-x-0 bottom-0 z-50 block border-t border-rule bg-canvas px-3 pb-[calc(env(safe-area-inset-bottom)+8px)] pt-2 shadow-panel sm:hidden"
       >
         <div className="mx-auto grid max-w-xl grid-cols-3">{stickyLinks}</div>
       </nav>

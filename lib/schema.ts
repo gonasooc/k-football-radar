@@ -14,6 +14,7 @@ const httpUrlString = z.string().url().refine(
     message: "Expected an http or https URL"
   }
 );
+export const relevanceTierSchema = z.enum(["primary", "secondary"]);
 
 export const radarItemSchema = z.object({
   id: z.string().min(1),
@@ -31,6 +32,7 @@ export const radarItemSchema = z.object({
   sourceType: z.enum(["news", "official"]),
   isOfficial: z.boolean(),
   relevanceScore: z.number().int().min(0).max(100),
+  relevanceTier: relevanceTierSchema.optional(),
   labels: z.array(z.string().min(1)).optional()
 });
 
@@ -76,6 +78,7 @@ export const dataBundleSchema = z.object({
 });
 
 export type RadarItem = z.infer<typeof radarItemSchema>;
+export type RelevanceTier = z.infer<typeof relevanceTierSchema>;
 export type Person = z.infer<typeof personSchema>;
 export type Issue = z.infer<typeof issueSchema>;
 export type Source = z.infer<typeof sourceSchema>;

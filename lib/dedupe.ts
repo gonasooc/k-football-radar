@@ -48,6 +48,12 @@ function storyKey(item: RadarItem): string {
   ].join("|");
 }
 
+function mergedRelevanceTier(previous: RadarItem, next: RadarItem): RadarItem["relevanceTier"] {
+  const previousTier = previous.relevanceTier ?? "primary";
+  const nextTier = next.relevanceTier ?? "primary";
+  return previousTier === "secondary" && nextTier === "secondary" ? "secondary" : undefined;
+}
+
 function mergeItems(previous: RadarItem, next: RadarItem): RadarItem {
   const preferred =
     new Date(next.collectedAt).getTime() >= new Date(previous.collectedAt).getTime()
@@ -65,6 +71,7 @@ function mergeItems(previous: RadarItem, next: RadarItem): RadarItem {
     personTags: uniqueSorted([...fallback.personTags, ...preferred.personTags]),
     labels: uniqueSorted([...(fallback.labels ?? []), ...(preferred.labels ?? [])]),
     relevanceScore: Math.max(previous.relevanceScore, next.relevanceScore),
+    relevanceTier: mergedRelevanceTier(previous, next),
     isOfficial: previous.isOfficial || next.isOfficial,
     type: previous.isOfficial || next.isOfficial ? "official" : preferred.type,
     sourceType: previous.isOfficial || next.isOfficial ? "official" : preferred.sourceType

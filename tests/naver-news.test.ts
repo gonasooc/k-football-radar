@@ -5,6 +5,7 @@ import {
   DEFAULT_NAVER_QUERY_DELAY_MS,
   extractArticleTitle,
   filterNewsItemsForCollection,
+  getNewsCandidateRelevanceTier,
   getNaverQueryDelayMs,
   getNaverSearchQueries,
   pickArticleTitle,
@@ -95,6 +96,52 @@ describe("shouldKeepNewsCandidate", () => {
           personTags: ["person_chung_mong_gyu"],
           matchedKeywords: ["정몽규", "회장 선거", "해명"],
           relevanceScore: 23
+        }
+      }),
+      true
+    );
+  });
+
+  it("classifies clear governance matches as primary", () => {
+    assert.equal(
+      getNewsCandidateRelevanceTier({
+        title: "대한축구협회, 대표팀 감독 선임 절차 개선안 논의",
+        summary: "전력강화위원회 운영과 감독 선임 절차의 투명성 제고 방안을 검토했다.",
+        classification: {
+          issueTags: ["coach-appointment"],
+          personTags: ["person_hong_myung_bo"],
+          matchedKeywords: ["대한축구협회", "대표팀 감독", "전력강화위원회"],
+          relevanceScore: 38
+        }
+      }),
+      "primary"
+    );
+  });
+
+  it("classifies searchable borderline matches as secondary", () => {
+    assert.equal(
+      getNewsCandidateRelevanceTier({
+        title: "대한축구협회 관계자, 대표팀 훈련 현장 점검",
+        summary: "선임 절차나 감사 이슈는 아니지만 KFA 동향으로 검색 가치가 있다.",
+        classification: {
+          issueTags: [],
+          personTags: [],
+          matchedKeywords: ["대한축구협회", "KFA"],
+          relevanceScore: 20
+        }
+      }),
+      "secondary"
+    );
+
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "대한축구협회 관계자, 대표팀 훈련 현장 점검",
+        summary: "선임 절차나 감사 이슈는 아니지만 KFA 동향으로 검색 가치가 있다.",
+        classification: {
+          issueTags: [],
+          personTags: [],
+          matchedKeywords: ["대한축구협회", "KFA"],
+          relevanceScore: 20
         }
       }),
       true
@@ -300,6 +347,7 @@ describe("shouldKeepNewsCandidate", () => {
     ];
 
     for (const example of lowRelatedExamples) {
+      assert.equal(getNewsCandidateRelevanceTier(example), "reject", example.title);
       assert.equal(shouldKeepNewsCandidate(example), false, example.title);
     }
   });

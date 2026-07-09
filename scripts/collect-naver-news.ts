@@ -5,7 +5,7 @@ import * as cheerio from "cheerio";
 import { classifyItemText, getSearchQueries } from "../lib/classify";
 import { dedupeItems } from "../lib/dedupe";
 import { normalizePublisher, stripInlineHtml, truncateSummary } from "../lib/normalize";
-import type { Issue, Person, RadarItem } from "../lib/schema";
+import type { Issue, Person, RadarItem, RelevanceTier } from "../lib/schema";
 import { readIssues, readItems, readPeople, writeItems } from "./data-io";
 
 type NaverNewsItem = {
@@ -32,6 +32,8 @@ type NewsCandidateInput = {
   summary?: string;
   classification: NewsCandidateClassification;
 };
+
+type NewsCandidateRelevanceTier = RelevanceTier | "reject";
 
 export const DEFAULT_NAVER_QUERY_DELAY_MS = 800;
 export const MAX_NAVER_SEARCH_QUERIES = 100;
@@ -453,53 +455,29 @@ function hasOnlyBroadAuditAndGenericAssociationKeywords(
   );
 }
 
-export function shouldKeepNewsCandidate({
-  title,
-  summary,
+function hasPrimaryPersonContext({
+  text,
   classification
-}: NewsCandidateInput): boolean {
-  const text = `${title ?? ""} ${summary ?? ""}`;
-  const titleText = title ?? "";
-  const hasGovernanceContext =
-    hasTrackedGovernanceContext(text) ||
-    hasKfaAccountabilityContext(text) ||
-    hasPersonGovernanceContext(text);
-
-  if (hasListingTitle(titleText) && !hasKfaAccountabilityContext(titleText)) {
-    return false;
-  }
-
-  if (text && hasForeignFootballContext(text) && !hasKoreanFootballContext(text)) {
-    return false;
-  }
-
-  if (hasAthleteRosterOrProfileContext(text) && !hasGovernanceContext) {
-    return false;
-  }
-
-  if (
-    hasPoliticalAnalogyContext(text) &&
-    !hasKfaAccountabilityContext(text) &&
-    !hasKfaAccountabilityContext(titleText)
-  ) {
-    return false;
-  }
-
-  if (hasLocalCompetitionResultContext(text) && !hasTrackedGovernanceContext(text)) {
-    return false;
-  }
-
-  if (hasLowValuePerformanceContext(text) && !hasTrackedGovernanceContext(text)) {
-    return false;
-  }
-
-  if (
+}: {
+  text: string;
+  classification: NewsCandidateClassification;
+}): boolean {
+  return (
     classification.personTags.length > 0 &&
-    (hasGovernanceContext || hasStrongPersonIssueKeyword(classification))
-  ) {
-    return true;
-  }
+    (hasTrackedGovernanceContext(text) ||
+      hasKfaAccountabilityContext(text) ||
+      hasPersonGovernanceContext(text) ||
+      hasStrongPersonIssueKeyword(classification))
+  );
+}
 
+function hasPrimaryIssueContext({
+  text,
+  classification
+}: {
+  text: string;
+  classification: NewsCandidateClassification;
+}): boolean {
   if (classification.issueTags.length === 0) {
     return false;
   }
@@ -526,11 +504,107 @@ export function shouldKeepNewsCandidate({
     FOOTBALL_CONTEXT_KEYWORDS.includes(keyword)
   );
 
-  if (!hasFootballContext) {
+  return hasFootballContext && classification.relevanceScore >= 20;
+}
+
+function hasSecondaryCollectionContext({
+  text,
+  classification
+}: {
+  text: string;
+  classification: NewsCandidateClassification;
+}): boolean {
+  if (!text.trim()) {
     return false;
   }
 
-  return classification.relevanceScore >= 20;
+  if (classification.personTags.length > 0 || classification.issueTags.length > 0) {
+    const hasFootballContext = classification.matchedKeywords.some((keyword) =>
+      FOOTBALL_CONTEXT_KEYWORDS.includes(keyword)
+    );
+    return (
+      classification.personTags.length > 0 ||
+      hasFootballContext ||
+      hasTrackedGovernanceContext(text) ||
+      hasKfaAccountabilityContext(text) ||
+      hasPersonGovernanceContext(text) ||
+      hasStrongPersonIssueKeyword(classification)
+    );
+  }
+
+  return (
+    classification.relevanceScore >= 20 &&
+    classification.matchedKeywords.some((keyword) =>
+      FOOTBALL_CONTEXT_KEYWORDS.includes(keyword)
+    )
+  );
+}
+
+export function getNewsCandidateRelevanceTier({
+  title,
+  summary,
+  classification
+}: NewsCandidateInput): NewsCandidateRelevanceTier {
+  const text = `${title ?? ""} ${summary ?? ""}`;
+  const titleText = title ?? "";
+  const hasGovernanceContext =
+    hasTrackedGovernanceContext(text) ||
+    hasKfaAccountabilityContext(text) ||
+    hasPersonGovernanceContext(text);
+
+  if (hasListingTitle(titleText) && !hasKfaAccountabilityContext(titleText)) {
+    return "reject";
+  }
+
+  if (text && hasForeignFootballContext(text) && !hasKoreanFootballContext(text)) {
+    return "reject";
+  }
+
+  if (hasAthleteRosterOrProfileContext(text) && !hasGovernanceContext) {
+    return "reject";
+  }
+
+  if (
+    hasPoliticalAnalogyContext(text) &&
+    !hasKfaAccountabilityContext(text) &&
+    !hasKfaAccountabilityContext(titleText)
+  ) {
+    return "reject";
+  }
+
+  if (hasLocalCompetitionResultContext(text) && !hasTrackedGovernanceContext(text)) {
+    return "reject";
+  }
+
+  if (hasLowValuePerformanceContext(text) && !hasTrackedGovernanceContext(text)) {
+    return "reject";
+  }
+
+  if (
+    classification.issueTags.includes("mcst-audit") &&
+    hasOnlyBroadAuditAndGenericAssociationKeywords(classification) &&
+    !hasStrongKfaAuditContext(text)
+  ) {
+    return "reject";
+  }
+
+  if (hasPrimaryPersonContext({ text, classification })) {
+    return "primary";
+  }
+
+  if (hasPrimaryIssueContext({ text, classification })) {
+    return "primary";
+  }
+
+  if (hasSecondaryCollectionContext({ text, classification })) {
+    return "secondary";
+  }
+
+  return "reject";
+}
+
+export function shouldKeepNewsCandidate(input: NewsCandidateInput): boolean {
+  return getNewsCandidateRelevanceTier(input) !== "reject";
 }
 
 export function filterNewsItemsForCollection(items: RadarItem[]): RadarItem[] {
@@ -590,8 +664,13 @@ export async function collectNaverNews({
           people,
           isOfficial: false
         });
+        const relevanceTier = getNewsCandidateRelevanceTier({
+          title,
+          summary,
+          classification
+        });
 
-        if (!shouldKeepNewsCandidate({ title, summary, classification })) {
+        if (relevanceTier === "reject") {
           continue;
         }
 
@@ -611,6 +690,7 @@ export async function collectNaverNews({
           sourceType: "news",
           isOfficial: false,
           relevanceScore: classification.relevanceScore,
+          relevanceTier: relevanceTier === "secondary" ? "secondary" : undefined,
           labels: classification.labels
         });
       }

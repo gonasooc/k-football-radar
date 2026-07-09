@@ -47,6 +47,8 @@ describe("filterItems", () => {
 
     const filtered = filterItems(items, {
       type: "official",
+      scope: "primary",
+      sort: "latest",
       issueId: "election",
       personId: "person_a",
       query: "선거인단"
@@ -55,6 +57,102 @@ describe("filterItems", () => {
     assert.deepEqual(
       filtered.map((result) => result.id),
       ["official-election"]
+    );
+  });
+
+  it("hides secondary items from the default feed but keeps them searchable", () => {
+    const items = [
+      item("primary-news", {
+        title: "대한축구협회 청문회",
+        matchedKeywords: ["대한축구협회"],
+        relevanceScore: 40
+      }),
+      item("secondary-news", {
+        title: "대한축구협회 관계자 현장 점검",
+        matchedKeywords: ["대한축구협회"],
+        relevanceScore: 20,
+        relevanceTier: "secondary"
+      })
+    ];
+
+    assert.deepEqual(
+      filterItems(items, {
+        type: "all",
+        scope: "primary",
+        sort: "latest",
+        issueId: "all",
+        personId: "all",
+        query: ""
+      }).map((result) => result.id),
+      ["primary-news"]
+    );
+
+    assert.deepEqual(
+      filterItems(items, {
+        type: "all",
+        scope: "primary",
+        sort: "latest",
+        issueId: "all",
+        personId: "all",
+        query: "현장"
+      }).map((result) => result.id),
+      ["secondary-news"]
+    );
+
+    assert.deepEqual(
+      filterItems(items, {
+        type: "all",
+        scope: "all",
+        sort: "latest",
+        issueId: "all",
+        personId: "all",
+        query: ""
+      }).map((result) => result.id),
+      ["primary-news", "secondary-news"]
+    );
+  });
+
+  it("sorts by latest publication time or relevance score", () => {
+    const items = [
+      item("older-high-relevance", {
+        publishedAt: "2026-07-06T08:00:00.000Z",
+        collectedAt: "2026-07-06T08:10:00.000Z",
+        relevanceScore: 90
+      }),
+      item("newer-low-relevance", {
+        publishedAt: "2026-07-08T08:00:00.000Z",
+        collectedAt: "2026-07-08T08:10:00.000Z",
+        relevanceScore: 20
+      }),
+      item("newest-mid-relevance", {
+        publishedAt: "2026-07-09T08:00:00.000Z",
+        collectedAt: "2026-07-09T08:10:00.000Z",
+        relevanceScore: 50
+      })
+    ];
+
+    assert.deepEqual(
+      filterItems(items, {
+        type: "all",
+        scope: "primary",
+        sort: "latest",
+        issueId: "all",
+        personId: "all",
+        query: ""
+      }).map((result) => result.id),
+      ["newest-mid-relevance", "newer-low-relevance", "older-high-relevance"]
+    );
+
+    assert.deepEqual(
+      filterItems(items, {
+        type: "all",
+        scope: "primary",
+        sort: "relevance",
+        issueId: "all",
+        personId: "all",
+        query: ""
+      }).map((result) => result.id),
+      ["older-high-relevance", "newest-mid-relevance", "newer-low-relevance"]
     );
   });
 });
