@@ -9,7 +9,7 @@ import {
   writeCollectionState,
   writeItems
 } from "./data-io";
-import { limitItems } from "../lib/dedupe";
+import { dedupeItems } from "../lib/dedupe";
 
 async function updateData(): Promise<void> {
   const [existingItems, issues, people, sources, previousState] = await Promise.all([
@@ -25,7 +25,7 @@ async function updateData(): Promise<void> {
     collectOfficialSources({ sources, issues, people })
   ]);
 
-  const mergedItems = limitItems(
+  const mergedItems = dedupeItems(
     filterNewsItemsForCollection([...existingItems, ...naverItems, ...officialItems])
   );
   const previousIds = new Set(existingItems.map((item) => item.id));

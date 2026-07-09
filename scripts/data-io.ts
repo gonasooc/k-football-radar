@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+import { readItemShards, writeItemShards } from "../lib/item-shards";
 import {
   collectionStateSchema,
   issueSchema,
@@ -27,11 +28,11 @@ async function writeJson(filename: string, value: unknown): Promise<void> {
 }
 
 export async function readItems(): Promise<RadarItem[]> {
-  return radarItemSchema.array().parse(await readJson("items.json"));
+  return readItemShards(DATA_DIR);
 }
 
 export async function writeItems(items: RadarItem[]): Promise<void> {
-  await writeJson("items.json", items);
+  await writeItemShards(radarItemSchema.array().parse(items), DATA_DIR);
 }
 
 export async function readPeople(): Promise<Person[]> {

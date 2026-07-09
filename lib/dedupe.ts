@@ -130,10 +130,3 @@ export function sortItemsLatestFirst(items: RadarItem[]): RadarItem[] {
     return new Date(b.collectedAt).getTime() - new Date(a.collectedAt).getTime();
   });
 }
-
-export function limitItems(items: RadarItem[], now = new Date()): RadarItem[] {
-  const ninetyDaysAgo = now.getTime() - 90 * 24 * 60 * 60 * 1000;
-  return sortItemsLatestFirst(dedupeItems(items))
-    .filter((item) => new Date(item.publishedAt).getTime() >= ninetyDaysAgo)
-    .slice(0, 2000);
-}

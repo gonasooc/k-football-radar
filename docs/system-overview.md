@@ -13,7 +13,7 @@ GitHub Actions 수집 워크플로
         ↓
 scripts/update-data.ts
         ↓
-data/items.json, data/collection-state.json
+data/items/YYYY-MM-DD.json, data/collection-state.json
         ↓
 Next.js App Router
         ↓
@@ -42,16 +42,16 @@ docs/         기획서, 구조 설명, 잔여 작업 문서
 앱이 실제로 읽는 핵심 데이터는 `data/` 아래에 있다.
 
 ```text
-data/items.json
+data/items/YYYY-MM-DD.json
 data/people.json
 data/issues.json
 data/sources.json
 data/collection-state.json
 ```
 
-### `items.json`
+### `items/YYYY-MM-DD.json`
 
-수집된 뉴스와 공식자료 목록이다. 카드 하나에 필요한 제목, 짧은 설명, 출처, 원문 링크, 발행일, 수집일, 태그가 들어간다.
+수집된 뉴스와 공식자료 목록이다. `publishedAt` 날짜 기준으로 하루 단위 JSON shard에 저장한다. 카드 하나에 필요한 제목, 짧은 설명, 출처, 원문 링크, 발행일, 수집일, 태그가 들어간다.
 
 기사 본문 전체는 저장하지 않는다. 원문 확인은 `url` 또는 `originalUrl` 링크로 이동해서 한다.
 
@@ -144,7 +144,7 @@ pnpm run collect:local
 
 ### 1단계: 기존 데이터 읽기
 
-`scripts/data-io.ts`가 `data/items.json`, `data/issues.json`, `data/people.json`, `data/sources.json`, `data/collection-state.json`을 읽는다.
+`scripts/data-io.ts`가 `data/items/` 아래의 일별 shard와 `data/issues.json`, `data/people.json`, `data/sources.json`, `data/collection-state.json`을 읽는다.
 
 ### 2단계: Naver News API 수집
 
@@ -185,7 +185,7 @@ Naver 검색은 넓은 키워드에서 엉뚱한 결과가 들어올 수 있다.
 
 ### 7단계: 저장
 
-새 항목과 기존 항목을 병합한 뒤 `data/items.json`에 쓴다. 실행 결과는 `data/collection-state.json`에 쓴다.
+새 항목과 기존 항목을 병합한 뒤 `data/items/YYYY-MM-DD.json` 일별 shard에 쓴다. 실행 결과는 `data/collection-state.json`에 쓴다.
 
 ## 7. GitHub Actions 흐름
 

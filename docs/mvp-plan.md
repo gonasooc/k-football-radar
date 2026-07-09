@@ -76,7 +76,7 @@ Korea Football Radar MVP를 구현한다. Vercel 배포에 적합한 Next.js Typ
         ↓
 [중복 제거 + 키워드 기반 이슈/인물 태그]
         ↓
-[data/items.json 업데이트]
+[data/items/YYYY-MM-DD.json 업데이트]
         ↓
 [GitHub 커밋]
         ↓
@@ -214,14 +214,15 @@ MVP 데이터는 `/data` 폴더의 JSON 파일로 관리한다.
 
 ```text
 data/
-  items.json
+  items/
+    YYYY-MM-DD.json
   people.json
   issues.json
   sources.json
   collection-state.json
 ```
 
-### 6.1 `items.json`
+### 6.1 `items/YYYY-MM-DD.json`
 
 모든 수집 결과의 핵심 데이터.
 
@@ -403,8 +404,8 @@ scripts/collect-naver-news.ts
 5. HTML entity와 태그를 제거한다.
 6. URL 기준 중복 제거를 수행한다.
 7. 제목/설명/키워드 기반으로 `issueTags`, `personTags`를 부여한다.
-8. 기존 `items.json`과 병합한다.
-9. 최근 90일 또는 최대 2,000개 정도로 보관량을 제한한다.
+8. 기존 일별 item shard와 병합한다.
+9. 수집 항목은 저장소 안에 계속 보관하되, `publishedAt` 날짜 기준 일별 shard로 나눠 Git diff와 리뷰 부담을 줄인다.
 
 권장 API 호출 옵션:
 
@@ -506,7 +507,8 @@ korea-football-radar/
     EmptyState.tsx
 
   data/
-    items.json
+    items/
+      YYYY-MM-DD.json
     people.json
     issues.json
     sources.json
@@ -842,7 +844,7 @@ html-entities
 - 결과 정규화
 - 중복 제거
 - issue/person 태그 부여
-- `items.json` 업데이트
+- `items/YYYY-MM-DD.json` 업데이트
 - API 시크릿은 GitHub Actions 환경변수로만 사용
 
 ### 단계 5 — 공식자료 수집기
@@ -888,7 +890,7 @@ Codex는 아래 조건을 모두 만족하면 목표를 완료로 판단한다.
 7. `/issues`와 `/issues/[id]`가 동작한다.
 8. `/people`와 `/people/[id]`가 동작한다.
 9. `/sources`에서 수집 출처가 보인다.
-10. `pnpm run collect`가 `data/items.json`을 갱신한다.
+10. `pnpm run collect`가 `data/items/YYYY-MM-DD.json` 일별 shard를 갱신한다.
 11. 중복 URL이 반복 저장되지 않는다.
 12. Naver API 키가 저장소에 노출되지 않는다.
 13. GitHub Actions `collect.yml`이 수동 실행 가능하다.

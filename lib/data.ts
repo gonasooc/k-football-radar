@@ -1,4 +1,3 @@
-import itemsJson from "@/data/items.json";
 import peopleJson from "@/data/people.json";
 import issuesJson from "@/data/issues.json";
 import sourcesJson from "@/data/sources.json";
@@ -17,9 +16,10 @@ import {
   type RadarItem
 } from "./schema";
 import { sortItemsLatestFirst } from "./dedupe";
+import { readItemShardsSync } from "./item-shards";
 
 const parsedData = dataBundleSchema.parse({
-  items: itemsJson,
+  items: readItemShardsSync(),
   people: peopleJson,
   issues: issuesJson,
   sources: sourcesJson,

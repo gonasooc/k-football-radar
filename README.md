@@ -31,7 +31,7 @@ pnpm run check:readiness
 
 ## 데이터 수집
 
-수집 스크립트는 메타데이터를 `data/items.json`에 쓰고, 실행 상태를 `data/collection-state.json`에 기록합니다.
+수집 스크립트는 메타데이터를 `data/items/YYYY-MM-DD.json` 일별 shard에 쓰고, 실행 상태를 `data/collection-state.json`에 기록합니다.
 
 ```bash
 pnpm run collect
