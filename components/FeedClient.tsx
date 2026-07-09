@@ -1,6 +1,6 @@
 "use client";
 
-import { Search, X } from "lucide-react";
+import { CircleHelp, Search, X } from "lucide-react";
 import { memo, useEffect, useMemo, useState } from "react";
 
 import {
@@ -15,6 +15,9 @@ import { ItemCard } from "./ItemCard";
 
 const SEARCH_DEBOUNCE_MS = 250;
 const FEED_PAGE_SIZE = 30;
+const SCOPE_TOOLTIP_ID = "feed-scope-tooltip";
+const SCOPE_TOOLTIP_TEXT =
+  "주요는 관련도가 높은 기본 수집 항목만 보여줍니다. 전체는 보조 수집 항목까지 포함합니다. 검색어가 있으면 보조 수집도 함께 찾습니다.";
 const MemoizedItemCard = memo(ItemCard);
 
 type FeedClientProps = {
@@ -87,18 +90,18 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
   }
 
   return (
-    <div className="space-y-6">
-      <div className="border-y border-rule bg-paper/45 px-4 py-4 sm:px-5">
-        <div className="grid gap-3 lg:grid-cols-[1.25fr_0.85fr_0.85fr] xl:grid-cols-[1.25fr_0.75fr_0.75fr_0.85fr_0.85fr_auto]">
-          <label className="block">
-            <span className="mb-2 block text-xs font-black text-ink/55">검색</span>
+    <div className="space-y-5">
+      <div className="border-y border-rule bg-canvas py-3">
+        <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-[minmax(240px,1.3fr)_minmax(190px,0.75fr)_minmax(170px,0.65fr)_minmax(150px,0.8fr)_minmax(150px,0.8fr)_auto]">
+          <label className="grid min-w-0 grid-cols-[2.75rem_minmax(0,1fr)] items-center gap-2">
+            <span className="text-[11px] font-black text-ink/55">검색</span>
             <span className="relative block">
               <Search
                 aria-hidden="true"
-                className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-ink/40"
+                className="pointer-events-none absolute left-3 top-1/2 size-3.5 -translate-y-1/2 text-ink/40"
               />
               <input
-                className="focus-ring h-11 w-full rounded-control border-line bg-canvas pl-10 text-sm font-semibold text-ink placeholder:text-muted"
+                className="focus-ring h-10 w-full rounded-control border-line bg-canvas pl-9 text-sm font-semibold text-ink placeholder:text-muted"
                 onChange={(event) => setSearchInput(event.target.value)}
                 placeholder="제목, 출처, 키워드"
                 type="search"
@@ -106,8 +109,8 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               />
             </span>
           </label>
-          <div>
-            <span className="mb-2 block text-xs font-black text-ink/55">유형</span>
+          <div className="grid min-w-0 grid-cols-[2.75rem_minmax(0,1fr)] items-center gap-2">
+            <span className="text-[11px] font-black text-ink/55">유형</span>
             <div className="grid grid-cols-3 overflow-hidden rounded-control border border-rule bg-canvas">
               {[
                 ["all", "전체"],
@@ -115,7 +118,7 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
                 ["official", "공식"]
               ].map(([value, label]) => (
                 <button
-                  className={`focus-ring motion-soft min-h-11 text-sm font-black ${
+                  className={`focus-ring motion-soft min-h-10 text-xs font-black ${
                     typeFilter === value
                       ? "bg-accent text-canvas"
                       : "text-ink/60 hover:bg-panel-strong hover:text-ink"
@@ -132,15 +135,34 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               ))}
             </div>
           </div>
-          <div>
-            <span className="mb-2 block text-xs font-black text-ink/55">범위</span>
+          <div className="grid min-w-0 grid-cols-[3.25rem_minmax(0,1fr)] items-center gap-2">
+            <div className="flex items-center gap-1">
+              <span className="text-[11px] font-black text-ink/55">범위</span>
+              <span className="group relative inline-flex">
+                <button
+                  aria-describedby={SCOPE_TOOLTIP_ID}
+                  aria-label="범위 필터 설명"
+                  className="focus-ring motion-soft inline-flex size-5 items-center justify-center rounded-control text-ink/45 hover:bg-panel-strong hover:text-ink"
+                  type="button"
+                >
+                  <CircleHelp aria-hidden="true" className="size-3.5" />
+                </button>
+                <span
+                  className="pointer-events-none absolute left-0 top-6 z-20 w-64 max-w-[calc(100vw-2rem)] rounded-panel border border-rule bg-canvas px-3 py-2 text-xs font-semibold leading-5 text-ink-soft opacity-0 shadow-panel transition-opacity duration-150 group-hover:opacity-100 group-focus-within:opacity-100"
+                  id={SCOPE_TOOLTIP_ID}
+                  role="tooltip"
+                >
+                  {SCOPE_TOOLTIP_TEXT}
+                </span>
+              </span>
+            </div>
             <div className="grid grid-cols-2 overflow-hidden rounded-control border border-rule bg-canvas">
               {[
                 ["primary", "주요"],
                 ["all", "전체"]
               ].map(([value, label]) => (
                 <button
-                  className={`focus-ring motion-soft min-h-11 text-sm font-black ${
+                  className={`focus-ring motion-soft min-h-10 text-xs font-black ${
                     scopeFilter === value
                       ? "bg-accent text-canvas"
                       : "text-ink/60 hover:bg-panel-strong hover:text-ink"
@@ -157,10 +179,10 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               ))}
             </div>
           </div>
-          <label className="block">
-            <span className="mb-2 block text-xs font-black text-ink/55">이슈</span>
+          <label className="grid min-w-0 grid-cols-[2.75rem_minmax(0,1fr)] items-center gap-2">
+            <span className="text-[11px] font-black text-ink/55">이슈</span>
             <select
-              className="focus-ring h-11 w-full rounded-control border-line bg-canvas text-sm font-bold text-ink"
+              className="focus-ring h-10 w-full rounded-control border-line bg-canvas text-sm font-bold text-ink"
               onChange={(event) => {
                 setVisibleCount(FEED_PAGE_SIZE);
                 setIssueFilter(event.target.value);
@@ -175,10 +197,10 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               ))}
             </select>
           </label>
-          <label className="block">
-            <span className="mb-2 block text-xs font-black text-ink/55">인물</span>
+          <label className="grid min-w-0 grid-cols-[2.75rem_minmax(0,1fr)] items-center gap-2">
+            <span className="text-[11px] font-black text-ink/55">인물</span>
             <select
-              className="focus-ring h-11 w-full rounded-control border-line bg-canvas text-sm font-bold text-ink"
+              className="focus-ring h-10 w-full rounded-control border-line bg-canvas text-sm font-bold text-ink"
               onChange={(event) => {
                 setVisibleCount(FEED_PAGE_SIZE);
                 setPersonFilter(event.target.value);
@@ -193,9 +215,9 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               ))}
             </select>
           </label>
-          <div className="flex items-end">
+          <div className="flex min-w-0 items-center md:col-span-2 xl:col-span-1">
             <button
-              className={`focus-ring motion-soft inline-flex h-11 w-full items-center justify-center gap-2 rounded-control border px-3 text-xs font-bold xl:w-auto ${
+              className={`focus-ring motion-soft inline-flex h-10 w-full items-center justify-center gap-2 rounded-control border px-3 text-xs font-bold xl:w-auto ${
                 hasActiveFilters
                   ? "border-rule bg-canvas text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent"
                   : "cursor-not-allowed border-line bg-panel-strong text-muted"

@@ -63,20 +63,24 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         <div className="min-h-screen bg-canvas text-ink">
           <header className="border-b border-rule bg-canvas">
-            <div className="mx-auto w-full max-w-7xl px-4 py-4 text-center sm:px-6 lg:px-8">
-              <Link className="focus-ring block" href="/">
+            <div className="mx-auto flex w-full max-w-7xl items-end justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
+              <Link
+                aria-label="Korea Football Radar 홈"
+                className="focus-ring inline-flex shrink-0 items-center"
+                href="/"
+              >
                 <Image
                   alt="Korea Football Radar"
-                  className="mx-auto h-auto w-full max-w-[720px]"
+                  className="h-auto w-[200px] sm:w-[240px] lg:w-[280px]"
                   height={500}
                   priority
                   src="/brand/korea-football-radar-logo-header-transparent.png"
                   width={1830}
                 />
-                <span className="mx-auto mt-1 block w-fit max-w-full px-3 py-1.5 text-[13px] font-bold leading-6 text-ink-soft">
-                  한국축구 이슈와 공식자료를 한곳에 모은 뉴스 레이더
-                </span>
               </Link>
+              <p className="hidden max-w-md text-right text-xs font-bold leading-5 text-ink-soft sm:block">
+                한국축구 이슈와 공식자료를 한곳에 모은 뉴스 레이더
+              </p>
             </div>
 
             <AppNav />

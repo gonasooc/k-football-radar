@@ -8,6 +8,7 @@ const config: Config = {
       colors: {
         ink: "oklch(20% 0.012 70)",
         "ink-soft": "oklch(38% 0.012 70)",
+        summary: "oklch(48% 0.01 70)",
         muted: "oklch(55% 0.01 70)",
         canvas: "oklch(99% 0.003 80)",
         paper: "oklch(97% 0.004 80)",

@@ -8,6 +8,10 @@ const feedClientSource = readFileSync(
   new URL("../components/FeedClient.tsx", import.meta.url),
   "utf8"
 );
+const tailwindConfigSource = readFileSync(
+  new URL("../tailwind.config.ts", import.meta.url),
+  "utf8"
+);
 
 describe("ItemCard variants", () => {
   it("does not expose or render a lead variant", () => {
@@ -18,6 +22,13 @@ describe("ItemCard variants", () => {
   it("clamps article titles to two lines in card layouts", () => {
     assert.match(itemCardSource, /line-clamp-2 text-xl font-black/);
     assert.match(itemCardSource, /title=\{item\.title\}/);
+  });
+
+  it("keeps summaries visually quieter than article titles", () => {
+    assert.match(itemCardSource, /line-clamp-2 text-xl font-black leading-snug text-ink/);
+    assert.match(tailwindConfigSource, /summary: "oklch\(48% 0\.01 70\)"/);
+    assert.match(itemCardSource, /line-clamp-3 text-sm font-medium leading-7 text-summary/);
+    assert.match(itemCardSource, /max-w-4xl text-sm font-medium leading-7 text-summary/);
   });
 
   it("keeps relevance visible before clamped detected keywords", () => {
@@ -42,6 +53,23 @@ describe("ItemCard variants", () => {
     assert.match(feedClientSource, /범위/);
     assert.match(feedClientSource, /주요/);
     assert.match(feedClientSource, /전체/);
+  });
+
+  it("explains the scope control without exposing internal tier names", () => {
+    assert.match(feedClientSource, /범위 필터 설명/);
+    assert.match(feedClientSource, /role="tooltip"/);
+    assert.match(feedClientSource, /주요는 관련도가 높은 기본 수집 항목만 보여줍니다/);
+    assert.match(feedClientSource, /전체는 보조 수집 항목까지 포함합니다/);
+    assert.match(feedClientSource, /검색어가 있으면 보조 수집도 함께 찾습니다/);
+  });
+
+  it("keeps the feed controls visually compact", () => {
+    assert.match(feedClientSource, /bg-canvas py-3/);
+    assert.match(feedClientSource, /grid-cols-\[2\.75rem_minmax\(0,1fr\)\]/);
+    assert.match(feedClientSource, /h-10 w-full/);
+    assert.match(feedClientSource, /min-h-10 text-xs font-black/);
+    assert.doesNotMatch(feedClientSource, /bg-paper\/45 px-4 py-4/);
+    assert.doesNotMatch(feedClientSource, /mb-2 block text-xs font-black text-ink\/55/);
   });
 
   it("exposes latest and relevance sorting in the feed", () => {

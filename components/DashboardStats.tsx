@@ -12,28 +12,25 @@ const statItems = [
 export function DashboardStats({ stats }: { stats: DashboardStatsData }) {
   return (
     <section className="border-y border-rule bg-canvas">
-      <div className="grid grid-cols-2 lg:grid-cols-4">
+      <dl className="grid grid-cols-2 lg:grid-cols-4">
         {statItems.map((item) => {
           const Icon = item.icon;
           return (
             <div
-              className="border-b border-line px-3 py-3 odd:border-r sm:px-5 sm:py-5 lg:border-b-0 lg:border-r lg:px-6 lg:last:border-r-0"
+              className="flex items-center justify-between gap-3 border-b border-line px-3 py-2 odd:border-r sm:px-4 lg:border-b-0 lg:border-r lg:px-5 lg:last:border-r-0"
               key={item.key}
             >
-              <div className="flex items-center gap-2 sm:gap-2.5">
-                <Icon aria-hidden="true" className="size-3.5 shrink-0 text-accent sm:size-4" />
-                <p className="text-[11px] font-black text-ink-soft sm:text-xs">{item.label}</p>
-              </div>
-              <p className="metric-tabular mt-2 text-2xl font-black leading-none text-ink sm:mt-3 sm:text-3xl">
+              <dt className="flex min-w-0 items-center gap-1.5 text-[11px] font-black text-ink-soft">
+                <Icon aria-hidden="true" className="size-3 shrink-0 text-muted" />
+                <span className="truncate">{item.label}</span>
+              </dt>
+              <dd className="metric-tabular shrink-0 text-base font-black leading-none text-ink sm:text-lg">
                 {stats[item.key]}
-              </p>
-              <p className="mt-2 hidden text-xs font-semibold text-muted sm:block">
-                {item.key === "totalItems" ? "보관 중인 전체 항목" : "최근 24시간 기준"}
-              </p>
+              </dd>
             </div>
           );
         })}
-      </div>
+      </dl>
     </section>
   );
 }

@@ -10,10 +10,14 @@ const dashboardStatsSource = readFileSync(
 describe("DashboardStats layout", () => {
   it("keeps the stats compact without a redundant label", () => {
     assert.match(dashboardStatsSource, /grid-cols-2/);
+    assert.match(dashboardStatsSource, /<dl className/);
+    assert.match(dashboardStatsSource, /<dt className/);
+    assert.match(dashboardStatsSource, /<dd className/);
     assert.doesNotMatch(dashboardStatsSource, /레이더 인덱스/);
-    assert.match(dashboardStatsSource, /px-3 py-3/);
-    assert.match(dashboardStatsSource, /text-2xl/);
-    assert.match(dashboardStatsSource, /sm:text-3xl/);
-    assert.match(dashboardStatsSource, /hidden text-xs font-semibold text-muted sm:block/);
+    assert.match(dashboardStatsSource, /px-3 py-2/);
+    assert.match(dashboardStatsSource, /text-base/);
+    assert.doesNotMatch(dashboardStatsSource, /text-2xl/);
+    assert.doesNotMatch(dashboardStatsSource, /sm:text-3xl/);
+    assert.doesNotMatch(dashboardStatsSource, /최근 24시간 기준/);
   });
 });

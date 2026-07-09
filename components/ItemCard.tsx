@@ -84,7 +84,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
           <h2 className="line-clamp-2 text-xl font-black leading-snug text-ink" title={item.title}>
             {item.title}
           </h2>
-          <p className="line-clamp-3 text-sm font-medium leading-7 text-ink-soft">
+          <p className="line-clamp-3 text-sm font-medium leading-7 text-summary">
             {item.summary}
           </p>
           <div className="mt-auto space-y-3">
@@ -146,7 +146,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
             >
               {item.title}
             </h2>
-            <p className="max-w-4xl text-sm font-medium leading-7 text-ink-soft">{item.summary}</p>
+            <p className="max-w-4xl text-sm font-medium leading-7 text-summary">{item.summary}</p>
           </div>
 
           <div className="mt-4 grid gap-3 lg:grid-cols-[1fr_auto] lg:items-end">
