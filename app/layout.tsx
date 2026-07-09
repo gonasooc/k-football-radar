@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 
 import { AppNav } from "@/components/AppNav";
 import "./globals.css";
@@ -87,6 +88,7 @@ export default function RootLayout({
           </header>
           <main className="pb-20">{children}</main>
         </div>
+        <Analytics />
       </body>
     </html>
   );
