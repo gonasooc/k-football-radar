@@ -88,11 +88,13 @@ describe("shouldKeepNewsCandidate", () => {
 
     assert.equal(
       shouldKeepNewsCandidate({
+        title: "정몽규, 대한축구협회장 선거 관련 해명",
+        summary: "회장 선거와 선거인단 구성 논란에 대한 입장을 밝혔다.",
         classification: {
-          issueTags: [],
+          issueTags: ["election"],
           personTags: ["person_chung_mong_gyu"],
-          matchedKeywords: ["정몽규"],
-          relevanceScore: 8
+          matchedKeywords: ["정몽규", "회장 선거", "해명"],
+          relevanceScore: 23
         }
       }),
       true
@@ -165,6 +167,141 @@ describe("shouldKeepNewsCandidate", () => {
       }),
       false
     );
+  });
+
+  it("keeps tracked person mentions when they are tied to governance context", () => {
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "홍명보, 국회 청문회 출석 요구에 입장 밝힌다",
+        summary: "문체위는 대한축구협회 현안과 대표팀 감독 선임 절차를 질의할 예정이다.",
+        classification: {
+          issueTags: [],
+          personTags: ["person_hong_myung_bo"],
+          matchedKeywords: ["홍명보"],
+          relevanceScore: 8
+        }
+      }),
+      true
+    );
+
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "[단독] “정몽규 밀면, 경기 배정해 줄게”…승급 언급에 노골적 지지",
+        summary:
+          "다음 날 선거에서 정몽규 후보는 85% 득표율로 4선에 성공했다. 선거 운동 자격 논란도 제기됐다.",
+        classification: {
+          issueTags: [],
+          personTags: ["person_chung_mong_gyu"],
+          matchedKeywords: ["정몽규"],
+          relevanceScore: 8
+        }
+      }),
+      true
+    );
+
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "경찰 \"홍명보 선임 관련 의혹, 수사 지연 사유 있지만 신속 결론\"",
+        summary: "이임생 전 기술이사 등 협회 관계자들을 상대로 수사를 이어가고 있다.",
+        classification: {
+          issueTags: [],
+          personTags: ["person_hong_myung_bo", "person_lee_im_saeng"],
+          matchedKeywords: ["홍명보", "이임생"],
+          relevanceScore: 16
+        }
+      }),
+      true
+    );
+
+    assert.equal(
+      shouldKeepNewsCandidate({
+        title: "전 전력강화위원 \"마치 감독은 한국팀 올 생각했어\"",
+        summary:
+          "홍명보 전 감독이 외국인 감독들과 최종 후보로 올라갈 때 거수로 결정이 이뤄졌다는 증언이 나왔다.",
+        classification: {
+          issueTags: [],
+          personTags: ["person_hong_myung_bo"],
+          matchedKeywords: ["축구협회", "홍명보"],
+          relevanceScore: 18
+        }
+      }),
+      true
+    );
+  });
+
+  it("rejects tracked person mentions used only as sports trivia or political analogy", () => {
+    const lowRelatedExamples = [
+      {
+        title: "메시·손흥민 함께 뛴다…MLS 올스타전 로스터 29인 발표",
+        summary:
+          "한국 선수가 MLS 올스타전에 나서는 건 2003년 LA 갤럭시에서 뛰었던 홍명보 전 축구 대표팀 감독 이후 손흥민이 두 번째다.",
+        classification: {
+          issueTags: ["coach-appointment"],
+          personTags: ["person_hong_myung_bo"],
+          matchedKeywords: ["대표팀 감독", "홍명보"],
+          relevanceScore: 18
+        }
+      },
+      {
+        title: "'손흥민 병역 혜택' 받았던 AG 와일드카드, 올해엔 이기혁·양현준·엄지성 낙점",
+        summary:
+          "대한 축구협회는 남자 축구 대표팀 23명의 최종 엔트리를 대한체육회에 제출했다. 홍명보 감독의 부름을 받았던 선수들도 언급됐다.",
+        classification: {
+          issueTags: [],
+          personTags: ["person_hong_myung_bo"],
+          matchedKeywords: ["축구협회", "홍명보"],
+          relevanceScore: 18
+        }
+      },
+      {
+        title: "장성철 \"김어준의 김민석 인터뷰, 정청래와는 손절 의미\"[한판승부]",
+        summary:
+          "홍명보의 위기처럼 정청래의 위기라는 정치 평론과 당 대표 선거 전망을 다뤘다.",
+        classification: {
+          issueTags: [],
+          personTags: ["person_hong_myung_bo"],
+          matchedKeywords: ["홍명보"],
+          relevanceScore: 8
+        }
+      },
+      {
+        title: "수원의 유망주가 대만 대표 겸 득점왕으로 변신! 강태원의 확 바뀐 축구인생 [뽈터뷰]",
+        summary:
+          "한국에서 축구를 배운 강태원이 대만 축구협회 전력에 보탬이 됐고 홍명보호 사례도 함께 언급됐다.",
+        classification: {
+          issueTags: [],
+          personTags: ["person_hong_myung_bo"],
+          matchedKeywords: ["축구협회", "홍명보"],
+          relevanceScore: 18
+        }
+      },
+      {
+        title: "[오늘의 주요일정·9일] 윤석열 '체포방해 등' 상고심 선고",
+        summary:
+          "문화체육관광위원회 전체회의와 대한 축구협회 현안 관련 청문회 등 여러 일정을 나열했다.",
+        classification: {
+          issueTags: ["youth-governance"],
+          personTags: [],
+          matchedKeywords: ["축구협회", "지도자"],
+          relevanceScore: 20
+        }
+      },
+      {
+        title: "송영길 \"홍명보같은 정청래호, 선호투표는 11차 당무위결정\"[한판승부]",
+        summary:
+          "홍명보 감독을 정치 상황에 빗대며 전당대회 선호투표와 당무위 결정을 설명했다. 인터뷰 말미에는 감사 인사를 전했다.",
+        classification: {
+          issueTags: [],
+          personTags: ["person_hong_myung_bo"],
+          matchedKeywords: ["감사", "해명", "홍명보"],
+          relevanceScore: 13
+        }
+      }
+    ];
+
+    for (const example of lowRelatedExamples) {
+      assert.equal(shouldKeepNewsCandidate(example), false, example.title);
+    }
   });
 
   it("keeps explicit MCST audit coverage about KFA governance", () => {

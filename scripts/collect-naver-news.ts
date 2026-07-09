@@ -120,6 +120,7 @@ const TRACKED_GOVERNANCE_CONTEXT_KEYWORDS = [
   "청문회",
   "이사회",
   "집행부",
+  "전력강화위원",
   "전력강화위원회",
   "대표팀 감독 선임",
   "감독 선임 절차",
@@ -128,6 +129,42 @@ const TRACKED_GOVERNANCE_CONTEXT_KEYWORDS = [
   "인물보다 구조",
   "후속 조치"
 ];
+
+const KFA_ACCOUNTABILITY_CONTEXT_PATTERNS = [
+  /(?:대한\s*축구협회|축구협회|KFA|한국\s*축구|한국축구|대한민국\s*축구).{0,50}(?:청문회|감사|조사|해명|사퇴|선거|선거인단|정관|징계|소송|가처분|이사회|집행부|전력강화위원회|감독\s*선임|선임\s*절차|제도\s*개편|거버넌스|혁신|쇄신|대수술|대변혁|구조|카르텔|무원칙|책임|논란|비판|직격|후속\s*조치)/u,
+  /(?:청문회|감사|조사|해명|사퇴|선거|선거인단|정관|징계|소송|가처분|이사회|집행부|전력강화위원회|감독\s*선임|선임\s*절차|제도\s*개편|거버넌스|혁신|쇄신|대수술|대변혁|구조|카르텔|무원칙|책임|논란|비판|직격|후속\s*조치).{0,50}(?:대한\s*축구협회|축구협회|KFA|한국\s*축구|한국축구|대한민국\s*축구)/u
+];
+
+const PERSON_GOVERNANCE_CONTEXT_PATTERNS = [
+  /(?:문체부|문화체육관광부|문체위|국회|청문회|전력강화위원회|감독\s*선임|선임\s*절차|회장\s*선거|선거인단|정관|징계|소송|가처분|이사회|집행부|후속\s*조치|해명|사퇴)/u,
+  /전력강화위원/u,
+  /(?:감독|사령탑|홍명보).{0,24}(?:선임|후보|후임|차기|지원|관심|러브콜|의혹|수사|논란)/u,
+  /(?:선임|후보|후임|차기|지원설|러브콜|의혹|수사|논란).{0,24}(?:감독|사령탑|홍명보)/u,
+  /선거\s*(?:운동|사무원|후보|캠프|득표|투표|대의원|인단)/u,
+  /(?:정몽규|허정무).{0,40}선거|선거.{0,40}(?:정몽규|허정무)/u,
+  /감사(?!\s*(?:합니다|드립니다|인사|패))/u
+];
+
+const STRONG_PERSON_ISSUE_KEYWORDS = new Set([
+  "감독 선임",
+  "감독 후보",
+  "전력강화위원회",
+  "문체부 감사",
+  "문화체육관광부 감사",
+  "조사 결과",
+  "회장 선거",
+  "선거인단",
+  "선거인",
+  "후보 등록",
+  "정관",
+  "정관 개정",
+  "규정 개정",
+  "제도 개편",
+  "K-축구혁신위원회",
+  "축구혁신위",
+  "혁신위원회",
+  "축구 혁신"
+]);
 
 const KOREAN_FOOTBALL_CONTEXT_KEYWORDS = [
   "대한축구협회",
@@ -144,9 +181,25 @@ const KOREAN_FOOTBALL_CONTEXT_KEYWORDS = [
 ];
 
 const FOREIGN_FOOTBALL_CONTEXT_PATTERNS = [
-  /(?:독일|이탈리아|일본|이집트|포르투갈|스페인|프랑스|잉글랜드|브라질|아르헨티나|네덜란드|벨기에|크로아티아|튀르키예|터키|미국|멕시코|캐나다|호주|중국|베트남|태국|인도네시아|말레이시아|사우디|카타르|이라크|이란|우즈베키스탄|북한)\s*(?:축구협회|대표팀|국가대표|사령탑|감독)/u,
+  /(?:독일|이탈리아|일본|이집트|포르투갈|스페인|프랑스|잉글랜드|브라질|아르헨티나|네덜란드|벨기에|크로아티아|튀르키예|터키|미국|멕시코|캐나다|호주|중국|대만|베트남|태국|인도네시아|말레이시아|사우디|카타르|이라크|이란|우즈베키스탄|북한)\s*(?:축구협회|대표팀|국가대표|사령탑|감독)/u,
   /\b(?:DFB|JFA|FIGC|EFA)\b/u,
   /전차\s*군단/u
+];
+
+const LISTING_TITLE_PATTERNS = [
+  /^\s*(?:\[)?오늘의\s*주요일정/u,
+  /^\s*(?:\[)?오늘의\s*일정/u,
+  /^\s*(?:\[)?주요일정/u
+];
+
+const ATHLETE_ROSTER_OR_PROFILE_PATTERNS = [
+  /\bMLS\b/u,
+  /올스타전|로스터|와일드카드|최종\s*엔트리|엔트리|병역\s*혜택/u,
+  /득점왕|축구인생|뽈터뷰|유망주/u
+];
+
+const POLITICAL_ANALOGY_CONTEXT_PATTERNS = [
+  /(?:정청래|김어준|김민석|장성철|송영길|민주당|국민의힘|당대표|전당대회|당무위|선호투표|한판승부|체포방해|윤석열)/u
 ];
 
 const TRAILING_ELLIPSIS_PATTERN = /(?:\.\.\.|…)\s*$/u;
@@ -349,6 +402,22 @@ function hasTrackedGovernanceContext(text: string): boolean {
   return TRACKED_GOVERNANCE_CONTEXT_KEYWORDS.some((keyword) => text.includes(keyword));
 }
 
+function hasKfaAccountabilityContext(text: string): boolean {
+  return KFA_ACCOUNTABILITY_CONTEXT_PATTERNS.some((pattern) => pattern.test(text));
+}
+
+function hasPersonGovernanceContext(text: string): boolean {
+  return PERSON_GOVERNANCE_CONTEXT_PATTERNS.some((pattern) => pattern.test(text));
+}
+
+function hasStrongPersonIssueKeyword(
+  classification: NewsCandidateClassification
+): boolean {
+  return classification.matchedKeywords.some((keyword) =>
+    STRONG_PERSON_ISSUE_KEYWORDS.has(keyword)
+  );
+}
+
 function hasLocalCompetitionResultContext(text: string): boolean {
   return (
     LOCAL_COMPETITION_CONTEXT_PATTERNS.some((pattern) => pattern.test(text)) &&
@@ -358,6 +427,18 @@ function hasLocalCompetitionResultContext(text: string): boolean {
 
 function hasLowValuePerformanceContext(text: string): boolean {
   return LOW_VALUE_PERFORMANCE_CONTEXT_PATTERNS.every((pattern) => pattern.test(text));
+}
+
+function hasListingTitle(title: string): boolean {
+  return LISTING_TITLE_PATTERNS.some((pattern) => pattern.test(title));
+}
+
+function hasAthleteRosterOrProfileContext(text: string): boolean {
+  return ATHLETE_ROSTER_OR_PROFILE_PATTERNS.some((pattern) => pattern.test(text));
+}
+
+function hasPoliticalAnalogyContext(text: string): boolean {
+  return POLITICAL_ANALOGY_CONTEXT_PATTERNS.some((pattern) => pattern.test(text));
 }
 
 function hasOnlyBroadAuditAndGenericAssociationKeywords(
@@ -378,7 +459,29 @@ export function shouldKeepNewsCandidate({
   classification
 }: NewsCandidateInput): boolean {
   const text = `${title ?? ""} ${summary ?? ""}`;
+  const titleText = title ?? "";
+  const hasGovernanceContext =
+    hasTrackedGovernanceContext(text) ||
+    hasKfaAccountabilityContext(text) ||
+    hasPersonGovernanceContext(text);
+
+  if (hasListingTitle(titleText) && !hasKfaAccountabilityContext(titleText)) {
+    return false;
+  }
+
   if (text && hasForeignFootballContext(text) && !hasKoreanFootballContext(text)) {
+    return false;
+  }
+
+  if (hasAthleteRosterOrProfileContext(text) && !hasGovernanceContext) {
+    return false;
+  }
+
+  if (
+    hasPoliticalAnalogyContext(text) &&
+    !hasKfaAccountabilityContext(text) &&
+    !hasKfaAccountabilityContext(titleText)
+  ) {
     return false;
   }
 
@@ -390,7 +493,10 @@ export function shouldKeepNewsCandidate({
     return false;
   }
 
-  if (classification.personTags.length > 0) {
+  if (
+    classification.personTags.length > 0 &&
+    (hasGovernanceContext || hasStrongPersonIssueKeyword(classification))
+  ) {
     return true;
   }
 
@@ -429,13 +535,17 @@ export function shouldKeepNewsCandidate({
 
 export function filterNewsItemsForCollection(items: RadarItem[]): RadarItem[] {
   return items.filter(
-    (item) =>
-      item.sourceType !== "news" ||
-      shouldKeepNewsCandidate({
+    (item) => {
+      if (item.sourceType !== "news") {
+        return true;
+      }
+
+      return shouldKeepNewsCandidate({
         title: item.title,
         summary: item.summary,
         classification: item
-      })
+      });
+    }
   );
 }
 
