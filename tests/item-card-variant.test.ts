@@ -65,11 +65,16 @@ describe("ItemCard variants", () => {
 
   it("keeps the feed controls visually compact", () => {
     assert.match(feedClientSource, /bg-canvas py-3/);
-    assert.match(feedClientSource, /grid-cols-\[2\.75rem_minmax\(0,1fr\)\]/);
+    assert.match(feedClientSource, /flex flex-wrap items-center gap-2 xl:flex-nowrap/);
+    assert.match(feedClientSource, /sr-only">검색/);
+    assert.match(feedClientSource, /border-r border-line bg-paper px-2 text-\[11px\] font-black text-muted/);
     assert.match(feedClientSource, /h-10 w-full/);
     assert.match(feedClientSource, /min-h-10 text-xs font-black/);
+    assert.match(feedClientSource, /aria-label="유형"/);
+    assert.match(feedClientSource, /focus-within:outline/);
+    assert.doesNotMatch(feedClientSource, /grid-cols-\[2\.75rem_minmax\(0,1fr\)\]/);
     assert.doesNotMatch(feedClientSource, /bg-paper\/45 px-4 py-4/);
-    assert.doesNotMatch(feedClientSource, /mb-2 block text-xs font-black text-ink\/55/);
+    assert.doesNotMatch(feedClientSource, /text-\[11px\] font-black text-ink\/55/);
   });
 
   it("exposes latest and relevance sorting in the feed", () => {

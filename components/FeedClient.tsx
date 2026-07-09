@@ -92,9 +92,9 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
   return (
     <div className="space-y-5">
       <div className="border-y border-rule bg-canvas py-3">
-        <div className="grid gap-2 md:grid-cols-2 xl:grid-cols-[minmax(240px,1.3fr)_minmax(190px,0.75fr)_minmax(170px,0.65fr)_minmax(150px,0.8fr)_minmax(150px,0.8fr)_auto]">
-          <label className="grid min-w-0 grid-cols-[2.75rem_minmax(0,1fr)] items-center gap-2">
-            <span className="text-[11px] font-black text-ink/55">검색</span>
+        <div className="flex flex-wrap items-center gap-2 xl:flex-nowrap">
+          <label className="relative min-w-[220px] flex-[1_1_260px]">
+            <span className="sr-only">검색</span>
             <span className="relative block">
               <Search
                 aria-hidden="true"
@@ -109,9 +109,15 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               />
             </span>
           </label>
-          <div className="grid min-w-0 grid-cols-[2.75rem_minmax(0,1fr)] items-center gap-2">
-            <span className="text-[11px] font-black text-ink/55">유형</span>
-            <div className="grid grid-cols-3 overflow-hidden rounded-control border border-rule bg-canvas">
+          <div className="flex h-10 min-w-[190px] flex-[0_1_220px] rounded-control border border-rule bg-canvas">
+            <span className="flex shrink-0 items-center border-r border-line bg-paper px-2 text-[11px] font-black text-muted">
+              유형
+            </span>
+            <div
+              aria-label="유형"
+              className="grid min-w-0 flex-1 grid-cols-3 overflow-hidden rounded-r-control"
+              role="group"
+            >
               {[
                 ["all", "전체"],
                 ["news", "뉴스"],
@@ -135,9 +141,9 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               ))}
             </div>
           </div>
-          <div className="grid min-w-0 grid-cols-[3.25rem_minmax(0,1fr)] items-center gap-2">
-            <div className="flex items-center gap-1">
-              <span className="text-[11px] font-black text-ink/55">범위</span>
+          <div className="flex h-10 min-w-[170px] flex-[0_1_190px] rounded-control border border-rule bg-canvas">
+            <div className="relative flex shrink-0 items-center gap-1 border-r border-line bg-paper px-2 text-[11px] font-black text-muted">
+              <span>범위</span>
               <span className="group relative inline-flex">
                 <button
                   aria-describedby={SCOPE_TOOLTIP_ID}
@@ -156,7 +162,11 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
                 </span>
               </span>
             </div>
-            <div className="grid grid-cols-2 overflow-hidden rounded-control border border-rule bg-canvas">
+            <div
+              aria-label="범위"
+              className="grid min-w-0 flex-1 grid-cols-2 overflow-hidden rounded-r-control"
+              role="group"
+            >
               {[
                 ["primary", "주요"],
                 ["all", "전체"]
@@ -179,10 +189,12 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               ))}
             </div>
           </div>
-          <label className="grid min-w-0 grid-cols-[2.75rem_minmax(0,1fr)] items-center gap-2">
-            <span className="text-[11px] font-black text-ink/55">이슈</span>
+          <label className="flex h-10 min-w-[150px] flex-[1_1_180px] overflow-hidden rounded-control border border-line bg-canvas focus-within:outline focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-accent xl:flex-[0_1_180px]">
+            <span className="flex shrink-0 items-center border-r border-line bg-paper px-2 text-[11px] font-black text-muted">
+              이슈
+            </span>
             <select
-              className="focus-ring h-10 w-full rounded-control border-line bg-canvas text-sm font-bold text-ink"
+              className="h-full min-w-0 flex-1 border-0 bg-canvas py-0 pl-2 pr-8 text-sm font-bold text-ink focus:ring-0"
               onChange={(event) => {
                 setVisibleCount(FEED_PAGE_SIZE);
                 setIssueFilter(event.target.value);
@@ -197,10 +209,12 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               ))}
             </select>
           </label>
-          <label className="grid min-w-0 grid-cols-[2.75rem_minmax(0,1fr)] items-center gap-2">
-            <span className="text-[11px] font-black text-ink/55">인물</span>
+          <label className="flex h-10 min-w-[150px] flex-[1_1_180px] overflow-hidden rounded-control border border-line bg-canvas focus-within:outline focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-accent xl:flex-[0_1_180px]">
+            <span className="flex shrink-0 items-center border-r border-line bg-paper px-2 text-[11px] font-black text-muted">
+              인물
+            </span>
             <select
-              className="focus-ring h-10 w-full rounded-control border-line bg-canvas text-sm font-bold text-ink"
+              className="h-full min-w-0 flex-1 border-0 bg-canvas py-0 pl-2 pr-8 text-sm font-bold text-ink focus:ring-0"
               onChange={(event) => {
                 setVisibleCount(FEED_PAGE_SIZE);
                 setPersonFilter(event.target.value);
@@ -215,7 +229,7 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               ))}
             </select>
           </label>
-          <div className="flex min-w-0 items-center md:col-span-2 xl:col-span-1">
+          <div className="flex min-w-[96px] flex-[1_1_96px] items-center xl:flex-none">
             <button
               className={`focus-ring motion-soft inline-flex h-10 w-full items-center justify-center gap-2 rounded-control border px-3 text-xs font-bold xl:w-auto ${
                 hasActiveFilters
