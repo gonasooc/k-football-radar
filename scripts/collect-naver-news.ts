@@ -3,7 +3,7 @@ import { pathToFileURL } from "node:url";
 import * as cheerio from "cheerio";
 
 import { classifyItemText, getSearchQueries } from "../lib/classify";
-import { dedupeItems } from "../lib/dedupe";
+import { canonicalizeUrl, dedupeItems } from "../lib/dedupe";
 import {
   applyItemRetentionPolicy,
   getItemRetentionDays,
@@ -44,7 +44,9 @@ export const DEFAULT_NAVER_QUERY_DELAY_MS = 800;
 export const MAX_NAVER_SEARCH_QUERIES = 100;
 export const NAVER_NEWS_DISPLAY_COUNT = 40;
 export const NAVER_NEWS_TIMEOUT_MS = 10000;
-export const ARTICLE_TITLE_TIMEOUT_MS = 3000;
+export const ARTICLE_TITLE_TIMEOUT_MS = 1500;
+export const MAX_ARTICLE_TITLE_RESOLUTIONS = 80;
+export const ARTICLE_TITLE_RESOLUTION_CONCURRENCY = 8;
 
 const FOOTBALL_CONTEXT_KEYWORDS = [
   "대한축구협회",
@@ -261,6 +263,51 @@ export function getNaverFetchTimeoutMs(
   return parsed;
 }
 
+export function getArticleTitleTimeoutMs(
+  value = process.env.ARTICLE_TITLE_TIMEOUT_MS
+): number {
+  if (!value) {
+    return ARTICLE_TITLE_TIMEOUT_MS;
+  }
+
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed < 500 || parsed > 10000) {
+    return ARTICLE_TITLE_TIMEOUT_MS;
+  }
+
+  return parsed;
+}
+
+export function getMaxArticleTitleResolutions(
+  value = process.env.MAX_ARTICLE_TITLE_RESOLUTIONS
+): number {
+  if (!value) {
+    return MAX_ARTICLE_TITLE_RESOLUTIONS;
+  }
+
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed < 0 || parsed > 1000) {
+    return MAX_ARTICLE_TITLE_RESOLUTIONS;
+  }
+
+  return parsed;
+}
+
+export function getArticleTitleResolutionConcurrency(
+  value = process.env.ARTICLE_TITLE_RESOLUTION_CONCURRENCY
+): number {
+  if (!value) {
+    return ARTICLE_TITLE_RESOLUTION_CONCURRENCY;
+  }
+
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed < 1 || parsed > 20) {
+    return ARTICLE_TITLE_RESOLUTION_CONCURRENCY;
+  }
+
+  return parsed;
+}
+
 async function fetchNaverNews(query: string): Promise<NaverNewsItem[]> {
   const clientId = process.env.NAVER_CLIENT_ID;
   const clientSecret = process.env.NAVER_CLIENT_SECRET;
@@ -384,7 +431,7 @@ async function fetchArticleTitle(url: string): Promise<string | null> {
       headers: {
         "User-Agent": "KoreaFootballRadar/0.1 metadata monitor"
       },
-      signal: AbortSignal.timeout(ARTICLE_TITLE_TIMEOUT_MS)
+      signal: AbortSignal.timeout(getArticleTitleTimeoutMs())
     });
 
     if (!response.ok) {
@@ -402,12 +449,123 @@ async function fetchArticleTitle(url: string): Promise<string | null> {
   }
 }
 
-async function resolveArticleTitle(apiTitle: string, url: string): Promise<string> {
-  if (!shouldResolveArticleTitle(apiTitle)) {
-    return apiTitle;
+function uniqueSorted(values: string[]): string[] {
+  return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b, "ko-KR"));
+}
+
+function mergeResolvedTitleClassification({
+  item,
+  title,
+  issues,
+  people
+}: {
+  item: RadarItem;
+  title: string;
+  issues: Issue[];
+  people: Person[];
+}): RadarItem {
+  const classification = classifyItemText({
+    title,
+    summary: item.summary,
+    issues,
+    people,
+    isOfficial: false
+  });
+  const relevanceTier = getNewsCandidateRelevanceTier({
+    title,
+    summary: item.summary,
+    classification
+  });
+
+  return {
+    ...item,
+    title,
+    matchedKeywords: uniqueSorted([...item.matchedKeywords, ...classification.matchedKeywords]),
+    issueTags: uniqueSorted([...item.issueTags, ...classification.issueTags]),
+    personTags: uniqueSorted([...item.personTags, ...classification.personTags]),
+    labels: uniqueSorted([...(item.labels ?? []), ...classification.labels]),
+    relevanceScore: Math.max(item.relevanceScore, classification.relevanceScore),
+    relevanceTier:
+      relevanceTier === "secondary"
+        ? "secondary"
+        : relevanceTier === "primary"
+          ? undefined
+          : item.relevanceTier
+  };
+}
+
+async function runWithConcurrency<T>({
+  items,
+  concurrency,
+  worker
+}: {
+  items: T[];
+  concurrency: number;
+  worker: (item: T) => Promise<void>;
+}): Promise<void> {
+  let nextIndex = 0;
+  const workerCount = Math.min(concurrency, items.length);
+
+  await Promise.all(
+    Array.from({ length: workerCount }, async () => {
+      while (nextIndex < items.length) {
+        const item = items[nextIndex];
+        nextIndex += 1;
+        await worker(item);
+      }
+    })
+  );
+}
+
+async function resolveCollectedArticleTitles({
+  items,
+  issues,
+  people
+}: {
+  items: RadarItem[];
+  issues: Issue[];
+  people: Person[];
+}): Promise<RadarItem[]> {
+  const maxResolutions = getMaxArticleTitleResolutions();
+  if (maxResolutions === 0) {
+    return items;
   }
 
-  return pickArticleTitle(apiTitle, await fetchArticleTitle(url));
+  const candidates = items
+    .filter((item) => item.sourceType === "news" && shouldResolveArticleTitle(item.title))
+    .slice(0, maxResolutions);
+  if (candidates.length === 0) {
+    return items;
+  }
+
+  const articleTitleCache = new Map<string, Promise<string | null>>();
+  const resolvedItems = new Map<string, RadarItem>();
+
+  await runWithConcurrency({
+    items: candidates,
+    concurrency: getArticleTitleResolutionConcurrency(),
+    worker: async (item) => {
+      const url = item.originalUrl || item.url;
+      const cacheKey = canonicalizeUrl(url);
+      let articleTitle = articleTitleCache.get(cacheKey);
+      if (!articleTitle) {
+        articleTitle = fetchArticleTitle(url);
+        articleTitleCache.set(cacheKey, articleTitle);
+      }
+
+      const title = pickArticleTitle(item.title, await articleTitle);
+      if (title === item.title) {
+        return;
+      }
+
+      resolvedItems.set(
+        item.id,
+        mergeResolvedTitleClassification({ item, title, issues, people })
+      );
+    }
+  });
+
+  return items.map((item) => resolvedItems.get(item.id) ?? item);
 }
 
 function hasKoreanFootballContext(text: string): boolean {
@@ -689,8 +847,7 @@ export async function collectNaverNews({
           continue;
         }
 
-        const apiTitle = stripInlineHtml(newsItem.title);
-        const title = await resolveArticleTitle(apiTitle, originalUrl);
+        const title = stripInlineHtml(newsItem.title);
         const summary = truncateSummary(newsItem.description);
         const classification = classifyItemText({
           title,
@@ -734,7 +891,13 @@ export async function collectNaverNews({
     }
   }
 
-  return dedupeItems(results);
+  return dedupeItems(
+    await resolveCollectedArticleTitles({
+      items: dedupeItems(results),
+      issues,
+      people
+    })
+  );
 }
 
 async function run(): Promise<void> {

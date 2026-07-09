@@ -2,10 +2,18 @@ import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 
 import {
+  ARTICLE_TITLE_RESOLUTION_CONCURRENCY,
+  ARTICLE_TITLE_TIMEOUT_MS,
   DEFAULT_NAVER_QUERY_DELAY_MS,
+  MAX_ARTICLE_TITLE_RESOLUTIONS,
+  NAVER_NEWS_TIMEOUT_MS,
   extractArticleTitle,
   filterNewsItemsForCollection,
+  getArticleTitleResolutionConcurrency,
+  getArticleTitleTimeoutMs,
+  getMaxArticleTitleResolutions,
   getNewsCandidateRelevanceTier,
+  getNaverFetchTimeoutMs,
   getNaverQueryDelayMs,
   getNaverSearchQueries,
   pickArticleTitle,
@@ -441,6 +449,33 @@ describe("getNaverQueryDelayMs", () => {
     assert.equal(getNaverQueryDelayMs("-1"), DEFAULT_NAVER_QUERY_DELAY_MS);
     assert.equal(getNaverQueryDelayMs("99999"), DEFAULT_NAVER_QUERY_DELAY_MS);
     assert.equal(getNaverQueryDelayMs("abc"), DEFAULT_NAVER_QUERY_DELAY_MS);
+  });
+});
+
+describe("collector timeout and title resolution settings", () => {
+  it("uses bounded defaults for external fetches and title resolution", () => {
+    assert.equal(getNaverFetchTimeoutMs(undefined), NAVER_NEWS_TIMEOUT_MS);
+    assert.equal(getNaverFetchTimeoutMs("5000"), 5000);
+    assert.equal(getNaverFetchTimeoutMs("99999"), NAVER_NEWS_TIMEOUT_MS);
+
+    assert.equal(getArticleTitleTimeoutMs(undefined), ARTICLE_TITLE_TIMEOUT_MS);
+    assert.equal(getArticleTitleTimeoutMs("1000"), 1000);
+    assert.equal(getArticleTitleTimeoutMs("100"), ARTICLE_TITLE_TIMEOUT_MS);
+
+    assert.equal(getMaxArticleTitleResolutions(undefined), MAX_ARTICLE_TITLE_RESOLUTIONS);
+    assert.equal(getMaxArticleTitleResolutions("0"), 0);
+    assert.equal(getMaxArticleTitleResolutions("40"), 40);
+    assert.equal(getMaxArticleTitleResolutions("99999"), MAX_ARTICLE_TITLE_RESOLUTIONS);
+
+    assert.equal(
+      getArticleTitleResolutionConcurrency(undefined),
+      ARTICLE_TITLE_RESOLUTION_CONCURRENCY
+    );
+    assert.equal(getArticleTitleResolutionConcurrency("4"), 4);
+    assert.equal(
+      getArticleTitleResolutionConcurrency("0"),
+      ARTICLE_TITLE_RESOLUTION_CONCURRENCY
+    );
   });
 });
 
