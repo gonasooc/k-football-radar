@@ -15,6 +15,7 @@ import {
 } from "@/lib/filter";
 import type { Issue, Person } from "@/lib/schema";
 import { EmptyState } from "./EmptyState";
+import { FeedResultsSkeleton } from "./LoadingSkeletons";
 import { ItemCard } from "./ItemCard";
 
 const SEARCH_DEBOUNCE_MS = 250;
@@ -476,55 +477,59 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
         </div>
       </div>
 
-      {filteredItems.length > 0 ? (
-        <div className="space-y-6">
-          <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
-            {gridItems.map((item) => (
-              <MemoizedItemCard
-                highlightQuery={query}
-                item={item}
-                issues={issues}
-                key={item.id}
-                people={people}
-                variant="compact"
-              />
-            ))}
-          </div>
-          {listItems.length > 0 ? (
-            <div className="border-b border-rule">
-              {listItems.map((item) => (
+      <div aria-busy={isSearchPending}>
+        {isSearchPending ? (
+          <FeedResultsSkeleton />
+        ) : filteredItems.length > 0 ? (
+          <div className="space-y-6">
+            <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
+              {gridItems.map((item) => (
                 <MemoizedItemCard
                   highlightQuery={query}
                   item={item}
                   issues={issues}
                   key={item.id}
                   people={people}
+                  variant="compact"
                 />
               ))}
             </div>
-          ) : null}
-          {hasMoreItems ? (
-            <div className="flex justify-center">
-              <button
-                className="focus-ring motion-soft min-h-11 rounded-control border border-rule bg-canvas px-5 text-sm font-black text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent"
-                onClick={() =>
-                  setVisibleCount((current) =>
-                    Math.min(current + FEED_PAGE_SIZE, filteredItems.length)
-                  )
-                }
-                type="button"
-              >
-                더보기
-              </button>
-            </div>
-          ) : null}
-        </div>
-      ) : (
-        <EmptyState
-          description="검색어를 바꾸거나 선택한 필터를 초기화해 보세요."
-          title="조건에 맞는 수집 항목이 없습니다."
-        />
-      )}
+            {listItems.length > 0 ? (
+              <div className="border-b border-rule">
+                {listItems.map((item) => (
+                  <MemoizedItemCard
+                    highlightQuery={query}
+                    item={item}
+                    issues={issues}
+                    key={item.id}
+                    people={people}
+                  />
+                ))}
+              </div>
+            ) : null}
+            {hasMoreItems ? (
+              <div className="flex justify-center">
+                <button
+                  className="focus-ring motion-soft min-h-11 rounded-control border border-rule bg-canvas px-5 text-sm font-black text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent"
+                  onClick={() =>
+                    setVisibleCount((current) =>
+                      Math.min(current + FEED_PAGE_SIZE, filteredItems.length)
+                    )
+                  }
+                  type="button"
+                >
+                  더보기
+                </button>
+              </div>
+            ) : null}
+          </div>
+        ) : (
+          <EmptyState
+            description="검색어를 바꾸거나 선택한 필터를 초기화해 보세요."
+            title="조건에 맞는 수집 항목이 없습니다."
+          />
+        )}
+      </div>
     </div>
   );
 }

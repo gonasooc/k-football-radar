@@ -7,6 +7,10 @@ const feedClientSource = readFileSync(
   "utf8"
 );
 const filterSource = readFileSync(new URL("../lib/filter.ts", import.meta.url), "utf8");
+const loadingSkeletonsSource = readFileSync(
+  new URL("../components/LoadingSkeletons.tsx", import.meta.url),
+  "utf8"
+);
 
 describe("FeedClient performance", () => {
   it("debounces search and limits rendered feed items", () => {
@@ -42,6 +46,11 @@ describe("FeedClient performance", () => {
       feedClientSource,
       /metric-tabular flex min-w-0 flex-wrap items-center gap-y-1.*leading-5/
     );
+    assert.match(feedClientSource, /aria-busy=\{isSearchPending\}/);
+    assert.match(feedClientSource, /isSearchPending \? \(\s*<FeedResultsSkeleton/);
+    assert.match(loadingSkeletonsSource, /aria-hidden="true"/);
+    assert.match(loadingSkeletonsSource, /data-feed-results-skeleton="true"/);
+    assert.match(loadingSkeletonsSource, /motion-safe:animate-pulse/);
   });
 
   it("avoids building search text until cheap filters pass", () => {
