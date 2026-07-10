@@ -3,6 +3,7 @@ import { ExternalLink } from "lucide-react";
 import { formatDate } from "@/lib/date";
 import type { Issue, Person, RadarItem } from "@/lib/schema";
 import { IssueBadge, PersonBadge, SourceBadge } from "./Badges";
+import { HighlightedText } from "./HighlightedText";
 
 const DIAGNOSTIC_LABELS = new Set([
   "자동 수집",
@@ -28,12 +29,19 @@ type ItemCardProps = {
     | "relevanceTier"
     | "labels"
   >;
+  highlightQuery?: string;
   issues: Issue[];
   people: Person[];
   variant?: "row" | "compact";
 };
 
-export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProps) {
+export function ItemCard({
+  item,
+  highlightQuery = "",
+  issues,
+  people,
+  variant = "row"
+}: ItemCardProps) {
   const issueMap = new Map(issues.map((issue) => [issue.id, issue]));
   const personMap = new Map(people.map((person) => [person.id, person]));
   const taggedIssues = item.issueTags.flatMap((id) => {
@@ -70,7 +78,9 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
           {label}
         </span>
       ))}
-      <span>{item.publisher}</span>
+      <span>
+        <HighlightedText query={highlightQuery} text={item.publisher} />
+      </span>
       <span aria-hidden="true">·</span>
       <time className="metric-tabular" dateTime={item.publishedAt}>
         {formatDate(item.publishedAt)}
@@ -98,7 +108,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
               rel="noreferrer"
               target="_blank"
             >
-              {item.title}
+              <HighlightedText query={highlightQuery} text={item.title} />
               <ExternalLink
                 aria-hidden="true"
                 className="ml-1.5 inline size-4 -translate-y-px text-muted"
@@ -107,7 +117,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
             </a>
           </h2>
           <p className="mt-3 line-clamp-2 text-sm font-medium leading-6 text-summary">
-            {item.summary}
+            <HighlightedText query={highlightQuery} text={item.summary} />
           </p>
           {tagRow ? <div className="mt-auto pt-4">{tagRow}</div> : null}
         </div>
@@ -126,7 +136,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
             rel="noreferrer"
             target="_blank"
           >
-            {item.title}
+            <HighlightedText query={highlightQuery} text={item.title} />
             <ExternalLink
               aria-hidden="true"
               className="ml-1.5 inline size-4 -translate-y-px text-muted"
@@ -135,7 +145,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
           </a>
         </h2>
         <p className="mt-2 line-clamp-2 text-sm font-medium leading-6 text-summary">
-          {item.summary}
+          <HighlightedText query={highlightQuery} text={item.summary} />
         </p>
         {tagRow ? <div className="mt-3">{tagRow}</div> : null}
       </div>

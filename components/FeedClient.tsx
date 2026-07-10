@@ -1,6 +1,6 @@
 "use client";
 
-import { CircleHelp, Search, SlidersHorizontal, X } from "lucide-react";
+import { Check, CircleHelp, LoaderCircle, Search, SlidersHorizontal, X } from "lucide-react";
 import { memo, useEffect, useMemo, useState } from "react";
 
 import {
@@ -162,13 +162,15 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
     setShowAdvancedFilters(false);
   };
 
+  const normalizedSearchInput = searchInput.trim();
+  const isSearchPending = normalizedSearchInput !== query;
   const hasActiveFilters =
     typeFilter !== defaultFeedFilters.type ||
     scopeFilter !== defaultFeedFilters.scope ||
     sortOrder !== defaultFeedFilters.sort ||
     issueFilter !== defaultFeedFilters.issueId ||
     personFilter !== defaultFeedFilters.personId ||
-    searchInput.trim() !== "" ||
+    normalizedSearchInput !== "" ||
     query !== "";
   const filterControlCount =
     Number(typeFilter !== defaultFeedFilters.type) +
@@ -411,12 +413,33 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
 
       <div className="flex min-w-0 flex-wrap items-center justify-between gap-3 border-b border-line pb-3">
         <p
+          aria-atomic="true"
           aria-live="polite"
-          className="metric-tabular text-sm font-bold text-ink-soft"
+          className="metric-tabular flex min-w-0 flex-wrap items-center gap-y-1 text-sm font-bold leading-5 text-ink-soft"
           role="status"
         >
-          <span className="text-ink">{filteredItems.length}개 결과</span>
-          <span className="text-muted"> · {visibleItems.length}개 표시</span>
+          {isSearchPending ? (
+            <span className="inline-flex items-center gap-1.5 text-accent">
+              <LoaderCircle
+                aria-hidden="true"
+                className="size-3.5 motion-safe:animate-spin"
+              />
+              검색어 적용 중…
+            </span>
+          ) : (
+            <>
+              {hasSearchQuery ? (
+                <span className="inline-flex max-w-full items-center text-ink">
+                  <Check aria-hidden="true" className="mr-1.5 size-3.5 shrink-0 text-accent" />
+                  <span className="max-w-20 truncate sm:max-w-72">‘{query}’</span>
+                  <span className="shrink-0 text-ink-soft"> 검색 완료</span>
+                </span>
+              ) : null}
+              {hasSearchQuery ? <span className="text-muted"> · </span> : null}
+              <span className="text-ink">{filteredItems.length}개 결과</span>
+              <span className="text-muted"> · {visibleItems.length}개 표시</span>
+            </>
+          )}
         </p>
         <div className="ml-auto flex min-w-0 items-center justify-between gap-3 sm:justify-end">
           <span className="hidden shrink-0 text-xs font-bold text-muted sm:inline">
@@ -458,6 +481,7 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
           <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
             {gridItems.map((item) => (
               <MemoizedItemCard
+                highlightQuery={query}
                 item={item}
                 issues={issues}
                 key={item.id}
@@ -469,7 +493,13 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
           {listItems.length > 0 ? (
             <div className="border-b border-rule">
               {listItems.map((item) => (
-                <MemoizedItemCard item={item} issues={issues} key={item.id} people={people} />
+                <MemoizedItemCard
+                  highlightQuery={query}
+                  item={item}
+                  issues={issues}
+                  key={item.id}
+                  people={people}
+                />
               ))}
             </div>
           ) : null}

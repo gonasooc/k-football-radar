@@ -35,6 +35,15 @@ describe("ItemCard variants", () => {
     assert.doesNotMatch(itemCardSource, /max-w-(?:prose|\[75ch\])/);
   });
 
+  it("highlights the applied search query in visible searchable card text", () => {
+    assert.equal(itemCardSource.match(/text=\{item\.title\}/g)?.length, 2);
+    assert.equal(itemCardSource.match(/text=\{item\.summary\}/g)?.length, 2);
+    assert.match(itemCardSource, /text=\{item\.publisher\}/);
+    assert.match(itemCardSource, /HighlightedText/);
+    assert.equal(feedClientSource.match(/highlightQuery=\{query\}/g)?.length, 2);
+    assert.doesNotMatch(itemCardSource, /dangerouslySetInnerHTML/);
+  });
+
   it("removes repeated collection diagnostics from article rows", () => {
     assert.doesNotMatch(itemCardSource, /관련도 \{item\.relevanceScore\}/);
     assert.doesNotMatch(itemCardSource, /감지 키워드/);
