@@ -63,8 +63,8 @@ export default function RootLayout({
     <html lang="ko">
       <body className="font-sans antialiased">
         <div className="min-h-screen bg-canvas text-ink">
-          <header className="border-b border-rule bg-canvas">
-            <div className="mx-auto flex w-full max-w-7xl items-end justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
+          <header className="border-b border-rule bg-canvas/95">
+            <div className="mx-auto flex w-full max-w-7xl items-end justify-between gap-4 px-4 pb-3 pt-4 sm:px-6 sm:pb-4 sm:pt-5 lg:px-8">
               <Link
                 aria-label="Korea Football Radar 홈"
                 className="focus-ring inline-flex shrink-0 items-center"

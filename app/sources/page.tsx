@@ -21,7 +21,7 @@ export default function SourcesPage() {
       />
 
       <div className="mt-8 grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
-        <section className="overflow-hidden rounded-panel border border-line bg-panel shadow-panel">
+        <section className="overflow-hidden border-y border-rule bg-panel">
           <div className="border-b border-line bg-paper px-4 py-3">
             <h2 className="text-sm font-black uppercase tracking-[0.16em] text-muted">
               수집 대상

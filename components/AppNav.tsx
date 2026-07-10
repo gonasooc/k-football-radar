@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Archive, Radio, ScanSearch } from "lucide-react";
 
 import { getActiveNavItem, navItems } from "@/lib/navigation";
 
@@ -30,11 +31,12 @@ export function AppNav() {
 
   const stickyLinks = navItems.map((item) => {
     const active = activeNavItem?.href === item.href;
+    const Icon = item.href === "/" ? Radio : item.href === "/tracking" ? ScanSearch : Archive;
 
     return (
       <Link
         aria-current={active ? "page" : undefined}
-        className={`focus-ring motion-soft flex min-h-11 items-center justify-center border-t-2 px-1 text-center text-[11px] font-black leading-tight ${
+        className={`focus-ring motion-soft flex min-h-12 flex-col items-center justify-center gap-1 border-t-2 px-1 text-center text-[10px] font-black leading-tight ${
           active
             ? "border-accent text-ink"
             : "border-transparent text-ink-soft hover:border-rule hover:text-ink"
@@ -42,6 +44,7 @@ export function AppNav() {
         href={item.href}
         key={item.href}
       >
+        <Icon aria-hidden="true" className="size-4" strokeWidth={active ? 2.5 : 1.8} />
         {item.label}
       </Link>
     );
@@ -60,7 +63,7 @@ export function AppNav() {
 
       <nav
         aria-label="고정 주요 화면"
-        className="fixed inset-x-0 bottom-0 z-50 block border-t border-rule bg-canvas px-3 pb-[calc(env(safe-area-inset-bottom)+8px)] pt-2 shadow-panel sm:hidden"
+        className="fixed inset-x-0 bottom-0 z-50 block border-t border-rule bg-canvas/95 px-3 pb-[calc(env(safe-area-inset-bottom)+6px)] pt-1 shadow-panel sm:hidden"
       >
         <div className="mx-auto grid max-w-xl grid-cols-3">{stickyLinks}</div>
       </nav>

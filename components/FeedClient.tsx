@@ -246,7 +246,7 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap items-center justify-between gap-3 py-1 text-sm font-bold text-ink/60">
+      <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line pb-3 pt-1 text-sm font-bold text-ink/60">
         <span className="metric-tabular">
           표시 항목 {visibleItems.length} / 검색 결과 {filteredItems.length}개
         </span>

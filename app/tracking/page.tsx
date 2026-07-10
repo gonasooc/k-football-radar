@@ -63,7 +63,7 @@ export default async function TrackingPage({ searchParams }: TrackingPageProps) 
       />
 
       {activeTab === "issues" ? (
-        <section className="mt-8 overflow-hidden rounded-panel border border-line bg-panel shadow-panel">
+        <section className="mt-8 overflow-hidden border-y border-rule bg-panel">
           <div className="grid grid-cols-[64px_1fr_auto] border-b border-line bg-paper px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-muted">
             <span>순위</span>
             <span>이슈</span>
@@ -72,7 +72,7 @@ export default async function TrackingPage({ searchParams }: TrackingPageProps) 
           <div className="divide-y divide-line">
             {data.issues.map((issue, index) => (
               <Link
-                className="focus-ring motion-soft grid grid-cols-[64px_1fr_auto] items-center gap-4 px-4 py-4 text-ink hover:bg-blush"
+                className="focus-ring motion-soft grid grid-cols-[48px_1fr_auto] items-center gap-4 px-2 py-5 text-ink hover:bg-blush sm:grid-cols-[64px_1fr_auto] sm:px-4"
                 href={`/issues/${issue.id}`}
                 key={issue.id}
               >
@@ -96,7 +96,7 @@ export default async function TrackingPage({ searchParams }: TrackingPageProps) 
           </div>
         </section>
       ) : (
-        <section className="mt-8 overflow-hidden rounded-panel border border-line bg-panel shadow-panel">
+        <section className="mt-8 overflow-hidden border-y border-rule bg-panel">
           <div className="grid grid-cols-[1fr_auto] border-b border-line bg-paper px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-muted md:grid-cols-[1fr_1fr_auto]">
             <span>인물</span>
             <span className="hidden md:block">키워드</span>

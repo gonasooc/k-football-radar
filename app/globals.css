@@ -14,10 +14,18 @@
 
 body {
   min-height: 100vh;
-  background: oklch(99% 0.003 80);
+  background:
+    linear-gradient(oklch(99% 0.003 80 / 0.94), oklch(99% 0.003 80 / 0.94)),
+    repeating-linear-gradient(
+      90deg,
+      transparent 0,
+      transparent calc(25% - 1px),
+      oklch(20% 0.012 70 / 0.025) 25%
+    );
   font-feature-settings:
     "tnum" 1,
     "ss01" 1;
+  text-rendering: optimizeLegibility;
 }
 
 a {
@@ -47,6 +55,21 @@ a {
 
 .metric-tabular {
   font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background: oklch(88% 0.052 28);
+  color: oklch(20% 0.012 70);
+}
+
+@media (min-width: 768px) {
+  .editorial-hover {
+    transition: background-color 180ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .editorial-hover:hover {
+    background: oklch(97% 0.018 28 / 0.42);
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

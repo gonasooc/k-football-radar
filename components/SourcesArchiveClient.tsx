@@ -24,7 +24,7 @@ export function PublisherStatsPanel({ publisherStats }: PublisherStatsPanelProps
   const hasMoreStats = publisherStats.length > PUBLISHER_PREVIEW_COUNT;
 
   return (
-    <section className="overflow-hidden rounded-panel border border-line bg-panel shadow-panel">
+    <section className="overflow-hidden border-y border-rule bg-panel">
       <div className="flex items-center justify-between gap-3 border-b border-line bg-paper px-4 py-3">
         <h2 className="text-sm font-black uppercase tracking-[0.16em] text-muted">
           발행처 통계
@@ -72,7 +72,7 @@ export function SourceLinksList({ items }: SourceLinksListProps) {
           원문 확인 가능한 링크만 보관합니다.
         </p>
       </div>
-      <div className="mt-4 divide-y divide-line overflow-hidden rounded-panel border border-line bg-panel">
+      <div className="mt-4 divide-y divide-line border-y border-rule bg-panel">
         {visibleItems.map((item) => (
           <a
             className="focus-ring motion-soft grid gap-2 p-4 text-sm hover:bg-paper md:grid-cols-[1fr_160px_120px]"

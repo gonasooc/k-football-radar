@@ -78,10 +78,10 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
 
   if (variant === "compact") {
     return (
-      <article className="radar-list-item h-full border-t border-line py-4">
+      <article className="radar-list-item editorial-hover h-full border-t border-line px-3 py-5 first:border-t-rule md:px-4">
         <div className="flex h-full flex-col gap-3">
           {badgeRow}
-          <h2 className="line-clamp-2 text-xl font-black leading-snug text-ink" title={item.title}>
+          <h2 className="line-clamp-2 text-xl font-black leading-snug text-ink tracking-[-0.018em]" title={item.title}>
             {item.title}
           </h2>
           <p className="line-clamp-3 text-sm font-medium leading-7 text-summary">
@@ -103,7 +103,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
   }
 
   return (
-    <article className="radar-list-item motion-soft border-t border-line py-4">
+    <article className="radar-list-item editorial-hover motion-soft border-t border-line px-2 py-5 sm:px-3">
       <div className="grid gap-4 md:grid-cols-[150px_1fr]">
         <aside>
           <div className="flex flex-wrap items-center gap-2 md:flex-col md:items-start">
@@ -141,7 +141,7 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
               </div>
             ) : null}
             <h2
-              className="line-clamp-2 text-xl font-black leading-snug text-ink sm:text-2xl"
+              className="line-clamp-2 text-xl font-black leading-snug text-ink tracking-[-0.018em] sm:text-2xl"
               title={item.title}
             >
               {item.title}

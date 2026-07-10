@@ -9,7 +9,9 @@ export function SectionHeader({ title, description, action }: SectionHeaderProps
     <div className="border-b border-rule pb-5">
       <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
-          <h1 className="text-4xl font-black leading-tight text-ink">{title}</h1>
+          <h1 className="text-3xl font-black leading-tight tracking-[-0.025em] text-ink sm:text-4xl">
+            {title}
+          </h1>
           {description ? (
             <p className="mt-3 max-w-3xl text-[15px] font-medium leading-7 text-ink-soft">
               {description}
