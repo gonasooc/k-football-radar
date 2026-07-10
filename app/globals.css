@@ -44,6 +44,14 @@ a {
   color: oklch(20% 0.012 70);
 }
 
+@media (max-width: 767px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
 @media (hover: hover) and (pointer: fine) {
   .editorial-hover {
     transition: background-color 180ms cubic-bezier(0.22, 1, 0.36, 1);
