@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import { ExternalLink } from "lucide-react";
 
 import { SectionHeader } from "@/components/SectionHeader";
 import { PublisherStatsPanel, SourceLinksList } from "@/components/SourcesArchiveClient";
 import { getDataBundle } from "@/lib/data";
+
+export const metadata: Metadata = {
+  title: "출처 아카이브",
+  description: "한국축구 뉴스와 공식자료의 수집 대상, 발행처, 원문 링크를 확인합니다."
+};
 
 export default function SourcesPage() {
   const data = getDataBundle();
@@ -12,6 +18,15 @@ export default function SourcesPage() {
       return counts;
     }, new Map<string, number>())
   ).sort((a, b) => b[1] - a[1]);
+  const sourceLinkItems = data.items.map(
+    ({ id, url, title, publisher, publishedAt }) => ({
+      id,
+      url,
+      title,
+      publisher,
+      publishedAt
+    })
+  );
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
@@ -20,17 +35,25 @@ export default function SourcesPage() {
         title="출처 아카이브"
       />
 
-      <div className="mt-8 grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
-        <section className="overflow-hidden border-y border-rule bg-panel">
-          <div className="border-b border-line bg-paper px-4 py-3">
-            <h2 className="text-sm font-black uppercase tracking-[0.16em] text-muted">
+      <SourceLinksList items={sourceLinkItems} />
+
+      <div className="mt-10 divide-y divide-rule border-y border-rule lg:grid lg:grid-cols-[1.05fr_0.95fr] lg:divide-x lg:divide-y-0">
+        <section aria-labelledby="collection-sources-heading">
+          <div className="flex min-h-14 items-center justify-between gap-3 border-b border-line px-2 py-1 sm:px-4">
+            <h2
+              className="text-sm font-black tracking-[0.14em] text-muted"
+              id="collection-sources-heading"
+            >
               수집 대상
             </h2>
+            <span className="metric-tabular text-xs font-bold text-muted">
+              {data.sources.length}곳
+            </span>
           </div>
           <div className="divide-y divide-line">
             {data.sources.map((source) => (
               <a
-                className="focus-ring motion-soft grid gap-3 p-4 text-ink hover:bg-blush sm:grid-cols-[1fr_auto]"
+                className="focus-ring motion-soft grid min-h-11 items-center gap-2 px-2 py-3 text-ink hover:bg-paper sm:grid-cols-[1fr_auto] sm:px-4"
                 href={source.url}
                 key={source.id}
                 rel="noreferrer"
@@ -41,8 +64,9 @@ export default function SourcesPage() {
                   <span className="mt-1 block text-xs font-medium text-muted">
                     {source.type === "official" ? "공식자료 소스" : "뉴스 API 기반 수집"}
                   </span>
+                  <span className="sr-only">, 새 창에서 열기</span>
                 </span>
-                <ExternalLink aria-hidden="true" className="mt-1 size-4 shrink-0 text-accent" />
+                <ExternalLink aria-hidden="true" className="size-4 shrink-0 text-muted" />
               </a>
             ))}
           </div>
@@ -50,8 +74,6 @@ export default function SourcesPage() {
 
         <PublisherStatsPanel publisherStats={publisherStats} />
       </div>
-
-      <SourceLinksList items={data.items} />
     </div>
   );
 }

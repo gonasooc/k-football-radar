@@ -2,16 +2,16 @@ import Link from "next/link";
 
 import type { Issue, Person, RadarItem } from "@/lib/schema";
 
-export function SourceBadge({ item }: { item: RadarItem }) {
+export function SourceBadge({ item }: { item: Pick<RadarItem, "sourceType"> }) {
   return (
     <span
-      className={`inline-flex items-center gap-1 rounded-chip border px-2.5 py-1 text-xs font-bold ${
-        item.isOfficial
+      className={`inline-flex min-h-6 items-center rounded-chip border px-2 text-[11px] font-black ${
+        item.sourceType === "official"
           ? "border-official/25 bg-panel text-official"
           : "border-accent-soft bg-blush text-accent"
       }`}
     >
-      {item.isOfficial ? "공식자료" : "뉴스"}
+      {item.sourceType === "official" ? "공식자료" : "뉴스"}
     </span>
   );
 }
@@ -19,10 +19,10 @@ export function SourceBadge({ item }: { item: RadarItem }) {
 export function IssueBadge({ issue }: { issue: Issue }) {
   return (
     <Link
-      className="focus-ring motion-soft inline-flex items-center rounded-chip border border-line bg-panel px-2.5 py-1 text-xs font-bold text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent"
+      className="focus-ring motion-soft inline-flex min-h-11 items-center rounded-control bg-paper px-2 text-xs font-bold text-ink-soft hover:bg-blush hover:text-accent"
       href={`/issues/${issue.id}`}
     >
-      {issue.name}
+      #{issue.name}
     </Link>
   );
 }
@@ -30,10 +30,10 @@ export function IssueBadge({ issue }: { issue: Issue }) {
 export function PersonBadge({ person }: { person: Person }) {
   return (
     <Link
-      className="focus-ring motion-soft inline-flex items-center rounded-chip border border-line bg-panel px-2.5 py-1 text-xs font-bold text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent"
+      className="focus-ring motion-soft inline-flex min-h-11 items-center rounded-control bg-paper px-2 text-xs font-bold text-ink-soft hover:bg-blush hover:text-accent"
       href={`/people/${person.id}`}
     >
-      {person.name}
+      @{person.name}
     </Link>
   );
 }

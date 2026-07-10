@@ -36,7 +36,10 @@ function getSiteUrl() {
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
-  title: siteName,
+  title: {
+    default: siteName,
+    template: `%s | ${siteName}`
+  },
   description: siteDescription,
   openGraph: {
     title: siteName,
@@ -62,31 +65,39 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className="font-sans antialiased">
+        <a
+          className="focus-ring motion-soft fixed left-4 top-3 z-[60] -translate-y-20 rounded-control bg-ink px-4 py-3 text-sm font-black text-canvas focus:translate-y-0"
+          href="#main-content"
+        >
+          본문으로 건너뛰기
+        </a>
         <div className="min-h-screen bg-canvas text-ink">
-          <header className="border-b border-rule bg-canvas/95">
-            <div className="mx-auto flex w-full max-w-7xl items-end justify-between gap-4 px-4 pb-3 pt-4 sm:px-6 sm:pb-4 sm:pt-5 lg:px-8">
+          <header className="border-b border-rule bg-canvas">
+            <div className="mx-auto flex w-full max-w-7xl items-end justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4 lg:px-8">
               <Link
                 aria-label="Korea Football Radar 홈"
-                className="focus-ring inline-flex shrink-0 items-center"
+                className="focus-ring mx-auto inline-flex shrink-0 items-center lg:mx-0"
                 href="/"
               >
                 <Image
                   alt="Korea Football Radar"
-                  className="h-auto w-[200px] sm:w-[240px] lg:w-[280px]"
+                  className="h-auto w-[190px] max-w-[calc(100vw-2rem)] sm:w-[220px] lg:w-[250px]"
                   height={500}
                   priority
                   src="/brand/korea-football-radar-logo-header-transparent.png"
                   width={1830}
                 />
               </Link>
-              <p className="hidden max-w-md text-right text-xs font-bold leading-5 text-ink-soft sm:block">
+              <p className="hidden max-w-md text-right text-xs font-semibold leading-5 text-ink-soft lg:block">
                 한국축구 이슈와 공식자료를 한곳에 모은 뉴스 레이더
               </p>
             </div>
 
             <AppNav />
           </header>
-          <main className="pb-20">{children}</main>
+          <main className="pb-24 sm:pb-16" id="main-content">
+            {children}
+          </main>
         </div>
         <Analytics />
       </body>

@@ -8,6 +8,7 @@ const feedClientSource = readFileSync(
   new URL("../components/FeedClient.tsx", import.meta.url),
   "utf8"
 );
+const badgesSource = readFileSync(new URL("../components/Badges.tsx", import.meta.url), "utf8");
 const tailwindConfigSource = readFileSync(
   new URL("../tailwind.config.ts", import.meta.url),
   "utf8"
@@ -19,33 +20,42 @@ describe("ItemCard variants", () => {
     assert.equal(itemCardSource.includes("variant === \"lead\""), false);
   });
 
-  it("clamps article titles to two lines in card layouts", () => {
-    assert.match(itemCardSource, /line-clamp-2 text-xl font-black/);
-    assert.match(itemCardSource, /title=\{item\.title\}/);
+  it("keeps article titles readable on mobile and links them to the original", () => {
+    assert.match(itemCardSource, /sm:line-clamp-2/);
+    assert.match(itemCardSource, /href=\{item\.url\}/);
+    assert.match(itemCardSource, /새 창에서 원문 열기/);
+    assert.equal(itemCardSource.match(/href=\{item\.url\}/g)?.length, 2);
+    assert.doesNotMatch(itemCardSource, /원문 보기/);
+    assert.doesNotMatch(itemCardSource, /title=\{item\.title\}/);
   });
 
   it("keeps summaries visually quieter than article titles", () => {
-    assert.match(itemCardSource, /line-clamp-2 text-xl font-black leading-snug text-ink/);
     assert.match(tailwindConfigSource, /summary: "oklch\(48% 0\.01 70\)"/);
-    assert.match(itemCardSource, /line-clamp-3 text-sm font-medium leading-7 text-summary/);
-    assert.match(itemCardSource, /max-w-4xl text-sm font-medium leading-7 text-summary/);
+    assert.match(itemCardSource, /line-clamp-2 text-sm font-medium leading-6 text-summary/);
+    assert.doesNotMatch(itemCardSource, /max-w-(?:prose|\[75ch\])/);
   });
 
-  it("keeps relevance visible before clamped detected keywords", () => {
-    assert.match(itemCardSource, /관련도 \{item\.relevanceScore\}/);
-    assert.match(itemCardSource, /감지 키워드: \{keywordText\}/);
-    assert.match(itemCardSource, /grid-cols-\[auto_minmax\(0,1fr\)\]/);
+  it("removes repeated collection diagnostics from article rows", () => {
+    assert.doesNotMatch(itemCardSource, /관련도 \{item\.relevanceScore\}/);
+    assert.doesNotMatch(itemCardSource, /감지 키워드/);
+    assert.doesNotMatch(itemCardSource, /formatDateTime/);
   });
 
-  it("hides the automatic collection label from article badges", () => {
-    assert.match(itemCardSource, /HIDDEN_LABELS/);
+  it("hides diagnostic collection labels from article badges", () => {
+    assert.match(itemCardSource, /DIAGNOSTIC_LABELS/);
     assert.match(itemCardSource, /자동 수집/);
+    assert.match(itemCardSource, /인물 언급/);
     assert.match(itemCardSource, /visibleLabels/);
+    assert.doesNotMatch(itemCardSource, /hiddenTagCount/);
   });
 
   it("marks secondary collection items with a neutral label", () => {
     assert.match(itemCardSource, /relevanceTier === "secondary"/);
     assert.match(itemCardSource, /보조 수집/);
+  });
+
+  it("keeps interactive article tags at the product touch-target size", () => {
+    assert.equal(badgesSource.match(/min-h-11/g)?.length, 2);
   });
 
   it("exposes a primary and all scope control in the feed", () => {
@@ -56,25 +66,32 @@ describe("ItemCard variants", () => {
   });
 
   it("explains the scope control without exposing internal tier names", () => {
-    assert.match(feedClientSource, /범위 필터 설명/);
+    assert.match(feedClientSource, /aria-label="수집 범위 설명"/);
+    assert.match(feedClientSource, /aria-expanded=\{showScopeHelp\}/);
+    assert.match(feedClientSource, /aria-describedby=\{showScopeHelp \? SCOPE_HELP_ID : undefined\}/);
     assert.match(feedClientSource, /role="tooltip"/);
+    assert.match(feedClientSource, /absolute right-0 top-10 z-40/);
+    assert.doesNotMatch(feedClientSource, /mt-3 max-w-3xl border-t border-line/);
     assert.match(feedClientSource, /주요는 관련도가 높은 기본 수집 항목만 보여줍니다/);
     assert.match(feedClientSource, /전체는 보조 수집 항목까지 포함합니다/);
     assert.match(feedClientSource, /검색어가 있으면 보조 수집도 함께 찾습니다/);
   });
 
   it("keeps the feed controls visually compact", () => {
-    assert.match(feedClientSource, /bg-canvas py-3/);
-    assert.match(feedClientSource, /flex flex-wrap items-center gap-2 xl:flex-nowrap/);
+    assert.match(feedClientSource, /aria-label="피드 필터"/);
+    assert.match(
+      feedClientSource,
+      /grid-cols-\[minmax\(0,1fr\)_auto\].*lg:grid-cols-\[minmax\(260px,1fr\)_260px_auto\]/
+    );
     assert.match(feedClientSource, /sr-only">검색/);
-    assert.match(feedClientSource, /border-r border-line bg-paper px-2 text-\[11px\] font-black text-muted/);
-    assert.match(feedClientSource, /h-10 w-full/);
-    assert.match(feedClientSource, /min-h-10 text-xs font-black/);
-    assert.match(feedClientSource, /aria-label="유형"/);
-    assert.match(feedClientSource, /focus-within:outline/);
-    assert.doesNotMatch(feedClientSource, /grid-cols-\[2\.75rem_minmax\(0,1fr\)\]/);
-    assert.doesNotMatch(feedClientSource, /bg-paper\/45 px-4 py-4/);
-    assert.doesNotMatch(feedClientSource, /text-\[11px\] font-black text-ink\/55/);
+    assert.match(feedClientSource, /h-11 w-full/);
+    assert.match(feedClientSource, /min-h-11 text-xs font-black/);
+    assert.match(feedClientSource, /aria-label="자료 유형"/);
+    assert.match(feedClientSource, /aria-pressed=\{selected\}/);
+    assert.match(feedClientSource, /상세 필터/);
+    assert.match(feedClientSource, /aria-controls=\{ADVANCED_FILTERS_ID\}/);
+    assert.match(feedClientSource, /aria-label="모바일 자료 유형"/);
+    assert.match(feedClientSource, /size-11 items-center justify-center/);
   });
 
   it("exposes latest and relevance sorting in the feed", () => {
@@ -94,6 +111,10 @@ describe("ItemCard variants", () => {
     assert.equal(homePageSource.includes("최신 기사"), false);
     assert.equal(homePageSource.includes("전체 피드"), false);
 
+    assert.match(homePageSource, /<h1/);
+    assert.doesNotMatch(homePageSource, /최신 동향/);
+    assert.match(homePageSource, /<h1 className="sr-only">/);
+    assert.match(homePageSource, /toFeedItems\(data\.items\)/);
     assert.match(homePageSource, /<FeedClient/);
   });
 });

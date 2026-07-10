@@ -10,7 +10,7 @@ describe("AppNav", () => {
       /<nav\s+className="([^"]+)"\s+aria-label="주요 화면"/
     )?.[1];
     const fixedNavClass = appNavSource.match(
-      /aria-label="고정 주요 화면"\s+className="([^"]+)"/
+      /aria-label="모바일 주요 화면"\s+className="([^"]+)"/
     )?.[1];
 
     assert.ok(primaryNavClass);
@@ -23,7 +23,7 @@ describe("AppNav", () => {
 
   it("keeps the fixed mobile nav visible without scroll state", () => {
     const fixedNavClass = appNavSource.match(
-      /aria-label="고정 주요 화면"\s+className="([^"]+)"/
+      /aria-label="모바일 주요 화면"\s+className="([^"]+)"/
     )?.[1];
 
     assert.ok(fixedNavClass);

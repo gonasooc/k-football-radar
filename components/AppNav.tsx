@@ -36,7 +36,7 @@ export function AppNav() {
     return (
       <Link
         aria-current={active ? "page" : undefined}
-        className={`focus-ring motion-soft flex min-h-12 flex-col items-center justify-center gap-1 border-t-2 px-1 text-center text-[10px] font-black leading-tight ${
+        className={`focus-ring motion-soft flex min-h-14 flex-col items-center justify-center gap-1 border-t-2 px-1 text-center text-[11px] font-black leading-tight ${
           active
             ? "border-accent text-ink"
             : "border-transparent text-ink-soft hover:border-rule hover:text-ink"
@@ -62,8 +62,8 @@ export function AppNav() {
       </nav>
 
       <nav
-        aria-label="고정 주요 화면"
-        className="fixed inset-x-0 bottom-0 z-50 block border-t border-rule bg-canvas/95 px-3 pb-[calc(env(safe-area-inset-bottom)+6px)] pt-1 shadow-panel sm:hidden"
+        aria-label="모바일 주요 화면"
+        className="fixed inset-x-0 bottom-0 z-50 block border-t border-rule bg-canvas px-3 pb-[calc(env(safe-area-inset-bottom)+4px)] pt-1 sm:hidden"
       >
         <div className="mx-auto grid max-w-xl grid-cols-3">{stickyLinks}</div>
       </nav>

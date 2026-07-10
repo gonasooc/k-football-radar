@@ -1,13 +1,33 @@
 import { ExternalLink } from "lucide-react";
 
-import { formatDate, formatDateTime } from "@/lib/date";
+import { formatDate } from "@/lib/date";
 import type { Issue, Person, RadarItem } from "@/lib/schema";
 import { IssueBadge, PersonBadge, SourceBadge } from "./Badges";
 
-const HIDDEN_LABELS = new Set(["자동 수집"]);
+const DIAGNOSTIC_LABELS = new Set([
+  "자동 수집",
+  "감사 키워드 포함",
+  "공식 출처",
+  "선거 키워드 포함",
+  "인물 언급",
+  "해명 키워드 포함"
+]);
 
 type ItemCardProps = {
-  item: RadarItem;
+  item: Pick<
+    RadarItem,
+    | "id"
+    | "title"
+    | "summary"
+    | "url"
+    | "publisher"
+    | "publishedAt"
+    | "issueTags"
+    | "personTags"
+    | "sourceType"
+    | "relevanceTier"
+    | "labels"
+  >;
   issues: Issue[];
   people: Person[];
   variant?: "row" | "compact";
@@ -27,76 +47,69 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
   const visibleLabels = Array.from(
     new Set([
       ...(item.relevanceTier === "secondary" ? ["보조 수집"] : []),
-      ...(item.labels?.filter((label) => !HIDDEN_LABELS.has(label)) ?? [])
+      ...(item.labels?.filter((label) => !DIAGNOSTIC_LABELS.has(label)) ?? [])
     ])
   );
-  const keywordText = item.matchedKeywords.join(", ") || "없음";
+  const tagLimit = variant === "compact" ? 4 : 6;
+  const allTags = [
+    ...taggedIssues.map((issue) => ({
+      id: `issue-${issue.id}`,
+      node: <IssueBadge issue={issue} key={`issue-${issue.id}`} />
+    })),
+    ...taggedPeople.map((person) => ({
+      id: `person-${person.id}`,
+      node: <PersonBadge person={person} key={`person-${person.id}`} />
+    }))
+  ];
 
-  const badgeRow = (
-    <div className="flex flex-wrap items-center gap-2">
+  const metadataRow = (
+    <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs font-semibold text-muted">
       <SourceBadge item={item} />
-      {visibleLabels.slice(0, 2).map((label) => (
-        <span
-          className="inline-flex items-center rounded-chip border border-line bg-paper px-2 py-1 text-xs font-semibold text-muted"
-          key={label}
-        >
+      {visibleLabels.slice(0, 1).map((label) => (
+        <span className="text-ink-soft" key={label}>
           {label}
         </span>
       ))}
+      <span>{item.publisher}</span>
+      <span aria-hidden="true">·</span>
+      <time className="metric-tabular" dateTime={item.publishedAt}>
+        {formatDate(item.publishedAt)}
+      </time>
     </div>
   );
 
-  const tagRow = (
-    <div className="flex flex-wrap gap-2">
-      {taggedIssues.map((issue) => (
-        <IssueBadge issue={issue} key={issue.id} />
-      ))}
-      {taggedPeople.map((person) => (
-        <PersonBadge person={person} key={person.id} />
+  const tagRow = allTags.length ? (
+    <div className="flex min-w-0 flex-wrap gap-1.5">
+      {allTags.slice(0, tagLimit).map((tag) => (
+        <span key={tag.id}>{tag.node}</span>
       ))}
     </div>
-  );
-
-  const relevanceRow = (
-    <p className="grid grid-cols-[auto_minmax(0,1fr)] items-baseline gap-x-2 text-xs font-medium leading-5 text-muted">
-      <span className="metric-tabular font-bold text-ink">관련도 {item.relevanceScore}</span>
-      <span className="line-clamp-2">감지 키워드: {keywordText}</span>
-    </p>
-  );
-
-  const sourceLink = (
-    <a
-      className="focus-ring motion-soft inline-flex min-h-10 w-fit shrink-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-control border border-rule bg-canvas px-3 py-2 text-sm font-black leading-none text-ink hover:border-accent-soft hover:bg-blush hover:text-accent"
-      href={item.url}
-      rel="noreferrer"
-      target="_blank"
-    >
-      원문
-      <ExternalLink aria-hidden="true" className="size-4 shrink-0" />
-    </a>
-  );
+  ) : null;
 
   if (variant === "compact") {
     return (
-      <article className="radar-list-item editorial-hover h-full border-t border-line px-3 py-5 first:border-t-rule md:px-4">
-        <div className="flex h-full flex-col gap-3">
-          {badgeRow}
-          <h2 className="line-clamp-2 text-xl font-black leading-snug text-ink tracking-[-0.018em]" title={item.title}>
-            {item.title}
+      <article className="radar-list-item editorial-hover h-full border-t border-line px-2 py-5 first:border-t-rule sm:px-3 lg:border-t-rule lg:px-5">
+        <div className="flex h-full flex-col">
+          {metadataRow}
+          <h2 className="mt-3 text-xl font-black leading-snug tracking-[-0.018em] text-ink sm:line-clamp-2 sm:text-[1.375rem]">
+            <a
+              className="focus-ring decoration-rule underline-offset-4 hover:underline"
+              href={item.url}
+              rel="noreferrer"
+              target="_blank"
+            >
+              {item.title}
+              <ExternalLink
+                aria-hidden="true"
+                className="ml-1.5 inline size-4 -translate-y-px text-muted"
+              />
+              <span className="sr-only">, 새 창에서 원문 열기</span>
+            </a>
           </h2>
-          <p className="line-clamp-3 text-sm font-medium leading-7 text-summary">
+          <p className="mt-3 line-clamp-2 text-sm font-medium leading-6 text-summary">
             {item.summary}
           </p>
-          <div className="mt-auto space-y-3">
-            {tagRow}
-            {relevanceRow}
-            <div className="flex flex-col gap-3 text-xs font-bold leading-5 text-muted sm:flex-row sm:items-center sm:justify-between">
-              <span className="min-w-0">
-                {item.publisher} · {formatDate(item.publishedAt)}
-              </span>
-              {sourceLink}
-            </div>
-          </div>
+          {tagRow ? <div className="mt-auto pt-4">{tagRow}</div> : null}
         </div>
       </article>
     );
@@ -104,59 +117,27 @@ export function ItemCard({ item, issues, people, variant = "row" }: ItemCardProp
 
   return (
     <article className="radar-list-item editorial-hover motion-soft border-t border-line px-2 py-5 sm:px-3">
-      <div className="grid gap-4 md:grid-cols-[150px_1fr]">
-        <aside>
-          <div className="flex flex-wrap items-center gap-2 md:flex-col md:items-start">
-            <SourceBadge item={item} />
-            <p className="metric-tabular text-xs font-bold text-muted">
-              {formatDate(item.publishedAt)}
-            </p>
-          </div>
-          <dl className="mt-4 grid grid-cols-2 gap-3 text-xs md:grid-cols-1">
-            <div>
-              <dt className="font-bold uppercase tracking-[0.12em] text-muted">출처</dt>
-              <dd className="mt-1 font-bold text-ink">{item.publisher}</dd>
-            </div>
-            <div>
-              <dt className="font-bold uppercase tracking-[0.12em] text-muted">수집</dt>
-              <dd className="mt-1 font-medium leading-5 text-ink-soft">
-                {formatDateTime(item.collectedAt)}
-              </dd>
-            </div>
-          </dl>
-        </aside>
-
-        <div>
-          <div className="flex flex-col gap-3">
-            {visibleLabels.length ? (
-              <div className="flex flex-wrap items-center gap-2">
-                {visibleLabels.slice(0, 3).map((label) => (
-                  <span
-                    className="inline-flex items-center rounded-chip border border-line bg-paper px-2 py-1 text-xs font-semibold text-muted"
-                    key={label}
-                  >
-                    {label}
-                  </span>
-                ))}
-              </div>
-            ) : null}
-            <h2
-              className="line-clamp-2 text-xl font-black leading-snug text-ink tracking-[-0.018em] sm:text-2xl"
-              title={item.title}
-            >
-              {item.title}
-            </h2>
-            <p className="max-w-4xl text-sm font-medium leading-7 text-summary">{item.summary}</p>
-          </div>
-
-          <div className="mt-4 grid gap-3 lg:grid-cols-[1fr_auto] lg:items-end">
-            <div className="space-y-3">
-              {tagRow}
-              {relevanceRow}
-            </div>
-            {sourceLink}
-          </div>
-        </div>
+      <div className="min-w-0">
+        {metadataRow}
+        <h2 className="mt-2 text-xl font-black leading-snug tracking-[-0.018em] text-ink sm:line-clamp-2 sm:text-[1.375rem]">
+          <a
+            className="focus-ring decoration-rule underline-offset-4 hover:underline"
+            href={item.url}
+            rel="noreferrer"
+            target="_blank"
+          >
+            {item.title}
+            <ExternalLink
+              aria-hidden="true"
+              className="ml-1.5 inline size-4 -translate-y-px text-muted"
+            />
+            <span className="sr-only">, 새 창에서 원문 열기</span>
+          </a>
+        </h2>
+        <p className="mt-2 line-clamp-2 text-sm font-medium leading-6 text-summary">
+          {item.summary}
+        </p>
+        {tagRow ? <div className="mt-3">{tagRow}</div> : null}
       </div>
     </article>
   );

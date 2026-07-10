@@ -1,19 +1,24 @@
+import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 
 import { SectionHeader } from "@/components/SectionHeader";
 import { getDataBundle } from "@/lib/data";
 import { getTrackingTabFromSearchParams, trackingTabs } from "@/lib/navigation";
 
+export const metadata: Metadata = {
+  title: "트래킹",
+  description: "한국축구 거버넌스 이슈와 인물별 관련 기사와 공식자료를 확인합니다."
+};
+
 type TrackingPageProps = {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 };
 
-function tabClassName(active: boolean): string {
-  return `focus-ring motion-soft inline-flex min-h-11 items-center justify-center rounded-control border px-4 py-2 text-sm font-black ${
+function viewLinkClassName(active: boolean): string {
+  return `focus-ring motion-soft inline-flex min-h-11 items-center justify-center border-b-2 px-3 text-sm font-black ${
     active
-      ? "border-accent bg-accent text-canvas"
-      : "border-rule bg-panel text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent"
+      ? "border-accent text-ink"
+      : "border-transparent text-muted hover:border-rule hover:text-ink"
   }`;
 }
 
@@ -36,99 +41,86 @@ export default async function TrackingPage({ searchParams }: TrackingPageProps) 
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <SectionHeader
         action={
-          <div
-            aria-label="트래킹 보기"
-            className="inline-grid grid-cols-2 gap-1 rounded-panel border border-line bg-paper p-1"
-            role="tablist"
-          >
+          <nav aria-label="트래킹 보기" className="inline-flex border-b border-rule">
             {trackingTabs.map((tab) => {
               const active = activeTab === tab.id;
 
               return (
                 <Link
-                  aria-selected={active}
-                  className={tabClassName(active)}
+                  aria-current={active ? "page" : undefined}
+                  className={viewLinkClassName(active)}
                   href={tab.href}
                   key={tab.id}
-                  role="tab"
                 >
                   {tab.label}
                 </Link>
               );
             })}
-          </div>
+          </nav>
         }
         description="이슈와 인물 중심으로 관련 기사와 공식자료를 확인합니다."
         title="트래킹"
       />
 
       {activeTab === "issues" ? (
-        <section className="mt-8 overflow-hidden border-y border-rule bg-panel">
-          <div className="grid grid-cols-[64px_1fr_auto] border-b border-line bg-paper px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-muted">
-            <span>순위</span>
+        <section aria-label="추적 이슈 목록" className="mt-7 border-y border-rule">
+          <div className="grid grid-cols-[minmax(0,1fr)_auto] gap-4 border-b border-line bg-paper px-4 py-3 text-xs font-black tracking-[0.12em] text-ink-soft">
             <span>이슈</span>
             <span>항목</span>
           </div>
-          <div className="divide-y divide-line">
-            {data.issues.map((issue, index) => (
-              <Link
-                className="focus-ring motion-soft grid grid-cols-[48px_1fr_auto] items-center gap-4 px-2 py-5 text-ink hover:bg-blush sm:grid-cols-[64px_1fr_auto] sm:px-4"
-                href={`/issues/${issue.id}`}
-                key={issue.id}
-              >
-                <span className="metric-tabular text-xl font-black text-accent">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-                <span>
-                  <span className="block text-base font-black">{issue.name}</span>
-                  <span className="mt-1 block max-w-3xl text-sm font-medium leading-6 text-ink-soft">
-                    {issue.description}
+          <ul className="divide-y divide-line">
+            {data.issues.map((issue) => (
+              <li key={issue.id}>
+                <Link
+                  className="focus-ring motion-soft grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-4 py-4 text-ink hover:bg-blush"
+                  href={`/issues/${issue.id}`}
+                >
+                  <span className="min-w-0">
+                    <span className="block text-base font-black">{issue.name}</span>
+                    <span className="mt-1 block max-w-3xl text-sm font-medium leading-6 text-ink-soft">
+                      {issue.description}
+                    </span>
                   </span>
-                </span>
-                <span className="inline-flex items-center gap-3">
-                  <span className="metric-tabular text-2xl font-black text-ink">
-                    {issueCounts.get(issue.id) ?? 0}
+                  <span className="metric-tabular text-sm font-bold text-ink-soft">
+                    {issueCounts.get(issue.id) ?? 0}건
                   </span>
-                  <ArrowRight aria-hidden="true" className="hidden size-4 text-accent sm:block" />
-                </span>
-              </Link>
+                </Link>
+              </li>
             ))}
-          </div>
+          </ul>
         </section>
       ) : (
-        <section className="mt-8 overflow-hidden border-y border-rule bg-panel">
-          <div className="grid grid-cols-[1fr_auto] border-b border-line bg-paper px-4 py-3 text-xs font-black uppercase tracking-[0.16em] text-muted md:grid-cols-[1fr_1fr_auto]">
+        <section aria-label="추적 인물 목록" className="mt-7 border-y border-rule">
+          <div className="grid grid-cols-[minmax(0,1fr)_auto] gap-4 border-b border-line bg-paper px-4 py-3 text-xs font-black tracking-[0.12em] text-ink-soft md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_auto]">
             <span>인물</span>
             <span className="hidden md:block">키워드</span>
             <span>언급</span>
           </div>
-          <div className="divide-y divide-line">
+          <ul className="divide-y divide-line">
             {data.people
               .filter((person) => person.published)
               .map((person) => (
-                <Link
-                  className="focus-ring motion-soft grid grid-cols-[1fr_auto] items-center gap-4 px-4 py-4 text-ink hover:bg-blush md:grid-cols-[1fr_1fr_auto]"
-                  href={`/people/${person.id}`}
-                  key={person.id}
-                >
-                  <span>
-                    <span className="block text-base font-black">{person.name}</span>
-                    <span className="mt-1 block text-sm font-medium leading-6 text-ink-soft">
-                      {person.role}
+                <li key={person.id}>
+                  <Link
+                    className="focus-ring motion-soft grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-4 py-4 text-ink hover:bg-blush md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_auto]"
+                    href={`/people/${person.id}`}
+                  >
+                    <span className="min-w-0">
+                      <span className="block text-base font-black">{person.name}</span>
+                      <span className="mt-1 block text-sm font-medium leading-6 text-ink-soft">
+                        {person.role}
+                      </span>
                     </span>
-                  </span>
-                  <span className="hidden text-xs font-medium leading-5 text-muted md:block">
-                    {person.keywords.join(", ")}
-                  </span>
-                  <span className="inline-flex items-center gap-3">
-                    <span className="metric-tabular text-xl font-black text-accent">
-                      {personCounts.get(person.id) ?? 0}
+                    <span className="hidden min-w-0 text-xs font-medium leading-5 text-ink-soft md:block">
+                      {person.keywords.join(", ")}
                     </span>
-                    <ArrowRight aria-hidden="true" className="hidden size-4 text-accent sm:block" />
-                  </span>
-                </Link>
+                    <span className="metric-tabular text-sm font-bold text-ink-soft">
+                      {personCounts.get(person.id) ?? 0}건
+                    </span>
+                  </Link>
+                </li>
               ))}
-          </div>
+          </ul>
         </section>
       )}
     </div>

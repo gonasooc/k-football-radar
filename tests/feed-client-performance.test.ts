@@ -12,7 +12,7 @@ describe("FeedClient performance", () => {
   it("debounces search and limits rendered feed items", () => {
     assert.match(feedClientSource, /SEARCH_DEBOUNCE_MS = 250/);
     assert.match(feedClientSource, /window\.setTimeout/);
-    assert.match(feedClientSource, /setQuery\(searchInput\)/);
+    assert.match(feedClientSource, /setQuery\(searchInput\.trim\(\)\)/);
     assert.match(feedClientSource, /window\.clearTimeout/);
 
     assert.match(feedClientSource, /FEED_PAGE_SIZE = 30/);
@@ -20,6 +20,14 @@ describe("FeedClient performance", () => {
     assert.match(feedClientSource, /setVisibleCount/);
     assert.match(feedClientSource, /더보기/);
     assert.match(feedClientSource, /MemoizedItemCard/);
+  });
+
+  it("keeps filter state shareable in the page URL", () => {
+    assert.match(feedClientSource, /URLSearchParams/);
+    assert.match(feedClientSource, /window\.history\.replaceState/);
+    assert.match(feedClientSource, /getFeedFiltersFromSearchParams/);
+    assert.match(feedClientSource, /isUrlInitialized/);
+    assert.match(feedClientSource, /params\.set\("q", filters\.query\)/);
   });
 
   it("avoids building search text until cheap filters pass", () => {

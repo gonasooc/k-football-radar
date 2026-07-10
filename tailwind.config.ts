@@ -9,7 +9,7 @@ const config: Config = {
         ink: "oklch(20% 0.012 70)",
         "ink-soft": "oklch(38% 0.012 70)",
         summary: "oklch(48% 0.01 70)",
-        muted: "oklch(55% 0.01 70)",
+        muted: "oklch(50% 0.01 70)",
         canvas: "oklch(99% 0.003 80)",
         paper: "oklch(97% 0.004 80)",
         panel: "oklch(99.2% 0.002 80)",
@@ -24,7 +24,16 @@ const config: Config = {
         warning: "oklch(62% 0.12 78)"
       },
       fontFamily: {
-        sans: ["Pretendard", "sans-serif"]
+        sans: [
+          "Pretendard Variable",
+          "Pretendard",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Apple SD Gothic Neo",
+          "Noto Sans KR",
+          "Segoe UI",
+          "sans-serif"
+        ]
       },
       boxShadow: {
         panel: "0 18px 48px oklch(20% 0.012 70 / 0.055)",

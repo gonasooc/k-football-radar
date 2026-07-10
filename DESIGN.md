@@ -4,7 +4,7 @@ description: Readable editorial desk for Korean football governance monitoring
 colors:
   ink: "oklch(20% 0.012 70)"
   ink-soft: "oklch(38% 0.012 70)"
-  muted: "oklch(55% 0.01 70)"
+  muted: "oklch(50% 0.01 70)"
   canvas: "oklch(99% 0.003 80)"
   paper: "oklch(97% 0.004 80)"
   panel: "oklch(99.2% 0.002 80)"
@@ -98,7 +98,7 @@ The system must prioritize readability. Titles, summaries, source names, dates, 
 - White canvas with subtle gray surfaces.
 - Centered masthead and horizontal section navigation.
 - Pretendard typography across headlines, metadata, and controls.
-- Lead story, compact secondary stories, and row entries on the same page.
+- Compact featured briefs followed by quieter row entries on the same page.
 - Red accent used sparingly for brand, actions, and emphasis.
 - Neutral, source-first news language.
 
@@ -125,7 +125,7 @@ The palette is quiet and editorial: warm white, gray rules, black-brown ink, and
 - **Panel Strong** (`oklch(95.5% 0.005 80)`): metadata cells and subtle row sections.
 - **Line** (`oklch(89% 0.006 80)`): default borders.
 - **Rule** (`oklch(83% 0.008 80)`): stronger table dividers.
-- **Muted** (`oklch(55% 0.01 70)`): captions, helper text, metadata labels.
+- **Muted** (`oklch(50% 0.01 70)`): captions, helper text, metadata labels.
 
 **The Red Dot Rule.** Red is a small editorial marker, not a background theme. A screen should read as white and black before it reads as red.
 
@@ -176,12 +176,12 @@ Elevation is minimal. The interface relies on rules, spacing, and tonal contrast
 
 ### Article Blocks
 
-- **Lead:** full-width ruled article block with a large high-weight headline, summary, tags, metadata, and original link.
-- **Compact:** ruled secondary block for scanning multiple stories without identical cards.
-- **Row:** metadata column plus article body for dense lists.
+- **Featured:** three ruled briefs at desktop, a single readable column on smaller screens.
+- **Row:** source-first metadata, article body, limited tags, and a visible original link.
 - **Corner Style:** article blocks generally use no visible rounding. Controls use 4px and chips use 3px.
 - **Border:** thin horizontal and vertical rules. Never colored side stripes.
 - **Shadow Strategy:** avoid shadows on article lists. Let type scale, rules, and columns create hierarchy.
+- **Diagnostic Rule:** collection keywords, scores, and timestamps do not repeat in the default reading flow.
 
 ### Inputs / Fields
 
@@ -192,7 +192,7 @@ Elevation is minimal. The interface relies on rules, spacing, and tonal contrast
 ### Navigation
 
 - **Desktop:** centered masthead, small utility row, horizontal section navigation.
-- **Mobile:** masthead scales down and nav scrolls horizontally with 44px touch targets.
+- **Mobile:** masthead scales down and the three primary destinations stay in a fixed bottom navigation.
 - **Active State:** active section uses an accent underline and darker text.
 
 ### Article Rows
@@ -200,14 +200,14 @@ Elevation is minimal. The interface relies on rules, spacing, and tonal contrast
 - **Structure:** lead, compact, and row variants.
 - **Metadata:** source type, date, publisher, collected time.
 - **Body:** title first, summary second, tags third.
-- **Action:** original link remains visible on every item, usually as a bordered editorial control.
+- **Action:** every headline is the original link and carries a small external-link glyph; avoid a duplicate CTA in the same item.
 
 ## 6. Do's and Don'ts
 
 Do:
 
 - Use white space, thin rules, and readable line-height.
-- Use masthead, section nav, lead story, compact briefs, and rows to create a newspaper rhythm.
+- Use masthead, section nav, compact briefs, and rows to create a newspaper rhythm.
 - Keep article summaries easy to scan.
 - Make original links obvious.
 - Keep filters in predictable form controls.

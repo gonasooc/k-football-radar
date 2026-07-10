@@ -1,7 +1,7 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 
-import { filterItems } from "../lib/filter";
+import { filterItems, getFeedFiltersFromSearchParams, toFeedItems } from "../lib/filter";
 import type { RadarItem } from "../lib/schema";
 
 function item(id: string, override: Partial<RadarItem>): RadarItem {
@@ -153,6 +153,80 @@ describe("filterItems", () => {
         query: ""
       }).map((result) => result.id),
       ["older-high-relevance", "newest-mid-relevance", "newer-low-relevance"]
+    );
+  });
+});
+
+describe("getFeedFiltersFromSearchParams", () => {
+  it("parses valid shareable filters and rejects unknown entity ids", () => {
+    assert.deepEqual(
+      getFeedFiltersFromSearchParams(
+        {
+          type: "official",
+          scope: "all",
+          sort: "relevance",
+          issue: "election",
+          person: "unknown",
+          q: "  선거  "
+        },
+        {
+          issueIds: new Set(["election"]),
+          personIds: new Set(["person_a"])
+        }
+      ),
+      {
+        type: "official",
+        scope: "all",
+        sort: "relevance",
+        issueId: "election",
+        personId: "all",
+        query: "선거"
+      }
+    );
+  });
+
+  it("falls back to the default filters for unsupported values", () => {
+    assert.deepEqual(getFeedFiltersFromSearchParams({ type: "video", sort: "oldest" }), {
+      type: "all",
+      scope: "primary",
+      sort: "latest",
+      issueId: "all",
+      personId: "all",
+      query: ""
+    });
+  });
+});
+
+describe("toFeedItems", () => {
+  it("projects feed fields without changing search or latest-sort behavior", () => {
+    const originalItems = [
+      item("feed-item", {
+        labels: ["인물 언급"],
+        matchedKeywords: ["대한축구협회", "대한축구협회 감독 선임", "감독 선임"]
+      })
+    ];
+    const [feedItem] = toFeedItems(originalItems);
+
+    assert.ok(feedItem);
+    assert.equal("originalUrl" in feedItem, false);
+    assert.equal("matchedKeywords" in feedItem, false);
+    assert.equal(
+      feedItem.searchTerms,
+      "대한축구협회 대한축구협회 감독 선임 감독 선임 인물 언급"
+    );
+
+    const filters = {
+      type: "all",
+      scope: "primary",
+      sort: "latest",
+      issueId: "all",
+      personId: "all",
+      query: "감독 선임 인물 언급"
+    } as const;
+
+    assert.deepEqual(
+      filterItems(originalItems, filters).map((result) => result.id),
+      filterItems(toFeedItems(originalItems), filters).map((result) => result.id)
     );
   });
 });

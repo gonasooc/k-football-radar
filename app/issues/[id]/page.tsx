@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { EmptyState } from "@/components/EmptyState";
@@ -5,15 +6,29 @@ import { ItemCard } from "@/components/ItemCard";
 import { SectionHeader } from "@/components/SectionHeader";
 import { getDataBundle, getIssueById, getItemsForIssue } from "@/lib/data";
 
+type IssueDetailPageProps = {
+  params: Promise<{ id: string }>;
+};
+
 export function generateStaticParams() {
   return getDataBundle().issues.map((issue) => ({ id: issue.id }));
 }
 
-export default async function IssueDetailPage({
-  params
-}: {
-  params: Promise<{ id: string }>;
-}) {
+export async function generateMetadata({ params }: IssueDetailPageProps): Promise<Metadata> {
+  const { id } = await params;
+  const issue = getIssueById(id);
+
+  if (!issue) {
+    return { title: "이슈를 찾을 수 없음" };
+  }
+
+  return {
+    title: issue.name,
+    description: issue.description
+  };
+}
+
+export default async function IssueDetailPage({ params }: IssueDetailPageProps) {
   const { id } = await params;
   const data = getDataBundle();
   const issue = getIssueById(id);
@@ -27,30 +42,34 @@ export default async function IssueDetailPage({
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <SectionHeader description={issue.description} title={issue.name} />
-      <div className="mt-6 rounded-panel border border-line bg-panel p-4 shadow-panel">
-        <p className="mb-3 text-xs font-black uppercase tracking-[0.16em] text-muted">
-          감지 키워드
-        </p>
-        <div className="flex flex-wrap gap-2">
-          {issue.keywords.map((keyword) => (
-            <span
-              className="rounded-chip border border-line bg-paper px-2.5 py-1 text-xs font-bold text-ink-soft"
-              key={keyword}
-            >
-              {keyword}
-            </span>
-          ))}
+      <dl className="mt-5 border-y border-rule">
+        <div className="grid gap-1 py-3 sm:grid-cols-[8rem_minmax(0,1fr)] sm:gap-4">
+          <dt className="text-xs font-black tracking-[0.12em] text-ink-soft">감지 키워드</dt>
+          <dd className="text-sm font-medium leading-6 text-ink">
+            {issue.keywords.join(", ")}
+          </dd>
         </div>
-      </div>
-      <div className="mt-8 space-y-3">
+      </dl>
+      <section aria-labelledby="issue-items-title" className="mt-7">
+        <div className="flex items-center justify-between gap-4 pb-2">
+          <h2 className="text-sm font-black text-ink" id="issue-items-title">
+            관련 수집 항목
+          </h2>
+          <span className="metric-tabular text-xs font-bold text-ink-soft">{items.length}건</span>
+        </div>
         {items.length > 0 ? (
-          items.map((item) => (
-            <ItemCard item={item} issues={data.issues} key={item.id} people={data.people} />
-          ))
+          <div className="border-b border-rule">
+            {items.map((item) => (
+              <ItemCard item={item} issues={data.issues} key={item.id} people={data.people} />
+            ))}
+          </div>
         ) : (
-          <EmptyState title="이 이슈에 매칭된 수집 항목이 없습니다." />
+          <EmptyState
+            description="새 자료가 수집되면 이 이슈 화면에 자동으로 표시됩니다."
+            title="아직 이 이슈와 연결된 자료가 없습니다."
+          />
         )}
-      </div>
+      </section>
     </div>
   );
 }
