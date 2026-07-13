@@ -1014,14 +1014,16 @@
     "id": "item_4d74c324ed3b8557",
     "type": "news",
     "title": "[시사천국] 신문선이 말하는 '한국 축구 카르텔' 민낯",
-    "summary": "대한축구협회 는 정 씨 일가의 것으로 이렇게 생각을 하고 있는 잘못된 축구 계 카르텔 조직이 있죠. 국민의 뜻... 그러면 경제인이 와서 축구 에 대해서 마케팅을 잘해서 축구 의 재정적인 부분을 확장해서 그것으로 유소년 도...",
+    "summary": "대한축구협회 는 정 씨 일가의 것으로 이렇게 생각을 하고 있는 잘못된 축구 계 카르텔 조직이 있죠. 국민의 뜻... 근데 정견 발표를 하는데 1번 정몽규, 2번 신문선, 3번 허정무 후보가 정견 발표를 했습니다. 기자도 한...",
     "url": "https://news.cpbc.co.kr/article/1174268?division=NAVER",
     "originalUrl": "https://news.cpbc.co.kr/article/1174268?division=NAVER",
     "publisher": "news.cpbc.co.kr",
     "publishedAt": "2026-07-09T16:16:00.000Z",
     "collectedAt": "2026-07-09T17:06:57.752Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "정몽규",
+      "허정무"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -1043,11 +1045,16 @@
       "축구협회 투표권"
     ],
     "issueTags": [],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_huh_jung_moo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
-    "labels": []
+    "relevanceScore": 12,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_748faec65b53e70b",
@@ -3810,7 +3817,7 @@
     "id": "item_ad8b33770900d4b3",
     "type": "news",
     "title": "침묵 깨고 입장문 발표한 홍명보 \"청문회 출석할 것\"",
-    "summary": "[ 홍 명 보 / 전 축구대표팀 감독 : 제가 할 이야기는 있는데 언젠가는 이야기가 잘 나올 거예요.] 출국 일주일... 일이었다고 해명 했습니다. 또, 청문회가 열린다면 그 자리에 서야 할 사람도 본인이라고 강조하면서 어떠한...",
+    "summary": "일이었다고 해명 했습니다. 또, 청문회가 열린다면 그 자리에 서야 할 사람도 본인이라고 강조하면서 어떠한... 부회장과 김승희 전무이사 등 현직은 청문회에 출석하겠다고 밝혔습니다. 월드컵 성적에 대한 비판 속, 홍 전...",
     "url": "https://www.ytn.co.kr/_ln/0107_202607091903060790",
     "originalUrl": "https://www.ytn.co.kr/_ln/0107_202607091903060790",
     "publisher": "ytn.co.kr",
@@ -3818,6 +3825,10 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
+      "부회장",
+      "전무",
+      "김승희 전무",
+      "김승희 전무이사",
       "해명"
     ],
     "discoveryQueries": [
@@ -3827,13 +3838,16 @@
       "\"홍명보\" 해명",
       "축구협회 전무"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "kfa-executives"
+    ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_kim_seung_hee"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 17,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
