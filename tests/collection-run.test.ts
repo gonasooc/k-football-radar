@@ -125,6 +125,63 @@ describe("collection run state", () => {
     assert.equal(update.state.lastRunNewItems, 0);
   });
 
+  it("replaces stale classification metadata when a known URL is recollected", () => {
+    const existingItem: RadarItem = {
+      ...item("existing"),
+      type: "news",
+      sourceType: "news",
+      isOfficial: false,
+      matchedKeywords: ["오래된 강한 근거"],
+      issueTags: ["stale-issue"],
+      personTags: ["stale-person"],
+      relevanceScore: 95,
+      labels: ["오래된 라벨"]
+    };
+    const recollectedItem: RadarItem = {
+      ...existingItem,
+      id: "recollected",
+      title: "재수집된 대표 제목",
+      summary: "현재 검색 스니펫",
+      url: `${existingItem.url}?utm_source=naver`,
+      collectedAt: "2026-07-13T00:00:00.000Z",
+      matchedKeywords: ["현재 기사 근거"],
+      issueTags: ["current-issue"],
+      personTags: [],
+      relevanceScore: 25,
+      relevanceTier: "secondary",
+      labels: ["현재 라벨"]
+    };
+
+    const update = prepareCollectionRun({
+      existingItems: [existingItem],
+      results: [result({ items: [recollectedItem] })],
+      now: new Date("2026-07-13T01:00:00.000Z")
+    });
+
+    assert.equal(update.items.length, 1);
+    assert.equal(update.items[0].id, recollectedItem.id);
+    assert.equal(update.items[0].collectedAt, existingItem.collectedAt);
+    assert.deepEqual(
+      {
+        matchedKeywords: update.items[0].matchedKeywords,
+        issueTags: update.items[0].issueTags,
+        personTags: update.items[0].personTags,
+        labels: update.items[0].labels,
+        relevanceScore: update.items[0].relevanceScore,
+        relevanceTier: update.items[0].relevanceTier
+      },
+      {
+        matchedKeywords: recollectedItem.matchedKeywords,
+        issueTags: recollectedItem.issueTags,
+        personTags: recollectedItem.personTags,
+        labels: recollectedItem.labels,
+        relevanceScore: recollectedItem.relevanceScore,
+        relevanceTier: recollectedItem.relevanceTier
+      }
+    );
+    assert.equal(update.state.lastRunNewItems, 0);
+  });
+
   it("counts a distinct new group even when it shares an existing collection time", () => {
     const existingItem = item("existing");
     const newItem = item("new");

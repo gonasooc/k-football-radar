@@ -2,7 +2,7 @@ import crypto from "node:crypto";
 import { pathToFileURL } from "node:url";
 
 import { classifyItemText, getSearchQueries } from "../lib/classify";
-import { dedupeItems } from "../lib/dedupe";
+import { canonicalizeUrl, dedupeItems } from "../lib/dedupe";
 import {
   getItemRetentionDays,
   isPublishedAtWithinRetention
@@ -25,6 +25,12 @@ type NewsCandidateClassification = {
   personTags: string[];
   matchedKeywords: string[];
   relevanceScore: number;
+  titleIssueTags?: string[];
+  summaryIssueTags?: string[];
+  titlePersonTags?: string[];
+  summaryPersonTags?: string[];
+  titleMatchedKeywords?: string[];
+  summaryMatchedKeywords?: string[];
 };
 
 type NewsCandidateInput = {
@@ -35,6 +41,14 @@ type NewsCandidateInput = {
 
 type NewsCandidateRelevanceTier = RelevanceTier | "reject";
 
+type NaverNewsObservation = {
+  title: string;
+  summary: string;
+  originalUrl: string;
+  publishedAt: string;
+  queries: string[];
+};
+
 export const DEFAULT_NAVER_QUERY_DELAY_MS = 800;
 export const MAX_NAVER_SEARCH_QUERIES = 100;
 export const NAVER_NEWS_DISPLAY_COUNT = 40;
@@ -42,9 +56,12 @@ export const NAVER_NEWS_TIMEOUT_MS = 10000;
 
 const FOOTBALL_CONTEXT_KEYWORDS = [
   "대한축구협회",
+  "대한 축구협회",
   "대한축구협회장",
+  "대한 축구협회장",
   "축구협회",
   "축구협회장",
+  "축협",
   "KFA",
   "K-축구혁신위원회",
   "축구혁신위",
@@ -133,8 +150,8 @@ const TRACKED_GOVERNANCE_CONTEXT_KEYWORDS = [
 ];
 
 const KFA_ACCOUNTABILITY_CONTEXT_PATTERNS = [
-  /(?:대한\s*축구협회|축구협회|KFA|한국\s*축구|한국축구|대한민국\s*축구).{0,50}(?:청문회|감사|조사|해명|사퇴|선거|선거인단|정관|징계|소송|가처분|이사회|집행부|전력강화위원회|감독\s*선임|선임\s*절차|제도\s*개편|거버넌스|혁신|쇄신|대수술|대변혁|구조|카르텔|무원칙|책임|논란|비판|직격|후속\s*조치)/u,
-  /(?:청문회|감사|조사|해명|사퇴|선거|선거인단|정관|징계|소송|가처분|이사회|집행부|전력강화위원회|감독\s*선임|선임\s*절차|제도\s*개편|거버넌스|혁신|쇄신|대수술|대변혁|구조|카르텔|무원칙|책임|논란|비판|직격|후속\s*조치).{0,50}(?:대한\s*축구협회|축구협회|KFA|한국\s*축구|한국축구|대한민국\s*축구)/u
+  /(?:대한\s*축구협회|축구협회|축협|KFA|한국\s*축구|한국축구|대한민국\s*축구).{0,50}(?:청문회|감사(?!\s*(?:합니다|드립니다|인사|패|를?\s*전))|조사|해명|사퇴|선거|선거인단|정관|징계|소송|가처분|이사회|집행부|전력강화위원회|감독\s*선임|선임\s*절차|제도\s*개편|거버넌스|혁신|쇄신|대수술|대변혁|구조|카르텔|무원칙|책임|논란|비판|직격|후속\s*조치)/u,
+  /(?:청문회|감사(?!\s*(?:합니다|드립니다|인사|패|를?\s*전))|조사|해명|사퇴|선거|선거인단|정관|징계|소송|가처분|이사회|집행부|전력강화위원회|감독\s*선임|선임\s*절차|제도\s*개편|거버넌스|혁신|쇄신|대수술|대변혁|구조|카르텔|무원칙|책임|논란|비판|직격|후속\s*조치).{0,50}(?:대한\s*축구협회|축구협회|축협|KFA|한국\s*축구|한국축구|대한민국\s*축구)/u
 ];
 
 const PERSON_GOVERNANCE_CONTEXT_PATTERNS = [
@@ -142,9 +159,11 @@ const PERSON_GOVERNANCE_CONTEXT_PATTERNS = [
   /전력강화위원/u,
   /(?:감독|사령탑|홍명보).{0,24}(?:선임|후보|후임|차기|지원|관심|러브콜|의혹|수사|논란)/u,
   /(?:선임|후보|후임|차기|지원설|러브콜|의혹|수사|논란).{0,24}(?:감독|사령탑|홍명보)/u,
+  /(?:감독|사령탑|홍명보).{0,24}(?:자진|사퇴|퇴진|OUT)|(?:자진|사퇴|퇴진|OUT).{0,24}(?:감독|사령탑|홍명보)/iu,
+  /(?:정몽규|허정무|이임생|박지성).{0,35}(?:떠난|물러난|퇴임|임기|상임위|집행위원|협회장)|(?:떠난|물러난|퇴임|임기|상임위|집행위원|협회장).{0,35}(?:정몽규|허정무|이임생|박지성)/u,
   /선거\s*(?:운동|사무원|후보|캠프|득표|투표|대의원|인단)/u,
   /(?:정몽규|허정무).{0,40}선거|선거.{0,40}(?:정몽규|허정무)/u,
-  /감사(?!\s*(?:합니다|드립니다|인사|패))/u
+  /감사(?!\s*(?:합니다|드립니다|인사|패|를?\s*전|의\s*뜻|인사를))/u
 ];
 
 const STRONG_PERSON_ISSUE_KEYWORDS = new Set([
@@ -173,13 +192,17 @@ const KOREAN_FOOTBALL_CONTEXT_KEYWORDS = [
   "대한 축구협회",
   "대한축구협회장",
   "대한 축구협회장",
+  "축협",
   "KFA",
   "K-축구혁신위원회",
   "축구혁신위",
   "한국 축구",
   "한국축구",
   "대한민국 축구",
-  "대한민국 대표팀"
+  "대한민국 대표팀",
+  "한국프로축구연맹",
+  "프로축구연맹",
+  "K리그"
 ];
 
 const FOREIGN_FOOTBALL_CONTEXT_PATTERNS = [
@@ -203,6 +226,28 @@ const ATHLETE_ROSTER_OR_PROFILE_PATTERNS = [
 const POLITICAL_ANALOGY_CONTEXT_PATTERNS = [
   /(?:정청래|김어준|김민석|장성철|송영길|민주당|국민의힘|당대표|전당대회|당무위|선호투표|한판승부|체포방해|윤석열)/u
 ];
+
+const STRONG_TITLE_SUBJECT_PATTERNS = [
+  /(?:대한\s*축구협회|\bKFA\b|축협|한국\s*축구|한국축구|대한민국\s*축구|한국프로축구연맹|프로축구연맹|K리그)/iu,
+  /(?:전강위|전력강화위원|대표팀\s*감독\s*선임|국가대표팀\s*감독\s*선임|감독\s*선임|회장\s*선거|선거인단|직선제|간선제|축구혁신위|K-?축구혁신위|K-혁신위)/u,
+  /(?:문체부|문화체육관광부).{0,30}(?:축구협회|축협)|(?:축구협회|축협).{0,30}(?:특별\s*감사|감사\s*(?:착수|결과|발표))/u,
+  /(?:문체부|문화체육관광부).{0,45}(?:월드컵|축구|대표팀|대한축)|(?:축구협회|축협).{0,30}(?:부조리|비위|위법|파헤|개혁|쇄신)/u,
+  /(?:축구|대표팀|선수).{0,24}청문회|청문회.{0,24}(?:축구|대표팀|선수)/u
+];
+
+const BUNDLED_NEWS_TITLE_PATTERNS = [
+  /(?:주요\s*뉴스|오늘의\s*뉴스|헤드라인|이슈\s*종합|뉴스\s*Top\s*10|세상의\s*지식)/iu
+];
+
+const GRATITUDE_CONTEXT_PATTERNS = [
+  /감사\s*(?:합니다|드립니다|인사|패|를?\s*전|의\s*뜻|인사를)/u,
+  /(?:기회|응원|지원|성원)을?\s*주신.{0,30}(?:감사|고맙)/u
+];
+
+const BASEBALL_CONTEXT_PATTERN =
+  /(?:야구|프로야구|메이저리그|잠실야구장|\bKBO\b|\bMLB\b)/iu;
+const EXPLICIT_FOOTBALL_TITLE_PATTERN =
+  /(?:축구|대한\s*축구협회|축협|\bKFA\b|전강위)/iu;
 
 function stableItemId(url: string): string {
   return `item_${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
@@ -373,6 +418,111 @@ function hasPoliticalAnalogyContext(text: string): boolean {
   return POLITICAL_ANALOGY_CONTEXT_PATTERNS.some((pattern) => pattern.test(text));
 }
 
+function textIncludesKeyword(text: string, keyword: string): boolean {
+  return text
+    .toLocaleLowerCase("ko-KR")
+    .includes(keyword.toLocaleLowerCase("ko-KR"));
+}
+
+function getFieldMatchedKeywords({
+  fieldText,
+  explicitKeywords,
+  classification
+}: {
+  fieldText: string;
+  explicitKeywords?: string[];
+  classification: NewsCandidateClassification;
+}): string[] {
+  return (explicitKeywords ?? classification.matchedKeywords).filter((keyword) =>
+    textIncludesKeyword(fieldText, keyword)
+  );
+}
+
+function looksLikePersonKeyword(keyword: string): boolean {
+  const compact = keyword.replace(/\s+/g, "");
+  return (
+    /^[가-힣]{2,8}$/u.test(compact) &&
+    !/(?:축구|협회|감독|선임|후보|위원|선거|감사|해명|사퇴|정관|지도자|유소년|거버넌스|육성|시스템|제도|규정|조사|결과)/u.test(
+      compact
+    )
+  );
+}
+
+function hasTitlePersonEvidence(
+  title: string,
+  classification: NewsCandidateClassification
+): boolean {
+  if (classification.titlePersonTags) {
+    return classification.titlePersonTags.length > 0;
+  }
+
+  if (classification.personTags.length === 0) {
+    return false;
+  }
+
+  return getFieldMatchedKeywords({
+    fieldText: title,
+    classification
+  }).some(looksLikePersonKeyword);
+}
+
+function hasSummaryPersonEvidence(
+  summary: string,
+  classification: NewsCandidateClassification
+): boolean {
+  if (
+    (classification.summaryPersonTags ?? classification.personTags).length === 0
+  ) {
+    return false;
+  }
+
+  return getFieldMatchedKeywords({
+    fieldText: summary,
+    explicitKeywords: classification.summaryMatchedKeywords,
+    classification
+  }).some(looksLikePersonKeyword);
+}
+
+function hasStrongTitleSubject(
+  title: string,
+  classification: NewsCandidateClassification
+): boolean {
+  return (
+    STRONG_TITLE_SUBJECT_PATTERNS.some((pattern) => pattern.test(title)) ||
+    hasTitlePersonEvidence(title, classification)
+  );
+}
+
+function getSummaryLead(summary: string): string {
+  return (summary.split(/(?:\.{3}|…|[.!?]\s)/u, 1)[0] ?? "").slice(0, 100);
+}
+
+function hasStrongSummaryLead(
+  summary: string,
+  classification: NewsCandidateClassification
+): boolean {
+  const lead = getSummaryLead(summary);
+  if (!lead.trim()) {
+    return false;
+  }
+
+  return (
+    (hasKoreanFootballContext(lead) &&
+      (hasKfaAccountabilityContext(lead) ||
+        hasPersonGovernanceContext(lead))) ||
+    (hasSummaryPersonEvidence(lead, classification) &&
+      hasPersonGovernanceContext(lead))
+  );
+}
+
+function hasBundledNewsTitle(title: string): boolean {
+  return BUNDLED_NEWS_TITLE_PATTERNS.some((pattern) => pattern.test(title));
+}
+
+function hasGratitudeContext(text: string): boolean {
+  return GRATITUDE_CONTEXT_PATTERNS.some((pattern) => pattern.test(text));
+}
+
 function hasOnlyBroadAuditAndGenericAssociationKeywords(
   classification: NewsCandidateClassification
 ): boolean {
@@ -434,7 +584,10 @@ function hasPrimaryIssueContext({
     FOOTBALL_CONTEXT_KEYWORDS.includes(keyword)
   );
 
-  return hasFootballContext && classification.relevanceScore >= 20;
+  return (
+    (hasFootballContext || hasKoreanFootballContext(text)) &&
+    classification.relevanceScore >= 20
+  );
 }
 
 function hasSecondaryCollectionContext({
@@ -453,7 +606,6 @@ function hasSecondaryCollectionContext({
       FOOTBALL_CONTEXT_KEYWORDS.includes(keyword)
     );
     return (
-      classification.personTags.length > 0 ||
       hasFootballContext ||
       hasTrackedGovernanceContext(text) ||
       hasKfaAccountabilityContext(text) ||
@@ -482,7 +634,24 @@ export function getNewsCandidateRelevanceTier({
     hasKfaAccountabilityContext(text) ||
     hasPersonGovernanceContext(text);
 
+  const summaryLead = getSummaryLead(summary ?? "");
+  if (
+    (BASEBALL_CONTEXT_PATTERN.test(titleText) ||
+      BASEBALL_CONTEXT_PATTERN.test(summaryLead)) &&
+    !EXPLICIT_FOOTBALL_TITLE_PATTERN.test(titleText)
+  ) {
+    return "reject";
+  }
+
   if (hasListingTitle(titleText) && !hasKfaAccountabilityContext(titleText)) {
+    return "reject";
+  }
+
+  if (hasBundledNewsTitle(titleText)) {
+    return "reject";
+  }
+
+  if (hasGratitudeContext(text) && !hasGovernanceContext) {
     return "reject";
   }
 
@@ -518,7 +687,22 @@ export function getNewsCandidateRelevanceTier({
     return "reject";
   }
 
+  const hasTitleSubject = hasStrongTitleSubject(titleText, classification);
+  if (!hasTitleSubject) {
+    return hasStrongSummaryLead(summary ?? "", classification) ||
+      (titleText.includes("청문회") &&
+        (classification.issueTags.length > 0 ||
+          classification.personTags.length > 0 ||
+          /(?:대한\s*축구협회|축구협회|축협|KFA)/iu.test(text)))
+      ? "secondary"
+      : "reject";
+  }
+
   if (hasPrimaryPersonContext({ text, classification })) {
+    return "primary";
+  }
+
+  if (hasKfaAccountabilityContext(titleText)) {
     return "primary";
   }
 
@@ -553,6 +737,51 @@ export function filterNewsItemsForCollection(items: RadarItem[]): RadarItem[] {
   );
 }
 
+export function reclassifyAndFilterNewsItemsForCollection({
+  items,
+  issues,
+  people
+}: {
+  items: RadarItem[];
+  issues: Issue[];
+  people: Person[];
+}): RadarItem[] {
+  return items.flatMap((item) => {
+    if (item.sourceType !== "news") {
+      return [item];
+    }
+
+    const classification = classifyItemText({
+      title: item.title,
+      summary: item.summary,
+      issues,
+      people,
+      isOfficial: false
+    });
+    const relevanceTier = getNewsCandidateRelevanceTier({
+      title: item.title,
+      summary: item.summary,
+      classification
+    });
+
+    if (relevanceTier === "reject") {
+      return [];
+    }
+
+    return [
+      {
+        ...item,
+        matchedKeywords: classification.matchedKeywords,
+        issueTags: classification.issueTags,
+        personTags: classification.personTags,
+        relevanceScore: classification.relevanceScore,
+        relevanceTier: relevanceTier === "secondary" ? "secondary" : undefined,
+        labels: classification.labels
+      }
+    ];
+  });
+}
+
 export function getNaverSearchQueries({
   issues,
   people
@@ -573,6 +802,77 @@ export async function collectNaverNews({
   return (await collectNaverNewsRun({ issues, people })).items;
 }
 
+function getTitleSummaryOverlap(title: string, summary: string): number {
+  const titleTokens = new Set(
+    title
+      .toLocaleLowerCase("ko-KR")
+      .split(/[^\p{L}\p{N}]+/u)
+      .filter((token) => token.length >= 2)
+  );
+  const summaryTokens = new Set(
+    summary
+      .toLocaleLowerCase("ko-KR")
+      .split(/[^\p{L}\p{N}]+/u)
+      .filter((token) => token.length >= 2)
+  );
+
+  return [...titleTokens].filter((token) => summaryTokens.has(token)).length;
+}
+
+function compareNaverObservations(
+  previous: NaverNewsObservation,
+  next: NaverNewsObservation
+): number {
+  const previousCompleteTitle = /(?:\.{3}|…)$/u.test(previous.title) ? 0 : 1;
+  const nextCompleteTitle = /(?:\.{3}|…)$/u.test(next.title) ? 0 : 1;
+  const qualityDifference =
+    nextCompleteTitle - previousCompleteTitle ||
+    getTitleSummaryOverlap(next.title, next.summary) -
+      getTitleSummaryOverlap(previous.title, previous.summary) ||
+    next.title.length - previous.title.length ||
+    next.summary.length - previous.summary.length;
+
+  if (qualityDifference !== 0) {
+    return qualityDifference;
+  }
+
+  return `${previous.title}\n${previous.summary}`.localeCompare(
+    `${next.title}\n${next.summary}`,
+    "ko-KR"
+  );
+}
+
+function selectNaverObservations(
+  observations: NaverNewsObservation[]
+): NaverNewsObservation[] {
+  const byCanonicalUrl = new Map<string, NaverNewsObservation>();
+
+  for (const observation of observations) {
+    const canonicalUrl = canonicalizeUrl(observation.originalUrl);
+    const previous = byCanonicalUrl.get(canonicalUrl);
+    if (!previous) {
+      byCanonicalUrl.set(canonicalUrl, {
+        ...observation,
+        originalUrl: canonicalUrl,
+        queries: [...observation.queries]
+      });
+      continue;
+    }
+
+    const preferred =
+      compareNaverObservations(previous, observation) > 0 ? observation : previous;
+    byCanonicalUrl.set(canonicalUrl, {
+      ...preferred,
+      originalUrl: canonicalUrl,
+      queries: Array.from(new Set([...previous.queries, ...observation.queries])).sort(
+        (a, b) => a.localeCompare(b, "ko-KR")
+      )
+    });
+  }
+
+  return [...byCanonicalUrl.values()];
+}
+
 export async function collectNaverNewsRun({
   issues,
   people
@@ -585,7 +885,7 @@ export async function collectNaverNewsRun({
   const collectedDate = new Date();
   const collectedAt = collectedDate.toISOString();
   const retentionDays = getItemRetentionDays();
-  const results: RadarItem[] = [];
+  const observations: NaverNewsObservation[] = [];
   let succeeded = 0;
   let failed = 0;
 
@@ -619,41 +919,12 @@ export async function collectNaverNewsRun({
 
         const title = stripInlineHtml(newsItem.title);
         const summary = truncateSummary(newsItem.description);
-        const classification = classifyItemText({
+        observations.push({
           title,
           summary,
-          issues,
-          people,
-          isOfficial: false
-        });
-        const relevanceTier = getNewsCandidateRelevanceTier({
-          title,
-          summary,
-          classification
-        });
-
-        if (relevanceTier === "reject") {
-          continue;
-        }
-
-        results.push({
-          id: stableItemId(originalUrl),
-          type: "news",
-          title,
-          summary,
-          url: originalUrl,
           originalUrl,
-          publisher: normalizePublisher(originalUrl),
           publishedAt,
-          collectedAt,
-          matchedKeywords: Array.from(new Set([query, ...classification.matchedKeywords])),
-          issueTags: classification.issueTags,
-          personTags: classification.personTags,
-          sourceType: "news",
-          isOfficial: false,
-          relevanceScore: classification.relevanceScore,
-          relevanceTier: relevanceTier === "secondary" ? "secondary" : undefined,
-          labels: classification.labels
+          queries: [query]
         });
       }
     } catch (error) {
@@ -661,6 +932,48 @@ export async function collectNaverNewsRun({
       console.error(error instanceof Error ? error.message : error);
     }
   }
+
+  const results = selectNaverObservations(observations).flatMap((observation) => {
+    const classification = classifyItemText({
+      title: observation.title,
+      summary: observation.summary,
+      issues,
+      people,
+      isOfficial: false
+    });
+    const relevanceTier = getNewsCandidateRelevanceTier({
+      title: observation.title,
+      summary: observation.summary,
+      classification
+    });
+
+    if (relevanceTier === "reject") {
+      return [];
+    }
+
+    return [
+      {
+        id: stableItemId(observation.originalUrl),
+        type: "news" as const,
+        title: observation.title,
+        summary: observation.summary,
+        url: observation.originalUrl,
+        originalUrl: observation.originalUrl,
+        publisher: normalizePublisher(observation.originalUrl),
+        publishedAt: observation.publishedAt,
+        collectedAt,
+        matchedKeywords: classification.matchedKeywords,
+        discoveryQueries: observation.queries,
+        issueTags: classification.issueTags,
+        personTags: classification.personTags,
+        sourceType: "news" as const,
+        isOfficial: false,
+        relevanceScore: classification.relevanceScore,
+        relevanceTier: relevanceTier === "secondary" ? ("secondary" as const) : undefined,
+        labels: classification.labels
+      }
+    ];
+  });
 
   return {
     items: dedupeItems(results),
@@ -676,7 +989,12 @@ async function run(): Promise<void> {
   const update = await persistCollectionRun({
     existingItems: items,
     results: [result],
-    filterItems: filterNewsItemsForCollection
+    filterItems: (candidateItems) =>
+      reclassifyAndFilterNewsItemsForCollection({
+        items: candidateItems,
+        issues,
+        people
+      })
   });
   console.log(
     `Naver collector merged ${result.items.length} candidate items (${result.succeeded}/${result.attempted} queries succeeded, status ${update.state.lastRunStatus})`

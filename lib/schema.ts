@@ -27,6 +27,7 @@ export const radarItemSchema = z.object({
   publishedAt: isoDateString,
   collectedAt: isoDateString,
   matchedKeywords: z.array(z.string().min(1)),
+  discoveryQueries: z.array(z.string().min(1)).optional(),
   issueTags: z.array(z.string().min(1)),
   personTags: z.array(z.string().min(1)),
   sourceType: z.enum(["news", "official"]),
@@ -51,6 +52,10 @@ export const issueSchema = z.object({
   name: z.string().min(1),
   description: z.string().min(1),
   keywords: z.array(z.string().min(1)),
+  searchQueries: z.array(z.string().min(1)).optional(),
+  requiredKeywordGroups: z.array(z.array(z.string().min(1)).min(1)).optional(),
+  contextKeywords: z.array(z.string().min(1)).optional(),
+  excludedKeywords: z.array(z.string().min(1)).optional(),
   priority: z.number().int().min(0)
 });
 

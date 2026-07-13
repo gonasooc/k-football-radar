@@ -10,12 +10,9 @@
     "publishedAt": "2026-07-06T23:56:00.000Z",
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
-      "부회장",
-      "사퇴",
-      "임원",
       "정몽규",
-      "축구협회",
-      "축구협회 임원"
+      "대한 축구협회",
+      "임원"
     ],
     "issueTags": [
       "kfa-executives"
@@ -25,7 +22,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -41,16 +38,18 @@
     "publishedAt": "2026-07-06T23:33:00.000Z",
     "collectedAt": "2026-07-08T11:24:40.382Z",
     "matchedKeywords": [
-      "사퇴",
-      "이임생",
-      "집행부",
-      "축구협회",
-      "축구협회 집행부",
       "홍명보",
-      "KFA"
+      "이임생",
+      "대한 축구협회",
+      "KFA",
+      "집행부",
+      "감독",
+      "선임",
+      "사퇴"
     ],
     "issueTags": [
-      "kfa-executives"
+      "kfa-executives",
+      "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo",
@@ -58,40 +57,9 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 51,
+    "relevanceScore": 38,
     "labels": [
       "인물 언급"
-    ]
-  },
-  {
-    "id": "item_55a95f75eaf90a49",
-    "type": "news",
-    "title": "7월 6일 이브닝뉴스 헤드라인",
-    "summary": "벨기에 축구 협회는 해당 선수의 출장 저지 결정 번복에 대해 FIFA 에 해명 을 요구했다. 유럽 축구연맹 UEFA... 공동위원장을 맡은 박지성 FIFA 분과위원회 위원을 포함한 혁신위원들은 새 판을 짜되 회장 선거에는...",
-    "url": "https://www.radiokorea.com/news/article.php?uid=498728",
-    "originalUrl": "https://www.radiokorea.com/news/article.php?uid=498728",
-    "publisher": "radiokorea.com",
-    "publishedAt": "2026-07-06T23:30:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"박지성\" 선거",
-      "\"박지성\" 해명",
-      "박지성",
-      "해명",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "election"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 23,
-    "labels": [
-      "인물 언급",
-      "해명 키워드 포함"
     ]
   },
   {
@@ -105,31 +73,29 @@
     "publishedAt": "2026-07-06T23:18:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "\"이임생\" 해명",
-      "\"정몽규\" 해명",
-      "\"홍명보\" 해명",
+      "이임생",
+      "대한축구협회",
+      "KFA",
       "감독 선임",
       "대표팀 감독",
-      "대한축구협회",
-      "이임생",
-      "이임생 전 대한축구협회",
+      "감독",
+      "선임",
       "정몽규",
-      "축구협회",
-      "해명",
       "홍명보",
-      "KFA"
+      "이임생 전 대한축구협회",
+      "해명"
     ],
     "issueTags": [
       "coach-appointment"
     ],
     "personTags": [
+      "person_lee_im_saeng",
       "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 97,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -146,19 +112,18 @@
     "publishedAt": "2026-07-06T22:57:00.000Z",
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "감독 선임",
-      "감사",
-      "대표팀 감독",
-      "대한축구협회",
+      "홍명보",
       "이임생",
-      "축구협회",
-      "축구협회 문화체육관광부 감사",
-      "홍명보"
+      "대한 축구협회",
+      "감사",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임"
     ],
     "issueTags": [
-      "coach-appointment",
-      "mcst-audit"
+      "mcst-audit",
+      "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo",
@@ -166,10 +131,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 81,
+    "relevanceScore": 32,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -183,32 +148,22 @@
     "publishedAt": "2026-07-06T22:56:00.000Z",
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
-      "\"박지성\" 감사",
-      "감사",
-      "거버넌스",
       "박지성",
-      "유소년",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 유소년",
+      "대한 축구협회",
+      "KFA",
       "혁신위원회",
-      "KFA"
+      "축구 혁신"
     ],
     "issueTags": [
-      "innovation-committee",
-      "mcst-audit",
-      "youth-governance"
+      "innovation-committee"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 68,
+    "relevanceScore": 18,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -223,31 +178,20 @@
     "publishedAt": "2026-07-06T22:54:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "거버넌스",
-      "선거인",
-      "선거인단",
-      "유소년",
       "축구 혁신",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 유소년",
-      "축구협회 육성 시스템",
-      "축구협회 제도 개편"
+      "유소년",
+      "교육",
+      "축구협회"
     ],
     "issueTags": [
-      "electoral-college",
       "innovation-committee",
       "youth-governance"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 55,
-    "labels": [
-      "선거 키워드 포함"
-    ]
+    "relevanceScore": 23,
+    "labels": []
   },
   {
     "id": "item_bea11eda03e1425f",
@@ -260,20 +204,15 @@
     "publishedAt": "2026-07-06T22:48:00.000Z",
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "대한축구협회장",
-      "부회장",
-      "사퇴",
-      "임원",
-      "정몽규",
-      "집행부",
       "축구협회",
-      "축구협회 임원",
-      "축구협회 집행부",
-      "축구협회장"
+      "부회장",
+      "정몽규",
+      "사퇴",
+      "대한 축구협회",
+      "임원",
+      "집행부"
     ],
     "issueTags": [
-      "election",
       "kfa-executives"
     ],
     "personTags": [
@@ -281,7 +220,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 93,
+    "relevanceScore": 46,
     "labels": [
       "인물 언급"
     ]
@@ -297,28 +236,22 @@
     "publishedAt": "2026-07-06T22:45:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "\"정몽규\" 감사",
-      "감사",
-      "사퇴",
+      "홍명보",
       "이임생",
-      "정몽규",
-      "홍명보"
+      "사퇴",
+      "감사"
     ],
-    "issueTags": [
-      "mcst-audit"
-    ],
+    "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 44,
+    "relevanceScore": 23,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -332,25 +265,15 @@
     "publishedAt": "2026-07-06T22:42:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"박지성\" 선거",
-      "\"정몽규\" 선거",
+      "축구혁신위",
+      "정몽규",
       "박지성",
       "사퇴",
-      "정관",
-      "정몽규",
-      "집행부",
-      "축구 혁신",
-      "축구혁신위",
       "축구협회",
-      "축구협회 정관",
-      "축구협회 정관 개정",
-      "축구협회 집행부",
-      "회장 선거"
+      "정관"
     ],
     "issueTags": [
-      "election",
       "innovation-committee",
-      "kfa-executives",
       "statute-revision"
     ],
     "personTags": [
@@ -359,7 +282,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 76,
+    "relevanceScore": 60,
     "labels": [
       "인물 언급"
     ]
@@ -375,39 +298,21 @@
     "publishedAt": "2026-07-06T22:42:00.000Z",
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
-      "\"박지성\" 선거",
-      "\"정몽규\" 선거",
-      "\"홍명보\" 선거",
-      "거버넌스",
-      "대표팀 감독",
-      "대한축구협회",
-      "박지성",
-      "임원",
-      "정관",
-      "정몽규",
       "축구 혁신",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 임원",
-      "축구협회 정관",
-      "혁신위원회",
-      "홍명보"
+      "박지성",
+      "대한 축구협회",
+      "임원"
     ],
     "issueTags": [
-      "coach-appointment",
       "innovation-committee",
-      "kfa-executives",
-      "statute-revision",
-      "youth-governance"
+      "kfa-executives"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 66,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -423,34 +328,21 @@
     "publishedAt": "2026-07-06T22:41:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "\"박지성\" 선거",
-      "거버넌스",
-      "대한축구협회",
-      "박지성",
-      "전무",
-      "정관",
-      "축구 혁신",
       "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 전무",
-      "축구협회 정관",
-      "혁신위원회"
+      "전무",
+      "박지성",
+      "대한축구협회",
+      "프로축구연맹"
     ],
     "issueTags": [
-      "innovation-committee",
-      "kfa-executives",
-      "statute-revision",
-      "youth-governance"
+      "kfa-executives"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 73,
+    "relevanceScore": 38,
     "labels": [
       "인물 언급"
     ]
@@ -466,13 +358,14 @@
     "publishedAt": "2026-07-06T22:39:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "박지성",
-      "유소년",
-      "정몽규",
       "축구 혁신",
+      "정몽규",
+      "박지성",
       "축구협회",
-      "축구협회 유소년",
-      "혁신위원회"
+      "혁신위원회",
+      "유소년",
+      "육성",
+      "행정"
     ],
     "issueTags": [
       "innovation-committee",
@@ -484,7 +377,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ]
@@ -500,37 +393,25 @@
     "publishedAt": "2026-07-06T22:38:00.000Z",
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "\"정몽규\" 감사",
-      "감독 선임",
-      "감사",
-      "대표팀 감독",
-      "대한축구협회",
-      "문체부 감사",
+      "홍명보",
       "이임생",
-      "이임생 전 대한축구협회",
-      "정몽규",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회장",
-      "홍명보"
+      "대한 축구협회",
+      "문체부 감사",
+      "감사"
     ],
     "issueTags": [
-      "coach-appointment",
-      "election",
       "mcst-audit"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 99,
+    "relevanceScore": 28,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -544,36 +425,19 @@
     "publishedAt": "2026-07-06T22:37:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"정몽규\" 선거",
-      "\"홍명보\" 선거",
-      "대의원",
-      "부회장",
-      "임원",
-      "정관",
-      "정관 개정",
       "정몽규",
-      "제도 개편",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 임원",
-      "축구협회 정관",
-      "축구협회 정관 개정",
-      "축구협회 제도 개편",
-      "홍명보"
+      "제도 개편"
     ],
     "issueTags": [
-      "electoral-college",
-      "kfa-executives",
       "statute-revision"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 63,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ]
@@ -589,34 +453,31 @@
     "publishedAt": "2026-07-06T22:23:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "\"정몽규\" 감사",
-      "감독 선임",
-      "감사",
-      "대표팀 감독",
-      "대한축구협회",
-      "이임생",
-      "이임생 전 대한축구협회",
-      "정몽규",
-      "축구협회",
       "홍명보",
-      "KFA"
+      "이임생",
+      "대한축구협회",
+      "KFA",
+      "감사",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "이임생 전 대한축구협회"
     ],
     "issueTags": [
-      "coach-appointment",
-      "mcst-audit"
+      "mcst-audit",
+      "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 99,
+    "relevanceScore": 38,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -630,17 +491,11 @@
     "publishedAt": "2026-07-06T22:18:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 축구협회",
-      "대한축구협회",
+      "KFA",
       "부회장",
       "사퇴",
-      "전무",
-      "집행부",
-      "축구협회",
-      "축구협회 전무",
-      "축구협회 집행부",
-      "KFA"
+      "대한 축구협회",
+      "전무"
     ],
     "issueTags": [
       "kfa-executives"
@@ -648,7 +503,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 65,
+    "relevanceScore": 45,
     "labels": []
   },
   {
@@ -662,38 +517,20 @@
     "publishedAt": "2026-07-06T22:15:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"박지성\" 선거",
-      "\"정몽규\" 선거",
-      "대표팀 감독",
-      "대한축구협회",
-      "대한축구협회장",
       "박지성",
-      "사퇴",
-      "선거인",
-      "선거인단",
-      "정몽규",
-      "축구 혁신",
       "축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회장",
-      "혁신위원회"
+      "선거인"
     ],
     "issueTags": [
-      "coach-appointment",
-      "election",
-      "electoral-college",
-      "innovation-committee"
+      "electoral-college"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 81,
+    "relevanceScore": 15,
     "labels": [
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -708,106 +545,21 @@
     "publishedAt": "2026-07-06T22:06:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "\"박지성\" 선거",
-      "거버넌스",
-      "대한축구협회",
       "박지성",
-      "전무",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 전무"
+      "대한축구협회",
+      "프로축구연맹",
+      "전무"
     ],
     "issueTags": [
-      "kfa-executives",
-      "youth-governance"
+      "kfa-executives"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 58,
+    "relevanceScore": 18,
     "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_290981dca7d06a23",
-    "type": "news",
-    "title": "[천지일보 이슈종합] 이병태 논란 끝에 사퇴·'가짜뉴스 처벌법' 시행·...",
-    "summary": "2026 북중미 월드컵 32강 탈락 이후 출범한 'K-축구 혁신위원회'가 대한 축구협회 거버넌스 개혁을 최우선 과제로 제시했다. ◆'가짜뉴스 처벌법' 7일 시행… 허위정보 재유포 시 최대 10억☞ 온라인상에서 불법 및...",
-    "url": "https://www.newscj.com/news/articleView.html?idxno=3414986",
-    "originalUrl": "https://www.newscj.com/news/articleView.html?idxno=3414986",
-    "publisher": "newscj.com",
-    "publishedAt": "2026-07-06T22:02:00.000Z",
-    "collectedAt": "2026-07-08T15:51:49.882Z",
-    "matchedKeywords": [
-      "\"박지성\" 선거",
-      "거버넌스",
-      "대한축구협회",
-      "박지성",
-      "사퇴",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 거버넌스",
-      "혁신위원회",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "election",
-      "innovation-committee",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 83,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_8f03d52711d4997f",
-    "type": "news",
-    "title": "매경이 전하는 세상의 지식 (매-세-지, 7월 7일)",
-    "summary": "주주동의 방식은 상법상 감사 위원 선임에 준하는 ‘3% 룰’로 정해졌습니다. 3%를 초과하는 의결권은... 같은 날 박지성 ·이영표·박주호 등 국가대표 출신 축구인들이 참여한 K축구 혁신위원회는 서울 송파구...",
-    "url": "https://www.mk.co.kr/article/12091584",
-    "originalUrl": "https://www.mk.co.kr/article/12091584",
-    "publisher": "mk.co.kr",
-    "publishedAt": "2026-07-06T22:01:00.000Z",
-    "collectedAt": "2026-07-08T23:40:59.802Z",
-    "matchedKeywords": [
-      "\"박지성\" 감사",
-      "\"정몽규\" 감사",
-      "감사",
-      "대한축구협회",
-      "박지성",
-      "이사회",
-      "정몽규",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 이사회",
-      "혁신위원회"
-    ],
-    "issueTags": [
-      "innovation-committee",
-      "kfa-executives",
-      "mcst-audit"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 53,
-    "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -822,37 +574,30 @@
     "publishedAt": "2026-07-06T22:01:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"박지성\" 감사",
-      "\"이임생\" 감사",
-      "\"정몽규\" 감사",
-      "감독 선임",
-      "감사",
-      "박지성",
-      "사퇴",
-      "이임생",
       "정몽규",
-      "집행부",
-      "축구협회",
-      "축구협회 집행부",
-      "홍명보"
+      "홍명보",
+      "이임생",
+      "사퇴",
+      "감독 선임",
+      "감독",
+      "전력강화위원",
+      "선임",
+      "감사"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives",
-      "mcst-audit"
+      "coach-appointment"
     ],
     "personTags": [
       "person_chung_mong_gyu",
       "person_hong_myung_bo",
-      "person_lee_im_saeng",
-      "person_park_ji_sung"
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 54,
+    "relevanceScore": 44,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -866,59 +611,24 @@
     "publishedAt": "2026-07-06T22:00:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"박지성\" 감사",
-      "\"박지성\" 선거",
-      "\"정몽규\" 감사",
-      "\"정몽규\" 선거",
-      "\"홍명보\" 선거",
-      "감독 선임",
-      "감사",
-      "대의원",
       "대한축구협회",
-      "대한축구협회장",
-      "문체부 감사",
-      "박지성",
-      "부회장",
-      "사퇴",
-      "선거인",
-      "선거인단",
-      "정관",
-      "정관 개정",
       "정몽규",
-      "축구 혁신",
       "축구협회",
-      "축구협회 대의원",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 정관",
-      "축구협회 정관 개정",
-      "축구협회장",
-      "혁신위원회",
-      "홍명보",
-      "회장 선거"
+      "대의원",
+      "정관",
+      "정관 개정"
     ],
     "issueTags": [
-      "coach-appointment",
-      "election",
       "electoral-college",
-      "innovation-committee",
-      "kfa-executives",
-      "mcst-audit",
       "statute-revision"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_park_ji_sung"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 98,
+    "relevanceScore": 41,
     "labels": [
-      "감사 키워드 포함",
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -933,29 +643,22 @@
     "publishedAt": "2026-07-06T22:00:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"정몽규\" 감사",
-      "감독 선임",
-      "감사",
-      "전력강화위원회",
-      "정몽규",
-      "축구협회",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 전무",
-      "홍명보"
+      "감독",
+      "선임",
+      "차기",
+      "홍명보",
+      "대한 축구협회"
     ],
     "issueTags": [
-      "coach-appointment",
-      "mcst-audit"
+      "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 61,
+    "relevanceScore": 24,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -970,19 +673,13 @@
     "publishedAt": "2026-07-06T21:57:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "대한축구협회",
       "박지성",
-      "전무",
-      "집행부",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 전무",
-      "축구협회 집행부",
+      "대한축구협회",
+      "한국프로축구연맹",
+      "회장 선거",
       "혁신위원회",
-      "회장 선거"
+      "축구 혁신",
+      "전무"
     ],
     "issueTags": [
       "election",
@@ -994,7 +691,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 78,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급"
     ]
@@ -1010,32 +707,28 @@
     "publishedAt": "2026-07-06T21:45:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "선거인",
-      "선거인단",
-      "정관",
-      "정몽규",
       "제도 개편",
+      "정몽규",
       "축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 정관",
-      "축구협회 제도 개편",
-      "회장 선거"
+      "회장 선거",
+      "선거인단",
+      "선거인",
+      "정관"
     ],
     "issueTags": [
+      "statute-revision",
       "election",
-      "electoral-college",
-      "statute-revision"
+      "electoral-college"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 78,
+    "relevanceScore": 37,
     "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "선거 키워드 포함"
     ]
   },
   {
@@ -1049,25 +742,19 @@
     "publishedAt": "2026-07-06T21:40:00.000Z",
     "collectedAt": "2026-07-10T01:16:15.311Z",
     "matchedKeywords": [
-      "거버넌스",
-      "박지성",
-      "유소년",
       "축구 혁신",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 유소년",
-      "축구협회 육성 시스템"
+      "박지성",
+      "대한 축구협회"
     ],
     "issueTags": [
-      "innovation-committee",
-      "youth-governance"
+      "innovation-committee"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -1083,40 +770,25 @@
     "publishedAt": "2026-07-06T21:35:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"박지성\" 감사",
-      "\"정몽규\" 감사",
-      "\"홍명보\" 선거",
-      "감사",
-      "대의원",
-      "문체부 감사",
-      "박지성",
-      "사퇴",
-      "정관",
       "정몽규",
-      "축구 혁신",
+      "박지성",
       "축구협회",
-      "축구협회 대의원",
-      "축구협회 문체부 감사",
-      "축구협회 정관",
-      "혁신위원회",
-      "홍명보"
+      "대의원",
+      "축구 혁신",
+      "사퇴"
     ],
     "issueTags": [
       "electoral-college",
-      "innovation-committee",
-      "mcst-audit",
-      "statute-revision"
+      "innovation-committee"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 71,
+    "relevanceScore": 35,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -1131,1612 +803,13 @@
     "publishedAt": "2026-07-06T21:32:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 축구협회",
-      "대한축구협회",
-      "부회장",
-      "사퇴",
-      "전무",
-      "정몽규",
       "집행부",
-      "축구협회",
-      "축구협회 전무",
-      "축구협회 집행부",
-      "KFA"
-    ],
-    "issueTags": [
-      "kfa-executives"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 83,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_ce55e8aa9cbf2761",
-    "type": "news",
-    "title": "'정몽규 집행부' 중 유일…'월드컵 선수단장' 맡았던 박항서 결국",
-    "summary": "박항서 대한 축구협회 부회장 겸 축구 대표팀 선수단장이 2026 국제 축구 연맹(FIFA) 북중미 월드컵 조별리그 탈락... 축구 계 관계자에 따르면 한국 대표팀의 32강 진출이 무산된 뒤 박 부회장은 선수단장으로서 김승희 KFA...",
-    "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607070131&t=NN",
-    "originalUrl": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607070131&t=NN",
-    "publisher": "wowtv.co.kr",
-    "publishedAt": "2026-07-06T21:26:00.000Z",
-    "collectedAt": "2026-07-08T23:40:59.802Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 축구협회",
-      "대한축구협회",
+      "정몽규",
+      "사퇴",
+      "대한 축구협회",
+      "KFA",
       "부회장",
-      "전무",
-      "정몽규",
-      "집행부",
-      "축구협회",
-      "축구협회 전무",
-      "축구협회 집행부",
-      "KFA"
-    ],
-    "issueTags": [
-      "kfa-executives"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 68,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_b6241388acf4af62",
-    "type": "news",
-    "title": "‘홍명보 선임 주도’ 이임생, 캄보디아 프로팀 취직했다…“기술이사로 선임”",
-    "summary": "홍명보 전 축구대표팀 감독 선임을 주도했던 이임생 전 대한축구협회(KFA) 기술이사가 캄보디아... 국회증언감정법상 동행명령 제도는 국정 감사 와 국정조사에만 적용돼 청문회에는 강제력이 없다.",
-    "url": "https://www.seoul.co.kr/news/sport/worldcup2026/2026/07/07/20260707500008?wlog_tag3=naver",
-    "originalUrl": "https://www.seoul.co.kr/news/sport/worldcup2026/2026/07/07/20260707500008?wlog_tag3=naver",
-    "publisher": "seoul.co.kr",
-    "publishedAt": "2026-07-06T21:22:00.000Z",
-    "collectedAt": "2026-07-08T23:40:59.802Z",
-    "matchedKeywords": [
-      "\"이임생\" 감사",
-      "\"정몽규\" 감사",
-      "감독 선임",
-      "감사",
-      "대표팀 감독",
-      "대한축구협회",
-      "이임생",
-      "이임생 전 대한축구협회",
-      "정몽규",
-      "축구협회",
-      "홍명보",
-      "KFA"
-    ],
-    "issueTags": [
-      "coach-appointment",
-      "mcst-audit"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 99,
-    "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_a5bdabe741fd3811",
-    "type": "news",
-    "title": "황당 망언! \"까라\" 자의식 과잉, '홍명보호 핵심' 아로소 코치, 결국 떠난다...\"한국 떠나겠단 결심 돌이킬 수 없어\"",
-    "summary": "해명 을 내놓았고, 대한축구협회는 사전에 허락받지 않고 진행하는 미디어 활동 등에 주의를 당부했다고 밝혔다. 어수선한 분위기 속에서 출발한 월드컵은 1승 2패 32강 진출 실패란 결과로 이어졌다. 이에 홍명보 전...",
-    "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553354391",
-    "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553354391",
-    "publisher": "sportalkorea.com",
-    "publishedAt": "2026-07-06T21:18:00.000Z",
-    "collectedAt": "2026-07-09T04:50:49.653Z",
-    "matchedKeywords": [
-      "\"홍명보\" 해명",
-      "대한축구협회",
-      "축구협회",
-      "해명",
-      "홍명보"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 43,
-    "labels": [
-      "인물 언급",
-      "해명 키워드 포함"
-    ]
-  },
-  {
-    "id": "item_9225f121aa8b65db",
-    "type": "news",
-    "title": "최용수 \"사조직 같은 축구협회, 누구나 오가는 '축구인 사랑방' 돼야\"",
-    "summary": "하지만 우리는 어렸을 때부터 성적에 연연하니 경직될 수밖에 없는 것\"이라고 말한 뒤 \" 축구협회 나 K리그 차원에서 유소년 육성을 위한 장기 플랜을 반드시 마련해야 한다. 일본과 한국 축구 의 격차가 계속 벌어지는 것은...",
-    "url": "https://www.news1.kr/society/general-society/6219142",
-    "originalUrl": "https://www.news1.kr/society/general-society/6219142",
-    "publisher": "news1.kr",
-    "publishedAt": "2026-07-06T21:12:00.000Z",
-    "collectedAt": "2026-07-08T21:18:21.343Z",
-    "matchedKeywords": [
-      "유소년",
-      "축구협회",
-      "축구협회 유소년"
-    ],
-    "issueTags": [
-      "youth-governance"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "labels": []
-  },
-  {
-    "id": "item_941770a0bf8566b4",
-    "type": "news",
-    "title": "[김수인 칼럼] 일본 축구 전설들은 현장으로, 한국은 예능으로~",
-    "summary": "모든 비난의 화살은 대한 축구협회 (축협)와 홍명보 대표팀 감독에게 몰렸지만 과연 한,두사람의 잘못일까요?... 혁신위는 K- 축구 거버넌스, 유소년 선수 육성 , 첨단 기술 시스템 도입 등 한국 축구 의 미래 경쟁력을 높이기...",
-    "url": "http://www.nongaek.com/news/articleView.html?idxno=95978",
-    "originalUrl": "http://www.nongaek.com/news/articleView.html?idxno=95978",
-    "publisher": "nongaek.com",
-    "publishedAt": "2026-07-06T21:00:00.000Z",
-    "collectedAt": "2026-07-10T01:16:15.311Z",
-    "matchedKeywords": [
-      "거버넌스",
-      "대표팀 감독",
-      "유소년",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 유소년",
-      "축구협회 육성 시스템",
-      "혁신위원회",
-      "홍명보"
-    ],
-    "issueTags": [
-      "coach-appointment",
-      "innovation-committee",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 68,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_9b69ada9fcdce969",
-    "type": "news",
-    "title": "\"대표팀 감독 선임은 논의하지 않습니다\"...박지성 위원장, 혁신위 본분...",
-    "summary": "정몽규 협회장의 사퇴 이후 치러질 차기 회장 선거 가 보다 공정하고 민주적인 절차 속에서 진행될 수 있도록... 장관, 김승희 대한축구협회 전무이사, 조연상 프로축구연맹 사무총장, 이영표, 박주호 등으로 구성했다.",
-    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826822",
-    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826822",
-    "publisher": "spotvnews.co.kr",
-    "publishedAt": "2026-07-06T20:54:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "감독 선임",
-      "거버넌스",
-      "대표팀 감독",
-      "대한축구협회",
-      "박지성",
-      "사퇴",
-      "전무",
-      "정몽규",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 전무",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "coach-appointment",
-      "election",
-      "kfa-executives",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 91,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_0a3ed3b962ed287c",
-    "type": "news",
-    "title": "'박지성 앞세운' K-축구혁신위 첫발 내디뎌",
-    "summary": "대한체육회장, 김승희 대한축구협회 전무이사, 조연상 한국프로축구연맹 사무총장, 유영근 변호사, 김대희... 위원회 구성과 관련해 설명하면서는 \"차기 협회장 선거 에 출마하지 않을 분을 모셨다\"면서 \"그래서 축구인...",
-    "url": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374055",
-    "originalUrl": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374055",
-    "publisher": "thesportstimes.co.kr",
-    "publishedAt": "2026-07-06T20:44:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 감사",
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "\"박지성\" 감사",
-      "\"정몽규\" 감사",
-      "\"홍명보\" 선거",
-      "감사",
-      "거버넌스",
-      "대한축구협회",
-      "대한축구협회장",
-      "박지성",
-      "사퇴",
-      "유소년",
-      "전무",
-      "정몽규",
-      "축구 혁신",
-      "축구혁신위",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 유소년",
-      "축구협회 육성 시스템",
-      "축구협회 전무",
-      "축구협회 집행부",
-      "축구협회장",
-      "홍명보",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "election",
-      "innovation-committee",
-      "kfa-executives",
-      "mcst-audit",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 100,
-    "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_f73f99bd3ce3f255",
-    "type": "news",
-    "title": "정몽규 물러난 날, K축구 혁신위 첫발",
-    "summary": "유승민 대한체육회장과 박지성 전 전북 현대 테크니컬 디렉터가 공동위원장을 맡았으며, 김승희 축구협회 전무이사, 조연상 한국프로축구연맹 사무총장, 이영표 KBS 해설위원, 박주호 tvN 스포츠 해설위원 등이...",
-    "url": "https://www.seoul.co.kr/news/sport/soccer/2026/07/07/20260707034005?wlog_tag3=naver",
-    "originalUrl": "https://www.seoul.co.kr/news/sport/soccer/2026/07/07/20260707034005?wlog_tag3=naver",
-    "publisher": "seoul.co.kr",
-    "publishedAt": "2026-07-06T20:04:00.000Z",
-    "collectedAt": "2026-07-08T23:40:59.802Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 축구협회",
-      "박지성",
-      "부회장",
-      "임원",
-      "전무",
-      "정관",
-      "정몽규",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 임원",
-      "축구협회 전무",
-      "축구협회 정관"
-    ],
-    "issueTags": [
-      "innovation-committee",
-      "kfa-executives",
-      "statute-revision"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 53,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_b454c85be2e46780",
-    "type": "news",
-    "title": "韓축구 몰락시킨 정몽규 독주 끝…박지성이 새판 짠다",
-    "summary": "해설위원, 김승희 대한축구협회 전무, 조연상 한국프로축구연맹 사무총장, 유영근 변호사, 김대희 부경대... 지난해 2월 제55대 회장 선거 에서 4연임에 성공해 임기는 2029년까지였지만, 월드컵 부진과 협회 운영을 둘러싼...",
-    "url": "https://starin.edaily.co.kr/news/newspath.asp?newsid=01079126645512224",
-    "originalUrl": "https://starin.edaily.co.kr/news/newspath.asp?newsid=01079126645512224",
-    "publisher": "starin.edaily.co.kr",
-    "publishedAt": "2026-07-06T20:01:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "대한축구협회",
-      "박지성",
-      "부회장",
-      "유소년",
-      "임원",
-      "전무",
-      "정관",
-      "정몽규",
-      "축구협회",
-      "축구협회 유소년",
-      "축구협회 육성 시스템",
-      "축구협회 임원",
-      "축구협회 전무",
-      "축구협회 정관",
-      "회장 선거",
-      "KFA"
-    ],
-    "issueTags": [
-      "election",
-      "kfa-executives",
-      "statute-revision",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 66,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_c5b3567e753e9565",
-    "type": "news",
-    "title": "정몽규 축구협회장 13년만에 물러난 날… ‘K-축구 혁신위’ 출범 “선...",
-    "summary": "다만 대한체육회가 정관을 바꾼다고 해도 회원종목단체 규정 개정 등 여러 후속 절차가 남아 축구협회 가 60일 안에 새 회장을 뽑는 건 쉽지 않다. 한편 박 위원장과 이영표 위원(현 축구 해설위원)은 차기 회장 선거에...",
-    "url": "https://www.donga.com/news/Sports/article/all/20260707/134247565/2",
-    "originalUrl": "https://www.donga.com/news/Sports/article/all/20260707/134247565/2",
-    "publisher": "donga.com",
-    "publishedAt": "2026-07-06T19:34:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"홍명보\" 선거",
-      "감독 선임",
-      "규정 개정",
-      "대의원",
-      "대표팀 감독",
-      "박지성",
-      "선거인",
-      "선거인단",
-      "정관",
-      "정몽규",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 정관",
-      "축구협회 정관 개정",
-      "축구협회장",
-      "홍명보",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "coach-appointment",
-      "election",
-      "electoral-college",
-      "innovation-committee",
-      "statute-revision"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 98,
-    "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_a54e2ba3da0ba809",
-    "type": "news",
-    "title": "'팬들이 원하지만...' 박지성, 차기 축구협회 장 '등판론' 일축 \"출마 생...",
-    "summary": "이날 첫 회의의 핵심 안건은 축구협회 거버넌스 개혁과 지속 가능한 축구 발전을 위한 미래 비전이었다. 박 위원은 \"국민적 신뢰 회복을 위해서는 다수의 축구인이 참여하는 민주적 절차의 선거가 필수적이라는 데 위원...",
-    "url": "https://www.starnewskorea.com/sports/2026/07/07/2026070702192130110",
-    "originalUrl": "https://www.starnewskorea.com/sports/2026/07/07/2026070702192130110",
-    "publisher": "starnewskorea.com",
-    "publishedAt": "2026-07-06T19:05:00.000Z",
-    "collectedAt": "2026-07-08T09:10:47.825Z",
-    "matchedKeywords": [
-      "거버넌스",
-      "박지성",
-      "정관",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 정관",
-      "혁신위원회"
-    ],
-    "issueTags": [
-      "innovation-committee",
-      "statute-revision",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 53,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_e05ac7d6b9051926",
-    "type": "news",
-    "title": "\"축구인으로서 죄송\" 결국 박지성 나섰다...문체부, 축구협회에 '메스'",
-    "summary": "축구인과 김승희 축구협회 전무이사 등이 위원으로 참석했다. 공동위원장을 맡을 것으로 보였던 최휘영... 회장 선거 제도가 대표적이다. 그간 직선제 대신 100~300명 안팎의 축구인이 회장을 뽑았기 때문에 '밀실 선거 '라는...",
-    "url": "https://www.mt.co.kr/policy/2026/07/07/2026070619432565226",
-    "originalUrl": "https://www.mt.co.kr/policy/2026/07/07/2026070619432565226",
-    "publisher": "mt.co.kr",
-    "publishedAt": "2026-07-06T19:00:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "거버넌스",
-      "박지성",
-      "유소년",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 유소년",
-      "축구협회 육성 시스템",
-      "축구협회 전무",
-      "혁신위원회",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "election",
-      "innovation-committee",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 58,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_2a88aa7d9f898858",
-    "type": "news",
-    "title": "[노트북 너머] 대한축구협회가 멈춰 세운 ’韓 축구의 심장’",
-    "summary": "이영표, 박주호 등 축구협회 행정에 쓴소리를 아끼지 않았던 인사들이 대거 참여해 거버넌스 쇄신과 유소년 육성 , 행정 전산화 시스템 도입을 논의할 예정이다. 신뢰받는 축구 인들을 전면에 내세운 한시적 기구를 띄우는...",
-    "url": "https://www.etoday.co.kr/news/view/2600334",
-    "originalUrl": "https://www.etoday.co.kr/news/view/2600334",
-    "publisher": "etoday.co.kr",
-    "publishedAt": "2026-07-06T19:00:00.000Z",
-    "collectedAt": "2026-07-09T14:16:51.625Z",
-    "matchedKeywords": [
-      "\"박지성\" 감사",
-      "감독 선임",
-      "감사",
-      "거버넌스",
-      "대한축구협회",
-      "박지성",
-      "부회장",
-      "유소년",
-      "이사회",
-      "정관",
-      "집행부",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 유소년",
-      "축구협회 육성 시스템",
-      "축구협회 이사회",
-      "축구협회 임원",
-      "축구협회 정관",
-      "홍명보"
-    ],
-    "issueTags": [
-      "coach-appointment",
-      "kfa-executives",
-      "mcst-audit",
-      "statute-revision",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_hong_myung_bo",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 65,
-    "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_c28a3d326199e9ef",
-    "type": "news",
-    "title": "정몽규 시대 막 내렸다…박지성·유승민 공동위원장 'K-축구 혁신위원회...",
-    "summary": "위원회에는 박지성, 유승민을 비롯해 이영표, 박주호 해설위원, 최휘영 문화체육관광부 장관, 김승희 ... 최 장관은 \"부당함에 맞서 목소리를 냈고 국민적 신뢰와 축구계의 신망을 받으며 차기 축구협회장 선거 에 출마하지...",
-    "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=430747",
-    "originalUrl": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=430747",
-    "publisher": "dailysportshankook.co.kr",
-    "publishedAt": "2026-07-06T18:58:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "거버넌스",
-      "대한축구협회",
-      "박지성",
-      "사퇴",
-      "유소년",
-      "육성 시스템",
-      "임원",
-      "전무",
-      "정관",
-      "정몽규",
-      "제도 개편",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 유소년",
-      "축구협회 육성 시스템",
-      "축구협회 임원",
-      "축구협회 전무",
-      "축구협회 정관",
-      "축구협회 제도 개편",
-      "축구협회장",
-      "혁신위원회",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "election",
-      "innovation-committee",
-      "kfa-executives",
-      "statute-revision",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 76,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_08ce0ff7dfa86cac",
-    "type": "news",
-    "title": "박지성·이영표·박주호...한국 축구 혁신의 마지막 승부수 걸까",
-    "summary": "아무리 훌륭한 개혁안이 나오더라도 차기 대한 축구협회 집행부가 이를 받아들이지 않는다면 혁신위원회는 또 하나의 자문기구로 끝날 가능성도 있다. 반대로 이번 논의가 실제 제도 개편 으로 이어진다면 한국 축구 는...",
-    "url": "https://www.newspim.com/news/view/20260707000021",
-    "originalUrl": "https://www.newspim.com/news/view/20260707000021",
-    "publisher": "newspim.com",
-    "publishedAt": "2026-07-06T18:53:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"박지성\" 감사",
-      "감사",
-      "거버넌스",
-      "박지성",
-      "유소년",
-      "제도 개편",
-      "지도자",
-      "집행부",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 유소년",
-      "축구협회 육성 시스템",
-      "축구협회 제도 개편",
-      "혁신위원회"
-    ],
-    "issueTags": [
-      "innovation-committee",
-      "kfa-executives",
-      "mcst-audit",
-      "statute-revision",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 58,
-    "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_1b29695019a7c723",
-    "type": "news",
-    "title": "정몽규 회장 사퇴→축구협회장 선거 시계는 돌아간다…박지성 K-축구혁...",
-    "summary": "해설위원, 김승희 대한축구협회 전무이사, 조연상 프로축구연맹 사무총장, 유영근 변호사, 김대희 국립부경대 교수 등이 함께한다. 박지성 공동위원장은 2시간이 넘는 회의가 끝난 뒤 취재진을 만나 축구협회장 선거 방식...",
-    "url": "https://www.mydaily.co.kr/page/view/2026070621094759968",
-    "originalUrl": "https://www.mydaily.co.kr/page/view/2026070621094759968",
-    "publisher": "mydaily.co.kr",
-    "publishedAt": "2026-07-06T18:04:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "거버넌스",
-      "대한축구협회",
-      "박지성",
-      "부회장",
-      "사퇴",
-      "선거인",
-      "선거인단",
-      "임원",
-      "전무",
-      "정관",
-      "정몽규",
-      "축구혁신위",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 임원",
-      "축구협회 전무",
-      "축구협회 정관",
-      "축구협회장",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "election",
-      "electoral-college",
-      "innovation-committee",
-      "kfa-executives",
-      "statute-revision",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 100,
-    "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_b8fbae3440a1d871",
-    "type": "news",
-    "title": "‘13년 체제’ 퇴장한 날… 한국 축구 개혁 첫발",
-    "summary": "정몽규(사진) 대한 축구협회 장이 13년5개월여 만에 수장직에서 물러났다. 같은 날 박지성을 중심으로 한... 상위 단체인 대한체육회가 직선제 도입 여부 등 선거 관련 정관 개정 을 논의 중이다. 이날 한국 축구 의 새 판을 짤...",
-    "url": "https://www.kmib.co.kr/article/view.asp?arcid=1783327449&code=12120000&cp=nv",
-    "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=1783327449&code=12120000&cp=nv",
-    "publisher": "kmib.co.kr",
-    "publishedAt": "2026-07-06T16:14:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"박지성\" 감사",
-      "\"정몽규\" 감사",
-      "\"홍명보\" 선거",
-      "감독 선임",
-      "감사",
-      "거버넌스",
-      "대표팀 감독",
-      "대한축구협회",
-      "대한축구협회장",
-      "박지성",
-      "정관",
-      "정관 개정",
-      "정몽규",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 거버넌스",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 정관 개정",
-      "축구협회장",
-      "혁신위원회",
-      "홍명보"
-    ],
-    "issueTags": [
-      "coach-appointment",
-      "election",
-      "innovation-committee",
-      "mcst-audit",
-      "statute-revision",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 100,
-    "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_7cf4f424bf9bb482",
-    "type": "news",
-    "title": "정몽규 “모두 내 잘못” 사임… 차기 회장 선출은 ‘오리무중’",
-    "summary": "다만 정부와 대한체육회가 현행 선거 방식에 문제를 제기하며 관련 규정 개정 을 추진하고 있어 차기 축구협회 장 선출 과정은 당분간 안갯속에 빠질 전망이다. 정몽규 회장은 이날 “모든 부족함과 과오는 오롯이 저의...",
-    "url": "https://www.chosun.com/sports/football/2026/07/07/JH4OC7MGMBCONCGUYNKL35S56U/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-    "originalUrl": "https://www.chosun.com/sports/football/2026/07/07/JH4OC7MGMBCONCGUYNKL35S56U/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-    "publisher": "chosun.com",
-    "publishedAt": "2026-07-06T15:44:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "규정 개정",
-      "대의원",
-      "선거운영위원회",
-      "선거인",
-      "선거인단",
-      "유소년",
-      "정관",
-      "정몽규",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 유소년",
-      "축구협회 육성 시스템",
-      "축구협회 정관 개정",
-      "혁신위원회"
-    ],
-    "issueTags": [
-      "electoral-college",
-      "innovation-committee",
-      "statute-revision",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 53,
-    "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_7bb3543139f47115",
-    "type": "news",
-    "title": "'K 축구 혁신위' 본격 출범…박지성 \"회장 불출마\"",
-    "summary": "FIFA 정관 을 의식한 결정으로 풀이됩니다. 바통을 이어받은 유승민 체육회장은 축구협회 의 자율성과 독립성을... 이에 따라 협회 는 체육회가 추진 중인 선거 제도 개정 안을 따라 차기 수장을 뽑는 절차에 돌입할 계획입니다....",
-    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008644304&plink=ORI&cooper=NAVER",
-    "originalUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008644304&plink=ORI&cooper=NAVER",
-    "publisher": "news.sbs.co.kr",
-    "publishedAt": "2026-07-06T15:39:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "박지성",
-      "정관",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 정관 개정"
-    ],
-    "issueTags": [
-      "innovation-committee",
-      "statute-revision"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 43,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_b15c70a384513310",
-    "type": "news",
-    "title": "한국축구 비상사태 만든 정몽규 “한국축구 비상할 것” 사퇴",
-    "summary": "협회 행정 신뢰도는 바닥을 쳤고, 구성원들은 문체부 감사 등의 절차를 거치며 거듭 내상을 입을 전망이다. 13년 만에 찾아온 축구협회 의 권력 교체기가 한국 축구 의 혁신으로 이어질지, 아니면 축구 계 분열을 포함한 또...",
-    "url": "https://www.joongang.co.kr/article/25442935",
-    "originalUrl": "https://www.joongang.co.kr/article/25442935",
-    "publisher": "joongang.co.kr",
-    "publishedAt": "2026-07-06T15:26:00.000Z",
-    "collectedAt": "2026-07-09T05:28:47.518Z",
-    "matchedKeywords": [
-      "\"정몽규\" 감사",
-      "감사",
-      "대한축구협회",
-      "대한축구협회장",
-      "문체부 감사",
-      "사퇴",
-      "임원",
-      "정몽규",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 임원",
-      "축구협회장"
-    ],
-    "issueTags": [
-      "election",
-      "kfa-executives",
-      "mcst-audit"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 88,
-    "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_eeea40fd095d5ec7",
-    "type": "news",
-    "title": "‘축구협회장 불출마 선언’ 박지성 혁신위원장 “그런 마음으로 들어왔...",
-    "summary": "보궐 선거 출마 가능성을 일축했다. 박 위원은 6일 서울 송파구 올림픽파크텔에서 열린 혁신위 첫 회의 직후... 이영표, 박주호 등 그간 국내 축구계 행정을 비판해 온 축구인과 유승민 대한체육회장, 김승희 축구협회...",
-    "url": "https://www.sportsseoul.com/news/read/1620921?ref=naver",
-    "originalUrl": "https://www.sportsseoul.com/news/read/1620921?ref=naver",
-    "publisher": "sportsseoul.com",
-    "publishedAt": "2026-07-06T15:16:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 감사",
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "\"박지성\" 감사",
-      "감사",
-      "대한축구협회",
-      "대한축구협회장",
-      "박지성",
-      "전무",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 전무",
-      "축구협회장"
-    ],
-    "issueTags": [
-      "election",
-      "kfa-executives",
-      "mcst-audit"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 73,
-    "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_77c0c5f10d61c16c",
-    "type": "news",
-    "title": "홍명보 선임 주도한 이임생, 캄보디아행…청문회 앞 '시선 집중'",
-    "summary": "홍명보 전 축구대표팀 감독 선임을 주도했던 이임생 전 대한축구협회(KFA) 기술총괄이사가 캄보디아... 국회증언감정법상 동행명령 제도는 국정 감사 와 국정조사에만 적용돼 청문회에는 강제력이 없다.",
-    "url": "http://weekly.chosun.com/news/articleView.html?idxno=53229",
-    "originalUrl": "http://weekly.chosun.com/news/articleView.html?idxno=53229",
-    "publisher": "weekly.chosun.com",
-    "publishedAt": "2026-07-06T15:15:00.000Z",
-    "collectedAt": "2026-07-08T23:40:59.802Z",
-    "matchedKeywords": [
-      "\"이임생\" 감사",
-      "\"정몽규\" 감사",
-      "감독 선임",
-      "감사",
-      "대표팀 감독",
-      "대한축구협회",
-      "이임생",
-      "이임생 전 대한축구협회",
-      "정몽규",
-      "축구협회",
-      "홍명보",
-      "KFA"
-    ],
-    "issueTags": [
-      "coach-appointment",
-      "mcst-audit"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 99,
-    "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_aa2d8d9b0a82eb4b",
-    "type": "news",
-    "title": "거버넌스의 함정…대한축구협회는 왜 같은 실수를 반복하나",
-    "summary": "회장을 바꾸고, 조직을 개편 하고, 위원회를 새로 만들면 문제가 해결될 것처럼 이야기한다. 하지만 정작 중요한 질문은 빠져 있다. 지금 있는 제도 는 제대로 실행되고 있는가. 대한 축구협회 의 거버넌스는 생각보다 허술하지...",
-    "url": "https://isplus.com/article/view/isp202607060192",
-    "originalUrl": "https://isplus.com/article/view/isp202607060192",
-    "publisher": "isplus.com",
-    "publishedAt": "2026-07-06T15:07:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "감독 선임",
-      "감사",
-      "거버넌스",
-      "대한축구협회",
-      "이사회",
-      "전력강화위원회",
-      "축구협회",
-      "축구협회 이사회",
-      "축구협회 제도 개편"
-    ],
-    "issueTags": [
-      "coach-appointment",
-      "kfa-executives",
-      "mcst-audit",
-      "youth-governance"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 85,
-    "labels": [
-      "감사 키워드 포함"
-    ]
-  },
-  {
-    "id": "item_ed2d9660fee4117d",
-    "type": "news",
-    "title": "협회장 출마 NO, 새 집행부 올 때까지...박지성 위원장 \"혁신위, 신뢰 회...",
-    "summary": "장관, 김승희 대한축구협회 전무이사, 조연상 프로축구연맹 사무총장, 유영근 변호사, 김대희 부경대 교수 등... 축구협회장 선거 에 출마하지 않을 분들로 박지성, 이영표, 박주호를 뽑았다\"고 설명했다. 대한축구협회는...",
-    "url": "https://mhnse.com/news/articleView.html?idxno=1454428",
-    "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1454428",
-    "publisher": "mhnse.com",
-    "publishedAt": "2026-07-06T15:06:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "거버넌스",
-      "대한축구협회",
-      "박지성",
-      "유소년",
-      "전무",
-      "집행부",
-      "축구협회",
-      "축구협회 유소년",
-      "축구협회 육성 시스템",
-      "축구협회 전무",
-      "축구협회장",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "election",
-      "kfa-executives",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 78,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_6ade4a3f57df7525",
-    "type": "news",
-    "title": "회장도 감독도 없는 한국축구…K축구혁신위 출범",
-    "summary": "위원으로는 이영표·박주호 축구해설위원, 김승희 대한축구협회 전무, 조연상 프로축구연맹 사무총장... 현행 선거 제도로 새 회장을 뽑을 수 없다는 데 참석자들이 원칙적으로 동의했다”며 말했다. 또 “회장에 출마할...",
-    "url": "https://www.joongang.co.kr/article/25442888",
-    "originalUrl": "https://www.joongang.co.kr/article/25442888",
-    "publisher": "joongang.co.kr",
-    "publishedAt": "2026-07-06T15:01:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "거버넌스",
-      "대한축구협회",
-      "선거인",
-      "선거인단",
-      "유소년",
-      "육성 시스템",
-      "전무",
-      "정관",
-      "정관 개정",
-      "축구 혁신",
-      "축구혁신위",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 육성 시스템",
-      "축구협회 전무",
-      "축구협회 정관 개정",
-      "축구협회 제도 개편",
-      "혁신위원회"
-    ],
-    "issueTags": [
-      "electoral-college",
-      "innovation-committee",
-      "kfa-executives",
-      "statute-revision",
-      "youth-governance"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 100,
-    "labels": [
-      "선거 키워드 포함"
-    ]
-  },
-  {
-    "id": "item_beec85023ff3b485",
-    "type": "news",
-    "title": "‘채용 대행사’ 된 전강위, 감독 선임보다 월드컵 실패 분석이 먼저다...",
-    "summary": "전강위는 현영민 위원장을 비롯해 김호영, 김도균, 김은중, 이미연, 전가을, 김종진 위원 등으로 구성돼 있으며, 협회 는 북중미 월드컵을 앞둔 지난 5월 규정에 따라 재위촉 절차를 마쳤다고 밝혔다. 하지만 축구 팬들과...",
-    "url": "https://news.tf.co.kr/read/soccer/2340343.htm",
-    "originalUrl": "https://news.tf.co.kr/read/soccer/2340343.htm",
-    "publisher": "news.tf.co.kr",
-    "publishedAt": "2026-07-06T15:01:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"현영민\" 축구협회",
-      "감독 선임",
-      "현영민",
-      "현영민 위원장"
-    ],
-    "issueTags": [
-      "coach-appointment"
-    ],
-    "personTags": [
-      "person_hyun_young_min"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 26,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_3a37f2a1b683ecdb",
-    "type": "news",
-    "title": "\"축구는 참 좋겠다\"...비인기종목의 뼈아픈 '푸념' [유병철의 스포츠 렉...",
-    "summary": "축구협회 의 구조적 문제는 정몽규 회장이 4연임할 때, 그리고 홍명보 감독이 선임될 때 이미 부각됐습니다. 문체부 와 스포츠윤리센터의 조사가 이뤄졌고, 국정 감사 때도 질타를 받았습니다. 대한체육회도 논란 속에...",
-    "url": "https://news.tf.co.kr/read/sports/2340187.htm",
-    "originalUrl": "https://news.tf.co.kr/read/sports/2340187.htm",
-    "publisher": "news.tf.co.kr",
-    "publishedAt": "2026-07-06T15:01:00.000Z",
-    "collectedAt": "2026-07-09T04:50:49.653Z",
-    "matchedKeywords": [
-      "\"박지성\" 감사",
-      "감사",
-      "박지성",
-      "정몽규",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "혁신위원회",
-      "홍명보"
-    ],
-    "issueTags": [
-      "innovation-committee",
-      "mcst-audit"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 43,
-    "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_08692fbde2e2ab56",
-    "type": "news",
-    "title": "[SD 현장 라이브] 한국축구 혁신 위한 K-축구혁신위 출범, 회장 선거 먼...",
-    "summary": "회장 선거 제도의 변화였다. 혁신위는 6일 서울 송파구 올림픽파크텔서 출범식을 개최하고 첫 번째 회의를... 박지성과 유승민 공동위원장을 중심으로 최 장관, 이영표 울산 HD 사외이사, 김승희 KFA 전무이사, 박주호 전 KFA...",
-    "url": "https://sports.donga.com/sports/article/all/20260706/134247265/1",
-    "originalUrl": "https://sports.donga.com/sports/article/all/20260706/134247265/1",
-    "publisher": "sports.donga.com",
-    "publishedAt": "2026-07-06T15:00:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "대의원",
-      "대한축구협회",
-      "박지성",
-      "선거인",
-      "선거인단",
-      "전무",
-      "정관",
-      "지도자",
-      "축구 혁신",
-      "축구혁신위",
-      "축구협회",
-      "축구협회 대의원",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 육성 시스템",
-      "축구협회 전무",
-      "혁신위원회",
-      "회장 선거",
-      "KFA"
-    ],
-    "issueTags": [
-      "election",
-      "electoral-college",
-      "innovation-committee",
-      "kfa-executives",
-      "statute-revision",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 100,
-    "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_221b143aa92a6650",
-    "type": "news",
-    "title": "7월 6일 모닝뉴스 헤드라인",
-    "summary": "워싱턴포스트는 공화당과 보수 진영 인사들이 기존에 사회주의자로 규정 했던 민주당 진보세력을... 정몽규 전 축구협회 장의 13년여 체제가 막을 내린 날, 박지성을 중심으로 하는 축구 혁신위원회가 출범했습니다. 위기에...",
-    "url": "https://www.radiokorea.com/news/article.php?uid=498637",
-    "originalUrl": "https://www.radiokorea.com/news/article.php?uid=498637",
-    "publisher": "radiokorea.com",
-    "publishedAt": "2026-07-06T14:56:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "박지성",
-      "정몽규",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 규정 개정",
-      "혁신위원회"
-    ],
-    "issueTags": [
-      "innovation-committee"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 46,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_aa4a7bcc5dd43364",
-    "type": "news",
-    "title": "[광화문·뷰] 부럽다, 카보베르데",
-    "summary": "축구협회 총회에선 11개 지역 축구 연맹 대의원이 독립된 투표권 을 행사하며 회장을 견제하고 회계위원회·선거위원회 같은 다수의 개별 위원회가 자금 집행, 감독 선임 등을 철저하게 감시한다는 식이다. 까다로운...",
-    "url": "https://www.chosun.com/opinion/column/2026/07/06/X5NIP7VHHRCX3JK3OJZV4HD644/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-    "originalUrl": "https://www.chosun.com/opinion/column/2026/07/06/X5NIP7VHHRCX3JK3OJZV4HD644/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-    "publisher": "chosun.com",
-    "publishedAt": "2026-07-06T14:43:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "감독 선임",
-      "대의원",
-      "축구협회",
-      "축구협회 대의원",
-      "축구협회 투표권",
-      "투표권"
-    ],
-    "issueTags": [
-      "coach-appointment",
-      "electoral-college"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 40,
-    "labels": []
-  },
-  {
-    "id": "item_df24c440ecaa0034",
-    "type": "news",
-    "title": "[유덕종의 아디스 레터] 우간다에서 쏘나타를 고쳐준 6·25 참전 용사",
-    "summary": "희생에 감사 하는 마음이 애국 세계를 들썩이게 하는 월드컵의 계절이지만, 우리에게는 아쉽고 씁쓸함이... 박지성 ·안정환부터 손흥민까지, 우리 선수들의 이름이 현지인들의 입에 오르내린다. ‘대한민국(Korea)’이라는...",
-    "url": "https://www.chosun.com/opinion/specialist_column/2026/07/07/VMIPY6M4U5GLBDOG5SPVACTINA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-    "originalUrl": "https://www.chosun.com/opinion/specialist_column/2026/07/07/VMIPY6M4U5GLBDOG5SPVACTINA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-    "publisher": "chosun.com",
-    "publishedAt": "2026-07-06T14:39:00.000Z",
-    "collectedAt": "2026-07-08T23:40:59.802Z",
-    "matchedKeywords": [
-      "\"박지성\" 감사",
-      "감사",
-      "박지성"
-    ],
-    "issueTags": [
-      "mcst-audit"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 23,
-    "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_d7a3b256b6e58e8b",
-    "type": "news",
-    "title": "박항서 축구협회 부회장 사퇴…정몽규 집행부 중 유일",
-    "summary": "박항서 대한 축구협회 (KFA) 부회장 및 선수단장이 2026 국제 축구 연맹(FIFA) 북중미 월드컵이 열린 멕시코... 관계자에 따르면 한국 대표팀의 32강이 무산된 후 박항서 부회장은 선수단장으로서 김승희 KFA 전무이사와 선수들이...",
-    "url": "https://biz.heraldcorp.com/article/10799998?ref=naver",
-    "originalUrl": "https://biz.heraldcorp.com/article/10799998?ref=naver",
-    "publisher": "biz.heraldcorp.com",
-    "publishedAt": "2026-07-06T14:12:00.000Z",
-    "collectedAt": "2026-07-08T23:40:59.802Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 축구협회",
-      "대한축구협회",
-      "부회장",
-      "사퇴",
-      "전무",
-      "정몽규",
-      "집행부",
-      "축구협회",
-      "축구협회 전무",
-      "KFA"
-    ],
-    "issueTags": [
-      "kfa-executives"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 83,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_29a52f4df5334433",
-    "type": "news",
-    "title": "13년 정몽규 천하 끝난 날…한국 축구 새 판 짤 혁신위 출범",
-    "summary": "현행 축구협회 정관상 차기 회장 선거는 60일 이내에 선거인단 192명의 투표로 치러지는데, 이대로라면 기득권의 영향력이 여전할 거란 우려에 변화가 필요하다는 공감대가 형성된 겁니다. 다만 최휘영 문체부 장관은...",
-    "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8603683&ref=A",
-    "originalUrl": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8603683&ref=A",
-    "publisher": "news.kbs.co.kr",
-    "publishedAt": "2026-07-06T14:10:00.000Z",
-    "collectedAt": "2026-07-08T21:18:21.343Z",
-    "matchedKeywords": [
-      "선거인",
-      "선거인단",
-      "정관",
-      "정몽규",
-      "축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "election",
-      "electoral-college",
-      "statute-revision"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 68,
-    "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_80ed4c744950ab1a",
-    "type": "news",
-    "title": "[SPO 현장] 박지성 소신 발언, '정몽규 후임' 축구협회장 선거 불출마 선...",
-    "summary": "축구 행정 개혁의 중심에 선 박지성 공동위원장은 차기 협회장 선거 불출마를 분명히 하며 혁신 작업의... 인사들과 김승희 대한축구협회 전무이사, 조연상 프로축구연맹 사무총장, 유영근 변호사, 김대희 부경대 교수 등...",
-    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826820",
-    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826820",
-    "publisher": "spotvnews.co.kr",
-    "publishedAt": "2026-07-06T14:04:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "대한축구협회",
-      "박지성",
-      "전무",
-      "정몽규",
-      "축구협회",
-      "축구협회 전무",
-      "축구협회장",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "election",
-      "kfa-executives"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 76,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_ee9bd3816b667c35",
-    "type": "news",
-    "title": "박지성 \"신뢰 회복이 최우선\"… \"현행 협회장 선거제론 안 돼\"",
-    "summary": "홍명보 전 감독 선임 과정에서 불거진 절차적 정당성 논란과 대한 축구협회 의 폐쇄적 운영, 특정 인맥 중심의 의사결정 구조가 월드컵 실패의 근본 원인으로 지목됐다. 실제로 문체부 감사 에서는 대표팀 감독 선임 과정의...",
-    "url": "https://www.newscj.com/news/articleView.html?idxno=3414963",
-    "originalUrl": "https://www.newscj.com/news/articleView.html?idxno=3414963",
-    "publisher": "newscj.com",
-    "publishedAt": "2026-07-06T14:02:00.000Z",
-    "collectedAt": "2026-07-09T04:50:49.653Z",
-    "matchedKeywords": [
-      "\"박지성\" 감사",
-      "\"홍명보\" 선거",
-      "감독 선임",
-      "감사",
-      "거버넌스",
-      "대표팀 감독",
-      "대한축구협회",
-      "문체부 감사",
-      "박지성",
-      "선거인",
-      "선거인단",
-      "유소년",
-      "정관",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 육성 시스템",
-      "혁신위원회",
-      "홍명보",
-      "회장 선거"
-    ],
-    "issueTags": [
-      "coach-appointment",
-      "election",
-      "electoral-college",
-      "innovation-committee",
-      "mcst-audit",
-      "statute-revision",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_hong_myung_bo",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 81,
-    "labels": [
-      "감사 키워드 포함",
-      "선거 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_61bc8f234c765a7b",
-    "type": "news",
-    "title": "홍명보 감독 귀국하나?…국회 문체위, 22일 대한축구협회 불러 청문회 진행→밀실 행정 논란+월드컵 성적 부진 다룬다",
-    "summary": "국가대표팀 감독 선임 과정에 대한 불공정 논란은 지난 2024년 문화체육관광부(문체부)가 특정 감사 를 실시한... 또한 문체부는 후임으로 홍 전 감독을 선임할 때도 규정상 권한이 없는 이임생 기술총괄이사가 최종 감독...",
-    "url": "https://www.xportsnews.com/article/2168917",
-    "originalUrl": "https://www.xportsnews.com/article/2168917",
-    "publisher": "xportsnews.com",
-    "publishedAt": "2026-07-06T13:36:00.000Z",
-    "collectedAt": "2026-07-08T23:40:59.802Z",
-    "matchedKeywords": [
-      "\"이임생\" 감사",
-      "감독 선임",
-      "감독 후보",
-      "감사",
-      "대표팀 감독",
-      "대한축구협회",
-      "이사회",
-      "이임생",
-      "이임생 기술총괄",
-      "전력강화위원회",
-      "정몽규",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 이사회",
-      "홍명보"
-    ],
-    "issueTags": [
-      "coach-appointment",
-      "kfa-executives",
-      "mcst-audit"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 89,
-    "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_92e36e75218cdd79",
-    "type": "news",
-    "title": "홍명보 선임 주도한 이임생, 한국 떠나 캄보디아행...나가월드FC에 취업",
-    "summary": "구단은 이 기술디렉터가 선수 육성 과 코칭 시스템 , 경기력 향상 등 구단의 기술 부문 전반을 총괄하게 된다고 설명했습니다. 이 기술디렉터는 2024년 대한 축구협회 기술이사 재임 당시 정해성 전 전력강화위원장이 사퇴한...",
-    "url": "https://www.ikbc.co.kr/article/view/kbc202607060070",
-    "originalUrl": "https://www.ikbc.co.kr/article/view/kbc202607060070",
-    "publisher": "ikbc.co.kr",
-    "publishedAt": "2026-07-06T13:29:00.000Z",
-    "collectedAt": "2026-07-08T15:51:49.882Z",
-    "matchedKeywords": [
-      "사퇴",
-      "이임생",
-      "축구협회",
-      "축구협회 육성 시스템",
-      "홍명보"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 31,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_9cd4d34464a57903",
-    "type": "news",
-    "title": "월드컵서 선수단장 맡았던 박항서 대한축구협회 부회장, 현지서 사퇴",
-    "summary": "박항서 대한 축구협회 (KFA) 부회장 및 선수단장이 2026 국제 축구 연맹(FIFA) 북중미 월드컵이 열린 멕시코... 관계자에 따르면 한국 대표팀의 32강이 무산된 후 박항서 부회장은 선수단장으로서 김승희 KFA 전무이사와...",
-    "url": "https://www.news1.kr/sports/soccer/6219486",
-    "originalUrl": "https://www.news1.kr/sports/soccer/6219486",
-    "publisher": "news1.kr",
-    "publishedAt": "2026-07-06T13:14:00.000Z",
-    "collectedAt": "2026-07-08T23:40:59.802Z",
-    "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 축구협회",
-      "대한축구협회",
-      "부회장",
-      "사퇴",
-      "전무",
-      "축구협회",
-      "축구협회 전무",
-      "KFA"
-    ],
-    "issueTags": [
-      "kfa-executives"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 65,
-    "labels": []
-  },
-  {
-    "id": "item_f6320f492613d1fe",
-    "type": "news",
-    "title": "정몽규 회장 사임서 제출...13년 5개월 만에 사퇴",
-    "summary": "축구협회 는 정 회장이 천안 코리아풋볼파크에서 마지막 임원 회의를 주재한 뒤 사임서를 제출했다고 밝혔습니다. 이로써 지난 2013년 1월 제52대 회장으로 취임한 이후 4선을 지낸 정 회장은 협회 장 직을 내려놓게...",
-    "url": "https://www.ytn.co.kr/_ln/0103_202607062209058562",
-    "originalUrl": "https://www.ytn.co.kr/_ln/0103_202607062209058562",
-    "publisher": "ytn.co.kr",
-    "publishedAt": "2026-07-06T13:09:00.000Z",
-    "collectedAt": "2026-07-08T21:18:21.343Z",
-    "matchedKeywords": [
-      "사퇴",
-      "임원",
-      "정몽규",
-      "축구협회",
-      "축구협회 임원"
+      "전무"
     ],
     "issueTags": [
       "kfa-executives"
@@ -2752,6 +825,1069 @@
     ]
   },
   {
+    "id": "item_ce55e8aa9cbf2761",
+    "type": "news",
+    "title": "'정몽규 집행부' 중 유일…'월드컵 선수단장' 맡았던 박항서 결국",
+    "summary": "박항서 대한 축구협회 부회장 겸 축구 대표팀 선수단장이 2026 국제 축구 연맹(FIFA) 북중미 월드컵 조별리그 탈락... 축구 계 관계자에 따르면 한국 대표팀의 32강 진출이 무산된 뒤 박 부회장은 선수단장으로서 김승희 KFA...",
+    "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607070131&t=NN",
+    "originalUrl": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607070131&t=NN",
+    "publisher": "wowtv.co.kr",
+    "publishedAt": "2026-07-06T21:26:00.000Z",
+    "collectedAt": "2026-07-08T23:40:59.802Z",
+    "matchedKeywords": [
+      "집행부",
+      "정몽규",
+      "대한 축구협회",
+      "KFA",
+      "부회장"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 28,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_b6241388acf4af62",
+    "type": "news",
+    "title": "‘홍명보 선임 주도’ 이임생, 캄보디아 프로팀 취직했다…“기술이사로 선임”",
+    "summary": "홍명보 전 축구대표팀 감독 선임을 주도했던 이임생 전 대한축구협회(KFA) 기술이사가 캄보디아... 국회증언감정법상 동행명령 제도는 국정 감사 와 국정조사에만 적용돼 청문회에는 강제력이 없다.",
+    "url": "https://www.seoul.co.kr/news/sport/worldcup2026/2026/07/07/20260707500008?wlog_tag3=naver",
+    "originalUrl": "https://www.seoul.co.kr/news/sport/worldcup2026/2026/07/07/20260707500008?wlog_tag3=naver",
+    "publisher": "seoul.co.kr",
+    "publishedAt": "2026-07-06T21:22:00.000Z",
+    "collectedAt": "2026-07-08T23:40:59.802Z",
+    "matchedKeywords": [
+      "홍명보",
+      "이임생",
+      "대한축구협회",
+      "KFA",
+      "감사",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "이임생 전 대한축구협회"
+    ],
+    "issueTags": [
+      "mcst-audit",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 38,
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_a5bdabe741fd3811",
+    "type": "news",
+    "title": "황당 망언! \"까라\" 자의식 과잉, '홍명보호 핵심' 아로소 코치, 결국 떠난다...\"한국 떠나겠단 결심 돌이킬 수 없어\"",
+    "summary": "해명 을 내놓았고, 대한축구협회는 사전에 허락받지 않고 진행하는 미디어 활동 등에 주의를 당부했다고 밝혔다. 어수선한 분위기 속에서 출발한 월드컵은 1승 2패 32강 진출 실패란 결과로 이어졌다. 이에 홍명보 전...",
+    "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553354391",
+    "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553354391",
+    "publisher": "sportalkorea.com",
+    "publishedAt": "2026-07-06T21:18:00.000Z",
+    "collectedAt": "2026-07-09T04:50:49.653Z",
+    "matchedKeywords": [
+      "홍명보",
+      "대한축구협회",
+      "해명"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 19,
+    "labels": [
+      "인물 언급",
+      "해명 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_9b69ada9fcdce969",
+    "type": "news",
+    "title": "\"대표팀 감독 선임은 논의하지 않습니다\"...박지성 위원장, 혁신위 본분...",
+    "summary": "정몽규 협회장의 사퇴 이후 치러질 차기 회장 선거 가 보다 공정하고 민주적인 절차 속에서 진행될 수 있도록... 장관, 김승희 대한축구협회 전무이사, 조연상 프로축구연맹 사무총장, 이영표, 박주호 등으로 구성했다.",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826822",
+    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826822",
+    "publisher": "spotvnews.co.kr",
+    "publishedAt": "2026-07-06T20:54:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "박지성",
+      "대한축구협회",
+      "프로축구연맹",
+      "회장 선거",
+      "전무",
+      "정몽규",
+      "사퇴"
+    ],
+    "issueTags": [
+      "coach-appointment",
+      "election",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_park_ji_sung",
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 37,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_0a3ed3b962ed287c",
+    "type": "news",
+    "title": "'박지성 앞세운' K-축구혁신위 첫발 내디뎌",
+    "summary": "대한체육회장, 김승희 대한축구협회 전무이사, 조연상 한국프로축구연맹 사무총장, 유영근 변호사, 김대희... 위원회 구성과 관련해 설명하면서는 \"차기 협회장 선거 에 출마하지 않을 분을 모셨다\"면서 \"그래서 축구인...",
+    "url": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374055",
+    "originalUrl": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374055",
+    "publisher": "thesportstimes.co.kr",
+    "publishedAt": "2026-07-06T20:44:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "축구혁신위",
+      "박지성",
+      "대한축구협회",
+      "한국프로축구연맹",
+      "회장 선거",
+      "전무"
+    ],
+    "issueTags": [
+      "innovation-committee",
+      "election",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 52,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_f73f99bd3ce3f255",
+    "type": "news",
+    "title": "정몽규 물러난 날, K축구 혁신위 첫발",
+    "summary": "유승민 대한체육회장과 박지성 전 전북 현대 테크니컬 디렉터가 공동위원장을 맡았으며, 김승희 축구협회 전무이사, 조연상 한국프로축구연맹 사무총장, 이영표 KBS 해설위원, 박주호 tvN 스포츠 해설위원 등이...",
+    "url": "https://www.seoul.co.kr/news/sport/soccer/2026/07/07/20260707034005?wlog_tag3=naver",
+    "originalUrl": "https://www.seoul.co.kr/news/sport/soccer/2026/07/07/20260707034005?wlog_tag3=naver",
+    "publisher": "seoul.co.kr",
+    "publishedAt": "2026-07-06T20:04:00.000Z",
+    "collectedAt": "2026-07-08T23:40:59.802Z",
+    "matchedKeywords": [
+      "축구 혁신",
+      "정몽규",
+      "한국프로축구연맹",
+      "축구협회",
+      "전무",
+      "박지성"
+    ],
+    "issueTags": [
+      "innovation-committee",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 31,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_b454c85be2e46780",
+    "type": "news",
+    "title": "韓축구 몰락시킨 정몽규 독주 끝…박지성이 새판 짠다",
+    "summary": "해설위원, 김승희 대한축구협회 전무, 조연상 한국프로축구연맹 사무총장, 유영근 변호사, 김대희 부경대... 지난해 2월 제55대 회장 선거 에서 4연임에 성공해 임기는 2029년까지였지만, 월드컵 부진과 협회 운영을 둘러싼...",
+    "url": "https://starin.edaily.co.kr/news/newspath.asp?newsid=01079126645512224",
+    "originalUrl": "https://starin.edaily.co.kr/news/newspath.asp?newsid=01079126645512224",
+    "publisher": "starin.edaily.co.kr",
+    "publishedAt": "2026-07-06T20:01:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "정몽규",
+      "박지성",
+      "대한축구협회",
+      "한국프로축구연맹",
+      "회장 선거",
+      "전무"
+    ],
+    "issueTags": [
+      "election",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 30,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_c5b3567e753e9565",
+    "type": "news",
+    "title": "정몽규 축구협회장 13년만에 물러난 날… ‘K-축구 혁신위’ 출범 “선...",
+    "summary": "다만 대한체육회가 정관을 바꾼다고 해도 회원종목단체 규정 개정 등 여러 후속 절차가 남아 축구협회 가 60일 안에 새 회장을 뽑는 건 쉽지 않다. 한편 박 위원장과 이영표 위원(현 축구 해설위원)은 차기 회장 선거에...",
+    "url": "https://www.donga.com/news/Sports/article/all/20260707/134247565/2",
+    "originalUrl": "https://www.donga.com/news/Sports/article/all/20260707/134247565/2",
+    "publisher": "donga.com",
+    "publishedAt": "2026-07-06T19:34:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "축구협회장",
+      "축구 혁신",
+      "정몽규",
+      "축구협회",
+      "회장 선거",
+      "정관",
+      "규정 개정"
+    ],
+    "issueTags": [
+      "election",
+      "innovation-committee",
+      "statute-revision"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 51,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_a54e2ba3da0ba809",
+    "type": "news",
+    "title": "'팬들이 원하지만...' 박지성, 차기 축구협회 장 '등판론' 일축 \"출마 생...",
+    "summary": "이날 첫 회의의 핵심 안건은 축구협회 거버넌스 개혁과 지속 가능한 축구 발전을 위한 미래 비전이었다. 박 위원은 \"국민적 신뢰 회복을 위해서는 다수의 축구인이 참여하는 민주적 절차의 선거가 필수적이라는 데 위원...",
+    "url": "https://www.starnewskorea.com/sports/2026/07/07/2026070702192130110",
+    "originalUrl": "https://www.starnewskorea.com/sports/2026/07/07/2026070702192130110",
+    "publisher": "starnewskorea.com",
+    "publishedAt": "2026-07-06T19:05:00.000Z",
+    "collectedAt": "2026-07-08T09:10:47.825Z",
+    "matchedKeywords": [
+      "축구협회",
+      "박지성"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 21,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_e05ac7d6b9051926",
+    "type": "news",
+    "title": "\"축구인으로서 죄송\" 결국 박지성 나섰다...문체부, 축구협회에 '메스'",
+    "summary": "축구인과 김승희 축구협회 전무이사 등이 위원으로 참석했다. 공동위원장을 맡을 것으로 보였던 최휘영... 회장 선거 제도가 대표적이다. 그간 직선제 대신 100~300명 안팎의 축구인이 회장을 뽑았기 때문에 '밀실 선거 '라는...",
+    "url": "https://www.mt.co.kr/policy/2026/07/07/2026070619432565226",
+    "originalUrl": "https://www.mt.co.kr/policy/2026/07/07/2026070619432565226",
+    "publisher": "mt.co.kr",
+    "publishedAt": "2026-07-06T19:00:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "축구협회",
+      "박지성",
+      "회장 선거"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 25,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_2a88aa7d9f898858",
+    "type": "news",
+    "title": "[노트북 너머] 대한축구협회가 멈춰 세운 ’韓 축구의 심장’",
+    "summary": "이영표, 박주호 등 축구협회 행정에 쓴소리를 아끼지 않았던 인사들이 대거 참여해 거버넌스 쇄신과 유소년 육성 , 행정 전산화 시스템 도입을 논의할 예정이다. 신뢰받는 축구 인들을 전면에 내세운 한시적 기구를 띄우는...",
+    "url": "https://www.etoday.co.kr/news/view/2600334",
+    "originalUrl": "https://www.etoday.co.kr/news/view/2600334",
+    "publisher": "etoday.co.kr",
+    "publishedAt": "2026-07-06T19:00:00.000Z",
+    "collectedAt": "2026-07-09T14:16:51.625Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 23,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_c28a3d326199e9ef",
+    "type": "news",
+    "title": "정몽규 시대 막 내렸다…박지성·유승민 공동위원장 'K-축구 혁신위원회...",
+    "summary": "위원회에는 박지성, 유승민을 비롯해 이영표, 박주호 해설위원, 최휘영 문화체육관광부 장관, 김승희 ... 최 장관은 \"부당함에 맞서 목소리를 냈고 국민적 신뢰와 축구계의 신망을 받으며 차기 축구협회장 선거 에 출마하지...",
+    "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=430747",
+    "originalUrl": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=430747",
+    "publisher": "dailysportshankook.co.kr",
+    "publishedAt": "2026-07-06T18:58:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "혁신위원회",
+      "축구 혁신",
+      "정몽규",
+      "박지성",
+      "축구협회장",
+      "회장 선거"
+    ],
+    "issueTags": [
+      "innovation-committee",
+      "election"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 36,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_08ce0ff7dfa86cac",
+    "type": "news",
+    "title": "박지성·이영표·박주호...한국 축구 혁신의 마지막 승부수 걸까",
+    "summary": "아무리 훌륭한 개혁안이 나오더라도 차기 대한 축구협회 집행부가 이를 받아들이지 않는다면 혁신위원회는 또 하나의 자문기구로 끝날 가능성도 있다. 반대로 이번 논의가 실제 제도 개편 으로 이어진다면 한국 축구 는...",
+    "url": "https://www.newspim.com/news/view/20260707000021",
+    "originalUrl": "https://www.newspim.com/news/view/20260707000021",
+    "publisher": "newspim.com",
+    "publishedAt": "2026-07-06T18:53:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "축구 혁신",
+      "박지성",
+      "대한 축구협회",
+      "제도 개편",
+      "혁신위원회",
+      "집행부"
+    ],
+    "issueTags": [
+      "innovation-committee",
+      "statute-revision",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 36,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_1b29695019a7c723",
+    "type": "news",
+    "title": "정몽규 회장 사퇴→축구협회장 선거 시계는 돌아간다…박지성 K-축구혁...",
+    "summary": "해설위원, 김승희 대한축구협회 전무이사, 조연상 프로축구연맹 사무총장, 유영근 변호사, 김대희 국립부경대 교수 등이 함께한다. 박지성 공동위원장은 2시간이 넘는 회의가 끝난 뒤 취재진을 만나 축구협회장 선거 방식...",
+    "url": "https://www.mydaily.co.kr/page/view/2026070621094759968",
+    "originalUrl": "https://www.mydaily.co.kr/page/view/2026070621094759968",
+    "publisher": "mydaily.co.kr",
+    "publishedAt": "2026-07-06T18:04:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "축구협회장",
+      "회장 선거",
+      "정몽규",
+      "박지성",
+      "사퇴",
+      "대한축구협회",
+      "프로축구연맹",
+      "전무"
+    ],
+    "issueTags": [
+      "election",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 58,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_b8fbae3440a1d871",
+    "type": "news",
+    "title": "‘13년 체제’ 퇴장한 날… 한국 축구 개혁 첫발",
+    "summary": "정몽규(사진) 대한 축구협회 장이 13년5개월여 만에 수장직에서 물러났다. 같은 날 박지성을 중심으로 한... 상위 단체인 대한체육회가 직선제 도입 여부 등 선거 관련 정관 개정 을 논의 중이다. 이날 한국 축구 의 새 판을 짤...",
+    "url": "https://www.kmib.co.kr/article/view.asp?arcid=1783327449&code=12120000&cp=nv",
+    "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=1783327449&code=12120000&cp=nv",
+    "publisher": "kmib.co.kr",
+    "publishedAt": "2026-07-06T16:14:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "정관",
+      "정관 개정",
+      "정몽규",
+      "박지성"
+    ],
+    "issueTags": [
+      "statute-revision"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 18,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_7cf4f424bf9bb482",
+    "type": "news",
+    "title": "정몽규 “모두 내 잘못” 사임… 차기 회장 선출은 ‘오리무중’",
+    "summary": "다만 정부와 대한체육회가 현행 선거 방식에 문제를 제기하며 관련 규정 개정 을 추진하고 있어 차기 축구협회 장 선출 과정은 당분간 안갯속에 빠질 전망이다. 정몽규 회장은 이날 “모든 부족함과 과오는 오롯이 저의...",
+    "url": "https://www.chosun.com/sports/football/2026/07/07/JH4OC7MGMBCONCGUYNKL35S56U/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+    "originalUrl": "https://www.chosun.com/sports/football/2026/07/07/JH4OC7MGMBCONCGUYNKL35S56U/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+    "publisher": "chosun.com",
+    "publishedAt": "2026-07-06T15:44:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "정몽규",
+      "규정 개정"
+    ],
+    "issueTags": [
+      "statute-revision"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 15,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_7bb3543139f47115",
+    "type": "news",
+    "title": "'K 축구 혁신위' 본격 출범…박지성 \"회장 불출마\"",
+    "summary": "FIFA 정관 을 의식한 결정으로 풀이됩니다. 바통을 이어받은 유승민 체육회장은 축구협회 의 자율성과 독립성을... 이에 따라 협회 는 체육회가 추진 중인 선거 제도 개정 안을 따라 차기 수장을 뽑는 절차에 돌입할 계획입니다....",
+    "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008644304&plink=ORI&cooper=NAVER",
+    "originalUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008644304&plink=ORI&cooper=NAVER",
+    "publisher": "news.sbs.co.kr",
+    "publishedAt": "2026-07-06T15:39:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "축구 혁신",
+      "박지성",
+      "축구협회",
+      "정관"
+    ],
+    "issueTags": [
+      "innovation-committee",
+      "statute-revision"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 27,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_b15c70a384513310",
+    "type": "news",
+    "title": "한국축구 비상사태 만든 정몽규 “한국축구 비상할 것” 사퇴",
+    "summary": "협회 행정 신뢰도는 바닥을 쳤고, 구성원들은 문체부 감사 등의 절차를 거치며 거듭 내상을 입을 전망이다. 13년 만에 찾아온 축구협회 의 권력 교체기가 한국 축구 의 혁신으로 이어질지, 아니면 축구 계 분열을 포함한 또...",
+    "url": "https://www.joongang.co.kr/article/25442935",
+    "originalUrl": "https://www.joongang.co.kr/article/25442935",
+    "publisher": "joongang.co.kr",
+    "publishedAt": "2026-07-06T15:26:00.000Z",
+    "collectedAt": "2026-07-09T05:28:47.518Z",
+    "matchedKeywords": [
+      "정몽규",
+      "사퇴",
+      "축구협회",
+      "문체부 감사",
+      "감사"
+    ],
+    "issueTags": [
+      "mcst-audit"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 22,
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_eeea40fd095d5ec7",
+    "type": "news",
+    "title": "‘축구협회장 불출마 선언’ 박지성 혁신위원장 “그런 마음으로 들어왔...",
+    "summary": "보궐 선거 출마 가능성을 일축했다. 박 위원은 6일 서울 송파구 올림픽파크텔에서 열린 혁신위 첫 회의 직후... 이영표, 박주호 등 그간 국내 축구계 행정을 비판해 온 축구인과 유승민 대한체육회장, 김승희 축구협회...",
+    "url": "https://www.sportsseoul.com/news/read/1620921?ref=naver",
+    "originalUrl": "https://www.sportsseoul.com/news/read/1620921?ref=naver",
+    "publisher": "sportsseoul.com",
+    "publishedAt": "2026-07-06T15:16:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "축구협회장",
+      "박지성",
+      "축구협회"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 31,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_77c0c5f10d61c16c",
+    "type": "news",
+    "title": "홍명보 선임 주도한 이임생, 캄보디아행…청문회 앞 '시선 집중'",
+    "summary": "홍명보 전 축구대표팀 감독 선임을 주도했던 이임생 전 대한축구협회(KFA) 기술총괄이사가 캄보디아... 국회증언감정법상 동행명령 제도는 국정 감사 와 국정조사에만 적용돼 청문회에는 강제력이 없다.",
+    "url": "http://weekly.chosun.com/news/articleView.html?idxno=53229",
+    "originalUrl": "http://weekly.chosun.com/news/articleView.html?idxno=53229",
+    "publisher": "weekly.chosun.com",
+    "publishedAt": "2026-07-06T15:15:00.000Z",
+    "collectedAt": "2026-07-08T23:40:59.802Z",
+    "matchedKeywords": [
+      "홍명보",
+      "이임생",
+      "대한축구협회",
+      "KFA",
+      "감사",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "이임생 전 대한축구협회"
+    ],
+    "issueTags": [
+      "mcst-audit",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 38,
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_aa2d8d9b0a82eb4b",
+    "type": "news",
+    "title": "거버넌스의 함정…대한축구협회는 왜 같은 실수를 반복하나",
+    "summary": "회장을 바꾸고, 조직을 개편 하고, 위원회를 새로 만들면 문제가 해결될 것처럼 이야기한다. 하지만 정작 중요한 질문은 빠져 있다. 지금 있는 제도 는 제대로 실행되고 있는가. 대한 축구협회 의 거버넌스는 생각보다 허술하지...",
+    "url": "https://isplus.com/article/view/isp202607060192",
+    "originalUrl": "https://isplus.com/article/view/isp202607060192",
+    "publisher": "isplus.com",
+    "publishedAt": "2026-07-06T15:07:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "대한 축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 26,
+    "labels": []
+  },
+  {
+    "id": "item_ed2d9660fee4117d",
+    "type": "news",
+    "title": "협회장 출마 NO, 새 집행부 올 때까지...박지성 위원장 \"혁신위, 신뢰 회...",
+    "summary": "장관, 김승희 대한축구협회 전무이사, 조연상 프로축구연맹 사무총장, 유영근 변호사, 김대희 부경대 교수 등... 축구협회장 선거 에 출마하지 않을 분들로 박지성, 이영표, 박주호를 뽑았다\"고 설명했다. 대한축구협회는...",
+    "url": "https://mhnse.com/news/articleView.html?idxno=1454428",
+    "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1454428",
+    "publisher": "mhnse.com",
+    "publishedAt": "2026-07-06T15:06:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "집행부",
+      "박지성",
+      "대한축구협회",
+      "프로축구연맹",
+      "축구협회장",
+      "회장 선거",
+      "전무"
+    ],
+    "issueTags": [
+      "kfa-executives",
+      "election"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 35,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_6ade4a3f57df7525",
+    "type": "news",
+    "title": "회장도 감독도 없는 한국축구…K축구혁신위 출범",
+    "summary": "위원으로는 이영표·박주호 축구해설위원, 김승희 대한축구협회 전무, 조연상 프로축구연맹 사무총장... 현행 선거 제도로 새 회장을 뽑을 수 없다는 데 참석자들이 원칙적으로 동의했다”며 말했다. 또 “회장에 출마할...",
+    "url": "https://www.joongang.co.kr/article/25442888",
+    "originalUrl": "https://www.joongang.co.kr/article/25442888",
+    "publisher": "joongang.co.kr",
+    "publishedAt": "2026-07-06T15:01:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "축구혁신위",
+      "대한축구협회",
+      "프로축구연맹",
+      "전무"
+    ],
+    "issueTags": [
+      "innovation-committee",
+      "kfa-executives"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 40,
+    "labels": []
+  },
+  {
+    "id": "item_beec85023ff3b485",
+    "type": "news",
+    "title": "‘채용 대행사’ 된 전강위, 감독 선임보다 월드컵 실패 분석이 먼저다...",
+    "summary": "전강위는 현영민 위원장을 비롯해 김호영, 김도균, 김은중, 이미연, 전가을, 김종진 위원 등으로 구성돼 있으며, 협회 는 북중미 월드컵을 앞둔 지난 5월 규정에 따라 재위촉 절차를 마쳤다고 밝혔다. 하지만 축구 팬들과...",
+    "url": "https://news.tf.co.kr/read/soccer/2340343.htm",
+    "originalUrl": "https://news.tf.co.kr/read/soccer/2340343.htm",
+    "publisher": "news.tf.co.kr",
+    "publishedAt": "2026-07-06T15:01:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "현영민",
+      "현영민 위원장"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 3,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_3a37f2a1b683ecdb",
+    "type": "news",
+    "title": "\"축구는 참 좋겠다\"...비인기종목의 뼈아픈 '푸념' [유병철의 스포츠 렉...",
+    "summary": "축구협회 의 구조적 문제는 정몽규 회장이 4연임할 때, 그리고 홍명보 감독이 선임될 때 이미 부각됐습니다. 문체부 와 스포츠윤리센터의 조사가 이뤄졌고, 국정 감사 때도 질타를 받았습니다. 대한체육회도 논란 속에...",
+    "url": "https://news.tf.co.kr/read/sports/2340187.htm",
+    "originalUrl": "https://news.tf.co.kr/read/sports/2340187.htm",
+    "publisher": "news.tf.co.kr",
+    "publishedAt": "2026-07-06T15:01:00.000Z",
+    "collectedAt": "2026-07-09T04:50:49.653Z",
+    "matchedKeywords": [
+      "축구협회",
+      "감사",
+      "감독",
+      "선임",
+      "정몽규",
+      "홍명보"
+    ],
+    "issueTags": [
+      "mcst-audit",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 19,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_08692fbde2e2ab56",
+    "type": "news",
+    "title": "[SD 현장 라이브] 한국축구 혁신 위한 K-축구혁신위 출범, 회장 선거 먼...",
+    "summary": "회장 선거 제도의 변화였다. 혁신위는 6일 서울 송파구 올림픽파크텔서 출범식을 개최하고 첫 번째 회의를... 박지성과 유승민 공동위원장을 중심으로 최 장관, 이영표 울산 HD 사외이사, 김승희 KFA 전무이사, 박주호 전 KFA...",
+    "url": "https://sports.donga.com/sports/article/all/20260706/134247265/1",
+    "originalUrl": "https://sports.donga.com/sports/article/all/20260706/134247265/1",
+    "publisher": "sports.donga.com",
+    "publishedAt": "2026-07-06T15:00:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "축구혁신위",
+      "회장 선거",
+      "축구 혁신",
+      "KFA",
+      "전무",
+      "박지성"
+    ],
+    "issueTags": [
+      "election",
+      "innovation-committee",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 57,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_d7a3b256b6e58e8b",
+    "type": "news",
+    "title": "박항서 축구협회 부회장 사퇴…정몽규 집행부 중 유일",
+    "summary": "박항서 대한 축구협회 (KFA) 부회장 및 선수단장이 2026 국제 축구 연맹(FIFA) 북중미 월드컵이 열린 멕시코... 관계자에 따르면 한국 대표팀의 32강이 무산된 후 박항서 부회장은 선수단장으로서 김승희 KFA 전무이사와 선수들이...",
+    "url": "https://biz.heraldcorp.com/article/10799998?ref=naver",
+    "originalUrl": "https://biz.heraldcorp.com/article/10799998?ref=naver",
+    "publisher": "biz.heraldcorp.com",
+    "publishedAt": "2026-07-06T14:12:00.000Z",
+    "collectedAt": "2026-07-08T23:40:59.802Z",
+    "matchedKeywords": [
+      "축구협회",
+      "집행부",
+      "부회장",
+      "정몽규",
+      "사퇴",
+      "대한 축구협회",
+      "KFA",
+      "전무"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 43,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_29a52f4df5334433",
+    "type": "news",
+    "title": "13년 정몽규 천하 끝난 날…한국 축구 새 판 짤 혁신위 출범",
+    "summary": "현행 축구협회 정관상 차기 회장 선거는 60일 이내에 선거인단 192명의 투표로 치러지는데, 이대로라면 기득권의 영향력이 여전할 거란 우려에 변화가 필요하다는 공감대가 형성된 겁니다. 다만 최휘영 문체부 장관은...",
+    "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8603683&ref=A",
+    "originalUrl": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8603683&ref=A",
+    "publisher": "news.kbs.co.kr",
+    "publishedAt": "2026-07-06T14:10:00.000Z",
+    "collectedAt": "2026-07-08T21:18:21.343Z",
+    "matchedKeywords": [
+      "정몽규",
+      "축구협회",
+      "회장 선거",
+      "선거인단",
+      "선거인",
+      "정관"
+    ],
+    "issueTags": [
+      "election",
+      "electoral-college",
+      "statute-revision"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 27,
+    "labels": [
+      "인물 언급",
+      "선거 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_80ed4c744950ab1a",
+    "type": "news",
+    "title": "[SPO 현장] 박지성 소신 발언, '정몽규 후임' 축구협회장 선거 불출마 선...",
+    "summary": "축구 행정 개혁의 중심에 선 박지성 공동위원장은 차기 협회장 선거 불출마를 분명히 하며 혁신 작업의... 인사들과 김승희 대한축구협회 전무이사, 조연상 프로축구연맹 사무총장, 유영근 변호사, 김대희 부경대 교수 등...",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826820",
+    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826820",
+    "publisher": "spotvnews.co.kr",
+    "publishedAt": "2026-07-06T14:04:00.000Z",
+    "collectedAt": "2026-07-13T01:14:32.075Z",
+    "matchedKeywords": [
+      "축구협회장",
+      "회장 선거",
+      "정몽규",
+      "박지성",
+      "대한축구협회",
+      "프로축구연맹",
+      "전무"
+    ],
+    "issueTags": [
+      "election",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 53,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_ee9bd3816b667c35",
+    "type": "news",
+    "title": "박지성 \"신뢰 회복이 최우선\"… \"현행 협회장 선거제론 안 돼\"",
+    "summary": "홍명보 전 감독 선임 과정에서 불거진 절차적 정당성 논란과 대한 축구협회 의 폐쇄적 운영, 특정 인맥 중심의 의사결정 구조가 월드컵 실패의 근본 원인으로 지목됐다. 실제로 문체부 감사 에서는 대표팀 감독 선임 과정의...",
+    "url": "https://www.newscj.com/news/articleView.html?idxno=3414963",
+    "originalUrl": "https://www.newscj.com/news/articleView.html?idxno=3414963",
+    "publisher": "newscj.com",
+    "publishedAt": "2026-07-06T14:02:00.000Z",
+    "collectedAt": "2026-07-09T04:50:49.653Z",
+    "matchedKeywords": [
+      "회장 선거",
+      "박지성",
+      "대한 축구협회",
+      "문체부 감사",
+      "감사",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "홍명보"
+    ],
+    "issueTags": [
+      "election",
+      "mcst-audit",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_park_ji_sung",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 37,
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_61bc8f234c765a7b",
+    "type": "news",
+    "title": "홍명보 감독 귀국하나?…국회 문체위, 22일 대한축구협회 불러 청문회 진행→밀실 행정 논란+월드컵 성적 부진 다룬다",
+    "summary": "국가대표팀 감독 선임 과정에 대한 불공정 논란은 지난 2024년 문화체육관광부(문체부)가 특정 감사 를 실시한... 또한 문체부는 후임으로 홍 전 감독을 선임할 때도 규정상 권한이 없는 이임생 기술총괄이사가 최종 감독...",
+    "url": "https://www.xportsnews.com/article/2168917",
+    "originalUrl": "https://www.xportsnews.com/article/2168917",
+    "publisher": "xportsnews.com",
+    "publishedAt": "2026-07-06T13:36:00.000Z",
+    "collectedAt": "2026-07-08T23:40:59.802Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "홍명보",
+      "감사",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "후임",
+      "이임생",
+      "이임생 기술총괄"
+    ],
+    "issueTags": [
+      "mcst-audit",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 41,
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_92e36e75218cdd79",
+    "type": "news",
+    "title": "홍명보 선임 주도한 이임생, 한국 떠나 캄보디아행...나가월드FC에 취업",
+    "summary": "구단은 이 기술디렉터가 선수 육성 과 코칭 시스템 , 경기력 향상 등 구단의 기술 부문 전반을 총괄하게 된다고 설명했습니다. 이 기술디렉터는 2024년 대한 축구협회 기술이사 재임 당시 정해성 전 전력강화위원장이 사퇴한...",
+    "url": "https://www.ikbc.co.kr/article/view/kbc202607060070",
+    "originalUrl": "https://www.ikbc.co.kr/article/view/kbc202607060070",
+    "publisher": "ikbc.co.kr",
+    "publishedAt": "2026-07-06T13:29:00.000Z",
+    "collectedAt": "2026-07-08T15:51:49.882Z",
+    "matchedKeywords": [
+      "홍명보",
+      "이임생",
+      "대한 축구협회",
+      "사퇴"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 24,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_9cd4d34464a57903",
+    "type": "news",
+    "title": "월드컵서 선수단장 맡았던 박항서 대한축구협회 부회장, 현지서 사퇴",
+    "summary": "박항서 대한 축구협회 (KFA) 부회장 및 선수단장이 2026 국제 축구 연맹(FIFA) 북중미 월드컵이 열린 멕시코... 관계자에 따르면 한국 대표팀의 32강이 무산된 후 박항서 부회장은 선수단장으로서 김승희 KFA 전무이사와...",
+    "url": "https://www.news1.kr/sports/soccer/6219486",
+    "originalUrl": "https://www.news1.kr/sports/soccer/6219486",
+    "publisher": "news1.kr",
+    "publishedAt": "2026-07-06T13:14:00.000Z",
+    "collectedAt": "2026-07-08T23:40:59.802Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "부회장",
+      "사퇴",
+      "대한 축구협회",
+      "KFA",
+      "전무"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 45,
+    "labels": []
+  },
+  {
+    "id": "item_f6320f492613d1fe",
+    "type": "news",
+    "title": "정몽규 회장 사임서 제출...13년 5개월 만에 사퇴",
+    "summary": "축구협회 는 정 회장이 천안 코리아풋볼파크에서 마지막 임원 회의를 주재한 뒤 사임서를 제출했다고 밝혔습니다. 이로써 지난 2013년 1월 제52대 회장으로 취임한 이후 4선을 지낸 정 회장은 협회 장 직을 내려놓게...",
+    "url": "https://www.ytn.co.kr/_ln/0103_202607062209058562",
+    "originalUrl": "https://www.ytn.co.kr/_ln/0103_202607062209058562",
+    "publisher": "ytn.co.kr",
+    "publishedAt": "2026-07-06T13:09:00.000Z",
+    "collectedAt": "2026-07-08T21:18:21.343Z",
+    "matchedKeywords": [
+      "정몽규",
+      "사퇴",
+      "축구협회",
+      "임원"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 20,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_996d09579ec8ffad",
     "type": "news",
     "title": "정몽규 13년 막 내린날 ‘박지성 혁신위’가 떴다",
@@ -2762,18 +1898,12 @@
     "publishedAt": "2026-07-06T13:00:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "\"홍명보\" 선거",
-      "대한축구협회",
-      "박지성",
-      "전무",
       "정몽규",
-      "축구협회",
-      "축구협회 육성 시스템",
-      "홍명보",
-      "회장 선거"
+      "박지성",
+      "대한축구협회",
+      "한국프로축구연맹",
+      "회장 선거",
+      "전무"
     ],
     "issueTags": [
       "election",
@@ -2781,12 +1911,11 @@
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 66,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급"
     ]
@@ -2802,30 +1931,22 @@
     "publishedAt": "2026-07-06T12:55:00.000Z",
     "collectedAt": "2026-07-08T13:10:40.596Z",
     "matchedKeywords": [
-      "\"홍명보\" 선거",
-      "감독 선임",
-      "박지성",
-      "선거인",
-      "정몽규",
       "축구협회",
-      "축구협회 선거인",
-      "축구협회장",
-      "홍명보",
-      "회장 선거"
+      "박지성",
+      "대한 축구협회",
+      "선거인",
+      "정몽규"
     ],
     "issueTags": [
-      "coach-appointment",
-      "election",
       "electoral-college"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ]
@@ -2841,13 +1962,12 @@
     "publishedAt": "2026-07-06T12:44:00.000Z",
     "collectedAt": "2026-07-08T21:18:21.343Z",
     "matchedKeywords": [
-      "부회장",
-      "사퇴",
-      "임원",
-      "정몽규",
-      "집행부",
       "축구협회",
-      "축구협회 임원"
+      "집행부",
+      "부회장",
+      "정몽규",
+      "사퇴",
+      "임원"
     ],
     "issueTags": [
       "kfa-executives"
@@ -2857,7 +1977,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 53,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ]
@@ -2873,11 +1993,10 @@
     "publishedAt": "2026-07-06T12:40:00.000Z",
     "collectedAt": "2026-07-08T19:47:33.678Z",
     "matchedKeywords": [
-      "부회장",
-      "임원",
       "정몽규",
-      "축구협회",
-      "축구협회 임원"
+      "대한 축구협회",
+      "임원",
+      "부회장"
     ],
     "issueTags": [
       "kfa-executives"
@@ -2887,7 +2006,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -2903,36 +2022,25 @@
     "publishedAt": "2026-07-06T12:35:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"홍명보\" 선거",
-      "감독 선임",
-      "대의원",
-      "대표팀 감독",
-      "박지성",
-      "임원",
+      "KFA",
       "정관",
-      "정관 개정",
-      "축구협회",
-      "축구협회 대의원",
-      "축구협회 임원",
-      "축구협회 정관 개정",
-      "홍명보",
+      "박지성",
+      "대한 축구협회",
       "회장 선거",
-      "KFA"
+      "대의원",
+      "정관 개정"
     ],
     "issueTags": [
-      "coach-appointment",
+      "statute-revision",
       "election",
-      "electoral-college",
-      "kfa-executives",
-      "statute-revision"
+      "electoral-college"
     ],
     "personTags": [
-      "person_hong_myung_bo",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 73,
+    "relevanceScore": 63,
     "labels": [
       "인물 언급"
     ]
@@ -2948,14 +2056,12 @@
     "publishedAt": "2026-07-06T12:19:00.000Z",
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
-      "\"정몽규\" 해명",
-      "\"홍명보\" 해명",
-      "사퇴",
-      "정몽규",
-      "축구협회",
       "축구협회장",
-      "해명",
-      "홍명보"
+      "정몽규",
+      "홍명보",
+      "사퇴",
+      "축구협회",
+      "해명"
     ],
     "issueTags": [
       "election"
@@ -2966,7 +2072,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 46,
+    "relevanceScore": 49,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -2983,14 +2089,11 @@
     "publishedAt": "2026-07-06T12:15:00.000Z",
     "collectedAt": "2026-07-08T13:10:40.596Z",
     "matchedKeywords": [
-      "선거인",
-      "선거인단",
-      "정관",
       "정몽규",
       "축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "회장 선거"
+      "회장 선거",
+      "선거인",
+      "정관"
     ],
     "issueTags": [
       "election",
@@ -3002,9 +2105,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 68,
+    "relevanceScore": 25,
     "labels": [
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -3019,22 +2121,15 @@
     "publishedAt": "2026-07-06T12:12:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"박지성\" 감사",
-      "감사",
-      "박지성",
-      "부회장",
-      "사퇴",
-      "임원",
+      "축구협회장",
       "정몽규",
+      "사퇴",
       "축구협회",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 육성 시스템",
-      "축구협회 임원",
-      "축구협회장"
+      "감사",
+      "박지성"
     ],
     "issueTags": [
       "election",
-      "kfa-executives",
       "mcst-audit"
     ],
     "personTags": [
@@ -3043,10 +2138,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 45,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -3060,22 +2155,24 @@
     "publishedAt": "2026-07-06T12:10:00.000Z",
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
-      "축구협회 육성 시스템",
-      "축구협회",
       "축구 혁신",
+      "박지성",
+      "대한 축구협회",
       "집행부",
-      "박지성"
+      "육성",
+      "시스템"
     ],
     "issueTags": [
       "innovation-committee",
-      "kfa-executives"
+      "kfa-executives",
+      "youth-governance"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
     ]
@@ -3091,19 +2188,18 @@
     "publishedAt": "2026-07-06T12:09:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "감독 선임",
-      "감사",
-      "대표팀 감독",
-      "대한축구협회",
+      "홍명보",
       "이임생",
+      "대한축구협회",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
       "이임생 전 대한축구협회",
-      "축구협회",
-      "홍명보"
+      "감사"
     ],
     "issueTags": [
-      "coach-appointment",
-      "mcst-audit"
+      "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo",
@@ -3111,10 +2207,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 89,
+    "relevanceScore": 34,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -3128,21 +2224,17 @@
     "publishedAt": "2026-07-06T12:04:00.000Z",
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
-      "축구협회 육성 시스템",
-      "축구협회",
-      "유소년",
-      "육성 시스템",
+      "대한 축구협회",
       "이임생"
     ],
-    "issueTags": [
-      "youth-governance"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 34,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -3158,11 +2250,9 @@
     "publishedAt": "2026-07-06T12:02:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"이용수\" 대한축구협회",
       "대한축구협회",
-      "부회장",
       "집행부",
-      "축구협회"
+      "부회장"
     ],
     "issueTags": [
       "kfa-executives"
@@ -3170,7 +2260,8 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
     "labels": []
   },
   {
@@ -3184,35 +2275,24 @@
     "publishedAt": "2026-07-06T12:00:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"허정무\" 대한축구협회",
-      "\"허정무\" 축구협회",
-      "대의원",
-      "대표팀 감독",
-      "대한축구협회",
+      "집행부",
       "부회장",
       "사퇴",
+      "대한 축구협회",
       "임원",
-      "정관",
-      "집행부",
-      "축구협회",
-      "축구협회 대의원",
-      "축구협회 임원",
       "허정무",
       "홍명보"
     ],
     "issueTags": [
-      "coach-appointment",
-      "electoral-college",
-      "kfa-executives",
-      "statute-revision"
+      "kfa-executives"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_huh_jung_moo"
+      "person_huh_jung_moo",
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 91,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급"
     ]
@@ -3228,11 +2308,10 @@
     "publishedAt": "2026-07-06T11:58:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "박지성",
-      "정관",
       "축구 혁신",
+      "박지성",
       "축구협회",
-      "축구협회 정관 개정"
+      "정관"
     ],
     "issueTags": [
       "innovation-committee",
@@ -3243,7 +2322,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -3259,29 +2338,22 @@
     "publishedAt": "2026-07-06T11:46:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "감독 선임",
-      "감사",
-      "사퇴",
+      "홍명보",
       "이임생",
-      "지도자",
-      "홍명보"
+      "사퇴",
+      "감사"
     ],
-    "issueTags": [
-      "coach-appointment",
-      "mcst-audit",
-      "youth-governance"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 23,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -3295,25 +2367,21 @@
     "publishedAt": "2026-07-06T11:44:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
       "감독 선임",
-      "대한축구협회",
+      "감독",
+      "선임",
       "박지성",
-      "전무",
-      "축구협회"
+      "대한축구협회"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives"
+      "coach-appointment"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 58,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -3329,49 +2397,25 @@
     "publishedAt": "2026-07-06T11:40:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 감사",
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "\"박지성\" 감사",
-      "감사",
-      "거버넌스",
-      "대표팀 감독",
-      "대한축구협회",
-      "박지성",
-      "사퇴",
-      "유소년",
-      "전무",
-      "정관",
-      "정몽규",
-      "집행부",
       "축구 혁신",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 제도 개편",
-      "홍명보",
-      "회장 선거"
+      "박지성",
+      "대한축구협회",
+      "회장 선거",
+      "집행부",
+      "전무"
     ],
     "issueTags": [
-      "coach-appointment",
-      "election",
       "innovation-committee",
-      "kfa-executives",
-      "mcst-audit",
-      "statute-revision",
-      "youth-governance"
+      "election",
+      "kfa-executives"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 79,
+    "relevanceScore": 35,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -3386,33 +2430,30 @@
     "publishedAt": "2026-07-06T11:30:00.000Z",
     "collectedAt": "2026-07-08T13:10:40.596Z",
     "matchedKeywords": [
-      "부회장",
-      "사퇴",
-      "선거인",
-      "선거인단",
-      "임원",
-      "정몽규",
       "축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 임원",
+      "K-혁신위",
+      "정몽규",
+      "대한 축구협회",
+      "KFA",
       "회장 선거",
-      "KFA"
+      "선거인단",
+      "선거인",
+      "사퇴"
     ],
     "issueTags": [
+      "innovation-committee",
       "election",
-      "electoral-college",
-      "kfa-executives"
+      "electoral-college"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 68,
+    "relevanceScore": 49,
     "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "선거 키워드 포함"
     ]
   },
   {
@@ -3426,20 +2467,17 @@
     "publishedAt": "2026-07-06T11:21:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
+      "축구 혁신",
       "대한축구협회",
-      "박지성",
+      "한국프로축구연맹",
+      "회장 선거",
       "전무",
       "정몽규",
-      "축구 혁신",
-      "축구협회",
-      "회장 선거"
+      "박지성"
     ],
     "issueTags": [
-      "election",
       "innovation-committee",
+      "election",
       "kfa-executives"
     ],
     "personTags": [
@@ -3448,7 +2486,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 76,
+    "relevanceScore": 30,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -3464,12 +2503,9 @@
     "publishedAt": "2026-07-06T11:20:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 축구협회",
-      "대한축구협회",
       "박지성",
-      "전무",
-      "축구협회"
+      "대한 축구협회",
+      "전무"
     ],
     "issueTags": [
       "kfa-executives"
@@ -3479,7 +2515,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -3495,26 +2531,16 @@
     "publishedAt": "2026-07-06T11:18:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "규정 개정",
-      "대의원",
-      "박지성",
-      "선거인",
-      "선거인단",
-      "정관",
-      "정몽규",
-      "축구 혁신",
       "축구혁신위",
+      "회장 선거",
+      "정몽규",
+      "박지성",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 정관 개정",
-      "회장 선거"
+      "정관",
+      "규정 개정"
     ],
     "issueTags": [
       "election",
-      "electoral-college",
       "innovation-committee",
       "statute-revision"
     ],
@@ -3524,9 +2550,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 100,
+    "relevanceScore": 69,
     "labels": [
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -3541,13 +2566,10 @@
     "publishedAt": "2026-07-06T11:18:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 축구협회",
-      "대한축구협회",
-      "박지성",
-      "전무",
       "축구 혁신",
-      "축구협회"
+      "대한 축구협회",
+      "전무",
+      "박지성"
     ],
     "issueTags": [
       "innovation-committee",
@@ -3558,7 +2580,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 58,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급"
     ]
@@ -3574,20 +2596,17 @@
     "publishedAt": "2026-07-06T11:16:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 대한축구협회",
-      "\"김승희\" 선거",
-      "\"김승희\" 축구협회",
-      "대한축구협회",
-      "박지성",
-      "전무",
-      "축구 혁신",
-      "축구협회",
       "혁신위원회",
-      "회장 선거"
+      "축구 혁신",
+      "박지성",
+      "대한축구협회",
+      "한국프로축구연맹",
+      "회장 선거",
+      "전무"
     ],
     "issueTags": [
-      "election",
       "innovation-committee",
+      "election",
       "kfa-executives"
     ],
     "personTags": [
@@ -3595,7 +2614,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 78,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
     ]
@@ -3611,11 +2630,11 @@
     "publishedAt": "2026-07-06T11:10:00.000Z",
     "collectedAt": "2026-07-08T11:24:40.382Z",
     "matchedKeywords": [
-      "부회장",
-      "임원",
-      "정몽규",
       "축구협회",
-      "축구협회 임원"
+      "부회장",
+      "정몽규",
+      "대한 축구협회",
+      "임원"
     ],
     "issueTags": [
       "kfa-executives"
@@ -3625,7 +2644,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 41,
     "labels": [
       "인물 언급"
     ]
@@ -3641,11 +2660,10 @@
     "publishedAt": "2026-07-06T11:08:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "박지성",
-      "정관",
       "축구 혁신",
+      "박지성",
       "축구협회",
-      "축구협회 제도 개편"
+      "정관"
     ],
     "issueTags": [
       "innovation-committee",
@@ -3656,7 +2674,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -3672,12 +2690,11 @@
     "publishedAt": "2026-07-06T11:08:00.000Z",
     "collectedAt": "2026-07-08T09:10:47.825Z",
     "matchedKeywords": [
-      "부회장",
+      "대한 축구협회",
+      "정몽규",
       "사퇴",
       "임원",
-      "정몽규",
-      "축구협회",
-      "축구협회 임원"
+      "부회장"
     ],
     "issueTags": [
       "kfa-executives"
@@ -3703,37 +2720,26 @@
     "publishedAt": "2026-07-06T11:06:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"박지성\" 감사",
-      "감사",
-      "대의원",
-      "박지성",
-      "사퇴",
-      "정몽규",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 대의원",
-      "축구협회 문체부 감사",
       "축구협회장",
+      "정몽규",
+      "축구협회",
+      "대의원",
       "혁신위원회",
-      "홍명보",
-      "회장 선거"
+      "축구 혁신",
+      "사퇴"
     ],
     "issueTags": [
       "election",
       "electoral-college",
-      "innovation-committee",
-      "mcst-audit"
+      "innovation-committee"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_park_ji_sung"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 79,
+    "relevanceScore": 44,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -3748,24 +2754,22 @@
     "publishedAt": "2026-07-06T10:58:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 선거",
-      "대한축구협회",
-      "박지성",
       "축구 혁신",
-      "축구협회",
+      "박지성",
+      "대한축구협회",
       "축구협회장",
       "회장 선거"
     ],
     "issueTags": [
-      "election",
-      "innovation-committee"
+      "innovation-committee",
+      "election"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 68,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -3781,62 +2785,26 @@
     "publishedAt": "2026-07-06T10:52:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 선거",
-      "대한축구협회",
-      "대한축구협회장",
+      "회장 선거",
       "박지성",
-      "전무",
-      "정몽규",
-      "축구협회",
+      "대한축구협회",
+      "프로축구연맹",
       "축구협회장",
-      "회장 선거"
+      "대한축구협회장",
+      "전무",
+      "정몽규"
     ],
     "issueTags": [
       "election",
       "kfa-executives"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 86,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_367307f8b9367d96",
-    "type": "news",
-    "title": "[뉴스추적] 선장 사라진 축구협회…후임 회장 선출 '안갯속'",
-    "summary": "【 질문 2-1 】 그 말은 곧 혁신위원장보다 중요한 건 새로운 축구협회 장이 누가 되느냐는 건데, 현재 규정 대... 체육회가 오는 16일 대의원 임시총회에서 관련 정관 개정 을 논의할 예정인데요. 이 자리에서 기간 연장 또는...",
-    "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5204176",
-    "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5204176",
-    "publisher": "mbn.co.kr",
-    "publishedAt": "2026-07-06T10:49:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "대의원",
-      "사퇴",
-      "정관",
-      "정관 개정",
-      "정몽규",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 정관 개정"
-    ],
-    "issueTags": [
-      "electoral-college",
-      "statute-revision"
-    ],
-    "personTags": [
+      "person_park_ji_sung",
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 58,
+    "relevanceScore": 35,
     "labels": [
       "인물 언급"
     ]
@@ -3852,11 +2820,9 @@
     "publishedAt": "2026-07-06T10:49:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 선거",
-      "대한축구협회",
-      "박지성",
       "축구 혁신",
-      "축구협회"
+      "박지성",
+      "대한축구협회"
     ],
     "issueTags": [
       "innovation-committee"
@@ -3866,7 +2832,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -3882,23 +2848,11 @@
     "publishedAt": "2026-07-06T10:45:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "대의원",
-      "부회장",
-      "임원",
-      "정관",
-      "정관 개정",
       "정몽규",
-      "제도 개편",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 임원",
-      "축구협회 정관 개정",
-      "축구협회 제도 개편"
+      "제도 개편"
     ],
     "issueTags": [
-      "electoral-college",
-      "kfa-executives",
       "statute-revision"
     ],
     "personTags": [
@@ -3906,7 +2860,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 63,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ]
@@ -3922,20 +2876,12 @@
     "publishedAt": "2026-07-06T10:41:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 선거",
-      "대한축구협회",
       "박지성",
-      "선거인",
-      "선거인단",
-      "전무",
-      "축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "회장 선거"
+      "대한축구협회",
+      "프로축구연맹",
+      "전무"
     ],
     "issueTags": [
-      "election",
-      "electoral-college",
       "kfa-executives"
     ],
     "personTags": [
@@ -3943,35 +2889,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 58,
+    "relevanceScore": 18,
     "labels": [
-      "선거 키워드 포함",
       "인물 언급"
     ]
-  },
-  {
-    "id": "item_3805e11664a95dae",
-    "type": "news",
-    "title": "[단독]중계 넘어 축구협회 장까지? 김성한 쿠팡플레이 대표, 차기 수장 도...",
-    "summary": "한편 정 회장은 이날 오전 천안 코리아풋볼파크에서 부회장 및 이사들이 참석한 가운데 마지막 임원 회의를 개최한 후 사임했다. 이로써 지난 2013년 1월28일 제52대 대한 축구협회 장에 당선된 이후 4선을 역임한 정 회장은...",
-    "url": "https://www.newsis.com/view/NISX20260706_0003698004",
-    "originalUrl": "https://www.newsis.com/view/NISX20260706_0003698004",
-    "publisher": "newsis.com",
-    "publishedAt": "2026-07-06T10:39:00.000Z",
-    "collectedAt": "2026-07-08T06:35:30.206Z",
-    "matchedKeywords": [
-      "축구협회 임원",
-      "축구협회",
-      "임원",
-      "부회장"
-    ],
-    "issueTags": [
-      "kfa-executives"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 30
   },
   {
     "id": "item_089f3c662b87cf67",
@@ -3984,22 +2905,17 @@
     "publishedAt": "2026-07-06T10:37:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"이용수\" 대한축구협회",
-      "\"이용수\" 선거",
-      "\"이용수\" 축구협회",
-      "대한축구협회",
-      "부회장",
       "축구협회",
       "회장 선거"
     ],
     "issueTags": [
-      "election",
-      "kfa-executives"
+      "election"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 7,
+    "relevanceTier": "secondary",
     "labels": []
   },
   {
@@ -4013,29 +2929,23 @@
     "publishedAt": "2026-07-06T10:28:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"박지성\" 감사",
-      "감사",
-      "박지성",
+      "홍명보",
       "정몽규",
-      "축구협회",
-      "축구협회장",
-      "홍명보"
+      "박지성",
+      "감사"
     ],
-    "issueTags": [
-      "election",
-      "mcst-audit"
-    ],
+    "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo",
+      "person_chung_mong_gyu",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 59,
+    "relevanceScore": 16,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -4049,26 +2959,22 @@
     "publishedAt": "2026-07-06T10:25:00.000Z",
     "collectedAt": "2026-07-08T11:24:40.382Z",
     "matchedKeywords": [
-      "박지성",
-      "선거인",
-      "선거인단",
       "축구 혁신",
+      "박지성",
       "축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단"
+      "선거인"
     ],
     "issueTags": [
-      "electoral-college",
-      "innovation-committee"
+      "innovation-committee",
+      "electoral-college"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 53,
+    "relevanceScore": 25,
     "labels": [
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -4083,11 +2989,13 @@
     "publishedAt": "2026-07-06T10:24:00.000Z",
     "collectedAt": "2026-07-11T04:47:34.252Z",
     "matchedKeywords": [
-      "박지성",
-      "유소년",
       "축구 혁신",
-      "축구협회",
-      "축구협회 제도 개편"
+      "박지성",
+      "대한 축구협회",
+      "유소년",
+      "제도",
+      "개편",
+      "체계"
     ],
     "issueTags": [
       "innovation-committee",
@@ -4098,7 +3006,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ]
@@ -4114,22 +3022,16 @@
     "publishedAt": "2026-07-06T10:24:00.000Z",
     "collectedAt": "2026-07-11T01:08:48.163Z",
     "matchedKeywords": [
-      "거버넌스",
       "박지성",
-      "유소년",
-      "육성 시스템",
-      "축구협회",
-      "축구협회 제도 개편"
+      "축구협회"
     ],
-    "issueTags": [
-      "youth-governance"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 11,
     "labels": [
       "인물 언급"
     ]
@@ -4145,40 +3047,22 @@
     "publishedAt": "2026-07-06T10:22:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김병지\" 대한축구협회",
-      "\"김병지\" 선거",
-      "\"김병지\" 축구협회",
-      "\"김승희\" 선거",
-      "\"이용수\" 대한축구협회",
-      "\"이용수\" 선거",
-      "\"이용수\" 축구협회",
-      "거버넌스",
-      "김병지",
-      "대한축구협회",
-      "박지성",
-      "사퇴",
-      "유소년",
-      "전무",
-      "정관",
-      "정몽규",
       "축구협회",
-      "축구협회 제도 개편",
-      "혁신위원회"
+      "박지성",
+      "대한축구협회",
+      "정관",
+      "전무"
     ],
     "issueTags": [
-      "innovation-committee",
-      "kfa-executives",
       "statute-revision",
-      "youth-governance"
+      "kfa-executives"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_kim_byung_ji",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 63,
+    "relevanceScore": 37,
     "labels": [
       "인물 언급"
     ]
@@ -4194,13 +3078,11 @@
     "publishedAt": "2026-07-06T10:16:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "대의원",
-      "정관",
-      "정관 개정",
       "정몽규",
       "축구협회",
-      "축구협회 대의원",
-      "축구협회 정관 개정"
+      "대의원",
+      "정관",
+      "정관 개정"
     ],
     "issueTags": [
       "electoral-college",
@@ -4211,7 +3093,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 53,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -4227,14 +3109,17 @@
     "publishedAt": "2026-07-06T10:16:00.000Z",
     "collectedAt": "2026-07-10T08:52:37.579Z",
     "matchedKeywords": [
-      "거버넌스",
-      "박지성",
-      "유소년",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 제도 개편",
       "축구협회장",
-      "혁신위원회"
+      "박지성",
+      "축구협회",
+      "혁신위원회",
+      "축구 혁신",
+      "유소년",
+      "육성",
+      "거버넌스",
+      "제도",
+      "개편",
+      "개선"
     ],
     "issueTags": [
       "election",
@@ -4246,7 +3131,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 68,
+    "relevanceScore": 39,
     "labels": [
       "인물 언급"
     ]
@@ -4262,14 +3147,12 @@
     "publishedAt": "2026-07-06T10:12:00.000Z",
     "collectedAt": "2026-07-08T11:24:40.382Z",
     "matchedKeywords": [
-      "선거인",
-      "선거인단",
-      "정관",
       "정몽규",
       "축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "회장 선거"
+      "회장 선거",
+      "선거인단",
+      "선거인",
+      "정관"
     ],
     "issueTags": [
       "election",
@@ -4281,10 +3164,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 68,
+    "relevanceScore": 27,
     "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "선거 키워드 포함"
     ]
   },
   {
@@ -4299,10 +3182,9 @@
     "collectedAt": "2026-07-08T09:10:47.825Z",
     "matchedKeywords": [
       "박지성",
-      "선거인",
       "축구협회",
-      "축구협회 선거인",
-      "회장 선거"
+      "회장 선거",
+      "선거인"
     ],
     "issueTags": [
       "election",
@@ -4313,7 +3195,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 22,
     "labels": [
       "인물 언급"
     ]
@@ -4329,11 +3211,9 @@
     "publishedAt": "2026-07-06T10:04:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 선거",
-      "대한축구협회",
       "박지성",
-      "전무",
-      "축구협회"
+      "대한축구협회",
+      "전무"
     ],
     "issueTags": [
       "kfa-executives"
@@ -4343,7 +3223,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ]
@@ -4359,28 +3239,18 @@
     "publishedAt": "2026-07-06T10:03:00.000Z",
     "collectedAt": "2026-07-12T21:32:51.247Z",
     "matchedKeywords": [
-      "대의원",
-      "박지성",
-      "부회장",
-      "선거인",
-      "선거인단",
-      "임원",
-      "정관",
-      "정몽규",
       "축구 혁신",
+      "정몽규",
+      "박지성",
       "축구협회",
-      "축구협회 대의원",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 임원",
-      "축구협회 정관 개정",
-      "회장 선거"
+      "회장 선거",
+      "대의원",
+      "정관"
     ],
     "issueTags": [
+      "innovation-committee",
       "election",
       "electoral-college",
-      "innovation-committee",
-      "kfa-executives",
       "statute-revision"
     ],
     "personTags": [
@@ -4389,9 +3259,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 96,
+    "relevanceScore": 43,
     "labels": [
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -4406,12 +3275,10 @@
     "publishedAt": "2026-07-06T09:53:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"이용수\" 대한축구협회",
-      "\"이용수\" 축구협회",
       "대한축구협회",
-      "부회장",
       "집행부",
-      "축구협회"
+      "부회장",
+      "대한 축구협회"
     ],
     "issueTags": [
       "kfa-executives"
@@ -4419,7 +3286,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
+    "relevanceScore": 40,
     "labels": []
   },
   {
@@ -4433,12 +3300,11 @@
     "publishedAt": "2026-07-06T09:51:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 선거",
-      "대한축구협회",
-      "박지성",
-      "전무",
       "축구 혁신",
-      "축구협회"
+      "박지성",
+      "대한축구협회",
+      "한국프로축구연맹",
+      "전무"
     ],
     "issueTags": [
       "innovation-committee",
@@ -4449,7 +3315,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 58,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -4465,36 +3331,28 @@
     "publishedAt": "2026-07-06T09:51:00.000Z",
     "collectedAt": "2026-07-08T11:24:40.382Z",
     "matchedKeywords": [
-      "박지성",
-      "부회장",
-      "선거인",
-      "선거인단",
-      "임원",
-      "정관",
-      "정몽규",
-      "축구 혁신",
       "축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 임원",
-      "혁신위원회"
+      "박지성",
+      "선거인단",
+      "선거인",
+      "정관",
+      "혁신위원회",
+      "축구 혁신"
     ],
     "issueTags": [
       "electoral-college",
-      "innovation-committee",
-      "kfa-executives",
-      "statute-revision"
+      "statute-revision",
+      "innovation-committee"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 78,
+    "relevanceScore": 40,
     "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "선거 키워드 포함"
     ]
   },
   {
@@ -4508,14 +3366,13 @@
     "publishedAt": "2026-07-06T09:46:00.000Z",
     "collectedAt": "2026-07-08T09:10:47.825Z",
     "matchedKeywords": [
-      "박지성",
-      "선거인",
-      "선거인단",
       "축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단"
+      "K-혁신위",
+      "박지성",
+      "선거인"
     ],
     "issueTags": [
+      "innovation-committee",
       "electoral-college"
     ],
     "personTags": [
@@ -4523,86 +3380,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 35,
     "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_018826c74dfe34d5",
-    "type": "news",
-    "title": "[뉴스룸 오프닝] 1주일 만에 '부지' 확정 / 13년 만에 '불명예' 퇴진 / '...",
-    "summary": "13년 만에 '불명예' 퇴진 정몽규 대한축구협회 회장이 취임 13년 만에 불명예 퇴진했습니다. 모든 과오가 자신의 책임이라고 밝혔습니다. 축구 팬으로 돌아가 한국 축구를 응원하겠다고 했습니다. 3. '양평 의혹' 해명 자료...",
-    "url": "https://news.jtbc.co.kr/article/NB12306849?influxDiv=NAVER",
-    "originalUrl": "https://news.jtbc.co.kr/article/NB12306849?influxDiv=NAVER",
-    "publisher": "news.jtbc.co.kr",
-    "publishedAt": "2026-07-06T09:42:00.000Z",
-    "collectedAt": "2026-07-09T05:28:47.518Z",
-    "matchedKeywords": [
-      "\"정몽규\" 해명",
-      "대한축구협회",
-      "정몽규",
-      "축구협회",
-      "해명"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 43,
-    "labels": [
-      "인물 언급",
-      "해명 키워드 포함"
-    ]
-  },
-  {
-    "id": "item_2d90cb01cd7dbfdc",
-    "type": "news",
-    "title": "[BE.현장] \"현행 제도는 안 된다\" 화두는 결국 '축구협회장 선출 방식'…...",
-    "summary": "서울-조남기 기자 선거 방식의 개선이야말로 K-축구혁신위원회의 핵심 과제다. 사실상 이 목적을 달성하기... 회장, 김승희 대한축구협회(이하 KFA) 전무이사, 조연상 한국프로축구연맹 사무총장, 이영표 해설위원, 박주호...",
-    "url": "https://www.besteleven.com/news/articleView.html?idxno=309539",
-    "originalUrl": "https://www.besteleven.com/news/articleView.html?idxno=309539",
-    "publisher": "besteleven.com",
-    "publishedAt": "2026-07-06T09:40:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"김승희\" 선거",
-      "거버넌스",
-      "대한축구협회",
-      "박지성",
-      "선거인",
-      "선거인단",
-      "전무",
-      "축구혁신위",
-      "축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 투표권",
-      "축구협회장",
-      "투표권",
-      "혁신위원회",
-      "회장 선거",
-      "K-축구혁신위원회",
-      "KFA"
-    ],
-    "issueTags": [
-      "election",
-      "electoral-college",
-      "innovation-committee",
-      "kfa-executives",
-      "youth-governance"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 100,
-    "labels": [
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -4617,32 +3396,11 @@
     "publishedAt": "2026-07-06T09:38:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "\"이임생\" 선거",
-      "감독 선임",
-      "감사",
-      "문화체육관광부 감사",
-      "선거인",
-      "선거인단",
-      "이사회",
-      "이임생",
-      "정관",
       "정몽규",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 이사회",
-      "홍명보"
+      "홍명보",
+      "이임생"
     ],
-    "issueTags": [
-      "coach-appointment",
-      "electoral-college",
-      "kfa-executives",
-      "mcst-audit",
-      "statute-revision"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
       "person_hong_myung_bo",
@@ -4650,10 +3408,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 69,
+    "relevanceScore": 19,
     "labels": [
-      "감사 키워드 포함",
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -4668,11 +3424,10 @@
     "publishedAt": "2026-07-06T09:38:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "감사",
+      "축구협회장",
       "정몽규",
       "축구협회",
-      "축구협회 문화체육관광부 감사",
-      "축구협회장"
+      "감사"
     ],
     "issueTags": [
       "election",
@@ -4683,10 +3438,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 37,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -4700,33 +3455,19 @@
     "publishedAt": "2026-07-06T09:37:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 감사",
-      "\"김승희\" 선거",
-      "\"박지성\" 감사",
-      "감사",
-      "거버넌스",
-      "박지성",
-      "전무",
       "축구 혁신",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "혁신위원회"
+      "박지성"
     ],
     "issueTags": [
-      "innovation-committee",
-      "kfa-executives",
-      "mcst-audit",
-      "youth-governance"
+      "innovation-committee"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 21,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -4741,27 +3482,26 @@
     "publishedAt": "2026-07-06T09:32:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 선거",
-      "대한축구협회",
-      "대한축구협회장",
-      "박지성",
-      "전무",
-      "정몽규",
-      "축구협회",
       "축구협회장",
-      "회장 선거"
+      "회장 선거",
+      "박지성",
+      "대한축구협회",
+      "한국프로축구연맹",
+      "대한축구협회장",
+      "전무",
+      "정몽규"
     ],
     "issueTags": [
       "election",
       "kfa-executives"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 86,
+    "relevanceScore": 45,
     "labels": [
       "인물 언급"
     ]
@@ -4777,25 +3517,24 @@
     "publishedAt": "2026-07-06T09:32:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 선거",
-      "대한축구협회",
-      "박지성",
-      "전무",
-      "정관",
       "축구혁신위",
-      "축구협회"
+      "박지성",
+      "대한축구협회",
+      "프로축구연맹",
+      "정관",
+      "전무"
     ],
     "issueTags": [
       "innovation-committee",
-      "kfa-executives",
-      "statute-revision"
+      "statute-revision",
+      "kfa-executives"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 93,
+    "relevanceScore": 54,
     "labels": [
       "인물 언급"
     ]
@@ -4811,12 +3550,11 @@
     "publishedAt": "2026-07-06T09:30:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 선거",
-      "대한축구협회",
-      "박지성",
-      "전무",
       "축구 혁신",
-      "축구협회"
+      "박지성",
+      "대한축구협회",
+      "한국프로축구연맹",
+      "전무"
     ],
     "issueTags": [
       "innovation-committee",
@@ -4827,7 +3565,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 58,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -4843,14 +3581,12 @@
     "publishedAt": "2026-07-06T09:27:00.000Z",
     "collectedAt": "2026-07-11T21:33:12.052Z",
     "matchedKeywords": [
-      "\"김승희\" 선거",
+      "축구협회장",
+      "회장 선거",
+      "박지성",
       "대한축구협회",
       "대한축구협회장",
-      "박지성",
-      "축구 혁신",
-      "축구협회",
-      "축구협회장",
-      "회장 선거"
+      "축구 혁신"
     ],
     "issueTags": [
       "election",
@@ -4861,7 +3597,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 78,
+    "relevanceScore": 45,
     "labels": [
       "인물 언급"
     ]
@@ -4877,29 +3613,14 @@
     "publishedAt": "2026-07-06T09:26:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"박지성\" 감사",
-      "감사",
-      "대의원",
-      "박지성",
-      "부회장",
-      "사퇴",
-      "선거인",
-      "선거인단",
-      "정관",
-      "정관 개정",
       "정몽규",
+      "박지성",
+      "사퇴",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 정관 개정"
+      "정관",
+      "정관 개정"
     ],
     "issueTags": [
-      "electoral-college",
-      "kfa-executives",
-      "mcst-audit",
       "statute-revision"
     ],
     "personTags": [
@@ -4908,10 +3629,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 81,
+    "relevanceScore": 30,
     "labels": [
-      "감사 키워드 포함",
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -4926,23 +3645,17 @@
     "publishedAt": "2026-07-06T09:26:00.000Z",
     "collectedAt": "2026-07-10T08:52:37.579Z",
     "matchedKeywords": [
-      "\"김승희\" 감사",
-      "\"김승희\" 선거",
-      "\"박지성\" 감사",
-      "감사",
-      "대한축구협회",
+      "정몽규",
       "박지성",
       "사퇴",
-      "전무",
-      "정몽규",
-      "축구협회",
-      "축구협회 문화체육관광부 감사",
-      "회장 선거"
+      "대한축구협회",
+      "한국프로축구연맹",
+      "회장 선거",
+      "전무"
     ],
     "issueTags": [
       "election",
-      "kfa-executives",
-      "mcst-audit"
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -4950,9 +3663,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 76,
+    "relevanceScore": 38,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -4967,11 +3679,9 @@
     "publishedAt": "2026-07-06T09:11:00.000Z",
     "collectedAt": "2026-07-10T04:20:45.889Z",
     "matchedKeywords": [
-      "\"김승희\" 선거",
-      "대한축구협회",
       "박지성",
-      "전무",
-      "축구협회"
+      "대한축구협회",
+      "전무"
     ],
     "issueTags": [
       "kfa-executives"
@@ -4981,7 +3691,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -4997,32 +3707,25 @@
     "publishedAt": "2026-07-06T09:08:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"김승희\" 감사",
-      "\"박지성\" 감사",
-      "감사",
-      "대한축구협회",
       "박지성",
-      "전무",
-      "축구혁신위",
-      "축구협회",
-      "축구협회 문화체육관광부 감사",
-      "혁신위원회",
-      "K-축구혁신위원회"
+      "대한축구협회",
+      "한국프로축구연맹",
+      "감사",
+      "전무"
     ],
     "issueTags": [
-      "innovation-committee",
-      "kfa-executives",
-      "mcst-audit"
+      "mcst-audit",
+      "kfa-executives"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 83,
+    "relevanceScore": 24,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -5036,30 +3739,23 @@
     "publishedAt": "2026-07-06T09:06:00.000Z",
     "collectedAt": "2026-07-10T01:16:15.311Z",
     "matchedKeywords": [
-      "\"김승희\" 감사",
-      "\"김승희\" 선거",
-      "\"박지성\" 감사",
-      "감사",
-      "대한축구협회",
       "박지성",
-      "전무",
-      "축구협회",
-      "축구협회 문화체육관광부 감사",
-      "회장 선거"
+      "대한축구협회",
+      "한국프로축구연맹",
+      "회장 선거",
+      "전무"
     ],
     "issueTags": [
       "election",
-      "kfa-executives",
-      "mcst-audit"
+      "kfa-executives"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 63,
+    "relevanceScore": 22,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -5074,30 +3770,15 @@
     "publishedAt": "2026-07-06T09:05:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "감사",
-      "대의원",
       "대한축구협회",
-      "부회장",
-      "선거인",
-      "선거인단",
-      "정관",
-      "정관 개정",
       "정몽규",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 정관 개정",
-      "회장 선거"
+      "대의원",
+      "정관",
+      "정관 개정"
     ],
     "issueTags": [
-      "election",
       "electoral-college",
-      "kfa-executives",
-      "mcst-audit",
       "statute-revision"
     ],
     "personTags": [
@@ -5105,10 +3786,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 83,
+    "relevanceScore": 41,
     "labels": [
-      "감사 키워드 포함",
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -5123,40 +3802,19 @@
     "publishedAt": "2026-07-06T08:52:00.000Z",
     "collectedAt": "2026-07-10T05:45:53.116Z",
     "matchedKeywords": [
-      "\"김승희\" 감사",
-      "\"박지성\" 감사",
-      "\"이임생\" 감사",
-      "감사",
-      "거버넌스",
-      "대한축구협회",
-      "박지성",
-      "사퇴",
-      "유소년",
-      "이임생",
-      "전무",
-      "정관",
       "정몽규",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 제도 개편"
+      "정관"
     ],
     "issueTags": [
-      "kfa-executives",
-      "mcst-audit",
-      "statute-revision",
-      "youth-governance"
+      "statute-revision"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_lee_im_saeng",
-      "person_park_ji_sung"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 68,
+    "relevanceScore": 14,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -5171,28 +3829,27 @@
     "publishedAt": "2026-07-06T08:48:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"김승희\" 감사",
-      "\"박지성\" 감사",
-      "감사",
-      "대한축구협회",
+      "K-혁신위",
       "박지성",
-      "전무",
-      "축구협회",
-      "축구협회 문체부 감사"
+      "대한축구협회",
+      "프로축구연맹",
+      "감사",
+      "전무"
     ],
     "issueTags": [
-      "kfa-executives",
-      "mcst-audit"
+      "innovation-committee",
+      "mcst-audit",
+      "kfa-executives"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 63,
+    "relevanceScore": 37,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -5206,31 +3863,26 @@
     "publishedAt": "2026-07-06T08:48:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"김승희\" 감사",
-      "\"박지성\" 감사",
-      "감사",
-      "대한축구협회",
-      "박지성",
-      "전무",
-      "축구 혁신",
       "축구혁신위",
-      "축구협회",
-      "축구협회 문화체육관광부 감사"
+      "박지성",
+      "대한축구협회",
+      "한국프로축구연맹",
+      "전무",
+      "감사"
     ],
     "issueTags": [
       "innovation-committee",
-      "kfa-executives",
-      "mcst-audit"
+      "kfa-executives"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 93,
+    "relevanceScore": 53,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -5244,21 +3896,12 @@
     "publishedAt": "2026-07-06T08:47:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"이용수\" 대한축구협회",
-      "\"이용수\" 선거",
-      "감독 선임",
-      "대한축구협회",
-      "부회장",
-      "선거인",
-      "선거인단",
-      "정몽규",
-      "집행부",
       "축구협회",
-      "축구협회 선거인단"
+      "집행부",
+      "부회장",
+      "정몽규"
     ],
     "issueTags": [
-      "coach-appointment",
-      "electoral-college",
       "kfa-executives"
     ],
     "personTags": [
@@ -5266,9 +3909,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 60,
+    "relevanceScore": 10,
     "labels": [
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -5283,33 +3925,26 @@
     "publishedAt": "2026-07-06T08:46:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"김승희\" 감사",
-      "\"박지성\" 감사",
-      "감사",
-      "대한축구협회",
-      "박지성",
-      "전무",
-      "축구 혁신",
       "축구혁신위",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "혁신위원회"
+      "혁신위원회",
+      "박지성",
+      "대한 축구협회",
+      "전무",
+      "감사"
     ],
     "issueTags": [
       "innovation-committee",
-      "kfa-executives",
-      "mcst-audit"
+      "kfa-executives"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 100,
+    "relevanceScore": 53,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -5323,42 +3958,29 @@
     "publishedAt": "2026-07-06T08:39:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"박지성\" 감사",
-      "감독 선임",
-      "감사",
-      "대표팀 감독",
-      "박지성",
+      "축구혁신위",
+      "축구협회장",
+      "정몽규",
+      "대한 축구협회",
       "정관",
       "정관 개정",
-      "정몽규",
-      "축구 혁신",
-      "축구혁신위",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 문체부 감사",
-      "축구협회 문화체육관광부 감사",
-      "축구협회 정관 개정",
-      "축구협회장",
       "혁신위원회",
-      "홍명보"
+      "축구 혁신",
+      "박지성"
     ],
     "issueTags": [
-      "coach-appointment",
       "election",
       "innovation-committee",
-      "mcst-audit",
       "statute-revision"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 100,
+    "relevanceScore": 70,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -5373,10 +3995,9 @@
     "publishedAt": "2026-07-06T08:32:00.000Z",
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
-      "축구협회 문화체육관광부 감사",
-      "축구협회",
-      "전무",
-      "박지성"
+      "박지성",
+      "대한 축구협회",
+      "전무"
     ],
     "issueTags": [
       "kfa-executives"
@@ -5386,47 +4007,9 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
-    ]
-  },
-  {
-    "id": "item_3b42a43e132db278",
-    "type": "news",
-    "title": "'K-축구 혁신위' 출범 8분 만에 최휘영 장관, 위원장직 '사퇴'…그 이유...",
-    "summary": "이 발언이 예사롭지 않게 들리는 이유는 FIFA 규정 때문이다. FIFA는 회원국 축구협회 가 정부나 정치권으로부터... 논의 결과물의 법적 구속력 여부, 즉 권고안에 그칠지 실제 정관 개정 이나 제도 개편으로 이어질지는 유...",
-    "url": "https://www.wikitree.co.kr/articles/1145024",
-    "originalUrl": "https://www.wikitree.co.kr/articles/1145024",
-    "publisher": "wikitree.co.kr",
-    "publishedAt": "2026-07-06T08:30:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "감사",
-      "사퇴",
-      "정관",
-      "정관 개정",
-      "제도 개편",
-      "집행부",
-      "축구 혁신",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 문체부 감사",
-      "축구협회 정관 개정",
-      "축구협회 제도 개편"
-    ],
-    "issueTags": [
-      "innovation-committee",
-      "kfa-executives",
-      "mcst-audit",
-      "statute-revision"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 70,
-    "labels": [
-      "감사 키워드 포함"
     ]
   },
   {
@@ -5440,22 +4023,18 @@
     "publishedAt": "2026-07-06T08:26:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "대의원",
+      "축구혁신위",
+      "정몽규",
       "박지성",
       "사퇴",
-      "정관",
-      "정관 개정",
-      "정몽규",
-      "축구 혁신",
-      "축구혁신위",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 정관 개정"
+      "대의원",
+      "정관",
+      "정관 개정"
     ],
     "issueTags": [
-      "electoral-college",
       "innovation-committee",
+      "electoral-college",
       "statute-revision"
     ],
     "personTags": [
@@ -5464,7 +4043,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 96,
+    "relevanceScore": 64,
     "labels": [
       "인물 언급"
     ]
@@ -5480,14 +4059,11 @@
     "publishedAt": "2026-07-06T08:26:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"이용수\" 대한축구협회",
-      "\"이용수\" 축구협회",
-      "대한축구협회",
-      "부회장",
-      "사퇴",
-      "정몽규",
+      "대한 축구협회",
       "집행부",
-      "축구협회"
+      "부회장",
+      "정몽규",
+      "사퇴"
     ],
     "issueTags": [
       "kfa-executives"
@@ -5497,7 +4073,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 63,
+    "relevanceScore": 15,
     "labels": [
       "인물 언급"
     ]
@@ -5513,14 +4089,15 @@
     "publishedAt": "2026-07-06T08:08:00.000Z",
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
-      "축구협회 선거인단",
-      "축구협회",
+      "홍명보",
+      "대한 축구협회",
       "선거인단",
       "선거인",
       "집행부",
       "감독 선임",
       "대표팀 감독",
-      "홍명보"
+      "감독",
+      "선임"
     ],
     "issueTags": [
       "electoral-college",
@@ -5532,7 +4109,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 73,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
@@ -5549,35 +4126,22 @@
     "publishedAt": "2026-07-06T08:05:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"이용수\" 대한축구협회",
-      "\"이용수\" 선거",
-      "감독 선임",
-      "대한축구협회",
-      "부회장",
-      "선거인",
-      "선거인단",
-      "정몽규",
-      "지도자",
+      "축구협회장",
       "집행부",
-      "축구협회",
-      "축구협회 선거인단",
-      "축구협회장"
+      "부회장",
+      "정몽규"
     ],
     "issueTags": [
-      "coach-appointment",
       "election",
-      "electoral-college",
-      "kfa-executives",
-      "youth-governance"
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
+    "relevanceScore": 14,
     "labels": [
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -5592,11 +4156,10 @@
     "publishedAt": "2026-07-06T08:04:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "감사",
-      "사퇴",
       "정몽규",
-      "축구협회",
-      "축구협회 문체부 감사"
+      "사퇴",
+      "대한 축구협회",
+      "감사"
     ],
     "issueTags": [
       "mcst-audit"
@@ -5606,10 +4169,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 25,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -5623,9 +4186,8 @@
     "publishedAt": "2026-07-06T08:02:00.000Z",
     "collectedAt": "2026-07-09T04:50:49.653Z",
     "matchedKeywords": [
-      "\"홍명보\" 해명",
-      "해명",
-      "홍명보"
+      "홍명보",
+      "해명"
     ],
     "issueTags": [],
     "personTags": [
@@ -5650,12 +4212,11 @@
     "publishedAt": "2026-07-06T07:56:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "감사",
+      "축구협회장",
+      "회장 선거",
       "박지성",
       "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회장",
-      "회장 선거"
+      "감사"
     ],
     "issueTags": [
       "election",
@@ -5666,10 +4227,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 53,
+    "relevanceScore": 37,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -5683,66 +4244,35 @@
     "publishedAt": "2026-07-06T07:56:00.000Z",
     "collectedAt": "2026-07-08T21:18:21.343Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "감독 선임",
-      "감사",
-      "대한축구협회",
-      "대한축구협회장",
-      "이임생",
-      "정몽규",
-      "축구협회",
-      "축구협회장",
       "홍명보",
-      "KFA"
+      "대한축구협회",
+      "KFA",
+      "축구협회장",
+      "대한축구협회장",
+      "감사",
+      "감독 선임",
+      "감독",
+      "선임",
+      "정몽규",
+      "이임생"
     ],
     "issueTags": [
-      "coach-appointment",
       "election",
-      "mcst-audit"
+      "mcst-audit",
+      "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo",
+      "person_chung_mong_gyu",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 100,
+    "relevanceScore": 34,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
-  },
-  {
-    "id": "item_2894395305d97442",
-    "type": "news",
-    "title": "차기 축구협회장 '60일 내 보궐선거'",
-    "summary": "대한체육회가 회원종목단체 규정 중 '궐위 시 60일 이내 선출' 조항을 원포인트로 먼저 개정 , 축구협회 가 선거를 준비할 시간적 여유를 확보하는 등의 방법도 있다. 상위 규정 이 바뀌면 대한 축구협회 역시 의무적으로...",
-    "url": "https://www.hidomin.com/news/articleView.html?idxno=712164",
-    "originalUrl": "https://www.hidomin.com/news/articleView.html?idxno=712164",
-    "publisher": "hidomin.com",
-    "publishedAt": "2026-07-06T07:50:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "대의원",
-      "정관",
-      "정관 개정",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 정관 개정",
-      "축구협회장"
-    ],
-    "issueTags": [
-      "election",
-      "electoral-college",
-      "statute-revision"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 55,
-    "labels": []
   },
   {
     "id": "item_ee6222f06de0acde",
@@ -5755,10 +4285,9 @@
     "publishedAt": "2026-07-06T07:48:00.000Z",
     "collectedAt": "2026-07-10T01:16:15.311Z",
     "matchedKeywords": [
-      "박지성",
       "축구 혁신",
-      "축구협회",
-      "축구협회 제도 개편"
+      "박지성",
+      "축구협회"
     ],
     "issueTags": [
       "innovation-committee"
@@ -5768,7 +4297,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ]
@@ -5784,11 +4313,10 @@
     "publishedAt": "2026-07-06T07:47:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "대의원",
       "정몽규",
-      "축구협회",
-      "축구협회 대의원",
-      "회장 선거"
+      "대한 축구협회",
+      "회장 선거",
+      "대의원"
     ],
     "issueTags": [
       "election",
@@ -5799,7 +4327,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 22,
     "labels": [
       "인물 언급"
     ]
@@ -5815,24 +4343,20 @@
     "publishedAt": "2026-07-06T07:39:00.000Z",
     "collectedAt": "2026-07-09T21:07:25.000Z",
     "matchedKeywords": [
-      "거버넌스",
-      "박지성",
-      "유소년",
+      "혁신위원회",
       "축구 혁신",
-      "축구협회",
-      "축구협회 제도 개편",
-      "혁신위원회"
+      "박지성",
+      "축구협회"
     ],
     "issueTags": [
-      "innovation-committee",
-      "youth-governance"
+      "innovation-committee"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 58,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -5848,10 +4372,9 @@
     "publishedAt": "2026-07-06T07:39:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
-      "정관",
       "정몽규",
       "축구협회",
-      "축구협회 정관 개정"
+      "정관"
     ],
     "issueTags": [
       "statute-revision"
@@ -5861,44 +4384,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_21b208b286a857c5",
-    "type": "news",
-    "title": "“성원이랑 원성도 구분 못 하나\"",
-    "summary": "회장 공백에 따라 축구협회 는 즉시 직무 대행 체제로 전환한다. 정관 제23조에 따라 부회장 중 1명이... 관련 정관 개정 에 나서기로 했다. 빅터뉴스가 7월 6일 오후 1시까지 '정몽규'와 '사임서' 키워드로 관련기사를...",
-    "url": "https://www.bigtanews.co.kr/article/view/big202607060013",
-    "originalUrl": "https://www.bigtanews.co.kr/article/view/big202607060013",
-    "publisher": "bigtanews.co.kr",
-    "publishedAt": "2026-07-06T07:38:00.000Z",
-    "collectedAt": "2026-07-09T08:44:51.325Z",
-    "matchedKeywords": [
-      "대의원",
-      "부회장",
-      "이사회",
-      "정관",
-      "정관 개정",
-      "정몽규",
-      "축구협회",
-      "축구협회 대의원",
-      "축구협회 이사회",
-      "축구협회 정관 개정"
-    ],
-    "issueTags": [
-      "electoral-college",
-      "kfa-executives",
-      "statute-revision"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 53,
+    "relevanceScore": 17,
     "labels": [
       "인물 언급"
     ]
@@ -5914,23 +4400,13 @@
     "publishedAt": "2026-07-06T07:35:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "대의원",
-      "선거인",
-      "선거인단",
-      "정관",
-      "정관 개정",
       "정몽규",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 문체부 감사",
-      "축구협회 정관 개정",
-      "회장 선거",
-      "KFA"
+      "대한 축구협회",
+      "KFA",
+      "정관",
+      "정관 개정"
     ],
     "issueTags": [
-      "election",
-      "electoral-college",
       "statute-revision"
     ],
     "personTags": [
@@ -5938,9 +4414,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 98,
+    "relevanceScore": 23,
     "labels": [
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -5955,14 +4430,13 @@
     "publishedAt": "2026-07-06T07:34:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "박지성",
-      "전무",
-      "축구 혁신",
+      "K-축구혁신위원회",
       "축구혁신위",
-      "축구협회",
-      "축구협회 문체부 감사",
       "혁신위원회",
-      "K-축구혁신위원회"
+      "박지성",
+      "대한 축구협회",
+      "축구 혁신",
+      "전무"
     ],
     "issueTags": [
       "innovation-committee",
@@ -5973,7 +4447,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 98,
+    "relevanceScore": 52,
     "labels": [
       "인물 언급"
     ]
@@ -5989,15 +4463,12 @@
     "publishedAt": "2026-07-06T07:31:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
-      "대표팀 감독",
-      "정몽규",
+      "대한 축구협회",
       "제도 개편",
-      "축구협회",
-      "축구협회 제도 개편",
+      "정몽규",
       "홍명보"
     ],
     "issueTags": [
-      "coach-appointment",
       "statute-revision"
     ],
     "personTags": [
@@ -6006,7 +4477,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 46,
+    "relevanceScore": 16,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -6022,12 +4494,15 @@
     "publishedAt": "2026-07-06T07:30:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
-      "거버넌스",
-      "박지성",
-      "유소년",
       "축구 혁신",
+      "박지성",
       "축구협회",
-      "축구협회 제도 개편"
+      "유소년",
+      "육성",
+      "거버넌스",
+      "제도",
+      "개편",
+      "개선"
     ],
     "issueTags": [
       "innovation-committee",
@@ -6038,7 +4513,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -6054,30 +4529,29 @@
     "publishedAt": "2026-07-06T07:30:00.000Z",
     "collectedAt": "2026-07-08T19:47:33.678Z",
     "matchedKeywords": [
-      "감사",
       "대한축구협회",
+      "축구협회장",
+      "회장 선거",
       "대한축구협회장",
       "박지성",
-      "전무",
-      "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회장",
-      "회장 선거"
+      "대한 축구협회",
+      "감사",
+      "전무"
     ],
     "issueTags": [
       "election",
-      "kfa-executives",
-      "mcst-audit"
+      "mcst-audit",
+      "kfa-executives"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 93,
+    "relevanceScore": 54,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -6091,22 +4565,17 @@
     "publishedAt": "2026-07-06T07:29:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"박지성\" 해명",
       "박지성",
-      "이사회",
-      "축구협회",
-      "축구협회 이사회",
       "해명"
     ],
-    "issueTags": [
-      "kfa-executives"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 5,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -6123,16 +4592,14 @@
     "publishedAt": "2026-07-06T07:27:00.000Z",
     "collectedAt": "2026-07-08T11:24:40.382Z",
     "matchedKeywords": [
-      "감사",
-      "박지성",
-      "정몽규",
       "축구 혁신",
+      "정몽규",
+      "박지성",
       "축구협회",
-      "축구협회 문체부 감사"
+      "감사"
     ],
     "issueTags": [
-      "innovation-committee",
-      "mcst-audit"
+      "innovation-committee"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -6140,10 +4607,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 51,
+    "relevanceScore": 34,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -6157,18 +4624,14 @@
     "publishedAt": "2026-07-06T07:26:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "감사",
-      "박지성",
-      "정관",
-      "정관 개정",
       "축구 혁신",
+      "박지성",
       "축구협회",
-      "축구협회 문체부 감사",
-      "축구협회 정관 개정"
+      "정관",
+      "정관 개정"
     ],
     "issueTags": [
       "innovation-committee",
-      "mcst-audit",
       "statute-revision"
     ],
     "personTags": [
@@ -6176,9 +4639,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 58,
+    "relevanceScore": 27,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -6193,14 +4655,16 @@
     "publishedAt": "2026-07-06T07:22:00.000Z",
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
-      "축구협회 문체부 감사",
-      "축구협회",
       "축구 혁신",
+      "박지성",
+      "대한 축구협회",
       "감사",
       "집행부",
       "감독 선임",
-      "정몽규",
-      "박지성"
+      "감독",
+      "선임",
+      "차기",
+      "정몽규"
     ],
     "issueTags": [
       "innovation-committee",
@@ -6209,12 +4673,12 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 71,
+    "relevanceScore": 41,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -6231,11 +4695,10 @@
     "publishedAt": "2026-07-06T07:22:00.000Z",
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
-      "축구협회 문체부 감사",
+      "박지성",
       "축구협회",
       "정관",
       "감사",
-      "박지성",
       "사퇴"
     ],
     "issueTags": [
@@ -6247,7 +4710,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 53,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -6264,29 +4727,30 @@
     "publishedAt": "2026-07-06T07:17:00.000Z",
     "collectedAt": "2026-07-08T21:18:21.343Z",
     "matchedKeywords": [
-      "감독 선임",
-      "대표팀 감독",
+      "K-축구혁신위원회",
+      "축구혁신위",
+      "혁신위원회",
       "박지성",
+      "대한 축구협회",
       "정관",
       "정관 개정",
-      "축구 혁신",
-      "축구혁신위",
-      "축구협회",
-      "축구협회 정관 개정",
-      "혁신위원회",
-      "K-축구혁신위원회"
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "차기"
     ],
     "issueTags": [
-      "coach-appointment",
       "innovation-committee",
-      "statute-revision"
+      "statute-revision",
+      "coach-appointment"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 100,
+    "relevanceScore": 54,
     "labels": [
       "인물 언급"
     ]
@@ -6302,13 +4766,10 @@
     "publishedAt": "2026-07-06T07:15:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "\"이용수\" 대한축구협회",
-      "\"이용수\" 축구협회",
-      "대한축구협회",
-      "부회장",
       "정몽규",
-      "축구협회",
-      "홍명보"
+      "홍명보",
+      "대한 축구협회",
+      "부회장"
     ],
     "issueTags": [
       "kfa-executives"
@@ -6319,7 +4780,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급"
     ]
@@ -6335,15 +4796,20 @@
     "publishedAt": "2026-07-06T07:06:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "거버넌스",
-      "박지성",
-      "유소년",
-      "육성 시스템",
-      "지도자",
+      "혁신위원회",
       "축구 혁신",
-      "축구협회",
-      "축구협회 제도 개편",
-      "혁신위원회"
+      "박지성",
+      "대한 축구협회",
+      "유소년",
+      "육성",
+      "지도자",
+      "거버넌스",
+      "육성 시스템",
+      "제도",
+      "개편",
+      "개선",
+      "시스템",
+      "체계"
     ],
     "issueTags": [
       "innovation-committee",
@@ -6354,7 +4820,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 78,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -6370,22 +4836,15 @@
     "publishedAt": "2026-07-06T06:44:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "규정 개정",
-      "대의원",
-      "선거인",
-      "선거인단",
-      "정관",
+      "축구협회장",
+      "회장 선거",
       "정몽규",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 정관 개정",
-      "축구협회장",
-      "회장 선거"
+      "정관",
+      "규정 개정"
     ],
     "issueTags": [
       "election",
-      "electoral-college",
       "statute-revision"
     ],
     "personTags": [
@@ -6393,9 +4852,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 88,
+    "relevanceScore": 37,
     "labels": [
-      "선거 키워드 포함",
       "인물 언급"
     ]
   },
@@ -6410,33 +4868,24 @@
     "publishedAt": "2026-07-06T06:23:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김승희\" 해명",
-      "\"박지성\" 해명",
-      "\"정몽규\" 해명",
-      "\"홍명보\" 해명",
-      "김승희 전무",
-      "김승희 전무이사",
+      "축구혁신위",
       "박지성",
       "전무",
-      "정몽규",
-      "축구혁신위",
-      "축구협회",
-      "해명",
-      "홍명보"
+      "김승희 전무",
+      "김승희 전무이사",
+      "해명"
     ],
     "issueTags": [
       "innovation-committee",
       "kfa-executives"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_kim_seung_hee",
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_kim_seung_hee"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 69,
+    "relevanceScore": 47,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -6453,27 +4902,20 @@
     "publishedAt": "2026-07-06T06:20:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "\"이임생\" 해명",
-      "\"정몽규\" 해명",
-      "\"홍명보\" 해명",
-      "감독 선임",
-      "대표팀 감독",
-      "이임생",
+      "홍명보",
       "정몽규",
-      "해명",
-      "홍명보"
+      "이임생",
+      "해명"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo",
+      "person_chung_mong_gyu",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 16,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -6490,11 +4932,9 @@
     "publishedAt": "2026-07-06T06:16:00.000Z",
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
-      "박지성",
-      "제도 개편",
-      "축구 혁신",
       "축구혁신위",
-      "축구협회 제도 개편"
+      "박지성",
+      "제도 개편"
     ],
     "issueTags": [
       "innovation-committee",
@@ -6505,7 +4945,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 42,
     "labels": [
       "인물 언급"
     ]
@@ -6521,13 +4961,18 @@
     "publishedAt": "2026-07-06T06:14:00.000Z",
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
-      "거버넌스",
-      "유소년",
-      "육성 시스템",
+      "혁신위원회",
       "축구 혁신",
-      "축구협회",
-      "축구협회 제도 개편",
-      "혁신위원회"
+      "대한 축구협회",
+      "유소년",
+      "육성",
+      "거버넌스",
+      "육성 시스템",
+      "제도",
+      "개편",
+      "개선",
+      "시스템",
+      "체계"
     ],
     "issueTags": [
       "innovation-committee",
@@ -6536,7 +4981,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 60,
+    "relevanceScore": 20,
     "labels": []
   },
   {
@@ -6550,14 +4995,13 @@
     "publishedAt": "2026-07-06T06:08:00.000Z",
     "collectedAt": "2026-07-08T21:18:21.343Z",
     "matchedKeywords": [
+      "정몽규",
       "박지성",
+      "축구협회",
+      "회장 선거",
       "선거인",
       "정관",
-      "정관 개정",
-      "정몽규",
-      "축구협회",
-      "축구협회 정관 개정",
-      "회장 선거"
+      "정관 개정"
     ],
     "issueTags": [
       "election",
@@ -6570,7 +5014,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 71,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급"
     ]
@@ -6586,18 +5030,13 @@
     "publishedAt": "2026-07-06T06:06:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "부회장",
-      "정관",
       "정몽규",
-      "제도 개편",
       "축구협회",
-      "축구협회 정관 개정",
-      "축구협회 제도 개편",
-      "회장 선거"
+      "회장 선거",
+      "제도 개편"
     ],
     "issueTags": [
       "election",
-      "kfa-executives",
       "statute-revision"
     ],
     "personTags": [
@@ -6605,7 +5044,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 19,
     "labels": [
       "인물 언급"
     ]
@@ -6621,9 +5060,8 @@
     "publishedAt": "2026-07-06T05:58:00.000Z",
     "collectedAt": "2026-07-09T04:50:49.653Z",
     "matchedKeywords": [
-      "\"홍명보\" 해명",
-      "해명",
-      "홍명보"
+      "홍명보",
+      "해명"
     ],
     "issueTags": [],
     "personTags": [
@@ -6648,9 +5086,8 @@
     "publishedAt": "2026-07-06T05:52:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"이임생\" 선거",
-      "이임생",
-      "홍명보"
+      "홍명보",
+      "이임생"
     ],
     "issueTags": [],
     "personTags": [
@@ -6659,7 +5096,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 11,
     "labels": [
       "인물 언급"
     ]
@@ -6675,24 +5112,20 @@
     "publishedAt": "2026-07-06T05:37:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
+      "축구혁신위",
+      "정몽규",
       "박지성",
-      "부회장",
-      "선거인",
+      "대한 축구협회",
       "선거인단",
+      "선거인",
       "정관",
       "정관 개정",
-      "정몽규",
-      "축구 혁신",
-      "축구혁신위",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 정관 개정",
-      "혁신위원회"
+      "혁신위원회",
+      "축구 혁신"
     ],
     "issueTags": [
-      "electoral-college",
       "innovation-committee",
-      "kfa-executives",
+      "electoral-college",
       "statute-revision"
     ],
     "personTags": [
@@ -6701,10 +5134,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 100,
+    "relevanceScore": 71,
     "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "선거 키워드 포함"
     ]
   },
   {
@@ -6718,30 +5151,32 @@
     "publishedAt": "2026-07-06T05:16:00.000Z",
     "collectedAt": "2026-07-08T21:18:21.343Z",
     "matchedKeywords": [
-      "대표팀 감독",
       "대한축구협회",
-      "대한축구협회장",
-      "박지성",
-      "정몽규",
-      "제도 개편",
-      "축구협회",
-      "축구협회 제도 개편",
       "축구협회장",
+      "대한축구협회장",
+      "정몽규",
+      "박지성",
+      "대한 축구협회",
+      "제도 개편",
+      "대표팀 감독",
+      "감독",
+      "차기",
+      "감독직",
       "홍명보"
     ],
     "issueTags": [
-      "coach-appointment",
       "election",
-      "statute-revision"
+      "statute-revision",
+      "coach-appointment"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 94,
+    "relevanceScore": 63,
     "labels": [
       "인물 언급"
     ]
@@ -6757,20 +5192,11 @@
     "publishedAt": "2026-07-06T05:08:00.000Z",
     "collectedAt": "2026-07-12T23:36:26.718Z",
     "matchedKeywords": [
-      "대의원",
-      "정관",
-      "정몽규",
-      "제도 개편",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 정관 개정",
-      "축구협회 제도 개편",
-      "회장 선거"
+      "정몽규",
+      "정관"
     ],
     "issueTags": [
-      "election",
-      "electoral-college",
       "statute-revision"
     ],
     "personTags": [
@@ -6778,7 +5204,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -6794,16 +5220,14 @@
     "publishedAt": "2026-07-06T04:49:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "대의원",
-      "선거인",
-      "선거인단",
-      "정관",
+      "회장 선거",
       "정몽규",
       "축구협회",
-      "축구협회 대의원",
-      "축구협회 투표권",
+      "선거인단",
+      "선거인",
+      "대의원",
       "투표권",
-      "회장 선거"
+      "정관"
     ],
     "issueTags": [
       "election",
@@ -6815,10 +5239,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 88,
+    "relevanceScore": 37,
     "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "선거 키워드 포함"
     ]
   },
   {
@@ -6832,23 +5256,17 @@
     "publishedAt": "2026-07-06T04:49:00.000Z",
     "collectedAt": "2026-07-12T21:32:51.247Z",
     "matchedKeywords": [
-      "부회장",
-      "사퇴",
-      "선거인",
-      "선거인단",
-      "정관",
+      "회장 선거",
       "정몽규",
-      "제도 개편",
+      "사퇴",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 정관 개정",
-      "축구협회 제도 개편",
-      "회장 선거"
+      "선거인단",
+      "선거인",
+      "정관"
     ],
     "issueTags": [
       "election",
       "electoral-college",
-      "kfa-executives",
       "statute-revision"
     ],
     "personTags": [
@@ -6856,10 +5274,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 73,
+    "relevanceScore": 42,
     "labels": [
-      "선거 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "선거 키워드 포함"
     ]
   },
   {
@@ -6873,11 +5291,12 @@
     "publishedAt": "2026-07-06T04:42:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"이임생\" 선거",
       "감독 선임",
-      "이임생",
+      "감독",
+      "선임",
+      "홍명보",
       "축구협회",
-      "홍명보"
+      "이임생"
     ],
     "issueTags": [
       "coach-appointment"
@@ -6888,7 +5307,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ]
@@ -6904,14 +5323,12 @@
     "publishedAt": "2026-07-06T04:40:00.000Z",
     "collectedAt": "2026-07-12T19:51:09.677Z",
     "matchedKeywords": [
-      "대의원",
       "대한축구협회",
-      "정관",
-      "정관 개정",
       "정몽규",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원"
+      "대의원",
+      "정관",
+      "정관 개정"
     ],
     "issueTags": [
       "electoral-college",
@@ -6922,7 +5339,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 73,
+    "relevanceScore": 41,
     "labels": [
       "인물 언급"
     ]
@@ -6938,20 +5355,16 @@
     "publishedAt": "2026-07-06T04:32:00.000Z",
     "collectedAt": "2026-07-11T04:47:34.252Z",
     "matchedKeywords": [
-      "대의원",
-      "사퇴",
-      "정관",
-      "정관 개정",
-      "정몽규",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
       "축구협회장",
-      "회장 선거"
+      "정몽규",
+      "사퇴",
+      "대한 축구협회",
+      "회장 선거",
+      "정관",
+      "정관 개정"
     ],
     "issueTags": [
       "election",
-      "electoral-college",
       "statute-revision"
     ],
     "personTags": [
@@ -6959,7 +5372,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 68,
+    "relevanceScore": 49,
     "labels": [
       "인물 언급"
     ]
@@ -6975,21 +5388,18 @@
     "publishedAt": "2026-07-06T04:24:00.000Z",
     "collectedAt": "2026-07-11T01:08:48.163Z",
     "matchedKeywords": [
-      "대의원",
+      "축구협회",
       "정관",
       "정관 개정",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원"
+      "대한 축구협회"
     ],
     "issueTags": [
-      "electoral-college",
       "statute-revision"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 37,
     "labels": []
   },
   {
@@ -7003,25 +5413,20 @@
     "publishedAt": "2026-07-06T04:19:00.000Z",
     "collectedAt": "2026-07-08T09:10:47.825Z",
     "matchedKeywords": [
-      "감독 선임",
-      "감사",
       "박지성",
       "축구협회",
-      "축구협회 제도 개편"
+      "감사"
     ],
-    "issueTags": [
-      "coach-appointment",
-      "mcst-audit"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 13,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -7035,21 +5440,13 @@
     "publishedAt": "2026-07-06T04:15:00.000Z",
     "collectedAt": "2026-07-10T22:40:42.301Z",
     "matchedKeywords": [
-      "감사",
-      "대의원",
-      "박지성",
-      "정관",
-      "정관 개정",
       "정몽규",
-      "제도 개편",
+      "박지성",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 제도 개편"
+      "정관",
+      "정관 개정"
     ],
     "issueTags": [
-      "electoral-college",
-      "mcst-audit",
       "statute-revision"
     ],
     "personTags": [
@@ -7058,9 +5455,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 76,
+    "relevanceScore": 25,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -7075,38 +5471,24 @@
     "publishedAt": "2026-07-06T04:10:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "\"이임생\" 해명",
-      "\"정몽규\" 해명",
-      "\"홍명보\" 해명",
-      "감사",
-      "대표팀 감독",
-      "문체부 감사",
-      "이사회",
+      "홍명보",
+      "감독",
+      "후보",
       "이임생",
       "이임생 기술총괄",
-      "정몽규",
-      "축구협회",
-      "축구협회 이사회",
-      "해명",
-      "홍명보",
-      "KFA"
+      "해명"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives",
-      "mcst-audit"
+      "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 46,
+    "relevanceScore": 17,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급",
       "해명 키워드 포함"
     ]
@@ -7122,33 +5504,33 @@
     "publishedAt": "2026-07-06T04:03:00.000Z",
     "collectedAt": "2026-07-08T11:24:40.382Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "감독 선임",
-      "감사",
+      "홍명보",
       "대한축구협회",
-      "대한축구협회장",
-      "이임생",
-      "정몽규",
-      "축구협회",
       "축구협회장",
-      "홍명보"
+      "대한축구협회장",
+      "감사",
+      "감독 선임",
+      "감독",
+      "선임",
+      "정몽규",
+      "이임생"
     ],
     "issueTags": [
-      "coach-appointment",
       "election",
-      "mcst-audit"
+      "mcst-audit",
+      "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo",
+      "person_chung_mong_gyu",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 99,
+    "relevanceScore": 34,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -7162,33 +5544,29 @@
     "publishedAt": "2026-07-06T03:46:00.000Z",
     "collectedAt": "2026-07-10T08:52:37.579Z",
     "matchedKeywords": [
-      "감사",
-      "대의원",
       "대한축구협회",
-      "문화체육관광부 감사",
-      "정관",
-      "정관 개정",
+      "회장 선거",
       "정몽규",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "회장 선거"
+      "정관",
+      "정관 개정",
+      "문화체육관광부 감사",
+      "감사"
     ],
     "issueTags": [
       "election",
-      "electoral-college",
-      "mcst-audit",
-      "statute-revision"
+      "statute-revision",
+      "mcst-audit"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 98,
+    "relevanceScore": 53,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -7202,23 +5580,16 @@
     "publishedAt": "2026-07-06T03:46:00.000Z",
     "collectedAt": "2026-07-10T08:52:37.579Z",
     "matchedKeywords": [
-      "대의원",
-      "정관",
-      "정관 개정",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회장"
+      "축구협회장",
+      "대한 축구협회"
     ],
     "issueTags": [
-      "election",
-      "electoral-college",
-      "statute-revision"
+      "election"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 26,
     "labels": []
   },
   {
@@ -7232,32 +5603,26 @@
     "publishedAt": "2026-07-06T03:42:00.000Z",
     "collectedAt": "2026-07-10T05:45:53.116Z",
     "matchedKeywords": [
-      "감사",
-      "대의원",
       "대한축구협회",
+      "축구협회장",
       "대한축구협회장",
-      "사퇴",
-      "선거인",
-      "선거인단",
       "정관",
       "정관 개정",
+      "사퇴",
       "축구협회",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회장"
+      "선거인단",
+      "선거인"
     ],
     "issueTags": [
       "election",
-      "electoral-college",
-      "mcst-audit",
-      "statute-revision"
+      "statute-revision",
+      "electoral-college"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 100,
+    "relevanceScore": 59,
     "labels": [
-      "감사 키워드 포함",
       "선거 키워드 포함"
     ]
   },
@@ -7273,13 +5638,12 @@
     "collectedAt": "2026-07-10T01:16:15.311Z",
     "matchedKeywords": [
       "대한축구협회",
-      "사퇴",
-      "정관",
-      "정관 개정",
+      "회장 선거",
       "정몽규",
+      "사퇴",
       "축구협회",
-      "축구협회 규정 개정",
-      "회장 선거"
+      "정관",
+      "정관 개정"
     ],
     "issueTags": [
       "election",
@@ -7290,7 +5654,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 78,
+    "relevanceScore": 52,
     "labels": [
       "인물 언급"
     ]
@@ -7307,12 +5671,11 @@
     "collectedAt": "2026-07-10T01:16:15.311Z",
     "matchedKeywords": [
       "대한축구협회",
-      "사퇴",
+      "정몽규",
+      "대한 축구협회",
       "정관",
       "정관 개정",
-      "정몽규",
-      "축구협회",
-      "축구협회 규정 개정"
+      "사퇴"
     ],
     "issueTags": [
       "statute-revision"
@@ -7322,7 +5685,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 68,
+    "relevanceScore": 45,
     "labels": [
       "인물 언급"
     ]
@@ -7338,20 +5701,19 @@
     "publishedAt": "2026-07-06T03:10:00.000Z",
     "collectedAt": "2026-07-08T23:40:59.802Z",
     "matchedKeywords": [
-      "감사",
       "대한축구협회",
-      "대한축구협회장",
-      "이사회",
-      "정몽규",
-      "축구협회",
-      "축구협회 이사회",
       "축구협회장",
+      "대한축구협회장",
+      "감사",
+      "정몽규",
+      "대한 축구협회",
+      "이사회",
       "홍명보"
     ],
     "issueTags": [
       "election",
-      "kfa-executives",
-      "mcst-audit"
+      "mcst-audit",
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -7359,38 +5721,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 91,
+    "relevanceScore": 66,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_881be1ef86523ad8",
-    "type": "news",
-    "title": "벤투 전 감독 지원설에…축구협회 \"근거 없는 루머\" 일축",
-    "summary": "하지만 축구협회 측은 벤투 전 감독 지원설에 \"근거 없는 내용\"이라며 일축했다. 이어 \"지원서를 받는 등 어떤 절차도 시작되지 않았다. 어디서 그런 얘기가 나왔는지 모르겠다\"고 덧붙였다. 그러면서 \" 현영민 ...",
-    "url": "https://www.newsis.com/view/NISX20260706_0003697173",
-    "originalUrl": "https://www.newsis.com/view/NISX20260706_0003697173",
-    "publisher": "newsis.com",
-    "publishedAt": "2026-07-06T03:08:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "\"현영민\" 대한축구협회",
-      "\"현영민\" 축구협회",
-      "대한축구협회",
-      "축구협회",
-      "현영민"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hyun_young_min"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 38,
-    "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -7404,9 +5738,8 @@
     "publishedAt": "2026-07-06T03:00:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"이임생\" 선거",
-      "이임생",
-      "홍명보"
+      "홍명보",
+      "이임생"
     ],
     "issueTags": [],
     "personTags": [
@@ -7415,7 +5748,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 11,
     "labels": [
       "인물 언급"
     ]
@@ -7431,27 +5764,24 @@
     "publishedAt": "2026-07-06T02:54:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김병지\" 대한축구협회",
-      "\"김병지\" 선거",
-      "\"김병지\" 축구협회",
-      "김병지",
-      "대한축구협회",
-      "박지성",
-      "정관",
+      "축구협회",
       "정몽규",
-      "축구협회"
+      "박지성",
+      "대한축구협회",
+      "정관",
+      "김병지"
     ],
     "issueTags": [
       "statute-revision"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_kim_byung_ji",
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_kim_byung_ji"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 69,
+    "relevanceScore": 44,
     "labels": [
       "인물 언급"
     ]
@@ -7467,27 +5797,16 @@
     "publishedAt": "2026-07-06T02:27:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "\"이임생\" 선거",
-      "감사",
-      "대의원",
+      "축구협회장",
+      "정몽규",
       "대한축구협회",
-      "사퇴",
+      "회장 선거",
       "이임생",
       "이임생 전 대한축구협회",
-      "정관",
-      "정관 개정",
-      "정몽규",
-      "축구협회",
-      "축구협회 규정 개정",
-      "축구협회장",
-      "회장 선거"
+      "사퇴"
     ],
     "issueTags": [
-      "election",
-      "electoral-college",
-      "mcst-audit",
-      "statute-revision"
+      "election"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -7495,9 +5814,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 79,
+    "relevanceScore": 43,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급"
     ]
   },
@@ -7512,21 +5830,18 @@
     "publishedAt": "2026-07-06T02:25:00.000Z",
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
-      "축구협회 제도 개편",
       "축구 혁신",
-      "감독 선임",
       "박지성"
     ],
     "issueTags": [
-      "innovation-committee",
-      "coach-appointment"
+      "innovation-committee"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ]
@@ -7542,38 +5857,24 @@
     "publishedAt": "2026-07-06T02:24:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김병지\" 대한축구협회",
-      "\"김병지\" 선거",
-      "\"김병지\" 축구협회",
-      "\"이용수\" 대한축구협회",
-      "\"이용수\" 선거",
-      "\"이용수\" 축구협회",
-      "\"이임생\" 선거",
-      "김병지",
-      "대한축구협회",
-      "부회장",
-      "사퇴",
-      "이임생",
-      "정관",
       "정몽규",
       "축구협회",
-      "홍명보",
-      "회장 선거"
+      "회장 선거",
+      "정관",
+      "이임생",
+      "사퇴"
     ],
     "issueTags": [
       "election",
-      "kfa-executives",
       "statute-revision"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_kim_byung_ji",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 74,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급"
     ]
@@ -7589,43 +5890,32 @@
     "publishedAt": "2026-07-06T02:24:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "\"김병지\" 감사",
-      "\"김병지\" 대한축구협회",
-      "\"김병지\" 선거",
-      "\"김병지\" 축구협회",
-      "\"이용수\" 감사",
-      "\"이용수\" 대한축구협회",
-      "\"이용수\" 선거",
-      "\"이용수\" 축구협회",
-      "감사",
-      "김병지",
-      "김병지 부회장",
       "대한축구협회",
+      "축구협회장",
       "대한축구협회장",
-      "부회장",
-      "이용수 상근부회장",
-      "정관",
       "정몽규",
       "축구협회",
-      "축구협회장"
+      "부회장",
+      "이용수 상근부회장",
+      "김병지",
+      "김병지 부회장",
+      "감사"
     ],
     "issueTags": [
       "election",
-      "kfa-executives",
-      "mcst-audit",
-      "statute-revision"
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_kim_byung_ji",
-      "person_lee_yong_soo"
+      "person_lee_yong_soo",
+      "person_kim_byung_ji"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 100,
+    "relevanceScore": 56,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -7639,15 +5929,13 @@
     "publishedAt": "2026-07-06T02:16:00.000Z",
     "collectedAt": "2026-07-08T09:10:47.825Z",
     "matchedKeywords": [
-      "\"이임생\" 감사",
-      "감사",
+      "정몽규",
       "대한축구협회",
+      "축구협회장",
       "대한축구협회장",
       "문화체육관광부 감사",
-      "이임생",
-      "정몽규",
-      "축구협회",
-      "축구협회장"
+      "감사",
+      "이임생"
     ],
     "issueTags": [
       "election",
@@ -7659,10 +5947,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 91,
+    "relevanceScore": 30,
     "labels": [
-      "감사 키워드 포함",
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -7676,9 +5964,8 @@
     "publishedAt": "2026-07-06T02:14:00.000Z",
     "collectedAt": "2026-07-09T04:50:49.653Z",
     "matchedKeywords": [
-      "\"홍명보\" 해명",
-      "해명",
-      "홍명보"
+      "홍명보",
+      "해명"
     ],
     "issueTags": [],
     "personTags": [
@@ -7686,7 +5973,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 5,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -7703,35 +5991,19 @@
     "publishedAt": "2026-07-06T02:06:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "\"이임생\" 해명",
-      "\"정몽규\" 해명",
-      "\"홍명보\" 해명",
-      "감독 선임",
-      "감사",
-      "이사회",
+      "홍명보",
       "이임생",
-      "전력강화위원회",
-      "정몽규",
-      "축구협회",
-      "축구협회 이사회",
-      "해명",
-      "홍명보"
+      "해명"
     ],
-    "issueTags": [
-      "coach-appointment",
-      "kfa-executives",
-      "mcst-audit"
-    ],
+    "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 53,
+    "relevanceScore": 16,
     "labels": [
-      "감사 키워드 포함",
       "인물 언급",
       "해명 키워드 포함"
     ]
@@ -7747,12 +6019,16 @@
     "publishedAt": "2026-07-06T01:46:00.000Z",
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
-      "축구협회 제도 개편",
-      "축구협회",
       "축구 혁신",
+      "박지성",
+      "대한 축구협회",
       "유소년",
+      "육성",
       "거버넌스",
-      "박지성"
+      "제도",
+      "개편",
+      "개선",
+      "시스템"
     ],
     "issueTags": [
       "innovation-committee",
@@ -7763,7 +6039,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -7779,21 +6055,17 @@
     "publishedAt": "2026-07-06T00:24:00.000Z",
     "collectedAt": "2026-07-09T04:50:49.653Z",
     "matchedKeywords": [
-      "\"홍명보\" 해명",
-      "대표팀 감독",
-      "해명",
+      "KFA",
       "홍명보",
-      "KFA"
+      "해명"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 11,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"

@@ -46,6 +46,17 @@ describe("radarItemSchema", () => {
     );
   });
 
+  it("keeps discovery queries separate from semantic keyword matches", () => {
+    const parsed = radarItemSchema.parse({
+      ...validRadarItem,
+      matchedKeywords: ["대한축구협회"],
+      discoveryQueries: ["축구협회 회장 선거"]
+    });
+
+    assert.deepEqual(parsed.matchedKeywords, ["대한축구협회"]);
+    assert.deepEqual(parsed.discoveryQueries, ["축구협회 회장 선거"]);
+  });
+
   it("rejects unknown relevance tiers", () => {
     assert.equal(
       radarItemSchema.safeParse({

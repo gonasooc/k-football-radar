@@ -79,6 +79,8 @@ describe("shouldKeepNewsCandidate", () => {
   it("keeps organization and person matches in football context", () => {
     assert.equal(
       shouldKeepNewsCandidate({
+        title: "대한축구협회 회장 선거 일정 발표",
+        summary: "차기 회장 선출 절차를 공개했다.",
         classification: {
           issueTags: ["election"],
           personTags: [],
@@ -455,7 +457,7 @@ describe("collector timeout settings", () => {
 });
 
 describe("collectNaverNews", () => {
-  it("keeps the Naver API title without resolving ellipsis from the source article", async () => {
+  it("keeps the Naver API title and stores only keywords found in the article text", async () => {
     const envBackup = {
       NAVER_CLIENT_ID: process.env.NAVER_CLIENT_ID,
       NAVER_CLIENT_SECRET: process.env.NAVER_CLIENT_SECRET,
@@ -517,7 +519,93 @@ describe("collectNaverNews", () => {
 
       assert.equal(items.length, 1);
       assert.equal(items[0].title, apiTitle);
+      const articleText = `${items[0].title} ${items[0].summary}`.toLocaleLowerCase("ko-KR");
+      assert.ok(
+        items[0].matchedKeywords.every((keyword) =>
+          articleText.includes(keyword.toLocaleLowerCase("ko-KR"))
+        )
+      );
+      assert.equal(items[0].matchedKeywords.includes("축구협회 회장 선거"), false);
       assert.ok(fetchCalls.every((url) => url.startsWith("https://openapi.naver.com/")));
+    } finally {
+      fetchMock.mock.restore();
+      for (const [key, value] of Object.entries(envBackup)) {
+        if (value === undefined) {
+          delete process.env[key];
+        } else {
+          process.env[key] = value;
+        }
+      }
+    }
+  });
+
+  it("selects one deterministic snippet per URL before classifying query variants", async () => {
+    const envBackup = {
+      NAVER_CLIENT_ID: process.env.NAVER_CLIENT_ID,
+      NAVER_CLIENT_SECRET: process.env.NAVER_CLIENT_SECRET,
+      NAVER_QUERY_DELAY_MS: process.env.NAVER_QUERY_DELAY_MS
+    };
+    const title = "대한축구협회, 유소년 지도자 제도 개편안 발표";
+    const preferredSummary =
+      "대한축구협회는 유소년 지도자 제도 개편안과 육성 체계 개선 방안을 발표했다.";
+    const alternateSummary =
+      "관련 기관은 이날 여러 현안을 설명했으며 자세한 내용은 추후 공개할 예정이라고 밝혔다.";
+    let fetchCount = 0;
+    const fetchMock = mock.method(
+      globalThis,
+      "fetch",
+      async (): Promise<Response> => {
+        const summary = fetchCount++ % 2 === 0 ? alternateSummary : preferredSummary;
+        return new Response(
+          JSON.stringify({
+            items: [
+              {
+                title,
+                originallink: "https://news.example.com/article/shared?utm_source=naver",
+                link: "https://n.news.naver.com/mnews/article/001/shared",
+                description: summary,
+                pubDate: new Date().toUTCString()
+              }
+            ]
+          }),
+          { status: 200, headers: { "content-type": "application/json" } }
+        );
+      }
+    );
+
+    try {
+      process.env.NAVER_CLIENT_ID = "test-client-id";
+      process.env.NAVER_CLIENT_SECRET = "test-client-secret";
+      process.env.NAVER_QUERY_DELAY_MS = "0";
+
+      const result = await collectNaverNewsRun({
+        issues: [
+          {
+            id: "youth-governance",
+            name: "유소년·거버넌스",
+            description: "유소년 제도 개편",
+            keywords: ["유소년", "지도자", "제도 개편"],
+            requiredKeywordGroups: [
+              ["유소년", "지도자 제도"],
+              ["제도", "개편", "체계"]
+            ],
+            contextKeywords: ["대한축구협회", "KFA"],
+            priority: 1
+          }
+        ],
+        people: []
+      });
+
+      assert.equal(result.items.length, 1);
+      assert.equal(result.items[0].summary, preferredSummary);
+      assert.ok((result.items[0].discoveryQueries?.length ?? 0) > 1);
+      assert.ok(
+        result.items[0].matchedKeywords.every((keyword) =>
+          `${title} ${preferredSummary}`.includes(keyword)
+        )
+      );
+      assert.ok(result.items[0].discoveryQueries?.includes("축구협회 회장 선거"));
+      assert.equal(result.items[0].matchedKeywords.includes("축구협회 회장 선거"), false);
     } finally {
       fetchMock.mock.restore();
       for (const [key, value] of Object.entries(envBackup)) {
@@ -813,7 +901,10 @@ describe("filterNewsItemsForCollection", () => {
     const relevantNewsItem: RadarItem = {
       ...baseNewsItem,
       id: "item_relevant",
+      title: "대한축구협회 회장 선거 일정 발표",
+      summary: "차기 회장 선출 절차를 공개했다.",
       matchedKeywords: ["대한축구협회", "회장 선거"],
+      issueTags: ["election"],
       relevanceScore: 30
     };
 

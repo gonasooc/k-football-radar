@@ -70,10 +70,11 @@ export function prepareCollectionRun({
   prunedItemCount: number;
 } {
   const collectedItems = results.flatMap((result) => result.items);
-  const dedupedItems = dedupeItems(filterItems([...existingItems, ...collectedItems]));
-  const items = applyItemRetentionPolicy(dedupedItems, { now });
+  const dedupedItems = dedupeItems([...existingItems, ...collectedItems]);
+  const filteredItems = filterItems(dedupedItems);
+  const items = applyItemRetentionPolicy(filteredItems, { now });
   const retainedExistingItems = applyItemRetentionPolicy(
-    dedupeItems(filterItems(existingItems)),
+    filterItems(dedupeItems(existingItems)),
     { now }
   );
   const previousCounts = countItemsByCollectedAt(retainedExistingItems);

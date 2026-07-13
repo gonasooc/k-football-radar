@@ -48,39 +48,32 @@ function storyKey(item: RadarItem): string {
   ].join("|");
 }
 
-function mergedRelevanceTier(previous: RadarItem, next: RadarItem): RadarItem["relevanceTier"] {
-  const previousTier = previous.relevanceTier ?? "primary";
-  const nextTier = next.relevanceTier ?? "primary";
-  return previousTier === "secondary" && nextTier === "secondary" ? "secondary" : undefined;
-}
-
 function mergeItems(
   previous: RadarItem,
   next: RadarItem,
   preferNext: boolean
 ): RadarItem {
-  const preferred = preferNext ? next : previous;
-  const fallback = preferred === next ? previous : next;
+  const preferred =
+    previous.isOfficial !== next.isOfficial
+      ? previous.isOfficial
+        ? previous
+        : next
+      : preferNext
+        ? next
+        : previous;
   const collectedAt =
     new Date(next.collectedAt).getTime() < new Date(previous.collectedAt).getTime()
       ? next.collectedAt
       : previous.collectedAt;
+  const discoveryQueries = uniqueSorted([
+    ...(previous.discoveryQueries ?? []),
+    ...(next.discoveryQueries ?? [])
+  ]);
 
   return {
     ...preferred,
     collectedAt,
-    matchedKeywords: uniqueSorted([
-      ...fallback.matchedKeywords,
-      ...preferred.matchedKeywords
-    ]),
-    issueTags: uniqueSorted([...fallback.issueTags, ...preferred.issueTags]),
-    personTags: uniqueSorted([...fallback.personTags, ...preferred.personTags]),
-    labels: uniqueSorted([...(fallback.labels ?? []), ...(preferred.labels ?? [])]),
-    relevanceScore: Math.max(previous.relevanceScore, next.relevanceScore),
-    relevanceTier: mergedRelevanceTier(previous, next),
-    isOfficial: previous.isOfficial || next.isOfficial,
-    type: previous.isOfficial || next.isOfficial ? "official" : preferred.type,
-    sourceType: previous.isOfficial || next.isOfficial ? "official" : preferred.sourceType
+    discoveryQueries: discoveryQueries.length > 0 ? discoveryQueries : undefined
   };
 }
 

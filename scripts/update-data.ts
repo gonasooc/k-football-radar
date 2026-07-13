@@ -1,4 +1,7 @@
-import { collectNaverNewsRun, filterNewsItemsForCollection } from "./collect-naver-news";
+import {
+  collectNaverNewsRun,
+  reclassifyAndFilterNewsItemsForCollection
+} from "./collect-naver-news";
 import { collectOfficialSourcesRun } from "./collect-official";
 import { persistCollectionRun } from "./collection-run";
 import {
@@ -26,7 +29,8 @@ async function updateData(): Promise<void> {
     existingItems,
     results: [naverResult, officialResult],
     now,
-    filterItems: filterNewsItemsForCollection
+    filterItems: (items) =>
+      reclassifyAndFilterNewsItemsForCollection({ items, issues, people })
   });
 
   console.log(

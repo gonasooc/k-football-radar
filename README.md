@@ -38,7 +38,12 @@ pnpm run collect
 pnpm run collect:local
 pnpm run collect:naver
 pnpm run collect:official
+pnpm run reclassify:news
 ```
+
+`reclassify:news`는 저장된 뉴스의 제목과 요약을 현재 관련도 규칙으로 다시
+분류하고, 기준에서 벗어난 항목을 제거합니다. 이슈 규칙이나 관련도 정책을
+바꾼 뒤 기존 데이터까지 일관되게 갱신할 때 사용합니다.
 
 Naver News collector는 아래 환경변수를 읽습니다.
 

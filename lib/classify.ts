@@ -15,12 +15,21 @@ export const BASE_SEARCH_KEYWORDS = [
   "감독 후보"
 ] as const;
 
-const ORGANIZATION_KEYWORDS = [
+const STRONG_ORGANIZATION_KEYWORDS = [
   "대한축구협회",
-  "축구협회",
+  "대한 축구협회",
   "KFA",
+  "K-축구혁신위원회",
   "축구혁신위",
-  "K-축구혁신위원회"
+  "한국프로축구연맹",
+  "프로축구연맹"
+] as const;
+
+const GENERIC_ORGANIZATION_KEYWORDS = ["축구협회", "축구협회장"] as const;
+
+const ORGANIZATION_KEYWORDS = [
+  ...STRONG_ORGANIZATION_KEYWORDS,
+  ...GENERIC_ORGANIZATION_KEYWORDS
 ] as const;
 
 const HIGH_INTEREST_KEYWORDS = [
@@ -36,6 +45,7 @@ const HIGH_INTEREST_KEYWORDS = [
 
 const KFA_EXECUTIVES_ISSUE_ID = "kfa-executives";
 const MCST_AUDIT_ISSUE_ID = "mcst-audit";
+const COACH_APPOINTMENT_ISSUE_ID = "coach-appointment";
 
 const MCST_AUDIT_CONTEXT_KEYWORDS = [
   "문체부",
@@ -45,14 +55,12 @@ const MCST_AUDIT_CONTEXT_KEYWORDS = [
   "KFA",
   "축구협회 감사",
   "축구협회 특정 감사",
-  "대표팀 감독",
   "대표팀 감독 선임",
   "감독 선임",
   "전력강화위원회",
   "한국 축구",
   "한국축구",
-  "대한민국 축구",
-  "대한민국 대표팀"
+  "대한민국 축구"
 ] as const;
 
 const KFA_EXECUTIVE_CONTEXT_KEYWORDS = [
@@ -96,6 +104,25 @@ const DANGEROUS_LABELS = new Set([
   "논란"
 ]);
 
+const DOMESTIC_FOOTBALL_CONTEXT_KEYWORDS = [
+  "대한축구협회",
+  "대한 축구협회",
+  "KFA",
+  "축협",
+  "한국 축구",
+  "한국축구",
+  "대한민국 축구",
+  "한국프로축구연맹",
+  "프로축구연맹",
+  "K리그",
+  "전력강화위원회",
+  "전력강화위원"
+] as const;
+
+const LOCAL_ASSOCIATION_PATTERN = /[가-힣]{2,}(?:특별시|광역시|특별자치도|도|시|군|구)\s*축구협회/u;
+const GOVERNANCE_SIGNAL_PATTERN =
+  /(?:청문회|문체부|문화체육관광부|감독\s*선임|선임\s*절차|전력강화위원|회장\s*선거|선거인단|직선제|간선제|정관|징계|소송|가처분|이사회|집행부|제도\s*(?:개편|개선)|거버넌스|혁신|개혁|쇄신|사퇴|퇴진|고발|배임|수사|조사|부조리|비위|위법|파헤)/u;
+
 type ClassifyInput = {
   title: string;
   summary?: string;
@@ -104,12 +131,28 @@ type ClassifyInput = {
   isOfficial?: boolean;
 };
 
-type Classification = {
+type FieldClassification = {
+  issueTags: string[];
+  personTags: string[];
+  matchedKeywords: string[];
+  organizationKeywords: string[];
+  highInterestKeywords: string[];
+};
+
+export type Classification = {
   issueTags: string[];
   personTags: string[];
   matchedKeywords: string[];
   relevanceScore: number;
   labels: string[];
+  titleIssueTags: string[];
+  summaryIssueTags: string[];
+  titlePersonTags: string[];
+  summaryPersonTags: string[];
+  titleMatchedKeywords: string[];
+  summaryMatchedKeywords: string[];
+  titleRelevanceScore: number;
+  summaryRelevanceScore: number;
 };
 
 function includesKeyword(text: string, keyword: string): boolean {
@@ -120,6 +163,10 @@ function addUnique(target: string[], value: string): void {
   if (!target.includes(value)) {
     target.push(value);
   }
+}
+
+function unique(values: readonly string[]): string[] {
+  return Array.from(new Set(values));
 }
 
 function addSafeLabel(target: string[], value: string): void {
@@ -134,6 +181,43 @@ function hasTrackedKfaExecutivePerson(text: string, people: Person[]): boolean {
       person.published &&
       KFA_EXECUTIVE_PERSON_IDS.has(person.id) &&
       person.keywords.some((keyword) => includesKeyword(text, keyword))
+  );
+}
+
+function hasTrackedPersonWithGovernanceContext(text: string, people: Person[]): boolean {
+  return (
+    GOVERNANCE_SIGNAL_PATTERN.test(text) &&
+    people.some(
+      (person) =>
+        person.published &&
+        person.keywords.some((keyword) => includesKeyword(text, keyword))
+    )
+  );
+}
+
+function hasDomesticFootballContext(text: string): boolean {
+  return DOMESTIC_FOOTBALL_CONTEXT_KEYWORDS.some((keyword) =>
+    includesKeyword(text, keyword)
+  );
+}
+
+function shouldCountGenericAssociation(text: string, people: Person[]): boolean {
+  if (hasDomesticFootballContext(text)) {
+    return true;
+  }
+
+  if (LOCAL_ASSOCIATION_PATTERN.test(text)) {
+    return false;
+  }
+
+  return (
+    /(?:축구협회|축구협회장).{0,35}(?:회장\s*선거|선거인단|직선제|간선제|정관|청문회|감독\s*선임|전력강화위원|징계|가처분|이사회|집행부|고발|배임|수사)/u.test(
+      text
+    ) ||
+    /(?:회장\s*선거|선거인단|직선제|간선제|정관|청문회|감독\s*선임|전력강화위원|징계|가처분|이사회|집행부|고발|배임|수사).{0,35}(?:축구협회|축구협회장)/u.test(
+      text
+    ) ||
+    hasTrackedPersonWithGovernanceContext(text, people)
   );
 }
 
@@ -176,16 +260,271 @@ function hasMcstAuditContext(text: string): boolean {
   return MCST_AUDIT_CONTEXT_KEYWORDS.some((keyword) => includesKeyword(text, keyword));
 }
 
-function includesMcstAuditIssueKeyword(text: string, keyword: string): boolean {
-  if (!includesKeyword(text, keyword)) {
+function includesMcstAuditIssueKeyword(
+  fieldText: string,
+  fullText: string,
+  keyword: string
+): boolean {
+  if (!includesKeyword(fieldText, keyword)) {
     return false;
   }
 
-  if (keyword === "감사" || keyword === "조사 결과") {
-    return hasMcstAuditContext(text);
+  if (keyword === "감사") {
+    const hasSemanticAuditTerm =
+      /감사(?!\s*(?:합니다|드립니다|인사|패|를?\s*전|의\s*뜻|인사를))/u.test(
+        fieldText
+      );
+    const hasKfaAuditRelation =
+      /(?:대한\s*축구협회|KFA|한국\s*축구|한국축구).{0,50}감사(?!\s*(?:합니다|드립니다|인사|패|를?\s*전|의\s*뜻|인사를))/u.test(
+        fullText
+      ) ||
+      /감사(?!\s*(?:합니다|드립니다|인사|패|를?\s*전|의\s*뜻|인사를)).{0,50}(?:대한\s*축구협회|KFA|한국\s*축구|한국축구)/u.test(
+        fullText
+      ) ||
+      /(?:문체부|문화체육관광부).{0,30}감사|감사.{0,30}(?:문체부|문화체육관광부)/u.test(
+        fullText
+      );
+    return hasSemanticAuditTerm && hasKfaAuditRelation;
+  }
+
+  if (keyword === "조사 결과") {
+    return hasMcstAuditContext(fullText);
   }
 
   return true;
+}
+
+function getIssueEvidenceKeywords(issue: Issue): string[] {
+  return unique([
+    ...issue.keywords,
+    ...(issue.requiredKeywordGroups?.flat() ?? [])
+  ]);
+}
+
+function passesIssueCombinationRules(
+  issue: Issue,
+  fieldText: string,
+  location: "title" | "summary",
+  people: Person[]
+): boolean {
+  if (
+    issue.excludedKeywords?.some((keyword) => includesKeyword(fieldText, keyword))
+  ) {
+    return false;
+  }
+
+  if (!issue.requiredKeywordGroups && !issue.contextKeywords) {
+    return true;
+  }
+
+  const evidenceSegments =
+    location === "title"
+      ? [fieldText]
+      : fieldText
+          .split(/(?:\.{3}|…+|[.!?](?:\s|$))/u)
+          .map((segment) => segment.trim())
+          .filter(Boolean);
+
+  return evidenceSegments.some((segment) => {
+    if (
+      issue.requiredKeywordGroups &&
+      !issue.requiredKeywordGroups.every((group) =>
+        group.some((keyword) => includesKeyword(segment, keyword))
+      )
+    ) {
+      return false;
+    }
+
+    if (
+      issue.contextKeywords &&
+      !issue.contextKeywords.some((keyword) => includesKeyword(segment, keyword)) &&
+      !(
+        issue.id === COACH_APPOINTMENT_ISSUE_ID &&
+        people.some(
+          (person) =>
+            person.published &&
+            person.keywords.some((keyword) => includesKeyword(segment, keyword))
+        )
+      )
+    ) {
+      return false;
+    }
+
+    return true;
+  });
+}
+
+function getIssueMatches({
+  fieldText,
+  fullText,
+  location,
+  issue,
+  people
+}: {
+  fieldText: string;
+  fullText: string;
+  location: "title" | "summary";
+  issue: Issue;
+  people: Person[];
+}): string[] {
+  if (!passesIssueCombinationRules(issue, fieldText, location, people)) {
+    return [];
+  }
+
+  if (
+    issue.id === KFA_EXECUTIVES_ISSUE_ID &&
+    !shouldAssignKfaExecutiveIssue(fullText, people)
+  ) {
+    return [];
+  }
+
+  return getIssueEvidenceKeywords(issue).filter((keyword) => {
+    if (issue.id === KFA_EXECUTIVES_ISSUE_ID) {
+      return includesKfaExecutiveIssueKeyword(fieldText, keyword);
+    }
+
+    if (isMcstAuditIssue(issue)) {
+      return includesMcstAuditIssueKeyword(fieldText, fullText, keyword);
+    }
+
+    if (
+      (keyword === "축구협회장" || keyword === "대한축구협회장") &&
+      !shouldCountGenericAssociation(fullText, people)
+    ) {
+      return false;
+    }
+
+    return includesKeyword(fieldText, keyword);
+  });
+}
+
+function getOrganizationMatches(
+  fieldText: string,
+  fullText: string,
+  people: Person[]
+): string[] {
+  const matches = ORGANIZATION_KEYWORDS.filter((keyword) => {
+    if (!includesKeyword(fieldText, keyword)) {
+      return false;
+    }
+
+    if ((GENERIC_ORGANIZATION_KEYWORDS as readonly string[]).includes(keyword)) {
+      return shouldCountGenericAssociation(fullText, people);
+    }
+
+    return true;
+  });
+
+  return matches.filter(
+    (keyword) =>
+      !matches.some(
+        (otherKeyword) =>
+          otherKeyword.length > keyword.length &&
+          otherKeyword.toLocaleLowerCase("ko-KR").includes(
+            keyword.toLocaleLowerCase("ko-KR")
+          )
+      )
+  );
+}
+
+function classifyField({
+  fieldText,
+  fullText,
+  location,
+  issues,
+  people
+}: {
+  fieldText: string;
+  fullText: string;
+  location: "title" | "summary";
+  issues: Issue[];
+  people: Person[];
+}): FieldClassification {
+  const issueTags: string[] = [];
+  const personTags: string[] = [];
+  const matchedKeywords = getOrganizationMatches(fieldText, fullText, people);
+  const organizationKeywords = [...matchedKeywords];
+  const highInterestKeywords: string[] = [];
+
+  for (const issue of issues) {
+    const issueMatches = getIssueMatches({
+      fieldText,
+      fullText,
+      location,
+      issue,
+      people
+    });
+    if (issueMatches.length === 0) {
+      continue;
+    }
+
+    addUnique(issueTags, issue.id);
+    for (const keyword of issueMatches) {
+      addUnique(matchedKeywords, keyword);
+    }
+  }
+
+  for (const person of people) {
+    if (!person.published) {
+      continue;
+    }
+
+    const personMatches = person.keywords.filter((keyword) =>
+      includesKeyword(fieldText, keyword)
+    );
+    if (personMatches.length === 0) {
+      continue;
+    }
+
+    addUnique(personTags, person.id);
+    for (const keyword of personMatches) {
+      addUnique(matchedKeywords, keyword);
+    }
+  }
+
+  for (const keyword of HIGH_INTEREST_KEYWORDS) {
+    if (!includesKeyword(fieldText, keyword)) {
+      continue;
+    }
+    addUnique(highInterestKeywords, keyword);
+    addUnique(matchedKeywords, keyword);
+  }
+
+  return {
+    issueTags,
+    personTags,
+    matchedKeywords,
+    organizationKeywords,
+    highInterestKeywords
+  };
+}
+
+function getFieldScore(
+  classification: FieldClassification,
+  location: "title" | "summary"
+): number {
+  const hasStrongOrganization = classification.organizationKeywords.some((keyword) =>
+    (STRONG_ORGANIZATION_KEYWORDS as readonly string[]).includes(keyword)
+  );
+  const organizationScore =
+    classification.organizationKeywords.length === 0
+      ? 0
+      : location === "title"
+        ? hasStrongOrganization
+          ? 20
+          : 10
+        : hasStrongOrganization
+          ? 6
+          : 3;
+  const issueScore =
+    classification.issueTags.length * (location === "title" ? 10 : 4);
+  const personScore =
+    classification.personTags.length * (location === "title" ? 8 : 3);
+  const highInterestScore =
+    Math.min(2, classification.highInterestKeywords.length) *
+    (location === "title" ? 5 : 2);
+
+  return organizationScore + issueScore + personScore + highInterestScore;
 }
 
 function toSearchQuery(keyword: string): string {
@@ -207,97 +546,72 @@ function toSearchQuery(keyword: string): string {
 }
 
 export function classifyItemText(input: ClassifyInput): Classification {
-  const text = `${input.title} ${input.summary ?? ""}`;
-  const issueTags: string[] = [];
-  const personTags: string[] = [];
-  const matchedKeywords: string[] = [];
+  const title = input.title;
+  const summary = input.summary ?? "";
+  const fullText = `${title} ${summary}`.trim();
+  const titleClassification = classifyField({
+    fieldText: title,
+    fullText,
+    location: "title",
+    issues: input.issues,
+    people: input.people
+  });
+  const summaryClassification = classifyField({
+    fieldText: summary,
+    fullText,
+    location: "summary",
+    issues: input.issues,
+    people: input.people
+  });
+  const titleRelevanceScore = getFieldScore(titleClassification, "title");
+  const summaryRelevanceScore = getFieldScore(summaryClassification, "summary");
+  const issueTags = unique([
+    ...titleClassification.issueTags,
+    ...summaryClassification.issueTags
+  ]);
+  const personTags = unique([
+    ...titleClassification.personTags,
+    ...summaryClassification.personTags
+  ]);
+  const matchedKeywords = unique([
+    ...titleClassification.matchedKeywords,
+    ...summaryClassification.matchedKeywords
+  ]);
   const labels: string[] = [];
-  let score = 0;
 
   if (input.isOfficial) {
-    score += 30;
     addSafeLabel(labels, "공식 출처");
   }
-
-  for (const keyword of ORGANIZATION_KEYWORDS) {
-    if (includesKeyword(text, keyword)) {
-      addUnique(matchedKeywords, keyword);
-      score += keyword === "대한축구협회" || keyword === "축구혁신위" ? 20 : 10;
-    }
+  if (personTags.length > 0) {
+    addSafeLabel(labels, "인물 언급");
   }
-
-  for (const issue of input.issues) {
-    const matchedIssueKeywords = issue.keywords.filter((keyword) => {
-      if (issue.id === KFA_EXECUTIVES_ISSUE_ID) {
-        return includesKfaExecutiveIssueKeyword(text, keyword);
-      }
-
-      if (isMcstAuditIssue(issue)) {
-        return includesMcstAuditIssueKeyword(text, keyword);
-      }
-
-      return includesKeyword(text, keyword);
-    });
-
-    if (matchedIssueKeywords.length === 0) {
-      continue;
-    }
-
-    if (
-      issue.id === KFA_EXECUTIVES_ISSUE_ID &&
-      !shouldAssignKfaExecutiveIssue(text, input.people)
-    ) {
-      continue;
-    }
-
-    for (const keyword of matchedIssueKeywords) {
-      addUnique(matchedKeywords, keyword);
-      score += 10;
-    }
-    addUnique(issueTags, issue.id);
+  if (matchedKeywords.includes("해명")) {
+    addSafeLabel(labels, "해명 키워드 포함");
   }
-
-  for (const person of input.people) {
-    if (!person.published) {
-      continue;
-    }
-
-    let personMatched = false;
-    for (const keyword of person.keywords) {
-      if (includesKeyword(text, keyword)) {
-        personMatched = true;
-        addUnique(matchedKeywords, keyword);
-        score += 8;
-      }
-    }
-    if (personMatched) {
-      addUnique(personTags, person.id);
-      addSafeLabel(labels, "인물 언급");
-    }
+  if (matchedKeywords.includes("감사")) {
+    addSafeLabel(labels, "감사 키워드 포함");
   }
-
-  for (const keyword of HIGH_INTEREST_KEYWORDS) {
-    if (includesKeyword(text, keyword)) {
-      addUnique(matchedKeywords, keyword);
-      score += 5;
-      if (keyword === "해명") {
-        addSafeLabel(labels, "해명 키워드 포함");
-      }
-      if (keyword === "감사") {
-        addSafeLabel(labels, "감사 키워드 포함");
-      }
-      if (keyword === "선거인단") {
-        addSafeLabel(labels, "선거 키워드 포함");
-      }
-    }
+  if (matchedKeywords.includes("선거인단")) {
+    addSafeLabel(labels, "선거 키워드 포함");
   }
 
   return {
     issueTags,
     personTags,
     matchedKeywords,
-    relevanceScore: Math.min(100, score),
-    labels
+    relevanceScore: Math.min(
+      100,
+      (input.isOfficial ? 30 : 0) + titleRelevanceScore + summaryRelevanceScore
+    ),
+    labels,
+    titleIssueTags: titleClassification.issueTags,
+    summaryIssueTags: summaryClassification.issueTags,
+    titlePersonTags: titleClassification.personTags,
+    summaryPersonTags: summaryClassification.personTags,
+    titleMatchedKeywords: titleClassification.matchedKeywords,
+    summaryMatchedKeywords: summaryClassification.matchedKeywords,
+    titleRelevanceScore,
+    summaryRelevanceScore
   };
 }
 
@@ -315,7 +629,7 @@ export function getSearchQueries({
   }
 
   for (const issue of [...issues].sort((a, b) => a.priority - b.priority)) {
-    for (const keyword of issue.keywords) {
+    for (const keyword of issue.searchQueries ?? issue.keywords) {
       addUnique(queries, toSearchQuery(keyword));
     }
   }
