@@ -1470,7 +1470,7 @@
     "id": "item_21e03c34e624ef75",
     "type": "news",
     "title": "'출마설'에 선 그은 박지성…차기 축구협회장은 누구?",
-    "summary": "등록 선수만 10만 명이 넘는 축구협회 는 현재 정관 으론 200명도 안되는 선거인단이 회장을 선출하게 돼... 대한체육회 정관 을 따라야하는데 체육회는 16일, 대의원 임시총회를 열어 선거인단 확대 관련 정관 개정 에...",
+    "summary": "축구협회 회장 선거는 상위 단체인 대한체육회 정관을 따라야하는데 체육회는 16일, 대의원 임시총회를 열어 선거인단 확대 관련 정관 개정에 나서기로 했습니다. 이후 이사회를 통해 회장 궐위시 60일 이내 선거를...",
     "url": "https://news.jtbc.co.kr/article/NB12307069?influxDiv=NAVER",
     "originalUrl": "https://news.jtbc.co.kr/article/NB12307069?influxDiv=NAVER",
     "publisher": "news.jtbc.co.kr",
@@ -1480,6 +1480,7 @@
       "축구협회장",
       "박지성",
       "축구협회",
+      "회장 선거",
       "선거인단",
       "선거인",
       "대의원",
@@ -1500,7 +1501,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 47,
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
@@ -1636,7 +1637,7 @@
     "id": "item_e43e8a389916baaa",
     "type": "news",
     "title": "[단독]직선제 걸림돌부터 없앤다…“60일 규정 손질”",
-    "summary": "혁신위는 먼저 ' 축구협회 장을 60일 안에 선출해야 한다'는 축구협회 규정 을 손질하는 데 의견을 모았습니다.... 차기 축구협회 장 선출은 당분간 보류될 전망입니다. 다만 정관 개정 에는 축구협회 와 사전조율이 필요합니다....",
+    "summary": "K 축구 혁신위원회가 그동안 체육관 선거로 비판받은 축구협회 의 대의원 제, 간선제를 손보기로 했습니다. 박지성 위원장을 비롯해 혁신위원들, 선거제도 개선 걸림돌이 되는 정관부터 손질하기로 의견을 모은 것으로...",
     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000538406",
     "originalUrl": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000538406",
     "publisher": "ichannela.com",
@@ -1644,8 +1645,11 @@
     "collectedAt": "2026-07-08T01:00:19.012Z",
     "matchedKeywords": [
       "축구협회",
+      "대의원",
       "정관",
-      "정관 개정"
+      "혁신위원회",
+      "축구 혁신",
+      "박지성"
     ],
     "discoveryQueries": [
       "축구협회 규정 개정",
@@ -1654,14 +1658,19 @@
       "축구협회 제도 개편"
     ],
     "issueTags": [
-      "statute-revision"
+      "electoral-college",
+      "statute-revision",
+      "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 9,
-    "relevanceTier": "secondary",
-    "labels": []
+    "relevanceScore": 20,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_bcc6ea06352773af",
@@ -2543,7 +2552,7 @@
     "id": "item_2eeebeb8c8f87e1c",
     "type": "news",
     "title": "정부 색 뺀 혁신위, 축구협회 개혁 시험대 될까",
-    "summary": "/연합뉴스 | 서울=한스경제 류정호 기자 | 정부 색을 뺀 K- 축구 혁신위원회가 출범과 동시에 대한축구협회 ... 회복하고, 축구협회 운영 구조와 유소년 육성 , 첨단 기술 시스템 도입 등 중장기 과제를 논의하기 위해 구성됐다....",
+    "summary": "정몽규 회장이 사임서를 제출하면서 축구협회 는 새 회장을 뽑아야 하는 국면에 들어섰다. 첫 회의에서도 회장 선거 제도 개선 문제가 주요 의제로 다뤄졌다. 기존 대의원 중심 선거 방식은 이른바 '체육관 선거'라는 비판을...",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=848770",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=848770",
     "publisher": "hansbiz.co.kr",
@@ -2551,9 +2560,9 @@
     "collectedAt": "2026-07-08T01:00:19.012Z",
     "matchedKeywords": [
       "축구협회",
-      "대한축구협회",
-      "혁신위원회",
-      "축구 혁신"
+      "회장 선거",
+      "대의원",
+      "정몽규"
     ],
     "discoveryQueries": [
       "대한축구협회 유소년 육성 시스템",
@@ -2562,13 +2571,18 @@
       "축구협회 제도 개편"
     ],
     "issueTags": [
-      "innovation-committee"
+      "election",
+      "electoral-college"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
-    "labels": []
+    "relevanceScore": 24,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_8310eacde4826ae4",
@@ -2738,7 +2752,7 @@
     "id": "item_78759194bdde7a59",
     "type": "news",
     "title": "[기자수첩] 축구협회, 학연·지연·밀실 행정… K-축구혁신위, 한국 축구...",
-    "summary": "혁신위는 이제 감독 선임 방식과 회장 선거뿐 아니라 유소년 육성 체계, 지도자 교육 시스템 , 심판 운영, 협회 거버넌스, 재정 공개, 선수와 팬이 함께 참여하는 의사결정 구조까지 전면적으로 들여다봐야 한다. 축구 는...",
+    "summary": "홍명보 前 국가대표팀 감독의 사퇴에 이어 정몽규 前 대한축구협회 장까지 자리에서 물러났다. 이제 관심은... 학교와 프로, 지역 축구 가 유기적으로 연결되는 구조를 만들었고, 지도자 자격 관리와 선수 육성 시스템을...",
     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3628759",
     "originalUrl": "https://www.gukjenews.com/news/articleView.html?idxno=3628759",
     "publisher": "gukjenews.com",
@@ -2747,7 +2761,10 @@
     "matchedKeywords": [
       "축구혁신위",
       "축구협회",
-      "회장 선거"
+      "대한축구협회",
+      "정몽규",
+      "홍명보",
+      "사퇴"
     ],
     "discoveryQueries": [
       "대한축구협회 유소년 육성 시스템",
@@ -2756,14 +2773,18 @@
       "대한축구협회 지도자 제도"
     ],
     "issueTags": [
-      "innovation-committee",
-      "election"
+      "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
-    "labels": []
+    "relevanceScore": 44,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_fedb138f151e8563",
@@ -3638,6 +3659,42 @@
     ]
   },
   {
+    "id": "item_93235f154f1d76a7",
+    "type": "news",
+    "title": "권고안 발표→재정지원 중단→축구협회 해체…호주 모델 따를까?",
+    "summary": "대한체육회는 오는 16일 대의원 임시총회를 개최, 산하 기관 선거 관련 정관 개정을 진행할 계획이다. 축구협회 는 개정된 선거 제도에서 처음으로 '체육관 선거'라는 비판을 받아온 선거제도를 혁신해 정몽규 사퇴 후 첫...",
+    "url": "https://www.news1.kr/society/general-society/6219973",
+    "originalUrl": "https://www.news1.kr/society/general-society/6219973",
+    "publisher": "news1.kr",
+    "publishedAt": "2026-07-07T01:44:00.000Z",
+    "collectedAt": "2026-07-13T11:43:52.199Z",
+    "matchedKeywords": [
+      "축구협회",
+      "대의원",
+      "정관",
+      "정관 개정",
+      "정몽규",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "축구협회 대의원"
+    ],
+    "issueTags": [
+      "electoral-college",
+      "statute-revision"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 28,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_c5f7d971afffc369",
     "type": "news",
     "title": "'홍명보 선임 주도' 이임생, 캄보디아 취업...청문회 앞두고 둘 다 출국",
@@ -3942,7 +3999,7 @@
     "id": "item_2c9761c944ef6bc5",
     "type": "news",
     "title": "1천억 예산의 KFA, '이름값' 대신 백현식·이석재 같은 '실무 행정가'에...",
-    "summary": "공개하는 시스템 을 구축해야 한다. 대표팀 편중에서 풀뿌리 중심으로의 예산 재편: A대표팀의 성적과 상업성에만 매몰된 현재의 구조를 탈피해, 백현식·이석재 회장이 지역에서 증명했듯 일선 축구협회 와 유소년 육성 에...",
+    "summary": "차기 대한축구협회 (KFA) 수장 선거를 앞두고 하마평이 무성하다. 언론과 여론의 스포트라이트는 일제히 한... 복잡한 지역 축구 인들의 갈등을 묵묵히 조율하며 유소년 축구 의 기반을 다진 그의 행보에는 '현장'에서만 얻을...",
     "url": "https://www.thepowernews.co.kr/view.php?ud=2026070709392211125c5caa7b2_7",
     "originalUrl": "https://www.thepowernews.co.kr/view.php?ud=2026070709392211125c5caa7b2_7",
     "publisher": "thepowernews.co.kr",
@@ -3950,7 +4007,7 @@
     "collectedAt": "2026-07-08T01:00:19.012Z",
     "matchedKeywords": [
       "KFA",
-      "축구협회"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "대한축구협회 유소년 육성 시스템",
@@ -3961,7 +4018,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 26,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -4144,7 +4201,7 @@
     "id": "item_42b789c0a7b5ee82",
     "type": "news",
     "title": "막 내린 정몽규 장기집권 체제, 4연임 가능했던 선거 제도 바뀌나 [월드...",
-    "summary": "다만 선거 정관 개정 등이 이뤄지지 않을 경우 축구협회 개혁은 또 다시 미뤄질 수밖에 없다는 게 중론이다. 일단 대한 축구협회 는 정관 제23조에 따라 부회장 중 한 명이 대한체육회의 인준을 받아 회장 직무를 대행할...",
+    "summary": "문제의 핵심은 대한 축구협회 가 대한체육회 산하 회원단체인 만큼 선거제도 역시 대한체육회 정관을 따라야 한다는 것이다. 이 가운데 체육회는 오는 16일 대의원 임시총회를 열어 선거 관련 정관 개정에 나서기로 했다....",
     "url": "https://www.dailian.co.kr/news/view/1663816/?sc=Naver",
     "originalUrl": "https://www.dailian.co.kr/news/view/1663816/?sc=Naver",
     "publisher": "dailian.co.kr",
@@ -4153,17 +4210,17 @@
     "matchedKeywords": [
       "정몽규",
       "대한 축구협회",
+      "대의원",
       "정관",
-      "정관 개정",
-      "부회장"
+      "정관 개정"
     ],
     "discoveryQueries": [
       "축구협회 대의원",
       "축구협회 정관 개정"
     ],
     "issueTags": [
-      "statute-revision",
-      "kfa-executives"
+      "electoral-college",
+      "statute-revision"
     ],
     "personTags": [
       "person_chung_mong_gyu"
