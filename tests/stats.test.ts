@@ -64,8 +64,11 @@ describe("getDashboardStats", () => {
     assert.equal(stats.totalItems, 3);
   });
 
-  it("does not count an old item as new when it is collected again", () => {
+  it("does not count an old official item as new when it is collected again", () => {
     const firstSeen = item("first-seen", {
+      type: "official",
+      sourceType: "official",
+      isOfficial: true,
       collectedAt: "2026-07-05T08:10:00.000Z"
     });
     const recollected = {
@@ -83,5 +86,7 @@ describe("getDashboardStats", () => {
 
     assert.equal(items[0].collectedAt, firstSeen.collectedAt);
     assert.equal(stats.newItems24h, 0);
+    assert.equal(stats.officialItems24h, 0);
+    assert.equal(stats.newsItems24h, 0);
   });
 });
