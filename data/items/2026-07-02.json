@@ -13,6 +13,9 @@
       "홍명보",
       "해명"
     ],
+    "discoveryQueries": [
+      "\"김승희\" 해명"
+    ],
     "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
@@ -96,6 +99,11 @@
       "회장 선거",
       "허정무"
     ],
+    "discoveryQueries": [
+      "\"허정무\" 대한축구협회",
+      "\"허정무\" 선거",
+      "\"허정무\" 축구협회"
+    ],
     "issueTags": [
       "election"
     ],
@@ -130,6 +138,9 @@
       "선거인",
       "대의원",
       "투표권"
+    ],
+    "discoveryQueries": [
+      "축구협회 투표권"
     ],
     "issueTags": [
       "election",
@@ -191,6 +202,9 @@
       "허정무",
       "홍명보"
     ],
+    "discoveryQueries": [
+      "\"허정무\" 축구협회"
+    ],
     "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
@@ -221,6 +235,9 @@
       "홍명보",
       "대한 축구협회",
       "조사 결과"
+    ],
+    "discoveryQueries": [
+      "축구협회 조사 결과"
     ],
     "issueTags": [
       "mcst-audit"
@@ -255,6 +272,9 @@
       "정관",
       "부회장"
     ],
+    "discoveryQueries": [
+      "\"이용수\" 선거"
+    ],
     "issueTags": [
       "election",
       "electoral-college",
@@ -284,6 +304,9 @@
     "matchedKeywords": [
       "김병지",
       "해명"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 해명"
     ],
     "issueTags": [],
     "personTags": [
@@ -315,6 +338,13 @@
       "정몽규",
       "김병지"
     ],
+    "discoveryQueries": [
+      "\"김병지\" 감사",
+      "\"김병지\" 선거",
+      "\"김병지\" 해명",
+      "\"이용수\" 선거",
+      "\"이용수\" 해명"
+    ],
     "issueTags": [
       "election",
       "mcst-audit",
@@ -333,10 +363,49 @@
     ]
   },
   {
+    "id": "item_ec27ab3d157a3095",
+    "type": "news",
+    "title": "차기 대표팀 감독은 '공개 채용'⋯홍명보식 선임 사라진다",
+    "summary": "대한축구협회 가 대한 체육회와 협의할 경우 공개 채용 절차를 생략할 수 있으며, 외국인 지도자 는 국내 지도자 자격 증 없이도 자국 국가대표 선수 경력 또는 해당 종목 지도 경력 2년 이상이면 지원 자격 을 갖출 수 있다....",
+    "url": "https://www.etoday.co.kr/news/view/2599657",
+    "originalUrl": "https://www.etoday.co.kr/news/view/2599657",
+    "publisher": "etoday.co.kr",
+    "publishedAt": "2026-07-02T05:40:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "차기",
+      "홍명보",
+      "대한축구협회",
+      "지도자",
+      "지도자 자격",
+      "자격",
+      "지원"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 지도자 자격"
+    ],
+    "issueTags": [
+      "coach-appointment",
+      "youth-governance"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 28,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_4d70378028d8cf4f",
     "type": "news",
     "title": "〈한국축구 특검 5〉 정몽규 이후 축구협회장, 그들만의 리그는 끝났는...",
-    "summary": "허정무 전 감독은 15표, 신문선 명지대 교수는 11표를 얻었다. 팬 여론과 선거인단... 국가대표팀 성적, 감독 선임, 예산 집행, 국정 감사 , 문체부 감사 , 팬 여론까지 모두...",
+    "summary": "대한 축구협회 정관 제23조의2 회장선거 후보 자 등록 2항에는 회장선거 후보 자는 선거일 당일 만 70세 미만인 자여야 한다는 조항이 있다. 이 조항은 정몽규 회장 재임...",
     "url": "http://www.breaknews.com/1218659",
     "originalUrl": "http://www.breaknews.com/1218659",
     "publisher": "breaknews.com",
@@ -345,32 +414,28 @@
     "matchedKeywords": [
       "축구협회장",
       "정몽규",
-      "선거인단",
-      "선거인",
-      "문체부 감사",
-      "감사",
-      "감독 선임",
-      "감독",
-      "선임",
-      "허정무"
+      "대한 축구협회",
+      "정관"
+    ],
+    "discoveryQueries": [
+      "\"허정무\" 감사",
+      "\"허정무\" 대한축구협회",
+      "\"허정무\" 선거",
+      "\"허정무\" 축구협회",
+      "축구협회 후보 등록"
     ],
     "issueTags": [
       "election",
-      "electoral-college",
-      "mcst-audit",
-      "coach-appointment"
+      "statute-revision"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_huh_jung_moo"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 47,
+    "relevanceScore": 43,
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함",
-      "선거 키워드 포함"
+      "인물 언급"
     ]
   },
   {
@@ -392,6 +457,9 @@
       "대한축구협회장",
       "김병지"
     ],
+    "discoveryQueries": [
+      "\"김병지\" 선거"
+    ],
     "issueTags": [
       "election",
       "electoral-college"
@@ -405,6 +473,34 @@
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_5b2dfbdd1cc6ad13",
+    "type": "news",
+    "title": "대표팀 감독 ‘공개 채용’… 제2의 홍명보 더는 없다",
+    "summary": "대한축구협회 가 공개 채용에 지원하지 않은 지도자 와 접촉하는 것은 금지다. 홍 감독 선임 때처럼 지원하지... 대표팀 감독 지원자는 전문스포츠지도사 2급 이상 자격 을 보유해야 한다. 또 경기 지도경력 5년 이상도...",
+    "url": "https://www.munhwa.com/article/11599782?ref=naver",
+    "originalUrl": "https://www.munhwa.com/article/11599782?ref=naver",
+    "publisher": "munhwa.com",
+    "publishedAt": "2026-07-02T02:33:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "홍명보",
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 지도자 자격"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 14,
+    "labels": [
+      "인물 언급"
     ]
   }
 ]

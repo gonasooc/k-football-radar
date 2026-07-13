@@ -18,6 +18,9 @@
       "정몽규",
       "해명"
     ],
+    "discoveryQueries": [
+      "\"김승희\" 해명"
+    ],
     "issueTags": [
       "election",
       "kfa-executives"
@@ -58,12 +61,12 @@
     "labels": []
   },
   {
-    "id": "item_378ac9de3a67bc4c",
+    "id": "item_1db09225dab84b49",
     "type": "news",
     "title": "\"연봉 반납하고 사퇴하라\"…경찰 100명이 호위한 홍명보호의 삼엄한 귀...",
     "summary": "박항서 국가대표 지원단장, 김승희 협회 전무와 함께 홍 감독과 선수들이 입국장에 모습을 드러내자 \"홍명보... 상황이었다\"고 해명 했다. 한편, 선수단이 공항을 떠난 지 약 40분 뒤 다른 항공편으로 귀국한 정몽규...",
-    "url": "https://www.nocutnews.co.kr/news/6540430?utm_source=naver&utm_medium=article&utm_campaign=20260630014433",
-    "originalUrl": "https://www.nocutnews.co.kr/news/6540430?utm_source=naver&utm_medium=article&utm_campaign=20260630014433",
+    "url": "https://www.nocutnews.co.kr/news/6540430",
+    "originalUrl": "https://www.nocutnews.co.kr/news/6540430",
     "publisher": "nocutnews.co.kr",
     "publishedAt": "2026-06-29T21:48:00.000Z",
     "collectedAt": "2026-07-08T06:35:30.206Z",
@@ -73,6 +76,9 @@
       "전무",
       "정몽규",
       "해명"
+    ],
+    "discoveryQueries": [
+      "\"김승희\" 해명"
     ],
     "issueTags": [
       "kfa-executives"
@@ -102,6 +108,9 @@
     "matchedKeywords": [
       "홍명보",
       "해명"
+    ],
+    "discoveryQueries": [
+      "\"김승희\" 해명"
     ],
     "issueTags": [],
     "personTags": [
@@ -217,6 +226,9 @@
       "대한 축구협회",
       "투표권",
       "정몽규"
+    ],
+    "discoveryQueries": [
+      "축구협회 투표권"
     ],
     "issueTags": [
       "kfa-executives",
@@ -400,7 +412,7 @@
     "id": "item_80e3ba73a8fb0fbb",
     "type": "news",
     "title": "'이경규 농담'이 보여준 국민 불신…정몽규·홍명보 떠난 축협은 바뀔 ...",
-    "summary": "회장 궐위 시에는 부회장 가운데 정해진 순서에 따라 직무대행 체제가 꾸려지고, 20일 이내 선거 운영위원회를 구성해야 한다. 이 경우 이용수 축구협회 부회장을 중심으로 대행 체제가 꾸려질 가능성이 높다. 다만...",
+    "summary": "지난해 회장 선거에 출마했던 허정무 (73) 전 감독은 연령 제한(70세 미만)으로 재도전이 어려운 상황이다.... 문화체육관광부는 29일 외부 전문가들로 구성된 조사위원회를 출범시켜 축구협회에 대한 특별 감사 를 실시, 한국...",
     "url": "https://www.hankookilbo.com/news/article/A2026062915200003245?did=NA",
     "originalUrl": "https://www.hankookilbo.com/news/article/A2026062915200003245?did=NA",
     "publisher": "hankookilbo.com",
@@ -410,20 +422,32 @@
       "정몽규",
       "홍명보",
       "축구협회",
-      "부회장"
+      "회장 선거",
+      "감독",
+      "도전",
+      "허정무",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 선거",
+      "\"허정무\" 감사",
+      "\"허정무\" 선거"
     ],
     "issueTags": [
-      "kfa-executives"
+      "election",
+      "coach-appointment"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_huh_jung_moo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 32,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -441,6 +465,9 @@
       "홍명보",
       "사퇴",
       "회장 선거"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 선거"
     ],
     "issueTags": [
       "election"
@@ -559,6 +586,9 @@
       "정몽규",
       "허정무"
     ],
+    "discoveryQueries": [
+      "\"허정무\" 선거"
+    ],
     "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
@@ -666,6 +696,9 @@
       "회장 선거",
       "정관",
       "부회장"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 선거"
     ],
     "issueTags": [
       "mcst-audit",
@@ -833,6 +866,9 @@
       "축구협회",
       "투표권"
     ],
+    "discoveryQueries": [
+      "축구협회 투표권"
+    ],
     "issueTags": [
       "electoral-college"
     ],
@@ -906,7 +942,7 @@
     "id": "item_bf0f3db072e9cdae",
     "type": "news",
     "title": "與野, 정몽규·홍명보 정조준…사상 최초 '축구협회 청문회' 열리나",
-    "summary": "구속력이 약한 현안질의와 달리 청문회는 국정 감사 법을 준용해 동행명령장 발부가 가능하다. 무단 불출석 시... 허정무 전 협회 부회장(전 국가대표팀 감독)은 \"정 회장은 황금세대와 함께 12년간 협회를 운영해오다...",
+    "summary": "그러면서 \"(정 회장이 사퇴하면) 60일 안에 선거 가 치러져야 하는데 여전히 협회장 선거 는 직선제가 아니다... 허정무 전 협회 부회장(전 국가대표팀 감독)은 \"정 회장은 황금세대와 함께 12년간 협회를 운영해오다 아무것도...",
     "url": "https://www.mt.co.kr/politics/2026/06/29/2026062911310116151",
     "originalUrl": "https://www.mt.co.kr/politics/2026/06/29/2026062911310116151",
     "publisher": "mt.co.kr",
@@ -916,11 +952,17 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "회장 선거",
       "부회장",
       "허정무",
-      "감사"
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"허정무\" 감사",
+      "\"허정무\" 선거"
     ],
     "issueTags": [
+      "election",
       "kfa-executives"
     ],
     "personTags": [
@@ -930,10 +972,9 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 39,
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ]
   },
   {
@@ -979,6 +1020,9 @@
       "정몽규",
       "대한 축구협회",
       "투표권"
+    ],
+    "discoveryQueries": [
+      "축구협회 투표권"
     ],
     "issueTags": [
       "kfa-executives",

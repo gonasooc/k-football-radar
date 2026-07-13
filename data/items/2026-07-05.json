@@ -29,7 +29,7 @@
     "id": "item_db7f3dabca18a343",
     "type": "news",
     "title": "정몽규 축협 회장 사퇴…박지성·이영표 누가 새 수장될까",
-    "summary": "회장 선거 제도 개선 논의도 함께 개시됐다. 이로써 2013년 첫 선출 이후 2025년 4선에 성공했던 정 회장이 장장... 홍 전 감독, 정 회장, 이임생 전 축구협회 기술총괄이사, 유인촌 문체부 장관 등이 주요 증인으로 채택될...",
+    "summary": "회장 선거 제도 개선 논의도 함께 개시됐다. 이로써 2013년 첫 선출 이후 2025년 4선에 성공했던 정 회장이 장장... 이밖에 김병지 강원FC 대표이사, 이용수 축구협회 부회장 등의 이름도 오르내리고 있다. 홍명보 감독과 정...",
     "url": "https://www.hankyung.com/article/202607066864H",
     "originalUrl": "https://www.hankyung.com/article/202607066864H",
     "publisher": "hankyung.com",
@@ -41,19 +41,28 @@
       "사퇴",
       "축구협회",
       "회장 선거",
-      "이임생"
+      "부회장",
+      "홍명보",
+      "김병지"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 선거",
+      "\"이용수\" 선거",
+      "\"이임생\" 선거"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu",
       "person_park_ji_sung",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo",
+      "person_kim_byung_ji"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 38,
     "labels": [
       "인물 언급"
     ]
@@ -62,7 +71,7 @@
     "id": "item_5259705598e8cc95",
     "type": "news",
     "title": "한국 축구 새 수장은 누구…박지성·이영표 등 나설까[한국축구 개혁③...",
-    "summary": "이밖에 김병지 강원FC 대표이사, 이용수 축구협회 부회장 등의 이름도 오르내리고 있다. 직전 선거 에 출마했던 허정무 전 축구대표팀 감독은 뉴시스를 통해 \"제대로만 운영하면, 세계적으로 경쟁력 있는 축구협회로...",
+    "summary": "대한축구협회 를 이끌었던 정몽규 회장이 물러나는 가운데 '젊은 피'가 수혈될지 관심이다. 지난 5월 정... 이용수 축구협회 부회장 등의 이름도 오르내리고 있다. 직전 선거에 출마했던 허정무 전 축구 대표팀 감독은...",
     "url": "https://www.newsis.com/view/NISX20260703_0003695506",
     "originalUrl": "https://www.newsis.com/view/NISX20260703_0003695506",
     "publisher": "newsis.com",
@@ -70,22 +79,29 @@
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
       "박지성",
-      "축구협회",
+      "대한축구협회",
       "부회장",
-      "허정무",
-      "김병지"
+      "정몽규",
+      "허정무"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 선거",
+      "\"이용수\" 선거",
+      "\"허정무\" 대한축구협회",
+      "\"허정무\" 선거",
+      "\"허정무\" 축구협회"
     ],
     "issueTags": [
       "kfa-executives"
     ],
     "personTags": [
       "person_park_ji_sung",
-      "person_huh_jung_moo",
-      "person_kim_byung_ji"
+      "person_chung_mong_gyu",
+      "person_huh_jung_moo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ]
@@ -114,6 +130,74 @@
     "labels": []
   },
   {
+    "id": "item_fdc7391150b78d04",
+    "type": "news",
+    "title": "정몽규·홍명보가 망친 韓 축구, 개혁 착수...'K-축구 혁신위' 출범",
+    "summary": "맡고 축구 인과 체육행정 관계자, 법률·학계 전문가가 참여한다. 혁신위는 축구 거버넌스와 유소년 선수 육성... 조연상 한국프로축구연맹 사무총장이 참여한다. 유영근 변호사와 김대희 부경대 교수 등 법률·학계...",
+    "url": "https://www.newswhoplus.com/news/articleView.html?idxno=63864",
+    "originalUrl": "https://www.newswhoplus.com/news/articleView.html?idxno=63864",
+    "publisher": "newswhoplus.com",
+    "publishedAt": "2026-07-05T22:30:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "축구 혁신",
+      "정몽규",
+      "홍명보",
+      "한국프로축구연맹"
+    ],
+    "discoveryQueries": [
+      "한국프로축구연맹 유소년 제도"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 32,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_a86df6483f9fda04",
+    "type": "news",
+    "title": "억지 사과에 여전히 묵묵부답 축구협회… 실패 이유 찾을 생각도 없다",
+    "summary": "대한축구협회 가 북중미 월드컵 조별리그 탈락과 홍명보 감독 자진 사퇴라는 충격 속에도 명확한 실패 원인과... 만에 축구협회 가 공식 브리핑을 열어 대표팀 운영 방향을 설명했다. 이후 홍 감독과 허정무 당시 축구협회 ...",
+    "url": "https://www.sportsworldi.com/newsView/20260706501268",
+    "originalUrl": "https://www.sportsworldi.com/newsView/20260706501268",
+    "publisher": "sportsworldi.com",
+    "publishedAt": "2026-07-05T22:02:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "축구협회",
+      "대한축구협회",
+      "허정무",
+      "홍명보",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"허정무\" 대한축구협회",
+      "\"허정무\" 축구협회",
+      "\"허정무\" 해명"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_huh_jung_moo",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 24,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_ce6cf0962f1dd0ba",
     "type": "news",
     "title": "정몽규 '충신'들이 홍명보 후임 뽑는다 [북중미 월드컵]",
@@ -130,6 +214,10 @@
       "현영민",
       "현영민 위원장",
       "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회"
     ],
     "issueTags": [],
     "personTags": [
@@ -156,10 +244,9 @@
     "collectedAt": "2026-07-08T22:22:56.062Z",
     "matchedKeywords": [
       "대한축구협회",
+      "축구협회장",
       "대한축구협회장",
-      "정몽규",
-      "축구협회",
-      "축구협회장"
+      "정몽규"
     ],
     "issueTags": [
       "election"
@@ -169,7 +256,7 @@
     ],
     "sourceType": "official",
     "isOfficial": true,
-    "relevanceScore": 88,
+    "relevanceScore": 68,
     "labels": [
       "공식 출처",
       "인물 언급"
@@ -196,6 +283,9 @@
       "정몽규",
       "홍명보",
       "이임생"
+    ],
+    "discoveryQueries": [
+      "\"이임생\" 선거"
     ],
     "issueTags": [
       "election",
@@ -327,12 +417,12 @@
     ]
   },
   {
-    "id": "item_8af871f890ace2cf",
+    "id": "item_2ef816bf0188135c",
     "type": "news",
     "title": "'선수단 갈등 없었다'는 축협과 홍명보, 풀리지 않는 답답함",
     "summary": "나온 해명 은, 타이밍도 너무 늦었고 축구팬들의 의혹을 말끔히 해소시켜줄만한 디테일도 전혀 없었다.... 이번 축구혁신위원회에는 이영표 해설위원, 박주호 해설위원 등 축구인과 유승민 대한체육회 회장, 김승희 ...",
-    "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003248625&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-    "originalUrl": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003248625&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+    "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003248625",
+    "originalUrl": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003248625",
     "publisher": "ohmynews.com",
     "publishedAt": "2026-07-05T03:16:00.000Z",
     "collectedAt": "2026-07-08T06:35:30.206Z",
@@ -341,6 +431,9 @@
       "축구혁신위",
       "혁신위원회",
       "해명"
+    ],
+    "discoveryQueries": [
+      "\"김승희\" 해명"
     ],
     "issueTags": [
       "innovation-committee"
@@ -437,6 +530,12 @@
       "현영민",
       "현영민 위원장"
     ],
+    "discoveryQueries": [
+      "\"허정무\" 대한축구협회",
+      "\"허정무\" 축구협회",
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회"
+    ],
     "issueTags": [
       "coach-appointment"
     ],
@@ -447,6 +546,34 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 41,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_4b01ffc497c67b45",
+    "type": "news",
+    "title": "'홍명보 살해 위협 때문에 미국행' 외신이 더 놀랐다, 국제망신된 한국...",
+    "summary": "대통령이 직접 나서 홍 감독과 대한축구협회 를 비판했다. 이재명 대통령은 SNS에 '무능한 사람을 지휘관으로... 무엇이 정답인지는 모르지만, 일본에는 일본에 맞는 육성이 있고, 지도자 한 명 한 명이 열정을 가지고...",
+    "url": "https://www.sportschosun.com/football/2026-07-05/202607050100029040001687",
+    "originalUrl": "https://www.sportschosun.com/football/2026-07-05/202607050100029040001687",
+    "publisher": "sportschosun.com",
+    "publishedAt": "2026-07-05T01:26:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "홍명보",
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 지도자 자격"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 14,
     "labels": [
       "인물 언급"
     ]
@@ -465,6 +592,9 @@
       "정몽규",
       "회장 선거",
       "이임생"
+    ],
+    "discoveryQueries": [
+      "\"이임생\" 선거"
     ],
     "issueTags": [
       "election"
@@ -496,6 +626,9 @@
       "정몽규",
       "이임생",
       "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"이임생\" 선거"
     ],
     "issueTags": [
       "election"
@@ -529,6 +662,10 @@
       "정몽규",
       "이임생",
       "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"이임생\" 선거",
+      "대한축구협회 지도자 자격"
     ],
     "issueTags": [
       "innovation-committee",

@@ -40,6 +40,9 @@
       "KFA",
       "허정무"
     ],
+    "discoveryQueries": [
+      "\"허정무\" 선거"
+    ],
     "issueTags": [],
     "personTags": [
       "person_park_ji_sung",
@@ -48,6 +51,42 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 20,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_aa9f673a48fc6ea5",
+    "type": "news",
+    "title": "월드컵 한 번에 감독 교체 반복… 멀리 보고 원칙 세워 뽑아라[한국 축...",
+    "summary": "임명권자인 정몽규 대한축구협회 회장도 지난 5월 “월드컵 이후 물러나겠다”고 밝힌 만큼 차기 감독... 2008년 1월 두 번째로 대표팀 지휘봉을 잡은 허정무 감독은 2년 5개월간 호흡을 맞춘 뒤 2010년 남아프리카공화국...",
+    "url": "https://www.seoul.co.kr/news/sport/worldcup2026/2026/07/01/20260701008001?wlog_tag3=naver",
+    "originalUrl": "https://www.seoul.co.kr/news/sport/worldcup2026/2026/07/01/20260701008001?wlog_tag3=naver",
+    "publisher": "seoul.co.kr",
+    "publishedAt": "2026-06-30T20:01:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "감독",
+      "차기",
+      "정몽규",
+      "허정무"
+    ],
+    "discoveryQueries": [
+      "\"허정무\" 감사",
+      "\"허정무\" 대한축구협회"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_huh_jung_moo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 16,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -68,6 +107,10 @@
       "KFA",
       "현영민",
       "현영민 위원장"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회"
     ],
     "issueTags": [],
     "personTags": [
@@ -98,6 +141,9 @@
       "부임",
       "정몽규",
       "사퇴"
+    ],
+    "discoveryQueries": [
+      "축구협회 조사 결과"
     ],
     "issueTags": [
       "coach-appointment"
@@ -189,6 +235,9 @@
       "부회장",
       "정몽규"
     ],
+    "discoveryQueries": [
+      "\"이용수\" 선거"
+    ],
     "issueTags": [
       "kfa-executives"
     ],
@@ -254,6 +303,9 @@
       "투표권",
       "정몽규"
     ],
+    "discoveryQueries": [
+      "축구협회 투표권"
+    ],
     "issueTags": [
       "electoral-college"
     ],
@@ -314,6 +366,9 @@
       "대한 축구협회",
       "조사 결과",
       "가처분"
+    ],
+    "discoveryQueries": [
+      "축구협회 조사 결과"
     ],
     "issueTags": [
       "mcst-audit"
@@ -388,7 +443,7 @@
     "id": "item_af9d7945545bcb85",
     "type": "news",
     "title": "[스포츠매니지먼트 프리즘] 정몽규 마지막 해 대한축구협회, '유소년 47...",
-    "summary": "축구사랑나눔재단은 직원도, 외부 감사 도 없다. 가진 것은 예금통장 하나뿐으로, 2025년 말 기준 자산... 돈을 보낸 재단과 받은 협회, 두 이사회에는 현영민 이사가 함께 이름을 올리고 있다. 현영민 은 2025년 협회...",
+    "summary": "대한축구협회 산하 축구 사랑나눔재단은 2025년 이 돈을 협회 에 건넸지만, 협회 는 그중 37억원을 쓰지 않고... 송금이고, 협회 는 그 돈을 받아 쓰지 않았다. 돈을 보낸 재단과 받은 협회 , 두 이사회에는 현영민 이사가...",
     "url": "https://www.greened.kr/news/articleView.html?idxno=343710",
     "originalUrl": "https://www.greened.kr/news/articleView.html?idxno=343710",
     "publisher": "greened.kr",
@@ -397,12 +452,14 @@
     "matchedKeywords": [
       "대한축구협회",
       "정몽규",
-      "감사",
       "이사회",
       "현영민"
     ],
+    "discoveryQueries": [
+      "\"현영민\" 감사",
+      "\"현영민\" 대한축구협회"
+    ],
     "issueTags": [
-      "mcst-audit",
       "kfa-executives"
     ],
     "personTags": [
@@ -413,8 +470,7 @@
     "isOfficial": false,
     "relevanceScore": 41,
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ]
   },
   {
@@ -459,6 +515,10 @@
       "홍명보",
       "감사",
       "허정무"
+    ],
+    "discoveryQueries": [
+      "\"허정무\" 감사",
+      "\"허정무\" 대한축구협회"
     ],
     "issueTags": [
       "mcst-audit"
@@ -530,6 +590,9 @@
       "김승희 전무이사",
       "현영민"
     ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회"
+    ],
     "issueTags": [
       "kfa-executives"
     ],
@@ -592,6 +655,9 @@
     "matchedKeywords": [
       "홍명보",
       "해명"
+    ],
+    "discoveryQueries": [
+      "\"김승희\" 해명"
     ],
     "issueTags": [],
     "personTags": [

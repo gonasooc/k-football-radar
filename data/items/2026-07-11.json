@@ -42,6 +42,10 @@
       "홍명보",
       "이임생"
     ],
+    "discoveryQueries": [
+      "\"이임생\" 대한축구협회",
+      "\"이임생\" 축구협회"
+    ],
     "issueTags": [
       "coach-appointment"
     ],
@@ -128,6 +132,10 @@
       "홍명보",
       "해명"
     ],
+    "discoveryQueries": [
+      "\"홍명보\" 해명",
+      "축구협회 해명"
+    ],
     "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
@@ -144,7 +152,7 @@
     "id": "item_244834bbaa33f7d5",
     "type": "news",
     "title": "홍명보 뒤 카르텔이 정말 있을까… 차기 감독의 조건은 [스한 위클리]",
-    "summary": "증인으로는 정몽규 축구협회장과 홍명보 전 대표팀 감독, 이임생 전 협회 기술총괄이사, 이용수 축구협회... 이미 2024년 10월 국정 감사 에서도 홍명보 감독과 위르겐 클린스만 감독의 선임 과정에서 불거진 문제를 다룬 바...",
+    "summary": "현대 감독 이나 카타르 월드컵 당시 한국을 지도했던 파울루 벤투 감독 등이 후보 군에 오를 수 있다. 또... 청문회와 새로운 축구협회 장 선거, 이후 차기 감독 선임까지 시간은 부족한데 해야 할 일은 많은 한국 축구 다. -스한...",
     "url": "https://sports.hankooki.com/news/articleView.html?idxno=6936188",
     "originalUrl": "https://sports.hankooki.com/news/articleView.html?idxno=6936188",
     "publisher": "sports.hankooki.com",
@@ -154,33 +162,56 @@
       "감독",
       "차기",
       "홍명보",
-      "대표팀 감독",
+      "축구협회",
+      "감독 선임",
       "선임",
-      "정몽규",
-      "이임생",
-      "감사"
+      "후보"
+    ],
+    "discoveryQueries": [
+      "\"김승희\" 감사",
+      "\"김승희\" 대한축구협회",
+      "\"김승희\" 선거",
+      "\"김승희\" 축구협회",
+      "\"이용수\" 감사",
+      "\"이용수\" 대한축구협회",
+      "\"이용수\" 선거",
+      "\"이용수\" 축구협회",
+      "\"이임생\" 감사",
+      "\"이임생\" 대한축구협회",
+      "\"이임생\" 선거",
+      "\"이임생\" 축구협회",
+      "\"정몽규\" 감사",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 감사",
+      "\"홍명보\" 선거",
+      "대한축구협회장",
+      "축구협회 감독 후보",
+      "축구협회 감사",
+      "축구협회 문화체육관광부 감사",
+      "축구협회 부회장",
+      "축구협회 전무",
+      "축구협회 회장 선거"
     ],
     "issueTags": [
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_chung_mong_gyu",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 25,
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ]
   },
   {
     "id": "item_3e7a3695450a2b9b",
     "type": "news",
     "title": "'참사 책임' 현영민 축구협회 전력강화위원장은 왜 침묵하나?",
-    "summary": "앞으로 A매치 일정과 새로운 축구협회장 선거 일정, (내년 1월)아시안컵 준비 등을 고려해 전반적인 논의를... 먼저 이번 대회에 대한 현영민 전강위원장의 책임 있는 브리핑이 먼저다. 현 위원장은 지난해 4월, 마지막...",
+    "summary": "임성일 스포츠전문기자 = 대한 축구협회 전력강화위원회(이하 전강위)가 홍명보 감독의 사퇴로 공석이 된... 먼저 이번 대회에 대한 현영민 전강위원장의 책임 있는 브리핑이 먼저다. 현 위원장은 지난해 4월, 마지막 임기를...",
     "url": "https://www.news1.kr/sports/soccer/6224672",
     "originalUrl": "https://www.news1.kr/sports/soccer/6224672",
     "publisher": "news1.kr",
@@ -189,18 +220,29 @@
     "matchedKeywords": [
       "축구협회",
       "현영민",
-      "축구협회장",
-      "회장 선거"
+      "대한 축구협회",
+      "홍명보",
+      "사퇴"
     ],
-    "issueTags": [
-      "election"
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 선거",
+      "\"현영민\" 축구협회",
+      "\"홍명보\" 선거",
+      "대한축구협회장",
+      "축구협회 집행부",
+      "축구협회 회장 선거"
     ],
+    "issueTags": [],
     "personTags": [
-      "person_hyun_young_min"
+      "person_hyun_young_min",
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
     ]
@@ -273,17 +315,27 @@
     "id": "item_f3460b03c0ce09a8",
     "type": "news",
     "title": "'주장' 손흥민은 이번에도 입을 닫을 건가",
-    "summary": "국민의 사랑을 받던 국가대표팀 간 A매치에서 '대한 축구협회 장과 감독의 퇴진'을 외치는 구호가 끊이질... 대통령의 축구 계 쇄신 발언으로 문화체육관광부 주도 K- 축구 혁신위원회가 출범했다. 한국 축구 전설인 박지성 ...",
+    "summary": "국민의 사랑을 받던 국가대표팀 간 A매치에서 ' 대한축구협회 장과 감독의 퇴진'을 외치는 구호가 끊이질... 대통령의 축구 계 쇄신 발언으로 문화체육관광부 주도 K- 축구 혁신위원회가 출범했다. 한국 축구 전설인 박지성 ...",
     "url": "http://weekly.chosun.com/news/articleView.html?idxno=53338",
     "originalUrl": "http://weekly.chosun.com/news/articleView.html?idxno=53338",
     "publisher": "weekly.chosun.com",
     "publishedAt": "2026-07-11T19:00:00.000Z",
     "collectedAt": "2026-07-11T19:51:34.673Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "혁신위원회",
       "축구 혁신",
       "박지성"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 축구협회",
+      "대한축구협회 지도자 자격",
+      "대한축구협회장",
+      "축구 혁신",
+      "축구협회 혁신위원회",
+      "K-축구혁신위원회",
+      "KFA"
     ],
     "issueTags": [
       "innovation-committee"
@@ -303,34 +355,42 @@
     "id": "item_537ad283b62953af",
     "type": "news",
     "title": "\"대체 손흥민한테 뭘 묻겠다는 건가\"... 日언론도 꼬집은 청문회 참고인...",
-    "summary": "신청했다\"고 해명 했다. 이어 \"이는 선수들에게 부담을 주기 위한 것이 아니라, 한국 축구의 발전을 위한 더... 국회 문화체육관광위원회는 축구협회 운영과 대표팀 감독 선임 과정을 따지기 위해 홍명보 전 한국 대표팀...",
+    "summary": "한국 축구 대표팀 손흥민(LAFC), 황희찬(울버햄프턴)을 대한축구 협회 청문회 참고인으로 부르려던 임오경... 축구 협회 운영과 대표팀 감독 선임 과정을 따지기 위해 홍명보 전 한국 대표팀 감독, 정몽규 전 축구협회장 등을...",
     "url": "https://www.starnewskorea.com/sports/2026/07/11/2026071121571834192",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/07/11/2026071121571834192",
     "publisher": "starnewskorea.com",
     "publishedAt": "2026-07-11T13:31:00.000Z",
     "collectedAt": "2026-07-11T14:10:36.819Z",
     "matchedKeywords": [
-      "축구협회",
+      "축구협회장",
       "감독 선임",
       "대표팀 감독",
       "감독",
       "선임",
-      "홍명보",
-      "해명"
+      "정몽규",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 해명",
+      "\"홍명보\" 해명",
+      "대한축구협회장",
+      "축구협회 해명"
     ],
     "issueTags": [
+      "election",
       "coach-appointment"
     ],
     "personTags": [
+      "person_chung_mong_gyu",
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 12,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "해명 키워드 포함"
+      "인물 언급"
     ]
   },
   {
@@ -362,7 +422,7 @@
     "id": "item_17c606cf944b277c",
     "type": "news",
     "title": "경찰, ‘홍명보 선임’ 당시 전강위 줄소환… 문체부 감사와 다른 결과...",
-    "summary": "없는 이임생 전 기술이사에게 추천권을 넘겼다. 이 전 이사는 다른 외국인 후보자들과 만난 후 전강위와 면접 내용 공유 없이 홍 감독을 최종 후보로 정하고 수락 답변까지 받아냈다. 당시 감사 를 진행한 최현준 감사 관은...",
+    "summary": "2026 북중미 월드컵 조별리그에서 탈락한 홍명보 전 대한민국 축구 국가대표팀 감독이 지난 6월 30일 인천국제공항 제2터미널을 통해 귀국하고 있다. 뉴시스 경찰로서는 문체부 감사 결과 이상의 것을 확인해야 하는...",
     "url": "https://www.segye.com/newsView/20260710518045?OutUrl=naver",
     "originalUrl": "https://www.segye.com/newsView/20260710518045?OutUrl=naver",
     "publisher": "segye.com",
@@ -371,15 +431,33 @@
     "matchedKeywords": [
       "문체부 감사",
       "감사",
-      "홍명보",
-      "이임생"
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 감사",
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 축구협회",
+      "\"이임생\" 감사",
+      "\"이임생\" 대한축구협회",
+      "\"이임생\" 축구협회",
+      "\"정몽규\" 감사",
+      "\"정몽규\" 대한축구협회",
+      "\"홍명보\" 감사",
+      "축구 혁신",
+      "축구협회 감독 후보",
+      "축구협회 감사",
+      "축구협회 문체부 감사",
+      "축구협회 문화체육관광부 감사",
+      "축구협회 부회장",
+      "축구협회 이사회",
+      "축구협회 혁신위원회",
+      "K-축구혁신위원회"
     ],
     "issueTags": [
       "mcst-audit"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
@@ -450,17 +528,21 @@
     ]
   },
   {
-    "id": "item_267e9b4b532c0bcc",
+    "id": "item_29aae25842a905bb",
     "type": "news",
     "title": "손흥민·황희찬 축협 청문회 참고인 신청 철회…임오경 \"선수들에 부담...",
-    "summary": "오는 22일 예정된 국회 문화체육관광위원회 대한축구협회 청문회에 손흥민(LAFC)과 황희찬(울버햄프턴)을 참고인으로 신청했던 임오경 더불어민주당 의원이 이를 철회했다. 국회 문체위 간사인 임 의원은 10일 페이스북에...",
-    "url": "https://www.pressian.com/pages/articles/2026071117482387934?utm_source=naver&utm_medium=search",
-    "originalUrl": "https://www.pressian.com/pages/articles/2026071117482387934?utm_source=naver&utm_medium=search",
+    "summary": "오는 22일 예정된 국회 문화체육관광 위원회 대한 축구협회 청문회에 손흥민(LAFC)과 황희찬(울버햄프턴)을... 임 의원은 그러나 \"현장의 선수 의견이 반영되지 않는 혁신 은 무의미하다\"며 \" 협회 와 국가대표팀, 해외 축구 ...",
+    "url": "https://www.pressian.com/pages/articles/2026071117482387934",
+    "originalUrl": "https://www.pressian.com/pages/articles/2026071117482387934",
     "publisher": "pressian.com",
     "publishedAt": "2026-07-11T09:31:00.000Z",
     "collectedAt": "2026-07-11T10:45:36.487Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한 축구협회"
+    ],
+    "discoveryQueries": [
+      "축구 혁신",
+      "축구협회 혁신위원회"
     ],
     "issueTags": [],
     "personTags": [],
@@ -473,15 +555,25 @@
     "id": "item_1f29dc5e6a7a23e3",
     "type": "news",
     "title": "[단독]이영표, 월드컵 청문회 ‘불참’…박지성도 ‘불투명’",
-    "summary": "앞서 국회는 혁신위로부터 대한 축구협회 와 축구 국가대표팀 운영 체계 등 개혁안을 확인하고 싶다며 이 위원 외에 박지성 ·유승민 공동위원장도 참고인에 포함시켰습니다. 박 위원장 역시 참석이 불투명한 것으로...",
+    "summary": "국회 문화체육관광위원회가 오는 22일 개최할 예정인 이른바 '월드컵 청문회'에 K- 축구혁신 위원회 소속 이영표 위원이 참석하지 못한다는 의사를 전달한 것으로 확인됐습니다. 이 위원 측은 채널A와 통화에서 \"국회가...",
     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000539203",
     "originalUrl": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000539203",
     "publisher": "ichannela.com",
     "publishedAt": "2026-07-11T08:23:00.000Z",
     "collectedAt": "2026-07-11T09:10:23.937Z",
     "matchedKeywords": [
-      "박지성",
-      "대한 축구협회"
+      "박지성"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 축구협회",
+      "\"정몽규\" 대한축구협회",
+      "대한축구협회장",
+      "축구 혁신",
+      "축구혁신위",
+      "축구협회 혁신위원회",
+      "축구협회 K-혁신위",
+      "K-축구혁신위원회"
     ],
     "issueTags": [],
     "personTags": [
@@ -489,7 +581,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 8,
     "labels": [
       "인물 언급"
     ]
@@ -498,7 +590,7 @@
     "id": "item_68a319f6cdb46752",
     "type": "news",
     "title": "'돈 많은 재력가' 정몽규라더니...축협서 13년간 고작 '이 정도' 썼다",
-    "summary": "위르겐 클린스만 전 대표팀 감독 선임에서 홍명보 전 대표팀 감독 선임까지 이어지는 일련의 과정에서 다양한 논란에 휩싸이기도 했다. 이번에 공개된 액수가 더욱 논란 거리가 되는 데에는 정 전 회장이 협회장 선거 ...",
+    "summary": "13년 넘게 대한축구협회 를 이끌었던 정몽규 전 대한축구협회 장이 재임 기간 개인 돈으로 협회 에 출연한 금액이 모두 3000만원인 것으로 확인됐다. 이로 인해 정 전 회장이 협회 장 선거 당시 재정 지원 능력을 강점으로...",
     "url": "https://www.wikitree.co.kr/articles/1145936",
     "originalUrl": "https://www.wikitree.co.kr/articles/1145936",
     "publisher": "wikitree.co.kr",
@@ -506,24 +598,23 @@
     "collectedAt": "2026-07-11T09:10:23.937Z",
     "matchedKeywords": [
       "정몽규",
-      "회장 선거",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "선임",
-      "홍명보"
+      "대한축구협회"
     ],
-    "issueTags": [
-      "election",
-      "coach-appointment"
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"홍명보\" 선거",
+      "축구협회 감독 후보",
+      "축구협회 회장 선거"
     ],
+    "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -532,7 +623,7 @@
     "id": "item_6c44c931741be36b",
     "type": "news",
     "title": "손흥민·황희찬 축구협회 청문회 참고인 신청한 與 임오경…논란 끝 신...",
-    "summary": "문체위는 정몽규 전 대한 축구협회 장, 홍명보 전 축구 국가대표팀 감독, 이임생 전 협회 기술총괄이사 등 13명을 증인으로 채택했다. 참고인 명단에는 박지성 K- 축구 혁신위원회 공동위원장과 유승민 K- 축구 혁신위원회...",
+    "summary": "문체위는 정몽규 전 대한 축구협회 장, 홍명보 전 축구 국가대표팀 감독, 이임생 전 협회 기술총괄이사 등 13명을 증인으로 채택했다. 참고인 명단에는 박지성 K- 축구 혁신위원회 공동위원장과 유승민 K- 축구 혁신위원회 ...",
     "url": "https://www.imaeil.com/page/view/2026071023080755809",
     "originalUrl": "https://www.imaeil.com/page/view/2026071023080755809",
     "publisher": "imaeil.com",
@@ -547,6 +638,25 @@
       "홍명보",
       "박지성",
       "이임생"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 대한축구협회",
+      "\"김병지\" 축구협회",
+      "\"김승희\" 대한축구협회",
+      "\"김승희\" 축구협회",
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 축구협회",
+      "\"이용수\" 대한축구협회",
+      "\"이용수\" 축구협회",
+      "\"이임생\" 대한축구협회",
+      "\"이임생\" 축구협회",
+      "\"전한진\" 대한축구협회",
+      "\"전한진\" 축구협회",
+      "축구 혁신",
+      "축구협회 부회장",
+      "축구협회 전무",
+      "축구협회 혁신위원회",
+      "K-축구혁신위원회"
     ],
     "issueTags": [
       "innovation-committee"
@@ -568,7 +678,7 @@
     "id": "item_ce457e900e1b8606",
     "type": "news",
     "title": "정몽규 前 회장도 약속했던 월드컵 상금 잭팟, 잉글랜드도 터진다! 우승...",
-    "summary": "정몽규 전 대한축구협회 장도 홍명보호가 토너먼트에 진출할 경우 별도 포상금 지급을 약속했던 가운데, 잉글랜드에서는 우승 시 선수단과 코칭스태프에게 초대형 보너스가 지급될 전망이다. 영국 매체 <가디언>은...",
+    "summary": "정몽규 전 대한축구협회장은 지난달 1일 대한축구협회( KFA )를 통해 \"월드컵 대표팀이 토너먼트를 통과할 때마다 포상금을 추가 지급하겠다\"라고 밝혔다. 32강 진출 시 10억 원, 16강 진출 시 20억 원, 8강 진출 시 30억...",
     "url": "https://www.besteleven.com/news/articleView.html?idxno=309790",
     "originalUrl": "https://www.besteleven.com/news/articleView.html?idxno=309790",
     "publisher": "besteleven.com",
@@ -577,17 +687,22 @@
     "matchedKeywords": [
       "정몽규",
       "대한축구협회",
-      "홍명보"
+      "KFA",
+      "축구협회장",
+      "대한축구협회장"
     ],
-    "issueTags": [],
+    "discoveryQueries": [
+      "KFA"
+    ],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -596,7 +711,7 @@
     "id": "item_4624ff97c117778d",
     "type": "news",
     "title": "정몽규 없는 정몽규 체제…축구협회는 달라질까",
-    "summary": "그럼에도 축협 측은 위법 및 부당한 업무처리가 확인됐다는 2024년 문화체육관광부 감사 결과에... 홍명보 감독 선임 국면에서는고려대 출신인 정몽규 전 회장, 이임생 전 기술총괄이사, 정해성 전 전력강화위원장이 모두...",
+    "summary": "축구협회는 그간 정몽규 전 대한축구협회장(HDC그룹 회장) 체제에서 홍명보 감독 선임 과정 등에서 절차적... 그럼에도 축협 측은 위법 및 부당한 업무처리가 확인됐다는 2024년 문화체육관광부 감사 결과에 행정소송으로...",
     "url": "http://weekly.chosun.com/news/articleView.html?idxno=53335",
     "originalUrl": "http://weekly.chosun.com/news/articleView.html?idxno=53335",
     "publisher": "weekly.chosun.com",
@@ -605,27 +720,66 @@
     "matchedKeywords": [
       "축구협회",
       "정몽규",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
       "문화체육관광부 감사",
       "감사",
       "감독 선임",
       "감독",
-      "전력강화위원",
       "선임",
-      "홍명보",
-      "이임생"
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 감사",
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "\"이임생\" 감사",
+      "\"이임생\" 대한축구협회",
+      "\"이임생\" 선거",
+      "\"이임생\" 축구협회",
+      "\"정몽규\" 감사",
+      "\"정몽규\" 선거",
+      "\"허정무\" 감사",
+      "\"허정무\" 대한축구협회",
+      "\"허정무\" 선거",
+      "\"허정무\" 축구협회",
+      "\"홍명보\" 감사",
+      "\"홍명보\" 선거",
+      "대한축구협회 지도자 제도",
+      "축구 혁신",
+      "축구혁신위",
+      "축구협회 감사",
+      "축구협회 규정 개정",
+      "축구협회 대의원",
+      "축구협회 문체부 감사",
+      "축구협회 문화체육관광부 감사",
+      "축구협회 부회장",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 임원",
+      "축구협회 전무",
+      "축구협회 정관",
+      "축구협회 정관 개정",
+      "축구협회 제도 개편",
+      "축구협회 혁신위원회",
+      "축구협회 회장 선거",
+      "축구협회 K-혁신위",
+      "K-축구혁신위원회"
     ],
     "issueTags": [
+      "election",
       "mcst-audit",
       "coach-appointment"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 44,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -680,7 +834,7 @@
     "id": "item_ed563a2c5a052851",
     "type": "news",
     "title": "\"기회 준 홍명보 감독, 협회에 감사하다\"… 한국 떠나는 페드루 로마 GK...",
-    "summary": "김태석 기자 홍명보 감독을 보좌하며 2026 FIFA 북중미 월드컵 본선에 임한 포르투갈 출신 페드루 로마 한국 축구 국가대표팀 골키퍼 코치가 큰 경험을 할 기회를 준 대한축구협회와 홍명보 감독에게 감사 하다는 말을 남겼다....",
+    "summary": "김태석 기자 홍명보 감독을 보좌하며 2026 FIFA 북중미 월드컵 본선에 임한 포르투갈 출신 페드루 로마 한국 축구 국가대표팀 골키퍼 코치가 큰 경험을 할 기회를 준 대한 축구협회 와 홍명보 감독에게 감사 하다는 말을 남겼다....",
     "url": "https://www.besteleven.com/news/articleView.html?idxno=309780",
     "originalUrl": "https://www.besteleven.com/news/articleView.html?idxno=309780",
     "publisher": "besteleven.com",
@@ -689,7 +843,11 @@
     "matchedKeywords": [
       "감사",
       "홍명보",
-      "대한축구협회"
+      "대한 축구협회"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 감사",
+      "축구협회 감사"
     ],
     "issueTags": [
       "mcst-audit"
@@ -709,16 +867,20 @@
     "id": "item_deca05ffa6bf5e20",
     "type": "news",
     "title": "\"일본은 성장하는데\"…韓 축구 '끝없는 추락' 국가로 선정→\"클린스만부...",
-    "summary": "또한 귀국 당시 대표팀 선수단이 공항에서 팬들의 거센 야유를 받았고, 당시 이재명 대통령이 홍명보 감독과 대한축구협회를 강하게 비판했으며 정부가 대한축구협회를 상대로 특별 감사 에 착수하는 등 후폭풍이...",
+    "summary": "또한 귀국 당시 대표팀 선수단이 공항에서 팬들의 거센 야유를 받았고, 당시 이재명 대통령이 홍명보 감독과 대한 축구협회 를 강하게 비판했으며 정부가 대한 축구협회 를 상대로 특별 감사 에 착수하는 등 후폭풍이...",
     "url": "https://www.xportsnews.com/article/2170840",
     "originalUrl": "https://www.xportsnews.com/article/2170840",
     "publisher": "xportsnews.com",
     "publishedAt": "2026-07-11T05:21:00.000Z",
     "collectedAt": "2026-07-11T07:26:58.190Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "대한 축구협회",
       "감사",
       "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 감사",
+      "축구협회 감사"
     ],
     "issueTags": [
       "mcst-audit"
@@ -769,7 +931,7 @@
     "id": "item_b08a1804425e16f8",
     "type": "news",
     "title": "'韓 축구 망친 장본인'... \"홍명보 고액 연봉 보장\"→'해외 도피성 취업...",
-    "summary": "홍명보 전 감독 선임 논란 당시 전권을 휘둘렀던 이임생 전 대한 축구협회 기술본부 총괄이사는 한국 축구 가 극심한 후폭풍에 직면한 와중에 사과 한마디 없이 캄보디아 프로 축구 나가월드FC의 테크니컬 디렉터직을 맡으며...",
+    "summary": "홍명보 전 감독 선임 논란 당시 전권을 휘둘렀던 이임생 전 대한축구협회 기술본부 총괄이사는 한국 축구 가... 이들을 포함해 이번 청문회 증인 무대에 반드시 서야 하는 명단은 총 13명으로 정몽규, 홍명보, 이임생, 이용수 ...",
     "url": "https://www.starnewskorea.com/sports/2026/07/11/2026071113133698772",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/07/11/2026071113133698772",
     "publisher": "starnewskorea.com",
@@ -777,22 +939,36 @@
     "collectedAt": "2026-07-11T07:26:58.190Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
+      "대한축구협회",
       "감독 선임",
       "감독",
       "선임",
-      "이임생"
+      "정몽규",
+      "이임생",
+      "이임생 전 대한축구협회"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 대한축구협회",
+      "\"김병지\" 축구협회",
+      "\"이용수\" 대한축구협회",
+      "\"이용수\" 축구협회",
+      "\"이임생\" 대한축구협회",
+      "\"이임생\" 축구협회",
+      "\"전한진\" 대한축구협회",
+      "\"전한진\" 축구협회",
+      "축구협회 부회장"
     ],
     "issueTags": [
       "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo",
+      "person_chung_mong_gyu",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -812,6 +988,10 @@
       "대한 축구협회",
       "임원",
       "부회장"
+    ],
+    "discoveryQueries": [
+      "축구협회 부회장",
+      "축구협회 임원"
     ],
     "issueTags": [
       "kfa-executives"
@@ -854,12 +1034,12 @@
     ]
   },
   {
-    "id": "item_948f6d635af076f4",
+    "id": "item_d1c363f04653f7fb",
     "type": "news",
     "title": "‘자금력’ 강조했던 정몽규…13년간 사재 출연 규모 살펴보니",
     "summary": "정몽규 전 대한축구협회장이 재임 기간 '재정 지원 능력'을 강조하며 표심 공략에 나섰지만 실제 개인... 실제 지난해 협회장 선거 당시 심판평가관 등 일부 관계자들의 통화 녹취록에는 기업인을 회장으로 선출해야...",
-    "url": "http://www.joseilbo.com/news/news_read.php?uid=571715&class=33&grp=",
-    "originalUrl": "http://www.joseilbo.com/news/news_read.php?uid=571715&class=33&grp=",
+    "url": "http://www.joseilbo.com/news/news_read.php?class=33&grp=&uid=571715",
+    "originalUrl": "http://www.joseilbo.com/news/news_read.php?class=33&grp=&uid=571715",
     "publisher": "joseilbo.com",
     "publishedAt": "2026-07-11T04:02:00.000Z",
     "collectedAt": "2026-07-11T04:47:34.252Z",
@@ -869,6 +1049,11 @@
       "축구협회장",
       "회장 선거",
       "대한축구협회장"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 선거",
+      "축구협회 임원",
+      "축구협회 회장 선거"
     ],
     "issueTags": [
       "election"
@@ -911,7 +1096,7 @@
     "id": "item_9c0e620479db3545",
     "type": "news",
     "title": "홍명보도 정몽규도 떠난 리더십 공백…박지성에 쏠린 시선",
-    "summary": "회의를 마친 뒤 박지성 위원장은 \"신뢰 회복을 위해 많은 축구인이 참여하고 민주적 절차에 따른 회장 선거 가 이뤄져야 한다는 데 모두 공감했다\"고 내용을 전했다. 정부와 대한체육회가 주도하는 직선제 형태의 선거 로...",
+    "summary": "이런 가운데 문체부가 주도한 ' K-축구 혁신위원회 '가 출범해 7월6일 첫 회의를 가졌다. 32강 탈락 후 이재명 대통령이 직접 SNS에 \"조직과 인사의 실패\"라고 꼬집자 최휘영 문체부 장관은 쇄신을 약속하며 \"전문가들로 하여금...",
     "url": "https://www.sisajournal.com/news/articleView.html?idxno=379139",
     "originalUrl": "https://www.sisajournal.com/news/articleView.html?idxno=379139",
     "publisher": "sisajournal.com",
@@ -921,10 +1106,32 @@
       "정몽규",
       "홍명보",
       "박지성",
-      "회장 선거"
+      "혁신위원회",
+      "축구 혁신"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "\"정몽규\" 선거",
+      "\"홍명보\" 선거",
+      "대한축구협회 유소년 육성 시스템",
+      "대한축구협회 유소년 정책",
+      "대한축구협회 유소년 제도",
+      "축구 혁신",
+      "축구혁신위",
+      "축구협회 대의원",
+      "축구협회 임원",
+      "축구협회 정관",
+      "축구협회 제도 개편",
+      "축구협회 집행부",
+      "축구협회 혁신위원회",
+      "축구협회 회장 선거",
+      "축구협회 K-혁신위",
+      "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election"
+      "innovation-committee"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -933,7 +1140,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -1020,7 +1227,7 @@
     "id": "item_c511c4f19610210a",
     "type": "news",
     "title": "‘홍명보 선임 의혹 수사’ 확대…전력강화위원들 잇따라 소환 [사건플...",
-    "summary": "2024년 문체부 특정 감사 등에 따르면 전력강화위원회는 당초 홍명보 전 감독과 외국인 후보 1명을 공동 1순위로 정했다. 하지만 정 전 위원장 사퇴 이후 추천 권한이 없는 이임생 전 기술총괄이사가 후속 절차를 맡아 홍 전...",
+    "summary": "홍명보 전 국가대표팀 감독 선임 과정에서 부당한 개입이 있었는지 수사하는 경찰이 대한 축구협회 전력강화위원회와 이사회 관계자들을 잇따라 불러 선임 과정 전반을 다시 들여다본다. 문화체육관광부 감사 와...",
     "url": "https://www.sedaily.com/article/20066478?ref=naver",
     "originalUrl": "https://www.sedaily.com/article/20066478?ref=naver",
     "publisher": "sedaily.com",
@@ -1030,24 +1237,36 @@
       "전력강화위원",
       "선임",
       "홍명보",
+      "대한 축구협회",
+      "문화체육관광부 감사",
       "감사",
+      "이사회",
+      "감독 선임",
+      "대표팀 감독",
       "전력강화위원회",
-      "감독",
-      "후보",
-      "이임생",
-      "사퇴"
+      "감독"
+    ],
+    "discoveryQueries": [
+      "\"이임생\" 감사",
+      "\"이임생\" 대한축구협회",
+      "\"이임생\" 축구협회",
+      "\"홍명보\" 감사",
+      "축구협회 감사",
+      "축구협회 문체부 감사",
+      "축구협회 문화체육관광부 감사",
+      "축구협회 이사회"
     ],
     "issueTags": [
       "coach-appointment",
-      "mcst-audit"
+      "mcst-audit",
+      "kfa-executives"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 41,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -1065,6 +1284,11 @@
     "collectedAt": "2026-07-11T04:47:34.252Z",
     "matchedKeywords": [
       "대한 축구협회",
+      "KFA"
+    ],
+    "discoveryQueries": [
+      "축구 혁신",
+      "축구협회 혁신위원회",
       "KFA"
     ],
     "issueTags": [],
@@ -1123,6 +1347,9 @@
       "전력강화위원",
       "지원자",
       "관심"
+    ],
+    "discoveryQueries": [
+      "KFA"
     ],
     "issueTags": [
       "coach-appointment"
@@ -1203,6 +1430,9 @@
       "홍명보",
       "해명"
     ],
+    "discoveryQueries": [
+      "\"홍명보\" 해명"
+    ],
     "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
@@ -1216,10 +1446,38 @@
     ]
   },
   {
+    "id": "item_c4c1cee28ca8de37",
+    "type": "news",
+    "title": "\"축구 개혁이 정치 쇼입니까\"… 여론 뭇매 맞은 임오경, 손흥민-황희찬...",
+    "summary": "대한 축구협회 현안 관련 청문회에 손흥민과 황희찬을 참고인으로 신청했던 결정을 거둬들이겠다고 공식... 한국 축구 의 발전을 위한 더 나은 청문회를 만들기 위한 고심의 결과였다\"고 해명 했다. 하지만 이내 \"당의 의견과...",
+    "url": "http://www.fnnews.com/news/202607110950563966",
+    "originalUrl": "http://www.fnnews.com/news/202607110950563966",
+    "publisher": "fnnews.com",
+    "publishedAt": "2026-07-11T00:54:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "해명"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 해명",
+      "축구협회 해명"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 8,
+    "relevanceTier": "secondary",
+    "labels": [
+      "해명 키워드 포함"
+    ]
+  },
+  {
     "id": "item_ee6ccfedcf012a4f",
     "type": "news",
     "title": "정몽규, '돈 있는 회장' 재력 내세우더니…13년간 3000만원?",
-    "summary": "정몽규 전 대한축구협회 회장이 13년 넘는 재임 기간 축구협회에 개인 돈으로 낸 출연금은 3000만원에 그친 것으로 나타났다. 재정 지원 능력을 강점으로 내세웠던 선거 당시 분위기와 실제 사재 출연 규모 사이에...",
+    "summary": "정 전 회장 은 재정 지원을 앞세워 축구협회 장 선거 표심을 공략했다. 지난해 1월에는 천안 축구 센터 건립을 위해 축구협회 에 50억원을 기부하겠다고 공약했다. 2026 북중미 월드컵을 앞두고는 한국 축구 대표팀이...",
     "url": "https://www.hankyung.com/article/2026071190837",
     "originalUrl": "https://www.hankyung.com/article/2026071190837",
     "publisher": "hankyung.com",
@@ -1227,7 +1485,11 @@
     "collectedAt": "2026-07-11T01:08:48.163Z",
     "matchedKeywords": [
       "정몽규",
-      "대한축구협회"
+      "축구협회"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 선거",
+      "축구협회 회장 선거"
     ],
     "issueTags": [],
     "personTags": [
@@ -1235,8 +1497,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
-    "relevanceTier": "secondary",
+    "relevanceScore": 11,
     "labels": [
       "인물 언급"
     ]
@@ -1257,6 +1518,9 @@
       "감독 선임",
       "감독",
       "선임"
+    ],
+    "discoveryQueries": [
+      "KFA"
     ],
     "issueTags": [
       "coach-appointment"
@@ -1285,6 +1549,10 @@
       "대한축구협회",
       "KFA"
     ],
+    "discoveryQueries": [
+      "축구협회 혁신위원회",
+      "KFA"
+    ],
     "issueTags": [],
     "personTags": [],
     "sourceType": "news",
@@ -1309,6 +1577,10 @@
       "임원",
       "부회장"
     ],
+    "discoveryQueries": [
+      "축구협회 부회장",
+      "축구협회 임원"
+    ],
     "issueTags": [
       "kfa-executives"
     ],
@@ -1327,7 +1599,7 @@
     "id": "item_55ca19561f2bf0f6",
     "type": "news",
     "title": "축구협회장 ‘부정선거 X 파일’…“정몽규 밀어주면 경기 배정·승급”",
-    "summary": "KBS 보도 이후 문화체육관광부는 축구협회 비위 관련 공익 제보센터를 설치하고 감사 착수를 검토하고 있다. [연관 기사] [단독] “ 정몽규 밀면, 경기 배정해줄게”…승급 언급에 노골적 지지 요청 https://news.kbs.co.kr...",
+    "summary": "■ \"정몽규 밀어주면 경기 배정·승급\"…대한 축구협회 장 부정선거 'X 파일' 55대 대한 축구협회 장 선거는... 다음 날 선거에서 정몽규 후보는 85% 득표율로 4선에 성공했고, 당시 집행부 이사였던 문진희 씨는...",
     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8608205&ref=A",
     "originalUrl": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8608205&ref=A",
     "publisher": "news.kbs.co.kr",
@@ -1336,22 +1608,32 @@
     "matchedKeywords": [
       "축구협회장",
       "정몽규",
-      "축구협회",
-      "감사"
+      "대한 축구협회",
+      "집행부"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 감사",
+      "\"정몽규\" 선거",
+      "축구협회 문화체육관광부 감사",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 임원",
+      "축구협회 집행부",
+      "축구협회 투표권",
+      "축구협회 회장 선거"
     ],
     "issueTags": [
       "election",
-      "mcst-audit"
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 41,
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ]
   }
 ]

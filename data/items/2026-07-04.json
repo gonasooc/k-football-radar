@@ -3,7 +3,7 @@
     "id": "item_1d846b3f214ea36a",
     "type": "news",
     "title": "축구협회 '카르텔' 깰 수 있나…직선제 도입 '산 넘어 산'[한국축구 개혁...",
-    "summary": "정 회장과 55대 축구협회장 선거 에서 후보로 경쟁했던 허정무 전 축구 대표팀 감독은 \"'엉터리 선거 '를 하면 또 그대로 갈 것이다. 단 5~6개월이라도 시간을 갖고 잘못돼 온 것들과 앞으로 해야 할 것들을 세심하게 따지면서...",
+    "summary": "개혁의 시작은 대한축구협회 장 선거 제도 변경이라는 의견이 지배적이다. 정몽규 회장은 지난 2013년 처음... 정 회장과 55대 축구협회 장 선거에서 후보로 경쟁했던 허정무 전 축구 대표팀 감독은 \"'엉터리 선거'를 하면 또...",
     "url": "https://www.newsis.com/view/NISX20260703_0003695049",
     "originalUrl": "https://www.newsis.com/view/NISX20260703_0003695049",
     "publisher": "newsis.com",
@@ -11,23 +11,60 @@
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
       "축구협회",
-      "축구협회장",
-      "회장 선거",
+      "대한축구협회",
       "대표팀 감독",
       "감독",
       "후보",
+      "정몽규",
       "허정무"
     ],
+    "discoveryQueries": [
+      "\"허정무\" 대한축구협회",
+      "\"허정무\" 선거",
+      "\"허정무\" 축구협회"
+    ],
     "issueTags": [
-      "election",
       "coach-appointment"
     ],
     "personTags": [
+      "person_chung_mong_gyu",
       "person_huh_jung_moo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 26,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_60c50fb73a9f5e15",
+    "type": "news",
+    "title": "홍명보는 끝났지만, 기득권은 살아남았다",
+    "summary": "홍명보는 이후 대한축구협회 (KFA) 전무이사로 3년 있었다. 홍명보는 KFA 행정을 총괄하는 전무이사를 맡기 전까지 선수, 지도자 경력만 있던 사람이었다. 한국 축구 계는 그런 홍명보에게 행정 총괄 권한을 쥐여줬다....",
+    "url": "http://weekly.chosun.com/news/articleView.html?idxno=53133",
+    "originalUrl": "http://weekly.chosun.com/news/articleView.html?idxno=53133",
+    "publisher": "weekly.chosun.com",
+    "publishedAt": "2026-07-04T19:00:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "홍명보",
+      "대한축구협회",
+      "KFA",
+      "전무"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 지도자 자격"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -48,6 +85,9 @@
       "조사 결과",
       "정몽규",
       "해명"
+    ],
+    "discoveryQueries": [
+      "축구협회 조사 결과"
     ],
     "issueTags": [
       "mcst-audit"
@@ -104,6 +144,9 @@
       "홍명보",
       "축구협회"
     ],
+    "discoveryQueries": [
+      "축구협회 조사 결과"
+    ],
     "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
@@ -119,7 +162,7 @@
     "id": "item_44e5e3beb67e0128",
     "type": "news",
     "title": "왜 홍명보였을까… ‘축구인’들의 쇄국정책이 문제다",
-    "summary": "국제축구연맹(FIFA) 평의원 선거 에서 낙선한 정 회장의 입지는 좁았고, 4선을 위해서는 국내 축구인들의 지지를 받아야 했다. 이임생 기술이사가 독단적으로 홍명보 감독 선임을 밀어붙일 수 있었던 배경이다. 그는 선임...",
+    "summary": "당시 대표팀 감독 선임을 맡았던 대한 축구협회 전력강화위원회(전강위) 박주호 위원(2014·2018 월드컵... 선출한 ‘ 축구 인’들이 투표권 을 들고 있는 한, 팬을 기만하는 그들만의 축구 는 계속된다. 지금 이 순간에도 ‘욕...",
     "url": "https://h21.hani.co.kr/arti/society/society_general/59553.html",
     "originalUrl": "https://h21.hani.co.kr/arti/society/society_general/59553.html",
     "publisher": "h21.hani.co.kr",
@@ -127,18 +170,62 @@
     "collectedAt": "2026-07-08T01:00:19.012Z",
     "matchedKeywords": [
       "홍명보",
+      "대한 축구협회",
+      "투표권",
       "감독 선임",
+      "대표팀 감독",
+      "전력강화위원회",
       "감독",
+      "전력강화위원",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "\"이임생\" 선거",
+      "축구협회 투표권"
+    ],
+    "issueTags": [
+      "electoral-college",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 22,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_a363cce3c9bab653",
+    "type": "news",
+    "title": "미국 출국 홍명보 \"한국 돌아올 생각 없다\"",
+    "summary": "선수와 지도자 시절 제기됐던 각종 의혹도 다시 회자되고 있다. 가장 큰 논란은 2024년 국가대표팀 감독 선임 과정이었다. 당시 대한축구협회 는 위르겐 클린스만 전 감독 후임을 선임하면서 국가대표전력강화위원회...",
+    "url": "https://www.newscj.com/news/articleView.html?idxno=3414447",
+    "originalUrl": "https://www.newscj.com/news/articleView.html?idxno=3414447",
+    "publisher": "newscj.com",
+    "publishedAt": "2026-07-04T04:16:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "홍명보",
+      "대한축구협회",
+      "감독 선임",
+      "대표팀 감독",
+      "전력강화위원회",
+      "감독",
+      "전력강화위원",
       "선임",
-      "이임생",
-      "이임생 기술이사"
+      "후임"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 지도자 자격"
     ],
     "issueTags": [
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
@@ -151,7 +238,7 @@
     "id": "item_f4f2e52fe45b47d0",
     "type": "news",
     "title": "'사퇴' 홍명보 뒤에 숨은 축협...인적 쇄신 없이 새 감독 선임 '강행'",
-    "summary": "이러한 상황에서 문화체육관광부와 대한체육회는 체육 행정 개혁의 일환으로 차기 회장 선거 를 직선제로... 현재 전력강화위원회는 지난해 5월 위촉된 현영민 위원장을 비롯해 총 7명으로 구성되어 있으며 협회는...",
+    "summary": "반면 월드컵 실패의 책임이 큰 대한축구협회 집행부는 별다른 인적 쇄신 움직임을 보이지 않고 있다. 홍 전... 현재 전력강화위원회는 지난해 5월 위촉된 현영민 위원장을 비롯해 총 7명으로 구성되어 있으며 협회 는...",
     "url": "https://www.insight.co.kr/news/561514",
     "originalUrl": "https://www.insight.co.kr/news/561514",
     "publisher": "insight.co.kr",
@@ -163,13 +250,22 @@
       "선임",
       "홍명보",
       "사퇴",
-      "회장 선거",
+      "대한축구협회",
+      "집행부",
       "현영민",
       "현영민 위원장"
     ],
+    "discoveryQueries": [
+      "\"허정무\" 대한축구협회",
+      "\"허정무\" 선거",
+      "\"허정무\" 축구협회",
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 선거",
+      "\"현영민\" 축구협회"
+    ],
     "issueTags": [
       "coach-appointment",
-      "election"
+      "kfa-executives"
     ],
     "personTags": [
       "person_hong_myung_bo",
@@ -177,7 +273,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급"
     ]
@@ -186,7 +282,7 @@
     "id": "item_2796912ef6d608fa",
     "type": "news",
     "title": "아무도 사퇴 안 하고 '홍명보 후임' 선임하겠다는 대한축구협회",
-    "summary": "여기에 문화체육관광부와 대한체육회가 차기 회장 선거 를 직선제로 바꾸기 위해 회원종목단체 규정 개정에... 전강위는 지난해 5월 현영민 국가대표전력강화위원장을 포함해 김호영, 김도균, 김은중, 이미연, 전가을...",
+    "summary": "전강위는 지난해 5월 현영민 국가대표전력강화위원장을 포함해 김호영, 김도균, 김은중, 이미연, 전가을, 김종진 등 총 7명으로 구성했다. 대한축구협회 는 이들이 규정에 따라 북중미 월드컵을 앞둔 5월 재위촉 동의를...",
     "url": "https://www.news1.kr/sports/soccer/6217698",
     "originalUrl": "https://www.news1.kr/sports/soccer/6217698",
     "publisher": "news1.kr",
@@ -196,21 +292,24 @@
       "대한축구협회",
       "홍명보",
       "사퇴",
-      "회장 선거",
-      "규정 개정",
       "현영민"
     ],
-    "issueTags": [
-      "election",
-      "statute-revision"
+    "discoveryQueries": [
+      "\"허정무\" 대한축구협회",
+      "\"허정무\" 선거",
+      "\"허정무\" 축구협회",
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 선거",
+      "\"현영민\" 축구협회"
     ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo",
       "person_hyun_young_min"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 44,
+    "relevanceScore": 42,
     "labels": [
       "인물 언급"
     ]
@@ -219,7 +318,7 @@
     "id": "item_286d9cc46e9eb827",
     "type": "news",
     "title": "축구협회 “월드컵 결과 진심으로 사과”…전강위, 감독 선임 첫 회의",
-    "summary": "현재 전강위는 지난해 5월 현영민 위원장을 비롯해 위원을 선임했습니다. 이들은 협회 규정에 따라 지난 5월 재위촉 동의를 거쳐 연임을 완료했습니다. 축구협회는 차기 회장 선거 와 관련해서도 \"다각적이고 깊이 있는...",
+    "summary": "대한축구협회 가 2026 국제 축구 연맹(FIFA) 북중미 월드컵 성적 부진으로 사퇴한 홍명보 전 축구 대표팀 감독의... 현재 전강위는 지난해 5월 현영민 위원장을 비롯해 위원을 선임했습니다. 이들은 협회 규정에 따라 지난 5월...",
     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000537935",
     "originalUrl": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000537935",
     "publisher": "ichannela.com",
@@ -227,19 +326,25 @@
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
       "축구협회",
-      "회장 선거",
+      "대한축구협회",
+      "홍명보",
       "현영민",
-      "현영민 위원장"
+      "현영민 위원장",
+      "사퇴"
     ],
-    "issueTags": [
-      "election"
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 선거",
+      "\"현영민\" 축구협회"
     ],
+    "issueTags": [],
     "personTags": [
+      "person_hong_myung_bo",
       "person_hyun_young_min"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ]
@@ -248,7 +353,7 @@
     "id": "item_bec1c88dba4c97d6",
     "type": "news",
     "title": "'32강 참사' 고개 숙인 축협...홍명보 후임 감독 선임 돌입",
-    "summary": "전강위는 지난해 5월 현영민 위원장을 포함한 위원진을 선임했으며, 올해 5월 협회 규정에 따라 재위촉 동의 절차를 거쳐 연임을 확정했다. 한편 축구협회는 차기 회장 선거 에 대해서도 다각적이고 심도 있는 검토를 진행...",
+    "summary": "대한축구협회 가 2026 FIFA 북중미 월드컵 32강 탈락 후 사퇴한 홍명보 전 감독의 후임을 선임하기 위한... 전강위는 지난해 5월 현영민 위원장을 포함한 위원진을 선임했으며, 올해 5월 협회 규정에 따라 재위촉 동의 절차를...",
     "url": "https://www.insight.co.kr/news/561496",
     "originalUrl": "https://www.insight.co.kr/news/561496",
     "publisher": "insight.co.kr",
@@ -260,14 +365,18 @@
       "선임",
       "후임",
       "홍명보",
-      "축구협회",
-      "회장 선거",
+      "대한축구협회",
       "현영민",
-      "현영민 위원장"
+      "현영민 위원장",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 선거",
+      "\"현영민\" 축구협회"
     ],
     "issueTags": [
-      "coach-appointment",
-      "election"
+      "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo",
@@ -275,7 +384,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급"
     ]
@@ -284,7 +393,7 @@
     "id": "item_216513f26d78e37e",
     "type": "news",
     "title": "'회장 없는' 축구협회, 대표팀 감독 선임 논의 시작",
-    "summary": "축구협회는 3일 \"전력강화위원회가 감독 공석 상황에 대한 처 회의를 진행했다\"며 \"A매치 일정, 선거 일정... 축구협회는 지난해 5월 현영민 위원장을 포함해 총 7명으로 구성된 전강위를 선임했다. 협회 분과위원의 임기는...",
+    "summary": "/ 대한축구협회 제공 | 서울=한스경제 신희재 기자 | 대한축구협회 가 수장이 없는 상태에서도 대표팀 감독... 축구협회 는 지난해 5월 현영민 위원장을 포함해 총 7명으로 구성된 전강위를 선임했다. 협회 분과위원의 임기는...",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=848235",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=848235",
     "publisher": "hansbiz.co.kr",
@@ -292,8 +401,14 @@
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
       "축구협회",
+      "대한축구협회",
       "현영민",
       "현영민 위원장"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 선거",
+      "\"현영민\" 축구협회"
     ],
     "issueTags": [],
     "personTags": [
@@ -301,10 +416,34 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 19,
     "labels": [
       "인물 언급"
     ]
+  },
+  {
+    "id": "item_f480159f862027dc",
+    "type": "news",
+    "title": "국민의힘, 윤리위 가동 장동혁·정점식 내부 이견...지도부 위기 고조",
+    "summary": "및 대한축구협회 논란) 먼저, 김승수 원내운영수석부대표는 여당이 단독 강행 처리한... “분열의 지도자 가 끼치는 해악이 우리 미래 세대를 고통스럽게 하고 있다”고 일축했다....",
+    "url": "http://www.breaknews.com/1219187",
+    "originalUrl": "http://www.breaknews.com/1219187",
+    "publisher": "breaknews.com",
+    "publishedAt": "2026-07-04T00:28:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 지도자 자격"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_f64737c82c77c9cf",
@@ -343,6 +482,68 @@
       "인물 언급",
       "해명 키워드 포함",
       "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_873918b271003777",
+    "type": "news",
+    "title": "박지성 앞세운 'K-축구 혁신위' 출범…한국 축구 싹 바꾼다",
+    "summary": "제도 개선 방안을 논의하며 본격적인 활동에 들어간다고 밝혔다. 혁신위에는 최 장관과 박 위원을 비롯해 이영표·박주호 해설위원, 유승민 대한체육회 회장, 김승희 대한 축구 협회 전무이사, 조연상 한국프로축구연맹 ...",
+    "url": "http://weekly.chosun.com/news/articleView.html?idxno=53174",
+    "originalUrl": "http://weekly.chosun.com/news/articleView.html?idxno=53174",
+    "publisher": "weekly.chosun.com",
+    "publishedAt": "2026-07-04T00:15:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "축구 혁신",
+      "박지성",
+      "한국프로축구연맹"
+    ],
+    "discoveryQueries": [
+      "한국프로축구연맹 유소년 제도"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 24,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_51b013f461fdf1e4",
+    "type": "news",
+    "title": "축구계 \"정몽규·홍명보 퇴진 만으론 안돼…학연 청산이 개혁 출발점\"",
+    "summary": "2026 북중미 월드컵 조별리그 탈락은 단순한 성적 부진이 아니라 대한축구협회 (KFA) 운영 시스템 전반의 파산... 지도자 자격 심사와 대표팀 코칭스태프 선발 과정을 학연이 아닌 공인된 지도자 자격 증과 실적 중심으로...",
+    "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=846061",
+    "originalUrl": "https://www.newsworks.co.kr/news/articleView.html?idxno=846061",
+    "publisher": "newsworks.co.kr",
+    "publishedAt": "2026-07-04T00:00:00.000Z",
+    "collectedAt": "2026-07-13T08:36:18.334Z",
+    "matchedKeywords": [
+      "정몽규",
+      "홍명보",
+      "대한축구협회",
+      "KFA"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 지도자 자격"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 22,
+    "labels": [
+      "인물 언급"
     ]
   }
 ]
