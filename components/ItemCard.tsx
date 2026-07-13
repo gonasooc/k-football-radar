@@ -26,6 +26,7 @@ type ItemCardProps = {
     | "issueTags"
     | "personTags"
     | "sourceType"
+    | "relevanceScore"
     | "relevanceTier"
     | "labels"
   >;
@@ -88,13 +89,22 @@ export function ItemCard({
     </div>
   );
 
-  const tagRow = allTags.length ? (
-    <div className="flex min-w-0 flex-wrap gap-1.5">
+  const tagRow = (
+    <div className="flex min-w-0 flex-wrap items-center gap-1.5">
       {allTags.slice(0, tagLimit).map((tag) => (
         <span key={tag.id}>{tag.node}</span>
       ))}
+      <span
+        aria-label={`관련도 ${item.relevanceScore}점`}
+        className="inline-flex items-baseline gap-1 whitespace-nowrap text-[11px] font-semibold text-muted"
+      >
+        <span>관련도</span>
+        <span className="metric-tabular font-black text-ink-soft">
+          {item.relevanceScore}
+        </span>
+      </span>
     </div>
-  ) : null;
+  );
 
   if (variant === "compact") {
     return (
@@ -119,7 +129,7 @@ export function ItemCard({
           <p className="mt-3 line-clamp-2 text-sm font-medium leading-6 text-summary">
             <HighlightedText query={highlightQuery} text={item.summary} />
           </p>
-          {tagRow ? <div className="mt-auto pt-4">{tagRow}</div> : null}
+          <div className="mt-auto pt-4">{tagRow}</div>
         </div>
       </article>
     );
@@ -147,7 +157,7 @@ export function ItemCard({
         <p className="mt-2 line-clamp-2 text-sm font-medium leading-6 text-summary">
           <HighlightedText query={highlightQuery} text={item.summary} />
         </p>
-        {tagRow ? <div className="mt-3">{tagRow}</div> : null}
+        <div className="mt-3">{tagRow}</div>
       </div>
     </article>
   );

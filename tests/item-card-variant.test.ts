@@ -44,8 +44,21 @@ describe("ItemCard variants", () => {
     assert.doesNotMatch(itemCardSource, /dangerouslySetInnerHTML/);
   });
 
-  it("removes repeated collection diagnostics from article rows", () => {
-    assert.doesNotMatch(itemCardSource, /관련도 \{item\.relevanceScore\}/);
+  it("keeps a minimal relevance score beside the issue and person tags", () => {
+    const metadataRowSource = itemCardSource.slice(
+      itemCardSource.indexOf("const metadataRow"),
+      itemCardSource.indexOf("const tagRow")
+    );
+    const tagRowSource = itemCardSource.slice(
+      itemCardSource.indexOf("const tagRow"),
+      itemCardSource.indexOf('if (variant === "compact")')
+    );
+
+    assert.doesNotMatch(metadataRowSource, /relevanceScore/);
+    assert.match(tagRowSource, /flex min-w-0 flex-wrap items-center gap-1\.5/);
+    assert.match(tagRowSource, /관련도 \$\{item\.relevanceScore\}점/);
+    assert.match(tagRowSource, /\{item\.relevanceScore\}/);
+    assert.match(tagRowSource, /metric-tabular font-black text-ink-soft/);
     assert.doesNotMatch(itemCardSource, /감지 키워드/);
     assert.doesNotMatch(itemCardSource, /formatDateTime/);
   });
