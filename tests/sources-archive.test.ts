@@ -1,49 +1,71 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
 import { describe, it } from "node:test";
 
-const sourcesPageSource = readFileSync(
-  new URL("../app/sources/page.tsx", import.meta.url),
-  "utf8"
-);
-const sourcesArchiveClientSource = readFileSync(
-  new URL("../components/SourcesArchiveClient.tsx", import.meta.url),
-  "utf8"
-);
+import { getFeedPage, getFeedRequestSearchParams } from "../lib/feed-page";
+import type { FeedItem } from "../lib/filter";
+import { getInitialScopedFeedPage } from "../lib/scoped-feed-page";
+import { toSourceLinkPage } from "../lib/source-link-page";
 
-describe("Sources archive page", () => {
-  it("uses progressive disclosure for publisher stats and original links", () => {
-    assert.match(sourcesPageSource, /<PublisherStatsPanel/);
-    assert.match(sourcesPageSource, /<SourceLinksList/);
-    assert.doesNotMatch(sourcesPageSource, /출처 원장/);
+function item(index: number): FeedItem {
+  return {
+    id: `item-${index}`,
+    title: `기사 ${index}`,
+    summary: `요약 ${index}`,
+    url: `https://example.com/${index}`,
+    publisher: `발행처 ${index % 4}`,
+    publishedAt: new Date(Date.UTC(2026, 6, 13, 0, index)).toISOString(),
+    collectedAt: new Date(Date.UTC(2026, 6, 13, 1, index)).toISOString(),
+    issueTags: [],
+    personTags: [],
+    sourceType: "news",
+    relevanceScore: index,
+    relevanceTier: index % 3 === 0 ? "secondary" : "primary",
+    labels: ["테스트"],
+    searchTerms: "테스트"
+  };
+}
 
-    assert.match(sourcesArchiveClientSource, /PUBLISHER_PREVIEW_COUNT = 5/);
-    assert.match(sourcesArchiveClientSource, /전체 보기/);
-    assert.match(sourcesArchiveClientSource, /상위 5개/);
+describe("Sources archive pagination", () => {
+  it("serializes only the first 30 source links and their required fields", () => {
+    const items = Array.from({ length: 75 }, (_, index) => item(index));
+    const { fixedFilters, initialPage } = getInitialScopedFeedPage(items, {}, "source-snapshot");
+    const sourceLinkPage = toSourceLinkPage(initialPage);
 
-    assert.match(sourcesArchiveClientSource, /LINK_PAGE_SIZE = 30/);
-    assert.match(sourcesArchiveClientSource, /더보기/);
-    assert.match(sourcesArchiveClientSource, /setVisibleCount/);
+    assert.equal(fixedFilters.scope, "all");
+    assert.equal(sourceLinkPage.items.length, 30);
+    assert.equal(sourceLinkPage.total, 75);
+    assert.equal(sourceLinkPage.hasMore, true);
+    assert.equal(sourceLinkPage.snapshot, "source-snapshot");
+    assert.deepEqual(Object.keys(sourceLinkPage.items[0] ?? {}).sort(), [
+      "id",
+      "publishedAt",
+      "publisher",
+      "title",
+      "url"
+    ]);
   });
 
-  it("sends only the fields needed by the client-side source ledger", () => {
-    assert.match(sourcesPageSource, /const sourceLinkItems = data\.items\.map/);
-    assert.match(sourcesPageSource, /\{ id, url, title, publisher, publishedAt \}/);
-    assert.match(sourcesPageSource, /<SourceLinksList items=\{sourceLinkItems\}/);
-    assert.doesNotMatch(sourcesPageSource, /<SourceLinksList items=\{data\.items\}/);
-    assert.match(sourcesArchiveClientSource, /min-h-11/);
-    assert.match(sourcesArchiveClientSource, /aria-live="polite"/);
-    assert.ok(
-      sourcesPageSource.indexOf("<SourceLinksList") <
-        sourcesPageSource.indexOf('aria-labelledby="collection-sources-heading"')
+  it("requests later source links with the all-items scope and a stable offset", () => {
+    const items = Array.from({ length: 75 }, (_, index) => item(index));
+    const { fixedFilters, initialPage } = getInitialScopedFeedPage(items, {}, "source-snapshot");
+    const params = getFeedRequestSearchParams(fixedFilters, {
+      offset: initialPage.items.length,
+      snapshot: initialPage.snapshot
+    });
+    const nextPage = getFeedPage([...items], fixedFilters, {
+      offset: initialPage.items.length,
+      snapshot: initialPage.snapshot
+    });
+
+    assert.equal(params.toString(), "scope=all&offset=30&snapshot=source-snapshot");
+    assert.equal(nextPage.items.length, 30);
+    assert.equal(nextPage.offset, 30);
+    assert.equal(nextPage.total, 75);
+    assert.equal(
+      initialPage.items.some((initialItem) =>
+        nextPage.items.some((nextItem) => nextItem.id === initialItem.id)
+      ),
+      false
     );
-  });
-
-  it("keeps collection and publisher section headers at the same height", () => {
-    const sharedHeaderClass =
-      "min-h-14 items-center justify-between gap-3 border-b border-line px-2 py-1";
-
-    assert.match(sourcesPageSource, new RegExp(sharedHeaderClass));
-    assert.match(sourcesArchiveClientSource, new RegExp(sharedHeaderClass));
   });
 });

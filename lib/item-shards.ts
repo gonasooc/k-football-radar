@@ -1,5 +1,5 @@
 import { existsSync, readdirSync, readFileSync, type Dirent } from "node:fs";
-import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import { sortItemsLatestFirst } from "./dedupe";
@@ -33,6 +33,18 @@ function parseItemShard(raw: string, shardPath: string): RadarItem[] {
 
 function formatItems(items: RadarItem[]): string {
   return `${JSON.stringify(items, null, 2)}\n`;
+}
+
+async function writeFileAtomically(filePath: string, content: string): Promise<void> {
+  const temporaryPath = `${filePath}.${process.pid}.${crypto.randomUUID()}.tmp`;
+
+  try {
+    await writeFile(temporaryPath, content, "utf8");
+    await rename(temporaryPath, filePath);
+  } catch (error) {
+    await rm(temporaryPath, { force: true }).catch(() => undefined);
+    throw error;
+  }
 }
 
 export function getItemShardDate(item: Pick<RadarItem, "id" | "publishedAt">): string {
@@ -108,12 +120,6 @@ export async function writeItemShards(
     .map((entry) => entry.name);
 
   await Promise.all(
-    existingFilenames
-      .filter((filename) => !expectedFilenames.has(filename))
-      .map((filename) => rm(path.join(itemsDir, filename)))
-  );
-
-  await Promise.all(
     Array.from(itemsByShard.entries(), async ([shardDate, shardItems]) => {
       const shardPath = path.join(itemsDir, `${shardDate}.json`);
       const formatted = formatItems(shardItems);
@@ -128,7 +134,13 @@ export async function writeItemShards(
         }
       }
 
-      await writeFile(shardPath, formatted, "utf8");
+      await writeFileAtomically(shardPath, formatted);
     })
+  );
+
+  await Promise.all(
+    existingFilenames
+      .filter((filename) => !expectedFilenames.has(filename))
+      .map((filename) => rm(path.join(itemsDir, filename)))
   );
 }

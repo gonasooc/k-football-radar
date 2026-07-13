@@ -6,32 +6,45 @@ const feedClientSource = readFileSync(
   new URL("../components/FeedClient.tsx", import.meta.url),
   "utf8"
 );
+const feedApiSource = readFileSync(new URL("../lib/feed-api.ts", import.meta.url), "utf8");
 const filterSource = readFileSync(new URL("../lib/filter.ts", import.meta.url), "utf8");
+const homePageSource = readFileSync(new URL("../app/page.tsx", import.meta.url), "utf8");
 const loadingSkeletonsSource = readFileSync(
   new URL("../components/LoadingSkeletons.tsx", import.meta.url),
   "utf8"
 );
 
 describe("FeedClient performance", () => {
-  it("debounces search and limits rendered feed items", () => {
+  it("debounces search and requests bounded result pages", () => {
     assert.match(feedClientSource, /SEARCH_DEBOUNCE_MS = 250/);
     assert.match(feedClientSource, /window\.setTimeout/);
     assert.match(feedClientSource, /setQuery\(searchInput\.trim\(\)\)/);
     assert.match(feedClientSource, /window\.clearTimeout/);
 
-    assert.match(feedClientSource, /FEED_PAGE_SIZE = 30/);
-    assert.match(feedClientSource, /visibleItems/);
-    assert.match(feedClientSource, /setVisibleCount/);
+    assert.match(feedClientSource, /DEFAULT_FEED_PAGE_SIZE/);
+    assert.match(feedClientSource, /import \{ fetchFeedPage \} from "@\/lib\/feed-api"/);
+    assert.match(feedApiSource, /fetch\(`\/api\/feed\?/);
+    assert.match(feedClientSource, /results\.items/);
+    assert.match(feedClientSource, /if \(isLoadingMore \|\| isResultsPending \|\| !results\.hasMore\)/);
+    assert.match(feedClientSource, /snapshot: requestedSnapshot/);
+    assert.match(feedClientSource, /loadMoreRequestId\.current !== requestId/);
+    assert.match(feedClientSource, /setIsLoadingMore\(false\)/);
     assert.match(feedClientSource, /더보기/);
     assert.match(feedClientSource, /MemoizedItemCard/);
+    assert.match(homePageSource, /const initialPage = getFeedPage\(/);
+    assert.doesNotMatch(homePageSource, /items=\{feedItems\}/);
   });
 
-  it("keeps filter state shareable in the page URL", () => {
-    assert.match(feedClientSource, /URLSearchParams/);
+  it("server-renders shared filters and keeps later changes in the page URL", () => {
+    assert.match(feedClientSource, /useSearchParams\(\)/);
+    assert.match(feedClientSource, /lastObservedRouteFilterKey/);
+    assert.match(feedClientSource, /setTypeFilter\(routeFilters\.type\)/);
+    assert.match(feedClientSource, /setSearchInput\(routeFilters\.query\)/);
     assert.match(feedClientSource, /window\.history\.replaceState/);
-    assert.match(feedClientSource, /getFeedFiltersFromSearchParams/);
-    assert.match(feedClientSource, /isUrlInitialized/);
-    assert.match(feedClientSource, /params\.set\("q", filters\.query\)/);
+    assert.match(feedClientSource, /initialFilters: FeedFilters/);
+    assert.match(homePageSource, /getFeedFiltersFromSearchParams\(await searchParams/);
+    assert.match(homePageSource, /initialFilters=\{initialFilters\}/);
+    assert.match(homePageSource, /snapshot: data\.collectionState\.lastCollectedAt/);
   });
 
   it("makes search progress visible even when the result count barely changes", () => {
@@ -46,8 +59,8 @@ describe("FeedClient performance", () => {
       feedClientSource,
       /metric-tabular flex min-w-0 flex-wrap items-center gap-y-1.*leading-5/
     );
-    assert.match(feedClientSource, /aria-busy=\{isSearchPending\}/);
-    assert.match(feedClientSource, /isSearchPending \? \(\s*<FeedResultsSkeleton/);
+    assert.match(feedClientSource, /aria-busy=\{isResultsPending \|\| isLoadingMore\}/);
+    assert.match(feedClientSource, /isResultsPending \? \(\s*<FeedResultsSkeleton/);
     assert.match(loadingSkeletonsSource, /aria-hidden="true"/);
     assert.match(loadingSkeletonsSource, /data-feed-results-skeleton="true"/);
     assert.match(loadingSkeletonsSource, /motion-safe:animate-pulse/);

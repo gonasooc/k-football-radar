@@ -79,6 +79,11 @@ describe("ItemCard variants", () => {
     assert.match(feedClientSource, /aria-expanded=\{showScopeHelp\}/);
     assert.match(feedClientSource, /aria-describedby=\{showScopeHelp \? SCOPE_HELP_ID : undefined\}/);
     assert.match(feedClientSource, /role="tooltip"/);
+    assert.match(feedClientSource, /event\.key === "Escape"/);
+    assert.match(feedClientSource, /onKeyDown=\{closeScopeHelpOnEscape\}/);
+    assert.match(feedClientSource, /onFocus=\{\(\) => setShowScopeHelp\(true\)\}/);
+    assert.match(feedClientSource, /onClick=\{\(\) => setShowScopeHelp\(true\)\}/);
+    assert.match(feedClientSource, /onBlur=\{\(\) => setShowScopeHelp\(false\)\}/);
     assert.match(feedClientSource, /absolute right-0 top-10 z-40/);
     assert.doesNotMatch(feedClientSource, /mt-3 max-w-3xl border-t border-line/);
     assert.match(feedClientSource, /주요는 관련도가 높은 기본 수집 항목만 보여줍니다/);

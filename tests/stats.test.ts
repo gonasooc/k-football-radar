@@ -1,6 +1,7 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 
+import { dedupeItems } from "../lib/dedupe";
 import { getDashboardStats } from "../lib/stats";
 import type { CollectionState, RadarItem } from "../lib/schema";
 
@@ -61,5 +62,26 @@ describe("getDashboardStats", () => {
     assert.equal(stats.newsItems24h, 1);
     assert.equal(stats.officialItems24h, 1);
     assert.equal(stats.totalItems, 3);
+  });
+
+  it("does not count an old item as new when it is collected again", () => {
+    const firstSeen = item("first-seen", {
+      collectedAt: "2026-07-05T08:10:00.000Z"
+    });
+    const recollected = {
+      ...firstSeen,
+      id: "recollected",
+      collectedAt: "2026-07-07T08:10:00.000Z"
+    };
+    const items = dedupeItems([firstSeen, recollected]);
+
+    const stats = getDashboardStats({
+      items,
+      collectionState: { ...state, totalItems: items.length },
+      now: new Date("2026-07-07T09:00:00.000Z")
+    });
+
+    assert.equal(items[0].collectedAt, firstSeen.collectedAt);
+    assert.equal(stats.newItems24h, 0);
   });
 });

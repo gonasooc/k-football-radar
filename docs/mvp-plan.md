@@ -546,7 +546,7 @@ korea-football-radar/
 ### 10.1 렌더링 방식
 
 - Vercel 배포 기준이므로 `output: 'export'`는 필수 아님.
-- MVP에서는 API Routes, Server Actions, DB 연결 없이 JSON 파일을 읽어 정적 데이터 중심으로 렌더링한다.
+- DB와 외부 런타임 수집 없이 저장소 JSON을 읽어 렌더링한다. 큰 목록의 검색·필터·더보기는 같은 배포의 Route Handler가 페이지 단위로 응답한다.
 - 동적 라우트 `/issues/[id]`, `/people/[id]`는 JSON 목록을 기반으로 생성한다.
 - 검색/필터 UI는 클라이언트 컴포넌트로 구현해도 된다.
 
@@ -557,16 +557,12 @@ korea-football-radar/
 ```ts
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  images: {
-    unoptimized: true
-  }
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
 ```
 
-기사 썸네일을 무단으로 가져오지 않을 계획이므로 `next/image` 최적화는 MVP에서 중요하지 않다.
+기사 썸네일은 가져오지 않지만, 브랜드 이미지는 `next/image` 기본 최적화 경로를 사용한다.
 
 ---
 

@@ -1,0 +1,214 @@
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+
+import {
+  getCollectionRunStatus,
+  persistCollectionRun,
+  prepareCollectionRun,
+  type CollectionRunPersistence,
+  type CollectorRunResult
+} from "../scripts/collection-run";
+import type { CollectionState, RadarItem } from "../lib/schema";
+
+function item(id: string, publishedAt = "2026-07-12T00:00:00.000Z"): RadarItem {
+  return {
+    id,
+    type: "official",
+    title: id,
+    summary: "collection run test",
+    url: `https://example.com/${id}`,
+    originalUrl: `https://example.com/${id}`,
+    publisher: "test source",
+    publishedAt,
+    collectedAt: publishedAt,
+    matchedKeywords: [],
+    issueTags: [],
+    personTags: [],
+    sourceType: "official",
+    isOfficial: true,
+    relevanceScore: 10
+  };
+}
+
+function result(override: Partial<CollectorRunResult>): CollectorRunResult {
+  return {
+    items: [],
+    attempted: 1,
+    succeeded: 1,
+    failed: 0,
+    ...override
+  };
+}
+
+describe("collection run state", () => {
+  it("marks total outages failed and partial outages partial", () => {
+    assert.equal(
+      getCollectionRunStatus([result({ succeeded: 0, failed: 1 })]),
+      "failed"
+    );
+    assert.equal(
+      getCollectionRunStatus([
+        result({ succeeded: 0, failed: 1 }),
+        result({ succeeded: 1, failed: 0 })
+      ]),
+      "partial"
+    );
+    assert.equal(getCollectionRunStatus([result({})]), "success");
+    assert.equal(getCollectionRunStatus([]), "failed");
+  });
+
+  it("keeps standalone items and state totals consistent after a failed run", () => {
+    const existingItem = item("existing");
+    const previousState: CollectionState = {
+      lastCollectedAt: "2026-07-12T08:00:00.000Z",
+      lastRunStatus: "success",
+      lastRunNewItems: 1,
+      totalItems: 1
+    };
+    const update = prepareCollectionRun({
+      existingItems: [existingItem],
+      results: [result({ succeeded: 0, failed: 1 })],
+      now: new Date("2026-07-13T00:00:00.000Z"),
+      previousState
+    });
+
+    assert.deepEqual(update.items, [existingItem]);
+    assert.deepEqual(update.state, {
+      lastCollectedAt: previousState.lastCollectedAt,
+      lastRunStatus: "failed",
+      lastRunNewItems: 0,
+      totalItems: update.items.length
+    });
+  });
+
+  it("merges successful items while retaining existing items on a partial run", () => {
+    const update = prepareCollectionRun({
+      existingItems: [item("existing")],
+      results: [
+        result({
+          items: [item("new", "2026-07-12T01:00:00.000Z")],
+          attempted: 2,
+          succeeded: 1,
+          failed: 1
+        })
+      ],
+      now: new Date("2026-07-13T00:00:00.000Z")
+    });
+
+    assert.deepEqual(
+      new Set(update.items.map((record) => record.id)),
+      new Set(["existing", "new"])
+    );
+    assert.equal(update.state.lastRunStatus, "partial");
+    assert.equal(update.state.lastRunNewItems, 1);
+    assert.equal(update.state.totalItems, update.items.length);
+  });
+
+  it("does not count a known group as new when its representative ID changes", () => {
+    const existingItem = item("existing");
+    const replacement = {
+      ...existingItem,
+      id: "replacement",
+      url: "https://mirror.example.com/replacement",
+      originalUrl: "https://mirror.example.com/replacement",
+      collectedAt: "2026-07-13T00:00:00.000Z"
+    };
+    const update = prepareCollectionRun({
+      existingItems: [existingItem],
+      results: [result({ items: [replacement] })],
+      now: new Date("2026-07-13T01:00:00.000Z")
+    });
+
+    assert.equal(update.items.length, 1);
+    assert.equal(update.items[0].id, "replacement");
+    assert.equal(update.items[0].collectedAt, existingItem.collectedAt);
+    assert.equal(update.state.lastRunNewItems, 0);
+  });
+
+  it("counts a distinct new group even when it shares an existing collection time", () => {
+    const existingItem = item("existing");
+    const newItem = item("new");
+    const update = prepareCollectionRun({
+      existingItems: [existingItem],
+      results: [result({ items: [newItem] })],
+      now: new Date("2026-07-13T01:00:00.000Z")
+    });
+
+    assert.equal(update.items.length, 2);
+    assert.equal(update.state.lastRunNewItems, 1);
+  });
+
+  it("persists a failed run without advancing the last successful collection time", async () => {
+    const existingItems = [item("existing")];
+    const previousState: CollectionState = {
+      lastCollectedAt: "2026-07-12T08:00:00.000Z",
+      lastRunStatus: "success",
+      lastRunNewItems: 1,
+      totalItems: 1
+    };
+    let storedItems = existingItems;
+    let storedState = previousState;
+    const persistence: CollectionRunPersistence = {
+      readCollectionState: async () => storedState,
+      writeItems: async (items) => {
+        storedItems = items;
+      },
+      writeCollectionState: async (state) => {
+        storedState = state;
+      }
+    };
+
+    const update = await persistCollectionRun({
+      existingItems,
+      results: [result({ succeeded: 0, failed: 1 })],
+      now: new Date("2026-07-13T00:00:00.000Z"),
+      persistence
+    });
+
+    assert.deepEqual(storedItems, existingItems);
+    assert.equal(update.state.lastCollectedAt, previousState.lastCollectedAt);
+    assert.deepEqual(storedState, {
+      ...previousState,
+      lastRunStatus: "failed",
+      lastRunNewItems: 0
+    });
+  });
+
+  it("rolls back items and state when persistence fails after writing", async () => {
+    const existingItems = [item("existing")];
+    const previousState: CollectionState = {
+      lastCollectedAt: "2026-07-12T08:00:00.000Z",
+      lastRunStatus: "success",
+      lastRunNewItems: 1,
+      totalItems: 1
+    };
+    let storedItems = existingItems;
+    let storedState = previousState;
+    let failNextStateWrite = true;
+    const persistence: CollectionRunPersistence = {
+      readCollectionState: async () => storedState,
+      writeItems: async (items) => {
+        storedItems = items;
+      },
+      writeCollectionState: async (state) => {
+        storedState = state;
+        if (failNextStateWrite) {
+          failNextStateWrite = false;
+          throw new Error("injected state write failure");
+        }
+      }
+    };
+
+    await assert.rejects(
+      persistCollectionRun({
+        existingItems,
+        results: [result({ items: [item("new")] })],
+        now: new Date("2026-07-13T00:00:00.000Z"),
+        persistence
+      }),
+      /injected state write failure/
+    );
+    assert.deepEqual(storedItems, existingItems);
+    assert.deepEqual(storedState, previousState);
+  });
+});

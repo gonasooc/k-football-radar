@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Analytics } from "@vercel/analytics/next";
+import "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css";
 
 import { AppNav } from "@/components/AppNav";
 import "./globals.css";

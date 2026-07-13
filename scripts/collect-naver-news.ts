@@ -4,13 +4,13 @@ import { pathToFileURL } from "node:url";
 import { classifyItemText, getSearchQueries } from "../lib/classify";
 import { dedupeItems } from "../lib/dedupe";
 import {
-  applyItemRetentionPolicy,
   getItemRetentionDays,
   isPublishedAtWithinRetention
 } from "../lib/item-retention";
 import { normalizePublisher, stripInlineHtml, truncateSummary } from "../lib/normalize";
 import type { Issue, Person, RadarItem, RelevanceTier } from "../lib/schema";
-import { readIssues, readItems, readPeople, writeItems } from "./data-io";
+import { persistCollectionRun, type CollectorRunResult } from "./collection-run";
+import { readIssues, readItems, readPeople } from "./data-io";
 
 type NaverNewsItem = {
   title: string;
@@ -18,10 +18,6 @@ type NaverNewsItem = {
   link: string;
   description: string;
   pubDate: string;
-};
-
-type NaverNewsResponse = {
-  items?: NaverNewsItem[];
 };
 
 type NewsCandidateClassification = {
@@ -212,12 +208,40 @@ function stableItemId(url: string): string {
   return `item_${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
 }
 
-function toIsoDate(value: string): string {
+function toIsoDate(value: string): string | null {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) {
-    return new Date().toISOString();
+    return null;
   }
   return date.toISOString();
+}
+
+function isHttpUrl(value: string): boolean {
+  try {
+    const protocol = new URL(value).protocol;
+    return protocol === "http:" || protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
+function isNaverNewsItem(value: unknown): value is NaverNewsItem {
+  if (!value || typeof value !== "object") {
+    return false;
+  }
+
+  const candidate = value as Record<string, unknown>;
+  return (
+    typeof candidate.title === "string" &&
+    candidate.title.length > 0 &&
+    typeof candidate.link === "string" &&
+    isHttpUrl(candidate.link) &&
+    typeof candidate.description === "string" &&
+    typeof candidate.pubDate === "string" &&
+    (candidate.originallink === undefined ||
+      (typeof candidate.originallink === "string" &&
+        (candidate.originallink === "" || isHttpUrl(candidate.originallink))))
+  );
 }
 
 function wait(ms: number): Promise<void> {
@@ -282,8 +306,16 @@ async function fetchNaverNews(query: string): Promise<NaverNewsItem[]> {
     throw new Error(`Naver News API failed for "${query}": ${response.status}`);
   }
 
-  const data = (await response.json()) as NaverNewsResponse;
-  return data.items ?? [];
+  const data: unknown = await response.json();
+  if (!data || typeof data !== "object" || !("items" in data)) {
+    throw new Error(`Naver News API returned an invalid response for "${query}"`);
+  }
+
+  const { items } = data as { items?: unknown };
+  if (!Array.isArray(items)) {
+    throw new Error(`Naver News API returned invalid items for "${query}"`);
+  }
+  return items.filter(isNaverNewsItem);
 }
 
 function hasKoreanFootballContext(text: string): boolean {
@@ -538,12 +570,28 @@ export async function collectNaverNews({
   issues: Issue[];
   people: Person[];
 }): Promise<RadarItem[]> {
+  return (await collectNaverNewsRun({ issues, people })).items;
+}
+
+export async function collectNaverNewsRun({
+  issues,
+  people
+}: {
+  issues: Issue[];
+  people: Person[];
+}): Promise<CollectorRunResult> {
   const queries = getNaverSearchQueries({ issues, people });
   const queryDelayMs = getNaverQueryDelayMs();
   const collectedDate = new Date();
   const collectedAt = collectedDate.toISOString();
   const retentionDays = getItemRetentionDays();
   const results: RadarItem[] = [];
+  let succeeded = 0;
+  let failed = 0;
+
+  if (!process.env.NAVER_CLIENT_ID || !process.env.NAVER_CLIENT_SECRET) {
+    return { items: [], attempted: 1, succeeded: 0, failed: 1 };
+  }
 
   for (const [index, query] of queries.entries()) {
     if (index > 0 && queryDelayMs > 0) {
@@ -552,9 +600,13 @@ export async function collectNaverNews({
 
     try {
       const newsItems = await fetchNaverNews(query);
+      succeeded += 1;
       for (const newsItem of newsItems) {
         const originalUrl = newsItem.originallink || newsItem.link;
         const publishedAt = toIsoDate(newsItem.pubDate);
+        if (!publishedAt) {
+          continue;
+        }
         if (
           !isPublishedAtWithinRetention({
             publishedAt,
@@ -605,20 +657,33 @@ export async function collectNaverNews({
         });
       }
     } catch (error) {
+      failed += 1;
       console.error(error instanceof Error ? error.message : error);
     }
   }
 
-  return dedupeItems(results);
+  return {
+    items: dedupeItems(results),
+    attempted: queries.length,
+    succeeded,
+    failed
+  };
 }
 
 async function run(): Promise<void> {
   const [items, issues, people] = await Promise.all([readItems(), readIssues(), readPeople()]);
-  const collected = await collectNaverNews({ issues, people });
-  await writeItems(
-    applyItemRetentionPolicy(dedupeItems(filterNewsItemsForCollection([...items, ...collected])))
+  const result = await collectNaverNewsRun({ issues, people });
+  const update = await persistCollectionRun({
+    existingItems: items,
+    results: [result],
+    filterItems: filterNewsItemsForCollection
+  });
+  console.log(
+    `Naver collector merged ${result.items.length} candidate items (${result.succeeded}/${result.attempted} queries succeeded, status ${update.state.lastRunStatus})`
   );
-  console.log(`Naver collector merged ${collected.length} candidate items`);
+  if (update.state.lastRunStatus === "failed") {
+    throw new Error("Naver collector did not complete any query");
+  }
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

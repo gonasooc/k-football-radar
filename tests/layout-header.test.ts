@@ -16,6 +16,13 @@ describe("Root layout header", () => {
     assert.doesNotMatch(layoutSource, /max-w-\[720px\]/);
   });
 
+  it("loads the configured Pretendard variable font", () => {
+    assert.match(
+      layoutSource,
+      /pretendard\/dist\/web\/variable\/pretendardvariable-dynamic-subset\.css/
+    );
+  });
+
   it("provides a skip link, main target, and route title template", () => {
     assert.match(layoutSource, /href="#main-content"/);
     assert.match(layoutSource, /id="main-content"/);

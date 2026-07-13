@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 
 import {
   collectNaverNews,
+  collectNaverNewsRun,
   DEFAULT_NAVER_QUERY_DELAY_MS,
   NAVER_NEWS_TIMEOUT_MS,
   filterNewsItemsForCollection,
@@ -13,6 +14,7 @@ import {
   shouldKeepNewsCandidate
 } from "../scripts/collect-naver-news";
 import type { Issue, Person, RadarItem } from "../lib/schema";
+import { getCollectionRunStatus } from "../scripts/collection-run";
 
 const baseNewsItem: RadarItem = {
   id: "item_news",
@@ -518,6 +520,273 @@ describe("collectNaverNews", () => {
       assert.ok(fetchCalls.every((url) => url.startsWith("https://openapi.naver.com/")));
     } finally {
       fetchMock.mock.restore();
+      for (const [key, value] of Object.entries(envBackup)) {
+        if (value === undefined) {
+          delete process.env[key];
+        } else {
+          process.env[key] = value;
+        }
+      }
+    }
+  });
+
+  it("skips malformed API items without dropping valid items from the query", async () => {
+    const envBackup = {
+      NAVER_CLIENT_ID: process.env.NAVER_CLIENT_ID,
+      NAVER_CLIENT_SECRET: process.env.NAVER_CLIENT_SECRET,
+      NAVER_QUERY_DELAY_MS: process.env.NAVER_QUERY_DELAY_MS
+    };
+    const validUrl = "https://news.example.com/article/valid";
+    const fetchMock = mock.method(
+      globalThis,
+      "fetch",
+      async (): Promise<Response> =>
+        new Response(
+          JSON.stringify({
+            items: [
+              null,
+              {
+                title: 42,
+                link: "https://news.example.com/article/malformed",
+                description: "대한축구협회 대표팀 감독 선임 절차",
+                pubDate: new Date().toUTCString()
+              },
+              {
+                title: "대한축구협회, 대표팀 감독 선임 절차 개선",
+                originallink: validUrl,
+                link: "https://n.news.naver.com/mnews/article/001/0000000002",
+                description: "전력강화위원회가 감독 선임 절차 개선안을 논의했다.",
+                pubDate: new Date().toUTCString()
+              }
+            ]
+          }),
+          { status: 200, headers: { "content-type": "application/json" } }
+        )
+    );
+
+    try {
+      process.env.NAVER_CLIENT_ID = "test-client-id";
+      process.env.NAVER_CLIENT_SECRET = "test-client-secret";
+      process.env.NAVER_QUERY_DELAY_MS = "0";
+
+      const result = await collectNaverNewsRun({
+        issues: [
+          {
+            id: "coach-appointment",
+            name: "감독 선임",
+            description: "대표팀 감독 선임 관련 이슈",
+            keywords: ["감독 선임", "대표팀 감독", "전력강화위원회"],
+            priority: 1
+          }
+        ],
+        people: []
+      });
+
+      assert.equal(result.failed, 0);
+      assert.ok(result.succeeded > 0);
+      assert.deepEqual(result.items.map((item) => item.originalUrl), [validUrl]);
+    } finally {
+      fetchMock.mock.restore();
+      for (const [key, value] of Object.entries(envBackup)) {
+        if (value === undefined) {
+          delete process.env[key];
+        } else {
+          process.env[key] = value;
+        }
+      }
+    }
+  });
+
+  it("skips invalid publication dates instead of replacing them with collection time", async () => {
+    const envBackup = {
+      NAVER_CLIENT_ID: process.env.NAVER_CLIENT_ID,
+      NAVER_CLIENT_SECRET: process.env.NAVER_CLIENT_SECRET,
+      NAVER_QUERY_DELAY_MS: process.env.NAVER_QUERY_DELAY_MS
+    };
+    const validUrl = "https://news.example.com/article/valid-date";
+    const fetchMock = mock.method(
+      globalThis,
+      "fetch",
+      async (): Promise<Response> =>
+        new Response(
+          JSON.stringify({
+            items: [
+              {
+                title: "대한축구협회 대표팀 감독 선임 절차 논의",
+                originallink: "https://news.example.com/article/invalid-date",
+                link: "https://n.news.naver.com/mnews/article/001/0000000003",
+                description: "전력강화위원회가 감독 선임 절차를 논의했다.",
+                pubDate: "not-a-date"
+              },
+              {
+                title: "대한축구협회 대표팀 감독 선임 절차 개선",
+                originallink: validUrl,
+                link: "https://n.news.naver.com/mnews/article/001/0000000004",
+                description: "전력강화위원회가 감독 선임 절차 개선안을 발표했다.",
+                pubDate: new Date().toUTCString()
+              }
+            ]
+          }),
+          { status: 200, headers: { "content-type": "application/json" } }
+        )
+    );
+
+    try {
+      process.env.NAVER_CLIENT_ID = "test-client-id";
+      process.env.NAVER_CLIENT_SECRET = "test-client-secret";
+      process.env.NAVER_QUERY_DELAY_MS = "0";
+
+      const result = await collectNaverNewsRun({
+        issues: [
+          {
+            id: "coach-appointment",
+            name: "감독 선임",
+            description: "대표팀 감독 선임 관련 이슈",
+            keywords: ["감독 선임", "대표팀 감독", "전력강화위원회"],
+            priority: 1
+          }
+        ],
+        people: []
+      });
+
+      assert.equal(result.failed, 0);
+      assert.deepEqual(result.items.map((item) => item.originalUrl), [validUrl]);
+    } finally {
+      fetchMock.mock.restore();
+      for (const [key, value] of Object.entries(envBackup)) {
+        if (value === undefined) {
+          delete process.env[key];
+        } else {
+          process.env[key] = value;
+        }
+      }
+    }
+  });
+
+  it("reports every failed query instead of treating credentials as success", async () => {
+    const envBackup = {
+      NAVER_CLIENT_ID: process.env.NAVER_CLIENT_ID,
+      NAVER_CLIENT_SECRET: process.env.NAVER_CLIENT_SECRET,
+      NAVER_QUERY_DELAY_MS: process.env.NAVER_QUERY_DELAY_MS
+    };
+    const fetchMock = mock.method(
+      globalThis,
+      "fetch",
+      async (): Promise<Response> => new Response("unavailable", { status: 503 })
+    );
+    const consoleMock = mock.method(console, "error", () => undefined);
+
+    try {
+      process.env.NAVER_CLIENT_ID = "test-client-id";
+      process.env.NAVER_CLIENT_SECRET = "test-client-secret";
+      process.env.NAVER_QUERY_DELAY_MS = "0";
+
+      const result = await collectNaverNewsRun({
+        issues: [
+          {
+            id: "coach-appointment",
+            name: "감독 선임",
+            description: "대표팀 감독 선임 관련 이슈",
+            keywords: ["감독 선임", "대표팀 감독"],
+            priority: 1
+          }
+        ],
+        people: []
+      });
+
+      assert.ok(result.attempted > 0);
+      assert.equal(result.succeeded, 0);
+      assert.equal(result.failed, result.attempted);
+      assert.deepEqual(result.items, []);
+    } finally {
+      fetchMock.mock.restore();
+      consoleMock.mock.restore();
+      for (const [key, value] of Object.entries(envBackup)) {
+        if (value === undefined) {
+          delete process.env[key];
+        } else {
+          process.env[key] = value;
+        }
+      }
+    }
+  });
+
+  it("counts malformed response envelopes as failed queries", async () => {
+    const envBackup = {
+      NAVER_CLIENT_ID: process.env.NAVER_CLIENT_ID,
+      NAVER_CLIENT_SECRET: process.env.NAVER_CLIENT_SECRET,
+      NAVER_QUERY_DELAY_MS: process.env.NAVER_QUERY_DELAY_MS
+    };
+    const fetchMock = mock.method(
+      globalThis,
+      "fetch",
+      async (): Promise<Response> =>
+        new Response(JSON.stringify({ items: null }), {
+          status: 200,
+          headers: { "content-type": "application/json" }
+        })
+    );
+    const consoleMock = mock.method(console, "error", () => undefined);
+
+    try {
+      process.env.NAVER_CLIENT_ID = "test-client-id";
+      process.env.NAVER_CLIENT_SECRET = "test-client-secret";
+      process.env.NAVER_QUERY_DELAY_MS = "0";
+
+      const result = await collectNaverNewsRun({
+        issues: [
+          {
+            id: "coach-appointment",
+            name: "감독 선임",
+            description: "대표팀 감독 선임 관련 이슈",
+            keywords: ["감독 선임", "대표팀 감독"],
+            priority: 1
+          }
+        ],
+        people: []
+      });
+
+      assert.ok(result.attempted > 0);
+      assert.equal(result.succeeded, 0);
+      assert.equal(result.failed, result.attempted);
+    } finally {
+      fetchMock.mock.restore();
+      consoleMock.mock.restore();
+      for (const [key, value] of Object.entries(envBackup)) {
+        if (value === undefined) {
+          delete process.env[key];
+        } else {
+          process.env[key] = value;
+        }
+      }
+    }
+  });
+
+  it("reports missing credentials as a failed collector attempt", async () => {
+    const envBackup = {
+      NAVER_CLIENT_ID: process.env.NAVER_CLIENT_ID,
+      NAVER_CLIENT_SECRET: process.env.NAVER_CLIENT_SECRET
+    };
+
+    try {
+      delete process.env.NAVER_CLIENT_ID;
+      delete process.env.NAVER_CLIENT_SECRET;
+
+      const result = await collectNaverNewsRun({ issues: [], people: [] });
+      assert.deepEqual(result, {
+        items: [],
+        attempted: 1,
+        succeeded: 0,
+        failed: 1
+      });
+      assert.equal(
+        getCollectionRunStatus([
+          result,
+          { items: [], attempted: 1, succeeded: 1, failed: 0 }
+        ]),
+        "partial"
+      );
+    } finally {
       for (const [key, value] of Object.entries(envBackup)) {
         if (value === undefined) {
           delete process.env[key];

@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { EmptyState } from "@/components/EmptyState";
-import { ItemCard } from "@/components/ItemCard";
+import { PaginatedItemList } from "@/components/PaginatedItemList";
 import { SectionHeader } from "@/components/SectionHeader";
 import { getDataBundle, getItemsForPerson, getPersonById } from "@/lib/data";
+import { toFeedItems } from "@/lib/filter";
+import { getInitialScopedFeedPage } from "@/lib/scoped-feed-page";
 
 type PersonDetailPageProps = {
   params: Promise<{ id: string }>;
@@ -41,6 +43,11 @@ export default async function PersonDetailPage({ params }: PersonDetailPageProps
   const relatedIssues = data.issues.filter((issue) =>
     items.some((item) => item.issueTags.includes(issue.id))
   );
+  const { fixedFilters, initialPage } = getInitialScopedFeedPage(
+    toFeedItems(data.items),
+    { personId: person.id },
+    data.collectionState.lastCollectedAt
+  );
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
@@ -70,14 +77,18 @@ export default async function PersonDetailPage({ params }: PersonDetailPageProps
           <h2 className="text-sm font-black text-ink" id="person-items-title">
             관련 수집 항목
           </h2>
-          <span className="metric-tabular text-xs font-bold text-ink-soft">{items.length}건</span>
+          <span className="metric-tabular text-xs font-bold text-ink-soft">
+            {initialPage.total}건
+          </span>
         </div>
-        {items.length > 0 ? (
-          <div className="border-b border-rule">
-            {items.map((item) => (
-              <ItemCard item={item} issues={data.issues} key={item.id} people={data.people} />
-            ))}
-          </div>
+        {initialPage.total > 0 ? (
+          <PaginatedItemList
+            fixedFilters={fixedFilters}
+            initialPage={initialPage}
+            issues={data.issues}
+            key={person.id}
+            people={data.people}
+          />
         ) : (
           <EmptyState
             description="새 자료에서 이 인물이 감지되면 이 화면에 자동으로 표시됩니다."

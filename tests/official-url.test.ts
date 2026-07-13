@@ -1,8 +1,11 @@
-import { describe, it } from "node:test";
+import { describe, it, mock } from "node:test";
 import assert from "node:assert/strict";
 
 import {
+  collectOfficialSourcesRun,
   extractOfficialCandidates,
+  isAllowedOfficialCandidateUrl,
+  isAllowedOfficialResponseUrl,
   parseOfficialDate,
   resolveKfaMediaUrl,
   resolveSourceUrl,
@@ -31,15 +34,30 @@ const sportsCouncilSource: Source = {
   id: "sports_council",
   name: "대한체육회 보도자료",
   type: "official",
-  url: "http://www.sports.or.kr/sports/bbs/BMSR00001/list.do?menuNo=200024",
+  url: "https://www.sports.or.kr/sports/bbs/BMSR00001/list.do?menuNo=200024",
   enabled: true
 };
 
 describe("resolveSourceUrl", () => {
-  it("accepts only http and https links", () => {
+  it("accepts same-origin HTTPS links", () => {
     assert.equal(resolveSourceUrl("/notice/1", "https://media.kfa.or.kr/"), "https://media.kfa.or.kr/notice/1");
     assert.equal(resolveSourceUrl("javascript:void(0);", "https://media.kfa.or.kr/"), null);
     assert.equal(resolveSourceUrl("mailto:test@example.com", "https://media.kfa.or.kr/"), null);
+  });
+
+  it("rejects plain-http candidate and source URLs", () => {
+    assert.equal(
+      resolveSourceUrl("http://media.kfa.or.kr/notice/1", "https://media.kfa.or.kr/"),
+      null
+    );
+    assert.equal(resolveSourceUrl("/notice/1", "http://media.kfa.or.kr/"), null);
+  });
+
+  it("rejects cross-origin candidate URLs", () => {
+    assert.equal(
+      resolveSourceUrl("https://example.com/notice/1", "https://media.kfa.or.kr/"),
+      null
+    );
   });
 
   it("resolves official site javascript handlers to stable detail URLs", () => {
@@ -52,7 +70,49 @@ describe("resolveSourceUrl", () => {
     );
     assert.equal(
       resolveSportsCouncilUrl("javascript:bbsView('72669');", sportsCouncilSource.url),
-      "http://www.sports.or.kr/sports/bbs/BMSR00001/view.do?boardId=72669&menuNo=200024"
+      "https://www.sports.or.kr/sports/bbs/BMSR00001/view.do?boardId=72669&menuNo=200024"
+    );
+  });
+
+  it("only allows known-source detail paths", () => {
+    assert.equal(
+      isAllowedOfficialCandidateUrl(
+        "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=22563",
+        mcstSource
+      ),
+      true
+    );
+    assert.equal(
+      isAllowedOfficialCandidateUrl(
+        "https://www.mcst.go.kr/site/s_notice/press/pressList.jsp?pSeq=22563",
+        mcstSource
+      ),
+      false
+    );
+    assert.equal(
+      isAllowedOfficialCandidateUrl(
+        "https://www.sports.or.kr/sports/bbs/BMSR00001/list.do?boardId=72669",
+        sportsCouncilSource
+      ),
+      false
+    );
+  });
+
+  it("only allows HTTPS responses on the configured source origin", () => {
+    assert.equal(
+      isAllowedOfficialResponseUrl(
+        "https://media.kfa.or.kr/redirected/list",
+        kfaSource.url
+      ),
+      true
+    );
+    assert.equal(
+      isAllowedOfficialResponseUrl("https://example.com/list", kfaSource.url),
+      false
+    );
+    assert.equal(
+      isAllowedOfficialResponseUrl("http://media.kfa.or.kr/list", kfaSource.url),
+      false
     );
   });
 });
@@ -119,7 +179,7 @@ describe("extractOfficialCandidates", () => {
     assert.deepEqual(candidates, [
       {
         title: "대한체육회, 2026 청소년대표·꿈나무선수 전담지도자 간담회 개최",
-        url: "http://www.sports.or.kr/sports/bbs/BMSR00001/view.do?boardId=72669&menuNo=200024",
+        url: "https://www.sports.or.kr/sports/bbs/BMSR00001/view.do?boardId=72669&menuNo=200024",
         publishedAt: new Date("2026-06-30T00:00:00+09:00").toISOString()
       }
     ]);
@@ -192,5 +252,83 @@ describe("shouldKeepOfficialCandidate", () => {
       }),
       false
     );
+  });
+});
+
+describe("collectOfficialSourcesRun", () => {
+  it("reports partial source failures independently of collected item count", async () => {
+    const fetchMock = mock.method(
+      globalThis,
+      "fetch",
+      async (input: string | URL | Request): Promise<Response> => {
+        const url =
+          typeof input === "string" ? input : input instanceof URL ? input.toString() : input.url;
+        return url.includes("success")
+          ? new Response("<html></html>", { status: 200 })
+          : new Response("unavailable", { status: 503 });
+      }
+    );
+    const consoleMock = mock.method(console, "error", () => undefined);
+
+    try {
+      const result = await collectOfficialSourcesRun({
+        sources: [
+          { ...kfaSource, id: "success", url: "https://success.example.com" },
+          { ...mcstSource, id: "failure", url: "https://failure.example.com" }
+        ],
+        issues: [],
+        people: []
+      });
+
+      assert.deepEqual(result, {
+        items: [],
+        attempted: 2,
+        succeeded: 1,
+        failed: 1
+      });
+    } finally {
+      fetchMock.mock.restore();
+      consoleMock.mock.restore();
+    }
+  });
+
+  it("reports cross-origin and HTTPS-downgrade redirects as source failures", async () => {
+    const fetchMock = mock.method(
+      globalThis,
+      "fetch",
+      async (input: string | URL | Request): Promise<Response> => {
+        const requestedUrl =
+          typeof input === "string" ? input : input instanceof URL ? input.toString() : input.url;
+        const response = new Response("<html></html>", { status: 200 });
+        Object.defineProperty(response, "url", {
+          value: requestedUrl.includes("cross-origin")
+            ? "https://example.com/list"
+            : "http://downgrade.example.com/list"
+        });
+        return response;
+      }
+    );
+    const consoleMock = mock.method(console, "error", () => undefined);
+
+    try {
+      const result = await collectOfficialSourcesRun({
+        sources: [
+          { ...kfaSource, id: "cross-origin", url: "https://cross-origin.example.com/list" },
+          { ...mcstSource, id: "downgrade", url: "https://downgrade.example.com/list" }
+        ],
+        issues: [],
+        people: []
+      });
+
+      assert.deepEqual(result, {
+        items: [],
+        attempted: 2,
+        succeeded: 0,
+        failed: 2
+      });
+    } finally {
+      fetchMock.mock.restore();
+      consoleMock.mock.restore();
+    }
   });
 });

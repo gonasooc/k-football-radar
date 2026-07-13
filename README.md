@@ -86,7 +86,7 @@ pnpm run check:readiness -- --strict
 5. 운영 브랜치는 `main`으로 둡니다.
 6. MVP 기준 Naver API key는 Vercel 환경변수에 넣지 않습니다. 데이터 수집은 GitHub Actions에서만 실행합니다.
 
-GitHub Actions가 `data/` 변경을 커밋하면 Vercel Git 연동이 push를 감지해 정적 페이지를 다시 배포합니다.
+GitHub Actions가 `data/` 변경을 커밋하면 Vercel Git 연동이 push를 감지해 다시 배포합니다. 홈의 URL 필터와 후속 페이지는 같은 배포의 `/api/feed`가 처리하며, 외부 수집 API는 여전히 GitHub Actions에서만 호출합니다.
 
 ## 안전 원칙
 

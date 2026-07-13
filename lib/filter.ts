@@ -27,6 +27,7 @@ export type FeedItem = Pick<
   | "sourceType"
   | "relevanceScore"
   | "relevanceTier"
+  | "labels"
 > & {
   searchTerms: string;
 };
@@ -114,6 +115,7 @@ export function toFeedItems(items: readonly RadarItem[]): FeedItem[] {
     sourceType: item.sourceType,
     relevanceScore: item.relevanceScore,
     relevanceTier: item.relevanceTier,
+    labels: item.labels,
     searchTerms: [
       ...item.matchedKeywords,
       ...(item.labels?.filter((label) => label !== "자동 수집") ?? [])

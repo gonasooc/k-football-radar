@@ -3,22 +3,22 @@
 import { useState } from "react";
 
 import { formatDate } from "@/lib/date";
+import { fetchFeedPage } from "@/lib/feed-api";
+import type { FeedFilters } from "@/lib/filter";
+import {
+  toSourceLinkPage,
+  type SourceLinkPage
+} from "@/lib/source-link-page";
 
 const PUBLISHER_PREVIEW_COUNT = 5;
-const LINK_PAGE_SIZE = 30;
 
 type PublisherStatsPanelProps = {
   publisherStats: Array<[string, number]>;
 };
 
 type SourceLinksListProps = {
-  items: Array<{
-    id: string;
-    url: string;
-    title: string;
-    publisher: string;
-    publishedAt: string;
-  }>;
+  fixedFilters: FeedFilters;
+  initialPage: SourceLinkPage;
 };
 
 export function PublisherStatsPanel({ publisherStats }: PublisherStatsPanelProps) {
@@ -64,11 +64,47 @@ export function PublisherStatsPanel({ publisherStats }: PublisherStatsPanelProps
   );
 }
 
-export function SourceLinksList({ items }: SourceLinksListProps) {
-  const [visibleCount, setVisibleCount] = useState(LINK_PAGE_SIZE);
-  const visibleItems = items.slice(0, visibleCount);
-  const hasMoreItems = visibleCount < items.length;
-  const remainingCount = items.length - visibleItems.length;
+export function SourceLinksList({ fixedFilters, initialPage }: SourceLinksListProps) {
+  const [results, setResults] = useState(initialPage);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const [loadError, setLoadError] = useState(false);
+  const remainingCount = Math.max(0, results.total - results.items.length);
+
+  const loadMore = async () => {
+    if (isLoadingMore) return;
+
+    const requestedOffset = results.items.length;
+    const requestedSnapshot = results.snapshot;
+    setIsLoadingMore(true);
+    setLoadError(false);
+
+    try {
+      const nextPage = await fetchFeedPage(fixedFilters, requestedOffset, {
+        snapshot: requestedSnapshot
+      });
+      setResults((current) => {
+        if (
+          current.items.length !== requestedOffset ||
+          current.snapshot !== requestedSnapshot
+        ) {
+          return current;
+        }
+
+        const sourceLinkPage = toSourceLinkPage(nextPage);
+        const items = [...current.items, ...sourceLinkPage.items];
+        return {
+          ...sourceLinkPage,
+          items,
+          offset: 0,
+          limit: items.length
+        };
+      });
+    } catch {
+      setLoadError(true);
+    } finally {
+      setIsLoadingMore(false);
+    }
+  };
 
   return (
     <section aria-labelledby="source-links-heading" className="mt-10">
@@ -78,7 +114,7 @@ export function SourceLinksList({ items }: SourceLinksListProps) {
             원문 링크 목록
           </h2>
           <p aria-live="polite" className="mt-1 text-xs font-bold text-muted">
-            전체 {items.length}개 중 {visibleItems.length}개 표시
+            전체 {results.total}개 중 {results.items.length}개 표시
           </p>
         </div>
       </div>
@@ -88,7 +124,7 @@ export function SourceLinksList({ items }: SourceLinksListProps) {
         <span>발행일</span>
       </div>
       <div className="divide-y divide-line border-b border-rule" id="source-link-ledger">
-        {visibleItems.map((item) => (
+        {results.items.map((item) => (
           <a
             className="group focus-ring motion-soft grid min-h-11 gap-2 px-2 py-3 text-sm hover:bg-paper md:grid-cols-[minmax(0,1fr)_160px_120px] md:items-baseline md:px-3"
             href={item.url}
@@ -115,18 +151,27 @@ export function SourceLinksList({ items }: SourceLinksListProps) {
           </a>
         ))}
       </div>
-      {hasMoreItems ? (
-        <button
-          aria-controls="source-link-ledger"
-          className="focus-ring motion-soft min-h-11 w-full border-b border-rule bg-canvas px-4 text-sm font-black text-ink-soft hover:bg-paper hover:text-accent"
-          onClick={() =>
-            setVisibleCount((current) => Math.min(current + LINK_PAGE_SIZE, items.length))
-          }
-          type="button"
-        >
-          원문 더보기 <span className="font-medium text-muted">(남은 {remainingCount}개)</span>
-        </button>
-      ) : null}
+      <div aria-live="polite">
+        {loadError ? (
+          <p className="border-b border-rule px-3 py-3 text-center text-sm font-bold text-accent">
+            원문 링크를 불러오지 못했습니다. 다시 시도해 주세요.
+          </p>
+        ) : null}
+        {results.hasMore ? (
+          <button
+            aria-controls="source-link-ledger"
+            className="focus-ring motion-soft min-h-11 w-full border-b border-rule bg-canvas px-4 text-sm font-black text-ink-soft hover:bg-paper hover:text-accent disabled:cursor-wait disabled:text-muted"
+            disabled={isLoadingMore}
+            onClick={loadMore}
+            type="button"
+          >
+            {isLoadingMore ? "불러오는 중" : "원문 더보기"}{" "}
+            {!isLoadingMore ? (
+              <span className="font-medium text-muted">(남은 {remainingCount}개)</span>
+            ) : null}
+          </button>
+        ) : null}
+      </div>
     </section>
   );
 }

@@ -54,15 +54,21 @@ function mergedRelevanceTier(previous: RadarItem, next: RadarItem): RadarItem["r
   return previousTier === "secondary" && nextTier === "secondary" ? "secondary" : undefined;
 }
 
-function mergeItems(previous: RadarItem, next: RadarItem): RadarItem {
-  const preferred =
-    new Date(next.collectedAt).getTime() >= new Date(previous.collectedAt).getTime()
-      ? next
-      : previous;
+function mergeItems(
+  previous: RadarItem,
+  next: RadarItem,
+  preferNext: boolean
+): RadarItem {
+  const preferred = preferNext ? next : previous;
   const fallback = preferred === next ? previous : next;
+  const collectedAt =
+    new Date(next.collectedAt).getTime() < new Date(previous.collectedAt).getTime()
+      ? next.collectedAt
+      : previous.collectedAt;
 
   return {
     ...preferred,
+    collectedAt,
     matchedKeywords: uniqueSorted([
       ...fallback.matchedKeywords,
       ...preferred.matchedKeywords
@@ -78,46 +84,86 @@ function mergeItems(previous: RadarItem, next: RadarItem): RadarItem {
   };
 }
 
+type DedupeGroup = {
+  item: RadarItem;
+  latestCollectedAt: number;
+  urls: Set<string>;
+  stories: Set<string>;
+};
+
 export function dedupeItems(items: RadarItem[]): RadarItem[] {
-  const byUrl = new Map<string, RadarItem>();
-  const byStory = new Map<string, string>();
+  const byUrl = new Map<string, DedupeGroup>();
+  const byStory = new Map<string, DedupeGroup>();
+  const groups = new Set<DedupeGroup>();
 
   for (const item of items) {
-    const candidates = [
+    const urls = new Set([
       canonicalizeUrl(item.url),
-      canonicalizeUrl(item.originalUrl),
-      byStory.get(storyKey(item))
-    ].filter((value): value is string => Boolean(value));
+      canonicalizeUrl(item.originalUrl)
+    ]);
+    const story = storyKey(item);
+    const matchingGroups = new Set(
+      [...urls].map((url) => byUrl.get(url)).filter((group) => group !== undefined)
+    );
+    const storyGroup = byStory.get(story);
+    if (storyGroup) {
+      matchingGroups.add(storyGroup);
+    }
 
-    const existingKey = candidates.find((key) => byUrl.has(key));
-
-    if (!existingKey) {
-      const primaryKey = canonicalizeUrl(item.url);
-      byUrl.set(primaryKey, item);
-      byUrl.set(canonicalizeUrl(item.originalUrl), item);
-      byStory.set(storyKey(item), primaryKey);
+    if (matchingGroups.size === 0) {
+      const group: DedupeGroup = {
+        item,
+        latestCollectedAt: new Date(item.collectedAt).getTime(),
+        urls,
+        stories: new Set([story])
+      };
+      groups.add(group);
+      for (const url of urls) {
+        byUrl.set(url, group);
+      }
+      byStory.set(story, group);
       continue;
     }
 
-    const existing = byUrl.get(existingKey);
-    if (!existing) {
-      continue;
+    const [group, ...otherGroups] = matchingGroups;
+    for (const other of otherGroups) {
+      const preferOther = other.latestCollectedAt >= group.latestCollectedAt;
+      group.item = mergeItems(group.item, other.item, preferOther);
+      group.latestCollectedAt = Math.max(
+        group.latestCollectedAt,
+        other.latestCollectedAt
+      );
+      for (const url of other.urls) {
+        group.urls.add(url);
+      }
+      for (const otherStory of other.stories) {
+        group.stories.add(otherStory);
+      }
+      groups.delete(other);
     }
 
-    const merged = mergeItems(existing, item);
-    const primaryKey = canonicalizeUrl(merged.url);
-    byUrl.set(primaryKey, merged);
-    byUrl.set(canonicalizeUrl(merged.originalUrl), merged);
-    byUrl.set(canonicalizeUrl(existing.url), merged);
-    byUrl.set(canonicalizeUrl(existing.originalUrl), merged);
-    byUrl.set(canonicalizeUrl(item.url), merged);
-    byUrl.set(canonicalizeUrl(item.originalUrl), merged);
-    byStory.set(storyKey(existing), primaryKey);
-    byStory.set(storyKey(item), primaryKey);
-    byStory.set(storyKey(merged), primaryKey);
+    const itemCollectedAt = new Date(item.collectedAt).getTime();
+    group.item = mergeItems(
+      group.item,
+      item,
+      itemCollectedAt >= group.latestCollectedAt
+    );
+    group.latestCollectedAt = Math.max(group.latestCollectedAt, itemCollectedAt);
+    for (const url of urls) {
+      group.urls.add(url);
+    }
+    group.stories.add(story);
+    group.stories.add(storyKey(group.item));
+
+    for (const url of group.urls) {
+      byUrl.set(url, group);
+    }
+    for (const groupStory of group.stories) {
+      byStory.set(groupStory, group);
+    }
   }
 
-  return sortItemsLatestFirst(Array.from(new Set(byUrl.values())));
+  return sortItemsLatestFirst([...groups].map((group) => group.item));
 }
 
 export function sortItemsLatestFirst(items: RadarItem[]): RadarItem[] {

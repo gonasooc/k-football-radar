@@ -4,6 +4,9 @@ import { ExternalLink } from "lucide-react";
 import { SectionHeader } from "@/components/SectionHeader";
 import { PublisherStatsPanel, SourceLinksList } from "@/components/SourcesArchiveClient";
 import { getDataBundle } from "@/lib/data";
+import { toFeedItems } from "@/lib/filter";
+import { getInitialScopedFeedPage } from "@/lib/scoped-feed-page";
+import { toSourceLinkPage } from "@/lib/source-link-page";
 
 export const metadata: Metadata = {
   title: "출처 아카이브",
@@ -18,15 +21,12 @@ export default function SourcesPage() {
       return counts;
     }, new Map<string, number>())
   ).sort((a, b) => b[1] - a[1]);
-  const sourceLinkItems = data.items.map(
-    ({ id, url, title, publisher, publishedAt }) => ({
-      id,
-      url,
-      title,
-      publisher,
-      publishedAt
-    })
+  const { fixedFilters, initialPage: initialFeedPage } = getInitialScopedFeedPage(
+    toFeedItems(data.items),
+    {},
+    data.collectionState.lastCollectedAt
   );
+  const initialPage = toSourceLinkPage(initialFeedPage);
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
@@ -35,7 +35,7 @@ export default function SourcesPage() {
         title="출처 아카이브"
       />
 
-      <SourceLinksList items={sourceLinkItems} />
+      <SourceLinksList fixedFilters={fixedFilters} initialPage={initialPage} />
 
       <div className="mt-10 divide-y divide-rule border-y border-rule lg:grid lg:grid-cols-[1.05fr_0.95fr] lg:divide-x lg:divide-y-0">
         <section aria-labelledby="collection-sources-heading">

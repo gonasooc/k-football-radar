@@ -4,10 +4,10 @@ import * as cheerio from "cheerio";
 
 import { classifyItemText } from "../lib/classify";
 import { dedupeItems } from "../lib/dedupe";
-import { applyItemRetentionPolicy } from "../lib/item-retention";
 import { normalizePublisher, stripHtml, truncateSummary } from "../lib/normalize";
 import type { Issue, Person, RadarItem, Source } from "../lib/schema";
-import { readIssues, readItems, readPeople, readSources, writeItems } from "./data-io";
+import { persistCollectionRun, type CollectorRunResult } from "./collection-run";
+import { readIssues, readItems, readPeople, readSources } from "./data-io";
 
 type OfficialCandidateClassification = {
   issueTags: string[];
@@ -43,6 +43,11 @@ const FOOTBALL_CONTEXT_KEYWORDS = [
 const KFA_VIEW_CONTENTS_PATTERN =
   /view_contents\(\s*['"]([^'"]+)['"]\s*,\s*['"]([^'"]+)['"]\s*\)/u;
 const SPORTS_BBS_VIEW_PATTERN = /bbsView\(\s*['"]?(\d+)['"]?\s*\)/u;
+const OFFICIAL_CANDIDATE_PATHS: Readonly<Record<string, readonly string[]>> = {
+  kfa_media: ["/bbs/bbs.php"],
+  mcst_press: ["/site/s_notice/press/pressView.jsp"],
+  sports_council: ["/sports/bbs/BMSR00001/view.do"]
+};
 
 function stableItemId(url: string): string {
   return `item_${crypto.createHash("sha1").update(url).digest("hex").slice(0, 16)}`;
@@ -65,14 +70,56 @@ export function getOfficialSourceTimeoutMs(
 
 export function resolveSourceUrl(href: string, baseUrl: string): string | null {
   try {
-    const url = new URL(href, baseUrl);
-    if (url.protocol !== "http:" && url.protocol !== "https:") {
+    const sourceUrl = new URL(baseUrl);
+    const url = new URL(href, sourceUrl);
+    if (
+      sourceUrl.protocol !== "https:" ||
+      url.protocol !== "https:" ||
+      url.origin !== sourceUrl.origin
+    ) {
       return null;
     }
     url.hash = "";
     return url.toString();
   } catch {
     return null;
+  }
+}
+
+export function isAllowedOfficialResponseUrl(
+  responseUrl: string,
+  sourceUrl: string
+): boolean {
+  try {
+    const source = new URL(sourceUrl);
+    const response = new URL(responseUrl || sourceUrl);
+    return (
+      source.protocol === "https:" &&
+      response.protocol === "https:" &&
+      response.origin === source.origin
+    );
+  } catch {
+    return false;
+  }
+}
+
+export function isAllowedOfficialCandidateUrl(
+  candidateUrl: string,
+  source: Source
+): boolean {
+  const allowedPaths = OFFICIAL_CANDIDATE_PATHS[source.id];
+  if (!allowedPaths) {
+    return resolveSourceUrl(candidateUrl, source.url) !== null;
+  }
+
+  try {
+    const candidate = new URL(candidateUrl);
+    return (
+      resolveSourceUrl(candidateUrl, source.url) !== null &&
+      allowedPaths.includes(candidate.pathname)
+    );
+  } catch {
+    return false;
   }
 }
 
@@ -257,7 +304,7 @@ export function extractOfficialCandidates(
 
   const seen = new Set<string>();
   return candidates.filter((candidate) => {
-    if (seen.has(candidate.url)) {
+    if (!isAllowedOfficialCandidateUrl(candidate.url, source) || seen.has(candidate.url)) {
       return false;
     }
     seen.add(candidate.url);
@@ -274,6 +321,10 @@ async function collectOfficialSource({
   issues: Issue[];
   people: Person[];
 }): Promise<RadarItem[]> {
+  if (!isAllowedOfficialResponseUrl(source.url, source.url)) {
+    throw new Error(`${source.name} has an invalid source URL`);
+  }
+
   const response = await fetch(source.url, {
     headers: {
       "User-Agent": "KoreaFootballRadar/0.1 metadata monitor"
@@ -283,6 +334,9 @@ async function collectOfficialSource({
 
   if (!response.ok) {
     throw new Error(`${source.name} responded ${response.status}`);
+  }
+  if (!isAllowedOfficialResponseUrl(response.url, source.url)) {
+    throw new Error(`${source.name} redirected outside its configured HTTPS origin`);
   }
 
   const html = await response.text();
@@ -337,12 +391,29 @@ export async function collectOfficialSources({
   issues: Issue[];
   people: Person[];
 }): Promise<RadarItem[]> {
-  const collected: RadarItem[] = [];
+  return (await collectOfficialSourcesRun({ sources, issues, people })).items;
+}
 
-  for (const source of sources.filter((item) => item.enabled && item.type === "official")) {
+export async function collectOfficialSourcesRun({
+  sources,
+  issues,
+  people
+}: {
+  sources: Source[];
+  issues: Issue[];
+  people: Person[];
+}): Promise<CollectorRunResult> {
+  const collected: RadarItem[] = [];
+  const enabledSources = sources.filter((item) => item.enabled && item.type === "official");
+  let succeeded = 0;
+  let failed = 0;
+
+  for (const source of enabledSources) {
     try {
       collected.push(...(await collectOfficialSource({ source, issues, people })));
+      succeeded += 1;
     } catch (error) {
+      failed += 1;
       console.error(
         `Official collector skipped ${source.name}: ${
           error instanceof Error ? error.message : String(error)
@@ -351,7 +422,12 @@ export async function collectOfficialSources({
     }
   }
 
-  return dedupeItems(collected);
+  return {
+    items: dedupeItems(collected),
+    attempted: enabledSources.length,
+    succeeded,
+    failed
+  };
 }
 
 async function run(): Promise<void> {
@@ -361,9 +437,14 @@ async function run(): Promise<void> {
     readIssues(),
     readPeople()
   ]);
-  const collected = await collectOfficialSources({ sources, issues, people });
-  await writeItems(applyItemRetentionPolicy(dedupeItems([...items, ...collected])));
-  console.log(`Official collector merged ${collected.length} candidate items`);
+  const result = await collectOfficialSourcesRun({ sources, issues, people });
+  const update = await persistCollectionRun({ existingItems: items, results: [result] });
+  console.log(
+    `Official collector merged ${result.items.length} candidate items (${result.succeeded}/${result.attempted} sources succeeded, status ${update.state.lastRunStatus})`
+  );
+  if (update.state.lastRunStatus === "failed") {
+    throw new Error("Official collector did not complete any source");
+  }
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

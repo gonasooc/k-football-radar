@@ -1,4 +1,5 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { randomUUID } from "node:crypto";
+import { readFile, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import { readItemShards, writeItemShards } from "../lib/item-shards";
@@ -24,7 +25,16 @@ async function readJson<T>(filename: string): Promise<T> {
 
 async function writeJson(filename: string, value: unknown): Promise<void> {
   const formatted = `${JSON.stringify(value, null, 2)}\n`;
-  await writeFile(path.join(DATA_DIR, filename), formatted, "utf8");
+  const filePath = path.join(DATA_DIR, filename);
+  const temporaryPath = `${filePath}.${process.pid}.${randomUUID()}.tmp`;
+
+  try {
+    await writeFile(temporaryPath, formatted, "utf8");
+    await rename(temporaryPath, filePath);
+  } catch (error) {
+    await rm(temporaryPath, { force: true }).catch(() => undefined);
+    throw error;
+  }
 }
 
 export async function readItems(): Promise<RadarItem[]> {

@@ -1,14 +1,26 @@
 "use client";
 
 import { Check, CircleHelp, LoaderCircle, Search, SlidersHorizontal, X } from "lucide-react";
-import { memo, useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import {
+  memo,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type KeyboardEvent
+} from "react";
 
 import {
+  DEFAULT_FEED_PAGE_SIZE,
+  getFeedRequestSearchParams,
+  type FeedPage
+} from "@/lib/feed-page";
+import { fetchFeedPage } from "@/lib/feed-api";
+import {
   defaultFeedFilters,
-  filterItems,
   getFeedFiltersFromSearchParams,
   type FeedFilters,
-  type FeedItem,
   type FeedScopeFilter,
   type FeedSortOrder,
   type FeedTypeFilter
@@ -19,7 +31,6 @@ import { FeedResultsSkeleton } from "./LoadingSkeletons";
 import { ItemCard } from "./ItemCard";
 
 const SEARCH_DEBOUNCE_MS = 250;
-const FEED_PAGE_SIZE = 30;
 const FEATURED_ITEM_COUNT = 3;
 const SCOPE_HELP_ID = "feed-scope-help";
 const ADVANCED_FILTERS_ID = "feed-advanced-filters";
@@ -44,22 +55,14 @@ const SORT_OPTIONS: readonly [FeedSortOrder, string][] = [
 ];
 
 type FeedClientProps = {
-  items: FeedItem[];
+  initialFilters: FeedFilters;
+  initialPage: FeedPage;
   issues: Issue[];
   people: Person[];
 };
 
 function syncFiltersToUrl(filters: FeedFilters) {
-  const params = new URLSearchParams();
-
-  if (filters.type !== defaultFeedFilters.type) params.set("type", filters.type);
-  if (filters.scope !== defaultFeedFilters.scope) params.set("scope", filters.scope);
-  if (filters.sort !== defaultFeedFilters.sort) params.set("sort", filters.sort);
-  if (filters.issueId !== defaultFeedFilters.issueId) params.set("issue", filters.issueId);
-  if (filters.personId !== defaultFeedFilters.personId) params.set("person", filters.personId);
-  if (filters.query) params.set("q", filters.query);
-
-  const queryString = params.toString();
+  const queryString = getFeedRequestSearchParams(filters).toString();
   const nextUrl = queryString ? `${window.location.pathname}?${queryString}` : window.location.pathname;
   const currentUrl = `${window.location.pathname}${window.location.search}`;
 
@@ -68,87 +71,141 @@ function syncFiltersToUrl(filters: FeedFilters) {
   }
 }
 
-export function FeedClient({ items, issues, people }: FeedClientProps) {
-  const [typeFilter, setTypeFilter] = useState<FeedTypeFilter>(defaultFeedFilters.type);
-  const [scopeFilter, setScopeFilter] = useState<FeedScopeFilter>(defaultFeedFilters.scope);
-  const [sortOrder, setSortOrder] = useState<FeedSortOrder>(defaultFeedFilters.sort);
-  const [issueFilter, setIssueFilter] = useState(defaultFeedFilters.issueId);
-  const [personFilter, setPersonFilter] = useState(defaultFeedFilters.personId);
-  const [searchInput, setSearchInput] = useState(defaultFeedFilters.query);
-  const [query, setQuery] = useState(defaultFeedFilters.query);
-  const [visibleCount, setVisibleCount] = useState(FEED_PAGE_SIZE);
+export function FeedClient({ initialFilters, initialPage, issues, people }: FeedClientProps) {
+  const routeSearchParams = useSearchParams();
+  const issueIds = useMemo(() => new Set(issues.map((issue) => issue.id)), [issues]);
+  const personIds = useMemo(() => new Set(people.map((person) => person.id)), [people]);
+  const routeFilters = useMemo(
+    () =>
+      routeSearchParams
+        ? getFeedFiltersFromSearchParams(Object.fromEntries(routeSearchParams.entries()), {
+            issueIds,
+            personIds
+          })
+        : initialFilters,
+    [initialFilters, issueIds, personIds, routeSearchParams]
+  );
+  const routeFilterKey = getFeedRequestSearchParams(routeFilters).toString();
+  const [typeFilter, setTypeFilter] = useState<FeedTypeFilter>(initialFilters.type);
+  const [scopeFilter, setScopeFilter] = useState<FeedScopeFilter>(initialFilters.scope);
+  const [sortOrder, setSortOrder] = useState<FeedSortOrder>(initialFilters.sort);
+  const [issueFilter, setIssueFilter] = useState(initialFilters.issueId);
+  const [personFilter, setPersonFilter] = useState(initialFilters.personId);
+  const [searchInput, setSearchInput] = useState(initialFilters.query);
+  const [query, setQuery] = useState(initialFilters.query);
+  const [results, setResults] = useState(initialPage);
   const [showScopeHelp, setShowScopeHelp] = useState(false);
-  const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
-  const [isUrlInitialized, setIsUrlInitialized] = useState(false);
+  const [showAdvancedFilters, setShowAdvancedFilters] = useState(
+    initialFilters.scope !== defaultFeedFilters.scope ||
+      initialFilters.issueId !== defaultFeedFilters.issueId ||
+      initialFilters.personId !== defaultFeedFilters.personId
+  );
+  const [isResultsLoading, setIsResultsLoading] = useState(false);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const [loadError, setLoadError] = useState(false);
+  const skipInitialRequest = useRef(true);
+  const activeFilterKey = useRef(getFeedRequestSearchParams(initialFilters).toString());
+  const lastObservedRouteFilterKey = useRef(routeFilterKey);
+  const filterRequestId = useRef(0);
+  const loadMoreRequestId = useRef(0);
+  const scopeHelpButtonRef = useRef<HTMLButtonElement>(null);
+
+  const appliedFilters = useMemo<FeedFilters>(
+    () => ({
+      type: typeFilter,
+      scope: scopeFilter,
+      sort: sortOrder,
+      issueId: issueFilter,
+      personId: personFilter,
+      query
+    }),
+    [typeFilter, scopeFilter, sortOrder, issueFilter, personFilter, query]
+  );
+  const filterKey = getFeedRequestSearchParams(appliedFilters).toString();
 
   useEffect(() => {
-    const urlFilters = getFeedFiltersFromSearchParams(
-      Object.fromEntries(new URLSearchParams(window.location.search)),
-      {
-        issueIds: new Set(issues.map((issue) => issue.id)),
-        personIds: new Set(people.map((person) => person.id))
-      }
-    );
-
-    setTypeFilter(urlFilters.type);
-    setScopeFilter(urlFilters.scope);
-    setSortOrder(urlFilters.sort);
-    setIssueFilter(urlFilters.issueId);
-    setPersonFilter(urlFilters.personId);
-    setSearchInput(urlFilters.query);
-    setQuery(urlFilters.query);
-    setShowAdvancedFilters(
-      urlFilters.scope !== defaultFeedFilters.scope ||
-        urlFilters.issueId !== defaultFeedFilters.issueId ||
-        urlFilters.personId !== defaultFeedFilters.personId
-    );
-    setIsUrlInitialized(true);
-  }, [issues, people]);
-
-  useEffect(() => {
-    const timeoutId = window.setTimeout(() => {
-      setVisibleCount(FEED_PAGE_SIZE);
-      setQuery(searchInput.trim());
-    }, SEARCH_DEBOUNCE_MS);
-
-    return () => {
-      window.clearTimeout(timeoutId);
-    };
-  }, [searchInput]);
-
-  useEffect(() => {
-    if (!isUrlInitialized) {
+    if (lastObservedRouteFilterKey.current === routeFilterKey) {
       return;
     }
 
-    syncFiltersToUrl({
-      type: typeFilter,
-      scope: scopeFilter,
-      sort: sortOrder,
-      issueId: issueFilter,
-      personId: personFilter,
-      query
-    });
-  }, [
-    isUrlInitialized,
-    typeFilter,
-    scopeFilter,
-    sortOrder,
-    issueFilter,
-    personFilter,
-    query
-  ]);
+    lastObservedRouteFilterKey.current = routeFilterKey;
+    if (routeFilterKey === filterKey) {
+      return;
+    }
 
-  const filteredItems = useMemo(() => {
-    return filterItems(items, {
-      type: typeFilter,
-      scope: scopeFilter,
-      sort: sortOrder,
-      issueId: issueFilter,
-      personId: personFilter,
-      query
-    });
-  }, [items, typeFilter, scopeFilter, sortOrder, issueFilter, personFilter, query]);
+    filterRequestId.current += 1;
+    loadMoreRequestId.current += 1;
+    setTypeFilter(routeFilters.type);
+    setScopeFilter(routeFilters.scope);
+    setSortOrder(routeFilters.sort);
+    setIssueFilter(routeFilters.issueId);
+    setPersonFilter(routeFilters.personId);
+    setSearchInput(routeFilters.query);
+    setQuery(routeFilters.query);
+    setShowScopeHelp(false);
+    setShowAdvancedFilters(
+      routeFilters.scope !== defaultFeedFilters.scope ||
+        routeFilters.issueId !== defaultFeedFilters.issueId ||
+        routeFilters.personId !== defaultFeedFilters.personId
+    );
+    setIsLoadingMore(false);
+    setLoadError(false);
+  }, [filterKey, routeFilterKey, routeFilters]);
+
+  useEffect(() => {
+    const timeoutId = window.setTimeout(() => {
+      setQuery(searchInput.trim());
+    }, SEARCH_DEBOUNCE_MS);
+
+    return () => window.clearTimeout(timeoutId);
+  }, [searchInput]);
+
+  useEffect(() => {
+    activeFilterKey.current = filterKey;
+    loadMoreRequestId.current += 1;
+    setIsLoadingMore(false);
+    syncFiltersToUrl(appliedFilters);
+
+    if (skipInitialRequest.current) {
+      skipInitialRequest.current = false;
+      return;
+    }
+
+    const controller = new AbortController();
+    const requestId = ++filterRequestId.current;
+    setIsResultsLoading(true);
+    setLoadError(false);
+
+    fetchFeedPage(appliedFilters, 0, { signal: controller.signal })
+      .then((page) => {
+        if (filterRequestId.current === requestId && activeFilterKey.current === filterKey) {
+          setResults(page);
+        }
+      })
+      .catch((error: unknown) => {
+        if (error instanceof Error && error.name === "AbortError") {
+          return;
+        }
+        if (filterRequestId.current === requestId && activeFilterKey.current === filterKey) {
+          setLoadError(true);
+          setResults((current) => ({
+            items: [],
+            total: 0,
+            offset: 0,
+            limit: DEFAULT_FEED_PAGE_SIZE,
+            hasMore: false,
+            snapshot: current.snapshot
+          }));
+        }
+      })
+      .finally(() => {
+        if (filterRequestId.current === requestId && activeFilterKey.current === filterKey) {
+          setIsResultsLoading(false);
+        }
+      });
+
+    return () => controller.abort();
+  }, [appliedFilters, filterKey]);
 
   const resetFilters = () => {
     setTypeFilter(defaultFeedFilters.type);
@@ -158,13 +215,72 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
     setPersonFilter(defaultFeedFilters.personId);
     setSearchInput(defaultFeedFilters.query);
     setQuery(defaultFeedFilters.query);
-    setVisibleCount(FEED_PAGE_SIZE);
     setShowScopeHelp(false);
     setShowAdvancedFilters(false);
   };
 
+  const loadMore = async () => {
+    if (isLoadingMore || isResultsPending || !results.hasMore) {
+      return;
+    }
+
+    const requestedFilterKey = filterKey;
+    const requestedOffset = results.items.length;
+    const requestedSnapshot = results.snapshot;
+    const requestId = ++loadMoreRequestId.current;
+    setIsLoadingMore(true);
+    setLoadError(false);
+
+    try {
+      const page = await fetchFeedPage(appliedFilters, requestedOffset, {
+        snapshot: requestedSnapshot
+      });
+      if (
+        loadMoreRequestId.current !== requestId ||
+        activeFilterKey.current !== requestedFilterKey
+      ) {
+        return;
+      }
+      setResults((current) => {
+        if (
+          current.items.length !== requestedOffset ||
+          current.snapshot !== requestedSnapshot
+        ) {
+          return current;
+        }
+
+        const items = [...current.items, ...page.items];
+        return {
+          ...page,
+          items,
+          offset: 0,
+          limit: items.length
+        };
+      });
+    } catch {
+      if (
+        loadMoreRequestId.current === requestId &&
+        activeFilterKey.current === requestedFilterKey
+      ) {
+        setLoadError(true);
+      }
+    } finally {
+      if (loadMoreRequestId.current === requestId) {
+        setIsLoadingMore(false);
+      }
+    }
+  };
+
+  const closeScopeHelpOnEscape = (event: KeyboardEvent<HTMLButtonElement>) => {
+    if (event.key === "Escape") {
+      setShowScopeHelp(false);
+      event.stopPropagation();
+    }
+  };
+
   const normalizedSearchInput = searchInput.trim();
   const isSearchPending = normalizedSearchInput !== query;
+  const isResultsPending = isSearchPending || isResultsLoading;
   const hasActiveFilters =
     typeFilter !== defaultFeedFilters.type ||
     scopeFilter !== defaultFeedFilters.scope ||
@@ -178,10 +294,8 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
     Number(scopeFilter !== defaultFeedFilters.scope) +
     Number(issueFilter !== defaultFeedFilters.issueId) +
     Number(personFilter !== defaultFeedFilters.personId);
-  const visibleItems = filteredItems.slice(0, visibleCount);
-  const gridItems = visibleItems.slice(0, FEATURED_ITEM_COUNT);
-  const listItems = visibleItems.slice(FEATURED_ITEM_COUNT);
-  const hasMoreItems = visibleItems.length < filteredItems.length;
+  const gridItems = results.items.slice(0, FEATURED_ITEM_COUNT);
+  const listItems = results.items.slice(FEATURED_ITEM_COUNT);
   const hasSearchQuery = query.length > 0;
   let feedScopeLabel = "전체 피드";
 
@@ -202,7 +316,7 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted"
             />
             <input
-              className="focus-ring h-11 w-full rounded-control border-line bg-canvas pl-10 pr-3 text-sm font-semibold text-ink placeholder:text-muted"
+              className="focus-ring h-11 w-full rounded-control border-line bg-canvas pl-10 pr-3 text-base font-semibold text-ink placeholder:text-muted md:text-sm"
               maxLength={200}
               onChange={(event) => setSearchInput(event.target.value)}
               placeholder="제목, 출처, 키워드 검색"
@@ -218,20 +332,14 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
             <div aria-label="자료 유형" className="grid min-w-0 flex-1 grid-cols-3" role="group">
               {TYPE_OPTIONS.map(([value, label]) => {
                 const selected = typeFilter === value;
-
                 return (
                   <button
                     aria-pressed={selected}
                     className={`focus-ring motion-soft min-h-11 text-xs font-black ${
-                      selected
-                        ? "bg-accent text-canvas"
-                        : "text-ink-soft hover:bg-paper hover:text-ink"
+                      selected ? "bg-accent text-canvas" : "text-ink-soft hover:bg-paper hover:text-ink"
                     }`}
                     key={value}
-                    onClick={() => {
-                      setVisibleCount(FEED_PAGE_SIZE);
-                      setTypeFilter(value);
-                    }}
+                    onClick={() => setTypeFilter(value)}
                     type="button"
                   >
                     {label}
@@ -285,20 +393,14 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
                 >
                   {TYPE_OPTIONS.map(([value, label]) => {
                     const selected = typeFilter === value;
-
                     return (
                       <button
                         aria-pressed={selected}
                         className={`focus-ring motion-soft min-h-11 text-xs font-black ${
-                          selected
-                            ? "bg-accent text-canvas"
-                            : "text-ink-soft hover:bg-paper hover:text-ink"
+                          selected ? "bg-accent text-canvas" : "text-ink-soft hover:bg-paper hover:text-ink"
                         }`}
                         key={value}
-                        onClick={() => {
-                          setVisibleCount(FEED_PAGE_SIZE);
-                          setTypeFilter(value);
-                        }}
+                        onClick={() => setTypeFilter(value)}
                         type="button"
                       >
                         {label}
@@ -308,7 +410,14 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
                 </div>
               </div>
 
-              <div className="relative">
+              <div
+                className="relative"
+                onMouseLeave={() => {
+                  if (document.activeElement !== scopeHelpButtonRef.current) {
+                    setShowScopeHelp(false);
+                  }
+                }}
+              >
                 <div className="mb-1.5 flex min-h-7 items-center">
                   <span className="text-[11px] font-black text-muted">수집 범위</span>
                   <button
@@ -319,8 +428,9 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
                     onBlur={() => setShowScopeHelp(false)}
                     onClick={() => setShowScopeHelp(true)}
                     onFocus={() => setShowScopeHelp(true)}
+                    onKeyDown={closeScopeHelpOnEscape}
                     onMouseEnter={() => setShowScopeHelp(true)}
-                    onMouseLeave={() => setShowScopeHelp(false)}
+                    ref={scopeHelpButtonRef}
                     type="button"
                   >
                     <CircleHelp aria-hidden="true" className="size-4" />
@@ -342,20 +452,14 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
                 >
                   {SCOPE_OPTIONS.map(([value, label]) => {
                     const selected = scopeFilter === value;
-
                     return (
                       <button
                         aria-pressed={selected}
                         className={`focus-ring motion-soft min-h-11 text-xs font-black ${
-                          selected
-                            ? "bg-accent text-canvas"
-                            : "text-ink-soft hover:bg-paper hover:text-ink"
+                          selected ? "bg-accent text-canvas" : "text-ink-soft hover:bg-paper hover:text-ink"
                         }`}
                         key={value}
-                        onClick={() => {
-                          setVisibleCount(FEED_PAGE_SIZE);
-                          setScopeFilter(value);
-                        }}
+                        onClick={() => setScopeFilter(value)}
                         type="button"
                       >
                         {label}
@@ -366,48 +470,33 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
               </div>
 
               <label>
-                <span className="mb-1.5 flex min-h-7 items-center text-[11px] font-black text-muted">
-                  이슈
-                </span>
+                <span className="mb-1.5 flex min-h-7 items-center text-[11px] font-black text-muted">이슈</span>
                 <select
-                  className="h-11 w-full rounded-control border-line bg-canvas py-0 pl-3 pr-9 text-sm font-bold text-ink focus:border-accent focus:ring-accent"
-                  onChange={(event) => {
-                    setVisibleCount(FEED_PAGE_SIZE);
-                    setIssueFilter(event.target.value);
-                  }}
+                  className="h-11 w-full rounded-control border-line bg-canvas py-0 pl-3 pr-9 text-base font-bold text-ink focus:border-accent focus:ring-accent md:text-sm"
+                  onChange={(event) => setIssueFilter(event.target.value)}
                   value={issueFilter}
                 >
                   <option value="all">모든 이슈</option>
                   {issues.map((issue) => (
-                    <option key={issue.id} value={issue.id}>
-                      {issue.name}
-                    </option>
+                    <option key={issue.id} value={issue.id}>{issue.name}</option>
                   ))}
                 </select>
               </label>
 
               <label>
-                <span className="mb-1.5 flex min-h-7 items-center text-[11px] font-black text-muted">
-                  인물
-                </span>
+                <span className="mb-1.5 flex min-h-7 items-center text-[11px] font-black text-muted">인물</span>
                 <select
-                  className="h-11 w-full rounded-control border-line bg-canvas py-0 pl-3 pr-9 text-sm font-bold text-ink focus:border-accent focus:ring-accent"
-                  onChange={(event) => {
-                    setVisibleCount(FEED_PAGE_SIZE);
-                    setPersonFilter(event.target.value);
-                  }}
+                  className="h-11 w-full rounded-control border-line bg-canvas py-0 pl-3 pr-9 text-base font-bold text-ink focus:border-accent focus:ring-accent md:text-sm"
+                  onChange={(event) => setPersonFilter(event.target.value)}
                   value={personFilter}
                 >
                   <option value="all">모든 인물</option>
                   {people.map((person) => (
-                    <option key={person.id} value={person.id}>
-                      {person.name}
-                    </option>
+                    <option key={person.id} value={person.id}>{person.name}</option>
                   ))}
                 </select>
               </label>
             </div>
-
           </div>
         ) : null}
       </section>
@@ -419,13 +508,10 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
           className="metric-tabular flex min-w-0 flex-wrap items-center gap-y-1 text-sm font-bold leading-5 text-ink-soft"
           role="status"
         >
-          {isSearchPending ? (
+          {isResultsPending ? (
             <span className="inline-flex items-center gap-1.5 text-accent">
-              <LoaderCircle
-                aria-hidden="true"
-                className="size-3.5 motion-safe:animate-spin"
-              />
-              검색어 적용 중…
+              <LoaderCircle aria-hidden="true" className="size-3.5 motion-safe:animate-spin" />
+              {isSearchPending ? "검색어 적용 중…" : "필터 적용 중…"}
             </span>
           ) : (
             <>
@@ -437,15 +523,13 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
                 </span>
               ) : null}
               {hasSearchQuery ? <span className="text-muted"> · </span> : null}
-              <span className="text-ink">{filteredItems.length}개 결과</span>
-              <span className="text-muted"> · {visibleItems.length}개 표시</span>
+              <span className="text-ink">{results.total}개 결과</span>
+              <span className="text-muted"> · {results.items.length}개 표시</span>
             </>
           )}
         </p>
         <div className="ml-auto flex min-w-0 items-center justify-between gap-3 sm:justify-end">
-          <span className="hidden shrink-0 text-xs font-bold text-muted sm:inline">
-            {feedScopeLabel}
-          </span>
+          <span className="hidden shrink-0 text-xs font-bold text-muted sm:inline">{feedScopeLabel}</span>
           <div
             aria-label="정렬 방식"
             className="grid min-w-0 grid-cols-2 overflow-hidden rounded-control border border-rule bg-canvas"
@@ -453,20 +537,14 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
           >
             {SORT_OPTIONS.map(([value, label]) => {
               const selected = sortOrder === value;
-
               return (
                 <button
                   aria-pressed={selected}
                   className={`focus-ring motion-soft min-h-11 px-3 text-xs font-black ${
-                    selected
-                      ? "bg-accent text-canvas"
-                      : "text-ink-soft hover:bg-paper hover:text-ink"
+                    selected ? "bg-accent text-canvas" : "text-ink-soft hover:bg-paper hover:text-ink"
                   }`}
                   key={value}
-                  onClick={() => {
-                    setVisibleCount(FEED_PAGE_SIZE);
-                    setSortOrder(value);
-                  }}
+                  onClick={() => setSortOrder(value)}
                   type="button"
                 >
                   {label}
@@ -477,10 +555,15 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
         </div>
       </div>
 
-      <div aria-busy={isSearchPending}>
-        {isSearchPending ? (
+      <div aria-busy={isResultsPending || isLoadingMore}>
+        {isResultsPending ? (
           <FeedResultsSkeleton />
-        ) : filteredItems.length > 0 ? (
+        ) : loadError && results.items.length === 0 ? (
+          <EmptyState
+            description="잠시 후 다시 시도해 주세요. 기존 주소와 필터 상태는 유지됩니다."
+            title="수집 항목을 불러오지 못했습니다."
+          />
+        ) : results.items.length > 0 ? (
           <div className="space-y-6">
             <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
               {gridItems.map((item) => (
@@ -507,18 +590,21 @@ export function FeedClient({ items, issues, people }: FeedClientProps) {
                 ))}
               </div>
             ) : null}
-            {hasMoreItems ? (
+            {loadError ? (
+              <p className="text-center text-sm font-bold text-accent" role="status">
+                다음 항목을 불러오지 못했습니다. 다시 시도해 주세요.
+              </p>
+            ) : null}
+            {results.hasMore ? (
               <div className="flex justify-center">
                 <button
-                  className="focus-ring motion-soft min-h-11 rounded-control border border-rule bg-canvas px-5 text-sm font-black text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent"
-                  onClick={() =>
-                    setVisibleCount((current) =>
-                      Math.min(current + FEED_PAGE_SIZE, filteredItems.length)
-                    )
-                  }
+                  className="focus-ring motion-soft inline-flex min-h-11 items-center gap-2 rounded-control border border-rule bg-canvas px-5 text-sm font-black text-ink-soft hover:border-accent-soft hover:bg-blush hover:text-accent disabled:cursor-wait disabled:opacity-60"
+                  disabled={isLoadingMore}
+                  onClick={loadMore}
                   type="button"
                 >
-                  더보기
+                  {isLoadingMore ? <LoaderCircle aria-hidden="true" className="size-4 motion-safe:animate-spin" /> : null}
+                  {isLoadingMore ? "불러오는 중" : "더보기"}
                 </button>
               </div>
             ) : null}
