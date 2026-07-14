@@ -3510,7 +3510,7 @@
     "id": "item_478bb56f054d56ad",
     "type": "news",
     "title": "선거 정관 개정 앞두고 터진 축구협회 부정선거 논란",
-    "summary": "정몽규 전 회장 역시 \"문 위원장에게 선거인단을 대신 만나라고 지시한 적이 없다\"고 해명 한 가운데, 문... ▶ 인터뷰 : 박지성 / K-축구 혁신위 공동위원장 - \"민주적 절차에 따른 선거가 이뤄져야 한다는 것에 대해서는 저희...",
+    "summary": "선거 당시 축구협회 집행부 이사였던 문 위원장이 투표권 을 가진 한 심판을 만나 정몽규 회장에 대한 지지를 호소하며, 자신이 선거인단을 만나러 다녔다고 말하는 내용이 공개된 겁니다. 공식 선거사무원이 아니었던 문...",
     "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5204941",
     "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5204941",
     "publisher": "mbn.co.kr",
@@ -3522,27 +3522,29 @@
       "정관 개정",
       "선거인단",
       "선거인",
-      "축구 혁신",
-      "정몽규",
-      "박지성",
-      "해명"
+      "투표권",
+      "집행부",
+      "정몽규"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 해명",
+      "\"정몽규\" 해명",
+      "축구협회 투표권"
     ],
     "issueTags": [
       "statute-revision",
       "electoral-college",
-      "innovation-committee"
+      "kfa-executives"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 41,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
-      "해명 키워드 포함",
       "선거 키워드 포함"
     ]
   },
