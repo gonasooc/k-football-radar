@@ -604,7 +604,7 @@
     "id": "item_e5eeaebf8eb9709d",
     "type": "news",
     "title": "\"나가라니까 진짜 나갔네\"... '국제 망신' 홍명보 선임 주동자, 도피성 ...",
-    "summary": "대한 민국 축구 대표팀을 2026 국제 축구 연맹(FIFA) 북중미월드컵 조별리그 탈락이라는 대참사로 몰고 간 뒤 캄보디아 프로 축구 무대로 도피성 취업을 선택한 이임생 전 대한축구협회 기술본부 총괄이사를 향한 축구 팬들의...",
+    "summary": "대한 축구협회 기술본부 총괄이사를 향한 축구 팬들의 분노가 극에 달하고 있다. 하지만 이 전 이사는 국민적... 최영일 부회장 이 동행했음에도 \"둘이서만 만나 대화했다\"라고 국회를 상대로 거짓말을 한 사실이 드러나...",
     "url": "https://www.starnewskorea.com/sports/2026/07/14/2026071313361991629",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/07/14/2026071313361991629",
     "publisher": "starnewskorea.com",
@@ -612,9 +612,8 @@
     "collectedAt": "2026-07-13T21:36:05.543Z",
     "matchedKeywords": [
       "홍명보",
-      "대한축구협회",
-      "이임생",
-      "이임생 전 대한축구협회"
+      "대한 축구협회",
+      "부회장"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -630,14 +629,15 @@
       "축구협회 감독 선임",
       "축구협회 부회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "kfa-executives"
+    ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ]
@@ -1690,7 +1690,7 @@
     "id": "item_68afc6d1e4e57a67",
     "type": "news",
     "title": "축구협회장 선거 기한 연장...속도 내는 K-축구혁신위",
-    "summary": "2026 북중미월드컵 조별 예선 탈락 뒤에 출범한 K- 축구 혁신위원회가 두 번째 회의에서 대한 축구협회 장 선거 제도 개혁에 첫발을 뗐습니다. 우선 60일 이내에 차기 회장 을 선출해야 하는 규정부터 연장한 뒤 본격 개선안을...",
+    "summary": "[ 박지성 / K-축구혁신위원회 : 많은 분이 회장 선거 에 대한 불신을 좀 가지고 있기 때문에 그런 부분을 해소하고 거기에 맞춰서 많은 사람에게 신뢰를 받을 수 있는 환경에서 회장이 나온다면….] 박 위원장은 이밖에, 차기...",
     "url": "https://www.ytn.co.kr/_ln/0107_202607132203017270",
     "originalUrl": "https://www.ytn.co.kr/_ln/0107_202607132203017270",
     "publisher": "ytn.co.kr",
@@ -1700,9 +1700,9 @@
       "축구혁신위",
       "축구협회장",
       "회장 선거",
-      "대한 축구협회",
+      "K-축구혁신위원회",
       "혁신위원회",
-      "축구 혁신"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1731,17 +1731,21 @@
       "election",
       "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
-    "labels": []
+    "relevanceScore": 57,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_6e08365c5a8f1fab",
     "type": "news",
     "title": "[김종석의 리포트]박지성 “청문회 참석 안 한다”",
-    "summary": "K 축구 혁신위원회 가 오늘 두 번째 회의를 열었는데, 조금 전 박지성 공동위원장 다음 주 축구협회 청문회 참석에 여부에 대해 이렇게 말했습니다. Q.청문회 참석하시나요? 청문회요? [청문회 참석 안 합니다.] Q.그 이유가...",
+    "summary": "선수인데 사실 확인을 안 했으면 게으른 거고 확인을 했음에도 불구하고 부른 거면 이거 보여주려고 하는 거 아닙니까. 22일 열릴 축구협회 청문회에 홍명보 전 감독과 김병지 축국 협회 부회장 등은 참석할 걸로 보입니다.",
     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000539516",
     "originalUrl": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000539516",
     "publisher": "ichannela.com",
@@ -1750,8 +1754,9 @@
     "matchedKeywords": [
       "박지성",
       "축구협회",
-      "혁신위원회",
-      "축구 혁신"
+      "부회장",
+      "홍명보",
+      "김병지"
     ],
     "discoveryQueries": [
       "\"김병지\" 축구협회",
@@ -1764,14 +1769,16 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "kfa-executives"
     ],
     "personTags": [
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_hong_myung_bo",
+      "person_kim_byung_ji"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -2770,7 +2777,7 @@
     "id": "item_c95f12991793699a",
     "type": "news",
     "title": "박지성 K-축구 혁신위원장 \"차기 축구협회장 60일 이내 선출 규정 개정...",
-    "summary": "박 위원장은 \"대한체육회는 내일부터 규정 개정 절차를 밟아 이달 내 규정 개정 을 완료할 예정\"이라며 \"대한 축구협회 는 이에 맞춰 정관 을 개정 하고 선거제도 개선안을 마련해 차기 회의에서 논의하기로 했다\"고 설명했다....",
+    "summary": "K- 축구 혁신위 는 지난 6일 1차 회의 때 대한 축구협회 거버넌스 계약과 관련해서 현행 제도로는 안 된다는 엄중한 인식 하에서 대한체육회의 행정적인 뒷받침을 받기로 한 바 있다. 박 위원장은 \"대한체육회는 내일부터 규정...",
     "url": "https://www.newsis.com/view/NISX20260713_0003707612",
     "originalUrl": "https://www.newsis.com/view/NISX20260713_0003707612",
     "publisher": "newsis.com",
@@ -2781,8 +2788,7 @@
       "규정 개정",
       "축구 혁신",
       "박지성",
-      "대한 축구협회",
-      "정관"
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "\"김승희\" 대한축구협회",
@@ -2826,7 +2832,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 60,
+    "relevanceScore": 58,
     "labels": [
       "인물 언급"
     ]
