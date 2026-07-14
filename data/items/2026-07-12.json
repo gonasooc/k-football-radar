@@ -1033,7 +1033,7 @@
     "id": "item_5a786c637fbcad83",
     "type": "news",
     "title": "축구협회 청문회, 시작부터 본질 '흔들'",
-    "summary": "/연합뉴스 | 서울=한스경제 류정호 기자 | 국회 문화체육관광위원회의 대한축구협회( KFA ) 청문회가 시작... / KFA 제공 여야 대치도 부담이다. 이번 청문회 실시계획서는 국민의힘이 불참한 가운데 더불어민주당 주도로...",
+    "summary": "핵심 증인에는 정몽규 전 대한 축구협회 장, 홍명보 전 축구 대표팀 감독, 이임생 전 대한 축구협회 기술총괄이사 등이 포함됐다. 대표팀 감독 선임 과정, 전력강화위원회 운영, 협회 집행부 의 의사결정 구조가 청문회의 주요...",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=849770",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=849770",
     "publisher": "hansbiz.co.kr",
@@ -1041,8 +1041,17 @@
     "collectedAt": "2026-07-12T07:49:34.007Z",
     "matchedKeywords": [
       "축구협회",
-      "대한축구협회",
-      "KFA"
+      "대한 축구협회",
+      "집행부",
+      "감독 선임",
+      "대표팀 감독",
+      "전력강화위원회",
+      "감독",
+      "전력강화위원",
+      "선임",
+      "정몽규",
+      "홍명보",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -1053,12 +1062,21 @@
       "축구협회 집행부",
       "KFA"
     ],
-    "issueTags": [],
-    "personTags": [],
+    "issueTags": [
+      "kfa-executives",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
-    "labels": []
+    "relevanceScore": 33,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_8c43848020553400",
