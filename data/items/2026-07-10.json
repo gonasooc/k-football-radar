@@ -2980,14 +2980,16 @@
     "id": "item_dfbb2197a9f1e4f3",
     "type": "news",
     "title": "손흥민·황희찬 청문회 참고인 채택, 하루 만에 철회",
-    "summary": "대한 축구협회 에 대한 국회 청문회 참고인으로 채택됐던 대표팀 주장 손흥민(34·LAFC)과 황희찬(30... 부담을 주기 위한 것이 아니다. 한국 축구 의 발전을 위한 더 나은 청문회를 만들위한 결정이었다\"고 해명 했다.",
+    "summary": "이와 함께 정몽규 전 축구협회장과 홍명보 전 축구대표팀 감독 등 증인 13명과 손흥민, 황희찬을 포함한... 부담을 주기 위한 것이 아니다. 한국 축구의 발전을 위한 더 나은 청문회를 만들위한 결정이었다\"고 해명 했다.",
     "url": "https://www.hankookilbo.com/news/article/A2026071015190001131?did=NA",
     "originalUrl": "https://www.hankookilbo.com/news/article/A2026071015190001131?did=NA",
     "publisher": "hankookilbo.com",
     "publishedAt": "2026-07-10T07:19:00.000Z",
     "collectedAt": "2026-07-10T08:19:33.211Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "축구협회장",
+      "정몽규",
+      "홍명보",
       "해명"
     ],
     "discoveryQueries": [
@@ -2995,13 +2997,19 @@
       "\"홍명보\" 해명",
       "축구협회 해명"
     ],
-    "issueTags": [],
-    "personTags": [],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 15,
     "relevanceTier": "secondary",
     "labels": [
+      "인물 언급",
       "해명 키워드 포함"
     ]
   },
