@@ -17,7 +17,7 @@ data/items/YYYY-MM-DD.json, data/collection-state.json
         ↓
 Next.js App Router
         ↓
-Vercel 배포 화면
+Docker image + Mac mini + Cloudflare Tunnel
 ```
 
 중요한 점은 데이터베이스가 없다는 것이다. MVP에서는 Supabase, Redis, CMS 같은 외부 저장소를 쓰지 않는다. 수집된 결과는 저장소 안의 JSON 파일에 저장된다.
@@ -259,25 +259,25 @@ git push
 
 Naver API 키는 GitHub 저장소 Secrets에서 가져온다. `.env` 파일은 GitHub에 올라가지 않는다.
 
-## 8. Vercel 배포 흐름
+## 8. 홈서버 배포 흐름
 
-Vercel은 데이터를 직접 수집하지 않는다. Vercel의 역할은 화면을 빌드하고 배포하는 것이다.
+홈서버는 데이터를 직접 수집하지 않는다. Git commit을 검증한 뒤 불변 Docker image를 만들고, 명시적으로 선택한 release만 배포한다.
 
 ```text
 GitHub main 브랜치에 push
         ↓
-Vercel이 push 감지
+맥미니에서 clean commit 검증
         ↓
-pnpm install
+Docker image build (`k-football-radar:git-FULL_SHA`)
         ↓
-pnpm run build
+선택한 release로 컨테이너 재생성
         ↓
-Next.js 앱 배포
+Cloudflare Tunnel 공개
 ```
 
-GitHub Actions가 `data/` 변경 커밋을 만들면 그 커밋도 `main`에 push된다. Vercel은 이 push를 감지해서 최신 JSON 데이터가 반영된 화면을 다시 배포한다.
+GitHub Actions가 `data/` 변경 커밋을 만들면 그 commit으로 새 image를 빌드하고 배포해야 최신 JSON 데이터가 반영된다.
 
-MVP 기준으로 Vercel에는 `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET`을 넣지 않는다. Naver API 호출은 GitHub Actions에서만 한다.
+Naver API 호출은 GitHub Actions에서만 한다. 홈서버 런타임에는 Naver credential을 저장하지 않는다.
 
 ## 9. 로컬 개발 흐름
 

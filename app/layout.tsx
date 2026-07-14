@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Analytics } from "@vercel/analytics/next";
 import "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css";
 
 import { AppNav } from "@/components/AppNav";
@@ -20,16 +19,6 @@ function getSiteUrl() {
   const explicitSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
   if (explicitSiteUrl) {
     return explicitSiteUrl;
-  }
-
-  const productionUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
-  if (productionUrl) {
-    return `https://${productionUrl}`;
-  }
-
-  const vercelUrl = process.env.VERCEL_URL?.trim();
-  if (vercelUrl) {
-    return `https://${vercelUrl}`;
   }
 
   return "http://localhost:3000";
@@ -100,7 +89,6 @@ export default function RootLayout({
             {children}
           </main>
         </div>
-        <Analytics />
       </body>
     </html>
   );

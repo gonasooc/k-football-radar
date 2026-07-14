@@ -2,7 +2,6 @@ export type WorkflowConclusion = "success" | "failure" | "cancelled" | "skipped"
 
 export type ReadinessInput = {
   secretNames: string[];
-  deploymentCount: number;
   latestCiConclusion: WorkflowConclusion;
   latestCollectConclusion: WorkflowConclusion;
 };
@@ -50,15 +49,6 @@ export function evaluateReadiness(input: ReadinessInput): ReadinessReport {
       detail: hasSecret(input.secretNames, "NAVER_CLIENT_SECRET")
         ? "Repository secret is configured"
         : "Repository secret is missing"
-    },
-    {
-      id: "vercel-deployment",
-      label: "Vercel/GitHub deployment",
-      status: input.deploymentCount > 0 ? "pass" : "fail",
-      detail:
-        input.deploymentCount > 0
-          ? `${input.deploymentCount} deployment record(s) found`
-          : "No GitHub deployment records found"
     },
     workflowCheck("ci-workflow", "Latest CI workflow", input.latestCiConclusion),
     workflowCheck(

@@ -25,16 +25,6 @@ async function getSecretNames(): Promise<string[]> {
     .filter(Boolean);
 }
 
-async function getDeploymentCount(): Promise<number> {
-  const output = await runGh([
-    "api",
-    "repos/gonasooc/k-football-radar/deployments",
-    "--jq",
-    "length"
-  ]);
-  return Number.parseInt(output.trim(), 10) || 0;
-}
-
 async function getLatestWorkflowConclusion(workflowName: string): Promise<WorkflowConclusion> {
   const output = await runGh([
     "run",
@@ -50,17 +40,15 @@ async function getLatestWorkflowConclusion(workflowName: string): Promise<Workfl
 }
 
 async function main(): Promise<void> {
-  const [secretNames, deploymentCount, latestCiConclusion, latestCollectConclusion] =
+  const [secretNames, latestCiConclusion, latestCollectConclusion] =
     await Promise.all([
       getSecretNames(),
-      getDeploymentCount(),
       getLatestWorkflowConclusion("CI"),
       getLatestWorkflowConclusion("Collect Korea Football Radar Data")
     ]);
 
   const report = evaluateReadiness({
     secretNames,
-    deploymentCount,
     latestCiConclusion,
     latestCollectConclusion
   });

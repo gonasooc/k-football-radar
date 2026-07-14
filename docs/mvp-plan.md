@@ -2,7 +2,11 @@
 
 문서 버전: 2026-07-07  
 목적: Korea Football Radar MVP의 제품 범위, 기술 구조, 구현 기준을 정리한다.  
-최종 배포 방향: **Next.js + Vercel + GitHub Actions + JSON 데이터**
+현재 배포 방향: **Next.js + Docker/Mac mini + Cloudflare Tunnel + GitHub Actions + JSON 데이터**
+
+> 이 문서의 Vercel 언급은 초기 MVP 구현 당시의 기록이다. 현재 운영 배포의
+> 권위 있는 절차는 [홈서버 배포 문서](home-server-deployment.md)이며, Vercel Git
+> 자동 배포 지침은 적용하지 않는다.
 
 ---
 
@@ -11,7 +15,7 @@
 초기 구현 목표는 다음과 같다.
 
 ```text
-Korea Football Radar MVP를 구현한다. Vercel 배포에 적합한 Next.js TypeScript 앱을 만들고, GitHub Actions로 Naver News API와 공식자료 메타데이터를 수집해 /data 아래 JSON 파일로 커밋한다. 데이터베이스, CMS, 로그인, 댓글, AI 요약, 메신저 알림 없이 대시보드, 피드, 이슈 페이지, 인물 페이지, 출처 아카이브, 데이터 검증, 예약 수집 워크플로, Vercel 빌드가 모두 동작하면 MVP를 완료로 본다.
+Korea Football Radar MVP를 구현한다. Docker/Mac mini 배포에 적합한 Next.js TypeScript 앱을 만들고, GitHub Actions로 Naver News API와 공식자료 메타데이터를 수집해 /data 아래 JSON 파일로 커밋한다. 데이터베이스, CMS, 로그인, 댓글, AI 요약, 메신저 알림 없이 대시보드, 피드, 이슈 페이지, 인물 페이지, 출처 아카이브, 데이터 검증, 예약 수집 워크플로, immutable image 빌드가 모두 동작하면 MVP를 완료로 본다.
 ```
 
 구현 중 참고해야 할 원칙:
@@ -680,29 +684,28 @@ jobs:
 
 ---
 
-## 12. Vercel 배포 지침
+## 12. 홈서버 배포 지침
 
 ### 12.1 배포 방식
 
-1. GitHub 저장소 생성
-2. Vercel에서 해당 저장소 가져오기
-3. 프레임워크 프리셋: Next.js
-4. 빌드 명령: `pnpm run build`
-5. 출력 디렉터리: 기본값 사용
-6. 운영 브랜치: `main`
-7. 이후 GitHub Actions가 `data/` 변경을 커밋하면 Vercel이 자동 재배포
+1. `deploy/macos/production.env`를 private mode `600` 파일로 만든다.
+2. Docker ingress network와 Cloudflare Tunnel public hostname을 구성한다.
+3. clean Git commit에서 `deploy/macos/build-release.sh`를 실행한다.
+4. 출력된 full SHA를 `deploy/macos/select-release.sh`로 선택한다.
+5. `deploy/macos/deploy-release.sh`로 선택한 immutable image를 실행한다.
+6. 수집 workflow가 `data/`를 갱신하면 그 commit을 새 release로 빌드·배포한다.
 
-### 12.2 Vercel 환경변수
+### 12.2 런타임 환경변수
 
-MVP 기준 Vercel에는 필수 시크릿이 없다.
+MVP 기준 런타임에는 필수 앱 시크릿이 없다.
 
 수집은 GitHub Actions에서만 실행한다.  
-Vercel은 이미 생성된 JSON을 읽어 화면만 렌더링한다.
+컨테이너는 빌드 시점의 JSON snapshot을 읽어 화면만 렌더링한다.
 
 ### 12.3 주의 사항
 
-- Vercel Runtime에서 데이터를 파일로 저장하려 하지 않는다.
-- Vercel Serverless Function으로 주기 수집을 구현하지 않는다.
+- 컨테이너 Runtime에서 데이터를 파일로 저장하려 하지 않는다.
+- 컨테이너 API route로 주기 수집을 구현하지 않는다.
 - Cron은 GitHub Actions가 담당한다.
 
 ---
