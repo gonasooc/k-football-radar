@@ -177,7 +177,7 @@
     "id": "item_3b010b5a7ef0c973",
     "type": "news",
     "title": "[속보] 홍명보 선임 과정 다 뜯어보는 경찰…수사범위 확대",
-    "summary": "홍명보 전 축구 대표팀 감독 선임 과정에서 부당 개입이 있었는지 수사하는 경찰이 대한 축구협회 ... 전력강화위는 전문가들이 감독 적임자를 골라내 이사회 에 선임을 추천하는 기구로, 당시 정해성 전 위원장을 중심으로...",
+    "summary": "홍명보 전 축구 대표팀 감독 선임 과정에서 부당 개입이 있었는지 수사하는 경찰이 대한 축구협회 전력강화위원회 논의 과정까지 뜯어본다. 2년 전 문화체육관광부 감사 에서 드러난 사실관계를 뒤집는 수준의 새로운...",
     "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260710.99099003016",
     "originalUrl": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260710.99099003016",
     "publisher": "kookje.co.kr",
@@ -186,10 +186,13 @@
     "matchedKeywords": [
       "홍명보",
       "대한 축구협회",
-      "이사회",
+      "문화체육관광부 감사",
+      "감사",
       "감독 선임",
       "대표팀 감독",
+      "전력강화위원회",
       "감독",
+      "전력강화위원",
       "선임"
     ],
     "discoveryQueries": [
@@ -200,7 +203,7 @@
       "축구협회 이사회"
     ],
     "issueTags": [
-      "kfa-executives",
+      "mcst-audit",
       "coach-appointment"
     ],
     "personTags": [
@@ -208,9 +211,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 27,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -2067,7 +2071,7 @@
     "id": "item_f81a8bc2cb6823ea",
     "type": "news",
     "title": "[오피셜] 홍명보가 침묵 깬 이유…\"사실과 다른 내용이 사실인 양 알려...",
-    "summary": "홍명보 전 대한민국 축구 국가대표 감독이 끝내 입을 열었다. 홍 전 감독은 9일 홍명보 장학재단을 통해 '국민... 아니었다\"고 해명 했다. 마지막으로 청문회와 관련해 \"결과에 대한 책임은 오롯이 감독인 내게 있다. 청문회가...",
+    "summary": "이에 문화체육관광부는 최휘영 장관을 비롯해 박지성 , 이영표 등이 포함된 'K-축구 혁신위원회'를 출범하며... 아니었다\"고 해명 했다. 마지막으로 청문회와 관련해 \"결과에 대한 책임은 오롯이 감독인 내게 있다. 청문회가...",
     "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=94584",
     "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=94584",
     "publisher": "fourfourtwo.co.kr",
@@ -2075,6 +2079,9 @@
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
       "홍명보",
+      "혁신위원회",
+      "축구 혁신",
+      "박지성",
       "해명"
     ],
     "discoveryQueries": [
@@ -2082,13 +2089,16 @@
       "\"홍명보\" 해명",
       "축구협회 해명"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "innovation-committee"
+    ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 17,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
