@@ -1809,6 +1809,42 @@
     "labels": []
   },
   {
+    "id": "item_f2b1f0bfae736c40",
+    "type": "news",
+    "title": "차기 회장 선출 기한 연장…'60일 이내 규정' 바꾼다",
+    "summary": "지난주 첫 회의 뒤 일주일 만에 두 번째 회의를 연 혁신위는 정몽규 전 축구협회 장 사퇴 후 60일 안에 신임 회장을 선출하도록 한 기존 규정 을 개정 하기로 뜻을 모았습니다. 이를 위해 상급 기관인 대한체육회가 먼저...",
+    "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008655647&plink=ORI",
+    "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008655647&plink=ORI",
+    "publisher": "news.sbs.co.kr",
+    "publishedAt": "2026-07-13T12:30:00.000Z",
+    "collectedAt": "2026-07-14T09:29:54.301Z",
+    "matchedKeywords": [
+      "축구협회",
+      "정몽규",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 선거",
+      "\"정몽규\" 선거",
+      "축구혁신위",
+      "축구협회 규정 개정",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 K-혁신위"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 8,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_338dc5907ee1b9ae",
     "type": "news",
     "title": "박지성이 축구협회 불참하는 이유를 단호하게 밝혔다",
@@ -2118,7 +2154,7 @@
     "id": "item_f46d55a291a2374d",
     "type": "news",
     "title": "박지성 \"신뢰받는 회장 뽑아야\"‥체육회부터 규정 개정",
-    "summary": "◀ 앵커 ▶ K- 축구 혁신위가 차기 축구협회 장 선거의 투명성과 공정성을 높이기 위해 대한체육회와 함께 선출 기한을 연장하는 종목단체 규정 을 개정 하기로 했습니다. ◀ 리포트 ▶ K- 축구 혁신위원회 두 번째 회의의 핵심...",
+    "summary": "[ 박지성 /K-축구 혁신위 공동위원장] \"기한이 중요한 것이 아니라 결국 저희뿐만이 아니라 많은 분들이 어쨌든 회장 선거 에 대한 불신을 좀 가지고 있기 때문에 그런 부분을 해소시키고.\" 다만 박지성 공동위원장은 차기...",
     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6837134_37004.html",
     "originalUrl": "https://imnews.imbc.com/replay/2026/nwdesk/article/6837134_37004.html",
     "publisher": "imnews.imbc.com",
@@ -2127,8 +2163,7 @@
     "matchedKeywords": [
       "규정 개정",
       "박지성",
-      "축구협회",
-      "혁신위원회",
+      "회장 선거",
       "축구 혁신"
     ],
     "discoveryQueries": [
@@ -2149,6 +2184,7 @@
     ],
     "issueTags": [
       "statute-revision",
+      "election",
       "innovation-committee"
     ],
     "personTags": [
@@ -2156,7 +2192,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급"
     ]
@@ -2687,7 +2723,7 @@
     "id": "item_fb0cbb52e675c103",
     "type": "news",
     "title": "축구혁신위 “60일 내 선출 규정 손본다”",
-    "summary": "K- 축구혁신위 원회가 오늘 두 번째 회의를 열었습니다. 차기 회장 선거를 60일 안에 치러야 하는 규정을 손보는 방안이 논의됐는데요. 현장 취재 기자 연결합니다. 손주영 기자, 회의는 끝났습니까? [기자] 네, K...",
+    "summary": "[기자] 네, K- 축구 혁신위 원회는 조금 전 오후 6시까지 차기 축구협회 장 선거 방안을 집중 논의했는데요, 60일 안에 선거를 해야 하는 기존 규정에 예외를 둘 방침입니다. 박지성 공동위원장 얘기부터 들어보시죠. [박지성 / K ...",
     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000539507",
     "originalUrl": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000539507",
     "publisher": "ichannela.com",
@@ -2695,7 +2731,9 @@
     "collectedAt": "2026-07-13T11:43:52.199Z",
     "matchedKeywords": [
       "축구혁신위",
-      "회장 선거"
+      "축구협회",
+      "축구 혁신",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2716,14 +2754,17 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee",
-      "election"
+      "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 44,
-    "labels": []
+    "relevanceScore": 40,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_c95f12991793699a",
@@ -2794,7 +2835,7 @@
     "id": "item_a02a08fb5aa23230",
     "type": "news",
     "title": "박지성 “축구협회장 선거, 기존 방식 답습 안 해… 시간 두고 제대로 ...",
-    "summary": "차기 축구협회 장 선거 기한을 연장하기로 했다. 기존의 졸속 선거 방식을 탈피해 보다 투명하고 철저한 검증... 다만 대한체육회가 예고했던 회장 선출 직선제 도입이나 선거인 단 규모(기존 100~300명) 확대 등 구체적인...",
+    "summary": "축구협회장 선거 기한을 연장하기로 했다. 기존의 졸속 선거 방식을 탈피해 보다 투명하고 철저한 검증... 밝혔고 홍명보 국가대표팀 감독 역시 본선 조별리그 탈락(32강 진출 실패)의 책임을 지고 자진 사퇴했다. 현행...",
     "url": "https://www.mk.co.kr/article/12097598",
     "originalUrl": "https://www.mk.co.kr/article/12097598",
     "publisher": "mk.co.kr",
@@ -2804,8 +2845,8 @@
       "축구협회장",
       "회장 선거",
       "박지성",
-      "축구협회",
-      "선거인"
+      "홍명보",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"박지성\" 선거",
@@ -2831,15 +2872,15 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
-      "electoral-college"
+      "election"
     ],
     "personTags": [
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급"
     ]
@@ -2848,7 +2889,7 @@
     "id": "item_953cf93228a5d385",
     "type": "news",
     "title": "축구협회장 선거 기한 연장 추진…혁신위 \"선거제도부터 손본다\"",
-    "summary": "대한체육회가 한국 축구 쇄신을 위해 구성한 'K- 축구 혁신위 원회'의 권고를 받아들여 차기 대한 축구협회 장 선거 기한을 연장하기로 했다. 선거제도를 개선한 뒤 새 회장을 선출해 공정성과 신뢰를 높이겠다는 취지다....",
+    "summary": "대한축구협회장 선거 기한을 연장하기로 했다. 선거 제도를 개선한 뒤 새 회장을 선출해 공정성과 신뢰를... 정몽규 전 대한축구협회장은 지난 5월 29일 2026 북중미 월드컵 이후 사퇴 의사를 밝혔고, 홍명보 전 대표팀 감독도...",
     "url": "https://www.dailian.co.kr/news/view/1666694/?sc=Naver",
     "originalUrl": "https://www.dailian.co.kr/news/view/1666694/?sc=Naver",
     "publisher": "dailian.co.kr",
@@ -2857,8 +2898,11 @@
     "matchedKeywords": [
       "축구협회장",
       "회장 선거",
-      "대한 축구협회",
-      "축구 혁신"
+      "대한축구협회",
+      "대한축구협회장",
+      "정몽규",
+      "홍명보",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2890,14 +2934,18 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
-      "innovation-committee"
+      "election"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
-    "labels": []
+    "relevanceScore": 38,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_382bf7a1d56b862f",
