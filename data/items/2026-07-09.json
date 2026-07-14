@@ -1902,7 +1902,7 @@
     "id": "item_9a5ee8e8e565dc02",
     "type": "news",
     "title": "[김종석의 리포트]“가족 위협에 출국했다”…홍명보, 돌연 입장문",
-    "summary": "저희 채널A와의 단독 인터뷰 이후엔 공개 입장 발표가 없었던 홍명보 감독이 오늘 돌연 입장문을 냈습니다.... 있었다\"고 해명 했습니다. \"저는 억울한 건 별로 없어요. 억울한 거 없고 제가 감독이고, 제가 책임지는 게 맞고...",
+    "summary": "있었다\"고 해명 했습니다. \"저는 억울한 건 별로 없어요. 억울한 거 없고 제가 감독이고, 제가 책임지는 게... [이재정 / 국회 문화체육관광위원회 위원장] \"증인은 정몽규 전 대한축구협회장, 홍명보 전 축구 국가대표팀 감독...",
     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000538896",
     "originalUrl": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000538896",
     "publisher": "ichannela.com",
@@ -1910,6 +1910,10 @@
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
       "홍명보",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "정몽규",
       "해명"
     ],
     "discoveryQueries": [
@@ -1919,13 +1923,16 @@
       "\"홍명보\" 해명",
       "축구협회 해명"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -13121,7 +13128,7 @@
     "id": "item_06864a52ff92a45e",
     "type": "news",
     "title": "정몽규는 사퇴했지만 FIFA·AFC 직함은 남았다… 한국 축구 ‘미완의 퇴...",
-    "summary": "동시에 대한 축구협회 는 차기 회장 선거를 앞두고 선거 제도 개편 요구를 마주하게 됐습니다. 정 전 회장의 사퇴 이후에도 한국 축구 의 핵심 쟁점은 남아 있습니다. 국제 직책의 대표성, 회장 선거 방식, 협회 의사결정...",
+    "summary": "대한 축구협회 장 선거는 대의원 , 임원, 선수, 지도자, 심판, 동호인 등으로 구성된 선거인단을 통해 치러져 왔습니다. 겉으로는 다양한 축구 주체가 참여하는 방식입니다. 그러나 현장에서는 기존 축구 계 인맥, 지역 조직...",
     "url": "https://www.jibs.co.kr/news/articles/articlesDetail/63277?feed=na",
     "originalUrl": "https://www.jibs.co.kr/news/articles/articlesDetail/63277?feed=na",
     "publisher": "jibs.co.kr",
@@ -13131,8 +13138,9 @@
       "정몽규",
       "사퇴",
       "대한 축구협회",
-      "회장 선거",
-      "제도 개편"
+      "선거인단",
+      "선거인",
+      "대의원"
     ],
     "discoveryQueries": [
       "\"박지성\" 선거",
@@ -13147,17 +13155,17 @@
       "축구협회 제도 개편"
     ],
     "issueTags": [
-      "election",
-      "statute-revision"
+      "electoral-college"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
+    "relevanceScore": 25,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "선거 키워드 포함"
     ]
   },
   {
