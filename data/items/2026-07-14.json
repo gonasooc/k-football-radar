@@ -30,7 +30,7 @@
     "id": "item_80889d04c13ba3fd",
     "type": "news",
     "title": "'2년째 공전' 축구협회 수사 속도…경찰, 전력강화위원 잇따라 소환 조...",
-    "summary": "경찰이 지난 9일에 이어 어제(14일)도 당시 축구협회 전력강화위원을 잇따라 소환해 조사했습니다. 최희지... 정몽규 전 회장과 홍명보 전 감독 등을 고발한 시민단체 대표에 대한 고발인 조사도 속도가 붙고 있습니다....",
+    "summary": "홍명보 전 축구 대표팀 감독 선임 과정과 관련된 수사가 속도를 내고 있습니다. 경찰이 지난 9일에 이어 어제(14일)도 당시 축구협회 전력강화위원을 잇따라 소환해 조사했습니다. 최희지 기자가 보도합니다. 지난 북중미...",
     "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5206002",
     "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5206002",
     "publisher": "mbn.co.kr",
@@ -38,7 +38,11 @@
     "collectedAt": "2026-07-14T23:34:18.363Z",
     "matchedKeywords": [
       "축구협회",
-      "정몽규",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "전력강화위원",
+      "선임",
       "홍명보"
     ],
     "discoveryQueries": [
@@ -49,14 +53,15 @@
       "전력강화위원회",
       "축구협회 감독 선임"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "coach-appointment"
+    ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급"
     ]
@@ -140,7 +145,7 @@
     "id": "item_a616eba3d5148a33",
     "type": "news",
     "title": "경찰, 축구협회 임원 잇단 소환",
-    "summary": "사진=연합뉴스 경찰이 홍명보 전 축구 국가대표팀 감독 선임 의혹과 관련해 대한 축구협회 임원 과 전력강화위원을 잇달아 소환하며 수사를 본격화하고 있다. 홍 전 감독 선임 과정에서 정몽규 전 대한축구협회장 등 축협...",
+    "summary": "사진=연합뉴스 경찰이 홍명보 전 축구 국가대표팀 감독 선임 의혹과 관련해 대한 축구협회 임원과... 문화체육관광부 는 앞서 특정 감사 를 통해 전력강화위가 홍 전 감독과 외국인 감독 1명을 공동 1위 후보로 올렸고, 정해성...",
     "url": "https://www.bntnews.co.kr/article/view/bnt202607150011",
     "originalUrl": "https://www.bntnews.co.kr/article/view/bnt202607150011",
     "publisher": "bntnews.co.kr",
@@ -149,16 +154,13 @@
     "matchedKeywords": [
       "축구협회",
       "임원",
-      "대한축구협회",
       "대한 축구협회",
-      "축구협회장",
-      "대한축구협회장",
+      "감사",
       "감독 선임",
       "대표팀 감독",
       "감독",
-      "전력강화위원",
       "선임",
-      "정몽규",
+      "후보",
       "홍명보"
     ],
     "discoveryQueries": [
@@ -188,19 +190,19 @@
     ],
     "issueTags": [
       "kfa-executives",
-      "election",
+      "mcst-audit",
       "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 44,
+    "relevanceScore": 43,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -282,7 +284,7 @@
     "id": "item_8f5064d5e52d1c1c",
     "type": "news",
     "title": "축협 이사회도 조사선상…‘홍명보 선임 의혹’ 수사 박차 [사건플러스...",
-    "summary": "홍명보 전 축구 대표팀 감독 선임 과정의 공정성 논란을 수사 중인 경찰이 당시 대한 축구협회 전력강화위원과 협회 임원 을 같은 날 잇달아 소환하며 수사를 확대하고 있다. 15일 서울경제신문 취재를 종합하면 서울경찰청...",
+    "summary": "15일 서울경제신문 취재를 종합하면 서울경찰청 광역수사단 금융범죄수사대는 전날 홍 전 감독 선임 당시 전력강화위원으로 활동한 A 씨와 대한 축구협회 부회장 이었던 B 씨를 참고인 신분으로 불러 조사했다. 경찰은 A...",
     "url": "https://www.sedaily.com/article/20067785?ref=naver",
     "originalUrl": "https://www.sedaily.com/article/20067785?ref=naver",
     "publisher": "sedaily.com",
@@ -292,8 +294,8 @@
       "이사회",
       "홍명보",
       "대한 축구협회",
+      "부회장",
       "감독 선임",
-      "대표팀 감독",
       "감독",
       "전력강화위원",
       "선임"
@@ -327,7 +329,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
     ]
@@ -336,7 +338,7 @@
     "id": "item_ba94cfb01c2afe2f",
     "type": "news",
     "title": "\"韓 홍명보 후임 선임, 내년 초까지 미뤄질 수도\" 외신 충격 전망",
-    "summary": "매체는 \"2013년부터 대한축구협회를 이끌었던 정몽규 회장은 월드컵 탈락이 확정된 이후 사임서를 제출했다\"면서 \"홍명보 감독 역시 물러났는데, 홍 감독 은 지난 2024년 대표팀 감독 으로 선임 될 당시부터 논란이 있었다....",
+    "summary": "제출했다\"면서 \" 홍명보 감독 역시 물러났는데, 홍 감독은 지난 2024년 대표팀 감독으로 선임될 당시부터... 최근 K-축구혁신위원회가 회장 궐위 시 '60일 이내'에 차기 회장 선거 를 치러야 하는 규정에 기한을 연장할 수 있는...",
     "url": "https://www.starnewskorea.com/sports/2026/07/15/2026071422555425023",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/07/15/2026071422555425023",
     "publisher": "starnewskorea.com",
@@ -344,11 +346,14 @@
     "collectedAt": "2026-07-14T21:39:20.003Z",
     "matchedKeywords": [
       "홍명보",
-      "대한축구협회",
+      "K-축구혁신위원회",
+      "회장 선거",
+      "축구혁신위",
+      "혁신위원회",
       "대표팀 감독",
       "감독",
       "선임",
-      "정몽규"
+      "차기"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -372,15 +377,16 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
+      "election",
+      "innovation-committee",
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_chung_mong_gyu"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급"
     ]
@@ -389,7 +395,7 @@
     "id": "item_9f6023cb49b99c55",
     "type": "news",
     "title": "경찰 '홍명보 감독 선임 의혹' 축협 임원·전력강화위원 조사...본격 수...",
-    "summary": "홍명보 전 축구대표팀 감독 선임 과정에서 '윗선' 등의 부당한 개입이 있었는지 수사하는 경찰이 당시 대한 축구협회 임원 과 전력강화위원을 같은 날 동시 소환하는 등 본격 수사에 들어갔다. 14일 서울경찰청 광역수사단...",
+    "summary": "홍명보 전 축구 대표팀 감독 선임 과정에서 '윗선' 등의 부당한 개입이 있었는지 수사하는 경찰이 당시 대한 축구협회 ...",
     "url": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374228",
     "originalUrl": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374228",
     "publisher": "thesportstimes.co.kr",
@@ -402,7 +408,6 @@
       "선임",
       "홍명보",
       "대한 축구협회",
-      "임원",
       "대표팀 감독"
     ],
     "discoveryQueries": [
@@ -424,15 +429,14 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives"
+      "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ]
@@ -441,7 +445,7 @@
     "id": "item_7f6b9ffe234d326e",
     "type": "news",
     "title": "\"홍명보 선임 주도했다\"→월드컵 참사 후 '잠적'→'꼼수' 청문회 불출석...",
-    "summary": "대표팀 을 2026 국제축구연맹(FIFA) 북중미월드컵 조별리그 탈락이라는 사상 최악의 참사로 몰고 간 핵심 책임자들의 행보가 엇갈리고 있다. 홍명보 전 감독 이 청문회 출석 의사를 밝히며 정면돌파를 선언한 반면, 감독 선임 을...",
+    "summary": "홍명보 전 감독이 청문회 출석 의사를 밝히며 정면돌파를 선언한 반면, 감독 선임을 주도했던 이임생 전... 미국 체류에 대해서는 신변 안전에 대한 우려 때문이었다고 해명 하며 \"청문회가 열린다면 그 자리는 월드컵...",
     "url": "https://www.starnewskorea.com/sports/2026/07/15/2026071415064086584",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/07/15/2026071415064086584",
     "publisher": "starnewskorea.com",
@@ -451,7 +455,9 @@
       "홍명보",
       "감독 선임",
       "감독",
-      "선임"
+      "선임",
+      "이임생",
+      "해명"
     ],
     "discoveryQueries": [
       "\"김병지\" 감사",
@@ -489,20 +495,22 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 20,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ]
   },
   {
     "id": "item_26cd6c986c596f80",
     "type": "news",
     "title": "경찰, 축협 임원·전력강화위원 등 소환…'홍명보 선임' 수사 본격화",
-    "summary": "홍 전 감독 선임 과정에서 정몽규 전 대한 축구협회 장 등 축협 지도부의 외압이 있었는지를 규명하는 것이 이번 수사의 핵심 쟁점이 될 것으로 전망된다. 경찰, 축협 전력강화위원 등 소환 조사 본격화15일 경찰에 따르면...",
+    "summary": "홍 전 감독 선임 과정에서 정몽규 전 대한축구협회장 등 축협 지도부의 외압이 있었는지를 규명하는 것이 이번 수사의 핵심 쟁점이 될 것으로 전망된다. 경찰, 축협 전력강화위원 등 소환 조사 본격화15일 경찰에 따르면...",
     "url": "https://www.nocutnews.co.kr/news/6548218",
     "originalUrl": "https://www.nocutnews.co.kr/news/6548218",
     "publisher": "nocutnews.co.kr",
@@ -512,7 +520,9 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한 축구협회",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
       "감독 선임",
       "감독",
       "정몽규"
@@ -545,7 +555,8 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "election"
     ],
     "personTags": [
       "person_hong_myung_bo",
@@ -553,7 +564,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 35,
     "labels": [
       "인물 언급"
     ]
@@ -666,7 +677,7 @@
     "id": "item_e49c5a932cd8ccb3",
     "type": "news",
     "title": "신문선 대폭발! \"'빵집 계약' 이임생 중요한데, 해외 핑계로 불출석 작...",
-    "summary": "유명 해설위원을 지냈던 신문선 명지대 교수가 손흥민과 황희찬을 대한축구협회 청문회 참고인으로... 신 교수는 \"지금 봐야 할 사람은 축구 권력자들인 정몽규 전 회장과 이임생 전 기술총괄이사, 홍명보 전 감독\"이라며...",
+    "summary": "그러면서 최근 동남아 캄보디아 축구 단과 기술고문 계약을 체결한 이임생 전 대한 축구협회 기술총괄이사의 청문회 증인 참석 여부를 주목했다. 신 교수는 최근 MBC 프로그램 조승원의 뉴스하이킥에 출연해 손흥민과...",
     "url": "https://www.xportsnews.com/article/2172236",
     "originalUrl": "https://www.xportsnews.com/article/2172236",
     "publisher": "xportsnews.com",
@@ -674,9 +685,7 @@
     "collectedAt": "2026-07-14T16:51:07.441Z",
     "matchedKeywords": [
       "이임생",
-      "대한축구협회",
-      "정몽규",
-      "홍명보"
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -692,13 +701,11 @@
     ],
     "issueTags": [],
     "personTags": [
-      "person_lee_im_saeng",
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 17,
     "labels": [
       "인물 언급"
     ]
@@ -770,7 +777,7 @@
     "id": "item_e7daf17ed1a7c917",
     "type": "news",
     "title": "체육회, 5월부터 60일→90일 개정 준비하고 있었다…새로운 규정 아래서...",
-    "summary": "회장 선거 관련 규정 개정에 나서면서 대한 축구협회 차기 회장 선거도 새로운 틀 아래 치러질 가능성이... 현행 규정대로라면 정몽규 회장이 지난 6일 사퇴함에 따라 차기 회장 선거는 60일 안(현 규정상 9월5일까지)에...",
+    "summary": "회장 선거 관련 규정 개정 에 나서면서 대한 축구협회 차기 회장 선거도 새로운 틀 아래 치러질 가능성이 커지고 있다. 공정하고 투명한 축구 행정을 위해서는 선거제도 개혁이 우선돼야 한다는 목소리에 맞춰 체육회가...",
     "url": "https://www.sportsworldi.com/newsView/20260714518452",
     "originalUrl": "https://www.sportsworldi.com/newsView/20260714518452",
     "publisher": "sportsworldi.com",
@@ -779,9 +786,7 @@
     "matchedKeywords": [
       "대한 축구협회",
       "회장 선거",
-      "규정 개정",
-      "정몽규",
-      "사퇴"
+      "규정 개정"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -813,15 +818,38 @@
       "election",
       "statute-revision"
     ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_aa8ec25e192f58a5",
+    "type": "official",
+    "title": "[공지] 대한축구협회장 선거 관련 안내",
+    "summary": "KFA 미디어채널에서 감지된 공식자료 링크입니다.",
+    "url": "https://media.kfa.or.kr/bbs/bbs.php?act=bbs_view&idx=5106&con=e922cc810432dfc9e186480800dc9d9c",
+    "originalUrl": "https://media.kfa.or.kr/bbs/bbs.php?act=bbs_view&idx=5106&con=e922cc810432dfc9e186480800dc9d9c",
+    "publisher": "KFA 미디어채널",
+    "publishedAt": "2026-07-14T15:00:00.000Z",
+    "collectedAt": "2026-07-15T09:33:36.845Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "축구협회장",
+      "회장 선거",
+      "대한축구협회장"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [],
+    "sourceType": "official",
+    "isOfficial": true,
+    "relevanceScore": 60,
     "labels": [
-      "인물 언급"
+      "공식 출처"
     ]
   },
   {
@@ -961,7 +989,7 @@
     "id": "item_30cd58a729cea7d5",
     "type": "news",
     "title": "경찰, '홍명보 선임' 수사 속도...전력강화위원 잇단 소환",
-    "summary": "홍명보 전 축구 국가대표팀 감독 선임 과정을 수사하는 경찰이 당시 대한 축구협회 전력강화위원과 축구협회 임원을 잇따라 소환했습니다. 본격적으로 수사에 속도를 내는 모습인데, 의혹의 핵심인 정몽규 전...",
+    "summary": "홍명보 전 축구 국가대표팀 감독 선임 과정을 수사하는 경찰이 당시 대한축구협회 전력강화위원과 축구협회 임원을 잇따라 소환했습니다. 본격적으로 수사에 속도를 내는 모습인데, 의혹의 핵심인 정몽규 전...",
     "url": "https://www.ytn.co.kr/_ln/0103_202607142147210400",
     "originalUrl": "https://www.ytn.co.kr/_ln/0103_202607142147210400",
     "publisher": "ytn.co.kr",
@@ -971,7 +999,7 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한 축구협회",
+      "대한축구협회",
       "임원",
       "감독 선임",
       "대표팀 감독",
@@ -1015,7 +1043,7 @@
     "id": "item_bc0933a364ea8332",
     "type": "news",
     "title": "'홍명보 선임 의혹' 수사 속도…축협임원·전력강화위원 소환",
-    "summary": "2년 가까이 답보 상태였던 홍명보 전 국가대표팀 감독 선임 과정에 대한 수사가 본격화하고 있습니다. 오늘(14일) 전력 강화 위원과 축구협회 전 임원을 참고인 신분으로 소환했고 앞서 박주호 위원도 조사한 것으로...",
+    "summary": "경찰은 이날 당시 축구협회 부회장 도 참고인 신분으로 불러 조사했는데, 다른 전력 강화 위원과 축구협회 이사회 관계자들도 순차적으로 불러 조사할 계획입니다. 이와 함께 시민단체를 고발인 신분으로 불러 조사하는 등...",
     "url": "http://www.yonhapnewstv.co.kr/news/MYH20260714211817KTJ",
     "originalUrl": "http://www.yonhapnewstv.co.kr/news/MYH20260714211817KTJ",
     "publisher": "yonhapnewstv.co.kr",
@@ -1025,10 +1053,7 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "축구협회",
-      "감독 선임",
-      "대표팀 감독",
-      "감독"
+      "축구협회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1054,7 +1079,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -1063,7 +1088,7 @@
     "id": "item_2c84e06831376dce",
     "type": "news",
     "title": "경찰, 홍명보 선임 과정 본격 수사…축협 임원·전력강화위원 조사",
-    "summary": "경찰이 홍명보 전 축구대표팀 감독의 선임 과정에 윗선의 부당한 개입이 있었는지 확인하기 위해 대한 축구협회 임원 과 전력강화위원을 조사했다. 14일 경찰에 따르면 서울경찰청 광역수사단 금융범죄수사대는 이날 홍 전...",
+    "summary": "14일 경찰에 따르면 서울경찰청 광역수사단 금융범죄수사대는 이날 홍 전 감독 선임 당시 축구협회 전력강화위원으로 활동한 A씨와 축구협회 부회장 을 지낸 B씨를 참고인 신분으로 소환했다. 축구 전문가로 구성된...",
     "url": "https://biz.chosun.com/topics/topics_social/2026/07/14/R3FXOQ2G5RF45BSNVLGN5Z4EFQ",
     "originalUrl": "https://biz.chosun.com/topics/topics_social/2026/07/14/R3FXOQ2G5RF45BSNVLGN5Z4EFQ",
     "publisher": "biz.chosun.com",
@@ -1073,9 +1098,8 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한 축구협회",
-      "임원",
-      "대표팀 감독",
+      "축구협회",
+      "감독 선임",
       "감독"
     ],
     "discoveryQueries": [
@@ -1092,15 +1116,14 @@
       "축구협회 임원"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives"
+      "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -1171,7 +1194,7 @@
     "id": "item_8bfbfc319a18921f",
     "type": "news",
     "title": "'홍명보 감독 선임 의혹' 경찰 수사 본격화‥축협 임원 참고인 조사",
-    "summary": "홍명보 전 국가대표 축구 팀 감독 선임 과정에서 불거진 의혹을 수사하고 있는 경찰이 당시 축구협회 부회장도... 서울경찰청 금융범죄수사대는 오늘 오후 홍 전 감독 선임 당시 대한축구협회 부회장을 참고인 신분으로 불러...",
+    "summary": "홍명보 전 국가대표 축구팀 감독 선임 과정에서 불거진 의혹을 수사하고 있는 경찰이 당시 축구협회 부회장 도 참고인 신분으로 불러 조사한 것으로 드러났습니다. 서울경찰청 금융범죄수사대는 오늘 오후 홍 전 감독 선임...",
     "url": "https://imnews.imbc.com/news/2026/society/article/6837452_36918.html",
     "originalUrl": "https://imnews.imbc.com/news/2026/society/article/6837452_36918.html",
     "publisher": "imnews.imbc.com",
@@ -1182,8 +1205,7 @@
       "감독",
       "선임",
       "홍명보",
-      "대한축구협회",
-      "부회장"
+      "축구협회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1199,15 +1221,14 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives"
+      "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -1216,7 +1237,7 @@
     "id": "item_124cd8464debd8e8",
     "type": "news",
     "title": "홍명보 선임 의혹 수사 본격화…축구협회 관계자 동시 소환",
-    "summary": "/사진=연합뉴스 홍명보 전 축구 대표팀 감독의 선임 과정을 둘러싼 경찰 수사가 속도를 내고 있다. 경찰은 당시 대한축구협회 전력강화위원과 부회장을 같은 날 불러 선임 절차 전반을 들여다봤다. 14일 연합뉴스에 따르면...",
+    "summary": "전력강화위는 대표팀 감독 후보를 검토한 뒤 축구협회 이사회 에 선임 후보를 추천하는 역할을 맡는다. 경찰은 A씨를 상대로 후보 추천 과정과 의사 결정 절차 등을 확인한 것으로 보인다. 당시 축구협회 비상근 부회장을...",
     "url": "http://www.kjdaily.com/article.php?aid=1784030254682422227",
     "originalUrl": "http://www.kjdaily.com/article.php?aid=1784030254682422227",
     "publisher": "kjdaily.com",
@@ -1224,13 +1245,7 @@
     "collectedAt": "2026-07-14T12:52:20.265Z",
     "matchedKeywords": [
       "축구협회",
-      "홍명보",
-      "대한축구협회",
-      "부회장",
-      "대표팀 감독",
-      "감독",
-      "전력강화위원",
-      "선임"
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1249,16 +1264,13 @@
       "축구협회 이사회",
       "축구협회장"
     ],
-    "issueTags": [
-      "kfa-executives",
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -1267,7 +1279,7 @@
     "id": "item_695c6698c35460a6",
     "type": "news",
     "title": "경찰, '홍명보 선임' 수사 속도...전력강화위원 잇단 소환",
-    "summary": "홍명보 전 축구 국가대표팀 감독 선임 과정을 수사하는 경찰이 당시 대한축구협회 전력강화위원과 축구협회 임원 을 잇따라 소환했습니다. 본격적으로 수사에 속도를 내는 모습인데, 의혹의 핵심인 정몽규 전...",
+    "summary": "전력강화위는 국가대표팀 감독 후보를 검토해 이사회 에 추천하는 기구입니다. 경찰은 홍 전 감독 선임 과정에서 대한 축구협회 규정과 절차가 제대로 지켜졌는지 들여다보고 있는데, 당시 전력강화위원들을 불러...",
     "url": "https://www.ytn.co.kr/_ln/0103_202607142054595218",
     "originalUrl": "https://www.ytn.co.kr/_ln/0103_202607142054595218",
     "publisher": "ytn.co.kr",
@@ -1277,12 +1289,13 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한축구협회",
-      "임원",
+      "대한 축구협회",
+      "이사회",
       "감독 선임",
       "대표팀 감독",
+      "감독 후보",
       "감독",
-      "정몽규"
+      "후보"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1307,12 +1320,11 @@
       "kfa-executives"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_chung_mong_gyu"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
     ]
@@ -1473,7 +1485,7 @@
     "id": "item_7757328dbea8a9a4",
     "type": "news",
     "title": "경찰, 축구협회 수사 속도…'홍명보 선임' 축협 임원·전력강화위원 등...",
-    "summary": "홍명보 전 축구 국가대표팀 감독 선임 과정이 적절했는지 수사 중인 경찰이 대한 축구협회 임원 과 전력강화위원, 고발인까지 같은 날 동시 조사를 진행하며 축구협회에 대한 수사에 속도를 내고 있다. 서울경찰청...",
+    "summary": "홍명보 전 축구 국가대표팀 감독 선임 과정이 적절했는지 수사 중인 경찰이 대한축구협회 임원과... 서민위는 최근 정몽규 전 축구협회 장과 이임생 전 기술총괄이사, 홍 전 감독을 업무방해·강요·협박·업무상 배임 등...",
     "url": "https://view.asiae.co.kr/article/2026071420115782332",
     "originalUrl": "https://view.asiae.co.kr/article/2026071420115782332",
     "publisher": "view.asiae.co.kr",
@@ -1484,11 +1496,13 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한 축구협회",
+      "대한축구협회",
       "임원",
       "감독 선임",
       "대표팀 감독",
-      "감독"
+      "감독",
+      "정몽규",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -1515,11 +1529,13 @@
       "kfa-executives"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 51,
     "labels": [
       "인물 언급"
     ]
@@ -1551,7 +1567,7 @@
     "id": "item_57622fad0e5c8cfe",
     "type": "news",
     "title": "[단독]박주호 첫 출석…‘홍명보 선임 과정’ 수사 속도",
-    "summary": "경찰은 오늘도 또 다른 전력강화위원과 당시 축구협회 부회장을 참고인으로 불러 6시간 넘게 조사했고, 홍 전 감독과 정몽규 전 대한 축구협회 장 등을 고발한 시민단체 측 인사도 불러 고발인 조사를 벌였습니다. 진상규명...",
+    "summary": "경찰은 오늘도 또 다른 전력강화위원과 당시 축구협회 부회장 을 참고인으로 불러 6시간 넘게 조사했고, 홍 전 감독과 정몽규 전 대한축구협회장 등을 고발한 시민단체 측 인사도 불러 고발인 조사를 벌였습니다. 진상규명...",
     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000539733",
     "originalUrl": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000539733",
     "publisher": "ichannela.com",
@@ -1559,7 +1575,9 @@
     "collectedAt": "2026-07-14T11:12:07.531Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
       "부회장",
       "정몽규"
     ],
@@ -1578,6 +1596,7 @@
       "축구협회장"
     ],
     "issueTags": [
+      "election",
       "kfa-executives"
     ],
     "personTags": [
@@ -1586,7 +1605,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -1644,7 +1663,7 @@
     "id": "item_e9f0dd3f61b4ff4b",
     "type": "news",
     "title": "홍명보 어떻게 선임됐나…추천한 축협 전력강화위원·임원 같은 날 소환",
-    "summary": "홍명보 전 축구 국가대표팀 감독 선임 과정을 둘러싼 의혹을 수사 중인 경찰이 홍 전 감독을 추천한 대한 축구협회 전력강화위원과 임원 을 같은 날 소환 조사했다. 서울경찰청 광역수사단 금융범죄수사대는 14일 오전...",
+    "summary": "같은 날 경찰은 홍 전 감독 선임 당시 대한 축구협회 부회장 을 지낸 B씨도 참고인 신분으로 불러 조사했다. B씨를 상대로 축구협회 이사 선임 과정과 전력강화위의 감독 추천 과정 등을 확인한 것으로 알려졌다. 앞서 경찰은...",
     "url": "https://www.mt.co.kr/society/2026/07/14/2026071419431070215",
     "originalUrl": "https://www.mt.co.kr/society/2026/07/14/2026071419431070215",
     "publisher": "mt.co.kr",
@@ -1655,8 +1674,8 @@
       "선임",
       "홍명보",
       "대한 축구협회",
+      "부회장",
       "감독 선임",
-      "대표팀 감독",
       "감독"
     ],
     "discoveryQueries": [
@@ -1680,14 +1699,15 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "kfa-executives"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
     ]
@@ -1860,7 +1880,7 @@
     "id": "item_4593bc39dbfe9384",
     "type": "news",
     "title": "경찰, '홍명보 감독 선임 의혹' 축협 임원·전력강화위원 소환조사(종합...",
-    "summary": "신윤하 권준언 기자 = 홍명보 전 축구 국가대표팀 감독 선임 과정을 수사하는 경찰이 홍 전 감독을 추천한 축구협회 전력강화위원과 대한 축구협회 임원 을 같은 날 소환 조사하는 등 수사에 속도를 내고 있다. 14일 경찰에...",
+    "summary": "14일 경찰에 따르면 서울경찰청 광역수사단 금융범죄수사대는 이날 홍 전 감독 선임 당시 축구협회 전력강화위원으로 활동한 A 씨와 축구협회 비상근 부회장 을 지낸 B 씨를 참고인 신분으로 불러 조사했다....",
     "url": "https://www.news1.kr/society/incident-accident/6228213",
     "originalUrl": "https://www.news1.kr/society/incident-accident/6228213",
     "publisher": "news1.kr",
@@ -1872,9 +1892,7 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한 축구협회",
-      "임원",
-      "대표팀 감독"
+      "축구협회"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -1897,15 +1915,14 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives"
+      "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -1938,7 +1955,7 @@
     "id": "item_c09a77e4673c457c",
     "type": "news",
     "title": "경찰, '홍명보 선임' 수사 박차…축협 전력강화위원·임원 나란히 소환...",
-    "summary": "최은수 신유림 기자 = 홍명보 전 축구 국가대표팀 감독 선임 과정을 둘러싼 의혹을 수사 중인 경찰이 당시 대한 축구협회 전력강화위원과 임원 을 같은 날 나란히 불러 조사하며 수사에 속도를 내고 있다. 서울경찰청...",
+    "summary": "경찰은 이날 홍 전 감독 선임 당시 대한 축구협회 부회장 을 지낸 B씨도 참고인 신분으로 불러 조사했다. 경찰은 B씨를 상대로 축구협회 이사 선임 과정과 전력강화위의 감독 추천 과정 등을 확인한 것으로 알려졌다. 앞서...",
     "url": "https://www.newsis.com/view/NISX20260714_0003709355",
     "originalUrl": "https://www.newsis.com/view/NISX20260714_0003709355",
     "publisher": "newsis.com",
@@ -1949,8 +1966,8 @@
       "선임",
       "홍명보",
       "대한 축구협회",
+      "부회장",
       "감독 선임",
-      "대표팀 감독",
       "감독"
     ],
     "discoveryQueries": [
@@ -1974,14 +1991,49 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "kfa-executives"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 32,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_df47b40dd1204506",
+    "type": "news",
+    "title": "정준호 의원, ‘축구협회 회장 직선제법’ 대표 발의",
+    "summary": "최근 북중미 월드컵 32강 진출 좌절과 정몽규 전 회장의 사임으로 축구협회 인적·구조적 쇄신 요구가 거센 상황이다. 그동안 협회 는 감독 선임 논란 등으로 신뢰를 잃었으나, 190여명의 극소수 선거인 단이 회장을 뽑는...",
+    "url": "http://www.jndn.com/article.php?aid=1784022858436086093",
+    "originalUrl": "http://www.jndn.com/article.php?aid=1784022858436086093",
+    "publisher": "jndn.com",
+    "publishedAt": "2026-07-14T09:58:00.000Z",
+    "collectedAt": "2026-07-15T09:33:31.470Z",
+    "matchedKeywords": [
+      "축구협회",
+      "선거인",
+      "정몽규"
+    ],
+    "discoveryQueries": [
+      "축구협회 규정 개정",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 정관 개정"
+    ],
+    "issueTags": [
+      "electoral-college"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급"
     ]
@@ -2058,7 +2110,7 @@
     "id": "item_0e53b0cac08496dd",
     "type": "news",
     "title": "경찰 ‘홍명보 감독 선임 의혹’ 축협 임원·전력강화위원 조사",
-    "summary": "경찰이 홍명보 전 축구대표팀 감독 선임 과정 들여다보면서 대한 축구협회 임원 과 전력강화위원을 동시 소환하는 등 본격적인 수사에 돌입했다. 14일 연합뉴스에 따르면 서울경찰청 광역수사단 금융범죄수사대는 이날 홍...",
+    "summary": "전력강화위란 국가대표팀 감독 후보를 검토해 축구협회 이사회 에 선임을 추천하는 위원회다. 경찰은 A씨에게 전략강화위의 홍 전 감독 선임 절차와 규정 위반 여부 등을 파악한 것으로 보인다. A씨는 지난 2024년...",
     "url": "https://biz.heraldcorp.com/article/10808844?ref=naver",
     "originalUrl": "https://biz.heraldcorp.com/article/10808844?ref=naver",
     "publisher": "biz.heraldcorp.com",
@@ -2070,9 +2122,10 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한 축구협회",
-      "임원",
-      "대표팀 감독"
+      "축구협회",
+      "대표팀 감독",
+      "감독 후보",
+      "후보"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2093,15 +2146,14 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives"
+      "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -2110,7 +2162,7 @@
     "id": "item_3710291803fd2b41",
     "type": "news",
     "title": "경찰 '홍명보 감독 선임 의혹' 축협 임원·전력강화위원 소환조사",
-    "summary": "홍명보 전 축구대표팀 감독 선임 과정에서 '윗선' 등의 부당한 개입이 있었는지 수사하는 경찰이 당시 대한 축구협회 임원 과 전력강화위원을 같은 날 동시 소환하는 등 본격 수사에 들어갔다. 사진=연합뉴스 14일...",
+    "summary": "사진=연합뉴스 14일 연합뉴스에 따르면 서울경찰청 광역수사단 금융범죄수사대는 이날 홍 전 감독 선임 당시 축구협회 전력강화위원으로 활동한 A씨와 축구협회 부회장 을 지낸 B씨를 참고인 신분으로 불러 조사했다. 축구...",
     "url": "https://www.slist.kr/news/articleView.html?idxno=751774",
     "originalUrl": "https://www.slist.kr/news/articleView.html?idxno=751774",
     "publisher": "slist.kr",
@@ -2122,9 +2174,7 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한 축구협회",
-      "임원",
-      "대표팀 감독"
+      "축구협회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -2141,15 +2191,14 @@
       "축구협회 임원"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives"
+      "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -2158,7 +2207,7 @@
     "id": "item_1471ea1ace085958",
     "type": "news",
     "title": "'홍명보 선임 의혹' 경찰 수사 속도…축구협회 임원들 잇단 조사",
-    "summary": "홍명보 전 축구대표팀 감독 선임 과정에서 부당한 개입이 있었는지 수사하는 경찰이 당시 대한 축구협회 임원 과 전력강화위원을 같은 날 동시소환하며 본격 수사에 들어갔다. 14일 서울경찰청 광역수사단...",
+    "summary": "14일 서울경찰청 광역수사단 금융범죄수사대는 이날 홍 전 감독 선임 당시 축구협회 전력강화위원으로 활동한 A씨와 축구협회 부회장 을 지낸 B씨를 참고인 신분으로 불러 조사했다. A씨는 2024년 전력강화위가 홍 전 감독을...",
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/07/14/2026071490329.html",
     "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/07/14/2026071490329.html",
     "publisher": "news.tvchosun.com",
@@ -2166,11 +2215,8 @@
     "collectedAt": "2026-07-14T09:29:54.301Z",
     "matchedKeywords": [
       "축구협회",
-      "임원",
       "홍명보",
-      "대한 축구협회",
       "감독 선임",
-      "대표팀 감독",
       "감독",
       "전력강화위원",
       "선임"
@@ -2194,7 +2240,6 @@
       "축구협회장"
     ],
     "issueTags": [
-      "kfa-executives",
       "coach-appointment"
     ],
     "personTags": [
@@ -2202,7 +2247,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -2264,7 +2309,7 @@
     "id": "item_af21ecc3471ee5ec",
     "type": "news",
     "title": "경찰 '홍명보 감독 선임 의혹' 축협 임원·전력강화위원 조사(종합)",
-    "summary": "앞서 박주호도 참고인 조사…대표팀 감독 추천·선임 과정 전반 확인 전재훈 이의진 정지수 기자 = 홍명보 전 축구대표팀 감독 선임 과정에서 '윗선' 등의 부당한 개입이 있었는지 수사하는 경찰이 당시 대한 축구협회 임원 ...",
+    "summary": "14일 연합뉴스 취재에 따르면 서울경찰청 광역수사단 금융범죄수사대는 이날 홍 전 감독 선임 당시 축구협회 전력강화위원으로 활동한 A씨와 축구협회 부회장 을 지낸 B씨를 참고인 신분으로 불러 조사했다. 축구 전문가로...",
     "url": "https://www.yna.co.kr/view/AKR20260714088351004?input=1195m",
     "originalUrl": "https://www.yna.co.kr/view/AKR20260714088351004?input=1195m",
     "publisher": "yna.co.kr",
@@ -2276,9 +2321,7 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한 축구협회",
-      "임원",
-      "대표팀 감독"
+      "축구협회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2299,15 +2342,14 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives"
+      "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -3201,7 +3243,7 @@
     "id": "item_a0b821edac3fbf90",
     "type": "news",
     "title": "대한축구협회장 선거 늦춘다…“지난 선거와 같은 방식은 없어”",
-    "summary": "정몽규 전 회장이 지난 5월29일 사퇴 의사를 밝히면서 축구협회는 차기 회장 선출 절차를 준비해왔다. 그러나 혁신위는 기존 선거 방식을 그대로 유지할 경우 축구계 쇄신과 팬들의 신뢰 회복이 어렵다고 판단해 선거 ...",
+    "summary": "혁신위는 지난 13일 서울 국립현대미술관 대회의실에서 박지성 공동위원장 주재로 2차 회의를 열고 축구협회장 선거 제도 개선 방안을 논의했다. 회의는 비공개로 2시간 동안 진행됐다. 박 위원장은 회의 직후...",
     "url": "https://www.kwnews.co.kr/article/20260714500859",
     "originalUrl": "https://www.kwnews.co.kr/article/20260714500859",
     "publisher": "kwnews.co.kr",
@@ -3212,9 +3254,7 @@
       "축구협회장",
       "회장 선거",
       "대한축구협회장",
-      "축구협회",
-      "정몽규",
-      "사퇴"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -3244,11 +3284,11 @@
       "election"
     ],
     "personTags": [
-      "person_chung_mong_gyu"
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급"
     ]
@@ -3405,7 +3445,7 @@
     "id": "item_7481756f589c6027",
     "type": "news",
     "title": "\"회장 잘 뽑는 걸로는 부족\"…벼랑 끝 '한국 축구' [취재파일]",
-    "summary": "지난 6일, 13년간 축구협회 를 이끌어온 정몽규 회장이 물러났고, 같은 날 오후 K- 축구 혁신위원회 가 출범했습니다. 정부 주도로 축구 계, 나아가 체육계 전문가가 머리를 맞대고 대한 축구협회 의 혁신 을 이끌겠단 취지입니다....",
+    "summary": "지난 6일, 13년간 축구협회 를 이끌어온 정몽규 회장이 물러났고, 같은 날 오후 K- 축구 혁신위 원회가 출범했습니다. 정부 주도로 축구 계, 나아가 체육계 전문가가 머리를 맞대고 대한 축구협회 의 혁신을 이끌겠단 취지입니다....",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008656210&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008656210&plink=ORI",
     "publisher": "news.sbs.co.kr",
@@ -3413,7 +3453,6 @@
     "collectedAt": "2026-07-14T06:57:32.767Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "혁신위원회",
       "축구 혁신",
       "정몽규"
     ],
@@ -4128,6 +4167,40 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 12,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_cf2d7e78a568a5e0",
+    "type": "news",
+    "title": "민주당 '선호투표제' 도입 / 윤석열 '유죄', 김건희 '무죄' / 윤경호 '13시...",
+    "summary": "당대표 # 선거 #김민석 #정청래 #친청 #이성윤 #사퇴 #윤석열 #김건희 #명태균 #여론조사 #김영선 #공천 #K축구 #혁신위 #축협 #대한축구협회 # 박지성 #이영표 #박주호 #참고인 #조사 #청문회 #회장 #선출 #윤경호 #배우...",
+    "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5205825",
+    "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5205825",
+    "publisher": "mbn.co.kr",
+    "publishedAt": "2026-07-14T04:32:00.000Z",
+    "collectedAt": "2026-07-15T09:33:31.470Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "박지성",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "축구혁신위",
+      "축구협회 K-혁신위"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 11,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -4952,7 +5025,7 @@
     "id": "item_9e392984ad5dd3f4",
     "type": "news",
     "title": "정준호 의원, 축구협회장 직선제법 발의…\"체육관 선거 종식\"",
-    "summary": "체육관 선거 는 특정 인물의 장기 집권과 폐쇄적 협회 운영을 낳은 근본적 원인이다\"며 \"10만 축구 인의 대표를 직접 선출하는 것이 축협 민주성과 투명성 회복의 첫 걸음이다. 정몽규 회장 의 13년 장기 집권과 불투명한...",
+    "summary": "정 의원은 축구협회의 불법 선거 인단 구성 의혹과 홍명보 등 대표팀 감독 선임 절차 논란, 문화체육관광부 감사서 지적된 부적정 업무 처리 등으로 협회에 대한 신뢰가 크게 훼손됐다고 지적했다. 특히 현재 축구협회장...",
     "url": "https://www.news1.kr/local/gwangju-jeonnam/6227549",
     "originalUrl": "https://www.news1.kr/local/gwangju-jeonnam/6227549",
     "publisher": "news1.kr",
@@ -4960,7 +5033,13 @@
     "collectedAt": "2026-07-14T04:34:38.073Z",
     "matchedKeywords": [
       "축구협회장",
-      "정몽규"
+      "문화체육관광부 감사",
+      "감사",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -4984,16 +5063,19 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "mcst-audit",
+      "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 40,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -5361,7 +5443,7 @@
     "id": "item_2bf742259905b98d",
     "type": "news",
     "title": "정준호 의원, '축구협회 회장 직선제법' 발의…\"190명 체육관 선거 끝내...",
-    "summary": "정 의원은 \"FIFA 정관 제19조는 회원단체의 선거 가 민주적 절차와 완전한 독립성에 따라 이뤄질 것을 요구할 뿐\"이라며 \" 축구협회 가 근거로 제시하는 비밀투표와 전자투표 제한 규정은 FIFA 총회 회장 선거 에 적용되는...",
+    "summary": "정 의원은 \"FIFA 정관 제19조는 회원단체의 선거가 민주적 절차와 완전한 독립성에 따라 이뤄질 것을 요구할 뿐\"이라며 \" 축구협회 가 근거로 제시하는 비밀투표와 전자투표 제한 규정은 FIFA 총회 회장 선거에 적용되는...",
     "url": "https://www.pressian.com/pages/articles/2026071410014600598",
     "originalUrl": "https://www.pressian.com/pages/articles/2026071410014600598",
     "publisher": "pressian.com",
@@ -5405,7 +5487,7 @@
     "id": "item_2599d56feccf8512",
     "type": "news",
     "title": "경찰, '홍명보 선임' 고발인 조사…축구협회 수사 속도",
-    "summary": "대한 축구협회 에 대한 수사에 속도를 내고 있다. 서울경찰청 금융범죄수사대는 14일 오전 김순환... 감독 선임 과정에서 협회 정관 과 규정을 위반하고 전력강화위원회를 거치지 않은 채 선임했다는 취지다. 또 홍 전 감독이...",
+    "summary": "서민위는 최근 정몽규 전 축구협회 장과 이임생 전 기술총괄이사, 홍 전 감독을 업무방해·강요·협박·업무상 배임 등 혐의로 고발했다. 감독 선임 과정에서 협회 정관과 규정을 위반하고 전력강화위원회를 거치지 않은 채...",
     "url": "https://view.asiae.co.kr/article/2026071411082366858",
     "originalUrl": "https://view.asiae.co.kr/article/2026071411082366858",
     "publisher": "view.asiae.co.kr",
@@ -5414,13 +5496,14 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
-      "대한 축구협회",
       "정관",
       "감독 선임",
       "전력강화위원회",
       "감독",
       "전력강화위원",
-      "선임"
+      "선임",
+      "정몽규",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -5442,11 +5525,13 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 37,
     "labels": [
       "인물 언급"
     ]
@@ -5455,7 +5540,7 @@
     "id": "item_16af2dec529004b9",
     "type": "news",
     "title": "경찰, 홍명보 선임 의혹 수사 잰걸음…박주호 등 전력강화위원·축협 임...",
-    "summary": "2024년 대한축구협회 의 홍명보 전 축구 국가대표팀 감독 선임 과정에 부당한 개입이 있었는지 수사 중인... 서울경찰청 금융범죄수사대는 정몽규 전 축구협회 장과 이임생 전 축구협회 기술이사, 홍 전 감독 등을 업무방해...",
+    "summary": "경향신문 취재를 종합하면 서울경찰청 광역수사단 금융범죄수사대는 이날 홍 전 감독 선임 당시 축구협회 전력강화위원으로 활동한 A씨와 축구협회 부회장 을 지낸 B씨를 참고인 신분으로 불러 조사했다. 경찰은 A씨를...",
     "url": "https://www.khan.co.kr/article/202607141117001",
     "originalUrl": "https://www.khan.co.kr/article/202607141117001",
     "publisher": "khan.co.kr",
@@ -5465,12 +5550,9 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한축구협회",
+      "축구협회",
       "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "정몽규",
-      "이임생"
+      "감독"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -5495,13 +5577,11 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_chung_mong_gyu",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -6217,7 +6297,7 @@
     "id": "item_4a968acfdb38d855",
     "type": "news",
     "title": "“과거 방식 축협회장 선출 안된다, 모두가 동의” 축구혁신위 규정 개...",
-    "summary": "한국의 2026 북중미 월드컵 32강 탈락 이후 대한축구협회를 비롯한 한국 축구의 전반적인 쇄신을 추진하고 있는 ‘ K-축구 혁신위원회 ’가 2차 회의를 진행한 가운데 최휘영 문화체육관광부 장관이 축협회장 선출 방식에...",
+    "summary": "한국의 2026 북중미 월드컵 32강 탈락 이후 대한축구협회를 비롯한 한국 축구의 전반적인 쇄신을 추진하고 있는 ‘K- 축구 혁신위 원회’가 2차 회의를 진행한 가운데 최휘영 문화체육관광부 장관이 축협회장 선출 방식에...",
     "url": "https://biz.heraldcorp.com/article/10807949?ref=naver",
     "originalUrl": "https://biz.heraldcorp.com/article/10807949?ref=naver",
     "publisher": "biz.heraldcorp.com",
@@ -6226,7 +6306,6 @@
     "matchedKeywords": [
       "축구혁신위",
       "대한축구협회",
-      "혁신위원회",
       "축구 혁신"
     ],
     "discoveryQueries": [
@@ -6296,7 +6375,7 @@
     "id": "item_a7e631145d7746d4",
     "type": "news",
     "title": "박지성은 왜 청문회에 불참할까",
-    "summary": "국회 문화체육관광 위원회 는 오는 22일 대한 축구협회 ( 축구협회 ) 운영 실태와 국가대표팀 감독 선임 절차 등을... 한국 축구 위기를 돌파하기 위해 K- 축구 혁신위원회 ( 혁신 위)가 출범했고, 박지성은 유승민 회장과 함께...",
+    "summary": "국회 문화체육관광위원회는 오는 22일 대한 축구협회 ( 축구협회 ) 운영 실태와 국가대표팀 감독 선임 절차 등을... 한국 축구 위기를 돌파하기 위해 K- 축구 혁신위 원회( 혁신위 )가 출범했고, 박지성은 유승민 회장과 함께...",
     "url": "https://www.newdaily.co.kr/site/data/html/2026/07/14/2026071400078.html",
     "originalUrl": "https://www.newdaily.co.kr/site/data/html/2026/07/14/2026071400078.html",
     "publisher": "newdaily.co.kr",
@@ -6305,7 +6384,6 @@
     "matchedKeywords": [
       "박지성",
       "대한 축구협회",
-      "혁신위원회",
       "축구 혁신",
       "감독 선임",
       "대표팀 감독",
@@ -6976,7 +7054,7 @@
     "id": "item_9d4ac7caf1cc0d5e",
     "type": "news",
     "title": "박지성, 대한축구협회 국회 청문회 불참 의사 밝혀…\"할 이야기 없다\"",
-    "summary": "박지성 K- 축구 혁신위원회 공동 위원장이 오는 22일 열리는 국회 청문회에 참석하지 않겠다고 밝혔다. 박... 유소년 축구 대회 일정도 있지만, 대한 축구협회 와 관련해 할 이야기가 없다. 굳이 (청문회에) 나갈 이유가 없다\"가...",
+    "summary": "또한 정몽규 전 대한축구협회 장, 홍명보 전 축구 대표팀 감독 등 10명을 증인으로, 박지성 위원장과 국가대표 선수 손흥민, 황희찬 등을 참고인으로 채택했다. 다만 소속팀 일정을 앞둔 손흥민, 황희찬을 참고인으로 채택한...",
     "url": "http://www.stoo.com/article.php?aid=107736521745",
     "originalUrl": "http://www.stoo.com/article.php?aid=107736521745",
     "publisher": "stoo.com",
@@ -6985,9 +7063,8 @@
     "matchedKeywords": [
       "대한축구협회",
       "박지성",
-      "대한 축구협회",
-      "혁신위원회",
-      "축구 혁신"
+      "정몽규",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -7004,15 +7081,15 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [
-      "innovation-committee"
-    ],
+    "issueTags": [],
     "personTags": [
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 41,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ]

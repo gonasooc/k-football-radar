@@ -3305,7 +3305,7 @@
     "id": "item_02e165eeebbbf0fd",
     "type": "news",
     "title": "문체부는 축구협회 특별감사 추진…근본 해결책은 직선제?",
-    "summary": "임시 대의원 총회를 통해 직선제 정관 개정이 통과되면, 추후 이사회를 거쳐 축구협회 등 회원 종목 단체들의 선거 규정도 순차적으로 개편될 전망입니다. KBS 뉴스 김화영입니다. 촬영기자:유성주/영상편집:박경상/그래픽...",
+    "summary": "감사 결과에 따라 관련자 징계 요구는 물론 수사 의뢰까지 이뤄질 수 있는 사안. 하지만 결국 축구계 카르텔의 뿌리를 뽑으려면 근본적인 선거제도 개혁이 우선되어야 한다는 목소리가 높습니다. [ 박지성 /K-축구...",
     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8606792&ref=A",
     "originalUrl": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8606792&ref=A",
     "publisher": "news.kbs.co.kr",
@@ -3314,9 +3314,7 @@
     "matchedKeywords": [
       "축구협회",
       "감사",
-      "대의원",
-      "정관",
-      "정관 개정"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -3332,15 +3330,16 @@
       "축구협회 제도 개편"
     ],
     "issueTags": [
-      "mcst-audit",
-      "electoral-college",
-      "statute-revision"
+      "mcst-audit"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 34,
     "labels": [
+      "인물 언급",
       "감사 키워드 포함"
     ]
   },
@@ -5585,19 +5584,20 @@
     "id": "item_73cef759b5fe230e",
     "type": "news",
     "title": "참고인이라지만 손흥민·황희찬, 청문회 오라니…정치권 헛다리 드리블...",
-    "summary": "참고인 명단에는 '케이(K)-축구 혁신위원회'(이하 혁신위) 공동위원장인 박지성 국제축구연맹(FIFA)... 2024년 문체부 감사 결과에 따르면, 지난 2023년 2월 클린스만 전 감독을 선임하는 과정에서 축구협회 내부에서 선임을...",
+    "summary": "증인에 정몽규 축구협회장과 홍명보 전 대표팀 감독, 이임생 전 협회 기술총괄이사, 이용수 축구협회 부회장... 2024년 문체부 감사 결과에 따르면, 지난 2023년 2월 클린스만 전 감독을 선임하는 과정에서 축구협회 내부에서...",
     "url": "https://www.xportsnews.com/article/2170121",
     "originalUrl": "https://www.xportsnews.com/article/2170121",
     "publisher": "xportsnews.com",
     "publishedAt": "2026-07-09T07:42:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "축구협회",
-      "혁신위원회",
-      "축구 혁신",
+      "축구협회장",
       "문체부 감사",
       "감사",
-      "박지성"
+      "부회장",
+      "정몽규",
+      "홍명보",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"김승희\" 감사",
@@ -5608,15 +5608,18 @@
       "축구협회 문체부 감사"
     ],
     "issueTags": [
-      "innovation-committee",
-      "mcst-audit"
+      "election",
+      "mcst-audit",
+      "kfa-executives"
     ],
     "personTags": [
-      "person_park_ji_sung"
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 26,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -13130,7 +13133,7 @@
     "id": "item_06864a52ff92a45e",
     "type": "news",
     "title": "정몽규는 사퇴했지만 FIFA·AFC 직함은 남았다… 한국 축구 ‘미완의 퇴...",
-    "summary": "대한 축구협회 장 선거는 대의원 , 임원, 선수, 지도자, 심판, 동호인 등으로 구성된 선거인단을 통해 치러져 왔습니다. 겉으로는 다양한 축구 주체가 참여하는 방식입니다. 그러나 현장에서는 기존 축구 계 인맥, 지역 조직...",
+    "summary": "대한축구협회 장 선거는 대의원, 임원, 선수, 지도자 , 심판, 동호인 등으로 구성된 선거인단을 통해 치러져... 대한 논쟁은 당분간 이어질 전망입니다. 동시에 대한축구협회 는 차기 회장 선거를 앞두고 선거 제도 개편...",
     "url": "https://www.jibs.co.kr/news/articles/articlesDetail/63277?feed=na",
     "originalUrl": "https://www.jibs.co.kr/news/articles/articlesDetail/63277?feed=na",
     "publisher": "jibs.co.kr",
@@ -13139,10 +13142,12 @@
     "matchedKeywords": [
       "정몽규",
       "사퇴",
-      "대한 축구협회",
+      "대한축구협회",
+      "회장 선거",
       "선거인단",
       "선거인",
-      "대의원"
+      "대의원",
+      "제도 개편"
     ],
     "discoveryQueries": [
       "\"박지성\" 선거",
@@ -13157,14 +13162,16 @@
       "축구협회 제도 개편"
     ],
     "issueTags": [
-      "electoral-college"
+      "election",
+      "electoral-college",
+      "statute-revision"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
