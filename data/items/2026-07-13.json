@@ -211,7 +211,7 @@
     "id": "item_1b39eb45dc1a50a0",
     "type": "news",
     "title": "與정준호 “축협 회장 직선제법 대표발의, 190명 선거인단 ‘체육관 선...",
-    "summary": "이른바 ‘ 축구협회 회장 직선제법’(국민체육진흥법 일부 개정 법률안)을 대표발의했다고 밝혔다. 정치권과... 이를 회원단체 선거에까지 확대 적용하는 축구협회 의 주장은 FIFA 규정 을 자의적으로 해석한 것이라는 게 정...",
+    "summary": "이른바 ‘ 축구협회 회장 직선제법’(국민체육진흥법 일부 개정 법률안)을 대표발의했다고 밝혔다. 정치권과... FIFA 정관 제19조는 회원단체의 선거 또는 임명이 ‘민주적 절차’와 ‘완전한 독립성’에 따라 이뤄질 것만을...",
     "url": "https://biz.heraldcorp.com/article/10807657?ref=naver",
     "originalUrl": "https://biz.heraldcorp.com/article/10807657?ref=naver",
     "publisher": "biz.heraldcorp.com",
@@ -220,7 +220,8 @@
     "matchedKeywords": [
       "선거인단",
       "선거인",
-      "축구협회"
+      "축구협회",
+      "정관"
     ],
     "discoveryQueries": [
       "\"정몽규\" 감사",
@@ -243,12 +244,13 @@
       "축구협회장"
     ],
     "issueTags": [
-      "electoral-college"
+      "electoral-college",
+      "statute-revision"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 24,
     "labels": [
       "선거 키워드 포함"
     ]
@@ -301,7 +303,7 @@
     "id": "item_6ff9d93abc5c860b",
     "type": "news",
     "title": "'2달 내 선출' 시한 연장…박지성 \"똑같은 방식으론 신뢰 못 얻어\"",
-    "summary": "것은 축구협회 나 저희나 다 똑같은 생각을 가지고 있기 때문에….\" 이를 위해 대한체육회도 함께 움직입니다. ▶ 스탠딩 : 황찬민 / 기자 - \"체육회는 오는 16일 임시 대의원 총회를 열고, 확대될 선거인단을 수용할 수 있도록...",
+    "summary": "것은 축구협회 나 저희나 다 똑같은 생각을 가지고 있기 때문에….\" 이를 위해 대한체육회도 함께 움직입니다. ▶ 스탠딩 : 황찬민 / 기자 - \"체육회는 오는 16일 임시대의원총회를 열고, 확대될 선거인 단을 수용할 수 있도록...",
     "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5205725",
     "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5205725",
     "publisher": "mbn.co.kr",
@@ -309,8 +311,6 @@
     "collectedAt": "2026-07-13T23:36:25.009Z",
     "matchedKeywords": [
       "박지성",
-      "축구협회",
-      "선거인단",
       "선거인",
       "대의원"
     ],
@@ -340,10 +340,9 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 12,
     "labels": [
-      "인물 언급",
-      "선거 키워드 포함"
+      "인물 언급"
     ]
   },
   {
@@ -862,7 +861,7 @@
     "id": "item_ac36e75a27653817",
     "type": "news",
     "title": "K-축구 혁신위, 차기 회장 선출 기한 연장 결정…박지성 위원장 \"신뢰받...",
-    "summary": "대한체육회가 한국 축구 의 쇄신을 위해 출범한 '케이( K )- 축구 혁신위 원회'의 논의 결과를 수용해 차기 축구협회 장 선거를 보다 투명하게 진행하고자 선거 기한을 연장하기로 결정했다. 혁신위 는 13일 오후 국립현대미술관...",
+    "summary": "이날 2차 회의에는 1차 회의와 마찬가지로 박지성 위원장을 비롯해 최휘영 문화체육관광부 장관, 이영표·박주호 축구 해설위원, 유승민 대한체육회장, 김승희 대한 축구협회 전무이사, 조연상 한국프로 축구 연맹 사무총장...",
     "url": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374204",
     "originalUrl": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374204",
     "publisher": "thesportstimes.co.kr",
@@ -871,7 +870,8 @@
     "matchedKeywords": [
       "축구 혁신",
       "박지성",
-      "축구협회"
+      "대한 축구협회",
+      "전무"
     ],
     "discoveryQueries": [
       "\"김승희\" 대한축구협회",
@@ -909,14 +909,15 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "kfa-executives"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ]
@@ -925,14 +926,18 @@
     "id": "item_be8649605bc6fdaf",
     "type": "news",
     "title": "“협회장 궐위시 60일내 선거, 체육회서 기한 연장 추진”",
-    "summary": "대한체육회가 한국 축구 개혁을 위해 출범한 ‘K- 축구 혁신위 원회’의 권고를 수용해 차기 대한 축구협회 장 선거 기한을 연장하기로 했다. 박지성 국제 축구 연맹(FIFA) 분과위원회 위원(사진)과 유승민 대한체육회장이...",
+    "summary": "대한체육회가 한국 축구 개혁을 위해 출범한 ‘K-축구 혁신위원회’의 권고를 수용해 차기 대한축구협회장 선거 기한을 연장하기로 했다. 박지성 국제축구연맹(FIFA) 분과위원회 위원(사진)과 유승민 대한체육회장이...",
     "url": "https://www.donga.com/news/Sports/article/all/20260714/134292028/2",
     "originalUrl": "https://www.donga.com/news/Sports/article/all/20260714/134292028/2",
     "publisher": "donga.com",
     "publishedAt": "2026-07-13T19:32:00.000Z",
     "collectedAt": "2026-07-13T20:42:37.663Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
+      "축구협회장",
+      "회장 선거",
+      "대한축구협회장",
+      "혁신위원회",
       "축구 혁신",
       "박지성"
     ],
@@ -960,6 +965,7 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
+      "election",
       "innovation-committee"
     ],
     "personTags": [
@@ -967,7 +973,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1209,7 +1215,7 @@
     "id": "item_577a0e7b96d77a80",
     "type": "news",
     "title": "K-축구혁신위, 축구협회장 선거 기한 연장 추진",
-    "summary": "K- 축구 혁신위 원회가 차기 대한 축구협회 장 선출 기한 연장을 추진한다. 기존 선거 방식으로는 축구 계 쇄신과 신뢰 회복이 어렵다는 판단에서다. 14일 축구 업계에 따르면 혁신위 는 지난 13일 서울 국립현대미술관에서 2차...",
+    "summary": "현행 규정은 회장 공석 시 60일 이내 새 회장을 선출하도록 하고 있지만, 혁신위는 기존 방식으로는 쇄신이 어렵다고 보고 정관과 선거 제도 개선에 나서기로 했다. 대한축구협회는 정몽규 회장의 사퇴 예고와 홍명보 감독...",
     "url": "https://www.newscj.com/news/articleView.html?idxno=3416776",
     "originalUrl": "https://www.newscj.com/news/articleView.html?idxno=3416776",
     "publisher": "newscj.com",
@@ -1219,8 +1225,11 @@
       "축구혁신위",
       "축구협회장",
       "회장 선거",
-      "대한 축구협회",
-      "축구 혁신"
+      "대한축구협회",
+      "정관",
+      "정몽규",
+      "홍명보",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1250,13 +1259,19 @@
     ],
     "issueTags": [
       "election",
-      "innovation-committee"
+      "innovation-committee",
+      "statute-revision"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
-    "labels": []
+    "relevanceScore": 60,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_1c38ed62bc33630d",
@@ -1620,7 +1635,7 @@
     "id": "item_c06f56135c762515",
     "type": "news",
     "title": "박지성, 국회 청문회 불참…“축구협회 관련 할 말 없다”",
-    "summary": "박지성 K-축구 혁신위원장이 22일 예정된 대한축구협회 관련 국회 청문회에 출석하지 않겠다고 13일 밝혔다.... 회장 선거 관련 규정 개정과 관련한 내용을 브리핑했다. 이 자리에서 박 위원장은 국회 청문회 참석 여부와...",
+    "summary": "회장 선거 관련 규정 개정과 관련한 내용을 브리핑했다. 이 자리에서 박 위원장은 국회 청문회 참석 여부와... 대한축구협회장과 홍명보 전 축구대표팀 감독을 포함한 증인 13명과 참고인 10명의 명단을 확정했다. 다만...",
     "url": "https://www.mk.co.kr/article/12097729",
     "originalUrl": "https://www.mk.co.kr/article/12097729",
     "publisher": "mk.co.kr",
@@ -1630,9 +1645,11 @@
       "축구협회",
       "박지성",
       "대한축구협회",
+      "축구협회장",
       "회장 선거",
+      "대한축구협회장",
       "규정 개정",
-      "축구 혁신"
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1656,15 +1673,15 @@
     ],
     "issueTags": [
       "election",
-      "statute-revision",
-      "innovation-committee"
+      "statute-revision"
     ],
     "personTags": [
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 35,
     "labels": [
       "인물 언급"
     ]
@@ -2928,7 +2945,7 @@
     "id": "item_953cf93228a5d385",
     "type": "news",
     "title": "축구협회장 선거 기한 연장 추진…혁신위 \"선거제도부터 손본다\"",
-    "summary": "대한축구협회장 선거 기한을 연장하기로 했다. 선거 제도를 개선한 뒤 새 회장을 선출해 공정성과 신뢰를... 정몽규 전 대한축구협회장은 지난 5월 29일 2026 북중미 월드컵 이후 사퇴 의사를 밝혔고, 홍명보 전 대표팀 감독도...",
+    "summary": "차기 대한축구협회 장 선거 기한을 연장하기로 했다. 선거 제도 를 개선한 뒤 새 회장을 선출해 공정성과... 혁신위는 북중미 월드컵 이후 제기된 축구 계 쇄신 요구에 따라 한시적으로 출범했으며, 지배구조 개선과 유소년 ...",
     "url": "https://www.dailian.co.kr/news/view/1666694/?sc=Naver",
     "originalUrl": "https://www.dailian.co.kr/news/view/1666694/?sc=Naver",
     "publisher": "dailian.co.kr",
@@ -2937,11 +2954,7 @@
     "matchedKeywords": [
       "축구협회장",
       "회장 선거",
-      "대한축구협회",
-      "대한축구협회장",
-      "정몽규",
-      "홍명보",
-      "사퇴"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2975,16 +2988,11 @@
     "issueTags": [
       "election"
     ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
-    "labels": [
-      "인물 언급"
-    ]
+    "relevanceScore": 26,
+    "labels": []
   },
   {
     "id": "item_382bf7a1d56b862f",
