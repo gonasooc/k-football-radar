@@ -1,64 +1,46 @@
-import peopleJson from "@/data/people.json";
-import issuesJson from "@/data/issues.json";
-import sourcesJson from "@/data/sources.json";
-import collectionStateJson from "@/data/collection-state.json";
+import { createRemoteDataLoader, type RemoteDataStatus } from "./remote-data";
+import type { DataBundle } from "./schema";
 
-import {
-  collectionStateSchema,
-  dataBundleSchema,
-  issueSchema,
-  personSchema,
-  radarItemSchema,
-  sourceSchema,
-  type DataBundle,
-  type Issue,
-  type Person,
-  type RadarItem
-} from "./schema";
-import { sortItemsLatestFirst } from "./dedupe";
-import { readItemShardsSync } from "./item-shards";
+let localData: DataBundle | null = null;
 
-const parsedData = dataBundleSchema.parse({
-  items: readItemShardsSync(),
-  people: peopleJson,
-  issues: issuesJson,
-  sources: sourcesJson,
-  collectionState: collectionStateJson
-});
+async function getLocalDataBundle(): Promise<DataBundle> {
+  if (!localData) {
+    const { readLocalDataBundle } = await import("./local-data");
+    localData = readLocalDataBundle();
+  }
+  return localData;
+}
 
-export function getDataBundle(): DataBundle {
+const remoteBaseUrl = process.env.RADAR_DATA_BASE_URL?.trim();
+const remoteLoader = remoteBaseUrl
+  ? createRemoteDataLoader({ baseUrl: remoteBaseUrl })
+  : null;
+
+export async function getDataBundle(): Promise<DataBundle> {
+  if (remoteLoader) {
+    return remoteLoader.getDataBundle();
+  }
+  if (process.env.NODE_ENV === "production") {
+    throw new Error("RADAR_DATA_BASE_URL is required in production");
+  }
+  return getLocalDataBundle();
+}
+
+export function getDataStatus(): RemoteDataStatus | {
+  source: "local";
+  snapshot: string | null;
+  refreshedAt: null;
+  stale: false;
+  lastError: null;
+} {
+  if (remoteLoader) {
+    return remoteLoader.getStatus();
+  }
   return {
-    ...parsedData,
-    items: sortItemsLatestFirst(parsedData.items),
-    issues: [...parsedData.issues].sort((a, b) => a.priority - b.priority),
-    people: [...parsedData.people].sort((a, b) => a.priority - b.priority)
+    source: "local",
+    snapshot: localData?.collectionState.lastCollectedAt ?? null,
+    refreshedAt: null,
+    stale: false,
+    lastError: null
   };
 }
-
-export function getItemById(id: string): RadarItem | undefined {
-  return getDataBundle().items.find((item) => item.id === id);
-}
-
-export function getIssueById(id: string): Issue | undefined {
-  return getDataBundle().issues.find((issue) => issue.id === id);
-}
-
-export function getPersonById(id: string): Person | undefined {
-  return getDataBundle().people.find((person) => person.id === id);
-}
-
-export function getItemsForIssue(issueId: string): RadarItem[] {
-  return getDataBundle().items.filter((item) => item.issueTags.includes(issueId));
-}
-
-export function getItemsForPerson(personId: string): RadarItem[] {
-  return getDataBundle().items.filter((item) => item.personTags.includes(personId));
-}
-
-export const schemas = {
-  items: radarItemSchema.array(),
-  people: personSchema.array(),
-  issues: issueSchema.array(),
-  sources: sourceSchema.array(),
-  collectionState: collectionStateSchema
-};

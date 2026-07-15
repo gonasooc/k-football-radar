@@ -25,6 +25,14 @@ async function getSecretNames(): Promise<string[]> {
     .filter(Boolean);
 }
 
+async function getVariableNames(): Promise<string[]> {
+  const output = await runGh(["variable", "list"]);
+  return output
+    .split("\n")
+    .map((line) => line.trim().split(/\s+/)[0])
+    .filter(Boolean);
+}
+
 async function getLatestWorkflowConclusion(workflowName: string): Promise<WorkflowConclusion> {
   const output = await runGh([
     "run",
@@ -40,15 +48,17 @@ async function getLatestWorkflowConclusion(workflowName: string): Promise<Workfl
 }
 
 async function main(): Promise<void> {
-  const [secretNames, latestCiConclusion, latestCollectConclusion] =
+  const [secretNames, variableNames, latestCiConclusion, latestCollectConclusion] =
     await Promise.all([
       getSecretNames(),
+      getVariableNames(),
       getLatestWorkflowConclusion("CI"),
       getLatestWorkflowConclusion("Collect Korea Football Radar Data")
     ]);
 
   const report = evaluateReadiness({
     secretNames,
+    variableNames,
     latestCiConclusion,
     latestCollectConclusion
   });

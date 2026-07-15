@@ -4,7 +4,9 @@
 
 ## 1. 한 문장으로 보는 구조
 
-Korea Football Radar는 외부 뉴스와 공식자료의 메타데이터를 GitHub Actions에서 수집하고, 그 결과를 `data/*.json` 파일로 커밋한 뒤, Next.js가 해당 JSON 파일을 읽어 화면을 만드는 프로젝트다.
+Korea Football Radar는 외부 뉴스와 공식자료의 메타데이터를 GitHub Actions에서 수집하고,
+그 결과를 `data/*.json` 파일로 커밋한 뒤 검증된 전체 snapshot을 Cloudflare R2에
+발행한다. 운영 Next.js 서버는 R2 snapshot을 런타임에 읽어 화면을 만든다.
 
 ```text
 Naver News API / 공식 웹사이트
@@ -15,19 +17,22 @@ scripts/update-data.ts
         ↓
 data/items/YYYY-MM-DD.json, data/collection-state.json
         ↓
+Cloudflare R2 snapshot + current.json
+        ↓
 Next.js App Router
         ↓
 Docker image + Mac mini + Cloudflare Tunnel
 ```
 
-중요한 점은 데이터베이스가 없다는 것이다. MVP에서는 Supabase, Redis, CMS 같은 외부 저장소를 쓰지 않는다. 수집된 결과는 저장소 안의 JSON 파일에 저장된다.
+관계형 데이터베이스는 없다. 저장소의 JSON은 수집의 입력과 Git 이력을 담당하고,
+R2의 JSON snapshot은 운영 앱의 데이터 제공 경로를 담당한다.
 
 ## 2. 주요 폴더 역할
 
 ```text
 app/          화면 라우트
 components/   화면을 구성하는 재사용 UI 컴포넌트
-data/         앱이 읽는 JSON 데이터
+data/         수집 입력과 Git 이력으로 보관하는 JSON 데이터
 lib/          데이터 읽기, 검증, 분류, 중복 제거, 통계 계산
 scripts/      수집, 검증, 준비 상태 확인용 실행 스크립트
 tests/        단위 테스트
@@ -39,7 +44,8 @@ docs/         기획서, 구조 설명, 잔여 작업 문서
 
 ## 3. 데이터 파일
 
-앱이 실제로 읽는 핵심 데이터는 `data/` 아래에 있다.
+수집기가 읽고 갱신하는 핵심 데이터는 `data/` 아래에 있다. 운영 앱에는 이 디렉터리를
+복사하지 않고, 같은 내용을 하나로 묶은 R2 snapshot을 읽는다.
 
 ```text
 data/items/YYYY-MM-DD.json
@@ -76,19 +82,23 @@ data/collection-state.json
 
 ## 4. 화면이 데이터를 읽는 방식
 
-Next.js 서버는 런타임에서 외부 수집 API를 직접 호출하지 않는다. 저장소의 JSON 파일을 읽어 첫 화면을 만들고, 브라우저의 검색·필터·더보기 요청은 같은 배포 안의 `/api/feed`가 JSON 데이터를 페이지 단위로 조회해 응답한다.
+Next.js 서버는 런타임에서 외부 수집 API를 직접 호출하지 않는다. R2 custom domain에서
+`current.json`과 검증된 snapshot을 읽어 첫 화면을 만들고, 브라우저의 검색·필터·더보기
+요청은 같은 배포 안의 `/api/feed`가 snapshot 데이터를 페이지 단위로 조회해 응답한다.
 
 핵심 파일은 `lib/data.ts`다.
 
 ```text
-data/*.json
+R2 current.json → snapshots/<SHA-256>.json
    ↓
 lib/data.ts
    ├─ app/page.tsx, app/issues/[id]/page.tsx, app/people/[id]/page.tsx
    └─ app/api/feed/route.ts → 30개 단위 후속 페이지
 ```
 
-`lib/data.ts`는 JSON 파일을 읽은 뒤 zod 스키마로 구조를 검증한다. 잘못된 데이터가 있으면 빌드나 검증 단계에서 바로 실패한다.
+`lib/data.ts`와 `lib/remote-data.ts`는 snapshot의 길이, SHA-256과 Zod schema를 검증한다.
+정상 값은 60초 cache하며 R2 일시 장애 때는 마지막 정상 snapshot을 제공한다. 로컬 개발과
+테스트만 저장소의 `data/`를 직접 읽는다.
 
 ## 5. 주요 화면
 
@@ -255,9 +265,14 @@ pnpm run validate:data
 data/ 변경이 있으면 Update radar data 커밋
 ↓
 git push
+↓
+pnpm run publish:r2
+↓
+R2 immutable snapshot 업로드 및 current.json 교체
 ```
 
-Naver API 키는 GitHub 저장소 Secrets에서 가져온다. `.env` 파일은 GitHub에 올라가지 않는다.
+Naver API 키와 R2 쓰기 key는 GitHub 저장소 Secrets에서 가져온다. `.env` 파일은
+GitHub에 올라가지 않는다.
 
 ## 8. 홈서버 배포 흐름
 
@@ -275,7 +290,8 @@ Docker image build (`k-football-radar:git-FULL_SHA`)
 Cloudflare Tunnel 공개
 ```
 
-GitHub Actions가 `data/` 변경 커밋을 만들면 그 commit으로 새 image를 빌드하고 배포해야 최신 JSON 데이터가 반영된다.
+GitHub Actions가 `data/` 변경을 R2에 발행하면 실행 중인 앱이 최대 약 60초 후 최신
+snapshot을 읽는다. 앱 image는 코드가 바뀔 때만 다시 빌드하고 배포한다.
 
 Naver API 호출은 GitHub Actions에서만 한다. 홈서버 런타임에는 Naver credential을 저장하지 않는다.
 
@@ -339,6 +355,8 @@ pnpm run validate:data
 
 - GitHub 저장소 시크릿 `NAVER_CLIENT_ID`
 - GitHub 저장소 시크릿 `NAVER_CLIENT_SECRET`
+- GitHub 저장소 시크릿 `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`
+- GitHub 저장소 변수 `CLOUDFLARE_ACCOUNT_ID`, `R2_BUCKET_NAME`
 - GitHub deployment 기록
 - 최신 CI 워크플로 결과
 - 최신 수집 워크플로 결과

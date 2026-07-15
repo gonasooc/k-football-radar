@@ -6,8 +6,8 @@ import { getDataBundle } from "../lib/data";
 
 describe("feed API snapshot boundary", () => {
   it("returns the current snapshot on a first-page response", async () => {
-    const currentSnapshot = getDataBundle().collectionState.lastCollectedAt;
-    const response = GET(new Request("http://localhost/api/feed"));
+    const currentSnapshot = (await getDataBundle()).collectionState.lastCollectedAt;
+    const response = await GET(new Request("http://localhost/api/feed"));
     const page = await response.json();
 
     assert.equal(response.status, 200);
@@ -17,12 +17,12 @@ describe("feed API snapshot boundary", () => {
   });
 
   it("rejects missing or stale snapshots on later pages", async () => {
-    const currentSnapshot = getDataBundle().collectionState.lastCollectedAt;
-    const missingResponse = GET(new Request("http://localhost/api/feed?offset=30"));
-    const staleResponse = GET(
+    const currentSnapshot = (await getDataBundle()).collectionState.lastCollectedAt;
+    const missingResponse = await GET(new Request("http://localhost/api/feed?offset=30"));
+    const staleResponse = await GET(
       new Request("http://localhost/api/feed?offset=30&snapshot=older")
     );
-    const currentResponse = GET(
+    const currentResponse = await GET(
       new Request(
         `http://localhost/api/feed?offset=30&snapshot=${encodeURIComponent(currentSnapshot)}`
       )

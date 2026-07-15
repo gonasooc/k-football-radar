@@ -6,12 +6,14 @@ import { getFeedPage } from "@/lib/feed-page";
 import { getFeedFiltersFromSearchParams, toFeedItems } from "@/lib/filter";
 import { getDashboardStats } from "@/lib/stats";
 
+export const dynamic = "force-dynamic";
+
 type DashboardPageProps = {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 };
 
 export default async function DashboardPage({ searchParams }: DashboardPageProps) {
-  const data = getDataBundle();
+  const data = await getDataBundle();
   const stats = getDashboardStats({
     items: data.items,
     collectionState: data.collectionState

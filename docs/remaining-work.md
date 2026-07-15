@@ -44,16 +44,18 @@ Porkbun 도메인 구매, Cloudflare DNS 위임과 Tunnel public hostname 설정
 - 원문 링크가 새 탭으로 열리는지
 - 모바일 화면에서 텍스트와 필터 UI가 겹치지 않는지
 
-## 3. 데이터 커밋 후 새 릴리스 확인
+## 3. R2 데이터 발행 확인
 
-수집 워크플로가 `data/` 변경 커밋을 만들면 해당 commit으로 immutable image를 새로 빌드하고 명시적으로 배포해야 한다.
+[`r2-data-deployment.md`](r2-data-deployment.md)의 외부 설정을 완료한 뒤 수집 workflow가
+검증 snapshot을 R2에 발행하고, 앱 재배포 없이 이를 읽는지 확인해야 한다.
 
 확인할 것:
 
 - GitHub Actions가 `Update radar data` 커밋을 생성하는지
-- `deploy/macos/build-release.sh`가 새 Git SHA image를 생성하는지
-- 선택한 image로 컨테이너가 healthy 상태가 되는지
-- 공개 URL의 최근 수집 시각이 최신 `data/collection-state.json` 값으로 바뀌는지
+- R2 `current.json`이 content-addressed snapshot을 가리키는지
+- snapshot SHA-256과 byte 길이가 manifest와 일치하는지
+- 공개 `/api/health`의 `data.source`가 `r2`인지
+- 수집 후 앱 image를 교체하지 않아도 최근 수집 시각이 바뀌는지
 
 최종 확인 명령:
 

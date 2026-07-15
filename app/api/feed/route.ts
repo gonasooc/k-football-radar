@@ -10,8 +10,8 @@ import { getFeedFiltersFromSearchParams, toFeedItems } from "@/lib/filter";
 
 export const dynamic = "force-dynamic";
 
-export function GET(request: Request) {
-  const data = getDataBundle();
+export async function GET(request: Request) {
+  const data = await getDataBundle();
   const url = new URL(request.url);
   const searchParams = Object.fromEntries(url.searchParams);
   const filters = getFeedFiltersFromSearchParams(searchParams, {

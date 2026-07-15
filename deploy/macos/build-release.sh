@@ -16,8 +16,11 @@ command -v git >/dev/null 2>&1 || fail "git is required"
 
 repository="$(read_config K_FOOTBALL_RADAR_REPOSITORY_PATH)"
 site_url="$(read_config K_FOOTBALL_RADAR_SITE_URL)"
+data_base_url="$(read_config K_FOOTBALL_RADAR_DATA_BASE_URL)"
 [[ "$repository" == "$root_dir" ]] || fail "K_FOOTBALL_RADAR_REPOSITORY_PATH must be $root_dir"
 [[ "$site_url" =~ ^https://[^/]+$ && "$site_url" != *YOUR_DOMAIN* ]] || fail "set a final HTTPS K_FOOTBALL_RADAR_SITE_URL"
+[[ "$data_base_url" =~ ^https://[^/]+$ && "$data_base_url" != *YOUR_DOMAIN* ]] \
+  || fail "set a final HTTPS K_FOOTBALL_RADAR_DATA_BASE_URL"
 git -C "$root_dir" diff --quiet || fail "worktree has unstaged changes"
 git -C "$root_dir" diff --cached --quiet || fail "index has staged changes"
 [[ -z "$(git -C "$root_dir" ls-files --others --exclude-standard)" ]] || fail "worktree has untracked files"

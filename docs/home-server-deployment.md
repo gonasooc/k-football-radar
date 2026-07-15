@@ -6,8 +6,8 @@ Docker network와 이미 실행 중인 공유 Cloudflare Tunnel을 사용한다.
 
 ## 릴리스
 
-1. `main`에 배포할 commit을 push한다. 수집 workflow가 `data/`를 갱신한 commit도
-   별도 릴리스가 필요하다.
+1. 앱 코드가 바뀌면 `main`에 배포할 commit을 push한다. 수집 데이터만 바뀐 commit은
+   R2에 발행되므로 별도 앱 릴리스가 필요하지 않다.
 2. 맥미니에서 clean worktree인지 확인한 뒤 immutable image를 만든다.
 
    ```bash
@@ -44,5 +44,14 @@ Docker network와 이미 실행 중인 공유 Cloudflare Tunnel을 사용한다.
 4. `deploy/macos/deploy-release.sh`를 실행한다.
 5. Cloudflare가 인증서를 발급한 뒤 `https://k-football-radar.app/api/health`와 주요 페이지를
    확인한다. `NEXT_PUBLIC_SITE_URL`도 같은 URL이어야 canonical/OG URL이 일치한다.
+
+`deploy/macos/production.env`에는 R2 custom domain도 설정한다.
+
+```text
+K_FOOTBALL_RADAR_DATA_BASE_URL=https://data.k-football-radar.app
+```
+
+R2 bucket, 발행 token, GitHub 설정과 최초 snapshot 생성은
+[`r2-data-deployment.md`](r2-data-deployment.md)를 따른다.
 
 Vercel 프로젝트의 production domain은 DNS와 health 확인이 끝난 뒤에만 제거한다.

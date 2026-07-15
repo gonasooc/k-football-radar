@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { EmptyState } from "@/components/EmptyState";
 import { PaginatedItemList } from "@/components/PaginatedItemList";
 import { SectionHeader } from "@/components/SectionHeader";
-import { getDataBundle, getIssueById } from "@/lib/data";
+import { getDataBundle } from "@/lib/data";
 import { toFeedItems } from "@/lib/filter";
 import { getInitialScopedFeedPage } from "@/lib/scoped-feed-page";
 
@@ -12,13 +12,12 @@ type IssueDetailPageProps = {
   params: Promise<{ id: string }>;
 };
 
-export function generateStaticParams() {
-  return getDataBundle().issues.map((issue) => ({ id: issue.id }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: IssueDetailPageProps): Promise<Metadata> {
   const { id } = await params;
-  const issue = getIssueById(id);
+  const data = await getDataBundle();
+  const issue = data.issues.find((candidate) => candidate.id === id);
 
   if (!issue) {
     return { title: "이슈를 찾을 수 없음" };
@@ -32,8 +31,8 @@ export async function generateMetadata({ params }: IssueDetailPageProps): Promis
 
 export default async function IssueDetailPage({ params }: IssueDetailPageProps) {
   const { id } = await params;
-  const data = getDataBundle();
-  const issue = getIssueById(id);
+  const data = await getDataBundle();
+  const issue = data.issues.find((candidate) => candidate.id === id);
 
   if (!issue) {
     notFound();

@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   description: "한국축구 거버넌스 이슈와 인물별 관련 기사와 공식자료를 확인합니다."
 };
 
+export const dynamic = "force-dynamic";
+
 type TrackingPageProps = {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
 };
@@ -23,7 +25,7 @@ function viewLinkClassName(active: boolean): string {
 }
 
 export default async function TrackingPage({ searchParams }: TrackingPageProps) {
-  const data = getDataBundle();
+  const data = await getDataBundle();
   const activeTab = getTrackingTabFromSearchParams(await searchParams);
   const issueCounts = new Map<string, number>();
   const personCounts = new Map<string, number>();

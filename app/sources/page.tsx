@@ -13,8 +13,10 @@ export const metadata: Metadata = {
   description: "한국축구 뉴스와 공식자료의 수집 대상, 발행처, 원문 링크를 확인합니다."
 };
 
-export default function SourcesPage() {
-  const data = getDataBundle();
+export const dynamic = "force-dynamic";
+
+export default async function SourcesPage() {
+  const data = await getDataBundle();
   const publisherStats = Array.from(
     data.items.reduce((counts, item) => {
       counts.set(item.publisher, (counts.get(item.publisher) ?? 0) + 1);

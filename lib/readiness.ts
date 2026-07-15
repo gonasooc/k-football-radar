@@ -2,6 +2,7 @@ export type WorkflowConclusion = "success" | "failure" | "cancelled" | "skipped"
 
 export type ReadinessInput = {
   secretNames: string[];
+  variableNames: string[];
   latestCiConclusion: WorkflowConclusion;
   latestCollectConclusion: WorkflowConclusion;
 };
@@ -18,8 +19,26 @@ export type ReadinessReport = {
   checks: ReadinessCheck[];
 };
 
-function hasSecret(secretNames: string[], name: string): boolean {
-  return secretNames.includes(name);
+function configurationCheck({
+  id,
+  label,
+  names,
+  requiredName,
+  type
+}: {
+  id: string;
+  label: string;
+  names: string[];
+  requiredName: string;
+  type: "secret" | "variable";
+}): ReadinessCheck {
+  const passed = names.includes(requiredName);
+  return {
+    id,
+    label,
+    status: passed ? "pass" : "fail",
+    detail: passed ? `Repository ${type} is configured` : `Repository ${type} is missing`
+  };
 }
 
 function workflowCheck(id: string, label: string, conclusion: WorkflowConclusion): ReadinessCheck {
@@ -34,22 +53,48 @@ function workflowCheck(id: string, label: string, conclusion: WorkflowConclusion
 
 export function evaluateReadiness(input: ReadinessInput): ReadinessReport {
   const checks: ReadinessCheck[] = [
-    {
+    configurationCheck({
       id: "naver-client-id",
       label: "GitHub secret NAVER_CLIENT_ID",
-      status: hasSecret(input.secretNames, "NAVER_CLIENT_ID") ? "pass" : "fail",
-      detail: hasSecret(input.secretNames, "NAVER_CLIENT_ID")
-        ? "Repository secret is configured"
-        : "Repository secret is missing"
-    },
-    {
+      names: input.secretNames,
+      requiredName: "NAVER_CLIENT_ID",
+      type: "secret"
+    }),
+    configurationCheck({
       id: "naver-client-secret",
       label: "GitHub secret NAVER_CLIENT_SECRET",
-      status: hasSecret(input.secretNames, "NAVER_CLIENT_SECRET") ? "pass" : "fail",
-      detail: hasSecret(input.secretNames, "NAVER_CLIENT_SECRET")
-        ? "Repository secret is configured"
-        : "Repository secret is missing"
-    },
+      names: input.secretNames,
+      requiredName: "NAVER_CLIENT_SECRET",
+      type: "secret"
+    }),
+    configurationCheck({
+      id: "r2-access-key-id",
+      label: "GitHub secret R2_ACCESS_KEY_ID",
+      names: input.secretNames,
+      requiredName: "R2_ACCESS_KEY_ID",
+      type: "secret"
+    }),
+    configurationCheck({
+      id: "r2-secret-access-key",
+      label: "GitHub secret R2_SECRET_ACCESS_KEY",
+      names: input.secretNames,
+      requiredName: "R2_SECRET_ACCESS_KEY",
+      type: "secret"
+    }),
+    configurationCheck({
+      id: "cloudflare-account-id",
+      label: "GitHub variable CLOUDFLARE_ACCOUNT_ID",
+      names: input.variableNames,
+      requiredName: "CLOUDFLARE_ACCOUNT_ID",
+      type: "variable"
+    }),
+    configurationCheck({
+      id: "r2-bucket-name",
+      label: "GitHub variable R2_BUCKET_NAME",
+      names: input.variableNames,
+      requiredName: "R2_BUCKET_NAME",
+      type: "variable"
+    }),
     workflowCheck("ci-workflow", "Latest CI workflow", input.latestCiConclusion),
     workflowCheck(
       "collect-workflow",

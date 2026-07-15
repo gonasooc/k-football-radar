@@ -14,6 +14,7 @@
     "collect:local": "node --env-file=.env --import tsx scripts/update-data.ts",
     "collect:naver": "node --import tsx scripts/collect-naver-news.ts",
     "collect:official": "node --import tsx scripts/collect-official.ts",
+    "publish:r2": "node --import tsx scripts/publish-r2-data.ts",
     "reclassify:news": "node --import tsx scripts/reclassify-news.ts",
     "check:readiness": "node --import tsx scripts/check-readiness.ts",
     "validate:data": "node --import tsx scripts/validate-data.ts"
@@ -30,6 +31,7 @@
     "zod": "^3.24.0"
   },
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.1087.0",
     "@eslint/js": "^9.17.0",
     "@next/eslint-plugin-next": "^15.5.20",
     "@types/node": "^22.10.0",

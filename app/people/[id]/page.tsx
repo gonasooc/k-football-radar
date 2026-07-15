@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { EmptyState } from "@/components/EmptyState";
 import { PaginatedItemList } from "@/components/PaginatedItemList";
 import { SectionHeader } from "@/components/SectionHeader";
-import { getDataBundle, getItemsForPerson, getPersonById } from "@/lib/data";
+import { getDataBundle } from "@/lib/data";
 import { toFeedItems } from "@/lib/filter";
 import { getInitialScopedFeedPage } from "@/lib/scoped-feed-page";
 
@@ -12,13 +12,12 @@ type PersonDetailPageProps = {
   params: Promise<{ id: string }>;
 };
 
-export function generateStaticParams() {
-  return getDataBundle().people.map((person) => ({ id: person.id }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({ params }: PersonDetailPageProps): Promise<Metadata> {
   const { id } = await params;
-  const person = getPersonById(id);
+  const data = await getDataBundle();
+  const person = data.people.find((candidate) => candidate.id === id);
 
   if (!person || !person.published) {
     return { title: "인물을 찾을 수 없음" };
@@ -32,14 +31,14 @@ export async function generateMetadata({ params }: PersonDetailPageProps): Promi
 
 export default async function PersonDetailPage({ params }: PersonDetailPageProps) {
   const { id } = await params;
-  const data = getDataBundle();
-  const person = getPersonById(id);
+  const data = await getDataBundle();
+  const person = data.people.find((candidate) => candidate.id === id);
 
   if (!person || !person.published) {
     notFound();
   }
 
-  const items = getItemsForPerson(person.id);
+  const items = data.items.filter((item) => item.personTags.includes(person.id));
   const relatedIssues = data.issues.filter((issue) =>
     items.some((item) => item.issueTags.includes(issue.id))
   );
