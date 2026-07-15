@@ -5484,7 +5484,7 @@
     "id": "item_67021c28f46a1add",
     "type": "news",
     "title": "경찰 \"홍명보 선임 고발 1건 추가돼 총 9건…결론 빨리 낼 것\"",
-    "summary": "경찰이 홍명보 전 국가대표팀 축구팀 감독 부당 선임 의혹과 관련해 총 9건을 수사 중인 것으로 전해졌다.... 스타벅스코리아 '탱크데이' 프로모션 수사와 관련해선 \"신세계그룹으로부터 감사 자료와 포렌식 자료를...",
+    "summary": "경찰은 홍 전 감독 선임 과정에서 정몽규 전 축구협회회장 등 축구협회 고위 관계자들의 부당한 개입이... 스타벅스코리아 '탱크데이' 프로모션 수사와 관련해선 \"신세계그룹으로부터 감사 자료와 포렌식 자료를 제출받아...",
     "url": "http://www.fnnews.com/news/202607131120089708",
     "originalUrl": "http://www.fnnews.com/news/202607131120089708",
     "publisher": "fnnews.com",
@@ -5492,8 +5492,11 @@
     "collectedAt": "2026-07-13T05:06:08.973Z",
     "matchedKeywords": [
       "홍명보",
+      "축구협회",
+      "감독 선임",
       "감독",
       "선임",
+      "정몽규",
       "감사"
     ],
     "discoveryQueries": [
@@ -5517,11 +5520,12 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
