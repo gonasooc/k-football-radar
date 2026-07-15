@@ -92,14 +92,14 @@
     "id": "item_3a40484c851402cc",
     "type": "news",
     "title": "\"벤투 4년 계약 더 줘도 됐는데...\" 아쉬워하던 이천수, 또 작심 조언 \"...",
-    "summary": "정몽규 회장에 이어 홍명보 감독까지 떠나보낸 대한 축구협회 는 전력강화위원회를 중심으로 후임 감독을 찾고 있다. 아직 공식 절차가 시작된 건 아니지만, 이미 물밑에서 지원 의사를 전달한 감독들이 나오고 있다. 4년 전...",
+    "summary": "정몽규 회장에 이어 홍명보 감독까지 떠나보낸 대한축구협회 는 전력강화위원회를 중심으로 후임 감독을 찾고 있다. 아직 공식 절차가 시작된 건 아니지만, 이미 물밑에서 지원 의사를 전달한 감독들이 나오고 있다. 4년 전...",
     "url": "http://www.osen.co.kr/article/G1112839778",
     "originalUrl": "http://www.osen.co.kr/article/G1112839778",
     "publisher": "osen.co.kr",
     "publishedAt": "2026-07-14T22:02:00.000Z",
     "collectedAt": "2026-07-14T22:40:03.465Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "전력강화위원회",
       "감독",
       "전력강화위원",
@@ -2299,7 +2299,7 @@
     "id": "item_af21ecc3471ee5ec",
     "type": "news",
     "title": "경찰 '홍명보 감독 선임 의혹' 축협 임원·전력강화위원 조사(종합)",
-    "summary": "14일 연합뉴스 취재에 따르면 서울경찰청 광역수사단 금융범죄수사대는 이날 홍 전 감독 선임 당시 축구협회 전력강화위원으로 활동한 A씨와 축구협회 부회장 을 지낸 B씨를 참고인 신분으로 불러 조사했다. 축구 전문가로...",
+    "summary": "축구 전문가로 구성된 전력강화위는 국가대표팀 감독 후보를 검토한 뒤 상위 기구인 축구협회 이사회 에 특정 후보의 선임을 추천하는 위원회다. A씨는 2024년 전력강화위가 홍 전 감독을 1순위 감독 후보자로 추천했을 당시...",
     "url": "https://www.yna.co.kr/view/AKR20260714088351004?input=1195m",
     "originalUrl": "https://www.yna.co.kr/view/AKR20260714088351004?input=1195m",
     "publisher": "yna.co.kr",
@@ -2311,7 +2311,10 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "축구협회"
+      "축구협회",
+      "대표팀 감독",
+      "감독 후보",
+      "후보"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2775,7 +2778,7 @@
     "id": "item_9a122a904a4b5776",
     "type": "news",
     "title": "경찰, '홍명보 감독 선임 의혹' 축구협회 전력강화위원 잇단 조사",
-    "summary": "전력강화위원회는 축구 전문가들로 구성돼 국가대표팀 감독 후보를 검토한 뒤 상위 의사결정기구인 대한 축구협회 이사회 에 감독 선임을 추천하는 역할을 맡는다. 홍 전 감독 선임 당시에는 정해성 전 위원장을 비롯해...",
+    "summary": "이날 오전 10시부터는 홍 전 감독과 정몽규 전 대한 축구협회 장, 이임생 전 기술총괄이사를 강요·업무방해·업무상 배임·협박 등의 혐의로 고발한 시민단체 서민민생대책위원회 김순환 사무총장에 대한 고발인 조사도...",
     "url": "https://www.newspim.com/news/view/20260714001077",
     "originalUrl": "https://www.newspim.com/news/view/20260714001077",
     "publisher": "newspim.com",
@@ -2789,11 +2792,8 @@
       "선임",
       "홍명보",
       "대한 축구협회",
-      "이사회",
-      "대표팀 감독",
-      "전력강화위원회",
-      "감독 후보",
-      "후보"
+      "정몽규",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -2813,15 +2813,16 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives"
+      "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급"
     ]
@@ -3762,7 +3763,7 @@
     "id": "item_b145304a93b99e8e",
     "type": "news",
     "title": "이기형 김포시장, 김포FC 58억원 공금횡령사건 발생 확인...\"진상 끝까지...",
-    "summary": "한국프로 축구 연맹·대한 축구협회 회계 감사 를 동시에 진행하고 재정 안전성을 실시간으로 확인한다는 내용이 담겼다. 이번 특별 감사 에서는 문서에 마련된 결산· 감사 절차가 실제 자금 집행 현장에서 제대로 작동했는지도...",
+    "summary": "한국프로 축구 연맹·대한 축구협회 회계감사를 동시에 진행하고 재정 안전성을 실시간으로 확인한다는 내용이... 공공기관 감사에서 공통적인 취약점이 발견되면 관련 규정 과 결재절차를 일괄 개정 할 계획이다. [사진=김포시]",
     "url": "https://www.ajunews.com/view/20260714140912414",
     "originalUrl": "https://www.ajunews.com/view/20260714140912414",
     "publisher": "ajunews.com",
@@ -5153,7 +5154,7 @@
     "id": "item_dcac9e3241bd5ceb",
     "type": "news",
     "title": "경찰, '홍명보 선임 의혹' 수사 속도…고발 2년 만에",
-    "summary": "서민위는 지난 2일 정 전 회장과 이임생 전 대한 축구협회 기술총괄이사, 홍 전 감독을 강요·업무방해, 업무상 배임 등 혐의로 추가 고발했다. 경찰은 2024년 당시 대한 축구협회 전력강화위원으로 활동했던 A 씨도 참고인...",
+    "summary": "서민위는 지난 2일 정 전 회장과 이임생 전 대한축구협회 기술총괄이사, 홍 전 감독을 강요·업무방해, 업무상 배임 등 혐의로 추가 고발했다. 경찰은 2024년 당시 대한축구협회 전력강화위원으로 활동했던 A 씨도 참고인...",
     "url": "https://news.tf.co.kr/read/life/2343012.htm",
     "originalUrl": "https://news.tf.co.kr/read/life/2343012.htm",
     "publisher": "news.tf.co.kr",
@@ -5161,8 +5162,9 @@
     "collectedAt": "2026-07-14T04:34:38.073Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
-      "이임생"
+      "대한축구협회",
+      "이임생",
+      "이임생 전 대한축구협회"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -6392,7 +6394,7 @@
     "id": "item_a7e631145d7746d4",
     "type": "news",
     "title": "박지성은 왜 청문회에 불참할까",
-    "summary": "국회 문화체육관광위원회는 오는 22일 대한 축구협회 ( 축구협회 ) 운영 실태와 국가대표팀 감독 선임 절차 등을... 한국 축구 위기를 돌파하기 위해 K- 축구 혁신위 원회( 혁신위 )가 출범했고, 박지성은 유승민 회장과 함께...",
+    "summary": "이어 \" 대한 체육회는 14일부터 규정 개정 절차를 밟아 이달 내 규정 개정을 완료할 예정이다. 축구협회 도 이에 맞춰 정관을 개정하고 선거 제도 개선안을 마련할 것\"이라고 덧붙였다. 박지성은 가장 급한 문제를 올바른 방향...",
     "url": "https://www.newdaily.co.kr/site/data/html/2026/07/14/2026071400078.html",
     "originalUrl": "https://www.newdaily.co.kr/site/data/html/2026/07/14/2026071400078.html",
     "publisher": "newdaily.co.kr",
@@ -6400,12 +6402,9 @@
     "collectedAt": "2026-07-14T01:04:06.700Z",
     "matchedKeywords": [
       "박지성",
-      "대한 축구협회",
-      "축구 혁신",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "선임"
+      "축구협회",
+      "정관",
+      "규정 개정"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -6435,15 +6434,14 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee",
-      "coach-appointment"
+      "statute-revision"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급"
     ]
@@ -7147,7 +7145,7 @@
     "id": "item_da31b83afcc95b45",
     "type": "news",
     "title": "190명 ‘체육관 선거’ 없애나…축구협회장 직선제법 발의",
-    "summary": "이른바 ‘ 축구협회 회장 직선제법’인 ‘국민체육진흥법 일부 개정 법률안’을 대표 발의했다고 14일 밝혔다.... 대한 축구협회 는 그동안 국제 축구 연맹 규정 을 이유로 선거 방식 개편에 부정적인 태도를 보여왔다. 정 의원은...",
+    "summary": "현행 대한축구협회 장 선거는 약 190명으로 구성된 선거인단이 투표하는 간선제로 치러진다. 축구 계에서는 등록 선수와 지도자 , 심판 등 다수 회원의 의사를 충분히 반영하지 못하는 이른바 ‘체육관 선거’라는 지적이...",
     "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03007766645514520",
     "originalUrl": "https://www.edaily.co.kr/news/newspath.asp?newsid=03007766645514520",
     "publisher": "edaily.co.kr",
@@ -7155,7 +7153,9 @@
     "collectedAt": "2026-07-14T01:04:06.700Z",
     "matchedKeywords": [
       "축구협회장",
-      "대한 축구협회"
+      "대한축구협회",
+      "선거인단",
+      "선거인"
     ],
     "discoveryQueries": [
       "\"정몽규\" 감사",
@@ -7178,13 +7178,16 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "electoral-college"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
-    "labels": []
+    "relevanceScore": 32,
+    "labels": [
+      "선거 키워드 포함"
+    ]
   },
   {
     "id": "item_5860494e39db347c",
