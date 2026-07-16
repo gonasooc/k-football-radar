@@ -267,7 +267,7 @@
     "id": "item_d2f09ad5a314afb2",
     "type": "news",
     "title": "‘간선제 현실’ 부산시 축구협회장 “승부조작 사면한 정몽규 회장이 ...",
-    "summary": "지도자 의 선배, 그 선배의 선배를 통해서라도 어느 후보를 지지하라는 압박이 들어온다. 또한 대한축구협회 ... 많은 축구 인이 참여하는 민주적 절차에 따른 선거가 이뤄져야 한다는 것에 모두가 공감했다\"며 선거 제도 를...",
+    "summary": "이 지도자 의 선배, 그 선배의 선배를 통해서라도 어느 후보를 지지하라는 압박이 들어온다. 또한 대한축구협회 대의원 자격 으로 당연직 선거인단에 포함된 17개 시도 축구협회 장 또한 협회 카르텔의 입김에서 자유로울 수...",
     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8606085&ref=A",
     "originalUrl": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8606085&ref=A",
     "publisher": "news.kbs.co.kr",
@@ -276,7 +276,10 @@
     "matchedKeywords": [
       "축구협회장",
       "정몽규",
-      "대한축구협회"
+      "대한축구협회",
+      "선거인단",
+      "선거인",
+      "대의원"
     ],
     "discoveryQueries": [
       "\"박지성\" 선거",
@@ -291,16 +294,18 @@
       "축구협회 정관 개정"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "electoral-college"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 40,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "선거 키워드 포함"
     ]
   },
   {
@@ -3202,7 +3207,7 @@
     "id": "item_e9ce88c435f189c4",
     "type": "news",
     "title": "\"책임도 눈치도 없다\"… 국회서 나온 축구협회 개혁론",
-    "summary": "종합토론에서는 유소년 축구 와 학원 축구 문 제도 이어졌다. 현장 지도자 들은 국제대회 참가 기회 축소, 학교 축구 기반 약화, 클럽 축구 의 훈련 공간 부족 등을 제기했다. 참석자들은 대한축구협회 개혁이 대표팀 감독...",
+    "summary": "한국 축구 가 국민 신뢰를 회복하기 위해 어떤 제도적 변화와 정책 적 노력이 필요한지 함께 고민하는 자리... 대한축구협회 개혁이 대표팀 감독 선임이나 회장 교체에 그쳐서는 안 되며, 선거제도와 행정 구조, 유소년 ...",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=849064",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=849064",
     "publisher": "hansbiz.co.kr",
@@ -3210,7 +3215,15 @@
     "collectedAt": "2026-07-08T09:10:47.825Z",
     "matchedKeywords": [
       "축구협회",
-      "대한축구협회"
+      "대한축구협회",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "유소년",
+      "제도",
+      "정책",
+      "행정"
     ],
     "discoveryQueries": [
       "대한축구협회 유소년 육성 시스템",
@@ -3220,11 +3233,14 @@
       "축구협회 대의원",
       "축구협회 제도 개편"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "coach-appointment",
+      "youth-governance"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 24,
     "labels": []
   },
   {
