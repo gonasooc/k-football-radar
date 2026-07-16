@@ -3,7 +3,7 @@
 import { LoaderCircle } from "lucide-react";
 import { useState } from "react";
 
-import { fetchFeedPage } from "@/lib/feed-api";
+import { FeedSnapshotMismatchError, fetchFeedPage } from "@/lib/feed-api";
 import type { FeedPage } from "@/lib/feed-page";
 import type { FeedFilters } from "@/lib/filter";
 import type { Issue, Person } from "@/lib/schema";
@@ -55,7 +55,19 @@ export function PaginatedItemList({
           limit: items.length
         };
       });
-    } catch {
+    } catch (error) {
+      if (error instanceof FeedSnapshotMismatchError) {
+        try {
+          const freshPage = await fetchFeedPage(fixedFilters, 0, {
+            snapshot: error.snapshot
+          });
+          setResults(freshPage);
+          return;
+        } catch {
+          setLoadError(true);
+          return;
+        }
+      }
       setLoadError(true);
     } finally {
       setIsLoadingMore(false);

@@ -22,7 +22,7 @@ describe("FeedClient performance", () => {
     assert.match(feedClientSource, /window\.clearTimeout/);
 
     assert.match(feedClientSource, /DEFAULT_FEED_PAGE_SIZE/);
-    assert.match(feedClientSource, /import \{ fetchFeedPage \} from "@\/lib\/feed-api"/);
+    assert.match(feedClientSource, /import \{ FeedSnapshotMismatchError, fetchFeedPage \} from "@\/lib\/feed-api"/);
     assert.match(feedApiSource, /fetch\(`\/api\/feed\?/);
     assert.match(feedClientSource, /results\.items/);
     assert.match(feedClientSource, /if \(isLoadingMore \|\| isResultsPending \|\| !results\.hasMore\)/);

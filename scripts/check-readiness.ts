@@ -7,7 +7,6 @@ const execFileAsync = promisify(execFile);
 
 type RunRecord = {
   conclusion: WorkflowConclusion | "";
-  workflowName: string;
 };
 
 async function runGh(args: string[]): Promise<string> {
@@ -37,14 +36,17 @@ async function getLatestWorkflowConclusion(workflowName: string): Promise<Workfl
   const output = await runGh([
     "run",
     "list",
+    "--workflow",
+    workflowName,
+    "--status",
+    "completed",
     "--limit",
-    "20",
+    "1",
     "--json",
-    "workflowName,conclusion"
+    "conclusion"
   ]);
   const runs = JSON.parse(output) as RunRecord[];
-  const run = runs.find((candidate) => candidate.workflowName === workflowName);
-  return run?.conclusion || "unknown";
+  return runs[0]?.conclusion || "unknown";
 }
 
 async function main(): Promise<void> {

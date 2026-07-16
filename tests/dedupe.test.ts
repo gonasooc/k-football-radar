@@ -129,6 +129,23 @@ describe("dedupeItems", () => {
     assert.equal(items[0].collectedAt, baseItem.collectedAt);
   });
 
+  it("keeps the earliest publication time when a re-collection stamps a newer one", () => {
+    const items = dedupeItems([
+      baseItem,
+      {
+        ...baseItem,
+        id: "item_recollected",
+        publishedAt: "2026-07-08T09:00:00.000Z",
+        collectedAt: "2026-07-08T09:00:00.000Z"
+      }
+    ]);
+
+    assert.equal(items.length, 1);
+    assert.equal(items[0].id, "item_recollected");
+    assert.equal(items[0].publishedAt, baseItem.publishedAt);
+    assert.equal(items[0].collectedAt, baseItem.collectedAt);
+  });
+
   it("collapses a transitive chain of URL aliases into one record", () => {
     const items = dedupeItems([
       {

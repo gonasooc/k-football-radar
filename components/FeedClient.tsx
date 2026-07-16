@@ -16,7 +16,7 @@ import {
   getFeedRequestSearchParams,
   type FeedPage
 } from "@/lib/feed-page";
-import { fetchFeedPage } from "@/lib/feed-api";
+import { FeedSnapshotMismatchError, fetchFeedPage } from "@/lib/feed-api";
 import {
   defaultFeedFilters,
   getFeedFiltersFromSearchParams,
@@ -257,13 +257,35 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
           limit: items.length
         };
       });
-    } catch {
+    } catch (error) {
       if (
-        loadMoreRequestId.current === requestId &&
-        activeFilterKey.current === requestedFilterKey
+        loadMoreRequestId.current !== requestId ||
+        activeFilterKey.current !== requestedFilterKey
       ) {
-        setLoadError(true);
+        return;
       }
+      if (error instanceof FeedSnapshotMismatchError) {
+        try {
+          const freshPage = await fetchFeedPage(appliedFilters, 0, {
+            snapshot: error.snapshot
+          });
+          if (
+            loadMoreRequestId.current === requestId &&
+            activeFilterKey.current === requestedFilterKey
+          ) {
+            setResults(freshPage);
+          }
+        } catch {
+          if (
+            loadMoreRequestId.current === requestId &&
+            activeFilterKey.current === requestedFilterKey
+          ) {
+            setLoadError(true);
+          }
+        }
+        return;
+      }
+      setLoadError(true);
     } finally {
       if (loadMoreRequestId.current === requestId) {
         setIsLoadingMore(false);

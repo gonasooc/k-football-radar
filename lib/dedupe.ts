@@ -65,6 +65,13 @@ function mergeItems(
     new Date(next.collectedAt).getTime() < new Date(previous.collectedAt).getTime()
       ? next.collectedAt
       : previous.collectedAt;
+  // Re-collections of an undated official item stamp publishedAt with the run
+  // time, so the earliest known publication time must win or the item drifts
+  // forward on every run and never ages out of retention.
+  const publishedAt =
+    new Date(next.publishedAt).getTime() < new Date(previous.publishedAt).getTime()
+      ? next.publishedAt
+      : previous.publishedAt;
   const discoveryQueries = uniqueSorted([
     ...(previous.discoveryQueries ?? []),
     ...(next.discoveryQueries ?? [])
@@ -73,6 +80,7 @@ function mergeItems(
   return {
     ...preferred,
     collectedAt,
+    publishedAt,
     discoveryQueries: discoveryQueries.length > 0 ? discoveryQueries : undefined
   };
 }

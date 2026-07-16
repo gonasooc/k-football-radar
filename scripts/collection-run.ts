@@ -38,6 +38,10 @@ const defaultPersistence: CollectionRunPersistence = {
   writeCollectionState
 };
 
+export function hasCompleteCollectorFailure(result: CollectorRunResult): boolean {
+  return result.attempted > 0 && result.succeeded === 0;
+}
+
 export function getCollectionRunStatus(
   results: readonly CollectorRunResult[]
 ): CollectionRunStatus {

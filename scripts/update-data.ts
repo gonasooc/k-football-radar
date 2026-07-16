@@ -3,7 +3,10 @@ import {
   reclassifyAndFilterNewsItemsForCollection
 } from "./collect-naver-news";
 import { collectOfficialSourcesRun } from "./collect-official";
-import { persistCollectionRun } from "./collection-run";
+import {
+  hasCompleteCollectorFailure,
+  persistCollectionRun
+} from "./collection-run";
 import {
   readIssues,
   readItems,
@@ -38,6 +41,18 @@ async function updateData(): Promise<void> {
   );
   if (update.state.lastRunStatus === "failed") {
     throw new Error("All configured collectors failed");
+  }
+
+  const deadCollectors = [
+    { name: "naver", result: naverResult },
+    { name: "official", result: officialResult }
+  ]
+    .filter(({ result }) => hasCompleteCollectorFailure(result))
+    .map(({ name }) => name);
+  if (deadCollectors.length > 0) {
+    throw new Error(
+      `Collector(s) completed nothing this run: ${deadCollectors.join(", ")}`
+    );
   }
 }
 

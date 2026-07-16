@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 import { formatDate } from "@/lib/date";
-import { fetchFeedPage } from "@/lib/feed-api";
+import { FeedSnapshotMismatchError, fetchFeedPage } from "@/lib/feed-api";
 import type { FeedFilters } from "@/lib/filter";
 import {
   toSourceLinkPage,
@@ -99,7 +99,19 @@ export function SourceLinksList({ fixedFilters, initialPage }: SourceLinksListPr
           limit: items.length
         };
       });
-    } catch {
+    } catch (error) {
+      if (error instanceof FeedSnapshotMismatchError) {
+        try {
+          const freshPage = await fetchFeedPage(fixedFilters, 0, {
+            snapshot: error.snapshot
+          });
+          setResults(toSourceLinkPage(freshPage));
+          return;
+        } catch {
+          setLoadError(true);
+          return;
+        }
+      }
       setLoadError(true);
     } finally {
       setIsLoadingMore(false);

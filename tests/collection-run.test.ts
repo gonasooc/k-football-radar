@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 
 import {
   getCollectionRunStatus,
+  hasCompleteCollectorFailure,
   persistCollectionRun,
   prepareCollectionRun,
   type CollectionRunPersistence,
@@ -55,6 +56,21 @@ describe("collection run state", () => {
     );
     assert.equal(getCollectionRunStatus([result({})]), "success");
     assert.equal(getCollectionRunStatus([]), "failed");
+  });
+
+  it("flags a collector that attempted work but completed nothing", () => {
+    assert.equal(
+      hasCompleteCollectorFailure(result({ attempted: 100, succeeded: 0, failed: 100 })),
+      true
+    );
+    assert.equal(
+      hasCompleteCollectorFailure(result({ attempted: 100, succeeded: 1, failed: 99 })),
+      false
+    );
+    assert.equal(
+      hasCompleteCollectorFailure(result({ attempted: 0, succeeded: 0, failed: 0 })),
+      false
+    );
   });
 
   it("keeps standalone items and state totals consistent after a failed run", () => {
