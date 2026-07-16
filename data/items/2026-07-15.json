@@ -3,7 +3,7 @@
     "id": "item_c5102142b228869e",
     "type": "news",
     "title": "\"홍명보 감독님과 대한축구협회에 감사드린다\" 홍명보호 아로소 수석코...",
-    "summary": "한국 축구 대표팀 과의 동행을 마친 주앙 아로소 코치가 작별 인사를 남겼다. 월드컵 탈락에 대한 사과와 함께... 아로소 코치는 홍명보 전 감독 체제에서 전술과 훈련을 총괄하는 핵심 코치 역할을 맡았다. 경기 준비 과정...",
+    "summary": "그는 \" 대한축구협회 와 홍명보 감독님께 감사드린다. 또 코칭 스태프에게도 감사하다. 한국에서 따뜻한 환영을 받았고 새로운 문화에 적응할 수 있도록 많은 도움을 받았다\"고 밝혔다. 이후 그는 한국이라는 나라에 대한 ...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=828768",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=828768",
     "publisher": "spotvnews.co.kr",
@@ -30,7 +30,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 46,
+    "relevanceScore": 58,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -88,14 +88,19 @@
     "id": "item_c6c507a3bbf62187",
     "type": "news",
     "title": "\"일본인에겐 이해 어려운 홍명보 사태”…日매체, '망명설'까지 거론",
-    "summary": "2026 북중미 월드컵 조별리그 탈락 이후 홍명보 전 한국 축구 대표팀 감독 (57)을 향한 비판 여론이 거세지는 가운데, 일본 매체가 한국 내 책임 추궁 분위기를 조명했다. 일본 매체 데일리신초는 16일 홍 전 감독을 둘러싼...",
+    "summary": "2026 북중미 월드컵 조별리그 탈락 이후 홍명보 전 한국 축구 대표팀 감독(57)을 향한 비판 여론이 거세지는... 데일리신초는 홍 전 감독을 둘러싼 논란의 배경으로 대한 축구협회 의 감독 선임 과정 의혹을 지목했다. 홍 전...",
     "url": "https://www.newsis.com/view/NISX20260716_0003711450",
     "originalUrl": "https://www.newsis.com/view/NISX20260716_0003711450",
     "publisher": "newsis.com",
     "publishedAt": "2026-07-15T23:48:00.000Z",
     "collectedAt": "2026-07-16T01:08:24.577Z",
     "matchedKeywords": [
-      "홍명보"
+      "홍명보",
+      "대한 축구협회",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -107,13 +112,15 @@
       "대한축구협회",
       "축구협회 감독 선임"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "coach-appointment"
+    ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -122,7 +129,7 @@
     "id": "item_a1be3d989348cca3",
     "type": "news",
     "title": "“홍명보 감독에게 감사하다” 韓 떠난 아로소 코치 마지막 메시지…“...",
-    "summary": "2024년 8월 축구 대표팀 수석코치로 부임한 아로소 전 코치는 홍명보 전 감독 의 오른팔로 일했다. 2년간 2026 국제축구연맹(FIFA) 북중미 월드컵을 향해 달렸지만, 한국은 조별리그 탈락이란 수모를 겪었다. 아로소 전 코치는...",
+    "summary": "힘든 순간도 있었지만, 열정을 쏟아 코칭하며 경기장에서 보낸 시간은 정말 소중했다”며 “ 대한축구협회 와 홍명보 감독님, 저를 따뜻하게 맞아주고 다른 문화에 적응할 수 있게 도와준 모든 스태프들께 감사하다”고...",
     "url": "https://isplus.com/article/view/isp202607160014",
     "originalUrl": "https://isplus.com/article/view/isp202607160014",
     "publisher": "isplus.com",
@@ -131,8 +138,7 @@
     "matchedKeywords": [
       "홍명보",
       "감사",
-      "감독",
-      "부임"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 감사",
@@ -142,15 +148,13 @@
       "대한축구협회",
       "축구협회 감사"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -330,17 +334,73 @@
     ]
   },
   {
+    "id": "item_6896c05cdcddbcad",
+    "type": "news",
+    "title": "[손병관의 뉴스프레소] 유시민 \"대통령의 지배 받는 당은 망한다\"",
+    "summary": "대한 축구협회 가 홍명보 전 축구 국가대표팀 감독 선임에 앞서 정관 개정 절차를 거치지 않고 기술총괄이사... 축협은 5월 20일 7차 회의부턴 '기술 총괄이사'로 선임된 이임생 이 참석했다. 이임생 이 정해성이 사퇴하기...",
+    "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003251795",
+    "originalUrl": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003251795",
+    "publisher": "ohmynews.com",
+    "publishedAt": "2026-07-15T22:21:00.000Z",
+    "collectedAt": "2026-07-16T04:44:16.348Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "정관",
+      "정관 개정",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "홍명보",
+      "이임생",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"이임생\" 대한축구협회",
+      "\"이임생\" 축구협회",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독 선임",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보",
+      "축구협회 규정 개정",
+      "축구협회 이사회",
+      "축구협회 정관",
+      "축구협회 정관 개정",
+      "축구협회 제도 개편",
+      "축구협회 조사 결과"
+    ],
+    "issueTags": [
+      "statute-revision",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 24,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_2879c51afd90bcb1",
     "type": "news",
     "title": "‘적반하장’ 문진희 위원장 “언론은 진실을 말해야 한다”",
-    "summary": "지난주 KBS 보도로 불법 선거 운동을 한 정황이 드러난 문진희 대한축구협회 심판위원장이 \"언론은 진실을 말해야 한다\"는 메시지를 보내와 또 논란에 불을 지폈는데요. 문 위원장은 여전히 자리를 지키고 있고, 최근 심판...",
+    "summary": "[리포트] 문진희 위원장은 제55대 대한 축구협회 장 선거 당시 자격이 없음에도 전국을 돌며 선거인 단을 만났습니다. [문진희/대한 축구협회 심판위원장 : \"내가 20일 다녔거든. 1차 때 열흘, 2차 때 너 만나고 남양주 갔다가...",
     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8612172&ref=A",
     "originalUrl": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8612172&ref=A",
     "publisher": "news.kbs.co.kr",
     "publishedAt": "2026-07-15T22:01:00.000Z",
     "collectedAt": "2026-07-15T22:40:36.667Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한 축구협회",
+      "선거인"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -349,11 +409,13 @@
       "축구협회 선거인단",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "electoral-college"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -871,13 +933,15 @@
     "id": "item_ba31f8139d212298",
     "type": "news",
     "title": "'4년 842억' 안첼로티 줄행랑 논란…\"화상으로 축협 회의 참석, 그 돈이...",
-    "summary": "브라질이 축구 대표팀 에 외국인 감독 을 선임 한 건 60년 만에 처음 있는 일이다. 이는 CBF의 월드컵 우승 열망과 안첼로티 감독 에 대한 믿음을 보여줬다. 이탈리아 출신 안첼로티 감독 은 AC밀란, 첼시, 파리 생제르맹(PSG)...",
+    "summary": "매체에 따르면, 브라질 축구협회 (CBF)은 축구 대표팀의 다음 월드컵 목표와 운영 계획을 논의하는 회의를... 안첼로티 감독 을 선임 했다. 브라질이 축구 대표팀에 외국인 감독 을 선임 한 건 60년 만에 처음 있는 일이다. 이는...",
     "url": "https://www.xportsnews.com/article/2172571",
     "originalUrl": "https://www.xportsnews.com/article/2172571",
     "publisher": "xportsnews.com",
     "publishedAt": "2026-07-15T15:30:00.000Z",
     "collectedAt": "2026-07-15T16:55:41.762Z",
-    "matchedKeywords": [],
+    "matchedKeywords": [
+      "축구협회"
+    ],
     "discoveryQueries": [
       "대표팀 감독",
       "대표팀 감독 선임",
@@ -887,7 +951,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 0,
+    "relevanceScore": 3,
     "labels": []
   },
   {
@@ -1087,14 +1151,15 @@
     "id": "item_b2f570bd0181883b",
     "type": "news",
     "title": "‘적반하장’ 문진희 위원장 “언론은 진실을 말해야 한다”",
-    "summary": "지난주 KBS 보도로 불법 선거 운동을 한 정황이 드러난 문진희 대한축구협회 심판위원장이 \"언론은 진실을 말해야 한다\"는 메시지를 보내와 또 논란에 불을 지폈는데요. 문 위원장은 여전히 자리를 지키고 있고, 어제 심판...",
+    "summary": "[리포트] 문진희 위원장은 제55대 대한 축구협회 장 선거 당시 자격이 없음에도 전국을 돌며 선거인 단을 만났습니다. [문진희/대한 축구협회 심판위원장 : \"내가 20일 다녔거든. 1차 때 열흘, 2차 때 너 만나고 남양주 갔다가...",
     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8612024&ref=A",
     "originalUrl": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8612024&ref=A",
     "publisher": "news.kbs.co.kr",
     "publishedAt": "2026-07-15T13:11:00.000Z",
     "collectedAt": "2026-07-15T13:28:38.465Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한 축구협회",
+      "선거인"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -1103,11 +1168,13 @@
       "축구협회 선거인단",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "electoral-college"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -1143,7 +1210,7 @@
     "id": "item_44c4d081bc44e8c8",
     "type": "news",
     "title": "'홍명보 선임' 전방위 조사...축구협회 임원 등 줄소환",
-    "summary": "홍명보 전 축구 국가대표팀 감독 선임 과정의 적절성을 둘러싼 경찰 수사가 속도를 내고 있다. 경찰은 고발인 조사와 함께 당시 대한 축구협회 임원 및 전력강화위원 등을 대상으로 선임 절차 전반을...",
+    "summary": "경찰은 고발인 조사와 함께 당시 대한 축구협회 임원 및 전력강화위원 등을 대상으로 선임 절차 전반을 확인하고 있다. 서울경찰청 금융범죄수사대는 지난 14일 김순환 서민민생대책위원회 사무총장을 고발인 신분으로...",
     "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=554029",
     "originalUrl": "https://www.idaegu.co.kr/news/articleView.html?idxno=554029",
     "publisher": "idaegu.co.kr",
@@ -1154,9 +1221,6 @@
       "임원",
       "홍명보",
       "대한 축구협회",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
       "전력강화위원",
       "선임"
     ],
@@ -1188,7 +1252,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 42,
     "labels": [
       "인물 언급"
     ]
@@ -1197,7 +1261,7 @@
     "id": "item_1f04c5faca8deb05",
     "type": "news",
     "title": "[오피셜]\"홍명보 감독님 감사합니다. 또 죄송합니다\" 2년 계약 끝난 아로...",
-    "summary": "아로소 코치는 \" 대한축구협회 와 홍명보 감독님, 그리고 저를 따뜻하게 맞아주시고 다른 문화에 적응할 수 있도록 도와주신 모든 스태프분들께 감사드린다\"며 \" 대한 민국은 놀라운 강점을 가진 나라이다. 대한 민국 국민의...",
+    "summary": "아로소 코치는 \"대한 축구협회 와 홍명보 감독님, 그리고 저를 따뜻하게 맞아주시고 다른 문화에 적응할 수 있도록 도와주신 모든 스태프분들께 감사 드린다\"며 \"대한민국은 놀라운 강점을 가진 나라이다. 대한민국 국민의...",
     "url": "https://www.sportschosun.com/football/2026-07-15/202607150100098350006136",
     "originalUrl": "https://www.sportschosun.com/football/2026-07-15/202607150100098350006136",
     "publisher": "sportschosun.com",
@@ -1206,7 +1270,7 @@
     "matchedKeywords": [
       "홍명보",
       "감사",
-      "대한축구협회"
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 감사",
@@ -1268,7 +1332,7 @@
     "id": "item_68b00880308a285f",
     "type": "news",
     "title": "\"홍명보 감독 감사, 한국서 코치 생활 날 발전시켜\" 아로소의 황당한 작...",
-    "summary": "아로소 코치는 홍명보 감독 과 대한 축구협회 를 향한 감사도 전했다. 그는 \"나를 초대해준 대한 축구협회 와... 한국인 감독 을 선임 하는 데 관심이 있었다. 대표팀의 얼굴이자 상징적인 존재로 한국인 감독 을 원했다\"며 \"하지만...",
+    "summary": "아로소 코치는 홍명보 감독과 대한 축구협회 를 향한 감사 도 전했다. 그는 \"나를 초대해준 대한 축구협회 와 홍명보 감독에게 감사 드린다. 나를 따뜻하게 맞아주고 다른 문화에 적응할 수 있도록 도와준 모든 스태프에게도...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=828732",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=828732",
     "publisher": "spotvnews.co.kr",
@@ -1567,7 +1631,7 @@
     "id": "item_2ad63968b174d3ab",
     "type": "news",
     "title": "박지성 경고→축구협회 사실상 수용, '체육관 선거' 안 한다…\"K-축구 혁...",
-    "summary": "대한 축구협회 가 기존 규정인 이른바 '체육관 선거'를 하지 않겠다고 공언했다. 대한 축구협회 는 15일 안내를... 그러면서 \"다만 실무 차원에서는 현재의 정관이 명시하고 있는 선거 타임라인에 따라 정몽규 회장 사임일...",
+    "summary": "대한체육회가 빠르게 움직여 선거 기한을 연장한다면 축구협회 가 현재 정관상 회장 후보 등록을 위해 안내한 내용은 유효하더라도 협회 도 선거 제도 개편 에 먼저 손을 대야 한다. 박 위원장은 \"일단 제도 가 먼저...",
     "url": "https://www.xportsnews.com/article/2172427",
     "originalUrl": "https://www.xportsnews.com/article/2172427",
     "publisher": "xportsnews.com",
@@ -1576,9 +1640,9 @@
     "matchedKeywords": [
       "축구협회",
       "박지성",
-      "대한 축구협회",
+      "후보 등록",
       "정관",
-      "정몽규"
+      "제도 개편"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1607,15 +1671,15 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
+      "election",
       "statute-revision"
     ],
     "personTags": [
-      "person_park_ji_sung",
-      "person_chung_mong_gyu"
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ]
@@ -1624,7 +1688,7 @@
     "id": "item_b7531e65921ec626",
     "type": "news",
     "title": "[오피셜] \"박지성과 혁신위, 제도 개선 논의 무력화하려는 것\" 불거진 의...",
-    "summary": "정몽규 전 회장이 2026 북중미 월드컵 부진의 책임을 지고 지난 6일 사퇴한 가운데, 대한 축구협회 는 차기 회장 선출 절차와 혁신위원회의 제도 개선 논의를 병행하고 있다. 향후 혁신위 권고안이 어느 수준까지 선거 제도에...",
+    "summary": "K- 축구 혁신위 원회가 회장 선거 제도 개편을 논의 중인 상황에서 협회 가 기존 정관에 따라 선거 절차를 먼저 진행하려는 것 아니냐는 비판이 쏟아졌고, 혁신위 논의 결과를 무력화하는 것 아니냐는 우려까지 제기됐다....",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553379742",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553379742",
     "publisher": "sportalkorea.com",
@@ -1632,10 +1696,10 @@
     "collectedAt": "2026-07-15T11:14:59.128Z",
     "matchedKeywords": [
       "박지성",
-      "대한 축구협회",
-      "혁신위원회",
-      "정몽규",
-      "사퇴"
+      "회장 선거",
+      "정관",
+      "제도 개편",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1664,15 +1728,16 @@
       "KFA"
     ],
     "issueTags": [
+      "election",
+      "statute-revision",
       "innovation-committee"
     ],
     "personTags": [
-      "person_park_ji_sung",
-      "person_chung_mong_gyu"
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 22,
     "labels": [
       "인물 언급"
     ]
@@ -1826,6 +1891,34 @@
     "isOfficial": false,
     "relevanceScore": 30,
     "labels": []
+  },
+  {
+    "id": "item_602e9ab9f43b2048",
+    "type": "news",
+    "title": "[오목대] 월드컵과 정몽규-정의선 리더십",
+    "summary": "정몽규 대한축구 협회 회장과 정의선 대한 양궁협회 회장은 가장 대중적인 인기 스포츠인 ‘ 축구 ’와 가장... 2년전 파리올림픽 때 정의선 양궁 협회장 이 받았던 찬사와 요즘 북미월드컵 과정에서 정몽규 축구협회장 이...",
+    "url": "https://www.jjan.kr/article/20260715500339",
+    "originalUrl": "https://www.jjan.kr/article/20260715500339",
+    "publisher": "jjan.kr",
+    "publishedAt": "2026-07-15T09:32:00.000Z",
+    "collectedAt": "2026-07-16T04:44:16.348Z",
+    "matchedKeywords": [
+      "정몽규"
+    ],
+    "discoveryQueries": [
+      "대한축구협회장",
+      "축구협회장"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 11,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_c4e4b0c998b8d9b8",
@@ -2603,7 +2696,7 @@
     "id": "item_0f62076a9ca467c2",
     "type": "news",
     "title": "축구협회 청문회 앞두고 줄줄이… '불출석' 의사 밝힌 축구인 2인",
-    "summary": "국회 문화체육관광 위원회 의 대한 축구협회 청문회를 앞두고 증인과 참고인으로 채택된 핵심 축구 인들이... 전 전력강화위원이자 K- 축구 혁신위원회 위원으로 활동 중인 박주호 위원은 개인 일정을 이유로 국회에 불출석...",
+    "summary": "핵심 축구 인들이 줄줄이 불출석 의사를 밝혔다. 15일 머니투데이 보도 등에 따르면 오는 22일 열리는 청문회에 증인으로 소환된 박항서 전 협회 부회장 은 이날 국회에 공식 불출석 사유서를 제출했다. 2026 북중미 월드컵...",
     "url": "https://www.wikitree.co.kr/articles/1146680",
     "originalUrl": "https://www.wikitree.co.kr/articles/1146680",
     "publisher": "wikitree.co.kr",
@@ -2611,9 +2704,7 @@
     "collectedAt": "2026-07-15T09:33:31.470Z",
     "matchedKeywords": [
       "축구협회",
-      "대한 축구협회",
-      "혁신위원회",
-      "축구 혁신"
+      "부회장"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -2637,12 +2728,12 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "kfa-executives"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 14,
     "labels": []
   },
   {
@@ -2830,7 +2921,7 @@
     "id": "item_a4afcd905f9e0103",
     "type": "news",
     "title": "대한축구협회, '회장 선거 후보 등록' 안내 논란에 \"통상적인 업무절차...",
-    "summary": "대한 축구협회 는 정몽규 전 회장 이 사임함에 따라 축구협회 임원 및 대의원들에게 회장 보궐 선거 후보 등록 의사 표명 절차를 안내했다고 15일 밝혔다고 연합뉴스가 보도했다. 사진=연합뉴스 축구협회 정관에 따르면 비상임...",
+    "summary": "대한축구협회는 정몽규 전 회장이 사임함에 따라 축구협회 임원 및 대의원들에게 회장 보궐 선거 후보 등록 의사 표명 절차를 안내했다고 15일 밝혔다고 연합뉴스가 보도했다. 사진=연합뉴스 축구협회 정관에 따르면 비상임...",
     "url": "https://www.slist.kr/news/articleView.html?idxno=752016",
     "originalUrl": "https://www.slist.kr/news/articleView.html?idxno=752016",
     "publisher": "slist.kr",
@@ -2840,7 +2931,6 @@
       "대한축구협회",
       "회장 선거",
       "후보 등록",
-      "대한 축구협회",
       "대의원",
       "정관",
       "임원",
@@ -2883,7 +2973,7 @@
     "id": "item_89c8ab984d178439",
     "type": "news",
     "title": "축구협회 청문회 증인 박항서 '불출석'…\"태국 2부팀 감독 일정\"",
-    "summary": "K- 축구 혁신위원회 위원(전 협회 전력강화위원)이 불출석할 전망이다. 15일 문체위에 따르면 두 사람은 이날 국회에 불출석 사유서를 제출했다. 박 전 부회장은 태국 2부리그 칸타나부리 파워 FC 감독 으로 선임 돼 현지 체류...",
+    "summary": "오는 22일 국회 문화체육관광위원회에서 열리는 대한축구협회 청문회에 증인으로 채택된 박항서 전 축구협회 ... 한편, 참고인으로 채택된 박지성 K- 축구 혁신위원장도 청문회에 불출석한다는 의사를 전달했다. 그는 협회 ...",
     "url": "https://www.news1.kr/politics/assembly/6229401",
     "originalUrl": "https://www.news1.kr/politics/assembly/6229401",
     "publisher": "news1.kr",
@@ -2891,9 +2981,9 @@
     "collectedAt": "2026-07-15T09:33:31.470Z",
     "matchedKeywords": [
       "축구협회",
-      "혁신위원회",
+      "대한축구협회",
       "축구 혁신",
-      "부회장"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2907,20 +2997,23 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee",
-      "kfa-executives"
+      "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
-    "labels": []
+    "relevanceScore": 23,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_927cbd3d82cc63c2",
     "type": "news",
     "title": "\"보궐선거 절차 안내 문자\"…대한축구협회, 회장 선거 규정 이행 놓고 ...",
-    "summary": "문화체육관광부가 주도해 구성한 케이( K )- 축구 혁신위원회 가 축구 협회 회장 선거 직선제 도입 등 제도 개편을 논의하는 과정에서 대한 축구 협회가 현행 정관을 기준으로 보궐선거 준비에 나선 모습으로 비칠 수 있다는...",
+    "summary": "문화체육관광부가 주도해 구성한 케이(K)- 축구 혁신위원회가 축구협회 회장 선거 직선제 도입 등 제도 개편 을 논의하는 과정에서 대한 축구협회 가 현행 정관을 기준으로 보궐선거 준비에 나선 모습으로 비칠 수 있다는...",
     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16135479",
     "originalUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16135479",
     "publisher": "topstarnews.net",
@@ -2929,6 +3022,7 @@
     "matchedKeywords": [
       "대한축구협회",
       "회장 선거",
+      "대한 축구협회",
       "정관",
       "제도 개편",
       "혁신위원회",
@@ -2957,7 +3051,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 44,
+    "relevanceScore": 50,
     "labels": []
   },
   {
@@ -3103,7 +3197,7 @@
     "id": "item_49d07ed97c65ed96",
     "type": "news",
     "title": "협회장 ‘후보 등록’ 절차 안내에 해명한 대한축구협회 “통상적 업무...",
-    "summary": "대한 축구협회 (KFA)가 축구협회 장 선거 후보자 등록 의사 표명 안내와 관련한 우려를 일축했다. KFA는 15일... 있는 선거 타임라인에 따라 정몽규 회장 사임일(6일)의 다음날로부터 10일 이내에 협회 임직원의 후보 등록...",
+    "summary": "대한 축구협회 (KFA)가 축구협회 장 선거 후보 자 등록 의사 표명 안내와 관련한 우려를 일축했다. KFA는 15일 ‘ 협회 는 혁신위원회에서 추진하고 있는 여러 논의 사항들에 대해 전향적인 자세로 제대 개편 및 개선을 위한...",
     "url": "https://www.sportsseoul.com/news/read/1622630?ref=naver",
     "originalUrl": "https://www.sportsseoul.com/news/read/1622630?ref=naver",
     "publisher": "sportsseoul.com",
@@ -3115,7 +3209,7 @@
       "해명",
       "대한 축구협회",
       "KFA",
-      "정몽규"
+      "혁신위원회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -3137,16 +3231,14 @@
       "KFA"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "innovation-committee"
     ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 45,
     "labels": [
-      "인물 언급",
       "해명 키워드 포함"
     ]
   },
@@ -3649,7 +3741,7 @@
     "id": "item_85ee9bd2ad96d4e4",
     "type": "news",
     "title": "'회장 선거 나올 사람?' 물었던 축구협회, \"절차적 문제 소지 피하기 위...",
-    "summary": "대한 축구협회 는 지난 14일 임원 과 대의원들을 대상으로 '회장 선거 후보자 등록의사 표명' 안내를 배포했다. 하지만 앞서 K- 축구 혁신위원회는 2차 회의에서회장 궐위 시 60일 이내 신임 회장을 선출하도록 규정한...",
+    "summary": "대한축구협회가 차기 회장 선거 를 기존 정관에 따른 후보 등록 절차 시행에 대해 \"통상적인 행정 절차일 뿐... 당시 박지성 공동위원장은 \"이는 단순히 대한축구협회만을 위한 것이 아니라 장기 궐위 상태를 겪고 있는 여러...",
     "url": "http://www.footballist.co.kr/news/articleView.html?idxno=212285",
     "originalUrl": "http://www.footballist.co.kr/news/articleView.html?idxno=212285",
     "publisher": "footballist.co.kr",
@@ -3658,10 +3750,10 @@
     "matchedKeywords": [
       "축구협회",
       "회장 선거",
-      "대한 축구협회",
-      "대의원",
-      "혁신위원회",
-      "축구 혁신"
+      "대한축구협회",
+      "후보 등록",
+      "정관",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -3685,20 +3777,23 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college",
-      "innovation-committee"
+      "statute-revision"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
-    "labels": []
+    "relevanceScore": 39,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_c9635a214b2b62ae",
     "type": "news",
     "title": "축구협회, '회장 후보자 등록' 긴급 입장 발표 \"현행 선거 고수 아니다...",
-    "summary": "대한 축구협회 는 15일 보도자료를 통해 \"지난 14일 협회 임원 및 대의원들에게 배포한 '회장 선거 후보 자 등록 의사 표명' 안내와 관련해 협회 의 입장을 밝힌다\"며 \"이는 향후 발생할 수 있는 절차적 문제 소지를 피하기 위한...",
+    "summary": "정몽규 회장 사임 이후 요동치고 있는 대한축구협회( KFA )가 회장 선거 준비를 위한 실무 절차에 착수하면서 불거진 오해와 혼선에 대해 공식 입장을 밝히며 급히 진화에 나섰다. 대한축구협회는 15일 보도자료를 통해...",
     "url": "https://www.starnewskorea.com/sports/2026/07/15/2026071515355993301",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/07/15/2026071515355993301",
     "publisher": "starnewskorea.com",
@@ -3706,9 +3801,10 @@
     "collectedAt": "2026-07-15T06:59:51.362Z",
     "matchedKeywords": [
       "축구협회",
-      "대한 축구협회",
+      "대한축구협회",
+      "KFA",
       "회장 선거",
-      "대의원"
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -3729,15 +3825,18 @@
       "KFA"
     ],
     "issueTags": [
-      "election",
-      "electoral-college"
+      "election"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 23,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_c0cd0f99140ffadd",
@@ -3805,7 +3904,7 @@
     "id": "item_b85468456d45c208",
     "type": "news",
     "title": "축구협 “회장 선거 서두르려는 의도 아냐”···“절차적 문제 피하기...",
-    "summary": "논란은 협회 가 14일 임원과 대의원 들에게 ‘회장 선거 후보자 등록 의사 표명’ 관련 안내를 전달하면서 불거졌다. K- 축구 혁신위원회가 회장 선거 제도 개편을 논의하는 상황에서 협회 가 현행 정관에 따라 선거 절차를...",
+    "summary": "K- 축구 혁신위 원회가 회장 선거 제도 개편을 논의하는 상황에서 협회 가 현행 정관에 따라 선거 절차를 먼저 진행하려는 것 아니냐는 해석이 나왔고, 일부에서는 혁신위 논의 결과를 무력화하려는 것 아니냐는 우려도...",
     "url": "https://sports.khan.co.kr/article/202607151547003?pt=nv",
     "originalUrl": "https://sports.khan.co.kr/article/202607151547003?pt=nv",
     "publisher": "sports.khan.co.kr",
@@ -3813,10 +3912,8 @@
     "collectedAt": "2026-07-15T06:59:51.362Z",
     "matchedKeywords": [
       "회장 선거",
-      "대의원",
       "정관",
       "제도 개편",
-      "혁신위원회",
       "축구 혁신"
     ],
     "discoveryQueries": [
@@ -3841,14 +3938,13 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college",
       "statute-revision",
       "innovation-committee"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 24,
     "labels": []
   },
   {
