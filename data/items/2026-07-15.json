@@ -620,7 +620,7 @@
     "id": "item_aa6ce94835a923e1",
     "type": "news",
     "title": "축구협회 '체육관 선거' 없어지나…직선제 걸림돌부터 없앤다",
-    "summary": "회장이 없는 대한 축구협회 도 혁신위에서 추진하는 여러 논의 사항에 대해 전향적인 자세로 제도 개편 및 개선을 위한 노력을 기울일 예정이다. 축구협회 는 \"혁신위의 논의 결과, 법리적인 판단, 현실적인 상황 등을...",
+    "summary": "축구협회장 선거 기한을 연기하기로 했다. 13년 넘게 축구협회를 이끌어온 정몽규 회장은 지난 5월29일 성명을 통해 북중미 월드컵 이후 사퇴하겠단 뜻을 밝혔다. 하지만 홍명보 감독이 이끈 한국 대표팀이 본선...",
     "url": "https://www.newsis.com/view/NISX20260715_0003710800",
     "originalUrl": "https://www.newsis.com/view/NISX20260715_0003710800",
     "publisher": "newsis.com",
@@ -628,8 +628,11 @@
     "collectedAt": "2026-07-15T21:39:05.073Z",
     "matchedKeywords": [
       "축구협회",
-      "대한 축구협회",
-      "제도 개편"
+      "축구협회장",
+      "회장 선거",
+      "정몽규",
+      "홍명보",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -661,28 +664,36 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "statute-revision"
+      "election"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
-    "labels": []
+    "relevanceScore": 25,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_f163ee32846b07d4",
     "type": "news",
     "title": "한국은 뒤집어졌는데…아로소 수석코치 \"이긴다고 해서 모든 게 좋은 것...",
-    "summary": "이어 \"나를 초청해 주신 대한축구협회와 홍명보 감독님께 감사 드리며, 낯선 문화에 적응할 수 있도록 따뜻하게 맞아주고 도와준 모든 스태프에게도 진심으로 감사 하다. 대한민국에서 생활하고 일할 수 있었던 건 내게 큰...",
+    "summary": "문화체육관광부 는 최휘영 장관을 비롯해 박지성, 이영표 등이 포함된 'K- 축구 혁신위원회'를 출범하며... 이어 \"나를 초청해 주신 대한 축구협회 와 홍명보 감독님께 감사 드리며, 낯선 문화 에 적응할 수 있도록 따뜻하게...",
     "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=94852",
     "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=94852",
     "publisher": "fourfourtwo.co.kr",
     "publishedAt": "2026-07-15T21:23:00.000Z",
     "collectedAt": "2026-07-16T07:09:54.989Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "대한 축구협회",
+      "혁신위원회",
+      "축구 혁신",
       "감사",
-      "홍명보"
+      "홍명보",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -696,14 +707,16 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
+      "innovation-committee",
       "mcst-audit"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 22,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
