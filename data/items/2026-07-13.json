@@ -703,7 +703,7 @@
     "id": "item_60b81e59bb2400f9",
     "type": "news",
     "title": "'2년째 공전' 홍명보 선임 수사 속도…경찰, 전력강화위원 조사",
-    "summary": "같은 날 오전 10시에는 정몽규 전 대한축구협회장, 홍 전 감독, 이임생 전 기술총괄이사를 강요·업무방해... 앞서 문화체육관광부는 2024년 11월 특정 감사 를 통해 규정상 국가대표팀 감독 추천 권한이 없는 이임생 당시...",
+    "summary": "앞서 문화체육관광부 는 2024년 11월 특정 감사 를 통해 규정상 국가대표팀 감독 추천 권한이 없는 이임생 당시 기술총괄이사가 홍 전 감독을 추천한 것은 절차 위반이라고 판단했다. 대한 축구협회 는 이에 불복해 행정소송을...",
     "url": "https://www.newsis.com/view/NISX20260713_0003707506",
     "originalUrl": "https://www.newsis.com/view/NISX20260713_0003707506",
     "publisher": "newsis.com",
@@ -713,11 +713,8 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한축구협회",
-      "축구협회장",
-      "대한축구협회장",
+      "대한 축구협회",
       "감사",
-      "정몽규",
       "이임생"
     ],
     "discoveryQueries": [
@@ -744,17 +741,15 @@
     ],
     "issueTags": [
       "coach-appointment",
-      "election",
       "mcst-audit"
     ],
     "personTags": [
       "person_hong_myung_bo",
-      "person_chung_mong_gyu",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -1453,17 +1448,19 @@
     "id": "item_ebefb82c1608ad5f",
     "type": "news",
     "title": "[특별기고] 무너진 한국 축구, 기초부터 다시 세우자",
-    "summary": "협회는 정몽규 회장 사퇴로 대행체제로 운영 중이며 9월 초까지 보궐선거를 치러야 하는 상황이다. 이 와중에... 문체부 감사 결과도 두 선임 과정 모두에서 규정과 절차가 무너졌음을 지적했다. 조급할수록 원칙을 지키는...",
+    "summary": "박지성 위원장이 이끄는 K축구 혁신위원회가 협회 거버넌스와 회장 선출제도 개편을 비롯한 개혁의 방향을... 문체부 감사 결과도 두 선임 과정 모두에서 규정과 절차가 무너졌음을 지적했다. 조급할수록 원칙을 지키는...",
     "url": "https://www.chosun.com/opinion/contribution/2026/07/13/W4ZMDIT7OZFS5LR6WZLQHKPERE",
     "originalUrl": "https://www.chosun.com/opinion/contribution/2026/07/13/W4ZMDIT7OZFS5LR6WZLQHKPERE",
     "publisher": "chosun.com",
     "publishedAt": "2026-07-13T14:44:00.000Z",
     "collectedAt": "2026-07-13T17:00:12.940Z",
     "matchedKeywords": [
+      "제도 개편",
+      "혁신위원회",
+      "축구 혁신",
       "문체부 감사",
       "감사",
-      "정몽규",
-      "사퇴"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -1491,14 +1488,16 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
+      "statute-revision",
+      "innovation-committee",
       "mcst-audit"
     ],
     "personTags": [
-      "person_chung_mong_gyu"
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 17,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"

@@ -450,6 +450,39 @@
     ]
   },
   {
+    "id": "item_0df9f24f2a96b342",
+    "type": "news",
+    "title": "“K리그 출신 EPL 감독이 꿈” 리빙 레전드 오스마르에게 ‘한국 축구가...",
+    "summary": "나에게 기회를 주며 성장시켜 준 감사 한 지도자들을 만났다. 좋은 동료, 사람들을 만나서 내가 가진 능력에... 구단과 한국프로 축구 연맹, 대한 축구협회 와 같은 큰 조직이 선수 육성에 초점을 맞춘 일관된 시스템을...",
+    "url": "https://www.mk.co.kr/article/12100831",
+    "originalUrl": "https://www.mk.co.kr/article/12100831",
+    "publisher": "mk.co.kr",
+    "publishedAt": "2026-07-16T21:55:00.000Z",
+    "collectedAt": "2026-07-17T04:47:18.653Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감사",
+      "육성",
+      "지도자",
+      "시스템"
+    ],
+    "discoveryQueries": [
+      "축구협회 감사"
+    ],
+    "issueTags": [
+      "mcst-audit",
+      "youth-governance"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 16,
+    "relevanceTier": "secondary",
+    "labels": [
+      "감사 키워드 포함"
+    ]
+  },
+  {
     "id": "item_b36be18ad991f9f3",
     "type": "news",
     "title": "\"지성이 형도 이야기 했지만...\" 이천수, 'K-축구혁신위원회'에 \"수면 아...",
@@ -1455,7 +1488,7 @@
     "id": "item_638535558a3cec2a",
     "type": "news",
     "title": "축구협회 청문회 무기한 연기. 민주 \"국힘이 불참해서\"",
-    "summary": "국힘 국회 보이콧으로 언제 열릴지 알 수 없어 오는 22일 예정됐던 국회 문화체육관광위원회의 대한축구협회 청문회가 무기한 연기됐다. 문체위 소속 민주당 의원들은 16일 보도자료를 통해 “청문회 개최를 의결한 뒤...",
+    "summary": "앞서 문체위는 지난 9일 범여권 주도로 ‘대한 축구협회 현안 관련 청문회 실시계획서 채택의 건’을 의결했다. 청문회 증인으로는 정몽규 전 대한 축구협회 장과 홍명보 전 축구 국가대표팀 감독 등 13명이 채택됐다. /",
     "url": "https://www.viewsnnews.com/article?q=237252",
     "originalUrl": "https://www.viewsnnews.com/article?q=237252",
     "publisher": "viewsnnews.com",
@@ -1463,7 +1496,9 @@
     "collectedAt": "2026-07-16T12:09:29.493Z",
     "matchedKeywords": [
       "축구협회",
-      "대한축구협회"
+      "대한 축구협회",
+      "정몽규",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1476,11 +1511,16 @@
       "축구협회장"
     ],
     "issueTags": [],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
-    "labels": []
+    "relevanceScore": 22,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_5bb963d48e31969f",
@@ -1729,7 +1769,7 @@
     "id": "item_e39b9c813a398cd8",
     "type": "news",
     "title": "‘선거인단 2200명→9만2000명’ 최휘영 장관, 대한체육회 결단에 “위대...",
-    "summary": "발맞춰 축구 협회를 비롯한 산하 종목 단체들의 혁신 도 기대한다”고 덧붙였다. 이날 대한체육회는 서울 송파구 올림픽파크텔에서 임시 대의원총회를 열어 선거인단 관련 내용을 바꾸는 정관 개정안을 의결했다. 이에...",
+    "summary": "발맞춰 축구협회 를 비롯한 산하 종목 단체들의 혁신도 기대한다”고 덧붙였다. 이날 대한체육회는 서울 송파구 올림픽파크텔에서 임시 대의원 총회를 열어 선거인단 관련 내용을 바꾸는 정관 개정안을 의결했다. 이에...",
     "url": "https://biz.heraldcorp.com/article/10811733?ref=naver",
     "originalUrl": "https://biz.heraldcorp.com/article/10811733?ref=naver",
     "publisher": "biz.heraldcorp.com",
@@ -1808,7 +1848,7 @@
     "id": "item_a758664fdcb32f3c",
     "type": "news",
     "title": "최휘영 장관, 대한체육회장 선거인단 확대에 \"위대한 혁신 발걸음\"",
-    "summary": "투명하게 바꾸는 기폭제가 될 것\"이라며 \"상급 단체인 대한체육회의 변화에 발맞춰 축구 협회를 비롯한 산하 종목 단체들의 혁신 도 기대한다\"고 덧붙였습니다. #최휘영 #문화체육관광부 #대한체육회 #정관 # 혁신 #선거인단",
+    "summary": "투명하게 바꾸는 기폭제가 될 것\"이라며 \"상급 단체인 대한체육회의 변화에 발맞춰 축구협회 를 비롯한 산하 종목 단체들의 혁신도 기대한다\"고 덧붙였습니다. #최휘영 #문화체육관광부 #대한체육회 # 정관 #혁신 #선거인단",
     "url": "http://www.yonhapnewstv.co.kr/news/AKR20260716203644jNG",
     "originalUrl": "http://www.yonhapnewstv.co.kr/news/AKR20260716203644jNG",
     "publisher": "yonhapnewstv.co.kr",
@@ -1923,7 +1963,7 @@
   {
     "id": "item_9761fb906084ce34",
     "type": "news",
-    "title": "대한체육회 선거인단, 만장일치로 확대…\"축구협회도 가능\"",
+    "title": "대한체육회 선거인단 늘린다…\"축구협회도 가능\"",
     "summary": "대한 축구협회 의 상위기관인 대한체육회가 선거인단 을 41배 늘리는 안건을 만장일치로 의결했습니다. 전 국민적 공분 속에 강한 개혁 압박을 받는 축구협회 가 선거제를 바꿀 수 있는 근거가 마련됐습니다. 이초원...",
     "url": "http://www.yonhapnewstv.co.kr/news/MYH20260716200935AmX",
     "originalUrl": "http://www.yonhapnewstv.co.kr/news/MYH20260716200935AmX",
@@ -2045,16 +2085,16 @@
     "id": "item_65eaf1d0a4c06b3c",
     "type": "news",
     "title": "“박지성, 이영표 뭘 안다고 혁신위원회 하나”…전북축구협회장 발언...",
-    "summary": "“하나님 빼고 다 시행착오”…정몽규 전 회장 두둔도 서강일 전북특별자치도 축구협회 장이 박지성, 이영표를 향해 “뭘 안다고 혁신위원회 를 하나”라며 강한 불만을 쏟아낸 것으로 전해졌다. 정몽규 전...",
+    "summary": "“( 박지성 , 이영표가) 축구로서는 국가대표였지 인생을 얼마나 살았고, 법을 얼마나 알고, 사회 경험을 얼마나 안다고 무슨 혁신위원장을 하나”라며 “차라리 회장 출마를 해라. 그렇게 비판만 하지 말고 직접 선거 를...",
     "url": "https://www.mk.co.kr/article/12100666",
     "originalUrl": "https://www.mk.co.kr/article/12100666",
     "publisher": "mk.co.kr",
     "publishedAt": "2026-07-16T10:58:00.000Z",
     "collectedAt": "2026-07-16T12:09:29.493Z",
     "matchedKeywords": [
+      "축구협회장",
       "혁신위원회",
-      "박지성",
-      "정몽규"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2071,15 +2111,15 @@
       "축구협회장"
     ],
     "issueTags": [
+      "election",
       "innovation-committee"
     ],
     "personTags": [
-      "person_park_ji_sung",
-      "person_chung_mong_gyu"
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 41,
     "labels": [
       "인물 언급"
     ]
@@ -2229,7 +2269,7 @@
     "id": "item_11bc07708cb5b366",
     "type": "news",
     "title": "문체위 ‘축구협회 청문회’ 30일로 연기…“원내 협상 상황 고려”",
-    "summary": "국회 문화체육관광위원회가 오는 22일 개최하기로 예정된 대한축구협회 청문회를 이달 30일로 연기한다.... 청문회에는 정몽규 축구협회 장과 홍명보 전 대표팀 감독, 이임생 전 협회 기술총괄이사 등 13명이 증인으로...",
+    "summary": "그러면서 “민주당 문체위원들은 다음 주 중 전체회의를 열어 청문회 개최일 변경 등 관련 안건을 공식 의결할 예정이다”라며 “대한 축구협회 의 운영 전반과 국가대표팀 감독 선임 과정 등 국민적 의혹을 해소하고...",
     "url": "https://www.kukinews.com/article/view/kuk202607160164",
     "originalUrl": "https://www.kukinews.com/article/view/kuk202607160164",
     "publisher": "kukinews.com",
@@ -2237,10 +2277,11 @@
     "collectedAt": "2026-07-16T12:09:29.493Z",
     "matchedKeywords": [
       "축구협회",
-      "대한축구협회",
-      "정몽규",
-      "홍명보",
-      "이임생"
+      "대한 축구협회",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2261,18 +2302,14 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+    "issueTags": [
+      "coach-appointment"
     ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
-    "labels": [
-      "인물 언급"
-    ]
+    "relevanceScore": 20,
+    "labels": []
   },
   {
     "id": "item_9b04e29085ec4b92",
@@ -2487,7 +2524,7 @@
     "id": "item_85dfb60dd69d5c1a",
     "type": "news",
     "title": "'바르사 대신 J리그' \"홍명보, 이제 일본이 구할 차례\"…日 언론의 이례...",
-    "summary": "매체는 \"북중미 월드컵 참패 이후 한국에서는 홍명보 감독 을 향한 비난이 대한 축구협회 의 감독 선임 과정에 대한 의혹 제기로까지 번졌다\"며 \"하지만 홍명보는 J리그 발전에 기여한 외국인 선수 가운데 한 명이다....",
+    "summary": "매체는 \"북중미 월드컵 참패 이후 한국에서는 홍명보 감독을 향한 비난이 대한 축구협회 의 감독 선임 과정에 대한 의혹 제기로까지 번졌다\"며 \"하지만 홍명보 는 J리그 발전에 기여한 외국인 선수 가운데 한 명이다....",
     "url": "http://www.osen.co.kr/article/G1112840549",
     "originalUrl": "http://www.osen.co.kr/article/G1112840549",
     "publisher": "osen.co.kr",
@@ -2906,7 +2943,7 @@
     "id": "item_316c030158f1ed22",
     "type": "news",
     "title": "유승민 대한체육회장 \"축구협회, 여러 문제점 있어…정상화되길\"",
-    "summary": "축구 계 개혁을 위해 문화체육관광부 주도로 만들어진 '케이(K)- 축구 혁신위원회 ' 공동위원장을 맡고 있는 유승민 대한체육회장은 대한 축구협회 에 여러 문제점이 있는 것이 사실이라며, 선거 제도 개편을 포함한 정상화를...",
+    "summary": "유승민 회장 취임 이후 체육회는 선거 제도 개편 을 추진해왔는데, 이번 정관 개정은 대한 축구협회 차기 회장 선거와도 맞물려 주목받았다. 축구협회 는 13년간 재임한 정몽규 전 회장이 이달 초 사임서를 제출하면서 후임을...",
     "url": "https://www.yna.co.kr/view/AKR20260716194600007?input=1195m",
     "originalUrl": "https://www.yna.co.kr/view/AKR20260716194600007?input=1195m",
     "publisher": "yna.co.kr",
@@ -2915,9 +2952,11 @@
     "matchedKeywords": [
       "축구협회",
       "대한 축구협회",
+      "회장 선거",
+      "정관",
+      "정관 개정",
       "제도 개편",
-      "혁신위원회",
-      "축구 혁신"
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2939,15 +2978,19 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "statute-revision",
-      "innovation-committee"
+      "election",
+      "statute-revision"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 29,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_c4278749a8badca3",
@@ -3005,7 +3048,7 @@
     "id": "item_d604c899836f1074",
     "type": "news",
     "title": "대한체육회장 선거인단 확대‥축구협회장 선거제도 개선 발판",
-    "summary": "개정된 정관은 2028년 이후 회원 종목단체 선거 제도의 기준이 되지만 회원 단체의 판단에 따라 조기 적용도 가능하도록 해, 선거 제도 개선을 추진 중인 축구협회 도 선거인단 을 확대하는 방향으로 정관 개정이...",
+    "summary": "중인 축구협회 도 선거인단을 확대하는 방향으로 정관 개정 이 가능해졌습니다. 유승민 회장은 \"선수, 지도자... 체육회는 또 회장 궐위 시 잔여 임기가 1년 이상인 경우 60일 이내에 새 회장을 뽑아야 하는 규정 역시, 시한을...",
     "url": "https://imnews.imbc.com/news/2026/sports/article/6838005_36946.html",
     "originalUrl": "https://imnews.imbc.com/news/2026/sports/article/6838005_36946.html",
     "publisher": "imnews.imbc.com",
@@ -3193,15 +3236,18 @@
     "id": "item_15fdeaae63473731",
     "type": "news",
     "title": "전북축구협회장 “박지성이 뭘 안다고…차라리 출마를 해라”",
-    "summary": "서강일 전북특별자치도 축구협회 장이 “ 박지성 , 이영표가 뭘 안다고 혁신위원회를 하냐”며 불만을 쏟아내 논란이 일고 있다. 16일 KBS는 서 회장의 인터뷰를 보도하면서 서 회장이 “( 박지성 ·이영표가) 축구 로서는...",
+    "summary": "박지성 위원장이 이끄는 ‘K- 축구 혁신위 원회’(이하 혁신위 )는 대한체육회와 함께 규정을 개정해 직선제를 통해 축구협회 장을 뽑을 수 있도록 방안을 모색 중인 걸로 알려졌다. 서 회장은 “현재 정관대로 60일 안에 보궐...",
     "url": "https://www.joongang.co.kr/article/25445735",
     "originalUrl": "https://www.joongang.co.kr/article/25445735",
     "publisher": "joongang.co.kr",
     "publishedAt": "2026-07-16T09:01:00.000Z",
     "collectedAt": "2026-07-16T09:49:50.707Z",
     "matchedKeywords": [
+      "축구협회장",
       "박지성",
-      "혁신위원회"
+      "축구협회",
+      "정관",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -3225,6 +3271,8 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
+      "election",
+      "statute-revision",
       "innovation-committee"
     ],
     "personTags": [
@@ -3232,7 +3280,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 44,
     "labels": [
       "인물 언급"
     ]
@@ -3323,7 +3371,7 @@
     "id": "item_3ace372701d142de",
     "type": "news",
     "title": "문체위, 22일 축구협회 청문회 연기…이달 내 재추진",
-    "summary": "앞서 문체위는 정몽규 전 대한 축구협회 장과 홍명보 전 국가대표팀 감독 등 13명을 증인으로, 박지성 K- 축구 혁신위원회 공동위원장 등을 참고인으로 채택했습니다. 진종오 국민의힘 의원은 민주당이 일방적으로 추진하다...",
+    "summary": "앞서 문체위는 정몽규 전 대한축구협회 장과 홍명보 전 국가대표팀 감독 등 13명을 증인으로, 박지성 K- 축구 혁신위원회 공동위원장 등을 참고인으로 채택했습니다. 진종오 국민의힘 의원은 민주당이 일방적으로 추진하다...",
     "url": "https://www.obsnews.co.kr/news/articleView.html?idxno=1530927",
     "originalUrl": "https://www.obsnews.co.kr/news/articleView.html?idxno=1530927",
     "publisher": "obsnews.co.kr",
@@ -3331,7 +3379,7 @@
     "collectedAt": "2026-07-16T09:49:50.707Z",
     "matchedKeywords": [
       "축구협회",
-      "대한 축구협회",
+      "대한축구협회",
       "혁신위원회",
       "축구 혁신",
       "정몽규",
@@ -3372,7 +3420,7 @@
     "id": "item_c14e8411f7d5e448",
     "type": "news",
     "title": "대한축구협회 선거 방식 개선 '신호탄'... 체육회 선거인단 확대 의결→...",
-    "summary": "대한체육회가 오는 2029년 제43대 회장 선거부터 선거인단 을 크게 늘리기로 했다. 그리고 개정안의 조기 적용도 가능하도록 했다. 사실상 대한 축구협회 회장 선거 방식 개선을 위한 신호탄이 될 수 있다. 대한체육회는 16일...",
+    "summary": "사실상 대한 축구협회 회장 선거 방식 개선을 위한 신호탄이 될 수 있다. 대한체육회는 16일 서울 송파구... 인정단체를 제외한 회원종목단체의 임원 , 대의원, 체육회 등록 시스템에 등록된 경기인 모두가 선거인단에...",
     "url": "https://www.starnewskorea.com/sports/2026/07/16/2026071617120252814",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/07/16/2026071617120252814",
     "publisher": "starnewskorea.com",
@@ -3383,7 +3431,8 @@
       "선거인단",
       "선거인",
       "대한 축구협회",
-      "회장 선거"
+      "회장 선거",
+      "대의원"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -3516,7 +3565,7 @@
     "id": "item_e40a424adb84b1f6",
     "type": "news",
     "title": "대한체육회장 선거인단 확대…축구협회장 선거제 개혁도 시동",
-    "summary": "때 오는 여러 리스크를 완화하고자 다뤄보고자 한다\"고 말했다. 선거인단 확대 방향이 정해지고 회장 궐위 이후 선거 기간도 사실상 변경이 예고되면서 대한 축구협회 가 기존 방식대로 회장 선거를 진행하기는 어려워졌다.",
+    "summary": "대한체육회는 16일 서울 송파구 올림픽파크텔에서 임시 대의원 총회를 열어 선거인단 관련 내용을 바꾸는... 특히 최근 국민적 관심이 집중된 대한 축구협회 장 선거에 큰 영향을 끼칠 것으로 보인다. 현행 규정에 따르면...",
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/07/16/2026071690252.html",
     "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/07/16/2026071690252.html",
     "publisher": "news.tvchosun.com",
@@ -3527,7 +3576,8 @@
       "회장 선거",
       "선거인단",
       "선거인",
-      "대한 축구협회"
+      "대한 축구협회",
+      "대의원"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -3550,7 +3600,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 51,
+    "relevanceScore": 47,
     "labels": [
       "선거 키워드 포함"
     ]
@@ -3661,7 +3711,7 @@
     "id": "item_959c4ddd12ca45cb",
     "type": "news",
     "title": "'뉴진스·안세영 이어 홍명보' 日이 본 한국의 '국회 소환', \"공개 망신...",
-    "summary": "대한축구협회의 국가 대표팀 감독 선임 논란을 다룰 국회 청문회를 앞두고 일본에서도 높은 관심을 보이고 있다. 특히 일본에서는 감독과 축구협회장을 국회에 출석시키는 한국의 청문회 문화 자체를 낯설게 바라보면서도...",
+    "summary": "대한 축구협회 의 국가대표팀 감독 선임 논란을 다룰 국회 청문회를 앞두고 일본에서도 높은 관심을 보이고... 선동열 전 감독은 2018 자카르타·팔렘방 아시안게임 대표팀 선수 선발 과정과 병역 특례 논란 등으로 국정 감사 ...",
     "url": "http://www.osen.co.kr/article/G1112840381",
     "originalUrl": "http://www.osen.co.kr/article/G1112840381",
     "publisher": "osen.co.kr",
@@ -3669,13 +3719,13 @@
     "collectedAt": "2026-07-16T09:49:50.707Z",
     "matchedKeywords": [
       "홍명보",
-      "대한축구협회",
-      "축구협회장",
+      "대한 축구협회",
       "감독 선임",
       "대표팀 감독",
       "감독",
       "선임",
-      "관심"
+      "관심",
+      "감사"
     ],
     "discoveryQueries": [
       "\"정몽규\" 감사",
@@ -3693,7 +3743,6 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election",
       "coach-appointment"
     ],
     "personTags": [
@@ -3701,9 +3750,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 22,
+    "relevanceScore": 20,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -3840,7 +3890,7 @@
     "id": "item_97c6f73c46057d14",
     "type": "news",
     "title": "[IS 이슈] 대한체육회장 선거인단 2200여명→9만2000명 확대, 축구협회 ...",
-    "summary": "대한체육회는 16일 서울 송파구 올림픽파크텔에서 임시 대의원 총회를 열어 선거인단 관련 내용을 바꾸는... 체육회의 정관 개정은 국회 청문회를 앞둔 대한 축구협회 회장 선거 등에도 큰 영향을 미칠 것으로 보인다....",
+    "summary": "유승민 대한 체육회장은 \"선거인단을 확대하는 것은 선수와 지도자 , 심판, 회원 단체 구성원의 다양한... 대한축구협회 의 구조적 문제 중 하나로 소수의 선거인단이 회장을 뽑는 제도 가 꼽히기도 했다. 축구협회 는 13년간...",
     "url": "https://isplus.com/article/view/isp202607160107",
     "originalUrl": "https://isplus.com/article/view/isp202607160107",
     "publisher": "isplus.com",
@@ -3851,10 +3901,7 @@
       "회장 선거",
       "선거인단",
       "선거인",
-      "대한 축구협회",
-      "대의원",
-      "정관",
-      "정관 개정"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -3874,13 +3921,12 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college",
-      "statute-revision"
+      "electoral-college"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 57,
+    "relevanceScore": 47,
     "labels": [
       "선거 키워드 포함"
     ]
@@ -4067,7 +4113,7 @@
     "id": "item_9226666726a93c48",
     "type": "news",
     "title": "대한체육회, 선거인단 확대 의결…축구協 개편 시동",
-    "summary": "대한 축구협회 를 비롯한 체육회 산하 회원종목단체들도 적잖은 영향을 받게 됐다. 통상 체육회가 정관을 바꾸면 종목단체들도 같은 수순을 밟는다. 체육회는 16일 임시 대의원 총회에서 회장선출기구(선거인단) 구성...",
+    "summary": "대한체육회가 회장 선거 제도 개선을 위한 정관 개정안을 만장일치로 통과시켰다. 선거인단 확대와 직선제를 목표로 한 이번 개정안 의결로 대한 축구협회 를 비롯한 체육회 산하 회원종목단체들도 적잖은 영향을 받게...",
     "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030121123&code=61161111&cp=nv",
     "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=0030121123&code=61161111&cp=nv",
     "publisher": "kmib.co.kr",
@@ -4077,8 +4123,9 @@
       "선거인단",
       "선거인",
       "대한 축구협회",
-      "대의원",
-      "정관"
+      "회장 선거",
+      "정관",
+      "정관 개정"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -4103,12 +4150,13 @@
     ],
     "issueTags": [
       "electoral-college",
+      "election",
       "statute-revision"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 37,
     "labels": [
       "선거 키워드 포함"
     ]
@@ -4273,7 +4321,7 @@
     "id": "item_2d9466266069251c",
     "type": "news",
     "title": "‘홍명보 출석 예고’ 축협 청문회 연기, “차질 없이 추진” 가능할까",
-    "summary": "오는 22일 열릴 예정이었던 대한축구협회 관련 국회 청문회가 연기된다. 홍명보 전 한국 축구 대표팀 감독(사진=연합뉴스) 국회 문화체육관광위원회 소속 더불어민주당 의원들은 16일 보도자료를 내고 청문회 일정을...",
+    "summary": "박지성 위원장은 “청문회에 출석하더라도 축구협회와 관련해 특별히 할 이야기가 없다”며 불참 의사를 전했고, 박주호 전 축구협회 전략강화위원과 박항서 전 축구협회 부회장 도 불출석 사유서를 낸 것으로 알려졌다.",
     "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05051206645515176",
     "originalUrl": "https://www.edaily.co.kr/news/newspath.asp?newsid=05051206645515176",
     "publisher": "edaily.co.kr",
@@ -4281,7 +4329,9 @@
     "collectedAt": "2026-07-16T09:49:50.707Z",
     "matchedKeywords": [
       "홍명보",
-      "대한축구협회"
+      "축구협회",
+      "부회장",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -4298,13 +4348,16 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "kfa-executives"
+    ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ]
@@ -4409,7 +4462,7 @@
     "id": "item_1929d83609e0a02e",
     "type": "news",
     "title": "대한체육회장 선거인단 41배 확대…축구협회장 선거제도 개선 발판",
-    "summary": "겹치면서 축구협회 에 대한 국민적 비판이 이어지는 가운데 선거제도 개선 요구도 나오고 있습니다. 현재 규정 으로는 회장 궐위 시 잔여임기가 1년 이상인 경우에는 60일 이내에 회장을 새로 선출해야 해 체육회 정관 개정 ...",
+    "summary": "유승민 대한 체육회장은 \"선거인단을 확대하는 것은 선수와 지도자 , 심판, 회원 단체 구성원의 다양한... 겹치면서 축구협회 에 대한 국민적 비판이 이어지는 가운데 선거 제도 개선 요구도 나오고 있습니다. 현재...",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008661618&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008661618&plink=ORI",
     "publisher": "news.sbs.co.kr",
@@ -4420,9 +4473,7 @@
       "회장 선거",
       "선거인단",
       "선거인",
-      "축구협회",
-      "정관",
-      "정관 개정"
+      "축구협회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -4443,8 +4494,7 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college",
-      "statute-revision"
+      "electoral-college"
     ],
     "personTags": [],
     "sourceType": "news",
@@ -4785,7 +4835,7 @@
     "id": "item_f77e6ef609d34483",
     "type": "news",
     "title": "유승민 체육회장 \"축구협회 고려해 직선제 조기 도입…축구인 의견 반영...",
-    "summary": "대한 축구협회 를 고려해 회원단체가 직선제를 조기 도입할 수 있도록 했다고 언급했다. 유 회장은 16일 서울... 회원종목단체의 임원 , 대의원, 체육회 등록 시스템에 등록된 경기인을 모두 선거인단에 포함할 수 있게 됐다....",
+    "summary": "유 회장은 \"7월 말께 이사회 를 열어 회원종목단체 규정 개정에 대한 안건을 다룰 계획이다. 회장 궐위 시 60일 이내에 신임 회장을 선출해야한다는 규정도 논의할 것\"이라며 \"현재 축구협회 뿐 아니라 해당 규정이 맞지...",
     "url": "https://www.newsis.com/view/NISX20260716_0003712658",
     "originalUrl": "https://www.newsis.com/view/NISX20260716_0003712658",
     "publisher": "newsis.com",
@@ -4793,10 +4843,7 @@
     "collectedAt": "2026-07-16T09:49:50.707Z",
     "matchedKeywords": [
       "축구협회",
-      "대한 축구협회",
-      "선거인단",
-      "선거인",
-      "대의원"
+      "규정 개정"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -4818,15 +4865,14 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "electoral-college"
+      "statute-revision"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 22,
-    "labels": [
-      "선거 키워드 포함"
-    ]
+    "relevanceScore": 17,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_e8613b2a0eca95b2",
@@ -5561,18 +5607,14 @@
     "id": "item_5d448fa270ca6f58",
     "type": "news",
     "title": "“박지성·이영표가 뭘 안다고!” 전북축구협회장에 부글부글, 과거 이...",
-    "summary": "서강일 전북특별자치도축구협회장이 박지성 ·이영표 등을 거론하며 정몽규 전 대한축구협회장을 두둔하는... 그렇게 비판만 하지 말고 직접 선거 를 나오라”고 불만을 토로했다. 반면, 서 회장은 정몽규 전 축구협회...",
+    "summary": "체육 관련 이력으로는 전주시 축구협회 부회장 과 완주군체육회 부회장 등을 역임한 것으로 알려졌다. 한 누리꾼은 “찾아보니 선수 출신도 아니고 동네에서 사업한 분 같은데, 축구에 대해 뭘 아세요?”라고 직격했고, 또...",
     "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04792086645515176",
     "originalUrl": "https://www.edaily.co.kr/news/newspath.asp?newsid=04792086645515176",
     "publisher": "edaily.co.kr",
     "publishedAt": "2026-07-16T07:19:00.000Z",
     "collectedAt": "2026-07-16T09:49:50.707Z",
     "matchedKeywords": [
-      "축구협회장",
-      "박지성",
-      "대한축구협회",
-      "대한축구협회장",
-      "정몽규"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -5584,16 +5626,13 @@
       "축구협회 회장 선거",
       "K-축구혁신위원회"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
-      "person_park_ji_sung",
-      "person_chung_mong_gyu"
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 44,
+    "relevanceScore": 8,
     "labels": [
       "인물 언급"
     ]
@@ -6087,7 +6126,7 @@
     "id": "item_e90fb424e849808b",
     "type": "news",
     "title": "\"박지성·이영표가 뭘 아냐\"…서강일 회장, 회사 '평점'까지 털렸다",
-    "summary": "서 회장은 16일 KBS와의 인터뷰에서 박지성 , 이영표를 겨냥해 \" 박지성 , 이영표가 뭘 안다고 혁신위원회를... 회장 선거 에 직접 출마하라\"고 주장했다. 그는 대한축구협회 회장 선출 방식과 관련해 \"현재 정관대로 60일 안에...",
+    "summary": "서 회장은 16일 KBS와의 인터뷰에서 박지성 , 이영표를 겨냥해 \" 박지성 , 이영표가 뭘 안다고 혁신위원회를... 부담했다\"고 해명 했다. 향후 대한축구협회장 출마 가능성에 대해서는 \"노코멘트하겠다\"면서도 \"개혁 의지가 없는...",
     "url": "https://www.ajunews.com/view/20260716151135972",
     "originalUrl": "https://www.ajunews.com/view/20260716151135972",
     "publisher": "ajunews.com",
@@ -6096,9 +6135,10 @@
     "matchedKeywords": [
       "박지성",
       "대한축구협회",
-      "회장 선거",
-      "정관",
-      "혁신위원회"
+      "축구협회장",
+      "대한축구협회장",
+      "혁신위원회",
+      "해명"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -6122,7 +6162,6 @@
     ],
     "issueTags": [
       "election",
-      "statute-revision",
       "innovation-committee"
     ],
     "personTags": [
@@ -6130,9 +6169,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 27,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ]
   },
   {
@@ -6565,12 +6605,12 @@
     "labels": []
   },
   {
-    "id": "item_3e8bddbc9644bb1e",
+    "id": "item_1cd92e136f5ffa20",
     "type": "news",
     "title": "대한체육회 임시대의원총회 참석한 이용수 대한축구협회 부회장",
     "summary": "이용수 대한 축구협회 부회장 이 16일 서울 송파구 올림픽파크텔에서 열린 2026 대한체육회 임시대의원총회에 참석해 있다. 2026.7.16",
-    "url": "https://www.yna.co.kr/view/PYH20260716152900013?input=1196m",
-    "originalUrl": "https://www.yna.co.kr/view/PYH20260716152900013?input=1196m",
+    "url": "https://www.yna.co.kr/view/PYH20260716152800013?input=1196m",
+    "originalUrl": "https://www.yna.co.kr/view/PYH20260716152800013?input=1196m",
     "publisher": "yna.co.kr",
     "publishedAt": "2026-07-16T06:00:00.000Z",
     "collectedAt": "2026-07-16T07:09:54.989Z",
@@ -6961,7 +7001,7 @@
     "id": "item_8f7f5c5e55586834",
     "type": "news",
     "title": "서강일 전북축구협회장 \"박지성·이영표가 뭘 안다고 혁신위 하나…정몽...",
-    "summary": "서 회장은 \" 박지성 , 이영표가 뭘 안다고 혁신위원회를 하나. 무엇을 안다고 말을 함부로 하나. 축구로서는... 서 회장은 \"현재 정관대로 60일 안에 보궐 선거 를 치러야 한다\"며 \"회장 공백이 길어질 경우 협회 행정이...",
+    "summary": "서강일 전라북도 축구협회 장이 K- 축구 혁신위 원회를 비판하는 한편 정몽규 전 대한 축구협회 장을 옹호하는 발언을 내놨다. 16일 KBS에 따르면 서강일 회장은 최근 KBS와의 인터뷰에서 현 혁신위 원회를 강하게 비판했다. 서...",
     "url": "http://www.stoo.com/article.php?aid=107795397532",
     "originalUrl": "http://www.stoo.com/article.php?aid=107795397532",
     "publisher": "stoo.com",
@@ -6970,8 +7010,9 @@
     "matchedKeywords": [
       "축구협회장",
       "박지성",
-      "정관",
-      "혁신위원회"
+      "대한 축구협회",
+      "축구 혁신",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -6994,11 +7035,11 @@
     ],
     "issueTags": [
       "election",
-      "statute-revision",
       "innovation-committee"
     ],
     "personTags": [
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
@@ -8580,7 +8621,7 @@
     "id": "item_5f027a6926e2e458",
     "type": "news",
     "title": "축구협회 정관에 없는 '기술총괄이사' 이임생…감독 선임은 주도",
-    "summary": "홍명보 전 축구 국가대표팀 감독 선임을 주도했던 이임생 축구협회 '기술총괄이사'가 막상 선임되는 과정에서 정관 개정 절차를 제대로 거치지 않았던 것으로 전해졌습니다. 오늘(16일) 중앙일보에 따르면 문화체육관광부...",
+    "summary": "이 전 이사는 이후 유럽에서 감독 후보 들을 면담한 뒤 홍 전 감독 을 직접 만나 감독 직을 제안했고, 홍 전 감독 은 이를 수락했습니다. 축구협회 는 2024년 7월 8일 홍 전 감독 선임을 공식 발표했습니다. 서울경찰청은 당시...",
     "url": "https://news.jtbc.co.kr/article/NB12308576?influxDiv=NAVER",
     "originalUrl": "https://news.jtbc.co.kr/article/NB12308576?influxDiv=NAVER",
     "publisher": "news.jtbc.co.kr",
@@ -8592,10 +8633,7 @@
       "감독 선임",
       "감독",
       "선임",
-      "이임생",
-      "정관 개정",
-      "대표팀 감독",
-      "홍명보"
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 축구협회",
@@ -8613,12 +8651,11 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_lee_im_saeng",
-      "person_hong_myung_bo"
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 62,
+    "relevanceScore": 46,
     "labels": [
       "인물 언급"
     ]
@@ -8876,6 +8913,42 @@
     "labels": [
       "인물 언급"
     ]
+  },
+  {
+    "id": "item_9d202d3c10eca391",
+    "type": "news",
+    "title": "축구협회, 임원들에게 회장 후보등록 절차 문자 안내 드러나",
+    "summary": "대한 축구협회 가 현재 공석인 회장 선출을 위해 축구협회 임원 및 대의원들에게 회장 보궐선거 후보 등록 의사 표명 절차를 안내했다고 15일 밝혔다. 축구협회 정관에 따르면 비상임 임원이나 상임 임원, 직원이 회장 선거에...",
+    "url": "https://www.imaeil.com/page/view/2026071610150082020",
+    "originalUrl": "https://www.imaeil.com/page/view/2026071610150082020",
+    "publisher": "imaeil.com",
+    "publishedAt": "2026-07-16T01:16:00.000Z",
+    "collectedAt": "2026-07-17T04:47:18.653Z",
+    "matchedKeywords": [
+      "축구협회",
+      "대한 축구협회",
+      "회장 선거",
+      "후보 등록",
+      "대의원",
+      "정관",
+      "임원"
+    ],
+    "discoveryQueries": [
+      "축구협회 제도 개편",
+      "축구협회 후보 등록"
+    ],
+    "issueTags": [
+      "election",
+      "electoral-college",
+      "statute-revision",
+      "kfa-executives"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 34,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_88a47185c9a36635",
@@ -9140,7 +9213,7 @@
     "id": "item_97bc5651c6abda9b",
     "type": "news",
     "title": "\"홍명보 감독님 감사, 韓서 코치 생활 날 발전시켜\" 스리백 본체 아로소...",
-    "summary": "대한 축구협회 와 홍명보 감독님께 감사 드리며, 저를 따뜻하게 맞이해주고 다른 문화에 적응할 수 있도록 도와준 모든 스태프에게도 감사 드린다'고 고마움을 전했다. 그는 마지막으로 '한국은 훌륭한 저력을 가진 나라다....",
+    "summary": "대한축구협회와 홍명보 감독님께 감사 드리며, 저를 따뜻하게 맞이해주고 다른 문화에 적응할 수 있도록 도와준 모든 스태프에게도 감사 드린다'고 고마움을 전했다. 그는 마지막으로 '한국은 훌륭한 저력을 가진 나라다....",
     "url": "https://www.sportschosun.com/football/2026-07-16/202607160100099630006216",
     "originalUrl": "https://www.sportschosun.com/football/2026-07-16/202607160100099630006216",
     "publisher": "sportschosun.com",
@@ -9149,7 +9222,7 @@
     "matchedKeywords": [
       "감사",
       "홍명보",
-      "대한 축구협회"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 감사",
