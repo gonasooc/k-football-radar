@@ -48,24 +48,40 @@ function ArticleSkeleton({ compact = false }: { compact?: boolean }) {
   );
 }
 
-export function FeedResultsSkeleton({ animated = true }: { animated?: boolean }) {
+export function FeedResultsSkeleton({
+  animated = true,
+  oneColumn = false
+}: {
+  animated?: boolean;
+  oneColumn?: boolean;
+}) {
   return (
     <div
       aria-hidden="true"
       data-feed-results-skeleton="true"
       className={`${animated ? "motion-safe:animate-pulse " : ""}space-y-6`}
     >
-      <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
-        {FEATURED_SKELETONS.map((item) => (
-          <ArticleSkeleton compact key={item} />
-        ))}
-      </div>
+      {oneColumn ? (
+        <div className="border-b border-rule">
+          {[...FEATURED_SKELETONS, ...LIST_SKELETONS].map((item, index) => (
+            <ArticleSkeleton key={`${item}-${index}`} />
+          ))}
+        </div>
+      ) : (
+        <>
+          <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
+            {FEATURED_SKELETONS.map((item) => (
+              <ArticleSkeleton compact key={item} />
+            ))}
+          </div>
 
-      <div className="border-b border-rule">
-        {LIST_SKELETONS.map((item) => (
-          <ArticleSkeleton key={item} />
-        ))}
-      </div>
+          <div className="border-b border-rule">
+            {LIST_SKELETONS.map((item) => (
+              <ArticleSkeleton key={item} />
+            ))}
+          </div>
+        </>
+      )}
     </div>
   );
 }

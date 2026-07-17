@@ -1,10 +1,9 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 
-import { getFeedPage, getFeedRequestSearchParams } from "../lib/feed-page";
-import type { FeedItem } from "../lib/filter";
-import { getInitialScopedFeedPage } from "../lib/scoped-feed-page";
-import { toSourceLinkPage } from "../lib/source-link-page";
+import { getFeedRequestSearchParams } from "../lib/feed-page";
+import { defaultFeedFilters, type FeedItem } from "../lib/filter";
+import { getSourceLinkPage } from "../lib/source-link-page";
 
 function item(index: number): FeedItem {
   return {
@@ -26,12 +25,13 @@ function item(index: number): FeedItem {
 }
 
 describe("Sources archive pagination", () => {
-  it("serializes only the first 30 source links and their required fields", () => {
+  it("serializes only the first 30 raw source links and their required fields", () => {
     const items = Array.from({ length: 75 }, (_, index) => item(index));
-    const { fixedFilters, initialPage } = getInitialScopedFeedPage(items, {}, "source-snapshot");
-    const sourceLinkPage = toSourceLinkPage(initialPage);
+    const filters = { ...defaultFeedFilters, scope: "all" as const };
+    const sourceLinkPage = getSourceLinkPage(items, filters, {
+      snapshot: "source-snapshot"
+    });
 
-    assert.equal(fixedFilters.scope, "all");
     assert.equal(sourceLinkPage.items.length, 30);
     assert.equal(sourceLinkPage.total, 75);
     assert.equal(sourceLinkPage.hasMore, true);
@@ -45,14 +45,29 @@ describe("Sources archive pagination", () => {
     ]);
   });
 
-  it("requests later source links with the all-items scope and a stable offset", () => {
+  it("keeps raw articles separate even when the grouped feed would merge them", () => {
+    const items = [item(1), item(2)];
+    const page = getSourceLinkPage(
+      items,
+      { ...defaultFeedFilters, scope: "all" },
+      { snapshot: "source-snapshot" }
+    );
+
+    assert.equal(page.total, 2);
+    assert.deepEqual(new Set(page.items.map((entry) => entry.id)), new Set(["item-1", "item-2"]));
+  });
+
+  it("requests later source links with the all-items scope and a stable raw offset", () => {
     const items = Array.from({ length: 75 }, (_, index) => item(index));
-    const { fixedFilters, initialPage } = getInitialScopedFeedPage(items, {}, "source-snapshot");
-    const params = getFeedRequestSearchParams(fixedFilters, {
+    const filters = { ...defaultFeedFilters, scope: "all" as const };
+    const initialPage = getSourceLinkPage(items, filters, {
+      snapshot: "source-snapshot"
+    });
+    const params = getFeedRequestSearchParams(filters, {
       offset: initialPage.items.length,
       snapshot: initialPage.snapshot
     });
-    const nextPage = getFeedPage([...items], fixedFilters, {
+    const nextPage = getSourceLinkPage(items, filters, {
       offset: initialPage.items.length,
       snapshot: initialPage.snapshot
     });

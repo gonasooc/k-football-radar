@@ -2,12 +2,12 @@ import { NextResponse } from "next/server";
 
 import { getDataBundle } from "@/lib/data";
 import {
-  getFeedPage,
   getFeedPagination,
   hasFeedSnapshotMismatch
 } from "@/lib/feed-page";
 import { getFeedContentRevision } from "@/lib/feed-snapshot";
 import { getFeedFiltersFromSearchParams, toFeedItems } from "@/lib/filter";
+import { getSourceLinkPage } from "@/lib/source-link-page";
 
 export const dynamic = "force-dynamic";
 
@@ -27,7 +27,7 @@ export async function GET(request: Request) {
 
   if (hasFeedSnapshotMismatch(searchParams.snapshot, snapshot, pagination.offset)) {
     return NextResponse.json(
-      { error: "feed_snapshot_mismatch", snapshot },
+      { error: "source_links_snapshot_mismatch", snapshot },
       {
         status: 409,
         headers: { "Cache-Control": "no-store" }
@@ -35,10 +35,9 @@ export async function GET(request: Request) {
     );
   }
 
-  const page = getFeedPage(toFeedItems(data.items), filters, {
+  const page = getSourceLinkPage(toFeedItems(data.items), filters, {
     ...pagination,
-    snapshot,
-    storyClusters: data.storyClusters
+    snapshot
   });
 
   return NextResponse.json(page, {

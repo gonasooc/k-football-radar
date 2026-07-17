@@ -1,13 +1,16 @@
 import { pathToFileURL } from "node:url";
 
+import { buildStoryClusters } from "../lib/story-clusters";
 import { reclassifyAndFilterNewsItemsForCollection } from "./collect-naver-news";
 import {
   readCollectionState,
   readIssues,
   readItems,
   readPeople,
+  readStoryClusters,
   writeCollectionState,
-  writeItems
+  writeItems,
+  writeStoryClusters
 } from "./data-io";
 
 export async function reclassifyStoredNews(): Promise<{
@@ -15,11 +18,12 @@ export async function reclassifyStoredNews(): Promise<{
   after: number;
   removed: number;
 }> {
-  const [items, issues, people, previousState] = await Promise.all([
+  const [items, issues, people, previousState, previousStoryClusters] = await Promise.all([
     readItems(),
     readIssues(),
     readPeople(),
-    readCollectionState()
+    readCollectionState(),
+    readStoryClusters()
   ]);
   const reclassifiedItems = reclassifyAndFilterNewsItemsForCollection({
     items,
@@ -30,13 +34,27 @@ export async function reclassifyStoredNews(): Promise<{
     ...previousState,
     totalItems: reclassifiedItems.length
   };
+  const nextStoryClusters = buildStoryClusters(reclassifiedItems);
 
   try {
     await writeItems(reclassifiedItems);
+    await writeStoryClusters(nextStoryClusters);
     await writeCollectionState(nextState);
   } catch (error) {
-    await writeItems(items).catch(() => undefined);
-    await writeCollectionState(previousState).catch(() => undefined);
+    const rollbackResults = await Promise.allSettled([
+      writeItems(items),
+      writeStoryClusters(previousStoryClusters),
+      writeCollectionState(previousState)
+    ]);
+    const rollbackErrors = rollbackResults.flatMap((result) =>
+      result.status === "rejected" ? [result.reason] : []
+    );
+    if (rollbackErrors.length > 0) {
+      throw new AggregateError(
+        [error, ...rollbackErrors],
+        "News reclassification persistence failed and rollback was incomplete"
+      );
+    }
     throw error;
   }
 

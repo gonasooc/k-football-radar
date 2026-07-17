@@ -11,7 +11,8 @@ import {
   readIssues,
   readItems,
   readPeople,
-  readSources
+  readSources,
+  readStoryClusters
 } from "./data-io";
 
 function requireEnvironment(name: string): string {
@@ -53,19 +54,21 @@ async function publishR2Data(): Promise<void> {
   const bucket = requireEnvironment("R2_BUCKET_NAME");
   const accessKeyId = requireEnvironment("R2_ACCESS_KEY_ID");
   const secretAccessKey = requireEnvironment("R2_SECRET_ACCESS_KEY");
-  const [items, people, issues, sources, collectionState] = await Promise.all([
+  const [items, people, issues, sources, collectionState, storyClusters] = await Promise.all([
     readItems(),
     readPeople(),
     readIssues(),
     readSources(),
-    readCollectionState()
+    readCollectionState(),
+    readStoryClusters()
   ]);
   const { body, manifest } = serializeDataSnapshot({
     items,
     people,
     issues,
     sources,
-    collectionState
+    collectionState,
+    storyClusters
   });
   const client = new S3Client({
     region: "auto",

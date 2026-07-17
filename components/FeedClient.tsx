@@ -28,7 +28,7 @@ import {
 import type { Issue, Person } from "@/lib/schema";
 import { EmptyState } from "./EmptyState";
 import { FeedResultsSkeleton } from "./LoadingSkeletons";
-import { ItemCard } from "./ItemCard";
+import { StoryFeedEntryCard } from "./StoryFeedEntryCard";
 
 const SEARCH_DEBOUNCE_MS = 250;
 const FEATURED_ITEM_COUNT = 3;
@@ -36,7 +36,7 @@ const SCOPE_HELP_ID = "feed-scope-help";
 const ADVANCED_FILTERS_ID = "feed-advanced-filters";
 const SCOPE_HELP_TEXT =
   "주요는 관련도가 높은 기본 수집 항목만 보여줍니다. 전체는 보조 수집 항목까지 포함합니다. 검색어가 있으면 보조 수집도 함께 찾습니다.";
-const MemoizedItemCard = memo(ItemCard);
+const MemoizedStoryFeedEntryCard = memo(StoryFeedEntryCard);
 
 const TYPE_OPTIONS: readonly [FeedTypeFilter, string][] = [
   ["all", "전체"],
@@ -189,8 +189,9 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
         if (filterRequestId.current === requestId && activeFilterKey.current === filterKey) {
           setLoadError(true);
           setResults((current) => ({
-            items: [],
-            total: 0,
+            entries: [],
+            totalEntries: 0,
+            totalItems: 0,
             offset: 0,
             limit: DEFAULT_FEED_PAGE_SIZE,
             hasMore: false,
@@ -225,7 +226,7 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
     }
 
     const requestedFilterKey = filterKey;
-    const requestedOffset = results.items.length;
+    const requestedOffset = results.entries.length;
     const requestedSnapshot = results.snapshot;
     const requestId = ++loadMoreRequestId.current;
     setIsLoadingMore(true);
@@ -243,18 +244,18 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
       }
       setResults((current) => {
         if (
-          current.items.length !== requestedOffset ||
+          current.entries.length !== requestedOffset ||
           current.snapshot !== requestedSnapshot
         ) {
           return current;
         }
 
-        const items = [...current.items, ...page.items];
+        const entries = [...current.entries, ...page.entries];
         return {
           ...page,
-          items,
+          entries,
           offset: 0,
-          limit: items.length
+          limit: entries.length
         };
       });
     } catch (error) {
@@ -316,9 +317,13 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
     Number(scopeFilter !== defaultFeedFilters.scope) +
     Number(issueFilter !== defaultFeedFilters.issueId) +
     Number(personFilter !== defaultFeedFilters.personId);
-  const gridItems = results.items.slice(0, FEATURED_ITEM_COUNT);
-  const listItems = results.items.slice(FEATURED_ITEM_COUNT);
   const hasSearchQuery = query.length > 0;
+  const gridEntries = hasSearchQuery
+    ? []
+    : results.entries.slice(0, FEATURED_ITEM_COUNT);
+  const listEntries = hasSearchQuery
+    ? results.entries
+    : results.entries.slice(FEATURED_ITEM_COUNT);
   let feedScopeLabel = "전체 피드";
 
   if (hasSearchQuery) {
@@ -545,8 +550,9 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
                 </span>
               ) : null}
               {hasSearchQuery ? <span className="text-muted"> · </span> : null}
-              <span className="text-ink">{results.total}개 결과</span>
-              <span className="text-muted"> · {results.items.length}개 표시</span>
+              <span className="text-ink">{results.totalEntries}개 주제·자료</span>
+              <span className="text-muted"> · 원문 {results.totalItems}건</span>
+              <span className="text-muted"> · {results.entries.length}개 표시</span>
             </>
           )}
         </p>
@@ -579,34 +585,36 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
 
       <div aria-busy={isResultsPending || isLoadingMore}>
         {isResultsPending ? (
-          <FeedResultsSkeleton />
-        ) : loadError && results.items.length === 0 ? (
+          <FeedResultsSkeleton oneColumn={normalizedSearchInput.length > 0} />
+        ) : loadError && results.entries.length === 0 ? (
           <EmptyState
             description="잠시 후 다시 시도해 주세요. 기존 주소와 필터 상태는 유지됩니다."
             title="수집 항목을 불러오지 못했습니다."
           />
-        ) : results.items.length > 0 ? (
+        ) : results.entries.length > 0 ? (
           <div className="space-y-6">
-            <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
-              {gridItems.map((item) => (
-                <MemoizedItemCard
-                  highlightQuery={query}
-                  item={item}
-                  issues={issues}
-                  key={item.id}
-                  people={people}
-                  variant="compact"
-                />
-              ))}
-            </div>
-            {listItems.length > 0 ? (
-              <div className="border-b border-rule">
-                {listItems.map((item) => (
-                  <MemoizedItemCard
+            {gridEntries.length > 0 ? (
+              <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
+                {gridEntries.map((entry) => (
+                  <MemoizedStoryFeedEntryCard
+                    entry={entry}
                     highlightQuery={query}
-                    item={item}
                     issues={issues}
-                    key={item.id}
+                    key={entry.id}
+                    people={people}
+                    variant="compact"
+                  />
+                ))}
+              </div>
+            ) : null}
+            {listEntries.length > 0 ? (
+              <div className="border-b border-rule">
+                {listEntries.map((entry) => (
+                  <MemoizedStoryFeedEntryCard
+                    entry={entry}
+                    highlightQuery={query}
+                    issues={issues}
+                    key={entry.id}
                     people={people}
                   />
                 ))}

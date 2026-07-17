@@ -9,18 +9,25 @@ import {
   personSchema,
   radarItemSchema,
   sourceSchema,
+  storyClusterFileSchema,
   type CollectionState,
   type Issue,
   type Person,
   type RadarItem,
-  type Source
+  type Source,
+  type StoryClusterFile
 } from "../lib/schema";
+import { EMPTY_STORY_CLUSTER_FILE } from "../lib/story-clusters";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
 async function readJson<T>(filename: string): Promise<T> {
   const raw = await readFile(path.join(DATA_DIR, filename), "utf8");
   return JSON.parse(raw) as T;
+}
+
+function isNodeError(error: unknown): error is NodeJS.ErrnoException {
+  return error instanceof Error && "code" in error;
 }
 
 async function writeJson(filename: string, value: unknown): Promise<void> {
@@ -63,4 +70,21 @@ export async function readCollectionState(): Promise<CollectionState> {
 
 export async function writeCollectionState(state: CollectionState): Promise<void> {
   await writeJson("collection-state.json", state);
+}
+
+export async function readStoryClusters(): Promise<StoryClusterFile> {
+  try {
+    return storyClusterFileSchema.parse(await readJson("story-clusters.json"));
+  } catch (error) {
+    if (isNodeError(error) && error.code === "ENOENT") {
+      return EMPTY_STORY_CLUSTER_FILE;
+    }
+    throw error;
+  }
+}
+
+export async function writeStoryClusters(
+  storyClusters: StoryClusterFile
+): Promise<void> {
+  await writeJson("story-clusters.json", storyClusterFileSchema.parse(storyClusters));
 }

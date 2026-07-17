@@ -3,6 +3,7 @@ import { FeedClient } from "@/components/FeedClient";
 import { getDataBundle } from "@/lib/data";
 import { formatDateTime } from "@/lib/date";
 import { getFeedPage } from "@/lib/feed-page";
+import { getFeedContentRevision } from "@/lib/feed-snapshot";
 import { getFeedFiltersFromSearchParams, toFeedItems } from "@/lib/filter";
 import { getDashboardStats } from "@/lib/stats";
 
@@ -23,7 +24,8 @@ export default async function DashboardPage({ searchParams }: DashboardPageProps
     personIds: new Set(data.people.map((person) => person.id))
   });
   const initialPage = getFeedPage(toFeedItems(data.items), initialFilters, {
-    snapshot: data.collectionState.lastCollectedAt
+    snapshot: getFeedContentRevision(data.items, data.storyClusters),
+    storyClusters: data.storyClusters
   });
 
   return (

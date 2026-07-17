@@ -1,5 +1,21 @@
 import { canonicalizeUrl } from "./dedupe";
-import type { CollectionState, Issue, Person, RadarItem, Source } from "./schema";
+import type {
+  CollectionState,
+  Issue,
+  Person,
+  RadarItem,
+  Source,
+  StoryClusterFile
+} from "./schema";
+import {
+  EMPTY_STORY_CLUSTER_FILE,
+  STORY_CLUSTER_WINDOW_MS,
+  createStoryFactAnchorModel,
+  getStoryClusterId,
+  isBurstStoryPairMatch,
+  isStoryPairMatch
+} from "./story-clusters";
+import { createStorySimilarityModel } from "./story-similarity";
 
 const DANGEROUS_LABELS = new Set([
   "비리",
@@ -27,13 +43,15 @@ export function validateDataBundle({
   people,
   issues,
   sources,
-  collectionState
+  collectionState,
+  storyClusters = EMPTY_STORY_CLUSTER_FILE
 }: {
   items: RadarItem[];
   people: Person[];
   issues: Issue[];
   sources: Source[];
   collectionState: CollectionState;
+  storyClusters?: StoryClusterFile;
 }): void {
   assertUniqueIds(items, "item");
   assertUniqueIds(issues, "issue");
@@ -94,5 +112,88 @@ export function validateDataBundle({
   );
   if (enabledOfficialSources.length === 0) {
     throw new Error("At least one enabled official source is required");
+  }
+
+  validateStoryClusters(items, storyClusters);
+}
+
+function compareItemsChronologically(left: RadarItem, right: RadarItem): number {
+  const timeDifference = Date.parse(left.publishedAt) - Date.parse(right.publishedAt);
+  return timeDifference || left.id.localeCompare(right.id);
+}
+
+export function validateStoryClusters(
+  items: readonly RadarItem[],
+  storyClusters: StoryClusterFile
+): void {
+  assertUniqueIds(storyClusters.clusters, "story cluster");
+
+  const itemsById = new Map(items.map((item) => [item.id, item]));
+  const newsItems = items.filter((item) => item.type === "news");
+  const similarityModel = createStorySimilarityModel(newsItems);
+  const factAnchorModel = createStoryFactAnchorModel(newsItems);
+  const assignedItemIds = new Set<string>();
+
+  for (const cluster of storyClusters.clusters) {
+    if (cluster.memberIds.length < 2) {
+      throw new Error(`Story cluster ${cluster.id} must contain at least two items`);
+    }
+
+    const uniqueMemberIds = new Set(cluster.memberIds);
+    if (uniqueMemberIds.size !== cluster.memberIds.length) {
+      throw new Error(`Duplicate member id in story cluster ${cluster.id}`);
+    }
+    if (!uniqueMemberIds.has(cluster.seedItemId)) {
+      throw new Error(`Story cluster ${cluster.id} does not contain its seed item`);
+    }
+    if (cluster.id !== getStoryClusterId(cluster.seedItemId)) {
+      throw new Error(`Story cluster id does not match seed ${cluster.seedItemId}`);
+    }
+
+    const members = cluster.memberIds.map((memberId) => {
+      const item = itemsById.get(memberId);
+      if (!item) {
+        throw new Error(`Unknown story cluster member "${memberId}" in ${cluster.id}`);
+      }
+      if (item.type !== "news") {
+        throw new Error(`Official item "${memberId}" cannot belong to a story cluster`);
+      }
+      if (assignedItemIds.has(memberId)) {
+        throw new Error(`Story cluster member "${memberId}" is assigned more than once`);
+      }
+      assignedItemIds.add(memberId);
+      return item;
+    });
+
+    const chronologicalMembers = [...members].sort(compareItemsChronologically);
+    if (chronologicalMembers[0]?.id !== cluster.seedItemId) {
+      throw new Error(`Story cluster ${cluster.id} seed is not its earliest item`);
+    }
+    if (
+      chronologicalMembers.some(
+        (member, index) => member.id !== cluster.memberIds[index]
+      )
+    ) {
+      throw new Error(`Story cluster ${cluster.id} members are not chronological`);
+    }
+
+    for (let leftIndex = 0; leftIndex < members.length; leftIndex += 1) {
+      for (let rightIndex = leftIndex + 1; rightIndex < members.length; rightIndex += 1) {
+        const left = members[leftIndex];
+        const right = members[rightIndex];
+        const publishedDistance = Math.abs(
+          Date.parse(left.publishedAt) - Date.parse(right.publishedAt)
+        );
+        if (publishedDistance > STORY_CLUSTER_WINDOW_MS) {
+          throw new Error(`Story cluster ${cluster.id} exceeds the 36-hour window`);
+        }
+        if (
+          !isStoryPairMatch(left, right, similarityModel) &&
+          !isBurstStoryPairMatch(left, right, factAnchorModel)
+        ) {
+          throw new Error(`Story cluster ${cluster.id} violates complete-link similarity`);
+        }
+      }
+    }
   }
 }

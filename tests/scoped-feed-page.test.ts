@@ -24,19 +24,36 @@ function item(index: number): FeedItem {
 }
 
 describe("Scoped detail feed pages", () => {
-  it("limits an issue detail boundary to 30 items while preserving its total", () => {
+  it("limits an issue detail boundary to 30 entries while preserving both totals", () => {
     const items = Array.from({ length: 75 }, (_, index) => item(index));
-    const { fixedFilters, initialPage } = getInitialScopedFeedPage(items, {
-      issueId: "issue-a"
-    }, "issue-snapshot");
+    const { fixedFilters, initialPage } = getInitialScopedFeedPage(
+      items,
+      { issueId: "issue-a" },
+      "issue-snapshot",
+      {
+        version: 1,
+        clusters: [
+          {
+            id: "issue-story",
+            seedItemId: "item-56",
+            memberIds: ["item-56", "item-57"]
+          }
+        ]
+      }
+    );
 
     assert.equal(fixedFilters.issueId, "issue-a");
     assert.equal(fixedFilters.scope, "all");
-    assert.equal(initialPage.items.length, 30);
-    assert.equal(initialPage.total, 58);
+    assert.equal(initialPage.entries.length, 30);
+    assert.equal(initialPage.totalEntries, 57);
+    assert.equal(initialPage.totalItems, 58);
     assert.equal(initialPage.hasMore, true);
     assert.equal(initialPage.snapshot, "issue-snapshot");
-    assert.ok(initialPage.items.every((feedItem) => feedItem.issueTags.includes("issue-a")));
+    assert.ok(
+      initialPage.entries.every((entry) =>
+        entry.representative.issueTags.includes("issue-a")
+      )
+    );
   });
 
   it("limits a person detail boundary without dropping secondary matches", () => {
@@ -47,10 +64,19 @@ describe("Scoped detail feed pages", () => {
 
     assert.equal(fixedFilters.personId, "person-a");
     assert.equal(fixedFilters.scope, "all");
-    assert.equal(initialPage.items.length, 30);
-    assert.equal(initialPage.total, 38);
+    assert.equal(initialPage.entries.length, 30);
+    assert.equal(initialPage.totalEntries, 38);
+    assert.equal(initialPage.totalItems, 38);
     assert.equal(initialPage.snapshot, "person-snapshot");
-    assert.ok(initialPage.items.some((feedItem) => feedItem.relevanceTier === "secondary"));
-    assert.ok(initialPage.items.every((feedItem) => feedItem.personTags.includes("person-a")));
+    assert.ok(
+      initialPage.entries.some(
+        (entry) => entry.representative.relevanceTier === "secondary"
+      )
+    );
+    assert.ok(
+      initialPage.entries.every((entry) =>
+        entry.representative.personTags.includes("person-a")
+      )
+    );
   });
 });

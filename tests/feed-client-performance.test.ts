@@ -23,14 +23,14 @@ describe("FeedClient performance", () => {
 
     assert.match(feedClientSource, /DEFAULT_FEED_PAGE_SIZE/);
     assert.match(feedClientSource, /import \{ FeedSnapshotMismatchError, fetchFeedPage \} from "@\/lib\/feed-api"/);
-    assert.match(feedApiSource, /fetch\(`\/api\/feed\?/);
-    assert.match(feedClientSource, /results\.items/);
+    assert.match(feedApiSource, /fetchPage<FeedPage>\("\/api\/feed"/);
+    assert.match(feedClientSource, /results\.entries/);
     assert.match(feedClientSource, /if \(isLoadingMore \|\| isResultsPending \|\| !results\.hasMore\)/);
     assert.match(feedClientSource, /snapshot: requestedSnapshot/);
     assert.match(feedClientSource, /loadMoreRequestId\.current !== requestId/);
     assert.match(feedClientSource, /setIsLoadingMore\(false\)/);
     assert.match(feedClientSource, /더보기/);
-    assert.match(feedClientSource, /MemoizedItemCard/);
+    assert.match(feedClientSource, /MemoizedStoryFeedEntryCard/);
     assert.match(homePageSource, /const initialPage = getFeedPage\(/);
     assert.doesNotMatch(homePageSource, /items=\{feedItems\}/);
   });
@@ -44,7 +44,7 @@ describe("FeedClient performance", () => {
     assert.match(feedClientSource, /initialFilters: FeedFilters/);
     assert.match(homePageSource, /getFeedFiltersFromSearchParams\(await searchParams/);
     assert.match(homePageSource, /initialFilters=\{initialFilters\}/);
-    assert.match(homePageSource, /snapshot: data\.collectionState\.lastCollectedAt/);
+    assert.match(homePageSource, /snapshot: getFeedContentRevision\(data\.items, data\.storyClusters\)/);
   });
 
   it("makes search progress visible even when the result count barely changes", () => {

@@ -16,6 +16,7 @@
     "collect:official": "node --import tsx scripts/collect-official.ts",
     "publish:r2": "node --import tsx scripts/publish-r2-data.ts",
     "reclassify:news": "node --import tsx scripts/reclassify-news.ts",
+    "rebuild:story-clusters": "node --import tsx scripts/rebuild-story-clusters.ts",
     "check:readiness": "node --import tsx scripts/check-readiness.ts",
     "validate:data": "node --import tsx scripts/validate-data.ts"
   },

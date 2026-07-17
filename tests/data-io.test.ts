@@ -4,7 +4,7 @@ import path from "node:path";
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 
-import type { CollectionState } from "../lib/schema";
+import type { CollectionState, StoryClusterFile } from "../lib/schema";
 
 describe("data JSON writes", () => {
   it("atomically replaces collection state without leaving temporary files", async () => {
@@ -17,6 +17,16 @@ describe("data JSON writes", () => {
       lastRunNewItems: 2,
       totalItems: 10
     };
+    const storyClusters: StoryClusterFile = {
+      version: 1,
+      clusters: [
+        {
+          id: "story_0123456789abcdefabcd",
+          seedItemId: "item-a",
+          memberIds: ["item-a", "item-b"]
+        }
+      ]
+    };
 
     try {
       await mkdir(dataDir);
@@ -26,15 +36,26 @@ describe("data JSON writes", () => {
         "utf8"
       );
       process.chdir(workspace);
-      const { writeCollectionState } = await import(`../scripts/data-io.ts?cwd=${Date.now()}`);
+      const { readStoryClusters, writeCollectionState, writeStoryClusters } =
+        await import(`../scripts/data-io.ts?cwd=${Date.now()}`);
+
+      assert.deepEqual(await readStoryClusters(), { version: 1, clusters: [] });
 
       await writeCollectionState(state);
+      await writeStoryClusters(storyClusters);
 
       assert.deepEqual(
         JSON.parse(await readFile(path.join(dataDir, "collection-state.json"), "utf8")),
         state
       );
-      assert.deepEqual(await readdir(dataDir), ["collection-state.json"]);
+      assert.deepEqual(
+        JSON.parse(await readFile(path.join(dataDir, "story-clusters.json"), "utf8")),
+        storyClusters
+      );
+      assert.deepEqual((await readdir(dataDir)).sort(), [
+        "collection-state.json",
+        "story-clusters.json"
+      ]);
     } finally {
       process.chdir(originalCwd);
       await rm(workspace, { recursive: true, force: true });

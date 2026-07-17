@@ -3,12 +3,25 @@ import { describe, it } from "node:test";
 
 import { getDataBundle } from "../lib/data";
 import {
+  normalizeDataBundle,
   parseDataSnapshot,
   serializeDataSnapshot
 } from "../lib/data-snapshot";
 import { createRemoteDataLoader } from "../lib/remote-data";
 
 describe("R2 data snapshots", () => {
+  it("defaults old snapshots without story relationships to an empty v1 file", async () => {
+    const oldBundle: Partial<Awaited<ReturnType<typeof getDataBundle>>> = {
+      ...(await getDataBundle())
+    };
+    delete oldBundle.storyClusters;
+
+    assert.deepEqual(normalizeDataBundle(oldBundle).storyClusters, {
+      version: 1,
+      clusters: []
+    });
+  });
+
   it("creates a content-addressed manifest and validates the snapshot", async () => {
     const bundle = await getDataBundle();
     const first = serializeDataSnapshot(bundle);

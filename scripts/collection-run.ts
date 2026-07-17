@@ -1,10 +1,13 @@
 import { dedupeItems } from "../lib/dedupe";
 import { applyItemRetentionPolicy } from "../lib/item-retention";
-import type { CollectionState, RadarItem } from "../lib/schema";
+import type { CollectionState, RadarItem, StoryClusterFile } from "../lib/schema";
+import { buildStoryClusters } from "../lib/story-clusters";
 import {
   readCollectionState,
+  readStoryClusters,
   writeCollectionState,
-  writeItems
+  writeItems,
+  writeStoryClusters
 } from "./data-io";
 
 export type CollectorRunResult = {
@@ -28,13 +31,17 @@ function countItemsByCollectedAt(items: readonly RadarItem[]): Map<string, numbe
 
 export type CollectionRunPersistence = {
   readCollectionState: () => Promise<CollectionState>;
+  readStoryClusters: () => Promise<StoryClusterFile>;
   writeItems: (items: RadarItem[]) => Promise<void>;
+  writeStoryClusters: (storyClusters: StoryClusterFile) => Promise<void>;
   writeCollectionState: (state: CollectionState) => Promise<void>;
 };
 
 const defaultPersistence: CollectionRunPersistence = {
   readCollectionState,
+  readStoryClusters,
   writeItems,
+  writeStoryClusters,
   writeCollectionState
 };
 
@@ -85,6 +92,7 @@ export function prepareCollectionRun({
   previousState?: CollectionState;
 }): {
   items: RadarItem[];
+  storyClusters: StoryClusterFile;
   state: CollectionState;
   prunedItemCount: number;
 } {
@@ -107,6 +115,7 @@ export function prepareCollectionRun({
 
   return {
     items,
+    storyClusters: buildStoryClusters(items),
     state: {
       lastCollectedAt:
         lastRunStatus === "failed" && previousState
@@ -128,11 +137,15 @@ export async function persistCollectionRun(options: {
   persistence?: CollectionRunPersistence;
 }): Promise<ReturnType<typeof prepareCollectionRun>> {
   const persistence = options.persistence ?? defaultPersistence;
-  const previousState = await persistence.readCollectionState();
+  const [previousState, previousStoryClusters] = await Promise.all([
+    persistence.readCollectionState(),
+    persistence.readStoryClusters()
+  ]);
   const update = prepareCollectionRun({ ...options, previousState });
 
   try {
     await persistence.writeItems(update.items);
+    await persistence.writeStoryClusters(update.storyClusters);
     await persistence.writeCollectionState(update.state);
     return update;
   } catch (error) {
@@ -140,6 +153,12 @@ export async function persistCollectionRun(options: {
 
     try {
       await persistence.writeItems(options.existingItems);
+    } catch (rollbackError) {
+      rollbackErrors.push(rollbackError);
+    }
+
+    try {
+      await persistence.writeStoryClusters(previousStoryClusters);
     } catch (rollbackError) {
       rollbackErrors.push(rollbackError);
     }

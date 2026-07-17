@@ -32,7 +32,9 @@ pnpm run check:readiness
 
 ## 데이터 수집
 
-수집 스크립트는 메타데이터를 `data/items/YYYY-MM-DD.json` 일별 shard에 쓰고, 실행 상태를 `data/collection-state.json`에 기록합니다.
+수집 스크립트는 메타데이터를 `data/items/YYYY-MM-DD.json` 일별 shard에 쓰고,
+비슷한 뉴스의 관계를 `data/story-clusters.json`에 저장하며, 실행 상태를
+`data/collection-state.json`에 기록합니다.
 
 ```bash
 pnpm run collect
@@ -40,11 +42,25 @@ pnpm run collect:local
 pnpm run collect:naver
 pnpm run collect:official
 pnpm run reclassify:news
+pnpm run rebuild:story-clusters
 ```
 
 `reclassify:news`는 저장된 뉴스의 제목과 요약을 현재 관련도 규칙으로 다시
 분류하고, 기준에서 벗어난 항목을 제거합니다. 이슈 규칙이나 관련도 정책을
 바꾼 뒤 기존 데이터까지 일관되게 갱신할 때 사용합니다.
+
+뉴스 묶음은 36시간 안에 발행된 기사끼리 제목과 요약의 유사도, 공통 이슈·인물
+태그를 비교해 수집 시점에 다시 계산합니다. `41배`처럼 여러 발행처에서 짧은 시간에
+집중된 희소 사실값은 먼저 같은 사건으로 묶고, 제목 유사도가 매우 높으면 서로 다른
+문단을 잘라 온 요약문 때문에 탈락하지 않도록 요약 조건을 면제합니다. 칼럼·사설과
+일반적인 기간 표현은 이 예외에서 제외합니다. 화면에서는 묶음마다 대표 기사 한 건과
+관련 기사 두 건을 먼저 보여주고 나머지는 펼쳐 볼 수 있습니다. 대표 기사는 주요
+수집 항목을 우선한 뒤 묶음 중심성, 관련도, 제목·요약 완성도, 최신성을 함께 평가해
+정합니다. 홈 검색 결과와 이슈·인물 목록에는 묶음을 적용하지만, `/sources`의 원문
+링크 목록은 감사 가능한 수집 기록이므로 모든 원문을 개별 항목으로 유지합니다.
+
+묶음 규칙만 바꾼 뒤 저장된 기사 전체를 다시 계산하려면
+`pnpm run rebuild:story-clusters`를 사용합니다.
 
 Naver News collector는 아래 환경변수를 읽습니다.
 

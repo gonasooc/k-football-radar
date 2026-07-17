@@ -4,6 +4,7 @@ import {
   type FeedFilters,
   type FeedItem
 } from "./filter";
+import type { StoryClusterFile } from "./schema";
 
 type ScopedFeedTarget = Partial<Pick<FeedFilters, "issueId" | "personId">>;
 
@@ -15,7 +16,8 @@ export type InitialScopedFeedPage = {
 export function getInitialScopedFeedPage(
   items: readonly FeedItem[],
   target: ScopedFeedTarget = {},
-  snapshot = ""
+  snapshot = "",
+  storyClusters: StoryClusterFile = { version: 1, clusters: [] }
 ): InitialScopedFeedPage {
   const fixedFilters: FeedFilters = {
     ...defaultFeedFilters,
@@ -25,6 +27,6 @@ export function getInitialScopedFeedPage(
 
   return {
     fixedFilters,
-    initialPage: getFeedPage([...items], fixedFilters, { snapshot })
+    initialPage: getFeedPage([...items], fixedFilters, { snapshot, storyClusters })
   };
 }

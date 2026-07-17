@@ -15,7 +15,7 @@ GitHub Actions 수집 워크플로
         ↓
 scripts/update-data.ts
         ↓
-data/items/YYYY-MM-DD.json, data/collection-state.json
+data/items/YYYY-MM-DD.json, data/story-clusters.json, data/collection-state.json
         ↓
 Cloudflare R2 snapshot + current.json
         ↓
@@ -53,6 +53,7 @@ data/people.json
 data/issues.json
 data/sources.json
 data/collection-state.json
+data/story-clusters.json
 ```
 
 ### `items/YYYY-MM-DD.json`
@@ -80,11 +81,20 @@ data/collection-state.json
 
 마지막 수집 시각, 마지막 실행 상태, 새로 들어온 항목 수, 전체 항목 수를 기록한다. 대시보드의 “최근 수집 시각” 같은 정보가 여기에서 나온다.
 
+### `story-clusters.json`
+
+같은 사건을 다룬 뉴스의 관계를 저장한다. 공식자료는 묶지 않으며, 뉴스도 두 건
+이상이 같은 묶음으로 판정됐을 때만 기록한다. 각 묶음은 안정적인 ID, 최초 기사 ID,
+시간순 기사 ID 목록을 가진다. 제목·요약 원문은 `items/`에만 있고 이 파일에는 관계만
+저장한다.
+
 ## 4. 화면이 데이터를 읽는 방식
 
 Next.js 서버는 런타임에서 외부 수집 API를 직접 호출하지 않는다. R2 custom domain에서
 `current.json`과 검증된 snapshot을 읽어 첫 화면을 만들고, 브라우저의 검색·필터·더보기
-요청은 같은 배포 안의 `/api/feed`가 snapshot 데이터를 페이지 단위로 조회해 응답한다.
+요청은 같은 배포 안의 `/api/feed`가 같은 사건의 뉴스를 묶은 뒤 주제 단위로
+페이지를 나눠 응답한다. `/api/source-links`는 출처 아카이브를 위해 묶지 않은 원문을
+페이지 단위로 제공한다.
 
 핵심 파일은 `lib/data.ts`다.
 
@@ -93,18 +103,27 @@ R2 current.json → snapshots/<SHA-256>.json
    ↓
 lib/data.ts
    ├─ app/page.tsx, app/issues/[id]/page.tsx, app/people/[id]/page.tsx
-   └─ app/api/feed/route.ts → 30개 단위 후속 페이지
+   ├─ app/api/feed/route.ts → 묶음 기준 30개 단위 후속 페이지
+   └─ app/api/source-links/route.ts → 원문 기준 30개 단위 후속 페이지
 ```
 
 `lib/data.ts`와 `lib/remote-data.ts`는 snapshot의 길이, SHA-256과 Zod schema를 검증한다.
 정상 값은 60초 cache하며 R2 일시 장애 때는 마지막 정상 snapshot을 제공한다. 로컬 개발과
 테스트만 저장소의 `data/`를 직접 읽는다.
 
+첫 페이지는 항목과 뉴스 묶음 관계의 내용 해시를 페이지네이션 토큰으로 함께 보낸다.
+더보기를 누르는 사이 재수집·재분류·묶음 재생성으로 내용이 달라지면 API가 이전 토큰을
+거부하고 첫 페이지부터 갱신하므로, 서로 다른 데이터 버전의 항목이 섞여 중복되거나
+빠지지 않는다. `lastCollectedAt`은 이 토큰과 분리해 마지막 수집 시각 표시용으로만 쓴다.
+
 ## 5. 주요 화면
 
 ### `/`
 
-검색 가능한 최신 피드와 최근 24시간 수집 통계를 보여준다. URL의 검색·필터 조건은 서버에서 첫 페이지에 반영되고, 이후 필터 변경과 더보기는 30개 단위 API 요청으로 처리한다.
+검색 가능한 최신 피드와 최근 24시간 수집 통계를 보여준다. 같은 사건을 다룬 뉴스는
+대표 기사와 관련 기사로 묶고, 검색·필터는 먼저 개별 원문에 적용한 뒤 남은 결과를
+묶는다. URL의 검색·필터 조건은 서버에서 첫 페이지에 반영되고, 이후 필터 변경과
+더보기는 묶음 기준 30개 단위 API 요청으로 처리한다.
 
 ### `/feed`
 
@@ -116,7 +135,7 @@ lib/data.ts
 
 ### `/issues/[id]`
 
-특정 이슈에 연결된 수집 항목만 보여준다.
+특정 이슈에 연결된 수집 항목만 보여준다. 뉴스에는 홈과 같은 묶음 표현을 적용한다.
 
 ### `/people`
 
@@ -124,11 +143,11 @@ lib/data.ts
 
 ### `/people/[id]`
 
-특정 인물이 언급된 수집 항목만 보여준다.
+특정 인물이 언급된 수집 항목만 보여준다. 뉴스에는 홈과 같은 묶음 표현을 적용한다.
 
 ### `/sources`
 
-수집 출처와 publisher 통계를 보여준다.
+수집 출처와 publisher 통계, 묶지 않은 전체 원문 링크를 보여준다.
 
 ## 6. 수집 흐름
 
@@ -140,6 +159,7 @@ scripts/update-data.ts
         ├─ scripts/collect-official.ts
         ├─ lib/classify.ts
         ├─ lib/dedupe.ts
+        ├─ lib/story-clusters.ts
         └─ scripts/data-io.ts
 ```
 
@@ -209,9 +229,34 @@ secondary로만 보존한다. 단순한 `KFA` 표기 하나는 강한 설명 근
 
 추적 파라미터가 붙은 URL도 최대한 같은 URL로 취급한다. 예를 들어 `utm_source` 같은 값은 제거해서 비교한다.
 
-### 7단계: 저장
+### 7단계: 비슷한 뉴스 묶기
 
-새 항목과 기존 항목을 병합한 뒤 `data/items/YYYY-MM-DD.json` 일별 shard에 쓴다. 실행 결과는 `data/collection-state.json`에 쓴다.
+`lib/story-clusters.ts`가 36시간 안에 발행된 뉴스의 제목과 요약을 IDF 가중 문자
+3-gram으로 비교한다. 제목 유사도를 더 크게 반영하며, 경계 사례에는 공통 이슈·인물
+태그도 요구한다.
+
+`41배`, `3000만원`, `190명`처럼 숫자와 단위가 결합된 사실값이 3개 이상 기사와
+2개 이상 발행처에서 36시간 안에 집중되고 전체 등장 건수가 30건 이하이면 희소 사건
+앵커로 사용한다. `년`, `개월`, `일`로 끝나는 일반 기간은 제외한다. 같은 앵커와 공통
+태그를 가진 기사를 먼저 묶으므로 네이버 설명이 서로 다른 문단을 인용해도 같은 사건을
+찾을 수 있다.
+
+나머지 기사는 기존 유사도 묶음을 사용한다. 제목 유사도가 0.65 이상이고 공통 태그가
+있으면 설명 유사도를 필수로 요구하지 않지만, 칼럼·사설·기고 표식이 있는 제목은 이
+예외에서 제외한다. 한 후보가 기존 묶음의 모든 기사와 기준을 충족해야 들어가므로,
+A-B와 B-C가 비슷하다는 이유만으로 서로 다른 A-C 사건까지 합쳐지는 것을 막는다.
+
+대표 기사는 화면 요청 시 보이는 기사들 가운데 정한다. 보조 수집 기사보다 주요
+수집 기사를 우선하고, 묶음의 다른 기사들과 가장 가까운 정도, 관련도, 제목·요약의
+완성도, 최신성을 점수화한다. 필터와 검색은 원문에 먼저 적용되므로 조건에 맞지 않는
+관련 기사가 묶음 아래에 노출되지 않는다.
+
+### 8단계: 저장
+
+새 항목과 기존 항목을 병합한 뒤 `data/items/YYYY-MM-DD.json` 일별 shard에 쓰고,
+계산한 관계를 `data/story-clusters.json`에 쓴다. 실행 결과는
+`data/collection-state.json`에 쓴다. 세 데이터 중 하나의 저장이 실패하면 이전 상태로
+되돌린다.
 
 ## 7. GitHub Actions 흐름
 

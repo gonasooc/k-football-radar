@@ -3,12 +3,9 @@
 import { useState } from "react";
 
 import { formatDate } from "@/lib/date";
-import { FeedSnapshotMismatchError, fetchFeedPage } from "@/lib/feed-api";
+import { FeedSnapshotMismatchError, fetchSourceLinkPage } from "@/lib/feed-api";
 import type { FeedFilters } from "@/lib/filter";
-import {
-  toSourceLinkPage,
-  type SourceLinkPage
-} from "@/lib/source-link-page";
+import type { SourceLinkPage } from "@/lib/source-link-page";
 
 const PUBLISHER_PREVIEW_COUNT = 5;
 
@@ -79,7 +76,7 @@ export function SourceLinksList({ fixedFilters, initialPage }: SourceLinksListPr
     setLoadError(false);
 
     try {
-      const nextPage = await fetchFeedPage(fixedFilters, requestedOffset, {
+      const nextPage = await fetchSourceLinkPage(fixedFilters, requestedOffset, {
         snapshot: requestedSnapshot
       });
       setResults((current) => {
@@ -90,10 +87,9 @@ export function SourceLinksList({ fixedFilters, initialPage }: SourceLinksListPr
           return current;
         }
 
-        const sourceLinkPage = toSourceLinkPage(nextPage);
-        const items = [...current.items, ...sourceLinkPage.items];
+        const items = [...current.items, ...nextPage.items];
         return {
-          ...sourceLinkPage,
+          ...nextPage,
           items,
           offset: 0,
           limit: items.length
@@ -102,10 +98,10 @@ export function SourceLinksList({ fixedFilters, initialPage }: SourceLinksListPr
     } catch (error) {
       if (error instanceof FeedSnapshotMismatchError) {
         try {
-          const freshPage = await fetchFeedPage(fixedFilters, 0, {
+          const freshPage = await fetchSourceLinkPage(fixedFilters, 0, {
             snapshot: error.snapshot
           });
-          setResults(toSourceLinkPage(freshPage));
+          setResults(freshPage);
           return;
         } catch {
           setLoadError(true);

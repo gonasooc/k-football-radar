@@ -27,8 +27,18 @@ const directSearchItem: FeedItem = {
 describe("FeedClient server render", () => {
   it("renders direct URL filter state and only the supplied first page", () => {
     const initialPage: FeedPage = {
-      items: [directSearchItem],
-      total: 42,
+      entries: [
+        {
+          id: directSearchItem.id,
+          representative: directSearchItem,
+          related: [],
+          itemCount: 1,
+          latestPublishedAt: directSearchItem.publishedAt,
+          maxRelevanceScore: directSearchItem.relevanceScore
+        }
+      ],
+      totalEntries: 42,
+      totalItems: 118,
       offset: 0,
       limit: 30,
       hasMore: true,
@@ -45,8 +55,10 @@ describe("FeedClient server render", () => {
 
     assert.match(markup, /value="감독 선임"/);
     assert.match(markup, /<mark[^>]*>감독 선임<\/mark> 절차 관련 기사/);
-    assert.match(markup, /42개 결과/);
+    assert.match(markup, /42개 주제·자료/);
+    assert.match(markup, /원문 118건/);
     assert.match(markup, /1개 표시/);
     assert.match(markup, />더보기</);
+    assert.doesNotMatch(markup, /lg:grid-cols-3 lg:divide-x lg:divide-line/);
   });
 });

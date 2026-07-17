@@ -2,6 +2,7 @@ import peopleJson from "@/data/people.json";
 import issuesJson from "@/data/issues.json";
 import sourcesJson from "@/data/sources.json";
 import collectionStateJson from "@/data/collection-state.json";
+import storyClustersJson from "@/data/story-clusters.json";
 
 import { normalizeDataBundle } from "./data-snapshot";
 import { readItemShardsSync } from "./item-shards";
@@ -13,6 +14,7 @@ export function readLocalDataBundle(): DataBundle {
     people: peopleJson,
     issues: issuesJson,
     sources: sourcesJson,
-    collectionState: collectionStateJson
+    collectionState: collectionStateJson,
+    storyClusters: storyClustersJson
   });
 }

@@ -10,7 +10,7 @@ import {
   type CollectionRunPersistence,
   type CollectorRunResult
 } from "../scripts/collection-run";
-import type { CollectionState, RadarItem } from "../lib/schema";
+import type { CollectionState, RadarItem, StoryClusterFile } from "../lib/schema";
 
 function item(id: string, publishedAt = "2026-07-12T00:00:00.000Z"): RadarItem {
   return {
@@ -274,10 +274,15 @@ describe("collection run state", () => {
     };
     let storedItems = existingItems;
     let storedState = previousState;
+    let storedStoryClusters: StoryClusterFile = { version: 1, clusters: [] };
     const persistence: CollectionRunPersistence = {
       readCollectionState: async () => storedState,
+      readStoryClusters: async () => storedStoryClusters,
       writeItems: async (items) => {
         storedItems = items;
+      },
+      writeStoryClusters: async (storyClusters) => {
+        storedStoryClusters = storyClusters;
       },
       writeCollectionState: async (state) => {
         storedState = state;
@@ -310,11 +315,16 @@ describe("collection run state", () => {
     };
     let storedItems = existingItems;
     let storedState = previousState;
+    let storedStoryClusters: StoryClusterFile = { version: 1, clusters: [] };
     let failNextStateWrite = true;
     const persistence: CollectionRunPersistence = {
       readCollectionState: async () => storedState,
+      readStoryClusters: async () => storedStoryClusters,
       writeItems: async (items) => {
         storedItems = items;
+      },
+      writeStoryClusters: async (storyClusters) => {
+        storedStoryClusters = storyClusters;
       },
       writeCollectionState: async (state) => {
         storedState = state;
@@ -335,6 +345,52 @@ describe("collection run state", () => {
       /injected state write failure/
     );
     assert.deepEqual(storedItems, existingItems);
+    assert.deepEqual(storedStoryClusters, { version: 1, clusters: [] });
+    assert.deepEqual(storedState, previousState);
+  });
+
+  it("rolls back items, clusters, and state when cluster persistence fails", async () => {
+    const existingItems = [item("existing")];
+    const previousState: CollectionState = {
+      lastCollectedAt: "2026-07-12T08:00:00.000Z",
+      lastRunStatus: "success",
+      lastRunNewItems: 1,
+      totalItems: 1
+    };
+    const previousStoryClusters: StoryClusterFile = { version: 1, clusters: [] };
+    let storedItems = existingItems;
+    let storedState = previousState;
+    let storedStoryClusters = previousStoryClusters;
+    let failNextClusterWrite = true;
+    const persistence: CollectionRunPersistence = {
+      readCollectionState: async () => storedState,
+      readStoryClusters: async () => storedStoryClusters,
+      writeItems: async (items) => {
+        storedItems = items;
+      },
+      writeStoryClusters: async (storyClusters) => {
+        if (failNextClusterWrite) {
+          failNextClusterWrite = false;
+          throw new Error("injected cluster write failure");
+        }
+        storedStoryClusters = storyClusters;
+      },
+      writeCollectionState: async (state) => {
+        storedState = state;
+      }
+    };
+
+    await assert.rejects(
+      persistCollectionRun({
+        existingItems,
+        results: [result({ items: [item("new")] })],
+        now: new Date("2026-07-13T00:00:00.000Z"),
+        persistence
+      }),
+      /injected cluster write failure/
+    );
+    assert.deepEqual(storedItems, existingItems);
+    assert.deepEqual(storedStoryClusters, previousStoryClusters);
     assert.deepEqual(storedState, previousState);
   });
 });

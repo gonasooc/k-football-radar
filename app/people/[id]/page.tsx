@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { EmptyState } from "@/components/EmptyState";
 import { PaginatedItemList } from "@/components/PaginatedItemList";
 import { SectionHeader } from "@/components/SectionHeader";
 import { getDataBundle } from "@/lib/data";
 import { toFeedItems } from "@/lib/filter";
+import { getFeedContentRevision } from "@/lib/feed-snapshot";
 import { getInitialScopedFeedPage } from "@/lib/scoped-feed-page";
 
 type PersonDetailPageProps = {
@@ -45,7 +45,8 @@ export default async function PersonDetailPage({ params }: PersonDetailPageProps
   const { fixedFilters, initialPage } = getInitialScopedFeedPage(
     toFeedItems(data.items),
     { personId: person.id },
-    data.collectionState.lastCollectedAt
+    getFeedContentRevision(data.items, data.storyClusters),
+    data.storyClusters
   );
 
   return (
@@ -72,28 +73,17 @@ export default async function PersonDetailPage({ params }: PersonDetailPageProps
         </div>
       </dl>
       <section aria-labelledby="person-items-title" className="mt-7">
-        <div className="flex items-center justify-between gap-4 pb-2">
-          <h2 className="text-sm font-black text-ink" id="person-items-title">
-            관련 수집 항목
-          </h2>
-          <span className="metric-tabular text-xs font-bold text-ink-soft">
-            {initialPage.total}건
-          </span>
-        </div>
-        {initialPage.total > 0 ? (
-          <PaginatedItemList
-            fixedFilters={fixedFilters}
-            initialPage={initialPage}
-            issues={data.issues}
-            key={person.id}
-            people={data.people}
-          />
-        ) : (
-          <EmptyState
-            description="새 자료에서 이 인물이 감지되면 이 화면에 자동으로 표시됩니다."
-            title="아직 이 인물과 연결된 자료가 없습니다."
-          />
-        )}
+        <PaginatedItemList
+          emptyDescription="새 자료에서 이 인물이 감지되면 이 화면에 자동으로 표시됩니다."
+          emptyTitle="아직 이 인물과 연결된 자료가 없습니다."
+          fixedFilters={fixedFilters}
+          heading="관련 수집 항목"
+          headingId="person-items-title"
+          initialPage={initialPage}
+          issues={data.issues}
+          key={person.id}
+          people={data.people}
+        />
       </section>
     </div>
   );

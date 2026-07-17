@@ -5,23 +5,43 @@ import {
   readIssues,
   readItems,
   readPeople,
-  readSources
+  readSources,
+  readStoryClusters
 } from "./data-io";
 import { validateDataBundle } from "../lib/validation";
+import {
+  buildStoryClusters,
+  getStoryClusterStats
+} from "../lib/story-clusters";
 
 async function validateData(): Promise<void> {
-  const [items, people, issues, sources, collectionState] = await Promise.all([
+  const [items, people, issues, sources, collectionState, storyClusters] = await Promise.all([
     readItems(),
     readPeople(),
     readIssues(),
     readSources(),
-    readCollectionState()
+    readCollectionState(),
+    readStoryClusters()
   ]);
 
-  validateDataBundle({ items, people, issues, sources, collectionState });
+  validateDataBundle({
+    items,
+    people,
+    issues,
+    sources,
+    collectionState,
+    storyClusters
+  });
+  const rebuiltStoryClusters = buildStoryClusters(items);
+  if (JSON.stringify(storyClusters) !== JSON.stringify(rebuiltStoryClusters)) {
+    throw new Error(
+      "Story clusters are out of date; run pnpm run rebuild:story-clusters"
+    );
+  }
+  const clusterStats = getStoryClusterStats(storyClusters);
 
   console.log(
-    `Data valid: ${items.length} items, ${issues.length} issues, ${people.length} people, ${sources.length} sources`
+    `Data valid: ${items.length} items, ${issues.length} issues, ${people.length} people, ${sources.length} sources; ${clusterStats.clusterCount} story clusters, ${clusterStats.clusteredItemCount} clustered news, largest ${clusterStats.largestClusterSize}`
   );
 }
 

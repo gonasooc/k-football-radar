@@ -4,9 +4,9 @@ import { ExternalLink } from "lucide-react";
 import { SectionHeader } from "@/components/SectionHeader";
 import { PublisherStatsPanel, SourceLinksList } from "@/components/SourcesArchiveClient";
 import { getDataBundle } from "@/lib/data";
-import { toFeedItems } from "@/lib/filter";
-import { getInitialScopedFeedPage } from "@/lib/scoped-feed-page";
-import { toSourceLinkPage } from "@/lib/source-link-page";
+import { defaultFeedFilters, toFeedItems } from "@/lib/filter";
+import { getFeedContentRevision } from "@/lib/feed-snapshot";
+import { getSourceLinkPage } from "@/lib/source-link-page";
 
 export const metadata: Metadata = {
   title: "출처 아카이브",
@@ -23,12 +23,12 @@ export default async function SourcesPage() {
       return counts;
     }, new Map<string, number>())
   ).sort((a, b) => b[1] - a[1]);
-  const { fixedFilters, initialPage: initialFeedPage } = getInitialScopedFeedPage(
+  const fixedFilters = { ...defaultFeedFilters, scope: "all" as const };
+  const initialPage = getSourceLinkPage(
     toFeedItems(data.items),
-    {},
-    data.collectionState.lastCollectedAt
+    fixedFilters,
+    { snapshot: getFeedContentRevision(data.items, data.storyClusters) }
   );
-  const initialPage = toSourceLinkPage(initialFeedPage);
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">

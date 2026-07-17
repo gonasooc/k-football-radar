@@ -33,6 +33,7 @@ type ItemCardProps = {
   highlightQuery?: string;
   issues: Issue[];
   people: Person[];
+  representative?: boolean;
   variant?: "row" | "compact";
 };
 
@@ -41,6 +42,7 @@ export function ItemCard({
   highlightQuery = "",
   issues,
   people,
+  representative = false,
   variant = "row"
 }: ItemCardProps) {
   const issueMap = new Map(issues.map((issue) => [issue.id, issue]));
@@ -73,6 +75,9 @@ export function ItemCard({
 
   const metadataRow = (
     <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs font-semibold text-muted">
+      {representative ? (
+        <span className="font-black text-ink-soft">대표 기사</span>
+      ) : null}
       <SourceBadge item={item} />
       {visibleLabels.slice(0, 1).map((label) => (
         <span className="text-ink-soft" key={label}>
@@ -108,7 +113,11 @@ export function ItemCard({
 
   if (variant === "compact") {
     return (
-      <article className="radar-list-item editorial-hover h-full border-t border-line px-2 py-5 first:border-t-rule sm:px-3 lg:border-t-rule lg:px-5">
+      <article
+        className={`radar-list-item editorial-hover border-t border-line px-2 py-5 first:border-t-rule sm:px-3 lg:border-t-rule lg:px-5 ${
+          representative ? "" : "h-full"
+        }`}
+      >
         <div className="flex h-full flex-col">
           {metadataRow}
           <h2 className="mt-3 text-xl font-black leading-snug tracking-[-0.018em] text-ink sm:line-clamp-2 sm:text-[1.375rem]">

@@ -74,12 +74,24 @@ export const collectionStateSchema = z.object({
   totalItems: z.number().int().min(0)
 });
 
+export const storyClusterSchema = z.object({
+  id: z.string().regex(/^story_[a-f0-9]{20}$/),
+  seedItemId: z.string().min(1),
+  memberIds: z.array(z.string().min(1)).min(2)
+});
+
+export const storyClusterFileSchema = z.object({
+  version: z.literal(1),
+  clusters: z.array(storyClusterSchema)
+});
+
 export const dataBundleSchema = z.object({
   items: z.array(radarItemSchema),
   people: z.array(personSchema),
   issues: z.array(issueSchema),
   sources: z.array(sourceSchema),
-  collectionState: collectionStateSchema
+  collectionState: collectionStateSchema,
+  storyClusters: storyClusterFileSchema.default({ version: 1, clusters: [] })
 });
 
 export type RadarItem = z.infer<typeof radarItemSchema>;
@@ -88,4 +100,6 @@ export type Person = z.infer<typeof personSchema>;
 export type Issue = z.infer<typeof issueSchema>;
 export type Source = z.infer<typeof sourceSchema>;
 export type CollectionState = z.infer<typeof collectionStateSchema>;
+export type StoryCluster = z.infer<typeof storyClusterSchema>;
+export type StoryClusterFile = z.infer<typeof storyClusterFileSchema>;
 export type DataBundle = z.infer<typeof dataBundleSchema>;
