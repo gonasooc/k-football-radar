@@ -55,7 +55,6 @@ export default async function HomePage() {
       <h1 className="sr-only">한국축구 최신 뉴스와 유튜브 영상</h1>
       <div className="space-y-14">
         <HomeFeedSection
-          description="같은 사건의 보도를 묶어 최근 뉴스와 공식자료의 흐름을 보여줍니다."
           emptyDescription="새 기사와 공식자료가 수집되면 이곳에 최신 순서로 표시됩니다."
           emptyTitle="아직 표시할 뉴스가 없습니다."
           href="/news"
@@ -66,7 +65,6 @@ export default async function HomePage() {
           title="뉴스"
         />
         <HomeFeedSection
-          description="제목과 설명에서 추적 이슈가 확인된 최신 영상을 모았습니다."
           emptyDescription="YouTube API 설정과 첫 수집이 완료되면 최근 90일의 영상부터 표시됩니다."
           emptyTitle="유튜브 영상 수집을 준비하고 있습니다."
           href="/youtube"

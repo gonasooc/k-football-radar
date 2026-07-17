@@ -134,9 +134,14 @@ describe("ItemCard variants", () => {
     assert.equal(homePageSource.match(/<HomeFeedSection/g)?.length, 2);
     assert.match(homePageSource, /href="\/news"/);
     assert.match(homePageSource, /href="\/youtube"/);
+    assert.doesNotMatch(homePageSource, /같은 사건의 보도를 묶어/);
+    assert.doesNotMatch(homePageSource, /제목과 설명에서 추적 이슈가 확인된/);
     assert.doesNotMatch(homePageSource, /<FeedClient/);
 
     assert.match(newsPageSource, /toFeedItems\(newsItems\)/);
+    assert.match(newsPageSource, /<SectionHeader/);
+    assert.match(newsPageSource, /title="뉴스"/);
+    assert.match(newsPageSource, /description="한국축구 이슈와 관련된 뉴스와 공식자료를 검색하고 확인합니다\."/);
     assert.match(newsPageSource, /<FeedClient/);
     assert.match(newsPageSource, /mode="news"/);
   });

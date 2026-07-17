@@ -8,7 +8,6 @@ import { EmptyState } from "./EmptyState";
 import { StoryFeedEntryCard } from "./StoryFeedEntryCard";
 
 type HomeFeedSectionProps = {
-  description: string;
   emptyDescription: string;
   emptyTitle: string;
   href: "/news" | "/youtube";
@@ -20,7 +19,6 @@ type HomeFeedSectionProps = {
 };
 
 export function HomeFeedSection({
-  description,
   emptyDescription,
   emptyTitle,
   href,
@@ -44,9 +42,6 @@ export function HomeFeedSection({
           >
             {title}
           </h2>
-          <p className="mt-2 max-w-3xl text-sm font-medium leading-6 text-ink-soft">
-            {description}
-          </p>
           <p className="metric-tabular mt-1 text-xs font-bold text-muted">
             {lastCollectedAt
               ? `업데이트 ${formatDateTime(lastCollectedAt)}`
