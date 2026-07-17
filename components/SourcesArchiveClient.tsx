@@ -6,11 +6,14 @@ import { formatDate } from "@/lib/date";
 import { FeedSnapshotMismatchError, fetchSourceLinkPage } from "@/lib/feed-api";
 import type { FeedFilters } from "@/lib/filter";
 import type { SourceLinkPage } from "@/lib/source-link-page";
+import { SourceBadge } from "./Badges";
 
 const PUBLISHER_PREVIEW_COUNT = 5;
 
 type PublisherStatsPanelProps = {
   publisherStats: Array<[string, number]>;
+  title?: string;
+  panelId?: string;
 };
 
 type SourceLinksListProps = {
@@ -18,7 +21,11 @@ type SourceLinksListProps = {
   initialPage: SourceLinkPage;
 };
 
-export function PublisherStatsPanel({ publisherStats }: PublisherStatsPanelProps) {
+export function PublisherStatsPanel({
+  publisherStats,
+  title = "발행처 통계",
+  panelId = "publisher-stats"
+}: PublisherStatsPanelProps) {
   const [showAll, setShowAll] = useState(false);
   const visibleStats = showAll
     ? publisherStats
@@ -26,17 +33,17 @@ export function PublisherStatsPanel({ publisherStats }: PublisherStatsPanelProps
   const hasMoreStats = publisherStats.length > PUBLISHER_PREVIEW_COUNT;
 
   return (
-    <section aria-labelledby="publisher-stats-heading">
+    <section aria-labelledby={`${panelId}-heading`}>
       <div className="flex min-h-14 items-center justify-between gap-3 border-b border-line px-2 py-1 sm:px-4">
         <h2
           className="text-sm font-black tracking-[0.14em] text-muted"
-          id="publisher-stats-heading"
+          id={`${panelId}-heading`}
         >
-          발행처 통계
+          {title}
         </h2>
         {hasMoreStats ? (
           <button
-            aria-controls="publisher-stats-ledger"
+            aria-controls={`${panelId}-ledger`}
             aria-expanded={showAll}
             className="focus-ring motion-soft inline-flex min-h-11 items-center justify-center px-2 text-xs font-black text-ink-soft underline decoration-rule underline-offset-4 hover:text-accent"
             onClick={() => setShowAll((current) => !current)}
@@ -46,8 +53,8 @@ export function PublisherStatsPanel({ publisherStats }: PublisherStatsPanelProps
           </button>
         ) : null}
       </div>
-      <div className="divide-y divide-line" id="publisher-stats-ledger">
-        {visibleStats.map(([publisher, count]) => (
+      <div className="divide-y divide-line" id={`${panelId}-ledger`}>
+        {visibleStats.length > 0 ? visibleStats.map(([publisher, count]) => (
           <div
             className="grid min-h-11 grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-2 py-3 text-sm font-bold text-ink sm:px-4"
             key={publisher}
@@ -55,7 +62,11 @@ export function PublisherStatsPanel({ publisherStats }: PublisherStatsPanelProps
             <span>{publisher}</span>
             <span className="metric-tabular text-ink-soft">{count}건</span>
           </div>
-        ))}
+        )) : (
+          <p className="px-4 py-5 text-sm font-medium leading-6 text-ink-soft">
+            아직 집계할 항목이 없습니다.
+          </p>
+        )}
       </div>
     </section>
   );
@@ -126,15 +137,16 @@ export function SourceLinksList({ fixedFilters, initialPage }: SourceLinksListPr
           </p>
         </div>
       </div>
-      <div className="hidden min-h-9 grid-cols-[minmax(0,1fr)_160px_120px] items-center border-b border-line px-3 text-[11px] font-black tracking-[0.14em] text-muted md:grid">
+      <div className="hidden min-h-9 grid-cols-[minmax(0,1fr)_90px_160px_120px] items-center border-b border-line px-3 text-[11px] font-black tracking-[0.14em] text-muted md:grid">
         <span>제목</span>
+        <span>유형</span>
         <span>발행처</span>
         <span>발행일</span>
       </div>
       <div className="divide-y divide-line border-b border-rule" id="source-link-ledger">
         {results.items.map((item) => (
           <a
-            className="group focus-ring motion-soft grid min-h-11 gap-2 px-2 py-3 text-sm hover:bg-paper md:grid-cols-[minmax(0,1fr)_160px_120px] md:items-baseline md:px-3"
+            className="group focus-ring motion-soft grid min-h-11 gap-2 px-2 py-3 text-sm hover:bg-paper md:grid-cols-[minmax(0,1fr)_90px_160px_120px] md:items-baseline md:px-3"
             href={item.url}
             key={item.id}
             rel="noreferrer"
@@ -144,8 +156,14 @@ export function SourceLinksList({ fixedFilters, initialPage }: SourceLinksListPr
               {item.title}
               <span className="sr-only">, 새 창에서 원문 열기</span>
             </span>
+            <span className="hidden md:block">
+              <SourceBadge item={item} />
+            </span>
             <span className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted md:contents md:text-sm">
-              <span className="font-medium">{item.publisher}</span>
+              <span className="flex items-center gap-2 font-medium">
+                <span className="md:hidden"><SourceBadge item={item} /></span>
+                {item.publisher}
+              </span>
               <span aria-hidden="true" className="md:hidden">
                 ·
               </span>

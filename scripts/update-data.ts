@@ -32,6 +32,10 @@ async function updateData(): Promise<void> {
   const update = await persistCollectionRun({
     existingItems,
     results: [naverResult, officialResult],
+    collectorResults: [
+      { id: "naver", result: naverResult },
+      { id: "official", result: officialResult }
+    ],
     now,
     filterItems: (items) =>
       reclassifyAndFilterNewsItemsForCollection({ items, issues, people })

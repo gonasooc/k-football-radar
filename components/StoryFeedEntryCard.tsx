@@ -8,6 +8,7 @@ import type { StoryFeedEntry } from "@/lib/feed-page";
 import type { Issue, Person } from "@/lib/schema";
 import { HighlightedText } from "./HighlightedText";
 import { ItemCard } from "./ItemCard";
+import { YouTubeCard } from "./YouTubeCard";
 
 const RELATED_PREVIEW_COUNT = 2;
 
@@ -42,6 +43,18 @@ export function StoryFeedEntryCard({
     }
     shouldFocusExpandedNews.current = false;
   }, [showAllRelated]);
+
+  if (entry.representative.sourceType === "youtube") {
+    return (
+      <YouTubeCard
+        highlightQuery={highlightQuery}
+        item={entry.representative}
+        issues={issues}
+        people={people}
+        variant={variant}
+      />
+    );
+  }
 
   if (!hasRelatedNews) {
     return (

@@ -1,6 +1,6 @@
 import type { RadarItem } from "./schema";
 
-export type FeedTypeFilter = "all" | "news" | "official";
+export type FeedTypeFilter = "all" | "news" | "official" | "youtube";
 export type FeedScopeFilter = "primary" | "all";
 export type FeedSortOrder = "latest" | "relevance";
 
@@ -28,6 +28,7 @@ export type FeedItem = Pick<
   | "relevanceScore"
   | "relevanceTier"
   | "labels"
+  | "youtube"
 > & {
   searchTerms: string;
 };
@@ -64,6 +65,8 @@ type FeedSearchParams = Record<string, string | string[] | undefined> | undefine
 type FeedFilterOptions = {
   issueIds?: ReadonlySet<string>;
   personIds?: ReadonlySet<string>;
+  allowedTypes?: ReadonlySet<FeedTypeFilter>;
+  forcedType?: FeedTypeFilter;
 };
 
 function firstValue(value: string | string[] | undefined): string {
@@ -81,8 +84,15 @@ export function getFeedFiltersFromSearchParams(
   const personValue = firstValue(searchParams?.person);
   const queryValue = firstValue(searchParams?.q).trim().slice(0, 200);
 
+  const parsedType: FeedTypeFilter =
+    typeValue === "news" || typeValue === "official" || typeValue === "youtube"
+      ? typeValue
+      : "all";
+
   return {
-    type: typeValue === "news" || typeValue === "official" ? typeValue : "all",
+    type:
+      options.forcedType ??
+      (options.allowedTypes && !options.allowedTypes.has(parsedType) ? "all" : parsedType),
     scope: scopeValue === "all" ? "all" : "primary",
     sort: sortValue === "relevance" ? "relevance" : "latest",
     issueId:
@@ -116,6 +126,7 @@ export function toFeedItems(items: readonly RadarItem[]): FeedItem[] {
     relevanceScore: item.relevanceScore,
     relevanceTier: item.relevanceTier,
     labels: item.labels,
+    youtube: item.youtube,
     searchTerms: [
       ...item.matchedKeywords,
       ...(item.labels?.filter((label) => label !== "자동 수집") ?? [])

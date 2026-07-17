@@ -1,11 +1,11 @@
 "use client";
 
 import { LoaderCircle } from "lucide-react";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 import { FeedSnapshotMismatchError, fetchFeedPage } from "@/lib/feed-api";
 import type { FeedPage } from "@/lib/feed-page";
-import type { FeedFilters } from "@/lib/filter";
+import type { FeedFilters, FeedTypeFilter } from "@/lib/filter";
 import type { Issue, Person } from "@/lib/schema";
 import { EmptyState } from "./EmptyState";
 import { StoryFeedEntryCard } from "./StoryFeedEntryCard";
@@ -21,6 +21,13 @@ type PaginatedItemListProps = {
   emptyTitle: string;
 };
 
+const TYPE_OPTIONS: readonly [FeedTypeFilter, string][] = [
+  ["all", "전체"],
+  ["news", "뉴스"],
+  ["official", "공식"],
+  ["youtube", "유튜브"]
+];
+
 export function PaginatedItemList({
   fixedFilters,
   initialPage,
@@ -32,9 +39,35 @@ export function PaginatedItemList({
   emptyTitle
 }: PaginatedItemListProps) {
   const [results, setResults] = useState(initialPage);
+  const [typeFilter, setTypeFilter] = useState<FeedTypeFilter>(fixedFilters.type);
+  const [isFiltering, setIsFiltering] = useState(false);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [loadError, setLoadError] = useState(false);
+  const filterRequestId = useRef(0);
+  const activeFilters = { ...fixedFilters, type: typeFilter };
   const remainingCount = Math.max(0, results.totalEntries - results.entries.length);
+
+  const applyTypeFilter = async (nextType: FeedTypeFilter) => {
+    if (nextType === typeFilter || isFiltering) return;
+    const previousType = typeFilter;
+    const requestId = ++filterRequestId.current;
+    setTypeFilter(nextType);
+    setIsFiltering(true);
+    setLoadError(false);
+    setIsLoadingMore(false);
+
+    try {
+      const page = await fetchFeedPage({ ...fixedFilters, type: nextType }, 0);
+      if (filterRequestId.current === requestId) setResults(page);
+    } catch {
+      if (filterRequestId.current === requestId) {
+        setTypeFilter(previousType);
+        setLoadError(true);
+      }
+    } finally {
+      if (filterRequestId.current === requestId) setIsFiltering(false);
+    }
+  };
 
   const loadMore = async () => {
     if (isLoadingMore) return;
@@ -45,7 +78,7 @@ export function PaginatedItemList({
     setLoadError(false);
 
     try {
-      const nextPage = await fetchFeedPage(fixedFilters, requestedOffset, {
+      const nextPage = await fetchFeedPage(activeFilters, requestedOffset, {
         snapshot: requestedSnapshot
       });
       setResults((current) => {
@@ -67,7 +100,7 @@ export function PaginatedItemList({
     } catch (error) {
       if (error instanceof FeedSnapshotMismatchError) {
         try {
-          const freshPage = await fetchFeedPage(fixedFilters, 0, {
+          const freshPage = await fetchFeedPage(activeFilters, 0, {
             snapshot: error.snapshot
           });
           setResults(freshPage);
@@ -85,7 +118,7 @@ export function PaginatedItemList({
 
   return (
     <>
-      <div className="flex items-center justify-between gap-4 pb-2">
+      <div className="flex flex-col gap-3 pb-3 sm:flex-row sm:items-center sm:justify-between">
         <h2 className="text-sm font-black text-ink" id={headingId}>
           {heading}
         </h2>
@@ -97,7 +130,37 @@ export function PaginatedItemList({
           {results.totalEntries}개 주제·자료 · 원문 {results.totalItems}건
         </span>
       </div>
-      {results.entries.length > 0 ? (
+      <div
+        aria-label="관련 자료 유형"
+        className="mb-4 grid min-h-11 grid-cols-4 overflow-hidden rounded-control border border-rule bg-canvas sm:max-w-sm"
+        role="group"
+      >
+        {TYPE_OPTIONS.map(([value, label]) => {
+          const selected = typeFilter === value;
+          return (
+            <button
+              aria-pressed={selected}
+              className={`focus-ring motion-soft min-h-11 text-xs font-black ${
+                selected
+                  ? "bg-accent text-canvas"
+                  : "text-ink-soft hover:bg-paper hover:text-ink"
+              }`}
+              disabled={isFiltering}
+              key={value}
+              onClick={() => void applyTypeFilter(value)}
+              type="button"
+            >
+              {label}
+            </button>
+          );
+        })}
+      </div>
+      {isFiltering ? (
+        <div className="flex min-h-36 items-center justify-center border-y border-line text-sm font-bold text-ink-soft" role="status">
+          <LoaderCircle aria-hidden="true" className="mr-2 size-4 animate-spin" />
+          자료 유형을 적용하고 있습니다.
+        </div>
+      ) : results.entries.length > 0 ? (
         <>
           <div className="border-b border-rule" id="detail-feed-ledger">
             {results.entries.map((entry) => (

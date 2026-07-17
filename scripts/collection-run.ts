@@ -17,6 +17,13 @@ export type CollectorRunResult = {
   failed: number;
 };
 
+export type CollectorId = "naver" | "official" | "youtube";
+
+export type NamedCollectorRunResult = {
+  id: CollectorId;
+  result: CollectorRunResult;
+};
+
 type CollectionRunStatus = CollectionState["lastRunStatus"];
 
 function countItemsByCollectedAt(items: readonly RadarItem[]): Map<string, number> {
@@ -27,6 +34,72 @@ function countItemsByCollectedAt(items: readonly RadarItem[]): Map<string, numbe
   }
 
   return counts;
+}
+
+function itemBelongsToCollector(item: RadarItem, collectorId: CollectorId): boolean {
+  return collectorId === "naver"
+    ? item.sourceType === "news"
+    : item.sourceType === collectorId;
+}
+
+function updateCollectorStates({
+  previousState,
+  items,
+  retainedExistingItems,
+  collectorResults,
+  now
+}: {
+  previousState?: CollectionState;
+  items: RadarItem[];
+  retainedExistingItems: RadarItem[];
+  collectorResults: readonly NamedCollectorRunResult[];
+  now: Date;
+}): CollectionState["collectors"] {
+  if (collectorResults.length === 0 && !previousState?.collectors) {
+    return undefined;
+  }
+  const collectors = { ...(previousState?.collectors ?? {}) };
+
+  for (const { id, result } of collectorResults) {
+    const previous = collectors[id];
+    const totalItems = items.filter((item) => itemBelongsToCollector(item, id)).length;
+
+    if (result.attempted === 0) {
+      collectors[id] = previous
+        ? { ...previous, totalItems }
+        : {
+          lastCollectedAt: now.toISOString(),
+          lastRunStatus: "never",
+          lastRunNewItems: 0,
+          totalItems
+        };
+      continue;
+    }
+
+    const lastRunStatus = getCollectionRunStatus([result]);
+    const previousCounts = countItemsByCollectedAt(
+      retainedExistingItems.filter((item) => itemBelongsToCollector(item, id))
+    );
+    const currentCounts = countItemsByCollectedAt(
+      items.filter((item) => itemBelongsToCollector(item, id))
+    );
+    const lastRunNewItems = [...currentCounts].reduce(
+      (total, [collectedAt, count]) =>
+        total + Math.max(0, count - (previousCounts.get(collectedAt) ?? 0)),
+      0
+    );
+    collectors[id] = {
+      lastCollectedAt:
+        lastRunStatus === "failed" && previous
+          ? previous.lastCollectedAt
+          : now.toISOString(),
+      lastRunStatus,
+      lastRunNewItems,
+      totalItems
+    };
+  }
+
+  return collectors;
 }
 
 export type CollectionRunPersistence = {
@@ -83,13 +156,15 @@ export function prepareCollectionRun({
   results,
   now = new Date(),
   filterItems = (items) => items,
-  previousState
+  previousState,
+  collectorResults = []
 }: {
   existingItems: RadarItem[];
   results: readonly CollectorRunResult[];
   now?: Date;
   filterItems?: (items: RadarItem[]) => RadarItem[];
   previousState?: CollectionState;
+  collectorResults?: readonly NamedCollectorRunResult[];
 }): {
   items: RadarItem[];
   storyClusters: StoryClusterFile;
@@ -112,6 +187,13 @@ export function prepareCollectionRun({
     0
   );
   const lastRunStatus = getCollectionRunStatus(results);
+  const collectors = updateCollectorStates({
+    previousState,
+    items,
+    retainedExistingItems,
+    collectorResults,
+    now
+  });
 
   return {
     items,
@@ -123,7 +205,8 @@ export function prepareCollectionRun({
           : now.toISOString(),
       lastRunStatus,
       lastRunNewItems: newItemCount,
-      totalItems: items.length
+      totalItems: items.length,
+      ...(collectors ? { collectors } : {})
     },
     prunedItemCount: dedupedItems.length - items.length
   };
@@ -134,6 +217,7 @@ export async function persistCollectionRun(options: {
   results: readonly CollectorRunResult[];
   now?: Date;
   filterItems?: (items: RadarItem[]) => RadarItem[];
+  collectorResults?: readonly NamedCollectorRunResult[];
   persistence?: CollectionRunPersistence;
 }): Promise<ReturnType<typeof prepareCollectionRun>> {
   const persistence = options.persistence ?? defaultPersistence;

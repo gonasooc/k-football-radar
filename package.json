@@ -14,6 +14,8 @@
     "collect:local": "node --env-file=.env --import tsx scripts/update-data.ts",
     "collect:naver": "node --import tsx scripts/collect-naver-news.ts",
     "collect:official": "node --import tsx scripts/collect-official.ts",
+    "collect:youtube": "node --import tsx scripts/collect-youtube.ts",
+    "collect:youtube:local": "node --env-file=.env --import tsx scripts/collect-youtube.ts",
     "publish:r2": "node --import tsx scripts/publish-r2-data.ts",
     "reclassify:news": "node --import tsx scripts/reclassify-news.ts",
     "rebuild:story-clusters": "node --import tsx scripts/rebuild-story-clusters.ts",

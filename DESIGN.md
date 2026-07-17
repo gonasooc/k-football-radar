@@ -192,7 +192,7 @@ Elevation is minimal. The interface relies on rules, spacing, and tonal contrast
 ### Navigation
 
 - **Desktop:** centered masthead, small utility row, horizontal section navigation.
-- **Mobile:** masthead scales down and the three primary destinations stay in a fixed bottom navigation.
+- **Mobile:** masthead scales down and the five primary destinations stay in a fixed bottom navigation.
 - **Active State:** active section uses an accent underline and darker text.
 
 ### Article Rows
@@ -201,6 +201,13 @@ Elevation is minimal. The interface relies on rules, spacing, and tonal contrast
 - **Metadata:** source type, date, publisher, collected time.
 - **Body:** title first, summary second, tags third.
 - **Action:** every headline is the original link and carries a small external-link glyph; avoid a duplicate CTA in the same item.
+
+### Video Rows
+
+- **Structure:** preserve the article metadata, headline, summary, and tag rhythm, adding a 16:9 thumbnail before the text.
+- **Metadata:** show the YouTube source badge, channel, publication date, and duration without inventing a separate visual language.
+- **Shorts:** treat Shorts like any other video; duration is informative, not a filter.
+- **Live media:** live, upcoming, and completed-live records do not appear in the feed.
 
 ## 6. Do's and Don'ts
 

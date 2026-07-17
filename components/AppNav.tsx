@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Archive, Radio, ScanSearch } from "lucide-react";
+import { Archive, House, Newspaper, ScanSearch, Youtube } from "lucide-react";
 
 import { getActiveNavItem, navItems } from "@/lib/navigation";
 
@@ -31,12 +31,21 @@ export function AppNav() {
 
   const stickyLinks = navItems.map((item) => {
     const active = activeNavItem?.href === item.href;
-    const Icon = item.href === "/" ? Radio : item.href === "/tracking" ? ScanSearch : Archive;
+    const Icon =
+      item.href === "/"
+        ? House
+        : item.href === "/news"
+          ? Newspaper
+          : item.href === "/youtube"
+            ? Youtube
+            : item.href === "/tracking"
+              ? ScanSearch
+              : Archive;
 
     return (
       <Link
         aria-current={active ? "page" : undefined}
-        className={`focus-ring motion-soft flex min-h-14 flex-col items-center justify-center gap-1 border-t-2 px-1 text-center text-[11px] font-black leading-tight ${
+        className={`focus-ring motion-soft flex min-h-14 flex-col items-center justify-center gap-1 border-t-2 px-0.5 text-center text-[10px] font-black leading-tight ${
           active
             ? "border-accent text-ink"
             : "border-transparent text-ink-soft hover:border-rule hover:text-ink"
@@ -65,7 +74,7 @@ export function AppNav() {
         aria-label="모바일 주요 화면"
         className="fixed inset-x-0 bottom-0 z-50 block border-t border-rule bg-canvas px-3 pb-[calc(env(safe-area-inset-bottom)+4px)] pt-1 sm:hidden"
       >
-        <div className="mx-auto grid max-w-xl grid-cols-3">{stickyLinks}</div>
+        <div className="mx-auto grid max-w-xl grid-cols-5">{stickyLinks}</div>
       </nav>
     </>
   );

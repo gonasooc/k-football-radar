@@ -14,6 +14,8 @@ export type TrackingTab = {
 
 export const navItems: readonly NavItem[] = [
   { href: "/", label: "홈" },
+  { href: "/news", label: "뉴스" },
+  { href: "/youtube", label: "유튜브" },
   {
     href: "/tracking",
     label: "트래킹",

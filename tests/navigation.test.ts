@@ -9,10 +9,10 @@ import {
 } from "../lib/navigation";
 
 describe("navItems", () => {
-  it("uses home as the article feed and tracking as the single top-level entry for issues and people", () => {
+  it("exposes separate home, news, video, tracking, and sources destinations", () => {
     assert.deepEqual(
       navItems.map((item) => item.label),
-      ["홈", "트래킹", "출처"]
+      ["홈", "뉴스", "유튜브", "트래킹", "출처"]
     );
     assert.equal(navItems.some((item) => item.href === "/feed"), false);
     assert.equal(navItems.some((item) => item.href === "/issues"), false);
@@ -21,6 +21,11 @@ describe("navItems", () => {
 });
 
 describe("getActiveNavItem", () => {
+  it("marks the news and YouTube sections independently", () => {
+    assert.equal(getActiveNavItem("/news")?.href, "/news");
+    assert.equal(getActiveNavItem("/youtube")?.href, "/youtube");
+  });
+
   it("marks tracking active for tracking, issue detail, and person detail routes", () => {
     assert.equal(getActiveNavItem("/tracking")?.href, "/tracking");
     assert.equal(getActiveNavItem("/tracking?tab=people")?.href, "/tracking");

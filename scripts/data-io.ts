@@ -10,12 +10,14 @@ import {
   radarItemSchema,
   sourceSchema,
   storyClusterFileSchema,
+  youtubeSearchQuerySchema,
   type CollectionState,
   type Issue,
   type Person,
   type RadarItem,
   type Source,
-  type StoryClusterFile
+  type StoryClusterFile,
+  type YouTubeSearchQuery
 } from "../lib/schema";
 import { EMPTY_STORY_CLUSTER_FILE } from "../lib/story-clusters";
 
@@ -62,6 +64,10 @@ export async function readIssues(): Promise<Issue[]> {
 
 export async function readSources(): Promise<Source[]> {
   return sourceSchema.array().parse(await readJson("sources.json"));
+}
+
+export async function readYouTubeSearchQueries(): Promise<YouTubeSearchQuery[]> {
+  return youtubeSearchQuerySchema.array().parse(await readJson("youtube-queries.json"));
 }
 
 export async function readCollectionState(): Promise<CollectionState> {

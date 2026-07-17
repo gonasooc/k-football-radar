@@ -8,7 +8,7 @@ const feedClientSource = readFileSync(
 );
 const feedApiSource = readFileSync(new URL("../lib/feed-api.ts", import.meta.url), "utf8");
 const filterSource = readFileSync(new URL("../lib/filter.ts", import.meta.url), "utf8");
-const homePageSource = readFileSync(new URL("../app/page.tsx", import.meta.url), "utf8");
+const newsPageSource = readFileSync(new URL("../app/news/page.tsx", import.meta.url), "utf8");
 const loadingSkeletonsSource = readFileSync(
   new URL("../components/LoadingSkeletons.tsx", import.meta.url),
   "utf8"
@@ -31,8 +31,8 @@ describe("FeedClient performance", () => {
     assert.match(feedClientSource, /setIsLoadingMore\(false\)/);
     assert.match(feedClientSource, /더보기/);
     assert.match(feedClientSource, /MemoizedStoryFeedEntryCard/);
-    assert.match(homePageSource, /const initialPage = getFeedPage\(/);
-    assert.doesNotMatch(homePageSource, /items=\{feedItems\}/);
+    assert.match(newsPageSource, /const initialPage = getFeedPage\(/);
+    assert.doesNotMatch(newsPageSource, /items=\{feedItems\}/);
   });
 
   it("server-renders shared filters and keeps later changes in the page URL", () => {
@@ -42,9 +42,9 @@ describe("FeedClient performance", () => {
     assert.match(feedClientSource, /setSearchInput\(routeFilters\.query\)/);
     assert.match(feedClientSource, /window\.history\.replaceState/);
     assert.match(feedClientSource, /initialFilters: FeedFilters/);
-    assert.match(homePageSource, /getFeedFiltersFromSearchParams\(await searchParams/);
-    assert.match(homePageSource, /initialFilters=\{initialFilters\}/);
-    assert.match(homePageSource, /snapshot: getFeedContentRevision\(data\.items, data\.storyClusters\)/);
+    assert.match(newsPageSource, /getFeedFiltersFromSearchParams\(await searchParams/);
+    assert.match(newsPageSource, /initialFilters=\{initialFilters\}/);
+    assert.match(newsPageSource, /snapshot: getFeedContentRevision\(data\.items, data\.storyClusters\)/);
   });
 
   it("makes search progress visible even when the result count barely changes", () => {

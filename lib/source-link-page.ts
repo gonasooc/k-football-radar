@@ -11,7 +11,7 @@ import {
 
 export type SourceLinkItem = Pick<
   FeedItem,
-  "id" | "url" | "title" | "publisher" | "publishedAt"
+  "id" | "url" | "title" | "publisher" | "publishedAt" | "sourceType"
 >;
 
 export type SourceLinkPage = {
@@ -28,9 +28,10 @@ export function toSourceLinkItem({
   url,
   title,
   publisher,
-  publishedAt
+  publishedAt,
+  sourceType
 }: FeedItem): SourceLinkItem {
-  return { id, url, title, publisher, publishedAt };
+  return { id, url, title, publisher, publishedAt, sourceType };
 }
 
 export function getSourceLinkPage(

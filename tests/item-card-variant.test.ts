@@ -4,6 +4,7 @@ import { describe, it } from "node:test";
 
 const itemCardSource = readFileSync(new URL("../components/ItemCard.tsx", import.meta.url), "utf8");
 const homePageSource = readFileSync(new URL("../app/page.tsx", import.meta.url), "utf8");
+const newsPageSource = readFileSync(new URL("../app/news/page.tsx", import.meta.url), "utf8");
 const feedClientSource = readFileSync(
   new URL("../components/FeedClient.tsx", import.meta.url),
   "utf8"
@@ -106,10 +107,10 @@ describe("ItemCard variants", () => {
 
   it("keeps the feed controls visually compact", () => {
     assert.match(feedClientSource, /aria-label="피드 필터"/);
-    assert.match(
-      feedClientSource,
-      /grid-cols-\[minmax\(0,1fr\)_auto\].*lg:grid-cols-\[minmax\(260px,1fr\)_260px_auto\]/
-    );
+    assert.match(feedClientSource, /min-\[360px\]:grid-cols-\[minmax\(0,1fr\)_auto\]/);
+    assert.match(feedClientSource, /lg:grid-cols-\[minmax\(260px,1fr\)_260px_auto\]/);
+    assert.match(feedClientSource, /lg:grid-cols-\[minmax\(260px,1fr\)_auto\]/);
+    assert.match(feedClientSource, /showTypeFilter/);
     assert.match(feedClientSource, /sr-only">검색/);
     assert.match(feedClientSource, /h-11 w-full/);
     assert.match(feedClientSource, /min-h-11 text-xs font-black/);
@@ -128,20 +129,15 @@ describe("ItemCard variants", () => {
     assert.match(feedClientSource, /관련도순/);
   });
 
-  it("renders the home page as the searchable latest feed", () => {
-    assert.equal(homePageSource.includes("primaryItem"), false);
-    assert.equal(homePageSource.includes("secondaryItems"), false);
-    assert.equal(homePageSource.includes("remainingItems"), false);
-    assert.equal(homePageSource.includes("latestGridItems"), false);
-    assert.equal(homePageSource.includes("moreItems"), false);
-    assert.equal(homePageSource.includes("최신 큐"), false);
-    assert.equal(homePageSource.includes("최신 기사"), false);
-    assert.equal(homePageSource.includes("전체 피드"), false);
+  it("renders separate home previews and moves the searchable feed to news", () => {
+    assert.equal(homePageSource.match(/limit: 6/g)?.length, 2);
+    assert.equal(homePageSource.match(/<HomeFeedSection/g)?.length, 2);
+    assert.match(homePageSource, /href="\/news"/);
+    assert.match(homePageSource, /href="\/youtube"/);
+    assert.doesNotMatch(homePageSource, /<FeedClient/);
 
-    assert.match(homePageSource, /<h1/);
-    assert.doesNotMatch(homePageSource, /최신 동향/);
-    assert.match(homePageSource, /<h1 className="sr-only">/);
-    assert.match(homePageSource, /toFeedItems\(data\.items\)/);
-    assert.match(homePageSource, /<FeedClient/);
+    assert.match(newsPageSource, /toFeedItems\(newsItems\)/);
+    assert.match(newsPageSource, /<FeedClient/);
+    assert.match(newsPageSource, /mode="news"/);
   });
 });

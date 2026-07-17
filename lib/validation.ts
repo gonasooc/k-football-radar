@@ -107,6 +107,20 @@ export function validateDataBundle({
     );
   }
 
+  const collectorCounts = {
+    naver: items.filter((item) => item.sourceType === "news").length,
+    official: items.filter((item) => item.sourceType === "official").length,
+    youtube: items.filter((item) => item.sourceType === "youtube").length
+  };
+  for (const collectorId of ["naver", "official", "youtube"] as const) {
+    const collector = collectionState.collectors?.[collectorId];
+    if (collector && collector.totalItems !== collectorCounts[collectorId]) {
+      throw new Error(
+        `collection-state ${collectorId} totalItems=${collector.totalItems} does not match items=${collectorCounts[collectorId]}`
+      );
+    }
+  }
+
   const enabledOfficialSources = sources.filter(
     (source) => source.enabled && source.type === "official"
   );
@@ -156,7 +170,7 @@ export function validateStoryClusters(
         throw new Error(`Unknown story cluster member "${memberId}" in ${cluster.id}`);
       }
       if (item.type !== "news") {
-        throw new Error(`Official item "${memberId}" cannot belong to a story cluster`);
+        throw new Error(`Non-news item "${memberId}" cannot belong to a story cluster`);
       }
       if (assignedItemIds.has(memberId)) {
         throw new Error(`Story cluster member "${memberId}" is assigned more than once`);

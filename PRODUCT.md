@@ -12,7 +12,7 @@ Users arrive to scan current movement, compare sources, follow issue/person time
 
 ## Product Purpose
 
-The product collects metadata from Naver News and official sources, stores it as repository JSON, and renders a browsable dashboard, feed, issue index, people index, and source archive.
+The product collects metadata from Naver News, official sources, and keyword-based YouTube search, stores it as repository JSON, and renders a home overview plus separate news and video feeds, issue/person tracking, and a source archive.
 
 Success means a user can understand what changed recently, identify which issues and people are active, and verify every item through an original source link without reading a noisy feed from scratch.
 
@@ -38,6 +38,7 @@ The interface should feel like a clean digital newspaper desk: masthead, section
 4. Use editorial structure, not dashboard decoration. Borrow from front pages, article columns, desks, wires, tables, and publishing ledgers.
 5. Vary article rhythm. Lead stories, compact briefs, and row entries should prevent long feeds from becoming visually monotonous.
 6. Keep scanning fast. Filters, tags, dates, and source types should be predictable across routes.
+7. Respect media differences. News uses text-led story groupings; video keeps the same editorial rhythm while making its thumbnail, channel, and duration easy to scan.
 
 ## Accessibility & Inclusion
 

@@ -40,6 +40,7 @@ describe("Sources archive pagination", () => {
       "id",
       "publishedAt",
       "publisher",
+      "sourceType",
       "title",
       "url"
     ]);

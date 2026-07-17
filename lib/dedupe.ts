@@ -24,6 +24,19 @@ function uniqueSorted(values: string[]): string[] {
 export function canonicalizeUrl(rawUrl: string): string {
   try {
     const url = new URL(rawUrl);
+    const hostname = url.hostname.toLocaleLowerCase("en-US").replace(/^www\./, "");
+    const youtubeVideoId =
+      hostname === "youtu.be"
+        ? url.pathname.split("/").filter(Boolean)[0]
+        : hostname === "youtube.com" ||
+            hostname === "m.youtube.com" ||
+            hostname === "youtube-nocookie.com"
+          ? url.searchParams.get("v") ??
+            url.pathname.match(/^\/(?:shorts|live|embed)\/([^/?#]+)/)?.[1]
+          : undefined;
+    if (youtubeVideoId) {
+      return `https://www.youtube.com/watch?v=${encodeURIComponent(youtubeVideoId)}`;
+    }
     url.hash = "";
     for (const param of Array.from(url.searchParams.keys())) {
       const normalizedParam = param.toLocaleLowerCase("en-US");

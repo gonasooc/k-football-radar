@@ -35,7 +35,11 @@ export async function GET(request: Request) {
     );
   }
 
-  const page = getFeedPage(toFeedItems(data.items), filters, {
+  const sourceItems =
+    searchParams.source === "editorial"
+      ? data.items.filter((item) => item.sourceType !== "youtube")
+      : data.items;
+  const page = getFeedPage(toFeedItems(sourceItems), filters, {
     ...pagination,
     snapshot,
     storyClusters: data.storyClusters

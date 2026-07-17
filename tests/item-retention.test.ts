@@ -4,9 +4,11 @@ import assert from "node:assert/strict";
 import {
   DEFAULT_ITEM_RETENTION_DAYS,
   DEFAULT_MAX_RETAINED_ITEMS,
+  DEFAULT_MAX_RETAINED_YOUTUBE_ITEMS,
   applyItemRetentionPolicy,
   getItemRetentionDays,
   getMaxRetainedItems,
+  getMaxRetainedYouTubeItems,
   isPublishedAtWithinRetention
 } from "../lib/item-retention";
 import type { RadarItem } from "../lib/schema";
@@ -40,6 +42,15 @@ describe("item retention", () => {
     assert.equal(getMaxRetainedItems(undefined), DEFAULT_MAX_RETAINED_ITEMS);
     assert.equal(getMaxRetainedItems("500"), 500);
     assert.equal(getMaxRetainedItems("0"), DEFAULT_MAX_RETAINED_ITEMS);
+    assert.equal(
+      getMaxRetainedYouTubeItems(undefined),
+      DEFAULT_MAX_RETAINED_YOUTUBE_ITEMS
+    );
+    assert.equal(getMaxRetainedYouTubeItems("250"), 250);
+    assert.equal(
+      getMaxRetainedYouTubeItems("0"),
+      DEFAULT_MAX_RETAINED_YOUTUBE_ITEMS
+    );
   });
 
   it("keeps only items inside the published date window", () => {
@@ -81,6 +92,46 @@ describe("item retention", () => {
     assert.deepEqual(
       retained.map((record) => record.id),
       ["newest", "middle"]
+    );
+  });
+
+  it("caps editorial and YouTube items independently", () => {
+    const youtubeItem = (id: string, publishedAt: string): RadarItem => ({
+      ...item(id, publishedAt),
+      id: `youtube_${id}`,
+      type: "youtube",
+      sourceType: "youtube",
+      url: `https://www.youtube.com/watch?v=${id}`,
+      originalUrl: `https://www.youtube.com/watch?v=${id}`,
+      youtube: {
+        videoId: id,
+        channelId: "channel",
+        thumbnail: {
+          url: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+          width: 480,
+          height: 360
+        },
+        durationSeconds: 30
+      }
+    });
+    const retained = applyItemRetentionPolicy(
+      [
+        item("news-new", "2026-07-09T00:00:00.000Z"),
+        item("news-old", "2026-07-08T00:00:00.000Z"),
+        youtubeItem("video-new", "2026-07-09T00:00:00.000Z"),
+        youtubeItem("video-old", "2026-07-08T00:00:00.000Z")
+      ],
+      {
+        now: new Date("2026-07-09T00:00:00.000Z"),
+        retentionDays: 90,
+        maxItems: 1,
+        maxYouTubeItems: 1
+      }
+    );
+
+    assert.deepEqual(
+      new Set(retained.map((record) => record.id)),
+      new Set(["news-new", "youtube_video-new"])
     );
   });
 });

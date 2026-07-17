@@ -150,6 +150,74 @@ describe("collection run state", () => {
     });
   });
 
+  it("tracks named collector state without counting a changed representative as new", () => {
+    const existingItem: RadarItem = {
+      ...item("existing"),
+      type: "youtube",
+      sourceType: "youtube",
+      isOfficial: false,
+      url: "https://www.youtube.com/watch?v=video-1",
+      originalUrl: "https://www.youtube.com/watch?v=video-1",
+      youtube: {
+        videoId: "video-1",
+        channelId: "channel-1",
+        thumbnail: {
+          url: "https://i.ytimg.com/vi/video-1/hqdefault.jpg",
+          width: 480,
+          height: 360
+        },
+        durationSeconds: 90
+      }
+    };
+    const recollectedItem = {
+      ...existingItem,
+      id: "youtube_video-1",
+      collectedAt: "2026-07-13T00:00:00.000Z"
+    };
+    const resultValue = result({ items: [recollectedItem] });
+    const update = prepareCollectionRun({
+      existingItems: [existingItem],
+      results: [resultValue],
+      collectorResults: [{ id: "youtube", result: resultValue }],
+      now: new Date("2026-07-13T01:00:00.000Z")
+    });
+
+    assert.equal(update.state.collectors?.youtube?.lastRunStatus, "success");
+    assert.equal(update.state.collectors?.youtube?.lastRunNewItems, 0);
+    assert.equal(update.state.collectors?.youtube?.totalItems, 1);
+  });
+
+  it("refreshes a skipped collector total after retention without advancing its run", () => {
+    const existingItem = item("expired", "2026-01-01T00:00:00.000Z");
+    const previousState: CollectionState = {
+      lastCollectedAt: "2026-07-12T08:00:00.000Z",
+      lastRunStatus: "success",
+      lastRunNewItems: 0,
+      totalItems: 1,
+      collectors: {
+        official: {
+          lastCollectedAt: "2026-07-12T08:00:00.000Z",
+          lastRunStatus: "success",
+          lastRunNewItems: 0,
+          totalItems: 1
+        }
+      }
+    };
+    const skipped = result({ attempted: 0, succeeded: 0, failed: 0 });
+    const update = prepareCollectionRun({
+      existingItems: [existingItem],
+      results: [skipped],
+      collectorResults: [{ id: "official", result: skipped }],
+      previousState,
+      now: new Date("2026-07-13T01:00:00.000Z")
+    });
+
+    assert.deepEqual(update.state.collectors?.official, {
+      ...previousState.collectors?.official,
+      totalItems: 0
+    });
+  });
+
   it("merges successful items while retaining existing items on a partial run", () => {
     const update = prepareCollectionRun({
       existingItems: [item("existing")],

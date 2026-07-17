@@ -1,0 +1,52 @@
+[
+  {
+    "id": "kfa-core",
+    "query": "\"대한축구협회\"|\"축구협회\"|\"KFA\"",
+    "enabled": true
+  },
+  {
+    "id": "innovation",
+    "query": "\"K-축구혁신위원회\"|\"축구혁신위\"|\"축구 혁신\"",
+    "enabled": true
+  },
+  {
+    "id": "election-rules",
+    "query": "\"축구협회 회장 선거\"|\"축구협회 선거인단\"|\"축구협회 정관\"",
+    "enabled": true
+  },
+  {
+    "id": "audit-accountability",
+    "query": "\"문체부 감사\"|\"축구협회 감사\"|\"축구협회 해명\"|\"축구협회 청문회\"",
+    "enabled": true
+  },
+  {
+    "id": "coach-appointment",
+    "query": "\"전력강화위원회\"|\"대표팀 감독 선임\"|\"감독 선임 절차\"",
+    "enabled": true
+  },
+  {
+    "id": "executives",
+    "query": "\"대한축구협회 임원\"|\"축구협회 이사회\"|\"축구협회 집행부\"",
+    "enabled": true
+  },
+  {
+    "id": "youth-governance",
+    "query": "\"대한축구협회 유소년\"|\"한국프로축구연맹 유소년\"|\"축구 지도자 제도\"",
+    "enabled": true
+  },
+  {
+    "id": "people-a",
+    "query": "\"정몽규 대한축구협회\"|\"허정무 대한축구협회\"|\"홍명보 감독 선임\"",
+    "enabled": true
+  },
+  {
+    "id": "people-b",
+    "query": "\"박지성 축구 혁신\"|\"이임생 감독 선임\"|\"김병지 대한축구협회\"",
+    "enabled": true
+  },
+  {
+    "id": "people-c",
+    "query": "\"이용수 대한축구협회\"|\"김승희 대한축구협회\"|\"현영민 전력강화위원회\"|\"전한진 대한축구협회\"",
+    "enabled": true
+  }
+]

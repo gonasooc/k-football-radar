@@ -7,7 +7,7 @@ import { getTrackingTabFromSearchParams, trackingTabs } from "@/lib/navigation";
 
 export const metadata: Metadata = {
   title: "트래킹",
-  description: "한국축구 거버넌스 이슈와 인물별 관련 기사와 공식자료를 확인합니다."
+  description: "한국축구 거버넌스 이슈와 인물별 뉴스·공식자료·유튜브 영상을 확인합니다."
 };
 
 export const dynamic = "force-dynamic";
@@ -60,7 +60,7 @@ export default async function TrackingPage({ searchParams }: TrackingPageProps) 
             })}
           </nav>
         }
-        description="이슈와 인물 중심으로 관련 기사와 공식자료를 확인합니다."
+        description="이슈와 인물 중심으로 관련 뉴스·공식자료·유튜브 영상을 확인합니다."
         title="트래킹"
       />
 

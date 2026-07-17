@@ -18,13 +18,16 @@ async function fetchPage<T>(
   offset: number,
   {
     signal,
-    snapshot
+    snapshot,
+    sourceScope
   }: {
     signal?: AbortSignal;
     snapshot?: string;
+    sourceScope?: "editorial";
   } = {}
 ): Promise<T> {
   const params = getFeedRequestSearchParams(filters, { offset, snapshot });
+  if (sourceScope) params.set("source", sourceScope);
   const response = await fetch(`${path}?${params.toString()}`, { signal });
 
   if (response.status === 409) {
@@ -59,6 +62,7 @@ export function fetchFeedPage(
   options: {
     signal?: AbortSignal;
     snapshot?: string;
+    sourceScope?: "editorial";
   } = {}
 ): Promise<FeedPage> {
   return fetchPage<FeedPage>("/api/feed", filters, offset, options);

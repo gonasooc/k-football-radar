@@ -36,6 +36,18 @@ describe("canonicalizeUrl", () => {
       "https://example.com/news/1?a=1&b=2"
     );
   });
+
+  it("normalizes YouTube watch, short, embed, and share URLs to one video URL", () => {
+    const expected = "https://www.youtube.com/watch?v=abc-123";
+
+    assert.equal(canonicalizeUrl("https://youtu.be/abc-123?t=3"), expected);
+    assert.equal(canonicalizeUrl("https://m.youtube.com/shorts/abc-123"), expected);
+    assert.equal(canonicalizeUrl("https://www.youtube.com/embed/abc-123"), expected);
+    assert.equal(
+      canonicalizeUrl("https://www.youtube.com/watch?v=abc-123&utm_source=test"),
+      expected
+    );
+  });
 });
 
 describe("dedupeItems", () => {

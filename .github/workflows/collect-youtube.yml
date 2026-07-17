@@ -1,0 +1,84 @@
+name: Collect Korea Football Radar YouTube Data
+
+on:
+  schedule:
+    - cron: "17 0,12 * * *"
+  workflow_dispatch:
+    inputs:
+      published_after:
+        description: Optional RFC 3339 start for a backfill window
+        required: false
+        type: string
+      published_before:
+        description: Optional RFC 3339 end for a backfill window
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-radar-data
+  cancel-in-progress: false
+
+jobs:
+  collect-youtube:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          run_install: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Collect YouTube videos
+        run: pnpm run collect:youtube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_BACKFILL_DAYS: "90"
+          YOUTUBE_MAX_PAGES_PER_QUERY: "2"
+          YOUTUBE_PUBLISHED_AFTER: ${{ inputs.published_after }}
+          YOUTUBE_PUBLISHED_BEFORE: ${{ inputs.published_before }}
+
+      - name: Validate data
+        run: pnpm run validate:data
+
+      - name: Commit updated data
+        run: |
+          git config user.name "korea-football-radar-bot"
+          git config user.email "korea-football-radar-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+            exit 0
+          fi
+          git commit -m "Update YouTube radar data"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            git fetch origin main
+            sleep $((attempt * 5))
+          done
+          exit 1
+
+      - name: Publish data snapshot to R2
+        run: pnpm run publish:r2
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET_NAME: ${{ vars.R2_BUCKET_NAME }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}

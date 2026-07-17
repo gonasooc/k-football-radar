@@ -66,4 +66,35 @@ describe("radarItemSchema", () => {
       false
     );
   });
+
+  it("requires complete metadata for YouTube items and forbids it elsewhere", () => {
+    const youtubeItem = {
+      ...validRadarItem,
+      id: "youtube_video-1",
+      type: "youtube",
+      sourceType: "youtube",
+      url: "https://www.youtube.com/watch?v=video-1",
+      originalUrl: "https://www.youtube.com/watch?v=video-1",
+      youtube: {
+        videoId: "video-1",
+        channelId: "channel-1",
+        thumbnail: {
+          url: "https://i.ytimg.com/vi/video-1/hqdefault.jpg",
+          width: 480,
+          height: 360
+        },
+        durationSeconds: 75
+      }
+    };
+
+    assert.equal(radarItemSchema.safeParse(youtubeItem).success, true);
+    assert.equal(
+      radarItemSchema.safeParse({ ...youtubeItem, youtube: undefined }).success,
+      false
+    );
+    assert.equal(
+      radarItemSchema.safeParse({ ...validRadarItem, youtube: youtubeItem.youtube }).success,
+      false
+    );
+  });
 });

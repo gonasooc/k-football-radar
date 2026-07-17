@@ -7,6 +7,13 @@
     "enabled": true
   },
   {
+    "id": "youtube_search",
+    "name": "YouTube Data API",
+    "type": "video-api",
+    "url": "https://developers.google.com/youtube/v3/docs/search/list",
+    "enabled": true
+  },
+  {
     "id": "kfa_media",
     "name": "KFA 미디어채널",
     "type": "official",

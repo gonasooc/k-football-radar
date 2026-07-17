@@ -5,6 +5,7 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
 export const DEFAULT_ITEM_RETENTION_DAYS = 90;
 export const DEFAULT_MAX_RETAINED_ITEMS = 2000;
+export const DEFAULT_MAX_RETAINED_YOUTUBE_ITEMS = 500;
 
 function parseBoundedInteger({
   value,
@@ -51,6 +52,17 @@ export function getMaxRetainedItems(
   });
 }
 
+export function getMaxRetainedYouTubeItems(
+  value = process.env.MAX_RETAINED_YOUTUBE_ITEMS
+): number {
+  return parseBoundedInteger({
+    value,
+    fallback: DEFAULT_MAX_RETAINED_YOUTUBE_ITEMS,
+    min: 1,
+    max: 100000
+  });
+}
+
 export function isPublishedAtWithinRetention({
   publishedAt,
   now = new Date(),
@@ -74,20 +86,28 @@ export function applyItemRetentionPolicy(
   {
     now = new Date(),
     retentionDays = getItemRetentionDays(),
-    maxItems = getMaxRetainedItems()
+    maxItems = getMaxRetainedItems(),
+    maxYouTubeItems = getMaxRetainedYouTubeItems()
   }: {
     now?: Date;
     retentionDays?: number;
     maxItems?: number;
+    maxYouTubeItems?: number;
   } = {}
 ): RadarItem[] {
-  return sortItemsLatestFirst(
-    items.filter((item) =>
-      isPublishedAtWithinRetention({
-        publishedAt: item.publishedAt,
-        now,
-        retentionDays
-      })
-    )
+  const retained = items.filter((item) =>
+    isPublishedAtWithinRetention({
+      publishedAt: item.publishedAt,
+      now,
+      retentionDays
+    })
+  );
+  const standardItems = sortItemsLatestFirst(
+    retained.filter((item) => item.sourceType !== "youtube")
   ).slice(0, maxItems);
+  const youtubeItems = sortItemsLatestFirst(
+    retained.filter((item) => item.sourceType === "youtube")
+  ).slice(0, maxYouTubeItems);
+
+  return sortItemsLatestFirst([...standardItems, ...youtubeItems]);
 }

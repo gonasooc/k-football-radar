@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PersonDetailPageProps): Promi
 
   return {
     title: person.name,
-    description: `${person.name} (${person.role}) 관련 한국축구 기사와 공식자료를 확인합니다.`
+    description: `${person.name} (${person.role}) 관련 한국축구 뉴스·공식자료·유튜브 영상을 확인합니다.`
   };
 }
 

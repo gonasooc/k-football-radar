@@ -86,7 +86,7 @@ describe("story cluster validation", () => {
     };
     assert.throws(
       () => validateStoryClusters([official, news], officialCluster),
-      /Official item/
+      /Non-news item/
     );
 
     const items = [

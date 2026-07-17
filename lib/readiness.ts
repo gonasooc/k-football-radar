@@ -5,6 +5,7 @@ export type ReadinessInput = {
   variableNames: string[];
   latestCiConclusion: WorkflowConclusion;
   latestCollectConclusion: WorkflowConclusion;
+  latestYouTubeCollectConclusion: WorkflowConclusion;
 };
 
 export type ReadinessCheck = {
@@ -68,6 +69,13 @@ export function evaluateReadiness(input: ReadinessInput): ReadinessReport {
       type: "secret"
     }),
     configurationCheck({
+      id: "youtube-api-key",
+      label: "GitHub secret YOUTUBE_API_KEY",
+      names: input.secretNames,
+      requiredName: "YOUTUBE_API_KEY",
+      type: "secret"
+    }),
+    configurationCheck({
       id: "r2-access-key-id",
       label: "GitHub secret R2_ACCESS_KEY_ID",
       names: input.secretNames,
@@ -100,6 +108,11 @@ export function evaluateReadiness(input: ReadinessInput): ReadinessReport {
       "collect-workflow",
       "Latest collect workflow",
       input.latestCollectConclusion
+    ),
+    workflowCheck(
+      "youtube-collect-workflow",
+      "Latest YouTube collect workflow",
+      input.latestYouTubeCollectConclusion
     )
   ];
 

@@ -195,6 +195,26 @@ describe("getFeedFiltersFromSearchParams", () => {
       query: ""
     });
   });
+
+  it("supports a forced YouTube type while preserving shared filters", () => {
+    assert.deepEqual(
+      getFeedFiltersFromSearchParams(
+        { type: "news", scope: "all", issue: "election", q: "선거" },
+        {
+          forcedType: "youtube",
+          issueIds: new Set(["election"])
+        }
+      ),
+      {
+        type: "youtube",
+        scope: "all",
+        sort: "latest",
+        issueId: "election",
+        personId: "all",
+        query: "선거"
+      }
+    );
+  });
 });
 
 describe("toFeedItems", () => {

@@ -24,7 +24,7 @@ export function getDashboardStats({
 
   return {
     lastCollectedAt: collectionState.lastCollectedAt,
-    totalItems: collectionState.totalItems,
+    totalItems: items.length,
     newItems24h: recentItems.length,
     officialItems24h: recentItems.filter((item) => item.isOfficial).length,
     newsItems24h: recentItems.filter((item) => item.sourceType === "news").length

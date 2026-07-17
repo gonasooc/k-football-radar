@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css";
@@ -7,7 +7,7 @@ import { AppNav } from "@/components/AppNav";
 import "./globals.css";
 
 const siteName = "Korea Football Radar";
-const siteDescription = "한국축구 이슈 뉴스와 공식자료 메타데이터를 모아 보는 정보 레이더";
+const siteDescription = "한국축구 이슈 뉴스·공식자료와 유튜브 영상을 모아 보는 정보 레이더";
 const openGraphImage = {
   url: "/brand/korea-football-radar-og.png",
   width: 800,
@@ -47,6 +47,12 @@ export const metadata: Metadata = {
   }
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover"
+};
+
 export default function RootLayout({
   children
 }: Readonly<{
@@ -79,7 +85,7 @@ export default function RootLayout({
                 />
               </Link>
               <p className="hidden max-w-md text-right text-xs font-semibold leading-5 text-ink-soft lg:block">
-                한국축구 이슈와 공식자료를 한곳에 모은 뉴스 레이더
+                한국축구 이슈의 뉴스와 영상을 한곳에 모은 정보 레이더
               </p>
             </div>
 

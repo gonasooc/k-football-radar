@@ -20,6 +20,7 @@ type FeedRevisionItem = Pick<
   | "relevanceScore"
   | "relevanceTier"
   | "labels"
+  | "youtube"
 >;
 
 function compareIds(left: { id: string }, right: { id: string }): number {
@@ -41,7 +42,8 @@ function toFeedRevisionItem(item: RadarItem): FeedRevisionItem {
     sourceType: item.sourceType,
     relevanceScore: item.relevanceScore,
     relevanceTier: item.relevanceTier,
-    labels: item.labels
+    labels: item.labels,
+    youtube: item.youtube
   };
 }
 

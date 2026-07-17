@@ -50,19 +50,27 @@ async function getLatestWorkflowConclusion(workflowName: string): Promise<Workfl
 }
 
 async function main(): Promise<void> {
-  const [secretNames, variableNames, latestCiConclusion, latestCollectConclusion] =
+  const [
+    secretNames,
+    variableNames,
+    latestCiConclusion,
+    latestCollectConclusion,
+    latestYouTubeCollectConclusion
+  ] =
     await Promise.all([
       getSecretNames(),
       getVariableNames(),
       getLatestWorkflowConclusion("CI"),
-      getLatestWorkflowConclusion("Collect Korea Football Radar Data")
+      getLatestWorkflowConclusion("Collect Korea Football Radar Data"),
+      getLatestWorkflowConclusion("Collect Korea Football Radar YouTube Data")
     ]);
 
   const report = evaluateReadiness({
     secretNames,
     variableNames,
     latestCiConclusion,
-    latestCollectConclusion
+    latestCollectConclusion,
+    latestYouTubeCollectConclusion
   });
 
   for (const check of report.checks) {

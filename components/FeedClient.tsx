@@ -38,11 +38,14 @@ const SCOPE_HELP_TEXT =
   "주요는 관련도가 높은 기본 수집 항목만 보여줍니다. 전체는 보조 수집 항목까지 포함합니다. 검색어가 있으면 보조 수집도 함께 찾습니다.";
 const MemoizedStoryFeedEntryCard = memo(StoryFeedEntryCard);
 
-const TYPE_OPTIONS: readonly [FeedTypeFilter, string][] = [
+const NEWS_TYPE_OPTIONS: readonly [FeedTypeFilter, string][] = [
   ["all", "전체"],
   ["news", "뉴스"],
   ["official", "공식"]
 ];
+const NEWS_ALLOWED_TYPES = new Set<FeedTypeFilter>(
+  NEWS_TYPE_OPTIONS.map(([value]) => value)
+);
 
 const SCOPE_OPTIONS: readonly [FeedScopeFilter, string][] = [
   ["primary", "주요"],
@@ -59,10 +62,13 @@ type FeedClientProps = {
   initialPage: FeedPage;
   issues: Issue[];
   people: Person[];
+  mode?: "news" | "youtube";
 };
 
-function syncFiltersToUrl(filters: FeedFilters) {
-  const queryString = getFeedRequestSearchParams(filters).toString();
+function syncFiltersToUrl(filters: FeedFilters, omitType = false) {
+  const params = getFeedRequestSearchParams(filters);
+  if (omitType) params.delete("type");
+  const queryString = params.toString();
   const nextUrl = queryString ? `${window.location.pathname}?${queryString}` : window.location.pathname;
   const currentUrl = `${window.location.pathname}${window.location.search}`;
 
@@ -71,7 +77,18 @@ function syncFiltersToUrl(filters: FeedFilters) {
   }
 }
 
-export function FeedClient({ initialFilters, initialPage, issues, people }: FeedClientProps) {
+export function FeedClient({
+  initialFilters,
+  initialPage,
+  issues,
+  people,
+  mode = "news"
+}: FeedClientProps) {
+  const baseFilters = useMemo<FeedFilters>(
+    () => ({ ...defaultFeedFilters, type: mode === "youtube" ? "youtube" : "all" }),
+    [mode]
+  );
+  const showTypeFilter = mode === "news";
   const routeSearchParams = useSearchParams();
   const issueIds = useMemo(() => new Set(issues.map((issue) => issue.id)), [issues]);
   const personIds = useMemo(() => new Set(people.map((person) => person.id)), [people]);
@@ -80,10 +97,12 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
       routeSearchParams
         ? getFeedFiltersFromSearchParams(Object.fromEntries(routeSearchParams.entries()), {
             issueIds,
-            personIds
+            personIds,
+            allowedTypes: mode === "news" ? NEWS_ALLOWED_TYPES : undefined,
+            forcedType: mode === "youtube" ? "youtube" : undefined
           })
         : initialFilters,
-    [initialFilters, issueIds, personIds, routeSearchParams]
+    [initialFilters, issueIds, mode, personIds, routeSearchParams]
   );
   const routeFilterKey = getFeedRequestSearchParams(routeFilters).toString();
   const [typeFilter, setTypeFilter] = useState<FeedTypeFilter>(initialFilters.type);
@@ -164,7 +183,7 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
     activeFilterKey.current = filterKey;
     loadMoreRequestId.current += 1;
     setIsLoadingMore(false);
-    syncFiltersToUrl(appliedFilters);
+    syncFiltersToUrl(appliedFilters, mode === "youtube");
 
     if (skipInitialRequest.current) {
       skipInitialRequest.current = false;
@@ -176,7 +195,10 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
     setIsResultsLoading(true);
     setLoadError(false);
 
-    fetchFeedPage(appliedFilters, 0, { signal: controller.signal })
+    fetchFeedPage(appliedFilters, 0, {
+      signal: controller.signal,
+      sourceScope: mode === "news" ? "editorial" : undefined
+    })
       .then((page) => {
         if (filterRequestId.current === requestId && activeFilterKey.current === filterKey) {
           setResults(page);
@@ -206,16 +228,16 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
       });
 
     return () => controller.abort();
-  }, [appliedFilters, filterKey]);
+  }, [appliedFilters, filterKey, mode]);
 
   const resetFilters = () => {
-    setTypeFilter(defaultFeedFilters.type);
-    setScopeFilter(defaultFeedFilters.scope);
-    setSortOrder(defaultFeedFilters.sort);
-    setIssueFilter(defaultFeedFilters.issueId);
-    setPersonFilter(defaultFeedFilters.personId);
-    setSearchInput(defaultFeedFilters.query);
-    setQuery(defaultFeedFilters.query);
+    setTypeFilter(baseFilters.type);
+    setScopeFilter(baseFilters.scope);
+    setSortOrder(baseFilters.sort);
+    setIssueFilter(baseFilters.issueId);
+    setPersonFilter(baseFilters.personId);
+    setSearchInput(baseFilters.query);
+    setQuery(baseFilters.query);
     setShowScopeHelp(false);
     setShowAdvancedFilters(false);
   };
@@ -234,7 +256,8 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
 
     try {
       const page = await fetchFeedPage(appliedFilters, requestedOffset, {
-        snapshot: requestedSnapshot
+        snapshot: requestedSnapshot,
+        sourceScope: mode === "news" ? "editorial" : undefined
       });
       if (
         loadMoreRequestId.current !== requestId ||
@@ -268,7 +291,8 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
       if (error instanceof FeedSnapshotMismatchError) {
         try {
           const freshPage = await fetchFeedPage(appliedFilters, 0, {
-            snapshot: error.snapshot
+            snapshot: error.snapshot,
+            sourceScope: mode === "news" ? "editorial" : undefined
           });
           if (
             loadMoreRequestId.current === requestId &&
@@ -305,18 +329,18 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
   const isSearchPending = normalizedSearchInput !== query;
   const isResultsPending = isSearchPending || isResultsLoading;
   const hasActiveFilters =
-    typeFilter !== defaultFeedFilters.type ||
-    scopeFilter !== defaultFeedFilters.scope ||
-    sortOrder !== defaultFeedFilters.sort ||
-    issueFilter !== defaultFeedFilters.issueId ||
-    personFilter !== defaultFeedFilters.personId ||
+    typeFilter !== baseFilters.type ||
+    scopeFilter !== baseFilters.scope ||
+    sortOrder !== baseFilters.sort ||
+    issueFilter !== baseFilters.issueId ||
+    personFilter !== baseFilters.personId ||
     normalizedSearchInput !== "" ||
     query !== "";
   const filterControlCount =
-    Number(typeFilter !== defaultFeedFilters.type) +
-    Number(scopeFilter !== defaultFeedFilters.scope) +
-    Number(issueFilter !== defaultFeedFilters.issueId) +
-    Number(personFilter !== defaultFeedFilters.personId);
+    Number(showTypeFilter && typeFilter !== baseFilters.type) +
+    Number(scopeFilter !== baseFilters.scope) +
+    Number(issueFilter !== baseFilters.issueId) +
+    Number(personFilter !== baseFilters.personId);
   const hasSearchQuery = query.length > 0;
   const gridEntries = hasSearchQuery
     ? []
@@ -324,18 +348,24 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
   const listEntries = hasSearchQuery
     ? results.entries
     : results.entries.slice(FEATURED_ITEM_COUNT);
-  let feedScopeLabel = "전체 피드";
+  let feedScopeLabel = mode === "youtube" ? "전체 영상" : "전체 피드";
 
   if (hasSearchQuery) {
-    feedScopeLabel = "전체 검색";
+    feedScopeLabel = mode === "youtube" ? "영상 검색" : "전체 검색";
   } else if (scopeFilter === "primary") {
-    feedScopeLabel = "주요 피드";
+    feedScopeLabel = mode === "youtube" ? "주요 영상" : "주요 피드";
   }
 
   return (
     <div className="space-y-5">
       <section aria-label="피드 필터" className="border-y border-rule py-3">
-        <div className="grid grid-cols-1 gap-2 min-[360px]:grid-cols-[minmax(0,1fr)_auto] lg:grid-cols-[minmax(260px,1fr)_260px_auto]">
+        <div
+          className={`grid grid-cols-1 gap-2 min-[360px]:grid-cols-[minmax(0,1fr)_auto] ${
+            showTypeFilter
+              ? "lg:grid-cols-[minmax(260px,1fr)_260px_auto]"
+              : "lg:grid-cols-[minmax(260px,1fr)_auto]"
+          }`}
+        >
           <label className="relative min-w-0">
             <span className="sr-only">검색</span>
             <Search
@@ -346,35 +376,47 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
               className="focus-ring h-11 w-full rounded-control border-line bg-canvas pl-10 pr-3 text-base font-semibold text-ink placeholder:text-muted md:text-sm"
               maxLength={200}
               onChange={(event) => setSearchInput(event.target.value)}
-              placeholder="제목, 출처, 키워드 검색"
+              placeholder={
+                mode === "youtube"
+                  ? "영상 제목, 채널, 키워드 검색"
+                  : "제목, 출처, 키워드 검색"
+              }
               type="search"
               value={searchInput}
             />
           </label>
 
-          <div className="hidden h-11 min-w-0 overflow-hidden rounded-control border border-rule bg-canvas lg:flex">
-            <span className="flex shrink-0 items-center border-r border-line bg-paper px-3 text-[11px] font-black text-muted">
-              유형
-            </span>
-            <div aria-label="자료 유형" className="grid min-w-0 flex-1 grid-cols-3" role="group">
-              {TYPE_OPTIONS.map(([value, label]) => {
-                const selected = typeFilter === value;
-                return (
-                  <button
-                    aria-pressed={selected}
-                    className={`focus-ring motion-soft min-h-11 text-xs font-black ${
-                      selected ? "bg-accent text-canvas" : "text-ink-soft hover:bg-paper hover:text-ink"
-                    }`}
-                    key={value}
-                    onClick={() => setTypeFilter(value)}
-                    type="button"
-                  >
-                    {label}
-                  </button>
-                );
-              })}
+          {showTypeFilter ? (
+            <div className="hidden h-11 min-w-0 overflow-hidden rounded-control border border-rule bg-canvas lg:flex">
+              <span className="flex shrink-0 items-center border-r border-line bg-paper px-3 text-[11px] font-black text-muted">
+                유형
+              </span>
+              <div
+                aria-label="자료 유형"
+                className="grid min-w-0 flex-1 grid-cols-3"
+                role="group"
+              >
+                {NEWS_TYPE_OPTIONS.map(([value, label]) => {
+                  const selected = typeFilter === value;
+                  return (
+                    <button
+                      aria-pressed={selected}
+                      className={`focus-ring motion-soft min-h-11 text-xs font-black ${
+                        selected
+                          ? "bg-accent text-canvas"
+                          : "text-ink-soft hover:bg-paper hover:text-ink"
+                      }`}
+                      key={value}
+                      onClick={() => setTypeFilter(value)}
+                      type="button"
+                    >
+                      {label}
+                    </button>
+                  );
+                })}
+              </div>
             </div>
-          </div>
+          ) : null}
 
           <div className="flex gap-2">
             <button
@@ -409,33 +451,37 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
         {showAdvancedFilters ? (
           <div className="mt-3 border-t border-line pt-3" id={ADVANCED_FILTERS_ID}>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-[minmax(220px,0.8fr)_1fr_1fr]">
-              <div className="lg:hidden">
-                <span className="mb-1.5 flex min-h-7 items-center text-[11px] font-black text-muted">
-                  자료 유형
-                </span>
-                <div
-                  aria-label="모바일 자료 유형"
-                  className="grid h-11 grid-cols-3 overflow-hidden rounded-control border border-rule bg-canvas"
-                  role="group"
-                >
-                  {TYPE_OPTIONS.map(([value, label]) => {
-                    const selected = typeFilter === value;
-                    return (
-                      <button
-                        aria-pressed={selected}
-                        className={`focus-ring motion-soft min-h-11 text-xs font-black ${
-                          selected ? "bg-accent text-canvas" : "text-ink-soft hover:bg-paper hover:text-ink"
-                        }`}
-                        key={value}
-                        onClick={() => setTypeFilter(value)}
-                        type="button"
-                      >
-                        {label}
-                      </button>
-                    );
-                  })}
+              {showTypeFilter ? (
+                <div className="lg:hidden">
+                  <span className="mb-1.5 flex min-h-7 items-center text-[11px] font-black text-muted">
+                    자료 유형
+                  </span>
+                  <div
+                    aria-label="모바일 자료 유형"
+                    className="grid h-11 grid-cols-3 overflow-hidden rounded-control border border-rule bg-canvas"
+                    role="group"
+                  >
+                    {NEWS_TYPE_OPTIONS.map(([value, label]) => {
+                      const selected = typeFilter === value;
+                      return (
+                        <button
+                          aria-pressed={selected}
+                          className={`focus-ring motion-soft min-h-11 text-xs font-black ${
+                            selected
+                              ? "bg-accent text-canvas"
+                              : "text-ink-soft hover:bg-paper hover:text-ink"
+                          }`}
+                          key={value}
+                          onClick={() => setTypeFilter(value)}
+                          type="button"
+                        >
+                          {label}
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
-              </div>
+              ) : null}
 
               <div
                 className="relative"
@@ -550,8 +596,12 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
                 </span>
               ) : null}
               {hasSearchQuery ? <span className="text-muted"> · </span> : null}
-              <span className="text-ink">{results.totalEntries}개 주제·자료</span>
-              <span className="text-muted"> · 원문 {results.totalItems}건</span>
+              <span className="text-ink">
+                {results.totalEntries}개 {mode === "youtube" ? "영상" : "주제·자료"}
+              </span>
+              {mode === "news" ? (
+                <span className="text-muted"> · 원문 {results.totalItems}건</span>
+              ) : null}
               <span className="text-muted"> · {results.entries.length}개 표시</span>
             </>
           )}
@@ -641,8 +691,18 @@ export function FeedClient({ initialFilters, initialPage, issues, people }: Feed
           </div>
         ) : (
           <EmptyState
-            description="검색어를 바꾸거나 선택한 필터를 초기화해 보세요."
-            title="조건에 맞는 수집 항목이 없습니다."
+            description={
+              mode === "youtube" && !hasActiveFilters
+                ? "YouTube API 첫 수집이 완료되면 최근 90일의 영상부터 표시됩니다."
+                : "검색어를 바꾸거나 선택한 필터를 초기화해 보세요."
+            }
+            title={
+              mode === "youtube" && !hasActiveFilters
+                ? "아직 수집된 영상이 없습니다."
+                : mode === "youtube"
+                ? "조건에 맞는 영상이 없습니다."
+                : "조건에 맞는 수집 항목이 없습니다."
+            }
           />
         )}
       </div>

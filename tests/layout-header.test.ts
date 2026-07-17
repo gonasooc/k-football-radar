@@ -11,7 +11,7 @@ describe("Root layout header", () => {
     assert.match(layoutSource, /w-\[190px\] max-w-\[calc\(100vw-2rem\)\] sm:w-\[220px\] lg:w-\[250px\]/);
     assert.match(layoutSource, /hidden max-w-md text-right/);
     assert.match(layoutSource, /mx-auto inline-flex shrink-0 items-center lg:mx-0/);
-    assert.match(layoutSource, /한국축구 이슈와 공식자료를 한곳에 모은 뉴스 레이더/);
+    assert.match(layoutSource, /한국축구 이슈의 뉴스와 영상을 한곳에 모은 정보 레이더/);
     assert.doesNotMatch(layoutSource, /text-center/);
     assert.doesNotMatch(layoutSource, /max-w-\[720px\]/);
   });
