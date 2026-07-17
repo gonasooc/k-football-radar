@@ -1426,7 +1426,7 @@
     "id": "item_e5eae77abfdc1a76",
     "type": "news",
     "title": "'오히려 기회' 손흥민·박지성 이어 박항서·박주호까지 청문회 불참......",
-    "summary": "머니투데이의 15일 단독 보도에 따르면 국회 문화체육관광위원회가 오는 22일 개최하는 청문회에 증인으로 채택됐던 박항서 전 대한 축구협회 부회장 과 참고인으로 이름을 올렸던 박주호 K-축구 혁신위원회 위원(전...",
+    "summary": "구속력이 없는 참고인 신분인 박지성 , 박주호 역시 불출석 의사를 표명했다. 이처럼 일부 참고인들의 불출석... 축구협회 행정 참사의 실질적인 책임자들이 증언대에 서서 명확한 해명 을 내놓기를 요구하고 있다.",
     "url": "https://www.starnewskorea.com/sports/2026/07/15/2026071517543322217",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/07/15/2026071517543322217",
     "publisher": "starnewskorea.com",
@@ -1434,10 +1434,8 @@
     "collectedAt": "2026-07-15T12:58:23.088Z",
     "matchedKeywords": [
       "박지성",
-      "대한 축구협회",
-      "혁신위원회",
-      "축구 혁신",
-      "부회장"
+      "축구협회",
+      "해명"
     ],
     "discoveryQueries": [
       "\"김병지\" 대한축구협회",
@@ -1469,18 +1467,16 @@
       "축구협회 혁신위원회",
       "K-축구혁신위원회"
     ],
-    "issueTags": [
-      "innovation-committee",
-      "kfa-executives"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 22,
+    "relevanceScore": 16,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ]
   },
   {
@@ -3761,7 +3757,7 @@
     "id": "item_329537e910b97971",
     "type": "news",
     "title": "'회장 공석' KFA \"16일까지 임직원 후보 등록 의사 표명... 현 정관 고수...",
-    "summary": "ⓒ KFA 대한축구협회는 \"14일 협회 임원 및 대의원들에게 배포한 '회장 선거 후보자 등록 의사 표명' 안내와 관련한 협회의 입장을 아래와 같이 안내한다\"고 15일 알렸다. 협회는 \"혁신위원회에서 추진하고 있는 여러 논의...",
+    "summary": "정몽규 전 회장의 사임으로 '회장 공석' 상태인 대한축구협회 가 신임 회장 선거와 관련해 입장을 전했다.... 혁신위에서는 2026 북중미 월드컵을 계기로 제기된 K- 축구 혁신 요구에 부응해, K- 축구 거버넌스, 유소년 선수...",
     "url": "https://sports.hankooki.com/news/articleView.html?idxno=6936496",
     "originalUrl": "https://sports.hankooki.com/news/articleView.html?idxno=6936496",
     "publisher": "sports.hankooki.com",
@@ -3773,8 +3769,8 @@
       "정관",
       "대한축구협회",
       "회장 선거",
-      "대의원",
-      "혁신위원회"
+      "축구 혁신",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -3802,14 +3798,17 @@
     "issueTags": [
       "election",
       "statute-revision",
-      "electoral-college",
       "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 63,
-    "labels": []
+    "relevanceScore": 62,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_773ac21c09b27daa",
@@ -4249,12 +4248,12 @@
     "labels": []
   },
   {
-    "id": "item_069659a66d20b2c5",
+    "id": "item_e21eff86129708b5",
     "type": "news",
     "title": "축협 청문회? \"정몽규·홍명보만 문제? 내부 장기 곪았는데 종기 하나 도...",
     "summary": "그러면서 주로 다뤄야 될 내용은 정몽규 회장의 불법성이라든가, 홍명보 전 감독의 선임 과정이 어떻게... '지난해 축구협회장 선거 당시에 선거 인단이었던 축구 심판을 상대로 경기 배정, 승급 언급하면서 특정 후보...",
-    "url": "https://www.ytn.co.kr/_ln/0103_202607151528308974",
-    "originalUrl": "https://www.ytn.co.kr/_ln/0103_202607151528308974",
+    "url": "https://www.ytn.co.kr/_ln/0103_202607151528339940",
+    "originalUrl": "https://www.ytn.co.kr/_ln/0103_202607151528339940",
     "publisher": "ytn.co.kr",
     "publishedAt": "2026-07-15T06:28:00.000Z",
     "collectedAt": "2026-07-15T06:59:51.362Z",
