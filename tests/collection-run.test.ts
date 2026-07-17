@@ -2,6 +2,7 @@ import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 
 import {
+  getBlockingCollectorFailures,
   getCollectionRunStatus,
   hasCompleteCollectorFailure,
   persistCollectionRun,
@@ -70,6 +71,58 @@ describe("collection run state", () => {
     assert.equal(
       hasCompleteCollectorFailure(result({ attempted: 0, succeeded: 0, failed: 0 })),
       false
+    );
+  });
+
+  it("only blocks a combined run for collectors configured as blocking", () => {
+    const completeFailure = result({ attempted: 3, succeeded: 0, failed: 3 });
+
+    assert.deepEqual(
+      getBlockingCollectorFailures([
+        {
+          name: "naver",
+          result: completeFailure,
+          blocksCombinedRun: true
+        },
+        {
+          name: "official",
+          result: completeFailure,
+          blocksCombinedRun: false
+        }
+      ]),
+      ["naver"]
+    );
+    assert.deepEqual(
+      getBlockingCollectorFailures([
+        {
+          name: "official",
+          result: completeFailure,
+          blocksCombinedRun: false
+        }
+      ]),
+      []
+    );
+  });
+
+  it("keeps a combined run partial when every official source fails once", () => {
+    const naverResult = result({ attempted: 100, succeeded: 100, failed: 0 });
+    const officialResult = result({ attempted: 3, succeeded: 0, failed: 3 });
+
+    assert.equal(getCollectionRunStatus([naverResult, officialResult]), "partial");
+    assert.deepEqual(
+      getBlockingCollectorFailures([
+        {
+          name: "naver",
+          result: naverResult,
+          blocksCombinedRun: true
+        },
+        {
+          name: "official",
+          result: officialResult,
+          blocksCombinedRun: false
+        }
+      ]),
+      []
     );
   });
 

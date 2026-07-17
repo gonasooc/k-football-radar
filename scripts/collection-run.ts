@@ -42,6 +42,21 @@ export function hasCompleteCollectorFailure(result: CollectorRunResult): boolean
   return result.attempted > 0 && result.succeeded === 0;
 }
 
+export function getBlockingCollectorFailures(
+  collectors: readonly {
+    name: string;
+    result: CollectorRunResult;
+    blocksCombinedRun: boolean;
+  }[]
+): string[] {
+  return collectors
+    .filter(
+      ({ result, blocksCombinedRun }) =>
+        blocksCombinedRun && hasCompleteCollectorFailure(result)
+    )
+    .map(({ name }) => name);
+}
+
 export function getCollectionRunStatus(
   results: readonly CollectorRunResult[]
 ): CollectionRunStatus {

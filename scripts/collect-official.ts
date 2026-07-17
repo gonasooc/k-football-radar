@@ -25,6 +25,26 @@ type OfficialLinkCandidate = {
 
 const MAX_OFFICIAL_ITEMS_PER_SOURCE = 20;
 export const OFFICIAL_SOURCE_TIMEOUT_MS = 10000;
+export const OFFICIAL_SOURCE_MAX_ATTEMPTS = 3;
+export const OFFICIAL_SOURCE_RETRY_BASE_DELAY_MS = 1000;
+
+type OfficialSourceRetryOptions = {
+  maxAttempts?: number;
+  baseDelayMs?: number;
+  wait?: (delayMs: number) => Promise<void>;
+  random?: () => number;
+};
+
+class OfficialSourceRequestError extends Error {
+  constructor(
+    message: string,
+    readonly retryable: boolean,
+    options?: ErrorOptions
+  ) {
+    super(message, options);
+    this.name = "OfficialSourceRequestError";
+  }
+}
 
 const FOOTBALL_CONTEXT_KEYWORDS = [
   "대한축구협회",
@@ -66,6 +86,32 @@ export function getOfficialSourceTimeoutMs(
   }
 
   return parsed;
+}
+
+function describeError(error: unknown): string {
+  return error instanceof Error ? error.message : String(error);
+}
+
+function wait(delayMs: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, delayMs));
+}
+
+function isRetryableOfficialStatus(status: number): boolean {
+  return status === 408 || status === 429 || status >= 500;
+}
+
+function getOfficialRetryDelayMs({
+  failedAttempt,
+  baseDelayMs,
+  random
+}: {
+  failedAttempt: number;
+  baseDelayMs: number;
+  random: () => number;
+}): number {
+  const exponentialDelay = baseDelayMs * 2 ** (failedAttempt - 1);
+  const jitter = Math.floor(baseDelayMs * 0.25 * random());
+  return exponentialDelay + jitter;
 }
 
 export function resolveSourceUrl(href: string, baseUrl: string): string | null {
@@ -312,34 +358,106 @@ export function extractOfficialCandidates(
   });
 }
 
+async function fetchOfficialSourceHtml(source: Source): Promise<string> {
+  let response: Response;
+  try {
+    response = await fetch(source.url, {
+      headers: {
+        "User-Agent": "KoreaFootballRadar/0.1 metadata monitor"
+      },
+      signal: AbortSignal.timeout(getOfficialSourceTimeoutMs())
+    });
+  } catch (error) {
+    throw new OfficialSourceRequestError(
+      `${source.name} request failed: ${describeError(error)}`,
+      true,
+      { cause: error }
+    );
+  }
+
+  if (!response.ok) {
+    throw new OfficialSourceRequestError(
+      `${source.name} responded ${response.status}`,
+      isRetryableOfficialStatus(response.status)
+    );
+  }
+  if (!isAllowedOfficialResponseUrl(response.url, source.url)) {
+    throw new OfficialSourceRequestError(
+      `${source.name} redirected outside its configured HTTPS origin`,
+      false
+    );
+  }
+
+  try {
+    return await response.text();
+  } catch (error) {
+    throw new OfficialSourceRequestError(
+      `${source.name} response body failed: ${describeError(error)}`,
+      true,
+      { cause: error }
+    );
+  }
+}
+
+async function fetchOfficialSourceHtmlWithRetry(
+  source: Source,
+  options: OfficialSourceRetryOptions = {}
+): Promise<string> {
+  const maxAttempts = Math.max(
+    1,
+    Math.floor(options.maxAttempts ?? OFFICIAL_SOURCE_MAX_ATTEMPTS)
+  );
+  const baseDelayMs = Math.max(
+    0,
+    options.baseDelayMs ?? OFFICIAL_SOURCE_RETRY_BASE_DELAY_MS
+  );
+  const waitForRetry = options.wait ?? wait;
+  const random = options.random ?? Math.random;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    try {
+      return await fetchOfficialSourceHtml(source);
+    } catch (error) {
+      const shouldRetry =
+        error instanceof OfficialSourceRequestError && error.retryable;
+      if (!shouldRetry || attempt === maxAttempts) {
+        throw error;
+      }
+
+      const delayMs = getOfficialRetryDelayMs({
+        failedAttempt: attempt,
+        baseDelayMs,
+        random
+      });
+      console.warn(
+        `Official collector retrying ${source.name} (${attempt + 1}/${maxAttempts}) ` +
+          `in ${delayMs}ms: ${describeError(error)}`
+      );
+      if (delayMs > 0) {
+        await waitForRetry(delayMs);
+      }
+    }
+  }
+
+  throw new Error(`${source.name} retry loop completed unexpectedly`);
+}
+
 async function collectOfficialSource({
   source,
   issues,
-  people
+  people,
+  retryOptions
 }: {
   source: Source;
   issues: Issue[];
   people: Person[];
+  retryOptions?: OfficialSourceRetryOptions;
 }): Promise<RadarItem[]> {
   if (!isAllowedOfficialResponseUrl(source.url, source.url)) {
     throw new Error(`${source.name} has an invalid source URL`);
   }
 
-  const response = await fetch(source.url, {
-    headers: {
-      "User-Agent": "KoreaFootballRadar/0.1 metadata monitor"
-    },
-    signal: AbortSignal.timeout(getOfficialSourceTimeoutMs())
-  });
-
-  if (!response.ok) {
-    throw new Error(`${source.name} responded ${response.status}`);
-  }
-  if (!isAllowedOfficialResponseUrl(response.url, source.url)) {
-    throw new Error(`${source.name} redirected outside its configured HTTPS origin`);
-  }
-
-  const html = await response.text();
+  const html = await fetchOfficialSourceHtmlWithRetry(source, retryOptions);
   const collectedAt = new Date().toISOString();
   const items: RadarItem[] = [];
 
@@ -397,27 +515,31 @@ export async function collectOfficialSources({
 export async function collectOfficialSourcesRun({
   sources,
   issues,
-  people
+  people,
+  retryOptions
 }: {
   sources: Source[];
   issues: Issue[];
   people: Person[];
+  retryOptions?: OfficialSourceRetryOptions;
 }): Promise<CollectorRunResult> {
-  const collected: RadarItem[] = [];
   const enabledSources = sources.filter((item) => item.enabled && item.type === "official");
+  const sourceResults = await Promise.allSettled(
+    enabledSources.map((source) =>
+      collectOfficialSource({ source, issues, people, retryOptions })
+    )
+  );
+  const collected: RadarItem[] = [];
   let succeeded = 0;
-  let failed = 0;
 
-  for (const source of enabledSources) {
-    try {
-      collected.push(...(await collectOfficialSource({ source, issues, people })));
+  for (const [index, result] of sourceResults.entries()) {
+    if (result.status === "fulfilled") {
+      collected.push(...result.value);
       succeeded += 1;
-    } catch (error) {
-      failed += 1;
+    } else {
+      const source = enabledSources[index];
       console.error(
-        `Official collector skipped ${source.name}: ${
-          error instanceof Error ? error.message : String(error)
-        }`
+        `Official collector skipped ${source.name}: ${describeError(result.reason)}`
       );
     }
   }
@@ -426,7 +548,7 @@ export async function collectOfficialSourcesRun({
     items: dedupeItems(collected),
     attempted: enabledSources.length,
     succeeded,
-    failed
+    failed: enabledSources.length - succeeded
   };
 }
 

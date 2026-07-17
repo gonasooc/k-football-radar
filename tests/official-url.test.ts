@@ -257,15 +257,17 @@ describe("shouldKeepOfficialCandidate", () => {
 
 describe("collectOfficialSourcesRun", () => {
   it("reports partial source failures independently of collected item count", async () => {
+    const requestCounts = new Map<string, number>();
     const fetchMock = mock.method(
       globalThis,
       "fetch",
       async (input: string | URL | Request): Promise<Response> => {
         const url =
           typeof input === "string" ? input : input instanceof URL ? input.toString() : input.url;
+        requestCounts.set(url, (requestCounts.get(url) ?? 0) + 1);
         return url.includes("success")
           ? new Response("<html></html>", { status: 200 })
-          : new Response("unavailable", { status: 503 });
+          : new Response("not found", { status: 404 });
       }
     );
     const consoleMock = mock.method(console, "error", () => undefined);
@@ -286,9 +288,103 @@ describe("collectOfficialSourcesRun", () => {
         succeeded: 1,
         failed: 1
       });
+      assert.equal(requestCounts.get("https://failure.example.com"), 1);
     } finally {
       fetchMock.mock.restore();
       consoleMock.mock.restore();
+    }
+  });
+
+  it("retries transient source failures with a fresh timeout signal", async () => {
+    let attempts = 0;
+    const signals: AbortSignal[] = [];
+    const fetchMock = mock.method(
+      globalThis,
+      "fetch",
+      async (
+        _input: string | URL | Request,
+        init?: RequestInit
+      ): Promise<Response> => {
+        attempts += 1;
+        if (init?.signal) {
+          signals.push(init.signal);
+        }
+        if (attempts === 1) {
+          throw new DOMException("The operation was aborted due to timeout", "TimeoutError");
+        }
+        return attempts === 2
+          ? new Response("unavailable", { status: 503 })
+          : new Response("<html></html>", { status: 200 });
+      }
+    );
+    const warningMock = mock.method(console, "warn", () => undefined);
+
+    try {
+      const result = await collectOfficialSourcesRun({
+        sources: [{ ...kfaSource, id: "retry", url: "https://retry.example.com" }],
+        issues: [],
+        people: [],
+        retryOptions: { baseDelayMs: 0 }
+      });
+
+      assert.deepEqual(result, {
+        items: [],
+        attempted: 1,
+        succeeded: 1,
+        failed: 0
+      });
+      assert.equal(attempts, 3);
+      assert.equal(warningMock.mock.callCount(), 2);
+      assert.equal(signals.length, 3);
+      assert.equal(new Set(signals).size, 3);
+    } finally {
+      fetchMock.mock.restore();
+      warningMock.mock.restore();
+    }
+  });
+
+  it("collects enabled official sources in parallel", async () => {
+    const releases: Array<() => void> = [];
+    let activeRequests = 0;
+    let maxActiveRequests = 0;
+    const fetchMock = mock.method(
+      globalThis,
+      "fetch",
+      async (): Promise<Response> => {
+        activeRequests += 1;
+        maxActiveRequests = Math.max(maxActiveRequests, activeRequests);
+        await new Promise<void>((resolve) => releases.push(resolve));
+        activeRequests -= 1;
+        return new Response("<html></html>", { status: 200 });
+      }
+    );
+
+    try {
+      const collection = collectOfficialSourcesRun({
+        sources: [
+          { ...kfaSource, id: "parallel-a", url: "https://parallel-a.example.com" },
+          { ...mcstSource, id: "parallel-b", url: "https://parallel-b.example.com" }
+        ],
+        issues: [],
+        people: []
+      });
+      await Promise.resolve();
+      const startedRequests = releases.length;
+      for (const release of releases) {
+        release();
+      }
+      const result = await collection;
+
+      assert.equal(startedRequests, 2);
+      assert.equal(maxActiveRequests, 2);
+      assert.deepEqual(result, {
+        items: [],
+        attempted: 2,
+        succeeded: 2,
+        failed: 0
+      });
+    } finally {
+      fetchMock.mock.restore();
     }
   });
 

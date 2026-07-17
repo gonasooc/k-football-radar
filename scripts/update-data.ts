@@ -4,6 +4,7 @@ import {
 } from "./collect-naver-news";
 import { collectOfficialSourcesRun } from "./collect-official";
 import {
+  getBlockingCollectorFailures,
   hasCompleteCollectorFailure,
   persistCollectionRun
 } from "./collection-run";
@@ -43,15 +44,19 @@ async function updateData(): Promise<void> {
     throw new Error("All configured collectors failed");
   }
 
-  const deadCollectors = [
-    { name: "naver", result: naverResult },
-    { name: "official", result: officialResult }
-  ]
-    .filter(({ result }) => hasCompleteCollectorFailure(result))
-    .map(({ name }) => name);
-  if (deadCollectors.length > 0) {
+  if (hasCompleteCollectorFailure(officialResult)) {
+    console.warn(
+      "Official collector completed no sources; preserving the combined run as partial"
+    );
+  }
+
+  const blockingCollectors = getBlockingCollectorFailures([
+    { name: "naver", result: naverResult, blocksCombinedRun: true },
+    { name: "official", result: officialResult, blocksCombinedRun: false }
+  ]);
+  if (blockingCollectors.length > 0) {
     throw new Error(
-      `Collector(s) completed nothing this run: ${deadCollectors.join(", ")}`
+      `Collector(s) completed nothing this run: ${blockingCollectors.join(", ")}`
     );
   }
 }
