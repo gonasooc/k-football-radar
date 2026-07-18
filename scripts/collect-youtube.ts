@@ -6,7 +6,26 @@ import { classifyItemText } from "../lib/classify";
 import { dedupeItems } from "../lib/dedupe";
 import { getItemRetentionDays, isPublishedAtWithinRetention } from "../lib/item-retention";
 import { stripInlineHtml, truncateSummary } from "../lib/normalize";
-import type { Issue, Person, RadarItem, YouTubeSearchQuery } from "../lib/schema";
+import type {
+  Issue,
+  Person,
+  RadarItem,
+  RelevanceTier,
+  YouTubeChannelPolicyFile,
+  YouTubeFormatCacheFile,
+  YouTubeSearchQuery
+} from "../lib/schema";
+import {
+  getBlockedYouTubeChannelIds,
+  getEffectiveYouTubeTier,
+  getPreferredYouTubeChannelIds,
+  getVisibleYouTubeChannelStatus
+} from "../lib/youtube-channel-policy";
+import {
+  classifyYouTubeVideoFormat,
+  isYouTubeShortsProbeHealthy,
+  type YouTubeShortsProbeFetch
+} from "../lib/youtube-shorts";
 import { getNewsCandidateRelevanceTier } from "./collect-naver-news";
 import {
   persistCollectionRun,
@@ -17,7 +36,10 @@ import {
   readIssues,
   readItems,
   readPeople,
-  readYouTubeSearchQueries
+  readYouTubeChannelPolicy,
+  readYouTubeFormatCache,
+  readYouTubeSearchQueries,
+  writeYouTubeFormatCache
 } from "./data-io";
 
 const YOUTUBE_API_BASE_URL = "https://www.googleapis.com/youtube/v3";
@@ -26,7 +48,9 @@ const YOUTUBE_VIDEO_BATCH_SIZE = 50;
 const YOUTUBE_COLLECTION_OVERLAP_MS = 24 * 60 * 60 * 1000;
 const DEFAULT_YOUTUBE_BACKFILL_DAYS = 90;
 const DEFAULT_YOUTUBE_MAX_PAGES_PER_QUERY = 2;
+const DEFAULT_YOUTUBE_MAX_PAGES_PER_CHANNEL = 5;
 const MAX_YOUTUBE_SEARCH_QUERIES = 15;
+const YOUTUBE_SHORTS_PROBE_CONCURRENCY = 4;
 
 const thumbnailSchema = z.object({
   url: z.string().url(),
@@ -41,6 +65,7 @@ const snippetSchema = z.object({
   description: z.string().default(""),
   thumbnails: z.record(thumbnailSchema).default({}),
   channelTitle: z.string().min(1),
+  tags: z.array(z.string()).default([]),
   liveBroadcastContent: z.enum(["none", "live", "upcoming"]).optional()
 });
 
@@ -75,6 +100,34 @@ const videoListResponseSchema = z.object({
     .default([])
 });
 
+const channelListResponseSchema = z.object({
+  items: z
+    .array(
+      z.object({
+        id: z.string().min(1),
+        contentDetails: z.object({
+          relatedPlaylists: z.object({ uploads: z.string().min(1) })
+        })
+      })
+    )
+    .default([])
+});
+
+const playlistItemsResponseSchema = z.object({
+  nextPageToken: z.string().optional(),
+  items: z
+    .array(
+      z.object({
+        contentDetails: z.object({
+          videoId: z.string().min(1),
+          videoPublishedAt: z.string().datetime({ offset: true }).optional()
+        }),
+        status: z.object({ privacyStatus: z.string().optional() }).optional()
+      })
+    )
+    .default([])
+});
+
 type FetchLike = (
   input: string | URL | Request,
   init?: RequestInit
@@ -83,6 +136,12 @@ type FetchLike = (
 type SearchObservation = {
   videoId: string;
   discoveryQueries: Set<string>;
+};
+
+const EMPTY_YOUTUBE_CHANNEL_POLICY: YouTubeChannelPolicyFile = {
+  version: 1,
+  preferred: [],
+  blocked: []
 };
 
 function parseBoundedInteger(
@@ -105,6 +164,12 @@ export function getYouTubeMaxPagesPerQuery(
   value = process.env.YOUTUBE_MAX_PAGES_PER_QUERY
 ): number {
   return parseBoundedInteger(value, DEFAULT_YOUTUBE_MAX_PAGES_PER_QUERY, 1, 5);
+}
+
+export function getYouTubeMaxPagesPerChannel(
+  value = process.env.YOUTUBE_MAX_PAGES_PER_CHANNEL
+): number {
+  return parseBoundedInteger(value, DEFAULT_YOUTUBE_MAX_PAGES_PER_CHANNEL, 1, 20);
 }
 
 function parseOptionalDate(value: string | undefined, label: string): Date | undefined {
@@ -245,12 +310,55 @@ function buildVideoListUrl(apiKey: string, videoIds: readonly string[]): URL {
   return url;
 }
 
+function buildChannelListUrl(apiKey: string, channelIds: readonly string[]): URL {
+  const url = new URL(`${YOUTUBE_API_BASE_URL}/channels`);
+  url.searchParams.set("key", apiKey);
+  url.searchParams.set("part", "contentDetails");
+  url.searchParams.set("id", channelIds.join(","));
+  url.searchParams.set("maxResults", String(channelIds.length));
+  return url;
+}
+
+function buildPlaylistItemsUrl({
+  apiKey,
+  playlistId,
+  pageToken
+}: {
+  apiKey: string;
+  playlistId: string;
+  pageToken?: string;
+}): URL {
+  const url = new URL(`${YOUTUBE_API_BASE_URL}/playlistItems`);
+  url.searchParams.set("key", apiKey);
+  url.searchParams.set("part", "contentDetails,status");
+  url.searchParams.set("playlistId", playlistId);
+  url.searchParams.set("maxResults", String(YOUTUBE_RESULTS_PER_PAGE));
+  if (pageToken) url.searchParams.set("pageToken", pageToken);
+  return url;
+}
+
 function chunk<T>(values: readonly T[], size: number): T[][] {
   const chunks: T[][] = [];
   for (let index = 0; index < values.length; index += size) {
     chunks.push(values.slice(index, index + size));
   }
   return chunks;
+}
+
+function observeVideo(
+  observations: Map<string, SearchObservation>,
+  videoId: string,
+  discoveryQuery: string
+): void {
+  const previous = observations.get(videoId);
+  if (previous) {
+    previous.discoveryQueries.add(discoveryQuery);
+    return;
+  }
+  observations.set(videoId, {
+    videoId,
+    discoveryQueries: new Set([discoveryQuery])
+  });
 }
 
 function classifyYouTubeItem({
@@ -276,27 +384,46 @@ function classifyYouTubeItem({
     summary,
     classification
   });
-  return { classification, relevanceTier };
+  const contentRelevanceTier: RelevanceTier | "reject" =
+    relevanceTier === "reject"
+      ? "reject"
+      : relevanceTier === "secondary"
+        ? "secondary"
+        : "primary";
+  return { classification, contentRelevanceTier };
 }
 
 export function reclassifyAndFilterYouTubeItemsForCollection({
   items,
   issues,
-  people
+  people,
+  channelPolicy = EMPTY_YOUTUBE_CHANNEL_POLICY
 }: {
   items: RadarItem[];
   issues: Issue[];
   people: Person[];
+  channelPolicy?: YouTubeChannelPolicyFile;
 }): RadarItem[] {
   return items.flatMap((item) => {
     if (item.sourceType !== "youtube") return [item];
-    const { classification, relevanceTier } = classifyYouTubeItem({
+    if (!item.youtube) return [];
+    const channelStatus = getVisibleYouTubeChannelStatus(
+      channelPolicy,
+      item.youtube.channelId
+    );
+    if (!channelStatus) return [];
+    const { classification, contentRelevanceTier } = classifyYouTubeItem({
       title: item.title,
       summary: item.summary,
       issues,
       people
     });
-    if (relevanceTier === "reject") return [];
+    if (contentRelevanceTier === "reject") return [];
+    const effectiveTier = getEffectiveYouTubeTier({
+      channelStatus,
+      contentRelevanceTier
+    });
+    if (effectiveTier === "reject") return [];
     return [
       {
         ...item,
@@ -304,47 +431,155 @@ export function reclassifyAndFilterYouTubeItemsForCollection({
         issueTags: classification.issueTags,
         personTags: classification.personTags,
         relevanceScore: classification.relevanceScore,
-        relevanceTier: relevanceTier === "secondary" ? "secondary" : undefined,
+        relevanceTier: effectiveTier === "secondary" ? "secondary" : undefined,
+        youtube: {
+          ...item.youtube,
+          channelStatus,
+          contentRelevanceTier
+        },
         labels: classification.labels
       }
     ];
   });
 }
 
+export type YouTubeCollectorRunResult = CollectorRunResult & {
+  formatCache: YouTubeFormatCacheFile;
+  shortsExcluded: number;
+  unknownFormats: number;
+  redirectProbeHealthy: boolean;
+};
+
 export async function collectYouTubeRun({
   issues,
   people,
   queries,
+  channelPolicy = EMPTY_YOUTUBE_CHANNEL_POLICY,
+  formatCache = { version: 1, entries: {} },
   now = new Date(),
   lastCollectedAt,
   apiKey = process.env.YOUTUBE_API_KEY,
   fetchImpl = fetch,
+  shortsFetchImpl = fetch,
+  redirectProbeEnabled = process.env.YOUTUBE_SHORTS_REDIRECT_PROBE !== "false",
   maxPagesPerQuery = getYouTubeMaxPagesPerQuery(),
+  maxPagesPerChannel = getYouTubeMaxPagesPerChannel(),
   publishedAfter,
   publishedBefore
 }: {
   issues: Issue[];
   people: Person[];
   queries: YouTubeSearchQuery[];
+  channelPolicy?: YouTubeChannelPolicyFile;
+  formatCache?: YouTubeFormatCacheFile;
   now?: Date;
   lastCollectedAt?: string;
   apiKey?: string;
   fetchImpl?: FetchLike;
+  shortsFetchImpl?: YouTubeShortsProbeFetch;
+  redirectProbeEnabled?: boolean;
   maxPagesPerQuery?: number;
+  maxPagesPerChannel?: number;
   publishedAfter?: string;
   publishedBefore?: string;
-}): Promise<CollectorRunResult> {
-  if (!apiKey) return { items: [], attempted: 1, succeeded: 0, failed: 1 };
+}): Promise<YouTubeCollectorRunResult> {
+  if (!apiKey) {
+    return {
+      items: [],
+      attempted: 1,
+      succeeded: 0,
+      failed: 1,
+      formatCache,
+      shortsExcluded: 0,
+      unknownFormats: 0,
+      redirectProbeHealthy: true
+    };
+  }
 
   const window =
     publishedAfter && publishedBefore
       ? { publishedAfter, publishedBefore }
       : getYouTubeCollectionWindow({ now, lastCollectedAt });
   const activeQueries = queries.filter((query) => query.enabled).slice(0, MAX_YOUTUBE_SEARCH_QUERIES);
+  const preferredChannelIds = getPreferredYouTubeChannelIds(channelPolicy);
+  const blockedChannelIds = getBlockedYouTubeChannelIds(channelPolicy);
   const observations = new Map<string, SearchObservation>();
   let attempted = 0;
   let succeeded = 0;
   let failed = 0;
+
+  const uploadsPlaylists = new Map<string, string>();
+  for (const channelIds of chunk(preferredChannelIds, YOUTUBE_VIDEO_BATCH_SIZE)) {
+    attempted += 1;
+    try {
+      const response = await fetchYouTubeJson({
+        url: buildChannelListUrl(
+          apiKey,
+          channelIds
+        ),
+        label: "YouTube preferred channels",
+        schema: channelListResponseSchema,
+        fetchImpl
+      });
+      succeeded += 1;
+      for (const channel of response.items) {
+        uploadsPlaylists.set(
+          channel.id,
+          channel.contentDetails.relatedPlaylists.uploads
+        );
+      }
+    } catch (error) {
+      failed += 1;
+      console.error(error instanceof Error ? error.message : error);
+    }
+  }
+
+  const publishedAfterTimestamp = Date.parse(window.publishedAfter);
+  const publishedBeforeTimestamp = Date.parse(window.publishedBefore);
+  for (const channelId of preferredChannelIds) {
+    const playlistId = uploadsPlaylists.get(channelId);
+    if (!playlistId) continue;
+    let pageToken: string | undefined;
+    for (let page = 0; page < maxPagesPerChannel; page += 1) {
+      attempted += 1;
+      try {
+        const response = await fetchYouTubeJson({
+          url: buildPlaylistItemsUrl({ apiKey, playlistId, pageToken }),
+          label: `YouTube uploads "${channelId}"`,
+          schema: playlistItemsResponseSchema,
+          fetchImpl
+        });
+        succeeded += 1;
+        let reachedWindowStart = false;
+        for (const item of response.items) {
+          const publishedAt = item.contentDetails.videoPublishedAt;
+          if (!publishedAt) continue;
+          const publishedTimestamp = Date.parse(publishedAt);
+          if (publishedTimestamp < publishedAfterTimestamp) {
+            reachedWindowStart = true;
+            continue;
+          }
+          if (
+            publishedTimestamp >= publishedBeforeTimestamp ||
+            (item.status?.privacyStatus && item.status.privacyStatus !== "public")
+          ) {
+            continue;
+          }
+          observeVideo(
+            observations,
+            item.contentDetails.videoId,
+            `channel:${channelId}`
+          );
+        }
+        pageToken = response.nextPageToken;
+        if (reachedWindowStart || !pageToken) break;
+      } catch (error) {
+        failed += 1;
+        console.error(error instanceof Error ? error.message : error);
+        break;
+      }
+    }
+  }
 
   for (const query of activeQueries) {
     let pageToken: string | undefined;
@@ -365,18 +600,11 @@ export async function collectYouTubeRun({
         });
         succeeded += 1;
         for (const result of response.items) {
+          if (blockedChannelIds.has(result.snippet.channelId)) continue;
           if (result.snippet.liveBroadcastContent && result.snippet.liveBroadcastContent !== "none") {
             continue;
           }
-          const previous = observations.get(result.id.videoId);
-          if (previous) {
-            previous.discoveryQueries.add(query.query);
-          } else {
-            observations.set(result.id.videoId, {
-              videoId: result.id.videoId,
-              discoveryQueries: new Set([query.query])
-            });
-          }
+          observeVideo(observations, result.id.videoId, query.query);
         }
         pageToken = response.nextPageToken;
         if (!pageToken) break;
@@ -408,83 +636,165 @@ export async function collectYouTubeRun({
 
   const retentionDays = getItemRetentionDays();
   const collectedAt = now.toISOString();
-  const items = detailItems.flatMap((video): RadarItem[] => {
-    const observation = observations.get(video.id);
-    const thumbnail = chooseThumbnail(video.snippet.thumbnails);
-    if (!observation || !thumbnail) return [];
-    if (video.snippet.liveBroadcastContent && video.snippet.liveBroadcastContent !== "none") return [];
-    if (video.liveStreamingDetails) return [];
-    if (video.status?.privacyStatus && video.status.privacyStatus !== "public") return [];
-    if (video.status?.uploadStatus && video.status.uploadStatus !== "processed") return [];
-    if (
-      !isPublishedAtWithinRetention({
-        publishedAt: video.snippet.publishedAt,
-        now,
-        retentionDays
-      })
-    ) {
-      return [];
-    }
+  const redirectProbeHealthy = redirectProbeEnabled
+    ? await isYouTubeShortsProbeHealthy({ cache: formatCache, fetchImpl: shortsFetchImpl })
+    : true;
+  if (redirectProbeEnabled && !redirectProbeHealthy) {
+    console.error(
+      "YouTube Shorts redirect probe canaries changed; keeping ambiguous videos"
+    );
+  }
 
-    const title = stripInlineHtml(video.snippet.title);
-    const summary = truncateSummary(video.snippet.description, 400);
-    const { classification, relevanceTier } = classifyYouTubeItem({
-      title,
-      summary,
-      issues,
-      people
-    });
-    if (relevanceTier === "reject") return [];
-
-    const url = `https://www.youtube.com/watch?v=${encodeURIComponent(video.id)}`;
-    return [
-      {
-        id: `youtube_${video.id}`,
-        type: "youtube",
-        title,
-        summary,
-        url,
-        originalUrl: url,
-        publisher: stripInlineHtml(video.snippet.channelTitle),
-        publishedAt: video.snippet.publishedAt,
-        collectedAt,
-        matchedKeywords: classification.matchedKeywords,
-        discoveryQueries: [...observation.discoveryQueries].sort((left, right) =>
-          left.localeCompare(right, "ko-KR")
-        ),
-        issueTags: classification.issueTags,
-        personTags: classification.personTags,
-        sourceType: "youtube",
-        isOfficial: false,
-        relevanceScore: classification.relevanceScore,
-        relevanceTier: relevanceTier === "secondary" ? "secondary" : undefined,
-        labels: classification.labels,
-        youtube: {
-          videoId: video.id,
-          channelId: video.snippet.channelId,
-          thumbnail,
-          durationSeconds: parseYouTubeDuration(video.contentDetails.duration)
+  let shortsExcluded = 0;
+  let unknownFormats = 0;
+  const items: RadarItem[] = [];
+  for (const videos of chunk(detailItems, YOUTUBE_SHORTS_PROBE_CONCURRENCY)) {
+    const processed = await Promise.all(
+      videos.map(async (video): Promise<RadarItem | undefined> => {
+        const observation = observations.get(video.id);
+        const thumbnail = chooseThumbnail(video.snippet.thumbnails);
+        if (!observation || !thumbnail) return undefined;
+        if (
+          video.snippet.liveBroadcastContent &&
+          video.snippet.liveBroadcastContent !== "none"
+        ) {
+          return undefined;
         }
-      }
-    ];
-  });
+        if (video.liveStreamingDetails) return undefined;
+        if (
+          video.status?.privacyStatus &&
+          video.status.privacyStatus !== "public"
+        ) {
+          return undefined;
+        }
+        if (
+          video.status?.uploadStatus &&
+          video.status.uploadStatus !== "processed"
+        ) {
+          return undefined;
+        }
+        if (
+          !isPublishedAtWithinRetention({
+            publishedAt: video.snippet.publishedAt,
+            now,
+            retentionDays
+          })
+        ) {
+          return undefined;
+        }
 
-  return { items: dedupeItems(items), attempted, succeeded, failed };
+        const channelStatus = getVisibleYouTubeChannelStatus(
+          channelPolicy,
+          video.snippet.channelId
+        );
+        if (!channelStatus) return undefined;
+
+        const title = stripInlineHtml(video.snippet.title);
+        const summary = truncateSummary(video.snippet.description, 400);
+        const { classification, contentRelevanceTier } = classifyYouTubeItem({
+          title,
+          summary,
+          issues,
+          people
+        });
+        if (contentRelevanceTier === "reject") return undefined;
+
+        const format = await classifyYouTubeVideoFormat({
+          videoId: video.id,
+          durationSeconds: parseYouTubeDuration(video.contentDetails.duration),
+          title,
+          description: video.snippet.description,
+          tags: video.snippet.tags,
+          cache: formatCache,
+          redirectProbeEnabled: redirectProbeEnabled && redirectProbeHealthy,
+          fetchImpl: shortsFetchImpl,
+          now
+        });
+        if (format === "shorts") {
+          shortsExcluded += 1;
+          return undefined;
+        }
+        if (format === "unknown") unknownFormats += 1;
+
+        const effectiveTier = getEffectiveYouTubeTier({
+          channelStatus,
+          contentRelevanceTier
+        });
+        if (effectiveTier === "reject") return undefined;
+
+        const url = `https://www.youtube.com/watch?v=${encodeURIComponent(video.id)}`;
+        return {
+          id: `youtube_${video.id}`,
+          type: "youtube",
+          title,
+          summary,
+          url,
+          originalUrl: url,
+          publisher: stripInlineHtml(video.snippet.channelTitle),
+          publishedAt: video.snippet.publishedAt,
+          collectedAt,
+          matchedKeywords: classification.matchedKeywords,
+          discoveryQueries: [...observation.discoveryQueries].sort((left, right) =>
+            left.localeCompare(right, "ko-KR")
+          ),
+          issueTags: classification.issueTags,
+          personTags: classification.personTags,
+          sourceType: "youtube",
+          isOfficial: false,
+          relevanceScore: classification.relevanceScore,
+          relevanceTier: effectiveTier === "secondary" ? "secondary" : undefined,
+          labels: classification.labels,
+          youtube: {
+            videoId: video.id,
+            channelId: video.snippet.channelId,
+            channelStatus,
+            contentRelevanceTier,
+            thumbnail,
+            durationSeconds: parseYouTubeDuration(video.contentDetails.duration)
+          }
+        };
+      })
+    );
+    items.push(...processed.filter((item) => item !== undefined));
+  }
+
+  return {
+    items: dedupeItems(items),
+    attempted,
+    succeeded,
+    failed,
+    formatCache,
+    shortsExcluded,
+    unknownFormats,
+    redirectProbeHealthy
+  };
 }
 
 async function run(): Promise<void> {
-  const [existingItems, issues, people, queries, collectionState] = await Promise.all([
-    readItems(),
-    readIssues(),
-    readPeople(),
-    readYouTubeSearchQueries(),
-    readCollectionState()
-  ]);
+  const [
+    existingItems,
+    issues,
+    people,
+    queries,
+    channelPolicy,
+    formatCache,
+    collectionState
+  ] = await Promise.all([
+      readItems(),
+      readIssues(),
+      readPeople(),
+      readYouTubeSearchQueries(),
+      readYouTubeChannelPolicy(),
+      readYouTubeFormatCache(),
+      readCollectionState()
+    ]);
   const previousYouTubeState = collectionState.collectors?.youtube;
   const result = await collectYouTubeRun({
     issues,
     people,
     queries,
+    channelPolicy,
+    formatCache,
     lastCollectedAt:
       previousYouTubeState?.lastRunStatus === "never"
         ? undefined
@@ -495,11 +805,17 @@ async function run(): Promise<void> {
     results: [result],
     collectorResults: [{ id: "youtube", result }],
     filterItems: (items) =>
-      reclassifyAndFilterYouTubeItemsForCollection({ items, issues, people })
+      reclassifyAndFilterYouTubeItemsForCollection({
+        items,
+        issues,
+        people,
+        channelPolicy
+      })
   });
+  await writeYouTubeFormatCache(result.formatCache);
 
   console.log(
-    `YouTube collector merged ${result.items.length} videos (${result.succeeded}/${result.attempted} API calls succeeded, status ${update.state.lastRunStatus})`
+    `YouTube collector merged ${result.items.length} videos, excluded ${result.shortsExcluded} Shorts, kept ${result.unknownFormats} unknown formats (${result.succeeded}/${result.attempted} API calls succeeded, redirect probe ${result.redirectProbeHealthy ? "healthy" : "disabled"}, status ${update.state.lastRunStatus})`
   );
   if (update.state.lastRunStatus === "failed") {
     throw new Error("YouTube collector did not complete any API call");

@@ -48,7 +48,9 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_BACKFILL_DAYS: "90"
+          YOUTUBE_MAX_PAGES_PER_CHANNEL: "5"
           YOUTUBE_MAX_PAGES_PER_QUERY: "2"
+          YOUTUBE_SHORTS_REDIRECT_PROBE: "true"
           YOUTUBE_PUBLISHED_AFTER: ${{ inputs.published_after }}
           YOUTUBE_PUBLISHED_BEFORE: ${{ inputs.published_before }}
 

@@ -53,6 +53,8 @@ data/people.json
 data/issues.json
 data/sources.json
 data/youtube-queries.json
+data/youtube-channels.json
+data/youtube-format-cache.json
 data/collection-state.json
 data/story-clusters.json
 ```
@@ -81,9 +83,22 @@ data/story-clusters.json
 
 ### `youtube-queries.json`
 
-YouTube Data API 전역 검색에 사용할 쿼리 목록이다. 채널의 모든 업로드를 가져오는
-allowlist가 아니라, 한국축구 거버넌스 주제를 찾기 위한 OR 검색식과 활성 상태를 담는다.
-활성 쿼리는 최소 1개, 최대 15개로 검증한다.
+YouTube Data API 전역 검색에 사용할 쿼리 목록이다. 한국축구 거버넌스 주제를 찾기 위한
+OR 검색식과 활성 상태를 담으며, 활성 쿼리는 최소 1개, 최대 15개로 검증한다.
+
+### `youtube-channels.json`
+
+수동 검토한 채널 정책이다. `preferred`는 uploads playlist를 별도 수집하고 화면의
+`선별 채널` 범위에 노출한다. 목록에 없는 채널은 `unlisted`로 취급해 검색 수집과
+`전체 채널` 범위에만 남긴다. `blocked`는 신규 수집과 기존 데이터에서 제외한다.
+두 목록에는 채널 ID 문자열만 저장하며 이름·상태 객체·검토 날짜는 저장하지 않는다.
+중복 ID와 두 목록 사이의 겹침은 데이터 검증에서 거부한다. 수집기와 보고서는 이 상태를
+자동으로 변경하지 않는다.
+
+### `youtube-format-cache.json`
+
+확정한 Shorts·일반 영상 판별 결과와 근거, 확인 시각을 영상 ID별로 저장한다. 불명확한
+판별은 캐시하지 않아 다음 수집에서 다시 확인할 수 있게 한다.
 
 ### `collection-state.json`
 
@@ -143,7 +158,8 @@ lib/data.ts
 ### `/youtube`
 
 유튜브 영상만 보여준다. 뉴스 피드와 검색·범위·정렬·이슈·인물 필터를 공유하지만 자료
-유형 필터는 생략한다. 카드는 썸네일, 채널, 발행일, 재생 시간과 원본 영상 링크를 표시한다.
+유형 필터는 생략한다. 채널 범위는 `선별 채널 / 전체 채널`로 표시하며 검색도 선택한
+범위를 존중한다. 카드는 썸네일, 채널, 발행일, 재생 시간과 원본 영상 링크를 표시한다.
 
 ### `/feed`
 
@@ -185,7 +201,10 @@ scripts/update-data.ts
 
 scripts/collect-youtube.ts
         ├─ data/youtube-queries.json
-        ├─ YouTube Data API search.list / videos.list
+        ├─ data/youtube-channels.json
+        ├─ YouTube Data API search.list / channels.list / playlistItems.list / videos.list
+        ├─ lib/youtube-channel-policy.ts
+        ├─ lib/youtube-shorts.ts
         ├─ lib/classify.ts
         ├─ lib/dedupe.ts
         └─ scripts/collection-run.ts
@@ -209,6 +228,7 @@ pnpm run collect:youtube:local
 
 `scripts/data-io.ts`가 `data/items/` 아래의 일별 shard와 `data/issues.json`,
 `data/people.json`, `data/sources.json`, `data/youtube-queries.json`,
+`data/youtube-channels.json`, `data/youtube-format-cache.json`,
 `data/collection-state.json`을 읽는다.
 
 ### 2단계: Naver News API 수집
@@ -233,11 +253,17 @@ NAVER_CLIENT_SECRET
 ### 유튜브 별도 수집
 
 `scripts/collect-youtube.ts`는 `YOUTUBE_API_KEY`로 `search.list`를 호출한 뒤, 발견한
-영상 ID를 최대 50개씩 묶어 `videos.list`에서 상태·재생 시간·썸네일을 확인한다.
-최초 실행은 최근 90일, 이후 실행은 이전 성공 시각보다 24시간 앞선 구간부터 검색한다.
-Shorts는 포함하며 `liveBroadcastContent` 또는 `liveStreamingDetails`가 있는 라이브,
-예약, 라이브 다시보기는 제외한다. 검색 결과는 뉴스와 같은 분류·노이즈 필터를 통과해야
-저장된다. 기본 검색어별 2페이지 제한은 일일 API 쿼터를 보호한다.
+영상과 `preferred` 채널의 uploads playlist에서 찾은 영상을 영상 ID로 합친다. 이후 최대
+50개씩 묶어 `videos.list`에서 상태·재생 시간·썸네일을 확인한다. 최초 실행은 최근 90일,
+이후 실행은 이전 성공 시각보다 24시간 앞선 구간부터 검색한다. 검색 결과와 선별 채널
+업로드 모두 같은 주제 관련도 규칙을 통과해야 저장된다. 선별 채널의 주제 중심 영상은
+primary, 그 외 채널의 관련 영상은 최대 secondary로 노출한다.
+
+Shorts는 제목·태그의 명시적 표식 또는 `/shorts/{videoId}` 응답의 동일 영상 canonical과
+Open Graph 주소가 모두 확인될 때만 제외한다. 3분 초과 영상은 일반 영상으로 확정하고,
+오류·제한·예상 밖 응답은 삭제하지 않는 fail-open 정책을 사용한다. 이는 최소 재생 시간
+필터가 아니므로 짧은 일반 뉴스 영상은 유지한다. 라이브·예약·라이브 다시보기는 제외한다.
+기본 검색어별 2페이지와 선별 채널별 5페이지 제한은 API 쿼터를 보호한다.
 
 ### 4단계: 분류
 
@@ -442,6 +468,7 @@ pnpm run validate:data
 - 수집기별 `totalItems`가 실제 뉴스·공식·유튜브 개수와 맞는지
 - 유튜브 항목에 영상 메타데이터가 있고 다른 유형에는 없는지
 - 유튜브 검색어 ID가 고유하고 활성 검색어 수가 1~15개인지
+- 유튜브 채널 정책과 Shorts 판별 캐시가 스키마에 맞는지
 
 ## 11. 준비 상태 확인
 

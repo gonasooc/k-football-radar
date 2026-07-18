@@ -1,11 +1,16 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 
-import type { Issue, YouTubeSearchQuery } from "../lib/schema";
+import type {
+  Issue,
+  YouTubeChannelPolicyFile,
+  YouTubeSearchQuery
+} from "../lib/schema";
 import {
   collectYouTubeRun,
   getYouTubeBackfillDays,
   getYouTubeCollectionWindow,
+  getYouTubeMaxPagesPerChannel,
   getYouTubeMaxPagesPerQuery,
   parseYouTubeDuration
 } from "../scripts/collect-youtube";
@@ -30,14 +35,16 @@ const queries: YouTubeSearchQuery[] = [
 
 function snippet({
   title,
+  channelId = "channel-1",
   liveBroadcastContent = "none"
 }: {
   title: string;
+  channelId?: string;
   liveBroadcastContent?: "none" | "live" | "upcoming";
 }) {
   return {
     publishedAt: "2026-07-16T03:00:00.000Z",
-    channelId: "channel-1",
+    channelId,
     title,
     description: "대한축구협회 회장 선거 절차를 설명합니다.",
     thumbnails: {
@@ -57,6 +64,11 @@ function jsonResponse(value: unknown, status = 200): Response {
     status,
     headers: { "Content-Type": "application/json" }
   });
+}
+
+function shortsHtml(videoId: string): string {
+  const shortsUrl = `https://www.youtube.com/shorts/${videoId}`;
+  return `<link rel="canonical" href="${shortsUrl}"><meta property="og:url" content="${shortsUrl}">`;
 }
 
 describe("YouTube collection window", () => {
@@ -108,6 +120,9 @@ describe("YouTube collection window", () => {
     assert.equal(getYouTubeMaxPagesPerQuery(undefined), 2);
     assert.equal(getYouTubeMaxPagesPerQuery("5"), 5);
     assert.equal(getYouTubeMaxPagesPerQuery("6"), 2);
+    assert.equal(getYouTubeMaxPagesPerChannel(undefined), 5);
+    assert.equal(getYouTubeMaxPagesPerChannel("20"), 20);
+    assert.equal(getYouTubeMaxPagesPerChannel("21"), 5);
   });
 });
 
@@ -121,7 +136,7 @@ describe("YouTube duration parsing", () => {
 });
 
 describe("YouTube collector", () => {
-  it("keeps regular videos and Shorts while excluding live-origin videos", async () => {
+  it("excludes confirmed Shorts and live-origin videos while keeping regular videos", async () => {
     const requestedUrls: URL[] = [];
     const fetchImpl = async (input: string | URL | Request): Promise<Response> => {
       const url = new URL(typeof input === "string" || input instanceof URL ? input : input.url);
@@ -171,6 +186,20 @@ describe("YouTube collector", () => {
       now: new Date("2026-07-17T00:00:00.000Z"),
       apiKey: "test-key",
       fetchImpl,
+      shortsFetchImpl: async (input) => {
+        const url = new URL(
+          typeof input === "string" || input instanceof URL ? input : input.url
+        );
+        const videoId = url.pathname.split("/").at(-1);
+        return videoId === "short-video"
+          ? new Response(shortsHtml("short-video"), { status: 200 })
+          : new Response(null, {
+              status: 303,
+              headers: {
+                Location: `https://www.youtube.com/watch?v=${videoId}`
+              }
+            });
+      },
       maxPagesPerQuery: 1
     });
 
@@ -179,14 +208,19 @@ describe("YouTube collector", () => {
     assert.equal(result.failed, 0);
     assert.deepEqual(
       new Set(result.items.map((item) => item.id)),
-      new Set(["youtube_regular-video", "youtube_short-video"])
+      new Set(["youtube_regular-video"])
     );
     assert.deepEqual(
       result.items.map((item) => item.youtube?.durationSeconds).sort((left, right) => (left ?? 0) - (right ?? 0)),
-      [45, 754]
+      [754]
     );
     assert.equal(result.items.every((item) => item.sourceType === "youtube"), true);
     assert.equal(result.items.every((item) => item.issueTags.includes("election")), true);
+    assert.equal(result.items.every((item) => item.relevanceTier === "secondary"), true);
+    assert.equal(result.shortsExcluded, 1);
+    assert.equal(result.unknownFormats, 0);
+    assert.equal(result.formatCache.entries["short-video"]?.classification, "shorts");
+    assert.equal(result.formatCache.entries["regular-video"]?.classification, "regular");
 
     const searchUrl = requestedUrls.find((url) => url.pathname.endsWith("/search"));
     assert.ok(searchUrl);
@@ -195,6 +229,169 @@ describe("YouTube collector", () => {
     assert.equal(searchUrl.searchParams.get("order"), "date");
     assert.equal(searchUrl.searchParams.get("publishedAfter"), "2026-04-18T00:00:00.000Z");
     assert.equal(searchUrl.searchParams.get("publishedBefore"), "2026-07-17T00:00:00.000Z");
+  });
+
+  it("collects preferred-channel uploads independently and merges them with discovery search", async () => {
+    const requestedUrls: URL[] = [];
+    const channelPolicy: YouTubeChannelPolicyFile = {
+      version: 1,
+      preferred: ["channel-1"],
+      blocked: []
+    };
+    const fetchImpl = async (input: string | URL | Request): Promise<Response> => {
+      const url = new URL(
+        typeof input === "string" || input instanceof URL ? input : input.url
+      );
+      requestedUrls.push(url);
+
+      if (url.pathname.endsWith("/channels")) {
+        return jsonResponse({
+          items: [
+            {
+              id: "channel-1",
+              contentDetails: { relatedPlaylists: { uploads: "uploads-1" } }
+            }
+          ]
+        });
+      }
+      if (url.pathname.endsWith("/playlistItems")) {
+        return jsonResponse({
+          items: [
+            {
+              contentDetails: {
+                videoId: "channel-upload",
+                videoPublishedAt: "2026-07-16T04:00:00.000Z"
+              },
+              status: { privacyStatus: "public" }
+            }
+          ]
+        });
+      }
+      if (url.pathname.endsWith("/search")) {
+        return jsonResponse({
+          items: [
+            {
+              id: { videoId: "channel-upload" },
+              snippet: snippet({ title: "대한축구협회 회장 선거 분석" })
+            },
+            {
+              id: { videoId: "search-video" },
+              snippet: snippet({
+                title: "대한축구협회 회장 선거 분석",
+                channelId: "channel-2"
+              })
+            }
+          ]
+        });
+      }
+
+      assert.equal(url.pathname.endsWith("/videos"), true);
+      return jsonResponse({
+        items: ["channel-upload", "search-video"].map((id) => ({
+          id,
+          snippet: snippet({
+            title: `대한축구협회 회장 선거 분석 ${id}`,
+            channelId: id === "channel-upload" ? "channel-1" : "channel-2"
+          }),
+          contentDetails: { duration: "PT12M34S" },
+          status: { uploadStatus: "processed", privacyStatus: "public" }
+        }))
+      });
+    };
+
+    const result = await collectYouTubeRun({
+      issues,
+      people: [],
+      queries,
+      channelPolicy,
+      now: new Date("2026-07-17T00:00:00.000Z"),
+      apiKey: "test-key",
+      fetchImpl,
+      shortsFetchImpl: async (input) => {
+        const url = new URL(
+          typeof input === "string" || input instanceof URL ? input : input.url
+        );
+        const videoId = url.pathname.split("/").at(-1);
+        return new Response(null, {
+          status: 303,
+          headers: { Location: `https://www.youtube.com/watch?v=${videoId}` }
+        });
+      },
+      maxPagesPerChannel: 1,
+      maxPagesPerQuery: 1
+    });
+
+    assert.equal(result.attempted, 4);
+    assert.equal(result.succeeded, 4);
+    assert.deepEqual(
+      new Set(result.items.map((item) => item.id)),
+      new Set(["youtube_channel-upload", "youtube_search-video"])
+    );
+    const preferredItem = result.items.find(
+      (item) => item.id === "youtube_channel-upload"
+    );
+    const unlistedItem = result.items.find(
+      (item) => item.id === "youtube_search-video"
+    );
+    assert.equal(preferredItem?.youtube?.channelStatus, "preferred");
+    assert.equal(preferredItem?.youtube?.contentRelevanceTier, "primary");
+    assert.equal(preferredItem?.relevanceTier, undefined);
+    assert.deepEqual(
+      preferredItem?.discoveryQueries,
+      ['"대한축구협회"|"회장 선거"', "channel:channel-1"]
+    );
+    assert.equal(unlistedItem?.youtube?.channelStatus, "unlisted");
+    assert.equal(unlistedItem?.youtube?.contentRelevanceTier, "primary");
+    assert.equal(unlistedItem?.relevanceTier, "secondary");
+    assert.equal(
+      requestedUrls.some((url) => url.pathname.endsWith("/playlistItems")),
+      true
+    );
+  });
+
+  it("fails open when the Shorts redirect probe is unavailable", async () => {
+    const fetchImpl = async (input: string | URL | Request): Promise<Response> => {
+      const url = new URL(
+        typeof input === "string" || input instanceof URL ? input : input.url
+      );
+      if (url.pathname.endsWith("/search")) {
+        return jsonResponse({
+          items: [
+            {
+              id: { videoId: "ambiguous-video" },
+              snippet: snippet({ title: "대한축구협회 회장 선거 영상" })
+            }
+          ]
+        });
+      }
+      return jsonResponse({
+        items: [
+          {
+            id: "ambiguous-video",
+            snippet: snippet({ title: "대한축구협회 회장 선거 영상" }),
+            contentDetails: { duration: "PT2M" },
+            status: { uploadStatus: "processed", privacyStatus: "public" }
+          }
+        ]
+      });
+    };
+
+    const result = await collectYouTubeRun({
+      issues,
+      people: [],
+      queries,
+      now: new Date("2026-07-17T00:00:00.000Z"),
+      apiKey: "test-key",
+      fetchImpl,
+      shortsFetchImpl: async () => {
+        throw new Error("blocked");
+      },
+      maxPagesPerQuery: 1
+    });
+
+    assert.deepEqual(result.items.map((item) => item.id), ["youtube_ambiguous-video"]);
+    assert.equal(result.unknownFormats, 1);
+    assert.equal(result.shortsExcluded, 0);
   });
 
   it("returns a failed run without making requests when the API key is missing", async () => {
@@ -210,7 +407,16 @@ describe("YouTube collector", () => {
       }
     });
 
-    assert.deepEqual(result, { items: [], attempted: 1, succeeded: 0, failed: 1 });
+    assert.deepEqual(result, {
+      items: [],
+      attempted: 1,
+      succeeded: 0,
+      failed: 1,
+      formatCache: { version: 1, entries: {} },
+      shortsExcluded: 0,
+      unknownFormats: 0,
+      redirectProbeHealthy: true
+    });
     assert.equal(requested, false);
   });
 });

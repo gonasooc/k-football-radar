@@ -112,6 +112,71 @@ describe("filterItems", () => {
     );
   });
 
+  it("requires the all-channels scope before YouTube search can return unlisted channels", () => {
+    const primary = item("preferred-video", {
+      type: "youtube",
+      sourceType: "youtube",
+      title: "축구협회 선별 채널 분석",
+      url: "https://www.youtube.com/watch?v=preferred-video",
+      originalUrl: "https://www.youtube.com/watch?v=preferred-video",
+      youtube: {
+        videoId: "preferred-video",
+        channelId: "preferred-channel",
+        channelStatus: "preferred",
+        contentRelevanceTier: "primary",
+        thumbnail: {
+          url: "https://i.ytimg.com/vi/preferred-video/hqdefault.jpg",
+          width: 480,
+          height: 360
+        },
+        durationSeconds: 600
+      }
+    });
+    const secondary = item("unlisted-video", {
+      type: "youtube",
+      sourceType: "youtube",
+      title: "축구협회 미선별 채널 분석",
+      url: "https://www.youtube.com/watch?v=unlisted-video",
+      originalUrl: "https://www.youtube.com/watch?v=unlisted-video",
+      relevanceTier: "secondary",
+      youtube: {
+        videoId: "unlisted-video",
+        channelId: "unlisted-channel",
+        channelStatus: "unlisted",
+        contentRelevanceTier: "primary",
+        thumbnail: {
+          url: "https://i.ytimg.com/vi/unlisted-video/hqdefault.jpg",
+          width: 480,
+          height: 360
+        },
+        durationSeconds: 600
+      }
+    });
+
+    assert.deepEqual(
+      filterItems([primary, secondary], {
+        type: "youtube",
+        scope: "primary",
+        sort: "latest",
+        issueId: "all",
+        personId: "all",
+        query: "축구협회"
+      }).map((result) => result.id),
+      ["preferred-video"]
+    );
+    assert.deepEqual(
+      filterItems([primary, secondary], {
+        type: "youtube",
+        scope: "all",
+        sort: "latest",
+        issueId: "all",
+        personId: "all",
+        query: "축구협회"
+      }).map((result) => result.id),
+      ["preferred-video", "unlisted-video"]
+    );
+  });
+
   it("sorts by latest publication time or relevance score", () => {
     const items = [
       item("older-high-relevance", {

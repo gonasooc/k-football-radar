@@ -89,7 +89,7 @@ describe("ItemCard variants", () => {
   });
 
   it("explains the scope control without exposing internal tier names", () => {
-    assert.match(feedClientSource, /aria-label="수집 범위 설명"/);
+    assert.match(feedClientSource, /"채널 범위 설명" : "수집 범위 설명"/);
     assert.match(feedClientSource, /aria-expanded=\{showScopeHelp\}/);
     assert.match(feedClientSource, /aria-describedby=\{showScopeHelp \? SCOPE_HELP_ID : undefined\}/);
     assert.match(feedClientSource, /role="tooltip"/);

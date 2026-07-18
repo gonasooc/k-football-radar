@@ -7,6 +7,8 @@ import {
   readPeople,
   readSources,
   readStoryClusters,
+  readYouTubeChannelPolicy,
+  readYouTubeFormatCache,
   readYouTubeSearchQueries
 } from "./data-io";
 import { validateDataBundle } from "../lib/validation";
@@ -23,7 +25,9 @@ async function validateData(): Promise<void> {
     sources,
     collectionState,
     storyClusters,
-    youtubeQueries
+    youtubeQueries,
+    youtubeChannelPolicy,
+    youtubeFormatCache
   ] = await Promise.all([
       readItems(),
       readPeople(),
@@ -31,7 +35,9 @@ async function validateData(): Promise<void> {
       readSources(),
       readCollectionState(),
       readStoryClusters(),
-      readYouTubeSearchQueries()
+      readYouTubeSearchQueries(),
+      readYouTubeChannelPolicy(),
+      readYouTubeFormatCache()
     ]);
 
   validateDataBundle({
@@ -53,6 +59,8 @@ async function validateData(): Promise<void> {
   if (enabledYouTubeQueryCount > 15) {
     throw new Error("At most 15 YouTube search queries can be enabled");
   }
+  const preferredYouTubeChannelCount = youtubeChannelPolicy.preferred.length;
+  const blockedYouTubeChannelCount = youtubeChannelPolicy.blocked.length;
   const rebuiltStoryClusters = buildStoryClusters(items);
   if (JSON.stringify(storyClusters) !== JSON.stringify(rebuiltStoryClusters)) {
     throw new Error(
@@ -62,7 +70,7 @@ async function validateData(): Promise<void> {
   const clusterStats = getStoryClusterStats(storyClusters);
 
   console.log(
-    `Data valid: ${items.length} items, ${issues.length} issues, ${people.length} people, ${sources.length} sources, ${enabledYouTubeQueryCount} YouTube queries; ${clusterStats.clusterCount} story clusters, ${clusterStats.clusteredItemCount} clustered news, largest ${clusterStats.largestClusterSize}`
+    `Data valid: ${items.length} items, ${issues.length} issues, ${people.length} people, ${sources.length} sources, ${enabledYouTubeQueryCount} YouTube queries, ${preferredYouTubeChannelCount} preferred and ${blockedYouTubeChannelCount} blocked YouTube channels, ${Object.keys(youtubeFormatCache.entries).length} cached video formats; ${clusterStats.clusterCount} story clusters, ${clusterStats.clusteredItemCount} clustered news, largest ${clusterStats.largestClusterSize}`
   );
 }
 

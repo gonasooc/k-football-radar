@@ -94,7 +94,9 @@ export function YouTubeCard({
   const metadata = (
     <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs font-semibold text-muted">
       <SourceBadge item={item} />
-      {item.relevanceTier === "secondary" ? (
+      {item.youtube?.channelStatus === "unlisted" ? (
+        <span className="text-ink-soft">미선별 채널</span>
+      ) : item.relevanceTier === "secondary" ? (
         <span className="text-ink-soft">보조 수집</span>
       ) : null}
       <span>

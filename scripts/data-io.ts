@@ -10,6 +10,8 @@ import {
   radarItemSchema,
   sourceSchema,
   storyClusterFileSchema,
+  youtubeChannelPolicyFileSchema,
+  youtubeFormatCacheFileSchema,
   youtubeSearchQuerySchema,
   type CollectionState,
   type Issue,
@@ -17,6 +19,8 @@ import {
   type RadarItem,
   type Source,
   type StoryClusterFile,
+  type YouTubeChannelPolicyFile,
+  type YouTubeFormatCacheFile,
   type YouTubeSearchQuery
 } from "../lib/schema";
 import { EMPTY_STORY_CLUSTER_FILE } from "../lib/story-clusters";
@@ -68,6 +72,25 @@ export async function readSources(): Promise<Source[]> {
 
 export async function readYouTubeSearchQueries(): Promise<YouTubeSearchQuery[]> {
   return youtubeSearchQuerySchema.array().parse(await readJson("youtube-queries.json"));
+}
+
+export async function readYouTubeChannelPolicy(): Promise<YouTubeChannelPolicyFile> {
+  return youtubeChannelPolicyFileSchema.parse(await readJson("youtube-channels.json"));
+}
+
+export async function readYouTubeFormatCache(): Promise<YouTubeFormatCacheFile> {
+  return youtubeFormatCacheFileSchema.parse(
+    await readJson("youtube-format-cache.json")
+  );
+}
+
+export async function writeYouTubeFormatCache(
+  cache: YouTubeFormatCacheFile
+): Promise<void> {
+  await writeJson(
+    "youtube-format-cache.json",
+    youtubeFormatCacheFileSchema.parse(cache)
+  );
 }
 
 export async function readCollectionState(): Promise<CollectionState> {

@@ -18,6 +18,14 @@ const homeSectionSource = readFileSync(
   new URL("../components/HomeFeedSection.tsx", import.meta.url),
   "utf8"
 );
+const feedClientSource = readFileSync(
+  new URL("../components/FeedClient.tsx", import.meta.url),
+  "utf8"
+);
+const youtubePageSource = readFileSync(
+  new URL("../app/youtube/page.tsx", import.meta.url),
+  "utf8"
+);
 
 describe("YouTube feed UI", () => {
   it("routes YouTube entries to a media-aware card with the editorial metadata rhythm", () => {
@@ -37,6 +45,15 @@ describe("YouTube feed UI", () => {
     assert.match(cardSource, /썸네일을 불러오지 못했습니다/);
     assert.match(nextConfigSource, /hostname: "i\.ytimg\.com"/);
     assert.match(nextConfigSource, /pathname: "\/vi\/\*\*"/);
+  });
+
+  it("exposes curated channel scope and marks unlisted channel results", () => {
+    assert.match(feedClientSource, /\["primary", "선별 채널"\]/);
+    assert.match(feedClientSource, /\["all", "전체 채널"\]/);
+    assert.match(feedClientSource, /검색도 선택한 범위 안에서만 동작합니다/);
+    assert.match(cardSource, /channelStatus === "unlisted"/);
+    assert.match(cardSource, /미선별 채널/);
+    assert.match(youtubePageSource, /Shorts는 명확히 판별되는 경우 제외합니다/);
   });
 
   it("reuses the same six-item section composition for home news and video previews", () => {

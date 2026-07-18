@@ -28,6 +28,7 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 20,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -35,6 +36,8 @@
     "youtube": {
       "videoId": "FBhDjqyHKvo",
       "channelId": "UCPxH6YpFTI8gzUX7itAdKtQ",
+      "channelStatus": "unlisted",
+      "contentRelevanceTier": "primary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/FBhDjqyHKvo/maxresdefault.jpg",
         "width": 1280,

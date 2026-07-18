@@ -26,12 +26,15 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
     "youtube": {
       "videoId": "y-no_vlReHY",
       "channelId": "UCqNti5Fj4ztEbF-5EyldqMQ",
+      "channelStatus": "unlisted",
+      "contentRelevanceTier": "primary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/y-no_vlReHY/maxresdefault.jpg",
         "width": 1280,

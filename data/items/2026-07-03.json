@@ -95,12 +95,15 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 42,
+    "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
     ],
     "youtube": {
       "videoId": "HKA9TlOvTDc",
       "channelId": "UCqHV0j5QngO3lbUg7VtJZxA",
+      "channelStatus": "unlisted",
+      "contentRelevanceTier": "primary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/HKA9TlOvTDc/maxresdefault.jpg",
         "width": 1280,
@@ -181,6 +184,8 @@
     "youtube": {
       "videoId": "ukXb_-kpwlI",
       "channelId": "UC5zT7-3NXCxAza2FfwNt9uw",
+      "channelStatus": "preferred",
+      "contentRelevanceTier": "primary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/ukXb_-kpwlI/maxresdefault.jpg",
         "width": 1280,
@@ -376,6 +381,8 @@
     "youtube": {
       "videoId": "6hBvOFmx1Vw",
       "channelId": "UCn9mJ4htO64-1osMWYu9k5Q",
+      "channelStatus": "preferred",
+      "contentRelevanceTier": "primary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/6hBvOFmx1Vw/maxresdefault.jpg",
         "width": 1280,
@@ -531,6 +538,8 @@
     "youtube": {
       "videoId": "BmcWuLC-_yM",
       "channelId": "UCG9aFJTZ-lMCHAiO1KJsirg",
+      "channelStatus": "preferred",
+      "contentRelevanceTier": "primary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/BmcWuLC-_yM/maxresdefault.jpg",
         "width": 1280,
@@ -569,48 +578,6 @@
     "labels": [
       "인물 언급"
     ]
-  },
-  {
-    "id": "youtube_Zq1PjfIT9DU",
-    "type": "youtube",
-    "title": "홍명보감독 선임 이유 #홍명보 #홍명보출국",
-    "summary": "",
-    "url": "https://www.youtube.com/watch?v=Zq1PjfIT9DU",
-    "originalUrl": "https://www.youtube.com/watch?v=Zq1PjfIT9DU",
-    "publisher": "[병헌]창원🐕‍🦺",
-    "publishedAt": "2026-07-03T07:52:18Z",
-    "collectedAt": "2026-07-17T09:15:55.406Z",
-    "matchedKeywords": [
-      "감독 선임",
-      "감독",
-      "선임",
-      "홍명보"
-    ],
-    "discoveryQueries": [
-      "\"정몽규 대한축구협회\"|\"허정무 대한축구협회\"|\"홍명보 감독 선임\""
-    ],
-    "issueTags": [
-      "coach-appointment"
-    ],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 18,
-    "labels": [
-      "인물 언급"
-    ],
-    "youtube": {
-      "videoId": "Zq1PjfIT9DU",
-      "channelId": "UCvCmASyMleHFbJGQtgLkUCw",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/Zq1PjfIT9DU/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "durationSeconds": 61
-    }
   },
   {
     "id": "item_5c2796185392bb33",
@@ -960,50 +927,6 @@
     "labels": [
       "인물 언급"
     ]
-  },
-  {
-    "id": "youtube__BE1oRVsNro",
-    "type": "youtube",
-    "title": "홍명보 미국으로 도망갔나?#홍명보#카르텔#정몽규#대한축구협회#특별감사#청문회#국가대표감독",
-    "summary": "",
-    "url": "https://www.youtube.com/watch?v=_BE1oRVsNro",
-    "originalUrl": "https://www.youtube.com/watch?v=_BE1oRVsNro",
-    "publisher": "이달봉TV",
-    "publishedAt": "2026-07-03T03:30:29Z",
-    "collectedAt": "2026-07-17T09:15:55.406Z",
-    "matchedKeywords": [
-      "대한축구협회",
-      "감사",
-      "정몽규",
-      "홍명보"
-    ],
-    "discoveryQueries": [
-      "\"정몽규 대한축구협회\"|\"허정무 대한축구협회\"|\"홍명보 감독 선임\""
-    ],
-    "issueTags": [
-      "mcst-audit"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 51,
-    "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
-    ],
-    "youtube": {
-      "videoId": "_BE1oRVsNro",
-      "channelId": "UCgNL348s-QWfF1cENSBQpSA",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/_BE1oRVsNro/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 58
-    }
   },
   {
     "id": "item_97eeced743b38b97",

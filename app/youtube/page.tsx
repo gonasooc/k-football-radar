@@ -33,7 +33,7 @@ export default async function YouTubePage({ searchParams }: YouTubePageProps) {
   return (
     <div className="mx-auto w-full max-w-7xl px-4 pb-10 pt-6 sm:px-6 sm:pt-8 lg:px-8">
       <SectionHeader
-        description="한국축구 이슈를 다룬 영상을 제목과 설명 기준으로 선별합니다. Shorts도 함께 포함합니다."
+        description="선별 채널의 한국축구 분석·인터뷰와 일반 영상 자료를 우선 제공합니다. Shorts는 명확히 판별되는 경우 제외합니다."
         title="유튜브"
       />
       <div className="mt-6">

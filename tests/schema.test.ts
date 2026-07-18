@@ -1,7 +1,10 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 
-import { radarItemSchema } from "../lib/schema";
+import {
+  radarItemSchema,
+  youtubeChannelPolicyFileSchema
+} from "../lib/schema";
 
 const validRadarItem = {
   id: "item_ok",
@@ -78,6 +81,8 @@ describe("radarItemSchema", () => {
       youtube: {
         videoId: "video-1",
         channelId: "channel-1",
+        channelStatus: "preferred",
+        contentRelevanceTier: "primary",
         thumbnail: {
           url: "https://i.ytimg.com/vi/video-1/hqdefault.jpg",
           width: 480,
@@ -89,11 +94,54 @@ describe("radarItemSchema", () => {
 
     assert.equal(radarItemSchema.safeParse(youtubeItem).success, true);
     assert.equal(
+      radarItemSchema.safeParse({
+        ...youtubeItem,
+        youtube: { ...youtubeItem.youtube, channelStatus: "blocked" }
+      }).success,
+      false
+    );
+    assert.equal(
       radarItemSchema.safeParse({ ...youtubeItem, youtube: undefined }).success,
       false
     );
     assert.equal(
       radarItemSchema.safeParse({ ...validRadarItem, youtube: youtubeItem.youtube }).success,
+      false
+    );
+  });
+});
+
+describe("youtubeChannelPolicyFileSchema", () => {
+  it("accepts channel-ID-only preferred and blocked lists", () => {
+    assert.deepEqual(
+      youtubeChannelPolicyFileSchema.parse({
+        version: 1,
+        preferred: ["preferred-channel"],
+        blocked: ["blocked-channel"]
+      }),
+      {
+        version: 1,
+        preferred: ["preferred-channel"],
+        blocked: ["blocked-channel"]
+      }
+    );
+  });
+
+  it("rejects duplicate IDs and overlap between the two lists", () => {
+    assert.equal(
+      youtubeChannelPolicyFileSchema.safeParse({
+        version: 1,
+        preferred: ["same-channel", "same-channel"],
+        blocked: []
+      }).success,
+      false
+    );
+    assert.equal(
+      youtubeChannelPolicyFileSchema.safeParse({
+        version: 1,
+        preferred: ["same-channel"],
+        blocked: ["same-channel"]
+      }).success,
       false
     );
   });

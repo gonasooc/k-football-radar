@@ -34,8 +34,10 @@ const SEARCH_DEBOUNCE_MS = 250;
 const FEATURED_ITEM_COUNT = 3;
 const SCOPE_HELP_ID = "feed-scope-help";
 const ADVANCED_FILTERS_ID = "feed-advanced-filters";
-const SCOPE_HELP_TEXT =
+const NEWS_SCOPE_HELP_TEXT =
   "주요는 관련도가 높은 기본 수집 항목만 보여줍니다. 전체는 보조 수집 항목까지 포함합니다. 검색어가 있으면 보조 수집도 함께 찾습니다.";
+const YOUTUBE_SCOPE_HELP_TEXT =
+  "선별 채널은 수동으로 검토한 채널의 관련 영상만 보여줍니다. 전체 채널은 미선별 채널의 보조 수집 영상까지 포함하며, 검색도 선택한 범위 안에서만 동작합니다.";
 const MemoizedStoryFeedEntryCard = memo(StoryFeedEntryCard);
 
 const NEWS_TYPE_OPTIONS: readonly [FeedTypeFilter, string][] = [
@@ -47,9 +49,13 @@ const NEWS_ALLOWED_TYPES = new Set<FeedTypeFilter>(
   NEWS_TYPE_OPTIONS.map(([value]) => value)
 );
 
-const SCOPE_OPTIONS: readonly [FeedScopeFilter, string][] = [
+const NEWS_SCOPE_OPTIONS: readonly [FeedScopeFilter, string][] = [
   ["primary", "주요"],
   ["all", "전체"]
+];
+const YOUTUBE_SCOPE_OPTIONS: readonly [FeedScopeFilter, string][] = [
+  ["primary", "선별 채널"],
+  ["all", "전체 채널"]
 ];
 
 const SORT_OPTIONS: readonly [FeedSortOrder, string][] = [
@@ -88,6 +94,10 @@ export function FeedClient({
     () => ({ ...defaultFeedFilters, type: mode === "youtube" ? "youtube" : "all" }),
     [mode]
   );
+  const scopeOptions =
+    mode === "youtube" ? YOUTUBE_SCOPE_OPTIONS : NEWS_SCOPE_OPTIONS;
+  const scopeHelpText =
+    mode === "youtube" ? YOUTUBE_SCOPE_HELP_TEXT : NEWS_SCOPE_HELP_TEXT;
   const showTypeFilter = mode === "news";
   const routeSearchParams = useSearchParams();
   const issueIds = useMemo(() => new Set(issues.map((issue) => issue.id)), [issues]);
@@ -348,12 +358,17 @@ export function FeedClient({
   const listEntries = hasSearchQuery
     ? results.entries
     : results.entries.slice(FEATURED_ITEM_COUNT);
-  let feedScopeLabel = mode === "youtube" ? "전체 영상" : "전체 피드";
+  let feedScopeLabel = mode === "youtube" ? "전체 채널 영상" : "전체 피드";
 
   if (hasSearchQuery) {
-    feedScopeLabel = mode === "youtube" ? "영상 검색" : "전체 검색";
+    feedScopeLabel =
+      mode === "youtube"
+        ? scopeFilter === "primary"
+          ? "선별 채널 검색"
+          : "전체 채널 검색"
+        : "전체 검색";
   } else if (scopeFilter === "primary") {
-    feedScopeLabel = mode === "youtube" ? "주요 영상" : "주요 피드";
+    feedScopeLabel = mode === "youtube" ? "선별 채널 영상" : "주요 피드";
   }
 
   return (
@@ -492,11 +507,13 @@ export function FeedClient({
                 }}
               >
                 <div className="mb-1.5 flex min-h-7 items-center">
-                  <span className="text-[11px] font-black text-muted">수집 범위</span>
+                  <span className="text-[11px] font-black text-muted">
+                    {mode === "youtube" ? "채널 범위" : "수집 범위"}
+                  </span>
                   <button
                     aria-describedby={showScopeHelp ? SCOPE_HELP_ID : undefined}
                     aria-expanded={showScopeHelp}
-                    aria-label="수집 범위 설명"
+                    aria-label={mode === "youtube" ? "채널 범위 설명" : "수집 범위 설명"}
                     className="focus-ring motion-soft absolute -top-2 right-0 z-30 inline-flex size-11 items-center justify-center rounded-control text-muted hover:bg-paper hover:text-ink"
                     onBlur={() => setShowScopeHelp(false)}
                     onClick={() => setShowScopeHelp(true)}
@@ -515,15 +532,15 @@ export function FeedClient({
                     id={SCOPE_HELP_ID}
                     role="tooltip"
                   >
-                    {SCOPE_HELP_TEXT}
+                    {scopeHelpText}
                   </div>
                 ) : null}
                 <div
-                  aria-label="수집 범위"
+                  aria-label={mode === "youtube" ? "채널 범위" : "수집 범위"}
                   className="grid h-11 grid-cols-2 overflow-hidden rounded-control border border-rule bg-canvas"
                   role="group"
                 >
-                  {SCOPE_OPTIONS.map(([value, label]) => {
+                  {scopeOptions.map(([value, label]) => {
                     const selected = scopeFilter === value;
                     return (
                       <button

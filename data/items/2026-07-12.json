@@ -274,12 +274,15 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 39,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
     "youtube": {
       "videoId": "W_4Dbq3BX4c",
       "channelId": "UCuLCgdcjKz_5mtpkITF76jg",
+      "channelStatus": "unlisted",
+      "contentRelevanceTier": "primary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/W_4Dbq3BX4c/maxresdefault.jpg",
         "width": 1280,
@@ -731,52 +734,6 @@
     "labels": []
   },
   {
-    "id": "youtube_B5SAaUShC0U",
-    "type": "youtube",
-    "title": "홍명보 미국 체류 해명축구협회 청문회 본격화 #홍명보 #박항서 #대한축구협회 #청문회 #축구대표팀 #감독선임 #이뉴 #스포츠뉴스",
-    "summary": "홍명보 전 축구대표팀 감독이 가족을 향한 협박과 신변 안전 우려로 미국에 머물렀다고 밝혔습니다. 국회는 대한축구협회 청문회를 의결하고 증인 13명을 채택했으며, 감독 선임 과정과 협회 운영 전반을 검증할 예정입니다. 박항서 전 감독은 국민 기대에 부응하지 못했다며 반성과 쇄신이 필요하다고 강조했습니다. 👍해시태그 #홍명보 #박항서 #대한축구협회 #청문회 #축구대표팀 #감독선임 #이뉴 #스포츠뉴스",
-    "url": "https://www.youtube.com/watch?v=B5SAaUShC0U",
-    "originalUrl": "https://www.youtube.com/watch?v=B5SAaUShC0U",
-    "publisher": "이뉴",
-    "publishedAt": "2026-07-12T13:00:07Z",
-    "collectedAt": "2026-07-17T09:15:55.406Z",
-    "matchedKeywords": [
-      "대한축구협회",
-      "감독",
-      "선임",
-      "홍명보",
-      "해명",
-      "감독 선임",
-      "대표팀 감독"
-    ],
-    "discoveryQueries": [
-      "\"문체부 감사\"|\"축구협회 감사\"|\"축구협회 해명\"|\"축구협회 청문회\""
-    ],
-    "issueTags": [
-      "coach-appointment"
-    ],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 56,
-    "labels": [
-      "인물 언급",
-      "해명 키워드 포함"
-    ],
-    "youtube": {
-      "videoId": "B5SAaUShC0U",
-      "channelId": "UCywqbfWCZi3o2lki1kOIqGQ",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/B5SAaUShC0U/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 54
-    }
-  },
-  {
     "id": "item_3aa609a4f266a7d6",
     "type": "news",
     "title": "\"대한민국이 원한다!\" 홍명보, 후임 거론됐던 크로아티아, 전 사령탑 거...",
@@ -840,49 +797,6 @@
     ]
   },
   {
-    "id": "youtube_VUDhN9WhW-4",
-    "type": "youtube",
-    "title": "홍명보 감독 선임 의혹, 경찰 수사 본격화",
-    "summary": "저는 홍명보 국가대표팀 감독 선임 과정에서 제기된 위법 의혹과 관련해 경찰 수사가 본격화됐다는 소식을 전했습니다",
-    "url": "https://www.youtube.com/watch?v=VUDhN9WhW-4",
-    "originalUrl": "https://www.youtube.com/watch?v=VUDhN9WhW-4",
-    "publisher": "바다여행",
-    "publishedAt": "2026-07-12T12:19:47Z",
-    "collectedAt": "2026-07-17T09:15:55.406Z",
-    "matchedKeywords": [
-      "감독 선임",
-      "감독",
-      "선임",
-      "홍명보",
-      "대표팀 감독"
-    ],
-    "discoveryQueries": [
-      "\"정몽규 대한축구협회\"|\"허정무 대한축구협회\"|\"홍명보 감독 선임\""
-    ],
-    "issueTags": [
-      "coach-appointment"
-    ],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 25,
-    "labels": [
-      "인물 언급"
-    ],
-    "youtube": {
-      "videoId": "VUDhN9WhW-4",
-      "channelId": "UC81G7ChQw13ZzmJgfbRlLaA",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/VUDhN9WhW-4/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 39
-    }
-  },
-  {
     "id": "youtube_HcPehppsIng",
     "type": "youtube",
     "title": "이영표 ‘K혁신위’ 위원, 축구협회 청문회 불참…박지성 위원장도 불투명",
@@ -906,12 +820,15 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
     "youtube": {
       "videoId": "HcPehppsIng",
       "channelId": "UCzPbYF4HM719WSb35uhY8Hg",
+      "channelStatus": "unlisted",
+      "contentRelevanceTier": "primary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/HcPehppsIng/maxresdefault.jpg",
         "width": 1280,
@@ -954,56 +871,6 @@
     "labels": [
       "인물 언급"
     ]
-  },
-  {
-    "id": "youtube_84zoW57q-1U",
-    "type": "youtube",
-    "title": "손흥민·황희찬 참고인 철회! 축구협회 청문회 증인·참고인 명단 총정리 #축구협회 #대한축구협회 #축구협회청문회",
-    "summary": "대한축구협회 현안 관련 청문회 명단이 공개됐습니다. 증인으로는 정몽규 전 대한축구협회장, 홍명보 전 축구 국가대표팀 감독, 이임생 전 기술총괄이사, 이용수 부회장, 정해성 전 국가대표전력강화위원장 등 축구협회 전·현직 핵심 인사들이 포함됐습니다. 이번 청문회 증인은 총 13명입니다. 참고인 명단에는 박지성, 유승민, 박주호, 이영표, 박동희, 이재철, 서형욱, 김영광 등이 포함됐습니다. 당초 손흥민, 황희찬 선수도 참고인으로 채택됐지만, 논란이 커지자 신청이 철회됐습니다. [구독, ❤️좋아요 누르고 딱 핵심만! 확인하세요]",
-    "url": "https://www.youtube.com/watch?v=84zoW57q-1U",
-    "originalUrl": "https://www.youtube.com/watch?v=84zoW57q-1U",
-    "publisher": "딱! 핵심만",
-    "publishedAt": "2026-07-12T11:00:30Z",
-    "collectedAt": "2026-07-17T09:15:55.406Z",
-    "matchedKeywords": [
-      "대한축구협회",
-      "축구협회장",
-      "대한축구협회장",
-      "부회장",
-      "정몽규",
-      "홍명보",
-      "박지성",
-      "이임생"
-    ],
-    "discoveryQueries": [
-      "\"문체부 감사\"|\"축구협회 감사\"|\"축구협회 해명\"|\"축구협회 청문회\""
-    ],
-    "issueTags": [
-      "election",
-      "kfa-executives"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_park_ji_sung",
-      "person_lee_im_saeng"
-    ],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 46,
-    "labels": [
-      "인물 언급"
-    ],
-    "youtube": {
-      "videoId": "84zoW57q-1U",
-      "channelId": "UCaX_Lby6eqMco9nPuy0Jr3w",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/84zoW57q-1U/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 13
-    }
   },
   {
     "id": "item_cc6f963d2a209ca9",
@@ -1120,6 +987,7 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 20,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -1127,6 +995,8 @@
     "youtube": {
       "videoId": "JI9hyxWtiT0",
       "channelId": "UCPxH6YpFTI8gzUX7itAdKtQ",
+      "channelStatus": "unlisted",
+      "contentRelevanceTier": "primary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/JI9hyxWtiT0/maxresdefault.jpg",
         "width": 1280,
@@ -1256,79 +1126,6 @@
     "labels": [
       "인물 언급"
     ]
-  },
-  {
-    "id": "youtube_J-F4tMTP9BY",
-    "type": "youtube",
-    "title": "22일 열리는 축구협회 청문회에 손흥민을 부르면 안되는 이유_매불쇼, 박문성 최욱, 이재명, 대통령, 더불어민주당, 당대표, 김어준,겸손은힘들다, 뉴스공장, 정몽규, 홍명보",
-    "summary": "#매불쇼 #더불어민주당 #당대표 #이재명 #대통령 #김어준 #뉴스공장 #겸손은힘들다 22일 열리는 축구협회 청문회에 손흥민을 부르면 안되는 이유_매불쇼, 박문성 최욱, 이재명, 대통령, 더불어민주당, 당대표, 김어준,겸손은힘들다, 뉴스공장, 정몽규, 홍명보",
-    "url": "https://www.youtube.com/watch?v=J-F4tMTP9BY",
-    "originalUrl": "https://www.youtube.com/watch?v=J-F4tMTP9BY",
-    "publisher": "짤방뉴스",
-    "publishedAt": "2026-07-12T07:34:47Z",
-    "collectedAt": "2026-07-17T09:15:55.406Z",
-    "matchedKeywords": [
-      "축구협회",
-      "정몽규",
-      "홍명보"
-    ],
-    "discoveryQueries": [
-      "\"문체부 감사\"|\"축구협회 감사\"|\"축구협회 해명\"|\"축구협회 청문회\""
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 35,
-    "labels": [
-      "인물 언급"
-    ],
-    "youtube": {
-      "videoId": "J-F4tMTP9BY",
-      "channelId": "UCHdNfLcWao909YpWOI-6D-A",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/J-F4tMTP9BY/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 32
-    }
-  },
-  {
-    "id": "youtube_0aFCoWTWJ5Y",
-    "type": "youtube",
-    "title": "한국전 뛴 25세 선수 비보…축구협회 청문회 소식 #축구 #뉴스 #이슈",
-    "summary": "더블헤더 축구 브리핑! 오늘의 주요 소식: · 한국전이 마지막 경기…남아공 25세 국가대표 숨진채 발견 · “한국전이 생애 마지막 경기였다”…남아공 25세 선수 숨진 채 발견 · '한국전 승리 17일 만에 이런 비극이' BBC도 놀랐다…남아공 MF, 25세로 생애 마감→\"월드컵 도중 할머니 별세\", 우울증으로 비극적 선택? · '월드컵' 한국전이 마지막 경기...남아공 25세 선수, 숨진 채 발견 매일 아침 8시 야구, 정오 축구, 저녁 6시 스포츠 종합! #축구 #해외축구 #국가대표 #축구뉴스 #스포츠 #shorts",
-    "url": "https://www.youtube.com/watch?v=0aFCoWTWJ5Y",
-    "originalUrl": "https://www.youtube.com/watch?v=0aFCoWTWJ5Y",
-    "publisher": "더블헤더",
-    "publishedAt": "2026-07-12T06:58:05Z",
-    "collectedAt": "2026-07-17T09:15:55.406Z",
-    "matchedKeywords": [
-      "축구협회"
-    ],
-    "discoveryQueries": [
-      "\"문체부 감사\"|\"축구협회 감사\"|\"축구협회 해명\"|\"축구협회 청문회\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 10,
-    "labels": [],
-    "youtube": {
-      "videoId": "0aFCoWTWJ5Y",
-      "channelId": "UC2TzaSjjIzbgGNz7GgEXB8Q",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/0aFCoWTWJ5Y/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 76
-    }
   },
   {
     "id": "item_40f28abd3ebddb03",
@@ -1651,6 +1448,8 @@
     "youtube": {
       "videoId": "K9Vze1I_05w",
       "channelId": "UCTHCOPwqNfZ0uiKOvFyhGwg",
+      "channelStatus": "preferred",
+      "contentRelevanceTier": "primary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/K9Vze1I_05w/maxresdefault.jpg",
         "width": 1280,

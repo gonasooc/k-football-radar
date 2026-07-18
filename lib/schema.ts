@@ -15,10 +15,20 @@ const httpUrlString = z.string().url().refine(
   }
 );
 export const relevanceTierSchema = z.enum(["primary", "secondary"]);
+export const youtubeChannelStatusSchema = z.enum([
+  "preferred",
+  "unlisted",
+  "blocked"
+]);
+export const youtubeVisibleChannelStatusSchema = youtubeChannelStatusSchema.exclude([
+  "blocked"
+]);
 
 export const youtubeMetadataSchema = z.object({
   videoId: z.string().min(1),
   channelId: z.string().min(1),
+  channelStatus: youtubeVisibleChannelStatusSchema.optional(),
+  contentRelevanceTier: relevanceTierSchema.optional(),
   thumbnail: z.object({
     url: httpUrlString,
     width: z.number().int().positive(),
@@ -123,6 +133,50 @@ export const youtubeSearchQuerySchema = z.object({
   enabled: z.boolean()
 });
 
+export const youtubeChannelPolicyFileSchema = z
+  .object({
+    version: z.literal(1),
+    preferred: z.array(z.string().min(1)),
+    blocked: z.array(z.string().min(1))
+  })
+  .superRefine((value, context) => {
+    for (const listName of ["preferred", "blocked"] as const) {
+      const channelIds = new Set<string>();
+      for (const [index, channelId] of value[listName].entries()) {
+        if (channelIds.has(channelId)) {
+          context.addIssue({
+            code: z.ZodIssueCode.custom,
+            message: `YouTube ${listName} channel IDs must be unique`,
+            path: [listName, index]
+          });
+        }
+        channelIds.add(channelId);
+      }
+    }
+
+    const preferredIds = new Set(value.preferred);
+    for (const [index, channelId] of value.blocked.entries()) {
+      if (preferredIds.has(channelId)) {
+        context.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: "A YouTube channel cannot be both preferred and blocked",
+          path: ["blocked", index]
+        });
+      }
+    }
+  });
+
+export const youtubeFormatCacheEntrySchema = z.object({
+  classification: z.enum(["shorts", "regular"]),
+  evidence: z.enum(["metadata", "redirect", "duration"]),
+  checkedAt: isoDateString
+});
+
+export const youtubeFormatCacheFileSchema = z.object({
+  version: z.literal(1),
+  entries: z.record(youtubeFormatCacheEntrySchema)
+});
+
 export const collectorRunStateSchema = z.object({
   lastCollectedAt: isoDateString,
   lastRunStatus: z.enum(["success", "partial", "failed", "never"]),
@@ -166,6 +220,19 @@ export const dataBundleSchema = z.object({
 
 export type RadarItem = z.infer<typeof radarItemSchema>;
 export type YouTubeMetadata = z.infer<typeof youtubeMetadataSchema>;
+export type YouTubeChannelStatus = z.infer<typeof youtubeChannelStatusSchema>;
+export type YouTubeVisibleChannelStatus = z.infer<
+  typeof youtubeVisibleChannelStatusSchema
+>;
+export type YouTubeChannelPolicyFile = z.infer<
+  typeof youtubeChannelPolicyFileSchema
+>;
+export type YouTubeFormatCacheEntry = z.infer<
+  typeof youtubeFormatCacheEntrySchema
+>;
+export type YouTubeFormatCacheFile = z.infer<
+  typeof youtubeFormatCacheFileSchema
+>;
 export type RelevanceTier = z.infer<typeof relevanceTierSchema>;
 export type Person = z.infer<typeof personSchema>;
 export type Issue = z.infer<typeof issueSchema>;

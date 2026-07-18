@@ -155,7 +155,11 @@ export function filterItems<T extends FilterableFeedItem>(items: T[], filters: F
   const normalizedQuery = filters.query.trim().toLocaleLowerCase("ko-KR");
 
   const filteredItems = items.filter((item) => {
-    if (filters.scope === "primary" && normalizedQuery.length === 0 && isSecondaryItem(item)) {
+    if (
+      filters.scope === "primary" &&
+      isSecondaryItem(item) &&
+      (normalizedQuery.length === 0 || filters.type === "youtube")
+    ) {
       return false;
     }
 
