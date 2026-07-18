@@ -4,6 +4,7 @@ import Link from "next/link";
 import "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css";
 
 import { AppNav } from "@/components/AppNav";
+import { EditorialContact } from "@/components/EditorialContact";
 import "./globals.css";
 
 const siteName = "Korea Football Radar";
@@ -67,7 +68,7 @@ export default function RootLayout({
         >
           본문으로 건너뛰기
         </a>
-        <div className="min-h-screen bg-canvas text-ink">
+        <div className="flex min-h-screen flex-col bg-canvas text-ink">
           <header className="border-b border-rule bg-canvas">
             <div className="mx-auto flex w-full max-w-7xl items-end justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4 lg:px-8">
               <Link
@@ -91,9 +92,10 @@ export default function RootLayout({
 
             <AppNav />
           </header>
-          <main className="pb-24 sm:pb-16" id="main-content">
+          <main className="flex-1" id="main-content">
             {children}
           </main>
+          <EditorialContact />
         </div>
       </body>
     </html>
