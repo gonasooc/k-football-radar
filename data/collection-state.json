@@ -1,18 +1,18 @@
 {
-  "lastCollectedAt": "2026-07-19T07:49:52.829Z",
-  "lastRunStatus": "success",
-  "lastRunNewItems": 12,
+  "lastCollectedAt": "2026-07-19T10:15:17.121Z",
+  "lastRunStatus": "partial",
+  "lastRunNewItems": 7,
   "totalItems": 2143,
   "collectors": {
     "naver": {
-      "lastCollectedAt": "2026-07-19T07:49:52.829Z",
+      "lastCollectedAt": "2026-07-19T10:15:17.121Z",
       "lastRunStatus": "success",
-      "lastRunNewItems": 12,
+      "lastRunNewItems": 7,
       "totalItems": 1998
     },
     "official": {
       "lastCollectedAt": "2026-07-19T07:49:52.829Z",
-      "lastRunStatus": "success",
+      "lastRunStatus": "failed",
       "lastRunNewItems": 0,
       "totalItems": 2
     },
