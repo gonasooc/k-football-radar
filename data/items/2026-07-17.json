@@ -1301,7 +1301,7 @@
     "id": "item_615690b06e728bae",
     "type": "news",
     "title": "대한축구협회 핵심 실무자 5명 누구?...핫이슈 등극한 이천수 발언 일파...",
-    "summary": "이천수는 최근 자신의 유튜브 채널 '리춘수'를 통해 대한축구협회 의 구조적인 문제를 언급하며 협회 장이나 대표팀 감독이 물러나는 것만으로는 충분하지 않다고 강조해 눈길을 끌었다. 이와 관련해 이천수는 \" 정몽규 ...",
+    "summary": "통해 대한축구협회 의 구조적인 문제를 언급하며 협회 장이나 대표팀 감독이 물러나는 것만으로는 충분하지 않다고 강조해 눈길을 끌었다. 이와 관련해 이천수는 \"정몽규 회장이 나갔고 홍명보 감독도 나갔다. 그런데...",
     "url": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160310106946886",
     "originalUrl": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160310106946886",
     "publisher": "siminilbo.co.kr",
@@ -1309,7 +1309,8 @@
     "collectedAt": "2026-07-17T12:47:47.838Z",
     "matchedKeywords": [
       "대한축구협회",
-      "정몽규"
+      "정몽규",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1323,11 +1324,12 @@
     ],
     "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu"
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
     ]
@@ -1463,7 +1465,7 @@
     "id": "item_d68b0b200fc74047",
     "type": "news",
     "title": "\"서강일 XXX야\" \"당장 사퇴하라\"....전북축구협회 게시판 현 상황",
-    "summary": "앞서 서 회장은 지난 16일 KBS와의 인터뷰에서 대한 축구협회 혁신위원회에 참여한 박지성 과 이영표를 향해 \" 박지성 , 이영표가 뭘 안다고 혁신위원회를 하나. 뭐를 안다고 말을 함부로 하나\"라고 말했다. 이어 \" 축구 로서는...",
+    "summary": "앞서 서 회장은 지난 16일 KBS와의 인터뷰에서 대한축구협회 혁신위원회에 참여한 박지성 과 이영표를 향해 \" 박지성 , 이영표가 뭘 안다고 혁신위원회를 하나. 뭐를 안다고 말을 함부로 하나\"라고 말했다. 이어 \" 축구 로서는...",
     "url": "https://www.ajunews.com/view/20260717201043787",
     "originalUrl": "https://www.ajunews.com/view/20260717201043787",
     "publisher": "ajunews.com",
@@ -1472,7 +1474,7 @@
     "matchedKeywords": [
       "축구협회",
       "사퇴",
-      "대한 축구협회",
+      "대한축구협회",
       "혁신위원회",
       "박지성"
     ],
@@ -1719,7 +1721,7 @@
     "id": "item_6edc9e7f957994c1",
     "type": "news",
     "title": "\"박지성·이영표가 뭘 아느냐\" 발언 후폭풍…박문성 \"한국축구 민낯, 정...",
-    "summary": "박지성 과 이영표를 향해 \"뭘 아느냐\"고 비판한 서강일 전북특별자치도 축구협회 장의 발언이 축구 계 안팎에서... 또 정몽규 전 대한축구협회 장에 대해서는 \"13년 천하가 아니라 13년 희생\"이라며 \"이 정도까지 비판받을 사람은...",
+    "summary": "진짜 정신 나간 사람들'이라는 제목의 영상을 올리고 최근 잇따른 지역 축구협회 장들의 발언을 정면으로 비판했다. 논란은 서 회장이 최근 KBS 인터뷰에서 K- 축구 혁신위 원회에 참여한 박지성, 이영표를 겨냥해 \" 축구 로서는...",
     "url": "http://www.fnnews.com/news/202607171844179640",
     "originalUrl": "http://www.fnnews.com/news/202607171844179640",
     "publisher": "fnnews.com",
@@ -1727,8 +1729,8 @@
     "collectedAt": "2026-07-17T11:09:31.584Z",
     "matchedKeywords": [
       "박지성",
-      "대한축구협회",
-      "정몽규"
+      "축구협회",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1752,14 +1754,15 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "innovation-committee"
+    ],
     "personTags": [
-      "person_park_ji_sung",
-      "person_chung_mong_gyu"
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ]
@@ -1800,17 +1803,15 @@
     "id": "item_741823435e7375ec",
     "type": "news",
     "title": "\"인생 얼마나 살았다고…\" 서강일 전북축구협회장 폭탄 발언 \"박지성·이...",
-    "summary": "서강일 전북특별자치도 축구협회 장이 최근 새롭게 출범한 케이- 축구 혁신위원회 박지성 (45) 공동위원장과... 차라리 직접 대한축구협회 (KFA)장 선거에 출마하라\"고 밝혔다. KFA는 2026 국제 축구 연맹(FIFA) 북중미 월드컵 이후...",
+    "summary": "서강일 전북특별자치도 축구협회 장이 최근 새롭게 출범한 케이- 축구 혁신위원회 박지성(45) 공동위원장과... 서강일 회장은 \" 축구 계는 인원이 많으면 많을수록 파벌이 늘어난다. 현행 정관 에 따라 60일 안에 보궐 선거를...",
     "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blte5a1b99b61e71c7c",
     "originalUrl": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blte5a1b99b61e71c7c",
     "publisher": "goal.com",
     "publishedAt": "2026-07-17T09:45:00.000Z",
     "collectedAt": "2026-07-17T11:09:31.584Z",
     "matchedKeywords": [
-      "축구협회장",
       "박지성",
-      "대한축구협회",
-      "KFA",
+      "정관",
       "혁신위원회",
       "축구 혁신"
     ],
@@ -1834,7 +1835,7 @@
       "KFA"
     ],
     "issueTags": [
-      "election",
+      "statute-revision",
       "innovation-committee"
     ],
     "personTags": [
@@ -1842,7 +1843,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 41,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -1887,7 +1888,7 @@
     "id": "item_5ed46ebff94ba7ea",
     "type": "news",
     "title": "박문성 분노 폭발! \"박지성·이영표가 뭘 안다고…\" 발언에 직격탄→\"박...",
-    "summary": "협회 장 발언에 분노하며 한숨을 내쉬었다. 박 해설위원의 유튜브 채널 '달수네라이브'는 17일 '이게 박지성 한... 전 대한축구협회 회장을 감쌌다. 이후 서 회장도 지난 15일 KBS를 통해 \"13년 희생이라고 생각한다\"라며 정몽규...",
+    "summary": "더불어 K-축구 혁신위원회 에 합류한 박지성, 이영표에 대해 \"인생을 얼마나 살았고, 법을 얼마나 알고, 사회 경험을 얼마나 안다고 혁신위원장을 하나\"라며 거세게 몰아세웠다. 백 회장과 서 회장이 연달아 논란이 되는...",
     "url": "https://www.xportsnews.com/article/2173265",
     "originalUrl": "https://www.xportsnews.com/article/2173265",
     "publisher": "xportsnews.com",
@@ -1895,8 +1896,8 @@
     "collectedAt": "2026-07-17T09:30:23.532Z",
     "matchedKeywords": [
       "박지성",
-      "대한축구협회",
-      "정몽규"
+      "혁신위원회",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1911,15 +1912,15 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "innovation-committee"
+    ],
     "personTags": [
-      "person_park_ji_sung",
-      "person_chung_mong_gyu"
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
+    "relevanceScore": 15,
     "labels": [
       "인물 언급"
     ]
