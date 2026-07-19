@@ -4111,7 +4111,7 @@
     "id": "item_959c4ddd12ca45cb",
     "type": "news",
     "title": "'뉴진스·안세영 이어 홍명보' 日이 본 한국의 '국회 소환', \"공개 망신...",
-    "summary": "대한 축구협회 의 국가대표팀 감독 선임 논란을 다룰 국회 청문회를 앞두고 일본에서도 높은 관심을 보이고... 선동열 전 감독은 2018 자카르타·팔렘방 아시안게임 대표팀 선수 선발 과정과 병역 특례 논란 등으로 국정 감사 ...",
+    "summary": "김 기자는 \"대한축구협회의 대표팀 감독 선임 문제를 둘러싸고 한국 국회가 홍명보 전 감독과 정몽규 전... 선동열 전 감독은 2018 자카르타·팔렘방 아시안게임 대표팀 선수 선발 과정과 병역 특례 논란 등으로 국정 감사 ...",
     "url": "http://www.osen.co.kr/article/G1112840381",
     "originalUrl": "http://www.osen.co.kr/article/G1112840381",
     "publisher": "osen.co.kr",
@@ -4119,12 +4119,12 @@
     "collectedAt": "2026-07-16T09:49:50.707Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
+      "대한축구협회",
       "감독 선임",
       "대표팀 감독",
       "감독",
       "선임",
-      "관심",
+      "정몽규",
       "감사"
     ],
     "discoveryQueries": [
@@ -4146,11 +4146,12 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -4206,7 +4207,7 @@
     "id": "item_f9497e3a9728cefa",
     "type": "news",
     "title": "대한체육회장 선거인단 41배 확대⋯축구협회장 선거제도 개선 발판 마련",
-    "summary": "이 규정 을 그대로 적용하면 축구협회 가 선거인단 확대를 위한 규정 개정 과 준비 절차를 진행할 시간이 부족하다. 대한체육회는 이달 중 이사회를 열어 회장 궐위 이후 선거 시한을 보다 탄력적으로 운영할 수 있도록...",
+    "summary": "대한 축구협회 장 선거도 기존 간선제에서 벗어날 가능성이 커졌다. 16일 연합뉴스에 따르면 대한체육회는... 이번 정관 개정은 우선 대한체육회장 선거에 적용되지만 회원종목단체와 시ㆍ도 체육회의 선거 제도 개편 ...",
     "url": "https://www.etoday.co.kr/news/view/2604671",
     "originalUrl": "https://www.etoday.co.kr/news/view/2604671",
     "publisher": "etoday.co.kr",
@@ -4217,8 +4218,10 @@
       "회장 선거",
       "선거인단",
       "선거인",
-      "축구협회",
-      "규정 개정"
+      "대한 축구협회",
+      "정관",
+      "정관 개정",
+      "제도 개편"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -4247,7 +4250,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 51,
     "labels": [
       "선거 키워드 포함"
     ]
@@ -4513,7 +4516,7 @@
     "id": "item_9226666726a93c48",
     "type": "news",
     "title": "대한체육회, 선거인단 확대 의결…축구協 개편 시동",
-    "summary": "대한체육회가 회장 선거 제도 개선을 위한 정관 개정안을 만장일치로 통과시켰다. 선거인단 확대와 직선제를 목표로 한 이번 개정안 의결로 대한 축구협회 를 비롯한 체육회 산하 회원종목단체들도 적잖은 영향을 받게...",
+    "summary": "축구협회 장 선거는 선거인단이 너무 적어 ‘체육관 선거’라는 비판을 받아 왔다. 현재 정몽규 회장 사임으로 회장 자리가 비어 있다. 체육회는 이달 안에 이사회 를 열어 종목단체 규정 개정 안건도 다룬다.",
     "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030121123&code=61161111&cp=nv",
     "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=0030121123&code=61161111&cp=nv",
     "publisher": "kmib.co.kr",
@@ -4522,10 +4525,10 @@
     "matchedKeywords": [
       "선거인단",
       "선거인",
-      "대한 축구협회",
-      "회장 선거",
-      "정관",
-      "정관 개정"
+      "축구협회",
+      "규정 개정",
+      "이사회",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -4550,14 +4553,17 @@
     ],
     "issueTags": [
       "electoral-college",
-      "election",
-      "statute-revision"
+      "statute-revision",
+      "kfa-executives"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 35,
     "labels": [
+      "인물 언급",
       "선거 키워드 포함"
     ]
   },
