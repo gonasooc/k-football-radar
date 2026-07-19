@@ -3801,7 +3801,7 @@
     "id": "item_75a09f21c19fb41e",
     "type": "news",
     "title": "차기 협회장 선거 절차 착수?…축구협회 \"정관에 따른 업무\"",
-    "summary": "차기 회장 선거를 뽑는 선거 제도가 논의 중인 가운데, 축구협회 가 기존 방식대로 새 회장을 뽑는 것이 아니냐는 지적에 적극 해명 했다. 축구협회 는 14일 협회 임원 및 대의원들에게 '회장 선거 후보자 등록의사 표명'을...",
+    "summary": "협회는 15일 \"실무 차원에서 현재의 정관이 명시하고 있는 선거 타임라인에 따라 정몽규 회장 사임일(7월 6일)의 다음날로부터 10일 이내에 협회 임직원의 후보 등록의사 표명을 진행해야 한다\"고 해명 했다. 이어 \"향후...",
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/07/15/2026071590244.html",
     "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/07/15/2026071590244.html",
     "publisher": "news.tvchosun.com",
@@ -3811,7 +3811,8 @@
       "축구협회",
       "회장 선거",
       "정관",
-      "대의원",
+      "후보 등록",
+      "정몽규",
       "해명"
     ],
     "discoveryQueries": [
@@ -3833,14 +3834,16 @@
     ],
     "issueTags": [
       "election",
-      "statute-revision",
-      "electoral-college"
+      "statute-revision"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 50,
     "labels": [
+      "인물 언급",
       "해명 키워드 포함"
     ]
   },

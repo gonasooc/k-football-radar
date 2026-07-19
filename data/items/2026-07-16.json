@@ -6177,7 +6177,7 @@
     "id": "item_de8054440823e8a1",
     "type": "news",
     "title": "체육회, 회장 선거 선거인단 확대 의결…축구협회 선거 개선 디딤돌(종...",
-    "summary": "물론 축구협회 가 따로 이사회 와 총회를 거쳐야 선거인단 확대가 이뤄질 수 있다. 유 회장은 \"이번 정관 개정은 보다 많은 체육인이 회장 선출 과정에 참여할 수 있도록 해 선거의 대표성과 공정성을 높이기 위한 것...",
+    "summary": "그간 체육회는 대의원 2000명에게 투표권 을 부여해 간접 선거로 4년 임기의 체육회장을 뽑았으나 문제가... 이는 최근 정몽규 전 회장의 사퇴 후 새 회장 선거를 치러야하는 대한 축구협회 를 고려한 것이다. 지난해 초부터...",
     "url": "https://www.newsis.com/view/NISX20260716_0003712646",
     "originalUrl": "https://www.newsis.com/view/NISX20260716_0003712646",
     "publisher": "newsis.com",
@@ -6188,8 +6188,11 @@
       "회장 선거",
       "선거인단",
       "선거인",
-      "정관",
-      "정관 개정"
+      "대한 축구협회",
+      "대의원",
+      "투표권",
+      "정몽규",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"정몽규\" 선거",
@@ -6205,14 +6208,16 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college",
-      "statute-revision"
+      "electoral-college"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
+    "relevanceScore": 54,
     "labels": [
+      "인물 언급",
       "선거 키워드 포함"
     ]
   },
@@ -7793,7 +7798,7 @@
     "id": "item_ab3f297156a1bd95",
     "type": "news",
     "title": "문체위, 대한축구협회 논란 관련 청문회 연기…7월 내로 진행할 예정",
-    "summary": "청문회 증인으로는 정몽규 대한축구협회 장과 홍명보 전 축구 대표팀 감독, 이임생 전 대한축구협회 기술총괄이사 등 13명이 채택됐고, 참고인 자격으로 박지성 K- 축구 혁신위원회 공동위원장과 유승민 대한 체육회장 등이...",
+    "summary": "대한축구협회 를 둘러싼 각종 논란을 다룰 예정이었던 국회 문화체육관광위원회 청문회가 일정을 연기했다.... 그러나 증인 중 현직인 이용수 부회장과 김승희 전무이사, 김병지 부회장, 전한진 매니저 등 4명과 호명보 전...",
     "url": "http://www.stoo.com/article.php?aid=107794755296",
     "originalUrl": "http://www.stoo.com/article.php?aid=107794755296",
     "publisher": "stoo.com",
@@ -7801,13 +7806,13 @@
     "collectedAt": "2026-07-16T07:09:54.989Z",
     "matchedKeywords": [
       "대한축구협회",
-      "혁신위원회",
-      "축구 혁신",
-      "정몽규",
-      "홍명보",
-      "박지성",
-      "이임생",
-      "이임생 전 대한축구협회"
+      "부회장",
+      "전무",
+      "김병지",
+      "김병지 부회장",
+      "김승희 전무",
+      "김승희 전무이사",
+      "전한진"
     ],
     "discoveryQueries": [
       "\"김병지\" 대한축구협회",
@@ -7838,17 +7843,16 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "kfa-executives"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_park_ji_sung",
-      "person_lee_im_saeng"
+      "person_kim_byung_ji",
+      "person_kim_seung_hee",
+      "person_jeon_han_jin"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 39,
     "labels": [
       "인물 언급"
     ]
