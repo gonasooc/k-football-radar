@@ -209,7 +209,7 @@
     "id": "item_fdefdcd121628b20",
     "type": "news",
     "title": "체육회장 선거인단 '41배 확대'…축구협회장 선거도 개선",
-    "summary": "종전보다 무려 41배 늘어난 9만 2000여 명이 투표하게 될 예정인데 축구협회 신임 회장 선거에도 영향을 미칠 전망입니다. 이정찬 기자입니다. <기자> 대한체육회는 임시 대의원 총회를 열고, 회장 선거인단을 대폭 늘리는...",
+    "summary": "종전보다 무려 41배 늘어난 9만 2000여 명이 투표하게 될 예정인데 축구협회 신임 회장 선거에도 영향을 미칠... 개정안에 따르면 임원과 심판, 지도자 전원과 자격과 활동 기준을 충족한 선수들에게 회장 선거 투표권 이...",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008662012&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008662012&plink=ORI",
     "publisher": "news.sbs.co.kr",
@@ -221,7 +221,7 @@
       "선거인단",
       "선거인",
       "축구협회",
-      "대의원"
+      "투표권"
     ],
     "discoveryQueries": [
       "축구 혁신",
@@ -244,7 +244,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 46,
     "labels": [
       "선거 키워드 포함"
     ]
@@ -522,7 +522,7 @@
     "id": "item_b36be18ad991f9f3",
     "type": "news",
     "title": "\"지성이 형도 이야기 했지만...\" 이천수, 'K-축구혁신위원회'에 \"수면 아...",
-    "summary": "축구 인 출신 임원 들은 임기를 마치면 협회 를 떠난다. 반면 행정 실무자와 장기 재직 인사들은 회장과 임원 이 바뀐 뒤에도 조직에 남는다. 새로운 수장이 들어오더라도 기존의 업무 방식과 내부 권력 구조를 넘지 못하면...",
+    "summary": "박지성을 비롯한 K-축구혁신위원회가 선거 제도 개선에 속도를 내고 있다. 이천수는 여기서 한 걸음 더... 홍명보 전 감독 선임 과정에서 논란의 중심에 섰던 이임생 전 기술총괄이사 개인에게만 책임을 묻는 것으로는...",
     "url": "http://www.osen.co.kr/article/G1112840805",
     "originalUrl": "http://www.osen.co.kr/article/G1112840805",
     "publisher": "osen.co.kr",
@@ -531,7 +531,13 @@
     "matchedKeywords": [
       "K-축구혁신위원회",
       "축구혁신위",
-      "혁신위원회"
+      "혁신위원회",
+      "감독 선임",
+      "감독",
+      "선임",
+      "홍명보",
+      "박지성",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -564,13 +570,20 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo",
+      "person_park_ji_sung",
+      "person_lee_im_saeng"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
-    "labels": []
+    "relevanceScore": 53,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_1b25b6b08858e8ef",

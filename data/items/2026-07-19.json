@@ -217,15 +217,15 @@
     "id": "item_90884deb308b65d9",
     "type": "news",
     "title": "바닥인 줄 알았는데 지하실?…한국축구, 기약 없는 개혁시계",
-    "summary": "[기자] <홍명보 / 전 축구 대표팀 감독 > \"기대해주신 결과를 끝내 보여드리지 못했습니다. 책임은 감독 인 제게... \" 감사를 통해 드러났듯 클린스만·홍명보 선임 과정은 정관과 시스템을 무시한 채 이뤄졌고, 코리아풋볼파크...",
+    "summary": "대한 축구협회 의 무능과 폐쇄성이 부른 '예견된 참사'라는 지적이 지배적입니다. <최휘영 / 문체부 장관> \"선수 때문이 아닙니다. 우리나라 축구 를 이끌어온 지도자, 집행부에 대한 신뢰가 급격히 무너졌기 때문입니다.\" 감사 ...",
     "url": "http://www.yonhapnewstv.co.kr/news/MYH20260720074512PDx",
     "originalUrl": "http://www.yonhapnewstv.co.kr/news/MYH20260720074512PDx",
     "publisher": "yonhapnewstv.co.kr",
     "publishedAt": "2026-07-19T22:46:00.000Z",
     "collectedAt": "2026-07-19T23:40:17.086Z",
     "matchedKeywords": [
-      "정관",
-      "홍명보",
+      "대한 축구협회",
+      "집행부",
       "감사"
     ],
     "discoveryQueries": [
@@ -257,16 +257,14 @@
       "축구협회 K-혁신위"
     ],
     "issueTags": [
-      "statute-revision"
+      "kfa-executives"
     ],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 12,
+    "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
       "감사 키워드 포함"
     ]
   },
@@ -1552,7 +1550,7 @@
     "id": "item_75a776c7e9cf1fae",
     "type": "news",
     "title": "\"박지성·이영표가 뭘 안다고?\" 역풍 맞은 서강일 전북축구협회장…팬들...",
-    "summary": "정몽규 전 대한 축구협회 장에 대해서는 \"하나님 빼고는 누구나 시행착오가 있다\"며 \"13년 천하가 아니라 13년 희생이었다\"고 옹호했다. 또 과거 승부조작 연루 축구 인 사면 추진 논란에 대해서도 \"잘못은 용서하고 이해해줄...",
+    "summary": "서 회장은 혁신위원회가 추진 중인 대한 축구협회 정관 개정과 회장 선거 제도 개편 에도 부정적인 입장을 밝혔다. 그는 \"현행 정관대로 60일 안에 보궐선거를 치르면 된다\"며 제도 개편 의 필요성에 의문을 제기했고, 사실상...",
     "url": "http://www.osen.co.kr/article/G1112842588",
     "originalUrl": "http://www.osen.co.kr/article/G1112842588",
     "publisher": "osen.co.kr",
@@ -1563,7 +1561,11 @@
       "박지성",
       "서강일",
       "대한 축구협회",
-      "정몽규"
+      "회장 선거",
+      "정관",
+      "정관 개정",
+      "제도 개편",
+      "혁신위원회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1586,16 +1588,17 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "statute-revision",
+      "innovation-committee"
     ],
     "personTags": [
       "person_park_ji_sung",
-      "person_seo_kang_il",
-      "person_chung_mong_gyu"
+      "person_seo_kang_il"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 56,
     "labels": [
       "인물 언급"
     ]
@@ -1691,7 +1694,7 @@
     "id": "item_bc719a3a9ffe3830",
     "type": "news",
     "title": "박지성-이영표 자격론 꺼낸 지역축구 거물들…팬들은 \"사퇴 요구\" 폭주...",
-    "summary": "박지성 K- 축구 혁신위원회 공동위원장을 공개적으로 비판하며 정몽규 전 대한축구협회 장을 두둔한 서강일 전북특별자치도 축구협회 장을 향한 비판 여론이 갈수록 거세지고 있다. 한국 축구 의 상징적인 인물이자 쇄신...",
+    "summary": "서강일 회장은 축구 혁신위가 추진 중인 대한 축구협회 정관과 회장 선거 제도 개편 에도 부정적인 입장을 숨기지 않았다. \"지도부 공백이 생기면 기존 규정대로 보궐선거를 치르면 될 일\"이라며 제도 개편 필요성에 의문을...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=829297",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=829297",
     "publisher": "spotvnews.co.kr",
@@ -1700,10 +1703,11 @@
     "matchedKeywords": [
       "박지성",
       "사퇴",
-      "대한축구협회",
-      "혁신위원회",
+      "대한 축구협회",
+      "회장 선거",
+      "정관",
+      "제도 개편",
       "축구 혁신",
-      "정몽규",
       "서강일"
     ],
     "discoveryQueries": [
@@ -1730,16 +1734,17 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
+      "election",
+      "statute-revision",
       "innovation-committee"
     ],
     "personTags": [
       "person_park_ji_sung",
-      "person_chung_mong_gyu",
       "person_seo_kang_il"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 32,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급"
     ]
