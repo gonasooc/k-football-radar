@@ -2,91 +2,488 @@
   {
     "id": "person_chung_mong_gyu",
     "name": "정몽규",
-    "aliases": ["Chung Mong-gyu"],
+    "aliases": [
+      "Chung Mong-gyu"
+    ],
     "role": "대한축구협회 관련 인물",
-    "keywords": ["정몽규", "정 몽규"],
+    "keywords": [
+      "정몽규",
+      "정 몽규"
+    ],
     "priority": 1,
     "published": true
   },
   {
     "id": "person_huh_jung_moo",
     "name": "허정무",
-    "aliases": ["Huh Jung-moo"],
+    "aliases": [
+      "Huh Jung-moo"
+    ],
     "role": "대한축구협회장 선거 관련 인물",
-    "keywords": ["허정무", "허 정무"],
+    "keywords": [
+      "허정무",
+      "허 정무"
+    ],
     "priority": 2,
     "published": true
   },
   {
     "id": "person_hong_myung_bo",
     "name": "홍명보",
-    "aliases": ["Hong Myung-bo"],
+    "aliases": [
+      "Hong Myung-bo"
+    ],
     "role": "대표팀 감독 관련 인물",
-    "keywords": ["홍명보", "홍 명보"],
+    "keywords": [
+      "홍명보",
+      "홍 명보"
+    ],
     "priority": 3,
     "published": true
   },
   {
     "id": "person_park_ji_sung",
     "name": "박지성",
-    "aliases": ["Park Ji-sung"],
+    "aliases": [
+      "Park Ji-sung"
+    ],
     "role": "한국축구 거버넌스 관련 인물",
-    "keywords": ["박지성", "박 지성"],
+    "keywords": [
+      "박지성",
+      "박 지성"
+    ],
     "priority": 4,
     "published": true
   },
   {
     "id": "person_lee_yong_soo",
     "name": "이용수",
-    "aliases": ["Lee Yong-soo"],
+    "aliases": [
+      "Lee Yong-soo"
+    ],
     "role": "대한축구협회 상근부회장",
-    "keywords": ["이용수 상근부회장", "대한축구협회 이용수", "KFA 이용수"],
+    "keywords": [
+      "이용수 상근부회장",
+      "대한축구협회 이용수",
+      "KFA 이용수"
+    ],
     "priority": 5,
     "published": true
   },
   {
     "id": "person_kim_byung_ji",
     "name": "김병지",
-    "aliases": ["Kim Byung-ji"],
+    "aliases": [
+      "Kim Byung-ji"
+    ],
     "role": "대한축구협회 부회장",
-    "keywords": ["김병지", "김 병지", "김병지 부회장"],
+    "keywords": [
+      "김병지",
+      "김 병지",
+      "김병지 부회장"
+    ],
     "priority": 6,
     "published": true
   },
   {
     "id": "person_kim_seung_hee",
     "name": "김승희",
-    "aliases": ["Kim Seung-hee"],
+    "aliases": [
+      "Kim Seung-hee"
+    ],
     "role": "대한축구협회 전무이사",
-    "keywords": ["김승희 전무", "김승희 전무이사", "대한축구협회 김승희", "KFA 김승희"],
+    "keywords": [
+      "김승희 전무",
+      "김승희 전무이사",
+      "대한축구협회 김승희",
+      "KFA 김승희"
+    ],
     "priority": 7,
     "published": true
   },
   {
     "id": "person_hyun_young_min",
     "name": "현영민",
-    "aliases": ["Hyun Young-min"],
+    "aliases": [
+      "Hyun Young-min"
+    ],
     "role": "대한축구협회 전력강화위원장",
-    "keywords": ["현영민", "현 영민", "현영민 위원장", "전력강화위원장 현영민"],
+    "keywords": [
+      "현영민",
+      "현 영민",
+      "현영민 위원장",
+      "전력강화위원장 현영민"
+    ],
     "priority": 8,
     "published": true
   },
   {
     "id": "person_jeon_han_jin",
     "name": "전한진",
-    "aliases": ["Jeon Han-jin"],
+    "aliases": [
+      "Jeon Han-jin"
+    ],
     "role": "대한축구협회 국제·행정 총괄 관련 인물",
-    "keywords": ["전한진", "전 한진", "전한진 사무총장", "대한축구협회 전한진", "KFA 전한진"],
+    "keywords": [
+      "전한진",
+      "전 한진",
+      "전한진 사무총장",
+      "대한축구협회 전한진",
+      "KFA 전한진"
+    ],
     "priority": 9,
     "published": true
   },
   {
     "id": "person_lee_im_saeng",
     "name": "이임생",
-    "aliases": ["Lee Lim-saeng"],
+    "aliases": [
+      "Lee Lim-saeng"
+    ],
     "role": "전 대한축구협회 기술총괄이사, 대표팀 감독 선임 관련 인물",
-    "keywords": ["이임생", "이 임생", "이임생 기술이사", "이임생 기술총괄", "이임생 전 대한축구협회"],
+    "keywords": [
+      "이임생",
+      "이 임생",
+      "이임생 기술이사",
+      "이임생 기술총괄",
+      "이임생 전 대한축구협회"
+    ],
     "priority": 10,
+    "published": true
+  },
+  {
+    "id": "person_koo_ja_cheol",
+    "name": "구자철",
+    "aliases": [
+      "Koo Ja-cheol"
+    ],
+    "role": "전 국가대표, 유소년 육성·축구 행정 비판 관련 인물",
+    "keywords": [
+      "구자철",
+      "구 자철"
+    ],
+    "priority": 11,
+    "published": true
+  },
+  {
+    "id": "person_jung_jin_seol",
+    "name": "정진설",
+    "aliases": [],
+    "role": "서울축구협회장",
+    "keywords": [
+      "정진설",
+      "정 진설"
+    ],
+    "searchQueries": [],
+    "priority": 12,
+    "published": true
+  },
+  {
+    "id": "person_baek_hyun_sik",
+    "name": "백현식",
+    "aliases": [],
+    "role": "부산축구협회장",
+    "keywords": [
+      "백현식",
+      "백 현식"
+    ],
+    "searchQueries": [],
+    "priority": 13,
+    "published": true
+  },
+  {
+    "id": "person_choi_tae_won",
+    "name": "최태원",
+    "aliases": [],
+    "role": "대구축구협회장",
+    "keywords": [
+      "최태원",
+      "최 태원"
+    ],
+    "contextKeywords": [
+      "대구시축구협회",
+      "대구시 축구협회",
+      "대구축구협회",
+      "대구 축구협회",
+      "대구광역시축구협회",
+      "대구광역시 축구협회"
+    ],
+    "searchQueries": [],
+    "priority": 14,
+    "published": true
+  },
+  {
+    "id": "person_jung_tae_joon",
+    "name": "정태준",
+    "aliases": [],
+    "role": "인천축구협회장",
+    "keywords": [
+      "정태준",
+      "정 태준"
+    ],
+    "contextKeywords": [
+      "인천시축구협회",
+      "인천시 축구협회",
+      "인천축구협회",
+      "인천 축구협회",
+      "인천광역시축구협회",
+      "인천광역시 축구협회",
+      "대한축구협회",
+      "KFA",
+      "축구협회장",
+      "축구협회 회장"
+    ],
+    "searchQueries": [],
+    "priority": 15,
+    "published": true
+  },
+  {
+    "id": "person_choi_soo_yong",
+    "name": "최수용",
+    "aliases": [],
+    "role": "광주축구협회장",
+    "keywords": [
+      "최수용",
+      "최 수용"
+    ],
+    "contextKeywords": [
+      "광주시축구협회",
+      "광주시 축구협회",
+      "광주축구협회",
+      "광주 축구협회",
+      "광주광역시축구협회",
+      "광주광역시 축구협회",
+      "대한축구협회",
+      "KFA",
+      "축구협회장",
+      "축구협회 회장"
+    ],
+    "searchQueries": [],
+    "priority": 16,
+    "published": true
+  },
+  {
+    "id": "person_lee_gye_hyuk",
+    "name": "이계혁",
+    "aliases": [],
+    "role": "대전축구협회장",
+    "keywords": [
+      "이계혁",
+      "이 계혁"
+    ],
+    "searchQueries": [],
+    "priority": 17,
+    "published": true
+  },
+  {
+    "id": "person_jung_tae_seok",
+    "name": "정태석",
+    "aliases": [],
+    "role": "울산축구협회장",
+    "keywords": [
+      "정태석",
+      "정 태석"
+    ],
+    "contextKeywords": [
+      "울산시축구협회",
+      "울산시 축구협회",
+      "울산축구협회",
+      "울산 축구협회",
+      "울산광역시축구협회",
+      "울산광역시 축구협회",
+      "대한축구협회",
+      "KFA",
+      "축구협회장",
+      "축구협회 회장"
+    ],
+    "searchQueries": [],
+    "priority": 18,
+    "published": true
+  },
+  {
+    "id": "person_lee_seok_jae",
+    "name": "이석재",
+    "aliases": [],
+    "role": "경기축구협회장",
+    "keywords": [
+      "이석재",
+      "이 석재"
+    ],
+    "contextKeywords": [
+      "경기도축구협회",
+      "경기도 축구협회",
+      "경기축구협회",
+      "경기 축구협회",
+      "대한축구협회",
+      "KFA",
+      "축구협회장",
+      "축구협회 회장"
+    ],
+    "searchQueries": [],
+    "priority": 19,
+    "published": true
+  },
+  {
+    "id": "person_kwon_eun_dong",
+    "name": "권은동",
+    "aliases": [],
+    "role": "강원축구협회장",
+    "keywords": [
+      "권은동",
+      "권 은동"
+    ],
+    "contextKeywords": [
+      "강원도축구협회",
+      "강원도 축구협회",
+      "강원축구협회",
+      "강원 축구협회",
+      "강원특별자치도축구협회",
+      "강원특별자치도 축구협회",
+      "대한축구협회",
+      "KFA",
+      "축구협회장",
+      "축구협회 회장"
+    ],
+    "searchQueries": [],
+    "priority": 20,
+    "published": true
+  },
+  {
+    "id": "person_yoon_il",
+    "name": "윤일",
+    "aliases": [],
+    "role": "제주축구협회장",
+    "keywords": [
+      "윤일",
+      "윤 일"
+    ],
+    "contextKeywords": [
+      "제주도축구협회",
+      "제주도 축구협회",
+      "제주축구협회",
+      "제주 축구협회",
+      "제주특별자치도축구협회",
+      "제주특별자치도 축구협회"
+    ],
+    "searchQueries": [],
+    "priority": 21,
+    "published": true
+  },
+  {
+    "id": "person_kang_sung_duk",
+    "name": "강성덕",
+    "aliases": [],
+    "role": "충북축구협회장",
+    "keywords": [
+      "강성덕",
+      "강 성덕"
+    ],
+    "contextKeywords": [
+      "충북축구협회",
+      "충북 축구협회",
+      "충청북도축구협회",
+      "충청북도 축구협회",
+      "대한축구협회",
+      "KFA",
+      "축구협회장",
+      "축구협회 회장"
+    ],
+    "searchQueries": [],
+    "priority": 22,
+    "published": true
+  },
+  {
+    "id": "person_park_sung_wan",
+    "name": "박성완",
+    "aliases": [],
+    "role": "충남축구협회장",
+    "keywords": [
+      "박성완",
+      "박 성완"
+    ],
+    "searchQueries": [],
+    "priority": 23,
+    "published": true
+  },
+  {
+    "id": "person_seo_kang_il",
+    "name": "서강일",
+    "aliases": [],
+    "role": "전북축구협회장",
+    "keywords": [
+      "서강일",
+      "서 강일"
+    ],
+    "searchQueries": [],
+    "priority": 24,
+    "published": true
+  },
+  {
+    "id": "person_shin_jung_sik",
+    "name": "신정식",
+    "aliases": [],
+    "role": "전남축구협회장",
+    "keywords": [
+      "신정식",
+      "신 정식"
+    ],
+    "contextKeywords": [
+      "전남축구협회",
+      "전남 축구협회",
+      "전라남도축구협회",
+      "전라남도 축구협회",
+      "대한축구협회",
+      "KFA",
+      "축구협회장",
+      "축구협회 회장"
+    ],
+    "searchQueries": [],
+    "priority": 25,
+    "published": true
+  },
+  {
+    "id": "person_lim_jong_sung",
+    "name": "임종성",
+    "aliases": [],
+    "role": "경북축구협회장",
+    "keywords": [
+      "임종성",
+      "임 종성"
+    ],
+    "contextKeywords": [
+      "경북축구협회",
+      "경북 축구협회",
+      "경상북도축구협회",
+      "경상북도 축구협회"
+    ],
+    "searchQueries": [],
+    "priority": 26,
+    "published": true
+  },
+  {
+    "id": "person_baek_chan_moon",
+    "name": "백찬문",
+    "aliases": [],
+    "role": "경남축구협회장",
+    "keywords": [
+      "백찬문",
+      "백 찬문"
+    ],
+    "searchQueries": [],
+    "priority": 27,
+    "published": true
+  },
+  {
+    "id": "person_kim_soon_gong",
+    "name": "김순공",
+    "aliases": [],
+    "role": "세종축구협회장",
+    "keywords": [
+      "김순공",
+      "김 순공"
+    ],
+    "searchQueries": [],
+    "priority": 28,
     "published": true
   }
 ]

@@ -2,7 +2,7 @@ import { pathToFileURL } from "node:url";
 
 import { z } from "zod";
 
-import { classifyItemText } from "../lib/classify";
+import { classifyItemText, joinSummaryAndTags } from "../lib/classify";
 import { dedupeItems } from "../lib/dedupe";
 import { getItemRetentionDays, isPublishedAtWithinRetention } from "../lib/item-retention";
 import { stripInlineHtml, truncateSummary } from "../lib/normalize";
@@ -364,24 +364,29 @@ function observeVideo(
 function classifyYouTubeItem({
   title,
   summary,
+  tags,
   issues,
   people
 }: {
   title: string;
   summary: string;
+  tags?: string[];
   issues: Issue[];
   people: Person[];
 }) {
   const classification = classifyItemText({
     title,
     summary,
+    tags,
     issues,
     people,
     isOfficial: false
   });
   const relevanceTier = getNewsCandidateRelevanceTier({
     title,
-    summary,
+    // The tier gate must see the same text the classifier scored, or a
+    // tag-derived match gets discarded by a gate that never saw the tags.
+    summary: joinSummaryAndTags(summary, tags),
     classification
   });
   const contentRelevanceTier: RelevanceTier | "reject" =
@@ -415,6 +420,7 @@ export function reclassifyAndFilterYouTubeItemsForCollection({
     const { classification, contentRelevanceTier } = classifyYouTubeItem({
       title: item.title,
       summary: item.summary,
+      tags: item.youtube.tags,
       issues,
       people
     });
@@ -691,9 +697,13 @@ export async function collectYouTubeRun({
 
         const title = stripInlineHtml(video.snippet.title);
         const summary = truncateSummary(video.snippet.description, 400);
+        const tags = video.snippet.tags
+          .map((tag) => stripInlineHtml(tag).trim())
+          .filter((tag) => tag.length > 0);
         const { classification, contentRelevanceTier } = classifyYouTubeItem({
           title,
           summary,
+          tags,
           issues,
           people
         });
@@ -749,6 +759,7 @@ export async function collectYouTubeRun({
             channelId: video.snippet.channelId,
             channelStatus,
             contentRelevanceTier,
+            ...(tags.length > 0 ? { tags } : {}),
             thumbnail,
             durationSeconds: parseYouTubeDuration(video.contentDetails.duration)
           }

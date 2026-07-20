@@ -126,10 +126,27 @@ const GOVERNANCE_SIGNAL_PATTERN =
 type ClassifyInput = {
   title: string;
   summary?: string;
+  /**
+   * Publisher-supplied keywords (YouTube video tags). Scored alongside the
+   * summary because videos often carry the only governance signal there:
+   * broadcasters routinely upload with a bare description such as a couple of
+   * hashtags while listing the actual subjects as tags.
+   */
+  tags?: string[];
   issues: Issue[];
   people: Person[];
   isOfficial?: boolean;
 };
+
+export function joinSummaryAndTags(
+  summary: string | undefined,
+  tags: readonly string[] | undefined
+): string {
+  return [summary ?? "", ...(tags ?? [])]
+    .map((value) => value.trim())
+    .filter((value) => value.length > 0)
+    .join(" ");
+}
 
 type FieldClassification = {
   issueTags: string[];
@@ -175,12 +192,33 @@ function addSafeLabel(target: string[], value: string): void {
   }
 }
 
+export function getPersonKeywordMatches(
+  person: Person,
+  fieldText: string,
+  fullText = fieldText
+): string[] {
+  const matches = person.keywords.filter((keyword) =>
+    includesKeyword(fieldText, keyword)
+  );
+  if (matches.length === 0) {
+    return [];
+  }
+  const contextKeywords = person.contextKeywords ?? [];
+  if (
+    contextKeywords.length > 0 &&
+    !contextKeywords.some((keyword) => includesKeyword(fullText, keyword))
+  ) {
+    return [];
+  }
+  return matches;
+}
+
 function hasTrackedKfaExecutivePerson(text: string, people: Person[]): boolean {
   return people.some(
     (person) =>
       person.published &&
       KFA_EXECUTIVE_PERSON_IDS.has(person.id) &&
-      person.keywords.some((keyword) => includesKeyword(text, keyword))
+      getPersonKeywordMatches(person, text).length > 0
   );
 }
 
@@ -189,8 +227,7 @@ function hasTrackedPersonWithGovernanceContext(text: string, people: Person[]): 
     GOVERNANCE_SIGNAL_PATTERN.test(text) &&
     people.some(
       (person) =>
-        person.published &&
-        person.keywords.some((keyword) => includesKeyword(text, keyword))
+        person.published && getPersonKeywordMatches(person, text).length > 0
     )
   );
 }
@@ -469,9 +506,7 @@ function classifyField({
       continue;
     }
 
-    const personMatches = person.keywords.filter((keyword) =>
-      includesKeyword(fieldText, keyword)
-    );
+    const personMatches = getPersonKeywordMatches(person, fieldText, fullText);
     if (personMatches.length === 0) {
       continue;
     }
@@ -547,7 +582,7 @@ function toSearchQuery(keyword: string): string {
 
 export function classifyItemText(input: ClassifyInput): Classification {
   const title = input.title;
-  const summary = input.summary ?? "";
+  const summary = joinSummaryAndTags(input.summary, input.tags);
   const fullText = `${title} ${summary}`.trim();
   const titleClassification = classifyField({
     fieldText: title,
@@ -636,6 +671,15 @@ export function getSearchQueries({
 
   for (const person of [...people].sort((a, b) => a.priority - b.priority)) {
     if (!person.published) {
+      continue;
+    }
+
+    // An explicit list replaces the default set, so a person can be tracked for
+    // classification without spending five slots of a capped query budget.
+    if (person.searchQueries) {
+      for (const query of person.searchQueries) {
+        addUnique(queries, query);
+      }
       continue;
     }
 

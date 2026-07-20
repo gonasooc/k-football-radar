@@ -145,6 +145,122 @@ describe("classifyItemText", () => {
     assert.equal(result.issueTags.includes("kfa-executives"), false);
     assert.equal(result.matchedKeywords.includes("임원"), false);
   });
+
+  it("scores publisher tags when the description carries no signal", () => {
+    const withoutTags = classifyItemText({
+      title: "구자철이 말하는 대한민국 축구가 망한 이유",
+      summary: "#구자철 #타임머신",
+      issues,
+      people,
+      isOfficial: false
+    });
+    const withTags = classifyItemText({
+      title: "구자철이 말하는 대한민국 축구가 망한 이유",
+      summary: "#구자철 #타임머신",
+      tags: ["한국축구", "정몽규", "축구협회장"],
+      issues,
+      people,
+      isOfficial: false
+    });
+
+    assert.deepEqual(withoutTags.personTags, []);
+    assert.deepEqual(withTags.personTags, ["person_chung"]);
+    assert.ok(withTags.issueTags.includes("election"));
+    assert.ok(withTags.relevanceScore > withoutTags.relevanceScore);
+  });
+
+  it("weights tags like a summary so they cannot outrank the title", () => {
+    const inTitle = classifyItemText({
+      title: "대한축구협회 회장 선거 선거인단 구성",
+      summary: "",
+      issues,
+      people,
+      isOfficial: false
+    });
+    const inTags = classifyItemText({
+      title: "오늘의 스포츠 하이라이트",
+      summary: "",
+      tags: ["대한축구협회", "회장 선거", "선거인단"],
+      issues,
+      people,
+      isOfficial: false
+    });
+
+    assert.ok(inTags.relevanceScore > 0);
+    assert.ok(inTags.relevanceScore < inTitle.relevanceScore);
+  });
+});
+
+describe("person context gating", () => {
+  const chair: Person = {
+    id: "person_choi",
+    name: "최태원",
+    aliases: [],
+    role: "대구축구협회장",
+    keywords: ["최태원", "최 태원"],
+    contextKeywords: ["대구축구협회", "대구시축구협회", "대구 축구협회"],
+    searchQueries: [],
+    priority: 20,
+    published: true
+  };
+
+  it("ignores a homonym when the item never names the person's own body", () => {
+    const result = classifyItemText({
+      title: "최태원 \"내년 반도체 수요 최소 50% 증가\"",
+      summary: "최태원 SK그룹 회장이 이사회에서 밝혔다.",
+      issues,
+      people: [...people, chair],
+      isOfficial: false
+    });
+
+    assert.equal(result.personTags.includes("person_choi"), false);
+    assert.equal(result.matchedKeywords.includes("최태원"), false);
+  });
+
+  it("tags the person once their own body appears anywhere in the item", () => {
+    const result = classifyItemText({
+      title: "최태원 회장, 대한축구협회 정관 개정 논의",
+      summary: "대구시축구협회는 입장을 밝혔다.",
+      issues,
+      people: [...people, chair],
+      isOfficial: false
+    });
+
+    assert.ok(result.personTags.includes("person_choi"));
+  });
+
+  it("accepts context supplied by tags alone", () => {
+    const result = classifyItemText({
+      title: "최태원 회장 인터뷰",
+      summary: "",
+      tags: ["대구축구협회"],
+      issues,
+      people: [...people, chair],
+      isOfficial: false
+    });
+
+    assert.ok(result.personTags.includes("person_choi"));
+  });
+
+  it("leaves people without context keywords matching on the name alone", () => {
+    const unambiguous: Person = {
+      ...chair,
+      id: "person_seo",
+      name: "서강일",
+      role: "전북축구협회장",
+      keywords: ["서강일"],
+      contextKeywords: undefined
+    };
+    const result = classifyItemText({
+      title: "서강일 \"박지성이 뭘 안다고\" 발언 논란",
+      summary: "",
+      issues,
+      people: [...people, unambiguous],
+      isOfficial: false
+    });
+
+    assert.ok(result.personTags.includes("person_seo"));
+  });
 });
 
 describe("getSearchQueries", () => {
@@ -155,6 +271,45 @@ describe("getSearchQueries", () => {
     assert.ok(queries.includes("축구협회 회장 선거"));
     assert.ok(queries.includes("\"정몽규\" 대한축구협회"));
     assert.equal(new Set(queries).size, queries.length);
+  });
+
+  it("lets a person opt out of discovery queries without losing tracking", () => {
+    const trackedOnly: Person = {
+      id: "person_chair",
+      name: "서강일",
+      aliases: [],
+      role: "전북축구협회장",
+      keywords: ["서강일"],
+      searchQueries: [],
+      priority: 20,
+      published: true
+    };
+    const baseline = getSearchQueries({ issues, people });
+    const withChair = getSearchQueries({ issues, people: [...people, trackedOnly] });
+
+    assert.deepEqual(withChair, baseline);
+    assert.equal(
+      withChair.some((query) => query.includes("서강일")),
+      false
+    );
+  });
+
+  it("uses a person's explicit queries in place of the default set", () => {
+    const scoped: Person = {
+      id: "person_scoped",
+      name: "최태원",
+      aliases: [],
+      role: "대구축구협회장",
+      keywords: ["최태원"],
+      searchQueries: ['"최태원" 대구축구협회'],
+      priority: 20,
+      published: true
+    };
+    const queries = getSearchQueries({ issues, people: [...people, scoped] });
+
+    assert.ok(queries.includes('"최태원" 대구축구협회'));
+    assert.equal(queries.includes('"최태원" 감사'), false);
+    assert.equal(queries.includes('"최태원" 선거'), false);
   });
 
   it("adds football context to broad standalone issue keywords", () => {

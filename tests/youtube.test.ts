@@ -349,6 +349,86 @@ describe("YouTube collector", () => {
     );
   });
 
+  it("keeps a preferred-channel video whose only governance signal is in its tags", async () => {
+    const channelPolicy: YouTubeChannelPolicyFile = {
+      version: 1,
+      preferred: ["channel-1"],
+      blocked: []
+    };
+    // Broadcasters routinely upload with a bare hashtag description and list the
+    // actual subjects as tags, so tags have to reach the classifier.
+    const taggedSnippet = {
+      ...snippet({ title: "구자철이 말하는 대한민국 축구가 망한 이유" }),
+      description: "#구자철 #타임머신",
+      tags: ["한국축구", "대한축구협회", "회장 선거"]
+    };
+    const fetchImpl = async (input: string | URL | Request): Promise<Response> => {
+      const url = new URL(
+        typeof input === "string" || input instanceof URL ? input : input.url
+      );
+      if (url.pathname.endsWith("/channels")) {
+        return jsonResponse({
+          items: [
+            {
+              id: "channel-1",
+              contentDetails: { relatedPlaylists: { uploads: "uploads-1" } }
+            }
+          ]
+        });
+      }
+      if (url.pathname.endsWith("/playlistItems")) {
+        return jsonResponse({
+          items: [
+            {
+              contentDetails: {
+                videoId: "tagged-video",
+                videoPublishedAt: "2026-07-16T03:00:00.000Z"
+              },
+              status: { privacyStatus: "public" }
+            }
+          ]
+        });
+      }
+      if (url.pathname.endsWith("/search")) {
+        return jsonResponse({ items: [] });
+      }
+      return jsonResponse({
+        items: [
+          {
+            id: "tagged-video",
+            snippet: taggedSnippet,
+            contentDetails: { duration: "PT5M24S" },
+            status: { uploadStatus: "processed", privacyStatus: "public" }
+          }
+        ]
+      });
+    };
+
+    const result = await collectYouTubeRun({
+      issues,
+      people: [],
+      queries,
+      channelPolicy,
+      now: new Date("2026-07-17T00:00:00.000Z"),
+      apiKey: "test-key",
+      fetchImpl,
+      redirectProbeEnabled: false,
+      maxPagesPerQuery: 1,
+      maxPagesPerChannel: 1
+    });
+
+    assert.deepEqual(
+      result.items.map((item) => item.id),
+      ["youtube_tagged-video"]
+    );
+    const [item] = result.items;
+    assert.ok(item.issueTags.includes("election"));
+    // The stored summary stays the publisher's description; tags ride alongside
+    // so a later reclassification pass scores the same text.
+    assert.equal(item.summary, "#구자철 #타임머신");
+    assert.deepEqual(item.youtube?.tags, ["한국축구", "대한축구협회", "회장 선거"]);
+  });
+
   it("fails open when the Shorts redirect probe is unavailable", async () => {
     const fetchImpl = async (input: string | URL | Request): Promise<Response> => {
       const url = new URL(

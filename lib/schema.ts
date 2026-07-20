@@ -29,6 +29,9 @@ export const youtubeMetadataSchema = z.object({
   channelId: z.string().min(1),
   channelStatus: youtubeVisibleChannelStatusSchema.optional(),
   contentRelevanceTier: relevanceTierSchema.optional(),
+  // Persisted so later reclassification passes score the same text the
+  // collector did; without them a tag-matched video is dropped on the next run.
+  tags: z.array(z.string().min(1)).optional(),
   thumbnail: z.object({
     url: httpUrlString,
     width: z.number().int().positive(),
@@ -103,6 +106,12 @@ export const personSchema = z.object({
   aliases: z.array(z.string()),
   role: z.string().min(1),
   keywords: z.array(z.string().min(1)),
+  // Names shared with better-known public figures only count when the item also
+  // mentions one of these, so a homonym cannot pull unrelated news into a tag.
+  contextKeywords: z.array(z.string().min(1)).optional(),
+  // Discovery queries for this person. Omit for the default five; an empty array
+  // tracks the person for classification only, without spending query budget.
+  searchQueries: z.array(z.string().min(1)).optional(),
   priority: z.number().int().min(0),
   published: z.boolean()
 });
