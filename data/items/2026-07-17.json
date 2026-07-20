@@ -28,7 +28,7 @@
     "id": "item_2ff6cc8207bf3454",
     "type": "news",
     "title": "\"정몽규 회장이 뭘 그리 잘못했나\"...\"박지성·이영표가 뭘 알아\" 작심 ...",
-    "summary": "대한축구협회 (KFA) 혁신위원회를 향한 서강일 전북특별자치도 축구협회 장의 공개 비판이 축구 계 안팎에서... 그는 \" 박지성 과 이영표가 혁신위원회를 이끌 자격이 있는지 의문\"이라며 \"국가대표 선수로 훌륭한 커리어를 쌓은...",
+    "summary": "보궐 선거 실시가 우선이라는 입장을 내놓고 있다. 서 회장은 최근 KBS와 인터뷰에서 혁신위원회의 구성과 역할을 정면으로 문제 삼았다. 그는 \" 박지성 과 이영표가 혁신위원회를 이끌 자격이 있는지 의문\"이라며 \"국가대표...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=829083",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=829083",
     "publisher": "spotvnews.co.kr",
@@ -37,8 +37,6 @@
     "matchedKeywords": [
       "정몽규",
       "박지성",
-      "대한축구협회",
-      "KFA",
       "혁신위원회"
     ],
     "discoveryQueries": [
@@ -69,7 +67,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급"
     ]
@@ -195,16 +193,18 @@
     "id": "item_fd9d831e59c99e4f",
     "type": "news",
     "title": "\"한국 국민의 결단력 대단\" 칭찬하려다 역풍?... 아로소가 작별 인사서...",
-    "summary": "대한축구협회 와 홍명보 전 감독, 팬들에게 감사의 뜻을 전했지만 예상치 못한 표현이 포함되면서 일부 축구 팬들의 시선을 끌었다. 아로소 전 코치는 2024년 여름 대표팀 지휘봉을 잡은 홍명보 전 감독이 직접 유럽으로...",
+    "summary": "또 \"나를 선임해 준 대한 축구협회 와 홍명보 감독님께 감사 하다. 따뜻하게 맞아주고 다른 문화에 적응할 수 있도록 도와준 모든 직원에게도 진심으로 감사 드린다\"고 전했다. 다만 마지막 부분에서 언급한 내용이 눈길을...",
     "url": "http://www.osen.co.kr/article/G1112841687",
     "originalUrl": "http://www.osen.co.kr/article/G1112841687",
     "publisher": "osen.co.kr",
     "publishedAt": "2026-07-17T23:30:00.000Z",
     "collectedAt": "2026-07-19T12:37:11.561Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "홍명보",
-      "감사"
+      "대한 축구협회",
+      "감사",
+      "감독",
+      "선임",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"홍명보\" 감사",
@@ -212,13 +212,16 @@
       "\"홍명보\" 축구협회",
       "축구협회 감사"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "mcst-audit",
+      "coach-appointment"
+    ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 19,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -1008,16 +1011,17 @@
     "id": "item_4cffe9ea7c39b902",
     "type": "news",
     "title": "기성용 작심발언 \"축구인들 각성하고 반성해야, 한국 축구 많은 개혁 필...",
-    "summary": "협회 장과 감독이 떠난 뒤, 다양한 개선안이 주장되고 있고 박지성과 이영표를 중심으로 'K- 축구 혁신위원회'가 발촉돼 회장 선거 관련부터 새로운 개선의 바람이 부는 듯 했다. 하지만 축구 계에 자리잡고 있는 '터줏대감...",
+    "summary": "협회장과 감독이 떠난 뒤, 다양한 개선안이 주장되고 있고 박지성 과 이영표를 중심으로 'K-축구혁신위원회'가 발촉돼 회장 선거 관련부터 새로운 개선의 바람이 부는 듯 했다. 하지만 축구계에 자리잡고 있는 '터줏대감...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=829071",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=829071",
     "publisher": "spotvnews.co.kr",
     "publishedAt": "2026-07-17T15:45:00.000Z",
     "collectedAt": "2026-07-17T16:47:08.041Z",
     "matchedKeywords": [
+      "K-축구혁신위원회",
       "회장 선거",
+      "축구혁신위",
       "혁신위원회",
-      "축구 혁신",
       "박지성"
     ],
     "discoveryQueries": [
@@ -1048,7 +1052,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 17,
     "labels": [
       "인물 언급"
     ]
@@ -1501,7 +1505,7 @@
     "id": "item_dafa3ce8d31a3d6f",
     "type": "news",
     "title": "작심 저격! 박문성, \"박지성, 이영표 인생을 얼마나 살았다고\"...실언 논...",
-    "summary": "서강일 전북 축구협회 장은 \" 박지성 , 이영표가 뭘 안다고 혁신위원회를 하나. 뭐를 안다고 말을 함부로 하나. 축구 로서는 국가대표였지 인생을 얼마나 살았고, 법을 얼마나 알고, 사회 경험을 얼마나 안다고 무슨...",
+    "summary": "그렇게 비판만 하지 말고 직접 선거 를 나오라\"는 발언으로 논란의 중심에 섰다. 또한 박지성 , 이영표를 중심으로, 추진 중인 대한축구협회장 직선제 전환 움직임에 반발하며 간선제 보궐 선거 를 주장했고, 과거 승부 조작...",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553384886",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553384886",
     "publisher": "sportalkorea.com",
@@ -1509,8 +1513,9 @@
     "collectedAt": "2026-07-17T12:47:47.838Z",
     "matchedKeywords": [
       "박지성",
-      "축구협회",
-      "혁신위원회"
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1527,14 +1532,14 @@
       "축구협회장"
     ],
     "issueTags": [
-      "innovation-committee"
+      "election"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
