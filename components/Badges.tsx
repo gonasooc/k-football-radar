@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BadgeCheck, Newspaper, Youtube } from "lucide-react";
 
 import type { Issue, Person, RadarItem } from "@/lib/schema";
 
@@ -9,17 +10,17 @@ export function SourceBadge({ item }: { item: Pick<RadarItem, "sourceType"> }) {
       : item.sourceType === "youtube"
         ? "유튜브"
         : "뉴스";
+  const Icon =
+    item.sourceType === "official"
+      ? BadgeCheck
+      : item.sourceType === "youtube"
+        ? Youtube
+        : Newspaper;
+
   return (
-    <span
-      className={`inline-flex min-h-6 items-center rounded-chip border px-2 text-[11px] font-black ${
-        item.sourceType === "official"
-          ? "border-official/25 bg-panel text-official"
-          : item.sourceType === "youtube"
-            ? "border-ink/15 bg-ink text-canvas"
-            : "border-accent-soft bg-blush text-accent"
-      }`}
-    >
-      {label}
+    <span className="inline-flex shrink-0 items-center justify-center text-ink-soft">
+      <Icon aria-hidden="true" className="size-4" strokeWidth={1.8} />
+      <span className="sr-only">{label}</span>
     </span>
   );
 }
