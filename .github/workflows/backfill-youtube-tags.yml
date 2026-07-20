@@ -35,6 +35,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
+      # A run queued behind a collector still checks out the commit main pointed
+      # at when the run was created, so it would backfill against a stale tree
+      # and then fail to rebase: a collector rewrites the same lines of
+      # collection-state.json. The concurrency group guarantees no collector is
+      # running now, so syncing here makes the later push a fast-forward.
+      - name: Sync with latest main
+        run: |
+          git fetch origin main
+          git reset --hard FETCH_HEAD
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v6
         with:
