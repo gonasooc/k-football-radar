@@ -192,17 +192,22 @@
     "publishedAt": "2026-07-19T22:39:00.000Z",
     "collectedAt": "2026-07-19T23:40:17.086Z",
     "matchedKeywords": [
+      "구자철",
       "대한축구협회"
     ],
     "discoveryQueries": [
       "대한축구협회"
     ],
     "issueTags": [],
-    "personTags": [],
+    "personTags": [
+      "person_koo_ja_cheol"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
-    "labels": []
+    "relevanceScore": 14,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_71a63adfec59ef8a",
@@ -217,7 +222,8 @@
     "matchedKeywords": [
       "축구협회",
       "정몽규",
-      "대한 축구협회"
+      "대한 축구협회",
+      "서강일"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -240,11 +246,12 @@
     ],
     "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu"
+      "person_chung_mong_gyu",
+      "person_seo_kang_il"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 30,
     "labels": [
       "인물 언급"
     ]
@@ -307,7 +314,9 @@
       "박지성",
       "축구협회장",
       "선거인단",
-      "선거인"
+      "선거인",
+      "백현식",
+      "서강일"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
@@ -317,11 +326,13 @@
       "electoral-college"
     ],
     "personTags": [
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_baek_hyun_sik",
+      "person_seo_kang_il"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 44,
+    "relevanceScore": 50,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -683,18 +694,22 @@
     "publishedAt": "2026-07-19T15:47:00.000Z",
     "collectedAt": "2026-07-19T16:35:53.818Z",
     "matchedKeywords": [
+      "구자철",
       "대한축구협회"
     ],
     "discoveryQueries": [
       "대한축구협회"
     ],
     "issueTags": [],
-    "personTags": [],
+    "personTags": [
+      "person_koo_ja_cheol"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
-    "relevanceTier": "secondary",
-    "labels": []
+    "relevanceScore": 14,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_2e3b5939a2e201ba",
@@ -756,7 +771,8 @@
     "collectedAt": "2026-07-19T15:38:23.874Z",
     "matchedKeywords": [
       "축구협회",
-      "회장 선거"
+      "회장 선거",
+      "서강일"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -784,11 +800,15 @@
     "issueTags": [
       "election"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_seo_kang_il"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 7,
-    "labels": []
+    "relevanceScore": 10,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "youtube_vkHddcTxLFA",
@@ -900,103 +920,6 @@
       },
       "durationSeconds": 39
     }
-  },
-  {
-    "id": "youtube_j3TlkxiJt6g",
-    "type": "youtube",
-    "title": "경찰, '홍명보 논란' 사실상 재수사?...연일 관계자 소환 / YTN",
-    "summary": "지난 9일 박주호 전 전력강화위원 참고인 조사 당시 축구협회 부회장도 소환…모두 첫 경찰 조사 경찰, 전력강화위에서 이사회까지 조사 범위 확대 [앵커] 홍명보 전 축구 국가대표팀 선임 과정을 수사하고 있는 경찰이 최근 대한축구협회 관계자들을 연일 불러 조사하고 있습니다. 이미 한 차례 조사한 정몽규 전 회장을 다시 소환할 가능성까지 거론되면서 경찰이 사실상 재수사에 나섰다는 평가가 나옵니다. 조경원 기자가 보도합니다. [기자] 2년 전 축구대표팀 감독 선임에 문제를 제기했던 박주호 전 전력강화위원이 지난 9일 경찰에 출석해 참고인 조사를 받았습니다. 닷새 뒤 경찰은 당시 대한축구협회 부회장 가운데 한 명을 불러 조사했습니다. 모두 최초 고발 사건 수사 당시에는 조사를 받지 않았던 인물들인데, 경찰이 감독...",
-    "url": "https://www.youtube.com/watch?v=j3TlkxiJt6g",
-    "originalUrl": "https://www.youtube.com/watch?v=j3TlkxiJt6g",
-    "publisher": "YTN",
-    "publishedAt": "2026-07-19T13:47:51Z",
-    "collectedAt": "2026-07-19T13:54:36.200Z",
-    "matchedKeywords": [
-      "홍명보",
-      "대한축구협회",
-      "이사회",
-      "부회장",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "전력강화위원",
-      "선임",
-      "거론",
-      "정몽규"
-    ],
-    "discoveryQueries": [
-      "channel:UChlgI3UHCOnwUGzWzbJ3H5w"
-    ],
-    "issueTags": [
-      "kfa-executives",
-      "coach-appointment"
-    ],
-    "personTags": [
-      "person_hong_myung_bo",
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 28,
-    "labels": [
-      "인물 언급"
-    ],
-    "youtube": {
-      "videoId": "j3TlkxiJt6g",
-      "channelId": "UChlgI3UHCOnwUGzWzbJ3H5w",
-      "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/j3TlkxiJt6g/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 119
-    }
-  },
-  {
-    "id": "item_cc9f8a196dacf3c8",
-    "type": "news",
-    "title": "경찰, '홍명보 논란' 사실상 재수사?...연일 관계자 소환",
-    "summary": "홍명보 전 축구 국가대표팀 선임 과정을 수사하고 있는 경찰이 최근 대한 축구협회 관계자들을 연일 불러 조사하고 있습니다. 이미 한 차례 조사한 정몽규 전 회장을 다시 소환할 가능성까지 거론되면서 경찰이 사실상...",
-    "url": "https://www.ytn.co.kr/_ln/0103_202607192228358565",
-    "originalUrl": "https://www.ytn.co.kr/_ln/0103_202607192228358565",
-    "publisher": "ytn.co.kr",
-    "publishedAt": "2026-07-19T13:28:00.000Z",
-    "collectedAt": "2026-07-19T14:12:17.876Z",
-    "matchedKeywords": [
-      "홍명보",
-      "대한 축구협회",
-      "정몽규"
-    ],
-    "discoveryQueries": [
-      "\"이임생\" 대한축구협회",
-      "\"이임생\" 축구협회",
-      "\"정몽규\" 대한축구협회",
-      "\"정몽규\" 축구협회",
-      "\"홍명보\" 대한축구협회",
-      "\"홍명보\" 축구협회",
-      "감독 후보",
-      "대표팀 감독",
-      "대표팀 감독 선임",
-      "대한축구협회",
-      "전력강화위원회",
-      "축구협회 감독 선임",
-      "축구협회 감독 후보",
-      "축구협회 부회장",
-      "축구협회 이사회"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo",
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "labels": [
-      "인물 언급"
-    ]
   },
   {
     "id": "item_8a519941b0018f57",
@@ -1289,6 +1212,7 @@
     "matchedKeywords": [
       "축구협회장",
       "박지성",
+      "서강일",
       "회장 선거",
       "혁신위원회"
     ],
@@ -1317,11 +1241,12 @@
       "innovation-committee"
     ],
     "personTags": [
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_seo_kang_il"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 47,
     "labels": [
       "인물 언급"
     ]
@@ -1338,7 +1263,8 @@
     "collectedAt": "2026-07-19T10:15:17.249Z",
     "matchedKeywords": [
       "박지성",
-      "사퇴"
+      "사퇴",
+      "서강일"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1365,11 +1291,12 @@
     ],
     "issueTags": [],
     "personTags": [
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_seo_kang_il"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -1734,7 +1661,8 @@
       "박지성",
       "축구협회",
       "정몽규",
-      "홍명보"
+      "홍명보",
+      "서강일"
     ],
     "discoveryQueries": [
       "\"박지성\" 축구협회",
@@ -1748,11 +1676,12 @@
     "personTags": [
       "person_park_ji_sung",
       "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_seo_kang_il"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급"
     ]
@@ -1815,6 +1744,7 @@
     "publishedAt": "2026-07-19T08:16:00.000Z",
     "collectedAt": "2026-07-19T10:15:17.249Z",
     "matchedKeywords": [
+      "구자철",
       "축구협회",
       "박지성"
     ],
@@ -1823,11 +1753,12 @@
     ],
     "issueTags": [],
     "personTags": [
+      "person_koo_ja_cheol",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1891,6 +1822,7 @@
     "publishedAt": "2026-07-19T07:44:00.000Z",
     "collectedAt": "2026-07-19T07:49:52.968Z",
     "matchedKeywords": [
+      "구자철",
       "박지성"
     ],
     "discoveryQueries": [
@@ -1901,11 +1833,12 @@
     ],
     "issueTags": [],
     "personTags": [
+      "person_koo_ja_cheol",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 3,
+    "relevanceScore": 14,
     "labels": [
       "인물 언급"
     ]
@@ -2023,7 +1956,9 @@
     "publishedAt": "2026-07-19T06:36:00.000Z",
     "collectedAt": "2026-07-19T07:49:52.968Z",
     "matchedKeywords": [
-      "박지성"
+      "박지성",
+      "구자철",
+      "서강일"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2039,11 +1974,13 @@
     ],
     "issueTags": [],
     "personTags": [
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_koo_ja_cheol",
+      "person_seo_kang_il"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -2103,6 +2040,7 @@
     "collectedAt": "2026-07-19T07:49:52.968Z",
     "matchedKeywords": [
       "박지성",
+      "서강일",
       "축구협회",
       "사퇴"
     ],
@@ -2120,11 +2058,12 @@
     ],
     "issueTags": [],
     "personTags": [
-      "person_park_ji_sung"
+      "person_park_ji_sung",
+      "person_seo_kang_il"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -2140,6 +2079,7 @@
     "publishedAt": "2026-07-19T05:32:00.000Z",
     "collectedAt": "2026-07-19T07:49:52.968Z",
     "matchedKeywords": [
+      "구자철",
       "K-축구혁신위원회",
       "축구협회장",
       "축구혁신위",
@@ -2162,11 +2102,12 @@
       "innovation-committee"
     ],
     "personTags": [
+      "person_koo_ja_cheol",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -2182,6 +2123,7 @@
     "publishedAt": "2026-07-19T05:21:00.000Z",
     "collectedAt": "2026-07-19T07:49:52.968Z",
     "matchedKeywords": [
+      "구자철",
       "혁신위원회",
       "축구 혁신",
       "박지성"
@@ -2200,11 +2142,12 @@
       "innovation-committee"
     ],
     "personTags": [
+      "person_koo_ja_cheol",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 7,
+    "relevanceScore": 15,
     "labels": [
       "인물 언급"
     ]
@@ -2276,6 +2219,7 @@
     "matchedKeywords": [
       "축구협회장",
       "박지성",
+      "서강일",
       "대한 축구협회",
       "정몽규"
     ],
@@ -2304,11 +2248,12 @@
     ],
     "personTags": [
       "person_park_ji_sung",
+      "person_seo_kang_il",
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 51,
     "labels": [
       "인물 언급"
     ]
@@ -2370,6 +2315,7 @@
     "collectedAt": "2026-07-19T03:55:51.567Z",
     "matchedKeywords": [
       "박지성",
+      "구자철",
       "대한축구협회",
       "축구혁신위",
       "축구협회장",
@@ -2387,12 +2333,13 @@
     ],
     "personTags": [
       "person_park_ji_sung",
+      "person_koo_ja_cheol",
       "person_chung_mong_gyu",
       "person_hong_myung_bo"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 30,
+    "relevanceScore": 38,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -2557,6 +2504,7 @@
     "matchedKeywords": [
       "축구협회장",
       "정몽규",
+      "서강일",
       "사퇴",
       "대한 축구협회",
       "혁신위원회",
@@ -2587,11 +2535,12 @@
     ],
     "personTags": [
       "person_chung_mong_gyu",
+      "person_seo_kang_il",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 49,
+    "relevanceScore": 60,
     "labels": [
       "인물 언급"
     ]
