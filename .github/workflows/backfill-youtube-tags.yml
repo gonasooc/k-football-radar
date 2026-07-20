@@ -1,0 +1,103 @@
+name: Backfill Korea Football Radar YouTube Tags
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Report only, or write the backfilled tags
+        required: true
+        default: dry-run
+        type: choice
+        options:
+          - dry-run
+          - apply
+      scope:
+        description: Videos to request tags for
+        required: true
+        default: missing
+        type: choice
+        options:
+          - missing
+          - all
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-radar-data
+  cancel-in-progress: false
+
+jobs:
+  backfill-youtube-tags:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          run_install: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Backfill YouTube tags
+        run: |
+          args=""
+          if [ "${{ inputs.mode }}" = "apply" ]; then
+            args="--apply --confirm"
+          fi
+          if [ "${{ inputs.scope }}" = "all" ]; then
+            args="$args --all"
+          fi
+          pnpm run backfill:youtube-tags -- $args
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      - name: Upload backfill report
+        uses: actions/upload-artifact@v4
+        with:
+          name: youtube-tag-backfill-${{ inputs.mode }}
+          path: reports/youtube-tag-backfill-*.json
+          if-no-files-found: error
+
+      - name: Validate data
+        run: pnpm run validate:data
+
+      - name: Commit updated data
+        if: inputs.mode == 'apply'
+        run: |
+          git config user.name "korea-football-radar-bot"
+          git config user.email "korea-football-radar-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+            exit 0
+          fi
+          git commit -m "Backfill YouTube video tags"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            git fetch origin main
+            sleep $((attempt * 5))
+          done
+          exit 1
+
+      - name: Publish data snapshot to R2
+        if: inputs.mode == 'apply'
+        run: pnpm run publish:r2
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET_NAME: ${{ vars.R2_BUCKET_NAME }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
