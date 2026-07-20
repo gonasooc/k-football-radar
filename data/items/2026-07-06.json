@@ -4025,7 +4025,7 @@
     "id": "item_d297bb0f1ad707e2",
     "type": "news",
     "title": "정몽규 13년 독주 마침표...K-축구 개혁 시동",
-    "summary": "정몽규 대한축구협회 장이 경기장으로 들어서고 있다. <사진=뉴시스> ◆정몽규, 13년 5개월 '독주 체제' 마침표... K- 축구 거버넌스 개편과 유소년 선수의 전방위적 육성 그리고 선진 기술 시스템 도입 등 미래 생태계 조성을...",
+    "summary": "정몽규 대한축구협회 장이 경기장으로 들어서고 있다. <사진=뉴시스> ◆정몽규, 13년 5개월 '독주 체제' 마침표... 간담회에서 최 장관은 \"우리나라 축구 를 이끌어온 지도자 와 집행부를 향한 신뢰가 급격히 무너졌다\"며...",
     "url": "http://www.00news.co.kr/news/articleView.html?idxno=104942",
     "originalUrl": "http://www.00news.co.kr/news/articleView.html?idxno=104942",
     "publisher": "00news.co.kr",
@@ -4033,20 +4033,23 @@
     "collectedAt": "2026-07-08T06:35:30.206Z",
     "matchedKeywords": [
       "정몽규",
-      "대한축구협회"
+      "대한축구협회",
+      "집행부"
     ],
     "discoveryQueries": [
       "대한축구협회 유소년 정책",
       "대한축구협회 지도자 자격",
       "대한축구협회 지도자 제도"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "kfa-executives"
+    ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -6467,6 +6470,42 @@
     ]
   },
   {
+    "id": "item_0d509ed34742a871",
+    "type": "news",
+    "title": "'포스트 정몽규' 축구협회, 누가 맡나...박지성·이영표·정기선 등 거론",
+    "summary": "사진=HD현대 정 회장이 공식 사임함에 따라 대한축구협회는 보궐 선거 체제로 전환된다. 협회 정관과... 박지성 JTBC 해설위원, 이영표 KBS 해설위원, 김병지 강원FC 대표등의 이름이 자천타천 후보군으로 오르내린다....",
+    "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03585046645511896",
+    "originalUrl": "https://www.edaily.co.kr/news/newspath.asp?newsid=03585046645511896",
+    "publisher": "edaily.co.kr",
+    "publishedAt": "2026-07-06T02:54:00.000Z",
+    "collectedAt": "2026-07-20T08:28:45.817Z",
+    "matchedKeywords": [
+      "축구협회",
+      "정몽규",
+      "박지성",
+      "대한축구협회",
+      "정관",
+      "김병지"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 선거"
+    ],
+    "issueTags": [
+      "statute-revision"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_park_ji_sung",
+      "person_kim_byung_ji"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 44,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "youtube_qiRNXpQL0e0",
     "type": "youtube",
     "title": "[속보] 정몽규, 대한축구협회 회장 사임서 제출 / 연합뉴스TV (YonhapnewsTV)",
@@ -6509,5 +6548,90 @@
       },
       "durationSeconds": 36
     }
+  },
+  {
+    "id": "item_68e3a97d24cbd10c",
+    "type": "news",
+    "title": "정몽규 대한축구협회장, 사임서 제출",
+    "summary": "현재 축구협회 부회장은 이용수 상근부회장, 박항서 신정식 김병지 부회장으로 구성되어 있다. 또한 정몽규 회장이 사임함에 따라 앞으로 60일 이내에 보궐 선거 를 열어 새로운 회장을 선출해야 한다. 정몽규 회장은...",
+    "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=848439",
+    "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=848439",
+    "publisher": "hansbiz.co.kr",
+    "publishedAt": "2026-07-06T02:24:00.000Z",
+    "collectedAt": "2026-07-20T08:28:45.817Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "정몽규",
+      "축구협회",
+      "부회장",
+      "이용수 상근부회장",
+      "김병지",
+      "김병지 부회장",
+      "신정식"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 감사",
+      "\"김병지\" 선거",
+      "\"이용수\" 선거"
+    ],
+    "issueTags": [
+      "election",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_lee_yong_soo",
+      "person_kim_byung_ji",
+      "person_shin_jung_sik"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 57,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_ecab91c93d62cc2a",
+    "type": "news",
+    "title": "정몽규 13년 장기 집권 끝, 한국 축구 새 수장 누가 되나",
+    "summary": "정 회장은 월드컵 종료와 함께 사퇴 의사를 밝혔고, 협회 정관에 따라 60일 이내 차기 회장 선거 가 진행된다.... 김병지 강원FC 대표이사, 이용수 축구협회 부회장 등도 후보군으로 언급되고 있다. 홍명보 감독과 정 회장은...",
+    "url": "https://www.insight.co.kr/news/561663",
+    "originalUrl": "https://www.insight.co.kr/news/561663",
+    "publisher": "insight.co.kr",
+    "publishedAt": "2026-07-06T02:24:00.000Z",
+    "collectedAt": "2026-07-20T08:28:45.817Z",
+    "matchedKeywords": [
+      "정몽규",
+      "축구협회",
+      "회장 선거",
+      "정관",
+      "부회장",
+      "홍명보",
+      "김병지",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 선거",
+      "\"이용수\" 선거"
+    ],
+    "issueTags": [
+      "election",
+      "statute-revision",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo",
+      "person_kim_byung_ji"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 33,
+    "labels": [
+      "인물 언급"
+    ]
   }
 ]
