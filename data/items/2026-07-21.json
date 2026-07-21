@@ -1,5 +1,53 @@
 [
   {
+    "id": "item_bed7456dcb0e103d",
+    "type": "news",
+    "title": "축구인 범위 넓혀야 한국 축구가 바뀐다",
+    "summary": "2026 국제축구연맹(FIFA) 북중미 월드컵 조기 탈락과 위르겐 클린스만과 홍명보 감독 선임 과정, 대표팀 운영을... 축구협회장 선거 제 개편 논의를 두고 \"경기인 중심의 사고방식을 깨지 않으면 바뀌는 게 없을 것\"이라며...",
+    "url": "http://www.sportsq.co.kr/news/articleView.html?idxno=496480",
+    "originalUrl": "http://www.sportsq.co.kr/news/articleView.html?idxno=496480",
+    "publisher": "sportsq.co.kr",
+    "publishedAt": "2026-07-21T23:26:00.000Z",
+    "collectedAt": "2026-07-21T23:41:17.757Z",
+    "matchedKeywords": [
+      "축구협회장",
+      "회장 선거",
+      "감독 선임",
+      "감독",
+      "선임",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 선거",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회 투표권",
+      "축구협회장",
+      "KFA"
+    ],
+    "issueTags": [
+      "election",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 14,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_9dd01a09c1fcbd38",
     "type": "news",
     "title": "‘월드컵 참사’ 축구협회 청문회 30일 개최…정몽규·홍명보 증인 채택",
@@ -3158,7 +3206,7 @@
     "id": "item_0a081d6d64862dc4",
     "type": "news",
     "title": "정몽규·홍명보 국회 세운다…문체위, 30일 축구협회 청문회",
-    "summary": "일정이 당초 계획보다 약 일주일 미뤄지면서 정몽규 전 대한 축구협회 회장과 홍명보 전 축구 대표팀 감독 등 주요 인사들이 증인으로 출석할 예정이다. 국회 문화체육관광위원회는 21일 전체회의에서 대한 축구협회 현안...",
+    "summary": "적정성과 축구협회 운영 전반의 투명성 문제가 집중적으로 다뤄질 전망이다. 이를 위해 문체위는 총 15명의 증인을 채택했다. 정몽규 전 회장과 홍명보 전 감독을 비롯해 이임생 전 기술총괄이사, 정해성 전 국가대표...",
     "url": "https://www.ajunews.com/view/20260721162400923",
     "originalUrl": "https://www.ajunews.com/view/20260721162400923",
     "publisher": "ajunews.com",
@@ -3168,7 +3216,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
-      "대한 축구협회"
+      "이임생"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -3191,7 +3239,8 @@
     "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
@@ -3735,7 +3784,7 @@
     "id": "item_4f2db4b2878f9429",
     "type": "news",
     "title": "홍명보·정몽규 증인 채택···문체위, 대한축협 청문회 30일 연다",
-    "summary": "청문회 증인으로는 정몽규 전 대한 축구협회장 , 홍명보 전 축구대표팀 감독 등 15인이 채택됐다. 참고인은 박지성 케이(K)-축구 혁신위원회 공동위원장, 유승민 대한체육회장 등 8인이다.",
+    "summary": "청문회 증인으로는 정몽규 전 대한축구협회장 , 홍명보 전 축구대표팀 감독 등 15인이 채택됐다. 참고인은 박지성 케이(K)-축구 혁신위원회 공동위원장, 유승민 대한체육회장 등 8인이다.",
     "url": "https://magazine.hankyung.com/business/article/202607217261b",
     "originalUrl": "https://magazine.hankyung.com/business/article/202607217261b",
     "publisher": "magazine.hankyung.com",
@@ -3744,8 +3793,9 @@
     "matchedKeywords": [
       "정몽규",
       "홍명보",
-      "대한 축구협회",
+      "대한축구협회",
       "축구협회장",
+      "대한축구협회장",
       "혁신위원회",
       "축구 혁신",
       "박지성"
@@ -4074,14 +4124,14 @@
     "id": "item_00712ce06b9136d5",
     "type": "news",
     "title": "'월드컵 참사' 대한축협 청문회 30일 개최…\"여야 함께하길 기대\"",
-    "summary": "대한축구 협회 청문회가 오는 30일 국회에서 개최된다. 국회 문화체육관광위원회(문체위)는 21일 오후... 문체위는 정몽규 전 축구협회장 과 홍명보 전 국가대표 축구 팀 감독, 이임생 전 협회 기술총괄이사 등 15명을 청문회...",
+    "summary": "대한축구협회 청문회가 오는 30일 국회에서 개최된다. 국회 문화체육관광위원회(문체위)는 21일 오후... 문체위는 정몽규 전 축구협회 장과 홍명보 전 국가대표 축구 팀 감독, 이임생 전 협회 기술총괄이사 등 15명을 청문회...",
     "url": "https://www.news1.kr/politics/assembly/6234320",
     "originalUrl": "https://www.news1.kr/politics/assembly/6234320",
     "publisher": "news1.kr",
     "publishedAt": "2026-07-21T06:59:00.000Z",
     "collectedAt": "2026-07-21T07:58:17.876Z",
     "matchedKeywords": [
-      "축구협회장",
+      "대한축구협회",
       "정몽규",
       "홍명보",
       "이임생"
@@ -4105,9 +4155,7 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
       "person_hong_myung_bo",
@@ -4115,7 +4163,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 15,
     "labels": [
       "인물 언급"
     ]
