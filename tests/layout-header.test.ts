@@ -6,14 +6,23 @@ const layoutSource = readFileSync(new URL("../app/layout.tsx", import.meta.url),
 
 describe("Root layout header", () => {
   it("uses a compact left-logo and right-copy header", () => {
-    assert.match(layoutSource, /items-end justify-between/);
+    assert.match(layoutSource, /items-center justify-between/);
     assert.match(layoutSource, /aria-label="Korea Football Radar 홈"/);
     assert.match(layoutSource, /w-\[190px\] max-w-\[calc\(100vw-2rem\)\] sm:w-\[220px\] lg:w-\[250px\]/);
     assert.match(layoutSource, /hidden max-w-md text-right/);
-    assert.match(layoutSource, /mx-auto inline-flex shrink-0 items-center lg:mx-0/);
+    // Logo link (left on desktop) plus a matching spacer that keeps it centered on mobile.
+    assert.match(layoutSource, /focus-ring inline-flex shrink-0 items-center/);
+    assert.match(layoutSource, /w-8 shrink-0 lg:hidden/);
     assert.match(layoutSource, /한국축구 이슈의 뉴스와 영상을 한곳에 모은 정보 레이더/);
     assert.doesNotMatch(layoutSource, /text-center/);
     assert.doesNotMatch(layoutSource, /max-w-\[720px\]/);
+  });
+
+  it("renders the theme toggle and applies the stored theme before paint", () => {
+    assert.match(layoutSource, /<ThemeToggle \/>/);
+    assert.match(layoutSource, /suppressHydrationWarning/);
+    assert.match(layoutSource, /themeInitScript/);
+    assert.match(layoutSource, /prefers-color-scheme/);
   });
 
   it("loads the configured Pretendard variable font", () => {
@@ -27,6 +36,6 @@ describe("Root layout header", () => {
     assert.match(layoutSource, /href="#main-content"/);
     assert.match(layoutSource, /id="main-content"/);
     assert.match(layoutSource, /본문으로 건너뛰기/);
-    assert.match(layoutSource, /template: `%s \| \$\{siteName\}`/);
+    assert.match(layoutSource, /template: `%s \| \$\{SITE_NAME\}`/);
   });
 });

@@ -14,6 +14,7 @@ const tailwindConfigSource = readFileSync(
   new URL("../tailwind.config.ts", import.meta.url),
   "utf8"
 );
+const globalsCssSource = readFileSync(new URL("../app/globals.css", import.meta.url), "utf8");
 
 describe("ItemCard variants", () => {
   it("does not expose or render a lead variant", () => {
@@ -31,7 +32,9 @@ describe("ItemCard variants", () => {
   });
 
   it("keeps summaries visually quieter than article titles", () => {
-    assert.match(tailwindConfigSource, /summary: "oklch\(48% 0\.01 70\)"/);
+    // The summary token maps to a CSS variable whose light value stays muted.
+    assert.match(tailwindConfigSource, /summary: themed\("--summary"\)/);
+    assert.match(globalsCssSource, /--summary: 48% 0\.01 70;/);
     assert.match(itemCardSource, /line-clamp-2 text-sm font-medium leading-6 text-summary/);
     assert.doesNotMatch(itemCardSource, /max-w-(?:prose|\[75ch\])/);
   });
