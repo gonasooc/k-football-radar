@@ -1320,6 +1320,36 @@
     }
   },
   {
+    "id": "item_1c7fcd53c0874d9a",
+    "type": "news",
+    "title": "韓 사령탑 인기 폭발 예고...메시 절친 깜짝 선언, 대한민국 관심 보이...",
+    "summary": "다만 아직까지 대한축구협회( KFA )는 신임 감독 선임을 위한 창구도 열지 않았고, 어떤 방식으로, 어떤 프로세스로 진행할 지도 결정하지 않았다. 사비가 한국을 고려한다면 긍정적인 점은 그의 경력과 경험이다. 사비는...",
+    "url": "https://www.sportschosun.com/football/2026-07-19/202607190100116450007380",
+    "originalUrl": "https://www.sportschosun.com/football/2026-07-19/202607190100116450007380",
+    "publisher": "sportschosun.com",
+    "publishedAt": "2026-07-19T12:16:00.000Z",
+    "collectedAt": "2026-07-21T04:52:35.262Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "KFA",
+      "감독 선임",
+      "감독",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "KFA"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_8a519941b0018f57",
     "type": "news",
     "title": "“김종국을 축구 협회장으로” 유재석, 한국 축구 우회적 비판 (‘런닝...",
@@ -1602,7 +1632,7 @@
     "id": "item_75a776c7e9cf1fae",
     "type": "news",
     "title": "\"박지성·이영표가 뭘 안다고?\" 역풍 맞은 서강일 전북축구협회장…팬들...",
-    "summary": "그는 \"현행 정관대로 60일 안에 보궐 선거 를 치르면 된다\"며 제도 개편의 필요성에 의문을 제기했고, 사실상 혁신위원회의 개혁 방향에 반대 입장을 나타냈다. 정몽규 전 대한축구협회장에 대해서는 \"하나님 빼고는 누구나...",
+    "summary": "서 회장은 혁신위원회가 추진 중인 대한축구협회 정관 개정과 회장 선거 제도 개편에도 부정적인 입장을... 선수나 지도자 출신이 아닌 그는 지난해 전북 축구협회 장에 취임한 뒤 정몽규 전 회장을 공개적으로 지지해 왔다....",
     "url": "http://www.osen.co.kr/article/G1112842588",
     "originalUrl": "http://www.osen.co.kr/article/G1112842588",
     "publisher": "osen.co.kr",
@@ -1613,8 +1643,9 @@
       "박지성",
       "서강일",
       "대한축구협회",
-      "대한축구협회장",
+      "회장 선거",
       "정관",
+      "정관 개정",
       "제도 개편",
       "혁신위원회",
       "정몽규"
@@ -1953,7 +1984,7 @@
     "id": "item_7d61b017ad8875ce",
     "type": "news",
     "title": "韓 홍명보 사퇴 후 공석인데, '역대급 매물' 등장...바르사 레전드 사비...",
-    "summary": "이에 팬들은 홍명보 전 감독의 사퇴 후 공석이 된 대표팀 사령탑에 사비가 선임될 가능성을 조명하고 있다.... 현재 대한축구협회 의 내부 상황을 고려할 때 이른 시일 내에 차기 감독직 선임을 위한 협상 테이블을 꾸릴 수...",
+    "summary": "이에 팬들은 홍명보 전 감독의 사퇴 후 공석이 된 대표팀 사령탑에 사비가 선임될 가능성을 조명하고 있다.... 받았다\"라며 \"사비는 감사 하단 이야기를 전달함과 동시에 거절 의사를 표명했다\"고 보도했다. 다만 이번에도...",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553386932",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553386932",
     "publisher": "sportalkorea.com",
@@ -1962,12 +1993,10 @@
     "matchedKeywords": [
       "홍명보",
       "사퇴",
-      "대한축구협회",
       "감독",
       "사령탑",
       "선임",
-      "차기",
-      "감독직"
+      "감사"
     ],
     "discoveryQueries": [
       "\"정몽규\" 감사",
@@ -1990,9 +2019,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 24,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -2388,7 +2418,7 @@
     "id": "item_a38bc0379d072cc4",
     "type": "news",
     "title": "홍명보 후임은 사비? '아시안컵' 언급에 쏠린 시선",
-    "summary": "현재 한국 대표팀 감독 직을 두고 하비에르 아기레, 거스 포옛, 파울루 벤투 등 다양한 외국인 지도자들이 후보 군으로 언급되고 있는 만큼, 향후 대한 축구협회 가 사비 감독 을 포함한 최정예 후보 군 중에서 어떤 결정을...",
+    "summary": "아시아 축구 환경에 대한 이해도가 높다는 점이 큰 강점으로 꼽힌다. 반면, 대표팀 지휘 경험이 전무 하다는... 여기에 세계적인 명장으로서의 몸값 부담 또한 대한 축구협회 가 신중히 고려할 요소다. 현재 한국 대표팀...",
     "url": "https://www.ftimes.kr/news/articleView.html?idxno=38578",
     "originalUrl": "https://www.ftimes.kr/news/articleView.html?idxno=38578",
     "publisher": "ftimes.kr",
@@ -2396,10 +2426,7 @@
     "collectedAt": "2026-07-19T07:49:52.968Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
-      "대표팀 감독",
-      "감독",
-      "후보"
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -2412,15 +2439,13 @@
       "축구협회 감독 후보",
       "축구협회 전무"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 14,
     "labels": [
       "인물 언급"
     ]
