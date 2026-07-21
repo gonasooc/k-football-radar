@@ -17,10 +17,13 @@ command -v git >/dev/null 2>&1 || fail "git is required"
 repository="$(read_config K_FOOTBALL_RADAR_REPOSITORY_PATH)"
 site_url="$(read_config K_FOOTBALL_RADAR_SITE_URL)"
 data_base_url="$(read_config K_FOOTBALL_RADAR_DATA_BASE_URL)"
+ga_id="$(read_config K_FOOTBALL_RADAR_GA_ID)"
 [[ "$repository" == "$root_dir" ]] || fail "K_FOOTBALL_RADAR_REPOSITORY_PATH must be $root_dir"
 [[ "$site_url" =~ ^https://[^/]+$ && "$site_url" != *YOUR_DOMAIN* ]] || fail "set a final HTTPS K_FOOTBALL_RADAR_SITE_URL"
 [[ "$data_base_url" =~ ^https://[^/]+$ && "$data_base_url" != *YOUR_DOMAIN* ]] \
   || fail "set a final HTTPS K_FOOTBALL_RADAR_DATA_BASE_URL"
+[[ -z "$ga_id" || "$ga_id" =~ ^G-[A-Z0-9]+$ ]] \
+  || fail "K_FOOTBALL_RADAR_GA_ID must look like G-XXXXXXXXXX or be empty"
 git -C "$root_dir" diff --quiet || fail "worktree has unstaged changes"
 git -C "$root_dir" diff --cached --quiet || fail "index has staged changes"
 [[ -z "$(git -C "$root_dir" ls-files --others --exclude-standard)" ]] || fail "worktree has untracked files"
@@ -48,7 +51,10 @@ git -C "$root_dir" diff --quiet || fail "validation changed tracked files"
 context="$(mktemp -d "${TMPDIR:-/tmp}/k-football-radar-release-${revision}.XXXXXX")"
 trap 'rm -rf "$context"' EXIT HUP INT TERM
 git -C "$root_dir" archive --format=tar "$revision" | tar -xf - -C "$context"
-docker build --build-arg "NEXT_PUBLIC_SITE_URL=$site_url" --tag "$image" "$context"
+docker build \
+  --build-arg "NEXT_PUBLIC_SITE_URL=$site_url" \
+  --build-arg "NEXT_PUBLIC_GA_ID=$ga_id" \
+  --tag "$image" "$context"
 image_id="$(docker image inspect --format '{{.Id}}' "$image")"
 [[ "$image_id" =~ ^sha256:[a-f0-9]{64}$ ]] || fail "built image ID is invalid"
 

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css";
 
 import { AppNav } from "@/components/AppNav";
@@ -51,6 +52,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Inlined at build time; GA only loads when a measurement ID is provided.
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+
   return (
     <html lang="ko" suppressHydrationWarning>
       <body className="font-sans antialiased">
@@ -95,6 +99,7 @@ export default function RootLayout({
           </main>
           <EditorialContact />
         </div>
+        {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
       </body>
     </html>
   );
