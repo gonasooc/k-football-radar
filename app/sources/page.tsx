@@ -6,11 +6,13 @@ import { PublisherStatsPanel, SourceLinksList } from "@/components/SourcesArchiv
 import { getDataBundle } from "@/lib/data";
 import { defaultFeedFilters, toFeedItems } from "@/lib/filter";
 import { getFeedContentRevision } from "@/lib/feed-snapshot";
+import { pageAlternates } from "@/lib/site";
 import { getSourceLinkPage } from "@/lib/source-link-page";
 
 export const metadata: Metadata = {
   title: "출처 아카이브",
-  description: "한국축구 뉴스·공식자료·유튜브의 수집 대상, 발행처, 채널과 원문 링크를 확인합니다."
+  description: "한국축구 뉴스·공식자료·유튜브의 수집 대상, 발행처, 채널과 원문 링크를 확인합니다.",
+  alternates: pageAlternates("/sources")
 };
 
 export const dynamic = "force-dynamic";

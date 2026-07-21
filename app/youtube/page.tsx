@@ -6,10 +6,12 @@ import { getDataBundle } from "@/lib/data";
 import { getFeedPage } from "@/lib/feed-page";
 import { getFeedContentRevision } from "@/lib/feed-snapshot";
 import { getFeedFiltersFromSearchParams, toFeedItems } from "@/lib/filter";
+import { pageAlternates } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "유튜브",
-  description: "한국축구 거버넌스 이슈와 관련된 유튜브 영상을 확인합니다."
+  description: "한국축구 거버넌스 이슈와 관련된 유튜브 영상을 확인합니다.",
+  alternates: pageAlternates("/youtube")
 };
 
 export const dynamic = "force-dynamic";

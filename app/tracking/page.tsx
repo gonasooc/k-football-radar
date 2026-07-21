@@ -4,10 +4,12 @@ import Link from "next/link";
 import { SectionHeader } from "@/components/SectionHeader";
 import { getDataBundle } from "@/lib/data";
 import { getTrackingTabFromSearchParams, trackingTabs } from "@/lib/navigation";
+import { pageAlternates } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "트래킹",
-  description: "한국축구 거버넌스 이슈와 인물별 뉴스·공식자료·유튜브 영상을 확인합니다."
+  description: "한국축구 거버넌스 이슈와 인물별 뉴스·공식자료·유튜브 영상을 확인합니다.",
+  alternates: pageAlternates("/tracking")
 };
 
 export const dynamic = "force-dynamic";

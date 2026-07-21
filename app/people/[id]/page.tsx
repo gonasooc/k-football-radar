@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import { JsonLd } from "@/components/JsonLd";
 import { PaginatedItemList } from "@/components/PaginatedItemList";
 import { SectionHeader } from "@/components/SectionHeader";
 import { getDataBundle } from "@/lib/data";
 import { toFeedItems } from "@/lib/filter";
 import { getFeedContentRevision } from "@/lib/feed-snapshot";
 import { getInitialScopedFeedPage } from "@/lib/scoped-feed-page";
+import { OG_IMAGE, SITE_NAME, pageAlternates } from "@/lib/site";
+import { buildBreadcrumbJsonLd, buildCollectionPageJsonLd } from "@/lib/structured-data";
 
 type PersonDetailPageProps = {
   params: Promise<{ id: string }>;
@@ -23,9 +26,27 @@ export async function generateMetadata({ params }: PersonDetailPageProps): Promi
     return { title: "인물을 찾을 수 없음" };
   }
 
+  const canonicalPath = `/people/${person.id}`;
+  const description = `${person.name} (${person.role}) 관련 한국축구 뉴스·공식자료·유튜브 영상을 확인합니다.`;
   return {
     title: person.name,
-    description: `${person.name} (${person.role}) 관련 한국축구 뉴스·공식자료·유튜브 영상을 확인합니다.`
+    description,
+    alternates: pageAlternates(canonicalPath),
+    openGraph: {
+      type: "profile",
+      title: person.name,
+      description,
+      url: canonicalPath,
+      siteName: SITE_NAME,
+      locale: "ko_KR",
+      images: [OG_IMAGE]
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: person.name,
+      description,
+      images: [OG_IMAGE]
+    }
   };
 }
 
@@ -51,6 +72,20 @@ export default async function PersonDetailPage({ params }: PersonDetailPageProps
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <JsonLd
+        data={[
+          buildCollectionPageJsonLd({
+            name: person.name,
+            description: `${person.name} (${person.role}) 관련 한국축구 뉴스·공식자료·유튜브 영상`,
+            path: `/people/${person.id}`
+          }),
+          buildBreadcrumbJsonLd([
+            { name: "홈", path: "/" },
+            { name: "트래킹", path: "/tracking?tab=people" },
+            { name: person.name, path: `/people/${person.id}` }
+          ])
+        ]}
+      />
       <SectionHeader description={person.role} title={person.name} />
       <dl className="mt-5 divide-y divide-line border-y border-rule">
         <div className="grid gap-1 py-3 sm:grid-cols-[8rem_minmax(0,1fr)] sm:gap-4">

@@ -5,53 +5,40 @@ import "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css";
 
 import { AppNav } from "@/components/AppNav";
 import { EditorialContact } from "@/components/EditorialContact";
+import { OG_IMAGE, RSS_PATH, SITE_DESCRIPTION, SITE_NAME, getSiteUrl } from "@/lib/site";
 import "./globals.css";
-
-const siteName = "Korea Football Radar";
-const siteDescription = "한국축구 이슈 뉴스·공식자료와 유튜브 영상을 모아 보는 정보 레이더";
-const openGraphImage = {
-  url: "/brand/korea-football-radar-og.png",
-  width: 800,
-  height: 800,
-  alt: siteName
-};
-
-function getSiteUrl() {
-  const explicitSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
-  if (explicitSiteUrl) {
-    return explicitSiteUrl;
-  }
-
-  return "http://localhost:3000";
-}
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: {
-    default: siteName,
-    template: `%s | ${siteName}`
+    default: SITE_NAME,
+    template: `%s | ${SITE_NAME}`
   },
-  description: siteDescription,
+  description: SITE_DESCRIPTION,
+  alternates: {
+    types: { "application/rss+xml": RSS_PATH }
+  },
   openGraph: {
-    title: siteName,
-    description: siteDescription,
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
     type: "website",
     locale: "ko_KR",
-    siteName,
-    images: [openGraphImage]
+    siteName: SITE_NAME,
+    images: [OG_IMAGE]
   },
   twitter: {
-    card: "summary",
-    title: siteName,
-    description: siteDescription,
-    images: [openGraphImage]
+    card: "summary_large_image",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+    images: [OG_IMAGE]
   }
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  viewportFit: "cover"
+  viewportFit: "cover",
+  themeColor: "#fdfbf7"
 };
 
 export default function RootLayout({

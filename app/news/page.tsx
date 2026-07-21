@@ -8,11 +8,13 @@ import { formatDateTime } from "@/lib/date";
 import { getFeedPage } from "@/lib/feed-page";
 import { getFeedContentRevision } from "@/lib/feed-snapshot";
 import { getFeedFiltersFromSearchParams, toFeedItems, type FeedTypeFilter } from "@/lib/filter";
+import { pageAlternates } from "@/lib/site";
 import { getDashboardStats } from "@/lib/stats";
 
 export const metadata: Metadata = {
   title: "뉴스",
-  description: "한국축구 이슈 뉴스와 공식자료를 검색하고 확인합니다."
+  description: "한국축구 이슈 뉴스와 공식자료를 검색하고 확인합니다.",
+  alternates: pageAlternates("/news")
 };
 
 export const dynamic = "force-dynamic";

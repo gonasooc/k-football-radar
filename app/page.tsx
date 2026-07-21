@@ -1,14 +1,18 @@
 import type { Metadata } from "next";
 
 import { HomeFeedSection } from "@/components/HomeFeedSection";
+import { JsonLd } from "@/components/JsonLd";
 import { getDataBundle } from "@/lib/data";
 import { getFeedPage } from "@/lib/feed-page";
 import { getFeedContentRevision } from "@/lib/feed-snapshot";
 import { defaultFeedFilters, toFeedItems } from "@/lib/filter";
+import { pageAlternates } from "@/lib/site";
+import { buildOrganizationJsonLd, buildWebSiteJsonLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "홈",
-  description: "한국축구 이슈의 최신 뉴스·공식자료와 유튜브 영상을 한눈에 확인합니다."
+  description: "한국축구 이슈의 최신 뉴스·공식자료와 유튜브 영상을 한눈에 확인합니다.",
+  alternates: pageAlternates("/")
 };
 
 export const dynamic = "force-dynamic";
@@ -52,6 +56,7 @@ export default async function HomePage() {
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 pb-12 pt-7 sm:px-6 sm:pt-9 lg:px-8">
+      <JsonLd data={[buildWebSiteJsonLd(), buildOrganizationJsonLd()]} />
       <h1 className="sr-only">한국축구 최신 뉴스와 유튜브 영상</h1>
       <div className="space-y-14">
         <HomeFeedSection
