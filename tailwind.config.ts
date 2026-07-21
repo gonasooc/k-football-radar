@@ -1,27 +1,36 @@
 import type { Config } from "tailwindcss";
 import forms from "@tailwindcss/forms";
 
+// Colors are driven by CSS custom properties (see app/globals.css) so the whole
+// palette can flip between light and dark themes. Each variable holds a bare
+// `L C H` triplet; wrapping it in oklch(... / <alpha-value>) keeps Tailwind's
+// opacity modifiers (e.g. bg-ink/90) working.
+function themed(variable: string): string {
+  return `oklch(var(${variable}) / <alpha-value>)`;
+}
+
 const config: Config = {
+  darkMode: ["selector", '[data-theme="dark"]'],
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        ink: "oklch(20% 0.012 70)",
-        "ink-soft": "oklch(38% 0.012 70)",
-        summary: "oklch(48% 0.01 70)",
-        muted: "oklch(50% 0.01 70)",
-        canvas: "oklch(99% 0.003 80)",
-        paper: "oklch(97% 0.004 80)",
-        panel: "oklch(99.2% 0.002 80)",
-        "panel-strong": "oklch(95.5% 0.005 80)",
-        line: "oklch(89% 0.006 80)",
-        rule: "oklch(83% 0.008 80)",
-        accent: "oklch(52% 0.175 28)",
-        blush: "oklch(97% 0.018 28)",
-        "accent-soft": "oklch(88% 0.052 28)",
-        official: "oklch(47% 0.105 155)",
-        news: "oklch(45% 0.09 240)",
-        warning: "oklch(62% 0.12 78)"
+        ink: themed("--ink"),
+        "ink-soft": themed("--ink-soft"),
+        summary: themed("--summary"),
+        muted: themed("--muted"),
+        canvas: themed("--canvas"),
+        paper: themed("--paper"),
+        panel: themed("--panel"),
+        "panel-strong": themed("--panel-strong"),
+        line: themed("--line"),
+        rule: themed("--rule"),
+        accent: themed("--accent"),
+        blush: themed("--blush"),
+        "accent-soft": themed("--accent-soft"),
+        official: themed("--official"),
+        news: themed("--news"),
+        warning: themed("--warning")
       },
       fontFamily: {
         sans: [
@@ -36,8 +45,8 @@ const config: Config = {
         ]
       },
       boxShadow: {
-        panel: "0 18px 48px oklch(20% 0.012 70 / 0.055)",
-        lift: "0 12px 28px oklch(20% 0.012 70 / 0.075)"
+        panel: "0 18px 48px oklch(var(--shadow) / 0.055)",
+        lift: "0 12px 28px oklch(var(--shadow) / 0.075)"
       },
       borderRadius: {
         chip: "3px",
