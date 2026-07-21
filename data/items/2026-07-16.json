@@ -2762,7 +2762,7 @@
     "id": "item_3d5b05597172c95d",
     "type": "news",
     "title": "22일 예정이었던 축구협회 청문회 연기 \"7월 안엔 할 것\"",
-    "summary": "오는 22일 예정이었던 대한축구협회 청문회가 연기됐다. ⓒ연합뉴스 연합뉴스에 따르면 국회... 축구협회 청문회를 미루기로 결정했다. 이번 청문회에는 정몽규 전 축구협회 장, 홍명보 전 대표팀 감독, 이임생 전 협회 ...",
+    "summary": "오는 22일 예정이었던 대한축구협회 청문회가 연기됐다. ⓒ연합뉴스 연합뉴스에 따르면 국회... 이번 청문회에는 정몽규 전 축구협회 장, 홍명보 전 대표팀 감독, 이임생 전 협회 기술총괄이사, 이용수 축구협회 부회장...",
     "url": "https://sports.hankooki.com/news/articleView.html?idxno=6936588",
     "originalUrl": "https://sports.hankooki.com/news/articleView.html?idxno=6936588",
     "publisher": "sports.hankooki.com",
@@ -2771,6 +2771,7 @@
     "matchedKeywords": [
       "축구협회",
       "대한축구협회",
+      "부회장",
       "정몽규",
       "홍명보",
       "이임생"
@@ -2794,7 +2795,9 @@
       "축구협회 전무",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "kfa-executives"
+    ],
     "personTags": [
       "person_chung_mong_gyu",
       "person_hong_myung_bo",
@@ -2802,7 +2805,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급"
     ]
@@ -3185,7 +3188,7 @@
     "id": "item_d9b262b5cf15e96f",
     "type": "news",
     "title": "국회, 축구협회 청문회 30일로 연기…여야 협상 및 절차 문제로 일정 조...",
-    "summary": "축구협회 장, 홍명보 전 국가대표팀 감독, 이임생 전 기술총괄이사 등 13명을 증인으로, 박지성 K- 축구 혁신위원회 공동위원장과 유승민 대한 체육회장 등을 참고인으로 채택한 바 있다. 문체위는 오는 21일 전체회의를 열어...",
+    "summary": "감독, 이임생 전 기술총괄이사 등 13명을 증인으로, 박지성 K-축구 혁신위원회 공동위원장과 유승민... 한편, 대한체육회는 축구협회 차기 회장 선거 와 맞물려 선거 인단 확대를 골자로 한 정관 개정안을 의결했다. 유승민...",
     "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=605243",
     "originalUrl": "https://www.mdtoday.co.kr/news/articleView.html?idxno=605243",
     "publisher": "mdtoday.co.kr",
@@ -3193,9 +3196,11 @@
     "collectedAt": "2026-07-16T09:49:50.707Z",
     "matchedKeywords": [
       "축구협회",
+      "회장 선거",
+      "정관",
+      "정관 개정",
       "혁신위원회",
       "축구 혁신",
-      "홍명보",
       "박지성",
       "이임생"
     ],
@@ -3227,16 +3232,17 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
+      "election",
+      "statute-revision",
       "innovation-committee"
     ],
     "personTags": [
-      "person_hong_myung_bo",
       "person_park_ji_sung",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급"
     ]
@@ -4268,14 +4274,16 @@
     "id": "item_3cb4a644846bf3be",
     "type": "news",
     "title": "세금으로 먹고 살면서...축구인들은 왜 이토록 오만할까?[정희준의 어퍼...",
-    "summary": "사퇴했고 이임생 기술이사는 기어이 자신의 선배 홍명보를 감독 자리에 앉혔다. 축구 인들은 왜 이렇게 오만할까. 지난 14일 문화연대 주최로 열린 열린 ‘반복되는 대한축구협회 의 파행, 무엇을 어떻게 바꿔야 하는가?’...",
+    "summary": "사퇴했고 이임생 기술이사는 기어이 자신의 선배 홍명보를 감독 자리에 앉혔다. 축구인들은 왜 이렇게... 차기 축구협회장 선거 관련하여 축구를 소비하는 팬들에게도 투표권을 줘야 한다는 이야기가 나오는 것도...",
     "url": "https://www.pressian.com/pages/articles/2026071611082840673",
     "originalUrl": "https://www.pressian.com/pages/articles/2026071611082840673",
     "publisher": "pressian.com",
     "publishedAt": "2026-07-16T08:28:00.000Z",
     "collectedAt": "2026-07-16T09:49:50.707Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "축구협회장",
+      "회장 선거",
+      "투표권",
       "홍명보",
       "이임생",
       "이임생 기술이사",
@@ -4299,14 +4307,17 @@
       "축구협회 회장 선거",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election",
+      "electoral-college"
+    ],
     "personTags": [
       "person_hong_myung_bo",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 19,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -5001,7 +5012,7 @@
     "id": "item_e75b0fd9a46576c5",
     "type": "news",
     "title": "홍명보는 온댔는데...방금 전해진 축구협회 청문회 관련 '뜻밖의 소식'",
-    "summary": "문체위는 지난 9일 전체회의에서 범여권 주도로 ' 대한축구협회 현안 관련 청문회 실시계획서 채택의 건'을 의결하고, 정몽규 전 회장과 홍명보 전 감독을 포함해 총 13명을 증인으로 채택했다. 이임생 전 협회 ...",
+    "summary": "정몽규 전 회장, 홍명보 전 감독까지 증인으로 세워놓고 진행될 예정이던 대한축구협회 국회 청문회. 특히 홍... 증인 13명 중 현직인 이용수 부회장, 김승희 전무이사, 김병지 부회장, 전한진 매니저와 홍명보 전 감독을...",
     "url": "https://www.wikitree.co.kr/articles/1146885",
     "originalUrl": "https://www.wikitree.co.kr/articles/1146885",
     "publisher": "wikitree.co.kr",
@@ -5011,8 +5022,14 @@
       "축구협회",
       "홍명보",
       "대한축구협회",
+      "부회장",
+      "전무",
       "정몽규",
-      "이임생"
+      "김병지",
+      "김병지 부회장",
+      "김승희 전무",
+      "김승희 전무이사",
+      "전한진"
     ],
     "discoveryQueries": [
       "\"김병지\" 대한축구협회",
@@ -5039,15 +5056,19 @@
       "축구협회 혁신위원회",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "kfa-executives"
+    ],
     "personTags": [
       "person_hong_myung_bo",
       "person_chung_mong_gyu",
-      "person_lee_im_saeng"
+      "person_kim_byung_ji",
+      "person_kim_seung_hee",
+      "person_jeon_han_jin"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ]

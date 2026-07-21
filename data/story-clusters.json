@@ -2,43 +2,6 @@
   "version": 1,
   "clusters": [
     {
-      "id": "story_dc400a1eb740d6be75d7",
-      "seedItemId": "item_9cd4d34464a57903",
-      "memberIds": [
-        "item_9cd4d34464a57903",
-        "item_3b78d4de3c37719c"
-      ]
-    },
-    {
-      "id": "story_a64f084e65653de81bc3",
-      "seedItemId": "item_d7a3b256b6e58e8b",
-      "memberIds": [
-        "item_d7a3b256b6e58e8b",
-        "item_ce55e8aa9cbf2761",
-        "item_4daf7be1cf4752e5"
-      ]
-    },
-    {
-      "id": "story_5259cb3e2cd62f721ea5",
-      "seedItemId": "item_77c0c5f10d61c16c",
-      "memberIds": [
-        "item_77c0c5f10d61c16c",
-        "item_b6241388acf4af62",
-        "item_ce6ca11301bdca01",
-        "item_ebcbe6456d7d2ded",
-        "item_c5f7d971afffc369"
-      ]
-    },
-    {
-      "id": "story_0c14d609f66e150efb8d",
-      "seedItemId": "item_47cb13705fd4a5a4",
-      "memberIds": [
-        "item_47cb13705fd4a5a4",
-        "item_0f99b203196a3d88",
-        "item_231dbd6f54e2b2a6"
-      ]
-    },
-    {
       "id": "story_cf52c87d155cdb842d12",
       "seedItemId": "item_1940bf9ef26d51f9",
       "memberIds": [
@@ -51,7 +14,7 @@
       "seedItemId": "item_875c64de04d5f697",
       "memberIds": [
         "item_875c64de04d5f697",
-        "item_fa80230855ac6100"
+        "item_ce6ca11301bdca01"
       ]
     },
     {
@@ -60,6 +23,30 @@
       "memberIds": [
         "item_4e66789243f9f5bc",
         "item_38fb7bbb0cbb3781"
+      ]
+    },
+    {
+      "id": "story_f45e30f2342b549d34ae",
+      "seedItemId": "item_0f99b203196a3d88",
+      "memberIds": [
+        "item_0f99b203196a3d88",
+        "item_231dbd6f54e2b2a6"
+      ]
+    },
+    {
+      "id": "story_dc0ea606ddefaf20c415",
+      "seedItemId": "item_ebcbe6456d7d2ded",
+      "memberIds": [
+        "item_ebcbe6456d7d2ded",
+        "item_fd53fc190ce7a5be"
+      ]
+    },
+    {
+      "id": "story_c596a927081e7e14a2f5",
+      "seedItemId": "item_7ba6212ddc95c50e",
+      "memberIds": [
+        "item_7ba6212ddc95c50e",
+        "item_c5f7d971afffc369"
       ]
     },
     {
@@ -200,7 +187,6 @@
       "memberIds": [
         "item_5e928cd79f5c7289",
         "item_b102d2010b961e04",
-        "item_cd5f0b6fba91e59f",
         "item_9ea5e8bf53a9339c"
       ]
     },
@@ -246,7 +232,7 @@
       "memberIds": [
         "item_0e00e8f3ed4c54aa",
         "item_ed3947f79425374f",
-        "item_dcf782da20f3088f"
+        "item_cd5f0b6fba91e59f"
       ]
     },
     {
@@ -301,6 +287,7 @@
         "item_6559036834a884a4",
         "item_94b62b7f07a20b6d",
         "item_2edbc510287db378",
+        "item_dcf782da20f3088f",
         "item_9ea187a9f8f8a526",
         "item_e88e4a2fd5e43ed8",
         "item_256a9ca3b39d03d7"
@@ -330,8 +317,7 @@
         "item_01ffb6d237afb560",
         "item_29dd92931c6380fe",
         "item_a28409eef1a56ca4",
-        "item_8d8d47aa1897192e",
-        "item_d771ac8f50003e06"
+        "item_8d8d47aa1897192e"
       ]
     },
     {
@@ -408,7 +394,8 @@
       "seedItemId": "item_2df7fe265cfa0cd2",
       "memberIds": [
         "item_2df7fe265cfa0cd2",
-        "item_09b45fa9e5ad41b2"
+        "item_09b45fa9e5ad41b2",
+        "item_a9e8099900f2753a"
       ]
     },
     {
@@ -456,8 +443,7 @@
       "seedItemId": "item_c39d39e42534e216",
       "memberIds": [
         "item_c39d39e42534e216",
-        "item_d330a7d8a9ae330e",
-        "item_a9e8099900f2753a"
+        "item_d330a7d8a9ae330e"
       ]
     },
     {
@@ -982,6 +968,14 @@
       ]
     },
     {
+      "id": "story_294edd8698ca36a07cfb",
+      "seedItemId": "item_60e745c5708059f2",
+      "memberIds": [
+        "item_60e745c5708059f2",
+        "item_124cd8464debd8e8"
+      ]
+    },
+    {
       "id": "story_53f6c065d4d037641442",
       "seedItemId": "item_1eea738d34a924f0",
       "memberIds": [
@@ -1263,7 +1257,6 @@
       "seedItemId": "item_9a7eb9d713ff8a90",
       "memberIds": [
         "item_9a7eb9d713ff8a90",
-        "item_d9b262b5cf15e96f",
         "item_11bc07708cb5b366"
       ]
     },
@@ -1424,6 +1417,14 @@
       ]
     },
     {
+      "id": "story_ebde879e18573922e500",
+      "seedItemId": "item_2d3d80993de7b37a",
+      "memberIds": [
+        "item_2d3d80993de7b37a",
+        "item_fabfaadd34cacb69"
+      ]
+    },
+    {
       "id": "story_6acd88f4314361e1956d",
       "seedItemId": "item_2caa4db5973657da",
       "memberIds": [
@@ -1509,7 +1510,7 @@
       "seedItemId": "item_2ab312fcf7bc8031",
       "memberIds": [
         "item_2ab312fcf7bc8031",
-        "item_2405aab4a82f88bd"
+        "item_f60f3127bc9a780a"
       ]
     },
     {
@@ -1524,20 +1525,19 @@
       ]
     },
     {
-      "id": "story_f7757065ab75680ce441",
-      "seedItemId": "item_f60f3127bc9a780a",
-      "memberIds": [
-        "item_f60f3127bc9a780a",
-        "item_8d48f4bcf43fbb4b",
-        "item_3613db43f7fa6aa7"
-      ]
-    },
-    {
       "id": "story_283f5efa0dbd82f70b84",
       "seedItemId": "item_7ca588024b08e86f",
       "memberIds": [
         "item_7ca588024b08e86f",
         "item_2470d2af40b69c5f"
+      ]
+    },
+    {
+      "id": "story_1cef83a5776391e64083",
+      "seedItemId": "item_8d48f4bcf43fbb4b",
+      "memberIds": [
+        "item_8d48f4bcf43fbb4b",
+        "item_3613db43f7fa6aa7"
       ]
     },
     {
@@ -1589,19 +1589,96 @@
       ]
     },
     {
-      "id": "story_a2f1799b52aeacadd088",
-      "seedItemId": "item_ef385055124ea661",
-      "memberIds": [
-        "item_ef385055124ea661",
-        "item_d91b4df839d2b18a"
-      ]
-    },
-    {
       "id": "story_b0bd28ca6659b4c26800",
       "seedItemId": "item_7635176b4a3330ba",
       "memberIds": [
         "item_7635176b4a3330ba",
         "item_8674dfd421b6fe09"
+      ]
+    },
+    {
+      "id": "story_92a5ac0543a541f80695",
+      "seedItemId": "item_1315cddd6fa870b9",
+      "memberIds": [
+        "item_1315cddd6fa870b9",
+        "item_f8c05191e2469c8a"
+      ]
+    },
+    {
+      "id": "story_fecc1de02f5a49322210",
+      "seedItemId": "item_77897cf276f51a38",
+      "memberIds": [
+        "item_77897cf276f51a38",
+        "item_5bd4aa6e0933a859"
+      ]
+    },
+    {
+      "id": "story_aa8c6d0e8514f86c17a2",
+      "seedItemId": "item_00712ce06b9136d5",
+      "memberIds": [
+        "item_00712ce06b9136d5",
+        "item_304b67bc68f44929",
+        "item_80230b4d1f7dff63",
+        "item_ee1c3445ec6e5ebf",
+        "item_fb994d320354bacd"
+      ]
+    },
+    {
+      "id": "story_ccda0235bd9573f60947",
+      "seedItemId": "item_b8b87e1db2abfa3e",
+      "memberIds": [
+        "item_b8b87e1db2abfa3e",
+        "item_5cda5acf7a19a6db",
+        "item_95b1ac5c024deb8e"
+      ]
+    },
+    {
+      "id": "story_1d9c90a6d48ffd236744",
+      "seedItemId": "item_79164df9290e0dbd",
+      "memberIds": [
+        "item_79164df9290e0dbd",
+        "item_873775e4062b725e"
+      ]
+    },
+    {
+      "id": "story_d0776c1c79d384f8754a",
+      "seedItemId": "item_7fd7322218836370",
+      "memberIds": [
+        "item_7fd7322218836370",
+        "item_bf0609cb83ced482"
+      ]
+    },
+    {
+      "id": "story_014401d0f32d9bfcd128",
+      "seedItemId": "item_e5f6945ebba93c26",
+      "memberIds": [
+        "item_e5f6945ebba93c26",
+        "item_995cf2d2232b0803"
+      ]
+    },
+    {
+      "id": "story_8a61160682428c7fd8d3",
+      "seedItemId": "item_3a710ad332154bd2",
+      "memberIds": [
+        "item_3a710ad332154bd2",
+        "item_5636b41bbfe6bb40"
+      ]
+    },
+    {
+      "id": "story_f6b6bd6e98ac58b7e086",
+      "seedItemId": "item_f28e6714bf0ef30b",
+      "memberIds": [
+        "item_f28e6714bf0ef30b",
+        "item_0a081d6d64862dc4",
+        "item_b1384eb9da84d317"
+      ]
+    },
+    {
+      "id": "story_0d66968cf058da16452f",
+      "seedItemId": "item_c0daa970f09401db",
+      "memberIds": [
+        "item_c0daa970f09401db",
+        "item_e83204a23551ece2"
       ]
     }
   ]
