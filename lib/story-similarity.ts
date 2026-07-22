@@ -2,9 +2,11 @@ export const STORY_TITLE_WEIGHT = 0.75;
 export const STORY_SUMMARY_WEIGHT = 0.25;
 
 const LEADING_BOILERPLATE =
-  /^\s*(?:[[({\u3008\u300a\u3010]?\s*(?:\uc18d\ubcf4|\ub2e8\ub3c5|\uc885\ud569(?:\s*\d+\s*\ubcf4?)?)\s*[\])}\u3009\u300b\u3011]?\s*[:\-\u2013\u2014]?\s*)+/u;
+  /^\s*(?:[[({\u3008\u300a\u3010]?\s*(?:\uc18d\ubcf4|\ub2e8\ub3c5|\uc624\ud53c\uc15c|\uacf5\uc2dd\ubc1c\ud45c|\uc790\ub9c9\ub274\uc2a4|\uc885\ud569(?:\s*\d+\s*\ubcf4?)?)\s*[\])}\u3009\u300b\u3011]?\s*[:\-\u2013\u2014]?\s*)+/u;
+// Trailing markers other than \uc885\ud569 are only stripped when bracketed, because
+// \uacf5\uc2dd/\uc804\ubb38/\uc0c1\ubcf4 are ordinary words in title-final position.
 const TRAILING_BOILERPLATE =
-  /\s*(?:[[({\u3008\u300a\u3010]?\s*\uc885\ud569(?:\s*\d+\s*\ubcf4?)?\s*[\])}\u3009\u300b\u3011]?)\s*(?:\u2026|\.{3})?\s*$/u;
+  /\s*(?:[[({\u3008\u300a\u3010]?\s*\uc885\ud569(?:\s*\d+\s*\ubcf4?)?\s*[\])}\u3009\u300b\u3011]?|[[({\u3008\u300a\u3010]\s*(?:\uc790\ub9c9\ub274\uc2a4|\ud604\uc7a5\uc601\uc0c1|\uacf5\uc2dd|\uc804\ubb38|\uc0c1\ubcf4)\s*[\])}\u3009\u300b\u3011])\s*(?:\u2026|\.{3})?\s*$/u;
 
 export type StoryTextFields = {
   title: string;

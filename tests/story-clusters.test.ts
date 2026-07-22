@@ -50,6 +50,15 @@ describe("story clustering", () => {
       normalizeStoryText("\ucd95\uad6c\ud611\ud68c \uc120\uac70\uc81c\ub3c4 \uac1c\ud3b8(\uc885\ud5692\ubcf4)"),
       "\ucd95\uad6c\ud611\ud68c\uc120\uac70\uc81c\ub3c4\uac1c\ud3b8"
     );
+    assert.equal(
+      normalizeStoryText("[오피셜] 축구협회 새 감독 선임"),
+      "축구협회새감독선임"
+    );
+    assert.equal(
+      normalizeStoryText("축구협회 새 감독 선임 (현장영상)"),
+      "축구협회새감독선임"
+    );
+    assert.equal(normalizeStoryText("협회 개혁 전문"), "협회개혁전문");
     assert.deepEqual(
       [...extractStoryFactAnchors({
         title: "선거인단 41 배 확대",
@@ -59,7 +68,7 @@ describe("story clustering", () => {
     );
   });
 
-  it("trusts very strong non-opinion titles when snippets quote different passages", () => {
+  it("trusts very strong non-opinion titles even when rule-derived tags disagree", () => {
     const matching = [
       item("strong-a", {
         title: "대한체육회장 선거인단 41배 확대…축구협회장 선거제도 개선 발판 마련",
@@ -83,7 +92,51 @@ describe("story clustering", () => {
       "strong-a",
       "strong-b"
     ]);
-    assert.deepEqual(buildStoryClusters(noSharedTag).clusters, []);
+    assert.deepEqual(buildStoryClusters(noSharedTag).clusters[0]?.memberIds, [
+      "unshared-0",
+      "unshared-1"
+    ]);
+  });
+
+  it("groups identical wire-copy titles across publishers without shared tags", () => {
+    const wirePair = [
+      item("wire-a", {
+        title: "임오경 의원, 손흥민·황희찬 축구협회 청문회 참고인 신청 철회",
+        summary: "여야 협상 경과를 전하는 리드 문단",
+        publisher: "news-a",
+        issueTags: ["issue-a"]
+      }),
+      item("wire-b", {
+        title: "임오경 의원, 손흥민·황희찬 축구협회 청문회 참고인 신청 철회",
+        summary: "선수 소속팀 일정을 인용한 전혀 다른 문단",
+        publisher: "news-b",
+        issueTags: ["issue-b"],
+        publishedAt: "2026-07-16T01:00:00.000Z"
+      })
+    ];
+
+    assert.deepEqual(buildStoryClusters(wirePair).clusters[0]?.memberIds, [
+      "wire-a",
+      "wire-b"
+    ]);
+  });
+
+  it("keeps identical syndicated column titles apart across publishers", () => {
+    const columns = [
+      item("column-a", {
+        title: "[데스크 칼럼] 홍명보를 위한 변명",
+        summary: "감독의 선택과 전술을 평가하는 칼럼",
+        publisher: "column-a"
+      }),
+      item("column-b", {
+        title: "[데스크 칼럼] 홍명보를 위한 변명",
+        summary: "국회 행정과 조직 구조를 비판하는 글",
+        publisher: "column-b",
+        publishedAt: "2026-07-16T01:00:00.000Z"
+      })
+    ];
+
+    assert.deepEqual(buildStoryClusters(columns).clusters, []);
   });
 
   it("preclusters a rare multi-publisher fact burst despite varied titles and snippets", () => {

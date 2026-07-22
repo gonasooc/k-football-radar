@@ -10,6 +10,7 @@ import {
 export const STORY_CLUSTER_VERSION = 1 as const;
 export const STORY_CLUSTER_WINDOW_MS = 36 * 60 * 60 * 1_000;
 export const STORY_STRONG_TITLE_SIMILARITY = 0.65;
+export const STORY_EXACT_TITLE_MIN_LENGTH = 10;
 export const STORY_FACT_ANCHOR_MIN_ITEMS = 3;
 export const STORY_FACT_ANCHOR_MAX_ITEMS = 30;
 export const EMPTY_STORY_CLUSTER_FILE: StoryClusterFile = {
@@ -168,18 +169,26 @@ export function isStoryPairMatch(
 
   const normalizedLeftTitle = normalizeStoryText(left.title);
   const normalizedRightTitle = normalizeStoryText(right.title);
-  if (
-    normalizedLeftTitle.length > 0 &&
-    normalizedLeftTitle === normalizedRightTitle &&
-    normalizePublisher(left.publisher) === normalizePublisher(right.publisher)
-  ) {
-    return true;
+  if (normalizedLeftTitle.length > 0 && normalizedLeftTitle === normalizedRightTitle) {
+    if (normalizePublisher(left.publisher) === normalizePublisher(right.publisher)) {
+      return true;
+    }
+    // Cross-publisher identical titles are wire copy, except syndicated columns
+    // and degenerate short titles that collide by coincidence.
+    if (
+      Array.from(normalizedLeftTitle).length >= STORY_EXACT_TITLE_MIN_LENGTH &&
+      !isLikelyOpinionTitle(left.title) &&
+      !isLikelyOpinionTitle(right.title)
+    ) {
+      return true;
+    }
   }
 
+  // Tags are rule-derived and often disagree on the same event, so the strong
+  // title bar stands alone; the opinion guard still blocks syndicated columns.
   const similarity = similarityModel.compare(left, right);
   return (
     (similarity.title >= STORY_STRONG_TITLE_SIMILARITY &&
-      hasSharedTag(left, right) &&
       !isLikelyOpinionTitle(left.title) &&
       !isLikelyOpinionTitle(right.title)) ||
     (similarity.title >= 0.42 && similarity.summary >= 0.12) ||
