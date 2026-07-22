@@ -4637,7 +4637,7 @@
     "id": "item_3518360d1af1a40a",
     "type": "news",
     "title": "\"어떤 질문도 피하지 않겠다\"…청문회 출석 예고한 홍명보",
-    "summary": "최근 불거진 ‘도피 논란’에 대해서도 적극적으로 해명 했다. 홍 전 감독은 지난달 29일 조별리그 탈락 직후... 참고인 명단에는 박지성 FIFA 분과위원회 위원과 현역 국가대표인 손흥민(LAFC), 황희찬(울버햄프턴) 등이...",
+    "summary": "최근 불거진 ‘도피 논란’에 대해서도 적극적으로 해명 했다. 홍 전 감독은 지난달 29일 조별리그 탈락 직후... 증인으로는 홍 전 감독을 비롯해 정몽규 전 축구협회장, 이임생 전 협회 기술총괄이사 등이 채택됐다....",
     "url": "https://www.hankyung.com/article/2026070962571",
     "originalUrl": "https://www.hankyung.com/article/2026070962571",
     "publisher": "hankyung.com",
@@ -4645,7 +4645,9 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
-      "박지성",
+      "축구협회장",
+      "정몽규",
+      "이임생",
       "해명"
     ],
     "discoveryQueries": [
@@ -4653,14 +4655,17 @@
       "\"이임생\" 해명",
       "\"정몽규\" 해명"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [
       "person_hong_myung_bo",
-      "person_park_ji_sung"
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"

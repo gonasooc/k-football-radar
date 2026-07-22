@@ -298,15 +298,19 @@
     "id": "item_db0134381a0c118f",
     "type": "news",
     "title": "소통 단절·무능, '졸속 행정'의 반복...한국 축구 퇴보시키는 대한축구...",
-    "summary": "이런 상황에서 청문회까지 진행이 될 예정이며 정 회장과 홍 감독, 이임생 등은 증인으로 채택이 됐다. 한국 축구 의 컨트롤 타워 역할을 해야 하는 축구협회 의 소통 단절과 졸속 행정의 반복. 축구협회 와 관련된 이슈가...",
+    "summary": "대한축구협회 의 반복되는 졸속 행정이 한국 축구 를 퇴보시키고 있다. 한국은 2026 북중미 월드컵 조별리그... 감독 선임을 주도하는 국가대표전력강화위회의 정해성 전 위원장이 돌연 사퇴를 하자 권한이 없던 이임생 전...",
     "url": "https://www.mydaily.co.kr/page/view/2026071716533269223",
     "originalUrl": "https://www.mydaily.co.kr/page/view/2026071716533269223",
     "publisher": "mydaily.co.kr",
     "publishedAt": "2026-07-17T23:00:00.000Z",
     "collectedAt": "2026-07-17T23:35:22.983Z",
     "matchedKeywords": [
-      "축구협회",
-      "이임생"
+      "대한축구협회",
+      "감독 선임",
+      "감독",
+      "선임",
+      "이임생",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -323,13 +327,15 @@
       "축구협회 감독 후보",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "coach-appointment"
+    ],
     "personTags": [
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 15,
     "labels": [
       "인물 언급"
     ]
@@ -530,7 +536,7 @@
     "id": "item_3d7b18f97cb3a6a0",
     "type": "news",
     "title": "박지성 혁신위는 선거제도 개편, 이천수는 내부 인사 겨냥...\"얼굴만 바...",
-    "summary": "K- 축구 혁신위원회가 대한 축구협회 장 선거 제도 개편을 논의하고 있는 가운데 이천수는 변화의 범위를 협회 ... 홍명보 전 감독을 선임하는 과정에서 이임생 전 기술총괄이사가 책임의 중심에 섰지만 개인 한 명에게만 모든...",
+    "summary": "K-축구혁신위원회가 대한축구협회장 선거 제도 개편을 논의하고 있는 가운데 이천수는 변화의 범위를 협회... 홍명보 전 감독을 선임하는 과정에서 이임생 전 기술총괄이사가 책임의 중심에 섰지만 개인 한 명에게만 모든...",
     "url": "http://www.osen.co.kr/article/G1112841292",
     "originalUrl": "http://www.osen.co.kr/article/G1112841292",
     "publisher": "osen.co.kr",
@@ -539,9 +545,13 @@
     "matchedKeywords": [
       "제도 개편",
       "박지성",
-      "대한 축구협회",
+      "대한축구협회",
+      "K-축구혁신위원회",
+      "축구협회장",
+      "회장 선거",
+      "대한축구협회장",
+      "축구혁신위",
       "혁신위원회",
-      "축구 혁신",
       "감독",
       "선임",
       "홍명보",
@@ -582,6 +592,7 @@
     ],
     "issueTags": [
       "statute-revision",
+      "election",
       "innovation-committee",
       "coach-appointment"
     ],
@@ -592,7 +603,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 46,
     "labels": [
       "인물 언급"
     ]
