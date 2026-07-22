@@ -2,6 +2,10 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { describe, it } from "node:test";
 
+const itemCardSource = readFileSync(
+  new URL("../components/ItemCard.tsx", import.meta.url),
+  "utf8"
+);
 const cardSource = readFileSync(
   new URL("../components/YouTubeCard.tsx", import.meta.url),
   "utf8"
@@ -56,6 +60,13 @@ describe("YouTube feed UI", () => {
     assert.match(cardSource, /대표 영상/);
     assert.match(feedClientSource, /영상 주제/);
     assert.match(feedClientSource, /영상 \{results\.totalItems\}건/);
+  });
+
+  it("lets the compact representative card share its group height with the ledger", () => {
+    // A full-height representative pushes the related ledger outside the
+    // group wrapper, so compact cards only stretch when they stand alone.
+    assert.match(cardSource, /representative \? "" : "h-full"/);
+    assert.match(itemCardSource, /representative \? "" : "h-full"/);
   });
 
   it("reuses the same six-item section composition for home news and video previews", () => {

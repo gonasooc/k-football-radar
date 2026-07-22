@@ -151,7 +151,11 @@ export function YouTubeCard({
 
   if (variant === "compact") {
     return (
-      <article className="radar-list-item editorial-hover flex h-full flex-col border-t border-line px-2 py-5 first:border-t-rule sm:px-3 lg:border-t-rule lg:px-5">
+      <article
+        className={`radar-list-item editorial-hover flex flex-col border-t border-line px-2 py-5 first:border-t-rule sm:px-3 lg:border-t-rule lg:px-5 ${
+          representative ? "" : "h-full"
+        }`}
+      >
         <VideoThumbnail item={item} sizes="(min-width: 1024px) 30vw, 100vw" />
         <div className="mt-4 flex flex-1">{content}</div>
       </article>
