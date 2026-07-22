@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import containerQueries from "@tailwindcss/container-queries";
 import forms from "@tailwindcss/forms";
 
 // Colors are driven by CSS custom properties (see app/globals.css) so the whole
@@ -55,7 +56,7 @@ const config: Config = {
       }
     }
   },
-  plugins: [forms]
+  plugins: [containerQueries, forms]
 };
 
 export default config;

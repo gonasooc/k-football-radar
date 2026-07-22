@@ -87,9 +87,9 @@ export function StoryFeedEntryCard({
         <div className="ml-1 border-l-2 border-line pl-3 sm:ml-2 sm:pl-4">
           <ul className="divide-y divide-line" id={relatedLedgerId}>
             {visibleRelated.map((item, index) => (
-              <li key={item.id}>
+              <li className="@container" key={item.id}>
                 <a
-                  className="group focus-ring motion-soft grid min-h-11 items-center gap-x-3 gap-y-0.5 px-2 py-2 text-sm hover:bg-paper sm:grid-cols-[minmax(0,1fr)_auto]"
+                  className="group focus-ring motion-soft grid min-h-11 items-center gap-x-3 gap-y-0.5 px-2 py-2 text-sm hover:bg-paper @md:grid-cols-[minmax(0,1fr)_auto]"
                   href={item.url}
                   ref={index === RELATED_PREVIEW_COUNT ? firstExpandedNewsRef : undefined}
                   rel="noreferrer"
@@ -107,7 +107,9 @@ export function StoryFeedEntryCard({
                     <span>
                       <HighlightedText query={highlightQuery} text={item.publisher} />
                     </span>
-                    <span aria-hidden="true">·</span>
+                    <span aria-hidden="true" className="hidden @md:inline">
+                      ·
+                    </span>
                     <time className="metric-tabular" dateTime={item.publishedAt}>
                       {formatDate(item.publishedAt)}
                     </time>
