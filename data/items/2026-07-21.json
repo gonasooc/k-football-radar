@@ -638,6 +638,49 @@
     ]
   },
   {
+    "id": "item_f6107402857bd83d",
+    "type": "news",
+    "title": "'25억→225억 대폭등' 최용수 감독 재테크 미쳤다!…서울 강남구 소유 빌...",
+    "summary": "홍명보 감독 사임 후 대한 축구협회 가 차기 정식 감독 선임 에 앞서 일정 기간 대표팀을 이끌 임시 사령탑을 선택할 가능성이 제기되고 있는 가운데, 국내 지도자들이 후보군으로 거론되고 있는 건 지극히 현실적이다....",
+    "url": "https://www.xportsnews.com/article/2174463",
+    "originalUrl": "https://www.xportsnews.com/article/2174463",
+    "publisher": "xportsnews.com",
+    "publishedAt": "2026-07-21T11:24:00.000Z",
+    "collectedAt": "2026-07-22T01:07:14.254Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독 선임",
+      "감독",
+      "사령탑",
+      "선임",
+      "후보",
+      "차기",
+      "거론",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_40b12a1a4c45c85f",
     "type": "news",
     "title": "'한국 축구 망했다' 구자철, 낡은 축구인들에 직격탄 \"기득권 누리셔라...",
@@ -1417,6 +1460,37 @@
     "labels": [
       "인물 언급"
     ]
+  },
+  {
+    "id": "item_7b02f11b5df01011",
+    "type": "news",
+    "title": "‘100분 토론’ 벼랑 끝 한국 축구, 재건 어떻게?",
+    "summary": "감독 선임 과정의 공정성 훼손과 견제 장치 부재 등 구조적 개선이 시급하다는 지적과 함께 체질 개선을 위한 ‘ K-축구 혁신위원회 ’가 출범했다. 이에 MBC ‘100분 토론’은 오늘(21일) 밤 11시 20분 ‘퇴장 위기’ 한국...",
+    "url": "https://www.bntnews.co.kr/article/view/bnt202607210258",
+    "originalUrl": "https://www.bntnews.co.kr/article/view/bnt202607210258",
+    "publisher": "bntnews.co.kr",
+    "publishedAt": "2026-07-21T08:46:00.000Z",
+    "collectedAt": "2026-07-22T01:07:14.254Z",
+    "matchedKeywords": [
+      "혁신위원회",
+      "축구 혁신"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독 선임",
+      "축구 혁신",
+      "축구협회 감독 선임",
+      "축구협회 혁신위원회",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 4,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_01d517159f0dab52",
@@ -2564,7 +2638,7 @@
     "id": "item_995cf2d2232b0803",
     "type": "news",
     "title": "국회 문체위, 축구협회 청문회 30일로 연기…운영·감독 선임 과정 점검",
-    "summary": "민주신문=정영훈 기자｜국회 문화체육관광위가 대한 축구협회 운영 실태 및 국가대표팀 감독 선임 절차 등을 점검하기 위한 청문회를 오는 30일 실시한다. 문체위는 22일 전체회의를 열고 축구협회 청문회 실시계획서...",
+    "summary": "정몽규 전 대한 축구협회 장과 홍명보 전 국가대표팀 감독, 이임생 전 협회 기술총괄이사 등 13명이 증인으로 채택됐다. 박지성 K- 축구 혁신위원회 공동위원장과 유승민 대한체육회장 등 10명은 참고인 명단에 포함됐다....",
     "url": "http://www.iminju.net/news/articleView.html?idxno=166911",
     "originalUrl": "http://www.iminju.net/news/articleView.html?idxno=166911",
     "publisher": "iminju.net",
@@ -2573,10 +2647,12 @@
     "matchedKeywords": [
       "축구협회",
       "대한 축구협회",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "선임"
+      "혁신위원회",
+      "축구 혁신",
+      "정몽규",
+      "홍명보",
+      "박지성",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2598,13 +2674,20 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "coach-appointment"
+      "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo",
+      "person_park_ji_sung",
+      "person_lee_im_saeng"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
-    "labels": []
+    "relevanceScore": 32,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_5bd4aa6e0933a859",
@@ -3458,14 +3541,14 @@
     "id": "item_0aa601ed1a5e352f",
     "type": "news",
     "title": "與문체위, 축구協 청문회 30일 개최…\"여야 힘모으길 기대\"",
-    "summary": "문체위는 청문회 증인으로 정몽규 전 대한 축구협회 장, 홍명보 전 축구 대표팀 감독 등 15인을 채택했다. 참고인은 박지성 케이(K)- 축구 혁신위원회 공동위원장, 유승민 대한체육회장 등 8인이다.",
+    "summary": "문체위는 청문회 증인으로 정몽규 전 대한축구협회 장, 홍명보 전 축구 대표팀 감독 등 15인을 채택했다. 참고인은 박지성 케이(K)- 축구 혁신위원회 공동위원장, 유승민 대한 체육회장 등 8인이다.",
     "url": "https://www.yna.co.kr/view/AKR20260721148600001?input=1195m",
     "originalUrl": "https://www.yna.co.kr/view/AKR20260721148600001?input=1195m",
     "publisher": "yna.co.kr",
     "publishedAt": "2026-07-21T07:16:00.000Z",
     "collectedAt": "2026-07-21T10:49:19.528Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "혁신위원회",
       "축구 혁신",
       "정몽규",
