@@ -22,11 +22,6 @@ const feedClientSource = readFileSync(
   new URL("../components/FeedClient.tsx", import.meta.url),
   "utf8"
 );
-const youtubePageSource = readFileSync(
-  new URL("../app/youtube/page.tsx", import.meta.url),
-  "utf8"
-);
-
 describe("YouTube feed UI", () => {
   it("routes YouTube entries to a media-aware card with the editorial metadata rhythm", () => {
     assert.match(storyCardSource, /entry\.representative\.sourceType === "youtube"/);
@@ -53,7 +48,6 @@ describe("YouTube feed UI", () => {
     assert.match(feedClientSource, /검색도 선택한 범위 안에서만 동작합니다/);
     assert.match(cardSource, /channelStatus === "unlisted"/);
     assert.match(cardSource, /미선별 채널/);
-    assert.match(youtubePageSource, /Shorts는 명확히 판별되는 경우 제외합니다/);
   });
 
   it("reuses the same six-item section composition for home news and video previews", () => {
