@@ -614,10 +614,12 @@ export function FeedClient({
               ) : null}
               {hasSearchQuery ? <span className="text-muted"> · </span> : null}
               <span className="text-ink">
-                {results.totalEntries}개 {mode === "youtube" ? "영상" : "주제·자료"}
+                {results.totalEntries}개 {mode === "youtube" ? "영상 주제" : "주제·자료"}
               </span>
               {mode === "news" ? (
                 <span className="text-muted"> · 원문 {results.totalItems}건</span>
+              ) : mode === "youtube" ? (
+                <span className="text-muted"> · 영상 {results.totalItems}건</span>
               ) : null}
               <span className="text-muted"> · {results.entries.length}개 표시</span>
             </>

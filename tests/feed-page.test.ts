@@ -199,6 +199,42 @@ describe("feed pagination", () => {
     assert.equal(page.entries.find((entry) => entry.id === official.id)?.itemCount, 1);
   });
 
+  it("groups clustered videos into one entry with related videos", () => {
+    const video = (index: number, title: string) =>
+      item(index, {
+        sourceType: "youtube",
+        title,
+        publisher: `채널 ${index}`,
+        youtube: {
+          videoId: `video-${index}`,
+          channelId: `channel-${index}`,
+          thumbnail: {
+            url: `https://i.ytimg.com/vi/video-${index}/hqdefault.jpg`,
+            width: 480,
+            height: 360
+          },
+          durationSeconds: 600
+        }
+      });
+    const original = video(1, "축구협회 청문회 연기 브리핑");
+    const reAir = video(2, "축구협회 청문회 연기 브리핑 재방영");
+    const page = getFeedPage([original, reAir], defaultFeedFilters, {
+      storyClusters: clusters([
+        { id: "story-video", memberIds: [original.id, reAir.id] }
+      ])
+    });
+
+    assert.equal(page.totalEntries, 1);
+    assert.equal(page.entries[0]?.id, "story-video");
+    assert.equal(page.entries[0]?.itemCount, 2);
+    assert.equal(page.entries[0]?.related.length, 1);
+    assert.ok(
+      page.entries[0]?.related.every(
+        (related) => related.id !== page.entries[0]?.representative.id
+      )
+    );
+  });
+
   it("rejects unbounded or malformed pagination inputs", () => {
     const items = Array.from({ length: 150 }, (_, index) => item(index));
     const page = getFeedPage(items, defaultFeedFilters, {

@@ -50,6 +50,14 @@ describe("YouTube feed UI", () => {
     assert.match(cardSource, /미선별 채널/);
   });
 
+  it("groups related videos in the shared ledger under a representative video card", () => {
+    assert.match(storyCardSource, /isYouTubeEntry \? "관련 영상" : "관련 기사"/);
+    assert.match(cardSource, /representative \? \(/);
+    assert.match(cardSource, /대표 영상/);
+    assert.match(feedClientSource, /영상 주제/);
+    assert.match(feedClientSource, /영상 \{results\.totalItems\}건/);
+  });
+
   it("reuses the same six-item section composition for home news and video previews", () => {
     assert.match(homeSectionSource, /page\.entries\.slice\(0, 3\)/);
     assert.match(homeSectionSource, /page\.entries\.slice\(3, 6\)/);

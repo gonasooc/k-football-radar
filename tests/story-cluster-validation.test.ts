@@ -27,6 +27,25 @@ function item(id: string, override: Partial<RadarItem> = {}): RadarItem {
   };
 }
 
+function youtubeItem(id: string, override: Partial<RadarItem> = {}): RadarItem {
+  return {
+    ...item(id, override),
+    type: "youtube",
+    sourceType: "youtube",
+    publisher: override.publisher ?? "테스트채널",
+    youtube: {
+      videoId: `video-${id}`,
+      channelId: `channel-${id}`,
+      thumbnail: {
+        url: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+        width: 480,
+        height: 360
+      },
+      durationSeconds: 600
+    }
+  };
+}
+
 describe("story cluster validation", () => {
   it("accepts a deterministically rebuilt cluster file", () => {
     const items = [
@@ -86,7 +105,7 @@ describe("story cluster validation", () => {
     };
     assert.throws(
       () => validateStoryClusters([official, news], officialCluster),
-      /Non-news item/
+      /Official item/
     );
 
     const items = [
@@ -161,6 +180,67 @@ describe("story cluster validation", () => {
     assert.throws(
       () => validateStoryClusters(chain, transitiveCluster),
       /complete-link similarity/
+    );
+  });
+
+  it("accepts a rebuilt YouTube cluster with the 72-hour video window", () => {
+    const videos = [
+      youtubeItem("video-a", { publisher: "채널 A" }),
+      youtubeItem("video-b", {
+        publisher: "채널 B",
+        publishedAt: "2026-07-18T20:00:00.000Z"
+      })
+    ];
+    const clusters = buildStoryClusters(videos);
+
+    assert.deepEqual(clusters.clusters[0]?.memberIds, ["video-a", "video-b"]);
+    assert.doesNotThrow(() => validateStoryClusters(videos, clusters));
+  });
+
+  it("rejects clusters that mix news and video items", () => {
+    const news = item("news");
+    const video = youtubeItem("video", {
+      publishedAt: "2026-07-16T01:00:00.000Z"
+    });
+    const mixedCluster: StoryClusterFile = {
+      version: 1,
+      clusters: [
+        {
+          id: getStoryClusterId("news"),
+          seedItemId: "news",
+          memberIds: ["news", "video"]
+        }
+      ]
+    };
+
+    assert.throws(
+      () => validateStoryClusters([news, video], mixedCluster),
+      /mixes item types/
+    );
+  });
+
+  it("rejects video pairs published more than 72 hours apart", () => {
+    const videos = [
+      youtubeItem("video-a", { publisher: "채널 A" }),
+      youtubeItem("video-b", {
+        publisher: "채널 B",
+        publishedAt: "2026-07-19T00:00:00.001Z"
+      })
+    ];
+    const distantCluster: StoryClusterFile = {
+      version: 1,
+      clusters: [
+        {
+          id: getStoryClusterId("video-a"),
+          seedItemId: "video-a",
+          memberIds: ["video-a", "video-b"]
+        }
+      ]
+    };
+
+    assert.throws(
+      () => validateStoryClusters(videos, distantCluster),
+      /72-hour window/
     );
   });
 });

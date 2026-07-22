@@ -10,10 +10,13 @@ import type {
 import {
   EMPTY_STORY_CLUSTER_FILE,
   STORY_CLUSTER_WINDOW_MS,
+  STORY_YOUTUBE_CLUSTER_WINDOW_MS,
   createStoryFactAnchorModel,
   getStoryClusterId,
+  getYouTubeStoryText,
   isBurstStoryPairMatch,
-  isStoryPairMatch
+  isStoryPairMatch,
+  isYouTubeStoryPairMatch
 } from "./story-clusters";
 import { createStorySimilarityModel } from "./story-similarity";
 
@@ -146,6 +149,9 @@ export function validateStoryClusters(
   const newsItems = items.filter((item) => item.type === "news");
   const similarityModel = createStorySimilarityModel(newsItems);
   const factAnchorModel = createStoryFactAnchorModel(newsItems);
+  const youtubeSimilarityModel = createStorySimilarityModel(
+    items.filter((item) => item.type === "youtube").map(getYouTubeStoryText)
+  );
   const assignedItemIds = new Set<string>();
 
   for (const cluster of storyClusters.clusters) {
@@ -169,8 +175,8 @@ export function validateStoryClusters(
       if (!item) {
         throw new Error(`Unknown story cluster member "${memberId}" in ${cluster.id}`);
       }
-      if (item.type !== "news") {
-        throw new Error(`Non-news item "${memberId}" cannot belong to a story cluster`);
+      if (item.type === "official") {
+        throw new Error(`Official item "${memberId}" cannot belong to a story cluster`);
       }
       if (assignedItemIds.has(memberId)) {
         throw new Error(`Story cluster member "${memberId}" is assigned more than once`);
@@ -178,6 +184,11 @@ export function validateStoryClusters(
       assignedItemIds.add(memberId);
       return item;
     });
+
+    const clusterType = members[0]!.type;
+    if (members.some((member) => member.type !== clusterType)) {
+      throw new Error(`Story cluster ${cluster.id} mixes item types`);
+    }
 
     const chronologicalMembers = [...members].sort(compareItemsChronologically);
     if (chronologicalMembers[0]?.id !== cluster.seedItemId) {
@@ -191,6 +202,11 @@ export function validateStoryClusters(
       throw new Error(`Story cluster ${cluster.id} members are not chronological`);
     }
 
+    const windowMs =
+      clusterType === "youtube"
+        ? STORY_YOUTUBE_CLUSTER_WINDOW_MS
+        : STORY_CLUSTER_WINDOW_MS;
+    const windowHours = Math.round(windowMs / (60 * 60 * 1_000));
     for (let leftIndex = 0; leftIndex < members.length; leftIndex += 1) {
       for (let rightIndex = leftIndex + 1; rightIndex < members.length; rightIndex += 1) {
         const left = members[leftIndex];
@@ -198,13 +214,17 @@ export function validateStoryClusters(
         const publishedDistance = Math.abs(
           Date.parse(left.publishedAt) - Date.parse(right.publishedAt)
         );
-        if (publishedDistance > STORY_CLUSTER_WINDOW_MS) {
-          throw new Error(`Story cluster ${cluster.id} exceeds the 36-hour window`);
+        if (publishedDistance > windowMs) {
+          throw new Error(
+            `Story cluster ${cluster.id} exceeds the ${windowHours}-hour window`
+          );
         }
-        if (
-          !isStoryPairMatch(left, right, similarityModel) &&
-          !isBurstStoryPairMatch(left, right, factAnchorModel)
-        ) {
+        const isPairValid =
+          clusterType === "youtube"
+            ? isYouTubeStoryPairMatch(left, right, youtubeSimilarityModel)
+            : isStoryPairMatch(left, right, similarityModel) ||
+              isBurstStoryPairMatch(left, right, factAnchorModel);
+        if (!isPairValid) {
           throw new Error(`Story cluster ${cluster.id} violates complete-link similarity`);
         }
       }

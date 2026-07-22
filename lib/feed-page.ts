@@ -196,7 +196,7 @@ function createVisibleStoryGroups(
     const members: FeedItem[] = [];
     for (const memberId of cluster.memberIds) {
       const member = visibleById.get(memberId);
-      if (!member || member.sourceType !== "news" || assignedIds.has(member.id)) {
+      if (!member || member.sourceType === "official" || assignedIds.has(member.id)) {
         continue;
       }
       members.push(member);
@@ -277,11 +277,23 @@ export function getFeedPage(
     limit: rawLimit
   });
   const filteredItems = filterItems(items, filters);
-  const similarityModel = createStorySimilarityModel(
+  // Per-type models keep the news IDF corpus stable when videos are present;
+  // both rank representatives only, so raw title/summary text is enough.
+  const newsSimilarityModel = createStorySimilarityModel(
     items.filter((item) => item.sourceType === "news")
   );
+  const youtubeSimilarityModel = createStorySimilarityModel(
+    items.filter((item) => item.sourceType === "youtube")
+  );
   const entries = createVisibleStoryGroups(filteredItems, storyClusters)
-    .map((group) => toStoryFeedEntry(group, similarityModel))
+    .map((group) =>
+      toStoryFeedEntry(
+        group,
+        group.members[0]!.sourceType === "youtube"
+          ? youtubeSimilarityModel
+          : newsSimilarityModel
+      )
+    )
     .sort(filters.sort === "relevance" ? compareEntriesByRelevance : compareEntriesByLatest);
   const pageEntries = entries.slice(offset, offset + limit);
 

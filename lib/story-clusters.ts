@@ -1,10 +1,12 @@
 import { createHash } from "node:crypto";
 
+import { joinSummaryAndTags } from "./classify";
 import type { RadarItem, StoryClusterFile } from "./schema";
 import {
   createStorySimilarityModel,
   normalizeStoryText,
-  type StorySimilarityModel
+  type StorySimilarityModel,
+  type StoryTextFields
 } from "./story-similarity";
 
 export const STORY_CLUSTER_VERSION = 1 as const;
@@ -13,6 +15,12 @@ export const STORY_STRONG_TITLE_SIMILARITY = 0.65;
 export const STORY_EXACT_TITLE_MIN_LENGTH = 10;
 export const STORY_FACT_ANCHOR_MIN_ITEMS = 3;
 export const STORY_FACT_ANCHOR_MAX_ITEMS = 30;
+// Videos about one event spread wider than news: re-airs land the next morning
+// and commentary channels lag one to three days behind the broadcast.
+export const STORY_YOUTUBE_CLUSTER_WINDOW_MS = 72 * 60 * 60 * 1_000;
+export const STORY_YOUTUBE_STRONG_TITLE_SIMILARITY = 0.55;
+export const STORY_YOUTUBE_TITLE_SIMILARITY = 0.35;
+export const STORY_YOUTUBE_CONTENT_SIMILARITY = 0.3;
 export const EMPTY_STORY_CLUSTER_FILE: StoryClusterFile = {
   version: STORY_CLUSTER_VERSION,
   clusters: []
@@ -34,6 +42,7 @@ export type StoryClusterItem = Pick<
   | "publishedAt"
   | "issueTags"
   | "personTags"
+  | "youtube"
 >;
 
 export type StoryFactAnchorModel = {
@@ -198,6 +207,62 @@ export function isStoryPairMatch(
   );
 }
 
+/**
+ * Video descriptions are often bare hashtags while the governance signal lives
+ * in the publisher tags, so similarity compares the same joined text the
+ * classifier scores.
+ */
+export function getYouTubeStoryText(
+  item: Pick<StoryClusterItem, "title" | "summary" | "youtube">
+): StoryTextFields {
+  return {
+    title: item.title,
+    summary: joinSummaryAndTags(item.summary, item.youtube?.tags)
+  };
+}
+
+export function isYouTubeStoryPairMatch(
+  left: StoryClusterItem,
+  right: StoryClusterItem,
+  similarityModel: StorySimilarityModel
+): boolean {
+  if (left.type !== "youtube" || right.type !== "youtube") {
+    return false;
+  }
+
+  const publishedDistance = Math.abs(
+    Date.parse(left.publishedAt) - Date.parse(right.publishedAt)
+  );
+  if (
+    !Number.isFinite(publishedDistance) ||
+    publishedDistance > STORY_YOUTUBE_CLUSTER_WINDOW_MS
+  ) {
+    return false;
+  }
+
+  // Cross-channel identical titles are the syndication/re-air case, so no
+  // publisher requirement; channel branding is down-weighted by the IDF model.
+  const normalizedLeftTitle = normalizeStoryText(left.title);
+  if (
+    normalizedLeftTitle.length > 0 &&
+    normalizedLeftTitle === normalizeStoryText(right.title)
+  ) {
+    return true;
+  }
+
+  const similarity = similarityModel.compare(
+    getYouTubeStoryText(left),
+    getYouTubeStoryText(right)
+  );
+  return (
+    (similarity.title >= STORY_YOUTUBE_STRONG_TITLE_SIMILARITY &&
+      hasSharedTag(left, right)) ||
+    (similarity.title >= STORY_YOUTUBE_TITLE_SIMILARITY &&
+      similarity.summary >= STORY_YOUTUBE_CONTENT_SIMILARITY &&
+      hasSharedTag(left, right))
+  );
+}
+
 type WorkingCluster = {
   seed: StoryClusterItem;
   members: StoryClusterItem[];
@@ -259,24 +324,16 @@ function buildBurstAnchorClusters(
   return { assignedIds, clusters };
 }
 
-/**
- * Rebuilds all story relationships from scratch. A candidate must match every
- * member, preventing transitive A-B-C chains from collapsing unrelated events.
- */
-export function buildStoryClusters(items: readonly StoryClusterItem[]): StoryClusterFile {
-  const newsItems = items
-    .filter((item) => item.type === "news")
-    .sort(compareChronologically);
-  const similarityModel = createStorySimilarityModel(newsItems);
-  const factAnchorModel = createStoryFactAnchorModel(newsItems);
-  const {
-    assignedIds,
-    clusters: burstAnchorClusters
-  } = buildBurstAnchorClusters(newsItems, factAnchorModel);
+function buildGreedyCompleteLinkClusters(
+  items: readonly StoryClusterItem[],
+  skipIds: ReadonlySet<string>,
+  isPair: (left: StoryClusterItem, right: StoryClusterItem) => boolean,
+  combinedSimilarity: (left: StoryClusterItem, right: StoryClusterItem) => number
+): WorkingCluster[] {
   const workingClusters: WorkingCluster[] = [];
 
-  for (const item of newsItems) {
-    if (assignedIds.has(item.id)) {
+  for (const item of items) {
+    if (skipIds.has(item.id)) {
       continue;
     }
 
@@ -284,17 +341,13 @@ export function buildStoryClusters(items: readonly StoryClusterItem[]): StoryClu
     let selectedScore = -1;
 
     for (const cluster of workingClusters) {
-      if (
-        !cluster.members.every((member) =>
-          isStoryPairMatch(item, member, similarityModel)
-        )
-      ) {
+      if (!cluster.members.every((member) => isPair(item, member))) {
         continue;
       }
 
       const averageSimilarity =
         cluster.members.reduce(
-          (total, member) => total + similarityModel.compare(item, member).combined,
+          (total, member) => total + combinedSimilarity(item, member),
           0
         ) / cluster.members.length;
       if (
@@ -315,9 +368,51 @@ export function buildStoryClusters(items: readonly StoryClusterItem[]): StoryClu
     }
   }
 
+  return workingClusters;
+}
+
+/**
+ * Rebuilds all story relationships from scratch. A candidate must match every
+ * member, preventing transitive A-B-C chains from collapsing unrelated events.
+ * News and YouTube items cluster separately with type-specific rules.
+ */
+export function buildStoryClusters(items: readonly StoryClusterItem[]): StoryClusterFile {
+  const newsItems = items
+    .filter((item) => item.type === "news")
+    .sort(compareChronologically);
+  const similarityModel = createStorySimilarityModel(newsItems);
+  const factAnchorModel = createStoryFactAnchorModel(newsItems);
+  const {
+    assignedIds,
+    clusters: burstAnchorClusters
+  } = buildBurstAnchorClusters(newsItems, factAnchorModel);
+  const newsClusters = buildGreedyCompleteLinkClusters(
+    newsItems,
+    assignedIds,
+    (left, right) => isStoryPairMatch(left, right, similarityModel),
+    (left, right) => similarityModel.compare(left, right).combined
+  );
+
+  const youtubeItems = items
+    .filter((item) => item.type === "youtube")
+    .sort(compareChronologically);
+  const youtubeSimilarityModel = createStorySimilarityModel(
+    youtubeItems.map(getYouTubeStoryText)
+  );
+  const youtubeClusters = buildGreedyCompleteLinkClusters(
+    youtubeItems,
+    new Set(),
+    (left, right) => isYouTubeStoryPairMatch(left, right, youtubeSimilarityModel),
+    (left, right) =>
+      youtubeSimilarityModel.compare(
+        getYouTubeStoryText(left),
+        getYouTubeStoryText(right)
+      ).combined
+  );
+
   return {
     version: STORY_CLUSTER_VERSION,
-    clusters: [...burstAnchorClusters, ...workingClusters]
+    clusters: [...burstAnchorClusters, ...newsClusters, ...youtubeClusters]
       .filter((cluster) => cluster.members.length >= 2)
       .sort((left, right) => compareChronologically(left.seed, right.seed))
       .map((cluster) => ({

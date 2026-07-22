@@ -15,6 +15,7 @@ type YouTubeCardProps = {
   highlightQuery?: string;
   issues: Issue[];
   people: Person[];
+  representative?: boolean;
   variant?: "row" | "compact";
 };
 
@@ -75,6 +76,7 @@ export function YouTubeCard({
   highlightQuery = "",
   issues,
   people,
+  representative = false,
   variant = "row"
 }: YouTubeCardProps) {
   const issueMap = new Map(issues.map((issue) => [issue.id, issue]));
@@ -93,6 +95,9 @@ export function YouTubeCard({
 
   const metadata = (
     <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs font-semibold text-muted">
+      {representative ? (
+        <span className="font-black text-ink-soft">대표 영상</span>
+      ) : null}
       <SourceBadge item={item} />
       {item.youtube?.channelStatus === "unlisted" ? (
         <span className="text-ink-soft">미선별 채널</span>

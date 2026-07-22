@@ -31,6 +31,8 @@ export function StoryFeedEntryCard({
   const [showAllRelated, setShowAllRelated] = useState(false);
   const shouldFocusExpandedNews = useRef(false);
   const firstExpandedNewsRef = useRef<HTMLAnchorElement>(null);
+  const isYouTubeEntry = entry.representative.sourceType === "youtube";
+  const relatedNoun = isYouTubeEntry ? "관련 영상" : "관련 기사";
   const hasRelatedNews = entry.related.length > 0;
   const visibleRelated = showAllRelated
     ? entry.related
@@ -44,8 +46,8 @@ export function StoryFeedEntryCard({
     shouldFocusExpandedNews.current = false;
   }, [showAllRelated]);
 
-  if (entry.representative.sourceType === "youtube") {
-    return (
+  if (!hasRelatedNews) {
+    return isYouTubeEntry ? (
       <YouTubeCard
         highlightQuery={highlightQuery}
         item={entry.representative}
@@ -53,11 +55,7 @@ export function StoryFeedEntryCard({
         people={people}
         variant={variant}
       />
-    );
-  }
-
-  if (!hasRelatedNews) {
-    return (
+    ) : (
       <ItemCard
         highlightQuery={highlightQuery}
         item={entry.representative}
@@ -70,18 +68,29 @@ export function StoryFeedEntryCard({
 
   return (
     <div
-      aria-label={`${entry.representative.title} 관련 기사 묶음`}
+      aria-label={`${entry.representative.title} ${relatedNoun} 묶음`}
       className={variant === "compact" ? "h-full" : undefined}
       role="group"
     >
-      <ItemCard
-        highlightQuery={highlightQuery}
-        item={entry.representative}
-        issues={issues}
-        people={people}
-        representative
-        variant={variant}
-      />
+      {isYouTubeEntry ? (
+        <YouTubeCard
+          highlightQuery={highlightQuery}
+          item={entry.representative}
+          issues={issues}
+          people={people}
+          representative
+          variant={variant}
+        />
+      ) : (
+        <ItemCard
+          highlightQuery={highlightQuery}
+          item={entry.representative}
+          issues={issues}
+          people={people}
+          representative
+          variant={variant}
+        />
+      )}
 
       <div className="mx-2 pb-3 sm:mx-3">
         <div className="ml-1 border-l-2 border-line pl-3 sm:ml-2 sm:pl-4">
@@ -101,7 +110,9 @@ export function StoryFeedEntryCard({
                       aria-hidden="true"
                       className="ml-1 inline size-3 -translate-y-px text-muted"
                     />
-                    <span className="sr-only">, 새 창에서 원문 열기</span>
+                    <span className="sr-only">
+                      , 새 창에서 {isYouTubeEntry ? "영상" : "원문"} 열기
+                    </span>
                   </span>
                   <span className="flex shrink-0 items-center gap-1.5 text-[11px] font-semibold text-muted">
                     <span>
@@ -125,8 +136,8 @@ export function StoryFeedEntryCard({
               aria-expanded={showAllRelated}
               aria-label={
                 showAllRelated
-                  ? `관련 기사 접기: ${entry.representative.title}`
-                  : `관련 기사 ${hiddenRelatedCount}건 더보기: ${entry.representative.title}`
+                  ? `${relatedNoun} 접기: ${entry.representative.title}`
+                  : `${relatedNoun} ${hiddenRelatedCount}건 더보기: ${entry.representative.title}`
               }
               className="focus-ring motion-soft mt-1 inline-flex min-h-11 w-full items-center justify-center gap-1.5 text-xs font-black text-ink-soft hover:bg-paper hover:text-accent"
               onClick={() => {

@@ -15,7 +15,7 @@ export async function rebuildStoryClusters(): Promise<
 async function run(): Promise<void> {
   const stats = await rebuildStoryClusters();
   console.log(
-    `Rebuilt story clusters: ${stats.clusterCount} clusters, ${stats.clusteredItemCount} clustered news, largest ${stats.largestClusterSize}`
+    `Rebuilt story clusters: ${stats.clusterCount} clusters, ${stats.clusteredItemCount} clustered items, largest ${stats.largestClusterSize}`
   );
 }
 

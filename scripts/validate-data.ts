@@ -70,7 +70,7 @@ async function validateData(): Promise<void> {
   const clusterStats = getStoryClusterStats(storyClusters);
 
   console.log(
-    `Data valid: ${items.length} items, ${issues.length} issues, ${people.length} people, ${sources.length} sources, ${enabledYouTubeQueryCount} YouTube queries, ${preferredYouTubeChannelCount} preferred and ${blockedYouTubeChannelCount} blocked YouTube channels, ${Object.keys(youtubeFormatCache.entries).length} cached video formats; ${clusterStats.clusterCount} story clusters, ${clusterStats.clusteredItemCount} clustered news, largest ${clusterStats.largestClusterSize}`
+    `Data valid: ${items.length} items, ${issues.length} issues, ${people.length} people, ${sources.length} sources, ${enabledYouTubeQueryCount} YouTube queries, ${preferredYouTubeChannelCount} preferred and ${blockedYouTubeChannelCount} blocked YouTube channels, ${Object.keys(youtubeFormatCache.entries).length} cached video formats; ${clusterStats.clusterCount} story clusters, ${clusterStats.clusteredItemCount} clustered items, largest ${clusterStats.largestClusterSize}`
   );
 }
 

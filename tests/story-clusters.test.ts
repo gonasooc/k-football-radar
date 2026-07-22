@@ -1,14 +1,16 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 
-import type { RadarItem } from "../lib/schema";
+import type { RadarItem, YouTubeMetadata } from "../lib/schema";
 import {
   buildStoryClusters,
   createStoryFactAnchorModel,
   extractStoryFactAnchors,
   getStoryClusterId,
+  getYouTubeStoryText,
   isBurstStoryPairMatch,
-  isStoryPairMatch
+  isStoryPairMatch,
+  isYouTubeStoryPairMatch
 } from "../lib/story-clusters";
 import {
   createStorySimilarityModel,
@@ -37,6 +39,31 @@ function item(
     isOfficial: false,
     relevanceScore: 50,
     ...override
+  };
+}
+
+function youtubeItem(
+  id: string,
+  override: Partial<Omit<RadarItem, "youtube">> & {
+    youtube?: Partial<YouTubeMetadata>;
+  } = {}
+): RadarItem {
+  const { youtube, ...rest } = override;
+  return {
+    ...item(id, rest),
+    type: "youtube",
+    sourceType: "youtube",
+    youtube: {
+      videoId: `video-${id}`,
+      channelId: `channel-${id}`,
+      thumbnail: {
+        url: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+        width: 480,
+        height: 360
+      },
+      durationSeconds: 600,
+      ...youtube
+    }
   };
 }
 
@@ -346,5 +373,134 @@ describe("story clustering", () => {
     });
 
     assert.deepEqual(buildStoryClusters([current, old, official]).clusters, []);
+  });
+});
+
+describe("YouTube story clustering", () => {
+  it("groups identical cross-channel titles without shared tags", () => {
+    const syndicated = [
+      youtubeItem("video-a", {
+        title: "\ucd95\uad6c\ud611\ud68c \uccad\ubb38\ud68c \uc5f0\uae30 \uacb0\uc815 \uad00\ub828 \ube0c\ub9ac\ud551",
+        summary: "\ubcf8\ubc29\uc1a1 \ub274\uc2a4 \ud074\ub9bd",
+        publisher: "\uc9c0\uc5ed\ubc29\uc1a1 A",
+        issueTags: []
+      }),
+      youtubeItem("video-b", {
+        title: "\ucd95\uad6c\ud611\ud68c \uccad\ubb38\ud68c \uc5f0\uae30 \uacb0\uc815 \uad00\ub828 \ube0c\ub9ac\ud551",
+        summary: "\ub2e4\uc74c\ub0a0 \uc544\uce68 \uc7ac\ubc29\uc601 \ud074\ub9bd",
+        publisher: "\uc9c0\uc5ed\ubc29\uc1a1 B",
+        issueTags: [],
+        publishedAt: "2026-07-16T13:00:00.000Z"
+      })
+    ];
+
+    assert.deepEqual(buildStoryClusters(syndicated).clusters[0]?.memberIds, [
+      "video-a",
+      "video-b"
+    ]);
+  });
+
+  it("compares tag-carried governance signal when descriptions are bare hashtags", () => {
+    const tagged = [
+      youtubeItem("tagged-a", {
+        title: "\ucd95\uad6c\ud611\ud68c \uccad\ubb38\ud68c \ucd1d\uc815\ub9ac \ub77c\uc774\ube0c",
+        summary: "#\uc1fc\uce20\uc544\ub2d8 #\ucd95\uad6c",
+        publisher: "\ucc44\ub110 A",
+        issueTags: ["hearing"],
+        youtube: { tags: ["\ub300\ud55c\ucd95\uad6c\ud611\ud68c", "\uccad\ubb38\ud68c", "\uc815\ubabd\uaddc"] }
+      }),
+      youtubeItem("tagged-b", {
+        title: "\ucd95\uad6c\ud611\ud68c \uccad\ubb38\ud68c \uad00\uc804 \ud3ec\uc778\ud2b8",
+        summary: "#\ucd95\uad6c #\uc774\uc288",
+        publisher: "\ucc44\ub110 B",
+        issueTags: ["hearing"],
+        publishedAt: "2026-07-17T00:00:00.000Z",
+        youtube: { tags: ["\ub300\ud55c\ucd95\uad6c\ud611\ud68c", "\uccad\ubb38\ud68c", "\uc815\ubabd\uaddc"] }
+      })
+    ];
+    const untagged = tagged.map((candidate) => ({
+      ...candidate,
+      youtube: { ...candidate.youtube!, tags: undefined }
+    }));
+    const taggedModel = createStorySimilarityModel(tagged.map(getYouTubeStoryText));
+    const untaggedModel = createStorySimilarityModel(untagged.map(getYouTubeStoryText));
+
+    assert.equal(
+      getYouTubeStoryText(tagged[0]).summary,
+      "#\uc1fc\uce20\uc544\ub2d8 #\ucd95\uad6c \ub300\ud55c\ucd95\uad6c\ud611\ud68c \uccad\ubb38\ud68c \uc815\ubabd\uaddc"
+    );
+    assert.equal(isYouTubeStoryPairMatch(tagged[0], tagged[1], taggedModel), true);
+    assert.equal(
+      isYouTubeStoryPairMatch(untagged[0], untagged[1], untaggedModel),
+      false
+    );
+    assert.deepEqual(buildStoryClusters(tagged).clusters[0]?.memberIds, [
+      "tagged-a",
+      "tagged-b"
+    ]);
+  });
+
+  it("uses the 72-hour video window instead of the 36-hour news window", () => {
+    const first = youtubeItem("window-a", {
+      title: "\uc644\uc804\ud788 \uac19\uc740 \uc601\uc0c1 \uc81c\ubaa9\uc758 \uc2ec\uce35 \ud574\uc124",
+      publisher: "\ucc44\ub110 A",
+      issueTags: []
+    });
+    const lateFollowUp = youtubeItem("window-b", {
+      title: first.title,
+      publisher: "\ucc44\ub110 B",
+      issueTags: [],
+      publishedAt: "2026-07-18T20:00:00.000Z"
+    });
+    const beyondWindow = youtubeItem("window-c", {
+      title: first.title,
+      publisher: "\ucc44\ub110 C",
+      issueTags: [],
+      publishedAt: "2026-07-19T00:00:00.001Z"
+    });
+
+    assert.deepEqual(
+      buildStoryClusters([first, lateFollowUp]).clusters[0]?.memberIds,
+      ["window-a", "window-b"]
+    );
+    assert.deepEqual(buildStoryClusters([first, beyondWindow]).clusters, []);
+  });
+
+  it("never merges news and videos even when titles match exactly", () => {
+    const news = item("news", { title: "\ucd95\uad6c\ud611\ud68c \uccad\ubb38\ud68c \uc5f0\uae30 \uacb0\uc815" });
+    const video = youtubeItem("video", {
+      title: news.title,
+      publishedAt: "2026-07-16T01:00:00.000Z"
+    });
+
+    assert.deepEqual(buildStoryClusters([news, video]).clusters, []);
+  });
+
+  it("keeps news clusters byte-identical when videos are added to the input", () => {
+    const newsItems = [
+      item("news-a", { title: "\ucd95\uad6c\ud611\ud68c \uccad\ubb38\ud68c \uc5f0\uae30 \ud655\uc815 \ubcf4\ub3c4", publisher: "news-a" }),
+      item("news-b", {
+        title: "\ucd95\uad6c\ud611\ud68c \uccad\ubb38\ud68c \uc5f0\uae30 \ud655\uc815 \ubcf4\ub3c4",
+        publisher: "news-b",
+        publishedAt: "2026-07-16T01:00:00.000Z"
+      })
+    ];
+    const videos = [
+      youtubeItem("video-a", { title: "\uccad\ubb38\ud68c \uc5f0\uae30 \ud574\uc124 \uc601\uc0c1", publisher: "\ucc44\ub110 A" }),
+      youtubeItem("video-b", {
+        title: "\uccad\ubb38\ud68c \uc5f0\uae30 \ud574\uc124 \uc601\uc0c1",
+        publisher: "\ucc44\ub110 B",
+        publishedAt: "2026-07-16T02:00:00.000Z"
+      })
+    ];
+    const newsOnly = buildStoryClusters(newsItems);
+    const combined = buildStoryClusters([...newsItems, ...videos]);
+    const newsSeedIds = new Set(newsItems.map((candidate) => candidate.id));
+
+    assert.deepEqual(
+      combined.clusters.filter((cluster) => newsSeedIds.has(cluster.seedItemId)),
+      newsOnly.clusters
+    );
+    assert.equal(combined.clusters.length, newsOnly.clusters.length + 1);
   });
 });
