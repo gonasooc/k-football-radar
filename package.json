@@ -17,6 +17,7 @@
     "collect:youtube": "node --import tsx scripts/collect-youtube.ts",
     "collect:youtube:local": "node --env-file=.env --import tsx scripts/collect-youtube.ts",
     "report:youtube-channels": "node --import tsx scripts/report-youtube-channels.ts",
+    "report:story-near-misses": "node --import tsx scripts/report-story-near-misses.ts",
     "reclassify:youtube": "node --import tsx scripts/reclassify-youtube.ts",
     "backfill:youtube-tags": "node --import tsx scripts/backfill-youtube-tags.ts",
     "backfill:youtube-tags:local": "node --env-file=.env --import tsx scripts/backfill-youtube-tags.ts",
