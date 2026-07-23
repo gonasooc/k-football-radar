@@ -5061,15 +5061,16 @@
     "id": "item_07c456932657c85f",
     "type": "news",
     "title": "직선제가 답? 10만 명 투표에만 70억, 신뢰 잃은 한국 축구의 씁쓸한 현...",
-    "summary": "대한 축구협회 회장 선출 방식을 직선제로 바꿔야 한다는 목소리가 커지고 있다. 2026 국제 축구 연맹(FIFA)... 축구 행정에 정통한 한 전문가는 \"등록 축구 인 전체인 10만 명가량에게 투표권 을 부여하는 완전 직선제를 실시할...",
+    "summary": "현재 대한축구협회 는 수백 명 규모의 선거인단이 회장을 선출하는 간선제를 운영하고 있다. 반면 직선제를 도입하려면 등록 선수와 지도자 , 심판 등 수만 명에 달하는 유권자를 관리해야 한다. 선거인 명부 작성과 검증...",
     "url": "http://www.osen.co.kr/article/G1112836581",
     "originalUrl": "http://www.osen.co.kr/article/G1112836581",
     "publisher": "osen.co.kr",
     "publishedAt": "2026-07-09T08:14:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "투표권"
+      "대한축구협회",
+      "선거인단",
+      "선거인"
     ],
     "discoveryQueries": [
       "대한축구협회 지도자 자격",
@@ -5084,9 +5085,11 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [
+      "선거 키워드 포함"
+    ]
   },
   {
     "id": "youtube__3dTFN9ubjU",
@@ -9372,7 +9375,7 @@
     "id": "item_196d648277667c51",
     "type": "news",
     "title": "[전문] 침묵 깬 홍명보 “청문회서 어떤 질문도 피하지 않을 것, 있는 그...",
-    "summary": "증인으로는 홍 감독과 정몽규 축구협회장, 이임생 전 축구협회 기술총괄이사, 이용수 협회 부회장, 정해성 전... 청문회에서는 2년 전 국정 감사 장에서도 제기된 협회의 감독 선임 절차 논란과 더불어 최근 월드컵 실패 이후...",
+    "summary": "전력강화위원장, 김승희 협회 전무이사, 최영일·박항서 전 협회 부회장 등이다. 참고인 명단엔 ‘케이-축구... 청문회에서는 2년 전 국정 감사 장에서도 제기된 협회의 감독 선임 절차 논란과 더불어 최근 월드컵 실패 이후...",
     "url": "https://www.sportsseoul.com/news/read/1621552?ref=naver",
     "originalUrl": "https://www.sportsseoul.com/news/read/1621552?ref=naver",
     "publisher": "sportsseoul.com",
@@ -9380,10 +9383,8 @@
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
       "홍명보",
-      "축구협회장",
       "부회장",
-      "정몽규",
-      "이임생",
+      "전무",
       "감사"
     ],
     "discoveryQueries": [
@@ -9391,17 +9392,14 @@
       "\"이용수\" 감사"
     ],
     "issueTags": [
-      "election",
       "kfa-executives"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_chung_mong_gyu",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 14,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
