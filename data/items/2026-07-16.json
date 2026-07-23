@@ -2767,7 +2767,7 @@
     "id": "item_3d5b05597172c95d",
     "type": "news",
     "title": "22일 예정이었던 축구협회 청문회 연기 \"7월 안엔 할 것\"",
-    "summary": "오는 22일 예정이었던 대한축구협회 청문회가 연기됐다. ⓒ연합뉴스 연합뉴스에 따르면 국회... 이번 청문회에는 정몽규 전 축구협회 장, 홍명보 전 대표팀 감독, 이임생 전 협회 기술총괄이사, 이용수 축구협회 부회장...",
+    "summary": "오는 22일 예정이었던 대한축구협회 청문회가 연기됐다. ⓒ연합뉴스 연합뉴스에 따르면 국회... 전 협회 기술총괄이사, 이용수 축구협회 부회장, 정해성 전 국가대표 전력강화위원장, 김승희 축구협회 전무이사, 최영일...",
     "url": "https://sports.hankooki.com/news/articleView.html?idxno=6936588",
     "originalUrl": "https://sports.hankooki.com/news/articleView.html?idxno=6936588",
     "publisher": "sports.hankooki.com",
@@ -2777,9 +2777,7 @@
       "축구협회",
       "대한축구협회",
       "부회장",
-      "정몽규",
-      "홍명보",
-      "이임생"
+      "전무"
     ],
     "discoveryQueries": [
       "\"김승희\" 대한축구협회",
@@ -2803,17 +2801,11 @@
     "issueTags": [
       "kfa-executives"
     ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
-    "labels": [
-      "인물 언급"
-    ]
+    "relevanceScore": 20,
+    "labels": []
   },
   {
     "id": "item_172d2d9fde605056",
@@ -7476,7 +7468,7 @@
     "id": "item_6449d9290278a5f0",
     "type": "news",
     "title": "대한축구협회 국회 청문회 22일 개최 연기 유력…여야 협상 여파에 7월...",
-    "summary": "대한축구협회 현안을 다룰 국회 문화체육관광위원회 청문회가 여야 원내 협상 여파로 연기될 가능성이... 증인 명단에는 정 전 회장과 홍 전 감독, 이임생 전 기술총괄이사를 비롯해 이용수 부회장, 정해성 전 국가대표...",
+    "summary": "부회장, 김병지 부회장 등 협회 전·현직 관계자 13명이 포함됐다. 참고인으로는 K- 축구 혁신위원회 공동위원장인 박지성과 유승민 대한 체육회장, 이영표 울산 HD 사외이사, 박주호 전 국가대표 전력강화위원 등 축구 계 인사...",
     "url": "https://sports.donga.com/sports/article/all/20260716/134310955/1",
     "originalUrl": "https://sports.donga.com/sports/article/all/20260716/134310955/1",
     "publisher": "sports.donga.com",
@@ -7484,8 +7476,12 @@
     "collectedAt": "2026-07-16T07:09:54.989Z",
     "matchedKeywords": [
       "대한축구협회",
+      "혁신위원회",
+      "축구 혁신",
       "부회장",
-      "이임생"
+      "박지성",
+      "김병지",
+      "김병지 부회장"
     ],
     "discoveryQueries": [
       "\"김병지\" 대한축구협회",
@@ -7515,14 +7511,16 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
+      "innovation-committee",
       "kfa-executives"
     ],
     "personTags": [
-      "person_lee_im_saeng"
+      "person_park_ji_sung",
+      "person_kim_byung_ji"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급"
     ]
