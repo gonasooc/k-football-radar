@@ -5563,7 +5563,7 @@
     "id": "item_4b45bc23f3f8d97f",
     "type": "news",
     "title": "대한체육회 선거인단 41배 확대…축구협회 차기 회장 선거제도 개편에도...",
-    "summary": "선거 제도 개편을 추진 중인 대한축구협회 에도 관심이 쏠리고 있다. 대한 체육회는 이번 개정이 우선 자체... 이에 따라 대한 체육회 회장 선거인단은 기존 2244명에서 9만2194명으로 약 41배 늘어난다. 선수 3만8116명, 지도자 ...",
+    "summary": "한편 대한 축구협회 는 지난 14일 임원과 대의원들을 대상으로 '회장 선거 후보 자 등록 의사 표명' 안내를 배포했다. 이후 일부에서 의문을 제기하자 15일 공지를 통해 \"현행 정관이 명시한 선거 일정에 따라 정몽규 회장...",
     "url": "http://www.footballist.co.kr/news/articleView.html?idxno=212313",
     "originalUrl": "http://www.footballist.co.kr/news/articleView.html?idxno=212313",
     "publisher": "footballist.co.kr",
@@ -5575,7 +5575,10 @@
       "선거인단",
       "선거인",
       "제도 개편",
-      "대한축구협회"
+      "대한 축구협회",
+      "대의원",
+      "정관",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"정몽규\" 선거",
@@ -5599,11 +5602,14 @@
       "electoral-college",
       "statute-revision"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 65,
+    "relevanceScore": 68,
     "labels": [
+      "인물 언급",
       "선거 키워드 포함"
     ]
   },

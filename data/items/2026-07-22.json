@@ -871,7 +871,7 @@
     "id": "item_df846e58429ad981",
     "type": "news",
     "title": "[단독] 대한체육회, 회장 보궐선거 ‘최장 240일’ 허용… 축구협회 직...",
-    "summary": "사진=대한체육회 제공 대한 축구협회 장 선거 개혁에 가장 중요한 단추가 끼워졌다. 대한체육회가... 체육계에 따르면 대한체육회는 22일 밤 11시59분까지 이사회 서면 의결 절차를 거쳐 회원종목단체 회장 궐위 시 후임...",
+    "summary": "사진=대한체육회 제공 대한 축구협회 장 선거 개혁에 가장 중요한 단추가 끼워졌다. 대한체육회가... 박지성 혁신위 공동위원장은 “(선거인단은) 최소 수천 명 이상 될 것”이라며 “차기 회의에서 보완책을 함께...",
     "url": "https://www.sportsworldi.com/newsView/20260722522183",
     "originalUrl": "https://www.sportsworldi.com/newsView/20260722522183",
     "publisher": "sportsworldi.com",
@@ -880,7 +880,9 @@
     "matchedKeywords": [
       "축구협회",
       "대한 축구협회",
-      "이사회"
+      "선거인단",
+      "선거인",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -908,14 +910,19 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "kfa-executives"
+      "electoral-college"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 25,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [
+      "인물 언급",
+      "선거 키워드 포함"
+    ]
   },
   {
     "id": "item_ee6962599a7c4aa3",
@@ -1074,7 +1081,7 @@
     "id": "item_fca2f1b3bb27aa29",
     "type": "news",
     "title": "'국감 앞둔' 축구, 스포츠 종목 관심도 1위 유지",
-    "summary": "조사 기간에는 13일 박지성 위원장이 이끄는 K- 축구 혁신위원회 가 2차 회의를 진행하고, 국회 문화체육관광 위원회 가 대한 축구협회 청문회 개최를 30일 개최한다는 방침을 내놓았다. 이후 21일 전체회의에서 이를...",
+    "summary": "한국 축구 월드컵 역사상 최악의 성적(34위)을 남긴 후 홍명보 감독과 정몽규 대한 축구협회 장의 동반 사퇴로 파장이 계속되고 있다. 조사 기간에는 13일 박지성 위원장이 이끄는 K- 축구 혁신위원회가 2차 회의를...",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=851871",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=851871",
     "publisher": "hansbiz.co.kr",
@@ -1084,7 +1091,10 @@
       "대한 축구협회",
       "혁신위원회",
       "축구 혁신",
-      "박지성"
+      "정몽규",
+      "홍명보",
+      "박지성",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1104,11 +1114,13 @@
       "innovation-committee"
     ],
     "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo",
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 21,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
