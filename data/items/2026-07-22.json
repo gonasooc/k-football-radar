@@ -68,7 +68,7 @@
     "id": "item_70ca0803de66cfc2",
     "type": "news",
     "title": "[IS보령]박지성이 그라운드를 떠나지 않는 이유…한국 축구의 미래는 유...",
-    "summary": "최근 박지성 은 K- 축구 혁신위원회 위원장으로 한국 축구 개혁 논의에도 참여하고 있다. 하지만 대한 축구협회 를 대상으로 열린 국회 청문회에는 참석하지 않았다. 그는 \"재단 유소년 대회 일정도 있지만 축구협회 와 관련해...",
+    "summary": "관계자들에게 감사 의 뜻도 전했다. 최근 박지성은 K- 축구 혁신위원회 위원장으로 한국 축구 개혁 논의에도... 하지만 대한 축구협회 를 대상으로 열린 국회 청문회에는 참석하지 않았다. 그는 \"재단 유소년 대회 일정도...",
     "url": "https://isplus.com/article/view/isp202607230037",
     "originalUrl": "https://isplus.com/article/view/isp202607230037",
     "publisher": "isplus.com",
@@ -78,7 +78,8 @@
       "박지성",
       "대한 축구협회",
       "혁신위원회",
-      "축구 혁신"
+      "축구 혁신",
+      "감사"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -98,9 +99,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 23,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ]
   },
   {
@@ -407,7 +409,7 @@
     "id": "item_1b264cdc8cf9b007",
     "type": "news",
     "title": "축구협회장 선거 '60일 확대안' 이사회 의결…'선거제 개편 논의' 시작",
-    "summary": "'월드컵 참사'로 촉발된 대한축구협회 회장 선거 개혁과 관련해 '회장 궐위 시 60일 이내 신임 회장 선거 선출... 규정'을 대한 체육회와 함께 개정하기로 합의, 선거인단 숫자를 대폭 늘릴 예정이다. 앞서 박지성 K-혁신위...",
+    "summary": "정몽규 전 대한 축구협회 장이 지난 6일 사퇴하면서 현재 회장직은 공석이다. 회장 궐위 시 60일 이내 신임 회장 선거를 진행해야 한다는 현 정관 에 따라 차기 회장 선거는 정 전 회장 사퇴 날짜로부터 60일 이내 진행될...",
     "url": "https://www.news1.kr/sports/soccer/6235694",
     "originalUrl": "https://www.news1.kr/sports/soccer/6235694",
     "publisher": "news1.kr",
@@ -417,11 +419,10 @@
       "축구협회장",
       "회장 선거",
       "이사회",
-      "대한축구협회",
-      "선거인단",
-      "선거인",
-      "K-혁신위",
-      "박지성"
+      "대한 축구협회",
+      "정관",
+      "정몽규",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -455,18 +456,16 @@
     "issueTags": [
       "election",
       "kfa-executives",
-      "electoral-college",
-      "innovation-committee"
+      "statute-revision"
     ],
     "personTags": [
-      "person_park_ji_sung"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 53,
+    "relevanceScore": 51,
     "labels": [
-      "인물 언급",
-      "선거 키워드 포함"
+      "인물 언급"
     ]
   },
   {
@@ -932,7 +931,7 @@
     "id": "item_ee6962599a7c4aa3",
     "type": "news",
     "title": "'축구협회장 직선제'가 정답?...권력 견제 없는 개혁은 환상이다 [유병...",
-    "summary": "한국 축구 의 개혁’은 한창입니다. 정부 주도로 박지성 (공동위원장)까지 등판한 K- 축구 혁신위원회가 가동되고... 그렇지 않아도 선거가 많고, 선거의 공정성에 심각한 문제가 끊임없이 제기되는 우리네 현실에서 축구협회 ...",
+    "summary": "회장 선거 에서 직선제에 가까운 대대적인 선거 인단 확대를 가시화했습니다. 여기서 질문입니다. ‘과연 회장... # 실제로 ‘13년 정몽규 회장의 축구협회’는 홍명보 감독 선임, 승부조작 축구인 사면, 특정학교 카르텔 등...",
     "url": "https://news.tf.co.kr/read/soccer/2345806.htm",
     "originalUrl": "https://news.tf.co.kr/read/soccer/2345806.htm",
     "publisher": "news.tf.co.kr",
@@ -941,9 +940,12 @@
     "matchedKeywords": [
       "축구협회장",
       "축구협회",
-      "혁신위원회",
-      "축구 혁신",
-      "박지성"
+      "회장 선거",
+      "감독 선임",
+      "감독",
+      "선임",
+      "정몽규",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"박지성\" 선거",
@@ -963,14 +965,15 @@
     ],
     "issueTags": [
       "election",
-      "innovation-committee"
+      "coach-appointment"
     ],
     "personTags": [
-      "person_park_ji_sung"
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
+    "relevanceScore": 37,
     "labels": [
       "인물 언급"
     ]
@@ -2739,7 +2742,7 @@
     "id": "item_fae73f9029313d59",
     "type": "news",
     "title": "정몽규 떠난 자리 이용수가 채운다, 대한축구협회 '직무 대행 체제' 승인",
-    "summary": "이용수 (67) 대한축구협회 부회장이 당분간 대한축구협회 장 직무를 대행한다. 정몽규 전 회장이 물러나면서 생긴 축구협회 수장 공백을 이용수 부회장이 메우는 것이다. 22일 체육계에 따르면 대한 체육회는 지난 20일...",
+    "summary": "지난 2016~2017년, 그리고 2021~2022년 각각 대한 축구협회 부회장직을 역임했고, 정몽규 회장의 4선 이후 제55대 집행부 구성 과정에서 협회 비전 및 전략 등 기획 행정 부문을 담당하는 역할로 다시 대한 축구협회 부회장직에...",
     "url": "https://www.starnewskorea.com/sports/2026/07/22/2026072218093397734",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/07/22/2026072218093397734",
     "publisher": "starnewskorea.com",
@@ -2748,6 +2751,8 @@
     "matchedKeywords": [
       "대한축구협회",
       "정몽규",
+      "대한 축구협회",
+      "집행부",
       "부회장"
     ],
     "discoveryQueries": [
@@ -2908,7 +2913,7 @@
     "id": "item_fd1aa7885ccead4f",
     "type": "news",
     "title": "축구협회, 이용수 직무대행 인준...선출 기한 연장 변수에 새 회장 선거...",
-    "summary": "대한 축구협회 가 대한체육회의 인준을 거쳐 이용수 부회장 직무대행 체제로 전환됐다. 축구협회 관계자는... 이로써 협회 는 새 회장 선거 작업에 착수할 수 있게 됐다. 현재 협회 정관 에 따르면 회장 궐위 시 정해진 순서...",
+    "summary": "선출 기한을 연장하는 개정 안을 준비하고 있어 새 수장을 뽑는 작업에 난관이 예상된다. 특히 직무대행은 정관 변경 등 중요한 의사 결정을 할 수 없게 돼 있어, 이를 둘러싼 법리적 해석이 필요하다는 것이 협회 의 입장이다.",
     "url": "http://www.maniareport.com/view.php?ud=202607221826326245dad9f33a29_19",
     "originalUrl": "http://www.maniareport.com/view.php?ud=202607221826326245dad9f33a29_19",
     "publisher": "maniareport.com",
@@ -2917,9 +2922,7 @@
     "matchedKeywords": [
       "축구협회",
       "회장 선거",
-      "대한 축구협회",
-      "정관",
-      "부회장"
+      "정관"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -2937,20 +2940,19 @@
     ],
     "issueTags": [
       "election",
-      "statute-revision",
-      "kfa-executives"
+      "statute-revision"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 26,
     "labels": []
   },
   {
     "id": "item_5e69dc7bbb20e504",
     "type": "news",
     "title": "홍명보 전 감독 지난주 귀국…30일 축구협회 청문회 출석 준비",
-    "summary": "박항서 전 축구협회 부회장 등이 포함됐다. 참고인으로 채택됐던 손흥민(LAFC)과 황희찬(울버햄프턴)에 대한 신청은 철회됐다. 박지성 K- 축구 혁신위원회 공동위원장과 이영표, 박주호 혁신위원 등도 불참할 것으로 알려졌다.",
+    "summary": "증인 명단에는 홍 전 감독을 비롯해 정몽규 전 대한 축구협회 장, 이임생 전 기술총괄이사, 박항서 전 축구협회 부회장 등이 포함됐다. 참고인으로 채택됐던 손흥민(LAFC)과 황희찬(울버햄프턴)에 대한 신청은 철회됐다....",
     "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05320166645517144",
     "originalUrl": "https://www.edaily.co.kr/news/newspath.asp?newsid=05320166645517144",
     "publisher": "edaily.co.kr",
@@ -2959,10 +2961,10 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
-      "혁신위원회",
-      "축구 혁신",
+      "대한 축구협회",
       "부회장",
-      "박지성"
+      "정몽규",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2985,16 +2987,16 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee",
       "kfa-executives"
     ],
     "personTags": [
       "person_hong_myung_bo",
-      "person_park_ji_sung"
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 32,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급"
     ]
@@ -5918,7 +5920,7 @@
     "id": "item_c9bac53c25464998",
     "type": "news",
     "title": "홍명보호의 예견된 실패... 참사로 끝난 역대 최악의 월드컵",
-    "summary": "대한 축구협회 역대 최고의 스쿼드, 역대 최고의 조편성이라는 장밋빛 희망을 안고 대장정에 오른 2026 북중미... 홍 감독은 국정 감사 에 불려가는 등 시작부터 팬들에게 지지를 받지 못했다. 어수선한 분위기 속에 2026...",
+    "summary": "깨고 홍명보 감독을 선임하기에 이른다. 이미 2014 브라질 월드컵에서 조별리그 탈락으로 실패했던 홍... 홍 감독은 국정 감사 에 불려가는 등 시작부터 팬들에게 지지를 받지 못했다. 어수선한 분위기 속에 2026 북중미...",
     "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003253151",
     "originalUrl": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003253151",
     "publisher": "ohmynews.com",
@@ -5926,7 +5928,8 @@
     "collectedAt": "2026-07-22T01:07:14.254Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
+      "감독",
+      "선임",
       "감사"
     ],
     "discoveryQueries": [
@@ -5939,13 +5942,15 @@
       "축구협회 감독 선임",
       "축구협회 감사"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "coach-appointment"
+    ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 17,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
