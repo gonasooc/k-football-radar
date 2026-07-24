@@ -1,5 +1,45 @@
 [
   {
+    "id": "item_5f7f45a9005243d6",
+    "type": "news",
+    "title": "\"홍명보 뒤 이을 유력 후보\" 차기 사령탑 가능성 급부상...르나르, 2년 만...",
+    "summary": "대한민국 축구 대표팀과 연결되고 있다. 여러 국가의 러브콜을 받고 있는 그가 한국 차기 사령탑 유력 후보 ... 바그너 감독 등이 대한 축구협회 의 레이더망에 포착됐기 떄문. 다만 협회 는 최종적으로 홍명보 감독 을...",
+    "url": "http://www.osen.co.kr/article/G1112845678",
+    "originalUrl": "http://www.osen.co.kr/article/G1112845678",
+    "publisher": "osen.co.kr",
+    "publishedAt": "2026-07-24T18:55:00.000Z",
+    "collectedAt": "2026-07-24T19:04:29.076Z",
+    "matchedKeywords": [
+      "사령탑",
+      "후보",
+      "차기",
+      "홍명보",
+      "대한 축구협회"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "감독 후보",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 27,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_19e62526cf742fc5",
     "type": "news",
     "title": "[공식발표] ‘월드컵 광탈’ 韓 축구 결국 11월 A매치까지 ‘임시 감독...",
@@ -487,14 +527,14 @@
     "id": "item_4f366fb449ffb509",
     "type": "news",
     "title": "한국 축구 길어지는 '감독 공백'…FIFA \"팀 재정비해야\"",
-    "summary": "홍명보 감독 사퇴 이후 축구 대표팀 은 일단 11월까지 임시 감독 체제로 갑니다. 대한축구협회는 오늘(24일) 이사회를 열고, 올해 남은 A매치 6경기를 이끌 임시 감독 과 코칭스태프 사단을 공개 채용하겠다고 발표했습니다....",
+    "summary": "홍명보 감독 사퇴 이후 축구 대표팀은 일단 11월까지 임시 감독 체제로 갑니다. 대한 축구협회 는 오늘(24일) 이사회를 열고, 올해 남은 A매치 6경기를 이끌 임시 감독과 코칭스태프 사단을 공개 채용하겠다고 발표했습니다....",
     "url": "https://news.jtbc.co.kr/article/NB12310113?influxDiv=NAVER",
     "originalUrl": "https://news.jtbc.co.kr/article/NB12310113?influxDiv=NAVER",
     "publisher": "news.jtbc.co.kr",
     "publishedAt": "2026-07-24T12:07:00.000Z",
     "collectedAt": "2026-07-24T13:05:55.666Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "대한 축구협회",
       "이사회",
       "홍명보",
       "사퇴"
@@ -3284,7 +3324,7 @@
     "id": "item_7842b40c592ec10c",
     "type": "news",
     "title": "축구 대표팀 감독 '공개채용'⋯홍명보 후임 선발 절차 시작",
-    "summary": "이투데이=노희주 기자 | 대한 축구협회 가 홍명보 전 감독 후임인 축구 대표팀 임시 감독을 공개채용 방식으로 선발하기로 했다. 정식 사령탑이 선임되기 전까지는 국제 축구 연맹(FIFA) 11월 A매치 기간까지 임시 감독 체제로...",
+    "summary": "이투데이=노희주 기자 | 대한 축구협회 가 홍명보 전 감독 후임인 축구 대표팀 임시 감독을 공개채용 방식으로... 또 FIFA 정관과 대한체육회 규정, ‘K- 축구 혁신위원회’ 논의 내용을 반영해 선거인 단 확대와 선거 제도...",
     "url": "https://www.etoday.co.kr/news/view/2607235",
     "originalUrl": "https://www.etoday.co.kr/news/view/2607235",
     "publisher": "etoday.co.kr",
@@ -3296,8 +3336,10 @@
       "후임",
       "홍명보",
       "대한 축구협회",
-      "사령탑",
-      "선임"
+      "선거인",
+      "정관",
+      "혁신위원회",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -3327,14 +3369,17 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "electoral-college",
+      "statute-revision",
+      "innovation-committee"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 45,
     "labels": [
       "인물 언급"
     ]
