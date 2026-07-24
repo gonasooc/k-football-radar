@@ -176,7 +176,7 @@
     "id": "item_30eb491e05da9660",
     "type": "news",
     "title": "\"끝까지 책임지겠다\" 홍명보 귀국... 월드컵 실패 진실 밝힐 국회 청문...",
-    "summary": "홍명보 전 축구 대표팀 감독이 미국 체류를 마치고 귀국하면서 국회 청문회 출석 준비에 들어갔다. 북중미... 당초 22일 열릴 예정이던 국회 문화체육관광위원회의 대한축구협회 현안 청문회는 오는 30일로 연기됐다....",
+    "summary": "홍명보 전 축구대표팀 감독이 미국 체류를 마치고 귀국하면서 국회 청문회 출석 준비에 들어갔다. 북중미... 다만 대한체육회가 회장 선출 기한을 연장하는 방향의 제도 개정을 추진 중이어서 차기 회장 선거 일정은...",
     "url": "http://www.osen.co.kr/article/G1112844426",
     "originalUrl": "http://www.osen.co.kr/article/G1112844426",
     "publisher": "osen.co.kr",
@@ -184,7 +184,7 @@
     "collectedAt": "2026-07-22T23:43:26.207Z",
     "matchedKeywords": [
       "홍명보",
-      "대한축구협회"
+      "회장 선거"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -214,13 +214,15 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 15,
     "labels": [
       "인물 언급"
     ]
@@ -229,7 +231,7 @@
     "id": "item_ed4102cfba56e2b2",
     "type": "news",
     "title": "‘100분 토론’ 출연한 하석주 “홍명보 자세, 선배로서 쥐어박고 싶을...",
-    "summary": "“한국 축구 , 다시 일어설 수 있게 힘 합해야” 1990년대 대한 민국 축구 국가대표팀 출신이자 대한축구협회 부회장을 지낸 하석주 아주대 감독이 홍명보 전 대표팀 감독을 강하게 비판했다. MBC 시사프로그램 ‘100분 토론’...",
+    "summary": "“한국축구, 다시 일어설 수 있게 힘 합해야” 1990년대 대한민국 축구국가대표팀 출신이자 대한 축구협회 부회장 을 지낸 하석주 아주대 감독이 홍명보 전 대표팀 감독을 강하게 비판했다. MBC 시사프로그램 ‘100분 토론’...",
     "url": "https://www.segye.com/newsView/20260723504529?OutUrl=naver",
     "originalUrl": "https://www.segye.com/newsView/20260723504529?OutUrl=naver",
     "publisher": "segye.com",
@@ -237,7 +239,7 @@
     "collectedAt": "2026-07-22T23:43:26.207Z",
     "matchedKeywords": [
       "홍명보",
-      "대한축구협회",
+      "대한 축구협회",
       "부회장"
     ],
     "discoveryQueries": [
@@ -405,7 +407,7 @@
     "id": "item_1b264cdc8cf9b007",
     "type": "news",
     "title": "축구협회장 선거 '60일 확대안' 이사회 의결…'선거제 개편 논의' 시작",
-    "summary": "대한 축구협회 회장 선거 개혁과 관련해 '회장 궐위 시 60일 이내 신임 회장 선거 선출 기한을 연장'하는 개정 ... 우선 K-혁신위는 300명 이내 간선제로 규정 하고 있는 기존 '회원종목 단체 규정 '을 대한체육회와 함께...",
+    "summary": "'월드컵 참사'로 촉발된 대한축구협회 회장 선거 개혁과 관련해 '회장 궐위 시 60일 이내 신임 회장 선거 선출... 규정'을 대한 체육회와 함께 개정하기로 합의, 선거인단 숫자를 대폭 늘릴 예정이다. 앞서 박지성 K-혁신위...",
     "url": "https://www.news1.kr/sports/soccer/6235694",
     "originalUrl": "https://www.news1.kr/sports/soccer/6235694",
     "publisher": "news1.kr",
@@ -415,8 +417,11 @@
       "축구협회장",
       "회장 선거",
       "이사회",
-      "대한 축구협회",
-      "K-혁신위"
+      "대한축구협회",
+      "선거인단",
+      "선거인",
+      "K-혁신위",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -450,13 +455,19 @@
     "issueTags": [
       "election",
       "kfa-executives",
+      "electoral-college",
       "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 44,
-    "labels": []
+    "relevanceScore": 53,
+    "labels": [
+      "인물 언급",
+      "선거 키워드 포함"
+    ]
   },
   {
     "id": "item_c116a0a65f22e043",
@@ -2786,7 +2797,7 @@
     "id": "item_9e08563e886eccc8",
     "type": "news",
     "title": "축구협회, 이용수 직무대행 체제 전환...차기 회장 선거 준비 돌입",
-    "summary": "이에 따라 정몽규 전 회장 사임 이후 멈춰 있던 차기 회장 선거 준비도 본격화할 전망이다. 대한축구협회 회장 직무대행을 맡은 이용수 대한축구협회 부회장. 사진=연합뉴스 축구협회 정관에 따르면 회장이 궐위됐을 때는...",
+    "summary": "축구협회 는 대한체육회의 회원종목단체 규정에 맞춰 정관과 회장 선거관리 규정도 정비해야 한다. 선거 제도 개편 과정에는 변수가 남아 있다. 대한체육회는 지난 16일 임시 대의원 총회를 열고 회장 선거인단 확대 등을...",
     "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05349686645517144",
     "originalUrl": "https://www.edaily.co.kr/news/newspath.asp?newsid=05349686645517144",
     "publisher": "edaily.co.kr",
@@ -2795,10 +2806,11 @@
     "matchedKeywords": [
       "축구협회",
       "회장 선거",
-      "대한축구협회",
+      "선거인단",
+      "선거인",
+      "대의원",
       "정관",
-      "부회장",
-      "정몽규"
+      "제도 개편"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -2820,17 +2832,15 @@
     ],
     "issueTags": [
       "election",
-      "statute-revision",
-      "kfa-executives"
+      "electoral-college",
+      "statute-revision"
     ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 39,
     "labels": [
-      "인물 언급"
+      "선거 키워드 포함"
     ]
   },
   {
