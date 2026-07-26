@@ -129,7 +129,10 @@
     "publisher": "탁탐정",
     "publishedAt": "2026-07-17T23:43:57Z",
     "collectedAt": "2026-07-18T13:51:37.077Z",
-    "matchedKeywords": [],
+    "matchedKeywords": [
+      "축협",
+      "청문회"
+    ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
@@ -137,7 +140,7 @@
     "personTags": [],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 0,
+    "relevanceScore": 15,
     "relevanceTier": "secondary",
     "labels": [],
     "youtube": {
@@ -238,9 +241,7 @@
     "publishedAt": "2026-07-17T23:20:50Z",
     "collectedAt": "2026-07-18T07:42:07.192Z",
     "matchedKeywords": [
-      "축구협회",
-      "정몽규",
-      "감사"
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
@@ -251,11 +252,10 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 3,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ],
     "youtube": {
       "videoId": "iBs2bAkUhO8",
@@ -293,52 +293,6 @@
     "relevanceScore": 6,
     "relevanceTier": "secondary",
     "labels": []
-  },
-  {
-    "id": "item_db0134381a0c118f",
-    "type": "news",
-    "title": "소통 단절·무능, '졸속 행정'의 반복...한국 축구 퇴보시키는 대한축구...",
-    "summary": "대한축구협회 의 반복되는 졸속 행정이 한국 축구 를 퇴보시키고 있다. 한국은 2026 북중미 월드컵 조별리그... 감독 선임을 주도하는 국가대표전력강화위회의 정해성 전 위원장이 돌연 사퇴를 하자 권한이 없던 이임생 전...",
-    "url": "https://www.mydaily.co.kr/page/view/2026071716533269223",
-    "originalUrl": "https://www.mydaily.co.kr/page/view/2026071716533269223",
-    "publisher": "mydaily.co.kr",
-    "publishedAt": "2026-07-17T23:00:00.000Z",
-    "collectedAt": "2026-07-17T23:35:22.983Z",
-    "matchedKeywords": [
-      "대한축구협회",
-      "감독 선임",
-      "감독",
-      "선임",
-      "이임생",
-      "사퇴"
-    ],
-    "discoveryQueries": [
-      "\"이임생\" 대한축구협회",
-      "\"이임생\" 축구협회",
-      "\"정몽규\" 대한축구협회",
-      "\"정몽규\" 축구협회",
-      "\"홍명보\" 대한축구협회",
-      "\"홍명보\" 축구협회",
-      "감독 후보",
-      "대한축구협회",
-      "대한축구협회장",
-      "전력강화위원회",
-      "축구협회 감독 선임",
-      "축구협회 감독 후보",
-      "축구협회장"
-    ],
-    "issueTags": [
-      "coach-appointment"
-    ],
-    "personTags": [
-      "person_lee_im_saeng"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 15,
-    "labels": [
-      "인물 언급"
-    ]
   },
   {
     "id": "item_bca11a8d47aedb71",
@@ -388,6 +342,52 @@
     ]
   },
   {
+    "id": "item_db0134381a0c118f",
+    "type": "news",
+    "title": "소통 단절·무능, '졸속 행정'의 반복...한국 축구 퇴보시키는 대한축구...",
+    "summary": "대한축구협회 의 반복되는 졸속 행정이 한국 축구 를 퇴보시키고 있다. 한국은 2026 북중미 월드컵 조별리그... 감독 선임을 주도하는 국가대표전력강화위회의 정해성 전 위원장이 돌연 사퇴를 하자 권한이 없던 이임생 전...",
+    "url": "https://www.mydaily.co.kr/page/view/2026071716533269223",
+    "originalUrl": "https://www.mydaily.co.kr/page/view/2026071716533269223",
+    "publisher": "mydaily.co.kr",
+    "publishedAt": "2026-07-17T23:00:00.000Z",
+    "collectedAt": "2026-07-17T23:35:22.983Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "감독 선임",
+      "감독",
+      "선임",
+      "이임생",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"이임생\" 대한축구협회",
+      "\"이임생\" 축구협회",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "감독 후보",
+      "대한축구협회",
+      "대한축구협회장",
+      "전력강화위원회",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_lee_im_saeng"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 15,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "youtube_6OL-Q9swANc",
     "type": "youtube",
     "title": "축구협회 차기 회장과 감독 선임 과정 어떻게 진행되고 있나? 전강위 1차 회의 진행 임시감독 정식감독? 축구협회 집행부 총사퇴 없다?",
@@ -399,7 +399,6 @@
     "collectedAt": "2026-07-18T03:33:19.564Z",
     "matchedKeywords": [
       "축구협회",
-      "집행부",
       "사퇴",
       "대한축구협회",
       "정몽규",
@@ -409,16 +408,14 @@
       "\"대한축구협회\"|\"축구협회\"|\"KFA\"",
       "channel:UC5Xy07jY1sa8kFQWtFYukoA"
     ],
-    "issueTags": [
-      "kfa-executives"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
       "person_hong_myung_bo"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ],
@@ -745,10 +742,8 @@
     "publishedAt": "2026-07-17T21:00:36Z",
     "collectedAt": "2026-07-18T03:33:19.564Z",
     "matchedKeywords": [
-      "축구협회",
       "정몽규",
       "대한축구협회",
-      "축구협회장",
       "제도 개편",
       "혁신위원회",
       "홍명보",
@@ -759,7 +754,6 @@
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [
-      "election",
       "statute-revision",
       "innovation-committee"
     ],
@@ -771,7 +765,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 34,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -780,7 +774,7 @@
       "videoId": "VM78fP6hwkM",
       "channelId": "UCtpZp6kPZHrqGx7yTvnabdg",
       "channelStatus": "unlisted",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/VM78fP6hwkM/maxresdefault.jpg",
         "width": 1280,
@@ -898,9 +892,9 @@
     "publishedAt": "2026-07-17T18:00:47Z",
     "collectedAt": "2026-07-18T03:33:19.564Z",
     "matchedKeywords": [
-      "축구협회장",
       "정몽규",
       "박지성",
+      "축구협회장",
       "대한축구협회",
       "축구혁신위",
       "대한축구협회장",
@@ -919,7 +913,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 46,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -948,6 +942,7 @@
     "publishedAt": "2026-07-17T17:43:21Z",
     "collectedAt": "2026-07-18T03:33:19.564Z",
     "matchedKeywords": [
+      "축협",
       "축구협회",
       "정몽규",
       "홍명보",
@@ -963,7 +958,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 21,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -972,7 +967,7 @@
       "videoId": "hAh-D_Ax8SM",
       "channelId": "UCs0U4Ng2AlKa0cXX8FREIRQ",
       "channelStatus": "unlisted",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/hAh-D_Ax8SM/maxresdefault.jpg",
         "width": 1280,
@@ -1266,7 +1261,6 @@
       "정몽규",
       "홍명보",
       "이임생",
-      "조사 결과",
       "감독 선임",
       "감독",
       "선임"
@@ -1275,7 +1269,6 @@
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [
-      "mcst-audit",
       "coach-appointment"
     ],
     "personTags": [
@@ -1285,7 +1278,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 58,
+    "relevanceScore": 54,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1394,18 +1387,16 @@
     "publishedAt": "2026-07-17T12:40:16Z",
     "collectedAt": "2026-07-18T07:42:07.192Z",
     "matchedKeywords": [
-      "축구협회장",
       "정몽규",
       "박지성",
       "홍명보",
-      "서강일"
+      "서강일",
+      "청문회"
     ],
     "discoveryQueries": [
       "channel:UCG9aFJTZ-lMCHAiO1KJsirg"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
       "person_park_ji_sung",
@@ -1414,7 +1405,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 55,
+    "relevanceScore": 30,
     "labels": [
       "인물 언급"
     ],
@@ -1705,17 +1696,14 @@
     "publishedAt": "2026-07-17T11:00:24Z",
     "collectedAt": "2026-07-17T14:04:31.552Z",
     "matchedKeywords": [
-      "축구협회장",
       "축구 혁신",
-      "박지성",
-      "축구협회"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"K-축구혁신위원회\"|\"축구혁신위\"|\"축구 혁신\"",
       "channel:UCdh5nloZ9eo5YpZ2DRWwIew"
     ],
     "issueTags": [
-      "election",
       "innovation-committee"
     ],
     "personTags": [
@@ -1723,7 +1711,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 44,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ],
@@ -1784,78 +1772,6 @@
     "labels": [
       "인물 언급"
     ]
-  },
-  {
-    "id": "youtube_IF2aMxWKAG4",
-    "type": "youtube",
-    "title": "KFA 138",
-    "summary": "Broadcasted live on Twitch -- Watch live at https://www.twitch.tv/amateurcopper",
-    "url": "https://www.youtube.com/watch?v=IF2aMxWKAG4",
-    "originalUrl": "https://www.youtube.com/watch?v=IF2aMxWKAG4",
-    "publisher": "Lmoney41",
-    "publishedAt": "2026-07-17T10:13:52Z",
-    "collectedAt": "2026-07-18T03:33:19.564Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
-    "labels": [],
-    "youtube": {
-      "videoId": "IF2aMxWKAG4",
-      "channelId": "UCIuxiqRrFgJwBpxTOaA0oEw",
-      "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/IF2aMxWKAG4/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 12287
-    }
-  },
-  {
-    "id": "youtube_21OOA_k6ulg",
-    "type": "youtube",
-    "title": "KFA챌린지DAY 페스티벌 SUMMER NIGHT 준우승 기념 영상",
-    "summary": "",
-    "url": "https://www.youtube.com/watch?v=21OOA_k6ulg",
-    "originalUrl": "https://www.youtube.com/watch?v=21OOA_k6ulg",
-    "publisher": "GeonU No.7",
-    "publishedAt": "2026-07-17T10:09:15Z",
-    "collectedAt": "2026-07-17T14:04:31.552Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
-    "labels": [],
-    "youtube": {
-      "videoId": "21OOA_k6ulg",
-      "channelId": "UC3dcW3DS1V3ABD_o1BZ4IYA",
-      "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/21OOA_k6ulg/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 162
-    }
   },
   {
     "id": "item_6edc9e7f957994c1",
@@ -2133,6 +2049,7 @@
     "collectedAt": "2026-07-17T09:15:55.406Z",
     "matchedKeywords": [
       "대한축구협회",
+      "청문회",
       "감사",
       "감독 선임",
       "감독",
@@ -2157,7 +2074,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 52,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -2369,7 +2286,6 @@
     "publishedAt": "2026-07-17T07:50:54Z",
     "collectedAt": "2026-07-18T07:42:07.192Z",
     "matchedKeywords": [
-      "축구협회장",
       "정몽규",
       "박지성",
       "혁신위원회",
@@ -2381,7 +2297,6 @@
       "channel:UCTHCOPwqNfZ0uiKOvFyhGwg"
     ],
     "issueTags": [
-      "election",
       "innovation-committee"
     ],
     "personTags": [
@@ -2392,7 +2307,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급"
     ],
@@ -3118,23 +3033,18 @@
     "publishedAt": "2026-07-17T05:03:22Z",
     "collectedAt": "2026-07-18T03:33:19.564Z",
     "matchedKeywords": [
-      "축구협회",
       "정몽규",
       "홍명보",
       "이임생",
       "대한축구협회",
-      "조사 결과",
       "감독 선임",
-      "감독 후보",
       "감독",
-      "선임",
-      "후보"
+      "선임"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [
-      "mcst-audit",
       "coach-appointment"
     ],
     "personTags": [
@@ -3144,7 +3054,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 54,
+    "relevanceScore": 40,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -3231,28 +3141,23 @@
     "publishedAt": "2026-07-17T04:32:06Z",
     "collectedAt": "2026-07-17T14:04:31.552Z",
     "matchedKeywords": [
-      "축구협회장",
       "정몽규",
-      "박지성",
-      "감사"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
       "person_park_ji_sung"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 16,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ],
     "youtube": {
       "videoId": "T5DC3Wjp1Jw",
@@ -3419,6 +3324,7 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 22,
+    "relevanceTier": "secondary",
     "labels": [
       "선거 키워드 포함"
     ],
@@ -3426,7 +3332,7 @@
       "videoId": "6q9OtaZA_4U",
       "channelId": "UCsU-I-vHLiaMfV_ceaYz5rQ",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/6q9OtaZA_4U/maxresdefault.jpg",
         "width": 1280,
@@ -3833,6 +3739,52 @@
     ]
   },
   {
+    "id": "item_3d774b23854cbb62",
+    "type": "news",
+    "title": "\"박지성·이영표가 뭘 안다고\"...전북축구협회장 \"정몽규, 13년 희생\"",
+    "summary": "서강일 전북특별자치도 축구협회 장이 K- 축구 혁신위원회를 공개 비판했습니다. 서 회장은 최근 KBS와의... \" 정관 대로 60일 안에 보궐선거를 치러야 하는데 왜 정관 을 뜯어고치려 하느냐\"며 \"비판만 하지 말고 차라리 회장...",
+    "url": "https://news.jtbc.co.kr/article/NB12308767?influxDiv=NAVER",
+    "originalUrl": "https://news.jtbc.co.kr/article/NB12308767?influxDiv=NAVER",
+    "publisher": "news.jtbc.co.kr",
+    "publishedAt": "2026-07-17T01:50:00.000Z",
+    "collectedAt": "2026-07-17T04:47:18.653Z",
+    "matchedKeywords": [
+      "정몽규",
+      "박지성",
+      "정관",
+      "혁신위원회",
+      "축구 혁신",
+      "서강일"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "축구 혁신",
+      "축구협회 정관",
+      "축구협회 혁신위원회",
+      "축구협회 회장 선거",
+      "축구협회장",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "statute-revision",
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_park_ji_sung",
+      "person_seo_kang_il"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 29,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_9ad5d14b389d71c9",
     "type": "news",
     "title": "전북축구협회장 \"박지성, 비판만 하지 말고 축구협회장 선거에 출마해라...",
@@ -3876,52 +3828,6 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 41,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_3d774b23854cbb62",
-    "type": "news",
-    "title": "\"박지성·이영표가 뭘 안다고\"...전북축구협회장 \"정몽규, 13년 희생\"",
-    "summary": "서강일 전북특별자치도 축구협회 장이 K- 축구 혁신위원회를 공개 비판했습니다. 서 회장은 최근 KBS와의... \" 정관 대로 60일 안에 보궐선거를 치러야 하는데 왜 정관 을 뜯어고치려 하느냐\"며 \"비판만 하지 말고 차라리 회장...",
-    "url": "https://news.jtbc.co.kr/article/NB12308767?influxDiv=NAVER",
-    "originalUrl": "https://news.jtbc.co.kr/article/NB12308767?influxDiv=NAVER",
-    "publisher": "news.jtbc.co.kr",
-    "publishedAt": "2026-07-17T01:50:00.000Z",
-    "collectedAt": "2026-07-17T04:47:18.653Z",
-    "matchedKeywords": [
-      "정몽규",
-      "박지성",
-      "정관",
-      "혁신위원회",
-      "축구 혁신",
-      "서강일"
-    ],
-    "discoveryQueries": [
-      "\"박지성\" 선거",
-      "\"박지성\" 축구협회",
-      "\"정몽규\" 선거",
-      "\"정몽규\" 축구협회",
-      "축구 혁신",
-      "축구협회 정관",
-      "축구협회 혁신위원회",
-      "축구협회 회장 선거",
-      "축구협회장",
-      "K-축구혁신위원회"
-    ],
-    "issueTags": [
-      "statute-revision",
-      "innovation-committee"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung",
-      "person_seo_kang_il"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 29,
     "labels": [
       "인물 언급"
     ]

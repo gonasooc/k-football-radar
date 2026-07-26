@@ -1172,14 +1172,14 @@
     "matchedKeywords": [
       "혁신위원회",
       "축구 혁신",
+      "청문회",
       "대한축구협회",
       "부회장",
       "정몽규",
       "홍명보",
       "박지성",
       "김병지",
-      "이임생",
-      "감사"
+      "이임생"
     ],
     "discoveryQueries": [
       "\"K-축구혁신위원회\"|\"축구혁신위\"|\"축구 혁신\"",
@@ -1198,10 +1198,9 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 42,
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ],
     "youtube": {
       "videoId": "SHrg1G26W6U",
@@ -1393,21 +1392,13 @@
       "감독",
       "선임",
       "대한축구협회",
-      "축구혁신위",
-      "혁신위원회",
-      "대표팀 감독",
-      "전력강화위원회",
       "감독 후보",
       "사령탑",
-      "전력강화위원",
       "후보",
-      "후임",
       "차기",
       "지원설",
       "거론",
-      "복귀",
       "관심",
-      "정몽규",
       "홍명보",
       "사퇴"
     ],
@@ -1415,16 +1406,14 @@
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [
-      "coach-appointment",
-      "innovation-committee"
+      "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 52,
+    "relevanceScore": 45,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -2311,6 +2300,45 @@
     ]
   },
   {
+    "id": "item_25b534953ef3a363",
+    "type": "news",
+    "title": "'조만간 결정될 전망'…아르헨티나 잡은 명장 르나르, 한국 사령탑 후보...",
+    "summary": "(57) 감독 이 한국 축구 대표팀의 차기 사령탑 후보 로 떠올랐다. 프랑스 축구 전문 매체 ‘풋 메르카토’는 23일... 감독 선임이 늦어질수록 선수단 점검과 전술 정비에 사용할 수 있는 시간이 줄어드는 만큼 대한 축구협회 의...",
+    "url": "https://mhnse.com/news/articleView.html?idxno=1467964",
+    "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1467964",
+    "publisher": "mhnse.com",
+    "publishedAt": "2026-07-23T07:24:00.000Z",
+    "collectedAt": "2026-07-23T08:01:40.396Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독 선임",
+      "감독",
+      "사령탑",
+      "선임",
+      "후보",
+      "차기"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "감독 후보",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_d7957d2d70ebc46d",
     "type": "news",
     "title": "축구협회 개혁 속도전…60일 내 회장 선출 규정→최장 8개월로",
@@ -2368,45 +2396,6 @@
       "인물 언급",
       "선거 키워드 포함"
     ]
-  },
-  {
-    "id": "item_25b534953ef3a363",
-    "type": "news",
-    "title": "'조만간 결정될 전망'…아르헨티나 잡은 명장 르나르, 한국 사령탑 후보...",
-    "summary": "(57) 감독 이 한국 축구 대표팀의 차기 사령탑 후보 로 떠올랐다. 프랑스 축구 전문 매체 ‘풋 메르카토’는 23일... 감독 선임이 늦어질수록 선수단 점검과 전술 정비에 사용할 수 있는 시간이 줄어드는 만큼 대한 축구협회 의...",
-    "url": "https://mhnse.com/news/articleView.html?idxno=1467964",
-    "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1467964",
-    "publisher": "mhnse.com",
-    "publishedAt": "2026-07-23T07:24:00.000Z",
-    "collectedAt": "2026-07-23T08:01:40.396Z",
-    "matchedKeywords": [
-      "대한 축구협회",
-      "감독 선임",
-      "감독",
-      "사령탑",
-      "선임",
-      "후보",
-      "차기"
-    ],
-    "discoveryQueries": [
-      "\"홍명보\" 대한축구협회",
-      "\"홍명보\" 축구협회",
-      "감독 후보",
-      "대표팀 감독",
-      "대표팀 감독 선임",
-      "대한축구협회",
-      "축구협회 감독 선임",
-      "축구협회 감독 후보"
-    ],
-    "issueTags": [
-      "coach-appointment"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 10,
-    "relevanceTier": "secondary",
-    "labels": []
   },
   {
     "id": "item_4fb2873b401eaebd",
@@ -3729,6 +3718,43 @@
     ]
   },
   {
+    "id": "item_456ba4c0ff971486",
+    "type": "news",
+    "title": "\"HDC 48억원 후원\"…정몽규, 축구협회장 4연임 앞두고 계약",
+    "summary": "2024년 6월 1일 체결된 대한축구협회 와 HDC그룹 계열사의 파트너십 계약이 정몽규 전 대한축구협회 장의 4연임 선거를 앞둔 시점에 이뤄진 것으로 드러나면서 후원 경위에 관심이 쏠리고 있다. 계약 규모는 총 48억...",
+    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16143760",
+    "originalUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16143760",
+    "publisher": "topstarnews.net",
+    "publishedAt": "2026-07-23T02:44:00.000Z",
+    "collectedAt": "2026-07-23T04:57:54.919Z",
+    "matchedKeywords": [
+      "축구협회장",
+      "정몽규",
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 회장 선거",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 37,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_dd410dd408afb75f",
     "type": "news",
     "title": "정몽규, '4연임' 축구협회장 선거 앞두고 HDC그룹 통해 48억원 후원",
@@ -3763,43 +3789,6 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 39,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_456ba4c0ff971486",
-    "type": "news",
-    "title": "\"HDC 48억원 후원\"…정몽규, 축구협회장 4연임 앞두고 계약",
-    "summary": "2024년 6월 1일 체결된 대한축구협회 와 HDC그룹 계열사의 파트너십 계약이 정몽규 전 대한축구협회 장의 4연임 선거를 앞둔 시점에 이뤄진 것으로 드러나면서 후원 경위에 관심이 쏠리고 있다. 계약 규모는 총 48억...",
-    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16143760",
-    "originalUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16143760",
-    "publisher": "topstarnews.net",
-    "publishedAt": "2026-07-23T02:44:00.000Z",
-    "collectedAt": "2026-07-23T04:57:54.919Z",
-    "matchedKeywords": [
-      "축구협회장",
-      "정몽규",
-      "대한축구협회"
-    ],
-    "discoveryQueries": [
-      "\"정몽규\" 대한축구협회",
-      "\"정몽규\" 선거",
-      "\"정몽규\" 축구협회",
-      "대한축구협회",
-      "대한축구협회장",
-      "축구협회 회장 선거",
-      "축구협회장"
-    ],
-    "issueTags": [
-      "election"
-    ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 37,
     "labels": [
       "인물 언급"
     ]
@@ -3898,6 +3887,52 @@
     ]
   },
   {
+    "id": "item_3c1bcb22f4e0b2a1",
+    "type": "news",
+    "title": "'60일 족쇄' 풀렸다... 축구협회장 직선제 도입 최대 걸림돌 사라져",
+    "summary": "이용수 부회장 직무대행 체제로 운영 중인 대한 축구협회 역시 이번 개정을 바탕으로 자체 총회와 이사회를 열어 회장 직선제 도입 여부를 본격적으로 논의할 것으로 보인다.",
+    "url": "http://www.osen.co.kr/article/G1112844815",
+    "originalUrl": "http://www.osen.co.kr/article/G1112844815",
+    "publisher": "osen.co.kr",
+    "publishedAt": "2026-07-23T02:24:00.000Z",
+    "collectedAt": "2026-07-23T04:57:54.919Z",
+    "matchedKeywords": [
+      "축구협회장",
+      "대한 축구협회",
+      "이사회",
+      "부회장"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 대한축구협회",
+      "\"이용수\" 선거",
+      "\"이용수\" 축구협회",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 규정 개정",
+      "축구협회 대의원",
+      "축구협회 부회장",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 이사회",
+      "축구협회 정관",
+      "축구협회 정관 개정",
+      "축구협회 회장 선거",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "election",
+      "kfa-executives"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 30,
+    "labels": []
+  },
+  {
     "id": "item_d5b860e8c1df81dc",
     "type": "news",
     "title": "\"선거인단 대폭 확대 길\"…대한축구협회 회장 직선제 수준 선거 기반 마...",
@@ -3948,52 +3983,6 @@
       "인물 언급",
       "선거 키워드 포함"
     ]
-  },
-  {
-    "id": "item_3c1bcb22f4e0b2a1",
-    "type": "news",
-    "title": "'60일 족쇄' 풀렸다... 축구협회장 직선제 도입 최대 걸림돌 사라져",
-    "summary": "이용수 부회장 직무대행 체제로 운영 중인 대한 축구협회 역시 이번 개정을 바탕으로 자체 총회와 이사회를 열어 회장 직선제 도입 여부를 본격적으로 논의할 것으로 보인다.",
-    "url": "http://www.osen.co.kr/article/G1112844815",
-    "originalUrl": "http://www.osen.co.kr/article/G1112844815",
-    "publisher": "osen.co.kr",
-    "publishedAt": "2026-07-23T02:24:00.000Z",
-    "collectedAt": "2026-07-23T04:57:54.919Z",
-    "matchedKeywords": [
-      "축구협회장",
-      "대한 축구협회",
-      "이사회",
-      "부회장"
-    ],
-    "discoveryQueries": [
-      "\"이용수\" 대한축구협회",
-      "\"이용수\" 선거",
-      "\"이용수\" 축구협회",
-      "\"정몽규\" 대한축구협회",
-      "\"정몽규\" 선거",
-      "\"정몽규\" 축구협회",
-      "대한축구협회",
-      "대한축구협회장",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 부회장",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 이사회",
-      "축구협회 정관",
-      "축구협회 정관 개정",
-      "축구협회 회장 선거",
-      "축구협회장"
-    ],
-    "issueTags": [
-      "election",
-      "kfa-executives"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 30,
-    "labels": []
   },
   {
     "id": "item_32e633d59be4dbc7",
@@ -4286,9 +4275,9 @@
     "matchedKeywords": [
       "정몽규",
       "박지성",
+      "청문회",
       "대한축구협회",
-      "KFA",
-      "감사"
+      "KFA"
     ],
     "discoveryQueries": [
       "channel:UCmKTwXS5wC4Ww4X6PyXjMYg"
@@ -4300,16 +4289,16 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 32,
+    "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ],
     "youtube": {
       "videoId": "jkwZwz4RaMk",
       "channelId": "UCmKTwXS5wC4Ww4X6PyXjMYg",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "tags": [
         "KFA",
         "대한축구협회",

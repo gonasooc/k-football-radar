@@ -111,21 +111,19 @@
     "publishedAt": "2026-07-20T23:45:47Z",
     "collectedAt": "2026-07-21T01:40:40.363Z",
     "matchedKeywords": [
-      "축구협회",
       "정몽규",
-      "박지성"
+      "축구협회"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -134,7 +132,7 @@
       "videoId": "LXl_DQQow00",
       "channelId": "UCvEaI8EOYS-XDYIju3Bw-hA",
       "channelStatus": "unlisted",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "tags": [
         "매불쇼",
         "박문성",
@@ -190,6 +188,7 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 47,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
@@ -197,7 +196,7 @@
       "videoId": "0LRCjE2zpSg",
       "channelId": "UCfq4V1DAuaojnr2ryvWNysw",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "tags": [
         "채널A",
         "채널A 뉴스",
@@ -217,42 +216,6 @@
         "height": 720
       },
       "durationSeconds": 664
-    }
-  },
-  {
-    "id": "youtube_YxdkWq4w0eo",
-    "type": "youtube",
-    "title": "So sehen 10% KFA aus wenn du lügst",
-    "summary": "",
-    "url": "https://www.youtube.com/watch?v=YxdkWq4w0eo",
-    "originalUrl": "https://www.youtube.com/watch?v=YxdkWq4w0eo",
-    "publisher": "Onkel Gabriel",
-    "publishedAt": "2026-07-20T23:43:28Z",
-    "collectedAt": "2026-07-21T01:40:40.363Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
-    "labels": [],
-    "youtube": {
-      "videoId": "YxdkWq4w0eo",
-      "channelId": "UCNPGCgHaScUYhhwobJ3v6Wg",
-      "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/YxdkWq4w0eo/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 11
     }
   },
   {
@@ -994,27 +957,20 @@
     "collectedAt": "2026-07-21T01:40:40.363Z",
     "matchedKeywords": [
       "홍명보",
-      "대한축구협회",
-      "감독 선임",
-      "감독",
-      "선임",
-      "정몽규",
-      "이임생"
+      "축구협회",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo",
-      "person_chung_mong_gyu",
-      "person_lee_im_saeng"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1127,42 +1083,6 @@
     "labels": [
       "감사 키워드 포함"
     ]
-  },
-  {
-    "id": "youtube_ce8SvQA0U8Y",
-    "type": "youtube",
-    "title": "2025 KFA어워즈 행사 / 2025",
-    "summary": "마술사K 인스타 / magician__k 홈페이지 www.goodshow.co.kr",
-    "url": "https://www.youtube.com/watch?v=ce8SvQA0U8Y",
-    "originalUrl": "https://www.youtube.com/watch?v=ce8SvQA0U8Y",
-    "publisher": "강병수",
-    "publishedAt": "2026-07-20T19:12:16Z",
-    "collectedAt": "2026-07-21T01:40:40.363Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
-    "labels": [],
-    "youtube": {
-      "videoId": "ce8SvQA0U8Y",
-      "channelId": "UCR8dGEg0uk_Ym2MyY5aLm2g",
-      "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/ce8SvQA0U8Y/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 180
-    }
   },
   {
     "id": "item_e2d2bbbc0edfddff",
@@ -1322,46 +1242,6 @@
     }
   },
   {
-    "id": "youtube_0Yw-SoihvM4",
-    "type": "youtube",
-    "title": "Sleeve Tutorial #kfa #abaya #abayakaftan #modestfashion #fashion #sewing",
-    "summary": "",
-    "url": "https://www.youtube.com/watch?v=0Yw-SoihvM4",
-    "originalUrl": "https://www.youtube.com/watch?v=0Yw-SoihvM4",
-    "publisher": "KHADDY FASHION AND APPARELS (KFA)",
-    "publishedAt": "2026-07-20T16:38:24Z",
-    "collectedAt": "2026-07-21T01:40:40.363Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
-    "labels": [],
-    "youtube": {
-      "videoId": "0Yw-SoihvM4",
-      "channelId": "UCwcxCcT7wAau1qAh8iQaTew",
-      "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
-      "tags": [
-        "khaddyfashionandapparels",
-        "sleeveTutorial"
-      ],
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/0Yw-SoihvM4/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 12
-    }
-  },
-  {
     "id": "item_bcb0fbc1fc007d86",
     "type": "news",
     "title": "손흥민 월드컵 악몽 2회, 누가 책임지나…2014년도 홍명보호, 2026년도 홍...",
@@ -1402,114 +1282,6 @@
     "labels": [
       "인물 언급"
     ]
-  },
-  {
-    "id": "youtube_VVGneIe9YdU",
-    "type": "youtube",
-    "title": "#KFA한국프랜차이즈산업협회 전현희국회의원님과 조찬 간담회 및 개소식 및 조찬포럼 및 임원 연찬회 참석~#BBQ윤홍근회장님 #나명석협회장님 #대표영업사원김상훈 #1989삼칠갈비",
-    "summary": "",
-    "url": "https://www.youtube.com/watch?v=VVGneIe9YdU",
-    "originalUrl": "https://www.youtube.com/watch?v=VVGneIe9YdU",
-    "publisher": "김상훈",
-    "publishedAt": "2026-07-20T15:47:16Z",
-    "collectedAt": "2026-07-21T01:40:40.363Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
-    "labels": [],
-    "youtube": {
-      "videoId": "VVGneIe9YdU",
-      "channelId": "UCy6O4BqMOjIdtTadZvZZ_qg",
-      "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/VVGneIe9YdU/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 59
-    }
-  },
-  {
-    "id": "youtube_9XyGUZLia3I",
-    "type": "youtube",
-    "title": "#KFA한국프랜차이즈산업협회 개소식 및 조찬포럼 및 임원 연찬회 참석~ #BBQ윤홍근회장님 #자담치킨나명석협회장님 #대표영업사원김상훈 #1989삼칠갈비 #연세대FCEO황은주동문회장",
-    "summary": "",
-    "url": "https://www.youtube.com/watch?v=9XyGUZLia3I",
-    "originalUrl": "https://www.youtube.com/watch?v=9XyGUZLia3I",
-    "publisher": "김상훈",
-    "publishedAt": "2026-07-20T15:38:38Z",
-    "collectedAt": "2026-07-21T01:40:40.363Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
-    "labels": [],
-    "youtube": {
-      "videoId": "9XyGUZLia3I",
-      "channelId": "UCy6O4BqMOjIdtTadZvZZ_qg",
-      "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/9XyGUZLia3I/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 21
-    }
-  },
-  {
-    "id": "youtube_L2KaE2rrxWA",
-    "type": "youtube",
-    "title": "U6 kfa인증챌린지 대회 후기 영상, 최선을 다했다 고생했다",
-    "summary": "",
-    "url": "https://www.youtube.com/watch?v=L2KaE2rrxWA",
-    "originalUrl": "https://www.youtube.com/watch?v=L2KaE2rrxWA",
-    "publisher": "림민TV",
-    "publishedAt": "2026-07-20T15:07:48Z",
-    "collectedAt": "2026-07-21T01:40:40.363Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
-    "labels": [],
-    "youtube": {
-      "videoId": "L2KaE2rrxWA",
-      "channelId": "UC0MoNy_kUis5n7p4yTswYhA",
-      "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/L2KaE2rrxWA/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 52
-    }
   },
   {
     "id": "item_088daf72ac3daa6c",
@@ -1799,22 +1571,20 @@
     "collectedAt": "2026-07-20T14:34:03.141Z",
     "matchedKeywords": [
       "박지성",
-      "축구협회장",
       "서강일"
     ],
     "discoveryQueries": [
       "channel:UCcQTRi69dsVYHN3exePtZ1A"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_park_ji_sung",
       "person_seo_kang_il"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 14,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
@@ -1822,7 +1592,7 @@
       "videoId": "3YLOJ32mAbU",
       "channelId": "UCcQTRi69dsVYHN3exePtZ1A",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "tags": [
         "KBS",
         "KBS NEWS",
@@ -1967,7 +1737,6 @@
     "publishedAt": "2026-07-20T13:27:27Z",
     "collectedAt": "2026-07-20T14:34:03.141Z",
     "matchedKeywords": [
-      "축구협회",
       "대한축구협회",
       "축구혁신위",
       "혁신위원회"
@@ -1981,7 +1750,7 @@
     "personTags": [],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
     "labels": [],
     "youtube": {
@@ -2440,7 +2209,6 @@
       "박지성",
       "대한축구협회",
       "축구혁신위",
-      "축구협회장",
       "회장 선거",
       "혁신위원회",
       "서강일"
@@ -2469,7 +2237,7 @@
       "videoId": "3x-wizTxRwk",
       "channelId": "UC5Q7iw8fVaKP9v3NxZ7oHHQ",
       "channelStatus": "unlisted",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/3x-wizTxRwk/maxresdefault.jpg",
         "width": 1280,
@@ -3100,6 +2868,7 @@
       "홍명보",
       "김병지",
       "이임생",
+      "축협",
       "부회장",
       "김병지 부회장"
     ],
@@ -3116,7 +2885,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 41,
+    "relevanceScore": 44,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -3179,7 +2948,6 @@
     "publishedAt": "2026-07-20T11:36:34Z",
     "collectedAt": "2026-07-20T14:34:03.141Z",
     "matchedKeywords": [
-      "축구협회장",
       "혁신위원회",
       "박지성",
       "서강일",
@@ -3189,7 +2957,6 @@
       "\"K-축구혁신위원회\"|\"축구혁신위\"|\"축구 혁신\""
     ],
     "issueTags": [
-      "election",
       "innovation-committee"
     ],
     "personTags": [
@@ -3198,7 +2965,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 63,
+    "relevanceScore": 36,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -3926,7 +3693,7 @@
       "videoId": "TYdVo9_VAqY",
       "channelId": "UClsYTqCqnnVTuW7oSHilqQA",
       "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
+      "contentRelevanceTier": "primary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/TYdVo9_VAqY/maxresdefault.jpg",
         "width": 1280,
@@ -3949,8 +3716,7 @@
       "대한축구협회",
       "감독 선임",
       "감독",
-      "선임",
-      "홍명보"
+      "선임"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
@@ -3958,16 +3724,12 @@
     "issueTags": [
       "coach-appointment"
     ],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
+    "personTags": [],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 30,
     "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급"
-    ],
+    "labels": [],
     "youtube": {
       "videoId": "7YEpk99iw8A",
       "channelId": "UCsYtArRzE3gEpgq0GxvgX2A",
@@ -4061,6 +3823,7 @@
       "축구협회",
       "박지성",
       "대한축구협회",
+      "축협",
       "정몽규",
       "홍명보"
     ],
@@ -4084,7 +3847,7 @@
       "videoId": "HM6BbFGhgws",
       "channelId": "UCWAFYDPOyTG0aT1anz9bwiw",
       "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
+      "contentRelevanceTier": "primary",
       "tags": [
         "박지성",
         "이영표",
@@ -4116,25 +3879,18 @@
     "publishedAt": "2026-07-20T10:20:28Z",
     "collectedAt": "2026-07-20T14:34:03.141Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "정몽규",
-      "홍명보"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
-    ],
+    "personTags": [],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 32,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급"
-    ],
+    "labels": [],
     "youtube": {
       "videoId": "pKa8BvuCvdg",
       "channelId": "UCsYtArRzE3gEpgq0GxvgX2A",
@@ -4587,7 +4343,8 @@
       "축구혁신위",
       "축구협회",
       "박지성",
-      "대한축구협회"
+      "대한축구협회",
+      "축협"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\"",
@@ -4822,39 +4579,6 @@
     ]
   },
   {
-    "id": "item_3509bdd81b3e71e2",
-    "type": "news",
-    "title": "K-축구 혁신위 3차 회의 발언하는 박지성 공동위원장",
-    "summary": "= 박지성 K- 축구혁신위 원회 공동위원장이 20일 오후 서울시 종로구 국립현대미술관 사무동에서 열린 K- 축구 혁신위 원회 3차 회의에서 발언하고 있다. (문화체육관광부 제공. 재판매 및 DB 금지) 2026.7.20/뉴스1",
-    "url": "https://www.news1.kr/photos/8016943",
-    "originalUrl": "https://www.news1.kr/photos/8016943",
-    "publisher": "news1.kr",
-    "publishedAt": "2026-07-20T09:41:00.000Z",
-    "collectedAt": "2026-07-20T11:28:30.538Z",
-    "matchedKeywords": [
-      "축구 혁신",
-      "박지성",
-      "축구혁신위"
-    ],
-    "discoveryQueries": [
-      "축구 혁신",
-      "축구혁신위",
-      "K-축구혁신위원회"
-    ],
-    "issueTags": [
-      "innovation-committee"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 31,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
     "id": "item_2470d2af40b69c5f",
     "type": "news",
     "title": "대화하는 최휘영 장관과 박지성 공동위원장",
@@ -4884,6 +4608,39 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_3509bdd81b3e71e2",
+    "type": "news",
+    "title": "K-축구 혁신위 3차 회의 발언하는 박지성 공동위원장",
+    "summary": "= 박지성 K- 축구혁신위 원회 공동위원장이 20일 오후 서울시 종로구 국립현대미술관 사무동에서 열린 K- 축구 혁신위 원회 3차 회의에서 발언하고 있다. (문화체육관광부 제공. 재판매 및 DB 금지) 2026.7.20/뉴스1",
+    "url": "https://www.news1.kr/photos/8016943",
+    "originalUrl": "https://www.news1.kr/photos/8016943",
+    "publisher": "news1.kr",
+    "publishedAt": "2026-07-20T09:41:00.000Z",
+    "collectedAt": "2026-07-20T11:28:30.538Z",
+    "matchedKeywords": [
+      "축구 혁신",
+      "박지성",
+      "축구혁신위"
+    ],
+    "discoveryQueries": [
+      "축구 혁신",
+      "축구혁신위",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ]
@@ -5039,14 +4796,11 @@
     "matchedKeywords": [
       "축구 혁신",
       "대한축구협회",
-      "축구혁신위",
       "회장 선거",
       "선거인단",
       "선거인",
       "제도 개편",
       "혁신위원회",
-      "정몽규",
-      "홍명보",
       "박지성"
     ],
     "discoveryQueries": [
@@ -5061,14 +4815,11 @@
       "statute-revision"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
       "person_park_ji_sung"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 43,
-    "relevanceTier": "secondary",
+    "relevanceScore": 37,
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
@@ -5077,7 +4828,7 @@
       "videoId": "2XlSrnAUgik",
       "channelId": "UCcQTRi69dsVYHN3exePtZ1A",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "secondary",
+      "contentRelevanceTier": "primary",
       "tags": [
         "K-축구혁신위",
         "KBS",
@@ -5133,6 +4884,45 @@
     "relevanceScore": 6,
     "relevanceTier": "secondary",
     "labels": []
+  },
+  {
+    "id": "item_2a76fc5388f25c4a",
+    "type": "news",
+    "title": "서강일 전북축구협회장 '박지성이 뭘 안다고' 발언에 박지성 \"위치에 맞...",
+    "summary": "최근 서강일 전북특별자치도 축구협회 장은 \"박지성, 이영표가 뭘 안다고 K- 축구 혁신위 원회를 하는지 모르겠다\"는 말을 해 논란을 샀다. 이어 서강일 협회 장은 \"박지성과 이영표가 축구 로서는 국가대표였지만, 인생을 어마나...",
+    "url": "http://www.stoo.com/article.php?aid=107832137353",
+    "originalUrl": "http://www.stoo.com/article.php?aid=107832137353",
+    "publisher": "stoo.com",
+    "publishedAt": "2026-07-20T09:26:00.000Z",
+    "collectedAt": "2026-07-20T11:28:30.538Z",
+    "matchedKeywords": [
+      "박지성",
+      "서강일",
+      "축구 혁신"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "축구 혁신",
+      "축구혁신위",
+      "축구협회 혁신위원회",
+      "축구협회 K-혁신위",
+      "축구협회장",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung",
+      "person_seo_kang_il"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 26,
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_32b88bd386ec1023",
@@ -5234,45 +5024,6 @@
     ]
   },
   {
-    "id": "item_2a76fc5388f25c4a",
-    "type": "news",
-    "title": "서강일 전북축구협회장 '박지성이 뭘 안다고' 발언에 박지성 \"위치에 맞...",
-    "summary": "최근 서강일 전북특별자치도 축구협회 장은 \"박지성, 이영표가 뭘 안다고 K- 축구 혁신위 원회를 하는지 모르겠다\"는 말을 해 논란을 샀다. 이어 서강일 협회 장은 \"박지성과 이영표가 축구 로서는 국가대표였지만, 인생을 어마나...",
-    "url": "http://www.stoo.com/article.php?aid=107832137353",
-    "originalUrl": "http://www.stoo.com/article.php?aid=107832137353",
-    "publisher": "stoo.com",
-    "publishedAt": "2026-07-20T09:26:00.000Z",
-    "collectedAt": "2026-07-20T11:28:30.538Z",
-    "matchedKeywords": [
-      "박지성",
-      "서강일",
-      "축구 혁신"
-    ],
-    "discoveryQueries": [
-      "\"박지성\" 선거",
-      "\"박지성\" 축구협회",
-      "축구 혁신",
-      "축구혁신위",
-      "축구협회 혁신위원회",
-      "축구협회 K-혁신위",
-      "축구협회장",
-      "K-축구혁신위원회"
-    ],
-    "issueTags": [
-      "innovation-committee"
-    ],
-    "personTags": [
-      "person_park_ji_sung",
-      "person_seo_kang_il"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 26,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
     "id": "youtube_b0UtMe6mvXs",
     "type": "youtube",
     "title": "스페인 월드컵 우승 / K-축구혁신위원회 3차 회의 /돌아온 K리그 선두 서울, 추격하는 강원",
@@ -5315,65 +5066,6 @@
       },
       "durationSeconds": 3772
     }
-  },
-  {
-    "id": "item_d632fca286b3983b",
-    "type": "news",
-    "title": "월드컵 잔치 끝난 날…K-축구 혁신위 3차 회의 [현장영상]",
-    "summary": "대한 축구협회 회장 선거인단 확대와 관련해, 박지성 'K- 축구 혁신위 원회'(이하 혁신위 ) 공동위원장은 일부의 반발을 예상하면서도 \"선거 제도 개편이 원점으로 돌아가지는 않을 것\"이라고 못 박았습니다. 혁신위 는 20일...",
-    "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8615053&ref=A",
-    "originalUrl": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8615053&ref=A",
-    "publisher": "news.kbs.co.kr",
-    "publishedAt": "2026-07-20T09:25:00.000Z",
-    "collectedAt": "2026-07-20T11:28:30.538Z",
-    "matchedKeywords": [
-      "축구 혁신",
-      "대한 축구협회",
-      "회장 선거",
-      "선거인단",
-      "선거인",
-      "제도 개편",
-      "박지성"
-    ],
-    "discoveryQueries": [
-      "\"박지성\" 대한축구협회",
-      "\"박지성\" 선거",
-      "\"박지성\" 축구협회",
-      "대한축구협회",
-      "대한축구협회장",
-      "축구 혁신",
-      "축구혁신위",
-      "축구협회 규정 개정",
-      "축구협회 대의원",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 이사회",
-      "축구협회 정관",
-      "축구협회 정관 개정",
-      "축구협회 제도 개편",
-      "축구협회 혁신위원회",
-      "축구협회 회장 선거",
-      "축구협회 K-혁신위",
-      "축구협회장",
-      "K-축구혁신위원회"
-    ],
-    "issueTags": [
-      "innovation-committee",
-      "election",
-      "electoral-college",
-      "statute-revision"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 37,
-    "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급",
-      "선거 키워드 포함"
-    ]
   },
   {
     "id": "item_3998a8aef0e97d32",
@@ -5431,6 +5123,65 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 46,
+    "labels": [
+      "인물 언급",
+      "선거 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_d632fca286b3983b",
+    "type": "news",
+    "title": "월드컵 잔치 끝난 날…K-축구 혁신위 3차 회의 [현장영상]",
+    "summary": "대한 축구협회 회장 선거인단 확대와 관련해, 박지성 'K- 축구 혁신위 원회'(이하 혁신위 ) 공동위원장은 일부의 반발을 예상하면서도 \"선거 제도 개편이 원점으로 돌아가지는 않을 것\"이라고 못 박았습니다. 혁신위 는 20일...",
+    "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8615053&ref=A",
+    "originalUrl": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8615053&ref=A",
+    "publisher": "news.kbs.co.kr",
+    "publishedAt": "2026-07-20T09:25:00.000Z",
+    "collectedAt": "2026-07-20T11:28:30.538Z",
+    "matchedKeywords": [
+      "축구 혁신",
+      "대한 축구협회",
+      "회장 선거",
+      "선거인단",
+      "선거인",
+      "제도 개편",
+      "박지성"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구 혁신",
+      "축구혁신위",
+      "축구협회 규정 개정",
+      "축구협회 대의원",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 이사회",
+      "축구협회 정관",
+      "축구협회 정관 개정",
+      "축구협회 제도 개편",
+      "축구협회 혁신위원회",
+      "축구협회 회장 선거",
+      "축구협회 K-혁신위",
+      "축구협회장",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "innovation-committee",
+      "election",
+      "electoral-college",
+      "statute-revision"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 37,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
@@ -5523,12 +5274,12 @@
     "labels": []
   },
   {
-    "id": "item_9d2d664303e6b554",
+    "id": "item_7ca588024b08e86f",
     "type": "news",
-    "title": "발언하는 박지성 위원장",
-    "summary": "박지성 K- 축구혁신 위원회 공동위원장이 20일 서울 종로구 국립현대미술관 서울관에서 열린 K- 축구혁신 위원회 3차 회의에서 발언하고 있다. (사진=문화체육관광부 제공) 2026.07.20. photo@newsis.com *재판매 및...",
-    "url": "https://www.newsis.com/view/NISI20260720_0021371295",
-    "originalUrl": "https://www.newsis.com/view/NISI20260720_0021371295",
+    "title": "박지성 공동위원장과 대화하는 최휘영 문체부 장관",
+    "summary": "최휘영 문화체육관광부 장관이 20일 서울 종로구 국립현대미술관 서울관에서 열린 K- 축구혁신 위원회 3차 회의에서 박지성 공동위원장과 대화하고 있다. (사진=문화체육관광부 제공) 2026.07.20. photo@newsis.com...",
+    "url": "https://www.newsis.com/view/NISI20260720_0021371292",
+    "originalUrl": "https://www.newsis.com/view/NISI20260720_0021371292",
     "publisher": "newsis.com",
     "publishedAt": "2026-07-20T09:16:00.000Z",
     "collectedAt": "2026-07-20T11:28:30.538Z",
@@ -5551,12 +5302,12 @@
     ]
   },
   {
-    "id": "item_7ca588024b08e86f",
+    "id": "item_9d2d664303e6b554",
     "type": "news",
-    "title": "박지성 공동위원장과 대화하는 최휘영 문체부 장관",
-    "summary": "최휘영 문화체육관광부 장관이 20일 서울 종로구 국립현대미술관 서울관에서 열린 K- 축구혁신 위원회 3차 회의에서 박지성 공동위원장과 대화하고 있다. (사진=문화체육관광부 제공) 2026.07.20. photo@newsis.com...",
-    "url": "https://www.newsis.com/view/NISI20260720_0021371292",
-    "originalUrl": "https://www.newsis.com/view/NISI20260720_0021371292",
+    "title": "발언하는 박지성 위원장",
+    "summary": "박지성 K- 축구혁신 위원회 공동위원장이 20일 서울 종로구 국립현대미술관 서울관에서 열린 K- 축구혁신 위원회 3차 회의에서 발언하고 있다. (사진=문화체육관광부 제공) 2026.07.20. photo@newsis.com *재판매 및...",
+    "url": "https://www.newsis.com/view/NISI20260720_0021371295",
+    "originalUrl": "https://www.newsis.com/view/NISI20260720_0021371295",
     "publisher": "newsis.com",
     "publishedAt": "2026-07-20T09:16:00.000Z",
     "collectedAt": "2026-07-20T11:28:30.538Z",
@@ -5601,7 +5352,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 21,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -5752,7 +5503,6 @@
     "collectedAt": "2026-07-20T14:34:03.141Z",
     "matchedKeywords": [
       "K-축구혁신위원회",
-      "축구협회",
       "축구혁신위",
       "혁신위원회",
       "박지성",
@@ -5772,7 +5522,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 57,
+    "relevanceScore": 47,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -6094,6 +5844,7 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 28,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
@@ -6101,7 +5852,7 @@
       "videoId": "DW0xZqivoaw",
       "channelId": "UCsU-I-vHLiaMfV_ceaYz5rQ",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/DW0xZqivoaw/maxresdefault.jpg",
         "width": 1280,
@@ -6251,7 +6002,6 @@
       "박지성",
       "축구혁신위",
       "혁신위원회",
-      "축구 혁신",
       "서강일"
     ],
     "discoveryQueries": [
@@ -6360,29 +6110,23 @@
     "publishedAt": "2026-07-20T09:00:24Z",
     "collectedAt": "2026-07-20T14:34:03.141Z",
     "matchedKeywords": [
-      "정몽규",
-      "홍명보"
+      "축구협회"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
-    ],
+    "personTags": [],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급"
-    ],
+    "labels": [],
     "youtube": {
       "videoId": "FfdMnfkiLks",
       "channelId": "UCWI2LIxZM8d6jEN3boLmbcQ",
       "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
+      "contentRelevanceTier": "primary",
       "tags": [
         "임오경",
         "국회의원",
@@ -6437,6 +6181,59 @@
     "relevanceScore": 21,
     "labels": [
       "인물 언급"
+    ]
+  },
+  {
+    "id": "item_601a01bcae5d8495",
+    "type": "news",
+    "title": "[442.live] 'KFA 선거인단 개편' 박지성 위원장, \"반발 예상해...개편안이...",
+    "summary": "회장 궐위 시 60일 이내 신임 회장 선출 기한을 연장하는 개정안이 오늘 스포츠공정위에서 의결되고, 21일에서 22일 이사회 의결(대한 축구협회 선거 연장 건 포함) 예정이다\"며 회장 궐위 시 60일 이내 신임 회장을 선출하는...",
+    "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95056",
+    "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95056",
+    "publisher": "fourfourtwo.co.kr",
+    "publishedAt": "2026-07-20T09:00:00.000Z",
+    "collectedAt": "2026-07-20T11:28:30.538Z",
+    "matchedKeywords": [
+      "KFA",
+      "선거인단",
+      "선거인",
+      "박지성",
+      "대한 축구협회",
+      "이사회"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 규정 개정",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 이사회",
+      "축구협회 정관",
+      "축구협회 정관 개정",
+      "축구협회 혁신위원회",
+      "축구협회 회장 선거",
+      "축구협회장",
+      "KFA"
+    ],
+    "issueTags": [
+      "electoral-college",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 53,
+    "labels": [
+      "인물 언급",
+      "선거 키워드 포함"
     ]
   },
   {
@@ -6497,53 +6294,48 @@
     ]
   },
   {
-    "id": "item_601a01bcae5d8495",
+    "id": "item_0b971a7b8ea0c36e",
     "type": "news",
-    "title": "[442.live] 'KFA 선거인단 개편' 박지성 위원장, \"반발 예상해...개편안이...",
-    "summary": "회장 궐위 시 60일 이내 신임 회장 선출 기한을 연장하는 개정안이 오늘 스포츠공정위에서 의결되고, 21일에서 22일 이사회 의결(대한 축구협회 선거 연장 건 포함) 예정이다\"며 회장 궐위 시 60일 이내 신임 회장을 선출하는...",
-    "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95056",
-    "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95056",
-    "publisher": "fourfourtwo.co.kr",
-    "publishedAt": "2026-07-20T09:00:00.000Z",
+    "title": "축구협회장 선거 개편 속도…박지성 \"소수의 사람이 한 사람 밀어주는 ...",
+    "summary": "'체육관 선거'로 비판 받았던 대한 축구협회 장 선거 제도 의 대수술이 본격적으로 시작된다. 정부 주도의 K- 축구 혁신위는 20일 국립현대미술관에서 3차 회의를 열고 선거인단 확대 방안 등을 논의했다. 회의를 마친 박지성...",
+    "url": "https://news.tvchosun.com/site/data/html_dir/2026/07/20/2026072090217.html",
+    "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/07/20/2026072090217.html",
+    "publisher": "news.tvchosun.com",
+    "publishedAt": "2026-07-20T08:58:00.000Z",
     "collectedAt": "2026-07-20T11:28:30.538Z",
     "matchedKeywords": [
-      "KFA",
-      "선거인단",
-      "선거인",
+      "축구협회장",
+      "회장 선거",
       "박지성",
       "대한 축구협회",
-      "이사회"
+      "선거인단",
+      "선거인",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
       "\"박지성\" 선거",
       "\"박지성\" 축구협회",
-      "\"정몽규\" 대한축구협회",
-      "\"정몽규\" 선거",
-      "\"정몽규\" 축구협회",
       "대한축구협회",
       "대한축구협회장",
-      "축구협회 규정 개정",
+      "축구혁신위",
       "축구협회 선거인",
       "축구협회 선거인단",
-      "축구협회 이사회",
-      "축구협회 정관",
-      "축구협회 정관 개정",
+      "축구협회 제도 개편",
       "축구협회 혁신위원회",
-      "축구협회 회장 선거",
-      "축구협회장",
-      "KFA"
+      "축구협회 K-혁신위"
     ],
     "issueTags": [
+      "election",
       "electoral-college",
-      "kfa-executives"
+      "innovation-committee"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 53,
+    "relevanceScore": 47,
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
@@ -6594,54 +6386,6 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 46,
-    "labels": [
-      "인물 언급",
-      "선거 키워드 포함"
-    ]
-  },
-  {
-    "id": "item_0b971a7b8ea0c36e",
-    "type": "news",
-    "title": "축구협회장 선거 개편 속도…박지성 \"소수의 사람이 한 사람 밀어주는 ...",
-    "summary": "'체육관 선거'로 비판 받았던 대한 축구협회 장 선거 제도 의 대수술이 본격적으로 시작된다. 정부 주도의 K- 축구 혁신위는 20일 국립현대미술관에서 3차 회의를 열고 선거인단 확대 방안 등을 논의했다. 회의를 마친 박지성...",
-    "url": "https://news.tvchosun.com/site/data/html_dir/2026/07/20/2026072090217.html",
-    "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/07/20/2026072090217.html",
-    "publisher": "news.tvchosun.com",
-    "publishedAt": "2026-07-20T08:58:00.000Z",
-    "collectedAt": "2026-07-20T11:28:30.538Z",
-    "matchedKeywords": [
-      "축구협회장",
-      "회장 선거",
-      "박지성",
-      "대한 축구협회",
-      "선거인단",
-      "선거인",
-      "축구 혁신"
-    ],
-    "discoveryQueries": [
-      "\"박지성\" 대한축구협회",
-      "\"박지성\" 선거",
-      "\"박지성\" 축구협회",
-      "대한축구협회",
-      "대한축구협회장",
-      "축구혁신위",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 제도 개편",
-      "축구협회 혁신위원회",
-      "축구협회 K-혁신위"
-    ],
-    "issueTags": [
-      "election",
-      "electoral-college",
-      "innovation-committee"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 47,
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
@@ -6854,7 +6598,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
-      "정몽규"
+      "청문회"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\"",
@@ -6862,12 +6606,11 @@
     ],
     "issueTags": [],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_chung_mong_gyu"
+      "person_hong_myung_bo"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 23,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -6930,45 +6673,6 @@
     ]
   },
   {
-    "id": "item_eec9a22aecb9b063",
-    "type": "news",
-    "title": "박지성, 서강일 전북축구협회장 '뭘 알아' 발언에 \"위치에 안 맞는 행동...",
-    "summary": "박지성 ·이영표 위원을 향해 \"뭘 안다고 혁신위원회를 하나\", \"인생을 얼마나 살았고 경험이 얼마나 있다고 혁신을 말하냐\"고 말해 논란의 중심에 섰습니다. 한편, K- 축구 혁신위원회는 세번째 회의에서 대한축구협회 장...",
-    "url": "http://www.yonhapnewstv.co.kr/news/AKR20260720174514IWx",
-    "originalUrl": "http://www.yonhapnewstv.co.kr/news/AKR20260720174514IWx",
-    "publisher": "yonhapnewstv.co.kr",
-    "publishedAt": "2026-07-20T08:46:00.000Z",
-    "collectedAt": "2026-07-20T11:28:30.538Z",
-    "matchedKeywords": [
-      "축구협회장",
-      "박지성",
-      "서강일",
-      "대한축구협회",
-      "혁신위원회",
-      "축구 혁신"
-    ],
-    "discoveryQueries": [
-      "\"박지성\" 대한축구협회",
-      "축구협회 선거인",
-      "축구협회 선거인단",
-      "축구협회 K-혁신위"
-    ],
-    "issueTags": [
-      "election",
-      "innovation-committee"
-    ],
-    "personTags": [
-      "person_park_ji_sung",
-      "person_seo_kang_il"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 49,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
     "id": "item_3210d5788582322c",
     "type": "news",
     "title": "역대 최고 흥행 북중미 월드컵…‘돈벌이·트럼프 입김’은 눈살",
@@ -7008,6 +6712,76 @@
     "isOfficial": false,
     "relevanceScore": 19,
     "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_eec9a22aecb9b063",
+    "type": "news",
+    "title": "박지성, 서강일 전북축구협회장 '뭘 알아' 발언에 \"위치에 안 맞는 행동...",
+    "summary": "박지성 ·이영표 위원을 향해 \"뭘 안다고 혁신위원회를 하나\", \"인생을 얼마나 살았고 경험이 얼마나 있다고 혁신을 말하냐\"고 말해 논란의 중심에 섰습니다. 한편, K- 축구 혁신위원회는 세번째 회의에서 대한축구협회 장...",
+    "url": "http://www.yonhapnewstv.co.kr/news/AKR20260720174514IWx",
+    "originalUrl": "http://www.yonhapnewstv.co.kr/news/AKR20260720174514IWx",
+    "publisher": "yonhapnewstv.co.kr",
+    "publishedAt": "2026-07-20T08:46:00.000Z",
+    "collectedAt": "2026-07-20T11:28:30.538Z",
+    "matchedKeywords": [
+      "축구협회장",
+      "박지성",
+      "서강일",
+      "대한축구협회",
+      "혁신위원회",
+      "축구 혁신"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 K-혁신위"
+    ],
+    "issueTags": [
+      "election",
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung",
+      "person_seo_kang_il"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 49,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_3ffd18ca4ce194ea",
+    "type": "news",
+    "title": "'K-축구 혁신위원장' 박지성, 5년 만 '유퀴즈' 뜬다",
+    "summary": "K- 축구 혁신위 는 대한 축구협회 를 비롯한 축구 계 전반의 혁신 요구에 따라 설립된 임시 위원회다. 이번 유퀴즈 출연에서 대한민국 축구 국가대표팀을 둘러싼 현 실태에 대해 언급할지 관심이 모아진다.",
+    "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=543247",
+    "originalUrl": "https://www.stardailynews.co.kr/news/articleView.html?idxno=543247",
+    "publisher": "stardailynews.co.kr",
+    "publishedAt": "2026-07-20T08:40:00.000Z",
+    "collectedAt": "2026-07-20T11:28:30.538Z",
+    "matchedKeywords": [
+      "축구 혁신",
+      "박지성",
+      "대한 축구협회"
+    ],
+    "discoveryQueries": [
+      "축구협회 K-혁신위"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -7054,37 +6828,6 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 55,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_3ffd18ca4ce194ea",
-    "type": "news",
-    "title": "'K-축구 혁신위원장' 박지성, 5년 만 '유퀴즈' 뜬다",
-    "summary": "K- 축구 혁신위 는 대한 축구협회 를 비롯한 축구 계 전반의 혁신 요구에 따라 설립된 임시 위원회다. 이번 유퀴즈 출연에서 대한민국 축구 국가대표팀을 둘러싼 현 실태에 대해 언급할지 관심이 모아진다.",
-    "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=543247",
-    "originalUrl": "https://www.stardailynews.co.kr/news/articleView.html?idxno=543247",
-    "publisher": "stardailynews.co.kr",
-    "publishedAt": "2026-07-20T08:40:00.000Z",
-    "collectedAt": "2026-07-20T11:28:30.538Z",
-    "matchedKeywords": [
-      "축구 혁신",
-      "박지성",
-      "대한 축구협회"
-    ],
-    "discoveryQueries": [
-      "축구협회 K-혁신위"
-    ],
-    "issueTags": [
-      "innovation-committee"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -7141,7 +6884,6 @@
     "publishedAt": "2026-07-20T08:35:40Z",
     "collectedAt": "2026-07-20T08:46:40.259Z",
     "matchedKeywords": [
-      "축구협회장",
       "박지성",
       "축구 혁신",
       "정몽규",
@@ -7152,7 +6894,6 @@
       "channel:UCTHCOPwqNfZ0uiKOvFyhGwg"
     ],
     "issueTags": [
-      "election",
       "innovation-committee"
     ],
     "personTags": [
@@ -7162,7 +6903,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ],
@@ -7262,6 +7003,7 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 15,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
@@ -7269,7 +7011,7 @@
       "videoId": "5P2lbGcfnI4",
       "channelId": "UCsU-I-vHLiaMfV_ceaYz5rQ",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/5P2lbGcfnI4/maxresdefault.jpg",
         "width": 1280,
@@ -7305,6 +7047,37 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_1068c226941fc54f",
+    "type": "news",
+    "title": "\"기득권 그득\" 축구협회 듣고 있나? 구자철 '피 끓는 작심발언' 누구를...",
+    "summary": "현장 지도자들이 올바른 방향으로 나아갈 수 있도록 길을 닦아줘야 할 협회 가 오히려 뒷짐만 지고 있다는 지적이다. 결국 구자철 의 이번 발언은 단순히 \"한국 축구 가 위기다\"라는 단순한 한탄이 아니다. 낡은 방식에 갇힌...",
+    "url": "https://www.starnewskorea.com/sports/2026/07/20/2026072015451759308",
+    "originalUrl": "https://www.starnewskorea.com/sports/2026/07/20/2026072015451759308",
+    "publisher": "starnewskorea.com",
+    "publishedAt": "2026-07-20T08:27:00.000Z",
+    "collectedAt": "2026-07-20T08:28:45.817Z",
+    "matchedKeywords": [
+      "축구협회",
+      "구자철"
+    ],
+    "discoveryQueries": [
+      "\"구자철\" 대한축구협회",
+      "\"구자철\" 축구협회",
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_koo_ja_cheol"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -7363,37 +7136,6 @@
     "relevanceScore": 57,
     "labels": [
       "선거 키워드 포함"
-    ]
-  },
-  {
-    "id": "item_1068c226941fc54f",
-    "type": "news",
-    "title": "\"기득권 그득\" 축구협회 듣고 있나? 구자철 '피 끓는 작심발언' 누구를...",
-    "summary": "현장 지도자들이 올바른 방향으로 나아갈 수 있도록 길을 닦아줘야 할 협회 가 오히려 뒷짐만 지고 있다는 지적이다. 결국 구자철 의 이번 발언은 단순히 \"한국 축구 가 위기다\"라는 단순한 한탄이 아니다. 낡은 방식에 갇힌...",
-    "url": "https://www.starnewskorea.com/sports/2026/07/20/2026072015451759308",
-    "originalUrl": "https://www.starnewskorea.com/sports/2026/07/20/2026072015451759308",
-    "publisher": "starnewskorea.com",
-    "publishedAt": "2026-07-20T08:27:00.000Z",
-    "collectedAt": "2026-07-20T08:28:45.817Z",
-    "matchedKeywords": [
-      "축구협회",
-      "구자철"
-    ],
-    "discoveryQueries": [
-      "\"구자철\" 대한축구협회",
-      "\"구자철\" 축구협회",
-      "대한축구협회"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_koo_ja_cheol"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 21,
-    "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급"
     ]
   },
   {
@@ -7482,39 +7224,6 @@
     ]
   },
   {
-    "id": "item_836f11cdeffe951f",
-    "type": "news",
-    "title": "축구혁신위에 쏠린 눈",
-    "summary": "박지성 K- 축구혁신 위원회 공동위원장이 20일 오후 서울시 종로구 국립현대미술관 사무동에서 열린 K- 축구 혁신 위원회 3차 회의를 마친 뒤 브리핑을 하고 있다. 2026.7.20/뉴스1",
-    "url": "https://www.news1.kr/photos/8016841",
-    "originalUrl": "https://www.news1.kr/photos/8016841",
-    "publisher": "news1.kr",
-    "publishedAt": "2026-07-20T08:23:00.000Z",
-    "collectedAt": "2026-07-20T08:28:45.817Z",
-    "matchedKeywords": [
-      "축구혁신위",
-      "축구 혁신",
-      "박지성"
-    ],
-    "discoveryQueries": [
-      "축구 혁신",
-      "축구혁신위",
-      "K-축구혁신위원회"
-    ],
-    "issueTags": [
-      "innovation-committee"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 37,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
     "id": "item_7f928f6339a80bcd",
     "type": "news",
     "title": "3차 혁신위 마친 박지성",
@@ -7548,12 +7257,79 @@
     ]
   },
   {
+    "id": "item_836f11cdeffe951f",
+    "type": "news",
+    "title": "축구혁신위에 쏠린 눈",
+    "summary": "박지성 K- 축구혁신 위원회 공동위원장이 20일 오후 서울시 종로구 국립현대미술관 사무동에서 열린 K- 축구 혁신 위원회 3차 회의를 마친 뒤 브리핑을 하고 있다. 2026.7.20/뉴스1",
+    "url": "https://www.news1.kr/photos/8016841",
+    "originalUrl": "https://www.news1.kr/photos/8016841",
+    "publisher": "news1.kr",
+    "publishedAt": "2026-07-20T08:23:00.000Z",
+    "collectedAt": "2026-07-20T08:28:45.817Z",
+    "matchedKeywords": [
+      "축구혁신위",
+      "축구 혁신",
+      "박지성"
+    ],
+    "discoveryQueries": [
+      "축구 혁신",
+      "축구혁신위",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 37,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_148eb9c65cb6c761",
     "type": "news",
     "title": "K-축구혁신위원회 3차 회의 브리핑하는 박지성 공동위원장",
     "summary": "박지성 K-축구 혁신위원회 공동위원장이 20일 오후 서울 종로구 국립현대미술관 서울관 사무동에서 ' K-축구혁신위원회 3차 회의'를 마친 뒤 취재진 질문에 답하고 있다. 2026.07.20. kgb@newsis.com",
     "url": "https://www.newsis.com/view/NISI20260720_0021371228",
     "originalUrl": "https://www.newsis.com/view/NISI20260720_0021371228",
+    "publisher": "newsis.com",
+    "publishedAt": "2026-07-20T08:22:00.000Z",
+    "collectedAt": "2026-07-20T08:28:45.817Z",
+    "matchedKeywords": [
+      "K-축구혁신위원회",
+      "축구혁신위",
+      "혁신위원회",
+      "박지성",
+      "축구 혁신"
+    ],
+    "discoveryQueries": [
+      "축구 혁신",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 51,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_683b8e39945ec036",
+    "type": "news",
+    "title": "취재진 질문 듣는 박지성 K-축구혁신위원회 공동위원장",
+    "summary": "박지성 K-축구 혁신위원회 공동위원장이 20일 오후 서울 종로구 국립현대미술관 서울관 사무동에서 ' K-축구혁신위원회 3차 회의'를 마친 뒤 취재진 질문을 듣고 있다. 2026.07.20. kgb@newsis.com",
+    "url": "https://www.newsis.com/view/NISI20260720_0021371230",
+    "originalUrl": "https://www.newsis.com/view/NISI20260720_0021371230",
     "publisher": "newsis.com",
     "publishedAt": "2026-07-20T08:22:00.000Z",
     "collectedAt": "2026-07-20T08:28:45.817Z",
@@ -7616,21 +7392,19 @@
     ]
   },
   {
-    "id": "item_683b8e39945ec036",
+    "id": "item_5b192c6ef799441c",
     "type": "news",
-    "title": "취재진 질문 듣는 박지성 K-축구혁신위원회 공동위원장",
-    "summary": "박지성 K-축구 혁신위원회 공동위원장이 20일 오후 서울 종로구 국립현대미술관 서울관 사무동에서 ' K-축구혁신위원회 3차 회의'를 마친 뒤 취재진 질문을 듣고 있다. 2026.07.20. kgb@newsis.com",
-    "url": "https://www.newsis.com/view/NISI20260720_0021371230",
-    "originalUrl": "https://www.newsis.com/view/NISI20260720_0021371230",
-    "publisher": "newsis.com",
-    "publishedAt": "2026-07-20T08:22:00.000Z",
+    "title": "K-축구혁신위원회 3차 회의 마친 김대현 제2차관",
+    "summary": "김대현 문화체육관광부 제2차관이 20일 서울 종로구 국립현대미술관에서 열린 K-축구혁신위원회 3차 회의를 마친 뒤 회의실을 나서고 있다. 2026.7.20",
+    "url": "https://www.yna.co.kr/view/PYH20260720185500013?input=1196m",
+    "originalUrl": "https://www.yna.co.kr/view/PYH20260720185500013?input=1196m",
+    "publisher": "yna.co.kr",
+    "publishedAt": "2026-07-20T08:20:00.000Z",
     "collectedAt": "2026-07-20T08:28:45.817Z",
     "matchedKeywords": [
       "K-축구혁신위원회",
       "축구혁신위",
-      "혁신위원회",
-      "박지성",
-      "축구 혁신"
+      "혁신위원회"
     ],
     "discoveryQueries": [
       "축구 혁신",
@@ -7639,15 +7413,11 @@
     "issueTags": [
       "innovation-committee"
     ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 51,
-    "labels": [
-      "인물 언급"
-    ]
+    "relevanceScore": 40,
+    "labels": []
   },
   {
     "id": "item_93d175daa8db844f",
@@ -7711,34 +7481,6 @@
     ]
   },
   {
-    "id": "item_5b192c6ef799441c",
-    "type": "news",
-    "title": "K-축구혁신위원회 3차 회의 마친 김대현 제2차관",
-    "summary": "김대현 문화체육관광부 제2차관이 20일 서울 종로구 국립현대미술관에서 열린 K-축구혁신위원회 3차 회의를 마친 뒤 회의실을 나서고 있다. 2026.7.20",
-    "url": "https://www.yna.co.kr/view/PYH20260720185500013?input=1196m",
-    "originalUrl": "https://www.yna.co.kr/view/PYH20260720185500013?input=1196m",
-    "publisher": "yna.co.kr",
-    "publishedAt": "2026-07-20T08:20:00.000Z",
-    "collectedAt": "2026-07-20T08:28:45.817Z",
-    "matchedKeywords": [
-      "K-축구혁신위원회",
-      "축구혁신위",
-      "혁신위원회"
-    ],
-    "discoveryQueries": [
-      "축구 혁신",
-      "K-축구혁신위원회"
-    ],
-    "issueTags": [
-      "innovation-committee"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 40,
-    "labels": []
-  },
-  {
     "id": "item_0a2b77deae38b432",
     "type": "news",
     "title": "브리핑 하는 박지성",
@@ -7765,6 +7507,39 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 15,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_80a6ca7b72384e2d",
+    "type": "news",
+    "title": "축구혁신위 \"국민 신뢰 회복에 방점\"",
+    "summary": "박지성 K- 축구혁신위 원회 공동위원장이 20일 오후 서울시 종로구 국립현대미술관 사무동에서 열린 K- 축구 혁신위 원회 3차 회의를 마친 뒤 브리핑을 하고 있다. 2026.7.20/뉴스1",
+    "url": "https://www.news1.kr/photos/8016834",
+    "originalUrl": "https://www.news1.kr/photos/8016834",
+    "publisher": "news1.kr",
+    "publishedAt": "2026-07-20T08:19:00.000Z",
+    "collectedAt": "2026-07-20T08:28:45.817Z",
+    "matchedKeywords": [
+      "축구혁신위",
+      "축구 혁신",
+      "박지성"
+    ],
+    "discoveryQueries": [
+      "축구 혁신",
+      "축구혁신위",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ]
@@ -7804,39 +7579,6 @@
     "summary": "박지성 K- 축구혁신위 원회 공동위원장이 20일 오후 서울시 종로구 국립현대미술관 사무동에서 열린 K- 축구 혁신위 원회 3차 회의를 마친 뒤 브리핑을 하고 있다. 2026.7.20/뉴스1",
     "url": "https://www.news1.kr/photos/8016832",
     "originalUrl": "https://www.news1.kr/photos/8016832",
-    "publisher": "news1.kr",
-    "publishedAt": "2026-07-20T08:19:00.000Z",
-    "collectedAt": "2026-07-20T08:28:45.817Z",
-    "matchedKeywords": [
-      "축구혁신위",
-      "축구 혁신",
-      "박지성"
-    ],
-    "discoveryQueries": [
-      "축구 혁신",
-      "축구혁신위",
-      "K-축구혁신위원회"
-    ],
-    "issueTags": [
-      "innovation-committee"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 43,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_80a6ca7b72384e2d",
-    "type": "news",
-    "title": "축구혁신위 \"국민 신뢰 회복에 방점\"",
-    "summary": "박지성 K- 축구혁신위 원회 공동위원장이 20일 오후 서울시 종로구 국립현대미술관 사무동에서 열린 K- 축구 혁신위 원회 3차 회의를 마친 뒤 브리핑을 하고 있다. 2026.7.20/뉴스1",
-    "url": "https://www.news1.kr/photos/8016834",
-    "originalUrl": "https://www.news1.kr/photos/8016834",
     "publisher": "news1.kr",
     "publishedAt": "2026-07-20T08:19:00.000Z",
     "collectedAt": "2026-07-20T08:28:45.817Z",
@@ -8005,15 +7747,13 @@
     "publishedAt": "2026-07-20T08:12:31Z",
     "collectedAt": "2026-07-20T08:46:40.259Z",
     "matchedKeywords": [
-      "축구협회",
       "박지성",
       "축구혁신위",
       "축구협회장",
       "회장 선거",
       "정관",
       "혁신위원회",
-      "축구 혁신",
-      "감사"
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\"",
@@ -8029,10 +7769,9 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 31,
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ],
     "youtube": {
       "videoId": "ZmQFNX64NpE",
@@ -8576,6 +8315,7 @@
     "matchedKeywords": [
       "박지성",
       "축구협회장",
+      "축협",
       "축구 혁신",
       "정몽규",
       "홍명보",
@@ -8598,6 +8338,7 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 31,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
@@ -8605,7 +8346,7 @@
       "videoId": "emNHGhKdrqg",
       "channelId": "UCTHCOPwqNfZ0uiKOvFyhGwg",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "tags": [
         "연합뉴스TV",
         "뉴스",
@@ -8636,43 +8377,29 @@
     "publishedAt": "2026-07-20T06:07:43Z",
     "collectedAt": "2026-07-20T08:46:40.259Z",
     "matchedKeywords": [
-      "축구협회",
-      "이석재",
       "대한축구협회",
-      "KFA",
-      "축구협회장",
-      "대한축구협회장",
       "부회장",
       "대표팀 감독",
-      "전력강화위원회",
       "감독",
       "전력강화위원",
       "선임",
-      "후보",
-      "차기",
-      "정몽규",
       "홍명보",
-      "박지성",
-      "김병지"
+      "이석재"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [
-      "election",
       "kfa-executives",
       "coach-appointment"
     ],
     "personTags": [
-      "person_lee_seok_jae",
-      "person_chung_mong_gyu",
       "person_hong_myung_bo",
-      "person_park_ji_sung",
-      "person_kim_byung_ji"
+      "person_lee_seok_jae"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 51,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -8681,7 +8408,7 @@
       "videoId": "aEcZTaRA3wE",
       "channelId": "UC3jsR0MCyPxp5L_6QhuiuCg",
       "channelStatus": "unlisted",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "tags": [
         "이석재",
         "이석재 축구협회",
@@ -8780,16 +8507,13 @@
     "matchedKeywords": [
       "정몽규",
       "박지성",
-      "축구협회장",
       "홍명보",
       "서강일"
     ],
     "discoveryQueries": [
       "channel:UCG9aFJTZ-lMCHAiO1KJsirg"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
       "person_park_ji_sung",
@@ -8798,7 +8522,8 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 28,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
@@ -8806,7 +8531,7 @@
       "videoId": "-ZfcfTvmyMQ",
       "channelId": "UCG9aFJTZ-lMCHAiO1KJsirg",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/-ZfcfTvmyMQ/maxresdefault.jpg",
         "width": 1280,
@@ -8980,37 +8705,6 @@
     ]
   },
   {
-    "id": "item_8148c843e255b3d8",
-    "type": "news",
-    "title": "[단독] 박지성, '유퀴즈' 5년만 재출격‥유재석과 재회",
-    "summary": "최근 박지성은 문화체육관광부 산하 K- 축구 혁신위 원회의 공동위원장을 맡았다. 혁신위 공동위원장이 되어 5년 만에 '유 퀴즈 온 더 블럭'에 돌아온 그가 유재석과 재회해 어떠한 이야기 보따리로 시청자들을...",
-    "url": "https://news.jtbc.co.kr/article/NB12309148?influxDiv=NAVER",
-    "originalUrl": "https://news.jtbc.co.kr/article/NB12309148?influxDiv=NAVER",
-    "publisher": "news.jtbc.co.kr",
-    "publishedAt": "2026-07-20T05:10:00.000Z",
-    "collectedAt": "2026-07-20T08:28:45.817Z",
-    "matchedKeywords": [
-      "박지성",
-      "축구 혁신"
-    ],
-    "discoveryQueries": [
-      "축구혁신위",
-      "K-축구혁신위원회"
-    ],
-    "issueTags": [
-      "innovation-committee"
-    ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 15,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
     "id": "item_40e80dc1f0544837",
     "type": "news",
     "title": "\"한국 축구 망했다...똥인지 된장인지 몰라\" 분노한 구자철 작심 비판 [...",
@@ -9043,6 +8737,37 @@
     ]
   },
   {
+    "id": "item_8148c843e255b3d8",
+    "type": "news",
+    "title": "[단독] 박지성, '유퀴즈' 5년만 재출격‥유재석과 재회",
+    "summary": "최근 박지성은 문화체육관광부 산하 K- 축구 혁신위 원회의 공동위원장을 맡았다. 혁신위 공동위원장이 되어 5년 만에 '유 퀴즈 온 더 블럭'에 돌아온 그가 유재석과 재회해 어떠한 이야기 보따리로 시청자들을...",
+    "url": "https://news.jtbc.co.kr/article/NB12309148?influxDiv=NAVER",
+    "originalUrl": "https://news.jtbc.co.kr/article/NB12309148?influxDiv=NAVER",
+    "publisher": "news.jtbc.co.kr",
+    "publishedAt": "2026-07-20T05:10:00.000Z",
+    "collectedAt": "2026-07-20T08:28:45.817Z",
+    "matchedKeywords": [
+      "박지성",
+      "축구 혁신"
+    ],
+    "discoveryQueries": [
+      "축구혁신위",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 15,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "youtube_GzycdKhLFVw",
     "type": "youtube",
     "title": "＂박지성·이영표가 뭘 아나?＂…정몽규 옹호 발언에 팬들 '부글' | 이슈픽",
@@ -9055,16 +8780,14 @@
     "matchedKeywords": [
       "정몽규",
       "박지성",
-      "축구협회장",
       "홍명보",
-      "서강일"
+      "서강일",
+      "청문회"
     ],
     "discoveryQueries": [
       "channel:UCG9aFJTZ-lMCHAiO1KJsirg"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
       "person_park_ji_sung",
@@ -9073,7 +8796,8 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 30,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
@@ -9081,7 +8805,7 @@
       "videoId": "GzycdKhLFVw",
       "channelId": "UCG9aFJTZ-lMCHAiO1KJsirg",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "tags": [
         "서강일",
         "전북축구협회장",
@@ -9244,6 +8968,7 @@
     "sourceType": "youtube",
     "isOfficial": false,
     "relevanceScore": 11,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
@@ -9251,7 +8976,7 @@
       "videoId": "j8RXvWXwGmM",
       "channelId": "UCG9aFJTZ-lMCHAiO1KJsirg",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/j8RXvWXwGmM/maxresdefault.jpg",
         "width": 1280,
@@ -9377,10 +9102,7 @@
       "유소년",
       "육성",
       "육성 시스템",
-      "시스템",
-      "행정",
-      "정몽규",
-      "홍명보"
+      "시스템"
     ],
     "discoveryQueries": [
       "channel:UChlgI3UHCOnwUGzWzbJ3H5w"
@@ -9389,13 +9111,12 @@
       "youth-governance"
     ],
     "personTags": [
-      "person_koo_ja_cheol",
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_koo_ja_cheol"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
@@ -9403,7 +9124,7 @@
       "videoId": "3B0g5Wndas0",
       "channelId": "UChlgI3UHCOnwUGzWzbJ3H5w",
       "channelStatus": "preferred",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "tags": [
         "source:영상",
         "type:방송",
@@ -9438,18 +9159,10 @@
     "publishedAt": "2026-07-20T03:34:45Z",
     "collectedAt": "2026-07-20T04:05:59.314Z",
     "matchedKeywords": [
+      "축협",
       "박지성",
       "구자철",
-      "대한축구협회",
       "축구협회장",
-      "혁신위원회",
-      "부회장",
-      "유소년",
-      "제도",
-      "개편",
-      "시스템",
-      "행정",
-      "지원",
       "홍명보",
       "김병지"
     ],
@@ -9457,10 +9170,7 @@
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [
-      "election",
-      "innovation-committee",
-      "kfa-executives",
-      "youth-governance"
+      "election"
     ],
     "personTags": [
       "person_park_ji_sung",
@@ -9470,7 +9180,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 50,
+    "relevanceScore": 45,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -9581,24 +9291,20 @@
     "publishedAt": "2026-07-20T03:20:24Z",
     "collectedAt": "2026-07-20T04:05:59.314Z",
     "matchedKeywords": [
-      "KFA",
       "박지성",
       "대한축구협회",
-      "정몽규",
-      "홍명보"
+      "KFA"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [],
     "personTags": [
-      "person_park_ji_sung",
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_park_ji_sung"
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -10098,8 +9804,7 @@
     "publishedAt": "2026-07-20T01:30:17Z",
     "collectedAt": "2026-07-20T04:05:59.314Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "축구협회"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
@@ -10108,7 +9813,7 @@
     "personTags": [],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
     "labels": [],
     "youtube": {
@@ -10621,7 +10326,6 @@
     "publishedAt": "2026-07-20T00:00:16Z",
     "collectedAt": "2026-07-20T04:05:59.314Z",
     "matchedKeywords": [
-      "축구협회",
       "대한축구협회",
       "감독",
       "사령탑",
@@ -10641,7 +10345,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"

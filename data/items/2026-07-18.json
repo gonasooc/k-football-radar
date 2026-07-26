@@ -99,7 +99,7 @@
       "videoId": "ac0TdryEUoE",
       "channelId": "UCK5RVjKIY_htN0JGi5PQTYg",
       "channelStatus": "unlisted",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/ac0TdryEUoE/maxresdefault.jpg",
         "width": 1280,
@@ -256,6 +256,7 @@
     "collectedAt": "2026-07-19T03:55:51.567Z",
     "matchedKeywords": [
       "박지성",
+      "청문회",
       "대한축구협회",
       "KFA",
       "정몽규",
@@ -274,7 +275,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 28,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -363,7 +364,6 @@
       "감독",
       "전력강화위원",
       "선임",
-      "거론",
       "정몽규"
     ],
     "discoveryQueries": [
@@ -552,14 +552,13 @@
     "matchedKeywords": [
       "박지성",
       "서강일",
-      "축구협회장",
+      "축구협회",
       "대의원"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [
-      "election",
       "electoral-college"
     ],
     "personTags": [
@@ -568,7 +567,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 29,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -577,7 +576,7 @@
       "videoId": "WqqcPrVdbVs",
       "channelId": "UC2HrBg3aPCjUdS4B2Fljn4g",
       "channelStatus": "unlisted",
-      "contentRelevanceTier": "primary",
+      "contentRelevanceTier": "secondary",
       "thumbnail": {
         "url": "https://i.ytimg.com/vi/WqqcPrVdbVs/maxresdefault.jpg",
         "width": 1280,
@@ -978,42 +977,6 @@
     ]
   },
   {
-    "id": "youtube_HZ2lZ-vMe5s",
-    "type": "youtube",
-    "title": "KFA - Morgenröte",
-    "summary": "KFA Morgenröte Beat prod. @nouh.44 Mix & Master https://www.instagram.com/bestebeatzofficial/",
-    "url": "https://www.youtube.com/watch?v=HZ2lZ-vMe5s",
-    "originalUrl": "https://www.youtube.com/watch?v=HZ2lZ-vMe5s",
-    "publisher": "Was willst du tun Entertainment",
-    "publishedAt": "2026-07-18T12:08:44Z",
-    "collectedAt": "2026-07-19T03:55:51.567Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 26,
-    "relevanceTier": "secondary",
-    "labels": [],
-    "youtube": {
-      "videoId": "HZ2lZ-vMe5s",
-      "channelId": "UCLsyIBrgsVz5IijBOCYRcRA",
-      "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/HZ2lZ-vMe5s/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 100
-    }
-  },
-  {
     "id": "youtube_-nCsj0s07gk",
     "type": "youtube",
     "title": "박지성·이영표 축구협회 개혁 선언에 기득권 반발…인생을 얼마나 살았냐 논란",
@@ -1027,7 +990,6 @@
       "축구협회",
       "박지성",
       "대한축구협회",
-      "축구협회장",
       "선거인단",
       "선거인",
       "정몽규"
@@ -1036,7 +998,6 @@
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
     ],
     "issueTags": [
-      "election",
       "electoral-college"
     ],
     "personTags": [
@@ -1045,7 +1006,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 36,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -1223,9 +1184,10 @@
     "publishedAt": "2026-07-18T10:45:14Z",
     "collectedAt": "2026-07-18T13:51:37.077Z",
     "matchedKeywords": [
-      "축구협회",
+      "축협",
       "홍명보",
-      "박지성"
+      "박지성",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
@@ -1237,7 +1199,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 11,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1439,10 +1401,9 @@
     "publishedAt": "2026-07-18T08:10:56Z",
     "collectedAt": "2026-07-19T03:55:51.567Z",
     "matchedKeywords": [
-      "축구협회",
       "정몽규",
       "박지성",
-      "KFA"
+      "축구협회"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
@@ -1454,7 +1415,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 25,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1483,7 +1444,6 @@
     "publishedAt": "2026-07-18T08:08:51Z",
     "collectedAt": "2026-07-18T13:51:37.077Z",
     "matchedKeywords": [
-      "축구협회",
       "박지성",
       "서강일"
     ],
@@ -1497,7 +1457,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 16,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1559,8 +1519,7 @@
     "collectedAt": "2026-07-18T07:42:07.192Z",
     "matchedKeywords": [
       "축구협회",
-      "박지성",
-      "KFA"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
@@ -1571,7 +1530,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 24,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1693,6 +1652,7 @@
     "publishedAt": "2026-07-18T06:30:35Z",
     "collectedAt": "2026-07-18T07:42:07.192Z",
     "matchedKeywords": [
+      "축구협회",
       "박지성"
     ],
     "discoveryQueries": [
@@ -1704,7 +1664,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 18,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1751,42 +1711,6 @@
     "labels": [
       "인물 언급"
     ]
-  },
-  {
-    "id": "youtube_t_e8hIOdhn4",
-    "type": "youtube",
-    "title": "@kfa-adreena",
-    "summary": "",
-    "url": "https://www.youtube.com/watch?v=t_e8hIOdhn4",
-    "originalUrl": "https://www.youtube.com/watch?v=t_e8hIOdhn4",
-    "publisher": "kicau-kicau mania",
-    "publishedAt": "2026-07-18T05:01:03Z",
-    "collectedAt": "2026-07-18T07:42:07.192Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
-    "labels": [],
-    "youtube": {
-      "videoId": "t_e8hIOdhn4",
-      "channelId": "UCnEUCImYaPK3tzdYqmiyGXA",
-      "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/t_e8hIOdhn4/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 14
-    }
   },
   {
     "id": "item_d13ad61adb25000c",
@@ -2072,6 +1996,7 @@
     "matchedKeywords": [
       "축구협회",
       "축구 혁신",
+      "청문회",
       "축구혁신위",
       "정몽규",
       "홍명보",
@@ -2092,7 +2017,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 46,
     "labels": [
       "인물 언급"
     ],
@@ -2168,14 +2093,14 @@
     "publishedAt": "2026-07-18T02:41:09Z",
     "collectedAt": "2026-07-18T03:33:19.564Z",
     "matchedKeywords": [
-      "축구협회",
       "대한축구협회",
       "축구혁신위",
       "혁신위원회",
       "정몽규",
       "홍명보",
       "박지성",
-      "서강일"
+      "서강일",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"대한축구협회\"|\"축구협회\"|\"KFA\""
@@ -2191,7 +2116,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 32,
+    "relevanceScore": 24,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -2290,6 +2215,7 @@
     "publishedAt": "2026-07-18T02:30:38Z",
     "collectedAt": "2026-07-19T03:55:51.567Z",
     "matchedKeywords": [
+      "축협",
       "축구협회",
       "정몽규"
     ],
@@ -2302,7 +2228,7 @@
     ],
     "sourceType": "youtube",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 16,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -2360,6 +2286,39 @@
     ]
   },
   {
+    "id": "item_3b3420fb6a9620b9",
+    "type": "news",
+    "title": "\"홍명보 나가\" 외쳤던 김영광, 또 작심 발언 \"침묵하던 시대 아니다\"......",
+    "summary": "전 국가대표 골키퍼 김영광(43)이 대한축구협회 의 낡은 시스템과 폐쇄적인 문화를 비판했다. 당초 예정됐던... 김영광이 축구협회 의 쇄신을 공개적으로 요구한 것은 이번이 처음이 아니다. 그는 2년 전 홍명보 전 감독이...",
+    "url": "https://www.starnewskorea.com/sports/2026/07/18/2026071810291963871",
+    "originalUrl": "https://www.starnewskorea.com/sports/2026/07/18/2026071810291963871",
+    "publisher": "starnewskorea.com",
+    "publishedAt": "2026-07-18T01:55:00.000Z",
+    "collectedAt": "2026-07-18T04:32:48.983Z",
+    "matchedKeywords": [
+      "홍명보",
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 17,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_61fb9719e607b5a4",
     "type": "news",
     "title": "“박지성이 뭘 아느냐”...한국 축구, 개혁과 기득권 전쟁 시작됐다[이...",
@@ -2404,39 +2363,6 @@
     "isOfficial": false,
     "relevanceScore": 17,
     "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_3b3420fb6a9620b9",
-    "type": "news",
-    "title": "\"홍명보 나가\" 외쳤던 김영광, 또 작심 발언 \"침묵하던 시대 아니다\"......",
-    "summary": "전 국가대표 골키퍼 김영광(43)이 대한축구협회 의 낡은 시스템과 폐쇄적인 문화를 비판했다. 당초 예정됐던... 김영광이 축구협회 의 쇄신을 공개적으로 요구한 것은 이번이 처음이 아니다. 그는 2년 전 홍명보 전 감독이...",
-    "url": "https://www.starnewskorea.com/sports/2026/07/18/2026071810291963871",
-    "originalUrl": "https://www.starnewskorea.com/sports/2026/07/18/2026071810291963871",
-    "publisher": "starnewskorea.com",
-    "publishedAt": "2026-07-18T01:55:00.000Z",
-    "collectedAt": "2026-07-18T04:32:48.983Z",
-    "matchedKeywords": [
-      "홍명보",
-      "대한축구협회"
-    ],
-    "discoveryQueries": [
-      "\"홍명보\" 대한축구협회",
-      "\"홍명보\" 축구협회",
-      "대표팀 감독",
-      "대표팀 감독 선임",
-      "대한축구협회",
-      "축구협회 감독 선임"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 17,
     "labels": [
       "인물 언급"
     ]
@@ -2564,41 +2490,5 @@
     "labels": [
       "인물 언급"
     ]
-  },
-  {
-    "id": "youtube_tAOnufROQHg",
-    "type": "youtube",
-    "title": "KFA FN 114",
-    "summary": "Broadcasted live on Twitch -- Watch live at https://www.twitch.tv/amateurcopper",
-    "url": "https://www.youtube.com/watch?v=tAOnufROQHg",
-    "originalUrl": "https://www.youtube.com/watch?v=tAOnufROQHg",
-    "publisher": "Lmoney41",
-    "publishedAt": "2026-07-18T00:25:03Z",
-    "collectedAt": "2026-07-18T03:33:19.564Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "youtube",
-    "isOfficial": false,
-    "relevanceScore": 20,
-    "relevanceTier": "secondary",
-    "labels": [],
-    "youtube": {
-      "videoId": "tAOnufROQHg",
-      "channelId": "UCIuxiqRrFgJwBpxTOaA0oEw",
-      "channelStatus": "unlisted",
-      "contentRelevanceTier": "secondary",
-      "thumbnail": {
-        "url": "https://i.ytimg.com/vi/tAOnufROQHg/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "durationSeconds": 7987
-    }
   }
 ]
