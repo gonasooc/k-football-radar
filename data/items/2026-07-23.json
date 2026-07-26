@@ -2117,7 +2117,7 @@
     "id": "item_b829c3a75c97c8a0",
     "type": "news",
     "title": "대한체육회 정관 개정…축구협회장 직선제 시대 열리나",
-    "summary": "유승민 대한체육회장과 박지성 이 공동위원장을 맡은 ‘K-축구 혁신위원회’는 차기 축구협회장 선거 부터 선거 인단을 최소 1,000명 이상으로 확대하는 방안을 검토하고 있다.",
+    "summary": "축구협회 는 그동안 300명 이내의 제한된 선거인단이 회장을 뽑는 간선제 방식으로 선거를 진행해왔다. 축구 계 안팎에서는 일부 대의원 과 관계자에게 투표권이 집중돼 민의를 충분히 반영하기 어렵다는 지적이 끊이지...",
     "url": "https://www.kwnews.co.kr/article/20260723501298",
     "originalUrl": "https://www.kwnews.co.kr/article/20260723501298",
     "publisher": "kwnews.co.kr",
@@ -2127,10 +2127,11 @@
       "축구협회장",
       "정관",
       "정관 개정",
-      "회장 선거",
-      "혁신위원회",
-      "축구 혁신",
-      "박지성"
+      "축구협회",
+      "선거인단",
+      "선거인",
+      "대의원",
+      "투표권"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2161,16 +2162,14 @@
     "issueTags": [
       "election",
       "statute-revision",
-      "innovation-committee"
+      "electoral-college"
     ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 49,
+    "relevanceScore": 44,
     "labels": [
-      "인물 언급"
+      "선거 키워드 포함"
     ]
   },
   {
@@ -2315,21 +2314,19 @@
     "id": "item_d7957d2d70ebc46d",
     "type": "news",
     "title": "축구협회 개혁 속도전…60일 내 회장 선출 규정→최장 8개월로",
-    "summary": "임시 대의원 총회에서 체육회장 선거 선거인단 확대를 골자로 한 정관 개정안을 의결하고, 개정안이 종목단체 등에도 적용될 수 있도록 했다. 유승민 체육회장이 공동위원장을 맡고 있는 K- 축구 혁신위원회는 축구협회 장...",
+    "summary": "현재 축구협회 는 정몽규 전 회장이 이달 초 사임하면서 이용수 부회장 직무대행 체제로 전환했다. 직무대행자가 선거인단 확대, 선거 제도 개편 등을 추진할 수 있는 근거를 마련한 셈이다. 체육회는 부칙을 통해 개정...",
     "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030152058&code=61161311&cp=nv",
     "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=0030152058&code=61161311&cp=nv",
     "publisher": "kmib.co.kr",
     "publishedAt": "2026-07-23T07:24:00.000Z",
     "collectedAt": "2026-07-23T08:01:40.396Z",
     "matchedKeywords": [
-      "회장 선거",
+      "축구협회",
       "선거인단",
       "선거인",
-      "대의원",
-      "정관",
-      "정관 개정",
-      "혁신위원회",
-      "축구 혁신"
+      "제도 개편",
+      "부회장",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -2357,16 +2354,18 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
       "electoral-college",
       "statute-revision",
-      "innovation-committee"
+      "kfa-executives"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 30,
     "labels": [
+      "인물 언급",
       "선거 키워드 포함"
     ]
   },
