@@ -62,7 +62,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://slownews.kr/163090"
+      ],
+      "stories": [
+        "news|news|보완 수사권 국물도 남김 없이 폐지, 민주당 교통정리도 안 됐다: 슬로우...|slownews.kr|2026-07-12T22:36:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|보완 수사권 국물도 남김 없이 폐지, 민주당 교통정리도 안 됐다: 슬로우...|slownews.kr"
+      ],
+      "earliestPublishedAt": 1783895760000,
+      "latestPublishedAt": 1783895760000,
+      "representativeCollectedAt": 1785052654784,
+      "latestCollectedAt": 1785052654784
+    }
   },
   {
     "id": "item_60954a120edac228",
@@ -119,8 +135,8 @@
       ],
       "earliestPublishedAt": 1783893660000,
       "latestPublishedAt": 1783893660000,
-      "representativeCollectedAt": 1785042243994,
-      "latestCollectedAt": 1785042243994
+      "representativeCollectedAt": 1785052654784,
+      "latestCollectedAt": 1785052654784
     }
   },
   {
@@ -269,8 +285,8 @@
       ],
       "earliestPublishedAt": 1783890120000,
       "latestPublishedAt": 1783890120000,
-      "representativeCollectedAt": 1785042243994,
-      "latestCollectedAt": 1785042243994
+      "representativeCollectedAt": 1785052654784,
+      "latestCollectedAt": 1785052654784
     }
   },
   {
@@ -510,8 +526,8 @@
       ],
       "earliestPublishedAt": 1783881240000,
       "latestPublishedAt": 1783881240000,
-      "representativeCollectedAt": 1785042243994,
-      "latestCollectedAt": 1785042243994
+      "representativeCollectedAt": 1785052654784,
+      "latestCollectedAt": 1785052654784
     }
   },
   {
