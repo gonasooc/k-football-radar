@@ -11,7 +11,7 @@
     "collectedAt": "2026-07-21T13:04:57.578Z",
     "matchedKeywords": [
       "홍명보",
-      "감사"
+      "청문회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 감사"
@@ -25,9 +25,24 @@
     "relevanceScore": 5,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
-    ]
+      "인물 언급"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008664586&plink=ORI"
+      ],
+      "stories": [
+        "news|news|조갑제 \"'2028 국힘 공천 배제 명단' 만들 것…1번은 장동혁\" [정치쇼]|news.sbs.co.kr|2026-07-19T23:47:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|조갑제 \"'2028 국힘 공천 배제 명단' 만들 것…1번은 장동혁\" [정치쇼]|news.sbs.co.kr"
+      ],
+      "earliestPublishedAt": 1784504820000,
+      "latestPublishedAt": 1784504820000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_0b0b87c057c22a6a",
@@ -102,7 +117,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00007&news_seq_no=5206833"
+      ],
+      "stories": [
+        "news|news|구자철 \"한국 축구? 망했다…선수들 똥인지 된장인지 몰라\"|mbn.mk.co.kr|2026-07-19T23:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|구자철 \"한국 축구? 망했다…선수들 똥인지 된장인지 몰라\"|mbn.mk.co.kr"
+      ],
+      "earliestPublishedAt": 1784502600000,
+      "latestPublishedAt": 1784502600000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_fddfeb980ea6e241",
@@ -152,7 +183,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://isplus.com/article/view/isp202607200011"
+      ],
+      "stories": [
+        "news|news|[2026 북중미 결산]감독도 회장도 떠났다…리더십 실패 드러낸 한국 축...|isplus.com|2026-07-19T23:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[2026 북중미 결산]감독도 회장도 떠났다…리더십 실패 드러낸 한국 축...|isplus.com"
+      ],
+      "earliestPublishedAt": 1784502000000,
+      "latestPublishedAt": 1784502000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_6d382782a74320a3",
@@ -184,6 +231,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 12,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -293,10 +341,25 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 12,
-    "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/MYH20260720074512PDx"
+      ],
+      "stories": [
+        "news|news|바닥인 줄 알았는데 지하실?…한국축구, 기약 없는 개혁시계|yonhapnewstv.co.kr|2026-07-19T22:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|바닥인 줄 알았는데 지하실?…한국축구, 기약 없는 개혁시계|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1784501160000,
+      "latestPublishedAt": 1784501160000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_147a549999a1db7c",
@@ -326,7 +389,23 @@
     "relevanceScore": 17,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.tvchosun.com/site/data/html_dir/2026/07/20/2026072090057.html"
+      ],
+      "stories": [
+        "news|news|\"한국축구 똥인지 된장인지 몰라\"…구자철 작심비판, 이강인도 '공유'|news.tvchosun.com|2026-07-19T22:39:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"한국축구 똥인지 된장인지 몰라\"…구자철 작심비판, 이강인도 '공유'|news.tvchosun.com"
+      ],
+      "earliestPublishedAt": 1784500740000,
+      "latestPublishedAt": 1784500740000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_71a63adfec59ef8a",
@@ -339,7 +418,6 @@
     "publishedAt": "2026-07-19T22:16:00.000Z",
     "collectedAt": "2026-07-19T22:35:03.181Z",
     "matchedKeywords": [
-      "축구협회",
       "정몽규",
       "대한 축구협회",
       "회장 선거",
@@ -375,11 +453,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112842618"
+      ],
+      "stories": [
+        "news|news|'정몽규 회장시절 축구협회 예산으로 월드컵 외유성 여행' 지역협회장들...|osen.co.kr|2026-07-19T22:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'정몽규 회장시절 축구협회 예산으로 월드컵 외유성 여행' 지역협회장들...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784499360000,
+      "latestPublishedAt": 1784499360000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_JE0St2pb2uA",
@@ -633,7 +727,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95029"
+      ],
+      "stories": [
+        "news|news|\"韓 축구 진짜 망했다, 10년 뒤 더 심각\" 이강인도 좋아요...구자철, 기득...|fourfourtwo.co.kr|2026-07-19T20:35:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"韓 축구 진짜 망했다, 10년 뒤 더 심각\" 이강인도 좋아요...구자철, 기득...|fourfourtwo.co.kr"
+      ],
+      "earliestPublishedAt": 1784493300000,
+      "latestPublishedAt": 1784493300000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_eXYzslKrXSk",
@@ -742,6 +852,30 @@
     }
   },
   {
+    "id": "item_a0acc4e10280687a",
+    "type": "news",
+    "title": "18세 김예건 프로 직행, 19세 손정범 당당한 주전… K축구 성장 ‘청신호...",
+    "summary": "참패로 대한축구협회 가 개혁 수술대에 오르는 등 어수선한 속에서도 한국 축구 의 미래인 10대 소년... 2008년 프로 축구 에 처음 도입된 유소년 시스템 이 꾸준히 유망주들을 배출하면서 프로 리그와 대표팀의 동반...",
+    "url": "https://www.seoul.co.kr/news/sport/soccer/2026/07/20/20260720034003?wlog_tag3=naver",
+    "originalUrl": "https://www.seoul.co.kr/news/sport/soccer/2026/07/20/20260720034003?wlog_tag3=naver",
+    "publisher": "seoul.co.kr",
+    "publishedAt": "2026-07-19T20:04:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 유소년 육성 시스템"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_25fb89e2baf65d26",
     "type": "news",
     "title": "박지성·이영표 아니다…“한국 축구는 망했다” 돌직구 날린 ‘국대 출...",
@@ -784,9 +918,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 24,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1147207"
+      ],
+      "stories": [
+        "news|news|박지성·이영표 아니다…“한국 축구는 망했다” 돌직구 날린 ‘국대 출...|wikitree.co.kr|2026-07-19T20:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박지성·이영표 아니다…“한국 축구는 망했다” 돌직구 날린 ‘국대 출...|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1784491200000,
+      "latestPublishedAt": 1784491200000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_iqU0ab8Ek30",
@@ -1009,9 +1160,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/bltf04a46ee017f086e"
+      ],
+      "stories": [
+        "news|news|스페인서 성장한 이강인도 공감한 구자철 작심발언 “너무 화나고 미칠...|goal.com|2026-07-19T15:47:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|스페인서 성장한 이강인도 공감한 구자철 작심발언 “너무 화나고 미칠...|goal.com"
+      ],
+      "earliestPublishedAt": 1784476020000,
+      "latestPublishedAt": 1784476020000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_2e3b5939a2e201ba",
@@ -1057,10 +1225,25 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
-    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112842592"
+      ],
+      "stories": [
+        "news|news|\"박지성, 이영표가 뭘 안다고...' 이렇게 막말한 사람들이 차기 대한축...|osen.co.kr|2026-07-19T15:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"박지성, 이영표가 뭘 안다고...' 이렇게 막말한 사람들이 차기 대한축...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784474160000,
+      "latestPublishedAt": 1784474160000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_82eabb868ac01e3f",
@@ -1088,9 +1271,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.interfootball.co.kr/news/articleView.html?idxno=690854"
+      ],
+      "stories": [
+        "news|news|이강인도 공감했다! 구자철, \"그 한마디가 한국 축구 망치고 있어, 정말...|interfootball.co.kr|2026-07-19T15:07:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|이강인도 공감했다! 구자철, \"그 한마디가 한국 축구 망치고 있어, 정말...|interfootball.co.kr"
+      ],
+      "earliestPublishedAt": 1784473620000,
+      "latestPublishedAt": 1784473620000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_e96f45b36129328d",
@@ -1109,7 +1309,6 @@
       "축구 혁신",
       "대표팀 감독",
       "감독",
-      "후보",
       "차기"
     ],
     "discoveryQueries": [
@@ -1174,9 +1373,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://weekly.chosun.com/news/articleView.html?idxno=53596"
+      ],
+      "stories": [
+        "news|news|\"똥인지 된장인지도 모른다\"…구자철 작심 비판, 이강인도 '공유'|weekly.chosun.com|2026-07-19T14:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"똥인지 된장인지도 모른다\"…구자철 작심 비판, 이강인도 '공유'|weekly.chosun.com"
+      ],
+      "earliestPublishedAt": 1784472000000,
+      "latestPublishedAt": 1784472000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_ee4c52d07f882627",
@@ -1191,7 +1407,8 @@
     "matchedKeywords": [
       "대한 축구협회",
       "혁신위원회",
-      "축구 혁신"
+      "축구 혁신",
+      "청문회"
     ],
     "discoveryQueries": [
       "축구 혁신",
@@ -1205,7 +1422,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -1287,6 +1504,30 @@
     }
   },
   {
+    "id": "item_d6537e3a16354ecb",
+    "type": "news",
+    "title": "전북에 활기 더하는 김예건·한석진, 서울 손정범은 맨시티와 대결…K리...",
+    "summary": "한국 축구 대표팀의 2026 국제 축구 연맹(FIFA) 북중미월드컵 참패로 대한축구협회 가 개혁 수술대에 오르는... 2008년 프로 축구 에 처음 도입된 유소년 시스템 이 꾸준히 유망주들을 배출하면서 프로 리그와 대표팀의 동반...",
+    "url": "https://www.seoul.co.kr/news/sport/soccer/2026/07/19/20260719500092?wlog_tag3=naver",
+    "originalUrl": "https://www.seoul.co.kr/news/sport/soccer/2026/07/19/20260719500092?wlog_tag3=naver",
+    "publisher": "seoul.co.kr",
+    "publishedAt": "2026-07-19T12:44:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 유소년 육성 시스템"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_1c7fcd53c0874d9a",
     "type": "news",
     "title": "韓 사령탑 인기 폭발 예고...메시 절친 깜짝 선언, 대한민국 관심 보이...",
@@ -1352,6 +1593,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1397,6 +1639,7 @@
     "publishedAt": "2026-07-19T11:58:00.000Z",
     "collectedAt": "2026-07-19T12:37:11.561Z",
     "matchedKeywords": [
+      "축협",
       "축구 혁신"
     ],
     "discoveryQueries": [
@@ -1408,7 +1651,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 4,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -1607,7 +1850,6 @@
     "publishedAt": "2026-07-19T10:50:00.000Z",
     "collectedAt": "2026-07-19T11:42:32.357Z",
     "matchedKeywords": [
-      "축구협회장",
       "박지성",
       "서강일",
       "대한축구협회",
@@ -1650,7 +1892,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 59,
+    "relevanceScore": 39,
     "labels": [
       "인물 언급"
     ]
@@ -1681,9 +1923,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.edaily.co.kr/news/newspath.asp?newsid=01918806645516160"
+      ],
+      "stories": [
+        "news|news|구자철 \"한국 축구 망했다…5·10년 후 참담한 현실 마주할 것\"|edaily.co.kr|2026-07-19T10:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|구자철 \"한국 축구 망했다…5·10년 후 참담한 현실 마주할 것\"|edaily.co.kr"
+      ],
+      "earliestPublishedAt": 1784456160000,
+      "latestPublishedAt": 1784456160000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_bc719a3a9ffe3830",
@@ -1788,29 +2047,6 @@
     }
   },
   {
-    "id": "item_1f1ace4f4ca882d8",
-    "type": "news",
-    "title": "\"올해도 떴다\"…의정부고 졸업사진으로 돌아보는 2026 트렌드",
-    "summary": "손흥민 뒷모습에 담긴 한국 축구의 풍경 2026 북중미 월드컵은 한국 축구를 향한 기대와 함께 대표팀 운영을 둘러싼 논란을 남겼다. 대회 전부터 이어진 감독 선임 과정에 대한 비판은 경기력과 성적을 둘러싼 평가로...",
-    "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000050733",
-    "originalUrl": "https://www.jnilbo.com/news/articleView.html?idxno=90000050733",
-    "publisher": "jnilbo.com",
-    "publishedAt": "2026-07-19T09:26:00.000Z",
-    "collectedAt": "2026-07-19T10:15:17.249Z",
-    "matchedKeywords": [],
-    "discoveryQueries": [
-      "대표팀 감독",
-      "대표팀 감독 선임"
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 0,
-    "relevanceTier": "secondary",
-    "labels": []
-  },
-  {
     "id": "item_132863dd24746084",
     "type": "news",
     "title": "여야 대치에 국회 정상화 하세월…곳곳 지뢰밭",
@@ -1821,7 +2057,8 @@
     "publishedAt": "2026-07-19T09:24:00.000Z",
     "collectedAt": "2026-07-19T10:15:17.249Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "discoveryQueries": [
       "대한축구협회"
@@ -1830,7 +2067,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -1845,7 +2082,8 @@
     "publishedAt": "2026-07-19T09:20:00.000Z",
     "collectedAt": "2026-07-19T10:15:17.249Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "discoveryQueries": [
       "대한축구협회"
@@ -1854,7 +2092,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -1976,9 +2214,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mk.co.kr/article/12101867"
+      ],
+      "stories": [
+        "news|news|구자철 “한국 축구 망했다…5년 후, 10년 후면 더 안 좋아질 것”|mk.co.kr|2026-07-19T08:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|구자철 “한국 축구 망했다…5년 후, 10년 후면 더 안 좋아질 것”|mk.co.kr"
+      ],
+      "earliestPublishedAt": 1784451360000,
+      "latestPublishedAt": 1784451360000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_4bcb83efd87ba081",
@@ -1992,7 +2247,6 @@
     "collectedAt": "2026-07-19T10:15:17.249Z",
     "matchedKeywords": [
       "박지성",
-      "축구협회",
       "축구 혁신",
       "정몽규",
       "홍명보",
@@ -2017,7 +2271,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 24,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2080,8 +2335,7 @@
     "publishedAt": "2026-07-19T08:16:00.000Z",
     "collectedAt": "2026-07-19T10:15:17.249Z",
     "matchedKeywords": [
-      "구자철",
-      "축구협회"
+      "구자철"
     ],
     "discoveryQueries": [
       "\"구자철\" 축구협회",
@@ -2093,11 +2347,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 11,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000540500"
+      ],
+      "stories": [
+        "news|news|구자철 “한국 축구 망했다…선수들 똥인지 된장인지 몰라”|ichannela.com|2026-07-19T08:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|구자철 “한국 축구 망했다…선수들 똥인지 된장인지 몰라”|ichannela.com"
+      ],
+      "earliestPublishedAt": 1784448960000,
+      "latestPublishedAt": 1784448960000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_YtNmM1nNv_w",
@@ -2157,8 +2427,7 @@
     "publishedAt": "2026-07-19T07:44:00.000Z",
     "collectedAt": "2026-07-19T07:49:52.968Z",
     "matchedKeywords": [
-      "구자철",
-      "축구협회"
+      "구자철"
     ],
     "discoveryQueries": [
       "\"구자철\" 축구협회",
@@ -2173,11 +2442,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 11,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ftimes.kr/news/articleView.html?idxno=38579"
+      ],
+      "stories": [
+        "news|news|구자철의 일침 \"한국 축구는 이미 망했다\"…기득권과 시스템의 민낯 공...|ftimes.kr|2026-07-19T07:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|구자철의 일침 \"한국 축구는 이미 망했다\"…기득권과 시스템의 민낯 공...|ftimes.kr"
+      ],
+      "earliestPublishedAt": 1784447040000,
+      "latestPublishedAt": 1784447040000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_a38bc0379d072cc4",
@@ -2213,7 +2498,23 @@
     "relevanceScore": 14,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ftimes.kr/news/articleView.html?idxno=38578"
+      ],
+      "stories": [
+        "news|news|홍명보 후임은 사비? '아시안컵' 언급에 쏠린 시선|ftimes.kr|2026-07-19T07:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 후임은 사비? '아시안컵' 언급에 쏠린 시선|ftimes.kr"
+      ],
+      "earliestPublishedAt": 1784445000000,
+      "latestPublishedAt": 1784445000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_25bf141c5f98a68e",
@@ -2226,7 +2527,8 @@
     "publishedAt": "2026-07-19T07:08:00.000Z",
     "collectedAt": "2026-07-19T07:49:52.968Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "discoveryQueries": [
       "대한축구협회"
@@ -2235,7 +2537,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -2264,9 +2566,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.donga.com/news/Sports/article/all/20260719/134322601/1"
+      ],
+      "stories": [
+        "news|news|구자철 “한국 축구 망했다…선수들 똥인지 된장인지 몰라”|donga.com|2026-07-19T07:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|구자철 “한국 축구 망했다…선수들 똥인지 된장인지 몰라”|donga.com"
+      ],
+      "earliestPublishedAt": 1784444520000,
+      "latestPublishedAt": 1784444520000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_76565f9a33ce2a30",
@@ -2284,7 +2603,7 @@
       "대표팀 감독",
       "감독",
       "선임",
-      "후보"
+      "청문회"
     ],
     "discoveryQueries": [
       "감독 후보",
@@ -2300,7 +2619,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -2345,9 +2664,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 29,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=829291"
+      ],
+      "stories": [
+        "news|news|구자철도 박지성과 똑같은 피해자 \"건방 떤다, 외국물 좀 먹었구나\"…韓...|spotvnews.co.kr|2026-07-19T06:36:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|구자철도 박지성과 똑같은 피해자 \"건방 떤다, 외국물 좀 먹었구나\"…韓...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1784442960000,
+      "latestPublishedAt": 1784442960000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_98f90fb3fd39ef64",
@@ -2405,7 +2741,6 @@
     "matchedKeywords": [
       "박지성",
       "서강일",
-      "축구협회",
       "사퇴"
     ],
     "discoveryQueries": [
@@ -2427,7 +2762,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ]
@@ -2447,8 +2782,6 @@
       "감독 선임",
       "감독",
       "선임",
-      "후보",
-      "관심",
       "이임생"
     ],
     "discoveryQueries": [
@@ -2510,9 +2843,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.fnnews.com/news/202607191427313903"
+      ],
+      "stories": [
+        "news|news|\"한국 축구는 완전히 망했다\"… 5년 뒤 끔찍한 미래 경고한 구자철의 일...|fnnews.com|2026-07-19T05:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"한국 축구는 완전히 망했다\"… 5년 뒤 끔찍한 미래 경고한 구자철의 일...|fnnews.com"
+      ],
+      "earliestPublishedAt": 1784439120000,
+      "latestPublishedAt": 1784439120000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_04d7f714e413c076",
@@ -2547,9 +2897,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20260719_0003714105"
+      ],
+      "stories": [
+        "news|news|\"한국 축구 망했다\"…이강인도 공감한 구자철 작심 발언|newsis.com|2026-07-19T05:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"한국 축구 망했다\"…이강인도 공감한 구자철 작심 발언|newsis.com"
+      ],
+      "earliestPublishedAt": 1784438460000,
+      "latestPublishedAt": 1784438460000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_2f19acfd4f03651e",
@@ -2645,7 +3012,6 @@
     "publishedAt": "2026-07-19T03:26:00.000Z",
     "collectedAt": "2026-07-19T04:54:52.781Z",
     "matchedKeywords": [
-      "축구협회장",
       "박지성",
       "서강일",
       "대한축구협회",
@@ -2655,7 +3021,6 @@
       "유소년",
       "육성",
       "거버넌스",
-      "제도",
       "개선"
     ],
     "discoveryQueries": [
@@ -2679,7 +3044,6 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
       "statute-revision",
       "innovation-committee",
       "youth-governance"
@@ -2690,10 +3054,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ngonews.kr/news/articleView.html?idxno=233247"
+      ],
+      "stories": [
+        "news|news|\"박지성·이영표가 뭘 안다고\"…서강일 전북축구협회장 발언 '후폭풍'|ngonews.kr|2026-07-19T03:26:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"박지성·이영표가 뭘 안다고\"…서강일 전북축구협회장 발언 '후폭풍'|ngonews.kr"
+      ],
+      "earliestPublishedAt": 1784431560000,
+      "latestPublishedAt": 1784431560000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_3WmEik4L2aM",
@@ -2804,8 +3184,7 @@
     "publishedAt": "2026-07-19T01:19:00.000Z",
     "collectedAt": "2026-07-19T04:54:52.781Z",
     "matchedKeywords": [
-      "홍명보",
-      "축구협회"
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"홍명보\" 축구협회"
@@ -2816,7 +3195,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 11,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2832,7 +3212,8 @@
     "publishedAt": "2026-07-19T01:12:00.000Z",
     "collectedAt": "2026-07-19T04:54:52.781Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "discoveryQueries": [
       "대한축구협회"
@@ -2841,7 +3222,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -2905,6 +3286,51 @@
     "relevanceScore": 21,
     "labels": [
       "인물 언급"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-07-19/202607190100101860006368"
+      ],
+      "stories": [
+        "news|news|[단독]'한국축구 위기라면서' 이영표-박주호 혁신위 위원, '홍명보 후임...|sportschosun.com|2026-07-19T01:03:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독]'한국축구 위기라면서' 이영표-박주호 혁신위 위원, '홍명보 후임...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1784422980000,
+      "latestPublishedAt": 1784422980000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
+  },
+  {
+    "id": "item_a34fd9296cb8b4d0",
+    "type": "news",
+    "title": "김병현, '홍명보 옹호 논란' 한 달만 사과→\"이건 기싸움\" 갑론을박…축...",
+    "summary": "메이저리그 투수 출신 김병현이 최근 불거진 ' 홍명보 축구대표팀 감독 옹호 발언' 논란에 대해 직접 해명 하고 고개를 숙였으나, 축구 팬들의 반응은 여전히 냉담하다. 김병현은 지난 13일 자신의 채널을 통해 축구 팬인...",
+    "url": "https://www.tvreport.co.kr/entertainment/article/1062091",
+    "originalUrl": "https://www.tvreport.co.kr/entertainment/article/1062091",
+    "publisher": "tvreport.co.kr",
+    "publishedAt": "2026-07-19T01:01:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "홍명보",
+      "해명"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 해명"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 13,
+    "labels": [
+      "인물 언급",
+      "해명 키워드 포함"
     ]
   },
   {
@@ -2918,7 +3344,8 @@
     "publishedAt": "2026-07-19T00:46:00.000Z",
     "collectedAt": "2026-07-19T01:10:49.692Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "discoveryQueries": [
       "대한축구협회"
@@ -2927,7 +3354,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -2942,11 +3369,9 @@
     "publishedAt": "2026-07-19T00:28:00.000Z",
     "collectedAt": "2026-07-19T01:10:49.692Z",
     "matchedKeywords": [
-      "축구협회장",
       "정몽규",
       "서강일",
       "사퇴",
-      "축구협회",
       "정관"
     ],
     "discoveryQueries": [
@@ -2968,7 +3393,6 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
       "statute-revision"
     ],
     "personTags": [
@@ -2977,7 +3401,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 53,
+    "relevanceScore": 30,
     "labels": [
       "인물 언급"
     ]
@@ -3067,6 +3491,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 26,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]

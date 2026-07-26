@@ -1,39 +1,5 @@
 [
   {
-    "id": "item_7136735ad613ea00",
-    "type": "news",
-    "title": "'대한민국보다 월드컵 폭망' 우루과이 속전속결 파격 결정...'박지성급 ...",
-    "summary": "비엘사 감독은 그런 일이 없었다고 해명 했지만 이번 대회를 끝으로 경질됐다. 새로운 사령탑이 절실하게 필요했던 우루과이축구협회는 레전드 포를란을 선임하는 파격적인 결정을 내렸다. TUDN은 '현지 보도와...",
-    "url": "https://www.sportschosun.com/football/2026-07-13/202607130100079440005004",
-    "originalUrl": "https://www.sportschosun.com/football/2026-07-13/202607130100079440005004",
-    "publisher": "sportschosun.com",
-    "publishedAt": "2026-07-12T23:37:00.000Z",
-    "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [
-      "박지성",
-      "해명"
-    ],
-    "discoveryQueries": [
-      "\"박지성\" 축구협회",
-      "\"박지성\" 해명",
-      "대표팀 감독 선임",
-      "축구협회 감독 선임",
-      "축구협회 감독 후보",
-      "축구협회 해명"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 10,
-    "labels": [
-      "인물 언급",
-      "해명 키워드 포함"
-    ]
-  },
-  {
     "id": "item_d7b41a0f1df6d352",
     "type": "news",
     "title": "\"능력 없이 돈 받아, 업무상 배임\"…경찰, 홍명보·정몽규 수사 본격화",
@@ -75,6 +41,30 @@
     ]
   },
   {
+    "id": "item_72ae7d5d5dfdec7d",
+    "type": "news",
+    "title": "보완 수사권 국물도 남김 없이 폐지, 민주당 교통정리도 안 됐다: 슬로우...",
+    "summary": "‘이기적인 연대’가 생겨나면 감독을 자르려는 움직임이 나타나고, 결국 시스템이 붕괴한다.” 유소년 ... 2025년 12월 대한 민국 여자 축구 대표팀 선수들은 대한축구협회 의 미흡한 지원과 열악한 처우에 반발하여...",
+    "url": "https://slownews.kr/163090",
+    "originalUrl": "https://slownews.kr/163090",
+    "publisher": "slownews.kr",
+    "publishedAt": "2026-07-12T22:36:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 유소년 정책"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_60954a120edac228",
     "type": "news",
     "title": "‘공정 회복과 정치 개입의 외줄타기’ 축협 청문회 FIFA 징계 피하려면...",
@@ -85,6 +75,8 @@
     "publishedAt": "2026-07-12T22:01:00.000Z",
     "collectedAt": "2026-07-12T22:32:07.556Z",
     "matchedKeywords": [
+      "축협",
+      "청문회",
       "문체부 감사",
       "감사"
     ],
@@ -110,10 +102,26 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 23,
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.dailian.co.kr/news/view/1665710/?sc=Naver"
+      ],
+      "stories": [
+        "news|news|‘공정 회복과 정치 개입의 외줄타기’ 축협 청문회 fifa 징계 피하려면...|dailian.co.kr|2026-07-12T22:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘공정 회복과 정치 개입의 외줄타기’ 축협 청문회 fifa 징계 피하려면...|dailian.co.kr"
+      ],
+      "earliestPublishedAt": 1783893660000,
+      "latestPublishedAt": 1783893660000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_5afe1b3a7593cf9f",
@@ -126,7 +134,6 @@
     "publishedAt": "2026-07-12T22:00:00.000Z",
     "collectedAt": "2026-07-12T22:32:07.556Z",
     "matchedKeywords": [
-      "축구협회",
       "홍명보"
     ],
     "issueTags": [],
@@ -135,7 +142,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 3,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -183,6 +190,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 27,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -244,9 +252,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 23,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.stoo.com/article.php?aid=107573326503"
+      ],
+      "stories": [
+        "news|news|북중미 월드컵의 참담한 실패…대변혁의 시간 앞둔 한국 축구 [st상반기...|stoo.com|2026-07-12T21:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|북중미 월드컵의 참담한 실패…대변혁의 시간 앞둔 한국 축구 [st상반기...|stoo.com"
+      ],
+      "earliestPublishedAt": 1783890120000,
+      "latestPublishedAt": 1783890120000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_W_4Dbq3BX4c",
@@ -310,14 +335,13 @@
     "collectedAt": "2026-07-12T21:32:51.247Z",
     "matchedKeywords": [
       "축구협회",
-      "감독 선임",
       "대표팀 감독",
       "감독",
       "사령탑",
-      "선임",
       "후보",
       "차기",
-      "거론"
+      "거론",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -331,7 +355,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 7,
+    "relevanceScore": 9,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -377,7 +401,6 @@
     "publishedAt": "2026-07-12T19:56:00.000Z",
     "collectedAt": "2026-07-12T21:32:51.247Z",
     "matchedKeywords": [
-      "축구협회",
       "홍명보"
     ],
     "issueTags": [],
@@ -386,7 +409,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 3,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -420,6 +443,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -472,7 +496,23 @@
     "relevanceScore": 21,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2171410"
+      ],
+      "stories": [
+        "news|news|오늘(7월13일)이 홍명보 선임 딱 2주년, 이런 대형사고 축구계 상상이나...|xportsnews.com|2026-07-12T18:34:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|오늘(7월13일)이 홍명보 선임 딱 2주년, 이런 대형사고 축구계 상상이나...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1783881240000,
+      "latestPublishedAt": 1783881240000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_e412c5224ec59dfc",
@@ -485,8 +525,8 @@
     "publishedAt": "2026-07-12T16:31:00.000Z",
     "collectedAt": "2026-07-12T16:35:14.409Z",
     "matchedKeywords": [
-      "감사",
       "홍명보",
+      "감사",
       "대한축구협회",
       "KFA"
     ],
@@ -504,7 +544,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 28,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -539,6 +580,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 15,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -635,7 +677,6 @@
     "collectedAt": "2026-07-12T15:41:24.635Z",
     "matchedKeywords": [
       "홍명보",
-      "축구협회",
       "감독",
       "사령탑",
       "후보",
@@ -652,7 +693,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 12,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -669,7 +711,8 @@
     "collectedAt": "2026-07-12T15:41:24.635Z",
     "matchedKeywords": [
       "홍명보",
-      "감사"
+      "감사",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 감사",
@@ -681,7 +724,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 5,
+    "relevanceScore": 7,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -708,6 +751,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 8,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -741,35 +785,6 @@
     "labels": []
   },
   {
-    "id": "item_3aa609a4f266a7d6",
-    "type": "news",
-    "title": "\"대한민국이 원한다!\" 홍명보, 후임 거론됐던 크로아티아, 전 사령탑 거...",
-    "summary": "즐라트코 달리치 전 크로아티아 축구 국가 대표팀 감독 이 아랍에미리트(UAE) 지휘봉을 쥘 것으로 보인다.... 현재 UAE는 감독 직은 공석이다. 1년 남짓 짧은 기간 파울루 벤투 감독 과 코스민 올러로이우 감독 을 선임 했지만...",
-    "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553369725",
-    "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553369725",
-    "publisher": "sportalkorea.com",
-    "publishedAt": "2026-07-12T12:58:00.000Z",
-    "collectedAt": "2026-07-12T14:14:24.598Z",
-    "matchedKeywords": [
-      "사령탑",
-      "후임",
-      "거론",
-      "홍명보"
-    ],
-    "issueTags": [
-      "coach-appointment"
-    ],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 18,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
     "id": "item_05b28181dd83b8e9",
     "type": "news",
     "title": "'월드컵 청문회'에 이영표·박지성, 참석 어렵다",
@@ -780,7 +795,8 @@
     "publishedAt": "2026-07-12T12:30:00.000Z",
     "collectedAt": "2026-07-12T12:39:23.886Z",
     "matchedKeywords": [
-      "박지성"
+      "박지성",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -798,7 +814,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ]
@@ -858,6 +874,7 @@
     "matchedKeywords": [
       "축구협회",
       "박지성",
+      "청문회",
       "대한 축구협회"
     ],
     "discoveryQueries": [
@@ -875,7 +892,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급"
     ]
@@ -952,7 +969,6 @@
       "대표팀 감독",
       "감독",
       "선임",
-      "후보",
       "복귀"
     ],
     "discoveryQueries": [
@@ -1037,6 +1053,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1106,34 +1123,6 @@
     "labels": []
   },
   {
-    "id": "item_cb96d31049d9e472",
-    "type": "news",
-    "title": "'역사에 남을 홍명보호 1-0 격파' 한국전이 생전 마지막이었다...남아공...",
-    "summary": "구단 회장과 모체페 가족, 이사회 , 코칭스태프, 선수단, 경영진, 직원, 마멜로디 선다운스 FC의 모든 서포터... 남아공 축구협회 에 따르면 애덤스는 체코와 경기를 하루 앞두고 그의 할머니 마리안나가 세상을 떠났다는...",
-    "url": "http://www.osen.co.kr/article/G1112838620",
-    "originalUrl": "http://www.osen.co.kr/article/G1112838620",
-    "publisher": "osen.co.kr",
-    "publishedAt": "2026-07-12T08:01:00.000Z",
-    "collectedAt": "2026-07-12T10:14:50.185Z",
-    "matchedKeywords": [
-      "홍명보",
-      "축구협회"
-    ],
-    "discoveryQueries": [
-      "축구협회 이사회"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 11,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
     "id": "item_40f28abd3ebddb03",
     "type": "news",
     "title": "\"홍명보 연봉, 세금이니 회수해야…\" 고발인 경찰 조사",
@@ -1170,6 +1159,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 27,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1186,6 +1176,7 @@
     "collectedAt": "2026-07-12T07:49:34.007Z",
     "matchedKeywords": [
       "축구협회",
+      "청문회",
       "대한 축구협회",
       "집행부",
       "감독 선임",
@@ -1218,7 +1209,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급"
     ]
@@ -1300,8 +1291,6 @@
     "collectedAt": "2026-07-12T07:49:34.007Z",
     "matchedKeywords": [
       "홍명보",
-      "감사",
-      "KFA",
       "해명"
     ],
     "discoveryQueries": [
@@ -1317,11 +1306,11 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
-      "해명 키워드 포함",
-      "감사 키워드 포함"
+      "해명 키워드 포함"
     ]
   },
   {
@@ -1477,6 +1466,7 @@
     "matchedKeywords": [
       "대한축구협회",
       "홍명보",
+      "청문회",
       "문체부 감사",
       "감사",
       "감독 선임",
@@ -1514,7 +1504,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 44,
+    "relevanceScore": 51,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -1557,6 +1547,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 35,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1576,7 +1567,6 @@
       "홍명보",
       "대한 축구협회",
       "감독 선임",
-      "대표팀 감독",
       "전력강화위원회",
       "감독",
       "전력강화위원",
@@ -1663,6 +1653,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 20,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1678,13 +1669,14 @@
     "publishedAt": "2026-07-12T03:01:00.000Z",
     "collectedAt": "2026-07-12T04:59:19.492Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -1709,6 +1701,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 14,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1757,67 +1750,6 @@
     ]
   },
   {
-    "id": "item_beeb23e431ee8ca1",
-    "type": "news",
-    "title": "[북중미 월드컵] \"홍명보 감독님, 진심으로 감사합니다\" 페드로 로마 GK...",
-    "summary": "2026 국제축구연맹(FIFA) 북중미 월드컵을 끝으로 대한민국 국가대표팀을 떠난 페드로 로마(55) 골키퍼 코치가 대한축구협회(KFA)와 홍명보 (57) 감독에게 감사 의 뜻을 전했다. 포르투갈 코임브라 지역지 '디아리오 드...",
-    "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt774912854b1a7c69",
-    "originalUrl": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt774912854b1a7c69",
-    "publisher": "goal.com",
-    "publishedAt": "2026-07-12T01:30:00.000Z",
-    "collectedAt": "2026-07-12T04:59:19.492Z",
-    "matchedKeywords": [
-      "홍명보",
-      "감사",
-      "대한축구협회",
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "\"홍명보\" 감사",
-      "축구협회 감사",
-      "KFA"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 24,
-    "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
-    ]
-  },
-  {
-    "id": "item_89d0c676e058bb0d",
-    "type": "news",
-    "title": "'연봉 26억→86억' 혹시... 역시... 크로아티아 황금기 이끈 달리치, 다...",
-    "summary": "대한민국 축구대표팀 차기 사령탑 후보로도 거론됐던 즐라트코 달리치 전 크로아티아 대표팀 감독 이 결국 중동행을 선택할 것으로 보인다. 레바논 매체 '엘스포츠'는 10일(한국시간) \"즐라트코 달리치 감독이...",
-    "url": "http://www.osen.co.kr/article/G1112838487",
-    "originalUrl": "http://www.osen.co.kr/article/G1112838487",
-    "publisher": "osen.co.kr",
-    "publishedAt": "2026-07-12T01:06:00.000Z",
-    "collectedAt": "2026-07-12T01:13:31.141Z",
-    "matchedKeywords": [
-      "대표팀 감독",
-      "감독",
-      "사령탑",
-      "후보",
-      "차기",
-      "거론"
-    ],
-    "issueTags": [
-      "coach-appointment"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 4,
-    "relevanceTier": "secondary",
-    "labels": []
-  },
-  {
     "id": "item_4aea42c4dc7f365c",
     "type": "news",
     "title": "깜짝 고백! 韓 차기 감독 거론 아기레, \"최종 결정은 그녀가 내릴 것\".....",
@@ -1832,7 +1764,8 @@
       "감독 선임",
       "감독",
       "선임",
-      "정몽규"
+      "정몽규",
+      "청문회"
     ],
     "issueTags": [
       "coach-appointment"
@@ -1842,7 +1775,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 15,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1875,6 +1808,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]

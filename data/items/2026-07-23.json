@@ -1,5 +1,44 @@
 [
   {
+    "id": "item_d0359aead712842c",
+    "type": "news",
+    "title": "'300명 밀실 선거' 끝낼 길 열리나...대한체육회 규정 개정, 축구협회 차...",
+    "summary": "축구협회 내부 절차와 정관 개정 , 선거인단 구성 방식에 대한 구체적인 논의가 추가로 필요하다. 다만 기존 60일이라는 촉박한 선출 기한이 최장 240일까지 늘어나면서 적어도 시간 부족을 이유로 선거 제도 개편을 미룰...",
+    "url": "http://www.osen.co.kr/article/G1112845461",
+    "originalUrl": "http://www.osen.co.kr/article/G1112845461",
+    "publisher": "osen.co.kr",
+    "publishedAt": "2026-07-23T23:44:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "축구협회",
+      "규정 개정",
+      "선거인단",
+      "선거인",
+      "정관",
+      "정관 개정",
+      "제도 개편"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 선거",
+      "축구협회 대의원",
+      "축구협회 부회장",
+      "축구협회 정관 개정",
+      "축구협회 제도 개편",
+      "축구협회 후보 등록"
+    ],
+    "issueTags": [
+      "statute-revision",
+      "electoral-college"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 35,
+    "labels": [
+      "선거 키워드 포함"
+    ]
+  },
+  {
     "id": "item_0883d4464c16b3ea",
     "type": "news",
     "title": "정몽규 4선 도전 8개월 전 체결된 '48억 후원 계약'... 재정 지원인가, ...",
@@ -122,7 +161,23 @@
     "relevanceScore": 41,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/society/2026/07/24/2026072408105787061"
+      ],
+      "stories": [
+        "news|news|\"하필 이 시점에?\"…정몽규, 4선 도전 앞두고 kfa에 48억원 후원|mt.co.kr|2026-07-23T23:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"하필 이 시점에?\"…정몽규, 4선 도전 앞두고 kfa에 48억원 후원|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1784849520000,
+      "latestPublishedAt": 1784849520000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_96279d23bb794153",
@@ -157,7 +212,23 @@
     "relevanceScore": 21,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sidae.com/article/2026072408004955447"
+      ],
+      "stories": [
+        "news|news|하석주, 홍명보 작심비판…\"쥐어박고 싶어, 무릎 꿇고 석고대죄했어야...|sidae.com|2026-07-23T23:13:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|하석주, 홍명보 작심비판…\"쥐어박고 싶어, 무릎 꿇고 석고대죄했어야...|sidae.com"
+      ],
+      "earliestPublishedAt": 1784848380000,
+      "latestPublishedAt": 1784848380000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_85fa7f870edf33e5",
@@ -197,40 +268,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
-  },
-  {
-    "id": "item_7230f8fdcbe06135",
-    "type": "news",
-    "title": "\"월드컵도 못 뛰고 가족도 못 만났다\"...'홍명보호 단 45분' 카스트로프...",
-    "summary": "그는 독일 뒤셀도르프에서 태생으로 이중 국적자이지만, 독일 축구협회(DFB)를 대신해 한국 축구협회( KFA )를 택하며 홍명보호에 합류했다. 꾸준히 연령별 대표팀으로 활약했던 독일 축구 대신 한국 축구를 택한 것....",
-    "url": "http://www.osen.co.kr/article/G1112845475",
-    "originalUrl": "http://www.osen.co.kr/article/G1112845475",
-    "publisher": "osen.co.kr",
-    "publishedAt": "2026-07-23T22:49:00.000Z",
-    "collectedAt": "2026-07-23T23:39:18.569Z",
-    "matchedKeywords": [
-      "홍명보",
-      "KFA",
-      "축구협회"
     ],
-    "discoveryQueries": [
-      "\"홍명보\" 축구협회",
-      "대표팀 감독",
-      "KFA"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 17,
-    "labels": [
-      "인물 언급"
-    ]
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.footballist.co.kr/news/articleView.html?idxno=212703"
+      ],
+      "stories": [
+        "news|news|\"한국 월드컵 참사, 홍명보만의 책임인가\" 日 대학축구연맹 회장의 통렬...|footballist.co.kr|2026-07-23T23:09:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"한국 월드컵 참사, 홍명보만의 책임인가\" 日 대학축구연맹 회장의 통렬...|footballist.co.kr"
+      ],
+      "earliestPublishedAt": 1784848140000,
+      "latestPublishedAt": 1784848140000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_af23977800a7de8f",
@@ -294,9 +351,7 @@
       "대표팀 감독",
       "감독",
       "선임",
-      "후보",
-      "차기",
-      "지원자"
+      "차기"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -356,9 +411,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.seoul.co.kr/news/society/accident/2026/07/23/20260723500212?wlog_tag3=naver"
+      ],
+      "stories": [
+        "news|news|“남의 행운 훔쳤다” 청계천 동전 싹쓸이한 여성…“박지성이 뭘 알아...|seoul.co.kr|2026-07-23T21:58:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“남의 행운 훔쳤다” 청계천 동전 싹쓸이한 여성…“박지성이 뭘 알아...|seoul.co.kr"
+      ],
+      "earliestPublishedAt": 1784843880000,
+      "latestPublishedAt": 1784843880000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_bda7af2505cad77a",
@@ -524,6 +596,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -577,7 +650,8 @@
       "차기",
       "홍명보",
       "대한 축구협회",
-      "정몽규"
+      "정몽규",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -600,38 +674,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_9ada71a5e0e6cbaf",
-    "type": "news",
-    "title": "'홍명보호 딱 45분' 카스트로프 폭탄 발언!…\"가족들 휴가 내서 멕시코...",
-    "summary": "독일 축구협회 에서 대한축구협회 로 소속을 바꿔 태극마크를 달았다. 2026 국제 축구 연맹(FIFA) 북중미 월드컵 최종 명단에 승선해 월드컵 꿈을 이뤘다. 그러나 월드컵 본선이 시작된 후 홍명보 감독은 카스트로프를 중용하지...",
-    "url": "https://www.xportsnews.com/article/2175358",
-    "originalUrl": "https://www.xportsnews.com/article/2175358",
-    "publisher": "xportsnews.com",
-    "publishedAt": "2026-07-23T15:05:00.000Z",
-    "collectedAt": "2026-07-23T21:43:17.934Z",
-    "matchedKeywords": [
-      "홍명보",
-      "대한축구협회"
-    ],
-    "discoveryQueries": [
-      "\"홍명보\" 대한축구협회",
-      "\"홍명보\" 축구협회",
-      "대한축구협회"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 17,
-    "relevanceTier": "secondary",
+    "relevanceScore": 29,
     "labels": [
       "인물 언급"
     ]
@@ -661,7 +704,23 @@
     "relevanceScore": 70,
     "labels": [
       "공식 출처"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://media.kfa.or.kr/bbs/bbs.php?act=bbs_view&con=ed862ee30c035dfd48343bcef45926f7&idx=5110"
+      ],
+      "stories": [
+        "official|official|[보도자료] 대한축구협회, 이사회 개최하고 회장 선거 및...|kfa 미디어채널|2026-07-23T15:00:00.000Z"
+      ],
+      "nearKeys": [
+        "official|official|[보도자료] 대한축구협회, 이사회 개최하고 회장 선거 및...|kfa 미디어채널"
+      ],
+      "earliestPublishedAt": 1784818800000,
+      "latestPublishedAt": 1784818800000,
+      "representativeCollectedAt": 1785042245514,
+      "latestCollectedAt": 1785042245514
+    }
   },
   {
     "id": "item_f4397215fada9caf",
@@ -674,9 +733,6 @@
     "publishedAt": "2026-07-23T15:00:00.000Z",
     "collectedAt": "2026-07-24T04:53:59.475Z",
     "matchedKeywords": [
-      "감독",
-      "후보",
-      "후임",
       "홍명보",
       "감사"
     ],
@@ -687,20 +743,34 @@
       "축구협회 감독 후보",
       "축구협회 감사"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 9,
+    "relevanceScore": 5,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112845397"
+      ],
+      "stories": [
+        "news|news|'일본에 0-4·2전 전패' 르나르, 韓 대표팀 감독 유력 후보로 재등장...남...|osen.co.kr|2026-07-23T15:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'일본에 0-4·2전 전패' 르나르, 韓 대표팀 감독 유력 후보로 재등장...남...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784818800000,
+      "latestPublishedAt": 1784818800000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_009364b35cd1b387",
@@ -713,11 +783,11 @@
     "publishedAt": "2026-07-23T14:58:00.000Z",
     "collectedAt": "2026-07-23T15:35:55.749Z",
     "matchedKeywords": [
-      "축구협회장",
       "회장 선거",
-      "이사회",
+      "축구협회장",
       "대한 축구협회",
-      "제도 개편"
+      "제도 개편",
+      "이사회"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -738,14 +808,30 @@
     ],
     "issueTags": [
       "election",
-      "kfa-executives",
-      "statute-revision"
+      "statute-revision",
+      "kfa-executives"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
-    "labels": []
+    "relevanceScore": 38,
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sedaily.com/article/20071269?ref=naver"
+      ],
+      "stories": [
+        "news|news|대한체육회, 선거 ‘60일 연장안’ 이사회 의결...축구협회장 선거 제도...|sedaily.com|2026-07-23T14:58:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한체육회, 선거 ‘60일 연장안’ 이사회 의결...축구협회장 선거 제도...|sedaily.com"
+      ],
+      "earliestPublishedAt": 1784818680000,
+      "latestPublishedAt": 1784818680000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_30670b4a9aabaaf1",
@@ -802,10 +888,27 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 19,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.segye.com/newsView/20260723518347?OutUrl=naver"
+      ],
+      "stories": [
+        "news|news|[기자가만난세상] 카보베르데 돌풍과 한국축구 민낯|segye.com|2026-07-23T13:59:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[기자가만난세상] 카보베르데 돌풍과 한국축구 민낯|segye.com"
+      ],
+      "earliestPublishedAt": 1784815140000,
+      "latestPublishedAt": 1784815140000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_3a495d305904d3bd",
@@ -832,7 +935,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 4,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.segye.com/newsView/20260723518342?OutUrl=naver"
+      ],
+      "stories": [
+        "news|news|[성백유의스포츠속이야기] 한국축구, 제대로 혁신할까|segye.com|2026-07-23T13:59:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[성백유의스포츠속이야기] 한국축구, 제대로 혁신할까|segye.com"
+      ],
+      "earliestPublishedAt": 1784815140000,
+      "latestPublishedAt": 1784815140000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_a37deb3ede940a47",
@@ -845,7 +964,6 @@
     "publishedAt": "2026-07-23T13:37:00.000Z",
     "collectedAt": "2026-07-23T15:35:55.749Z",
     "matchedKeywords": [
-      "축구협회",
       "회장 선거",
       "대한 축구협회",
       "제도 개편",
@@ -887,8 +1005,24 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
-    "labels": []
+    "relevanceScore": 28,
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newspim.com/news/view/20260723001331"
+      ],
+      "stories": [
+        "news|news|대한체육회, 종목단체 회장 선거 기한 최대 8개월까지 연장…축구협회...|newspim.com|2026-07-23T13:37:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한체육회, 종목단체 회장 선거 기한 최대 8개월까지 연장…축구협회...|newspim.com"
+      ],
+      "earliestPublishedAt": 1784813820000,
+      "latestPublishedAt": 1784813820000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_99e79c4499b93ed1",
@@ -901,8 +1035,8 @@
     "publishedAt": "2026-07-23T12:38:00.000Z",
     "collectedAt": "2026-07-23T13:12:47.464Z",
     "matchedKeywords": [
-      "축구협회장",
       "회장 선거",
+      "축구협회장",
       "이사회",
       "정몽규",
       "사퇴"
@@ -929,7 +1063,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급"
     ]
@@ -961,6 +1095,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 7,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1046,7 +1181,23 @@
     "isOfficial": false,
     "relevanceScore": 14,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/MYH20260723212014zTx"
+      ],
+      "stories": [
+        "news|news|'3차례 회의' k축구 혁신위, 회의록은 안 남겨|yonhapnewstv.co.kr|2026-07-23T12:20:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'3차례 회의' k축구 혁신위, 회의록은 안 남겨|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1784809200000,
+      "latestPublishedAt": 1784809200000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_214464e7a2046b90",
@@ -1071,7 +1222,6 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 16,
-    "relevanceTier": "secondary",
     "labels": []
   },
   {
@@ -1116,7 +1266,23 @@
     "relevanceScore": 19,
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20260724.22015006956"
+      ],
+      "stories": [
+        "news|news|축구협회 회장선거, 직선제 바뀔까…선출 최장 8개월 연장에 개혁 탄력|kookje.co.kr|2026-07-23T10:43:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회 회장선거, 직선제 바뀔까…선출 최장 8개월 연장에 개혁 탄력|kookje.co.kr"
+      ],
+      "earliestPublishedAt": 1784803380000,
+      "latestPublishedAt": 1784803380000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_a2ee1c970a2f8649",
@@ -1235,7 +1401,8 @@
     "publishedAt": "2026-07-23T10:20:00.000Z",
     "collectedAt": "2026-07-23T10:51:42.213Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "discoveryQueries": [
       "대한축구협회"
@@ -1244,7 +1411,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -1320,61 +1487,10 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
-  },
-  {
-    "id": "item_8980633e080b3a5e",
-    "type": "news",
-    "title": "\"중계화면에 잡히지 않은 옵싸\" KFA심판위,강원 아부달라 지워진 역전골...",
-    "summary": "\" 대한축구협회( KFA ) 심판위원회가 21일 제주월드컵경기장에서 펼쳐진 K리그1 19라운드 제주 유나이티드... 23일 오후 KFA 는 '중계화면에 잡히지 않은 오프사이드'라는 제하에 공식 설명자료를 냈다. '지난 21일 치러진 제주...",
-    "url": "https://www.sportschosun.com/football/2026-07-23/202607230100145310009216",
-    "originalUrl": "https://www.sportschosun.com/football/2026-07-23/202607230100145310009216",
-    "publisher": "sportschosun.com",
-    "publishedAt": "2026-07-23T09:58:00.000Z",
-    "collectedAt": "2026-07-23T10:51:42.213Z",
-    "matchedKeywords": [
-      "KFA",
-      "대한축구협회"
-    ],
-    "discoveryQueries": [
-      "대한축구협회",
-      "KFA"
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 26,
-    "relevanceTier": "secondary",
-    "labels": []
-  },
-  {
-    "id": "item_e48cadc84c01bd8b",
-    "type": "news",
-    "title": "[공식발표] '중계엔 없던 오프사이드'...KFA \"VAR 절차 정상, 강원 득점 ...",
-    "summary": "중계 화면만으로는 확인할 수 없었던 제주SK-강원FC전 오프사이드 판정의 이유가 공개됐다. 대한축구협회는 비디오판독(VAR) 절차가 정상적으로 작동했고, 득점 취소는 정확한 판정이었다고 설명했다. 대한축구협회는 23일...",
-    "url": "http://www.osen.co.kr/article/G1112844982",
-    "originalUrl": "http://www.osen.co.kr/article/G1112844982",
-    "publisher": "osen.co.kr",
-    "publishedAt": "2026-07-23T09:40:00.000Z",
-    "collectedAt": "2026-07-23T10:51:42.213Z",
-    "matchedKeywords": [
-      "KFA",
-      "대한축구협회"
-    ],
-    "discoveryQueries": [
-      "대한축구협회",
-      "KFA"
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 26,
-    "relevanceTier": "secondary",
-    "labels": []
   },
   {
     "id": "youtube_NXneYQtfGsM",
@@ -1489,10 +1605,57 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsseoul.com/news/read/1624338?ref=naver"
+      ],
+      "stories": [
+        "news|news|박문성 “얼굴은 내가 잘생겨”… 박지성 향한 거침없는 디스에 팬들 ‘...|sportsseoul.com|2026-07-23T09:11:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박문성 “얼굴은 내가 잘생겨”… 박지성 향한 거침없는 디스에 팬들 ‘...|sportsseoul.com"
+      ],
+      "earliestPublishedAt": 1784797860000,
+      "latestPublishedAt": 1784797860000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
+  },
+  {
+    "id": "item_ac4b0c2a4061224a",
+    "type": "news",
+    "title": "“일본에 15년 이상 뒤처졌다”…하석주의 한탄 “이젠 연령별 대표팀도...",
+    "summary": "하석주는 차기 대한축구협회 장이 대표팀의 단기적인 성적보다 유소년 육성 과 지도자 시스템 을 재정비하는 데 힘을 쏟아야 한다고 주장했다. 그는 “한국 축구 는 지금 분열이 심각한 상황”이라며 “서로 힘을 합치지...",
+    "url": "https://mhnse.com/news/articleView.html?idxno=1468050",
+    "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1468050",
+    "publisher": "mhnse.com",
+    "publishedAt": "2026-07-23T09:08:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "유소년",
+      "육성",
+      "지도자",
+      "시스템"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 유소년 육성 시스템"
+    ],
+    "issueTags": [
+      "youth-governance"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_16a9ccddf5b2ad9b",
@@ -1559,8 +1722,7 @@
       "사령탑",
       "후보",
       "후임",
-      "홍명보",
-      "선임"
+      "홍명보"
     ],
     "discoveryQueries": [
       "감독 후보",
@@ -1574,7 +1736,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -1773,7 +1935,23 @@
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.stoo.com/article.php?aid=107887646584"
+      ],
+      "stories": [
+        "news|news|대한체육회, '60일 이내 선거' 규정 개정…축구협회장 선거 직선제 도입...|stoo.com|2026-07-23T08:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한체육회, '60일 이내 선거' 규정 개정…축구협회장 선거 직선제 도입...|stoo.com"
+      ],
+      "earliestPublishedAt": 1784794680000,
+      "latestPublishedAt": 1784794680000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_aca08fbfc0d3a66c",
@@ -1788,7 +1966,8 @@
     "matchedKeywords": [
       "대한 축구협회",
       "정몽규",
-      "홍명보"
+      "홍명보",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1810,7 +1989,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 12,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1827,7 +2006,6 @@
     "publishedAt": "2026-07-23T08:06:00.000Z",
     "collectedAt": "2026-07-23T10:51:42.213Z",
     "matchedKeywords": [
-      "축구협회장",
       "회장 선거",
       "축구협회",
       "제도 개편",
@@ -1859,11 +2037,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 32,
+    "relevanceScore": 22,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mk.co.kr/article/12105635"
+      ],
+      "stories": [
+        "news|news|종목단체 협회장 선출 기한 60일→최대 8개월로… 축구협회장 선거제 개...|mk.co.kr|2026-07-23T08:06:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|종목단체 협회장 선출 기한 60일→최대 8개월로… 축구협회장 선거제 개...|mk.co.kr"
+      ],
+      "earliestPublishedAt": 1784793960000,
+      "latestPublishedAt": 1784793960000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_9lioX6WFaJ0",
@@ -2100,7 +2294,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 24,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/MYH20260723165050jqA"
+      ],
+      "stories": [
+        "news|news|축구협회장 선출기한 6개월 연장…개혁 본격화|yonhapnewstv.co.kr|2026-07-23T07:51:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회장 선출기한 6개월 연장…개혁 본격화|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1784793060000,
+      "latestPublishedAt": 1784793060000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_b829c3a75c97c8a0",
@@ -2159,7 +2369,23 @@
     "relevanceScore": 44,
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kwnews.co.kr/article/20260723501298"
+      ],
+      "stories": [
+        "news|news|대한체육회 정관 개정…축구협회장 직선제 시대 열리나|kwnews.co.kr|2026-07-23T07:49:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한체육회 정관 개정…축구협회장 직선제 시대 열리나|kwnews.co.kr"
+      ],
+      "earliestPublishedAt": 1784792940000,
+      "latestPublishedAt": 1784792940000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_1U214qbg8O4",
@@ -2233,26 +2459,46 @@
     "id": "item_6e659e0e6b4896b8",
     "type": "news",
     "title": "국회 후반기 원구성 사실상 완료…국힘 몫 상임위원장 6명 선출",
-    "summary": "상임위원회 구성이 사실상 완료되면서 검찰 보완수사권 조정을 위한 형사소송법 개정안, 국회법 개정안, 대한축구협회 청문회 등 주요 현안을 둘러싼 여야의 입법·정책 공방도 본격화될 전망이다. [스트레이트뉴스 ]",
+    "summary": "당초 국토위원장은 김 의원과 송석준 의원이 1년씩 맡는 방안이 논의됐지만, 유 의원이 후보 등록 에... 개정안, 대한 축구협회 청문회 등 주요 현안을 둘러싼 여야의 입법·정책 공방도 본격화될 전망이다. [스트레이트뉴스 ]",
     "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=307552",
     "originalUrl": "https://www.straightnews.co.kr/news/articleView.html?idxno=307552",
     "publisher": "straightnews.co.kr",
     "publishedAt": "2026-07-23T07:30:00.000Z",
     "collectedAt": "2026-07-23T08:01:40.396Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한 축구협회",
+      "후보 등록",
+      "청문회"
     ],
     "discoveryQueries": [
       "대한축구협회",
       "축구협회 후보 등록"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.straightnews.co.kr/news/articleView.html?idxno=307552"
+      ],
+      "stories": [
+        "news|news|국회 후반기 원구성 사실상 완료…국힘 몫 상임위원장 6명 선출|straightnews.co.kr|2026-07-23T07:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|국회 후반기 원구성 사실상 완료…국힘 몫 상임위원장 6명 선출|straightnews.co.kr"
+      ],
+      "earliestPublishedAt": 1784791800000,
+      "latestPublishedAt": 1784791800000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_127ee0091f606d49",
@@ -2268,7 +2514,8 @@
       "축구협회",
       "정몽규",
       "회장 선거",
-      "홍명보"
+      "홍명보",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2294,7 +2541,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -2391,11 +2638,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kmib.co.kr/article/view.asp?arcid=0030152058&code=61161311&cp=nv"
+      ],
+      "stories": [
+        "news|news|축구협회 개혁 속도전…60일 내 회장 선출 규정→최장 8개월로|kmib.co.kr|2026-07-23T07:24:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회 개혁 속도전…60일 내 회장 선출 규정→최장 8개월로|kmib.co.kr"
+      ],
+      "earliestPublishedAt": 1784791440000,
+      "latestPublishedAt": 1784791440000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_4fb2873b401eaebd",
@@ -2488,7 +2751,23 @@
     "relevanceScore": 48,
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/soccer/6237015"
+      ],
+      "stories": [
+        "news|news|회장 선거 '최대 8개월까지'…축구협회 \"선거인단 확대 신중히 논의\"(종...|news1.kr|2026-07-23T07:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|회장 선거 '최대 8개월까지'…축구협회 \"선거인단 확대 신중히 논의\"(종...|news1.kr"
+      ],
+      "earliestPublishedAt": 1784790300000,
+      "latestPublishedAt": 1784790300000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_f205740a3cb116c6",
@@ -2551,7 +2830,8 @@
     "matchedKeywords": [
       "대한축구협회",
       "정몽규",
-      "홍명보"
+      "홍명보",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2574,7 +2854,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 12,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -2631,7 +2911,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 24,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/politics/assembly/6236988"
+      ],
+      "stories": [
+        "news|news|[단독] 韓축구 투명성 높인다던 'k-혁신위' 회의록 한 건도 안 남겼다|news1.kr|2026-07-23T06:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] 韓축구 투명성 높인다던 'k-혁신위' 회의록 한 건도 안 남겼다|news1.kr"
+      ],
+      "earliestPublishedAt": 1784789760000,
+      "latestPublishedAt": 1784789760000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_5c9707cb723e2947",
@@ -2645,6 +2941,7 @@
     "collectedAt": "2026-07-23T08:01:40.396Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "감독 선임",
       "감독",
@@ -2665,7 +2962,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급"
     ]
@@ -2685,8 +2982,6 @@
       "차기",
       "사령탑",
       "선임",
-      "후보",
-      "거론",
       "홍명보"
     ],
     "discoveryQueries": [
@@ -2782,6 +3077,44 @@
     }
   },
   {
+    "id": "item_4f6de111c133608b",
+    "type": "news",
+    "title": "[사커토픽] 대한체육회 산하단체 회장직무대행 업무범주 최대 8개월까지...",
+    "summary": "전 종목이 해당되나, 결국 정몽규 회장의 사임으로 이용수 회장직무대행 체제로 돌입한 대한 축구협회 를... 임시기구인 ‘K- 축구 혁신위 원회( 혁신위 )’가 출범했다. 혁신위 는 꾸준히 선거인단 확대를 거론해왔다....",
+    "url": "https://sports.donga.com/sports/article/all/20260723/134350614/1",
+    "originalUrl": "https://sports.donga.com/sports/article/all/20260723/134350614/1",
+    "publisher": "sports.donga.com",
+    "publishedAt": "2026-07-23T06:32:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "선거인단",
+      "선거인",
+      "축구 혁신",
+      "정몽규"
+    ],
+    "discoveryQueries": [
+      "축구혁신위",
+      "축구협회 집행부",
+      "축구협회 K-혁신위"
+    ],
+    "issueTags": [
+      "electoral-college",
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 19,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급",
+      "선거 키워드 포함"
+    ]
+  },
+  {
     "id": "item_c2f47a1902dc1aa2",
     "type": "news",
     "title": "K-축구혁신위 개혁 착착 진행 중! 대한체육회 회장 보궐선거 60일에서 최...",
@@ -2829,7 +3162,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 44,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.footballist.co.kr/news/articleView.html?idxno=212690"
+      ],
+      "stories": [
+        "news|news|k-축구혁신위 개혁 착착 진행 중! 대한체육회 회장 보궐선거 60일에서 최...|footballist.co.kr|2026-07-23T06:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|k-축구혁신위 개혁 착착 진행 중! 대한체육회 회장 보궐선거 60일에서 최...|footballist.co.kr"
+      ],
+      "earliestPublishedAt": 1784788200000,
+      "latestPublishedAt": 1784788200000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_a303ff9ccc8d040f",
@@ -2902,6 +3251,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 8,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2917,6 +3267,7 @@
     "publishedAt": "2026-07-23T05:59:00.000Z",
     "collectedAt": "2026-07-23T08:01:40.396Z",
     "matchedKeywords": [
+      "축구협회",
       "정몽규"
     ],
     "discoveryQueries": [
@@ -2936,7 +3287,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -2991,10 +3342,10 @@
     "publishedAt": "2026-07-23T05:40:00.000Z",
     "collectedAt": "2026-07-23T08:01:40.396Z",
     "matchedKeywords": [
-      "축구협회장",
       "회장 선거",
       "규정 개정",
       "축구혁신위",
+      "축구협회장",
       "선거인단",
       "선거인"
     ],
@@ -3023,9 +3374,57 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
+    "relevanceScore": 40,
     "labels": [
       "선거 키워드 포함"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.tvchosun.com/site/data/html_dir/2026/07/23/2026072390165.html"
+      ],
+      "stories": [
+        "news|news|축구협회장 선거, 최대 8개월 연장 가능…관련 규정 개정|news.tvchosun.com|2026-07-23T05:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회장 선거, 최대 8개월 연장 가능…관련 규정 개정|news.tvchosun.com"
+      ],
+      "earliestPublishedAt": 1784785200000,
+      "latestPublishedAt": 1784785200000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
+  },
+  {
+    "id": "item_f477750d5047c118",
+    "type": "news",
+    "title": "\"왜 뜯어고치려 하느냐\" 축구계 반발 '보란 듯이' 규정 바꿨다... 축구협...",
+    "summary": "여기에 300명 이내의 제한된 인원들이 투표권 을 갖고 회장을 뽑는 방식도 변화가 필요하다는 목소리가 거셌다. 예컨대 지난해 제55대 대한 축구협회 장 선거 당시 정몽규 회장은 거센 비판 여론에도 불구하고 192명의...",
+    "url": "https://www.starnewskorea.com/sports/2026/07/23/2026072313265466097",
+    "originalUrl": "https://www.starnewskorea.com/sports/2026/07/23/2026072313265466097",
+    "publisher": "starnewskorea.com",
+    "publishedAt": "2026-07-23T05:29:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "투표권",
+      "정몽규"
+    ],
+    "discoveryQueries": [
+      "축구협회 투표권"
+    ],
+    "issueTags": [
+      "electoral-college"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
     ]
   },
   {
@@ -3039,6 +3438,7 @@
     "publishedAt": "2026-07-23T05:29:00.000Z",
     "collectedAt": "2026-07-23T08:01:40.396Z",
     "matchedKeywords": [
+      "축협",
       "정몽규",
       "대한축구협회",
       "사퇴"
@@ -3057,7 +3457,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급"
     ]
@@ -3101,8 +3501,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 20,
-    "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kukinews.com/article/view/kuk202607230122"
+      ],
+      "stories": [
+        "news|news|임오경 “k-축구 혁신위, 선거 논의 치중…현장 중심 개혁 청사진 내놔...|kukinews.com|2026-07-23T05:22:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|임오경 “k-축구 혁신위, 선거 논의 치중…현장 중심 개혁 청사진 내놔...|kukinews.com"
+      ],
+      "earliestPublishedAt": 1784784120000,
+      "latestPublishedAt": 1784784120000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_4138b86a22e165ae",
@@ -3128,10 +3543,27 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20260723_0003720466"
+      ],
+      "stories": [
+        "news|news|\"홍명보 나가\" 김영광, 입 열었다…\"축구계 안 있을 것\"|newsis.com|2026-07-23T05:09:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"홍명보 나가\" 김영광, 입 열었다…\"축구계 안 있을 것\"|newsis.com"
+      ],
+      "earliestPublishedAt": 1784783340000,
+      "latestPublishedAt": 1784783340000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_d6d3e9b7f79ce0a1",
@@ -3241,7 +3673,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 34,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kukinews.com/article/view/kuk202607210129"
+      ],
+      "stories": [
+        "news|news|kfa 회장 선거, 새 얼굴보다 새 제도가 핵심 [취재진담]|kukinews.com|2026-07-23T04:52:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|kfa 회장 선거, 새 얼굴보다 새 제도가 핵심 [취재진담]|kukinews.com"
+      ],
+      "earliestPublishedAt": 1784782320000,
+      "latestPublishedAt": 1784782320000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_5564950ae8d90564",
@@ -3254,9 +3702,9 @@
     "publishedAt": "2026-07-23T04:41:00.000Z",
     "collectedAt": "2026-07-23T04:57:54.919Z",
     "matchedKeywords": [
-      "축구협회장",
       "회장 선거",
       "규정 개정",
+      "축구협회장",
       "선거인단",
       "선거인",
       "혁신위원회",
@@ -3296,12 +3744,28 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 52,
+    "relevanceScore": 42,
     "labels": [
       "인물 언급",
       "감사 키워드 포함",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.hankookilbo.com/news/article/A2026072313180005244?did=NA"
+      ],
+      "stories": [
+        "news|news|축구협회장 선거 최대 8개월 연장 가능해졌다...대한체육회 규정 개정|hankookilbo.com|2026-07-23T04:41:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회장 선거 최대 8개월 연장 가능해졌다...대한체육회 규정 개정|hankookilbo.com"
+      ],
+      "earliestPublishedAt": 1784781660000,
+      "latestPublishedAt": 1784781660000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_3fe5883feab7c109",
@@ -3314,9 +3778,9 @@
     "publishedAt": "2026-07-23T04:36:00.000Z",
     "collectedAt": "2026-07-23T04:57:54.919Z",
     "matchedKeywords": [
-      "축구협회장",
       "회장 선거",
       "규정 개정",
+      "축구협회장",
       "대한 축구협회",
       "제도 개편",
       "정몽규"
@@ -3358,7 +3822,23 @@
     "relevanceScore": 43,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.edaily.co.kr/news/newspath.asp?newsid=04260726645517472"
+      ],
+      "stories": [
+        "news|news|대한체육회 규정 개정…축구협회장 선거, '최대 6개월' 연장 가능|edaily.co.kr|2026-07-23T04:36:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한체육회 규정 개정…축구협회장 선거, '최대 6개월' 연장 가능|edaily.co.kr"
+      ],
+      "earliestPublishedAt": 1784781360000,
+      "latestPublishedAt": 1784781360000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_ddb11055a198ecb7",
@@ -3491,7 +3971,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -3550,7 +4030,23 @@
     "relevanceScore": 43,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.nocutnews.co.kr/news/6552220"
+      ],
+      "stories": [
+        "news|news|축구협회장 직선제 위한 장애물 사라졌다…체육회 규정 개정|nocutnews.co.kr|2026-07-23T03:07:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회장 직선제 위한 장애물 사라졌다…체육회 규정 개정|nocutnews.co.kr"
+      ],
+      "earliestPublishedAt": 1784776020000,
+      "latestPublishedAt": 1784776020000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_1e24291c5d3c00f9",
@@ -3693,9 +4189,10 @@
     "publishedAt": "2026-07-23T02:46:00.000Z",
     "collectedAt": "2026-07-23T04:57:54.919Z",
     "matchedKeywords": [
-      "부회장",
+      "축협",
       "홍명보",
-      "대한 축구협회"
+      "대한 축구협회",
+      "부회장"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -3715,7 +4212,23 @@
     "relevanceScore": 31,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.stoo.com/article.php?aid=107882931460"
+      ],
+      "stories": [
+        "news|news|하석주 前 축협 부회장 \"홍명보, 쥐어박고 싶을 정도…무릎 꿇고 석고대...|stoo.com|2026-07-23T02:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|하석주 前 축협 부회장 \"홍명보, 쥐어박고 싶을 정도…무릎 꿇고 석고대...|stoo.com"
+      ],
+      "earliestPublishedAt": 1784774760000,
+      "latestPublishedAt": 1784774760000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_456ba4c0ff971486",
@@ -3728,8 +4241,8 @@
     "publishedAt": "2026-07-23T02:44:00.000Z",
     "collectedAt": "2026-07-23T04:57:54.919Z",
     "matchedKeywords": [
-      "축구협회장",
       "정몽규",
+      "축구협회장",
       "대한축구협회"
     ],
     "discoveryQueries": [
@@ -3741,15 +4254,13 @@
       "축구협회 회장 선거",
       "축구협회장"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -3930,7 +4441,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 30,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112844815"
+      ],
+      "stories": [
+        "news|news|'60일 족쇄' 풀렸다... 축구협회장 직선제 도입 최대 걸림돌 사라져|osen.co.kr|2026-07-23T02:24:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'60일 족쇄' 풀렸다... 축구협회장 직선제 도입 최대 걸림돌 사라져|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784773440000,
+      "latestPublishedAt": 1784773440000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_d5b860e8c1df81dc",
@@ -4026,7 +4553,23 @@
     "relevanceScore": 20,
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008671122&plink=ORI"
+      ],
+      "stories": [
+        "news|news|축구협회장 선거, 기존 '60일 이내'에서 '최대 8개월'까지 가능…규정 개...|news.sbs.co.kr|2026-07-23T02:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회장 선거, 기존 '60일 이내'에서 '최대 8개월'까지 가능…규정 개...|news.sbs.co.kr"
+      ],
+      "earliestPublishedAt": 1784772960000,
+      "latestPublishedAt": 1784772960000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_562fa09b184d150b",
@@ -4039,10 +4582,8 @@
     "publishedAt": "2026-07-23T02:16:00.000Z",
     "collectedAt": "2026-07-23T04:57:54.919Z",
     "matchedKeywords": [
-      "축구협회장",
       "회장 선거",
       "규정 개정",
-      "축구협회",
       "이사회",
       "정몽규",
       "감사"
@@ -4075,11 +4616,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.chosun.com/national/national_general/2026/07/23/JIR2VMMTZVHCJHOZNIQ7QROEZU"
+      ],
+      "stories": [
+        "news|news|축구협회장 선거 최대 8개월 연장 가능 ... 대한체육회 관련 규정 개정|chosun.com|2026-07-23T02:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회장 선거 최대 8개월 연장 가능 ... 대한체육회 관련 규정 개정|chosun.com"
+      ],
+      "earliestPublishedAt": 1784772960000,
+      "latestPublishedAt": 1784772960000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_fb903c1679a62b0a",
@@ -4133,6 +4690,38 @@
     ]
   },
   {
+    "id": "item_9c3692d7f5a843d0",
+    "type": "news",
+    "title": "‘축구협회 감사 후 공문 1장?’ 문체부 부실 후속 조치 도마 위",
+    "summary": "국회 문화체육관광위원회 소속 더불어민주당 임오경 의원은 23일 문체부 로부터 제출받은 두 건의 축구협회 감사 보고서와 후속 조치 내역을 종합 분석한 결과 이 같은 문제점이 확인됐다고 밝혔다. 자료에 따르면 문체부 는...",
+    "url": "https://www.dailian.co.kr/news/view/1670018/?sc=Naver",
+    "originalUrl": "https://www.dailian.co.kr/news/view/1670018/?sc=Naver",
+    "publisher": "dailian.co.kr",
+    "publishedAt": "2026-07-23T02:08:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "감사",
+      "축구협회"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 감사",
+      "축구협회 문체부 감사",
+      "축구협회 문화체육관광부 감사",
+      "축구협회 임원"
+    ],
+    "issueTags": [
+      "mcst-audit"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 14,
+    "relevanceTier": "secondary",
+    "labels": [
+      "감사 키워드 포함"
+    ]
+  },
+  {
     "id": "item_5b97cba255df3b4c",
     "type": "news",
     "title": "\"한류 막장드라마! 꿀조 탈락→청문회→수사\" 日, 한국 축구 '최악의 후...",
@@ -4143,6 +4732,7 @@
     "publishedAt": "2026-07-23T02:03:00.000Z",
     "collectedAt": "2026-07-23T04:57:54.919Z",
     "matchedKeywords": [
+      "청문회",
       "대한 축구협회",
       "홍명보"
     ],
@@ -4158,7 +4748,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 9,
+    "relevanceScore": 14,
     "labels": [
       "인물 언급"
     ]
@@ -4174,9 +4764,9 @@
     "publishedAt": "2026-07-23T01:59:00.000Z",
     "collectedAt": "2026-07-23T04:57:54.919Z",
     "matchedKeywords": [
-      "축구협회장",
       "회장 선거",
       "규정 개정",
+      "축구협회장",
       "대한 축구협회",
       "선거인단",
       "선거인",
@@ -4257,10 +4847,27 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1147956"
+      ],
+      "stories": [
+        "news|news|“홍명보 태도, 한 대 쥐어박고 싶을 정도로 잘못”…‘한국 국대 출신...|wikitree.co.kr|2026-07-23T01:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“홍명보 태도, 한 대 쥐어박고 싶을 정도로 잘못”…‘한국 국대 출신...|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1784771760000,
+      "latestPublishedAt": 1784771760000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_jkwZwz4RaMk",
@@ -4324,7 +4931,6 @@
     "publishedAt": "2026-07-23T01:46:00.000Z",
     "collectedAt": "2026-07-23T04:57:54.919Z",
     "matchedKeywords": [
-      "축구협회",
       "정몽규",
       "대한축구협회",
       "축구협회장",
@@ -4366,11 +4972,28 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 27,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ekn.kr/web/view.php?key=20260723027064830"
+      ],
+      "stories": [
+        "news|news|[정몽규 hdc의 다음 50년 ①] 축구협회 13년 5개월…정몽규가 남기고 간...|ekn.kr|2026-07-23T01:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[정몽규 hdc의 다음 50년 ①] 축구협회 13년 5개월…정몽규가 남기고 간...|ekn.kr"
+      ],
+      "earliestPublishedAt": 1784771160000,
+      "latestPublishedAt": 1784771160000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_665e9f661eb12236",
@@ -4417,7 +5040,63 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 33,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20260723_0003719803"
+      ],
+      "stories": [
+        "news|news|체육회, 종목단체 회장 선출 기한 최대 8개월로…축구협회장 직선제 길...|newsis.com|2026-07-23T01:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|체육회, 종목단체 회장 선출 기한 최대 8개월로…축구협회장 직선제 길...|newsis.com"
+      ],
+      "earliestPublishedAt": 1784771160000,
+      "latestPublishedAt": 1784771160000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
+  },
+  {
+    "id": "item_b47c769731af31b0",
+    "type": "news",
+    "title": "대한체육회 회장 보궐선거 시한 60일→6개월로 연장, 직무대행 권한 강...",
+    "summary": "'회원종목단체 규정' 제21조(회장의 직무대행)에 6항에 '회원종목단체가 감사 수감 및 수사, 선거 관련 소송... 정몽규 대한축구협회장이 지난 6일 사퇴하면서 기존 규정에 따르면 회장 궐위 60일 이내인 9월 4일까지 후임...",
+    "url": "https://www.sportschosun.com/football/2026-07-23/202607230100140830008971",
+    "originalUrl": "https://www.sportschosun.com/football/2026-07-23/202607230100140830008971",
+    "publisher": "sportschosun.com",
+    "publishedAt": "2026-07-23T01:19:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "정몽규",
+      "사퇴",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 감사",
+      "\"정몽규\" 감사",
+      "축구협회 문화체육관광부 감사",
+      "축구협회 부회장",
+      "축구협회 제도 개편"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 17,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
   },
   {
     "id": "item_1f0ca1961b3e5891",
@@ -4461,7 +5140,23 @@
     "relevanceScore": 42,
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.shinailbo.co.kr/news/articleView.html?idxno=5043677"
+      ],
+      "stories": [
+        "news|news|최민희 의원 \"대한축구협회장 선거서 불법 선거운동 의혹\"|shinailbo.co.kr|2026-07-23T01:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|최민희 의원 \"대한축구협회장 선거서 불법 선거운동 의혹\"|shinailbo.co.kr"
+      ],
+      "earliestPublishedAt": 1784769480000,
+      "latestPublishedAt": 1784769480000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_44f63b9838dd474c",
@@ -4474,8 +5169,8 @@
     "publishedAt": "2026-07-23T01:18:00.000Z",
     "collectedAt": "2026-07-23T04:57:54.919Z",
     "matchedKeywords": [
-      "축구협회장",
       "회장 선거",
+      "축구협회장",
       "대한 축구협회",
       "정관",
       "정몽규",
@@ -4511,7 +5206,23 @@
     "relevanceScore": 41,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/AKR20260723101730FnI"
+      ],
+      "stories": [
+        "news|news|축구협회장 선거, 기존 60일에 '최대 6개월' 연장 가능…선거제 개편 시...|yonhapnewstv.co.kr|2026-07-23T01:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회장 선거, 기존 60일에 '최대 6개월' 연장 가능…선거제 개편 시...|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1784769480000,
+      "latestPublishedAt": 1784769480000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_9e3fcedc51433146",
@@ -4547,7 +5258,24 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 30,
-    "labels": []
+    "relevanceTier": "secondary",
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/general-sport/6236419"
+      ],
+      "stories": [
+        "news|news|체육회, 회원종목단체 규정 개정…회장 선거 최대 8개월까지 가능|news1.kr|2026-07-23T01:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|체육회, 회원종목단체 규정 개정…회장 선거 최대 8개월까지 가능|news1.kr"
+      ],
+      "earliestPublishedAt": 1784769480000,
+      "latestPublishedAt": 1784769480000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_5537a3f59bb51cf7",
@@ -4562,7 +5290,8 @@
     "matchedKeywords": [
       "홍명보",
       "대한 축구협회",
-      "부회장"
+      "부회장",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -4589,10 +5318,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 20,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://biz.heraldcorp.com/article/10817464?ref=naver"
+      ],
+      "stories": [
+        "news|news|하석주 “홍명보 한 대 쥐어박고 싶어, 무릎꿇고 석고대죄했어야”|biz.heraldcorp.com|2026-07-23T01:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|하석주 “홍명보 한 대 쥐어박고 싶어, 무릎꿇고 석고대죄했어야”|biz.heraldcorp.com"
+      ],
+      "earliestPublishedAt": 1784769360000,
+      "latestPublishedAt": 1784769360000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_ec120e38021c0432",
@@ -4631,7 +5377,23 @@
     "relevanceScore": 47,
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ngonews.kr/news/articleView.html?idxno=233596"
+      ],
+      "stories": [
+        "news|news|임오경 의원 \"문화체육관광부, 대한축구협회 운영 실태 감사 이후 후속...|ngonews.kr|2026-07-23T01:12:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|임오경 의원 \"문화체육관광부, 대한축구협회 운영 실태 감사 이후 후속...|ngonews.kr"
+      ],
+      "earliestPublishedAt": 1784769120000,
+      "latestPublishedAt": 1784769120000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_371b43430e81395d",
@@ -4660,6 +5422,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 11,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -4675,6 +5438,7 @@
     "publishedAt": "2026-07-23T01:03:00.000Z",
     "collectedAt": "2026-07-23T01:13:56.760Z",
     "matchedKeywords": [
+      "축구협회",
       "감사"
     ],
     "discoveryQueries": [
@@ -4696,10 +5460,26 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 34,
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260723055100001?input=1195m"
+      ],
+      "stories": [
+        "news|news|\"문체부, 축구협회 감사 벌이고도 '개선권고·공문발송'에 그쳐\"|yna.co.kr|2026-07-23T01:03:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"문체부, 축구협회 감사 벌이고도 '개선권고·공문발송'에 그쳐\"|yna.co.kr"
+      ],
+      "earliestPublishedAt": 1784768580000,
+      "latestPublishedAt": 1784768580000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_8bd78c7c40652b91",
@@ -4764,10 +5544,27 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.sportsq.co.kr/news/articleView.html?idxno=496664"
+      ],
+      "stories": [
+        "news|news|\"책임감 부족해\" 기성용·김영광, 홍명보호 향한 소신 발언|sportsq.co.kr|2026-07-23T00:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"책임감 부족해\" 기성용·김영광, 홍명보호 향한 소신 발언|sportsq.co.kr"
+      ],
+      "earliestPublishedAt": 1784767440000,
+      "latestPublishedAt": 1784767440000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_e40d1d381f2a63eb",
@@ -4824,7 +5621,23 @@
     "relevanceScore": 29,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1147935"
+      ],
+      "stories": [
+        "news|news|'초대형 축구감독, 한국 대표팀과 연결'... 홍명보 후임 되나|wikitree.co.kr|2026-07-23T00:28:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'초대형 축구감독, 한국 대표팀과 연결'... 홍명보 후임 되나|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1784766480000,
+      "latestPublishedAt": 1784766480000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_00da32de11c59f6b",
@@ -4853,7 +5666,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://biz.heraldcorp.com/article/10817296?ref=naver"
+      ],
+      "stories": [
+        "news|news|김영광 “이승우 대표팀 탈락, 감독 고집 탓”…또 홍명보 저격|biz.heraldcorp.com|2026-07-23T00:25:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|김영광 “이승우 대표팀 탈락, 감독 고집 탓”…또 홍명보 저격|biz.heraldcorp.com"
+      ],
+      "earliestPublishedAt": 1784766300000,
+      "latestPublishedAt": 1784766300000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_b3a76c9b0fa4e29e",
@@ -4893,8 +5722,25 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 19,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.breaknews.com/1223700"
+      ],
+      "stories": [
+        "news|news|무례한 말은 서강일이 했지만, 움직인 것은 정몽규의 표였다|breaknews.com|2026-07-23T00:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|무례한 말은 서강일이 했지만, 움직인 것은 정몽규의 표였다|breaknews.com"
+      ],
+      "earliestPublishedAt": 1784765760000,
+      "latestPublishedAt": 1784765760000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   }
 ]

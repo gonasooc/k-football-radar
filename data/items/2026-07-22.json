@@ -42,8 +42,7 @@
     "matchedKeywords": [
       "감독",
       "후임",
-      "홍명보",
-      "축구협회"
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"홍명보\" 축구협회",
@@ -59,7 +58,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -79,7 +78,7 @@
       "대한 축구협회",
       "혁신위원회",
       "축구 혁신",
-      "감사"
+      "청문회"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -100,9 +99,9 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 23,
+    "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ]
   },
   {
@@ -170,6 +169,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 15,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -230,7 +230,23 @@
     "relevanceScore": 21,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112844426"
+      ],
+      "stories": [
+        "news|news|\"끝까지 책임지겠다\" 홍명보 귀국... 월드컵 실패 진실 밝힐 국회 청문...|osen.co.kr|2026-07-22T22:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"끝까지 책임지겠다\" 홍명보 귀국... 월드컵 실패 진실 밝힐 국회 청문...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784760960000,
+      "latestPublishedAt": 1784760960000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_ed4102cfba56e2b2",
@@ -272,9 +288,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.segye.com/newsView/20260723504529?OutUrl=naver"
+      ],
+      "stories": [
+        "news|news|‘100분 토론’ 출연한 하석주 “홍명보 자세, 선배로서 쥐어박고 싶을...|segye.com|2026-07-22T22:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘100분 토론’ 출연한 하석주 “홍명보 자세, 선배로서 쥐어박고 싶을...|segye.com"
+      ],
+      "earliestPublishedAt": 1784760360000,
+      "latestPublishedAt": 1784760360000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_7ec55b93cd26cf70",
@@ -341,36 +374,23 @@
     "relevanceScore": 21,
     "labels": [
       "인물 언급"
-    ]
-  },
-  {
-    "id": "item_12d0410917b4abba",
-    "type": "news",
-    "title": "'대체 얼마나 뛴 거야?' 기자회견에서 근육 올라오며 철퍼덕...'컨디션 ...",
-    "summary": "새로운 감독 선임 을 준비하고 있는 대한민국 축구 대표팀 은 9월부터 소집이 된다. 정승원은 “ 대표팀 은 당연히 꿈 같은 무대다. 하지만 지금은 팀 우승만 생각하고 있다. 그러다 보면 저도 좋은 성적을 내고 새로운 기회도...",
-    "url": "https://www.mydaily.co.kr/page/view/2026072223420913290",
-    "originalUrl": "https://www.mydaily.co.kr/page/view/2026072223420913290",
-    "publisher": "mydaily.co.kr",
-    "publishedAt": "2026-07-22T21:35:00.000Z",
-    "collectedAt": "2026-07-22T21:54:00.578Z",
-    "matchedKeywords": [
-      "감독 선임",
-      "감독",
-      "선임"
     ],
-    "discoveryQueries": [
-      "대표팀 감독",
-      "대표팀 감독 선임"
-    ],
-    "issueTags": [
-      "coach-appointment"
-    ],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 4,
-    "relevanceTier": "secondary",
-    "labels": []
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20260723_0003719535"
+      ],
+      "stories": [
+        "news|news|\"홍명보, 쥐어박고 싶을 정도\"…하석주 작심 비판|newsis.com|2026-07-22T22:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"홍명보, 쥐어박고 싶을 정도\"…하석주 작심 비판|newsis.com"
+      ],
+      "earliestPublishedAt": 1784758200000,
+      "latestPublishedAt": 1784758200000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_1b264cdc8cf9b007",
@@ -385,7 +405,6 @@
     "matchedKeywords": [
       "축구협회장",
       "회장 선거",
-      "이사회",
       "대한 축구협회",
       "선거인단",
       "선거인",
@@ -423,17 +442,33 @@
     ],
     "issueTags": [
       "election",
-      "kfa-executives",
       "electoral-college",
-      "innovation-committee"
+      "innovation-committee",
+      "kfa-executives"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
+    "relevanceScore": 40,
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/soccer/6235694"
+      ],
+      "stories": [
+        "news|news|축구협회장 선거 '60일 확대안' 이사회 의결…'선거제 개편 논의' 시작|news1.kr|2026-07-22T21:03:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회장 선거 '60일 확대안' 이사회 의결…'선거제 개편 논의' 시작|news1.kr"
+      ],
+      "earliestPublishedAt": 1784754180000,
+      "latestPublishedAt": 1784754180000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_c116a0a65f22e043",
@@ -505,7 +540,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 16,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -538,7 +573,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mydaily.co.kr/page/view/2026072304575660538"
+      ],
+      "stories": [
+        "news|news|\"이승우 왜 안 뽑아?\" 김영광, 홍명보 또 저격… \"이상한 고집 있어\" [라...|mydaily.co.kr|2026-07-22T20:35:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"이승우 왜 안 뽑아?\" 김영광, 홍명보 또 저격… \"이상한 고집 있어\" [라...|mydaily.co.kr"
+      ],
+      "earliestPublishedAt": 1784752500000,
+      "latestPublishedAt": 1784752500000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_cfb4c9ff46959870",
@@ -688,6 +739,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -820,13 +872,29 @@
     "relevanceScore": 57,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.stoo.com/article.php?aid=107879393696"
+      ],
+      "stories": [
+        "news|news|정몽규 떠난 대한축구협회, 이용수 부회장 직무대행 체제 전환…대한체...|stoo.com|2026-07-22T15:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정몽규 떠난 대한축구협회, 이용수 부회장 직무대행 체제 전환…대한체...|stoo.com"
+      ],
+      "earliestPublishedAt": 1784732640000,
+      "latestPublishedAt": 1784732640000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_df846e58429ad981",
     "type": "news",
     "title": "[단독] 대한체육회, 회장 보궐선거 ‘최장 240일’ 허용… 축구협회 직...",
-    "summary": "사진=대한체육회 제공 대한 축구협회 장 선거 개혁에 가장 중요한 단추가 끼워졌다. 대한체육회가... 박지성 혁신위 공동위원장은 “(선거인단은) 최소 수천 명 이상 될 것”이라며 “차기 회의에서 보완책을 함께...",
+    "summary": "사진=뉴시스 축구협회 개혁 시계가 빨라지고 있다. 이번 규정 개정에 따라 K- 축구 혁신위 원회가 추진 중인 선거인단 확대 논의도 현실적으로 가능해졌다. 혁신위 는 현재 200명 안팎 수준인 선거인단을 수천 명 규모로...",
     "url": "https://www.sportsworldi.com/newsView/20260722522183",
     "originalUrl": "https://www.sportsworldi.com/newsView/20260722522183",
     "publisher": "sportsworldi.com",
@@ -834,10 +902,10 @@
     "collectedAt": "2026-07-22T15:23:08.953Z",
     "matchedKeywords": [
       "축구협회",
-      "대한 축구협회",
       "선거인단",
       "선거인",
-      "박지성"
+      "규정 개정",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -865,19 +933,34 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "electoral-college"
+      "electoral-college",
+      "statute-revision",
+      "innovation-committee"
     ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsworldi.com/newsView/20260722522183"
+      ],
+      "stories": [
+        "news|news|[단독] 대한체육회, 회장 보궐선거 ‘최장 240일’ 허용… 축구협회 직...|sportsworldi.com|2026-07-22T15:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] 대한체육회, 회장 보궐선거 ‘최장 240일’ 허용… 축구협회 직...|sportsworldi.com"
+      ],
+      "earliestPublishedAt": 1784732520000,
+      "latestPublishedAt": 1784732520000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_f4512d7e68958ee7",
@@ -892,6 +975,7 @@
     "matchedKeywords": [
       "정몽규",
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "감독",
       "선임",
@@ -926,10 +1010,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsseoul.com/news/read/1624155?ref=naver"
+      ],
+      "stories": [
+        "news|news|“청문회 피하지 않을 것” 홍명보 감독 이미 귀국, 정몽규 전 회장과 ...|sportsseoul.com|2026-07-22T15:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“청문회 피하지 않을 것” 홍명보 감독 이미 귀국, 정몽규 전 회장과 ...|sportsseoul.com"
+      ],
+      "earliestPublishedAt": 1784732520000,
+      "latestPublishedAt": 1784732520000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_ee6962599a7c4aa3",
@@ -1041,7 +1141,23 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.tvreport.co.kr/broadcast/article/1063079"
+      ],
+      "stories": [
+        "news|news|김영광 \"축구인들 홍명보 비판 쉽지 않아, 난 축구계 떠나 가능\" ('라스...|tvreport.co.kr|2026-07-22T14:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|김영광 \"축구인들 홍명보 비판 쉽지 않아, 난 축구계 떠나 가능\" ('라스...|tvreport.co.kr"
+      ],
+      "earliestPublishedAt": 1784731320000,
+      "latestPublishedAt": 1784731320000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_876353383d3f6155",
@@ -1054,7 +1170,6 @@
     "publishedAt": "2026-07-22T14:34:00.000Z",
     "collectedAt": "2026-07-22T15:23:08.953Z",
     "matchedKeywords": [
-      "축구협회",
       "부회장",
       "정몽규",
       "대한 축구협회",
@@ -1083,7 +1198,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급"
     ]
@@ -1163,6 +1278,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 9,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1209,7 +1325,23 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.m-i.kr/news/articleView.html?idxno=1394296"
+      ],
+      "stories": [
+        "news|news|최민희 \"정몽규 측근 불법 선거운동 의혹\"…축협 선거 공정성 논란|m-i.kr|2026-07-22T13:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|최민희 \"정몽규 측근 불법 선거운동 의혹\"…축협 선거 공정성 논란|m-i.kr"
+      ],
+      "earliestPublishedAt": 1784727600000,
+      "latestPublishedAt": 1784727600000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_Jao9LQk6F_M",
@@ -1295,7 +1427,8 @@
     "matchedKeywords": [
       "정몽규",
       "축구협회",
-      "선거인"
+      "선거인",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1315,7 +1448,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1333,7 +1467,8 @@
     "matchedKeywords": [
       "대한축구협회",
       "홍명보",
-      "해명"
+      "해명",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1365,11 +1500,28 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 41,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2174977"
+      ],
+      "stories": [
+        "news|news|홍명보 이미 한국 왔다…지난주 美 la서 귀국→30일 대한축구협회 청문...|xportsnews.com|2026-07-22T12:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 이미 한국 왔다…지난주 美 la서 귀국→30일 대한축구협회 청문...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1784724960000,
+      "latestPublishedAt": 1784724960000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_4d6ff394c4ea765b",
@@ -1382,8 +1534,6 @@
     "publishedAt": "2026-07-22T12:56:00.000Z",
     "collectedAt": "2026-07-22T13:10:01.095Z",
     "matchedKeywords": [
-      "KFA",
-      "축구협회장",
       "정몽규",
       "대한 축구협회",
       "선거인단",
@@ -1423,7 +1573,6 @@
       "KFA"
     ],
     "issueTags": [
-      "election",
       "electoral-college",
       "innovation-committee",
       "kfa-executives"
@@ -1433,11 +1582,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 61,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=830132"
+      ],
+      "stories": [
+        "news|news|정몽규 떠난 kfa, 이용수가 키 잡았다…축구협회장 직무대행 공식 승인...|spotvnews.co.kr|2026-07-22T12:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정몽규 떠난 kfa, 이용수가 키 잡았다…축구협회장 직무대행 공식 승인...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1784724960000,
+      "latestPublishedAt": 1784724960000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_ufauB-I3l6I",
@@ -1551,6 +1716,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1594,10 +1760,25 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 32,
-    "relevanceTier": "secondary",
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/MYH20260722212011ZvW"
+      ],
+      "stories": [
+        "news|news|[단독] k5~k7 축구동호인 선거권 확대 유력…축구협회 대의원 반발 변수|yonhapnewstv.co.kr|2026-07-22T12:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] k5~k7 축구동호인 선거권 확대 유력…축구협회 대의원 반발 변수|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1784722860000,
+      "latestPublishedAt": 1784722860000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_G2LSCQeJ4OY",
@@ -1714,8 +1895,8 @@
     "publishedAt": "2026-07-22T12:12:00.000Z",
     "collectedAt": "2026-07-22T13:10:01.095Z",
     "matchedKeywords": [
-      "부회장",
       "대한축구협회",
+      "부회장",
       "정몽규",
       "사퇴"
     ],
@@ -1740,7 +1921,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 15,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1757,10 +1938,11 @@
     "publishedAt": "2026-07-22T12:09:00.000Z",
     "collectedAt": "2026-07-22T13:10:01.095Z",
     "matchedKeywords": [
-      "부회장",
+      "축협",
       "홍명보",
       "대한 축구협회",
-      "KFA"
+      "KFA",
+      "부회장"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -1795,6 +1977,7 @@
     "collectedAt": "2026-07-22T13:10:01.095Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명",
       "사퇴"
     ],
@@ -1808,11 +1991,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.jtbc.co.kr/article/NB12309672?influxDiv=NAVER"
+      ],
+      "stories": [
+        "news|news|\"최악의 실패\" 한국 대망신…돌아온 홍명보, 청문회 준비|news.jtbc.co.kr|2026-07-22T12:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"최악의 실패\" 한국 대망신…돌아온 홍명보, 청문회 준비|news.jtbc.co.kr"
+      ],
+      "earliestPublishedAt": 1784721600000,
+      "latestPublishedAt": 1784721600000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_cca118e824f5c362",
@@ -1827,6 +2026,7 @@
     "matchedKeywords": [
       "대한축구협회",
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "해명"
     ],
@@ -1844,11 +2044,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 46,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553396824"
+      ],
+      "stories": [
+        "news|news|'이럴 수가' 홍명보 감독, 이미 한국에 있었다...대한축구협회 청문회 ...|sportalkorea.com|2026-07-22T11:50:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'이럴 수가' 홍명보 감독, 이미 한국에 있었다...대한축구협회 청문회 ...|sportalkorea.com"
+      ],
+      "earliestPublishedAt": 1784721000000,
+      "latestPublishedAt": 1784721000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_b4ab6c2965096bb3",
@@ -1861,7 +2077,8 @@
     "publishedAt": "2026-07-22T11:46:00.000Z",
     "collectedAt": "2026-07-22T13:10:01.095Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "축협"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1904,6 +2121,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2003,6 +2221,7 @@
     "publishedAt": "2026-07-22T11:28:00.000Z",
     "collectedAt": "2026-07-22T13:10:01.095Z",
     "matchedKeywords": [
+      "축협",
       "정몽규",
       "대한 축구협회",
       "축구 혁신",
@@ -2046,10 +2265,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 37,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1147890"
+      ],
+      "stories": [
+        "news|news|정몽규 떠난 축협 회장 자리, '이 사람'이 직무 대행 맡는다... 선거 제...|wikitree.co.kr|2026-07-22T11:28:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정몽규 떠난 축협 회장 자리, '이 사람'이 직무 대행 맡는다... 선거 제...|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1784719680000,
+      "latestPublishedAt": 1784719680000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_2cb589c5b785748a",
@@ -2065,7 +2300,7 @@
       "선거인",
       "정몽규",
       "대한 축구협회",
-      "조사 결과"
+      "청문회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2086,18 +2321,33 @@
       "축구협회장"
     ],
     "issueTags": [
-      "electoral-college",
-      "mcst-audit"
+      "electoral-college"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 32,
+    "relevanceScore": 30,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.dailyt.co.kr/newsView/dlt202607220007"
+      ],
+      "stories": [
+        "news|news|정몽규 측근 불법 선거운동 의혹 확산…최민희 \"비공개 선거인 명부 유...|dailyt.co.kr|2026-07-22T11:12:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정몽규 측근 불법 선거운동 의혹 확산…최민희 \"비공개 선거인 명부 유...|dailyt.co.kr"
+      ],
+      "earliestPublishedAt": 1784718720000,
+      "latestPublishedAt": 1784718720000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_db18e89eb8643f50",
@@ -2110,6 +2360,7 @@
     "publishedAt": "2026-07-22T11:01:00.000Z",
     "collectedAt": "2026-07-22T13:10:01.095Z",
     "matchedKeywords": [
+      "축협",
       "회장 선거",
       "대한 축구협회",
       "집행부",
@@ -2135,10 +2386,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.edaily.co.kr/news/newspath.asp?newsid=05730166645517144"
+      ],
+      "stories": [
+        "news|news|최민희 “축협 회장 선거, 측근 동원 불법운동 의혹”|edaily.co.kr|2026-07-22T11:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|최민희 “축협 회장 선거, 측근 동원 불법운동 의혹”|edaily.co.kr"
+      ],
+      "earliestPublishedAt": 1784718060000,
+      "latestPublishedAt": 1784718060000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_Eim6XMGvZts",
@@ -2214,6 +2481,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2230,6 +2498,7 @@
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "축구 혁신",
       "정몽규",
@@ -2266,10 +2535,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.stoo.com/article.php?aid=107874474389"
+      ],
+      "stories": [
+        "news|news|미국으로 떠났던 홍명보 전 감독, 청문회 앞두고 귀국…증인 출석 준비|stoo.com|2026-07-22T10:52:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|미국으로 떠났던 홍명보 전 감독, 청문회 앞두고 귀국…증인 출석 준비|stoo.com"
+      ],
+      "earliestPublishedAt": 1784717520000,
+      "latestPublishedAt": 1784717520000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_6c663644b3267564",
@@ -2282,7 +2567,6 @@
     "publishedAt": "2026-07-22T10:44:00.000Z",
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
-      "축구협회",
       "제도 개편",
       "대한 축구협회",
       "KFA",
@@ -2317,9 +2601,24 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
-    "relevanceTier": "secondary",
-    "labels": []
+    "relevanceScore": 24,
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/sports/2026/07/22/2026072218440581653"
+      ],
+      "stories": [
+        "news|news|축구협회 선거제도 개편 속도…대한체육회, 이용수 직무대행 인준|mt.co.kr|2026-07-22T10:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회 선거제도 개편 속도…대한체육회, 이용수 직무대행 인준|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1784717040000,
+      "latestPublishedAt": 1784717040000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_2abd06fe67de3188",
@@ -2333,6 +2632,7 @@
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "부회장",
       "정몽규",
@@ -2361,10 +2661,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.hankyung.com/article/2026072201737"
+      ],
+      "stories": [
+        "news|news|미국으로 떠났던 홍명보 전 감독…귀국 후 청문회 준비|hankyung.com|2026-07-22T10:34:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|미국으로 떠났던 홍명보 전 감독…귀국 후 청문회 준비|hankyung.com"
+      ],
+      "earliestPublishedAt": 1784716440000,
+      "latestPublishedAt": 1784716440000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_12c6xM7zdU8",
@@ -2438,6 +2754,39 @@
     }
   },
   {
+    "id": "item_aea4706be0e9ca49",
+    "type": "news",
+    "title": "축구협회, 체육회 인준 이용수 직무대행 전환…선거제도 개편 속도",
+    "summary": "대한 축구협회 가 대한체육회의 인준을 통해 이용수 부회장 직무대행 체제로 전환됐다. 축구협회 측은 22일 “체육회로부터 지난 20일 이용수 부회장 직무대행에 대한 인준을 받았다”라고 밝혔다. 지난 6일 정몽규 회장이...",
+    "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20260723.22015006743",
+    "originalUrl": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20260723.22015006743",
+    "publisher": "kookje.co.kr",
+    "publishedAt": "2026-07-22T10:31:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "제도 개편",
+      "대한 축구협회",
+      "부회장",
+      "정몽규"
+    ],
+    "discoveryQueries": [
+      "축구협회 제도 개편"
+    ],
+    "issueTags": [
+      "statute-revision",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 23,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_13ff3de3ea80a637",
     "type": "news",
     "title": "[단독] 정몽규 캠프 명단에 없었다…문진희 “후보 홍보는 관례”",
@@ -2450,7 +2799,8 @@
     "matchedKeywords": [
       "정몽규",
       "축구협회",
-      "선거인"
+      "선거인",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2470,7 +2820,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2518,6 +2869,7 @@
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -2541,11 +2893,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20260722.99099006778"
+      ],
+      "stories": [
+        "news|news|홍명보 전 감독, 지난주 귀국…30일 청문회 출석 준비|kookje.co.kr|2026-07-22T10:13:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 전 감독, 지난주 귀국…30일 청문회 출석 준비|kookje.co.kr"
+      ],
+      "earliestPublishedAt": 1784715180000,
+      "latestPublishedAt": 1784715180000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_O9S3YeJmkWg",
@@ -2595,6 +2963,7 @@
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -2636,11 +3005,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.joongang.co.kr/article/25447246"
+      ],
+      "stories": [
+        "news|news|미국으로 떠났던 홍명보, 지난주 귀국...청문회 증인 출석 준비|joongang.co.kr|2026-07-22T10:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|미국으로 떠났던 홍명보, 지난주 귀국...청문회 증인 출석 준비|joongang.co.kr"
+      ],
+      "earliestPublishedAt": 1784714460000,
+      "latestPublishedAt": 1784714460000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_79677a77e2d3407d",
@@ -2698,7 +3083,23 @@
     "relevanceScore": 55,
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsworldi.com/newsView/20260722519246"
+      ],
+      "stories": [
+        "news|news|대한축구협회 직무대행 이용수 부회장 체제…선거인단 확대 및 직선제 ...|sportsworldi.com|2026-07-22T09:48:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한축구협회 직무대행 이용수 부회장 체제…선거인단 확대 및 직선제 ...|sportsworldi.com"
+      ],
+      "earliestPublishedAt": 1784713680000,
+      "latestPublishedAt": 1784713680000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_fae73f9029313d59",
@@ -2758,7 +3159,23 @@
     "relevanceScore": 41,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.starnewskorea.com/sports/2026/07/22/2026072218093397734"
+      ],
+      "stories": [
+        "news|news|정몽규 떠난 자리 이용수가 채운다, 대한축구협회 '직무 대행 체제' 승인|starnewskorea.com|2026-07-22T09:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정몽규 떠난 자리 이용수가 채운다, 대한축구협회 '직무 대행 체제' 승인|starnewskorea.com"
+      ],
+      "earliestPublishedAt": 1784713440000,
+      "latestPublishedAt": 1784713440000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_9e08563e886eccc8",
@@ -2771,8 +3188,8 @@
     "publishedAt": "2026-07-22T09:39:00.000Z",
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
-      "축구협회",
       "회장 선거",
+      "축구협회",
       "선거인단",
       "선거인",
       "대의원",
@@ -2805,10 +3222,26 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 29,
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.edaily.co.kr/news/newspath.asp?newsid=05349686645517144"
+      ],
+      "stories": [
+        "news|news|축구협회, 이용수 직무대행 체제 전환...차기 회장 선거 준비 돌입|edaily.co.kr|2026-07-22T09:39:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회, 이용수 직무대행 체제 전환...차기 회장 선거 준비 돌입|edaily.co.kr"
+      ],
+      "earliestPublishedAt": 1784713140000,
+      "latestPublishedAt": 1784713140000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_Hce0F4IgrmY",
@@ -2882,7 +3315,6 @@
     "publishedAt": "2026-07-22T09:35:00.000Z",
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
-      "축구협회",
       "회장 선거",
       "정관"
     ],
@@ -2907,7 +3339,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 16,
     "labels": []
   },
   {
@@ -2923,6 +3355,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "부회장",
       "정몽규",
@@ -2958,10 +3391,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 39,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.edaily.co.kr/news/newspath.asp?newsid=05320166645517144"
+      ],
+      "stories": [
+        "news|news|홍명보 전 감독 지난주 귀국…30일 축구협회 청문회 출석 준비|edaily.co.kr|2026-07-22T09:34:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 전 감독 지난주 귀국…30일 축구협회 청문회 출석 준비|edaily.co.kr"
+      ],
+      "earliestPublishedAt": 1784712840000,
+      "latestPublishedAt": 1784712840000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_69b28c71682769bc",
@@ -2974,9 +3423,9 @@
     "publishedAt": "2026-07-22T09:19:00.000Z",
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
-      "축구협회",
       "부회장",
       "정몽규",
+      "축구협회",
       "정관"
     ],
     "discoveryQueries": [
@@ -3002,7 +3451,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 41,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -3019,6 +3468,7 @@
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -3043,11 +3493,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsworldi.com/newsView/20260722521810"
+      ],
+      "stories": [
+        "news|news|la로 떠났던 홍명보 전 감독, 최근 귀국… 청문회 증인 출석 준비|sportsworldi.com|2026-07-22T09:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|la로 떠났던 홍명보 전 감독, 최근 귀국… 청문회 증인 출석 준비|sportsworldi.com"
+      ],
+      "earliestPublishedAt": 1784711880000,
+      "latestPublishedAt": 1784711880000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_7eebdc3f3614ff78",
@@ -3091,10 +3557,27 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 19,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://mhnse.com/news/articleView.html?idxno=1467460"
+      ],
+      "stories": [
+        "news|news|“어차피 투표로 못 이긴다”…‘fifa판 정몽규’ 인판티노, 장기집권 ...|mhnse.com|2026-07-22T09:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“어차피 투표로 못 이긴다”…‘fifa판 정몽규’ 인판티노, 장기집권 ...|mhnse.com"
+      ],
+      "earliestPublishedAt": 1784711880000,
+      "latestPublishedAt": 1784711880000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_r3wT_VMyauA",
@@ -3198,7 +3681,6 @@
     "publishedAt": "2026-07-22T09:16:00.000Z",
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
-      "축구협회장",
       "회장 선거",
       "축구협회",
       "선거인단",
@@ -3233,7 +3715,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
@@ -3252,8 +3734,7 @@
     "matchedKeywords": [
       "대한축구협회",
       "축구협회",
-      "회장 선거",
-      "부회장"
+      "회장 선거"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -3268,13 +3749,13 @@
       "축구협회 회장 선거"
     ],
     "issueTags": [
-      "election",
-      "kfa-executives"
+      "election"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 27,
+    "relevanceTier": "secondary",
     "labels": []
   },
   {
@@ -3290,6 +3771,7 @@
     "matchedKeywords": [
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "이임생"
     ],
@@ -3317,10 +3799,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.spochoo.com/news/articleView.html?idxno=127835"
+      ],
+      "stories": [
+        "news|news|\"정몽규, 청문회 출석한다\" 30일 청문회 '정상 출석' 가닥...홍명보와 나...|spochoo.com|2026-07-22T09:13:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"정몽규, 청문회 출석한다\" 30일 청문회 '정상 출석' 가닥...홍명보와 나...|spochoo.com"
+      ],
+      "earliestPublishedAt": 1784711580000,
+      "latestPublishedAt": 1784711580000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_ebe91f8390e83954",
@@ -3334,6 +3832,7 @@
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "부회장",
       "정몽규",
@@ -3366,10 +3865,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/soccer/6235870"
+      ],
+      "stories": [
+        "news|news|미국 떠났던 홍명보 전 감독, 지난주 귀국…청문회 출석 준비|news1.kr|2026-07-22T09:07:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|미국 떠났던 홍명보 전 감독, 지난주 귀국…청문회 출석 준비|news1.kr"
+      ],
+      "earliestPublishedAt": 1784711220000,
+      "latestPublishedAt": 1784711220000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_a54b05917f0f83cf",
@@ -3399,6 +3914,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 12,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -3454,7 +3970,23 @@
     "relevanceScore": 41,
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.hansbiz.co.kr/news/articleView.html?idxno=851813"
+      ],
+      "stories": [
+        "news|news|선거인단 확대, 축구협회 개혁 첫 관문될까|hansbiz.co.kr|2026-07-22T08:48:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|선거인단 확대, 축구협회 개혁 첫 관문될까|hansbiz.co.kr"
+      ],
+      "earliestPublishedAt": 1784710080000,
+      "latestPublishedAt": 1784710080000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_3f89c817f1f6efca",
@@ -3469,6 +4001,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "해명"
     ],
@@ -3496,11 +4029,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.nocutnews.co.kr/news/6551873"
+      ],
+      "stories": [
+        "news|news|'미국행' 홍명보 전 감독, 지난주 귀국…축구협회 청문회 출석 준비|nocutnews.co.kr|2026-07-22T08:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'미국행' 홍명보 전 감독, 지난주 귀국…축구협회 청문회 출석 준비|nocutnews.co.kr"
+      ],
+      "earliestPublishedAt": 1784709720000,
+      "latestPublishedAt": 1784709720000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_3420f8cca1ff0cbb",
@@ -3513,11 +4062,10 @@
     "publishedAt": "2026-07-22T08:40:00.000Z",
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
-      "축구협회",
-      "부회장",
       "대한 축구협회",
       "정관",
-      "제도 개편"
+      "제도 개편",
+      "부회장"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -3535,15 +4083,31 @@
       "축구협회 회장 선거"
     ],
     "issueTags": [
-      "kfa-executives",
-      "statute-revision"
+      "statute-revision",
+      "kfa-executives"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 16,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260722159200007?input=1195m"
+      ],
+      "stories": [
+        "news|news|축구협회, 이용수 부회장 직무대행 체제 전환…체육회 인준|yna.co.kr|2026-07-22T08:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회, 이용수 부회장 직무대행 체제 전환…체육회 인준|yna.co.kr"
+      ],
+      "earliestPublishedAt": 1784709600000,
+      "latestPublishedAt": 1784709600000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_9d36b6f936116f10",
@@ -3589,10 +4153,27 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 20,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.segye.com/newsView/20260722520921?OutUrl=naver"
+      ],
+      "stories": [
+        "news|news|“도망 아니다”라던 홍명보, 결국 돌아왔다…‘월드컵 대참사’ 책임대...|segye.com|2026-07-22T08:37:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“도망 아니다”라던 홍명보, 결국 돌아왔다…‘월드컵 대참사’ 책임대...|segye.com"
+      ],
+      "earliestPublishedAt": 1784709420000,
+      "latestPublishedAt": 1784709420000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_93c7ca0a555a03df",
@@ -3606,7 +4187,8 @@
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
       "홍명보",
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -3621,7 +4203,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 19,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -3637,7 +4220,6 @@
     "publishedAt": "2026-07-22T08:35:00.000Z",
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
-      "축구협회",
       "회장 선거",
       "규정 개정"
     ],
@@ -3671,8 +4253,24 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
-    "labels": []
+    "relevanceScore": 14,
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.seoul.co.kr/news/sport/soccer/2026/07/22/20260722500358?wlog_tag3=naver"
+      ],
+      "stories": [
+        "news|news|대한체육회, 이용수 축구협회 부회장 직무대행 승인…회장 선거 속도 낼...|seoul.co.kr|2026-07-22T08:35:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한체육회, 이용수 축구협회 부회장 직무대행 승인…회장 선거 속도 낼...|seoul.co.kr"
+      ],
+      "earliestPublishedAt": 1784709300000,
+      "latestPublishedAt": 1784709300000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_cd60daaa71b9f498",
@@ -3707,6 +4305,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -3723,6 +4322,7 @@
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "해명"
     ],
@@ -3744,11 +4344,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20260722_0003719171"
+      ],
+      "stories": [
+        "news|news|미국으로 떠났던 홍명보 전 감독, 지난주 귀국해 청문회 출석 준비|newsis.com|2026-07-22T08:19:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|미국으로 떠났던 홍명보 전 감독, 지난주 귀국해 청문회 출석 준비|newsis.com"
+      ],
+      "earliestPublishedAt": 1784708340000,
+      "latestPublishedAt": 1784708340000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_7d969e8d66a6485c",
@@ -3762,6 +4378,7 @@
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "축구협회",
       "감독",
       "감독직",
@@ -3782,11 +4399,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008669612&plink=ORI"
+      ],
+      "stories": [
+        "news|news|[자막뉴스] \"가족들 향한 협박 때문에\"…돌아온 홍명보, 청문회 준비한...|news.sbs.co.kr|2026-07-22T08:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[자막뉴스] \"가족들 향한 협박 때문에\"…돌아온 홍명보, 청문회 준비한...|news.sbs.co.kr"
+      ],
+      "earliestPublishedAt": 1784708280000,
+      "latestPublishedAt": 1784708280000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_TEGNQEGDjBc",
@@ -3842,6 +4475,7 @@
     "matchedKeywords": [
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "박지성",
       "사퇴"
@@ -3870,7 +4504,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급"
     ]
@@ -3952,7 +4586,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 23,
     "relevanceTier": "secondary",
     "labels": [
       "선거 키워드 포함"
@@ -4000,6 +4634,7 @@
     "collectedAt": "2026-07-22T07:58:20.819Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -4037,11 +4672,51 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/society/2026/07/22/2026072215481158637"
+      ],
+      "stories": [
+        "news|news|'도피 논란' 홍명보, 미국서 돌아왔다…30일 청문회 출석 예고|mt.co.kr|2026-07-22T07:47:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'도피 논란' 홍명보, 미국서 돌아왔다…30일 청문회 출석 예고|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1784706420000,
+      "latestPublishedAt": 1784706420000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
+  },
+  {
+    "id": "item_661ba5ca9b7f6c93",
+    "type": "news",
+    "title": "‘결승 후 난투극’ 파레데스…FIFA 시스템서 레드카드 삭제됐다",
+    "summary": "선수나 축구협회 가 징계 절차에 회부돼 규정 위반이 인정되면 더 강한 제재가 내려질 가능성이 커진다.... ‘선수와 임원 의 부적절한 행동’ 혐의로 징계 절차에 회부됐다. 우승을 축하하는 방식이 문제였다. 당시...",
+    "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030146345&code=61161711&cp=nv",
+    "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=0030146345&code=61161711&cp=nv",
+    "publisher": "kmib.co.kr",
+    "publishedAt": "2026-07-22T07:32:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "축구협회"
+    ],
+    "discoveryQueries": [
+      "축구협회 임원"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 3,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_99936bd486ad2215",
@@ -4055,9 +4730,9 @@
     "collectedAt": "2026-07-22T07:38:55.100Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "감독 선임",
-      "대표팀 감독",
       "감독",
       "선임"
     ],
@@ -4077,7 +4752,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -4093,8 +4768,6 @@
     "publishedAt": "2026-07-22T07:32:00.000Z",
     "collectedAt": "2026-07-22T07:38:55.100Z",
     "matchedKeywords": [
-      "감독",
-      "차기",
       "홍명보",
       "해명"
     ],
@@ -4104,19 +4777,34 @@
       "대표팀 감독",
       "축구협회 해명"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553396149"
+      ],
+      "stories": [
+        "news|news|경악, 프랑스 차기 감독 지단 연봉이 고작 7억? 홍명보 감독도 36억 받았...|sportalkorea.com|2026-07-22T07:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|경악, 프랑스 차기 감독 지단 연봉이 고작 7억? 홍명보 감독도 36억 받았...|sportalkorea.com"
+      ],
+      "earliestPublishedAt": 1784705520000,
+      "latestPublishedAt": 1784705520000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_FAhXA1OmI2o",
@@ -4165,8 +4853,8 @@
     "publishedAt": "2026-07-22T07:07:00.000Z",
     "collectedAt": "2026-07-24T07:58:07.974Z",
     "matchedKeywords": [
-      "축구협회",
       "제도 개편",
+      "축구협회",
       "정관",
       "정몽규"
     ],
@@ -4181,11 +4869,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 32,
-    "relevanceTier": "secondary",
+    "relevanceScore": 22,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/soccer/6235638"
+      ],
+      "stories": [
+        "news|news|체육회, 이용수 직무대행 인준…축구협회 선거제도 개편 '속도전'|news1.kr|2026-07-22T07:07:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|체육회, 이용수 직무대행 인준…축구협회 선거제도 개편 '속도전'|news1.kr"
+      ],
+      "earliestPublishedAt": 1784704020000,
+      "latestPublishedAt": 1784704020000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_9c8d05922cc07d4c",
@@ -4240,6 +4943,7 @@
     "collectedAt": "2026-07-22T07:38:55.100Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "해명"
     ],
@@ -4271,11 +4975,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sidae.com/article/2026072213350670959"
+      ],
+      "stories": [
+        "news|news|미국 갔던 홍명보, 국회 청문회 앞두고 이미 귀국…증인 출석 준비하나|sidae.com|2026-07-22T06:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|미국 갔던 홍명보, 국회 청문회 앞두고 이미 귀국…증인 출석 준비하나|sidae.com"
+      ],
+      "earliestPublishedAt": 1784701920000,
+      "latestPublishedAt": 1784701920000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_d1e9046ce6344688",
@@ -4290,6 +5010,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "부회장",
       "정몽규",
@@ -4325,10 +5046,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 41,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.starnewskorea.com/sports/2026/07/22/2026072214211532974"
+      ],
+      "stories": [
+        "news|news|\"어떤 질문도 피하지 않겠다\" 홍명보 이미 귀국, 축구협회 청문회 출석...|starnewskorea.com|2026-07-22T06:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"어떤 질문도 피하지 않겠다\" 홍명보 이미 귀국, 축구협회 청문회 출석...|starnewskorea.com"
+      ],
+      "earliestPublishedAt": 1784701080000,
+      "latestPublishedAt": 1784701080000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_b254b9af839801bb",
@@ -4368,7 +5105,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.thepublic.kr/news/articleView.html?idxno=312198"
+      ],
+      "stories": [
+        "news|news|정몽규 징계 놓고 1년 반 법정 다툼…문체부 소송비만 9900만원|thepublic.kr|2026-07-22T06:14:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정몽규 징계 놓고 1년 반 법정 다툼…문체부 소송비만 9900만원|thepublic.kr"
+      ],
+      "earliestPublishedAt": 1784700840000,
+      "latestPublishedAt": 1784700840000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_kZcxk1exJig",
@@ -4536,7 +5289,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260722113900001?input=1195m"
+      ],
+      "stories": [
+        "news|news|與임오경 \"문체부·축구협회 소송에 세금 지출 부적절\"|yna.co.kr|2026-07-22T05:59:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|與임오경 \"문체부·축구협회 소송에 세금 지출 부적절\"|yna.co.kr"
+      ],
+      "earliestPublishedAt": 1784699940000,
+      "latestPublishedAt": 1784699940000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_c257177743eade78",
@@ -4589,7 +5358,23 @@
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/society/2026/07/22/2026072214261358716"
+      ],
+      "stories": [
+        "news|news|'박지성이 뭘알아' 논란에도 꼿꼿…전북협회장 \"내가 범죄자냐\"|mt.co.kr|2026-07-22T05:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'박지성이 뭘알아' 논란에도 꼿꼿…전북협회장 \"내가 범죄자냐\"|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1784699760000,
+      "latestPublishedAt": 1784699760000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_18305514cca9b1ef",
@@ -4628,6 +5413,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -4683,9 +5469,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 24,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1147793"
+      ],
+      "stories": [
+        "news|news|“박지성이 뭘 안다고” 했다가 역풍 맞은 축구인, 또 한번 '작심 발언...|wikitree.co.kr|2026-07-22T05:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“박지성이 뭘 안다고” 했다가 역풍 맞은 축구인, 또 한번 '작심 발언...|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1784698920000,
+      "latestPublishedAt": 1784698920000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_4cb0f2214b62cb59",
@@ -4730,6 +5533,7 @@
     "collectedAt": "2026-07-22T07:38:55.100Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -4756,11 +5560,51 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.etoday.co.kr/news/view/2606195"
+      ],
+      "stories": [
+        "news|news|홍명보, 지난주 미국서 귀국⋯청문회 증인 출석 준비|etoday.co.kr|2026-07-22T05:36:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보, 지난주 미국서 귀국⋯청문회 증인 출석 준비|etoday.co.kr"
+      ],
+      "earliestPublishedAt": 1784698560000,
+      "latestPublishedAt": 1784698560000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
+  },
+  {
+    "id": "item_53c42b4ce2129562",
+    "type": "news",
+    "title": "구미 I-LEAGUE 여름축구축제…210개 팀 참가",
+    "summary": "올해로 4년 연속 구미에서 열리는 이번 축제에는 전국 210개 팀, 선수단과 임원 등 3000여 명이 참가한다. 대한 축구협회 가 주최하고 대한 축구협회 ·구미시 축구협회 ·구미시체육회가 공동 주관하며 문화체육관광부와...",
+    "url": "https://www.vegannews.co.kr/news/article.html?no=384208",
+    "originalUrl": "https://www.vegannews.co.kr/news/article.html?no=384208",
+    "publisher": "vegannews.co.kr",
+    "publishedAt": "2026-07-22T05:34:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한 축구협회"
+    ],
+    "discoveryQueries": [
+      "축구협회 임원"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_5db2041c186d7ba3",
@@ -4793,6 +5637,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 15,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -4884,6 +5729,7 @@
     "collectedAt": "2026-07-22T04:52:03.356Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -4897,11 +5743,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/MYH2026072213444878m"
+      ],
+      "stories": [
+        "news|news|[단독] 홍명보, 미국에서 돌아왔다…청문회 증인 출석 준비|yonhapnewstv.co.kr|2026-07-22T04:45:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] 홍명보, 미국에서 돌아왔다…청문회 증인 출석 준비|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1784695500000,
+      "latestPublishedAt": 1784695500000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_8ceac3c69d7d280f",
@@ -4939,6 +5801,7 @@
     "publishedAt": "2026-07-22T04:41:00.000Z",
     "collectedAt": "2026-07-22T10:51:12.786Z",
     "matchedKeywords": [
+      "청문회",
       "대한축구협회",
       "이임생"
     ],
@@ -4966,10 +5829,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 9,
+    "relevanceScore": 16,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.imaeil.com/page/view/2026072213400308096"
+      ],
+      "stories": [
+        "news|news|국회 문체위, 축구協 청문회 30일 개최하기로|imaeil.com|2026-07-22T04:41:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|국회 문체위, 축구協 청문회 30일 개최하기로|imaeil.com"
+      ],
+      "earliestPublishedAt": 1784695260000,
+      "latestPublishedAt": 1784695260000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_ZRsBdgwsmrA",
@@ -5082,6 +5962,7 @@
     "collectedAt": "2026-07-22T04:52:03.356Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -5111,11 +5992,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://biz.heraldcorp.com/article/10816442?ref=naver"
+      ],
+      "stories": [
+        "news|news|미국 떠났던 홍명보, 지난주 귀국…국회 청문회 증인 출석 준비|biz.heraldcorp.com|2026-07-22T04:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|미국 떠났던 홍명보, 지난주 귀국…국회 청문회 증인 출석 준비|biz.heraldcorp.com"
+      ],
+      "earliestPublishedAt": 1784694600000,
+      "latestPublishedAt": 1784694600000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_e1622ab095818ea7",
@@ -5155,7 +6052,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-07-22/202607220100134310008536"
+      ],
+      "stories": [
+        "news|news|'작심 발언'의 시대, 한국 축구! 팩트를 음모로 둔갑시키는 오지랖, 진실...|sportschosun.com|2026-07-22T04:09:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'작심 발언'의 시대, 한국 축구! 팩트를 음모로 둔갑시키는 오지랖, 진실...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1784693340000,
+      "latestPublishedAt": 1784693340000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_30f8a83624b70a38",
@@ -5195,6 +6108,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -5211,6 +6125,7 @@
     "collectedAt": "2026-07-22T04:52:03.356Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -5229,11 +6144,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.jtbc.co.kr/article/NB12309569?influxDiv=NAVER"
+      ],
+      "stories": [
+        "news|news|미국 떠났던 홍명보, 지난주 귀국…청문회 증인 출석 준비|news.jtbc.co.kr|2026-07-22T03:23:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|미국 떠났던 홍명보, 지난주 귀국…청문회 증인 출석 준비|news.jtbc.co.kr"
+      ],
+      "earliestPublishedAt": 1784690580000,
+      "latestPublishedAt": 1784690580000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_1e1CYE0jsgQ",
@@ -5300,6 +6231,7 @@
     "collectedAt": "2026-07-22T04:52:03.356Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -5318,11 +6250,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/MYH20260722121206Dzb"
+      ],
+      "stories": [
+        "news|news|[단독] 홍명보 전 축구대표팀 감독, 지난주 귀국…청문회 출석 준비|yonhapnewstv.co.kr|2026-07-22T03:12:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] 홍명보 전 축구대표팀 감독, 지난주 귀국…청문회 출석 준비|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1784689920000,
+      "latestPublishedAt": 1784689920000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_0e38b855ac62a122",
@@ -5414,7 +6362,8 @@
       "대한축구협회",
       "정몽규",
       "홍명보",
-      "이임생"
+      "이임생",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -5445,10 +6394,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 59,
+    "relevanceScore": 61,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mk.co.kr/article/12104239"
+      ],
+      "stories": [
+        "news|news|‘정몽규·홍명보·이임생 증인 출석할까’…연기된 대한축구협회 청문...|mk.co.kr|2026-07-22T03:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘정몽규·홍명보·이임생 증인 출석할까’…연기된 대한축구협회 청문...|mk.co.kr"
+      ],
+      "earliestPublishedAt": 1784689200000,
+      "latestPublishedAt": 1784689200000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_65aba84c5f7eb484",
@@ -5503,7 +6469,24 @@
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ytn.co.kr/_ln/0107_202607222308544501"
+      ],
+      "stories": [
+        "news|news|축구협회장 선거인단 왜 '최소 수천 명'일까?|ytn.co.kr|2026-07-22T02:54:00.000Z",
+        "news|news|축구협회장 선거인단 왜 '최소 수천 명'일까?|ytn.co.kr|2026-07-22T14:08:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회장 선거인단 왜 '최소 수천 명'일까?|ytn.co.kr"
+      ],
+      "earliestPublishedAt": 1784688840000,
+      "latestPublishedAt": 1784729280000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_e67fe147bd971032",
@@ -5542,6 +6525,7 @@
     "collectedAt": "2026-07-22T04:52:03.356Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "혁신위원회",
       "축구 혁신",
@@ -5575,7 +6559,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ]
@@ -5633,6 +6617,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 8,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -5649,6 +6634,7 @@
     "collectedAt": "2026-07-22T04:52:03.356Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -5666,11 +6652,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/AKR20260722103124gB4"
+      ],
+      "stories": [
+        "news|news|[단독] 청문회 앞둔 홍명보 전 감독, 지난주 귀국…증인 출석 준비|yonhapnewstv.co.kr|2026-07-22T01:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] 청문회 앞둔 홍명보 전 감독, 지난주 귀국…증인 출석 준비|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1784683920000,
+      "latestPublishedAt": 1784683920000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_b2ab0b74cba8af75",
@@ -5692,8 +6694,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
-    "relevanceTier": "secondary",
+    "relevanceScore": 20,
     "labels": []
   },
   {
@@ -5710,6 +6711,7 @@
       "대한축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "이임생"
     ],
     "discoveryQueries": [
@@ -5729,32 +6731,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 51,
+    "relevanceScore": 58,
     "labels": [
       "인물 언급"
-    ]
-  },
-  {
-    "id": "item_c909c6f940bcce1f",
-    "type": "news",
-    "title": "벤투 퇴장시켰던 테일러 심판 은퇴…“압박감 심했다”",
-    "summary": "2022 카타르월드컵 때는 한국과 가나의 조별리그 2차전에서 한국 축구 대표팀 의 파울루 벤투 감독 을 퇴장시켜 논란이 되기도 했다. 한국이 2-3으로 지던 경기 종료 직전 벤투 감독 은 테일러가 코너킥을 주지 않고...",
-    "url": "https://www.donga.com/news/Inter/article/all/20260722/134341605/2",
-    "originalUrl": "https://www.donga.com/news/Inter/article/all/20260722/134341605/2",
-    "publisher": "donga.com",
-    "publishedAt": "2026-07-22T01:02:00.000Z",
-    "collectedAt": "2026-07-22T01:07:14.254Z",
-    "matchedKeywords": [],
-    "discoveryQueries": [
-      "대표팀 감독"
     ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 0,
-    "relevanceTier": "secondary",
-    "labels": []
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsworldi.com/newsView/20260722508217"
+      ],
+      "stories": [
+        "news|news|대한축구협회 청문회 30일 개최… 정몽규·홍명보 증인 채택|sportsworldi.com|2026-07-22T01:14:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한축구협회 청문회 30일 개최… 정몽규·홍명보 증인 채택|sportsworldi.com"
+      ],
+      "earliestPublishedAt": 1784682840000,
+      "latestPublishedAt": 1784682840000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_c37f681712cd0c13",
@@ -5767,6 +6763,7 @@
     "publishedAt": "2026-07-22T00:40:00.000Z",
     "collectedAt": "2026-07-22T01:07:14.254Z",
     "matchedKeywords": [
+      "청문회",
       "축구협회",
       "감사",
       "홍명보",
@@ -5809,11 +6806,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 19,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ajunews.com/view/20260722045527231"
+      ],
+      "stories": [
+        "news|news|한국 축구, '월드컵 참사' 후폭풍 계속…청문회 개최에 fifa 랭킹 추락까...|ajunews.com|2026-07-22T00:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|한국 축구, '월드컵 참사' 후폭풍 계속…청문회 개최에 fifa 랭킹 추락까...|ajunews.com"
+      ],
+      "earliestPublishedAt": 1784680800000,
+      "latestPublishedAt": 1784680800000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_d16da6a044487295",
@@ -5855,7 +6868,23 @@
       "인물 언급",
       "감사 키워드 포함",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.koreajoongangdaily.com/bilingual-news/a-football-hearing-driven-by-anger-is-best-avoided-kor/12785244"
+      ],
+      "stories": [
+        "news|news|a football hearing driven by anger is best avoided (kor)|koreajoongangdaily.com|2026-07-22T00:37:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|a football hearing driven by anger is best avoided (kor)|koreajoongangdaily.com"
+      ],
+      "earliestPublishedAt": 1784680620000,
+      "latestPublishedAt": 1784680620000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_0dec8f35973f59d5",
@@ -5919,6 +6948,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -6009,10 +7039,27 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003253151"
+      ],
+      "stories": [
+        "news|news|홍명보호의 예견된 실패... 참사로 끝난 역대 최악의 월드컵|ohmynews.com|2026-07-22T00:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보호의 예견된 실패... 참사로 끝난 역대 최악의 월드컵|ohmynews.com"
+      ],
+      "earliestPublishedAt": 1784678460000,
+      "latestPublishedAt": 1784678460000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_njNgBKYvXP8",

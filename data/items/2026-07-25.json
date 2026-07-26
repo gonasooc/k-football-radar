@@ -105,6 +105,34 @@
     }
   },
   {
+    "id": "item_9d593e2414a4e222",
+    "type": "news",
+    "title": "\"4억5000만원 들여 월드컵 '관람'할 때…일본은 U-19 선수 25명 키웠다\"",
+    "summary": "2026 북중미 월드컵 당시 대한축구협회 가 시도협회장 등으로 구성된 참관단을 파견해 수억원의 예산을 사용한 반면, 일본은 유망주 선수들을 현지에 보내 선수 육성 프로그램을 운영한 것으로 나타났다. 국회에서는...",
+    "url": "http://www.fnnews.com/news/202607260822555856",
+    "originalUrl": "http://www.fnnews.com/news/202607260822555856",
+    "publisher": "fnnews.com",
+    "publishedAt": "2026-07-25T23:32:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 대의원",
+      "축구협회 투표권",
+      "축구협회장"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "youtube_WmikDQQouvs",
     "type": "youtube",
     "title": "FIFA가 주목한 이강인…국대도 ATM도 '세대교체 핵심' / 연합뉴스TV (YonhapnewsTV)",
@@ -156,30 +184,6 @@
     }
   },
   {
-    "id": "item_18ab9c9c98ca7713",
-    "type": "news",
-    "title": "FIFA가 주목한 이강인…국대도 ATM도 '세대교체 핵심'",
-    "summary": "감독 의 사퇴와 34세가 된 손흥민의 나이를 감안할 때, 한국축구는 '손흥민 이후'를 준비할 시점\"이라고 지적했습니다. 다가오는 아시안컵과 2030년 월드컵을 이끌 핵심 동력으로 이강인을 지목하고, 이강인을 대표팀 ...",
-    "url": "http://www.yonhapnewstv.co.kr/news/MYH20260726082606BvU",
-    "originalUrl": "http://www.yonhapnewstv.co.kr/news/MYH20260726082606BvU",
-    "publisher": "yonhapnewstv.co.kr",
-    "publishedAt": "2026-07-25T23:26:00.000Z",
-    "collectedAt": "2026-07-25T23:43:18.101Z",
-    "matchedKeywords": [
-      "사퇴"
-    ],
-    "discoveryQueries": [
-      "대표팀 감독"
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 2,
-    "relevanceTier": "secondary",
-    "labels": []
-  },
-  {
     "id": "item_bd28f42ffb122ac0",
     "type": "news",
     "title": "\"정몽규는 감싸고 박지성은 때리더니\", 청문회엔 \"유기견 200마리 봉사\"...",
@@ -192,7 +196,7 @@
     "matchedKeywords": [
       "정몽규",
       "박지성",
-      "축구협회",
+      "청문회",
       "혁신위원회",
       "박성완"
     ],
@@ -218,10 +222,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112846178"
+      ],
+      "stories": [
+        "news|news|\"정몽규는 감싸고 박지성은 때리더니\", 청문회엔 \"유기견 200마리 봉사\"...|osen.co.kr|2026-07-25T23:03:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"정몽규는 감싸고 박지성은 때리더니\", 청문회엔 \"유기견 200마리 봉사\"...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1785020580000,
+      "latestPublishedAt": 1785020580000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_f7eaac1f8cc6c35d",
@@ -254,7 +274,23 @@
     "isOfficial": false,
     "relevanceScore": 17,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260725031100001?input=1195m"
+      ],
+      "stories": [
+        "news|news|\"日, 월드컵에 청소년대표 파견할 때 韓, 회장선거 대의원 보내\"|yna.co.kr|2026-07-25T23:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"日, 월드컵에 청소년대표 파견할 때 韓, 회장선거 대의원 보내\"|yna.co.kr"
+      ],
+      "earliestPublishedAt": 1785020400000,
+      "latestPublishedAt": 1785020400000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_2f3b8103b852bde4",
@@ -290,9 +326,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 22,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112846514"
+      ],
+      "stories": [
+        "news|news|'홍명보호 처참한 실패' fifa도 지적 \"아시안컵은 이강인 중심으로 재편...|osen.co.kr|2026-07-25T22:07:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'홍명보호 처참한 실패' fifa도 지적 \"아시안컵은 이강인 중심으로 재편...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1785017220000,
+      "latestPublishedAt": 1785017220000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_650373657fbb5cba",
@@ -353,7 +406,23 @@
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsworldi.com/newsView/20260726500130"
+      ],
+      "stories": [
+        "news|news|수천 표가 답일까… 축구협회 직선제, 결국 중요한 건 '견제'다|sportsworldi.com|2026-07-25T22:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|수천 표가 답일까… 축구협회 직선제, 결국 중요한 건 '견제'다|sportsworldi.com"
+      ],
+      "earliestPublishedAt": 1785016920000,
+      "latestPublishedAt": 1785016920000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_xU4UJF20IRs",
@@ -443,9 +512,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 36,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/society/general-society/6237932"
+      ],
+      "stories": [
+        "news|news|'박지성이 뭘 아냐'던 서강일 이번엔 \"나도 열심히 해서 먹고살아야 하...|news1.kr|2026-07-25T21:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'박지성이 뭘 아냐'던 서강일 이번엔 \"나도 열심히 해서 먹고살아야 하...|news1.kr"
+      ],
+      "earliestPublishedAt": 1785013800000,
+      "latestPublishedAt": 1785013800000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_22fb56176b249a66",
@@ -483,7 +569,77 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://weekly.chosun.com/news/articleView.html?idxno=53731"
+      ],
+      "stories": [
+        "news|news|스페인은 16년을 준비했다…한국 축구에 가장 부족한 '딱 하나'|weekly.chosun.com|2026-07-25T19:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|스페인은 16년을 준비했다…한국 축구에 가장 부족한 '딱 하나'|weekly.chosun.com"
+      ],
+      "earliestPublishedAt": 1785006000000,
+      "latestPublishedAt": 1785006000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
+  },
+  {
+    "id": "item_85ca2d7188fc5c4a",
+    "type": "news",
+    "title": "\"손흥민은 이제 34살이다\" 대한민국 어쩌나…FIFA 냉정 일침 \"이강인 전...",
+    "summary": "국제축구연맹(FIFA)이 대한민국 축구 국가 대표팀 에 냉정한 일침을 놓았다. FIFA는 23일(한국시간) 공식... 선임 과정에서부터 공정성 논란으로 비판 받았던 홍명보 전 감독 은 사임했고, 정몽규 전 대한축구협회장 역시...",
+    "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95336",
+    "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95336",
+    "publisher": "fourfourtwo.co.kr",
+    "publishedAt": "2026-07-25T17:35:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "감독",
+      "선임",
+      "정몽규",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 선거",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구 혁신",
+      "축구협회 감독 선임",
+      "축구협회 혁신위원회",
+      "축구협회장",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "election",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 20,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "youtube_AGXY8pHN91Y",
@@ -545,6 +701,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 5,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -585,7 +742,23 @@
     "relevanceScore": 18,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95334"
+      ],
+      "stories": [
+        "news|news|'홍명보 후임 1순위라더니…' 한국 부임설 르나르 감독, 세네갈 차기 사...|fourfourtwo.co.kr|2026-07-25T15:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'홍명보 후임 1순위라더니…' 한국 부임설 르나르 감독, 세네갈 차기 사...|fourfourtwo.co.kr"
+      ],
+      "earliestPublishedAt": 1784991720000,
+      "latestPublishedAt": 1784991720000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_Ka80giwdRvk",
@@ -718,6 +891,7 @@
     "collectedAt": "2026-07-25T12:44:38.323Z",
     "matchedKeywords": [
       "대한축구협회",
+      "청문회",
       "축구협회장",
       "백현식",
       "박성완"
@@ -744,10 +918,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ftimes.kr/news/articleView.html?idxno=38683"
+      ],
+      "stories": [
+        "news|news|대한축구협회 청문회 참고인 채택 6시간 만에 불참 통보|ftimes.kr|2026-07-25T12:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한축구협회 청문회 참고인 채택 6시간 만에 불참 통보|ftimes.kr"
+      ],
+      "earliestPublishedAt": 1784981400000,
+      "latestPublishedAt": 1784981400000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_c8f3d9493e903141",
@@ -790,9 +980,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 25,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=830545"
+      ],
+      "stories": [
+        "news|news|'홍명보호 대실패' 한국 초비상 → \"손흥민도 34살, 세대교체 필요\" fifa...|spotvnews.co.kr|2026-07-25T11:58:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'홍명보호 대실패' 한국 초비상 → \"손흥민도 34살, 세대교체 필요\" fifa...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1784980680000,
+      "latestPublishedAt": 1784980680000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_f6bba51daea937ed",
@@ -818,6 +1025,38 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 5,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_8a4431c3df17aa95",
+    "type": "news",
+    "title": "\"다른 팀은 우리보다 좋은 환경이었다\"...'韓 국대 최초 혼혈' 카스트로...",
+    "summary": "대한 축구협회 는 2023년부터 카스트로프의 대표팀 합류 가능성을 꾸준히 검토했고, 홍명보 감독 체제에서도 지속적으로 선수 측과 접촉했다. 이후 카스트로프가 2025년 여름 FC뉘른베르크를 떠나 보루시아 묀헨글라트바흐로...",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=830543",
+    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=830543",
+    "publisher": "spotvnews.co.kr",
+    "publishedAt": "2026-07-25T11:00:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -833,7 +1072,6 @@
     "publishedAt": "2026-07-25T09:50:00.000Z",
     "collectedAt": "2026-07-25T10:56:35.272Z",
     "matchedKeywords": [
-      "축구협회",
       "대한 축구협회",
       "정관"
     ],
@@ -847,9 +1085,25 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 22,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.dailyt.co.kr/newsView/dlt202607250008"
+      ],
+      "stories": [
+        "news|news|'티켓값 2%' 걷은 축구협회…8억7900만원 어디에 썼나|dailyt.co.kr|2026-07-25T09:50:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'티켓값 2%' 걷은 축구협회…8억7900만원 어디에 썼나|dailyt.co.kr"
+      ],
+      "earliestPublishedAt": 1784973000000,
+      "latestPublishedAt": 1784973000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_bd9e2ee12923c2c1",
@@ -874,9 +1128,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 11,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mediatoday.co.kr/news/articleView.html?idxno=336024"
+      ],
+      "stories": [
+        "news|news|'리센느' '홍명보' 언급 기사·게시물에도 지역 혐오 쏟아졌다|mediatoday.co.kr|2026-07-25T08:55:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'리센느' '홍명보' 언급 기사·게시물에도 지역 혐오 쏟아졌다|mediatoday.co.kr"
+      ],
+      "earliestPublishedAt": 1784969700000,
+      "latestPublishedAt": 1784969700000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_hlpTrE1r8TA",
@@ -975,7 +1246,8 @@
       "감독",
       "선임",
       "정몽규",
-      "홍명보"
+      "홍명보",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -1000,7 +1272,52 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 22,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2175956"
+      ],
+      "stories": [
+        "news|news|한국 축구, 9월 우루과이와 홈 평가전 유력…포를란 감독 데뷔전 예고→...|xportsnews.com|2026-07-25T08:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|한국 축구, 9월 우루과이와 홈 평가전 유력…포를란 감독 데뷔전 예고→...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1784968200000,
+      "latestPublishedAt": 1784968200000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
+  },
+  {
+    "id": "item_8285bdc5dc7d8b76",
+    "type": "news",
+    "title": "박지성, 슛돌이 감독 김종국 저격 “무자격이다” (유퀴즈)",
+    "summary": "tvN '유 퀴즈 온 더 블럭' 측은 7월 25일 공식 계정에 박지성 출연분의 예고 영상을 공개했다. 유재석은 \"농담삼아 김종국을 축구협회 장으로 추천했더니 종국이는 자기 시켜만 주면 열심히 해보겠다고 하더라. 무급으로...",
+    "url": "https://www.newsen.com/news_view.php?uid=202607251625052410",
+    "originalUrl": "https://www.newsen.com/news_view.php?uid=202607251625052410",
+    "publisher": "newsen.com",
+    "publishedAt": "2026-07-25T07:25:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "박지성"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 축구협회",
+      "축구협회장"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 11,
     "labels": [
       "인물 언급"
     ]
@@ -1083,6 +1400,7 @@
     "publishedAt": "2026-07-25T05:48:00.000Z",
     "collectedAt": "2026-07-25T07:36:40.577Z",
     "matchedKeywords": [
+      "청문회",
       "대한 축구협회",
       "정몽규",
       "백현식",
@@ -1112,10 +1430,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.breaknews.com/1224381"
+      ],
+      "stories": [
+        "news|news|〈한국축구 독자청문회〉②4억5000만원은 공개됐다, 16명의 이름도 공개...|breaknews.com|2026-07-25T05:48:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|〈한국축구 독자청문회〉②4억5000만원은 공개됐다, 16명의 이름도 공개...|breaknews.com"
+      ],
+      "earliestPublishedAt": 1784958480000,
+      "latestPublishedAt": 1784958480000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_TBRg1r887-Y",
@@ -1182,6 +1516,7 @@
     "matchedKeywords": [
       "KFA",
       "축구협회",
+      "청문회",
       "대한 축구협회",
       "축구 혁신",
       "정몽규"
@@ -1210,10 +1545,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.stnsports.co.kr/news/articleView.html?idxno=319817"
+      ],
+      "stories": [
+        "news|news|kfa 청문회 참고인 채택된 시·도 축구협회 인사들 줄줄이 '불출석' 의사|stnsports.co.kr|2026-07-25T04:37:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|kfa 청문회 참고인 채택된 시·도 축구협회 인사들 줄줄이 '불출석' 의사|stnsports.co.kr"
+      ],
+      "earliestPublishedAt": 1784954220000,
+      "latestPublishedAt": 1784954220000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_6700320fe3cf4484",
@@ -1227,10 +1578,7 @@
     "collectedAt": "2026-07-25T04:49:50.738Z",
     "matchedKeywords": [
       "박지성",
-      "축구협회",
-      "축구 혁신",
-      "감독",
-      "차기"
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1244,18 +1592,34 @@
       "축구협회장"
     ],
     "issueTags": [
-      "innovation-committee",
-      "coach-appointment"
+      "innovation-committee"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 22,
+    "relevanceScore": 15,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mediafine.co.kr/news/articleView.html?idxno=84584"
+      ],
+      "stories": [
+        "news|news|박지성 \"김종국 지금 기준이면 무자격 감독\"|mediafine.co.kr|2026-07-25T04:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박지성 \"김종국 지금 기준이면 무자격 감독\"|mediafine.co.kr"
+      ],
+      "earliestPublishedAt": 1784953800000,
+      "latestPublishedAt": 1784953800000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_b9b3e1ff49aa86d2",
@@ -1269,6 +1633,7 @@
     "collectedAt": "2026-07-25T04:49:50.738Z",
     "matchedKeywords": [
       "정몽규",
+      "청문회",
       "대한 축구협회",
       "혁신위원회",
       "축구 혁신"
@@ -1292,10 +1657,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112846078"
+      ],
+      "stories": [
+        "news|news|“정몽규가 뭘 잘못했나” 두둔하더니...청문회 참고인 채택 6시간 만에...|osen.co.kr|2026-07-25T04:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“정몽규가 뭘 잘못했나” 두둔하더니...청문회 참고인 채택 6시간 만에...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784952060000,
+      "latestPublishedAt": 1784952060000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_gXgpeQGkAvI",
@@ -1363,7 +1744,6 @@
     "publishedAt": "2026-07-25T03:30:00.000Z",
     "collectedAt": "2026-07-25T04:49:50.738Z",
     "matchedKeywords": [
-      "축구협회",
       "정몽규",
       "대한 축구협회",
       "KFA",
@@ -1409,10 +1789,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.joynews24.com/view/1988634"
+      ],
+      "stories": [
+        "news|news|정몽규 떠난 축구협회, 이용수 대행 체제로 선거·감독 인선 '속도'|joynews24.com|2026-07-25T03:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정몽규 떠난 축구협회, 이용수 대행 체제로 선거·감독 인선 '속도'|joynews24.com"
+      ],
+      "earliestPublishedAt": 1784950200000,
+      "latestPublishedAt": 1784950200000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_faf2fcaa2007b1a8",
@@ -1442,9 +1838,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112846058"
+      ],
+      "stories": [
+        "news|news|독일 대표 대신 홍명보호 택한 카스트로프, 첫 월드컵 끝내 \"후회\" 남았...|osen.co.kr|2026-07-25T03:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|독일 대표 대신 홍명보호 택한 카스트로프, 첫 월드컵 끝내 \"후회\" 남았...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784949000000,
+      "latestPublishedAt": 1784949000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_3e426e3e109ba4a1",
@@ -1457,10 +1870,7 @@
     "publishedAt": "2026-07-25T02:29:00.000Z",
     "collectedAt": "2026-07-25T04:49:50.738Z",
     "matchedKeywords": [
-      "박지성",
-      "축구협회장",
-      "감독",
-      "차기"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1471,19 +1881,32 @@
       "축구 혁신",
       "축구협회장"
     ],
-    "issueTags": [
-      "election",
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 22,
+    "relevanceScore": 11,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112846089"
+      ],
+      "stories": [
+        "news|news|김종국, 11년 만에 불거진 무자격 논란…박지성 일침 \"지금으로 보면\" [...|osen.co.kr|2026-07-25T02:29:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|김종국, 11년 만에 불거진 무자격 논란…박지성 일침 \"지금으로 보면\" [...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784946540000,
+      "latestPublishedAt": 1784946540000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_9ee8b01217abd713",
@@ -1497,6 +1920,7 @@
     "collectedAt": "2026-07-25T04:49:50.738Z",
     "matchedKeywords": [
       "정몽규",
+      "청문회",
       "정관"
     ],
     "discoveryQueries": [
@@ -1529,10 +1953,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.breaknews.com/1224361"
+      ],
+      "stories": [
+        "news|news|〈한국축구 독자청문회>①정몽규는 떠났는데, 그의 156표는 남았다!|breaknews.com|2026-07-25T02:26:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|〈한국축구 독자청문회>①정몽규는 떠났는데, 그의 156표는 남았다!|breaknews.com"
+      ],
+      "earliestPublishedAt": 1784946360000,
+      "latestPublishedAt": 1784946360000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_DmBV3qCCTb4",
@@ -1629,7 +2069,23 @@
     "isOfficial": false,
     "relevanceScore": 18,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112846053"
+      ],
+      "stories": [
+        "news|news|''67년 무관' 끊어야 하는데' 11월까지 임시 감독-1월엔 아시안컵... 한국...|osen.co.kr|2026-07-25T02:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|''67년 무관' 끊어야 하는데' 11월까지 임시 감독-1월엔 아시안컵... 한국...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784945100000,
+      "latestPublishedAt": 1784945100000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_gUBlpSySYgs",
@@ -1730,7 +2186,23 @@
     "relevanceScore": 18,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.stoo.com/article.php?aid=107918386078"
+      ],
+      "stories": [
+        "news|news|'박지성 옛 동료' 판 보멀 감독, 벨기에 새 사령탑으로 선임…유로 2028...|stoo.com|2026-07-25T01:24:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'박지성 옛 동료' 판 보멀 감독, 벨기에 새 사령탑으로 선임…유로 2028...|stoo.com"
+      ],
+      "earliestPublishedAt": 1784942640000,
+      "latestPublishedAt": 1784942640000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_8ca7ad498382363d",
@@ -1770,10 +2242,49 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 43,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.nocutnews.co.kr/news/6553207"
+      ],
+      "stories": [
+        "news|news|차기 대한축구협회장? 박지성 \"미래는 어떻게 될지 아무도 몰라\"|nocutnews.co.kr|2026-07-25T00:53:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|차기 대한축구협회장? 박지성 \"미래는 어떻게 될지 아무도 몰라\"|nocutnews.co.kr"
+      ],
+      "earliestPublishedAt": 1784940780000,
+      "latestPublishedAt": 1784940780000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
+  },
+  {
+    "id": "item_0e64a198ed8a0865",
+    "type": "news",
+    "title": "'대한민국처럼 암흑기' 이탈리아, 새 사령탑으로 피를로 감독 낙점...아...",
+    "summary": "다만 피를로가 처음부터 최우선 후보 였던 것은 아니었다. 이탈리아 축구협회 는 맨체스터 시티를 떠난 펩 과르디올라 감독 영입을 가장 먼저 추진한 것으로 알려졌다. 바르셀로나와 바이에른 뮌헨, 맨체스터 시티를...",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=830506",
+    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=830506",
+    "publisher": "spotvnews.co.kr",
+    "publishedAt": "2026-07-25T00:47:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [],
+    "discoveryQueries": [
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 0,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "youtube_JLkyYVU5POg",
@@ -1835,6 +2346,39 @@
     }
   },
   {
+    "id": "item_687f7878f2bb31ab",
+    "type": "news",
+    "title": "韓 차기 감독 후보 이탈하나...\"8월 안에 발표 예정\", 벤투 감독 에콰도...",
+    "summary": "파울루 벤투 감독 이 에콰도르 감독 후보 로 평가받을 예정이다. 에콰도르의 아피시온센트랄은 24일(한국시각)... 대한 축구협회 (KFA)는 신임 감독 선임을 위한 창구도 열지 않았고, 어떤 방식으로, 어떤 프로세스로 진행할...",
+    "url": "https://www.sportschosun.com/football/2026-07-25/202607250100153180009812",
+    "originalUrl": "https://www.sportschosun.com/football/2026-07-25/202607250100153180009812",
+    "publisher": "sportschosun.com",
+    "publishedAt": "2026-07-25T00:16:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "KFA",
+      "감독 선임",
+      "감독",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "축구협회 감독 후보",
+      "KFA"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_4e48c8ba2bb80411",
     "type": "news",
     "title": "'정몽규 회장 옹호-박지성 비난' 축구협회 인사들, 청문회 불출석 선언...",
@@ -1848,6 +2392,7 @@
       "축구협회",
       "정몽규",
       "박지성",
+      "청문회",
       "대한 축구협회",
       "백현식",
       "박성완"
@@ -1874,9 +2419,25 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 41,
+    "relevanceScore": 48,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112845987"
+      ],
+      "stories": [
+        "news|news|'정몽규 회장 옹호-박지성 비난' 축구협회 인사들, 청문회 불출석 선언...|osen.co.kr|2026-07-25T00:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'정몽규 회장 옹호-박지성 비난' 축구협회 인사들, 청문회 불출석 선언...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784937600000,
+      "latestPublishedAt": 1784937600000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   }
 ]

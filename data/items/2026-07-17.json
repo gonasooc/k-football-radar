@@ -10,8 +10,8 @@
     "publishedAt": "2026-07-17T23:57:00.000Z",
     "collectedAt": "2026-07-18T01:05:52.585Z",
     "matchedKeywords": [
-      "축구협회",
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "discoveryQueries": [
       "대한축구협회"
@@ -20,7 +20,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -82,7 +82,6 @@
     "publishedAt": "2026-07-17T23:54:00.000Z",
     "collectedAt": "2026-07-18T01:05:52.585Z",
     "matchedKeywords": [
-      "축구협회장",
       "박지성",
       "회장 선거",
       "혁신위원회"
@@ -114,7 +113,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 19,
     "labels": [
       "인물 언급"
     ]
@@ -167,6 +166,7 @@
     "publishedAt": "2026-07-17T23:36:00.000Z",
     "collectedAt": "2026-07-18T01:05:52.585Z",
     "matchedKeywords": [
+      "청문회",
       "대한 축구협회",
       "감독 선임",
       "대표팀 감독",
@@ -187,9 +187,25 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.dailian.co.kr/news/view/1666597/?sc=Naver"
+      ],
+      "stories": [
+        "news|news|손흥민 철회, 청문회 헛발질? '선동열 국감 사태' 재현 우려 [기자수첩...|dailian.co.kr|2026-07-17T23:36:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|손흥민 철회, 청문회 헛발질? '선동열 국감 사태' 재현 우려 [기자수첩...|dailian.co.kr"
+      ],
+      "earliestPublishedAt": 1784331360000,
+      "latestPublishedAt": 1784331360000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_fd9d831e59c99e4f",
@@ -223,7 +239,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -281,7 +297,8 @@
     "publishedAt": "2026-07-17T23:02:00.000Z",
     "collectedAt": "2026-07-17T23:35:22.983Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "discoveryQueries": [
       "대한축구협회"
@@ -290,7 +307,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -383,6 +400,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 15,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -459,6 +477,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -492,6 +511,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -524,6 +544,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -603,7 +624,23 @@
     "relevanceScore": 46,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112841292"
+      ],
+      "stories": [
+        "news|news|박지성 혁신위는 선거제도 개편, 이천수는 내부 인사 겨냥...\"얼굴만 바...|osen.co.kr|2026-07-17T21:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박지성 혁신위는 선거제도 개편, 이천수는 내부 인사 겨냥...\"얼굴만 바...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784324640000,
+      "latestPublishedAt": 1784324640000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_c5dae98995d3e81e",
@@ -619,10 +656,8 @@
       "사령탑",
       "차기",
       "홍명보",
-      "축구협회",
       "감독",
       "후보",
-      "부임",
       "사퇴"
     ],
     "discoveryQueries": [
@@ -644,7 +679,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -678,6 +713,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 9,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -842,7 +878,6 @@
     "publishedAt": "2026-07-17T20:28:00.000Z",
     "collectedAt": "2026-07-17T20:37:43.363Z",
     "matchedKeywords": [
-      "축구협회장",
       "박지성",
       "서강일",
       "대한축구협회",
@@ -867,7 +902,6 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
       "innovation-committee"
     ],
     "personTags": [
@@ -876,10 +910,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 46,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/bltf0a547d1aa383c90"
+      ],
+      "stories": [
+        "news|news|“박지성·이영표가 뭘 안다고 말을 함부로 해” 서강일 전북축구협회장...|goal.com|2026-07-17T20:28:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“박지성·이영표가 뭘 안다고 말을 함부로 해” 서강일 전북축구협회장...|goal.com"
+      ],
+      "earliestPublishedAt": 1784320080000,
+      "latestPublishedAt": 1784320080000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_hbVttq3frHg",
@@ -1242,6 +1292,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 28,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1308,7 +1359,6 @@
     "collectedAt": "2026-07-17T12:47:47.838Z",
     "matchedKeywords": [
       "박지성",
-      "축구협회",
       "축구 혁신",
       "서강일"
     ],
@@ -1338,7 +1388,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1354,6 +1405,7 @@
     "publishedAt": "2026-07-17T12:43:00.000Z",
     "collectedAt": "2026-07-17T12:47:47.838Z",
     "matchedKeywords": [
+      "청문회",
       "대한축구협회",
       "감독 선임",
       "대표팀 감독",
@@ -1372,7 +1424,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -1501,6 +1553,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 23,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1516,12 +1569,11 @@
     "publishedAt": "2026-07-17T11:47:00.000Z",
     "collectedAt": "2026-07-17T12:47:47.838Z",
     "matchedKeywords": [
-      "축구협회장",
       "정몽규",
       "박지성",
-      "축구협회",
       "홍명보",
-      "서강일"
+      "서강일",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"박지성\" 축구협회",
@@ -1529,9 +1581,7 @@
       "\"홍명보\" 축구협회",
       "축구협회장"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
       "person_park_ji_sung",
@@ -1540,7 +1590,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 51,
+    "relevanceScore": 30,
     "labels": [
       "인물 언급"
     ]
@@ -1584,6 +1634,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1599,7 +1650,6 @@
     "publishedAt": "2026-07-17T11:28:00.000Z",
     "collectedAt": "2026-07-18T21:34:00.944Z",
     "matchedKeywords": [
-      "축구협회",
       "서강일",
       "사퇴",
       "대한축구협회",
@@ -1633,11 +1683,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ajunews.com/view/20260717201043787"
+      ],
+      "stories": [
+        "news|news|\"서강일 xxx야\" \"당장 사퇴하라\"....전북축구협회 게시판 현 상황|ajunews.com|2026-07-17T11:28:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"서강일 xxx야\" \"당장 사퇴하라\"....전북축구협회 게시판 현 상황|ajunews.com"
+      ],
+      "earliestPublishedAt": 1784287680000,
+      "latestPublishedAt": 1784287680000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_70c18e668e70b856",
@@ -1681,6 +1747,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 31,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1732,17 +1799,18 @@
     "id": "item_f4373586168f9fdb",
     "type": "news",
     "title": "이천수, ‘축구협회 물갈이’ 주장…“다섯 사람 나와야”",
-    "summary": "정몽규 전 회장, 홍명보 전 감독이 사퇴한다고 협회 는 바뀌지 않는다면서 오랜 기간 협회 에 몸담아온 비 축구 인 출신 행정가들부터 쇄신해야 한다는 겁니다. [이천수 / 전 국가대표] \"그 정도 해먹었으면 이제 나와야 되는 거...",
+    "summary": "선거 제도를 바꾸고 안 바꾸고가 중요한 게 아니라니까. 누가 회장이 되는 게 중요한 게 아니야.\" 이 씨는... 이 씨는 또 홍명보 전 감독 선임 과정에서 이임생 당시 기술이사나 기술위원장이 혼자 결정했을 리 없다며...",
     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000540317",
     "originalUrl": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000540317",
     "publisher": "ichannela.com",
     "publishedAt": "2026-07-17T10:57:00.000Z",
     "collectedAt": "2026-07-17T11:09:31.584Z",
     "matchedKeywords": [
-      "축구협회",
-      "정몽규",
+      "감독 선임",
+      "감독",
+      "선임",
       "홍명보",
-      "사퇴"
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -1760,18 +1828,36 @@
       "축구협회 회장 선거",
       "축구협회 K-혁신위"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "coach-appointment"
+    ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000540317"
+      ],
+      "stories": [
+        "news|news|이천수, ‘축구협회 물갈이’ 주장…“다섯 사람 나와야”|ichannela.com|2026-07-17T10:57:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|이천수, ‘축구협회 물갈이’ 주장…“다섯 사람 나와야”|ichannela.com"
+      ],
+      "earliestPublishedAt": 1784285820000,
+      "latestPublishedAt": 1784285820000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_6edc9e7f957994c1",
@@ -1819,6 +1905,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1866,7 +1953,6 @@
     "publishedAt": "2026-07-17T09:45:00.000Z",
     "collectedAt": "2026-07-17T11:09:31.584Z",
     "matchedKeywords": [
-      "축구협회장",
       "박지성",
       "서강일",
       "대한축구협회",
@@ -1895,7 +1981,6 @@
       "KFA"
     ],
     "issueTags": [
-      "election",
       "electoral-college"
     ],
     "personTags": [
@@ -1905,7 +1990,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 51,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
@@ -1942,6 +2027,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -1984,6 +2070,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 15,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2163,7 +2250,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -2217,6 +2304,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 19,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2335,7 +2423,6 @@
     "publishedAt": "2026-07-17T07:35:00.000Z",
     "collectedAt": "2026-07-17T09:30:23.532Z",
     "matchedKeywords": [
-      "축구협회장",
       "정몽규",
       "박지성",
       "축구협회",
@@ -2364,7 +2451,6 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
       "statute-revision"
     ],
     "personTags": [
@@ -2374,7 +2460,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -2427,30 +2513,6 @@
     ]
   },
   {
-    "id": "item_30556e2b9842279b",
-    "type": "news",
-    "title": "KFA, 제1차 넥스트 K프랜차이즈 조찬포럼 개최… \"브랜드는 오래가는 관...",
-    "summary": "지난 16일, 한국프랜차이즈산업협회( KFA )는 최근 서울 영등포구 KFA 교육장에서 '제1차 넥스트 K프랜차이즈 조찬포럼'을 개최했다. 이날 행사에서는 전현희 국회의원과의 간담회에 이어 KFA 교육위원회 정민섭 위원장이...",
-    "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5041775",
-    "originalUrl": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5041775",
-    "publisher": "shinailbo.co.kr",
-    "publishedAt": "2026-07-17T07:10:00.000Z",
-    "collectedAt": "2026-07-17T09:30:23.532Z",
-    "matchedKeywords": [
-      "KFA"
-    ],
-    "discoveryQueries": [
-      "KFA"
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 26,
-    "relevanceTier": "secondary",
-    "labels": []
-  },
-  {
     "id": "item_ccd32d8d2d63eb80",
     "type": "news",
     "title": "의정부고 졸업사진 공개... 홍명보·'참교육'·젠슨 황까지 올해 이슈 총...",
@@ -2479,6 +2541,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 12,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2494,7 +2557,6 @@
     "publishedAt": "2026-07-17T07:04:00.000Z",
     "collectedAt": "2026-07-17T07:05:34.651Z",
     "matchedKeywords": [
-      "축구협회장",
       "박지성",
       "대한축구협회",
       "정몽규"
@@ -2519,16 +2581,14 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_park_ji_sung",
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 17,
     "labels": [
       "인물 언급"
     ]
@@ -2545,7 +2605,7 @@
     "collectedAt": "2026-07-17T07:05:34.651Z",
     "matchedKeywords": [
       "홍명보",
-      "감사"
+      "청문회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 감사",
@@ -2559,10 +2619,9 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 16,
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ]
   },
   {
@@ -2596,6 +2655,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 24,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -2702,7 +2762,8 @@
     "matchedKeywords": [
       "정몽규",
       "대한 축구협회",
-      "KFA"
+      "KFA",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2720,7 +2781,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 16,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2735,7 +2797,9 @@
     "publisher": "newspim.com",
     "publishedAt": "2026-07-17T05:53:00.000Z",
     "collectedAt": "2026-07-17T07:05:34.651Z",
-    "matchedKeywords": [],
+    "matchedKeywords": [
+      "축구협회"
+    ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
       "\"이임생\" 축구협회",
@@ -2752,7 +2816,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 0,
+    "relevanceScore": 10,
     "labels": []
   },
   {
@@ -2766,8 +2830,8 @@
     "publishedAt": "2026-07-17T05:34:00.000Z",
     "collectedAt": "2026-07-17T07:05:34.651Z",
     "matchedKeywords": [
-      "축구협회장",
       "박지성",
+      "축구협회",
       "회장 선거",
       "홍명보"
     ],
@@ -2802,7 +2866,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 41,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ]
@@ -2863,9 +2927,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 24,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112841184"
+      ],
+      "stories": [
+        "news|news|\"박지성·이영표, 지들이 인생 얼마나 살았다고\" 충격 발언 쏟아졌다......|osen.co.kr|2026-07-17T05:29:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"박지성·이영표, 지들이 인생 얼마나 살았다고\" 충격 발언 쏟아졌다......|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1784266140000,
+      "latestPublishedAt": 1784266140000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_bc0c19e1a9781ee9",
@@ -2917,7 +2998,6 @@
     "publishedAt": "2026-07-17T05:21:00.000Z",
     "collectedAt": "2026-07-17T07:05:34.651Z",
     "matchedKeywords": [
-      "축구협회",
       "홍명보",
       "대한축구협회",
       "감독 선임",
@@ -2938,7 +3018,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2955,6 +3036,8 @@
     "collectedAt": "2026-07-17T07:05:34.651Z",
     "matchedKeywords": [
       "KFA",
+      "축협",
+      "청문회",
       "대한축구협회",
       "감독 선임",
       "대표팀 감독",
@@ -2974,7 +3057,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
+    "relevanceScore": 37,
     "labels": []
   },
   {
@@ -2988,14 +3071,15 @@
     "publishedAt": "2026-07-17T05:10:00.000Z",
     "collectedAt": "2026-07-17T07:05:34.651Z",
     "matchedKeywords": [
-      "KFA",
       "대한 축구협회",
+      "KFA",
       "임원",
       "감독 선임",
       "대표팀 감독",
       "감독",
       "선임",
-      "차기"
+      "차기",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -3019,7 +3103,8 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 16,
+    "relevanceTier": "secondary",
     "labels": []
   },
   {
@@ -3083,7 +3168,6 @@
     "publishedAt": "2026-07-17T04:40:00.000Z",
     "collectedAt": "2026-07-17T04:47:18.653Z",
     "matchedKeywords": [
-      "축구협회",
       "박지성",
       "서강일",
       "대한축구협회",
@@ -3125,7 +3209,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 30,
     "labels": [
       "인물 언급"
     ]
@@ -3212,11 +3296,11 @@
     "publishedAt": "2026-07-17T04:01:00.000Z",
     "collectedAt": "2026-07-17T04:47:18.653Z",
     "matchedKeywords": [
-      "축구협회",
       "정몽규",
       "홍명보",
       "대한 축구협회",
-      "KFA"
+      "KFA",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -3241,7 +3325,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 32,
+    "relevanceScore": 24,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -3352,6 +3437,7 @@
     "publishedAt": "2026-07-17T03:06:00.000Z",
     "collectedAt": "2026-07-17T19:47:16.171Z",
     "matchedKeywords": [
+      "축협",
       "혁신위원회"
     ],
     "discoveryQueries": [
@@ -3368,8 +3454,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 4,
-    "relevanceTier": "secondary",
+    "relevanceScore": 14,
     "labels": []
   },
   {
@@ -3448,8 +3533,7 @@
       "대한축구협회",
       "감독",
       "선임",
-      "홍명보",
-      "감사"
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"홍명보\" 감사",
@@ -3469,11 +3553,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ]
   },
   {
@@ -3487,6 +3570,7 @@
     "publishedAt": "2026-07-17T02:33:00.000Z",
     "collectedAt": "2026-07-17T04:47:18.653Z",
     "matchedKeywords": [
+      "축협",
       "축구혁신위",
       "혁신위원회",
       "감독 선임",
@@ -3514,7 +3598,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -3580,8 +3664,7 @@
     "collectedAt": "2026-07-17T04:47:18.653Z",
     "matchedKeywords": [
       "선거인단",
-      "선거인",
-      "감사"
+      "선거인"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -3617,12 +3700,27 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 15,
     "relevanceTier": "secondary",
     "labels": [
-      "감사 키워드 포함",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/sports-news/2026-07-17/202607170100105580006634"
+      ],
+      "stories": [
+        "news|news|'체육회,'선거인단 확대' 만장일치 통과'→최휘영 문체부장관 \"유승민 ...|sportschosun.com|2026-07-17T02:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'체육회,'선거인단 확대' 만장일치 통과'→최휘영 문체부장관 \"유승민 ...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1784254680000,
+      "latestPublishedAt": 1784254680000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_2cdb6646226bf638",
@@ -3688,9 +3786,26 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 26,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.khan.co.kr/article/202607171107003?pt=nv"
+      ],
+      "stories": [
+        "news|news|정몽규·홍명보 물러나면 끝?…이대로면 한국축구 계속 ‘똥볼’만 찬다...|sports.khan.co.kr|2026-07-17T02:08:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정몽규·홍명보 물러나면 끝?…이대로면 한국축구 계속 ‘똥볼’만 찬다...|sports.khan.co.kr"
+      ],
+      "earliestPublishedAt": 1784254080000,
+      "latestPublishedAt": 1784254080000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_a8ebf4b6d8224f24",
@@ -3795,10 +3910,8 @@
     "publishedAt": "2026-07-17T01:50:00.000Z",
     "collectedAt": "2026-07-17T04:47:18.653Z",
     "matchedKeywords": [
-      "축구협회장",
       "회장 선거",
       "박지성",
-      "축구협회",
       "축구 혁신",
       "서강일"
     ],
@@ -3827,7 +3940,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 41,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -3941,10 +4054,8 @@
     "publishedAt": "2026-07-17T01:26:00.000Z",
     "collectedAt": "2026-07-17T04:47:18.653Z",
     "matchedKeywords": [
-      "축구협회장",
       "정관",
-      "박성완",
-      "축구협회"
+      "박성완"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -3955,7 +4066,6 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election",
       "statute-revision"
     ],
     "personTags": [
@@ -3963,7 +4073,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 46,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급"
     ]
@@ -3979,7 +4089,6 @@
     "publishedAt": "2026-07-17T01:21:00.000Z",
     "collectedAt": "2026-07-17T04:47:18.653Z",
     "matchedKeywords": [
-      "축구협회장",
       "박지성",
       "대한 축구협회",
       "선거인"
@@ -4005,7 +4114,6 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
       "electoral-college"
     ],
     "personTags": [
@@ -4013,7 +4121,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ]
@@ -4033,7 +4141,8 @@
       "감독 선임",
       "감독",
       "선임",
-      "홍명보"
+      "홍명보",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 축구협회"
@@ -4046,7 +4155,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"

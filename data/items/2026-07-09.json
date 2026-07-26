@@ -60,6 +60,8 @@
     "publishedAt": "2026-07-09T23:48:00.000Z",
     "collectedAt": "2026-07-10T01:16:15.311Z",
     "matchedKeywords": [
+      "축협",
+      "청문회",
       "정몽규"
     ],
     "issueTags": [],
@@ -68,30 +70,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 3,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ]
-  },
-  {
-    "id": "item_051b4a8f46f154a1",
-    "type": "news",
-    "title": "\"피지컬도, 기술도 안 된다\" 웽거 직격탄, 한국 축구 아픈 현실 그대로...",
-    "summary": "한국 역시 A조에서 1승 2패를 기록하며 조 3위로 탈락했고, 귀국 이후 대표팀과 대한축구협회 를 둘러싼 거센 후폭풍이 이어지고 있다. 이번 월드컵에서 FIFA 테크니컬 스터디 그룹(TSG)을 이끌며 대회를 분석한 웽거는 아시아...",
-    "url": "http://www.osen.co.kr/article/G1112837251",
-    "originalUrl": "http://www.osen.co.kr/article/G1112837251",
-    "publisher": "osen.co.kr",
-    "publishedAt": "2026-07-09T23:29:00.000Z",
-    "collectedAt": "2026-07-10T01:16:15.311Z",
-    "matchedKeywords": [
-      "대한축구협회"
-    ],
-    "issueTags": [],
-    "personTags": [],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 6,
-    "labels": []
   },
   {
     "id": "item_fc2fc85fc6387833",
@@ -104,6 +86,7 @@
     "publishedAt": "2026-07-09T23:29:00.000Z",
     "collectedAt": "2026-07-10T01:16:15.311Z",
     "matchedKeywords": [
+      "청문회",
       "대한축구협회"
     ],
     "discoveryQueries": [
@@ -115,7 +98,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -259,10 +242,11 @@
     "publishedAt": "2026-07-09T22:47:00.000Z",
     "collectedAt": "2026-07-09T22:56:21.210Z",
     "matchedKeywords": [
-      "KFA",
       "대한축구협회",
+      "KFA",
       "부회장",
-      "전무"
+      "전무",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"김승희\" 대한축구협회",
@@ -278,7 +262,8 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
+    "relevanceScore": 12,
+    "relevanceTier": "secondary",
     "labels": []
   },
   {
@@ -336,6 +321,7 @@
     "collectedAt": "2026-07-09T22:56:21.210Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "감독 선임",
       "대표팀 감독",
@@ -354,7 +340,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 32,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -373,6 +360,7 @@
       "대한축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "혁신위원회",
       "축구 혁신",
       "박지성",
@@ -389,7 +377,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 58,
+    "relevanceScore": 63,
     "labels": [
       "인물 언급"
     ]
@@ -408,6 +396,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "혁신위원회",
       "축구 혁신",
       "부회장",
@@ -424,7 +413,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 42,
     "labels": [
       "인물 언급"
     ]
@@ -446,7 +435,6 @@
       "대한 축구협회",
       "문화체육관광부 감사",
       "감사",
-      "감독 선임",
       "선임",
       "홍명보"
     ],
@@ -545,7 +533,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553365222"
+      ],
+      "stories": [
+        "news|news|\"손흥민, 선발 안 뛰었는데 기분이 어땠나요, 뭘 물어보고 싶은 건가?\" ...|sportalkorea.com|2026-07-09T21:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"손흥민, 선발 안 뛰었는데 기분이 어땠나요, 뭘 물어보고 싶은 건가?\" ...|sportalkorea.com"
+      ],
+      "earliestPublishedAt": 1783631760000,
+      "latestPublishedAt": 1783631760000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_95d40d2d4e2b441c",
@@ -558,9 +562,7 @@
     "publishedAt": "2026-07-09T21:16:00.000Z",
     "collectedAt": "2026-07-09T22:56:21.210Z",
     "matchedKeywords": [
-      "축구혁신위",
-      "축구협회",
-      "집행부"
+      "축구혁신위"
     ],
     "discoveryQueries": [
       "\"박지성\" 선거",
@@ -573,14 +575,29 @@
       "축구협회 K-혁신위"
     ],
     "issueTags": [
-      "innovation-committee",
-      "kfa-executives"
+      "innovation-committee"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 37,
-    "labels": []
+    "relevanceScore": 30,
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/soccer/6223514"
+      ],
+      "stories": [
+        "news|news|[기자의 눈] '만능키'가 될 수 없는 축구혁신위|news1.kr|2026-07-09T21:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[기자의 눈] '만능키'가 될 수 없는 축구혁신위|news1.kr"
+      ],
+      "earliestPublishedAt": 1783631760000,
+      "latestPublishedAt": 1783631760000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_6b1345815a531b34",
@@ -615,11 +632,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20260709_0003702577"
+      ],
+      "stories": [
+        "news|news|a매치·아시안게임·아시안컵 다가오는데…축구협회 '대혼란'|newsis.com|2026-07-09T21:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|a매치·아시안게임·아시안컵 다가오는데…축구협회 '대혼란'|newsis.com"
+      ],
+      "earliestPublishedAt": 1783630800000,
+      "latestPublishedAt": 1783630800000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_18cc5ec0dee285a9",
@@ -632,8 +665,8 @@
     "publishedAt": "2026-07-09T20:55:00.000Z",
     "collectedAt": "2026-07-09T21:07:25.000Z",
     "matchedKeywords": [
-      "감사",
       "홍명보",
+      "감사",
       "대한 축구협회",
       "문체부 감사"
     ],
@@ -651,7 +684,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 35,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -690,6 +723,7 @@
     "collectedAt": "2026-07-09T21:07:25.000Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -702,7 +736,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -748,6 +782,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "혁신위원회",
       "축구 혁신",
       "박지성"
@@ -761,7 +796,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 35,
     "labels": [
       "인물 언급"
     ]
@@ -779,6 +814,7 @@
     "matchedKeywords": [
       "축구 혁신",
       "홍명보",
+      "청문회",
       "축구협회",
       "감사"
     ],
@@ -802,36 +838,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
-  },
-  {
-    "id": "item_3660337f275263b5",
-    "type": "news",
-    "title": "韓 초대형 쾌거 터진다! '홍명보호 푸대접' 카스트로프, 챔스 진출팀 가...",
-    "summary": "독일 뒤셀도르프 태생인 카스트로프는 FC쾰른 유소년 시스템을 거쳐 성장했으며, 지난해 여름 보루시아... 그는 지난해 9월 독일 축구협회 에서 대한 축구협회 로 소속을 바꾼 뒤, 최종 명단에 승선해 생애 첫 월드컵 무대를...",
-    "url": "https://www.xportsnews.com/article/2170265",
-    "originalUrl": "https://www.xportsnews.com/article/2170265",
-    "publisher": "xportsnews.com",
-    "publishedAt": "2026-07-09T16:45:00.000Z",
-    "collectedAt": "2026-07-09T17:06:57.752Z",
-    "matchedKeywords": [
-      "홍명보",
-      "대한 축구협회"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 14,
-    "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급"
     ]
   },
   {
@@ -847,7 +857,8 @@
     "matchedKeywords": [
       "홍명보",
       "대한축구협회",
-      "해명"
+      "해명",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 해명",
@@ -859,7 +870,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -909,7 +921,23 @@
     "relevanceScore": 12,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.cpbc.co.kr/article/1174268?division=NAVER"
+      ],
+      "stories": [
+        "news|news|[시사천국] 신문선이 말하는 '한국 축구 카르텔' 민낯|news.cpbc.co.kr|2026-07-09T16:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[시사천국] 신문선이 말하는 '한국 축구 카르텔' 민낯|news.cpbc.co.kr"
+      ],
+      "earliestPublishedAt": 1783613760000,
+      "latestPublishedAt": 1783613760000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_748faec65b53e70b",
@@ -950,6 +978,7 @@
     "publishedAt": "2026-07-09T15:49:00.000Z",
     "collectedAt": "2026-07-09T17:06:57.752Z",
     "matchedKeywords": [
+      "청문회",
       "대한축구협회",
       "축구 혁신",
       "정몽규",
@@ -966,7 +995,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 24,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -982,7 +1012,6 @@
     "publishedAt": "2026-07-09T15:47:00.000Z",
     "collectedAt": "2026-07-09T17:06:57.752Z",
     "matchedKeywords": [
-      "KFA",
       "홍명보",
       "대한 축구협회",
       "부회장",
@@ -991,7 +1020,8 @@
       "김병지 부회장",
       "김승희 전무",
       "김승희 전무이사",
-      "전한진"
+      "전한진",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"김병지\" 대한축구협회",
@@ -1013,10 +1043,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 47,
+    "relevanceScore": 29,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112836663"
+      ],
+      "stories": [
+        "news|news|'시즌 중인데?' 손흥민, 홍명보 감독과 동반 출석 현실성 있나...kfa 청문...|osen.co.kr|2026-07-09T15:47:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'시즌 중인데?' 손흥민, 홍명보 감독과 동반 출석 현실성 있나...kfa 청문...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1783612020000,
+      "latestPublishedAt": 1783612020000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_85edd57f9bbd0042",
@@ -1030,6 +1077,7 @@
     "collectedAt": "2026-07-09T17:06:57.752Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -1044,7 +1092,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ]
@@ -1060,6 +1108,7 @@
     "publishedAt": "2026-07-09T15:27:00.000Z",
     "collectedAt": "2026-07-09T17:06:57.752Z",
     "matchedKeywords": [
+      "축협",
       "전력강화위원",
       "선임",
       "홍명보",
@@ -1076,7 +1125,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 41,
     "labels": [
       "인물 언급"
     ]
@@ -1093,6 +1142,7 @@
     "collectedAt": "2026-07-09T17:06:57.752Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "축구협회",
       "축구 혁신",
       "박지성"
@@ -1109,7 +1159,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급"
     ]
@@ -1154,6 +1204,7 @@
     "collectedAt": "2026-07-09T17:06:57.752Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "혁신위원회",
       "축구 혁신",
@@ -1168,7 +1219,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 28,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1216,18 +1268,13 @@
     "publishedAt": "2026-07-09T15:02:00.000Z",
     "collectedAt": "2026-07-09T17:06:57.752Z",
     "matchedKeywords": [
+      "청문회",
       "대한 축구협회",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "선임",
       "정몽규",
       "홍명보",
       "이임생"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
       "person_hong_myung_bo",
@@ -1235,7 +1282,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1253,7 +1300,7 @@
     "collectedAt": "2026-07-09T17:06:57.752Z",
     "matchedKeywords": [
       "홍명보",
-      "축구협회장",
+      "청문회",
       "부회장",
       "정몽규",
       "이임생",
@@ -1269,7 +1316,6 @@
       "축구협회 전무"
     ],
     "issueTags": [
-      "election",
       "kfa-executives"
     ],
     "personTags": [
@@ -1283,7 +1329,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsseoul.com/news/read/1621587?ref=naver"
+      ],
+      "stories": [
+        "news|news|[오피셜]홍명보 청문회 출격한다 “美머문 건 협박·신변 안전 우려, 가...|sportsseoul.com|2026-07-09T15:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[오피셜]홍명보 청문회 출격한다 “美머문 건 협박·신변 안전 우려, 가...|sportsseoul.com"
+      ],
+      "earliestPublishedAt": 1783609260000,
+      "latestPublishedAt": 1783609260000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_1173164f68cbb23a",
@@ -1301,7 +1363,8 @@
       "축구 혁신",
       "정몽규",
       "홍명보",
-      "사퇴"
+      "사퇴",
+      "청문회"
     ],
     "issueTags": [
       "innovation-committee"
@@ -1312,7 +1375,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1391,7 +1454,6 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 20,
-    "relevanceTier": "secondary",
     "labels": []
   },
   {
@@ -1438,11 +1500,11 @@
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "감독 선임",
       "감독",
-      "선임",
-      "후보"
+      "선임"
     ],
     "issueTags": [
       "coach-appointment"
@@ -1452,7 +1514,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급"
     ]
@@ -1500,6 +1562,7 @@
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -1512,7 +1575,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -1530,6 +1593,7 @@
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회"
     ],
     "issueTags": [],
@@ -1538,7 +1602,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ]
@@ -1557,6 +1621,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -1584,11 +1649,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 51,
+    "relevanceScore": 56,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kukinews.com/article/view/kuk202607090215"
+      ],
+      "stories": [
+        "news|news|정몽규·홍명보 국회로…22일 축구협회 청문회|kukinews.com|2026-07-09T13:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정몽규·홍명보 국회로…22일 축구협회 청문회|kukinews.com"
+      ],
+      "earliestPublishedAt": 1783602000000,
+      "latestPublishedAt": 1783602000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_9a5ee8e8e565dc02",
@@ -1627,10 +1708,27 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 24,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000538896"
+      ],
+      "stories": [
+        "news|news|[김종석의 리포트]“가족 위협에 출국했다”…홍명보, 돌연 입장문|ichannela.com|2026-07-09T12:54:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[김종석의 리포트]“가족 위협에 출국했다”…홍명보, 돌연 입장문|ichannela.com"
+      ],
+      "earliestPublishedAt": 1783601640000,
+      "latestPublishedAt": 1783601640000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_7005e72754a81f83",
@@ -1645,7 +1743,8 @@
     "matchedKeywords": [
       "홍명보",
       "대한 축구협회",
-      "사퇴"
+      "사퇴",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -1653,7 +1752,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1671,6 +1771,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "혁신위원회",
       "축구 혁신",
       "박지성"
@@ -1684,7 +1785,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 35,
     "labels": [
       "인물 언급"
     ]
@@ -1712,35 +1813,9 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_99c4a4e7be299090",
-    "type": "news",
-    "title": "2026년 한국 월드컵을 되돌아보며",
-    "summary": "역시 기대를 저버리지 않고 첫 경기를 승리로 이끈 홍명보 감독에게 국민들은 박수를 보냈고 열심히 뛰어준 선수 코칭 스텝 들에게도 감사 의 표시를 전했다. 그러나 또 강팀인 멕시코를 맞이하게 되었다. 멕시코는...",
-    "url": "https://www.ulsanpress.net/news/articleView.html?idxno=578847",
-    "originalUrl": "https://www.ulsanpress.net/news/articleView.html?idxno=578847",
-    "publisher": "ulsanpress.net",
-    "publishedAt": "2026-07-09T12:42:00.000Z",
-    "collectedAt": "2026-07-09T14:16:51.625Z",
-    "matchedKeywords": [
-      "홍명보",
-      "감사"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 5,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ]
   },
   {
@@ -1755,6 +1830,7 @@
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회"
     ],
     "issueTags": [],
@@ -1763,7 +1839,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ]
@@ -1783,7 +1859,8 @@
       "혁신위원회",
       "축구 혁신",
       "박지성",
-      "해명"
+      "해명",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"박지성\" 해명",
@@ -1799,7 +1876,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 19,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -1825,6 +1903,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 11,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1840,6 +1919,7 @@
     "publishedAt": "2026-07-09T12:31:00.000Z",
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
+      "축협",
       "전력강화위원",
       "선임",
       "홍명보",
@@ -1861,7 +1941,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 37,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -1878,8 +1958,10 @@
     "publishedAt": "2026-07-09T12:21:00.000Z",
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
+      "축협",
       "정몽규",
       "홍명보",
+      "청문회",
       "축구협회",
       "박지성"
     ],
@@ -1891,7 +1973,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ]
@@ -1911,8 +1993,7 @@
       "대한 축구협회",
       "감독 선임",
       "감독",
-      "선임",
-      "후보"
+      "선임"
     ],
     "issueTags": [
       "coach-appointment"
@@ -1923,6 +2004,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -1971,7 +2053,6 @@
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
       "정몽규",
-      "축구협회",
       "감사"
     ],
     "discoveryQueries": [
@@ -1987,7 +2068,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -2034,6 +2116,8 @@
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
       "축구협회",
+      "청문회",
+      "축협",
       "혁신위원회",
       "축구 혁신",
       "박지성"
@@ -2046,7 +2130,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -2063,6 +2147,7 @@
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -2082,7 +2167,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급"
     ]
@@ -2099,6 +2184,7 @@
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "축구협회",
       "축구 혁신",
       "박지성"
@@ -2115,7 +2201,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급"
     ]
@@ -2134,6 +2220,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -2153,7 +2240,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 52,
+    "relevanceScore": 57,
     "labels": [
       "인물 언급"
     ]
@@ -2171,6 +2258,7 @@
     "matchedKeywords": [
       "홍명보",
       "사퇴",
+      "청문회",
       "축구협회",
       "박지성",
       "이임생"
@@ -2183,7 +2271,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
     ]
@@ -2235,7 +2323,8 @@
       "선임",
       "홍명보",
       "대한 축구협회",
-      "이사회"
+      "이사회",
+      "청문회"
     ],
     "issueTags": [
       "coach-appointment",
@@ -2246,7 +2335,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 41,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ]
@@ -2263,6 +2352,7 @@
     "collectedAt": "2026-07-09T14:16:51.625Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -2274,7 +2364,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -2428,6 +2518,7 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "KFA",
+      "청문회",
       "대한 축구협회",
       "부회장",
       "정몽규",
@@ -2454,10 +2545,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 49,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-07-09/202607090100061060003717"
+      ],
+      "stories": [
+        "news|news|'kfa 행정난맥 짚겠다'던 국회 청문회, 시작도 전에 '논란'...선수를 왜?...|sportschosun.com|2026-07-09T11:35:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'kfa 행정난맥 짚겠다'던 국회 청문회, 시작도 전에 '논란'...선수를 왜?...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1783596900000,
+      "latestPublishedAt": 1783596900000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_3c4c3818812c0248",
@@ -2537,7 +2644,8 @@
     "publishedAt": "2026-07-09T11:32:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
-      "홍명보"
+      "홍명보",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -2545,7 +2653,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -2574,6 +2683,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -2590,6 +2700,7 @@
     "publishedAt": "2026-07-09T11:28:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
+      "청문회",
       "대한 축구협회",
       "감독 선임",
       "대표팀 감독",
@@ -2609,7 +2720,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 24,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -2628,7 +2739,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
-      "축구협회장",
+      "청문회",
       "정몽규",
       "이임생",
       "해명"
@@ -2646,9 +2757,7 @@
       "축구협회 전무",
       "축구협회 K-혁신위"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo",
       "person_chung_mong_gyu",
@@ -2656,11 +2765,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0100&key=20260710.22005002987"
+      ],
+      "stories": [
+        "news|news|국회 22일에 축구협회 청문회 개최…홍명보 “참석해 질문 피하지 않겠...|kookje.co.kr|2026-07-09T11:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|국회 22일에 축구협회 청문회 개최…홍명보 “참석해 질문 피하지 않겠...|kookje.co.kr"
+      ],
+      "earliestPublishedAt": 1783596060000,
+      "latestPublishedAt": 1783596060000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_6719a82543dbeeac",
@@ -2714,6 +2839,7 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "축구협회",
+      "청문회",
       "대한 축구협회",
       "부회장",
       "전무",
@@ -2746,10 +2872,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newspim.com/news/view/20260709001320"
+      ],
+      "stories": [
+        "news|news|[2026wc] 축구협회 \"청문회 최대한 협조\"…참고인 손흥민은 mls 일정, 참...|newspim.com|2026-07-09T11:20:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[2026wc] 축구협회 \"청문회 최대한 협조\"…참고인 손흥민은 mls 일정, 참...|newspim.com"
+      ],
+      "earliestPublishedAt": 1783596000000,
+      "latestPublishedAt": 1783596000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "youtube_3V_DDndzh2E",
@@ -2836,6 +2978,7 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "축구협회"
     ],
     "discoveryQueries": [
@@ -2847,7 +2990,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 16,
     "labels": [
       "인물 언급"
     ]
@@ -2865,6 +3008,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "감독 선임",
       "대표팀 감독",
@@ -2883,7 +3027,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 42,
     "labels": [
       "인물 언급"
     ]
@@ -2899,6 +3043,7 @@
     "publishedAt": "2026-07-09T11:06:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
+      "축협",
       "전력강화위원",
       "선임",
       "홍명보",
@@ -2919,7 +3064,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 37,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -2971,7 +3116,8 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "대한축구협회",
-      "정몽규"
+      "정몽규",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -2979,7 +3125,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 9,
+    "relevanceScore": 11,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -3014,6 +3160,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -3082,6 +3229,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 24,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -3125,7 +3273,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 30,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -3145,6 +3293,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "박지성"
     ],
     "discoveryQueries": [
@@ -3158,7 +3307,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급"
     ]
@@ -3177,6 +3326,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "부회장",
       "전무",
@@ -3212,10 +3362,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 51,
+    "relevanceScore": 56,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112836719"
+      ],
+      "stories": [
+        "news|news|정몽규·홍명보·손흥민 국회 선다...축구협회 청문회 22일 개최|osen.co.kr|2026-07-09T10:28:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정몽규·홍명보·손흥민 국회 선다...축구협회 청문회 22일 개최|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1783592880000,
+      "latestPublishedAt": 1783592880000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_d022fc18b1f49fa5",
@@ -3248,6 +3414,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 20,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -3320,7 +3487,6 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 41,
-    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
@@ -3337,6 +3503,7 @@
     "publishedAt": "2026-07-09T10:21:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
+      "청문회",
       "대한 축구협회",
       "축구 혁신",
       "부회장",
@@ -3357,11 +3524,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 25,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000538868"
+      ],
+      "stories": [
+        "news|news|청문회에 손흥민도 부른다…라커룸 진실 밝혀지나|ichannela.com|2026-07-09T10:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|청문회에 손흥민도 부른다…라커룸 진실 밝혀지나|ichannela.com"
+      ],
+      "earliestPublishedAt": 1783592460000,
+      "latestPublishedAt": 1783592460000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_be5eec9a05645474",
@@ -3375,7 +3558,8 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
-      "해명"
+      "해명",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 해명"
@@ -3386,7 +3570,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 15,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -3504,6 +3689,7 @@
       "정몽규",
       "홍명보",
       "이임생",
+      "청문회",
       "대한 축구협회",
       "축구 혁신",
       "박지성"
@@ -3523,7 +3709,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 61,
     "labels": [
       "인물 언급"
     ]
@@ -3539,7 +3725,6 @@
     "publishedAt": "2026-07-09T10:16:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
-      "대표팀 감독",
       "감독",
       "지원 의사"
     ],
@@ -3565,6 +3750,7 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "discoveryQueries": [
@@ -3576,7 +3762,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -3596,7 +3782,8 @@
       "홍명보",
       "사퇴",
       "축구협회",
-      "해명"
+      "해명",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 해명"
@@ -3607,7 +3794,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -3625,6 +3812,7 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "정몽규",
+      "축구협회",
       "선거인"
     ],
     "discoveryQueries": [
@@ -3639,7 +3827,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -3657,6 +3846,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "부회장"
     ],
@@ -3673,7 +3863,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 35,
     "labels": [
       "인물 언급"
     ]
@@ -3729,6 +3919,7 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "issueTags": [],
@@ -3737,7 +3928,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -3770,6 +3961,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 21,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -3785,6 +3977,7 @@
     "publishedAt": "2026-07-09T09:52:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
+      "청문회",
       "대한축구협회",
       "박지성"
     ],
@@ -3794,7 +3987,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 9,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -3870,6 +4063,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "부회장",
       "김병지"
@@ -3892,10 +4086,28 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/MYH20260709185026DXp",
+        "http://www.yonhapnewstv.co.kr/news/MYH20260709194106969"
+      ],
+      "stories": [
+        "news|news|축구협회 청문회 22일 개최…홍명보 나온다|yonhapnewstv.co.kr|2026-07-09T09:51:00.000Z",
+        "news|news|축구협회 청문회 22일 개최…홍명보 나온다|yonhapnewstv.co.kr|2026-07-09T10:41:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회 청문회 22일 개최…홍명보 나온다|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1783590660000,
+      "latestPublishedAt": 1783593660000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_dbb7ab28d5932877",
@@ -3908,8 +4120,10 @@
     "publishedAt": "2026-07-09T09:51:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
+      "축협",
       "정몽규",
       "홍명보",
+      "청문회",
       "축구협회",
       "부회장",
       "전무",
@@ -3930,7 +4144,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 41,
     "labels": [
       "인물 언급"
     ]
@@ -3950,6 +4164,7 @@
       "감독 선임",
       "감독",
       "선임",
+      "청문회",
       "축구협회장",
       "대한축구협회장",
       "문화체육관광부 감사",
@@ -3978,12 +4193,28 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 57,
+    "relevanceScore": 62,
     "labels": [
       "인물 언급",
       "해명 키워드 포함",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsseoul.com/news/read/1621623?ref=naver"
+      ],
+      "stories": [
+        "news|news|국회 문체위, 22일 대한축구협회 청문회…월드컵 부진·감독 선임 논란...|sportsseoul.com|2026-07-09T09:49:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|국회 문체위, 22일 대한축구협회 청문회…월드컵 부진·감독 선임 논란...|sportsseoul.com"
+      ],
+      "earliestPublishedAt": 1783590540000,
+      "latestPublishedAt": 1783590540000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_fd2be206c9e8d279",
@@ -3999,6 +4230,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "부회장",
       "이임생",
@@ -4024,11 +4256,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 47,
+    "relevanceScore": 54,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.segye.com/newsView/20260709520821?OutUrl=naver"
+      ],
+      "stories": [
+        "news|news|22일 축구협회 청문회… 정몽규·홍명보 부른다|segye.com|2026-07-09T09:29:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|22일 축구협회 청문회… 정몽규·홍명보 부른다|segye.com"
+      ],
+      "earliestPublishedAt": 1783589340000,
+      "latestPublishedAt": 1783589340000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_42de2fbb948671cd",
@@ -4066,6 +4314,7 @@
     "publishedAt": "2026-07-09T09:22:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
+      "청문회",
       "대한 축구협회",
       "부회장",
       "김병지",
@@ -4083,11 +4332,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553363823"
+      ],
+      "stories": [
+        "news|news|[오피셜] '설마가 현실로' 손흥민, 국회 청문회 참고인 채택...신문 요지...|sportalkorea.com|2026-07-09T09:22:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[오피셜] '설마가 현실로' 손흥민, 국회 청문회 참고인 채택...신문 요지...|sportalkorea.com"
+      ],
+      "earliestPublishedAt": 1783588920000,
+      "latestPublishedAt": 1783588920000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_9be7f68dbd0acfe5",
@@ -4101,7 +4366,8 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -4109,7 +4375,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 19,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -4128,11 +4395,8 @@
       "홍명보",
       "대한 축구협회",
       "감사",
-      "전력강화위원회",
       "감독",
-      "전력강화위원",
-      "선임",
-      "후보"
+      "선임"
     ],
     "discoveryQueries": [
       "축구협회 문체부 감사"
@@ -4147,6 +4411,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 27,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -4163,6 +4428,7 @@
     "publishedAt": "2026-07-09T09:10:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
+      "청문회",
       "대한축구협회",
       "정몽규",
       "홍명보",
@@ -4179,7 +4445,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 25,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -4197,6 +4463,7 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "부회장",
       "전무",
       "김승희 전무",
@@ -4220,11 +4487,31 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ytn.co.kr/_ln/0107_202607091807123543",
+        "https://www.ytn.co.kr/_ln/0107_202607091903060790",
+        "https://www.ytn.co.kr/_ln/0107_202607092333431107"
+      ],
+      "stories": [
+        "news|news|침묵 깨고 입장문 발표한 홍명보 \"청문회 출석할 것\"|ytn.co.kr|2026-07-09T09:07:00.000Z",
+        "news|news|침묵 깨고 입장문 발표한 홍명보 \"청문회 출석할 것\"|ytn.co.kr|2026-07-09T10:03:00.000Z",
+        "news|news|침묵 깨고 입장문 발표한 홍명보 \"청문회 출석할 것\"|ytn.co.kr|2026-07-09T14:33:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|침묵 깨고 입장문 발표한 홍명보 \"청문회 출석할 것\"|ytn.co.kr"
+      ],
+      "earliestPublishedAt": 1783588020000,
+      "latestPublishedAt": 1783607580000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_9a84efdabe22d145",
@@ -4240,7 +4527,8 @@
       "홍명보",
       "대한 축구협회",
       "정몽규",
-      "이임생"
+      "이임생",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -4250,7 +4538,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 22,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -4269,6 +4558,7 @@
       "대한축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "축구협회장",
       "대한축구협회장",
       "부회장",
@@ -4285,7 +4575,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 59,
+    "relevanceScore": 64,
     "labels": [
       "인물 언급"
     ]
@@ -4303,6 +4593,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "혁신위원회",
       "축구 혁신",
       "박지성"
@@ -4316,7 +4607,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 30,
     "labels": [
       "인물 언급"
     ]
@@ -4355,10 +4646,27 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=827348"
+      ],
+      "stories": [
+        "news|news|[공식발표] \"저와 가족을 향한 협박과 신변 우려 있었다\" 침묵 깬 홍명보...|spotvnews.co.kr|2026-07-09T09:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[공식발표] \"저와 가족을 향한 협박과 신변 우려 있었다\" 침묵 깬 홍명보...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1783587600000,
+      "latestPublishedAt": 1783587600000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_ca6c5abb3856753d",
@@ -4377,7 +4685,8 @@
       "감독 선임",
       "감독",
       "선임",
-      "홍명보"
+      "홍명보",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -4392,7 +4701,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 18,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -4411,6 +4720,7 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "혁신위원회",
       "축구 혁신",
@@ -4427,7 +4737,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급"
     ]
@@ -4444,7 +4754,8 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
-      "축구협회"
+      "축구협회",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -4452,7 +4763,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -4468,8 +4780,10 @@
     "publishedAt": "2026-07-09T08:58:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
+      "축협",
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -4487,7 +4801,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 54,
     "labels": [
       "인물 언급"
     ]
@@ -4520,6 +4834,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 23,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -4565,8 +4880,8 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
-      "축구협회장",
       "정몽규",
       "이임생",
       "해명"
@@ -4576,9 +4891,7 @@
       "\"이임생\" 해명",
       "\"정몽규\" 해명"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo",
       "person_chung_mong_gyu",
@@ -4586,11 +4899,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003250168"
+      ],
+      "stories": [
+        "news|news|홍명보 전 감독 \"월드컵 결과 사과드린다…청문회 출석할 것\"|ohmynews.com|2026-07-09T08:51:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 전 감독 \"월드컵 결과 사과드린다…청문회 출석할 것\"|ohmynews.com"
+      ],
+      "earliestPublishedAt": 1783587060000,
+      "latestPublishedAt": 1783587060000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_3518360d1af1a40a",
@@ -4604,7 +4933,7 @@
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
       "홍명보",
-      "축구협회장",
+      "청문회",
       "정몽규",
       "이임생",
       "해명"
@@ -4614,9 +4943,7 @@
       "\"이임생\" 해명",
       "\"정몽규\" 해명"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo",
       "person_chung_mong_gyu",
@@ -4624,11 +4951,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.hankyung.com/article/2026070962571"
+      ],
+      "stories": [
+        "news|news|\"어떤 질문도 피하지 않겠다\"…청문회 출석 예고한 홍명보|hankyung.com|2026-07-09T08:50:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"어떤 질문도 피하지 않겠다\"…청문회 출석 예고한 홍명보|hankyung.com"
+      ],
+      "earliestPublishedAt": 1783587000000,
+      "latestPublishedAt": 1783587000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_d6d0eda04ac1665f",
@@ -4644,6 +4987,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "혁신위원회",
       "축구 혁신",
       "문화체육관광부 감사",
@@ -4671,7 +5015,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 48,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -4688,7 +5032,6 @@
     "publishedAt": "2026-07-09T08:45:00.000Z",
     "collectedAt": "2026-07-09T11:35:15.617Z",
     "matchedKeywords": [
-      "축구협회",
       "박지성",
       "회장 선거"
     ],
@@ -4703,7 +5046,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 15,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -4722,6 +5066,7 @@
       "정몽규",
       "홍명보",
       "이임생",
+      "청문회",
       "축구협회",
       "부회장",
       "전무"
@@ -4741,7 +5086,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 45,
     "labels": [
       "인물 언급"
     ]
@@ -4834,6 +5179,7 @@
     "matchedKeywords": [
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장"
@@ -4847,7 +5193,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 32,
+    "relevanceScore": 39,
     "labels": [
       "인물 언급"
     ]
@@ -4864,6 +5210,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "감독",
       "후보"
@@ -4876,7 +5223,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급"
     ]
@@ -4922,7 +5269,8 @@
     "publishedAt": "2026-07-09T08:25:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "홍명보"
+      "홍명보",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -4930,7 +5278,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 13,
     "labels": [
       "인물 언급"
     ]
@@ -4949,6 +5297,7 @@
       "정몽규",
       "홍명보",
       "박지성",
+      "청문회",
       "대한축구협회",
       "KFA"
     ],
@@ -4960,7 +5309,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 41,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -5037,6 +5387,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "축구협회장",
       "감독 선임",
       "감독",
@@ -5059,7 +5410,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -5166,6 +5517,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "해명"
     ],
@@ -5175,7 +5527,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -5219,9 +5571,9 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "축구 혁신",
-      "대표팀 감독",
       "감독",
       "선임",
       "박지성"
@@ -5241,7 +5593,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 49,
+    "relevanceScore": 54,
     "labels": [
       "인물 언급"
     ]
@@ -5258,6 +5610,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "해명"
     ],
@@ -5267,7 +5620,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -5307,10 +5660,27 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 19,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2170074"
+      ],
+      "stories": [
+        "news|news|홍명보, \"사임하고 외국 도피\" 정치권 발언에 쐐기…\"주어진 결과 받아...|xportsnews.com|2026-07-09T08:06:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보, \"사임하고 외국 도피\" 정치권 발언에 쐐기…\"주어진 결과 받아...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1783584360000,
+      "latestPublishedAt": 1783584360000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_45cd7d68d7de264b",
@@ -5324,6 +5694,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "정몽규"
     ],
@@ -5334,7 +5705,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ]
@@ -5350,7 +5721,6 @@
     "publishedAt": "2026-07-09T08:04:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "축구협회",
       "대한 축구협회",
       "홍명보"
     ],
@@ -5360,7 +5730,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 9,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -5378,6 +5748,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "KFA"
     ],
@@ -5387,7 +5758,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ]
@@ -5445,7 +5816,7 @@
       "정몽규",
       "홍명보",
       "이임생",
-      "축구협회장",
+      "청문회",
       "문체부 감사",
       "감사"
     ],
@@ -5458,7 +5829,6 @@
       "축구협회 문체부 감사"
     ],
     "issueTags": [
-      "election",
       "mcst-audit"
     ],
     "personTags": [
@@ -5468,11 +5838,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 54,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.insight.co.kr/news/562323"
+      ],
+      "stories": [
+        "news|news|국회, 22일 '축구협회 청문회' 개최... 증인으로 정몽규·이임생·홍명보...|insight.co.kr|2026-07-09T08:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|국회, 22일 '축구협회 청문회' 개최... 증인으로 정몽규·이임생·홍명보...|insight.co.kr"
+      ],
+      "earliestPublishedAt": 1783584000000,
+      "latestPublishedAt": 1783584000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_14b3af3a65b2da80",
@@ -5487,7 +5873,8 @@
     "matchedKeywords": [
       "홍명보",
       "대한 축구협회",
-      "해명"
+      "해명",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -5495,7 +5882,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -5514,6 +5902,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "대한 축구협회"
     ],
     "issueTags": [],
@@ -5522,7 +5911,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
     ]
@@ -5538,6 +5927,7 @@
     "publishedAt": "2026-07-09T07:54:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
+      "청문회",
       "축구협회",
       "정몽규",
       "이임생",
@@ -5555,11 +5945,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.donga.com/news/Politics/article/all/20260709/134267227/1"
+      ],
+      "stories": [
+        "news|news|‘한국축구 청문회’ 손흥민·황희찬도 참고인으로 부른다|donga.com|2026-07-09T07:54:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘한국축구 청문회’ 손흥민·황희찬도 참고인으로 부른다|donga.com"
+      ],
+      "earliestPublishedAt": 1783583640000,
+      "latestPublishedAt": 1783583640000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_01e35457e01a6791",
@@ -5573,6 +5979,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "해명"
     ],
@@ -5582,7 +5989,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -5599,13 +6006,14 @@
     "publishedAt": "2026-07-09T07:50:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -5621,6 +6029,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "부회장"
     ],
@@ -5636,7 +6045,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -5685,6 +6094,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "축구협회",
+      "축협",
       "홍명보"
     ],
     "issueTags": [],
@@ -5693,7 +6103,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -5710,7 +6120,8 @@
     "publishedAt": "2026-07-09T07:42:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "축구협회장",
+      "청문회",
+      "축구협회",
       "문체부 감사",
       "감사",
       "부회장",
@@ -5727,7 +6138,6 @@
       "축구협회 문체부 감사"
     ],
     "issueTags": [
-      "election",
       "mcst-audit",
       "kfa-executives"
     ],
@@ -5738,12 +6148,28 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 27,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2170121"
+      ],
+      "stories": [
+        "news|news|참고인이라지만 손흥민·황희찬, 청문회 오라니…정치권 헛다리 드리블...|xportsnews.com|2026-07-09T07:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|참고인이라지만 손흥민·황희찬, 청문회 오라니…정치권 헛다리 드리블...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1783582920000,
+      "latestPublishedAt": 1783582920000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_16e1b2ebf5f04f32",
@@ -5757,6 +6183,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회"
     ],
     "issueTags": [],
@@ -5765,7 +6192,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ]
@@ -5782,6 +6209,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "해명"
     ],
@@ -5791,7 +6219,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -5808,20 +6236,16 @@
     "publishedAt": "2026-07-09T07:33:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "축구협회",
-      "임원",
       "홍명보",
       "대한 축구협회"
     ],
-    "issueTags": [
-      "kfa-executives"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 14,
     "labels": [
       "인물 언급"
     ]
@@ -5840,6 +6264,7 @@
       "축구협회",
       "홍명보",
       "해명",
+      "청문회",
       "축구협회장",
       "부회장",
       "정몽규",
@@ -5868,11 +6293,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 50,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.topstarnews.net/news/articleView.html?idxno=16128979"
+      ],
+      "stories": [
+        "news|news|홍명보, 축구협회 청문회 출석…la 논란 해명|topstarnews.net|2026-07-09T07:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보, 축구협회 청문회 출석…la 논란 해명|topstarnews.net"
+      ],
+      "earliestPublishedAt": 1783582320000,
+      "latestPublishedAt": 1783582320000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_bede91870bad9d02",
@@ -5886,6 +6327,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "정몽규",
       "이임생"
@@ -5898,7 +6340,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 30,
     "labels": [
       "인물 언급"
     ]
@@ -5941,6 +6383,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "해명"
     ],
@@ -5950,7 +6393,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -6000,7 +6443,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
-      "KFA"
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -6008,7 +6451,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 13,
     "labels": [
       "인물 언급"
     ]
@@ -6025,7 +6468,8 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "정몽규",
-      "홍명보"
+      "홍명보",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -6034,38 +6478,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
-    "labels": [
-      "인물 언급"
-    ]
-  },
-  {
-    "id": "item_1dbf3a8591e197dd",
-    "type": "news",
-    "title": "송영길, 정청래 겨냥 \"홍명보 교체 안 하면 월드컵 못 가…민주당도 총...",
-    "summary": "그는 \"김구 선생처럼 이재명 정부 성공을 위해 문지기라도 할 각오\"라면서도 \"정 전 대표는 최근 선거 결과를 보고도 다시 출마하려 한다\"고 지적했다. 그러면서 \"홍명보 감독과 정몽규 대한축구협회장을 교체하지 않으면...",
-    "url": "https://www.m-i.kr/news/articleView.html?idxno=1390059",
-    "originalUrl": "https://www.m-i.kr/news/articleView.html?idxno=1390059",
-    "publisher": "m-i.kr",
-    "publishedAt": "2026-07-09T07:22:00.000Z",
-    "collectedAt": "2026-07-09T08:44:51.325Z",
-    "matchedKeywords": [
-      "홍명보",
-      "대한축구협회",
-      "축구협회장",
-      "대한축구협회장",
-      "정몽규"
-    ],
-    "issueTags": [
-      "election"
-    ],
-    "personTags": [
-      "person_hong_myung_bo",
-      "person_chung_mong_gyu"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급"
     ]
@@ -6082,6 +6495,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "정몽규",
       "해명"
     ],
@@ -6095,7 +6509,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -6113,6 +6527,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "축구협회",
       "감독 선임",
       "감독",
@@ -6133,11 +6548,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 22,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.insight.co.kr/news/562313"
+      ],
+      "stories": [
+        "news|news|홍명보, 월드컵 참사 9일 만에 입장문 발표 \"국민께 사과, 청문회 열리면...|insight.co.kr|2026-07-09T07:20:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보, 월드컵 참사 9일 만에 입장문 발표 \"국민께 사과, 청문회 열리면...|insight.co.kr"
+      ],
+      "earliestPublishedAt": 1783581600000,
+      "latestPublishedAt": 1783581600000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_95fd2bb830635b99",
@@ -6151,6 +6582,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "축구협회",
+      "청문회",
       "대한 축구협회",
       "감독 선임",
       "대표팀 감독",
@@ -6179,10 +6611,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.starnewskorea.com/sports/2026/07/09/2026070913183165465"
+      ],
+      "stories": [
+        "news|news|축구협회 청문회 손흥민·황희찬 출석 요구 논란... '월드컵 경기 성과...|starnewskorea.com|2026-07-09T07:20:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회 청문회 손흥민·황희찬 출석 요구 논란... '월드컵 경기 성과...|starnewskorea.com"
+      ],
+      "earliestPublishedAt": 1783581600000,
+      "latestPublishedAt": 1783581600000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_d03d31ca83653501",
@@ -6196,6 +6644,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "축구혁신위",
       "혁신위원회",
       "정몽규",
@@ -6211,7 +6660,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급"
     ]
@@ -6229,6 +6678,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "부회장",
       "정몽규",
       "박지성",
@@ -6251,10 +6701,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 42,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mk.co.kr/article/12094534"
+      ],
+      "stories": [
+        "news|news|문체위, 22일 축구협회 청문회 의결...홍명보·손흥민 국회 오나|mk.co.kr|2026-07-09T07:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|문체위, 22일 축구협회 청문회 의결...홍명보·손흥민 국회 오나|mk.co.kr"
+      ],
+      "earliestPublishedAt": 1783581360000,
+      "latestPublishedAt": 1783581360000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_01ec4c9b2c920f1e",
@@ -6300,6 +6766,7 @@
       "축구협회",
       "홍명보",
       "박지성",
+      "청문회",
       "대한 축구협회",
       "부회장",
       "감독 선임",
@@ -6334,10 +6801,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 50,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.lawtv.kr/news/articleView.html?idxno=60385"
+      ],
+      "stories": [
+        "news|news|국회, 축구협회 청문회 실시... 홍명보·박지성·손흥민 등 출석 요구|lawtv.kr|2026-07-09T07:14:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|국회, 축구협회 청문회 실시... 홍명보·박지성·손흥민 등 출석 요구|lawtv.kr"
+      ],
+      "earliestPublishedAt": 1783581240000,
+      "latestPublishedAt": 1783581240000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_af89b6e1112a04de",
@@ -6353,6 +6836,7 @@
       "대한축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "혁신위원회",
       "축구 혁신",
@@ -6368,7 +6852,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 55,
+    "relevanceScore": 60,
     "labels": [
       "인물 언급"
     ]
@@ -6384,7 +6868,7 @@
     "publishedAt": "2026-07-09T07:06:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
-      "임원",
+      "축협",
       "홍명보",
       "대한축구협회",
       "부회장",
@@ -6419,6 +6903,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -6441,11 +6926,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.joseilbo.com/news/news_read.php?class=32&grp=&uid=571614"
+      ],
+      "stories": [
+        "news|news|홍명보 \"월드컵 결과 국민께 사과\"…국회 청문회 출석 예고|joseilbo.com|2026-07-09T07:06:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 \"월드컵 결과 국민께 사과\"…국회 청문회 출석 예고|joseilbo.com"
+      ],
+      "earliestPublishedAt": 1783580760000,
+      "latestPublishedAt": 1783580760000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_7c11fb5f92eb20a9",
@@ -6459,6 +6960,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -6481,11 +6983,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newscj.com/news/articleView.html?idxno=3415813"
+      ],
+      "stories": [
+        "news|news|홍명보 \"결과 책임은 감독인 저에게\"… 청문회 출석 예고|newscj.com|2026-07-09T07:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 \"결과 책임은 감독인 저에게\"… 청문회 출석 예고|newscj.com"
+      ],
+      "earliestPublishedAt": 1783580520000,
+      "latestPublishedAt": 1783580520000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_f8a98ad954477e83",
@@ -6514,6 +7032,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -6535,7 +7054,8 @@
       "정몽규",
       "홍명보",
       "박지성",
-      "이임생"
+      "이임생",
+      "청문회"
     ],
     "issueTags": [
       "innovation-committee"
@@ -6548,7 +7068,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 22,
+    "relevanceScore": 24,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -6598,12 +7118,11 @@
       "축구협회",
       "정몽규",
       "홍명보",
-      "축구협회장",
+      "청문회",
       "문화체육관광부 감사",
       "감사",
       "부회장",
       "감독 선임",
-      "대표팀 감독",
       "전력강화위원회",
       "감독",
       "전력강화위원",
@@ -6617,7 +7136,6 @@
       "\"이용수\" 감사"
     ],
     "issueTags": [
-      "election",
       "mcst-audit",
       "kfa-executives",
       "coach-appointment"
@@ -6629,11 +7147,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 54,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.enewstoday.co.kr/news/articleView.html?idxno=2447270"
+      ],
+      "stories": [
+        "news|news|국회 문체위, 22일 축구협회 청문회···'홍명보 선임' 넘어 '정몽규 체...|enewstoday.co.kr|2026-07-09T06:54:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|국회 문체위, 22일 축구협회 청문회···'홍명보 선임' 넘어 '정몽규 체...|enewstoday.co.kr"
+      ],
+      "earliestPublishedAt": 1783580040000,
+      "latestPublishedAt": 1783580040000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_a3eb73bd001d50a4",
@@ -6648,7 +7182,8 @@
     "matchedKeywords": [
       "홍명보",
       "대한 축구협회",
-      "해명"
+      "해명",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -6656,7 +7191,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -6676,6 +7212,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "혁신위원회",
       "축구 혁신",
       "박지성"
@@ -6690,7 +7227,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 38,
     "labels": [
       "인물 언급"
     ]
@@ -6706,7 +7243,9 @@
     "publishedAt": "2026-07-09T06:50:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
+      "축협",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "부회장"
     ],
@@ -6721,7 +7260,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 35,
     "labels": [
       "인물 언급"
     ]
@@ -6738,6 +7277,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "부회장",
       "전무"
@@ -6753,7 +7293,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ]
@@ -6770,6 +7310,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -6788,7 +7329,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -6807,7 +7348,8 @@
     "matchedKeywords": [
       "홍명보",
       "정몽규",
-      "해명"
+      "해명",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 해명"
@@ -6819,7 +7361,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -6837,6 +7380,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "축구협회",
       "부회장",
       "전무"
@@ -6852,7 +7396,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 22,
     "labels": [
       "인물 언급"
     ]
@@ -6913,7 +7457,23 @@
     "relevanceScore": 51,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.hansbiz.co.kr/news/articleView.html?idxno=849385"
+      ],
+      "stories": [
+        "news|news|국회로 간 축구협회 논란, 홍명보·정몽규 출석 전망|hansbiz.co.kr|2026-07-09T06:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|국회로 간 축구협회 논란, 홍명보·정몽규 출석 전망|hansbiz.co.kr"
+      ],
+      "earliestPublishedAt": 1783579440000,
+      "latestPublishedAt": 1783579440000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_5b4552f0c0d5f595",
@@ -6929,7 +7489,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
-      "축구협회장",
+      "청문회",
       "문체부 감사",
       "감사",
       "이임생"
@@ -6941,7 +7501,6 @@
       "축구협회 문체부 감사"
     ],
     "issueTags": [
-      "election",
       "mcst-audit"
     ],
     "personTags": [
@@ -6951,11 +7510,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 46,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsgn.com/news/articleView.html?idxno=561475"
+      ],
+      "stories": [
+        "news|news|문체부, 22일 축구협회 청문회…정몽규·홍명보 부른다|newsgn.com|2026-07-09T06:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|문체부, 22일 축구협회 청문회…정몽규·홍명보 부른다|newsgn.com"
+      ],
+      "earliestPublishedAt": 1783579320000,
+      "latestPublishedAt": 1783579320000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_7d5ae0f8e7c643ba",
@@ -6969,6 +7544,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "KFA",
+      "청문회",
       "대한축구협회",
       "부회장"
     ],
@@ -6978,7 +7554,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
+    "relevanceScore": 37,
     "labels": []
   },
   {
@@ -6995,6 +7571,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "부회장"
     ],
@@ -7007,7 +7584,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ]
@@ -7031,7 +7608,8 @@
       "김병지 부회장",
       "김승희 전무",
       "김승희 전무이사",
-      "전한진"
+      "전한진",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"김병지\" 대한축구협회",
@@ -7050,10 +7628,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 29,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1145639"
+      ],
+      "stories": [
+        "news|news|홍명보 '국민 여러분께 드리는 말씀' 입장문 발표 (전문)|wikitree.co.kr|2026-07-09T06:38:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 '국민 여러분께 드리는 말씀' 입장문 발표 (전문)|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1783579080000,
+      "latestPublishedAt": 1783579080000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_67b88ee249cc6268",
@@ -7067,6 +7662,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "대한축구협회",
+      "청문회",
       "대한 축구협회",
       "문체부 감사",
       "감사",
@@ -7085,7 +7681,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 41,
     "labels": [
       "감사 키워드 포함"
     ]
@@ -7111,6 +7707,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -7130,6 +7727,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "KFA",
       "감독 선임",
@@ -7146,7 +7744,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ]
@@ -7163,6 +7761,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "해명"
     ],
@@ -7172,7 +7771,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -7189,6 +7788,7 @@
     "publishedAt": "2026-07-09T06:31:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -7210,7 +7810,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 28,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -7228,6 +7828,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "해명"
     ],
@@ -7237,7 +7838,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -7255,6 +7856,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "혁신위원회",
       "축구 혁신",
@@ -7271,7 +7873,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급"
     ]
@@ -7297,9 +7899,49 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 13,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_843c46b13f59ddb9",
+    "type": "news",
+    "title": "포옛, 한국 대표팀 향한 의지…\"꼭 와주세요\" 팬 요청에 '태극기' 화답",
+    "summary": "또 다른 축구팬은 \"(대표팀 감독직에 대한) 의지를 표명해 주셔서 감사 합니다\"라는 글을 올렸고, 포옛... 한편 KFA는 지난 3일 현영민 전력강화위원장 주재로 전력강화위원회를 열고 차기 감독 선임 작업에 착수했다. 다만...",
+    "url": "https://www.mt.co.kr/world/2026/07/09/2026070911070382000",
+    "originalUrl": "https://www.mt.co.kr/world/2026/07/09/2026070911070382000",
+    "publisher": "mt.co.kr",
+    "publishedAt": "2026-07-09T06:22:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "KFA",
+      "감독 선임",
+      "전력강화위원회",
+      "감독",
+      "전력강화위원",
+      "선임",
+      "차기",
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 감사",
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
     ]
   },
   {
@@ -7315,6 +7957,7 @@
     "matchedKeywords": [
       "정몽규",
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "부회장",
       "김병지",
@@ -7338,10 +7981,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/politics/assembly/6223159"
+      ],
+      "stories": [
+        "news|news|'월드컵 참사' 원인 밝힌다…정몽규·홍명보 등 22일 청문회(종합)|news1.kr|2026-07-09T06:22:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'월드컵 참사' 원인 밝힌다…정몽규·홍명보 등 22일 청문회(종합)|news1.kr"
+      ],
+      "earliestPublishedAt": 1783578120000,
+      "latestPublishedAt": 1783578120000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_31c6381e59ba2eec",
@@ -7355,6 +8014,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "issueTags": [],
@@ -7363,7 +8023,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -7381,6 +8041,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -7399,7 +8060,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -7419,12 +8080,12 @@
       "대한축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "축구협회장",
       "대한축구협회장",
       "문화체육관광부 감사",
       "감사",
       "감독 선임",
-      "대표팀 감독",
       "전력강화위원회",
       "감독",
       "전력강화위원",
@@ -7447,11 +8108,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 65,
+    "relevanceScore": 70,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ppss.kr/news/articleView.html?idxno=301630"
+      ],
+      "stories": [
+        "news|news|대한축구협회 국회 청문회 22일 개최...정몽규·홍명보 등 13명 증인 채...|ppss.kr|2026-07-09T06:20:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한축구협회 국회 청문회 22일 개최...정몽규·홍명보 등 13명 증인 채...|ppss.kr"
+      ],
+      "earliestPublishedAt": 1783578000000,
+      "latestPublishedAt": 1783578000000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_d017f4123c2323fa",
@@ -7465,6 +8142,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "KFA",
+      "청문회",
       "대한 축구협회",
       "부회장",
       "정몽규",
@@ -7486,10 +8164,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 46,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.donga.com/sports/article/all/20260709/134266845/1"
+      ],
+      "stories": [
+        "news|news|시즌 후반기 나설 손흥민까지 소환한다는 국회 청문회, kfa는 “적극 협...|sports.donga.com|2026-07-09T06:19:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|시즌 후반기 나설 손흥민까지 소환한다는 국회 청문회, kfa는 “적극 협...|sports.donga.com"
+      ],
+      "earliestPublishedAt": 1783577940000,
+      "latestPublishedAt": 1783577940000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_53953fc1341d33cd",
@@ -7526,6 +8220,7 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 29,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -7543,6 +8238,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -7563,7 +8259,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -7596,8 +8292,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 16,
-    "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.hansbiz.co.kr/news/articleView.html?idxno=849357"
+      ],
+      "stories": [
+        "news|news|'책임지지 않는 축구협회' 향한 국회 토론회 질타|hansbiz.co.kr|2026-07-09T06:14:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'책임지지 않는 축구협회' 향한 국회 토론회 질타|hansbiz.co.kr"
+      ],
+      "earliestPublishedAt": 1783577640000,
+      "latestPublishedAt": 1783577640000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_df1ffd9d43ee12ec",
@@ -7611,10 +8322,8 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "감독",
       "사령탑",
-      "차기",
-      "복귀"
+      "차기"
     ],
     "issueTags": [
       "coach-appointment"
@@ -7638,6 +8347,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "issueTags": [],
@@ -7646,7 +8356,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -7666,6 +8376,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "혁신위원회",
       "축구 혁신",
       "부회장",
@@ -7683,7 +8394,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 45,
     "labels": [
       "인물 언급"
     ]
@@ -7700,6 +8411,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -7720,7 +8432,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 35,
     "labels": [
       "인물 언급"
     ]
@@ -7737,6 +8449,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "축구협회",
       "부회장",
       "전무",
@@ -7757,11 +8470,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 22,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.hankooki.com/news/articleView.html?idxno=6936195"
+      ],
+      "stories": [
+        "news|news|청문회 참석… 당당한 홍명보, 입장문 발표 \"어떤 질문도 피하지 않겠다...|sports.hankooki.com|2026-07-09T06:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|청문회 참석… 당당한 홍명보, 입장문 발표 \"어떤 질문도 피하지 않겠다...|sports.hankooki.com"
+      ],
+      "earliestPublishedAt": 1783577040000,
+      "latestPublishedAt": 1783577040000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_f55107bc1045d5d9",
@@ -7775,7 +8504,8 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회"
+      "대한 축구협회",
+      "청문회"
     ],
     "issueTags": [],
     "personTags": [
@@ -7783,7 +8513,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 16,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ]
@@ -7818,7 +8549,23 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2170072"
+      ],
+      "stories": [
+        "news|news|[오피셜] \"국민 여러분, 홍명보입니다\"…'도피 논란' 미국행 해명+청문...|xportsnews.com|2026-07-09T06:03:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[오피셜] \"국민 여러분, 홍명보입니다\"…'도피 논란' 미국행 해명+청문...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1783576980000,
+      "latestPublishedAt": 1783576980000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_09b45fa9e5ad41b2",
@@ -7834,6 +8581,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -7855,11 +8603,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 47,
+    "relevanceScore": 52,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202607091445449640599"
+      ],
+      "stories": [
+        "news|news|문체위, 22일 축구협회 청문회 실시…정몽규ㆍ홍명보 증인 채택|dnews.co.kr|2026-07-09T06:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|문체위, 22일 축구협회 청문회 실시…정몽규ㆍ홍명보 증인 채택|dnews.co.kr"
+      ],
+      "earliestPublishedAt": 1783576920000,
+      "latestPublishedAt": 1783576920000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_0dc477177ce42938",
@@ -7873,6 +8637,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -7899,11 +8664,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.4th.kr/news/articleView.html?idxno=2114514"
+      ],
+      "stories": [
+        "news|news|홍명보 \"청문회 출석해 모든 질문 답하겠다\"|4th.kr|2026-07-09T06:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 \"청문회 출석해 모든 질문 답하겠다\"|4th.kr"
+      ],
+      "earliestPublishedAt": 1783576920000,
+      "latestPublishedAt": 1783576920000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_ce0f743ffa1e5979",
@@ -7917,6 +8698,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "축구협회",
+      "청문회",
       "감사",
       "부회장",
       "이임생"
@@ -7934,11 +8716,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://mhnse.com/news/articleView.html?idxno=1456299"
+      ],
+      "stories": [
+        "news|news|18일 미국에서 경기 뛰는 손흥민도 호출… 국회, 축구협회 청문회 22일 ...|mhnse.com|2026-07-09T06:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|18일 미국에서 경기 뛰는 손흥민도 호출… 국회, 축구협회 청문회 22일 ...|mhnse.com"
+      ],
+      "earliestPublishedAt": 1783576800000,
+      "latestPublishedAt": 1783576800000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_75d10b1279c5443b",
@@ -7953,6 +8751,7 @@
     "matchedKeywords": [
       "축구협회",
       "박지성",
+      "청문회",
       "대한 축구협회",
       "혁신위원회",
       "축구 혁신",
@@ -7969,7 +8768,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 44,
     "labels": [
       "인물 언급"
     ]
@@ -7986,6 +8785,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회"
     ],
     "issueTags": [],
@@ -7994,7 +8794,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ]
@@ -8011,6 +8811,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "issueTags": [],
@@ -8019,7 +8820,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -8037,6 +8838,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "issueTags": [],
@@ -8045,7 +8847,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -8063,6 +8865,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "부회장",
       "전무",
@@ -8093,10 +8896,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://view.asiae.co.kr/article/2026070914531110859"
+      ],
+      "stories": [
+        "news|news|홍명보 전 축구대표팀 감독 \"청문회 출석하겠다\"|view.asiae.co.kr|2026-07-09T05:53:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 전 축구대표팀 감독 \"청문회 출석하겠다\"|view.asiae.co.kr"
+      ],
+      "earliestPublishedAt": 1783576380000,
+      "latestPublishedAt": 1783576380000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_51e3181bb6247571",
@@ -8110,6 +8929,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "issueTags": [],
@@ -8118,7 +8938,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -8136,6 +8956,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "혁신위원회",
       "축구 혁신",
@@ -8152,7 +8973,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급"
     ]
@@ -8168,7 +8989,9 @@
     "publishedAt": "2026-07-09T05:49:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
+      "축협",
       "박지성",
+      "청문회",
       "혁신위원회",
       "축구 혁신",
       "부회장",
@@ -8194,10 +9017,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 22,
+    "relevanceScore": 37,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/politics/2026/07/09/2026070913504627929"
+      ],
+      "stories": [
+        "news|news|축협 청문회, 박지성·손흥민까지 불렀다…'상임위 보이콧' 野 불참 시사|mt.co.kr|2026-07-09T05:49:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축협 청문회, 박지성·손흥민까지 불렀다…'상임위 보이콧' 野 불참 시사|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1783576140000,
+      "latestPublishedAt": 1783576140000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_c404f3f39f8f4abb",
@@ -8213,6 +9052,7 @@
       "축구협회",
       "정몽규",
       "홍명보",
+      "청문회",
       "축구 혁신",
       "박지성"
     ],
@@ -8226,7 +9066,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 38,
     "labels": [
       "인물 언급"
     ]
@@ -8244,18 +9084,16 @@
     "matchedKeywords": [
       "정몽규",
       "홍명보",
+      "청문회",
       "축구협회",
-      "감사",
-      "부회장",
-      "전무"
+      "감사"
     ],
     "discoveryQueries": [
       "\"김승희\" 감사",
       "\"이용수\" 감사"
     ],
     "issueTags": [
-      "mcst-audit",
-      "kfa-executives"
+      "mcst-audit"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -8263,11 +9101,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
+    "relevanceScore": 30,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1145614"
+      ],
+      "stories": [
+        "news|news|진짜 국회 오나… 홍명보·정몽규 청문회 참고인 명단서 포착된 '의외의...|wikitree.co.kr|2026-07-09T05:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|진짜 국회 오나… 홍명보·정몽규 청문회 참고인 명단서 포착된 '의외의...|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1783575840000,
+      "latestPublishedAt": 1783575840000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_697804ac8e08b07a",
@@ -8281,13 +9135,11 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
-      "축구협회장",
+      "청문회",
       "정몽규",
       "해명"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo",
       "person_chung_mong_gyu"
@@ -8312,6 +9164,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "issueTags": [],
@@ -8320,7 +9173,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 20,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -8338,6 +9191,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회",
       "해명"
     ],
@@ -8347,7 +9201,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 23,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -8365,6 +9219,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회"
     ],
     "issueTags": [],
@@ -8373,7 +9228,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ]
@@ -8391,6 +9246,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
+      "청문회",
       "축구협회장",
       "정몽규",
       "해명"
@@ -8404,7 +9260,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -8421,15 +9277,16 @@
     "publishedAt": "2026-07-09T05:37:00.000Z",
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
+      "축협",
       "정몽규",
       "홍명보",
+      "청문회",
       "대한축구협회",
       "부회장",
       "전무",
       "감독 선임",
       "대표팀 감독",
       "감독",
-      "전력강화위원",
       "선임"
     ],
     "issueTags": [
@@ -8442,7 +9299,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
+    "relevanceScore": 45,
     "labels": [
       "인물 언급"
     ]
@@ -8461,12 +9318,11 @@
       "축구협회",
       "정몽규",
       "홍명보",
-      "축구협회장",
+      "청문회",
       "문체부 감사",
       "감사",
       "부회장",
       "감독 선임",
-      "대표팀 감독",
       "전력강화위원회",
       "감독",
       "전력강화위원",
@@ -8478,7 +9334,6 @@
       "축구협회 문체부 감사"
     ],
     "issueTags": [
-      "election",
       "mcst-audit",
       "kfa-executives",
       "coach-appointment"
@@ -8490,7 +9345,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 56,
+    "relevanceScore": 54,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -8508,7 +9363,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
-      "축구협회장",
+      "청문회",
       "부회장",
       "정몽규",
       "이임생",
@@ -8520,7 +9375,6 @@
       "\"이임생\" 해명"
     ],
     "issueTags": [
-      "election",
       "kfa-executives"
     ],
     "personTags": [
@@ -8530,11 +9384,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5204852"
+      ],
+      "stories": [
+        "news|news|홍명보 \"어떤 질문도 피하지 않겠다…청문회 출석\"|mbn.mk.co.kr|2026-07-09T05:35:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 \"어떤 질문도 피하지 않겠다…청문회 출석\"|mbn.mk.co.kr"
+      ],
+      "earliestPublishedAt": 1783575300000,
+      "latestPublishedAt": 1783575300000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_24f6b64baa2637ae",
@@ -8548,6 +9418,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -8572,11 +9443,51 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
+    "relevanceScore": 35,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.chosun.com/national/national_general/2026/07/09/GNQSSYEIGFED5OEVOPVKDORDGQ"
+      ],
+      "stories": [
+        "news|news|홍명보 “가족 신변 우려에 미국행... 청문회 출석해 사실 설명드릴 것...|chosun.com|2026-07-09T05:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 “가족 신변 우려에 미국행... 청문회 출석해 사실 설명드릴 것...|chosun.com"
+      ],
+      "earliestPublishedAt": 1783575120000,
+      "latestPublishedAt": 1783575120000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
+  },
+  {
+    "id": "item_f8c4fccea26407fd",
+    "type": "news",
+    "title": "[TN 현장] \"카르텔로 변질된 축구협회, 재설계와 혁신 필요\"... 국회서 작...",
+    "summary": "이 자리에서는 대한축구협회 의 개혁과 한국 축구 경쟁력 강화를 위한 다양한 정책 방향이 함께 논의됐다.... 이어진 질의응답에서는 현장에 있는 축구 인들의 목소리를 듣는 시간이 이어졌다. 특히 유소년 축구 관계자들은...",
+    "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=128108",
+    "originalUrl": "https://www.ntoday.co.kr/news/articleView.html?idxno=128108",
+    "publisher": "ntoday.co.kr",
+    "publishedAt": "2026-07-09T05:30:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 유소년 정책"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_abb9b8bdbc752d1c",
@@ -8590,6 +9501,7 @@
     "collectedAt": "2026-07-09T08:44:51.325Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
@@ -8605,7 +9517,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -8623,6 +9535,7 @@
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "해명"
     ],
     "issueTags": [],
@@ -8631,7 +9544,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -8651,6 +9564,7 @@
       "정몽규",
       "홍명보",
       "이임생",
+      "청문회",
       "대한축구협회",
       "부회장",
       "김병지",
@@ -8679,10 +9593,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 47,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2170066"
+      ],
+      "stories": [
+        "news|news|'홍명보 선임 단독 드리블' 이임생, 국회 청문회가 부른다…정몽규·홍...|xportsnews.com|2026-07-09T05:27:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'홍명보 선임 단독 드리블' 이임생, 국회 청문회가 부른다…정몽규·홍...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1783574820000,
+      "latestPublishedAt": 1783574820000,
+      "representativeCollectedAt": 1785042243994,
+      "latestCollectedAt": 1785042243994
+    }
   },
   {
     "id": "item_64dff1870eb9d349",
@@ -8696,6 +9626,7 @@
     "collectedAt": "2026-07-09T05:28:47.518Z",
     "matchedKeywords": [
       "홍명보",
+      "청문회",
       "대한 축구협회"
     ],
     "issueTags": [],
@@ -8704,7 +9635,312 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 24,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_97e13ca00f2940bb",
+    "type": "news",
+    "title": "침묵 깬 홍명보 “청문회 서겠다”… 국회, 박지성·손흥민 참고인 채택",
+    "summary": "전력강화위원장, 김승희 축구협회 전무이사, 최영일·박항서 전 축구협회 부회장 등도 증인으로 채택됐다.... 미국행을 둘러싼 논란에 대해서도 해명 했다. 그는 “미국에 머물게 된 것 역시 결과를 외면하거나 피하기 위한...",
+    "url": "https://biz.chosun.com/topics/topics_social/2026/07/09/XA5ZVT6QWRDWLOFR4RW35ONWMY",
+    "originalUrl": "https://biz.chosun.com/topics/topics_social/2026/07/09/XA5ZVT6QWRDWLOFR4RW35ONWMY",
+    "publisher": "biz.chosun.com",
+    "publishedAt": "2026-07-09T05:21:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "홍명보",
+      "박지성",
+      "청문회",
+      "축구협회",
+      "부회장",
+      "전무",
+      "해명"
+    ],
+    "discoveryQueries": [
+      "\"김승희\" 해명",
+      "\"이용수\" 해명"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_hong_myung_bo",
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 30,
+    "labels": [
+      "인물 언급",
+      "해명 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_1ba7d5864237b1a4",
+    "type": "news",
+    "title": "홍명보·정몽규 증인, 손흥민 참고인 소환… 국회, 22일 축구협회 청문...",
+    "summary": "국회가 대한축구협회 를 대상으로 한 청문회를 오는 22일 연다. 정몽규 전 협회 회장과 홍명보 전 국가대표팀... 전 협회 부회장 ▲김병지 협회 부회장 ▲김진규 대표팀 코치 ▲한준희 전 협회 부회장 ▲ 전한진 협회 총괄...",
+    "url": "https://www.sidae.com/article/2026070914121264427",
+    "originalUrl": "https://www.sidae.com/article/2026070914121264427",
+    "publisher": "sidae.com",
+    "publishedAt": "2026-07-09T05:18:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "축구협회",
+      "정몽규",
+      "홍명보",
+      "대한축구협회",
+      "부회장",
+      "김병지",
+      "전한진",
+      "청문회"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 감사",
+      "\"김승희\" 감사",
+      "\"전한진\" 감사",
+      "\"전한진\" 대한축구협회",
+      "\"전한진\" 축구협회"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo",
+      "person_kim_byung_ji",
+      "person_jeon_han_jin"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 50,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_3580ed1d22ad0096",
+    "type": "news",
+    "title": "홍명보 선임 절차 제대로 따져본다…국회, 22일 축구협회 청문회",
+    "summary": "전력강화위원장, 김승희 축구협회 전무이사, 최영일·박항서 전 축구협회 부회장 등이 채택됐다. 참고인... 문체부 감사 결과에 따르면 2023년 2월 클린스만 감독 선임은 해당 과정을 주도하는 기구인...",
+    "url": "https://www.munhwa.com/article/11601544?ref=naver",
+    "originalUrl": "https://www.munhwa.com/article/11601544?ref=naver",
+    "publisher": "munhwa.com",
+    "publishedAt": "2026-07-09T05:16:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "축구협회",
+      "홍명보",
+      "청문회",
+      "문체부 감사",
+      "감사",
+      "부회장",
+      "전무"
+    ],
+    "discoveryQueries": [
+      "\"김승희\" 감사"
+    ],
+    "issueTags": [
+      "mcst-audit",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 36,
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_4a733a8c22835a8c",
+    "type": "news",
+    "title": "[공식발표] 18일 경기 뛰는 손흥민까지 부른다? 국회 문체위, KFA 청문회...",
+    "summary": "또 최영일 전 대한 축구협회 부회장, 김병지 대한 축구협회 부회장, 김진규 축구 국가대표 코치, 한준희 전 대한 축구협회 부회장, 전한진 대한 축구협회 매니저, 박항서 전 대한 축구협회 부회장도 증인 출석 요구를 받았다....",
+    "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553363472",
+    "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553363472",
+    "publisher": "sportalkorea.com",
+    "publishedAt": "2026-07-09T05:16:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "KFA",
+      "청문회",
+      "대한 축구협회",
+      "부회장",
+      "김병지",
+      "전한진"
+    ],
+    "discoveryQueries": [
+      "\"전한진\" 대한축구협회",
+      "\"전한진\" 축구협회"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_kim_byung_ji",
+      "person_jeon_han_jin"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 41,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_196d648277667c51",
+    "type": "news",
+    "title": "[전문] 침묵 깬 홍명보 “청문회서 어떤 질문도 피하지 않을 것, 있는 그...",
+    "summary": "전력강화위원장, 김승희 협회 전무이사, 최영일·박항서 전 협회 부회장 등이다. 참고인 명단엔 ‘케이-축구... 청문회에서는 2년 전 국정 감사 장에서도 제기된 협회의 감독 선임 절차 논란과 더불어 최근 월드컵 실패 이후...",
+    "url": "https://www.sportsseoul.com/news/read/1621552?ref=naver",
+    "originalUrl": "https://www.sportsseoul.com/news/read/1621552?ref=naver",
+    "publisher": "sportsseoul.com",
+    "publishedAt": "2026-07-09T05:14:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "홍명보",
+      "청문회",
+      "부회장",
+      "전무",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "\"김승희\" 감사"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 21,
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_d9919d6b194c64eb",
+    "type": "news",
+    "title": "대한축구협회 22일 청문회.. 정몽규·홍명보 등 13명 증인 채택",
+    "summary": "대한축구협회 가 국가대표팀 감독 선임 절차 등을 점검하는 국회 청문회에 최 대한 협조하겠다고 밝혔습니다.... 부회장, 전한진 매니저, 박항서 전 부회장 등 13명입니다. 협회 의 한 관계자는 \"청문회에 최 대한 협조하겠다...",
+    "url": "https://www.cjb.co.kr/home/sub.php?PRO_CODE=99&P_NO=260709512&menukey=61&mod=view",
+    "originalUrl": "https://www.cjb.co.kr/home/sub.php?PRO_CODE=99&P_NO=260709512&menukey=61&mod=view",
+    "publisher": "cjb.co.kr",
+    "publishedAt": "2026-07-09T05:14:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "정몽규",
+      "홍명보",
+      "청문회",
+      "부회장",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "전한진"
+    ],
+    "discoveryQueries": [
+      "\"전한진\" 대한축구협회",
+      "\"전한진\" 축구협회"
+    ],
+    "issueTags": [
+      "kfa-executives",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo",
+      "person_jeon_han_jin"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 60,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_f0209e52af3f445a",
+    "type": "news",
+    "title": "‘참고인 손흥민’ 축협 청문회 서나…LA FC 일정 보니",
+    "summary": "협회 “증인 중 김병지 등 현직 4명 참석” 손흥민, 청문회 다음날 리그 경기협회는 청문회에 “최대한... 실제 유명 스포츠 스타가 국회 국정 감사 에 참고인으로 채택됐지만 경기 일정을 이유로 출석하지 않은 사례도...",
+    "url": "https://www.seoul.co.kr/news/sport/worldcup2026/2026/07/09/20260709500160?wlog_tag3=naver",
+    "originalUrl": "https://www.seoul.co.kr/news/sport/worldcup2026/2026/07/09/20260709500160?wlog_tag3=naver",
+    "publisher": "seoul.co.kr",
+    "publishedAt": "2026-07-09T05:12:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "축협",
+      "청문회",
+      "김병지",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 감사",
+      "\"김승희\" 감사",
+      "\"전한진\" 감사",
+      "\"전한진\" 대한축구협회",
+      "\"전한진\" 축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_kim_byung_ji"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 22,
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_6471c3e64e7ca1de",
+    "type": "news",
+    "title": "국회 문체위, 22일 '축구협회 청문회' 개최 의결…협회 \"최대한 협조\"",
+    "summary": "이 중 현재 협회 직을 유지하고 있는 인사는 이용수 부회장, 김승희 전무이사, 김병지 부회장, 전한진 매니저 등 네 명이다. 축구협회 고위 관계자는 “청문회에 최대한 협조하겠다”며 “증인으로 채택된 현직 인사들은...",
+    "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04152486645512880",
+    "originalUrl": "https://www.edaily.co.kr/news/newspath.asp?newsid=04152486645512880",
+    "publisher": "edaily.co.kr",
+    "publishedAt": "2026-07-09T05:04:00.000Z",
+    "collectedAt": "2026-07-26T05:04:03.994Z",
+    "matchedKeywords": [
+      "축구협회",
+      "청문회",
+      "부회장",
+      "전무",
+      "김병지",
+      "김병지 부회장",
+      "김승희 전무",
+      "김승희 전무이사",
+      "전한진"
+    ],
+    "discoveryQueries": [
+      "\"전한진\" 대한축구협회",
+      "\"전한진\" 축구협회"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_kim_byung_ji",
+      "person_kim_seung_hee",
+      "person_jeon_han_jin"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 33,
     "labels": [
       "인물 언급"
     ]
