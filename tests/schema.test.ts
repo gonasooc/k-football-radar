@@ -60,6 +60,47 @@ describe("radarItemSchema", () => {
     assert.deepEqual(parsed.discoveryQueries, ["축구협회 회장 선거"]);
   });
 
+  it("accepts bounded internal dedupe evidence without changing source URLs", () => {
+    const parsed = radarItemSchema.parse({
+      ...validRadarItem,
+      dedupeState: {
+        version: 1,
+        urls: [validRadarItem.url, "https://example.com/legacy"],
+        stories: ["news|story|2026-07-07T00:00:00.000Z"],
+        nearKeys: ["news|news|story|publisher"],
+        earliestPublishedAt: 1,
+        latestPublishedAt: 2,
+        representativeCollectedAt: 2,
+        latestCollectedAt: 3
+      }
+    });
+
+    assert.equal(parsed.originalUrl, validRadarItem.originalUrl);
+    assert.equal(parsed.dedupeState?.version, 1);
+    assert.equal(
+      radarItemSchema.safeParse({
+        ...validRadarItem,
+        dedupeState: {
+          ...parsed.dedupeState,
+          earliestPublishedAt: 3,
+          latestPublishedAt: 2
+        }
+      }).success,
+      false
+    );
+    assert.equal(
+      radarItemSchema.safeParse({
+        ...validRadarItem,
+        dedupeState: {
+          ...parsed.dedupeState,
+          representativeCollectedAt: 4,
+          latestCollectedAt: 3
+        }
+      }).success,
+      false
+    );
+  });
+
   it("rejects unknown relevance tiers", () => {
     assert.equal(
       radarItemSchema.safeParse({

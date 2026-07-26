@@ -3,7 +3,7 @@ import { createHash } from "node:crypto";
 import { z } from "zod";
 
 import { sortItemsLatestFirst } from "./dedupe";
-import { dataBundleSchema, type DataBundle } from "./schema";
+import { dataBundleSchema, type DataBundle, type RadarItem } from "./schema";
 import { validateDataBundle } from "./validation";
 
 const SNAPSHOT_OBJECT_KEY_PATTERN = /^snapshots\/[a-f0-9]{64}\.json$/;
@@ -17,9 +17,24 @@ export const dataSnapshotManifestSchema = z.object({
 });
 
 export type DataSnapshotManifest = z.infer<typeof dataSnapshotManifestSchema>;
+export type PublicRadarItem = Omit<RadarItem, "dedupeState">;
+export type PublicDataBundle = Omit<DataBundle, "items"> & {
+  items: PublicRadarItem[];
+};
 
-export function normalizeDataBundle(value: unknown): DataBundle {
-  const parsed = dataBundleSchema.parse(value);
+const publicDataBundleSchema = dataBundleSchema.superRefine((bundle, context) => {
+  bundle.items.forEach((item, index) => {
+    if (item.dedupeState !== undefined) {
+      context.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "Internal dedupe state is not allowed in public data snapshots",
+        path: ["items", index, "dedupeState"]
+      });
+    }
+  });
+});
+
+function normalizeParsedDataBundle(parsed: DataBundle): DataBundle {
   validateDataBundle(parsed);
 
   return {
@@ -27,6 +42,29 @@ export function normalizeDataBundle(value: unknown): DataBundle {
     items: sortItemsLatestFirst(parsed.items),
     issues: [...parsed.issues].sort((a, b) => a.priority - b.priority),
     people: [...parsed.people].sort((a, b) => a.priority - b.priority)
+  };
+}
+
+export function normalizeDataBundle(value: unknown): DataBundle {
+  return normalizeParsedDataBundle(dataBundleSchema.parse(value));
+}
+
+function toPublicRadarItem(item: RadarItem): PublicRadarItem {
+  const publicItem = { ...item };
+  delete publicItem.dedupeState;
+  return publicItem;
+}
+
+/**
+ * Projects the persisted collection bundle onto its public contract. Dedupe
+ * evidence remains available to future collection runs in data/items, but is
+ * never part of a published snapshot or a payload derived from one.
+ */
+export function toPublicDataBundle(value: unknown): PublicDataBundle {
+  const bundle = normalizeDataBundle(value);
+  return {
+    ...bundle,
+    items: bundle.items.map(toPublicRadarItem)
   };
 }
 
@@ -38,7 +76,7 @@ export function serializeDataSnapshot(value: unknown): {
   body: string;
   manifest: DataSnapshotManifest;
 } {
-  const bundle = normalizeDataBundle(value);
+  const bundle = toPublicDataBundle(value);
   const body = `${JSON.stringify(bundle)}\n`;
   const sha256 = getSha256(body);
 
@@ -57,7 +95,7 @@ export function serializeDataSnapshot(value: unknown): {
 export function parseDataSnapshot(
   body: string,
   manifest: DataSnapshotManifest
-): DataBundle {
+): PublicDataBundle {
   if (manifest.objectKey !== `snapshots/${manifest.sha256}.json`) {
     throw new Error("R2 snapshot object key does not match its checksum");
   }
@@ -76,9 +114,14 @@ export function parseDataSnapshot(
     );
   }
 
-  const bundle = normalizeDataBundle(JSON.parse(body) as unknown);
+  const bundle = normalizeParsedDataBundle(
+    publicDataBundleSchema.parse(JSON.parse(body) as unknown)
+  );
   if (bundle.collectionState.lastCollectedAt !== manifest.collectedAt) {
     throw new Error("R2 snapshot collection time does not match its manifest");
   }
-  return bundle;
+  return {
+    ...bundle,
+    items: bundle.items.map(toPublicRadarItem)
+  };
 }

@@ -99,6 +99,7 @@ export async function reclassifyExistingYouTubeItems({
           durationSeconds: item.youtube.durationSeconds,
           title: item.title,
           description: item.summary,
+          tags: item.youtube.tags,
           cache: formatCache,
           redirectProbeEnabled: redirectProbeEnabled && redirectProbeHealthy,
           fetchImpl: shortsFetchImpl,

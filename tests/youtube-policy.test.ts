@@ -33,12 +33,14 @@ function youtubeItem({
   id,
   channelId,
   title = "대한축구협회 회장 선거 분석",
-  durationSeconds = 900
+  durationSeconds = 900,
+  tags
 }: {
   id: string;
   channelId: string;
   title?: string;
   durationSeconds?: number;
+  tags?: string[];
 }): RadarItem {
   return {
     id: `youtube_${id}`,
@@ -59,6 +61,7 @@ function youtubeItem({
     youtube: {
       videoId: id,
       channelId,
+      ...(tags ? { tags } : {}),
       thumbnail: {
         url: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
         width: 480,
@@ -273,6 +276,13 @@ describe("YouTube retroactive reclassification", () => {
           title: "대한축구협회 회장 선거 #shorts",
           durationSeconds: 45
         }),
+        youtubeItem({
+          id: "tagged-short",
+          channelId: "preferred",
+          title: "대한축구협회 회장 선거 핵심 정리",
+          durationSeconds: 45,
+          tags: ["쇼츠"]
+        }),
         youtubeItem({ id: "blocked-video", channelId: "blocked" })
       ],
       issues,
@@ -309,7 +319,10 @@ describe("YouTube retroactive reclassification", () => {
         ?.relevanceTier,
       "secondary"
     );
-    assert.deepEqual(result.report.removedShorts, ["youtube_explicit-short"]);
+    assert.deepEqual(result.report.removedShorts, [
+      "youtube_explicit-short",
+      "youtube_tagged-short"
+    ]);
     assert.deepEqual(result.report.removedBlocked, ["youtube_blocked-video"]);
     assert.deepEqual(result.report.unknownFormats, ["youtube_unlisted-unknown"]);
   });

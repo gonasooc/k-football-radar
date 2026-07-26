@@ -5,6 +5,7 @@ import { z } from "zod";
 import { classifyItemText, joinSummaryAndTags } from "../lib/classify";
 import { dedupeItems } from "../lib/dedupe";
 import { getItemRetentionDays, isPublishedAtWithinRetention } from "../lib/item-retention";
+import { hasLocalFootballAssociationContext } from "../lib/korean-localities";
 import { stripInlineHtml, truncateSummary } from "../lib/normalize";
 import type {
   Issue,
@@ -143,6 +144,53 @@ const EMPTY_YOUTUBE_CHANNEL_POLICY: YouTubeChannelPolicyFile = {
   preferred: [],
   blocked: []
 };
+
+// Publisher tags are useful metadata, but they are also commonly reused as
+// channel-wide SEO boilerplate. Only let tags rescue otherwise rejected text
+// when the visible title/description already ties a Korean-football subject to
+// a governance cue. A broad hashtag or a person's name is not enough because
+// both are routinely copied onto match reviews and highlight clips.
+const YOUTUBE_TAG_RESCUE_CONTEXT_PATTERN =
+  /(?:(?:한국\s*축구|한국축구|대한민국\s*축구).{0,40}(?:개혁|혁신|운영\s*책임|책임\s*(?:구조|규명)|부패|비리|카르텔|인맥|감독\s*선임|청문회|회장\s*선거|선거인단|정관|징계|수사|이사회|감사\s*(?:착수|결과|발표|보고서|처분|지적))|(?:개혁|혁신|운영\s*책임|책임\s*(?:구조|규명)|부패|비리|카르텔|인맥|감독\s*선임|청문회|회장\s*선거|선거인단|정관|징계|수사|이사회|감사\s*(?:착수|결과|발표|보고서|처분|지적)).{0,40}(?:한국\s*축구|한국축구|대한민국\s*축구)|전력강화위원회?|K[-\s]?축구혁신(?:위원회|위))/iu;
+const YOUTUBE_ASSOCIATION_GOVERNANCE_RESCUE_PATTERN =
+  /(?:축구협회.{0,45}(?:국회(?:의원)?|청문회|회장\s*선거|선거인단|감독\s*선임|전력강화위원|정관|이사회|사퇴|징계|가처분|수사|고발|감사\s*(?:착수|결과|발표|보고서|처분|지적))|(?:국회(?:의원)?|청문회|회장\s*선거|선거인단|감독\s*선임|전력강화위원|정관|이사회|사퇴|징계|가처분|수사|고발|감사\s*(?:착수|결과|발표|보고서|처분|지적)).{0,45}축구협회)/u;
+const YOUTUBE_TAG_RESCUE_EXCLUSION_PATTERN =
+  /(?:감사\s*(?:합니다|드립니다|드려요|해요)|감사한\s*(?:마음|뜻|인사)|감사의\s*(?:말|뜻|마음|인사)|하이라이트|골\s*모음|경기\s*장면|다시\s*보기|경기\s*리뷰)/u;
+const YOUTUBE_MULTILINGUAL_KFA_ANCHOR_PATTERN =
+  /(?:Korea(?:n)?\s+Football\s+Association|(?:Asosiasi|Federasi)\s+Sepak\s+Bola\s+Korea\s+Selatan|koreanisch\w*\s+Fußball(?:verband)?|\bKFA\b.{0,140}(?:Shin\s+Tae-yong|Korea\s+Selatan|Sepak\s+Bola\s+Korea|koreanisch\w*\s+Fußball)|(?:Shin\s+Tae-yong|Korea\s+Selatan|Sepak\s+Bola\s+Korea|koreanisch\w*\s+Fußball).{0,140}\bKFA\b)/iu;
+const YOUTUBE_MULTILINGUAL_GOVERNANCE_PATTERN =
+  /(?:sanction|disciplin|suspension|banned?|sanksi|dihukum|dikenakan\s+sanksi|larangan|disiplin|pemeriksaan\s+disiplin|corrupt\w*|korup\w*|korrupt\w*|skandal\w*|vetternwirtschaft)/iu;
+const YOUTUBE_STY_FOOTBALL_CORROBORATOR_PATTERN =
+  /(?:Persija|Timnas|pemain|pelatih|sepak\s*bola|FIFA)/iu;
+
+function splitYouTubeEvidenceSegments(...fields: string[]): string[] {
+  return fields.flatMap((field) =>
+    field
+      .split(
+        /(?:[\r\n]+|[;；|｜]+|-{2,}|\s+-\s+|(?<![:/])\/+(?!\/)|／+|[‒–—―]|\.{2,}|…+|[!?]+|(?<!\d)\.(?!\d))\s*/u
+      )
+      .map((segment) => segment.trim())
+      .filter(Boolean)
+  );
+}
+
+function hasMultilingualKfaGovernanceEvidence(
+  title: string,
+  summary: string
+): boolean {
+  return splitYouTubeEvidenceSegments(title, summary).some((segment) => {
+    const hasFullAnchor = YOUTUBE_MULTILINGUAL_KFA_ANCHOR_PATTERN.test(segment);
+    const hasGuardedStyAnchor =
+      /\bSTY\b/iu.test(segment) &&
+      /\bKFA\b/iu.test(segment) &&
+      YOUTUBE_STY_FOOTBALL_CORROBORATOR_PATTERN.test(segment);
+
+    return (
+      (hasFullAnchor || hasGuardedStyAnchor) &&
+      YOUTUBE_MULTILINGUAL_GOVERNANCE_PATTERN.test(segment)
+    );
+  });
+}
 
 function parseBoundedInteger(
   value: string | undefined,
@@ -373,7 +421,22 @@ function classifyYouTubeItem({
   tags?: string[];
   issues: Issue[];
   people: Person[];
-}) {
+}): {
+  classification: ReturnType<typeof classifyItemText>;
+  contentRelevanceTier: RelevanceTier | "reject";
+} {
+  const visibleTextClassification = classifyItemText({
+    title,
+    summary,
+    issues,
+    people,
+    isOfficial: false
+  });
+  const visibleTextTier = getNewsCandidateRelevanceTier({
+    title,
+    summary,
+    classification: visibleTextClassification
+  });
   const classification = classifyItemText({
     title,
     summary,
@@ -389,12 +452,54 @@ function classifyYouTubeItem({
     summary: joinSummaryAndTags(summary, tags),
     classification
   });
+  const hasExactKfaTag = (tags ?? []).some((tag) =>
+    /^(?:대한\s*축구협회|KFA)$/iu.test(tag.trim())
+  );
+  const hasNewIssueFromTags = classification.issueTags.some(
+    (issueId) => !visibleTextClassification.issueTags.includes(issueId)
+  );
+  const canTagsRescueRejectedText =
+    hasExactKfaTag &&
+    hasNewIssueFromTags &&
+    !YOUTUBE_TAG_RESCUE_EXCLUSION_PATTERN.test(`${title} ${summary}`) &&
+    (YOUTUBE_TAG_RESCUE_CONTEXT_PATTERN.test(`${title} ${summary}`) ||
+      (!hasLocalFootballAssociationContext(`${title} ${summary}`) &&
+        YOUTUBE_ASSOCIATION_GOVERNANCE_RESCUE_PATTERN.test(
+          `${title} ${summary}`
+        )));
+  if (visibleTextTier !== "reject") {
+    return {
+      // Once visible text has semantic evidence of its own, tags cannot replace
+      // or broaden that meaning.
+      classification: visibleTextClassification,
+      contentRelevanceTier: visibleTextTier
+    };
+  }
+
+  if (hasMultilingualKfaGovernanceEvidence(title, summary)) {
+    return {
+      classification: {
+        ...visibleTextClassification,
+        matchedKeywords: Array.from(
+          new Set([...visibleTextClassification.matchedKeywords, "KFA"])
+        ),
+        relevanceScore: Math.max(
+          visibleTextClassification.relevanceScore,
+          /\bKFA\b/iu.test(title) ? 20 : 6
+        )
+      },
+      contentRelevanceTier: "secondary"
+    };
+  }
+
+  const guardedRelevanceTier = canTagsRescueRejectedText
+    ? relevanceTier
+    : "reject";
+  // Tags are publisher-controlled metadata and may be channel-wide SEO
+  // boilerplate. They may preserve a specifically evidenced governance video,
+  // but never make rejected visible text a primary item.
   const contentRelevanceTier: RelevanceTier | "reject" =
-    relevanceTier === "reject"
-      ? "reject"
-      : relevanceTier === "secondary"
-        ? "secondary"
-        : "primary";
+    guardedRelevanceTier === "reject" ? "reject" : "secondary";
   return { classification, contentRelevanceTier };
 }
 

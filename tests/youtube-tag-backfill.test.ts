@@ -88,7 +88,12 @@ describe("YouTube tag backfill", () => {
   it("stores fetched tags and reclassifies the item with them", async () => {
     const requestedUrls: URL[] = [];
     const result = await backfillYouTubeTags({
-      items: [youtubeItem({ videoId: "video-1", title: "축구 이야기" })],
+      items: [
+        youtubeItem({
+          videoId: "video-1",
+          title: "대한민국 축구 운영 책임을 짚는다"
+        })
+      ],
       issues,
       people,
       channelPolicy,

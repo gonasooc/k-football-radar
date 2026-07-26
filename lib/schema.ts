@@ -40,6 +40,26 @@ export const youtubeMetadataSchema = z.object({
   durationSeconds: z.number().int().min(0)
 });
 
+const dedupeStateSchema = z
+  .object({
+    version: z.literal(1),
+    urls: z.array(z.string().min(1)),
+    stories: z.array(z.string().min(1)),
+    nearKeys: z.array(z.string().min(1)),
+    earliestPublishedAt: z.number().finite(),
+    latestPublishedAt: z.number().finite(),
+    representativeCollectedAt: z.number().finite(),
+    latestCollectedAt: z.number().finite()
+  })
+  .refine(
+    (state) => state.earliestPublishedAt <= state.latestPublishedAt,
+    "Dedupe publication bounds must be ordered"
+  )
+  .refine(
+    (state) => state.representativeCollectedAt <= state.latestCollectedAt,
+    "Dedupe representative collection time cannot exceed the latest observation"
+  );
+
 export const radarItemSchema = z
   .object({
     id: z.string().min(1),
@@ -60,6 +80,10 @@ export const radarItemSchema = z
     relevanceScore: z.number().int().min(0).max(100),
     relevanceTier: relevanceTierSchema.optional(),
     labels: z.array(z.string().min(1)).optional(),
+    // Internal evidence retained when several raw observations collapse into
+    // one representative. This prevents later collection runs from losing URL
+    // aliases or the full near-duplicate publication span.
+    dedupeState: dedupeStateSchema.optional(),
     youtube: youtubeMetadataSchema.optional()
   })
   .superRefine((item, context) => {

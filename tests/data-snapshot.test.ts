@@ -3,9 +3,11 @@ import { describe, it } from "node:test";
 
 import { getDataBundle } from "../lib/data";
 import {
+  getSha256,
   normalizeDataBundle,
   parseDataSnapshot,
-  serializeDataSnapshot
+  serializeDataSnapshot,
+  toPublicDataBundle
 } from "../lib/data-snapshot";
 import { createRemoteDataLoader } from "../lib/remote-data";
 
@@ -29,7 +31,88 @@ describe("R2 data snapshots", () => {
 
     assert.deepEqual(first, second);
     assert.equal(first.manifest.objectKey, `snapshots/${first.manifest.sha256}.json`);
-    assert.deepEqual(parseDataSnapshot(first.body, first.manifest), bundle);
+    assert.deepEqual(
+      parseDataSnapshot(first.body, first.manifest),
+      toPublicDataBundle(bundle)
+    );
+  });
+
+  it("keeps internal dedupe evidence out of every public snapshot projection", async () => {
+    const bundle = await getDataBundle();
+    const item = bundle.items[0];
+    assert.ok(item);
+    const publishedAt = Date.parse(item.publishedAt);
+    const collectedAt = Date.parse(item.collectedAt);
+    const internalBundle = {
+      ...bundle,
+      items: [
+        {
+          ...item,
+          dedupeState: {
+            version: 1 as const,
+            urls: [item.url, item.originalUrl],
+            stories: ["internal-story-key"],
+            nearKeys: ["internal-near-key"],
+            earliestPublishedAt: publishedAt,
+            latestPublishedAt: publishedAt,
+            representativeCollectedAt: collectedAt,
+            latestCollectedAt: collectedAt
+          }
+        },
+        ...bundle.items.slice(1)
+      ]
+    };
+
+    const publicBundle = toPublicDataBundle(internalBundle);
+    const snapshot = serializeDataSnapshot(internalBundle);
+    const serializedBundle = JSON.parse(snapshot.body) as typeof publicBundle;
+    const publicItem = publicBundle.items.find(({ id }) => id === item.id);
+    const serializedItem = serializedBundle.items.find(({ id }) => id === item.id);
+
+    assert.equal(internalBundle.items[0]?.dedupeState?.version, 1);
+    assert.equal(publicItem && "dedupeState" in publicItem, false);
+    assert.equal(serializedItem && "dedupeState" in serializedItem, false);
+    assert.doesNotMatch(snapshot.body, /dedupeState|internal-story-key|internal-near-key/);
+    assert.deepEqual(parseDataSnapshot(snapshot.body, snapshot.manifest), publicBundle);
+  });
+
+  it("rejects a content-addressed public snapshot containing internal dedupe state", async () => {
+    const bundle = await getDataBundle();
+    const item = bundle.items[0];
+    assert.ok(item);
+    const publishedAt = Date.parse(item.publishedAt);
+    const leakedBody = `${JSON.stringify({
+      ...bundle,
+      items: [
+        {
+          ...item,
+          dedupeState: {
+            version: 1,
+            urls: [item.url],
+            stories: ["internal-story-key"],
+            nearKeys: ["internal-near-key"],
+            earliestPublishedAt: publishedAt,
+            latestPublishedAt: publishedAt,
+            representativeCollectedAt: Date.parse(item.collectedAt),
+            latestCollectedAt: Date.parse(item.collectedAt)
+          }
+        },
+        ...bundle.items.slice(1)
+      ]
+    })}\n`;
+    const sha256 = getSha256(leakedBody);
+
+    assert.throws(
+      () =>
+        parseDataSnapshot(leakedBody, {
+          version: 1,
+          objectKey: `snapshots/${sha256}.json`,
+          collectedAt: bundle.collectionState.lastCollectedAt,
+          sha256,
+          byteLength: Buffer.byteLength(leakedBody, "utf8")
+        }),
+      /Internal dedupe state is not allowed/
+    );
   });
 
   it("rejects a snapshot whose bytes do not match its manifest", async () => {

@@ -31,6 +31,11 @@ const STORY_FACT_ANCHOR_PATTERN =
 const STORY_DURATION_ANCHOR_PATTERN = /(?:년|개월|일)$/u;
 const STORY_OPINION_TITLE_PATTERN =
   /(?:칼럼|사설|기고|오피니언|데스크|유레카|시론|논설)/u;
+// Only match titles that are effectively a recurring programme label plus
+// date/episode metadata. Event-specific titles may still contain "뉴스9" or
+// "하이라이트" without being mistaken for another episode of the programme.
+const STORY_RECURRING_SERIES_TITLE_PATTERN =
+  /^(?:(?:뉴스9|스포츠뉴스|오늘의(?:한국)?축구(?:뉴스|소식|브리핑)?|(?:축구|스포츠)?경기하이라이트)|(?:주간|월간|데일리)(?:한국)?(?:축구|스포츠|축구협회)(?:뉴스|소식|브리핑)?)(?:(?:20\d{2}년)?\d{1,2}월\d{1,2}일|(?:20\d{2})?\d{3,4}|다시보기|full|제?\d+(?:회|화|편)|\d+부)*$/iu;
 
 export type StoryClusterItem = Pick<
   RadarItem,
@@ -69,6 +74,26 @@ function normalizePublisher(value: string): string {
 
 function isLikelyOpinionTitle(value: string): boolean {
   return STORY_OPINION_TITLE_PATTERN.test(value.normalize("NFKC"));
+}
+
+function isLikelyRecurringSeriesTitle(value: string): boolean {
+  return STORY_RECURRING_SERIES_TITLE_PATTERN.test(normalizeStoryText(value));
+}
+
+function hasMinimumExactTitleInformation(normalizedTitle: string): boolean {
+  return Array.from(normalizedTitle).length >= STORY_EXACT_TITLE_MIN_LENGTH;
+}
+
+function hasLexicalTitleGuard(
+  left: StoryClusterItem,
+  right: StoryClusterItem
+): boolean {
+  return (
+    isLikelyOpinionTitle(left.title) ||
+    isLikelyOpinionTitle(right.title) ||
+    isLikelyRecurringSeriesTitle(left.title) ||
+    isLikelyRecurringSeriesTitle(right.title)
+  );
 }
 
 export function extractStoryFactAnchors(
@@ -179,27 +204,36 @@ export function isStoryPairMatch(
   const normalizedLeftTitle = normalizeStoryText(left.title);
   const normalizedRightTitle = normalizeStoryText(right.title);
   if (normalizedLeftTitle.length > 0 && normalizedLeftTitle === normalizedRightTitle) {
+    // A recurring programme can reuse one exact title for separate episodes,
+    // including inside the story window. This is not a duplicate signal even
+    // when the publisher is the same.
+    if (
+      isLikelyRecurringSeriesTitle(left.title) ||
+      isLikelyRecurringSeriesTitle(right.title)
+    ) {
+      return false;
+    }
     if (normalizePublisher(left.publisher) === normalizePublisher(right.publisher)) {
       return true;
     }
     // Cross-publisher identical titles are wire copy, except syndicated columns
     // and degenerate short titles that collide by coincidence.
-    if (
-      Array.from(normalizedLeftTitle).length >= STORY_EXACT_TITLE_MIN_LENGTH &&
+    return (
+      hasMinimumExactTitleInformation(normalizedLeftTitle) &&
       !isLikelyOpinionTitle(left.title) &&
       !isLikelyOpinionTitle(right.title)
-    ) {
-      return true;
-    }
+    );
   }
 
   // Tags are rule-derived and often disagree on the same event, so the strong
-  // title bar stands alone; the opinion guard still blocks syndicated columns.
+  // title bar stands alone. Editorial/recurring-series markers are a hard guard
+  // for every lexical fallback, not just the strongest-title branch.
+  if (hasLexicalTitleGuard(left, right)) {
+    return false;
+  }
   const similarity = similarityModel.compare(left, right);
   return (
-    (similarity.title >= STORY_STRONG_TITLE_SIMILARITY &&
-      !isLikelyOpinionTitle(left.title) &&
-      !isLikelyOpinionTitle(right.title)) ||
+    similarity.title >= STORY_STRONG_TITLE_SIMILARITY ||
     (similarity.title >= 0.42 && similarity.summary >= 0.12) ||
     (similarity.title >= 0.3 &&
       similarity.summary >= 0.34 &&
@@ -241,13 +275,22 @@ export function isYouTubeStoryPairMatch(
   }
 
   // Cross-channel identical titles are the syndication/re-air case, so no
-  // publisher requirement; channel branding is down-weighted by the IDF model.
+  // publisher requirement. Short labels and editorial/recurring programme
+  // titles do not contain enough event information to prove a re-air.
   const normalizedLeftTitle = normalizeStoryText(left.title);
+  const normalizedRightTitle = normalizeStoryText(right.title);
   if (
     normalizedLeftTitle.length > 0 &&
-    normalizedLeftTitle === normalizeStoryText(right.title)
+    normalizedLeftTitle === normalizedRightTitle
   ) {
-    return true;
+    return (
+      hasMinimumExactTitleInformation(normalizedLeftTitle) &&
+      !hasLexicalTitleGuard(left, right)
+    );
+  }
+
+  if (hasLexicalTitleGuard(left, right)) {
+    return false;
   }
 
   const similarity = similarityModel.compare(
@@ -268,60 +311,200 @@ type WorkingCluster = {
   members: StoryClusterItem[];
 };
 
+type BurstCandidateCluster = WorkingCluster & {
+  anchor: string;
+  anchorMemberIds: ReadonlySet<string>;
+  anchorSupport: number;
+  atoms: (readonly StoryClusterItem[])[];
+  atomCount: number;
+};
+
+function compareTextTotal(left: string, right: string): number {
+  const localizedDifference = left.localeCompare(right, "ko-KR");
+  return localizedDifference || (left < right ? -1 : left > right ? 1 : 0);
+}
+
 function compareChronologically(left: StoryClusterItem, right: StoryClusterItem): number {
   const timeDifference = Date.parse(left.publishedAt) - Date.parse(right.publishedAt);
-  return timeDifference || left.id.localeCompare(right.id);
+  return timeDifference || compareTextTotal(left.id, right.id);
+}
+
+function createBurstCandidateCluster(
+  anchor: string,
+  anchorMemberIds: ReadonlySet<string>,
+  atoms: readonly (readonly StoryClusterItem[])[]
+): BurstCandidateCluster {
+  const members = atoms.flatMap((atom) => [...atom]).sort(compareChronologically);
+  return {
+    anchor,
+    anchorMemberIds,
+    anchorSupport: members.filter((member) => anchorMemberIds.has(member.id)).length,
+    atoms: [...atoms],
+    atomCount: atoms.length,
+    seed: members[0]!,
+    members
+  };
+}
+
+function compareBurstCandidates(
+  left: BurstCandidateCluster,
+  right: BurstCandidateCluster
+): number {
+  const atomDifference = right.atomCount - left.atomCount;
+  const memberDifference = right.members.length - left.members.length;
+  const supportDifference = right.anchorSupport - left.anchorSupport;
+  const seedDifference = compareChronologically(left.seed, right.seed);
+  const anchorDifference = compareTextTotal(left.anchor, right.anchor);
+  const leftMemberKey = left.members.map((member) => member.id).join("\u0000");
+  const rightMemberKey = right.members.map((member) => member.id).join("\u0000");
+  return (
+    atomDifference ||
+    memberDifference ||
+    supportDifference ||
+    seedDifference ||
+    anchorDifference ||
+    compareTextTotal(leftMemberKey, rightMemberKey)
+  );
 }
 
 function buildBurstAnchorClusters(
   newsItems: readonly StoryClusterItem[],
-  factAnchorModel: StoryFactAnchorModel
+  factAnchorModel: StoryFactAnchorModel,
+  exactTitleAtoms: readonly (readonly StoryClusterItem[])[]
 ): { assignedIds: Set<string>; clusters: WorkingCluster[] } {
-  const assignedIds = new Set<string>();
-  const clusters: WorkingCluster[] = [];
   const orderedAnchors = [...factAnchorModel.qualifyingAnchors].sort((left, right) => {
     const sizeDifference =
       (factAnchorModel.membersByAnchor.get(right)?.length ?? 0) -
       (factAnchorModel.membersByAnchor.get(left)?.length ?? 0);
-    return sizeDifference || left.localeCompare(right);
+    return sizeDifference || compareTextTotal(left, right);
   });
   const newsById = new Map(newsItems.map((item) => [item.id, item]));
+  const exactTitleAtomByItemId = new Map(
+    exactTitleAtoms.flatMap((atom) =>
+      atom.map((item) => [item.id, atom] as const)
+    )
+  );
+  const assignedIds = new Set<string>();
+  const clusters: WorkingCluster[] = [];
 
-  for (const anchor of orderedAnchors) {
-    const anchorItems = (factAnchorModel.membersByAnchor.get(anchor) ?? [])
-      .flatMap((item) => {
-        const current = newsById.get(item.id);
-        return current && !assignedIds.has(current.id) ? [current] : [];
-      })
-      .sort(compareChronologically);
-    const anchorClusters: WorkingCluster[] = [];
+  while (true) {
+    const candidates: BurstCandidateCluster[] = [];
 
-    for (const item of anchorItems) {
-      const selectedCluster = anchorClusters.find((cluster) =>
-        cluster.members.every((member) =>
-          isBurstStoryPairMatch(item, member, factAnchorModel)
+    for (const anchor of orderedAnchors) {
+      // Rare-fact clustering works on exact-title atoms rather than individual
+      // articles. Otherwise one member of an identical wire-copy pair can be
+      // claimed by a burst first, leaving its must-link peer behind. Array
+      // identity makes the Set de-duplicate atoms when several members carry
+      // the same fact anchor.
+      const anchorMembers = factAnchorModel.membersByAnchor.get(anchor) ?? [];
+      const anchorMemberIds = new Set(anchorMembers.map((item) => item.id));
+      const anchorAtoms = [
+        ...new Set(
+          anchorMembers.flatMap((item) => {
+            const current = newsById.get(item.id);
+            const atom = current
+              ? exactTitleAtomByItemId.get(current.id)
+              : undefined;
+            return atom &&
+              atom.every((member) => !assignedIds.has(member.id))
+              ? [atom]
+              : [];
+          })
         )
-      );
+      ].sort((left, right) => compareChronologically(left[0]!, right[0]!));
+      const anchorClusters: BurstCandidateCluster[] = [];
 
-      if (selectedCluster) {
-        selectedCluster.members.push(item);
-      } else {
-        anchorClusters.push({ seed: item, members: [item] });
+      for (const atom of anchorAtoms) {
+        const selectedClusterIndex = anchorClusters.findIndex((cluster) =>
+          atom.every((candidate) =>
+            cluster.members.every((member) =>
+              isBurstStoryPairMatch(candidate, member, factAnchorModel)
+            )
+          )
+        );
+
+        if (selectedClusterIndex >= 0) {
+          const selectedCluster = anchorClusters[selectedClusterIndex]!;
+          anchorClusters[selectedClusterIndex] = createBurstCandidateCluster(
+            anchor,
+            anchorMemberIds,
+            [...selectedCluster.atoms, atom]
+          );
+        } else {
+          anchorClusters.push(
+            createBurstCandidateCluster(anchor, anchorMemberIds, [atom])
+          );
+        }
+      }
+
+      for (const cluster of anchorClusters) {
+        // Multiple wire copies with one exact title are only one independent
+        // story signal. Do not let that atom reserve itself as a fact burst.
+        if (cluster.atomCount >= 2) {
+          candidates.push(cluster);
+        }
       }
     }
 
-    for (const cluster of anchorClusters) {
-      if (cluster.members.length < 2) {
-        continue;
-      }
-      clusters.push(cluster);
-      for (const member of cluster.members) {
-        assignedIds.add(member.id);
-      }
+    // Rebuild every anchor partition after each winner. Merely filtering an
+    // old candidate can miss atoms that were previously left in another
+    // complete-link partition but become compatible after the overlap leaves.
+    candidates.sort(compareBurstCandidates);
+    const winner = candidates[0];
+    if (!winner) {
+      break;
+    }
+    clusters.push({ seed: winner.seed, members: winner.members });
+    for (const member of winner.members) {
+      assignedIds.add(member.id);
     }
   }
 
   return { assignedIds, clusters };
+}
+
+function buildExactTitleAtoms(
+  items: readonly StoryClusterItem[],
+  skipIds: ReadonlySet<string>,
+  isPair: (left: StoryClusterItem, right: StoryClusterItem) => boolean
+): StoryClusterItem[][] {
+  const exactTitleAtoms: StoryClusterItem[][] = [];
+  const atomsByNormalizedTitle = new Map<string, StoryClusterItem[][]>();
+
+  // Build safe must-link atoms before fuzzy clustering. Every member still has
+  // to satisfy the type-specific pair predicate with every other member, so
+  // short/editorial/recurring-title guards and the full time window remain in
+  // force. Empty normalized titles are deliberately kept as singletons.
+  for (const item of items) {
+    if (skipIds.has(item.id)) {
+      continue;
+    }
+
+    const normalizedTitle = normalizeStoryText(item.title);
+    if (normalizedTitle.length === 0) {
+      exactTitleAtoms.push([item]);
+      continue;
+    }
+
+    const titleAtoms = atomsByNormalizedTitle.get(normalizedTitle) ?? [];
+    const selectedAtom = titleAtoms.find((atom) =>
+      atom.every((member) => isPair(item, member))
+    );
+    if (selectedAtom) {
+      selectedAtom.push(item);
+    } else {
+      const atom = [item];
+      titleAtoms.push(atom);
+      atomsByNormalizedTitle.set(normalizedTitle, titleAtoms);
+      exactTitleAtoms.push(atom);
+    }
+  }
+
+  exactTitleAtoms.sort((left, right) =>
+    compareChronologically(left[0]!, right[0]!)
+  );
+
+  return exactTitleAtoms;
 }
 
 function buildGreedyCompleteLinkClusters(
@@ -330,31 +513,39 @@ function buildGreedyCompleteLinkClusters(
   isPair: (left: StoryClusterItem, right: StoryClusterItem) => boolean,
   combinedSimilarity: (left: StoryClusterItem, right: StoryClusterItem) => number
 ): WorkingCluster[] {
+  const exactTitleAtoms = buildExactTitleAtoms(items, skipIds, isPair);
   const workingClusters: WorkingCluster[] = [];
 
-  for (const item of items) {
-    if (skipIds.has(item.id)) {
-      continue;
-    }
-
+  for (const atom of exactTitleAtoms) {
     let selectedCluster: WorkingCluster | null = null;
     let selectedScore = -1;
 
     for (const cluster of workingClusters) {
-      if (!cluster.members.every((member) => isPair(item, member))) {
+      if (
+        !atom.every((candidate) =>
+          cluster.members.every((member) => isPair(candidate, member))
+        )
+      ) {
         continue;
       }
 
+      const similarityTotal = atom.reduce(
+        (atomTotal, candidate) =>
+          atomTotal +
+          cluster.members.reduce(
+            (memberTotal, member) =>
+              memberTotal + combinedSimilarity(candidate, member),
+            0
+          ),
+        0
+      );
       const averageSimilarity =
-        cluster.members.reduce(
-          (total, member) => total + combinedSimilarity(item, member),
-          0
-        ) / cluster.members.length;
+        similarityTotal / (atom.length * cluster.members.length);
       if (
         averageSimilarity > selectedScore ||
         (averageSimilarity === selectedScore &&
           selectedCluster !== null &&
-          cluster.seed.id.localeCompare(selectedCluster.seed.id) < 0)
+          compareTextTotal(cluster.seed.id, selectedCluster.seed.id) < 0)
       ) {
         selectedCluster = cluster;
         selectedScore = averageSimilarity;
@@ -362,9 +553,11 @@ function buildGreedyCompleteLinkClusters(
     }
 
     if (selectedCluster) {
-      selectedCluster.members.push(item);
+      selectedCluster.members.push(...atom);
+      selectedCluster.members.sort(compareChronologically);
+      selectedCluster.seed = selectedCluster.members[0]!;
     } else {
-      workingClusters.push({ seed: item, members: [item] });
+      workingClusters.push({ seed: atom[0]!, members: [...atom] });
     }
   }
 
@@ -382,14 +575,21 @@ export function buildStoryClusters(items: readonly StoryClusterItem[]): StoryClu
     .sort(compareChronologically);
   const similarityModel = createStorySimilarityModel(newsItems);
   const factAnchorModel = createStoryFactAnchorModel(newsItems);
+  const isNewsPair = (left: StoryClusterItem, right: StoryClusterItem) =>
+    isStoryPairMatch(left, right, similarityModel);
+  const exactTitleAtoms = buildExactTitleAtoms(
+    newsItems,
+    new Set(),
+    isNewsPair
+  );
   const {
     assignedIds,
     clusters: burstAnchorClusters
-  } = buildBurstAnchorClusters(newsItems, factAnchorModel);
+  } = buildBurstAnchorClusters(newsItems, factAnchorModel, exactTitleAtoms);
   const newsClusters = buildGreedyCompleteLinkClusters(
     newsItems,
     assignedIds,
-    (left, right) => isStoryPairMatch(left, right, similarityModel),
+    isNewsPair,
     (left, right) => similarityModel.compare(left, right).combined
   );
 

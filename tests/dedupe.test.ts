@@ -51,6 +51,63 @@ describe("canonicalizeUrl", () => {
 });
 
 describe("dedupeItems", () => {
+  it("chooses one deterministic representative when identity and timestamps tie", () => {
+    const firstPayload = {
+      ...baseItem,
+      summary: "A 페이로드"
+    };
+    const secondPayload = {
+      ...baseItem,
+      summary: "Z 페이로드"
+    };
+
+    const forward = dedupeItems([firstPayload, secondPayload]);
+    const reverse = dedupeItems([secondPayload, firstPayload]);
+
+    assert.deepEqual(forward, reverse);
+    assert.equal(forward.length, 1);
+    assert.equal(forward[0].summary, "Z 페이로드");
+  });
+
+  it("keeps equal-latest representative metadata identical across collection runs", () => {
+    const earlyPayload = {
+      ...baseItem,
+      summary: "초기 페이로드",
+      discoveryQueries: ["초기 질의"]
+    };
+    const preferredPayload = {
+      ...baseItem,
+      summary: "Z 대표 페이로드",
+      collectedAt: "2026-07-07T06:00:00.000Z",
+      discoveryQueries: ["Z 대표 질의"]
+    };
+    const tiedChallenger = {
+      ...baseItem,
+      summary: "A 도전 페이로드",
+      collectedAt: "2026-07-07T06:00:00.000Z",
+      discoveryQueries: ["A 도전 질의"]
+    };
+
+    const oneShot = dedupeItems([
+      earlyPayload,
+      preferredPayload,
+      tiedChallenger
+    ]);
+    const incremental = dedupeItems([
+      ...dedupeItems([earlyPayload, preferredPayload]),
+      tiedChallenger
+    ]);
+
+    assert.deepEqual(incremental, oneShot);
+    assert.equal(oneShot.length, 1);
+    assert.equal(oneShot[0].summary, "Z 대표 페이로드");
+    assert.deepEqual(oneShot[0].discoveryQueries, [
+      "초기 질의",
+      "A 도전 질의",
+      "Z 대표 질의"
+    ]);
+  });
+
   it("keeps the representative semantic metadata without promoting stale URL variants", () => {
     const items = dedupeItems([
       {
@@ -237,8 +294,8 @@ describe("dedupeItems", () => {
     );
   });
 
-  it("bounds a run of same-titled items to one window instead of chaining", () => {
-    const items = dedupeItems([
+  it("bounds every permutation of a same-title run to one window", () => {
+    const run = [
       {
         ...baseItem,
         id: "item_hour_0",
@@ -263,12 +320,117 @@ describe("dedupeItems", () => {
         url: "https://example.com/run/3",
         originalUrl: "https://example.com/run/3"
       }
-    ]);
+    ];
+    const permutations = <T>(values: T[]): T[][] =>
+      values.length <= 1
+        ? [values]
+        : values.flatMap((value, index) =>
+            permutations(values.filter((_, otherIndex) => otherIndex !== index)).map(
+              (rest) => [value, ...rest]
+            )
+          );
+
+    const results = permutations(run).map((items) => dedupeItems(items));
 
     // Each item sits 20h from its neighbour: without an anchor they would chain
-    // into a single group, so the last one must stay separate from the first.
-    assert.equal(items.length, 2);
-    assert.ok(items.some((item) => item.id === "item_hour_40"));
+    // into a single 40h group. Every input order must instead produce the same
+    // two bounded groups and representatives.
+    for (const items of results) {
+      assert.equal(items.length, 2);
+      assert.deepEqual(
+        items.map((item) => ({ id: item.id, publishedAt: item.publishedAt })),
+        [
+          {
+            id: "item_hour_40",
+            publishedAt: "2026-07-08T21:00:00.000Z"
+          },
+          {
+            id: "item_hour_20",
+            publishedAt: "2026-07-07T05:00:00.000Z"
+          }
+        ]
+      );
+    }
+  });
+
+  it("merges at the 24-hour boundary but not one millisecond beyond it", () => {
+    const atBoundary = dedupeItems([
+      {
+        ...baseItem,
+        id: "item_boundary_start",
+        title: "24시간 경계 보도",
+        publishedAt: "2026-07-07T05:00:00.000Z",
+        url: "https://example.com/boundary/start",
+        originalUrl: "https://example.com/boundary/start"
+      },
+      {
+        ...baseItem,
+        id: "item_boundary_end",
+        title: "24시간 경계 보도",
+        publishedAt: "2026-07-08T05:00:00.000Z",
+        url: "https://example.com/boundary/end",
+        originalUrl: "https://example.com/boundary/end"
+      }
+    ]);
+    const beyondBoundary = dedupeItems([
+      {
+        ...baseItem,
+        id: "item_beyond_start",
+        title: "24시간 초과 보도",
+        publishedAt: "2026-07-07T05:00:00.000Z",
+        url: "https://example.com/beyond/start",
+        originalUrl: "https://example.com/beyond/start"
+      },
+      {
+        ...baseItem,
+        id: "item_beyond_end",
+        title: "24시간 초과 보도",
+        publishedAt: "2026-07-08T05:00:00.001Z",
+        url: "https://example.com/beyond/end",
+        originalUrl: "https://example.com/beyond/end"
+      }
+    ]);
+
+    assert.equal(atBoundary.length, 1);
+    assert.equal(beyondBoundary.length, 2);
+  });
+
+  it("does not merge news and YouTube records by title, publisher, and time", () => {
+    const items = dedupeItems([
+      {
+        ...baseItem,
+        id: "news_cross_type",
+        title: "동일한 방송 리포트",
+        publisher: "테스트방송",
+        url: "https://example.com/news/cross-type",
+        originalUrl: "https://example.com/news/cross-type"
+      },
+      {
+        ...baseItem,
+        id: "youtube_cross_type",
+        type: "youtube",
+        sourceType: "youtube",
+        title: "동일한 방송 리포트",
+        publisher: "테스트방송",
+        url: "https://www.youtube.com/watch?v=cross-type1",
+        originalUrl: "https://www.youtube.com/watch?v=cross-type1",
+        youtube: {
+          videoId: "cross-type1",
+          channelId: "channel-cross-type",
+          thumbnail: {
+            url: "https://i.ytimg.com/vi/cross-type1/hqdefault.jpg",
+            width: 480,
+            height: 360
+          },
+          durationSeconds: 120
+        }
+      }
+    ]);
+
+    assert.deepEqual(
+      items.map((item) => item.id),
+      ["news_cross_type", "youtube_cross_type"]
+    );
   });
 
   it("merges the same story from one publisher when only the timestamp shifts", () => {
@@ -329,6 +491,334 @@ describe("dedupeItems", () => {
     assert.equal(items[0].collectedAt, baseItem.collectedAt);
     assert.deepEqual(items[0].matchedKeywords, ["세 번째 발견"]);
   });
+
+  it("retains the full near-duplicate span across collection runs", () => {
+    const hour0 = {
+      ...baseItem,
+      id: "item_incremental_0",
+      title: "회차 간 중복 범위 보존",
+      publishedAt: "2026-07-07T05:00:00.000Z",
+      url: "https://example.com/incremental/0",
+      originalUrl: "https://example.com/incremental/0"
+    };
+    const hour20 = {
+      ...hour0,
+      id: "item_incremental_20",
+      publishedAt: "2026-07-08T01:00:00.000Z",
+      url: "https://example.com/incremental/20",
+      originalUrl: "https://example.com/incremental/20"
+    };
+    const hour40 = {
+      ...hour0,
+      id: "item_incremental_40",
+      publishedAt: "2026-07-08T21:00:00.000Z",
+      url: "https://example.com/incremental/40",
+      originalUrl: "https://example.com/incremental/40"
+    };
+
+    const firstRun = dedupeItems([hour20, hour40]);
+    assert.equal(firstRun.length, 1);
+    assert.equal(
+      firstRun[0].dedupeState?.latestPublishedAt,
+      new Date(hour40.publishedAt).getTime()
+    );
+
+    const secondRun = dedupeItems([...firstRun, hour0]);
+    assert.equal(secondRun.length, 2);
+    assert.deepEqual(
+      secondRun.map((item) => item.originalUrl).sort(),
+      [hour0.originalUrl, hour40.originalUrl].sort()
+    );
+  });
+
+  it("retains hard URL aliases across collection runs", () => {
+    const firstRun = dedupeItems([
+      {
+        ...baseItem,
+        id: "item_alias_run_a",
+        title: "첫 회차 A",
+        url: "https://example.com/alias/legacy",
+        originalUrl: "https://example.com/alias/a"
+      },
+      {
+        ...baseItem,
+        id: "item_alias_run_b",
+        title: "첫 회차 B",
+        url: "https://example.com/alias/a",
+        originalUrl: "https://example.com/alias/b",
+        collectedAt: "2026-07-07T06:00:00.000Z"
+      }
+    ]);
+    assert.equal(firstRun.length, 1);
+    assert.deepEqual(firstRun[0].dedupeState?.urls, [
+      "https://example.com/alias/a",
+      "https://example.com/alias/b",
+      "https://example.com/alias/legacy"
+    ]);
+
+    const secondRun = dedupeItems([
+      ...firstRun,
+      {
+        ...baseItem,
+        id: "item_alias_run_c",
+        title: "둘째 회차 C",
+        url: "https://example.com/alias/legacy",
+        originalUrl: "https://example.com/alias/c",
+        collectedAt: "2026-07-07T07:00:00.000Z"
+      }
+    ]);
+
+    assert.equal(secondRun.length, 1);
+    assert.equal(secondRun[0].id, "item_alias_run_c");
+    assert.equal(secondRun[0].originalUrl, "https://example.com/alias/c");
+  });
+
+  it("removes redundant persisted evidence from a reconstructible singleton", () => {
+    const nearKey =
+      "news|news|대한축구협회 선거인단 관련 보도|테스트뉴스";
+    const itemWithRedundantState: RadarItem = {
+      ...baseItem,
+      dedupeState: {
+        version: 1,
+        urls: [baseItem.url],
+        stories: [`${nearKey}|${baseItem.publishedAt}`],
+        nearKeys: [nearKey],
+        earliestPublishedAt: new Date(baseItem.publishedAt).getTime(),
+        latestPublishedAt: new Date(baseItem.publishedAt).getTime(),
+        representativeCollectedAt: new Date(baseItem.collectedAt).getTime(),
+        latestCollectedAt: new Date(baseItem.collectedAt).getTime()
+      }
+    };
+
+    assert.deepEqual(dedupeItems([itemWithRedundantState]), [baseItem]);
+  });
+
+  it("does not promote a merge-rewritten story key to hard duplicate evidence", () => {
+    const firstObservation = {
+      ...baseItem,
+      id: "item_authentic_story_a",
+      title: "서로 다른 원래 제목 A",
+      url: "https://example.com/authentic/a",
+      originalUrl: "https://example.com/authentic/shared"
+    };
+    const laterAlias = {
+      ...baseItem,
+      id: "item_authentic_story_b",
+      title: "서로 다른 원래 제목 B",
+      url: "https://example.com/authentic/shared",
+      originalUrl: "https://example.com/authentic/b",
+      publishedAt: "2026-07-11T09:00:00.000Z",
+      collectedAt: "2026-07-11T09:30:00.000Z"
+    };
+    const unrelatedEarlyStory = {
+      ...baseItem,
+      id: "item_unrelated_early_story",
+      title: laterAlias.title,
+      url: "https://example.com/authentic/unrelated",
+      originalUrl: "https://example.com/authentic/unrelated",
+      collectedAt: "2026-07-07T05:40:00.000Z"
+    };
+
+    const oneShot = dedupeItems([
+      firstObservation,
+      laterAlias,
+      unrelatedEarlyStory
+    ]);
+    const incremental = dedupeItems([
+      ...dedupeItems([firstObservation, laterAlias]),
+      unrelatedEarlyStory
+    ]);
+
+    assert.equal(oneShot.length, 2);
+    assert.deepEqual(incremental, oneShot);
+    const mergedAliases = oneShot.find(
+      (item) => item.id === laterAlias.id
+    )?.dedupeState?.stories;
+    assert.equal(mergedAliases?.length, 2);
+    assert.ok(
+      mergedAliases?.every(
+        (story) =>
+          story.endsWith(firstObservation.publishedAt) ||
+          story.endsWith(laterAlias.publishedAt)
+      )
+    );
+  });
+
+  it("persists identical authentic story aliases for every hard-edge insertion order", () => {
+    const hardEdges = [
+      {
+        ...baseItem,
+        id: "item_hard_edge_a",
+        title: "하드 별칭 A",
+        url: "https://example.com/hard-edge/0",
+        originalUrl: "https://example.com/hard-edge/1",
+        publishedAt: "2026-07-07T05:00:00.000Z",
+        collectedAt: "2026-07-07T05:30:00.000Z"
+      },
+      {
+        ...baseItem,
+        id: "item_hard_edge_b",
+        title: "하드 별칭 B",
+        url: "https://example.com/hard-edge/1",
+        originalUrl: "https://example.com/hard-edge/2",
+        publishedAt: "2026-07-09T05:00:00.000Z",
+        collectedAt: "2026-07-09T05:30:00.000Z"
+      },
+      {
+        ...baseItem,
+        id: "item_hard_edge_c",
+        title: "하드 별칭 C",
+        url: "https://example.com/hard-edge/2",
+        originalUrl: "https://example.com/hard-edge/3",
+        publishedAt: "2026-07-11T05:00:00.000Z",
+        collectedAt: "2026-07-11T05:30:00.000Z"
+      },
+      {
+        ...baseItem,
+        id: "item_hard_edge_d",
+        title: "하드 별칭 D",
+        url: "https://example.com/hard-edge/3",
+        originalUrl: "https://example.com/hard-edge/4",
+        publishedAt: "2026-07-13T05:00:00.000Z",
+        collectedAt: "2026-07-13T05:30:00.000Z"
+      }
+    ];
+    const permutations = <T>(values: T[]): T[][] =>
+      values.length <= 1
+        ? [values]
+        : values.flatMap((value, index) =>
+            permutations(values.filter((_, otherIndex) => otherIndex !== index)).map(
+              (rest) => [value, ...rest]
+            )
+          );
+    const expectedStories = hardEdges
+      .map((item) =>
+        [
+          item.type,
+          item.sourceType,
+          item.title.toLocaleLowerCase("ko-KR"),
+          item.publisher.toLocaleLowerCase("ko-KR"),
+          item.publishedAt
+        ].join("|")
+      )
+      .sort((left, right) => left.localeCompare(right, "ko-KR"));
+
+    const outputs = permutations(hardEdges).map((insertionOrder) => {
+      let accumulated: RadarItem[] = [];
+      for (const edge of insertionOrder) {
+        accumulated = dedupeItems([...accumulated, edge]);
+      }
+      assert.equal(accumulated.length, 1);
+      assert.deepEqual(accumulated[0].dedupeState?.stories, expectedStories);
+      return accumulated;
+    });
+
+    assert.equal(
+      new Set(
+        outputs.map((items) => JSON.stringify(items[0].dedupeState?.stories))
+      ).size,
+      1
+    );
+    for (const output of outputs.slice(1)) {
+      assert.deepEqual(output, outputs[0]);
+    }
+  });
+
+  it("totally orders canonically equivalent aliases across incremental runs", () => {
+    const aliases = [
+      {
+        ...baseItem,
+        id: "item_unicode_nfc",
+        title: "가",
+        url: "https://example.com/unicode/shared",
+        originalUrl: "https://example.com/unicode/nfc"
+      },
+      {
+        ...baseItem,
+        id: "item_unicode_nfd",
+        title: "가",
+        url: "https://example.com/unicode/shared",
+        originalUrl: "https://example.com/unicode/nfd"
+      },
+      {
+        ...baseItem,
+        id: "item_unicode_gak",
+        title: "각",
+        url: "https://example.com/unicode/shared",
+        originalUrl: "https://example.com/unicode/gak"
+      }
+    ];
+    const permutations = <T>(values: T[]): T[][] =>
+      values.length <= 1
+        ? [values]
+        : values.flatMap((value, index) =>
+            permutations(values.filter((_, otherIndex) => otherIndex !== index)).map(
+              (rest) => [value, ...rest]
+            )
+          );
+    const outputs = permutations(aliases).map((insertionOrder) => {
+      let accumulated: RadarItem[] = [];
+      for (const alias of insertionOrder) {
+        accumulated = dedupeItems([...accumulated, alias]);
+      }
+      assert.equal(accumulated.length, 1);
+      return accumulated;
+    });
+
+    assert.equal(new Set(outputs.map((items) => JSON.stringify(items))).size, 1);
+  });
+
+  it("ranks official representatives by their own collection time across runs", () => {
+    const oldOfficial = {
+      ...baseItem,
+      id: "item_old_official_rep",
+      type: "official" as const,
+      sourceType: "official" as const,
+      isOfficial: true,
+      title: "오래된 공식 대표",
+      url: "https://example.com/official-rep/a",
+      originalUrl: "https://example.com/official-rep/shared"
+    };
+    const latestNonOfficial = {
+      ...baseItem,
+      id: "item_latest_news_observation",
+      title: "가장 늦게 수집된 비공식 관측",
+      url: "https://example.com/official-rep/shared",
+      originalUrl: "https://example.com/official-rep/b",
+      collectedAt: "2026-07-11T09:30:00.000Z"
+    };
+    const newerOfficial = {
+      ...oldOfficial,
+      id: "item_newer_official_rep",
+      title: "더 새로운 공식 대표",
+      url: "https://example.com/official-rep/b",
+      originalUrl: "https://example.com/official-rep/c",
+      collectedAt: "2026-07-09T07:30:00.000Z"
+    };
+
+    const oneShot = dedupeItems([
+      oldOfficial,
+      latestNonOfficial,
+      newerOfficial
+    ]);
+    const incremental = dedupeItems([
+      ...dedupeItems([oldOfficial, latestNonOfficial]),
+      newerOfficial
+    ]);
+
+    assert.deepEqual(incremental, oneShot);
+    assert.equal(oneShot.length, 1);
+    assert.equal(oneShot[0].id, newerOfficial.id);
+    assert.equal(
+      oneShot[0].dedupeState?.representativeCollectedAt,
+      new Date(newerOfficial.collectedAt).getTime()
+    );
+    assert.equal(
+      oneShot[0].dedupeState?.latestCollectedAt,
+      new Date(latestNonOfficial.collectedAt).getTime()
+    );
+  });
+
 });
 
 describe("sortItemsLatestFirst", () => {
