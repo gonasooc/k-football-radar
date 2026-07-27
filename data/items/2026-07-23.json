@@ -51,8 +51,8 @@
       ],
       "earliestPublishedAt": 1784850240000,
       "latestPublishedAt": 1784850240000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -243,15 +243,15 @@
       ],
       "earliestPublishedAt": 1784848380000,
       "latestPublishedAt": 1784848380000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
     "id": "item_85fa7f870edf33e5",
     "type": "news",
     "title": "\"한국 월드컵 참사, 홍명보만의 책임인가\" 日 대학축구연맹 회장의 통렬...",
-    "summary": "그중에서도 홍 감독은 정몽규 전 대한축구협회 장과 함께 가장 많은 비판을 들어야 했다. 홍 감독은 2024년... 일본은 한국을 어떻게 이길 수 있을지 생각하고 지도자 라이선스 제도 를 만들어 지도자 육성을 시작했다. 그...",
+    "summary": "대한 축구협회 장과 함께 가장 많은 비판을 들어야 했다. 홍 감독은 2024년 7월 부임 당시부터 그 선임 과정이 공정치 않았다는 논란에 휩싸였다. 선임 절차에 있어 홍 감독보다 정 전 회장 혹은 이임생 당시 기술총괄이사...",
     "url": "http://www.footballist.co.kr/news/articleView.html?idxno=212703",
     "originalUrl": "http://www.footballist.co.kr/news/articleView.html?idxno=212703",
     "publisher": "footballist.co.kr",
@@ -259,8 +259,10 @@
     "collectedAt": "2026-07-23T23:39:18.569Z",
     "matchedKeywords": [
       "홍명보",
-      "대한축구협회",
-      "정몽규"
+      "대한 축구협회",
+      "감독",
+      "선임",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -277,14 +279,16 @@
       "축구협회 감독 선임",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "coach-appointment"
+    ],
     "personTags": [
       "person_hong_myung_bo",
-      "person_chung_mong_gyu"
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 21,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -302,8 +306,8 @@
       ],
       "earliestPublishedAt": 1784848140000,
       "latestPublishedAt": 1784848140000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -652,6 +656,44 @@
     ]
   },
   {
+    "id": "item_c57cd2b008c6194f",
+    "type": "news",
+    "title": "축구協 개혁 속도전… 회장 선출 기한 연장",
+    "summary": "현재 축구협회 는 정몽규 전 회장이 이달 초 사임하면서 이용수 부회장 직무대행 체제로 전환했다. 직무대행자가 선거인단 확대, 선거 제도 개편 등을 추진할 수 있는 근거를 마련한 셈이다. 체육회는 부칙을 통해 개정...",
+    "url": "https://www.kmib.co.kr/article/view.asp?arcid=1784792711&code=12120000&cp=nv",
+    "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=1784792711&code=12120000&cp=nv",
+    "publisher": "kmib.co.kr",
+    "publishedAt": "2026-07-23T16:10:00.000Z",
+    "collectedAt": "2026-07-27T05:30:14.338Z",
+    "matchedKeywords": [
+      "선거인단",
+      "선거인",
+      "제도 개편",
+      "부회장",
+      "정몽규"
+    ],
+    "discoveryQueries": [
+      "축구협회 부회장",
+      "축구협회 제도 개편"
+    ],
+    "issueTags": [
+      "electoral-college",
+      "statute-revision",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 17,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급",
+      "선거 키워드 포함"
+    ]
+  },
+  {
     "id": "item_216957ca4271c3c7",
     "type": "news",
     "title": "佛 단독 \"홍명보 후임 1순위 낙점\"...대한민국 차기 사령탑, 튀니지 소방...",
@@ -735,8 +777,8 @@
       ],
       "earliestPublishedAt": 1784818800000,
       "latestPublishedAt": 1784818800000,
-      "representativeCollectedAt": 1785115127959,
-      "latestCollectedAt": 1785115127959
+      "representativeCollectedAt": 1785130216107,
+      "latestCollectedAt": 1785130216107
     }
   },
   {
@@ -785,8 +827,8 @@
       ],
       "earliestPublishedAt": 1784818800000,
       "latestPublishedAt": 1784818800000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -846,8 +888,8 @@
       ],
       "earliestPublishedAt": 1784818680000,
       "latestPublishedAt": 1784818680000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -923,8 +965,8 @@
       ],
       "earliestPublishedAt": 1784815140000,
       "latestPublishedAt": 1784815140000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1037,8 +1079,8 @@
       ],
       "earliestPublishedAt": 1784813820000,
       "latestPublishedAt": 1784813820000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1640,8 +1682,8 @@
       ],
       "earliestPublishedAt": 1784797860000,
       "latestPublishedAt": 1784797860000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1686,8 +1728,8 @@
       ],
       "earliestPublishedAt": 1784797680000,
       "latestPublishedAt": 1784797680000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1982,8 +2024,8 @@
       ],
       "earliestPublishedAt": 1784794680000,
       "latestPublishedAt": 1784794680000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -2088,8 +2130,8 @@
       ],
       "earliestPublishedAt": 1784793960000,
       "latestPublishedAt": 1784793960000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -2339,8 +2381,8 @@
       ],
       "earliestPublishedAt": 1784793060000,
       "latestPublishedAt": 1784793060000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -2414,8 +2456,8 @@
       ],
       "earliestPublishedAt": 1784792940000,
       "latestPublishedAt": 1784792940000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -2527,8 +2569,8 @@
       ],
       "earliestPublishedAt": 1784791800000,
       "latestPublishedAt": 1784791800000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -2687,8 +2729,8 @@
       ],
       "earliestPublishedAt": 1784791440000,
       "latestPublishedAt": 1784791440000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -2796,8 +2838,8 @@
       ],
       "earliestPublishedAt": 1784790300000,
       "latestPublishedAt": 1784790300000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -2895,7 +2937,7 @@
     "id": "item_139afcf2e3003554",
     "type": "news",
     "title": "[단독] 韓축구 투명성 높인다던 'K-혁신위' 회의록 한 건도 안 남겼다",
-    "summary": "남해인 구교운 기자 = 한국 축구 의 불투명한 의사결정 구조를 쇄신하겠다며 출범한 K- 축구 혁신위 원회가 세... 등 축구 인과 유승민 대한체육회 회장, 김승희 대한 축구협회 전무이사, 조연상 프로 축구 연맹 사무총장, 김대희...",
+    "summary": "지난 6일 출범한 K- 축구 혁신위는 최휘영 문화체육관광부 장관이 위원으로 참여하고, 유승민 대한 체육회장과... 축구협회 장 선거제도 개편 등 축구 계 주요 현안뿐 아니라 거버넌스 개선, 유소년 선수 육성 , 첨단기술 시스템 ...",
     "url": "https://www.news1.kr/politics/assembly/6236988",
     "originalUrl": "https://www.news1.kr/politics/assembly/6236988",
     "publisher": "news1.kr",
@@ -2903,9 +2945,8 @@
     "collectedAt": "2026-07-23T08:01:40.396Z",
     "matchedKeywords": [
       "K-혁신위",
-      "대한 축구협회",
-      "축구 혁신",
-      "전무"
+      "제도 개편",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"김승희\" 대한축구협회",
@@ -2936,12 +2977,13 @@
     ],
     "issueTags": [
       "innovation-committee",
-      "kfa-executives"
+      "statute-revision"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -2956,8 +2998,8 @@
       ],
       "earliestPublishedAt": 1784789760000,
       "latestPublishedAt": 1784789760000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -3111,18 +3153,18 @@
     "id": "item_4f6de111c133608b",
     "type": "news",
     "title": "[사커토픽] 대한체육회 산하단체 회장직무대행 업무범주 최대 8개월까지...",
-    "summary": "전 종목이 해당되나, 결국 정몽규 회장의 사임으로 이용수 회장직무대행 체제로 돌입한 대한 축구협회 를... 임시기구인 ‘K- 축구 혁신위 원회( 혁신위 )’가 출범했다. 혁신위 는 꾸준히 선거인단 확대를 거론해왔다....",
+    "summary": "법리적으로는 축구협회 가 기존 정관에 따라 차기 회장 선거를 우선 시행한 뒤 새 집행부 가 선거인단 확대 여부를 확정해 총회를 통해 선거 관련 정관을 개정하고, 이에 따라 회장선거관리 규정을 바꾸는 것이 맞다....",
     "url": "https://sports.donga.com/sports/article/all/20260723/134350614/1",
     "originalUrl": "https://sports.donga.com/sports/article/all/20260723/134350614/1",
     "publisher": "sports.donga.com",
     "publishedAt": "2026-07-23T06:32:00.000Z",
     "collectedAt": "2026-07-26T05:04:03.994Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "축구협회",
+      "회장 선거",
       "선거인단",
       "선거인",
-      "축구 혁신",
-      "정몽규"
+      "정관"
     ],
     "discoveryQueries": [
       "축구혁신위",
@@ -3130,18 +3172,16 @@
       "축구협회 K-혁신위"
     ],
     "issueTags": [
+      "election",
       "electoral-college",
-      "innovation-committee"
+      "statute-revision"
     ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 19,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
       "선거 키워드 포함"
     ],
     "dedupeState": {
@@ -3157,8 +3197,8 @@
       ],
       "earliestPublishedAt": 1784788320000,
       "latestPublishedAt": 1784788320000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -3223,8 +3263,8 @@
       ],
       "earliestPublishedAt": 1784788200000,
       "latestPublishedAt": 1784788200000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -3486,8 +3526,8 @@
       ],
       "earliestPublishedAt": 1784784540000,
       "latestPublishedAt": 1784784540000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -3529,7 +3569,7 @@
     "id": "item_c1384352b539b426",
     "type": "news",
     "title": "임오경 “K-축구 혁신위, 선거 논의 치중…현장 중심 개혁 청사진 내놔...",
-    "summary": "문화체육관광부가 운영 중인 ‘K- 축구 혁신위 원회’가 대한 축구협회 개혁의 출발점으로 주목받고 있는 가운데, 위원회의 구성과 논의 방향이 국민적 기대에 부합하는지 재점검해야 한다는 지적이 국회에서 제기됐다. 특히...",
+    "summary": "구성, 대한 체육회 규정 개정 등 선거 관련 제도 개선을 지속적으로 논의한 반면, 국가대표 감독 선발 시스템 개선과 전력강화위원회 개편, 유소년 육성 체계 등 국민적 관심이 높은 축구 경쟁력 강화 과제는 구체적인 결론을...",
     "url": "https://www.kukinews.com/article/view/kuk202607230122",
     "originalUrl": "https://www.kukinews.com/article/view/kuk202607230122",
     "publisher": "kukinews.com",
@@ -3537,7 +3577,11 @@
     "collectedAt": "2026-07-23T08:01:40.396Z",
     "matchedKeywords": [
       "축구 혁신",
-      "대한 축구협회"
+      "규정 개정",
+      "전력강화위원회",
+      "감독",
+      "전력강화위원",
+      "관심"
     ],
     "discoveryQueries": [
       "대한축구협회 유소년 육성 시스템",
@@ -3558,12 +3602,15 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "statute-revision",
+      "coach-appointment"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 18,
+    "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -3578,8 +3625,8 @@
       ],
       "earliestPublishedAt": 1784784120000,
       "latestPublishedAt": 1784784120000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -3624,8 +3671,8 @@
       ],
       "earliestPublishedAt": 1784783340000,
       "latestPublishedAt": 1784783340000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -3676,7 +3723,7 @@
     "id": "item_1cc31c3878376f1c",
     "type": "news",
     "title": "KFA 회장 선거, 새 얼굴보다 새 제도가 핵심 [취재진담]",
-    "summary": "협회 를 움직이는 주요 인사의 추천·지명·위촉·임면권은 회장에게 집중돼 있다. 회장을 견제해야 할 조직마저 회장의 영향력에서 자유롭기 어려운 구조다. 폐쇄적인 회장 선출 구조부터 손볼 필요가 있다. K- 축구 혁신위 ...",
+    "summary": "축구 팬 여론과 동떨어진 선거 구조가 정몽규 체제를 떠받친 셈이다. 선출된 회장은 협회 인사 전반에 막강한 권한을 행사한다. 부회장 과 이사의 후보 추천권을 갖고 있으며 총회 의결에 따라 선임권까지 위임받을 수...",
     "url": "https://www.kukinews.com/article/view/kuk202607210129",
     "originalUrl": "https://www.kukinews.com/article/view/kuk202607210129",
     "publisher": "kukinews.com",
@@ -3685,7 +3732,8 @@
     "matchedKeywords": [
       "KFA",
       "회장 선거",
-      "축구 혁신"
+      "부회장",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -3730,13 +3778,17 @@
     ],
     "issueTags": [
       "election",
-      "innovation-committee"
+      "kfa-executives"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
-    "labels": [],
+    "relevanceScore": 37,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -3750,8 +3802,8 @@
       ],
       "earliestPublishedAt": 1784782320000,
       "latestPublishedAt": 1784782320000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -3826,8 +3878,8 @@
       ],
       "earliestPublishedAt": 1784781660000,
       "latestPublishedAt": 1784781660000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -3899,8 +3951,8 @@
       ],
       "earliestPublishedAt": 1784781360000,
       "latestPublishedAt": 1784781360000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -4107,8 +4159,8 @@
       ],
       "earliestPublishedAt": 1784776020000,
       "latestPublishedAt": 1784776020000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -4289,8 +4341,8 @@
       ],
       "earliestPublishedAt": 1784774760000,
       "latestPublishedAt": 1784774760000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -4518,8 +4570,8 @@
       ],
       "earliestPublishedAt": 1784773440000,
       "latestPublishedAt": 1784773440000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -4697,8 +4749,8 @@
       ],
       "earliestPublishedAt": 1784772960000,
       "latestPublishedAt": 1784772960000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -4796,8 +4848,8 @@
       ],
       "earliestPublishedAt": 1784772480000,
       "latestPublishedAt": 1784772480000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -4944,8 +4996,8 @@
       ],
       "earliestPublishedAt": 1784771760000,
       "latestPublishedAt": 1784771760000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5070,8 +5122,8 @@
       ],
       "earliestPublishedAt": 1784771160000,
       "latestPublishedAt": 1784771160000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5133,8 +5185,8 @@
       ],
       "earliestPublishedAt": 1784771160000,
       "latestPublishedAt": 1784771160000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5189,8 +5241,8 @@
       ],
       "earliestPublishedAt": 1784769540000,
       "latestPublishedAt": 1784769540000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5249,8 +5301,8 @@
       ],
       "earliestPublishedAt": 1784769480000,
       "latestPublishedAt": 1784769480000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5315,8 +5367,8 @@
       ],
       "earliestPublishedAt": 1784769480000,
       "latestPublishedAt": 1784769480000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5368,8 +5420,8 @@
       ],
       "earliestPublishedAt": 1784769480000,
       "latestPublishedAt": 1784769480000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5431,8 +5483,8 @@
       ],
       "earliestPublishedAt": 1784769360000,
       "latestPublishedAt": 1784769360000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5486,8 +5538,8 @@
       ],
       "earliestPublishedAt": 1784769120000,
       "latestPublishedAt": 1784769120000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5572,8 +5624,8 @@
       ],
       "earliestPublishedAt": 1784768580000,
       "latestPublishedAt": 1784768580000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5657,8 +5709,8 @@
       ],
       "earliestPublishedAt": 1784767440000,
       "latestPublishedAt": 1784767440000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5730,8 +5782,8 @@
       ],
       "earliestPublishedAt": 1784766480000,
       "latestPublishedAt": 1784766480000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -5775,15 +5827,15 @@
       ],
       "earliestPublishedAt": 1784766300000,
       "latestPublishedAt": 1784766300000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
     "id": "item_b3a76c9b0fa4e29e",
     "type": "news",
     "title": "무례한 말은 서강일이 했지만, 움직인 것은 정몽규의 표였다",
-    "summary": "정몽규 전 대한 축구 협회장을 옹호했다. 혁신위 원회를 공격했다. 기존 선거규정을 지켜야 한다고 주장했다. 말한 사람은 달랐다. 그러나 방향은 같았다. 막말은...",
+    "summary": "현행 선거방식이 유지되면 시도 축구협회 장들의 영향력도 유지된다. 선거 제도 개편 에 반대하는 이유가 자신의 선거권과 무관한가. 차기 회장 출마 가능성과도...",
     "url": "http://www.breaknews.com/1223700",
     "originalUrl": "http://www.breaknews.com/1223700",
     "publisher": "breaknews.com",
@@ -5791,7 +5843,8 @@
     "collectedAt": "2026-07-23T01:13:56.760Z",
     "matchedKeywords": [
       "정몽규",
-      "서강일"
+      "서강일",
+      "제도 개편"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -5809,14 +5862,16 @@
       "축구협회 회장 선거",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "statute-revision"
+    ],
     "personTags": [
       "person_chung_mong_gyu",
       "person_seo_kang_il"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -5834,8 +5889,8 @@
       ],
       "earliestPublishedAt": 1784765760000,
       "latestPublishedAt": 1784765760000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   }
 ]

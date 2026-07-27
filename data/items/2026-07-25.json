@@ -180,8 +180,8 @@
       ],
       "earliestPublishedAt": 1785022320000,
       "latestPublishedAt": 1785022320000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -255,7 +255,7 @@
     "id": "item_bd28f42ffb122ac0",
     "type": "news",
     "title": "\"정몽규는 감싸고 박지성은 때리더니\", 청문회엔 \"유기견 200마리 봉사\"...",
-    "summary": "혁신위원회 를 향해서도 비판적인 입장을 보여왔다. 혁신 위원으로 활동 중인 박지성과 이영표 등을 겨냥해 자질을 문제 삼는 발언을 하며 축구 계의 거센 비판을 받기도 했다. 박성완 충남 축구협회 장 역시 불출석 사유서를...",
+    "summary": "정몽규 전 대한 축구협회 장을 공개적으로 옹호하고, 박지성·이영표 등 축구 개혁을 주장하는 인사들을... 박 회장도 혁신위원회를 두고 \"혁신도 중요하지만 정관 에 따른 합법적이고 투명한 절차가 우선돼야 한다\"며 개혁...",
     "url": "http://www.osen.co.kr/article/G1112846178",
     "originalUrl": "http://www.osen.co.kr/article/G1112846178",
     "publisher": "osen.co.kr",
@@ -265,8 +265,9 @@
       "정몽규",
       "박지성",
       "청문회",
-      "혁신위원회",
-      "박성완"
+      "대한 축구협회",
+      "정관",
+      "혁신위원회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -281,16 +282,16 @@
       "축구협회장"
     ],
     "issueTags": [
+      "statute-revision",
       "innovation-committee"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_park_ji_sung",
-      "person_park_sung_wan"
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ],
@@ -307,8 +308,8 @@
       ],
       "earliestPublishedAt": 1785020580000,
       "latestPublishedAt": 1785020580000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -356,8 +357,8 @@
       ],
       "earliestPublishedAt": 1785020400000,
       "latestPublishedAt": 1785020400000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -411,15 +412,15 @@
       ],
       "earliestPublishedAt": 1785017220000,
       "latestPublishedAt": 1785017220000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
     "id": "item_650373657fbb5cba",
     "type": "news",
     "title": "수천 표가 답일까… 축구협회 직선제, 결국 중요한 건 '견제'다",
-    "summary": "대한 축구협회 의 회장 선거 제도도 변화를 앞두고 있다. 유승민 대한체육회장과 박지성 이 공동 위원장을 맡은 K- 축구 혁신위원회는 기존 300명 이내 간선제에서 벗어나 수천 명 규모의 선거인단을 구성하는 사실상 직선제...",
+    "summary": "유럽 축구 연맹(UEFA)도 55개 회원 협회 가 투표권 을 가진다. 이는 방식보다 회장의 권한 분산과 견제 장치를 더 중요하게 보기 때문이다. 독립적인 이사회 운영, 감사기구의 실질적인 권한, 의사결정 과정의 공개와 투명성 확보...",
     "url": "https://www.sportsworldi.com/newsView/20260726500130",
     "originalUrl": "https://www.sportsworldi.com/newsView/20260726500130",
     "publisher": "sportsworldi.com",
@@ -427,13 +428,8 @@
     "collectedAt": "2026-07-25T22:37:39.648Z",
     "matchedKeywords": [
       "축구협회",
-      "대한 축구협회",
-      "회장 선거",
-      "선거인단",
-      "선거인",
-      "혁신위원회",
-      "축구 혁신",
-      "박지성"
+      "투표권",
+      "감사"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -461,19 +457,14 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
-      "electoral-college",
-      "innovation-committee"
+      "electoral-college"
     ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 16,
     "labels": [
-      "인물 언급",
-      "선거 키워드 포함"
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -488,8 +479,8 @@
       ],
       "earliestPublishedAt": 1785016920000,
       "latestPublishedAt": 1785016920000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -667,15 +658,15 @@
       ],
       "earliestPublishedAt": 1785006000000,
       "latestPublishedAt": 1785006000000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
     "id": "item_85ca2d7188fc5c4a",
     "type": "news",
     "title": "\"손흥민은 이제 34살이다\" 대한민국 어쩌나…FIFA 냉정 일침 \"이강인 전...",
-    "summary": "국제축구연맹(FIFA)이 대한민국 축구 국가 대표팀 에 냉정한 일침을 놓았다. FIFA는 23일(한국시간) 공식... 선임 과정에서부터 공정성 논란으로 비판 받았던 홍명보 전 감독 은 사임했고, 정몽규 전 대한축구협회장 역시...",
+    "summary": "홍명보 호는 조별리그 1차전에서 체코를 2-1로 잡으며 순항하는 듯 했으나, 이내 멕시코와... 위원회는 공석이 된 대한축구협회장 선거 개편을 중심으로 지속적인 회의를 진행하며 개편안 준비에 속도를 내고 있다. FIFA...",
     "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95336",
     "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95336",
     "publisher": "fourfourtwo.co.kr",
@@ -684,10 +675,8 @@
     "matchedKeywords": [
       "대한축구협회",
       "축구협회장",
+      "회장 선거",
       "대한축구협회장",
-      "감독",
-      "선임",
-      "정몽규",
       "홍명보"
     ],
     "discoveryQueries": [
@@ -710,16 +699,14 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
-      "coach-appointment"
+      "election"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -737,8 +724,8 @@
       ],
       "earliestPublishedAt": 1785000900000,
       "latestPublishedAt": 1785000900000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -826,7 +813,7 @@
     "id": "item_c97c0567a386d40a",
     "type": "news",
     "title": "'홍명보 후임 1순위라더니…' 한국 부임설 르나르 감독, 세네갈 차기 사...",
-    "summary": "에르베 르나르 감독 이 세네갈 축구 국가 대표팀 차기 사령탑 1순위로 거론되고 있다. 프랑스 '레퀴프'는 25일... 튀니지축구협회는 스웨덴과의 1차전 1-5 대패 직후, 사브리 라무시 감독 을 경질하고 르나르 감독 을 선임 하는...",
+    "summary": "세네갈 축구협회 가 르나르 감독 을 비에이라 감독 과 함께 '1순위 후보 '로 올린 이유다. '레퀴프'는 \"르나르 감독 은 2012년과 2015년 아프리카 네이션스컵에서 두 차례 우승을 이끈 경력이 있어 가장 유력한 후보 로 꼽힌다....",
     "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95334",
     "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=95334",
     "publisher": "fourfourtwo.co.kr",
@@ -872,8 +859,8 @@
       ],
       "earliestPublishedAt": 1784991720000,
       "latestPublishedAt": 1784991720000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1015,7 +1002,7 @@
     "id": "item_9bfe0399424511c5",
     "type": "news",
     "title": "대한축구협회 청문회 참고인 채택 6시간 만에 불참 통보",
-    "summary": "국회 문화체육관광위원회 전체회의에서 대한축구협회 관련 현안 질의를 위한 청문회 참고인으로 추가 채택된 백현식 부산 축구협회장 과 박성완 충남 축구협회장 이 채택 약 6시간 만에 나란히 불출석 사유서를 제출했다. 두...",
+    "summary": "앞서 그는 정몽규 전 대한축구협회 장의 거취와 행적을 두고 \"무엇을 그렇게 잘못했는지 모르겠다\"라며 13년 동안의 공로를 함께 평가해야 한다는 식의 발언으로 큰 논란을 빚은 바 있다. 박성완 충남 축구협회 장 역시 출석...",
     "url": "https://www.ftimes.kr/news/articleView.html?idxno=38683",
     "originalUrl": "https://www.ftimes.kr/news/articleView.html?idxno=38683",
     "publisher": "ftimes.kr",
@@ -1024,8 +1011,7 @@
     "matchedKeywords": [
       "대한축구협회",
       "청문회",
-      "축구협회장",
-      "백현식",
+      "정몽규",
       "박성완"
     ],
     "discoveryQueries": [
@@ -1041,16 +1027,14 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
-      "person_baek_hyun_sik",
+      "person_chung_mong_gyu",
       "person_park_sung_wan"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
+    "relevanceScore": 37,
     "labels": [
       "인물 언급"
     ],
@@ -1067,15 +1051,15 @@
       ],
       "earliestPublishedAt": 1784981400000,
       "latestPublishedAt": 1784981400000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
     "id": "item_c8f3d9493e903141",
     "type": "news",
     "title": "'홍명보호 대실패' 한국 초비상 → \"손흥민도 34살, 세대교체 필요\" FIFA...",
-    "summary": "FIFA는 25일(한국시간) 공식 리포트를 통해 홍명보 호의 월드컵 여정을 돌아봤다. 출발은 나쁘지 않았다.... 결국 정부 부처 중심으로 K- 축구 혁신위원회가 출범해 대한 축구협회 의 차기 회장 선거 제도부터 손을 보기...",
+    "summary": "FIFA는 25일(한국시간) 공식 리포트를 통해 홍명보 호의 월드컵 여정을 돌아봤다. 출발은 나쁘지 않았다.... 결국 정부 부처 중심으로 K- 축구 혁신위원회가 출범해 대한축구협회 의 차기 회장 선거 제도부터 손을 보기...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=830545",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=830545",
     "publisher": "spotvnews.co.kr",
@@ -1083,7 +1067,7 @@
     "collectedAt": "2026-07-25T12:44:38.323Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
+      "대한축구협회",
       "회장 선거",
       "혁신위원회",
       "축구 혁신"
@@ -1129,8 +1113,8 @@
       ],
       "earliestPublishedAt": 1784980680000,
       "latestPublishedAt": 1784980680000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1166,14 +1150,14 @@
     "id": "item_8a4431c3df17aa95",
     "type": "news",
     "title": "\"다른 팀은 우리보다 좋은 환경이었다\"...'韓 국대 최초 혼혈' 카스트로...",
-    "summary": "대한 축구협회 는 2023년부터 카스트로프의 대표팀 합류 가능성을 꾸준히 검토했고, 홍명보 감독 체제에서도 지속적으로 선수 측과 접촉했다. 이후 카스트로프가 2025년 여름 FC뉘른베르크를 떠나 보루시아 묀헨글라트바흐로...",
+    "summary": "대한축구협회 는 2023년부터 카스트로프의 대표팀 합류 가능성을 꾸준히 검토했고, 홍명보 감독 체제에서도 지속적으로 선수 측과 접촉했다. 이후 카스트로프가 2025년 여름 FC뉘른베르크를 떠나 보루시아 묀헨글라트바흐로...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=830543",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=830543",
     "publisher": "spotvnews.co.kr",
     "publishedAt": "2026-07-25T11:00:00.000Z",
     "collectedAt": "2026-07-26T05:04:03.994Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "홍명보"
     ],
     "discoveryQueries": [
@@ -1205,8 +1189,8 @@
       ],
       "earliestPublishedAt": 1784977200000,
       "latestPublishedAt": 1784977200000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1249,8 +1233,8 @@
       ],
       "earliestPublishedAt": 1784973000000,
       "latestPublishedAt": 1784973000000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1293,8 +1277,8 @@
       ],
       "earliestPublishedAt": 1784969700000,
       "latestPublishedAt": 1784969700000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1380,14 +1364,14 @@
     "id": "item_48c49bc6cb1e1a30",
     "type": "news",
     "title": "한국 축구, 9월 우루과이와 홈 평가전 유력…포를란 감독 데뷔전 예고→...",
-    "summary": "한국 축구 는 현재 홍명보 전 대표팀 감독 선임 과정과 2026 FIFA 북주임 월드컵 실패를 둘러싼 논란 속에 국회 문화체육관광위원회 청문회를 앞두고 있다. 정몽규 전 대한 축구협회 회장의 공백을 이용수 부회장이 직무대행...",
+    "summary": "한국 축구 는 현재 홍명보 전 대표팀 감독 선임 과정과 2026 FIFA 북주임 월드컵 실패를 둘러싼 논란 속에 국회 문화체육관광위원회 청문회를 앞두고 있다. 정몽규 전 대한축구협회 회장의 공백을 이용수 부회장이 직무대행...",
     "url": "https://www.xportsnews.com/article/2175956",
     "originalUrl": "https://www.xportsnews.com/article/2175956",
     "publisher": "xportsnews.com",
     "publishedAt": "2026-07-25T08:30:00.000Z",
     "collectedAt": "2026-07-25T09:21:27.339Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "부회장",
       "감독 선임",
       "대표팀 감독",
@@ -1438,8 +1422,8 @@
       ],
       "earliestPublishedAt": 1784968200000,
       "latestPublishedAt": 1784968200000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1611,8 +1595,8 @@
       ],
       "earliestPublishedAt": 1784958480000,
       "latestPublishedAt": 1784958480000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1671,7 +1655,7 @@
     "id": "item_76fa624b29d7ec25",
     "type": "news",
     "title": "KFA 청문회 참고인 채택된 시·도 축구협회 인사들 줄줄이 '불출석' 의사",
-    "summary": "대한 축구협회 (KFA) 청문회 참고인으로 추가 채택된 인사들이 줄줄이 불출석 의사를 밝히는 분위기다. 이들 대부분이 과거 발언 등을 통해 정몽규 전 KFA 회장을 지지해온 반면 K- 축구 혁신위 원회에는 불편한 듯한 시선을...",
+    "summary": "배영수 기자┃국회가 30일로 예정된 대한 축구협회 (KFA) 청문회 참고인으로 추가 채택된 인사들이 줄줄이 불출석 의사를 밝히는 분위기다. 이들 대부분이 과거 발언 등을 통해 정몽규 전 KFA 회장을 지지해온 반면 K...",
     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=319817",
     "originalUrl": "https://www.stnsports.co.kr/news/articleView.html?idxno=319817",
     "publisher": "stnsports.co.kr",
@@ -1682,7 +1666,6 @@
       "축구협회",
       "청문회",
       "대한 축구협회",
-      "축구 혁신",
       "정몽규"
     ],
     "discoveryQueries": [
@@ -1701,15 +1684,13 @@
       "K-축구혁신위원회",
       "KFA"
     ],
-    "issueTags": [
-      "innovation-committee"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급"
     ],
@@ -1726,15 +1707,15 @@
       ],
       "earliestPublishedAt": 1784954220000,
       "latestPublishedAt": 1784954220000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
     "id": "item_6700320fe3cf4484",
     "type": "news",
     "title": "박지성 \"김종국 지금 기준이면 무자격 감독\"",
-    "summary": "25일 tvN 예능 프로그램 '유 퀴즈 온 더 블럭' 공식 SNS에는 \"'차기 축구협회 장 김종국(?)' K 축구 혁신위원장 박지성 '김종국 슛돌이 감독 무자격이었다'\"라는 제목의 예고 영상이 공개됐다. 공개된 영상에는 오는 29일 방송되는...",
+    "summary": "가수 김종국이 과거 어린이 축구 프로그램 '날아라 슛돌이' 감독 이력이 뜻밖의 '무자격 논란'으로... 이날 유재석은 박지성에게 최근 자신이 김종국을 대한 축구협회 장 후보 로 농담 삼아 추천했던 이야기를 꺼냈다....",
     "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=84584",
     "originalUrl": "https://www.mediafine.co.kr/news/articleView.html?idxno=84584",
     "publisher": "mediafine.co.kr",
@@ -1742,7 +1723,7 @@
     "collectedAt": "2026-07-25T04:49:50.738Z",
     "matchedKeywords": [
       "박지성",
-      "축구 혁신"
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1755,15 +1736,13 @@
       "축구협회 감독 후보",
       "축구협회장"
     ],
-    "issueTags": [
-      "innovation-committee"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1781,15 +1760,15 @@
       ],
       "earliestPublishedAt": 1784953800000,
       "latestPublishedAt": 1784953800000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
     "id": "item_b9b3e1ff49aa86d2",
     "type": "news",
     "title": "“정몽규가 뭘 잘못했나” 두둔하더니...청문회 참고인 채택 6시간 만에...",
-    "summary": "두 사람은 대한 축구협회 를 옹호하거나 K- 축구 혁신위원회 의 활동에 비판적인 목소리를 냈던 인물들이다. 참고인 채택 약 6시간 만에 나란히 불출석 사유서를 제출하면서 논란이 이어지고 있다. '동아일보'는 24일 국회...",
+    "summary": "그는 \"혁신의 필요성은 인정하지만 대한 축구협회 정관 에 따른 합법적이고 투명한 절차가 우선돼야 한다\"는 입장을 내놨다. 국회 문체위는 이날 오전 전체회의를 열고 백 회장과 박 회장을 포함한 5명을 여야 합의로 청문회...",
     "url": "http://www.osen.co.kr/article/G1112846078",
     "originalUrl": "http://www.osen.co.kr/article/G1112846078",
     "publisher": "osen.co.kr",
@@ -1799,8 +1778,7 @@
       "정몽규",
       "청문회",
       "대한 축구협회",
-      "혁신위원회",
-      "축구 혁신"
+      "정관"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1814,14 +1792,14 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "statute-revision"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ],
@@ -1838,8 +1816,8 @@
       ],
       "earliestPublishedAt": 1784952060000,
       "latestPublishedAt": 1784952060000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -1970,15 +1948,15 @@
       ],
       "earliestPublishedAt": 1784950200000,
       "latestPublishedAt": 1784950200000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
     "id": "item_faf2fcaa2007b1a8",
     "type": "news",
     "title": "독일 대표 대신 홍명보호 택한 카스트로프, 첫 월드컵 끝내 \"후회\" 남았...",
-    "summary": "독일인 아버지와 한국인 어머니 사이에서 태어난 카스트로프는 독일 연령별 대표팀을 거친 뒤 지난해 대한축구협회 (KFA)로 국적 변경 절차를 마치고 홍명보 호에 합류했다. 한국 최초의 외국 태생 혼혈 국가대표라는...",
+    "summary": "독일인 아버지와 한국인 어머니 사이에서 태어난 카스트로프는 독일 연령별 대표팀을 거친 뒤 지난해 대한축구협회( KFA )로 국적 변경 절차를 마치고 홍명보호에 합류했다. 한국 최초의 외국 태생 혼혈 국가대표라는...",
     "url": "http://www.osen.co.kr/article/G1112846058",
     "originalUrl": "http://www.osen.co.kr/article/G1112846058",
     "publisher": "osen.co.kr",
@@ -2019,22 +1997,23 @@
       ],
       "earliestPublishedAt": 1784949000000,
       "latestPublishedAt": 1784949000000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
     "id": "item_3e426e3e109ba4a1",
     "type": "news",
     "title": "김종국, 11년 만에 불거진 무자격 논란…박지성 일침 \"지금으로 보면\" [...",
-    "summary": "K 축구혁신 위원장 박지성이 김종국의 ‘무자격’을 지적했다. 25일 tvN ‘유퀴즈온더블럭’ 공식 소셜 계정에는 “차기 축구협회장 김종국(?) K 축구혁신 위원장 박지성 ‘김종국 슛돌이 감독 무자격이었다’”는 글과...",
+    "summary": "무 자격 이었다’”는 글과 영상이 게제됐다. 영상에는 오는 29일 방송되는 ‘유퀴즈온더블럭’의 장면이 담겼고, 박지성이 게스트로 출연했다. 유재석은 먼저 “프로그램에서 농담 삼아 김종국에게 대한축구협회 ...",
     "url": "http://www.osen.co.kr/article/G1112846089",
     "originalUrl": "http://www.osen.co.kr/article/G1112846089",
     "publisher": "osen.co.kr",
     "publishedAt": "2026-07-25T02:29:00.000Z",
     "collectedAt": "2026-07-25T04:49:50.738Z",
     "matchedKeywords": [
-      "박지성"
+      "박지성",
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2051,7 +2030,8 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
     ],
@@ -2068,15 +2048,15 @@
       ],
       "earliestPublishedAt": 1784946540000,
       "latestPublishedAt": 1784946540000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
     "id": "item_9ee8b01217abd713",
     "type": "news",
     "title": "〈한국축구 독자청문회>①정몽규는 떠났는데, 그의 156표는 남았다!",
-    "summary": "박철성 기자 〈리서치센터 국장·칼럼니스트〉 〈한국 축구 독자청문회〉 ①... 이영표의 혁신위 자격을 문제 삼았다. 현행 정관에 따른 신속한 보궐선거도 주장했다....",
+    "summary": "If the current system remains in place, they are also actors in the electoral structure that will choose the next KFA president. The witness stand and the ballot box overlap in the same people. In Part 5 of 〈Korean...",
     "url": "http://www.breaknews.com/1224361",
     "originalUrl": "http://www.breaknews.com/1224361",
     "publisher": "breaknews.com",
@@ -2084,8 +2064,7 @@
     "collectedAt": "2026-07-25T04:49:50.738Z",
     "matchedKeywords": [
       "정몽규",
-      "청문회",
-      "정관"
+      "청문회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2109,15 +2088,13 @@
       "축구협회장",
       "KFA"
     ],
-    "issueTags": [
-      "statute-revision"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 13,
     "labels": [
       "인물 언급"
     ],
@@ -2134,8 +2111,8 @@
       ],
       "earliestPublishedAt": 1784946360000,
       "latestPublishedAt": 1784946360000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -2247,8 +2224,8 @@
       ],
       "earliestPublishedAt": 1784945100000,
       "latestPublishedAt": 1784945100000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -2424,8 +2401,8 @@
       ],
       "earliestPublishedAt": 1784940780000,
       "latestPublishedAt": 1784940780000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -2462,8 +2439,8 @@
       ],
       "earliestPublishedAt": 1784940420000,
       "latestPublishedAt": 1784940420000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
@@ -2529,14 +2506,14 @@
     "id": "item_687f7878f2bb31ab",
     "type": "news",
     "title": "韓 차기 감독 후보 이탈하나...\"8월 안에 발표 예정\", 벤투 감독 에콰도...",
-    "summary": "파울루 벤투 감독 이 에콰도르 감독 후보 로 평가받을 예정이다. 에콰도르의 아피시온센트랄은 24일(한국시각)... 대한 축구협회 (KFA)는 신임 감독 선임을 위한 창구도 열지 않았고, 어떤 방식으로, 어떤 프로세스로 진행할...",
+    "summary": "대한축구협회( KFA )는 신임 감독 선임을 위한 창구도 열지 않았고, 어떤 방식으로, 어떤 프로세스로 진행할 지도 확정하지 않았기에, 감독 선임은 당장 결정될 수 있는 일은 아니다. 여러 감독들이 후보로 떠올랐다....",
     "url": "https://www.sportschosun.com/football/2026-07-25/202607250100153180009812",
     "originalUrl": "https://www.sportschosun.com/football/2026-07-25/202607250100153180009812",
     "publisher": "sportschosun.com",
     "publishedAt": "2026-07-25T00:16:00.000Z",
     "collectedAt": "2026-07-26T05:04:03.994Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "KFA",
       "감독 선임",
       "감독",
@@ -2570,15 +2547,15 @@
       ],
       "earliestPublishedAt": 1784938560000,
       "latestPublishedAt": 1784938560000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   },
   {
     "id": "item_4e48c8ba2bb80411",
     "type": "news",
     "title": "'정몽규 회장 옹호-박지성 비난' 축구협회 인사들, 청문회 불출석 선언...",
-    "summary": "국회 대한 축구협회 청문회 참고인으로 추가 채택된 백현식 부산 축구협회 장과 박성완 충남 축구협회 장이 채택... 백 회장은 앞서 언론 인터뷰에서 \" 정몽규 회장이 무엇을 그렇게 잘못했느냐. 13년 동안 축구 발전을 위해...",
+    "summary": "국회 대한 축구협회 청문회 참고인으로 추가 채택된 백현식 부산 축구협회 장과 박성완 충남 축구협회 장이 채택... 그는 K- 축구 혁신위원회를 두고 \"혁신도 중요하지만 정관 에 따른 합법적이고 투명한 절차가 우선돼야 한다\"고...",
     "url": "http://www.osen.co.kr/article/G1112845987",
     "originalUrl": "http://www.osen.co.kr/article/G1112845987",
     "publisher": "osen.co.kr",
@@ -2590,6 +2567,9 @@
       "박지성",
       "청문회",
       "대한 축구협회",
+      "정관",
+      "혁신위원회",
+      "축구 혁신",
       "백현식",
       "박성완"
     ],
@@ -2606,7 +2586,10 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "statute-revision",
+      "innovation-committee"
+    ],
     "personTags": [
       "person_chung_mong_gyu",
       "person_park_ji_sung",
@@ -2615,7 +2598,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 55,
     "labels": [
       "인물 언급"
     ],
@@ -2632,8 +2615,8 @@
       ],
       "earliestPublishedAt": 1784937600000,
       "latestPublishedAt": 1784937600000,
-      "representativeCollectedAt": 1785115126517,
-      "latestCollectedAt": 1785115126517
+      "representativeCollectedAt": 1785130214338,
+      "latestCollectedAt": 1785130214338
     }
   }
 ]
