@@ -507,7 +507,23 @@
     "relevanceScore": 28,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ggilbo.com/news/articleView.html?idxno=1167658"
+      ],
+      "stories": [
+        "news|news|'k-축구 혁신위원회' 출범… 박지성·최휘영 공동위원장, 박주호·이영표...|ggilbo.com|2026-07-08T16:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'k-축구 혁신위원회' 출범… 박지성·최휘영 공동위원장, 박주호·이영표...|ggilbo.com"
+      ],
+      "earliestPublishedAt": 1783527360000,
+      "latestPublishedAt": 1783527360000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   },
   {
     "id": "item_efd3bcb21fe0f4bc",
@@ -857,21 +873,47 @@
     "id": "item_0148e8662b8743e6",
     "type": "news",
     "title": "\"책임도 안 지고 눈치도 안 본다\"…국회서 쏟아진 축구협회 작심 비판",
-    "summary": "시도 축구협회 등 현장의 다양한 의견이 정책 결정 과정에 반영될 수 있는 시스템 을 구축해야 한다는 의견이... 축구 를 총괄하는 비영리 스포츠 단체다. 국가대표팀 운영을 비롯해 프로·아마추어 축구 지원, 유소년 육성 ...",
+    "summary": "감독 선임뿐 아니라 각종 위원회 운영과 주요 정책 결정 과정에서도 보다 객관적이고 투명한 시스템이 필요하다는 지적이 나왔다. 문체부 감사 이후에도 이어지는 개혁 요구 대한축구협회 는 지난해 문화체육관광부의...",
     "url": "https://www.wikitree.co.kr/articles/1145467",
     "originalUrl": "https://www.wikitree.co.kr/articles/1145467",
     "publisher": "wikitree.co.kr",
     "publishedAt": "2026-07-08T12:38:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
     "matchedKeywords": [
-      "축구협회"
+      "축구협회",
+      "대한축구협회",
+      "문체부 감사",
+      "감사"
     ],
-    "issueTags": [],
+    "discoveryQueries": [
+      "대한축구협회 유소년 정책"
+    ],
+    "issueTags": [
+      "mcst-audit"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
-    "labels": []
+    "relevanceScore": 22,
+    "labels": [
+      "감사 키워드 포함"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1145467"
+      ],
+      "stories": [
+        "news|news|\"책임도 안 지고 눈치도 안 본다\"…국회서 쏟아진 축구협회 작심 비판|wikitree.co.kr|2026-07-08T12:38:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"책임도 안 지고 눈치도 안 본다\"…국회서 쏟아진 축구협회 작심 비판|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1783514280000,
+      "latestPublishedAt": 1783514280000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   },
   {
     "id": "item_55aa9e4de20a2518",
@@ -1210,22 +1252,43 @@
     ]
   },
   {
-    "id": "item_a80341a120da0cdd",
+    "id": "item_72f30c2b4437db97",
     "type": "news",
     "title": "김재원 \"축구협회 전면 재설계해야\"…한국축구 개혁 토론회 개최",
-    "summary": "프로 축구 선수는 \"선수와 구단이 수도권에 집중된 국내 축구 시장의 구조적 한계가 있다\"며 \"행정 시스템 ... 선수 육성 과 협회 운영체계, 구단 경영 전반에 대한 제도 개선 필요성을 강조했다. 질의응답에서는 유소년 축구 ...",
-    "url": "https://www.nocutnews.co.kr/news/6545341?utm_source=naver&utm_medium=article&utm_campaign=20260708084814",
-    "originalUrl": "https://www.nocutnews.co.kr/news/6545341?utm_source=naver&utm_medium=article&utm_campaign=20260708084814",
+    "summary": "육성과 협회 운영체계, 구단 경영 전반에 대한 제도 개선 필요성을 강조했다. 질의응답에서는 유소년 축구 ... 그러면서 축구협회 의 명확한 정책 방향과 함께 정부와 국회의 제도적 지원이 필요하다고 주장했다. 이선영...",
+    "url": "https://www.nocutnews.co.kr/news/6545341",
+    "originalUrl": "https://www.nocutnews.co.kr/news/6545341",
     "publisher": "nocutnews.co.kr",
     "publishedAt": "2026-07-08T10:22:00.000Z",
     "collectedAt": "2026-07-13T01:14:32.075Z",
-    "matchedKeywords": [],
+    "matchedKeywords": [
+      "축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회 유소년 정책"
+    ],
     "issueTags": [],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 0,
-    "labels": []
+    "relevanceScore": 3,
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.nocutnews.co.kr/news/6545341"
+      ],
+      "stories": [
+        "news|news|김재원 \"축구협회 전면 재설계해야\"…한국축구 개혁 토론회 개최|nocutnews.co.kr|2026-07-08T10:22:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|김재원 \"축구협회 전면 재설계해야\"…한국축구 개혁 토론회 개최|nocutnews.co.kr"
+      ],
+      "earliestPublishedAt": 1783506120000,
+      "latestPublishedAt": 1783506120000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   },
   {
     "id": "item_22263fa7577f4c43",
@@ -1835,7 +1898,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 24,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.hansbiz.co.kr/news/articleView.html?idxno=849064"
+      ],
+      "stories": [
+        "news|news|\"책임도 눈치도 없다\"… 국회서 나온 축구협회 개혁론|hansbiz.co.kr|2026-07-08T07:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"책임도 눈치도 없다\"… 국회서 나온 축구협회 개혁론|hansbiz.co.kr"
+      ],
+      "earliestPublishedAt": 1783494960000,
+      "latestPublishedAt": 1783494960000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   },
   {
     "id": "item_da0f0aef2ee0cd61",
@@ -1931,7 +2010,7 @@
     "id": "item_4f713c4ff3447a76",
     "type": "news",
     "title": "박지성·이영표 불출마 선언... 안갯속 빠진 차기 축구협회장 구도",
-    "summary": "박지성·이영표가 불출마하면서 김병지· 이용수 ·박문성·정기선 등이 차기 후보로 거론된다.지난 6일 13년... 축구협회장 선거 불출마를 선언했다. 박지성과 이영표가 빠지면서 후보군은 자연스럽게 좁아졌다. 팬들의...",
+    "summary": "박지성·이영표가 불출마하면서 김병지 ·이용수·박문성·정기선 등이 차기 후보로 거론된다.지난 6일 13년... 정몽규 회장 재임 기간 동안 감독 선임 과정의 공정성 논란으로 문체부 감사 와 행정소송이 있었다. 승부조작...",
     "url": "https://www.insight.co.kr/news/562112",
     "originalUrl": "https://www.insight.co.kr/news/562112",
     "publisher": "insight.co.kr",
@@ -1939,7 +2018,12 @@
     "collectedAt": "2026-07-08T09:10:47.825Z",
     "matchedKeywords": [
       "박지성",
-      "회장 선거",
+      "문체부 감사",
+      "감사",
+      "감독 선임",
+      "감독",
+      "선임",
+      "정몽규",
       "김병지"
     ],
     "discoveryQueries": [
@@ -1949,18 +2033,37 @@
       "축구협회 정관"
     ],
     "issueTags": [
-      "election"
+      "mcst-audit",
+      "coach-appointment"
     ],
     "personTags": [
       "person_park_ji_sung",
+      "person_chung_mong_gyu",
       "person_kim_byung_ji"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 27,
     "labels": [
-      "인물 언급"
-    ]
+      "인물 언급",
+      "감사 키워드 포함"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.insight.co.kr/news/562112"
+      ],
+      "stories": [
+        "news|news|박지성·이영표 불출마 선언... 안갯속 빠진 차기 축구협회장 구도|insight.co.kr|2026-07-08T07:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박지성·이영표 불출마 선언... 안갯속 빠진 차기 축구협회장 구도|insight.co.kr"
+      ],
+      "earliestPublishedAt": 1783494000000,
+      "latestPublishedAt": 1783494000000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   },
   {
     "id": "item_842ea231b015de5a",
@@ -2566,12 +2669,12 @@
     ]
   },
   {
-    "id": "item_df148e145b72dcb5",
+    "id": "item_73e3c3a950b288f9",
     "type": "news",
     "title": "박문성 \"벤투 복귀설 기사, 왜 K-축구혁신위원회 출범식날 나왔나?\"",
-    "summary": "사실 그러면 협회장을 뽑을 때 지금 200명 안 되는 선거 인단이 간선으로 뽑는데 이걸 좀 기존 회장, 그러니까... 이임생 축협 기술이사가. ◆ 박문성> 전. ◇ 박성태> 전 이사, 전이죠. 이미 물러났으니까요. 홍명보 감독...",
-    "url": "https://www.nocutnews.co.kr/news/6544751?utm_source=naver&utm_medium=article&utm_campaign=20260708100308",
-    "originalUrl": "https://www.nocutnews.co.kr/news/6544751?utm_source=naver&utm_medium=article&utm_campaign=20260708100308",
+    "summary": "◇ 박성태> 이렇게 하시다가 이제 또 대한축구협회 얘기를 해주시기 위해서 뉴스쇼 스튜디오에 오셨습니다.... ◇ 박성태> 그러면 그게 이제 고등학교 유소년 축구 부터 시작해서 그런 부분들을 계속 감독들에게도 이런...",
+    "url": "https://www.nocutnews.co.kr/news/6544751",
+    "originalUrl": "https://www.nocutnews.co.kr/news/6544751",
     "publisher": "nocutnews.co.kr",
     "publishedAt": "2026-07-08T01:04:00.000Z",
     "collectedAt": "2026-07-08T03:38:24.529Z",
@@ -2579,8 +2682,7 @@
       "K-축구혁신위원회",
       "축구혁신위",
       "혁신위원회",
-      "홍명보",
-      "이임생"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"박지성\" 해명",
@@ -2593,16 +2695,27 @@
     "issueTags": [
       "innovation-committee"
     ],
-    "personTags": [
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 36,
-    "labels": [
-      "인물 언급"
-    ]
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.nocutnews.co.kr/news/6544751"
+      ],
+      "stories": [
+        "news|news|박문성 \"벤투 복귀설 기사, 왜 k-축구혁신위원회 출범식날 나왔나?\"|nocutnews.co.kr|2026-07-08T01:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박문성 \"벤투 복귀설 기사, 왜 k-축구혁신위원회 출범식날 나왔나?\"|nocutnews.co.kr"
+      ],
+      "earliestPublishedAt": 1783472640000,
+      "latestPublishedAt": 1783472640000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   },
   {
     "id": "item_fcb97347dc333e72",

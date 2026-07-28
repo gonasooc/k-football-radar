@@ -222,13 +222,29 @@
     "relevanceScore": 21,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.hansbiz.co.kr/news/articleView.html?idxno=847611"
+      ],
+      "stories": [
+        "news|news|韓 축구 위기, 인물보다 구조… '최초 원정 16강' 허정무의 쓴소리|hansbiz.co.kr|2026-07-01T05:36:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|韓 축구 위기, 인물보다 구조… '최초 원정 16강' 허정무의 쓴소리|hansbiz.co.kr"
+      ],
+      "earliestPublishedAt": 1782884160000,
+      "latestPublishedAt": 1782884160000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   },
   {
     "id": "item_526fc6147b10a32a",
     "type": "news",
     "title": "\"정몽규 다음은 박지성·이영표?\"⋯축협회장 직선제 가능성에 팬들 '들...",
-    "summary": "' 축구 대통령' 대한축구협회 (KFA) 회장 선거가 직선제로 바뀔 가능성이 제기되면서 팬들 사이에서는 박지성... 역임하며 축구 행정과 구단 경영 경험을 쌓았다. 실제로 제55대 KFA 회장 선거에 출마했던 허정무 전 축구 대표팀...",
+    "summary": "실제로 제55대 KFA 회장 선거 에 출마했던 허정무 전 축구대표팀 감독은 당시 \"박지성과 이영표 같은 인재들이 KFA에 없었던 것이 아니라 제대로 활용되지 못했다\"며 \"회장이 된다면 두 사람에게 들러리가 아닌 실질적인...",
     "url": "http://www.inews24.com/view/1981426",
     "originalUrl": "http://www.inews24.com/view/1981426",
     "publisher": "inews24.com",
@@ -238,7 +254,6 @@
       "축협",
       "정몽규",
       "박지성",
-      "대한축구협회",
       "KFA",
       "회장 선거",
       "허정무"
@@ -261,6 +276,22 @@
     "relevanceScore": 42,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.inews24.com/view/1981426"
+      ],
+      "stories": [
+        "news|news|\"정몽규 다음은 박지성·이영표?\"⋯축협회장 직선제 가능성에 팬들 '들...|inews24.com|2026-07-01T05:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"정몽규 다음은 박지성·이영표?\"⋯축협회장 직선제 가능성에 팬들 '들...|inews24.com"
+      ],
+      "earliestPublishedAt": 1782883080000,
+      "latestPublishedAt": 1782883080000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   }
 ]

@@ -1,11 +1,11 @@
 [
   {
-    "id": "item_9216aa1b85cc4f5a",
+    "id": "item_39ba853d06d8e91d",
     "type": "news",
     "title": "'월드컵 후 사퇴' 정몽규... 축협 30년 현대가 시대 끝나나",
     "summary": "경쟁자인 허정무 와 신문선을 제치고 4회 연속 연임에 성공했다. 당시 유효투표(182표)의 85.7%에 이르는... 문화체육관광부는 2024년 축구협회에 대한 대대적인 감사 를 벌여 정 회장 등 축구협회 주요 인사들에게 자격정지...",
-    "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003238813&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-    "originalUrl": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003238813&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+    "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003238813",
+    "originalUrl": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003238813",
     "publisher": "ohmynews.com",
     "publishedAt": "2026-05-30T06:06:00.000Z",
     "collectedAt": "2026-07-08T06:35:30.206Z",
@@ -31,7 +31,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003238813"
+      ],
+      "stories": [
+        "news|news|'월드컵 후 사퇴' 정몽규... 축협 30년 현대가 시대 끝나나|ohmynews.com|2026-05-30T06:06:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'월드컵 후 사퇴' 정몽규... 축협 30년 현대가 시대 끝나나|ohmynews.com"
+      ],
+      "earliestPublishedAt": 1780121160000,
+      "latestPublishedAt": 1780121160000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   },
   {
     "id": "item_39b899fbf7af36c7",
@@ -65,6 +81,22 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112811224"
+      ],
+      "stories": [
+        "news|news|“이런 사람이 한국 축구 이끌었다니…” '선거 패했던' 신문선, 정몽규...|osen.co.kr|2026-05-30T01:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“이런 사람이 한국 축구 이끌었다니…” '선거 패했던' 신문선, 정몽규...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1780104720000,
+      "latestPublishedAt": 1780104720000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   }
 ]

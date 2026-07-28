@@ -88,7 +88,23 @@
     "relevanceScore": 31,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.stoo.com/article.php?aid=107512073864"
+      ],
+      "stories": [
+        "news|news|정몽규 회장에 이어 홍명보 감독까지 사퇴한 현재…韓 축구를 개혁할 새...|stoo.com|2026-07-02T09:50:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정몽규 회장에 이어 홍명보 감독까지 사퇴한 현재…韓 축구를 개혁할 새...|stoo.com"
+      ],
+      "earliestPublishedAt": 1782985800000,
+      "latestPublishedAt": 1782985800000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   },
   {
     "id": "item_6b0b1905220e12aa",
@@ -269,7 +285,23 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.asiatoday.co.kr/kn/view.php?key=20260702010000956"
+      ],
+      "stories": [
+        "news|news|김병지, 세금 논란 해명글 올렸다 삭제…축구팬들 \"쟁점 벗어났다\" 비판|asiatoday.co.kr|2026-07-02T06:34:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|김병지, 세금 논란 해명글 올렸다 삭제…축구팬들 \"쟁점 벗어났다\" 비판|asiatoday.co.kr"
+      ],
+      "earliestPublishedAt": 1782974040000,
+      "latestPublishedAt": 1782974040000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   },
   {
     "id": "item_ec27ab3d157a3095",
@@ -314,7 +346,7 @@
     "id": "item_4d70378028d8cf4f",
     "type": "news",
     "title": "〈한국축구 특검 5〉 정몽규 이후 축구협회장, 그들만의 리그는 끝났는...",
-    "summary": "정 회장은 2025년 제55대 대한 축구협회 장 선거에서 유효투표 182표 가운데 156표를 얻어 4선에 성공했다. 허정무 전 감독은 15표, 신문선 명지대 교수는 11표를 얻었다. 팬...",
+    "summary": "정 회장은 2025년 제55대 대한축구협회 장 선거에서 유효투표 182표 가운데 156표를 얻어 4선에 성공했다. 허정무 전 감독은 15표, 신문선 명지대 교수는 11표를 얻었다. 팬...",
     "url": "http://www.breaknews.com/1218659",
     "originalUrl": "http://www.breaknews.com/1218659",
     "publisher": "breaknews.com",
@@ -323,7 +355,7 @@
     "matchedKeywords": [
       "축구협회장",
       "정몽규",
-      "대한 축구협회",
+      "대한축구협회",
       "허정무"
     ],
     "discoveryQueries": [
@@ -345,7 +377,23 @@
     "relevanceScore": 37,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.breaknews.com/1218659"
+      ],
+      "stories": [
+        "news|news|〈한국축구 특검 5〉 정몽규 이후 축구협회장, 그들만의 리그는 끝났는...|breaknews.com|2026-07-02T05:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|〈한국축구 특검 5〉 정몽규 이후 축구협회장, 그들만의 리그는 끝났는...|breaknews.com"
+      ],
+      "earliestPublishedAt": 1782969360000,
+      "latestPublishedAt": 1782969360000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   },
   {
     "id": "item_e3f67b7eeadd68b4",
@@ -382,6 +430,22 @@
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.queen.co.kr/news/articleView.html?idxno=459607"
+      ],
+      "stories": [
+        "news|news|'10만명을 180명 선거인단이 대리' ... 축구협회장 선거제도 완전히 바꿔...|queen.co.kr|2026-07-02T02:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'10만명을 180명 선거인단이 대리' ... 축구협회장 선거제도 완전히 바꿔...|queen.co.kr"
+      ],
+      "earliestPublishedAt": 1782960360000,
+      "latestPublishedAt": 1782960360000,
+      "representativeCollectedAt": 1785236518495,
+      "latestCollectedAt": 1785236518495
+    }
   }
 ]
