@@ -74,6 +74,22 @@
     "relevanceScore": 14,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://topclass.chosun.com/news/articleView.html?idxno=36442"
+      ],
+      "stories": [
+        "news|news|홍명보의 축구인생과 한국축구 / 감독의 책임인가, 협회의 패착인가|topclass.chosun.com|2026-06-26T05:28:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보의 축구인생과 한국축구 / 감독의 책임인가, 협회의 패착인가|topclass.chosun.com"
+      ],
+      "earliestPublishedAt": 1782451680000,
+      "latestPublishedAt": 1782451680000,
+      "representativeCollectedAt": 1785244741831,
+      "latestCollectedAt": 1785244741831
+    }
   }
 ]
