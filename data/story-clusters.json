@@ -2357,15 +2357,7 @@
       "seedItemId": "item_4eeaa27c00a9886d",
       "memberIds": [
         "item_4eeaa27c00a9886d",
-        "item_6c546d11946c4087",
-        "item_562864a863840047",
-        "item_4cb87f5eb3bfbaaf",
-        "item_32dd22730ba8b00f",
-        "item_17989b125316f3ae",
-        "item_cfa4a7e63224958d",
-        "item_fe072c99dc06d910",
         "item_fb81f94428b08cb1",
-        "item_f290edde3ea3d15c",
         "item_be0f624a9fb105a2"
       ]
     },
@@ -2374,10 +2366,9 @@
       "seedItemId": "item_510f02dda004d499",
       "memberIds": [
         "item_510f02dda004d499",
+        "item_6c546d11946c4087",
         "item_70771c6d2cc3acf0",
         "item_d5a7e0284e58367e",
-        "item_4bdb808a0a7dd35c",
-        "item_0e2cdec6e4c07fb3",
         "item_46fdd1066689da0d"
       ]
     },
@@ -2386,7 +2377,16 @@
       "seedItemId": "item_4d0b3d18ad6aab6c",
       "memberIds": [
         "item_4d0b3d18ad6aab6c",
-        "item_a66a0430feba48c8"
+        "item_562864a863840047",
+        "item_4bdb808a0a7dd35c",
+        "item_4cb87f5eb3bfbaaf",
+        "item_0e2cdec6e4c07fb3",
+        "item_32dd22730ba8b00f",
+        "item_17989b125316f3ae",
+        "item_cfa4a7e63224958d",
+        "item_fe072c99dc06d910",
+        "item_a66a0430feba48c8",
+        "item_f290edde3ea3d15c"
       ]
     },
     {
@@ -2559,7 +2559,7 @@
       "seedItemId": "item_b1ed2760a73c6eb9",
       "memberIds": [
         "item_b1ed2760a73c6eb9",
-        "item_d27b9911c0a76269"
+        "item_1ee8f38ac2dd19be"
       ]
     },
     {
@@ -2655,16 +2655,26 @@
         "item_5060a7b1d69bb984",
         "item_ece5cf2fa84935d0",
         "item_c092ed9542bddda3",
-        "item_16bd6f8c32f991a9"
+        "item_16bd6f8c32f991a9",
+        "item_18f6c6f5507efb26"
       ]
     },
     {
-      "id": "story_94922d45fbe2168cc681",
-      "seedItemId": "item_d31670a07b97f19f",
+      "id": "story_5f4d6c7afd821a119e79",
+      "seedItemId": "item_033c2fb3b79d55a7",
       "memberIds": [
+        "item_033c2fb3b79d55a7",
         "item_d31670a07b97f19f",
         "item_8a96685d53b20107",
         "item_733f4429219897cb"
+      ]
+    },
+    {
+      "id": "story_785ef57b1badf202c4df",
+      "seedItemId": "item_df1881003a77fe99",
+      "memberIds": [
+        "item_df1881003a77fe99",
+        "item_edbe6256208fe334"
       ]
     }
   ]
