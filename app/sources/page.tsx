@@ -4,8 +4,8 @@ import { ExternalLink } from "lucide-react";
 import { SectionHeader } from "@/components/SectionHeader";
 import { PublisherStatsPanel, SourceLinksList } from "@/components/SourcesArchiveClient";
 import { getDataBundle } from "@/lib/data";
-import { defaultFeedFilters, toFeedItems } from "@/lib/filter";
-import { getFeedContentRevision } from "@/lib/feed-snapshot";
+import { getFeedContext } from "@/lib/feed-context";
+import { defaultFeedFilters } from "@/lib/filter";
 import { pageAlternates } from "@/lib/site";
 import { getSourceLinkPage } from "@/lib/source-link-page";
 
@@ -19,6 +19,7 @@ export const dynamic = "force-dynamic";
 
 export default async function SourcesPage() {
   const data = await getDataBundle();
+  const { feedItems, revision } = getFeedContext(data);
   const toPublisherStats = (sourceType: "youtube" | "editorial") => Array.from(
     data.items.reduce((counts, item) => {
       const matches =
@@ -33,11 +34,9 @@ export default async function SourcesPage() {
   const publisherStats = toPublisherStats("editorial");
   const youtubeChannelStats = toPublisherStats("youtube");
   const fixedFilters = { ...defaultFeedFilters, scope: "all" as const };
-  const initialPage = getSourceLinkPage(
-    toFeedItems(data.items),
-    fixedFilters,
-    { snapshot: getFeedContentRevision(data.items, data.storyClusters) }
-  );
+  const initialPage = getSourceLinkPage(feedItems, fixedFilters, {
+    snapshot: revision
+  });
 
   return (
     <div className="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">

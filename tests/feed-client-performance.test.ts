@@ -44,7 +44,10 @@ describe("FeedClient performance", () => {
     assert.match(feedClientSource, /initialFilters: FeedFilters/);
     assert.match(newsPageSource, /getFeedFiltersFromSearchParams\(await searchParams/);
     assert.match(newsPageSource, /initialFilters=\{initialFilters\}/);
-    assert.match(newsPageSource, /snapshot: getFeedContentRevision\(data\.items, data\.storyClusters\)/);
+    // The pagination token comes from the per-snapshot feed context, so the
+    // server-rendered page and later /api/feed requests agree on one data view.
+    assert.match(newsPageSource, /getFeedContext\(data\)/);
+    assert.match(newsPageSource, /snapshot: revision/);
   });
 
   it("makes search progress visible even when the result count barely changes", () => {

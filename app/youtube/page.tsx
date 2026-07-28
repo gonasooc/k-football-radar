@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { FeedClient } from "@/components/FeedClient";
 import { SectionHeader } from "@/components/SectionHeader";
 import { getDataBundle } from "@/lib/data";
+import { getFeedContext } from "@/lib/feed-context";
 import { getFeedPage } from "@/lib/feed-page";
-import { getFeedContentRevision } from "@/lib/feed-snapshot";
-import { getFeedFiltersFromSearchParams, toFeedItems } from "@/lib/filter";
+import { getFeedFiltersFromSearchParams } from "@/lib/filter";
 import { pageAlternates } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -22,14 +22,16 @@ type YouTubePageProps = {
 
 export default async function YouTubePage({ searchParams }: YouTubePageProps) {
   const data = await getDataBundle();
+  const { feedItems, revision, similarityModels } = getFeedContext(data);
   const initialFilters = getFeedFiltersFromSearchParams(await searchParams, {
     issueIds: new Set(data.issues.map((issue) => issue.id)),
     personIds: new Set(data.people.map((person) => person.id)),
     forcedType: "youtube"
   });
-  const initialPage = getFeedPage(toFeedItems(data.items), initialFilters, {
-    snapshot: getFeedContentRevision(data.items, data.storyClusters),
-    storyClusters: data.storyClusters
+  const initialPage = getFeedPage(feedItems, initialFilters, {
+    snapshot: revision,
+    storyClusters: data.storyClusters,
+    similarityModels
   });
 
   return (

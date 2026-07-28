@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { HomeFeedSection } from "@/components/HomeFeedSection";
 import { JsonLd } from "@/components/JsonLd";
 import { getDataBundle } from "@/lib/data";
+import { getFeedContext } from "@/lib/feed-context";
 import { getFeedPage } from "@/lib/feed-page";
-import { getFeedContentRevision } from "@/lib/feed-snapshot";
-import { defaultFeedFilters, toFeedItems } from "@/lib/filter";
+import { defaultFeedFilters } from "@/lib/filter";
 import { pageAlternates } from "@/lib/site";
 import { buildOrganizationJsonLd, buildWebSiteJsonLd } from "@/lib/structured-data";
 
@@ -28,23 +28,22 @@ function latestDate(values: Array<string | undefined>, fallback?: string): strin
 
 export default async function HomePage() {
   const data = await getDataBundle();
-  const snapshot = getFeedContentRevision(data.items, data.storyClusters);
-  const newsPage = getFeedPage(
-    toFeedItems(data.items.filter((item) => item.sourceType !== "youtube")),
-    defaultFeedFilters,
-    {
-      limit: 6,
-      snapshot,
-      storyClusters: data.storyClusters
-    }
-  );
-  const youtubePage = getFeedPage(toFeedItems(data.items), {
+  const { editorialFeedItems, feedItems, revision, similarityModels } =
+    getFeedContext(data);
+  const newsPage = getFeedPage(editorialFeedItems, defaultFeedFilters, {
+    limit: 6,
+    snapshot: revision,
+    storyClusters: data.storyClusters,
+    similarityModels
+  });
+  const youtubePage = getFeedPage(feedItems, {
     ...defaultFeedFilters,
     type: "youtube"
   }, {
     limit: 6,
-    snapshot,
-    storyClusters: data.storyClusters
+    snapshot: revision,
+    storyClusters: data.storyClusters,
+    similarityModels
   });
   const newsCollectedAt = latestDate(
     [

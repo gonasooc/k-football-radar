@@ -5,8 +5,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { PaginatedItemList } from "@/components/PaginatedItemList";
 import { SectionHeader } from "@/components/SectionHeader";
 import { getDataBundle } from "@/lib/data";
-import { toFeedItems } from "@/lib/filter";
-import { getFeedContentRevision } from "@/lib/feed-snapshot";
+import { getFeedContext } from "@/lib/feed-context";
 import { getInitialScopedFeedPage } from "@/lib/scoped-feed-page";
 import { OG_IMAGE, SITE_NAME, pageAlternates } from "@/lib/site";
 import { buildBreadcrumbJsonLd, buildCollectionPageJsonLd } from "@/lib/structured-data";
@@ -63,11 +62,13 @@ export default async function PersonDetailPage({ params }: PersonDetailPageProps
   const relatedIssues = data.issues.filter((issue) =>
     items.some((item) => item.issueTags.includes(issue.id))
   );
+  const { feedItems, revision, similarityModels } = getFeedContext(data);
   const { fixedFilters, initialPage } = getInitialScopedFeedPage(
-    toFeedItems(data.items),
+    feedItems,
     { personId: person.id },
-    getFeedContentRevision(data.items, data.storyClusters),
-    data.storyClusters
+    revision,
+    data.storyClusters,
+    similarityModels
   );
 
   return (

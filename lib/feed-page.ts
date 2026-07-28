@@ -5,7 +5,13 @@ import {
   type FeedItem
 } from "./filter";
 import type { StoryClusterFile } from "./schema";
-import { createStorySimilarityModel } from "./story-similarity";
+// Imported from the similarity module, not the feed context: this module is
+// reachable from client components, so it must stay free of Node-only imports.
+import {
+  createStorySimilarityModels,
+  type StorySimilarityModel,
+  type StorySimilarityModels
+} from "./story-similarity";
 
 export const DEFAULT_FEED_PAGE_SIZE = 30;
 export const MAX_FEED_PAGE_SIZE = 100;
@@ -136,8 +142,15 @@ function getCompleteness(item: FeedItem): number {
 
 function chooseRepresentative(
   members: readonly FeedItem[],
-  similarityModel: ReturnType<typeof createStorySimilarityModel>
+  similarityModel: StorySimilarityModel
 ): FeedItem {
+  // Most groups are a single unclustered item, and scoring one candidate against
+  // itself always returns it. Skipping the scan avoids normalizing the title and
+  // summary of nearly every stored item on every request.
+  if (members.length === 1) {
+    return members[0]!;
+  }
+
   const primaryMembers = members.filter((item) => item.relevanceTier !== "secondary");
   const candidates = primaryMembers.length > 0 ? primaryMembers : [...members];
   const publishedTimes = members.map((item) => timestamp(item.publishedAt));
@@ -219,7 +232,7 @@ function createVisibleStoryGroups(
 
 function toStoryFeedEntry(
   group: StoryGroup,
-  similarityModel: ReturnType<typeof createStorySimilarityModel>
+  similarityModel: StorySimilarityModel
 ): StoryFeedEntry {
   const representative = chooseRepresentative(group.members, similarityModel);
   const newestFirst = [...group.members].sort(compareItemsByLatest);
@@ -264,12 +277,14 @@ export function getFeedPage(
     offset: rawOffset = 0,
     limit: rawLimit = DEFAULT_FEED_PAGE_SIZE,
     snapshot = "",
-    storyClusters = EMPTY_STORY_CLUSTERS
+    storyClusters = EMPTY_STORY_CLUSTERS,
+    similarityModels
   }: {
     offset?: string | number;
     limit?: string | number;
     snapshot?: string;
     storyClusters?: StoryClusterFile;
+    similarityModels?: StorySimilarityModels;
   } = {}
 ): FeedPage {
   const { offset, limit } = getFeedPagination({
@@ -277,21 +292,16 @@ export function getFeedPage(
     limit: rawLimit
   });
   const filteredItems = filterItems(items, filters);
-  // Per-type models keep the news IDF corpus stable when videos are present;
-  // both rank representatives only, so raw title/summary text is enough.
-  const newsSimilarityModel = createStorySimilarityModel(
-    items.filter((item) => item.sourceType === "news")
-  );
-  const youtubeSimilarityModel = createStorySimilarityModel(
-    items.filter((item) => item.sourceType === "youtube")
-  );
+  // Per-medium models keep the news IDF corpus stable when videos are present;
+  // both rank representatives only, so raw title/summary text is enough. Callers
+  // serving live data pass models cached per snapshot instead of rebuilding the
+  // corpus for every request.
+  const models = similarityModels ?? createStorySimilarityModels(items);
   const entries = createVisibleStoryGroups(filteredItems, storyClusters)
     .map((group) =>
       toStoryFeedEntry(
         group,
-        group.members[0]!.sourceType === "youtube"
-          ? youtubeSimilarityModel
-          : newsSimilarityModel
+        group.members[0]!.sourceType === "youtube" ? models.youtube : models.news
       )
     )
     .sort(filters.sort === "relevance" ? compareEntriesByRelevance : compareEntriesByLatest);

@@ -141,7 +141,7 @@ describe("ItemCard variants", () => {
     assert.doesNotMatch(homePageSource, /제목과 설명에서 추적 이슈가 확인된/);
     assert.doesNotMatch(homePageSource, /<FeedClient/);
 
-    assert.match(newsPageSource, /toFeedItems\(newsItems\)/);
+    assert.match(newsPageSource, /getFeedPage\(editorialFeedItems,/);
     assert.match(newsPageSource, /<SectionHeader/);
     assert.match(newsPageSource, /title="뉴스"/);
     assert.match(newsPageSource, /description="한국축구 이슈와 관련된 뉴스와 공식자료를 검색하고 확인합니다\."/);

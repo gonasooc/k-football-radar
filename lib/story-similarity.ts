@@ -23,6 +23,15 @@ export type StorySimilarityModel = {
   compare: (left: StoryTextFields, right: StoryTextFields) => StorySimilarity;
 };
 
+/**
+ * Per-medium models. News and video corpora stay separate so the IDF weights of
+ * one medium never dilute the other.
+ */
+export type StorySimilarityModels = {
+  news: StorySimilarityModel;
+  youtube: StorySimilarityModel;
+};
+
 type WeightedVector = {
   weights: Map<string, number>;
   totalWeight: number;
@@ -142,5 +151,18 @@ export function createStorySimilarityModel(
         combined: STORY_TITLE_WEIGHT * title + STORY_SUMMARY_WEIGHT * summary
       };
     }
+  };
+}
+
+export function createStorySimilarityModels<
+  T extends StoryTextFields & { sourceType: string }
+>(items: readonly T[]): StorySimilarityModels {
+  return {
+    news: createStorySimilarityModel(
+      items.filter((item) => item.sourceType === "news")
+    ),
+    youtube: createStorySimilarityModel(
+      items.filter((item) => item.sourceType === "youtube")
+    )
   };
 }

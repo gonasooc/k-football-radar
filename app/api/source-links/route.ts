@@ -1,18 +1,19 @@
 import { NextResponse } from "next/server";
 
 import { getDataBundle } from "@/lib/data";
+import { getFeedContext } from "@/lib/feed-context";
 import {
   getFeedPagination,
   hasFeedSnapshotMismatch
 } from "@/lib/feed-page";
-import { getFeedContentRevision } from "@/lib/feed-snapshot";
-import { getFeedFiltersFromSearchParams, toFeedItems } from "@/lib/filter";
+import { getFeedFiltersFromSearchParams } from "@/lib/filter";
 import { getSourceLinkPage } from "@/lib/source-link-page";
 
 export const dynamic = "force-dynamic";
 
 export async function GET(request: Request) {
   const data = await getDataBundle();
+  const { feedItems, revision } = getFeedContext(data);
   const url = new URL(request.url);
   const searchParams = Object.fromEntries(url.searchParams);
   const filters = getFeedFiltersFromSearchParams(searchParams, {
@@ -23,11 +24,9 @@ export async function GET(request: Request) {
     offset: searchParams.offset,
     limit: searchParams.limit
   });
-  const snapshot = getFeedContentRevision(data.items, data.storyClusters);
-
-  if (hasFeedSnapshotMismatch(searchParams.snapshot, snapshot, pagination.offset)) {
+  if (hasFeedSnapshotMismatch(searchParams.snapshot, revision, pagination.offset)) {
     return NextResponse.json(
-      { error: "source_links_snapshot_mismatch", snapshot },
+      { error: "source_links_snapshot_mismatch", snapshot: revision },
       {
         status: 409,
         headers: { "Cache-Control": "no-store" }
@@ -35,9 +34,9 @@ export async function GET(request: Request) {
     );
   }
 
-  const page = getSourceLinkPage(toFeedItems(data.items), filters, {
+  const page = getSourceLinkPage(feedItems, filters, {
     ...pagination,
-    snapshot
+    snapshot: revision
   });
 
   return NextResponse.json(page, {

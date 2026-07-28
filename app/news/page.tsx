@@ -5,9 +5,9 @@ import { FeedClient } from "@/components/FeedClient";
 import { SectionHeader } from "@/components/SectionHeader";
 import { getDataBundle } from "@/lib/data";
 import { formatDateTime } from "@/lib/date";
+import { getFeedContext } from "@/lib/feed-context";
 import { getFeedPage } from "@/lib/feed-page";
-import { getFeedContentRevision } from "@/lib/feed-snapshot";
-import { getFeedFiltersFromSearchParams, toFeedItems, type FeedTypeFilter } from "@/lib/filter";
+import { getFeedFiltersFromSearchParams, type FeedTypeFilter } from "@/lib/filter";
 import { pageAlternates } from "@/lib/site";
 import { getDashboardStats } from "@/lib/stats";
 
@@ -27,9 +27,9 @@ type NewsPageProps = {
 
 export default async function NewsPage({ searchParams }: NewsPageProps) {
   const data = await getDataBundle();
-  const newsItems = data.items.filter((item) => item.sourceType !== "youtube");
+  const { editorialFeedItems, revision, similarityModels } = getFeedContext(data);
   const stats = getDashboardStats({
-    items: newsItems,
+    items: data.items.filter((item) => item.sourceType !== "youtube"),
     collectionState: data.collectionState
   });
   const newsCollectorTimes = [
@@ -44,9 +44,10 @@ export default async function NewsPage({ searchParams }: NewsPageProps) {
     personIds: new Set(data.people.map((person) => person.id)),
     allowedTypes: NEWS_TYPES
   });
-  const initialPage = getFeedPage(toFeedItems(newsItems), initialFilters, {
-    snapshot: getFeedContentRevision(data.items, data.storyClusters),
-    storyClusters: data.storyClusters
+  const initialPage = getFeedPage(editorialFeedItems, initialFilters, {
+    snapshot: revision,
+    storyClusters: data.storyClusters,
+    similarityModels
   });
 
   return (

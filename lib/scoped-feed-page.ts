@@ -5,6 +5,7 @@ import {
   type FeedItem
 } from "./filter";
 import type { StoryClusterFile } from "./schema";
+import type { StorySimilarityModels } from "./story-similarity";
 
 type ScopedFeedTarget = Partial<Pick<FeedFilters, "issueId" | "personId">>;
 
@@ -17,7 +18,8 @@ export function getInitialScopedFeedPage(
   items: readonly FeedItem[],
   target: ScopedFeedTarget = {},
   snapshot = "",
-  storyClusters: StoryClusterFile = { version: 1, clusters: [] }
+  storyClusters: StoryClusterFile = { version: 1, clusters: [] },
+  similarityModels?: StorySimilarityModels
 ): InitialScopedFeedPage {
   const fixedFilters: FeedFilters = {
     ...defaultFeedFilters,
@@ -27,6 +29,10 @@ export function getInitialScopedFeedPage(
 
   return {
     fixedFilters,
-    initialPage: getFeedPage([...items], fixedFilters, { snapshot, storyClusters })
+    initialPage: getFeedPage([...items], fixedFilters, {
+      snapshot,
+      storyClusters,
+      similarityModels
+    })
   };
 }

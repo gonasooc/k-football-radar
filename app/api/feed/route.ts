@@ -1,18 +1,20 @@
 import { NextResponse } from "next/server";
 
 import { getDataBundle } from "@/lib/data";
+import { getFeedContext } from "@/lib/feed-context";
 import {
   getFeedPage,
   getFeedPagination,
   hasFeedSnapshotMismatch
 } from "@/lib/feed-page";
-import { getFeedContentRevision } from "@/lib/feed-snapshot";
-import { getFeedFiltersFromSearchParams, toFeedItems } from "@/lib/filter";
+import { getFeedFiltersFromSearchParams } from "@/lib/filter";
 
 export const dynamic = "force-dynamic";
 
 export async function GET(request: Request) {
   const data = await getDataBundle();
+  const { editorialFeedItems, feedItems, revision, similarityModels } =
+    getFeedContext(data);
   const url = new URL(request.url);
   const searchParams = Object.fromEntries(url.searchParams);
   const filters = getFeedFiltersFromSearchParams(searchParams, {
@@ -23,11 +25,9 @@ export async function GET(request: Request) {
     offset: searchParams.offset,
     limit: searchParams.limit
   });
-  const snapshot = getFeedContentRevision(data.items, data.storyClusters);
-
-  if (hasFeedSnapshotMismatch(searchParams.snapshot, snapshot, pagination.offset)) {
+  if (hasFeedSnapshotMismatch(searchParams.snapshot, revision, pagination.offset)) {
     return NextResponse.json(
-      { error: "feed_snapshot_mismatch", snapshot },
+      { error: "feed_snapshot_mismatch", snapshot: revision },
       {
         status: 409,
         headers: { "Cache-Control": "no-store" }
@@ -36,13 +36,12 @@ export async function GET(request: Request) {
   }
 
   const sourceItems =
-    searchParams.source === "editorial"
-      ? data.items.filter((item) => item.sourceType !== "youtube")
-      : data.items;
-  const page = getFeedPage(toFeedItems(sourceItems), filters, {
+    searchParams.source === "editorial" ? editorialFeedItems : feedItems;
+  const page = getFeedPage(sourceItems, filters, {
     ...pagination,
-    snapshot,
-    storyClusters: data.storyClusters
+    snapshot: revision,
+    storyClusters: data.storyClusters,
+    similarityModels
   });
 
   return NextResponse.json(page, {
