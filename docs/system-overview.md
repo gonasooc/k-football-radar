@@ -30,17 +30,24 @@ R2의 JSON snapshot은 운영 앱의 데이터 제공 경로를 담당한다.
 ## 2. 주요 폴더 역할
 
 ```text
-app/          화면 라우트
+app/          화면 라우트와 API route handler
 components/   화면을 구성하는 재사용 UI 컴포넌트
 data/         수집 입력과 Git 이력으로 보관하는 JSON 데이터
+deploy/       맥미니 홈서버 Compose 구성과 릴리스 스크립트
+docs/         기획서, 구조 설명, 배포·운영 문서
 lib/          데이터 읽기, 검증, 분류, 중복 제거, 통계 계산
-scripts/      수집, 검증, 준비 상태 확인용 실행 스크립트
+public/       브랜드 이미지와 검색엔진 소유 확인 파일
+reports/      수동 검토용 채널·재분류 보고서 산출물
+scripts/      수집, 검증, 발행, 준비 상태 확인용 실행 스크립트
 tests/        단위 테스트
-docs/         기획서, 구조 설명, 잔여 작업 문서
 .github/      GitHub Actions 워크플로
 ```
 
 각 폴더는 역할이 명확히 나뉜다. 화면은 `app/`와 `components/`가 담당하고, 수집과 데이터 가공은 `scripts/`와 `lib/`가 담당한다.
+
+`reports/`의 파일은 자동 반영되지 않는다. `report:youtube-channels`와
+`reclassify:youtube`가 만드는 검토용 산출물이며, 정책 변경은 사람이
+`data/youtube-channels.json`을 고쳐야 일어난다.
 
 ## 3. 데이터 파일
 
@@ -127,15 +134,25 @@ Next.js 서버는 런타임에서 외부 수집 API를 직접 호출하지 않�
 R2 current.json → snapshots/<SHA-256>.json
    ↓
 lib/data.ts
+   ↓
+lib/feed-context.ts
    ├─ app/page.tsx, app/news/page.tsx, app/youtube/page.tsx
+   ├─ app/tracking/page.tsx, app/sources/page.tsx
    ├─ app/issues/[id]/page.tsx, app/people/[id]/page.tsx
    ├─ app/api/feed/route.ts → 묶음 기준 30개 단위 후속 페이지
-   └─ app/api/source-links/route.ts → 원문 기준 30개 단위 후속 페이지
+   ├─ app/api/source-links/route.ts → 원문 기준 30개 단위 후속 페이지
+   ├─ app/api/health/route.ts, app/rss.xml/route.ts
+   └─ app/sitemap.ts
 ```
 
 `lib/data.ts`와 `lib/remote-data.ts`는 snapshot의 길이, SHA-256과 Zod schema를 검증한다.
 정상 값은 60초 cache하며 R2 일시 장애 때는 마지막 정상 snapshot을 제공한다. 로컬 개발과
 테스트만 저장소의 `data/`를 직접 읽는다.
+
+`lib/feed-context.ts`는 화면 표시용 항목 목록, 페이지네이션 토큰, 뉴스·유튜브 유사도
+모델처럼 snapshot 하나에만 의존하는 값을 snapshot당 한 번만 계산한다. cache한 snapshot
+객체를 키로 쓰므로 새 snapshot이 오면 자동으로 다시 계산한다. 이 값을 요청마다 다시
+만들면 전체 항목의 IDF 코퍼스를 매번 세우게 되어 응답이 느려진다.
 
 첫 페이지는 항목과 뉴스 묶음 관계의 내용 해시를 페이지네이션 토큰으로 함께 보낸다.
 더보기를 누르는 사이 재수집·재분류·묶음 재생성으로 내용이 달라지면 API가 이전 토큰을
@@ -161,29 +178,47 @@ lib/data.ts
 유형 필터는 생략한다. 채널 범위는 `선별 채널 / 전체 채널`로 표시하며 검색도 선택한
 범위를 존중한다. 카드는 썸네일, 채널, 발행일, 재생 시간과 원본 영상 링크를 표시한다.
 
-### `/feed`
+### `/tracking`
 
-`/news`로 이동하는 호환 경로다.
-
-### `/issues`
-
-이슈 목록이다. 각 이슈가 몇 개의 항목과 연결되어 있는지 보여준다.
+이슈와 인물 목록을 한 화면의 두 탭으로 보여준다. 기본 탭은 이슈이고
+`?tab=people`이 인물 탭이다. 각 항목이 몇 개의 수집 항목과 연결되어 있는지 함께
+표시하며, 상세 화면으로 이동하는 진입점이다.
 
 ### `/issues/[id]`
 
 특정 이슈에 연결된 수집 항목만 보여준다. 뉴스에는 홈과 같은 묶음 표현을 적용한다.
 
-### `/people`
-
-인물 목록이다. 각 인물이 몇 개의 항목에서 언급됐는지 보여준다.
-
 ### `/people/[id]`
 
 특정 인물이 언급된 수집 항목만 보여준다. 뉴스에는 홈과 같은 묶음 표현을 적용한다.
+`published`가 아닌 인물은 노출하지 않는다.
 
 ### `/sources`
 
 수집 출처, 뉴스 publisher 통계, 유튜브 채널 통계, 묶지 않은 전체 원문·영상 링크를 보여준다.
+
+### 호환 redirect 경로
+
+화면을 만들지 않고 이동만 하는 경로다. 상단 메뉴는 `홈 / 뉴스 / 유튜브 / 트래킹 / 출처`
+다섯 개로 운영하며, 아래 경로는 예전 주소와 북마크를 위해 남겨 둔다.
+
+```text
+/feed    → /news
+/issues  → /tracking
+/people  → /tracking?tab=people
+```
+
+### 화면이 아닌 공개 경로
+
+```text
+/api/health          데이터 출처와 snapshot 상태. 정상은 200, 데이터 없음은 503
+/api/feed            묶음 기준 후속 페이지
+/api/source-links    원문 기준 후속 페이지
+/rss.xml             최신 항목 50건
+/sitemap.xml         화면 경로와 이슈·인물 상세 경로
+/robots.txt          `/api/` 크롤 제외와 sitemap 위치
+/manifest.webmanifest
+```
 
 ## 6. 수집 흐름
 
@@ -328,9 +363,32 @@ A-B와 B-C가 비슷하다는 이유만으로 서로 다른 A-C 사건까지 합
 
 ### 8단계: 저장
 
-새 항목과 기존 항목을 병합한 뒤 뉴스·공식자료 최대 2,000건과 유튜브 최대 500건을
-각각 독립적으로 보존해 한 미디어 유형이 다른 유형을 밀어내지 않게 한다. 이후
-`data/items/YYYY-MM-DD.json` 일별 shard에 쓰고,
+새 항목과 기존 항목을 병합한 뒤 보존 정책을 적용한다. 먼저 발행일이 90일
+(`ITEM_RETENTION_DAYS`)을 넘은 항목을 버리고, 남은 항목을 서로 독립적인 세 예산에
+나눠 발행일 최신순으로 자른다.
+
+```text
+주요 뉴스 + 공식자료   최대 4,000건   MAX_RETAINED_ITEMS
+보조 뉴스              최대   700건   MAX_RETAINED_SECONDARY_ITEMS
+유튜브                 최대   500건   MAX_RETAINED_YOUTUBE_ITEMS
+```
+
+예산을 나누는 이유는 한 종류의 항목이 다른 종류를 밀어내지 않게 하기 위해서다.
+보조 수집 항목은 화면의 `전체` 범위에서만 보이지만 주요 항목과 비슷한 속도로
+들어오기 때문에, 예산을 함께 쓰면 기본 피드와 이슈·인물 타임라인이 거슬러 올라가는
+기간을 절반으로 줄인다. 공식자료는 분류가 보조 근거만 찾았더라도 주요 예산에
+넣는다.
+
+수집량이 일정하지 않으므로 실제 보존 기간은 건수 상한에 따라 달라진다. 하루
+평균 유입이 주요 61건, 보조 50건, 유튜브 19건일 때 위 상한은 각각 약 65일, 14일,
+27일에 해당한다. 개수 상한이 90일 창보다 먼저 걸리므로, 보존 기간을 늘리려면
+`ITEM_RETENTION_DAYS`가 아니라 건수 상한을 올려야 한다.
+
+밀려난 항목은 shard 파일에서 지워지고 삭제가 커밋된다. Git 이력에는 남아 있어
+`git show <sha>:data/items/YYYY-MM-DD.json`으로 확인할 수 있지만, 작업 트리와 R2
+snapshot에는 없으므로 화면에도 나오지 않는다.
+
+이후 `data/items/YYYY-MM-DD.json` 일별 shard에 쓰고,
 계산한 관계를 `data/story-clusters.json`에 쓴다. 실행 결과는
 `data/collection-state.json`에 쓴다. 세 데이터 중 하나의 저장이 실패하면 이전 상태로
 되돌린다.
@@ -445,12 +503,21 @@ pnpm run validate:data
 pnpm run build
 ```
 
-외부 API까지 로컬에서 테스트하려면 `.env`에 값을 넣고 다음 명령을 실행한다.
+외부 API까지 로컬에서 테스트하려면 `.env.example`을 `.env`로 복사해 값을 넣고 다음
+명령을 실행한다.
 
 ```bash
+cp .env.example .env
 pnpm run collect:local
 pnpm run collect:youtube:local
 ```
+
+`.env.example`에는 API 키와 함께 수집 튜닝·보존 정책 환경변수의 기본값과 허용 범위를
+적어 둔다. 값을 비우면 코드 안의 기본값을 사용하므로, 실험할 항목만 채우면 된다.
+
+`next dev`와 `next build`는 `.env`를 자동으로 읽는다. 수집 스크립트는 `:local`
+명령이 `--env-file=.env`를 넘길 때만 읽으므로, `pnpm run collect`는 셸 환경변수만
+사용한다.
 
 `.env`는 `.gitignore`에 포함되어 있으므로 커밋하지 않는다.
 
@@ -492,6 +559,9 @@ pnpm run validate:data
 - 최신 CI 워크플로 결과
 - 최신 수집 워크플로 결과
 - 최신 유튜브 수집 워크플로 결과
+
+이 명령은 GitHub CLI만 사용하므로 홈서버 상태는 확인하지 않는다. 배포된 앱은
+`curl https://k-football-radar.app/api/health`로 따로 확인한다.
 
 일반 실행:
 
@@ -537,9 +607,14 @@ tests/validation.test.ts
 ```text
 app/
 components/
-lib/stats.ts
 lib/filter.ts
+lib/feed-page.ts
+lib/feed-context.ts
+lib/stats.ts
 ```
+
+`lib/feed-page.ts`는 클라이언트 컴포넌트도 import하므로 `node:` 모듈을 쓰는 코드를
+넣으면 안 된다. 서버에서만 필요한 값은 `lib/feed-context.ts`에 둔다.
 
 자동 수집 주기를 바꾸고 싶으면:
 
