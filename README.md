@@ -116,10 +116,14 @@ fail-open 정책입니다. 라이브·예약·라이브 다시보기는 제외�
 - `NAVER_CLIENT_ID` 저장소 시크릿
 - `NAVER_CLIENT_SECRET` 저장소 시크릿
 - `YOUTUBE_API_KEY` 저장소 시크릿
-- 홈서버 공개 health endpoint와 선택한 immutable release
+- `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` 저장소 시크릿
+- `CLOUDFLARE_ACCOUNT_ID`, `R2_BUCKET_NAME` 저장소 변수
 - 최신 CI 워크플로 결과
 - 최신 수집 워크플로 결과
 - 최신 유튜브 수집 워크플로 결과
+
+이 명령은 GitHub CLI만 사용하므로 홈서버 상태는 확인하지 않습니다. 배포된 앱은
+`curl https://k-football-radar.app/api/health`로 따로 확인합니다.
 
 모든 외부 설정이 끝날 때까지 명령이 실패해야 하는 상황에서는 strict 모드를 사용합니다.
 
@@ -127,26 +131,33 @@ fail-open 정책입니다. 라이브·예약·라이브 다시보기는 제외�
 pnpm run check:readiness -- --strict
 ```
 
-현재 미완료 외부 확인 작업은 [docs/remaining-work.md](docs/remaining-work.md)에 정리합니다.
+외부 확인 작업과 정기 점검 절차는
+[docs/remaining-work.md](docs/remaining-work.md)에 정리합니다.
 
 ## 문서
 
 - [MVP 기획서](docs/mvp-plan.md): 제품 범위, 제외 기능, 데이터 모델, 완료 기준
 - [전체 작동 구조](docs/system-overview.md): 수집부터 화면 배포까지 이어지는 흐름
-- [잔여 작업](docs/remaining-work.md): 실제로 남아 있는 외부 확인 작업
+- [R2 데이터 배포](docs/r2-data-deployment.md): 수집 결과를 앱 재배포 없이 반영하는 경로
+- [홈서버 배포](docs/home-server-deployment.md): 릴리스 빌드·선택·배포와 도메인 설정
+- [잔여 작업과 운영 점검](docs/remaining-work.md): 남은 외부 작업과 정기 점검 항목
 
 ## 맥미니 홈서버 배포
 
 운영 앱은 Docker 이미지로 빌드해 `home-server-infra`의 private Docker network와
 Cloudflare Tunnel 뒤에서 실행합니다. `/api/feed`가 있으므로 정적 파일 호스팅으로
-대체하지 않습니다. 컨테이너는 빌드 시점의 `data/` snapshot을 포함하며, 수집
-workflow가 데이터를 push한 뒤에는 새 Git commit으로 이미지를 빌드·선택·재생성해야
-공개 사이트에 반영됩니다.
+대체하지 않습니다.
+
+운영 이미지에는 `data/`를 복사하지 않습니다. 컨테이너는 런타임에
+`RADAR_DATA_BASE_URL`이 가리키는 Cloudflare R2에서 검증된 snapshot을 읽으므로,
+수집 workflow가 데이터를 발행하면 최대 약 60초 뒤에 재배포 없이 반영됩니다.
+이미지는 앱 코드가 바뀔 때만 다시 빌드·선택·배포합니다. 로컬 개발과 테스트만
+저장소의 `data/`를 직접 읽습니다.
 
 `NEXT_PUBLIC_SITE_URL`은 구매한 별도 도메인의 canonical HTTPS URL로 설정합니다.
 컨테이너의 상태 확인 endpoint는 `GET /api/health`이며 성공 응답은
-`{"status":"ok"}`입니다. Naver와 YouTube API key는 GitHub Actions에서만 사용하므로
-홈서버 런타임에 저장하지 않습니다.
+`{"status":"ok"}`이고 `data.source`가 `r2`입니다. Naver와 YouTube API key는
+GitHub Actions에서만 사용하므로 홈서버 런타임에 저장하지 않습니다.
 
 공유 인프라에 서비스가 등록된 뒤의 실제 배포 절차와 도메인/DNS cutover는
 `docs/home-server-deployment.md`를 따릅니다.
