@@ -269,8 +269,8 @@
       ],
       "earliestPublishedAt": 1784064960000,
       "latestPublishedAt": 1784064960000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -535,15 +535,15 @@
       ],
       "earliestPublishedAt": 1784061900000,
       "latestPublishedAt": 1784061900000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
     "id": "item_26cd6c986c596f80",
     "type": "news",
     "title": "경찰, 축협 임원·전력강화위원 등 소환…'홍명보 선임' 수사 본격화",
-    "summary": "경찰이 홍명보 전 축구 국가대표팀 감독 선임 의혹과 관련해 대한 축구협회 임원과 전력강화위원을 잇달아... 것으로 문체부 는 결론 내렸다. 문체부 가 전력강화위원회의 결정으로 홍 전 감독이 최종 추천됐다고 판단한...",
+    "summary": "경찰은 또 전날 정 전 회장과 이임생 전 기술이사, 홍 전 감독을 업무상 배임과 업무방해, 강요, 협박 등... 앞서 문화체육관광부는 2년 전 축협을 상대로 특정 감사 를 벌였다. 감사 결과 전력강화위는 홍 전 감독과 외국인...",
     "url": "https://www.nocutnews.co.kr/news/6548218",
     "originalUrl": "https://www.nocutnews.co.kr/news/6548218",
     "publisher": "nocutnews.co.kr",
@@ -554,11 +554,8 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한 축구협회",
-      "임원",
-      "감독 선임",
-      "대표팀 감독",
-      "감독"
+      "감사",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -589,16 +586,18 @@
     ],
     "issueTags": [
       "coach-appointment",
-      "kfa-executives"
+      "mcst-audit"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 37,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -613,8 +612,8 @@
       ],
       "earliestPublishedAt": 1784059260000,
       "latestPublishedAt": 1784059260000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -838,8 +837,8 @@
       ],
       "earliestPublishedAt": 1784041260000,
       "latestPublishedAt": 1784041260000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -933,8 +932,8 @@
       ],
       "earliestPublishedAt": 1784041200000,
       "latestPublishedAt": 1784041200000,
-      "representativeCollectedAt": 1785214057541,
-      "latestCollectedAt": 1785214057541
+      "representativeCollectedAt": 1785225960120,
+      "latestCollectedAt": 1785225960120
     }
   },
   {
@@ -3361,8 +3360,8 @@
       ],
       "earliestPublishedAt": 1784009460000,
       "latestPublishedAt": 1784009460000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3649,7 +3648,7 @@
     "id": "item_5a608f62bed0ea98",
     "type": "news",
     "title": "\"홍명보-바그너 똑같이 7표였는데…\" 2년 묵은 MB 선임 미스터리 풀리나...",
-    "summary": "홍명보 전 축구 대표팀 감독 선임 과정에서 대한 축구협회 등의 부당한 개입이 있었는지 수사하는 경찰이 홍... 2년 전, 문화체육관광부( 문체부 ) 감사 보고서에 따르면, 제10차 전력강화위원회 회의에서 홍 감독과 외국인 감독...",
+    "summary": "2년 전, 문화체육관광부(문체부) 감사 보고서에 따르면, 제10차 전력강화위원회 회의에서 홍 감독과 외국인... 없는 이임생 전 기술총괄이사에게 감독 추천권을 넘기면서 하자가 발생했다는 것이다. 이 전 이사는 이때 거스...",
     "url": "https://www.xportsnews.com/article/2171977",
     "originalUrl": "https://www.xportsnews.com/article/2171977",
     "publisher": "xportsnews.com",
@@ -3657,12 +3656,8 @@
     "collectedAt": "2026-07-14T06:57:32.767Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
       "감사",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "선임"
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -3686,15 +3681,15 @@
       "축구협회 이사회"
     ],
     "issueTags": [
-      "mcst-audit",
-      "coach-appointment"
+      "mcst-audit"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -3713,8 +3708,8 @@
       ],
       "earliestPublishedAt": 1784006520000,
       "latestPublishedAt": 1784006520000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -4839,7 +4834,7 @@
     "id": "item_c6b3a8e8c395135c",
     "type": "news",
     "title": "‘홍명보 선임 빌드업’ 폭로 박주호, 참고인 조사 받았다…수사 급물살",
-    "summary": "홍명보 전 축구 대표팀 감독 선임 과정의 문제점을 폭로했던 박주호 전 대한 축구협회 전력강화위원이 경찰에... 문체부 는 전강위가 홍 전 감독을 1순위로 추천했는데도 정 전 회장이 외국인 후보를 만나보라고 한 것이 감독...",
+    "summary": "그러나 문화체육관광부 감사 보고서에 따르면 전강위는 홍 전 감독과 외국인 감독 1명을 공동 1순위로 올렸고... 정 전 위원장은 돌연 사퇴했고, 전권을 쥐게 된 이임생 전 기술총괄이사가 이른바 ‘빵집 면접’을 통해 홍...",
     "url": "https://www.seoul.co.kr/news/society/accident/2026/07/14/20260714500096?wlog_tag3=naver",
     "originalUrl": "https://www.seoul.co.kr/news/society/accident/2026/07/14/20260714500096?wlog_tag3=naver",
     "publisher": "seoul.co.kr",
@@ -4847,12 +4842,10 @@
     "collectedAt": "2026-07-14T04:34:38.073Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "전력강화위원",
-      "선임"
+      "문화체육관광부 감사",
+      "감사",
+      "이임생",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -4877,16 +4870,18 @@
       "축구협회 이사회"
     ],
     "issueTags": [
-      "coach-appointment"
+      "mcst-audit"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 19,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -4901,8 +4896,8 @@
       ],
       "earliestPublishedAt": 1783997580000,
       "latestPublishedAt": 1783997580000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -4962,7 +4957,7 @@
     "id": "item_d5bbbda15fdcb9e2",
     "type": "news",
     "title": "'홍명보 선임' 수사 경찰, 전력강화위원 조사…박주호도 불러",
-    "summary": "김 대표는 조사에 앞서 \"감독 선임 과정이 투명하게 진행됐는지 확인해야 한다\"며 \"대한 축구협회 에 지원된 예산이 감독 보수 등으로 어떻게 사용됐는지도 밝혀져야 한다\"고 말했다. 이어 \" 문체부 감사 와 기존 고발 사건...",
+    "summary": "김 대표는 정몽규 전 대한축구협회장과 이임생 전 기술총괄이사, 홍 전 감독 등을 업무방해, 강요, 업무상... 이어 \"문체부 감사 와 기존 고발 사건 수사를 통해 관련 자료가 상당 부분 축적된 만큼 수사기관이 신속히 결론을...",
     "url": "http://www.fnnews.com/news/202607141022573892",
     "originalUrl": "http://www.fnnews.com/news/202607141022573892",
     "publisher": "fnnews.com",
@@ -4972,11 +4967,13 @@
       "전력강화위원",
       "선임",
       "홍명보",
-      "대한 축구협회",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
       "문체부 감사",
       "감사",
-      "감독 선임",
-      "감독"
+      "정몽규",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -5003,14 +5000,17 @@
     ],
     "issueTags": [
       "coach-appointment",
+      "election",
       "mcst-audit"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -5028,8 +5028,8 @@
       ],
       "earliestPublishedAt": 1783997400000,
       "latestPublishedAt": 1783997400000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -6058,7 +6058,7 @@
     "id": "item_ad9f5bdb4fcf871c",
     "type": "news",
     "title": "K-축구 혁신위 \"차기 회장 선출, 과거 방식으론 안 돼\"",
-    "summary": "이날 2차 회의에는 1차 회의와 마찬가지로 박지성 위원장을 비롯해 최휘영 문화체육관광부 장관, 이영표·박주호 축구 해설위원, 유승민 대한체육회장, 김승희 대한 축구협회 전무이사, 조연상 한국프로 축구 연맹 사무총장...",
+    "summary": "현재 공석인 대한축구협회장을 뽑기 위한 선거 기한이 연장된다. 현재의 선출 방식으로는 대한축구협회의... 대한체육회장, 김승희 대한축구협회 전무이사, 조연상 한국프로축구연맹 사무총장, 유영근 변호사, 김대희...",
     "url": "https://www.imaeil.com/page/view/2026071410341384193",
     "originalUrl": "https://www.imaeil.com/page/view/2026071410341384193",
     "publisher": "imaeil.com",
@@ -6066,9 +6066,11 @@
     "collectedAt": "2026-07-16T07:09:54.989Z",
     "matchedKeywords": [
       "축구 혁신",
-      "대한 축구협회",
-      "전무",
-      "박지성"
+      "대한축구협회",
+      "한국프로축구연맹",
+      "축구협회장",
+      "대한축구협회장",
+      "전무"
     ],
     "discoveryQueries": [
       "\"김승희\" 대한축구협회",
@@ -6080,17 +6082,14 @@
     ],
     "issueTags": [
       "innovation-committee",
+      "election",
       "kfa-executives"
     ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
-    "labels": [
-      "인물 언급"
-    ],
+    "relevanceScore": 24,
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -6104,8 +6103,8 @@
       ],
       "earliestPublishedAt": 1783992900000,
       "latestPublishedAt": 1783992900000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -6567,8 +6566,8 @@
       ],
       "earliestPublishedAt": 1783991040000,
       "latestPublishedAt": 1783991040000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -6736,7 +6735,7 @@
     "id": "item_18ba42ad375c1cba",
     "type": "news",
     "title": "대한축구협회장 선출 기한 연장…체육회·혁신위 공감대 형성했다",
-    "summary": "이날 2차 회의에는 1차 회의와 마찬가지로 박지성 위원장을 비롯해 최휘영 문화체육관광부 장관, 이영표·박주호 축구 해설위원, 유승민 대한체육회장, 김승희 대한 축구협회 전무이사, 조연상 한국프로 축구 연맹 사무총장...",
+    "summary": "있는 선거 안을 마련할 것”이라고 덧붙였다. 현재 한국 축구 대표팀은 협회장과 사령탑이 모두 공석이다.... 대한체육회장, 김승희 대한축구협회 전무이사, 조연상 한국프로축구연맹 사무총장, 유영근 변호사, 김대희...",
     "url": "https://www.sedaily.com/article/20067411?ref=naver",
     "originalUrl": "https://www.sedaily.com/article/20067411?ref=naver",
     "publisher": "sedaily.com",
@@ -6746,9 +6745,8 @@
       "대한축구협회",
       "축구협회장",
       "대한축구협회장",
-      "대한 축구협회",
-      "전무",
-      "박지성"
+      "한국프로축구연맹",
+      "전무"
     ],
     "discoveryQueries": [
       "\"김승희\" 대한축구협회",
@@ -6786,15 +6784,11 @@
       "election",
       "kfa-executives"
     ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 43,
-    "labels": [
-      "인물 언급"
-    ],
+    "relevanceScore": 40,
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -6808,8 +6802,8 @@
       ],
       "earliestPublishedAt": 1783990260000,
       "latestPublishedAt": 1783990260000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -7328,8 +7322,8 @@
       ],
       "earliestPublishedAt": 1783987320000,
       "latestPublishedAt": 1783987320000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   }
 ]

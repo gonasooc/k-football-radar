@@ -365,8 +365,8 @@
       ],
       "earliestPublishedAt": 1784154120000,
       "latestPublishedAt": 1784154120000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -434,8 +434,8 @@
       ],
       "earliestPublishedAt": 1784154060000,
       "latestPublishedAt": 1784154060000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -742,8 +742,8 @@
       ],
       "earliestPublishedAt": 1784149260000,
       "latestPublishedAt": 1784149260000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -957,8 +957,8 @@
       ],
       "earliestPublishedAt": 1784148180000,
       "latestPublishedAt": 1784148180000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -1071,8 +1071,8 @@
       ],
       "earliestPublishedAt": 1784145600000,
       "latestPublishedAt": 1784145600000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -1246,8 +1246,8 @@
       ],
       "earliestPublishedAt": 1784127660000,
       "latestPublishedAt": 1784127660000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -1314,8 +1314,8 @@
       ],
       "earliestPublishedAt": 1784125200000,
       "latestPublishedAt": 1784125200000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -1674,8 +1674,8 @@
       ],
       "earliestPublishedAt": 1784116860000,
       "latestPublishedAt": 1784116860000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -1742,8 +1742,8 @@
       ],
       "earliestPublishedAt": 1784116200000,
       "latestPublishedAt": 1784116200000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -1831,7 +1831,7 @@
     "id": "item_aa35ee0ab66be4fb",
     "type": "news",
     "title": "축구협회 청문회 '첫 불출석 증인' 나왔다... 정몽규·이임생 등 '같은 ...",
-    "summary": "그나마 대한 축구협회 는 이용수 부회장이나 김승희 전무이사 등 현직들에 한해 청문회 출석을 예고했고, 홍명보 전 감독 역시도 직접 청문회 출석을 약속한 상태다. 다만 박항서 전 부회장을 시작으로 청문회 불출석...",
+    "summary": "문제는 이번 청문회의 핵심 증인이라고 해도 과언이 아닌 이임생 전 대한축구협회 기술본부 총괄이사가... 그는 지난 2024년 10월 대한축구협회장으로서 국정 감사 증인으로 채택됐음에도 불구하고 뜬금없는 FIFA 17세 이하...",
     "url": "https://www.starnewskorea.com/sports/2026/07/15/2026071518520040005",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/07/15/2026071518520040005",
     "publisher": "starnewskorea.com",
@@ -1842,12 +1842,11 @@
       "정몽규",
       "이임생",
       "청문회",
-      "대한 축구협회",
-      "부회장",
-      "전무",
-      "홍명보",
-      "김승희 전무",
-      "김승희 전무이사"
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "감사",
+      "이임생 전 대한축구협회"
     ],
     "discoveryQueries": [
       "\"김승희\" 감사",
@@ -1876,19 +1875,19 @@
       "축구협회장"
     ],
     "issueTags": [
-      "kfa-executives"
+      "election",
+      "mcst-audit"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_lee_im_saeng",
-      "person_hong_myung_bo",
-      "person_kim_seung_hee"
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 49,
+    "relevanceScore": 52,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -1903,8 +1902,8 @@
       ],
       "earliestPublishedAt": 1784113560000,
       "latestPublishedAt": 1784113560000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -1987,8 +1986,8 @@
       ],
       "earliestPublishedAt": 1784112840000,
       "latestPublishedAt": 1784112840000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -2061,8 +2060,8 @@
       ],
       "earliestPublishedAt": 1784110860000,
       "latestPublishedAt": 1784110860000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -2138,8 +2137,8 @@
       ],
       "earliestPublishedAt": 1784109780000,
       "latestPublishedAt": 1784109780000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -2222,8 +2221,8 @@
       ],
       "earliestPublishedAt": 1784108760000,
       "latestPublishedAt": 1784108760000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -2460,8 +2459,8 @@
       ],
       "earliestPublishedAt": 1784107680000,
       "latestPublishedAt": 1784107680000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -2523,8 +2522,8 @@
       ],
       "earliestPublishedAt": 1784107500000,
       "latestPublishedAt": 1784107500000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -2603,8 +2602,8 @@
       ],
       "earliestPublishedAt": 1784107200000,
       "latestPublishedAt": 1784107200000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -2824,8 +2823,8 @@
       ],
       "earliestPublishedAt": 1784105640000,
       "latestPublishedAt": 1784105640000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -2888,8 +2887,8 @@
       ],
       "earliestPublishedAt": 1784105520000,
       "latestPublishedAt": 1784105520000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -2956,8 +2955,8 @@
       ],
       "earliestPublishedAt": 1784105520000,
       "latestPublishedAt": 1784105520000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3024,8 +3023,8 @@
       ],
       "earliestPublishedAt": 1784105460000,
       "latestPublishedAt": 1784105460000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3089,8 +3088,8 @@
       ],
       "earliestPublishedAt": 1784105280000,
       "latestPublishedAt": 1784105280000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3160,8 +3159,8 @@
       ],
       "earliestPublishedAt": 1784105220000,
       "latestPublishedAt": 1784105220000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3225,8 +3224,8 @@
       ],
       "earliestPublishedAt": 1784104800000,
       "latestPublishedAt": 1784104800000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3323,8 +3322,8 @@
       ],
       "earliestPublishedAt": 1784104380000,
       "latestPublishedAt": 1784104380000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3384,8 +3383,8 @@
       ],
       "earliestPublishedAt": 1784104200000,
       "latestPublishedAt": 1784104200000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3497,8 +3496,8 @@
       ],
       "earliestPublishedAt": 1784103660000,
       "latestPublishedAt": 1784103660000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3599,8 +3598,8 @@
       ],
       "earliestPublishedAt": 1784102940000,
       "latestPublishedAt": 1784123220000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3663,8 +3662,8 @@
       ],
       "earliestPublishedAt": 1784102880000,
       "latestPublishedAt": 1784102880000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3731,8 +3730,8 @@
       ],
       "earliestPublishedAt": 1784102640000,
       "latestPublishedAt": 1784102640000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3839,8 +3838,8 @@
       ],
       "earliestPublishedAt": 1784102520000,
       "latestPublishedAt": 1784102520000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -3904,8 +3903,8 @@
       ],
       "earliestPublishedAt": 1784102280000,
       "latestPublishedAt": 1784102280000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -4244,8 +4243,8 @@
       ],
       "earliestPublishedAt": 1784100600000,
       "latestPublishedAt": 1784100600000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -4830,8 +4829,8 @@
       ],
       "earliestPublishedAt": 1784098200000,
       "latestPublishedAt": 1784098200000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -5179,8 +5178,8 @@
       ],
       "earliestPublishedAt": 1784096880000,
       "latestPublishedAt": 1784096880000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -5297,7 +5296,7 @@
     "id": "item_295a224c7ff1b5c5",
     "type": "news",
     "title": "'절차위반' 확인됐지만…정몽규 처벌, 혐의입증 '높은 벽'",
-    "summary": "이러한 경찰 수사와는 별개로 문화체육관광부는 이미 지난 2024년 11월 감사 를 통해 축구협회 의 구체적인 행정 절차 위반을 지적한 바 있다. 당시 문체부 는 규정상 추천 권한이 없는 이임생 전 기술총괄이사가 홍 전 감독을...",
+    "summary": "이러한 경찰 수사와는 별개로 문화체육관광부는 이미 지난 2024년 11월 감사 를 통해 축구협회의 구체적인 행정 절차 위반을 지적한 바 있다. 당시 문체부는 규정상 추천 권한이 없는 이임생 전 기술총괄이사가 홍 전 감독을...",
     "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=04480486645514848",
     "originalUrl": "https://www.edaily.co.kr/news/newspath.asp?newsid=04480486645514848",
     "publisher": "edaily.co.kr",
@@ -5362,8 +5361,8 @@
       ],
       "earliestPublishedAt": 1784095920000,
       "latestPublishedAt": 1784095920000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -5477,8 +5476,8 @@
       ],
       "earliestPublishedAt": 1784095320000,
       "latestPublishedAt": 1784095320000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -5599,8 +5598,8 @@
       ],
       "earliestPublishedAt": 1784094480000,
       "latestPublishedAt": 1784094480000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -5725,8 +5724,8 @@
       ],
       "earliestPublishedAt": 1784093880000,
       "latestPublishedAt": 1784093880000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
@@ -5941,8 +5940,8 @@
       ],
       "earliestPublishedAt": 1784088720000,
       "latestPublishedAt": 1784088720000,
-      "representativeCollectedAt": 1785214056196,
-      "latestCollectedAt": 1785214056196
+      "representativeCollectedAt": 1785225958564,
+      "latestCollectedAt": 1785225958564
     }
   },
   {
