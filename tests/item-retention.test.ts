@@ -4,10 +4,12 @@ import assert from "node:assert/strict";
 import {
   DEFAULT_ITEM_RETENTION_DAYS,
   DEFAULT_MAX_RETAINED_ITEMS,
+  DEFAULT_MAX_RETAINED_SECONDARY_ITEMS,
   DEFAULT_MAX_RETAINED_YOUTUBE_ITEMS,
   applyItemRetentionPolicy,
   getItemRetentionDays,
   getMaxRetainedItems,
+  getMaxRetainedSecondaryItems,
   getMaxRetainedYouTubeItems,
   isPublishedAtWithinRetention
 } from "../lib/item-retention";
@@ -132,6 +134,78 @@ describe("item retention", () => {
     assert.deepEqual(
       new Set(retained.map((record) => record.id)),
       new Set(["news-new", "youtube_video-new"])
+    );
+  });
+
+  it("keeps a secondary cap so secondary items cannot crowd out primary ones", () => {
+    const secondary = (id: string, publishedAt: string): RadarItem => ({
+      ...item(id, publishedAt),
+      relevanceTier: "secondary"
+    });
+    const retained = applyItemRetentionPolicy(
+      [
+        // Newer than every primary item, so a single shared cap would keep these
+        // and drop the older primary ones instead.
+        secondary("secondary-1", "2026-07-09T04:00:00.000Z"),
+        secondary("secondary-2", "2026-07-09T03:00:00.000Z"),
+        secondary("secondary-3", "2026-07-09T02:00:00.000Z"),
+        item("primary-1", "2026-07-09T01:00:00.000Z"),
+        item("primary-2", "2026-07-09T00:00:00.000Z")
+      ],
+      {
+        now: new Date("2026-07-09T05:00:00.000Z"),
+        retentionDays: 90,
+        maxItems: 2,
+        maxSecondaryItems: 1
+      }
+    );
+
+    assert.deepEqual(
+      new Set(retained.map((record) => record.id)),
+      new Set(["primary-1", "primary-2", "secondary-1"])
+    );
+  });
+
+  it("budgets official items as primary even when tagged secondary", () => {
+    const official: RadarItem = {
+      ...item("official-old", "2026-07-09T00:00:00.000Z"),
+      type: "official",
+      sourceType: "official",
+      isOfficial: true,
+      relevanceTier: "secondary"
+    };
+    const retained = applyItemRetentionPolicy(
+      [
+        { ...item("secondary-new", "2026-07-09T04:00:00.000Z"), relevanceTier: "secondary" },
+        official
+      ],
+      {
+        now: new Date("2026-07-09T05:00:00.000Z"),
+        retentionDays: 90,
+        maxItems: 1,
+        maxSecondaryItems: 1
+      }
+    );
+
+    assert.deepEqual(
+      new Set(retained.map((record) => record.id)),
+      new Set(["official-old", "secondary-new"])
+    );
+  });
+
+  it("uses bounded defaults for the secondary cap", () => {
+    assert.equal(
+      getMaxRetainedSecondaryItems(undefined),
+      DEFAULT_MAX_RETAINED_SECONDARY_ITEMS
+    );
+    assert.equal(getMaxRetainedSecondaryItems("300"), 300);
+    assert.equal(
+      getMaxRetainedSecondaryItems("0"),
+      DEFAULT_MAX_RETAINED_SECONDARY_ITEMS
+    );
+    assert.equal(
+      getMaxRetainedSecondaryItems("999999"),
+      DEFAULT_MAX_RETAINED_SECONDARY_ITEMS
     );
   });
 });

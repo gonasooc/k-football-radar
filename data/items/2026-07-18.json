@@ -480,7 +480,24 @@
     "relevanceScore": 23,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ytn.co.kr/_ln/0103_202607190629318119",
+        "https://www.ytn.co.kr/_ln/0103_202607192228358565"
+      ],
+      "stories": [
+        "news|news|경찰, '홍명보 논란' 사실상 재수사?...연일 관계자 소환|ytn.co.kr|2026-07-18T21:29:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|경찰, '홍명보 논란' 사실상 재수사?...연일 관계자 소환|ytn.co.kr"
+      ],
+      "earliestPublishedAt": 1784410140000,
+      "latestPublishedAt": 1784410140000,
+      "representativeCollectedAt": 1784410440944,
+      "latestCollectedAt": 1784410440944
+    }
   },
   {
     "id": "item_92455347b5414109",

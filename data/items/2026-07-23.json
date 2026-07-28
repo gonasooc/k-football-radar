@@ -1143,7 +1143,24 @@
     "relevanceScore": 26,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008672176&plink=ORI",
+        "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008672553&plink=ORI"
+      ],
+      "stories": [
+        "news|news|축구협회장 선거, '최대 8개월까지'로 기한 연장|news.sbs.co.kr|2026-07-23T12:38:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회장 선거, '최대 8개월까지'로 기한 연장|news.sbs.co.kr"
+      ],
+      "earliestPublishedAt": 1784810280000,
+      "latestPublishedAt": 1784810280000,
+      "representativeCollectedAt": 1784812367464,
+      "latestCollectedAt": 1784812367464
+    }
   },
   {
     "id": "item_3096696cb06ff78b",

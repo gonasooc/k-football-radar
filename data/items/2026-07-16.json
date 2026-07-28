@@ -1499,7 +1499,24 @@
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8613109&ref=A",
+        "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8613332&ref=A"
+      ],
+      "stories": [
+        "news|news|“박지성, 이영표가 인생을 얼마나 살았어?…정 회장은 13년 간 ‘희생’...|news.kbs.co.kr|2026-07-16T12:53:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“박지성, 이영표가 인생을 얼마나 살았어?…정 회장은 13년 간 ‘희생’...|news.kbs.co.kr"
+      ],
+      "earliestPublishedAt": 1784206380000,
+      "latestPublishedAt": 1784206380000,
+      "representativeCollectedAt": 1784213209701,
+      "latestCollectedAt": 1784213209701
+    }
   },
   {
     "id": "item_b9a1cb9ae2d564df",
@@ -2912,7 +2929,24 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 31,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ytn.co.kr/_ln/0107_202607161907134293",
+        "https://www.ytn.co.kr/_ln/0107_202607162250236521"
+      ],
+      "stories": [
+        "news|news|대한체육회, 직선제 위한 정관 개정...축구협회장 선거도 영향|ytn.co.kr|2026-07-16T10:07:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한체육회, 직선제 위한 정관 개정...축구협회장 선거도 영향|ytn.co.kr"
+      ],
+      "earliestPublishedAt": 1784196420000,
+      "latestPublishedAt": 1784196420000,
+      "representativeCollectedAt": 1784203769493,
+      "latestCollectedAt": 1784203769493
+    }
   },
   {
     "id": "item_85dfb60dd69d5c1a",
@@ -8442,12 +8476,12 @@
     ]
   },
   {
-    "id": "item_4de274cd619d1713",
+    "id": "item_ead1c88f23fd372a",
     "type": "news",
     "title": "문체위, 축협 청문회 순연키로...\"여야 참여 추진\"",
     "summary": "국회 문화체육관광위원회가 오는 22일 개최하기로 한 대한축구협회 청문회를 늦추기로 했습니다. 더불어민주당 소속 문체위원들은 오늘(16일) 보도자료에서 국민의힘의 참여를 거듭 요청했지만, 현재까지 응하지 않고...",
-    "url": "https://www.ytn.co.kr/_ln/0101_202607162250318663",
-    "originalUrl": "https://www.ytn.co.kr/_ln/0101_202607162250318663",
+    "url": "https://www.ytn.co.kr/_ln/0101_202607161354037194",
+    "originalUrl": "https://www.ytn.co.kr/_ln/0101_202607161354037194",
     "publisher": "ytn.co.kr",
     "publishedAt": "2026-07-16T04:54:00.000Z",
     "collectedAt": "2026-07-16T07:09:54.989Z",
@@ -8464,7 +8498,24 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 23,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ytn.co.kr/_ln/0101_202607161354037194",
+        "https://www.ytn.co.kr/_ln/0101_202607162250318663"
+      ],
+      "stories": [
+        "news|news|문체위, 축협 청문회 순연키로...\"여야 참여 추진\"|ytn.co.kr|2026-07-16T04:54:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|문체위, 축협 청문회 순연키로...\"여야 참여 추진\"|ytn.co.kr"
+      ],
+      "earliestPublishedAt": 1784177640000,
+      "latestPublishedAt": 1784177640000,
+      "representativeCollectedAt": 1784185794989,
+      "latestCollectedAt": 1784185794989
+    }
   },
   {
     "id": "item_3252f364d3e1237a",
