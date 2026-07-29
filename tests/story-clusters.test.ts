@@ -14,7 +14,11 @@ import {
 } from "../lib/story-clusters";
 import {
   createStorySimilarityModel,
-  normalizeStoryText
+  createStorySimilarityModels,
+  memoizeStorySimilarityModel,
+  normalizeStoryText,
+  type StorySimilarityModel,
+  type StoryTextFields
 } from "../lib/story-similarity";
 
 function item(
@@ -1074,5 +1078,84 @@ describe("YouTube story clustering", () => {
       newsOnly.clusters
     );
     assert.equal(combined.clusters.length, newsOnly.clusters.length + 1);
+  });
+});
+
+describe("story similarity memoization", () => {
+  const corpus: StoryTextFields[] = [
+    { title: "축구협회 청문회 연기 결정", summary: "국회 문체위가 청문회 일정을 다시 잡았다" },
+    { title: "청문회 연기 결정에 반발", summary: "시민단체가 일정 변경에 반발했다" },
+    { title: "대표팀 감독 선임 절차 공개", summary: "전력강화위원회가 선임 절차를 공개했다" }
+  ];
+
+  function countingModel(model: StorySimilarityModel): {
+    model: StorySimilarityModel;
+    calls: () => number;
+  } {
+    let calls = 0;
+    return {
+      model: {
+        compare(left, right) {
+          calls += 1;
+          return model.compare(left, right);
+        }
+      },
+      calls: () => calls
+    };
+  }
+
+  it("scores a reversed pair the same as the original", () => {
+    const model = createStorySimilarityModel(corpus);
+
+    for (const left of corpus) {
+      for (const right of corpus) {
+        assert.deepEqual(
+          model.compare(left, right),
+          model.compare(right, left),
+          `${left.title} vs ${right.title} is not symmetric`
+        );
+      }
+    }
+  });
+
+  it("compares a pair of items once and answers both directions with it", () => {
+    const counted = countingModel(createStorySimilarityModel(corpus));
+    const memoized = memoizeStorySimilarityModel(counted.model);
+    const [left, right] = [corpus[0]!, corpus[1]!];
+    const expected = createStorySimilarityModel(corpus).compare(left, right);
+
+    assert.deepEqual(memoized.compare(left, right), expected);
+    assert.equal(counted.calls(), 1);
+    assert.deepEqual(memoized.compare(left, right), expected);
+    assert.deepEqual(memoized.compare(right, left), expected);
+    assert.equal(counted.calls(), 1);
+  });
+
+  it("keeps separate entries for items that only share their text", () => {
+    const counted = countingModel(createStorySimilarityModel(corpus));
+    const memoized = memoizeStorySimilarityModel(counted.model);
+    const [left, right] = [corpus[0]!, corpus[1]!];
+
+    const first = memoized.compare(left, right);
+    const copied = memoized.compare({ ...left }, right);
+
+    assert.deepEqual(copied, first);
+    assert.equal(counted.calls(), 2);
+  });
+
+  it("serves feed models memoized so repeated requests reuse their comparisons", () => {
+    const items = corpus.map((fields, index) => ({
+      ...fields,
+      sourceType: index === 2 ? "youtube" : "news"
+    }));
+    const models = createStorySimilarityModels(items);
+
+    for (const model of [models.news, models.youtube]) {
+      assert.equal(
+        model.compare(items[0]!, items[1]!),
+        model.compare(items[0]!, items[1]!),
+        "a memoized model must hand back the comparison it already made"
+      );
+    }
   });
 });

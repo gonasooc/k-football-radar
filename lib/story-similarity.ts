@@ -154,15 +154,63 @@ export function createStorySimilarityModel(
   };
 }
 
+/**
+ * Remembers a comparison per pair of item objects. Ranking story representatives
+ * compares the same members again for every request, and one snapshot hands out
+ * one object per stored item, so identity is a safe key: the entries drop with
+ * the snapshot that created them. Weighted Dice is symmetric, so one computed
+ * pair answers both directions.
+ */
+export function memoizeStorySimilarityModel(
+  model: StorySimilarityModel
+): StorySimilarityModel {
+  const comparisons = new WeakMap<
+    StoryTextFields,
+    WeakMap<StoryTextFields, StorySimilarity>
+  >();
+
+  function remember(
+    left: StoryTextFields,
+    right: StoryTextFields,
+    similarity: StorySimilarity
+  ): void {
+    const known = comparisons.get(left);
+    if (known) {
+      known.set(right, similarity);
+      return;
+    }
+    comparisons.set(left, new WeakMap([[right, similarity]]));
+  }
+
+  return {
+    compare(left, right) {
+      const cached = comparisons.get(left)?.get(right);
+      if (cached) {
+        return cached;
+      }
+
+      const similarity = model.compare(left, right);
+      remember(left, right, similarity);
+      remember(right, left, similarity);
+      return similarity;
+    }
+  };
+}
+
+/**
+ * Feed models are memoized: they compare stored items, which keep their identity
+ * for as long as the snapshot does. The collector builds single models directly
+ * because it compares freshly derived text objects that never repeat.
+ */
 export function createStorySimilarityModels<
   T extends StoryTextFields & { sourceType: string }
 >(items: readonly T[]): StorySimilarityModels {
   return {
-    news: createStorySimilarityModel(
-      items.filter((item) => item.sourceType === "news")
+    news: memoizeStorySimilarityModel(
+      createStorySimilarityModel(items.filter((item) => item.sourceType === "news"))
     ),
-    youtube: createStorySimilarityModel(
-      items.filter((item) => item.sourceType === "youtube")
+    youtube: memoizeStorySimilarityModel(
+      createStorySimilarityModel(items.filter((item) => item.sourceType === "youtube"))
     )
   };
 }

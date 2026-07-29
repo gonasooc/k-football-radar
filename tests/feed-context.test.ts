@@ -7,6 +7,7 @@ import { getFeedPage } from "../lib/feed-page";
 import { getFeedContentRevision } from "../lib/feed-snapshot";
 import { defaultFeedFilters, type FeedItem } from "../lib/filter";
 import type { StoryClusterFile } from "../lib/schema";
+import { createStorySimilarityModel } from "../lib/story-similarity";
 
 const emptyClusters: StoryClusterFile = { version: 1, clusters: [] };
 
@@ -54,6 +55,39 @@ describe("feed context", () => {
         }),
         getFeedPage(items, filters, { storyClusters: data.storyClusters }),
         `${label} feed page changed when the similarity models were cached`
+      );
+    }
+  });
+
+  it("ranks representatives the same way with and without the comparison memo", async () => {
+    const data = await getDataBundle();
+    const { editorialFeedItems, feedItems, similarityModels } = getFeedContext(data);
+    // Rebuilding the models item by item is what the memo replaces, so the two
+    // must stay interchangeable: only the number of comparisons may differ.
+    const unmemoizedModels = {
+      news: createStorySimilarityModel(
+        feedItems.filter((item) => item.sourceType === "news")
+      ),
+      youtube: createStorySimilarityModel(
+        feedItems.filter((item) => item.sourceType === "youtube")
+      )
+    };
+
+    for (const [label, items, filters] of [
+      ["editorial", editorialFeedItems, defaultFeedFilters],
+      ["all", feedItems, { ...defaultFeedFilters, scope: "all" as const }],
+      ["youtube", feedItems, { ...defaultFeedFilters, type: "youtube" as const }]
+    ] as const) {
+      assert.deepEqual(
+        getFeedPage(items, filters, {
+          storyClusters: data.storyClusters,
+          similarityModels
+        }),
+        getFeedPage(items, filters, {
+          storyClusters: data.storyClusters,
+          similarityModels: unmemoizedModels
+        }),
+        `${label} feed page changed when comparisons were memoized`
       );
     }
   });

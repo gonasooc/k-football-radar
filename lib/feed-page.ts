@@ -128,7 +128,7 @@ function getTitleSummaryOverlap(item: FeedItem): number {
   return tokens.filter((token) => summary.includes(token)).length / tokens.length;
 }
 
-function getCompleteness(item: FeedItem): number {
+function measureCompleteness(item: FeedItem): number {
   const normalizedTitle = item.title.normalize("NFKC").trim();
   const hasCompleteTitle = !/(?:\.{2,}|…+)\s*$/u.test(normalizedTitle);
   const summaryLength = Array.from(item.summary.normalize("NFKC").trim()).length;
@@ -138,6 +138,22 @@ function getCompleteness(item: FeedItem): number {
     0.3 * getTitleSummaryOverlap(item) +
     0.3 * Math.min(summaryLength / 120, 1)
   );
+}
+
+// Completeness depends only on the item's own text, so it is measured once per
+// item object and reused for every later request. Like the similarity memo, the
+// entries drop with the snapshot that created the items.
+const completenessByItem = new WeakMap<FeedItem, number>();
+
+function getCompleteness(item: FeedItem): number {
+  const cached = completenessByItem.get(item);
+  if (cached !== undefined) {
+    return cached;
+  }
+
+  const completeness = measureCompleteness(item);
+  completenessByItem.set(item, completeness);
+  return completeness;
 }
 
 function chooseRepresentative(
