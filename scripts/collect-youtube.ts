@@ -712,9 +712,6 @@ export async function collectYouTubeRun({
         succeeded += 1;
         for (const result of response.items) {
           if (blockedChannelIds.has(result.snippet.channelId)) continue;
-          if (result.snippet.liveBroadcastContent && result.snippet.liveBroadcastContent !== "none") {
-            continue;
-          }
           observeVideo(observations, result.id.videoId, query.query);
         }
         pageToken = response.nextPageToken;
@@ -766,13 +763,6 @@ export async function collectYouTubeRun({
         const thumbnail = chooseThumbnail(video.snippet.thumbnails);
         if (!observation || !thumbnail) return undefined;
         if (
-          video.snippet.liveBroadcastContent &&
-          video.snippet.liveBroadcastContent !== "none"
-        ) {
-          return undefined;
-        }
-        if (video.liveStreamingDetails) return undefined;
-        if (
           video.status?.privacyStatus &&
           video.status.privacyStatus !== "public"
         ) {
@@ -780,7 +770,8 @@ export async function collectYouTubeRun({
         }
         if (
           video.status?.uploadStatus &&
-          video.status.uploadStatus !== "processed"
+          video.status.uploadStatus !== "processed" &&
+          video.status.uploadStatus !== "uploaded"
         ) {
           return undefined;
         }

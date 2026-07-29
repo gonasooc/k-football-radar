@@ -146,7 +146,7 @@ describe("YouTube duration parsing", () => {
 });
 
 describe("YouTube collector", () => {
-  it("excludes confirmed Shorts and live-origin videos while keeping regular videos", async () => {
+  it("excludes confirmed Shorts while keeping scheduled, active, and completed live videos", async () => {
     const requestedUrls: URL[] = [];
     const fetchImpl = async (input: string | URL | Request): Promise<Response> => {
       const url = new URL(typeof input === "string" || input instanceof URL ? input : input.url);
@@ -158,6 +158,7 @@ describe("YouTube collector", () => {
             { id: { videoId: "short-video" }, snippet: snippet({ title: "대한축구협회 회장 선거 Shorts" }) },
             { id: { videoId: "regular-video" }, snippet: snippet({ title: "대한축구협회 회장 선거 분석" }) },
             { id: { videoId: "live-now" }, snippet: snippet({ title: "대한축구협회 생중계", liveBroadcastContent: "live" }) },
+            { id: { videoId: "upcoming-live" }, snippet: snippet({ title: "대한축구협회 회장 선거 생중계 예정", liveBroadcastContent: "upcoming" }) },
             { id: { videoId: "past-live" }, snippet: snippet({ title: "대한축구협회 회장 선거 다시보기" }) }
           ]
         });
@@ -177,6 +178,30 @@ describe("YouTube collector", () => {
             snippet: snippet({ title: "대한축구협회 회장 선거 분석" }),
             contentDetails: { duration: "PT12M34S" },
             status: { uploadStatus: "processed", privacyStatus: "public" }
+          },
+          {
+            id: "live-now",
+            snippet: snippet({
+              title: "대한축구협회 생중계",
+              liveBroadcastContent: "live"
+            }),
+            contentDetails: { duration: "PT0S" },
+            status: { uploadStatus: "uploaded", privacyStatus: "public" },
+            liveStreamingDetails: {
+              actualStartTime: "2026-07-16T01:00:00.000Z"
+            }
+          },
+          {
+            id: "upcoming-live",
+            snippet: snippet({
+              title: "대한축구협회 회장 선거 생중계 예정",
+              liveBroadcastContent: "upcoming"
+            }),
+            contentDetails: { duration: "PT0S" },
+            status: { uploadStatus: "uploaded", privacyStatus: "public" },
+            liveStreamingDetails: {
+              scheduledStartTime: "2026-07-18T01:00:00.000Z"
+            }
           },
           {
             id: "past-live",
@@ -218,11 +243,16 @@ describe("YouTube collector", () => {
     assert.equal(result.failed, 0);
     assert.deepEqual(
       new Set(result.items.map((item) => item.id)),
-      new Set(["youtube_regular-video"])
+      new Set([
+        "youtube_regular-video",
+        "youtube_live-now",
+        "youtube_upcoming-live",
+        "youtube_past-live"
+      ])
     );
     assert.deepEqual(
       result.items.map((item) => item.youtube?.durationSeconds).sort((left, right) => (left ?? 0) - (right ?? 0)),
-      [754]
+      [0, 0, 754, 3720]
     );
     assert.equal(result.items.every((item) => item.sourceType === "youtube"), true);
     assert.equal(result.items.every((item) => item.issueTags.includes("election")), true);
@@ -231,6 +261,9 @@ describe("YouTube collector", () => {
     assert.equal(result.unknownFormats, 0);
     assert.equal(result.formatCache.entries["short-video"]?.classification, "shorts");
     assert.equal(result.formatCache.entries["regular-video"]?.classification, "regular");
+    assert.equal(result.formatCache.entries["live-now"]?.classification, "regular");
+    assert.equal(result.formatCache.entries["upcoming-live"]?.classification, "regular");
+    assert.equal(result.formatCache.entries["past-live"]?.classification, "regular");
 
     const searchUrl = requestedUrls.find((url) => url.pathname.endsWith("/search"));
     assert.ok(searchUrl);
