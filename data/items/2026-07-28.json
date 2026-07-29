@@ -157,6 +157,22 @@
     "relevanceScore": 6,
     "relevanceTier": "secondary",
     "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=aNUfAX19wQU"
+      ],
+      "stories": [
+        "youtube|youtube|[단독] 북중미 월드컵 참관단, 4년 전보다 두 배 펑펑 쓰고도 보고서도 안 냈다 [굿모닝 mbn]|mbn news|2026-07-28T23:51:24Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|[단독] 북중미 월드컵 참관단, 4년 전보다 두 배 펑펑 쓰고도 보고서도 안 냈다 [굿모닝 mbn]|mbn news"
+      ],
+      "earliestPublishedAt": 1785282684000,
+      "latestPublishedAt": 1785282684000,
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
+    },
     "youtube": {
       "videoId": "aNUfAX19wQU",
       "channelId": "UCG9aFJTZ-lMCHAiO1KJsirg",
@@ -222,6 +238,22 @@
     "labels": [
       "인물 언급"
     ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=3BfGNy0MNB8"
+      ],
+      "stories": [
+        "youtube|youtube|정몽규·홍명보, 축협 청문회 나온다…이임생은 \"법률대리인 보낼게\" [굿모닝 mbn]|mbn news|2026-07-28T23:50:04Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|정몽규·홍명보, 축협 청문회 나온다…이임생은 \"법률대리인 보낼게\" [굿모닝 mbn]|mbn news"
+      ],
+      "earliestPublishedAt": 1785282604000,
+      "latestPublishedAt": 1785282604000,
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
+    },
     "youtube": {
       "videoId": "3BfGNy0MNB8",
       "channelId": "UCG9aFJTZ-lMCHAiO1KJsirg",
@@ -246,6 +278,79 @@
         "height": 720
       },
       "durationSeconds": 134
+    }
+  },
+  {
+    "id": "youtube_sblu-nVB53w",
+    "type": "youtube",
+    "title": "이임생 청문회 불참 공식 선언… 책임지겠다면서 캄보디아로 도망친 한국축구 최악의 주범, 대리인으로 때우겠다고? 팬들 분노 폭발",
+    "summary": "이임생 기술총괄이 국회 청문회 불참 의사를 공식적으로 밝히면서 한국 축구계가 또다시 거센 논란에 휩싸였습니다. 책임을 피하지 않겠다고 말했던 인물이 캄보디아 일정과 대리인 출석을 이유로 청문회에 모습을 드러내지 않겠다고 하자, 축구 팬들의 분노는 폭발하고 있습니다. 과연 이번 불참 결정은 불가피한 선택일까요, 아니면 책임 회피를 위한 도피성 행보일까요? 한국 축구 행정의 문제점과 청문회를 둘러싼 핵심 쟁점, 팬들이 분노하는 진짜 이유를 영상에서 자세히 살펴봅니다. 영상이 유익하셨다면 좋아요와 구독, 알림 설정 부탁드립니다. 여러분의 의견도 댓글로 남겨주세요. #이임생 #청문회 #한국축구 #대한축구협회 #축구협회 #캄보디아 #청문회불참 #한국축구논란 #축구계논란 #정몽규 #홍명보 #국가대표 #축구뉴스 #스포...",
+    "url": "https://www.youtube.com/watch?v=sblu-nVB53w",
+    "originalUrl": "https://www.youtube.com/watch?v=sblu-nVB53w",
+    "publisher": "Sports 축구인사이트",
+    "publishedAt": "2026-07-28T23:46:28Z",
+    "collectedAt": "2026-07-29T12:24:43.585Z",
+    "matchedKeywords": [
+      "이임생",
+      "청문회",
+      "대한축구협회",
+      "정몽규",
+      "홍명보",
+      "이임생 기술총괄"
+    ],
+    "discoveryQueries": [
+      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_lee_im_saeng",
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "youtube",
+    "isOfficial": false,
+    "relevanceScore": 30,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ],
+    "youtube": {
+      "videoId": "sblu-nVB53w",
+      "channelId": "UCEcWcXR8CPThdn2W3vTdbmw",
+      "channelStatus": "unlisted",
+      "contentRelevanceTier": "primary",
+      "tags": [
+        "이임생",
+        "이임생 청문회",
+        "이임생 청문회 불참",
+        "이임생 캄보디아",
+        "한국축구 청문회",
+        "대한축구협회",
+        "축구협회 논란",
+        "한국축구 논란",
+        "정몽규",
+        "홍명보",
+        "국회 청문회",
+        "축구협회 청문회",
+        "캄보디아 도피 논란",
+        "청문회 불참 논란",
+        "한국 축구 행정",
+        "국가대표팀",
+        "축구 뉴스",
+        "스포츠 뉴스",
+        "KFA",
+        "손흥민",
+        "Son Heung Min",
+        "Son Heung-min",
+        "Korean football",
+        "Korea football news"
+      ],
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/sblu-nVB53w/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "durationSeconds": 1704
     }
   },
   {
@@ -1016,6 +1121,22 @@
     "labels": [
       "인물 언급"
     ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=v_jBWGeFlN0"
+      ],
+      "stories": [
+        "youtube|youtube|홍명보 법카 [키워드 now] [뉴스퍼레이드]|뉴스tvchosun|2026-07-28T23:23:00Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|홍명보 법카 [키워드 now] [뉴스퍼레이드]|뉴스tvchosun"
+      ],
+      "earliestPublishedAt": 1785280980000,
+      "latestPublishedAt": 1785280980000,
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
+    },
     "youtube": {
       "videoId": "v_jBWGeFlN0",
       "channelId": "UCWlV3Lz_55UaX4JsMj-z__Q",
@@ -1661,6 +1782,22 @@
     "labels": [
       "인물 언급"
     ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=MwpG19EQhr4"
+      ],
+      "stories": [
+        "youtube|youtube|\"결국 터졌다!\" 축구협회 전면 개혁 요구 폭발… 홍명보·정몽규 책임론 확산된 충격 이유|스포츠티비|2026-07-28T22:45:00Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|\"결국 터졌다!\" 축구협회 전면 개혁 요구 폭발… 홍명보·정몽규 책임론 확산된 충격 이유|스포츠티비"
+      ],
+      "earliestPublishedAt": 1785278700000,
+      "latestPublishedAt": 1785278700000,
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
+    },
     "youtube": {
       "videoId": "MwpG19EQhr4",
       "channelId": "UCAbpCEv2nWMUhfvOLBOMliw",
@@ -2451,6 +2588,22 @@
     "relevanceScore": 20,
     "relevanceTier": "secondary",
     "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=MDK0RWr4sug"
+      ],
+      "stories": [
+        "youtube|youtube|팬들이 직접 뽑는 시대 오나 대한축구협회 개혁|spoman|2026-07-28T21:49:05Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|팬들이 직접 뽑는 시대 오나 대한축구협회 개혁|spoman"
+      ],
+      "earliestPublishedAt": 1785275345000,
+      "latestPublishedAt": 1785275345000,
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
+    },
     "youtube": {
       "videoId": "MDK0RWr4sug",
       "channelId": "UCK5RVjKIY_htN0JGi5PQTYg",
@@ -3373,6 +3526,51 @@
       "latestPublishedAt": 1785270660000,
       "representativeCollectedAt": 1785327669390,
       "latestCollectedAt": 1785327669390
+    }
+  },
+  {
+    "id": "youtube_irBt620LRNE",
+    "type": "youtube",
+    "title": "[이슈] '홍명보 선임 주도' 이임생, 축구협회 청문회 불참…\"캄보디아 취업해 참석 어렵다\" | MBN NEWS",
+    "summary": "Copyright MBN. All rights reserved. 무단 전재, 재배포 및 AI학습 이용 금지 ☞ MBN 유튜브 구독하기 ☞ https://goo.gl/6ZsJGT 📢 MBN 유튜브 커뮤니티 https://www.youtube.com/user/mbn/community?disable_polymer=1 MBN 페이스북 http://www.facebook.com/mbntv MBN 인스타그램 https://www.instagram.com/mbn_news/",
+    "url": "https://www.youtube.com/watch?v=irBt620LRNE",
+    "originalUrl": "https://www.youtube.com/watch?v=irBt620LRNE",
+    "publisher": "MBN News",
+    "publishedAt": "2026-07-28T20:21:08Z",
+    "collectedAt": "2026-07-29T12:24:43.585Z",
+    "matchedKeywords": [
+      "축구협회",
+      "홍명보",
+      "이임생",
+      "청문회"
+    ],
+    "discoveryQueries": [
+      "\"대한축구협회\"|\"축구협회\"|\"KFA\"",
+      "\"문체부 감사\"|\"축구협회 감사\"|\"축구협회 해명\"|\"축구협회 청문회\"",
+      "channel:UCG9aFJTZ-lMCHAiO1KJsirg"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
+    ],
+    "sourceType": "youtube",
+    "isOfficial": false,
+    "relevanceScore": 31,
+    "labels": [
+      "인물 언급"
+    ],
+    "youtube": {
+      "videoId": "irBt620LRNE",
+      "channelId": "UCG9aFJTZ-lMCHAiO1KJsirg",
+      "channelStatus": "preferred",
+      "contentRelevanceTier": "primary",
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/irBt620LRNE/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "durationSeconds": 3606
     }
   },
   {
@@ -4346,6 +4544,47 @@
       "latestPublishedAt": 1785251280000,
       "representativeCollectedAt": 1785278628499,
       "latestCollectedAt": 1785278628499
+    }
+  },
+  {
+    "id": "youtube_3yv5SjN2QSA",
+    "type": "youtube",
+    "title": "[VAR라이브] 대한민국 축구협회와 비슷한 이탈리아 축구협회 감독 선임 난항 / 오현규 이적설 자꾸 나오는 이유 왜? 이탈리아노 감독과의 궁합은?",
+    "summary": "#오현규 #베식타스 #튀르키예 #대한축구협회 #코리안리거 #베티스 비즈니스 문의 bbjvar@footballdm.com 00:00 시작 2:45 인사 11:02 이탈리아 축구협회 감독 선임 난항 50:50 오현규 이적설 자꾸 나오는 이유 / 이탈리아노 감독과의 궁합은?",
+    "url": "https://www.youtube.com/watch?v=3yv5SjN2QSA",
+    "originalUrl": "https://www.youtube.com/watch?v=3yv5SjN2QSA",
+    "publisher": "브버지VAR",
+    "publishedAt": "2026-07-28T15:03:53Z",
+    "collectedAt": "2026-07-29T12:24:43.585Z",
+    "matchedKeywords": [
+      "축구협회",
+      "감독 선임",
+      "감독",
+      "선임",
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "channel:UC5Xy07jY1sa8kFQWtFYukoA"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "youtube",
+    "isOfficial": false,
+    "relevanceScore": 26,
+    "labels": [],
+    "youtube": {
+      "videoId": "3yv5SjN2QSA",
+      "channelId": "UC5Xy07jY1sa8kFQWtFYukoA",
+      "channelStatus": "preferred",
+      "contentRelevanceTier": "primary",
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/3yv5SjN2QSA/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "durationSeconds": 5095
     }
   },
   {
@@ -5713,8 +5952,8 @@
       ],
       "earliestPublishedAt": 1785241539000,
       "latestPublishedAt": 1785241539000,
-      "representativeCollectedAt": 1785296501338,
-      "latestCollectedAt": 1785296501338
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
     },
     "youtube": {
       "videoId": "H77xjZKQVxI",
@@ -5909,8 +6148,8 @@
       ],
       "earliestPublishedAt": 1785240168000,
       "latestPublishedAt": 1785240168000,
-      "representativeCollectedAt": 1785296501338,
-      "latestCollectedAt": 1785296501338
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
     },
     "youtube": {
       "videoId": "peV0ghetQQ0",
@@ -6211,8 +6450,8 @@
       ],
       "earliestPublishedAt": 1785237306000,
       "latestPublishedAt": 1785237306000,
-      "representativeCollectedAt": 1785296501338,
-      "latestCollectedAt": 1785296501338
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
     },
     "youtube": {
       "videoId": "9KUlxHAfvfw",
@@ -6617,8 +6856,8 @@
       ],
       "earliestPublishedAt": 1785234780000,
       "latestPublishedAt": 1785234780000,
-      "representativeCollectedAt": 1785296501338,
-      "latestCollectedAt": 1785296501338
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
     },
     "youtube": {
       "videoId": "f2rGFdf4AQ4",
@@ -7110,8 +7349,8 @@
       ],
       "earliestPublishedAt": 1785233783000,
       "latestPublishedAt": 1785233783000,
-      "representativeCollectedAt": 1785296501338,
-      "latestCollectedAt": 1785296501338
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
     },
     "youtube": {
       "videoId": "z06F78isR3M",
@@ -8692,8 +8931,8 @@
       ],
       "earliestPublishedAt": 1785226605000,
       "latestPublishedAt": 1785226605000,
-      "representativeCollectedAt": 1785296501338,
-      "latestCollectedAt": 1785296501338
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
     },
     "youtube": {
       "videoId": "Nqm9TlByLF8",
@@ -10176,8 +10415,8 @@
       ],
       "earliestPublishedAt": 1785223621000,
       "latestPublishedAt": 1785223621000,
-      "representativeCollectedAt": 1785296501338,
-      "latestCollectedAt": 1785296501338
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
     },
     "youtube": {
       "videoId": "wEPS5PYYoDY",
@@ -11302,8 +11541,8 @@
       ],
       "earliestPublishedAt": 1785221009000,
       "latestPublishedAt": 1785221009000,
-      "representativeCollectedAt": 1785296501338,
-      "latestCollectedAt": 1785296501338
+      "representativeCollectedAt": 1785327883585,
+      "latestCollectedAt": 1785327883585
     },
     "youtube": {
       "videoId": "bMInNRJsw9s",
