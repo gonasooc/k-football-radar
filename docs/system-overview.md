@@ -146,7 +146,9 @@ lib/feed-context.ts
 ```
 
 `lib/data.ts`와 `lib/remote-data.ts`는 snapshot의 길이, SHA-256과 Zod schema를 검증한다.
-정상 값은 60초 cache하며 R2 일시 장애 때는 마지막 정상 snapshot을 제공한다. 로컬 개발과
+정상 값은 60초 cache하며 R2 일시 장애 때는 마지막 정상 snapshot을 제공한다. 60초가 지난
+뒤 들어오는 요청은 가지고 있는 snapshot을 바로 받고 갱신은 그 뒤에서 진행하므로, R2 왕복을
+기다리는 요청은 서비스할 snapshot이 아직 없는 프로세스의 첫 요청뿐이다. 로컬 개발과
 테스트만 저장소의 `data/`를 직접 읽는다.
 
 `lib/feed-context.ts`는 화면 표시용 항목 목록, 페이지네이션 토큰, 뉴스·유튜브 유사도

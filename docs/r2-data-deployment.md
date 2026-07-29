@@ -80,11 +80,15 @@ K_FOOTBALL_RADAR_DATA_BASE_URL=https://data.k-football-radar.app
 byte 길이, SHA-256, object key, 수집 시각, Zod schema와 데이터 간 참조 무결성을 모두
 검증한 값만 cache한다.
 
-정상 snapshot은 프로세스 안에서 60초 cache한다. cache 갱신 때 R2가 일시적으로
-실패하면 마지막 정상 snapshot을 계속 제공하고 health 응답에 `stale: true`와 오류를
-표시한다. 프로세스 시작 후 첫 R2 요청부터 실패하면 `/api/health`는 503을 반환한다.
-60초마다 작은 `current.json`만 다시 확인하고 SHA-256이 달라졌을 때만 전체 snapshot을
-다시 내려받는다.
+정상 snapshot은 프로세스 안에서 60초 cache한다. 60초가 지난 뒤 들어오는 요청은 이미
+가지고 있는 snapshot을 바로 받고, 갱신은 그 요청 뒤에서 따로 진행한다. 새 snapshot은
+갱신이 끝난 다음 요청부터 보인다. 서비스할 snapshot이 아직 없는 프로세스의 첫 요청만
+R2 응답을 기다린다. 갱신은 작은 `current.json`만 다시 확인하고 SHA-256이 달라졌을 때만
+전체 snapshot을 다시 내려받으며, 30초 안에 응답이 없으면 중단한다.
+
+cache 갱신 때 R2가 일시적으로 실패하면 마지막 정상 snapshot을 계속 제공하고 health
+응답에 `stale: true`와 오류를 표시한다. 프로세스 시작 후 첫 R2 요청부터 실패하면
+`/api/health`는 503을 반환한다.
 
 ## 수집 실패와 복구
 

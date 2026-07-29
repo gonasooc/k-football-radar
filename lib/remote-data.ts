@@ -7,6 +7,10 @@ import type { DataBundle } from "./schema";
 
 const DEFAULT_CACHE_TTL_MS = 60_000;
 const FAILED_REFRESH_RETRY_MS = 30_000;
+// A refresh no longer blocks a request, so a hung connection would freeze the
+// served snapshot with nothing to notice it. The timeout turns that into an
+// ordinary failed refresh: reported through the status and retried.
+const REFRESH_TIMEOUT_MS = 30_000;
 
 type FetchImplementation = (
   input: string | URL | Request,
@@ -72,7 +76,8 @@ export function createRemoteDataLoader({
     try {
       const manifestResponse = await fetchImpl(new URL("current.json", normalizedBaseUrl), {
         cache: "no-store",
-        headers: { Accept: "application/json" }
+        headers: { Accept: "application/json" },
+        signal: AbortSignal.timeout(REFRESH_TIMEOUT_MS)
       });
       const manifest = dataSnapshotManifestSchema.parse(
         JSON.parse(await readResponse(manifestResponse, "R2 manifest")) as unknown
@@ -99,7 +104,8 @@ export function createRemoteDataLoader({
         new URL(manifest.objectKey, normalizedBaseUrl),
         {
           cache: "force-cache",
-          headers: { Accept: "application/json" }
+          headers: { Accept: "application/json" },
+          signal: AbortSignal.timeout(REFRESH_TIMEOUT_MS)
         }
       );
       const bundle = parseDataSnapshot(
@@ -134,14 +140,34 @@ export function createRemoteDataLoader({
     }
   }
 
-  async function getDataBundle(): Promise<DataBundle> {
-    if (cached && cached.expiresAt > now()) {
-      return cached.bundle;
-    }
+  function startRefresh(): Promise<DataBundle> {
     if (!inFlight) {
       inFlight = refresh();
     }
     return inFlight;
+  }
+
+  async function getDataBundle(): Promise<DataBundle> {
+    // Only the very first request has nothing to serve and has to wait for R2.
+    if (!cached) {
+      return startRefresh();
+    }
+
+    if (cached.expiresAt <= now()) {
+      // A refresh costs a round trip to R2 and, when the snapshot changed, a
+      // full download and parse. Handing back the snapshot already in memory
+      // keeps that off the request path; the next request sees the new one.
+      // refresh() only rejects when there is no cached snapshot to fall back
+      // on, and here there is one.
+      void startRefresh().catch(() => undefined);
+    }
+
+    return cached.bundle;
+  }
+
+  /** Resolves once a refresh started by getDataBundle has settled. */
+  async function whenRefreshed(): Promise<void> {
+    await inFlight?.catch(() => undefined);
   }
 
   function getStatus(): RemoteDataStatus {
@@ -154,5 +180,5 @@ export function createRemoteDataLoader({
     };
   }
 
-  return { getDataBundle, getStatus };
+  return { getDataBundle, getStatus, whenRefreshed };
 }

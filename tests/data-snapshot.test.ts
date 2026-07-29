@@ -137,12 +137,16 @@ describe("R2 data snapshots", () => {
     );
   });
 
-  it("caches a valid R2 snapshot and refreshes it after the TTL", async () => {
+  it("caches a valid R2 snapshot and revalidates it in the background after the TTL", async () => {
     const snapshot = serializeDataSnapshot(await getDataBundle());
     let now = 1_000;
     let requests = 0;
+    let blockedRefresh: Promise<void> | null = null;
     const fetchImpl = async (input: string | URL | Request): Promise<Response> => {
       requests += 1;
+      if (blockedRefresh) {
+        await blockedRefresh;
+      }
       const pathname = new URL(input instanceof Request ? input.url : input).pathname;
       if (pathname.endsWith("/current.json")) {
         return Response.json(snapshot.manifest);
@@ -165,10 +169,52 @@ describe("R2 data snapshots", () => {
     assert.strictEqual(cached, first);
 
     now += 1_001;
-    const refreshed = await loader.getDataBundle();
+    let releaseRefresh = () => undefined as void;
+    blockedRefresh = new Promise<void>((resolve) => {
+      releaseRefresh = resolve;
+    });
+    // The expired snapshot is served straight away even while R2 is still
+    // answering, so no request pays for the round trip.
+    const revalidating = await loader.getDataBundle();
+    assert.strictEqual(revalidating, first);
+
+    releaseRefresh();
+    blockedRefresh = null;
+    await loader.whenRefreshed();
     assert.equal(requests, 3);
-    assert.strictEqual(refreshed, first);
+    assert.strictEqual(await loader.getDataBundle(), first);
     assert.equal(loader.getStatus().stale, false);
+  });
+
+  it("starts one background refresh for every request that finds the cache expired", async () => {
+    const snapshot = serializeDataSnapshot(await getDataBundle());
+    let now = 1_000;
+    let manifestRequests = 0;
+    const fetchImpl = async (input: string | URL | Request): Promise<Response> => {
+      const pathname = new URL(input instanceof Request ? input.url : input).pathname;
+      if (pathname.endsWith("/current.json")) {
+        manifestRequests += 1;
+        return Response.json(snapshot.manifest);
+      }
+      return new Response(snapshot.body, { status: 200 });
+    };
+    const loader = createRemoteDataLoader({
+      baseUrl: "https://data.example.com",
+      cacheTtlMs: 1_000,
+      fetchImpl,
+      now: () => now
+    });
+
+    await loader.getDataBundle();
+    now += 1_001;
+    await Promise.all([
+      loader.getDataBundle(),
+      loader.getDataBundle(),
+      loader.getDataBundle()
+    ]);
+    await loader.whenRefreshed();
+
+    assert.equal(manifestRequests, 2);
   });
 
   it("downloads a new snapshot only when current.json changes", async () => {
@@ -204,11 +250,14 @@ describe("R2 data snapshots", () => {
       now: () => now
     });
 
-    await loader.getDataBundle();
+    const first = await loader.getDataBundle();
     currentSnapshot = secondSnapshot;
     now += 1_001;
+    const revalidating = await loader.getDataBundle();
+    await loader.whenRefreshed();
     const refreshed = await loader.getDataBundle();
 
+    assert.strictEqual(revalidating, first);
     assert.equal(requests, 4);
     assert.equal(
       refreshed.collectionState.lastCollectedAt,
@@ -242,10 +291,26 @@ describe("R2 data snapshots", () => {
     now += 1_001;
     fail = true;
     const stale = await loader.getDataBundle();
+    await loader.whenRefreshed();
 
     assert.strictEqual(stale, current);
     assert.equal(loader.getStatus().stale, true);
     assert.match(loader.getStatus().lastError ?? "", /status 503/);
     assert.equal(errors.length, 1);
+    // A failed background refresh must not take the served snapshot down with
+    // it: health reports the failure while the app keeps answering.
+    assert.strictEqual(await loader.getDataBundle(), current);
+  });
+
+  it("waits for R2 only when it has no snapshot to serve yet", async () => {
+    const loader = createRemoteDataLoader({
+      baseUrl: "https://data.example.com",
+      cacheTtlMs: 1_000,
+      fetchImpl: async () => new Response(null, { status: 503 }),
+      now: () => 1_000,
+      onRefreshError: () => undefined
+    });
+
+    await assert.rejects(loader.getDataBundle(), /status 503/);
   });
 });
