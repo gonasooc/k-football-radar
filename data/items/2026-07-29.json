@@ -97,7 +97,23 @@
     "relevanceScore": 47,
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.jtbc.co.kr/article/NB12310846?influxDiv=NAVER"
+      ],
+      "stories": [
+        "news|news|대한체육회, 축구협회장 선거 논란 방치…\"감사는 문체부가\"|news.jtbc.co.kr|2026-07-29T23:50:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한체육회, 축구협회장 선거 논란 방치…\"감사는 문체부가\"|news.jtbc.co.kr"
+      ],
+      "earliestPublishedAt": 1785369000000,
+      "latestPublishedAt": 1785369000000,
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
+    }
   },
   {
     "id": "item_ce9a4ba3e19fc430",
@@ -241,7 +257,7 @@
     "id": "item_7f400a3d26fda97f",
     "type": "news",
     "title": "김승수 \"축구협회 청문회 증인·참고인 11명 불출석…끝까지 책임 물을...",
-    "summary": "국가대표 감독 선임 의혹 등으로 촉발된 대한 축구협회 에 대한 국회 문화체육관광위원회 청문회를 앞두고 증인과 참고인 상당수가 불출석 사유서를 제출한 것으로 나타났다. 30일 김승수 국민의힘 의원(대구 북구을)과...",
+    "summary": "30일 김승수 국민의힘 의원(대구 북구을)과 축구계에 따르면 국회 문화체육관광위는 이날 오전 10시 정몽규 ... 그러면서 \"이번 청문회에 무성의한 사유로 불출석한 증인과 참고인에 대해서는 국정 감사 등을 통해 끝까지...",
     "url": "https://www.news1.kr/local/daegu-gyeongbuk/6243470",
     "originalUrl": "https://www.news1.kr/local/daegu-gyeongbuk/6243470",
     "publisher": "news1.kr",
@@ -250,10 +266,8 @@
     "matchedKeywords": [
       "축구협회",
       "청문회",
-      "대한 축구협회",
-      "감독 선임",
-      "감독",
-      "선임"
+      "정몽규",
+      "감사"
     ],
     "discoveryQueries": [
       "\"정몽규\" 감사",
@@ -270,14 +284,17 @@
       "축구협회 감사",
       "축구협회장"
     ],
-    "issueTags": [
-      "coach-appointment"
+    "issueTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
     ],
-    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
-    "labels": [],
+    "relevanceScore": 22,
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -291,8 +308,8 @@
       ],
       "earliestPublishedAt": 1785367680000,
       "latestPublishedAt": 1785367680000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -660,7 +677,7 @@
     "id": "item_94af945a769aca91",
     "type": "news",
     "title": "'북중미월드컵 참패+대국민 사과도 없었다!' 드디어 청문회 나서는 홍명...",
-    "summary": "이 자리에 정몽규 전 대한 축구협회 장과 홍명보 전 축구 대표팀 감독 이 증인으로 출석할 예정이다. 홍 감독 선임 에 결정적 역할을 한 이임생 전 기술총괄이사는 캄보디오 프로팀 취업으로 인해 청문회 참석이 어렵다는...",
+    "summary": "홍명보 전 대한민국 축구대표팀 감독이 청문회에 참석해 각종 의혹을 직접 해명 한다. 축구협회 국회... 홍 감독 선임에 결정적 역할을 한 이임생 전 기술총괄이사는 캄보디오 프로팀 취업으로 인해 청문회 참석이...",
     "url": "http://www.osen.co.kr/article/G1112848681",
     "originalUrl": "http://www.osen.co.kr/article/G1112848681",
     "publisher": "osen.co.kr",
@@ -668,13 +685,13 @@
     "collectedAt": "2026-07-29T23:42:16.738Z",
     "matchedKeywords": [
       "청문회",
-      "대한 축구협회",
+      "축구협회",
       "감독 선임",
       "감독",
       "선임",
-      "정몽규",
       "홍명보",
-      "이임생"
+      "이임생",
+      "해명"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -698,16 +715,16 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
       "person_hong_myung_bo",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 22,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -722,8 +739,8 @@
       ],
       "earliestPublishedAt": 1785366420000,
       "latestPublishedAt": 1785366420000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -803,7 +820,7 @@
     "id": "item_1910d5c76bc80636",
     "type": "news",
     "title": "홍명보 선임 주도→ \"내 결정 후회 없다\"던 이임생, 청문회 불출석 예고...",
-    "summary": "임정훈 기자 홍명보 전 한국 축구 대표팀 감독 선임 을 주도했던 이임생 전 대한축구협회(KFA) 기술이사가 다시 논란의 중심에 섰다. 이번에는 국회 청문회 불출석 가능성이다. 이임생 전 이사는 2024년 한국 축구대표팀 감독...",
+    "summary": "임정훈 기자 홍명보 전 한국 축구대표팀 감독 선임을 주도했던 이임생 전 대한축구협회( KFA ) 기술이사가 다시 논란의 중심에 섰다. 이번에는 국회 청문회 불출석 가능성이다. 이임생 전 이사는 2024년 한국 축구대표팀 감독...",
     "url": "https://www.besteleven.com/news/articleView.html?idxno=310549",
     "originalUrl": "https://www.besteleven.com/news/articleView.html?idxno=310549",
     "publisher": "besteleven.com",
@@ -863,8 +880,8 @@
       ],
       "earliestPublishedAt": 1785366000000,
       "latestPublishedAt": 1785366000000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -933,7 +950,7 @@
     "id": "item_23bcc733fc201db1",
     "type": "news",
     "title": "사상 최대 매출과 사상 최대 폭락, 아직 바닥을 확인하지 못했다: 슬로...",
-    "summary": "규정 을 위반했거나, 피고인에 대해 재판권이 없다고 판단되는 등의 경우에만 하도록 돼있다. 그런데 개정 ... 대한 축구협회 를 불러다 청문회를 연다. 김양희(한겨레 기자)는 “문제의 핵심을 찌르는 철저한 행정 검증과...",
+    "summary": "규정 을 위반했거나, 피고인에 대해 재판권이 없다고 판단되는 등의 경우에만 하게 돼있다. 그런데 개정 안... 대한 축구협회 를 불러다 청문회를 연다. 김양희(한겨레 기자)는 “문제의 핵심을 찌르는 철저한 행정 검증과...",
     "url": "https://slownews.kr/163974",
     "originalUrl": "https://slownews.kr/163974",
     "publisher": "slownews.kr",
@@ -970,8 +987,8 @@
       ],
       "earliestPublishedAt": 1785365640000,
       "latestPublishedAt": 1785365640000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -1327,7 +1344,7 @@
     "id": "item_ab84a6f7a6c32ffd",
     "type": "news",
     "title": "오늘 대한축구협회 청문회…정몽규·홍명보 출석 예정",
-    "summary": "오늘(30일) 국회에서는 대한축구협회 청문회가 열립니다. 정몽규 전 회장과 홍명보 전 감독 등이 출석할... 청문회에는 정몽규 전 축구협회 장과 이용수 부회장, 홍명보 전 축구 대표팀 감독 등이 출석합니다. 이임생 전...",
+    "summary": "정몽규 전 회장과 홍명보 전 감독 등이 출석할 예정인데요. 납득하기 어려웠던 월드컵 부진을 비롯해... 홍 전 감독을 독단적으로 선임했다는 의혹에 대해 이 전 이사는 2년 전 국회에서 울먹거리며 해명 하기도 했습니다....",
     "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5209102",
     "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5209102",
     "publisher": "mbn.co.kr",
@@ -1338,8 +1355,7 @@
       "정몽규",
       "홍명보",
       "청문회",
-      "부회장",
-      "이임생"
+      "해명"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1367,19 +1383,17 @@
       "축구협회 해명",
       "축구협회장"
     ],
-    "issueTags": [
-      "kfa-executives"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 62,
+    "relevanceScore": 49,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -1394,15 +1408,15 @@
       ],
       "earliestPublishedAt": 1785363780000,
       "latestPublishedAt": 1785363780000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
     "id": "item_06a33e42ad24a6bf",
     "type": "news",
     "title": "“자질부족”…박지성, ‘차기 축구협회장’ 거론에 내놓은 자평",
-    "summary": "전 축구 선수 박지성 이 차기 축구협회 장으로 거론되는 것에 대해 솔직한 심경을 고백했다. 29일 방송된 tvN ‘유 퀴즈 온 더 블럭’에는 최근에 K 축구 혁신위원장을 맡은 박지성 이 출연했다. 유재석은 “차기 축구협회 장...",
+    "summary": "29일 방송된 tvN ‘유 퀴즈 온 더 블럭’에는 최근에 K 축구 혁신위 원장을 맡은 박지성이 출연했다. 유재석은 “차기 축구협회장 후보로도 거론되고 있는데. 하면 또 잘 할 것 같다”고 말문을 열었다. 박지성은 “그게...",
     "url": "https://www.mk.co.kr/article/12111474",
     "originalUrl": "https://www.mk.co.kr/article/12111474",
     "publisher": "mk.co.kr",
@@ -1457,8 +1471,8 @@
       ],
       "earliestPublishedAt": 1785363720000,
       "latestPublishedAt": 1785363720000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -1712,15 +1726,14 @@
     "id": "item_533bbdea86361574",
     "type": "news",
     "title": "박지성, 신뢰 잃은 한국 축구에 경고…“기회 놓치면 영원히 똑같아”",
-    "summary": "혁신위원회 의 우선 과제는 축구협회 의 신뢰 회복이다. 협회 가 앞으로 어떤 미래를 그리고, 어떤 단계를 거쳐 변화를 만들어갈 것인지 구체적인 계획을 마련해 발표하는 것이 주된 목적이라고 설명했다. 한국 축구 의 새로운...",
+    "summary": "이번 월드컵은 이전 대회와 달리 출발부터 순탄하지 않았고, 대표팀 감독 선임 과정을 둘러싼 잡음이... 박지성이 변화의 전면에 나서자 축구협회 장 후보 로도 이름이 거론됐다. 그러나 그는 선수 시절의 명성과 대중적인...",
     "url": "https://www.mk.co.kr/article/12111457",
     "originalUrl": "https://www.mk.co.kr/article/12111457",
     "publisher": "mk.co.kr",
     "publishedAt": "2026-07-29T22:07:00.000Z",
     "collectedAt": "2026-07-29T22:39:07.457Z",
     "matchedKeywords": [
-      "박지성",
-      "혁신위원회"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 축구협회",
@@ -1734,15 +1747,13 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [
-      "innovation-committee"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 12,
+    "relevanceScore": 11,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1760,15 +1771,15 @@
       ],
       "earliestPublishedAt": 1785362820000,
       "latestPublishedAt": 1785362820000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
     "id": "item_3be49eb8baad334f",
     "type": "news",
     "title": "정몽규·홍명보 오늘 축협 청문회… 감독 선임 의혹 규명될까",
-    "summary": "대한 축구협회 (축협)의 축구 대표팀 감독 선임 과정과 독단적 운영을 둘러싼 의혹을 규명하기 위한 국회 청문회가 30일 열린다. 정몽규 전 축협 회장과 홍명보 전 대표팀 감독 등이 증인으로 출석한다. 국회...",
+    "summary": "대한 축구협회 (축협)의 축구 대표팀 감독 선임 과정과 독단적 운영을 둘러싼 의혹을 규명하기 위한 국회... 청문회에는 정 전 회장과 홍 전 감독뿐만 아니라 정해성 전 국가대표 전력강화위원장, 이용수· 김병지 축협 부회장...",
     "url": "https://www.hankookilbo.com/news/article/A2026073006350005947?did=NA",
     "originalUrl": "https://www.hankookilbo.com/news/article/A2026073006350005947?did=NA",
     "publisher": "hankookilbo.com",
@@ -1783,7 +1794,9 @@
       "홍명보",
       "청문회",
       "대한 축구협회",
-      "대표팀 감독"
+      "부회장",
+      "대표팀 감독",
+      "김병지"
     ],
     "discoveryQueries": [
       "\"김병지\" 대한축구협회",
@@ -1812,15 +1825,17 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_kim_byung_ji"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 59,
+    "relevanceScore": 60,
     "labels": [
       "인물 언급"
     ],
@@ -1837,8 +1852,8 @@
       ],
       "earliestPublishedAt": 1785362700000,
       "latestPublishedAt": 1785362700000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -2246,14 +2261,17 @@
     "id": "item_d165e1c29a6f1990",
     "type": "news",
     "title": "“내가 위원장 맡을 줄이야” 나서지 않는 박지성, 축구협회장-감독 생...",
-    "summary": "협회가 조금이나마 신뢰를 회복해서, 지금 결국 회장도 국가대표 감독 도 부재한 상황이다. 신뢰 회복을 위한... 이런 박지성은 본인이 축구협회장 후보 로 거론된다는 말에 \"전 축구선수였고 축구선수로서 박지성이라면...",
+    "summary": "'박지성, 축협 회장 당장은 NO \"지금은 먼 미래\"' 전 축구 선수 박지성이 축구협회 회장과 축구 지도자의 길에 대한 당장의 생각을 전했다. 7월 29일 방송된 tvN 예능 '유 퀴즈 온 더 블럭'(이하 '유퀴즈') 353회에는 'K- 축구 혁신위 ...",
     "url": "https://www.newsen.com/news_view.php?uid=202607291918076110",
     "originalUrl": "https://www.newsen.com/news_view.php?uid=202607291918076110",
     "publisher": "newsen.com",
     "publishedAt": "2026-07-29T21:19:00.000Z",
     "collectedAt": "2026-07-29T21:36:44.066Z",
     "matchedKeywords": [
-      "박지성"
+      "박지성",
+      "축구협회",
+      "축협",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"박지성\" 축구협회",
@@ -2266,13 +2284,15 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "innovation-committee"
+    ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ],
@@ -2289,15 +2309,15 @@
       ],
       "earliestPublishedAt": 1785359940000,
       "latestPublishedAt": 1785359940000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
     "id": "item_741d96ee123f9c08",
     "type": "news",
     "title": "박지성, 김종국 땡전 한푼 안 받고 축협회장 열망에 “힘들어‥감독도...",
-    "summary": "하자 박지성 은 \"'슛돌이' 했는데 직금 상황으로 봤을 때는 무자격\"이라며 \"공식 경기 벤치에 못 앉는다. 방송이니까 할수있던 것\"이라고 밝혔다. 한편 유재석은 최근 SBS 예능 '런닝맨'에서 김종국의 축구 사랑에 \" 축구협회 ...",
+    "summary": "7월 29일 방송된 tvN 예능 '유 퀴즈 온 더 블럭'(이하 '유퀴즈') 353회에는 'K- 축구 혁신위 원회'(이하 혁신위 )... 한편 유재석은 최근 SBS 예능 '런닝맨'에서 김종국의 축구 사랑에 \" 축구협회 장으로 김종국을 추천한다\"고...",
     "url": "https://www.newsen.com/news_view.php?uid=202607291914256110",
     "originalUrl": "https://www.newsen.com/news_view.php?uid=202607291914256110",
     "publisher": "newsen.com",
@@ -2305,7 +2325,8 @@
     "collectedAt": "2026-07-29T21:36:44.066Z",
     "matchedKeywords": [
       "축협",
-      "박지성"
+      "박지성",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"박지성\" 축구협회",
@@ -2316,13 +2337,15 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "innovation-committee"
+    ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 22,
     "labels": [
       "인물 언급"
     ],
@@ -2339,8 +2362,8 @@
       ],
       "earliestPublishedAt": 1785359760000,
       "latestPublishedAt": 1785359760000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -2393,7 +2416,7 @@
     "id": "item_574624910ab7d4d9",
     "type": "news",
     "title": "박지성, ♥김민지와 결혼 후 미모 꽃 폈다(‘유퀴즈’)[순간포착]",
-    "summary": "29일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 한국 축구 의 발전을 위해 축구 혁신위원장 박지성 이 등장했다. 박지성 은 “신뢰를 잃었다고 생각한다. 협회 가 하더라도 팬들이 믿지 않는다. 협회 가 뭘...",
+    "summary": "‘유퀴즈 온 더 블럭’ 축구 혁신위원장 박지성 이 뒤늦게 피어난 미모에 대해 쑥스러운 듯 해명 했다. 29일 방영된 tvN ‘유퀴즈 온 더 블럭’(이하 ‘유퀴즈’)에서는 한국 축구의 발전을 위해 축구 혁신위원장...",
     "url": "http://www.osen.co.kr/article/G1112848809",
     "originalUrl": "http://www.osen.co.kr/article/G1112848809",
     "publisher": "osen.co.kr",
@@ -2401,7 +2424,8 @@
     "collectedAt": "2026-07-29T21:36:44.066Z",
     "matchedKeywords": [
       "박지성",
-      "축구 혁신"
+      "축구 혁신",
+      "해명"
     ],
     "discoveryQueries": [
       "\"박지성\" 축구협회",
@@ -2417,10 +2441,11 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -2435,8 +2460,8 @@
       ],
       "earliestPublishedAt": 1785359160000,
       "latestPublishedAt": 1785359160000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -2505,8 +2530,8 @@
       ],
       "earliestPublishedAt": 1785358800000,
       "latestPublishedAt": 1785358800000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -2565,8 +2590,8 @@
       ],
       "earliestPublishedAt": 1785358560000,
       "latestPublishedAt": 1785358560000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -2628,8 +2653,8 @@
       ],
       "earliestPublishedAt": 1785357840000,
       "latestPublishedAt": 1785357840000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -2943,8 +2968,8 @@
       ],
       "earliestPublishedAt": 1785355440000,
       "latestPublishedAt": 1785355440000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -3041,8 +3066,8 @@
       ],
       "earliestPublishedAt": 1785355260000,
       "latestPublishedAt": 1785355260000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -3114,8 +3139,8 @@
       ],
       "earliestPublishedAt": 1785355260000,
       "latestPublishedAt": 1785355260000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -3284,7 +3309,7 @@
     "id": "item_8255667fcc6ddbd9",
     "type": "news",
     "title": "'유퀴즈' 박지성 \"신뢰 잃은 한국 축구…기회 놓치면 영원히 똑같다\"",
-    "summary": "박지성은 혁신위원회 위원장으로 현재 축구협회 회장, 대표팀 감독이 부재인 상황에서 협회 의 신뢰 회복을 위한 밑 단계 작업을 해나간다고 밝혔다. 더불어 박지성은 한국 축구 의 미래를 위한 새로운 성장 시스템을...",
+    "summary": "박지성은 가장 문제가 된 대표팀 감독 선임 과정을 시작으로 여러 잡음이 나오며 대표팀이 신뢰받지 못한... 이날 박지성은 축구 협회 장 후보 로 거론 되는 것에 대한 솔직한 생각을 털어놨다. 박지성은 \"저는 축구 선수였다...",
     "url": "https://www.news1.kr/entertain/broadcast-tv/6243273",
     "originalUrl": "https://www.news1.kr/entertain/broadcast-tv/6243273",
     "publisher": "news1.kr",
@@ -3292,8 +3317,10 @@
     "collectedAt": "2026-07-29T20:01:04.534Z",
     "matchedKeywords": [
       "박지성",
-      "축구협회",
-      "혁신위원회"
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임"
     ],
     "discoveryQueries": [
       "\"박지성\" 축구협회",
@@ -3308,14 +3335,14 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "coach-appointment"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 15,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -3333,8 +3360,8 @@
       ],
       "earliestPublishedAt": 1785354600000,
       "latestPublishedAt": 1785354600000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -3390,7 +3417,7 @@
     "id": "item_e48009151e0f0453",
     "type": "news",
     "title": "\"홍명보 감독이 대표팀 이끌어주십사 몇 차례나 부탁…\" 이임생, 대한민...",
-    "summary": "2년 전 홍명보 전 축구 대표팀 감독 선임에 주도적 역할을 한 이임생 전 대한 축구협회 기술총괄이사가 2026 북중미 월드컵에서의 한국 축구 참패를 분석하고, 홍 전 감독 선임의 불공정 시비 등을 가리기 위한 국회 청문회에...",
+    "summary": "다만 2024년 7월 축구협회 전력강화위원회가 홍 전 감독 을 선임할 당시 외국인 후보 면접을 만치고 곧장 경기도 성남의 홍 전 감독 을 찾아가 인근 빵집에서 계약을 이끌어낸 이 전 이사의 경우 최근 캄보디아 구단...",
     "url": "https://www.xportsnews.com/article/2177819",
     "originalUrl": "https://www.xportsnews.com/article/2177819",
     "publisher": "xportsnews.com",
@@ -3399,12 +3426,12 @@
     "matchedKeywords": [
       "홍명보",
       "이임생",
-      "대한 축구협회",
-      "감독 선임",
-      "대표팀 감독",
+      "축구협회",
+      "전력강화위원회",
       "감독",
+      "전력강화위원",
       "선임",
-      "청문회"
+      "후보"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -3432,7 +3459,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 23,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -3450,8 +3477,8 @@
       ],
       "earliestPublishedAt": 1785354180000,
       "latestPublishedAt": 1785354180000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -3504,8 +3531,8 @@
       ],
       "earliestPublishedAt": 1785342960000,
       "latestPublishedAt": 1785342960000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -3675,8 +3702,8 @@
       ],
       "earliestPublishedAt": 1785339120000,
       "latestPublishedAt": 1785339120000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -3827,15 +3854,15 @@
       ],
       "earliestPublishedAt": 1785338040000,
       "latestPublishedAt": 1785338040000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
     "id": "item_4f3766c234ccf89c",
     "type": "news",
     "title": "‘홍명보 출석’ 오늘 축협 청문회…어떤 내용 나올까",
-    "summary": "탈락에 대한 책임과 축구협회 운영 전반의 문제점에 대해 추궁하고자 청문회를 준비했다. 홍명보 전 감독과 정몽규 전 회장이 청문회 증인으로 참석할 예정이다. 이용수 축구협회 부회장과 김승희 전무이사도 증인으로...",
+    "summary": "시선은 홍명보 전 축구대표팀 감독과 정몽규 전 대한축구협회장의 입으로 향한다. 애초 문체위는 이달 22일... 정몽규 전 회장은 최근 불거진 부정 선거 의혹에 관해 해명할 전망이다. 또한 축구협회 운영 전반에 걸친...",
     "url": "https://isplus.com/article/view/isp202607290112",
     "originalUrl": "https://isplus.com/article/view/isp202607290112",
     "publisher": "isplus.com",
@@ -3845,12 +3872,11 @@
       "축협",
       "홍명보",
       "청문회",
-      "축구협회",
-      "부회장",
-      "전무",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
       "정몽규",
-      "김승희 전무",
-      "김승희 전무이사"
+      "해명"
     ],
     "discoveryQueries": [
       "\"김승희\" 대한축구협회",
@@ -3885,18 +3911,18 @@
       "축구협회장"
     ],
     "issueTags": [
-      "kfa-executives"
+      "election"
     ],
     "personTags": [
       "person_hong_myung_bo",
-      "person_chung_mong_gyu",
-      "person_kim_seung_hee"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 41,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -3911,8 +3937,8 @@
       ],
       "earliestPublishedAt": 1785337320000,
       "latestPublishedAt": 1785337320000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -4028,7 +4054,7 @@
     "id": "item_a6f54b441f937643",
     "type": "news",
     "title": "박지성, 월드컵 전략 이해 안 돼…\"축구협회장? 버겁다\" [유퀴즈](종합)",
-    "summary": "박지성 이 2026 북중미 월드컵 당시 대표팀 경기에서 화제가 된 '분노의 표정'에 얽힌 속내를 털어놨다. 축구협회 장 후보로 거론되는 데 대한 생각도 솔직하게 밝혔다. 29일 방송된 tvN 예능 프로그램 ‘유 퀴즈 온 더 블럭’...",
+    "summary": "축구협회 장 후보 로 거론되는 데 대한 생각도 솔직하게 밝혔다. 29일 방송된 tvN 예능 프로그램 ‘유 퀴즈 온 더... 감독 선임 과정부터 공정하지 못했고 여러 잡음이 있었다”며 “누가 오더라도 시스템을 이어가야 하는데...",
     "url": "https://www.mydaily.co.kr/page/view/2026072921584517505",
     "originalUrl": "https://www.mydaily.co.kr/page/view/2026072921584517505",
     "publisher": "mydaily.co.kr",
@@ -4058,7 +4084,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 8,
     "labels": [
       "인물 언급"
     ],
@@ -4075,8 +4101,8 @@
       ],
       "earliestPublishedAt": 1785335400000,
       "latestPublishedAt": 1785335400000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -4250,8 +4276,8 @@
       ],
       "earliestPublishedAt": 1785333660000,
       "latestPublishedAt": 1785333660000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -4320,15 +4346,15 @@
       ],
       "earliestPublishedAt": 1785333000000,
       "latestPublishedAt": 1785333000000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
     "id": "item_075dc90d553d4553",
     "type": "news",
     "title": "'유퀴즈' 박지성 \"차기 축구협회장? 비지니스·정책 자질 부족...감독? 퍼...",
-    "summary": "전 축구 선수 박지성 이 차기 축구협회 장 추천에 대한 생각을 전했다. 29일 방송된 tvN '유 퀴즈 온 더 블럭'에는 박지성 이 출연했다. 이날 유재석은 \"과묵하기로 유명하신 분인데 요즘 TV 보면 브리핑을 자주 하시더라. 힘들지...",
+    "summary": "유재석은 \"차기 축구협회 장 후보 로도 거론되고 있는데. 하면 또 잘 할 것 같다\"고 말했고, 박지성은 웃으며... 이어 유재석은 \"지도자의 길은 생각이 없냐\"고 물었고, 박지성은 \"많은 감독 들을 만났고, 히딩크, 퍼거슨 등...",
     "url": "http://www.joynews24.com/view/1990085",
     "originalUrl": "http://www.joynews24.com/view/1990085",
     "publisher": "joynews24.com",
@@ -4371,8 +4397,8 @@
       ],
       "earliestPublishedAt": 1785332760000,
       "latestPublishedAt": 1785332760000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -4571,8 +4597,8 @@
       ],
       "earliestPublishedAt": 1785331320000,
       "latestPublishedAt": 1785331320000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -5001,8 +5027,8 @@
       ],
       "earliestPublishedAt": 1785330240000,
       "latestPublishedAt": 1785330240000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -5055,8 +5081,8 @@
       ],
       "earliestPublishedAt": 1785330180000,
       "latestPublishedAt": 1785330180000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -5123,8 +5149,8 @@
       ],
       "earliestPublishedAt": 1785330060000,
       "latestPublishedAt": 1785330060000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -5177,8 +5203,8 @@
       ],
       "earliestPublishedAt": 1785329760000,
       "latestPublishedAt": 1785329760000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -5464,8 +5490,8 @@
       ],
       "earliestPublishedAt": 1785329280000,
       "latestPublishedAt": 1785329280000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -5562,8 +5588,8 @@
       ],
       "earliestPublishedAt": 1785328320000,
       "latestPublishedAt": 1785328320000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -6035,8 +6061,8 @@
       ],
       "earliestPublishedAt": 1785324840000,
       "latestPublishedAt": 1785324840000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -6289,8 +6315,8 @@
       ],
       "earliestPublishedAt": 1785324480000,
       "latestPublishedAt": 1785324480000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -6510,8 +6536,8 @@
       ],
       "earliestPublishedAt": 1785323400000,
       "latestPublishedAt": 1785323400000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -6791,8 +6817,8 @@
       ],
       "earliestPublishedAt": 1785322620000,
       "latestPublishedAt": 1785322620000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -6836,8 +6862,8 @@
       ],
       "earliestPublishedAt": 1785322620000,
       "latestPublishedAt": 1785322620000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -6895,8 +6921,8 @@
       ],
       "earliestPublishedAt": 1785322080000,
       "latestPublishedAt": 1785322080000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -6945,8 +6971,8 @@
       ],
       "earliestPublishedAt": 1785321840000,
       "latestPublishedAt": 1785321840000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -7089,8 +7115,8 @@
       ],
       "earliestPublishedAt": 1785321480000,
       "latestPublishedAt": 1785321480000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -7146,15 +7172,15 @@
       ],
       "earliestPublishedAt": 1785321480000,
       "latestPublishedAt": 1785321480000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
     "id": "item_dc8894d864ea361b",
     "type": "news",
     "title": "정몽규·홍명보, 축구협회 청문회 증인으로… ‘법카 의혹’ 질문할까",
-    "summary": "비롯해 대한축구협회 의 문제점을 따져 묻는 국회 문화체육관광위원회 청문회가 30일 개최된다. 문체위는... 문체위는 정 전 회장과 홍 전 감독을 증인으로 채택했고 이용수 축구협회 부회장, 김승희 전무이사 등도 증인에...",
+    "summary": "(국제 축구 연맹) 북중미 월드컵 참사를 비롯해 대한 축구협회 의 문제점을 따져 묻는 국회 문화체육관광위원회... K- 축구 혁신위 원회 공동위원장, 이영표 K- 축구 혁신위 위원 등 증인과 참고인 상당수가 불출석 의사를 밝혔다.",
     "url": "https://www.kyeongin.com/article/1768126",
     "originalUrl": "https://www.kyeongin.com/article/1768126",
     "publisher": "kyeongin.com",
@@ -7165,11 +7191,8 @@
       "정몽규",
       "홍명보",
       "청문회",
-      "대한축구협회",
-      "부회장",
-      "전무",
-      "김승희 전무",
-      "김승희 전무이사"
+      "대한 축구협회",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"김승희\" 대한축구협회",
@@ -7199,16 +7222,15 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "kfa-executives"
+      "innovation-committee"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_kim_seung_hee"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 46,
+    "relevanceScore": 41,
     "labels": [
       "인물 언급"
     ],
@@ -7227,8 +7249,8 @@
       ],
       "earliestPublishedAt": 1785321480000,
       "latestPublishedAt": 1785321480000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -7306,8 +7328,8 @@
       ],
       "earliestPublishedAt": 1785321000000,
       "latestPublishedAt": 1785321000000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -7406,8 +7428,8 @@
       ],
       "earliestPublishedAt": 1785320160000,
       "latestPublishedAt": 1785320160000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -7575,8 +7597,8 @@
       ],
       "earliestPublishedAt": 1785318960000,
       "latestPublishedAt": 1785318960000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -7626,8 +7648,8 @@
       ],
       "earliestPublishedAt": 1785318840000,
       "latestPublishedAt": 1785318840000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -7852,8 +7874,8 @@
       ],
       "earliestPublishedAt": 1785318300000,
       "latestPublishedAt": 1785318300000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -7996,8 +8018,8 @@
       ],
       "earliestPublishedAt": 1785316320000,
       "latestPublishedAt": 1785316320000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -8062,8 +8084,8 @@
       ],
       "earliestPublishedAt": 1785316080000,
       "latestPublishedAt": 1785316080000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -8120,8 +8142,8 @@
       ],
       "earliestPublishedAt": 1785315960000,
       "latestPublishedAt": 1785315960000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -8194,8 +8216,8 @@
       ],
       "earliestPublishedAt": 1785315840000,
       "latestPublishedAt": 1785315840000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -8258,8 +8280,8 @@
       ],
       "earliestPublishedAt": 1785315840000,
       "latestPublishedAt": 1785315840000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -8500,8 +8522,8 @@
       ],
       "earliestPublishedAt": 1785315000000,
       "latestPublishedAt": 1785315000000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -8689,8 +8711,8 @@
       ],
       "earliestPublishedAt": 1785314580000,
       "latestPublishedAt": 1785314580000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -8942,8 +8964,8 @@
       ],
       "earliestPublishedAt": 1785313080000,
       "latestPublishedAt": 1785313080000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -9136,8 +9158,8 @@
       ],
       "earliestPublishedAt": 1785312900000,
       "latestPublishedAt": 1785312900000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -9181,8 +9203,8 @@
       ],
       "earliestPublishedAt": 1785312360000,
       "latestPublishedAt": 1785312360000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -9257,8 +9279,8 @@
       ],
       "earliestPublishedAt": 1785312360000,
       "latestPublishedAt": 1785312360000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -9320,8 +9342,8 @@
       ],
       "earliestPublishedAt": 1785312360000,
       "latestPublishedAt": 1785312360000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -9375,8 +9397,8 @@
       ],
       "earliestPublishedAt": 1785312120000,
       "latestPublishedAt": 1785312120000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -9599,8 +9621,8 @@
       ],
       "earliestPublishedAt": 1785311640000,
       "latestPublishedAt": 1785311640000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -9691,8 +9713,8 @@
       ],
       "earliestPublishedAt": 1785311220000,
       "latestPublishedAt": 1785311220000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -9795,8 +9817,8 @@
       ],
       "earliestPublishedAt": 1785310680000,
       "latestPublishedAt": 1785310680000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -9945,7 +9967,7 @@
     "id": "item_0e0e7b55f8c1960d",
     "type": "news",
     "title": "\"홍명보 선임 내가 주도했다\"던 이임생, 캄보디아 취업 핑계로 청문회 ...",
-    "summary": "2026 국제 축구 연맹(FIFA) 북중미월드컵 감독 선임 과정의 핵심 관계자인 이임생 전 대한 축구협회 ... 이임생 전 위원장을 향한 축구 팬들의 분노는 극에 달했다. 다른 책임자들은 비판 속에서도 최소한의 사과나 해명 을...",
+    "summary": "이임생 전 위원장을 향한 축구팬들의 분노는 극에 달했다. 다른 책임자들은 비판 속에서도 최소한의 사과나 해명 을 내놨지만, 선임 파행의 핵심 인물인 이 전 위원장은 대참사 이후 단 한 차례도 사과하지 않았다. 사적...",
     "url": "https://www.insight.co.kr/news/565409",
     "originalUrl": "https://www.insight.co.kr/news/565409",
     "publisher": "insight.co.kr",
@@ -9955,10 +9977,6 @@
       "홍명보",
       "이임생",
       "청문회",
-      "대한 축구협회",
-      "감독 선임",
-      "감독",
-      "선임",
       "해명"
     ],
     "discoveryQueries": [
@@ -9973,16 +9991,14 @@
       "축구협회 부회장",
       "축구협회 해명"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo",
       "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -10000,8 +10016,8 @@
       ],
       "earliestPublishedAt": 1785310080000,
       "latestPublishedAt": 1785310080000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -10089,15 +10105,15 @@
       ],
       "earliestPublishedAt": 1785309900000,
       "latestPublishedAt": 1785309900000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
     "id": "item_4d20e93a2b2ab8e6",
     "type": "news",
     "title": "'분통!' 박문성, 작심 발언 \"쫄보 같고, 비겁하고, 무책임\"...이임생 청문...",
-    "summary": "박문성 해설위원이 이임생 전 대한 축구협회 기술총괄이사의 행보에 분통을 터트리며 강하게 비판하고... 하지만 당시 이른바 '빵집 회동' 논란이 불거졌고, 이후 문화체육관광부 감사 에서도 감독 선임 절차상 하자가...",
+    "summary": "박문성 해설위원이 이임생 전 대한 축구협회 기술총괄이사의 행보에 분통을 터트리며 강하게 비판하고... 계속해서 \" 협회 정관 에 위배되는 행위를 했단 건 이미 법원에서 판결이 내려진 내용\"이라며 \"당당하게...",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553415736",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553415736",
     "publisher": "sportalkorea.com",
@@ -10106,8 +10122,7 @@
     "matchedKeywords": [
       "이임생",
       "대한 축구협회",
-      "문화체육관광부 감사",
-      "감사"
+      "정관"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -10127,7 +10142,7 @@
       "축구협회 정관"
     ],
     "issueTags": [
-      "mcst-audit"
+      "statute-revision"
     ],
     "personTags": [
       "person_lee_im_saeng"
@@ -10137,8 +10152,7 @@
     "relevanceScore": 23,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ],
     "dedupeState": {
       "version": 1,
@@ -10153,8 +10167,8 @@
       ],
       "earliestPublishedAt": 1785309540000,
       "latestPublishedAt": 1785309540000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -10278,8 +10292,8 @@
       ],
       "earliestPublishedAt": 1785308940000,
       "latestPublishedAt": 1785308940000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -10455,15 +10469,15 @@
       ],
       "earliestPublishedAt": 1785308760000,
       "latestPublishedAt": 1785308760000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
     "id": "item_db785b5036673d51",
     "type": "news",
     "title": "축협 청문회 D-1…확인된 문제, 풀리지 않은 의혹 [이슈크래커]",
-    "summary": "대한 축구협회 장과 홍명보 전 축구 대표팀 감독이 다시 국회에 섭니다. 두 사람이 감독 선임 절차를 놓고 국회... 이 전 이사의 설명 없이 관계자들의 엇갈린 주장만 반복된다면 청문회가 기존 해명 을 재확인하는 데 그칠 수...",
+    "summary": "대한 축구협회 장과 홍명보 전 축구 대표팀 감독이 다시 국회에 섭니다. 두 사람이 감독 선임 절차를 놓고 국회... 이를 실제 선거에 적용하려면 정관 과 선거관리규정 개정이 필요합니다. 감독 선임 기준과 회의록 공개, 주요...",
     "url": "https://www.etoday.co.kr/news/view/2608847",
     "originalUrl": "https://www.etoday.co.kr/news/view/2608847",
     "publisher": "etoday.co.kr",
@@ -10473,8 +10487,9 @@
       "축협",
       "청문회",
       "대한 축구협회",
-      "홍명보",
-      "해명"
+      "정관",
+      "규정 개정",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -10530,16 +10545,17 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "statute-revision"
+    ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 30,
     "labels": [
-      "인물 언급",
-      "해명 키워드 포함"
+      "인물 언급"
     ],
     "dedupeState": {
       "version": 1,
@@ -10554,8 +10570,8 @@
       ],
       "earliestPublishedAt": 1785308280000,
       "latestPublishedAt": 1785308280000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -10642,8 +10658,8 @@
       ],
       "earliestPublishedAt": 1785307920000,
       "latestPublishedAt": 1785307920000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -10804,8 +10820,8 @@
       ],
       "earliestPublishedAt": 1785307020000,
       "latestPublishedAt": 1785307020000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -10886,7 +10902,7 @@
     "id": "item_641bd3c016c4e350",
     "type": "news",
     "title": "[티조챗] HDC 임원 11년간 10억, 홍명보는 동네서 법카…축협 청문회, 의...",
-    "summary": "■ HDC 임원 11년 파견·10억 수령…'사조직화' 의혹 정몽규 전 회장 체제의 인사·행정 운영도 집중 질의 대상이다. 문체부 감사 결과 정 전 회장의 HDC그룹 계열사 임원 A씨는 2013년부터 2024년까지 약 11년 동안 축구협회...",
+    "summary": "문체부 감사 결과 정 전 회장의 HDC그룹 계열사 임원 A씨는 2013년부터 2024년까지 약 11년 동안 축구협회 행정지원팀장으로 근무했다. 협회 인사 규정상 파견 기간은 최장 2년이었지만, A씨는 별도의 규정상 근거 없이 인사와...",
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/07/29/2026072990176.html",
     "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/07/29/2026072990176.html",
     "publisher": "news.tvchosun.com",
@@ -10897,8 +10913,7 @@
       "홍명보",
       "청문회",
       "문체부 감사",
-      "감사",
-      "정몽규"
+      "감사"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -10955,12 +10970,11 @@
       "mcst-audit"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_chung_mong_gyu"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 32,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -10978,8 +10992,8 @@
       ],
       "earliestPublishedAt": 1785306840000,
       "latestPublishedAt": 1785306840000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -11136,8 +11150,8 @@
       ],
       "earliestPublishedAt": 1785306660000,
       "latestPublishedAt": 1785306660000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -11339,8 +11353,8 @@
       ],
       "earliestPublishedAt": 1785306360000,
       "latestPublishedAt": 1785306360000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -11460,8 +11474,8 @@
       ],
       "earliestPublishedAt": 1785305820000,
       "latestPublishedAt": 1785305820000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -11532,8 +11546,8 @@
       ],
       "earliestPublishedAt": 1785305520000,
       "latestPublishedAt": 1785305520000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -11772,8 +11786,8 @@
       ],
       "earliestPublishedAt": 1785304560000,
       "latestPublishedAt": 1785304560000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -12119,24 +12133,23 @@
       ],
       "earliestPublishedAt": 1785303660000,
       "latestPublishedAt": 1785303660000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
     "id": "item_f433eb44bd4454d3",
     "type": "news",
     "title": "법카로 1000만원 넘게 쓴 일식당 주인과 결혼…결국 논란 터진 '한국 축...",
-    "summary": "같은 시기 축구협회에서는 홍명보 전 축구대표팀 감독의 법인카드 사용 논란도 불거졌다. 홍 전 감독은... 주말과 공휴일 사용 역시 K리그 선수 관찰과 대표팀 명단 확정을 위한 업무 과정이었다고도 해명 했다. 이처럼...",
+    "summary": "다만 문화체육관광부 는 작년 실시한 대한 축구협회 특정 감사 에서 해당 사안을 확인했지만 별도의 징계나 처분은 내리지 않은 것으로 알려졌다. 문체부는 당시 배우자가 운영하는 식당을 이용한 사실 자체만으로 명백한...",
     "url": "https://www.wikitree.co.kr/articles/1149152",
     "originalUrl": "https://www.wikitree.co.kr/articles/1149152",
     "publisher": "wikitree.co.kr",
     "publishedAt": "2026-07-29T05:40:00.000Z",
     "collectedAt": "2026-07-29T08:10:37.100Z",
     "matchedKeywords": [
-      "축구협회",
-      "홍명보",
-      "해명"
+      "대한 축구협회",
+      "감사"
     ],
     "discoveryQueries": [
       "\"홍명보\" 감사",
@@ -12153,17 +12166,16 @@
       "축구협회 임원",
       "축구협회 해명"
     ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
+    "issueTags": [
+      "mcst-audit"
     ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "해명 키워드 포함"
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -12178,15 +12190,15 @@
       ],
       "earliestPublishedAt": 1785303600000,
       "latestPublishedAt": 1785303600000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
     "id": "item_0667b724455d7213",
     "type": "news",
     "title": "축구협회 청문회에 지역축구협회장들 '불참'",
-    "summary": "7월 30일 개최 예정인 국회 문화체육관광위원회 대한 축구협회 청문회를 앞두고, 정몽규 회장 옹호 발언으로... 무성의한 사유로 불출석한 증인·참고인에 대해서는 국정 감사 등을 통해서 끝까지 그 책임을 묻겠다\"고 밝혔다.",
+    "summary": "지난 16일 \" 박지성 , 이영표가 뭘 알겠냐\"는 발언으로 축구 팬들의 거센 비판을 받았던 서강일... 청문회에 무성의한 사유로 불출석한 증인·참고인에 대해서는 국정 감사 등을 통해서 끝까지 그 책임을 묻겠다\"고 밝혔다.",
     "url": "https://www.hidomin.com/news/articleView.html?idxno=715157",
     "originalUrl": "https://www.hidomin.com/news/articleView.html?idxno=715157",
     "publisher": "hidomin.com",
@@ -12195,8 +12207,8 @@
     "matchedKeywords": [
       "축구협회장",
       "청문회",
-      "대한 축구협회",
-      "정몽규",
+      "박지성",
+      "서강일",
       "감사"
     ],
     "discoveryQueries": [
@@ -12222,11 +12234,12 @@
       "election"
     ],
     "personTags": [
-      "person_chung_mong_gyu"
+      "person_park_ji_sung",
+      "person_seo_kang_il"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 35,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -12244,8 +12257,8 @@
       ],
       "earliestPublishedAt": 1785303360000,
       "latestPublishedAt": 1785303360000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -12283,7 +12296,7 @@
     "id": "item_db3aa4d73bc25c8b",
     "type": "news",
     "title": "축구협회 법카로 1676만원 긁더니…최영일, 일식당 운영자와 결혼",
-    "summary": "최영일 전 대한 축구협회 부회장 이 축구협회 법인카드로 1000만원 넘게 결제한 일식당 운영자와 이후 결혼한 사실이 알려지면서 논란이 커지고 있다. 혼인 이후에도 해당 식당에서 협회 법인카드 결제가 이어진 것으로...",
+    "summary": "문화체육관광부 도 2024년 대한 축구협회 특정 감사 과정에서 관련 내용을 확인한 것으로 전해졌다. 다만 문체부는 별도 징계나 처분은 내리지 않았다. 배우자가 운영하는 식당에서 법인카드를 쓰면 최 전 부회장 측에...",
     "url": "https://www.hankyung.com/article/202607293164H",
     "originalUrl": "https://www.hankyung.com/article/202607293164H",
     "publisher": "hankyung.com",
@@ -12291,6 +12304,7 @@
     "collectedAt": "2026-07-29T08:10:37.100Z",
     "matchedKeywords": [
       "대한 축구협회",
+      "감사",
       "부회장"
     ],
     "discoveryQueries": [
@@ -12302,14 +12316,17 @@
       "축구협회 해명"
     ],
     "issueTags": [
+      "mcst-audit",
       "kfa-executives"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 16,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "감사 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -12323,8 +12340,8 @@
       ],
       "earliestPublishedAt": 1785303360000,
       "latestPublishedAt": 1785303360000,
-      "representativeCollectedAt": 1785361004066,
-      "latestCollectedAt": 1785361004066
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -12485,7 +12502,7 @@
     "id": "item_8bb4db9e005b57a2",
     "type": "news",
     "title": "홍명보 \"정해진 용도·한도 내 사용\"…청문회 하루 전1400만 원 법카 사...",
-    "summary": "유한솔 양지민 변호사 박진아 아나운서 #MBN #프레스룸LIVE #프레스룸라이브 # 홍명보 #청문회 #법카 #법인카드 #1406만원 #1440만원 #3742만원 #공휴일 #대한축구협회 #법카논란 #정몽규 #청문회 #이임생",
+    "summary": "유한솔 양지민 변호사 박진아 아나운서 #MBN #프레스룸LIVE #프레스룸라이브 #홍명보 #청문회 #법카 #법인카드 #1406만원 #1440만원 #3742만원 #공휴일 #대한축구협회 #법카논란 # 정몽규 #청문회 #이임생",
     "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5208952",
     "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5208952",
     "publisher": "mbn.co.kr",
@@ -12535,8 +12552,8 @@
       ],
       "earliestPublishedAt": 1785302700000,
       "latestPublishedAt": 1785302700000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -13027,8 +13044,8 @@
       ],
       "earliestPublishedAt": 1785300060000,
       "latestPublishedAt": 1785300060000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -13101,8 +13118,8 @@
       ],
       "earliestPublishedAt": 1785299820000,
       "latestPublishedAt": 1785299820000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -13301,8 +13318,8 @@
       ],
       "earliestPublishedAt": 1785299460000,
       "latestPublishedAt": 1785299460000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -13512,8 +13529,8 @@
       ],
       "earliestPublishedAt": 1785298980000,
       "latestPublishedAt": 1785298980000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -13693,7 +13710,7 @@
     "id": "item_8f255f307ca3bb6c",
     "type": "news",
     "title": "홍명보 선임 주도하더니 청문회 불참한 이임생 캄보디아행 논란",
-    "summary": "이임생 전 대한 축구협회 기술총괄이사가 2026 국제 축구 연맹 북중미 월드컵 조별리그 탈락의 책임을 묻는 국회... 사과나 해명 없이 해외 구단행을 택했다. 국회 문화체육관광위원회가 개최하는 현안 청문회에서 진실을...",
+    "summary": "이임생 전 대한축구협회 기술총괄이사가 2026 국제축구연맹 북중미 월드컵 조별리그 탈락의 책임을 묻는 국회... 사과나 해명 없이 해외 구단행을 택했다. 국회 문화체육관광위원회가 개최하는 현안 청문회에서 진실을...",
     "url": "https://www.ftimes.kr/news/articleView.html?idxno=38731",
     "originalUrl": "https://www.ftimes.kr/news/articleView.html?idxno=38731",
     "publisher": "ftimes.kr",
@@ -13703,7 +13720,8 @@
       "홍명보",
       "이임생",
       "청문회",
-      "대한 축구협회",
+      "대한축구협회",
+      "이임생 전 대한축구협회",
       "해명"
     ],
     "discoveryQueries": [
@@ -13744,8 +13762,8 @@
       ],
       "earliestPublishedAt": 1785297360000,
       "latestPublishedAt": 1785297360000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -13794,8 +13812,8 @@
       ],
       "earliestPublishedAt": 1785296220000,
       "latestPublishedAt": 1785296220000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -13901,8 +13919,8 @@
       ],
       "earliestPublishedAt": 1785296160000,
       "latestPublishedAt": 1785296160000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -14034,8 +14052,8 @@
       ],
       "earliestPublishedAt": 1785295680000,
       "latestPublishedAt": 1785295680000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -14272,8 +14290,8 @@
       ],
       "earliestPublishedAt": 1785294120000,
       "latestPublishedAt": 1785294120000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -14452,8 +14470,8 @@
       ],
       "earliestPublishedAt": 1785293880000,
       "latestPublishedAt": 1785293880000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -14740,8 +14758,8 @@
       ],
       "earliestPublishedAt": 1785293640000,
       "latestPublishedAt": 1785293640000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -15319,8 +15337,8 @@
       ],
       "earliestPublishedAt": 1785292860000,
       "latestPublishedAt": 1785292860000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -15457,8 +15475,8 @@
       ],
       "earliestPublishedAt": 1785292440000,
       "latestPublishedAt": 1785292440000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -15789,7 +15807,7 @@
     "id": "item_a939527ac84a8857",
     "type": "news",
     "title": "홍명보 선임 과정·협회 행정 질타 예상…내일 축구협회 청문회",
-    "summary": "특정 감사 에서도 일부 절차상 문제가 지적된 바 있다. 문체위는 청문회에서 당시 감독 선임 절차와 협회의 의사결정 과정 등을 집중적으로 들여다볼 예정이다. 이번 청문회 증인으로 정몽규 전 대한축구협회장과 홍명보 전...",
+    "summary": "특정 감사 에서도 일부 절차상 문제가 지적된 바 있다. 문체위는 청문회에서 당시 감독 선임 절차와 협회의... 이번 청문회 증인으로 정몽규 전 대한축구협회장과 홍명보 전 축구대표팀 감독을 비롯해 이용수 축구협회...",
     "url": "https://www.news1.kr/sports/soccer/6242519",
     "originalUrl": "https://www.news1.kr/sports/soccer/6242519",
     "publisher": "news1.kr",
@@ -15863,8 +15881,8 @@
       ],
       "earliestPublishedAt": 1785291660000,
       "latestPublishedAt": 1785291660000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -16105,7 +16123,7 @@
     "id": "item_a26a0c66c238ec4c",
     "type": "news",
     "title": "김승수, “축구협회 정상화 외면한 청문회 불출석… 국민과 국회 기만행...",
-    "summary": "오는 30일 개최 예정인 국회 문화체육관광위원회의 대한축구협회 청문회를 앞두고, 정몽규 전... 국정 감사 등 국회의 모든 권한을 통해 끝까지 책임을 묻겠다”라고 강조했다. 김 의원은 “대한축구협회에 대한 국민적...",
+    "summary": "특히 최근 “ 박지성 , 이영표가 뭘 알겠느냐”는 발언으로 축구팬들의 거센 비판을 받았던 서강일... 국정 감사 등 국회의 모든 권한을 통해 끝까지 책임을 묻겠다”라고 강조했다. 김 의원은 “대한축구협회에 대한 국민적...",
     "url": "https://www.sportsseoul.com/news/read/1625376?ref=naver",
     "originalUrl": "https://www.sportsseoul.com/news/read/1625376?ref=naver",
     "publisher": "sportsseoul.com",
@@ -16115,7 +16133,8 @@
       "축구협회",
       "청문회",
       "대한축구협회",
-      "정몽규",
+      "박지성",
+      "서강일",
       "감사"
     ],
     "discoveryQueries": [
@@ -16133,11 +16152,12 @@
     ],
     "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu"
+      "person_park_ji_sung",
+      "person_seo_kang_il"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -16155,8 +16175,8 @@
       ],
       "earliestPublishedAt": 1785291120000,
       "latestPublishedAt": 1785291120000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -16526,7 +16546,7 @@
     "id": "item_494e3cbe91d89b39",
     "type": "news",
     "title": "홍명보는 집 근처서 법카 1400만 원 썼다 : 축구협회는 2016년에도 법카...",
-    "summary": "홍명보 전 축구대표팀 감독이 협회 법인카드로 자택 인근 식당과 호텔 등에서 약 1400만 원을 사용한 사실이... 2016년 문화체육관광부 감사 에서는 전·현직 임직원 18명이 유흥단란주점, 안마시술소, 노래방, 피부미용실...",
+    "summary": "앞서 대한 축구협회 는 이미 한 차례 법인카드 문제로 대국민 사과를 한 바 있다. 2016년 문화체육관광부 감사 에서는 전·현직 임직원 18명이 유흥단란주점, 안마시술소, 노래방, 피부미용실, 골프장, 백화점, 주유소 등에서...",
     "url": "https://www.huffingtonpost.kr/article/259082",
     "originalUrl": "https://www.huffingtonpost.kr/article/259082",
     "publisher": "huffingtonpost.kr",
@@ -16534,7 +16554,7 @@
     "collectedAt": "2026-07-29T04:52:39.832Z",
     "matchedKeywords": [
       "홍명보",
-      "문화체육관광부 감사",
+      "대한 축구협회",
       "감사"
     ],
     "discoveryQueries": [
@@ -16558,15 +16578,13 @@
       "축구협회 해명",
       "축구협회장"
     ],
-    "issueTags": [
-      "mcst-audit"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 16,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -16585,8 +16603,8 @@
       ],
       "earliestPublishedAt": 1785290400000,
       "latestPublishedAt": 1785290400000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -16861,8 +16879,8 @@
       ],
       "earliestPublishedAt": 1785290100000,
       "latestPublishedAt": 1785290100000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -17015,25 +17033,22 @@
       ],
       "earliestPublishedAt": 1785289740000,
       "latestPublishedAt": 1785289740000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
     "id": "item_7dab9328fbd7530c",
     "type": "news",
     "title": "\"홍명보, 자택 인근 1천400만원 지출\"...축협 법인카드 관리 총체적 부실",
-    "summary": "\"관리 체계 전면 손봐야\"…진선미, 축구협회 법인카드 재정비 촉구 10년 전 대국민 사과에도 백화점·주유소... 특히 문화체육관광부 감사 이후 협회 가 2025년 5월 임직원 대상 법인카드 교육을 진행했음에도, 홍 전...",
+    "summary": "축구협회 는 2011년부터 2012년까지 임직원 18명이 유흥업소와 골프장 등에서 법인카드 1천496차례, 약 2억원을 사적으로 사용해 2016년 문체부 조사와 경찰 수사를 받았다. 그러나 최근까지도 백화점 결제 218건(2천602만5...",
     "url": "https://www.youthdaily.co.kr/news/article.html?no=224009",
     "originalUrl": "https://www.youthdaily.co.kr/news/article.html?no=224009",
     "publisher": "youthdaily.co.kr",
     "publishedAt": "2026-07-29T01:48:00.000Z",
     "collectedAt": "2026-07-29T04:52:39.832Z",
     "matchedKeywords": [
-      "홍명보",
-      "축구협회",
-      "문화체육관광부 감사",
-      "감사"
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -17050,19 +17065,16 @@
       "축구협회 문화체육관광부 감사",
       "축구협회 임원"
     ],
-    "issueTags": [
-      "mcst-audit"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ],
     "dedupeState": {
       "version": 1,
@@ -17077,8 +17089,8 @@
       ],
       "earliestPublishedAt": 1785289680000,
       "latestPublishedAt": 1785289680000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -17247,8 +17259,8 @@
       ],
       "earliestPublishedAt": 1785289620000,
       "latestPublishedAt": 1785289620000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -17572,8 +17584,8 @@
       ],
       "earliestPublishedAt": 1785289020000,
       "latestPublishedAt": 1785289020000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -17736,8 +17748,8 @@
       ],
       "earliestPublishedAt": 1785288840000,
       "latestPublishedAt": 1785288840000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -17968,7 +17980,7 @@
     "id": "item_c4c09b88da44e91b",
     "type": "news",
     "title": "정연욱 의원 \"축구협회, 정몽규 전 회장 사조직이었나…HDC 임원에 10억 ...",
-    "summary": "com 정몽규 대한 축구협회 장이 24일 오후 서울 여의도 국회에서 열린 문화체육 관광위원회의 문화체육관광부 등에 대한 종합국정 감사 에 증인으로 출석해 있다. 2024.10.24[사진=유대길 기자 dbeorlf123@ajunews.com] 정몽규 전...",
+    "summary": "2024.10.24[사진=유대길 기자 dbeorlf123@ajunews.com] 정몽규 전 대한 축구협회 장이 이끄는 HDC그룹 계열사 임원 이 11년 동안 축구협회 핵심 행정 부서에서 근무하며 10억여원을 수령한 사실이 드러났다. 이에 대한...",
     "url": "https://www.ajunews.com/view/20260729101712520",
     "originalUrl": "https://www.ajunews.com/view/20260729101712520",
     "publisher": "ajunews.com",
@@ -17976,8 +17988,7 @@
     "collectedAt": "2026-07-29T04:52:39.832Z",
     "matchedKeywords": [
       "정몽규",
-      "대한 축구협회",
-      "감사"
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -17998,19 +18009,16 @@
       "축구협회 임원",
       "축구협회장"
     ],
-    "issueTags": [
-      "mcst-audit"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ],
     "dedupeState": {
       "version": 1,
@@ -18025,8 +18033,8 @@
       ],
       "earliestPublishedAt": 1785288000000,
       "latestPublishedAt": 1785288000000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -18080,15 +18088,15 @@
     "id": "item_b9102b0b040deb24",
     "type": "news",
     "title": "정연욱 의원 질타, \"축구협 위법 1년 방치\"",
-    "summary": "의원이 문화체육관광부 가 대한 축구협회 의 위법 행위를 확인하고도 수사 의뢰와 규정 개정 등 필요한 후속... 전 축구 대표팀 감독 등이 증인으로 채택됐다. 정연욱 의원실이 문체부로부터 받은 자료에는 문체부의 감사 ...",
+    "summary": "A씨는 문체부 감사 가 본격적으로 시작되기 직전인 2024년 11월 축구협회 를 떠났다. 이로 인해 축구협회 내부 징계 절차를 진행할 수 없었다. 위법 사실이 드러났지만, 당사자에 대한 조치는 이뤄지지 않았다. 문체부 는...",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=853118",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=853118",
     "publisher": "hansbiz.co.kr",
     "publishedAt": "2026-07-29T01:08:00.000Z",
     "collectedAt": "2026-07-29T01:09:20.445Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "규정 개정",
+      "축구협회",
+      "문체부 감사",
       "감사"
     ],
     "discoveryQueries": [
@@ -18112,13 +18120,12 @@
       "축구협회 부회장"
     ],
     "issueTags": [
-      "statute-revision",
       "mcst-audit"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 9,
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
@@ -18136,8 +18143,8 @@
       ],
       "earliestPublishedAt": 1785287280000,
       "latestPublishedAt": 1785287280000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -18215,8 +18222,8 @@
       ],
       "earliestPublishedAt": 1785287280000,
       "latestPublishedAt": 1785287280000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -18270,8 +18277,8 @@
       ],
       "earliestPublishedAt": 1785286800000,
       "latestPublishedAt": 1785286800000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -18638,8 +18645,8 @@
       ],
       "earliestPublishedAt": 1785286140000,
       "latestPublishedAt": 1785286140000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -19152,6 +19159,39 @@
     ]
   },
   {
+    "id": "item_726b21bf349c6884",
+    "type": "news",
+    "title": "〈대한민국 축구팬들의 특명〉 ① 4억5000만원 들여 지역회장 11명이 갔...",
+    "summary": "■ 2023년에는 전원이 내려왔다 2023년 대한 축구협회 이사회 는 승부조작 가담자 48명을 포함한 징계 축구인 100명의 사면을 의결했다. 비판이 거세지자 사면은 사흘...",
+    "url": "http://www.breaknews.com/1225185",
+    "originalUrl": "http://www.breaknews.com/1225185",
+    "publisher": "breaknews.com",
+    "publishedAt": "2026-07-29T00:34:00.000Z",
+    "collectedAt": "2026-07-30T03:29:36.371Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "이사회"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 감사",
+      "\"박지성\" 선거",
+      "\"정몽규\" 선거",
+      "축구협회 대의원",
+      "축구협회 문체부 감사",
+      "축구협회 이사회",
+      "축구협회 집행부"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_44e58ff9aa37b037",
     "type": "news",
     "title": "국민의힘 장동혁·정점식 “개헌·부동산 실정 등 국정 난맥 지적”",
@@ -19193,8 +19233,8 @@
       ],
       "earliestPublishedAt": 1785285240000,
       "latestPublishedAt": 1785285240000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -19908,8 +19948,8 @@
       ],
       "earliestPublishedAt": 1785283560000,
       "latestPublishedAt": 1785283560000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
@@ -20154,8 +20194,8 @@
       ],
       "earliestPublishedAt": 1785283200000,
       "latestPublishedAt": 1785283200000,
-      "representativeCollectedAt": 1785373317793,
-      "latestCollectedAt": 1785373317793
+      "representativeCollectedAt": 1785382176371,
+      "latestCollectedAt": 1785382176371
     }
   },
   {
