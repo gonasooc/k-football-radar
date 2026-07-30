@@ -102,8 +102,8 @@
       ],
       "earliestPublishedAt": 1782985800000,
       "latestPublishedAt": 1782985800000,
-      "representativeCollectedAt": 1785368536738,
-      "latestCollectedAt": 1785368536738
+      "representativeCollectedAt": 1785373317793,
+      "latestCollectedAt": 1785373317793
     }
   },
   {
@@ -299,8 +299,8 @@
       ],
       "earliestPublishedAt": 1782974040000,
       "latestPublishedAt": 1782974040000,
-      "representativeCollectedAt": 1785368536738,
-      "latestCollectedAt": 1785368536738
+      "representativeCollectedAt": 1785373317793,
+      "latestCollectedAt": 1785373317793
     }
   },
   {
@@ -346,7 +346,7 @@
     "id": "item_4d70378028d8cf4f",
     "type": "news",
     "title": "〈한국축구 특검 5〉 정몽규 이후 축구협회장, 그들만의 리그는 끝났는...",
-    "summary": "정 회장은 2025년 제55대 대한축구협회 장 선거에서 유효투표 182표 가운데 156표를 얻어 4선에 성공했다. 허정무 전 감독은 15표, 신문선 명지대 교수는 11표를 얻었다. 팬...",
+    "summary": "허정무 전 감독은 15표, 신문선 명지대 교수는 11표를 얻었다. 팬 여론과 선거인단... 국가대표팀 성적, 감독 선임, 예산 집행, 국정 감사 , 문체부 감사 , 팬 여론까지 모두...",
     "url": "http://www.breaknews.com/1218659",
     "originalUrl": "http://www.breaknews.com/1218659",
     "publisher": "breaknews.com",
@@ -355,7 +355,13 @@
     "matchedKeywords": [
       "축구협회장",
       "정몽규",
-      "대한축구협회",
+      "선거인단",
+      "선거인",
+      "문체부 감사",
+      "감사",
+      "감독 선임",
+      "감독",
+      "선임",
       "허정무"
     ],
     "discoveryQueries": [
@@ -366,7 +372,10 @@
       "축구협회 후보 등록"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "electoral-college",
+      "mcst-audit",
+      "coach-appointment"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -374,9 +383,11 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 47,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함",
+      "선거 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -391,8 +402,8 @@
       ],
       "earliestPublishedAt": 1782969360000,
       "latestPublishedAt": 1782969360000,
-      "representativeCollectedAt": 1785368536738,
-      "latestCollectedAt": 1785368536738
+      "representativeCollectedAt": 1785373317793,
+      "latestCollectedAt": 1785373317793
     }
   },
   {
@@ -444,8 +455,8 @@
       ],
       "earliestPublishedAt": 1782960360000,
       "latestPublishedAt": 1782960360000,
-      "representativeCollectedAt": 1785368536738,
-      "latestCollectedAt": 1785368536738
+      "representativeCollectedAt": 1785373317793,
+      "latestCollectedAt": 1785373317793
     }
   }
 ]
