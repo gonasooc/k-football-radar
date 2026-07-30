@@ -239,8 +239,8 @@
       ],
       "earliestPublishedAt": 1782730860000,
       "latestPublishedAt": 1782730860000,
-      "representativeCollectedAt": 1785448239171,
-      "latestCollectedAt": 1785448239171
+      "representativeCollectedAt": 1785454936936,
+      "latestCollectedAt": 1785454936936
     }
   },
   {
@@ -638,7 +638,7 @@
     "id": "item_bf0f3db072e9cdae",
     "type": "news",
     "title": "與野, 정몽규·홍명보 정조준…사상 최초 '축구협회 청문회' 열리나",
-    "summary": "그러면서 \"(정 회장이 사퇴하면) 60일 안에 선거 가 치러져야 하는데 여전히 협회장 선거 는 직선제가 아니다... 허정무 전 협회 부회장(전 국가대표팀 감독)은 \"정 회장은 황금세대와 함께 12년간 협회를 운영해오다 아무것도...",
+    "summary": "구속력이 약한 현안질의와 달리 청문회는 국정 감사 법을 준용해 동행명령장 발부가 가능하다. 무단 불출석 시... 허정무 전 협회 부회장(전 국가대표팀 감독)은 \"정 회장은 황금세대와 함께 12년간 협회를 운영해오다...",
     "url": "https://www.mt.co.kr/politics/2026/06/29/2026062911310116151",
     "originalUrl": "https://www.mt.co.kr/politics/2026/06/29/2026062911310116151",
     "publisher": "mt.co.kr",
@@ -649,17 +649,14 @@
       "정몽규",
       "홍명보",
       "청문회",
-      "회장 선거",
       "허정무",
-      "사퇴"
+      "감사"
     ],
     "discoveryQueries": [
       "\"허정무\" 감사",
       "\"허정무\" 선거"
     ],
-    "issueTags": [
-      "election"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_chung_mong_gyu",
       "person_hong_myung_bo",
@@ -667,9 +664,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 38,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -684,8 +682,8 @@
       ],
       "earliestPublishedAt": 1782712260000,
       "latestPublishedAt": 1782712260000,
-      "representativeCollectedAt": 1785448239171,
-      "latestCollectedAt": 1785448239171
+      "representativeCollectedAt": 1785454936936,
+      "latestCollectedAt": 1785454936936
     }
   },
   {
