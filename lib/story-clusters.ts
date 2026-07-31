@@ -11,7 +11,9 @@ import {
 
 export const STORY_CLUSTER_VERSION = 1 as const;
 export const STORY_CLUSTER_WINDOW_MS = 36 * 60 * 60 * 1_000;
-export const STORY_STRONG_TITLE_SIMILARITY = 0.65;
+export const STORY_STRONG_TITLE_SIMILARITY = 0.57;
+export const STORY_TAGGED_TITLE_SIMILARITY = 0.55;
+export const STORY_SHORT_EXACT_SUMMARY_SIMILARITY = 0.3;
 export const STORY_EXACT_TITLE_MIN_LENGTH = 10;
 export const STORY_FACT_ANCHOR_MIN_ITEMS = 3;
 export const STORY_FACT_ANCHOR_MAX_ITEMS = 30;
@@ -27,8 +29,9 @@ export const EMPTY_STORY_CLUSTER_FILE: StoryClusterFile = {
 };
 
 const STORY_FACT_ANCHOR_PATTERN =
-  /\d+(?:\s*만\s*\d+)?(?:\.\d+)?\s*(?:배|명|개월|년|일|곳|개|건|표|%|억\s*원|만\s*원)/gu;
+  /(?:\d{1,3}(?:,\d{3})+|\d+)(?:\s*만(?:\s*(?:\d{1,3}(?:,\d{3})+|\d+))?)?(?:\.\d+)?\s*(?:배|명|개월|년|일|곳|개|건|표|%|억\s*원|만\s*원)/gu;
 const STORY_DURATION_ANCHOR_PATTERN = /(?:년|개월|일)$/u;
+const STORY_REPEATED_DISTINCTIVE_FACT_PATTERN = /(?:배|억원|만원)$/u;
 const STORY_OPINION_TITLE_PATTERN =
   /(?:칼럼|사설|기고|오피니언|데스크|유레카|시론|논설)/u;
 // Only match titles that are effectively a recurring programme label plus
@@ -84,6 +87,39 @@ function hasMinimumExactTitleInformation(normalizedTitle: string): boolean {
   return Array.from(normalizedTitle).length >= STORY_EXACT_TITLE_MIN_LENGTH;
 }
 
+function isDistinctiveRepeatedFactAnchor(anchor: string): boolean {
+  return STORY_REPEATED_DISTINCTIVE_FACT_PATTERN.test(anchor);
+}
+
+function hasLocalMultiPublisherBurst(
+  members: readonly StoryClusterItem[]
+): boolean {
+  const orderedMembers = [...members].sort(compareChronologically);
+
+  for (let start = 0; start < orderedMembers.length; start += 1) {
+    const startTime = Date.parse(orderedMembers[start]!.publishedAt);
+    if (!Number.isFinite(startTime)) {
+      continue;
+    }
+
+    const publishers = new Set<string>();
+    for (let end = start; end < orderedMembers.length; end += 1) {
+      const member = orderedMembers[end]!;
+      const endTime = Date.parse(member.publishedAt);
+      if (!Number.isFinite(endTime) || endTime - startTime > STORY_CLUSTER_WINDOW_MS) {
+        break;
+      }
+
+      publishers.add(normalizePublisher(member.publisher));
+      if (end - start + 1 >= STORY_FACT_ANCHOR_MIN_ITEMS && publishers.size >= 2) {
+        return true;
+      }
+    }
+  }
+
+  return false;
+}
+
 function hasLexicalTitleGuard(
   left: StoryClusterItem,
   right: StoryClusterItem
@@ -102,7 +138,7 @@ export function extractStoryFactAnchors(
   const matches = `${item.title} ${item.summary}`
     .normalize("NFKC")
     .match(STORY_FACT_ANCHOR_PATTERN);
-  return new Set((matches ?? []).map((value) => value.replace(/\s+/gu, "")));
+  return new Set((matches ?? []).map((value) => value.replace(/[\s,]+/gu, "")));
 }
 
 /**
@@ -142,12 +178,21 @@ export function createStoryFactAnchorModel(
       members.map((item) => normalizePublisher(item.publisher))
     ).size;
 
+    const hasSingleBurst =
+      publisherCount >= 2 && publishedSpan <= STORY_CLUSTER_WINDOW_MS;
+    // A highly specific value can describe another event weeks later. That
+    // later occurrence must not invalidate an otherwise clear local burst.
+    // Generic counts keep the stricter whole-corpus span guard because values
+    // such as 3명, 192명, or 5건 collide too easily across related coverage.
+    const hasRepeatedDistinctiveBurst =
+      isDistinctiveRepeatedFactAnchor(anchor) &&
+      hasLocalMultiPublisherBurst(members);
+
     if (
       members.length >= STORY_FACT_ANCHOR_MIN_ITEMS &&
       members.length <= STORY_FACT_ANCHOR_MAX_ITEMS &&
       !STORY_DURATION_ANCHOR_PATTERN.test(anchor) &&
-      publisherCount >= 2 &&
-      publishedSpan <= STORY_CLUSTER_WINDOW_MS
+      (hasSingleBurst || hasRepeatedDistinctiveBurst)
     ) {
       qualifyingAnchors.add(anchor);
       membersByAnchor.set(anchor, [...members].sort(compareChronologically));
@@ -222,6 +267,12 @@ export function isStoryPairMatch(
       hasMinimumExactTitleInformation(normalizedLeftTitle) &&
       !isLikelyOpinionTitle(left.title) &&
       !isLikelyOpinionTitle(right.title)
+    ) || (
+      !isLikelyOpinionTitle(left.title) &&
+      !isLikelyOpinionTitle(right.title) &&
+      hasSharedTag(left, right) &&
+      similarityModel.compare(left, right).summary >=
+        STORY_SHORT_EXACT_SUMMARY_SIMILARITY
     );
   }
 
@@ -234,6 +285,8 @@ export function isStoryPairMatch(
   const similarity = similarityModel.compare(left, right);
   return (
     similarity.title >= STORY_STRONG_TITLE_SIMILARITY ||
+    (similarity.title >= STORY_TAGGED_TITLE_SIMILARITY &&
+      hasSharedTag(left, right)) ||
     (similarity.title >= 0.42 && similarity.summary >= 0.12) ||
     (similarity.title >= 0.3 &&
       similarity.summary >= 0.34 &&

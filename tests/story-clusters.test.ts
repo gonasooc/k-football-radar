@@ -92,10 +92,10 @@ describe("story clustering", () => {
     assert.equal(normalizeStoryText("협회 개혁 전문"), "협회개혁전문");
     assert.deepEqual(
       [...extractStoryFactAnchors({
-        title: "선거인단 41 배 확대",
-        summary: "기존 2244명에서 9만 2194명으로 늘었다"
+        title: "선거인단 41 배 확대, 목표는 3,000명",
+        summary: "기존 2,244명에서 9만 2,194명으로 늘고 최종 9만 명, 예산은 1,400만 원이다"
       })],
-      ["41배", "2244명", "9만2194명"]
+      ["41배", "3000명", "2244명", "9만2194명", "9만명", "1400만원"]
     );
   });
 
@@ -199,6 +199,47 @@ describe("story clustering", () => {
     ];
 
     assert.deepEqual(buildStoryClusters(generic).clusters, []);
+  });
+
+  it("accepts a short exact title only with corroborating summary and tags", () => {
+    const matching = [
+      item("short-exact-a", {
+        title: "고개 숙인 홍명보",
+        summary: "홍명보 전 감독이 국회 축구협회 청문회에 출석했다",
+        publisher: "news-a"
+      }),
+      item("short-exact-b", {
+        title: "고개 숙인 홍명보",
+        summary: "국회 축구협회 청문회에 출석한 홍명보 전 감독의 모습",
+        publisher: "news-b",
+        publishedAt: "2026-07-16T01:00:00.000Z"
+      })
+    ];
+
+    assert.deepEqual(buildStoryClusters(matching).clusters[0]?.memberIds, [
+      "short-exact-a",
+      "short-exact-b"
+    ]);
+  });
+
+  it("uses tags to corroborate moderately strong titles", () => {
+    const left = item("tagged-title-a", { title: "서로 다른 첫 번째 제목" });
+    const right = item("tagged-title-b", {
+      title: "서로 다른 두 번째 제목",
+      publisher: "news-b",
+      publishedAt: "2026-07-16T01:00:00.000Z"
+    });
+    const taggedModel: StorySimilarityModel = {
+      compare: () => ({ title: 0.55, summary: 0, combined: 0.4125 })
+    };
+    const untaggedRight = { ...right, issueTags: ["other-issue"] };
+    const strongModel: StorySimilarityModel = {
+      compare: () => ({ title: 0.57, summary: 0, combined: 0.4275 })
+    };
+
+    assert.equal(isStoryPairMatch(left, right, taggedModel), true);
+    assert.equal(isStoryPairMatch(left, untaggedRight, taggedModel), false);
+    assert.equal(isStoryPairMatch(left, untaggedRight, strongModel), true);
   });
 
   it("keeps identical syndicated column titles apart across publishers", () => {
@@ -309,6 +350,72 @@ describe("story clustering", () => {
       "fact-c",
       "fact-d"
     ]);
+  });
+
+  it("keeps a distinctive local fact burst when the value appeared weeks earlier", () => {
+    const oldOccurrence = item("old-fact", {
+      title: "과거 별도 사업 확대",
+      summary: "별도 사업 규모가 41배로 늘었다",
+      publisher: "old-news",
+      publishedAt: "2026-06-01T00:00:00.000Z"
+    });
+    const burst = [
+      item("repeated-fact-a", {
+        title: "대한체육회 선거 제도 개편",
+        summary: "회장 선거인단을 41배 확대한다",
+        publisher: "news-a"
+      }),
+      item("repeated-fact-b", {
+        title: "현장 구성원 투표권 확대",
+        summary: "정관 개정으로 참여 규모가 41배가 된다",
+        publisher: "news-b",
+        publishedAt: "2026-07-16T01:00:00.000Z"
+      }),
+      item("repeated-fact-c", {
+        title: "축구협회 선거 개편 영향",
+        summary: "상위 단체 선거인단이 41배로 늘어난다",
+        publisher: "news-c",
+        publishedAt: "2026-07-16T02:00:00.000Z"
+      })
+    ];
+    const model = createStoryFactAnchorModel([oldOccurrence, ...burst]);
+
+    assert.equal(model.qualifyingAnchors.has("41배"), true);
+    assert.equal(isBurstStoryPairMatch(burst[0], burst[2], model), true);
+    assert.equal(isBurstStoryPairMatch(oldOccurrence, burst[0], model), false);
+  });
+
+  it("does not reactivate repeated generic count anchors", () => {
+    const occurrences = [
+      item("old-count", {
+        title: "과거 별도 인선",
+        summary: "선거인단 192명이 참여했고 지지율은 85.6%였다",
+        publisher: "old-news",
+        publishedAt: "2026-06-01T00:00:00.000Z"
+      }),
+      item("count-a", {
+        title: "첫 번째 현안",
+        summary: "선거인단 192명이 참석했고 지지율은 85.6%였다",
+        publisher: "news-a"
+      }),
+      item("count-b", {
+        title: "두 번째 현안",
+        summary: "대표 192명이 입장을 냈고 지지율은 85.6%였다",
+        publisher: "news-b",
+        publishedAt: "2026-07-16T01:00:00.000Z"
+      }),
+      item("count-c", {
+        title: "세 번째 현안",
+        summary: "위원 192명이 논의했고 지지율은 85.6%였다",
+        publisher: "news-c",
+        publishedAt: "2026-07-16T02:00:00.000Z"
+      })
+    ];
+
+    const model = createStoryFactAnchorModel(occurrences);
+
+    assert.equal(model.qualifyingAnchors.has("192명"), false);
+    assert.equal(model.qualifyingAnchors.has("85.6%"), false);
   });
 
   it("keeps exact wire-copy atoms intact when a rare-fact burst overlaps one member", () => {
