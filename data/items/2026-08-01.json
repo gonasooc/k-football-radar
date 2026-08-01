@@ -1,5 +1,109 @@
 [
   {
+    "id": "item_a6e20b339fdedf23",
+    "type": "news",
+    "title": "[단독] '2개월 임시직' 지원 안 한 벤투…정식 감독만 희망",
+    "summary": "[ 정몽규 /전 대한 축구협회 장(지난달 30일 국회 청문회) : 제가 1년, 아시안컵까지 감독직을 제안했었고요. 그리고 4강 이상 됐을때 월드컵까지 하겠다 했는데 벤투 감독이 거절하고 '4년 아니면 안 하겠다.'] 벤투 감독과...",
+    "url": "https://news.jtbc.co.kr/article/NB12311249?influxDiv=NAVER",
+    "originalUrl": "https://news.jtbc.co.kr/article/NB12311249?influxDiv=NAVER",
+    "publisher": "news.jtbc.co.kr",
+    "publishedAt": "2026-08-01T11:44:00.000Z",
+    "collectedAt": "2026-08-01T11:46:37.345Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독",
+      "감독직",
+      "정몽규",
+      "청문회"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 15,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_f02c521e3722580c",
+    "type": "news",
+    "title": "한국 대표팀 감독 관심 있다더니…지원서 제출 않겠다는 벤투, 왜?",
+    "summary": "임기는 올해 9월부터 11월까지 2개월로 이달 안에 감독 선임 절차가 마무리될 예정이다. 벤투 전 감독 은 2022 카타르 월드컵에서 한국 축구 대표팀 16강 진출을 이끌었다. 당시 한국은 포르투갈, 우루과이, 가나와...",
+    "url": "https://www.mk.co.kr/article/12114283",
+    "originalUrl": "https://www.mk.co.kr/article/12114283",
+    "publisher": "mk.co.kr",
+    "publishedAt": "2026-08-01T11:12:00.000Z",
+    "collectedAt": "2026-08-01T11:46:37.345Z",
+    "matchedKeywords": [
+      "대표팀 감독",
+      "감독",
+      "관심"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_909ec510e02a9fe0",
+    "type": "news",
+    "title": "韓 축구 절망·역대급 위기→초대형 낭보 터졌다, 대한민국 국가대표 '...",
+    "summary": "한국 축구 는 북중미월드컵 이후 어지러운 상황이다. 홍명보 감독·정몽규 협회장 이 사임했지만 48개국 체제, '꿀 조'에서 조별리그 탈락 후폭풍이 여전하다. 하지만 월드컵에서 뛰었던 선수들은 여름 이적 시장을 통해 한...",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=832218",
+    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=832218",
+    "publisher": "spotvnews.co.kr",
+    "publishedAt": "2026-08-01T10:40:00.000Z",
+    "collectedAt": "2026-08-01T11:46:37.345Z",
+    "matchedKeywords": [
+      "정몽규",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독",
+      "축구협회장"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_be73c084eb0ab674",
     "type": "news",
     "title": "'명문 클럽 거절, 韓 대표팀 원한다'…\"이강인 내 아들!\" 외쳤던 그 감독...",
@@ -32,7 +136,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2179055"
+      ],
+      "stories": [
+        "news|news|'명문 클럽 거절, 韓 대표팀 원한다'…\"이강인 내 아들!\" 외쳤던 그 감독...|xportsnews.com|2026-08-01T09:27:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'명문 클럽 거절, 韓 대표팀 원한다'…\"이강인 내 아들!\" 외쳤던 그 감독...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1785576420000,
+      "latestPublishedAt": 1785576420000,
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
+    }
   },
   {
     "id": "item_8b868ab0982f50fd",
@@ -63,7 +183,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.jnilbo.com/news/articleView.html?idxno=90000053793"
+      ],
+      "stories": [
+        "news|news|월드컵 한국 이긴 남아공대표팀 브로스 감독, 지도자 은퇴|jnilbo.com|2026-08-01T09:17:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|월드컵 한국 이긴 남아공대표팀 브로스 감독, 지도자 은퇴|jnilbo.com"
+      ],
+      "earliestPublishedAt": 1785575820000,
+      "latestPublishedAt": 1785575820000,
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
+    }
   },
   {
     "id": "item_b84b3c973a74b087",
@@ -92,7 +228,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mk.co.kr/article/12114264"
+      ],
+      "stories": [
+        "news|news|“어려운 결정 내렸다”…‘한국축구’에 비수 꽂은 남아공 감독 근황|mk.co.kr|2026-08-01T09:03:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“어려운 결정 내렸다”…‘한국축구’에 비수 꽂은 남아공 감독 근황|mk.co.kr"
+      ],
+      "earliestPublishedAt": 1785574980000,
+      "latestPublishedAt": 1785574980000,
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
+    }
   },
   {
     "id": "item_facc9fee86a2fc9a",
@@ -151,8 +303,8 @@
       ],
       "earliestPublishedAt": 1785569160000,
       "latestPublishedAt": 1785569160000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -199,8 +351,8 @@
       ],
       "earliestPublishedAt": 1785567840000,
       "latestPublishedAt": 1785567840000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -261,8 +413,8 @@
       ],
       "earliestPublishedAt": 1785566700000,
       "latestPublishedAt": 1785566700000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -318,8 +470,8 @@
       ],
       "earliestPublishedAt": 1785564960000,
       "latestPublishedAt": 1785564960000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -369,8 +521,8 @@
       ],
       "earliestPublishedAt": 1785562320000,
       "latestPublishedAt": 1785562320000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -416,8 +568,8 @@
       ],
       "earliestPublishedAt": 1785561180000,
       "latestPublishedAt": 1785561180000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -465,8 +617,8 @@
       ],
       "earliestPublishedAt": 1785560880000,
       "latestPublishedAt": 1785560880000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -515,8 +667,8 @@
       ],
       "earliestPublishedAt": 1785560700000,
       "latestPublishedAt": 1785560700000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -548,7 +700,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.joongang.co.kr/article/25450055"
+      ],
+      "stories": [
+        "news|news|지원 의사 있다던 벤투 “2개월짜리 임시 감독직 지원 안 해”|joongang.co.kr|2026-08-01T03:38:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|지원 의사 있다던 벤투 “2개월짜리 임시 감독직 지원 안 해”|joongang.co.kr"
+      ],
+      "earliestPublishedAt": 1785555480000,
+      "latestPublishedAt": 1785555480000,
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
+    }
   },
   {
     "id": "youtube_iA4Xii0dbiA",
@@ -654,8 +822,8 @@
       ],
       "earliestPublishedAt": 1785551460000,
       "latestPublishedAt": 1785551460000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -717,8 +885,8 @@
       ],
       "earliestPublishedAt": 1785551400000,
       "latestPublishedAt": 1785551400000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -817,8 +985,8 @@
       ],
       "earliestPublishedAt": 1785548280000,
       "latestPublishedAt": 1785548280000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -871,8 +1039,8 @@
       ],
       "earliestPublishedAt": 1785546900000,
       "latestPublishedAt": 1785546900000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -979,8 +1147,8 @@
       ],
       "earliestPublishedAt": 1785545880000,
       "latestPublishedAt": 1785545880000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -1028,8 +1196,8 @@
       ],
       "earliestPublishedAt": 1785545640000,
       "latestPublishedAt": 1785545640000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -1083,8 +1251,8 @@
       ],
       "earliestPublishedAt": 1785545520000,
       "latestPublishedAt": 1785545520000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -1127,8 +1295,8 @@
       ],
       "earliestPublishedAt": 1785545400000,
       "latestPublishedAt": 1785545400000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -1316,8 +1484,8 @@
       ],
       "earliestPublishedAt": 1785543420000,
       "latestPublishedAt": 1785543420000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -1359,8 +1527,8 @@
       ],
       "earliestPublishedAt": 1785542880000,
       "latestPublishedAt": 1785542880000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   },
   {
@@ -1419,8 +1587,8 @@
       ],
       "earliestPublishedAt": 1785542460000,
       "latestPublishedAt": 1785542460000,
-      "representativeCollectedAt": 1785579727102,
-      "latestCollectedAt": 1785579727102
+      "representativeCollectedAt": 1785584797345,
+      "latestCollectedAt": 1785584797345
     }
   }
 ]
