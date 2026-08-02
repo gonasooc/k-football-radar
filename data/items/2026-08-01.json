@@ -30,7 +30,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.fnnews.com/news/202608020835100366"
+      ],
+      "stories": [
+        "news|news|韓축구 감독 관심 있다던 벤투, \"2개월짜리 직책 안 맡는다\" 선긋기|fnnews.com|2026-08-01T23:48:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|韓축구 감독 관심 있다던 벤투, \"2개월짜리 직책 안 맡는다\" 선긋기|fnnews.com"
+      ],
+      "earliestPublishedAt": 1785628080000,
+      "latestPublishedAt": 1785628080000,
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
+    }
   },
   {
     "id": "item_2c5574760fcfb45d",
@@ -91,8 +107,8 @@
       ],
       "earliestPublishedAt": 1785626700000,
       "latestPublishedAt": 1785626700000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -133,8 +149,8 @@
       ],
       "earliestPublishedAt": 1785626580000,
       "latestPublishedAt": 1785626580000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -190,8 +206,8 @@
       ],
       "earliestPublishedAt": 1785626160000,
       "latestPublishedAt": 1785626160000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -293,8 +309,8 @@
       ],
       "earliestPublishedAt": 1785624720000,
       "latestPublishedAt": 1785624720000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -348,8 +364,8 @@
       ],
       "earliestPublishedAt": 1785621840000,
       "latestPublishedAt": 1785621840000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -413,8 +429,8 @@
       ],
       "earliestPublishedAt": 1785618060000,
       "latestPublishedAt": 1785618060000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -465,8 +481,8 @@
       ],
       "earliestPublishedAt": 1785606420000,
       "latestPublishedAt": 1785606420000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -511,7 +527,7 @@
     "id": "item_770a8c5bfe69ae8f",
     "type": "news",
     "title": "한국 축구 실패 묻는다더니 왜 가족 추궁하나...홍명보 청문회 수준에 ...",
-    "summary": "홍명보 전 대한민국 축구 대표팀 감독 의 두 아들 병역 문제까지 거론한 국회 청문회를 두고 일본 언론도 이례적인 광경이라며 놀라움을 나타냈다. 일본 '코코카라'는 31일(한국시간) \"월드컵에서 실패한 전 한국 감독을...",
+    "summary": "홍명보 전 대한민국 축구 대표팀 감독의 두 아들 병역 문제까지 거론한 국회 청문회를 두고 일본 언론도... 국회 문화체육관광위원회는 지난달 30일 대한 축구협회 청문회를 열었다. 정몽규 전 대한 축구협회 장과 홍 전 감독...",
     "url": "http://www.osen.co.kr/article/G1112850720",
     "originalUrl": "http://www.osen.co.kr/article/G1112850720",
     "publisher": "osen.co.kr",
@@ -520,9 +536,11 @@
     "matchedKeywords": [
       "홍명보",
       "청문회",
+      "대한 축구협회",
       "대표팀 감독",
       "감독",
-      "거론"
+      "거론",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -540,11 +558,12 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 22,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ],
@@ -561,8 +580,8 @@
       ],
       "earliestPublishedAt": 1785600660000,
       "latestPublishedAt": 1785600660000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -627,8 +646,8 @@
       ],
       "earliestPublishedAt": 1785597000000,
       "latestPublishedAt": 1785597000000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -741,8 +760,8 @@
       ],
       "earliestPublishedAt": 1785591960000,
       "latestPublishedAt": 1785591960000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -771,7 +790,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.maniareport.com/view.php?ud=202608011845053757dad9f33a29_19"
+      ],
+      "stories": [
+        "news|news|한국을 무너뜨린 남아공대표팀 브로스 감독, 계약 연장 거부하고 지도자...|maniareport.com|2026-08-01T12:33:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|한국을 무너뜨린 남아공대표팀 브로스 감독, 계약 연장 거부하고 지도자...|maniareport.com"
+      ],
+      "earliestPublishedAt": 1785587580000,
+      "latestPublishedAt": 1785587580000,
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
+    }
   },
   {
     "id": "item_12e4784fa44603b0",
@@ -830,8 +865,8 @@
       ],
       "earliestPublishedAt": 1785587460000,
       "latestPublishedAt": 1785587460000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -884,8 +919,8 @@
       ],
       "earliestPublishedAt": 1785587100000,
       "latestPublishedAt": 1785587100000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -1175,7 +1210,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.starnewskorea.com/sports/2026/08/01/2026080118333380883"
+      ],
+      "stories": [
+        "news|news|'한국 꺾고 남아공 새 역사' 브로스 감독 눈물의 은퇴 \"가족과 떨어져 ...|starnewskorea.com|2026-08-01T11:55:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'한국 꺾고 남아공 새 역사' 브로스 감독 눈물의 은퇴 \"가족과 떨어져 ...|starnewskorea.com"
+      ],
+      "earliestPublishedAt": 1785585300000,
+      "latestPublishedAt": 1785585300000,
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
+    }
   },
   {
     "id": "item_a6e20b339fdedf23",
@@ -1232,8 +1283,8 @@
       ],
       "earliestPublishedAt": 1785584640000,
       "latestPublishedAt": 1785584640000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -1279,8 +1330,8 @@
       ],
       "earliestPublishedAt": 1785582720000,
       "latestPublishedAt": 1785582720000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -1323,8 +1374,8 @@
       ],
       "earliestPublishedAt": 1785582180000,
       "latestPublishedAt": 1785582180000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -1370,8 +1421,8 @@
       ],
       "earliestPublishedAt": 1785580800000,
       "latestPublishedAt": 1785580800000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -1422,8 +1473,8 @@
       ],
       "earliestPublishedAt": 1785576420000,
       "latestPublishedAt": 1785576420000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -1469,8 +1520,8 @@
       ],
       "earliestPublishedAt": 1785575820000,
       "latestPublishedAt": 1785575820000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -1514,8 +1565,8 @@
       ],
       "earliestPublishedAt": 1785574980000,
       "latestPublishedAt": 1785574980000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -1625,8 +1676,8 @@
       ],
       "earliestPublishedAt": 1785569160000,
       "latestPublishedAt": 1785569160000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -1894,8 +1945,8 @@
       ],
       "earliestPublishedAt": 1785566700000,
       "latestPublishedAt": 1785566700000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -1951,8 +2002,8 @@
       ],
       "earliestPublishedAt": 1785564960000,
       "latestPublishedAt": 1785564960000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -2106,7 +2157,7 @@
     "id": "item_a62eefbe45e7691c",
     "type": "news",
     "title": "\"홍명보 아들, 군대 갔다 왔냐\"→\"안 갔다, 의견 존중해\"... '도대체 왜'...",
-    "summary": "일본 매체 '코코카라'는 31일 \"축구와 도대체 무슨 상관이 있는 질문인가\"라며 30일 열린 국회 문화체육관광위원회의 대한축구협회 현안 청문회 장면을 집중 조명했다. '코코카라'는 \"세계의 시선이 집중된 무대에서 실태를...",
+    "summary": "실제로 30일 청문회 현장에서는 축구협회 의 부실한 행정 시스템과 선임 절차의 파행을 꼬집어야 할 자리가 개인의 가족사 파헤치기로 변질됐다. 질의에 나선 조계원 더불어민주당 의원은 홍명보 전 감독을 향해 돌연 두...",
     "url": "https://www.starnewskorea.com/sports/2026/08/01/2026080113055118036",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/08/01/2026080113055118036",
     "publisher": "starnewskorea.com",
@@ -2114,7 +2165,7 @@
     "collectedAt": "2026-08-01T07:51:17.565Z",
     "matchedKeywords": [
       "홍명보",
-      "대한축구협회",
+      "축구협회",
       "청문회"
     ],
     "discoveryQueries": [
@@ -2149,8 +2200,8 @@
       ],
       "earliestPublishedAt": 1785562320000,
       "latestPublishedAt": 1785562320000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -2258,8 +2309,8 @@
       ],
       "earliestPublishedAt": 1785561180000,
       "latestPublishedAt": 1785561180000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -2351,8 +2402,8 @@
       ],
       "earliestPublishedAt": 1785560880000,
       "latestPublishedAt": 1785560880000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -2401,8 +2452,8 @@
       ],
       "earliestPublishedAt": 1785560700000,
       "latestPublishedAt": 1785560700000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -2660,8 +2711,8 @@
       ],
       "earliestPublishedAt": 1785555480000,
       "latestPublishedAt": 1785555480000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -2820,8 +2871,8 @@
       ],
       "earliestPublishedAt": 1785551460000,
       "latestPublishedAt": 1785551460000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -2883,8 +2934,8 @@
       ],
       "earliestPublishedAt": 1785551400000,
       "latestPublishedAt": 1785551400000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -3043,8 +3094,8 @@
       ],
       "earliestPublishedAt": 1785548280000,
       "latestPublishedAt": 1785548280000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -3178,8 +3229,8 @@
       ],
       "earliestPublishedAt": 1785546900000,
       "latestPublishedAt": 1785546900000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -3302,8 +3353,8 @@
       ],
       "earliestPublishedAt": 1785545880000,
       "latestPublishedAt": 1785545880000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -3351,8 +3402,8 @@
       ],
       "earliestPublishedAt": 1785545640000,
       "latestPublishedAt": 1785545640000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -3406,8 +3457,8 @@
       ],
       "earliestPublishedAt": 1785545520000,
       "latestPublishedAt": 1785545520000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -3450,8 +3501,8 @@
       ],
       "earliestPublishedAt": 1785545400000,
       "latestPublishedAt": 1785545400000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -3768,7 +3819,7 @@
     "id": "item_5b7ee5672d576f6a",
     "type": "news",
     "title": "“일본에서는 상상도 못할 일”…‘홍명보 청문회’ 집중 다룬 日매체",
-    "summary": "2026 북중미 월드컵 조별리그에서 졸전 끝에 탈락한 한국 축구 대표팀의 홍명보 전 감독이 국회의 대한 축구협회 청문회에 참석한 가운데 일본도 이 사안을 비중있게 다뤘다. 일본 매체 데일리는 지난달 30일 ‘지옥 같은...",
+    "summary": "2026 북중미 월드컵 조별리그에서 졸전 끝에 탈락한 한국 축구 대표팀의 홍명보 전 감독이 국회의 대한축구협회 청문회에 참석한 가운데 일본도 이 사안을 비중있게 다뤘다. 일본 매체 데일리는 지난달 30일 ‘지옥 같은...",
     "url": "https://www.mk.co.kr/article/12114184",
     "originalUrl": "https://www.mk.co.kr/article/12114184",
     "publisher": "mk.co.kr",
@@ -3777,7 +3828,7 @@
     "matchedKeywords": [
       "홍명보",
       "청문회",
-      "대한 축구협회"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -3808,8 +3859,8 @@
       ],
       "earliestPublishedAt": 1785543420000,
       "latestPublishedAt": 1785543420000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -3851,8 +3902,8 @@
       ],
       "earliestPublishedAt": 1785542880000,
       "latestPublishedAt": 1785542880000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
@@ -3911,8 +3962,8 @@
       ],
       "earliestPublishedAt": 1785542460000,
       "latestPublishedAt": 1785542460000,
-      "representativeCollectedAt": 1785633341359,
-      "latestCollectedAt": 1785633341359
+      "representativeCollectedAt": 1785646796693,
+      "latestCollectedAt": 1785646796693
     }
   },
   {
