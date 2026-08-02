@@ -1,5 +1,81 @@
 [
   {
+    "id": "item_fe8019f76cac5c15",
+    "type": "news",
+    "title": "부여읍에 내 결린 윤용근 국회의원 “회장님! 송구합니다” 규탄 현수막...",
+    "summary": "국민의힘 윤용근 국회의원(충남 공주·부여·청양)이 대한 축구협회 청문회 과정에서 정몽규 전 축구협회 장에게 부적절한 문자 메시지를 보낸 사실이 알려진 가운데...",
+    "url": "http://www.breaknews.com/1226109",
+    "originalUrl": "http://www.breaknews.com/1226109",
+    "publisher": "breaknews.com",
+    "publishedAt": "2026-08-02T12:14:00.000Z",
+    "collectedAt": "2026-08-02T12:42:48.366Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "정몽규",
+      "청문회"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 감사",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회 감사",
+      "축구협회 회장 선거",
+      "축구협회장",
+      "KFA"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 11,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_e1300c387f8b39f8",
+    "type": "news",
+    "title": "\"강원FC 700억 원 홍보효과 거뒀다\" 김병지 축협부회장, 청문회 비판 정...",
+    "summary": "김병지 대한 축구협회 부회장 겸 강원FC 대표이사가 국회 청문회에서 제기된 시·도민구단의 세금 의존과 자생력 논란에 대해 정면으로 반박했다. 김병지 는 31일 자신의 사회관계망서비스(SNS)를 통해 청문회에서 미처...",
+    "url": "http://www.osen.co.kr/article/G1112851357",
+    "originalUrl": "http://www.osen.co.kr/article/G1112851357",
+    "publisher": "osen.co.kr",
+    "publishedAt": "2026-08-02T11:59:00.000Z",
+    "collectedAt": "2026-08-02T12:42:48.366Z",
+    "matchedKeywords": [
+      "축협",
+      "부회장",
+      "김병지",
+      "청문회",
+      "대한 축구협회"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 대한축구협회",
+      "\"김병지\" 축구협회",
+      "대한축구협회",
+      "축구협회 부회장"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_kim_byung_ji"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 48,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_570ef07b5be25de6",
     "type": "news",
     "title": "'김민재 스승' 콤파니, 제주-인천 맞대결 직관…뮌헨 관계자·구자철과...",
@@ -25,7 +101,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2179402"
+      ],
+      "stories": [
+        "news|news|'김민재 스승' 콤파니, 제주-인천 맞대결 직관…뮌헨 관계자·구자철과...|xportsnews.com|2026-08-02T11:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'김민재 스승' 콤파니, 제주-인천 맞대결 직관…뮌헨 관계자·구자철과...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1785669660000,
+      "latestPublishedAt": 1785669660000,
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
+    }
   },
   {
     "id": "item_f0cfc48eb1727045",
@@ -50,7 +142,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.khan.co.kr/article/202608022000006?pt=nv"
+      ],
+      "stories": [
+        "news|news|태극마크 꿈꾸는 ‘보인고 아자르’|sports.khan.co.kr|2026-08-02T11:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|태극마크 꿈꾸는 ‘보인고 아자르’|sports.khan.co.kr"
+      ],
+      "earliestPublishedAt": 1785668400000,
+      "latestPublishedAt": 1785668400000,
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
+    }
   },
   {
     "id": "item_a7b141f178592d30",
@@ -91,7 +199,23 @@
     "relevanceScore": 27,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.hidomin.com/news/articleView.html?idxno=715632"
+      ],
+      "stories": [
+        "news|news|실망 안겨준 축구협회 청문회 왜 했나|hidomin.com|2026-08-02T10:54:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|실망 안겨준 축구협회 청문회 왜 했나|hidomin.com"
+      ],
+      "earliestPublishedAt": 1785668040000,
+      "latestPublishedAt": 1785668040000,
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
+    }
   },
   {
     "id": "item_3972eb6e40a93f2b",
@@ -120,7 +244,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mk.co.kr/article/12114688"
+      ],
+      "stories": [
+        "news|news|코스타 제주 감독 “벤투와 매일 연락”···“한국 대표팀 선수들은 ...|mk.co.kr|2026-08-02T10:39:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|코스타 제주 감독 “벤투와 매일 연락”···“한국 대표팀 선수들은 ...|mk.co.kr"
+      ],
+      "earliestPublishedAt": 1785667140000,
+      "latestPublishedAt": 1785667140000,
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
+    }
   },
   {
     "id": "item_462350cf7e8c27cf",
@@ -177,8 +317,8 @@
       ],
       "earliestPublishedAt": 1785664920000,
       "latestPublishedAt": 1785664920000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -218,8 +358,8 @@
       ],
       "earliestPublishedAt": 1785663600000,
       "latestPublishedAt": 1785663600000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -258,8 +398,8 @@
       ],
       "earliestPublishedAt": 1785662220000,
       "latestPublishedAt": 1785662220000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -315,8 +455,8 @@
       ],
       "earliestPublishedAt": 1785660600000,
       "latestPublishedAt": 1785660600000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -365,8 +505,8 @@
       ],
       "earliestPublishedAt": 1785657120000,
       "latestPublishedAt": 1785657120000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -405,8 +545,8 @@
       ],
       "earliestPublishedAt": 1785656940000,
       "latestPublishedAt": 1785656940000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -473,8 +613,8 @@
       ],
       "earliestPublishedAt": 1785656460000,
       "latestPublishedAt": 1785656460000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -537,8 +677,8 @@
       ],
       "earliestPublishedAt": 1785655560000,
       "latestPublishedAt": 1785655560000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -591,8 +731,8 @@
       ],
       "earliestPublishedAt": 1785652440000,
       "latestPublishedAt": 1785652440000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -653,8 +793,8 @@
       ],
       "earliestPublishedAt": 1785650460000,
       "latestPublishedAt": 1785650460000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -705,8 +845,8 @@
       ],
       "earliestPublishedAt": 1785647880000,
       "latestPublishedAt": 1785647880000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -746,8 +886,8 @@
       ],
       "earliestPublishedAt": 1785647100000,
       "latestPublishedAt": 1785647100000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -834,8 +974,8 @@
       ],
       "earliestPublishedAt": 1785644400000,
       "latestPublishedAt": 1785644400000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -990,8 +1130,8 @@
       ],
       "earliestPublishedAt": 1785636360000,
       "latestPublishedAt": 1785636360000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -1046,8 +1186,8 @@
       ],
       "earliestPublishedAt": 1785636240000,
       "latestPublishedAt": 1785636240000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -1134,8 +1274,8 @@
       ],
       "earliestPublishedAt": 1785636060000,
       "latestPublishedAt": 1785636060000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -1183,8 +1323,8 @@
       ],
       "earliestPublishedAt": 1785636060000,
       "latestPublishedAt": 1785636060000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -1339,8 +1479,8 @@
       ],
       "earliestPublishedAt": 1785634560000,
       "latestPublishedAt": 1785634560000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -1393,8 +1533,8 @@
       ],
       "earliestPublishedAt": 1785632820000,
       "latestPublishedAt": 1785632820000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
@@ -1516,8 +1656,8 @@
       ],
       "earliestPublishedAt": 1785631560000,
       "latestPublishedAt": 1785631560000,
-      "representativeCollectedAt": 1785671114412,
-      "latestCollectedAt": 1785671114412
+      "representativeCollectedAt": 1785674568366,
+      "latestCollectedAt": 1785674568366
     }
   },
   {
