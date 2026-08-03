@@ -44,8 +44,8 @@
       ],
       "earliestPublishedAt": 1785628080000,
       "latestPublishedAt": 1785628080000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -163,8 +163,8 @@
       ],
       "earliestPublishedAt": 1785626700000,
       "latestPublishedAt": 1785626700000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -205,8 +205,8 @@
       ],
       "earliestPublishedAt": 1785626580000,
       "latestPublishedAt": 1785626580000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -262,8 +262,8 @@
       ],
       "earliestPublishedAt": 1785626160000,
       "latestPublishedAt": 1785626160000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -381,8 +381,8 @@
       ],
       "earliestPublishedAt": 1785624720000,
       "latestPublishedAt": 1785624720000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -660,25 +660,26 @@
       ],
       "earliestPublishedAt": 1785618060000,
       "latestPublishedAt": 1785618060000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
     "id": "item_d31afb8ef6aeec4a",
     "type": "news",
     "title": "생애 두 번째 亞 진출, 행선지 대한민국 되나...'韓 에이스' 이강인도 웃...",
-    "summary": "소식에 따르면 아기레 감독은 이러한 관심에 감사 하면서도 멕시코 축구 계로 복귀할 의사가 없고, 일본... 대한 축구협회 는 임시 감독 선임을 위한 공개 채용을 발표했다. 9월부터 11월까지 6경기를 지휘할 감독이다. 당초...",
+    "summary": "소식에 따르면 아기레 감독은 이러한 관심에 감사 하면서도 멕시코 축구계로 복귀할 의사가 없고, 일본... 한국은 조별리그 탈락 후 홍명보 감독이 자진 사퇴하며, 현재는 감독직이 공석이다. 대한축구협회는 임시 감독...",
     "url": "https://www.sportschosun.com/football/2026-08-02/202608020100005580000284",
     "originalUrl": "https://www.sportschosun.com/football/2026-08-02/202608020100005580000284",
     "publisher": "sportschosun.com",
     "publishedAt": "2026-08-01T17:47:00.000Z",
     "collectedAt": "2026-08-01T18:41:05.274Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "감독 선임",
+      "대한축구협회",
       "감독",
-      "선임",
+      "감독직",
+      "홍명보",
+      "사퇴",
       "감사"
     ],
     "discoveryQueries": [
@@ -694,12 +695,15 @@
     "issueTags": [
       "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 12,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
+      "인물 언급",
       "감사 키워드 포함"
     ],
     "dedupeState": {
@@ -715,8 +719,8 @@
       ],
       "earliestPublishedAt": 1785606420000,
       "latestPublishedAt": 1785606420000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -881,8 +885,8 @@
       ],
       "earliestPublishedAt": 1785597000000,
       "latestPublishedAt": 1785597000000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -1120,8 +1124,8 @@
       ],
       "earliestPublishedAt": 1785587460000,
       "latestPublishedAt": 1785587460000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -1174,8 +1178,8 @@
       ],
       "earliestPublishedAt": 1785587100000,
       "latestPublishedAt": 1785587100000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -1747,7 +1751,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=520640"
+      ],
+      "stories": [
+        "news|news|[장덕수의 원샷원킬] '송구합니다'라는 문자…국회는 왜 권력 앞에서만...|ilyoseoul.co.kr|2026-08-01T10:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[장덕수의 원샷원킬] '송구합니다'라는 문자…국회는 왜 권력 앞에서만...|ilyoseoul.co.kr"
+      ],
+      "earliestPublishedAt": 1785579000000,
+      "latestPublishedAt": 1785579000000,
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
+    }
   },
   {
     "id": "item_be73c084eb0ab674",
@@ -1797,8 +1817,8 @@
       ],
       "earliestPublishedAt": 1785576420000,
       "latestPublishedAt": 1785576420000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -1846,8 +1866,8 @@
       ],
       "earliestPublishedAt": 1785575820000,
       "latestPublishedAt": 1785575820000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -1892,8 +1912,8 @@
       ],
       "earliestPublishedAt": 1785575220000,
       "latestPublishedAt": 1785575220000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -1938,8 +1958,8 @@
       ],
       "earliestPublishedAt": 1785575100000,
       "latestPublishedAt": 1785575100000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -2079,8 +2099,8 @@
       ],
       "earliestPublishedAt": 1785573300000,
       "latestPublishedAt": 1785573300000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -2139,8 +2159,8 @@
       ],
       "earliestPublishedAt": 1785569160000,
       "latestPublishedAt": 1785569160000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -2788,8 +2808,8 @@
       ],
       "earliestPublishedAt": 1785561180000,
       "latestPublishedAt": 1785561180000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -2880,8 +2900,8 @@
       ],
       "earliestPublishedAt": 1785560880000,
       "latestPublishedAt": 1785560880000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -3349,8 +3369,8 @@
       ],
       "earliestPublishedAt": 1785551460000,
       "latestPublishedAt": 1785551460000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -3412,8 +3432,8 @@
       ],
       "earliestPublishedAt": 1785551400000,
       "latestPublishedAt": 1785551400000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -3575,8 +3595,8 @@
       ],
       "earliestPublishedAt": 1785548280000,
       "latestPublishedAt": 1785548280000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -3703,8 +3723,8 @@
       ],
       "earliestPublishedAt": 1785546900000,
       "latestPublishedAt": 1785546900000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -3881,8 +3901,8 @@
       ],
       "earliestPublishedAt": 1785545640000,
       "latestPublishedAt": 1785545640000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -3941,8 +3961,8 @@
       ],
       "earliestPublishedAt": 1785545520000,
       "latestPublishedAt": 1785545520000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -3989,8 +4009,8 @@
       ],
       "earliestPublishedAt": 1785545400000,
       "latestPublishedAt": 1785545400000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -4390,8 +4410,8 @@
       ],
       "earliestPublishedAt": 1785542880000,
       "latestPublishedAt": 1785542880000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
@@ -4452,8 +4472,8 @@
       ],
       "earliestPublishedAt": 1785542460000,
       "latestPublishedAt": 1785542460000,
-      "representativeCollectedAt": 1785747079568,
-      "latestCollectedAt": 1785747079568
+      "representativeCollectedAt": 1785761102469,
+      "latestCollectedAt": 1785761102469
     }
   },
   {
