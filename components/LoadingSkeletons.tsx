@@ -69,7 +69,7 @@ export function FeedResultsSkeleton({
         </div>
       ) : (
         <>
-          <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
+          <div className="grid grid-cols-1 border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
             {FEATURED_SKELETONS.map((item) => (
               <ArticleSkeleton compact key={item} />
             ))}

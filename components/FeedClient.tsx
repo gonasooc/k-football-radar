@@ -663,7 +663,7 @@ export function FeedClient({
         ) : results.entries.length > 0 ? (
           <div className="space-y-6">
             {gridEntries.length > 0 ? (
-              <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
+              <div className="grid grid-cols-1 border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
                 {gridEntries.map((entry) => (
                   <MemoizedStoryFeedEntryCard
                     entry={entry}

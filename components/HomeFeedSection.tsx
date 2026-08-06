@@ -60,7 +60,7 @@ export function HomeFeedSection({
 
       {page.entries.length > 0 ? (
         <div className="space-y-6">
-          <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
+          <div className="grid grid-cols-1 border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
             {featured.map((entry) => (
               <StoryFeedEntryCard
                 entry={entry}
@@ -72,7 +72,7 @@ export function HomeFeedSection({
             ))}
           </div>
           {remaining.length > 0 ? (
-            <div className="grid border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
+            <div className="grid grid-cols-1 border-b border-rule lg:grid-cols-3 lg:divide-x lg:divide-line">
               {remaining.map((entry) => (
                 <StoryFeedEntryCard
                   entry={entry}

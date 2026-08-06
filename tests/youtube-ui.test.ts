@@ -26,6 +26,10 @@ const feedClientSource = readFileSync(
   new URL("../components/FeedClient.tsx", import.meta.url),
   "utf8"
 );
+const loadingSkeletonsSource = readFileSync(
+  new URL("../components/LoadingSkeletons.tsx", import.meta.url),
+  "utf8"
+);
 describe("YouTube feed UI", () => {
   it("routes YouTube entries to a media-aware card with the editorial metadata rhythm", () => {
     assert.match(storyCardSource, /entry\.representative\.sourceType === "youtube"/);
@@ -75,5 +79,14 @@ describe("YouTube feed UI", () => {
     assert.match(homeSectionSource, /aria-label=\{`\$\{title\} 더보기`\}/);
     assert.match(homeSectionSource, />\s*더보기\s*<ArrowRight/);
     assert.match(homeSectionSource, /<StoryFeedEntryCard/);
+  });
+
+  it("constrains compact card grids to the mobile viewport", () => {
+    const responsiveGridPattern =
+      /grid grid-cols-1 border-b border-rule lg:grid-cols-3/;
+
+    assert.match(feedClientSource, responsiveGridPattern);
+    assert.match(homeSectionSource, responsiveGridPattern);
+    assert.match(loadingSkeletonsSource, responsiveGridPattern);
   });
 });
