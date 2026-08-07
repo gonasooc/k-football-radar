@@ -42,7 +42,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.fnnews.com/news/202608070849168394"
+      ],
+      "stories": [
+        "news|news|\"오전 9시부터 밤 8시 22분까지\"… 포렌식팀 투입된 축구협회 압수수색...|fnnews.com|2026-08-06T23:52:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"오전 9시부터 밤 8시 22분까지\"… 포렌식팀 투입된 축구협회 압수수색...|fnnews.com"
+      ],
+      "earliestPublishedAt": 1786060320000,
+      "latestPublishedAt": 1786060320000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "youtube_TgSlm1Uqow0",
@@ -141,33 +157,72 @@
     "isOfficial": false,
     "relevanceScore": 20,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sidae.com/article/2026080708274068537"
+      ],
+      "stories": [
+        "news|news|축구협회, 법카로 외국인 심판 '성접대' 의혹…월드컵 예선 등 7차례|sidae.com|2026-08-06T23:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회, 법카로 외국인 심판 '성접대' 의혹…월드컵 예선 등 7차례|sidae.com"
+      ],
+      "earliestPublishedAt": 1786059840000,
+      "latestPublishedAt": 1786059840000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "item_b8f3f918e3eaabe3",
     "type": "news",
     "title": "‘韓 축구 그야말로 국제적 대망신’ 외신들 일제히 “대한축구협회, 외...",
-    "summary": "대한축구협회 가 외국인 심판에게 성접대를 했다는 사실이 밝혀진 가운데 외신들도 이 소식을 다루고 있다. 스페인 문도 데포르티보, 프랑스 레키프 등 외신들은 7일(한국시간) “ 대한축구협회 사무실이 압수수색을...",
+    "summary": "있다’고 해명 했다”고 했다. 앞서 JTBC가 지난 6일 입수한 2016년 작성 문화체육관광부의 ‘대한 축구협회 임직원 등 비리 조사 결과’ 문건에는 대한 축구협회 가 2011년 3월부터 2012년 3월까지 1년간 국제경기를 관장하기...",
     "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt62cd85c3863fd3d9",
     "originalUrl": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt62cd85c3863fd3d9",
     "publisher": "goal.com",
     "publishedAt": "2026-08-06T23:37:00.000Z",
     "collectedAt": "2026-08-07T00:31:15.163Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "대한 축구협회",
+      "조사 결과",
+      "해명"
     ],
     "discoveryQueries": [
       "대한축구협회",
       "축구협회 조사 결과",
       "축구협회 해명"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "mcst-audit"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 32,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [
+      "해명 키워드 포함"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt62cd85c3863fd3d9"
+      ],
+      "stories": [
+        "news|news|‘韓 축구 그야말로 국제적 대망신’ 외신들 일제히 “대한축구협회, 외...|goal.com|2026-08-06T23:37:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘韓 축구 그야말로 국제적 대망신’ 외신들 일제히 “대한축구협회, 외...|goal.com"
+      ],
+      "earliestPublishedAt": 1786059420000,
+      "latestPublishedAt": 1786059420000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "item_7e0f3d6d4c7684f4",
@@ -209,20 +264,43 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ajunews.com/view/20260807081727326"
+      ],
+      "stories": [
+        "news|news|[전문] 성접대는 시작에 불과했다...기자가 흔든 '축협 문체부 보고서'...|ajunews.com|2026-08-06T23:34:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[전문] 성접대는 시작에 불과했다...기자가 흔든 '축협 문체부 보고서'...|ajunews.com"
+      ],
+      "earliestPublishedAt": 1786059240000,
+      "latestPublishedAt": 1786059240000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "item_c9a27226a4e81e6f",
     "type": "news",
     "title": "축구협회, 11시간 압수수색… 성 접대 의혹 재조명",
-    "summary": "/연합뉴스 | 서울=한스경제 신희재 기자 | 대한축구협회 가 경찰의 압수수색과 과거 성 접대 논란으로 휘청이고 있다. 서울경찰청 광역수사단 금융범죄수사대는 6일 오전 9시부터 오후 8시 22분까지 11시간 22분 동안 천안...",
+    "summary": "/연합뉴스 | 서울=한스경제 신희재 기자 | 대한 축구협회 가 경찰의 압수수색과 과거 성 접대 논란으로... 전 축구 대표팀 감독 선임 과정에서 지위 등을 이용해 정관 을 위반했는지, 전력강화위원회 및 감독 선임을 최종...",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=855148",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=855148",
     "publisher": "hansbiz.co.kr",
     "publishedAt": "2026-08-06T23:32:00.000Z",
     "collectedAt": "2026-08-07T00:31:15.163Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한 축구협회",
+      "정관",
+      "감독 선임",
+      "대표팀 감독",
+      "전력강화위원회",
+      "감독",
+      "전력강화위원",
+      "선임"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -249,13 +327,32 @@
       "축구협회 정관",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "statute-revision",
+      "coach-appointment"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 16,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.hansbiz.co.kr/news/articleView.html?idxno=855148"
+      ],
+      "stories": [
+        "news|news|축구협회, 11시간 압수수색… 성 접대 의혹 재조명|hansbiz.co.kr|2026-08-06T23:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회, 11시간 압수수색… 성 접대 의혹 재조명|hansbiz.co.kr"
+      ],
+      "earliestPublishedAt": 1786059120000,
+      "latestPublishedAt": 1786059120000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "youtube_hHL3GOvnLBw",
@@ -436,7 +533,23 @@
     "relevanceScore": 27,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.jtbc.co.kr/article/NB12312133?influxDiv=NAVER"
+      ],
+      "stories": [
+        "news|news|축협 11시간 압수수색…'홍명보 선임' 관련 자료 확보|news.jtbc.co.kr|2026-08-06T23:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축협 11시간 압수수색…'홍명보 선임' 관련 자료 확보|news.jtbc.co.kr"
+      ],
+      "earliestPublishedAt": 1786058280000,
+      "latestPublishedAt": 1786058280000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "item_4a087ef00c9914ac",
@@ -481,20 +594,67 @@
     "relevanceScore": 24,
     "labels": [
       "인물 언급"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112853230"
+      ],
+      "stories": [
+        "news|news|청문회 피하려 해외 취직했나...이임생 정면반박 \"월드컵 도중에 캄보디...|osen.co.kr|2026-08-06T23:14:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|청문회 피하려 해외 취직했나...이임생 정면반박 \"월드컵 도중에 캄보디...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1786058040000,
+      "latestPublishedAt": 1786058040000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
+  },
+  {
+    "id": "item_d7a3c0c88eee534c",
+    "type": "news",
+    "title": "\"외국에선 더 심해\"…당시 심판국 간부가 밝힌 접대 관행",
+    "summary": "문체부 의 감사 보고서와 당시 축구협회 인사의 증언들을 종합해보면 외국인 심판을 대상으로 한 성접대는 관행적이었던 것으로 보입니다. 심판 관련 업무를 했던 당시 축구협회 간부는 \"그래야 호각을 잘 불어주지 않겠냐...",
+    "url": "https://news.jtbc.co.kr/article/NB12312135?influxDiv=NAVER",
+    "originalUrl": "https://news.jtbc.co.kr/article/NB12312135?influxDiv=NAVER",
+    "publisher": "news.jtbc.co.kr",
+    "publishedAt": "2026-08-06T23:12:00.000Z",
+    "collectedAt": "2026-08-07T03:38:44.706Z",
+    "matchedKeywords": [
+      "축구협회",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "축구협회 감사",
+      "축구협회 문체부 감사"
+    ],
+    "issueTags": [
+      "mcst-audit"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "감사 키워드 포함"
     ]
   },
   {
     "id": "item_da4b6366febdef92",
     "type": "news",
     "title": "\"이러다 한국 축구 다 말아먹어\" 박문성, 대한축구협회 '심판 성 접대' ...",
-    "summary": "박문성 축구 해설위원이 대한축구협회 의 외국인 심판 성 접대 보도에 강한 분노를 드러냈다. 단순한 법인카드 부정 사용을 넘어 국제경기 심판의 공정성과 한국 축구의 신뢰를 훼손할 수 있는 중대한 사안이라고...",
+    "summary": "해당 내용은 2016년 문화체육관광부 의 축구협회 감사 과정에서 파악했지만, 당시 외부에는 공개되지 않았다. 이에 대해 박 위원은 방송에서 \"개념 자체가 상실된 것\"이라며 \"얼마나 국제적인 망신이냐\"고 목소리를 높였다....",
     "url": "https://view.asiae.co.kr/article/2026080708080872699",
     "originalUrl": "https://view.asiae.co.kr/article/2026080708080872699",
     "publisher": "view.asiae.co.kr",
     "publishedAt": "2026-08-06T23:09:00.000Z",
     "collectedAt": "2026-08-07T00:31:15.163Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "감사"
     ],
     "discoveryQueries": [
       "대표팀 감독",
@@ -504,13 +664,33 @@
       "축구협회 문화체육관광부 감사",
       "축구협회 해명"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "mcst-audit"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 26,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [
+      "감사 키워드 포함"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://view.asiae.co.kr/article/2026080708080872699"
+      ],
+      "stories": [
+        "news|news|\"이러다 한국 축구 다 말아먹어\" 박문성, 대한축구협회 '심판 성 접대' ...|view.asiae.co.kr|2026-08-06T23:09:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"이러다 한국 축구 다 말아먹어\" 박문성, 대한축구협회 '심판 성 접대' ...|view.asiae.co.kr"
+      ],
+      "earliestPublishedAt": 1786057740000,
+      "latestPublishedAt": 1786057740000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "item_405a79784fdf6f58",
@@ -534,7 +714,23 @@
     "isOfficial": false,
     "relevanceScore": 3,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.topstarnews.net/news/articleView.html?idxno=16157143"
+      ],
+      "stories": [
+        "news|news|\"월드컵 보이콧 여전히 유효\"…uefa, 인판티노 압박 지속|topstarnews.net|2026-08-06T23:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"월드컵 보이콧 여전히 유효\"…uefa, 인판티노 압박 지속|topstarnews.net"
+      ],
+      "earliestPublishedAt": 1786057440000,
+      "latestPublishedAt": 1786057440000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "item_a09d896e645c0a2b",
@@ -564,7 +760,23 @@
     "relevanceScore": 25,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112853213"
+      ],
+      "stories": [
+        "news|news|김민재, 월드컵 부상 교체 인정→박지성 만나 k-축구 혁신 대화 나눴다...|osen.co.kr|2026-08-06T22:36:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|김민재, 월드컵 부상 교체 인정→박지성 만나 k-축구 혁신 대화 나눴다...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1786055760000,
+      "latestPublishedAt": 1786055760000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "item_6f4eca76dc92d8a5",
@@ -604,7 +816,23 @@
     "relevanceScore": 41,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5210825"
+      ],
+      "stories": [
+        "news|news|경찰, '홍명보 선임 의혹' 대한축구협회 11시간 압수수색|mbn.co.kr|2026-08-06T22:35:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|경찰, '홍명보 선임 의혹' 대한축구협회 11시간 압수수색|mbn.co.kr"
+      ],
+      "earliestPublishedAt": 1786055700000,
+      "latestPublishedAt": 1786055700000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "youtube_WSt8BlNMIxo",
@@ -884,8 +1112,8 @@
       ],
       "earliestPublishedAt": 1786053660000,
       "latestPublishedAt": 1786053660000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -1046,14 +1274,14 @@
     "id": "item_6951f586d4f3cbef",
     "type": "news",
     "title": "[YTN 실시간뉴스] 오늘 '극한더위' 절정...주말 동쪽 호우",
-    "summary": "■ 오늘 '극한더위' 절정…주말 동쪽 호우 ■ 첫 폭염 대처 회의… \"행정력 총동원\" ■ 부동산 2차 회의…공급대책 집중 점검 ■ ' 홍명보 선임 의혹' 대한 축구협회 압수수색 ■ \"호르무즈 진·출입 항로 일시 분리\"",
+    "summary": "■ 오늘 '극한더위' 절정…주말 동쪽 호우 ■ 첫 폭염 대처 회의… \"행정력 총동원\" ■ 부동산 2차 회의…공급대책 집중 점검 ■ ' 홍명보 선임 의혹' 대한축구협회 압수수색 ■ \"호르무즈 진·출입 항로 일시 분리\"",
     "url": "https://www.ytn.co.kr/_ln/0108_202608070648531025",
     "originalUrl": "https://www.ytn.co.kr/_ln/0108_202608070648531025",
     "publisher": "ytn.co.kr",
     "publishedAt": "2026-08-06T21:48:00.000Z",
     "collectedAt": "2026-08-06T22:31:50.668Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "홍명보"
     ],
     "discoveryQueries": [
@@ -1085,15 +1313,15 @@
       ],
       "earliestPublishedAt": 1786052880000,
       "latestPublishedAt": 1786052880000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_00abe3905933931a",
     "type": "news",
     "title": "축구협회 넘어 윤리센터도 덮쳤다 '쌍끌이 압수수색'... '홍명보 선임 미...",
-    "summary": "경찰이 홍명보 (57) 전 축구 국가대표팀 감독 선임 논란과 관련해 대한 축구협회 는 물론 스포츠윤리센터까지 전방위 강제수사에 나섰다. 6일 뉴시스 보도에 따르면, 서울경찰청 광역수사단 금융범죄수사대는 이날 충남...",
+    "summary": "앞서 윤리센터는 2024년 말 조사를 통해 홍 전 감독 이 전력강화위원회 10차 회의에서 2순위 후보 였다고... 축구협회 의 대표팀 감독 선임 절차 위반 및 독단적 행정 정황이 드러난 상황에서 엇갈리는 두 기관의 조사 결과 중...",
     "url": "https://www.starnewskorea.com/sports/2026/08/07/2026080706024869944",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/08/07/2026080706024869944",
     "publisher": "starnewskorea.com",
@@ -1101,11 +1329,12 @@
     "collectedAt": "2026-08-06T22:31:50.668Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
-      "감독 선임",
-      "대표팀 감독",
+      "축구협회",
+      "조사 결과",
+      "전력강화위원회",
       "감독",
-      "선임"
+      "전력강화위원",
+      "후보"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -1127,6 +1356,7 @@
       "축구협회 조사 결과"
     ],
     "issueTags": [
+      "mcst-audit",
       "coach-appointment"
     ],
     "personTags": [
@@ -1134,7 +1364,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 19,
     "labels": [
       "인물 언급"
     ],
@@ -1151,8 +1381,8 @@
       ],
       "earliestPublishedAt": 1786052820000,
       "latestPublishedAt": 1786052820000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -1201,8 +1431,8 @@
       ],
       "earliestPublishedAt": 1786052400000,
       "latestPublishedAt": 1786052400000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -1268,8 +1498,8 @@
       ],
       "earliestPublishedAt": 1786052340000,
       "latestPublishedAt": 1786052340000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -1320,8 +1550,8 @@
       ],
       "earliestPublishedAt": 1786052280000,
       "latestPublishedAt": 1786052280000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -1456,15 +1686,15 @@
       ],
       "earliestPublishedAt": 1786051860000,
       "latestPublishedAt": 1786051860000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_656d071dbebceb75",
     "type": "news",
     "title": "'월드컵 참사-청문회-압수수색-심판접대 파묘'... 바람 잘 날 없는 KFA[초...",
-    "summary": "한국 축구와 대한축구협회 의 위상이 크게 떨어질 만한 과거의 일이 알려졌다. 월드컵 조별리그 탈락부터, 국회 청문회, 최초의 경찰 압수수색에 이어,과거 잘못의 '파묘'까지 일어난 상황. 그야말로 바람 잘 날 없는...",
+    "summary": "한국 축구와 대한축구협회의 위상이 크게 떨어질 만한 과거의 일이 알려졌다. 월드컵 조별리그 탈락부터, 국회 청문회, 최초의 경찰 압수수색에 이어,과거 잘못의 '파묘'까지 일어난 상황. 그야말로 바람 잘 날 없는...",
     "url": "https://sports.hankooki.com/news/articleView.html?idxno=6937629",
     "originalUrl": "https://sports.hankooki.com/news/articleView.html?idxno=6937629",
     "publisher": "sports.hankooki.com",
@@ -1502,22 +1732,22 @@
       ],
       "earliestPublishedAt": 1786051800000,
       "latestPublishedAt": 1786051800000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_4e0926cafb58dab9",
     "type": "news",
     "title": "\"축협 얼마나 천박한지 보여줘\"...박문성, 심판 성접대 스캔들에 폭발",
-    "summary": "축구 해설위원 박문성이 대한축구협회 의 심판 성 접대 의혹에 분노했다. 박문성 해설위원은 지난 6일 오후 유튜브 채널 '달수네라이브'를 통해 이날 대한축구협회 성 접대 의혹에 관한 JTBC 보도에 대해 언급했다. 보도에...",
+    "summary": "이는 지난 2016년 문화체육관광부 가 축구협회 를 감사 한 뒤 발간한 보고서를 통해 밝혀졌다. 7경기 중 3경기는 월드컵과 올림픽 예선전 3경기였고 심판진과 심판 감독관 등에 법인카드로 결제했다. 스포츠 캐스터 박재형은...",
     "url": "https://www.mt.co.kr/society/2026/08/07/2026080706053114021",
     "originalUrl": "https://www.mt.co.kr/society/2026/08/07/2026080706053114021",
     "publisher": "mt.co.kr",
     "publishedAt": "2026-08-06T21:29:00.000Z",
     "collectedAt": "2026-08-06T22:31:50.668Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "감사"
     ],
     "discoveryQueries": [
       "대표팀 감독",
@@ -1527,13 +1757,17 @@
       "축구협회 정관",
       "축구협회 해명"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "mcst-audit"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "감사 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1547,22 +1781,24 @@
       ],
       "earliestPublishedAt": 1786051740000,
       "latestPublishedAt": 1786051740000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_a744d40d9aab4161",
     "type": "news",
     "title": "월드컵 예선 앞두고…축구협회, 외국인 심판 '성접대' 파문",
-    "summary": "대한축구협회 가 과거 국가대표 경기를 앞두고 외국인 심판진에게 여러 차례 성 접대를 한 사실이 뒤늦게 확인됐다. 축구계와 국회 등에 따르면, 축구협회 직원들은 2011년부터 2012년까지 한국에서 열린 국제경기에...",
+    "summary": "이 같은 내용은 2016년 문화체육관광부 가 축구협회 의 법인카드 사용 실태를 감사 하는 과정에서 확인됐지만 당시 외부에는 공개되지 않았다. 당시 문체부 감사 에서는 축구협회 전·현직 임직원들이 유흥주점과...",
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/08/07/2026080790011.html",
     "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/08/07/2026080790011.html",
     "publisher": "news.tvchosun.com",
     "publishedAt": "2026-08-06T21:25:00.000Z",
     "collectedAt": "2026-08-06T22:31:50.668Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "축구협회",
+      "문체부 감사",
+      "감사"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -1570,13 +1806,17 @@
       "축구협회 문체부 감사",
       "축구협회 문화체육관광부 감사"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "mcst-audit"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 9,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "감사 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1590,8 +1830,8 @@
       ],
       "earliestPublishedAt": 1786051500000,
       "latestPublishedAt": 1786051500000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -1719,8 +1959,8 @@
       ],
       "earliestPublishedAt": 1786051260000,
       "latestPublishedAt": 1786051260000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -1823,7 +2063,7 @@
     "id": "item_24d1f24e5c5596a8",
     "type": "news",
     "title": "경찰, 대한축구협회 11시간 22분 동안 압수수색...홍명보 감독 선임 과정...",
-    "summary": "홍명보 전 축구 대표팀 감독 선임 과정에서 대한축구협회 임원 등의 부당한 개입이 있었는지 수사하는 경찰이 6일 대한축구협회 를 압수수색했다. 서울경찰청 광역수사단 금융범죄수사대는 이날 오전 9시부터 오후 8시...",
+    "summary": "홍명보 전 축구 대표팀 감독 선임 과정에서 대한축구협회 임원 등의 부당한 개입이 있었는지 수사하는 경찰이... 압수 대상인 정몽규 전 축구협회 장과 이임생 전 기술총괄이사의 휴대전화 등을 전부 확보하지는 못한...",
     "url": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374740",
     "originalUrl": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374740",
     "publisher": "thesportstimes.co.kr",
@@ -1836,7 +2076,9 @@
       "선임",
       "홍명보",
       "임원",
-      "대표팀 감독"
+      "대표팀 감독",
+      "정몽규",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -1863,11 +2105,13 @@
       "kfa-executives"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 55,
+    "relevanceScore": 61,
     "labels": [
       "인물 언급"
     ],
@@ -1884,8 +2128,8 @@
       ],
       "earliestPublishedAt": 1786050600000,
       "latestPublishedAt": 1786050600000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -1945,15 +2189,15 @@
       ],
       "earliestPublishedAt": 1786050600000,
       "latestPublishedAt": 1786050600000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_dd4141dee6bf79f6",
     "type": "news",
     "title": "경찰 ‘홍명보 선임 의혹’ 축구협회 첫 압색",
-    "summary": "고위 관계자 부당개입 수사 정몽규·이임생 피의자 적시 홍명보 전 축구 대표팀 감독 선임 의혹을 수사하는 경찰이 6일 대한 축구협회 에 대한 강제수사에 나섰다. 홍 전 감독을 처음으로 소환한 경찰이 강제수사에 나서며...",
+    "summary": "고위 관계자 부당개입 수사 정몽규·이임생 피의자 적시 홍명보 전 축구 대표팀 감독 선임 의혹을 수사하는 경찰이 6일 대한축구협회에 대한 강제수사에 나섰다. 홍 전 감독을 처음으로 소환한 경찰이 강제수사에 나서며...",
     "url": "https://www.segye.com/newsView/20260806519876?OutUrl=naver",
     "originalUrl": "https://www.segye.com/newsView/20260806519876?OutUrl=naver",
     "publisher": "segye.com",
@@ -1962,7 +2206,7 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
-      "대한 축구협회",
+      "대한축구협회",
       "감독 선임",
       "대표팀 감독",
       "감독",
@@ -2013,15 +2257,15 @@
       ],
       "earliestPublishedAt": 1786050240000,
       "latestPublishedAt": 1786050240000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_9b4eaa55932236f8",
     "type": "news",
     "title": "대한축구협회, 과거 외국인 심판 대상 7차례 성 접대 의혹",
-    "summary": "2016년 감사보고서에 적시 파문 경찰 ‘ 홍명보 선임 의혹’ 첫 압색 대한축구협회 가 과거 국가대표팀 경기를 앞두고 외국인 심판에게 여러 차례 성 접대를 한 것으로 드러났다. 홍명보 전 축구 대표팀 감독 선임 의혹을...",
+    "summary": "2016년 감사 보고서에 적시 파문 경찰 ‘ 홍명보 선임 의혹’ 첫 압색 대한축구협회가 과거 국가대표팀 경기를 앞두고 외국인 심판에게 여러 차례 성 접대를 한 것으로 드러났다. 홍명보 전 축구대표팀 감독 선임 의혹을...",
     "url": "https://www.segye.com/newsView/20260806524230?OutUrl=naver",
     "originalUrl": "https://www.segye.com/newsView/20260806524230?OutUrl=naver",
     "publisher": "segye.com",
@@ -2085,15 +2329,15 @@
       ],
       "earliestPublishedAt": 1786050120000,
       "latestPublishedAt": 1786050120000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_455a3d479d1534fc",
     "type": "news",
     "title": "경찰, 축구협회 첫 압수수색…‘홍명보 감독 선임’ 전 과정 캔다 [사건...",
-    "summary": "홍명보 전 축구 대표팀 감독 선임 과정에서 대한 축구협회 고위 관계자들의 부당한 개입이 있었는지 여부를 수사 중인 경찰이 6일 협회 에 대한 강제수사에 착수했다. 2024년 7월 홍 전 감독 선임 직후 제기된 의혹에 대한...",
+    "summary": "홍명보 전 축구 대표팀 감독 선임 과정에서 대한 축구협회 고위 관계자들의 부당한 개입이 있었는지 여부를... 당시 협회 장에게 추천한 뒤 돌연 사퇴했다. 문체부는 정 전 위원장의 사퇴 이후 이임생 당시 기술총괄이사가...",
     "url": "https://www.sedaily.com/article/20076587?ref=naver",
     "originalUrl": "https://www.sedaily.com/article/20076587?ref=naver",
     "publisher": "sedaily.com",
@@ -2105,7 +2349,9 @@
       "선임",
       "홍명보",
       "대한 축구협회",
-      "대표팀 감독"
+      "대표팀 감독",
+      "이임생",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -2134,11 +2380,12 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급"
     ],
@@ -2155,8 +2402,8 @@
       ],
       "earliestPublishedAt": 1786050060000,
       "latestPublishedAt": 1786050060000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -2228,15 +2475,15 @@
       ],
       "earliestPublishedAt": 1786050060000,
       "latestPublishedAt": 1786050060000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_f14a70323588f42a",
     "type": "news",
     "title": "\"확실한 감독님이 오셨으면\" 김민재가 밝힌 韓 차기 사령탑 조건…홍명...",
-    "summary": "대한 축구협회 는 오는 9월부터 11월까지 예정된 A매치 6경기를 임시 감독 체제로 치른 뒤 정식 감독 선임 절차를 밟겠다는 계획이다. 이후 화제는 자연스럽게 차기 대한민국 대표팀 감독 으로 이어졌다. 김종국이 \"어떤...",
+    "summary": "김종국은 최근 방송된 tvN '유 퀴즈 온 더 블럭'을 언급하며 \"나한테 자꾸 대한 축구협회장 선거에 나가보라고 하더라\"고 말했다. 이에 김민재가 \"기회가 된다면 하실 생각이 있느냐\"고 되묻자 김종국은 웃으며 대화를...",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553439310",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553439310",
     "publisher": "sportalkorea.com",
@@ -2244,11 +2491,8 @@
     "collectedAt": "2026-08-06T22:31:50.668Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "선임",
-      "차기"
+      "축구협회장",
+      "회장 선거"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2266,7 +2510,7 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment"
+      "election"
     ],
     "personTags": [],
     "sourceType": "news",
@@ -2287,8 +2531,8 @@
       ],
       "earliestPublishedAt": 1786049460000,
       "latestPublishedAt": 1786049460000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -2350,7 +2594,7 @@
     "id": "item_6679168333656f9a",
     "type": "news",
     "title": "대한축구협회, 2011~2012년 외국인 심판 '성접대' 파문",
-    "summary": "이는 2016년 문화체육관광부 감사 에서 확인됐으나 당시엔 공개되지 않았습니다. 축구협회 는 문서 보관 연한이 지나 상세 파악은 어렵다며, 현재는 엄격한 법인카드 관리 시스템을 갖추고 있다고 해명했습니다.",
+    "summary": "이는 2016년 문화체육관광부 감사에서 확인됐으나 당시엔 공개되지 않았습니다. 축구협회 는 문서 보관 연한이 지나 상세 파악은 어렵다며, 현재는 엄격한 법인카드 관리 시스템을 갖추고 있다고 해명 했습니다.",
     "url": "http://www.yonhapnewstv.co.kr/news/MYH20260807053232tD6",
     "originalUrl": "http://www.yonhapnewstv.co.kr/news/MYH20260807053232tD6",
     "publisher": "yonhapnewstv.co.kr",
@@ -2393,8 +2637,8 @@
       ],
       "earliestPublishedAt": 1786048380000,
       "latestPublishedAt": 1786048380000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -2431,7 +2675,7 @@
     "id": "item_d3cfa1a21833dfe8",
     "type": "news",
     "title": "'홍명보 선임 의혹'…대한축구협회 압수수색 11시간 만에 종료",
-    "summary": "홍명보 전 감독 선임 과정에 특혜가 있었다는 의혹. 이를 수사하고 있는 경찰이 대한축구협회 에 대해 약 11시간에 걸쳐 압수수색을 진행했습니다. 서울경찰청 금융범죄수사대는 대한축구협회 본부와 축구 회관 등에 오전...",
+    "summary": "홍명보 전 축구 대표팀 감독 선임 과정 등을 수사하는 서울경찰청 금융범죄수사대가 대한축구협회 에 대한 ... \" 경찰은 이번 압수수색을 통해 확보한 자료를 토대로 정몽규 전 회장과 이임생 전 기술총괄이사 등 당시...",
     "url": "https://news.jtbc.co.kr/article/NB12312125?influxDiv=NAVER",
     "originalUrl": "https://news.jtbc.co.kr/article/NB12312125?influxDiv=NAVER",
     "publisher": "news.jtbc.co.kr",
@@ -2441,8 +2685,11 @@
       "대한축구협회",
       "홍명보",
       "감독 선임",
+      "대표팀 감독",
       "감독",
-      "선임"
+      "선임",
+      "정몽규",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -2460,11 +2707,13 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 41,
+    "relevanceScore": 47,
     "labels": [
       "인물 언급"
     ],
@@ -2481,8 +2730,8 @@
       ],
       "earliestPublishedAt": 1786047420000,
       "latestPublishedAt": 1786047420000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -2552,8 +2801,8 @@
       ],
       "earliestPublishedAt": 1786046760000,
       "latestPublishedAt": 1786046760000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -2612,15 +2861,15 @@
       ],
       "earliestPublishedAt": 1786045920000,
       "latestPublishedAt": 1786045920000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_ddb3ce95252b39f2",
     "type": "news",
     "title": "경찰, 홍명보 선임 의혹 축구협회 압수수색",
-    "summary": "대한 축구협회 가 홍명보 전 축구 대표팀 감독 을 선임 하는 과정에 부당하게 개입했다는 의혹과 관련해 경찰이 6일 압수수색에 나섰다. 서울경찰청 금융범죄수사대는 이날 오전 충남 천안시에 있는 대한 축구협회 와 서울...",
+    "summary": "경찰은 정몽규 전 대한 축구협회 장과 이임생 전 기술총괄이사가 2024년 7월 홍 전 감독을 선임하는 과정에서 협회 운영 규정 등을 위반했다는 의혹과 관련해 시민단체가 고발장을 제출해 수사에 착수했다. 홍 전 감독과 정...",
     "url": "https://www.donga.com/news/Society/article/all/20260806/134434499/2",
     "originalUrl": "https://www.donga.com/news/Society/article/all/20260806/134434499/2",
     "publisher": "donga.com",
@@ -2630,9 +2879,10 @@
       "축구협회",
       "홍명보",
       "대한 축구협회",
-      "대표팀 감독",
       "감독",
-      "선임"
+      "선임",
+      "정몽규",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -2656,11 +2906,13 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급"
     ],
@@ -2677,15 +2929,15 @@
       ],
       "earliestPublishedAt": 1786044780000,
       "latestPublishedAt": 1786044780000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_a91aa36de808fb62",
     "type": "news",
     "title": "대한축구협회, 15년 전 외국인 심판에 성 접대 사실 드러나…월드컵 예...",
-    "summary": "이런 사실은 2016년 문화체육관광부 의 축구협회 감사 에서 파악됐다. 그러나 당시엔 세상에 알려지지 않았다. 이번에 확인된 심판 성 접대는 모두 조중연 전 회장 시절 벌어진 일이다. 축구협회 관계자는 \"문서 보관...",
+    "summary": "축구협회 관계자는 \"문서 보관 연한이 지나 지금은 자세한 사항을 파악하기 어렵다\"면서 \"지금은 법인카드와 관련해 철저한 시스템을 마련해 준수하고 있다\"고 해명 했다.",
     "url": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374738",
     "originalUrl": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=374738",
     "publisher": "thesportstimes.co.kr",
@@ -2693,7 +2945,7 @@
     "collectedAt": "2026-08-06T22:31:50.668Z",
     "matchedKeywords": [
       "대한축구협회",
-      "감사"
+      "해명"
     ],
     "discoveryQueries": [
       "대표팀 감독",
@@ -2702,16 +2954,14 @@
       "축구협회 문화체육관광부 감사",
       "축구협회 해명"
     ],
-    "issueTags": [
-      "mcst-audit"
-    ],
+    "issueTags": [],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 22,
     "relevanceTier": "secondary",
     "labels": [
-      "감사 키워드 포함"
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -2726,8 +2976,8 @@
       ],
       "earliestPublishedAt": 1786044300000,
       "latestPublishedAt": 1786044300000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -2805,8 +3055,8 @@
       ],
       "earliestPublishedAt": 1786043520000,
       "latestPublishedAt": 1786043520000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -2853,8 +3103,8 @@
       ],
       "earliestPublishedAt": 1786041840000,
       "latestPublishedAt": 1786041840000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -2908,8 +3158,8 @@
       ],
       "earliestPublishedAt": 1786039200000,
       "latestPublishedAt": 1786039200000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -2963,7 +3213,7 @@
     "id": "item_f27ca4a2db007ae5",
     "type": "news",
     "title": "대한축구협회 심판 성 접대 '충격 스캔들', 이미 동남아까지 퍼졌다…\"...",
-    "summary": "지난 2016년 문화체육관광부 의 대한 축구협회 감사 결과 보고서가 당시 나왔지만, 공개되진 않았다. 이번에 공개되면서 세상에 알려졌다. 문서엔 대한 축구협회 가 2011년 3월부터 2012년 3월 1년 간 국가대항전 경기에...",
+    "summary": "지난 2016년 문화체육관광부의 대한 축구협회 감사 결과 보고서가 당시 나왔지만, 공개되진 않았다. 이번에... 실패 원인에 대한 조사 결과 는 어디론가 사라졌다. 아직 갈 길이 멀다\" 등의 반응을 보였다. 사진=연합뉴스...",
     "url": "https://www.xportsnews.com/article/2180897",
     "originalUrl": "https://www.xportsnews.com/article/2180897",
     "publisher": "xportsnews.com",
@@ -3004,8 +3254,8 @@
       ],
       "earliestPublishedAt": 1786034700000,
       "latestPublishedAt": 1786034700000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -3051,8 +3301,8 @@
       ],
       "earliestPublishedAt": 1786032900000,
       "latestPublishedAt": 1786032900000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -3189,7 +3439,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.etoday.co.kr/news/view/2611951"
+      ],
+      "stories": [
+        "news|news|박문성, 축구협회 '성 접대' 보도에 분노…\"다 말아먹으려고 작정했나\"|etoday.co.kr|2026-08-06T15:48:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박문성, 축구협회 '성 접대' 보도에 분노…\"다 말아먹으려고 작정했나\"|etoday.co.kr"
+      ],
+      "earliestPublishedAt": 1786031280000,
+      "latestPublishedAt": 1786031280000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "item_d20e9d6b5aea847a",
@@ -3240,15 +3506,15 @@
       ],
       "earliestPublishedAt": 1786031280000,
       "latestPublishedAt": 1786031280000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_d7b2d8d0456a3532",
     "type": "news",
     "title": "[단독] '홍명보 선임 의혹' 축구협회 첫 압수수색",
-    "summary": "홍명보 전 대표팀 감독 의 선임 과정에 대한 축구협회 가 부당하게 개입했다는 의혹을 수사 중인 경찰이 첫 강제수사에 착수했습니다. 대한 축구협회 사무실과 축구 회관 등을 압수수색 해 감독 선임 관련 자료를...",
+    "summary": "홍명보 전 대표팀 감독의 선임 과정에 대한축구협회 가 부당하게 개입했다는 의혹을 수사 중인 경찰이 첫... 당시 축구협회 장과 이임생 당시 기술총괄이사 등이 전력강화위원회와 이사회의 결정에 부당하게 개입했는지...",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008694115&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008694115&plink=ORI",
     "publisher": "news.sbs.co.kr",
@@ -3257,11 +3523,12 @@
     "matchedKeywords": [
       "축구협회",
       "홍명보",
-      "대한 축구협회",
-      "감독 선임",
+      "대한축구협회",
+      "이사회",
       "대표팀 감독",
       "감독",
-      "선임"
+      "선임",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -3282,14 +3549,16 @@
       "축구협회장"
     ],
     "issueTags": [
+      "kfa-executives",
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 38,
     "labels": [
       "인물 언급"
     ],
@@ -3308,8 +3577,8 @@
       ],
       "earliestPublishedAt": 1786030080000,
       "latestPublishedAt": 1786051680000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -3373,8 +3642,8 @@
       ],
       "earliestPublishedAt": 1786029540000,
       "latestPublishedAt": 1786051020000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -3550,7 +3819,7 @@
     "id": "item_a8597ab1055a787e",
     "type": "news",
     "title": "대한축구협회 심판 성접대 스캔들, 일본도 발칵 뒤집혔다…J리그 개막 ...",
-    "summary": "이를 먼저 보도한 JTBC는 지난 2016년 문화체육관광부의 축구협회 감사 보고서를 통해 이같은 사실을 파악했다고 전했다. 성접대가 서울과 창원, 울산 등에서 이뤄졌고, 비용은 대한축구협회 법인카드로 결제됐다고...",
+    "summary": "당시 조증연 전 대한 축구협회 장이 있을 때 벌어진 일들이지만, 문체부 감사 보고서가 발간된 지 10년이 지난 지금에서야 이러한 사실이 드러난 셈이다. '풋볼트라이브'는 \"한국 언론의 보도가 사실이라면...",
     "url": "https://www.xportsnews.com/article/2180890",
     "originalUrl": "https://www.xportsnews.com/article/2180890",
     "publisher": "xportsnews.com",
@@ -3558,6 +3827,8 @@
     "collectedAt": "2026-08-06T22:31:50.668Z",
     "matchedKeywords": [
       "대한축구협회",
+      "대한 축구협회",
+      "문체부 감사",
       "감사"
     ],
     "discoveryQueries": [
@@ -3591,8 +3862,8 @@
       ],
       "earliestPublishedAt": 1786028700000,
       "latestPublishedAt": 1786028700000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -3775,8 +4046,8 @@
       ],
       "earliestPublishedAt": 1786027140000,
       "latestPublishedAt": 1786027140000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -3827,15 +4098,15 @@
       ],
       "earliestPublishedAt": 1786026660000,
       "latestPublishedAt": 1786026660000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_467cf0df88eee04f",
     "type": "news",
     "title": "경찰 '홍명보 선임 논란' 축협·스포츠윤리센터 압색(종합2보)",
-    "summary": "윤주영 권준언 기자 = 대한 축구협회 (축협)의 축구 국가대표팀 감독 선임 과정을 수사하는 경찰이 축협에 이어... 기술총괄이사, 홍명보 전 대표팀 감독 등이 포함된 것으로 파악됐다. 정 전 회장과 이 전 이사의 휴대전화와...",
+    "summary": "윤주영 권준언 기자 = 대한 축구협회 (축협)의 축구 국가대표팀 감독 선임 과정을 수사하는 경찰이 축협에 이어... 회장과 이임생 전 기술총괄이사, 홍명보 전 대표팀 감독 등이 포함된 것으로 파악됐다. 정 전 회장과 이 전...",
     "url": "https://www.news1.kr/society/incident-accident/6251765",
     "originalUrl": "https://www.news1.kr/society/incident-accident/6251765",
     "publisher": "news1.kr",
@@ -3848,7 +4119,8 @@
       "감독 선임",
       "대표팀 감독",
       "감독",
-      "선임"
+      "선임",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -3873,11 +4145,12 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 24,
     "labels": [
       "인물 언급"
     ],
@@ -3894,15 +4167,15 @@
       ],
       "earliestPublishedAt": 1786026120000,
       "latestPublishedAt": 1786026120000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_003c3218cc61cce6",
     "type": "news",
     "title": "'충격' 축구협회, 과거 법인카드 사용해 '유흥 주점, 안마시술소, 노래...",
-    "summary": "이는 조중연 전 대한 축구협회장 재임 기간 발생한 일로, 앞서 협회는 2016년 문체부 스포츠비리신고센터 조사에서 법인카드를 유흥 주점, 안마시술소, 노래방, 골프장 등에서 부적절하게 사용한 정황이 적발된 바 있다....",
+    "summary": "해당 내용은 2016년 문화체육관광부 감사 과정에서 확인됐지만, 외부에는 공개되지 않았던 것으로 충격을... 이는 조중연 전 대한 축구협회 장 재임 기간 발생한 일로, 앞서 협회 는 2016년 문체부 스포츠비리신고센터...",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553439185",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553439185",
     "publisher": "sportalkorea.com",
@@ -3910,7 +4183,8 @@
     "collectedAt": "2026-08-06T22:31:50.668Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "축구협회장"
+      "문화체육관광부 감사",
+      "감사"
     ],
     "discoveryQueries": [
       "대한축구협회장",
@@ -3920,14 +4194,16 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "mcst-audit"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "감사 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -3941,15 +4217,15 @@
       ],
       "earliestPublishedAt": 1786025580000,
       "latestPublishedAt": 1786025580000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_5a399f575073f178",
     "type": "news",
     "title": "경찰, '홍명보 감독 선임 의혹' 축협 11시간 압색...사상 첫 강제수사",
-    "summary": "홍명보 전 축구 대표팀 감독 선임 과정에서 대한 축구협회 임원 등의 부당한 개입이 있었는지 수사하는 경찰이 6일 대한 축구협회 를 압수수색했다. 축구협회 에 대한 수사기관의 강제수사는 이번이 처음인 것으로 알려졌다....",
+    "summary": "홍명보 전 축구 대표팀 감독 선임 과정에서 대한 축구협회 임원 등의 부당한 개입이 있었는지 수사하는 경찰이... 감독을 축구 대표팀 감독으로 선임하는 과정에서 지위 등을 이용해 정관 을 위반했는지, 전력강화위원회 및...",
     "url": "https://www.slist.kr/news/articleView.html?idxno=757091",
     "originalUrl": "https://www.slist.kr/news/articleView.html?idxno=757091",
     "publisher": "slist.kr",
@@ -3962,8 +4238,11 @@
       "선임",
       "홍명보",
       "대한 축구협회",
+      "정관",
       "임원",
-      "대표팀 감독"
+      "대표팀 감독",
+      "전력강화위원회",
+      "전력강화위원"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -3985,6 +4264,7 @@
     ],
     "issueTags": [
       "coach-appointment",
+      "statute-revision",
       "kfa-executives"
     ],
     "personTags": [
@@ -3992,7 +4272,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 51,
     "labels": [
       "인물 언급"
     ],
@@ -4009,8 +4289,8 @@
       ],
       "earliestPublishedAt": 1786025400000,
       "latestPublishedAt": 1786025400000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -4078,8 +4358,8 @@
       ],
       "earliestPublishedAt": 1786025340000,
       "latestPublishedAt": 1786025340000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -4198,8 +4478,8 @@
       ],
       "earliestPublishedAt": 1786024920000,
       "latestPublishedAt": 1786024920000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -4273,15 +4553,15 @@
     "id": "item_17e6d6d39e6f68b7",
     "type": "news",
     "title": "15년 전 외국인 심판 성접대…축구협회 신뢰 흔들",
-    "summary": "[기자] 2016년 대한 축구협회 감사 를 벌인 문화체육관광부 . 뒤늦게 폭로된 감사 보고서에 따르면 협회 는 2011년부터 2012년 사이 외국인 심판과 감독관 등 10여 명에게 성 접대를 해온 것으로 드러났습니다. 이들은 국내에서...",
+    "summary": "불가능해졌다고 해명 하고 있습니다. 다만 이 같은 부적절한 접대가 이뤄졌다는 점에서, 축구협회 의 도덕성과 신뢰를 둘러싼 논란은 불가피해 보입니다. 이런 가운데 축구협회 는 사상 처음으로 수사기관의 강제수사...",
     "url": "http://www.yonhapnewstv.co.kr/news/MYH20260806225007k0t",
     "originalUrl": "http://www.yonhapnewstv.co.kr/news/MYH20260806225007k0t",
     "publisher": "yonhapnewstv.co.kr",
     "publishedAt": "2026-08-06T13:50:00.000Z",
     "collectedAt": "2026-08-06T22:31:50.668Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "감사"
+      "축구협회",
+      "해명"
     ],
     "discoveryQueries": [
       "축구 혁신",
@@ -4289,16 +4569,14 @@
       "축구협회 문화체육관광부 감사",
       "축구협회 해명"
     ],
-    "issueTags": [
-      "mcst-audit"
-    ],
+    "issueTags": [],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 12,
+    "relevanceScore": 5,
     "relevanceTier": "secondary",
     "labels": [
-      "감사 키워드 포함"
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -4313,15 +4591,15 @@
       ],
       "earliestPublishedAt": 1786024200000,
       "latestPublishedAt": 1786024200000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_2fd5b15355225f76",
     "type": "news",
     "title": "'압수수색·성접대 의혹' 송두리째 흔들리는 대한민국 축구판",
-    "summary": "홍명보 전 감독 선임 과정서 공정성 문제를 꾸준하게 지적받았던 대한 축구협회 는 성접대 의혹과 초유의 압수수색 등으로 송두리째 흔들리고 있다. 이제는 북중미월드컵의 형편 없는 성적과 그 경위를 따져묻는 수준을...",
+    "summary": "JTBC는 6일 문화체육관광부가 2016년 작성한 '대한 축구협회 임직원 등 비리 조사 결과 ' 보고서를 입수, 당시 대한 축구협회 의 외국인 심판 성접대 의혹을 보도했다. 2016년 문화체육관광부의 축구협회 감사에서 파악됐지만...",
     "url": "https://www.dailian.co.kr/news/view/1675649/?sc=Naver",
     "originalUrl": "https://www.dailian.co.kr/news/view/1675649/?sc=Naver",
     "publisher": "dailian.co.kr",
@@ -4329,10 +4607,8 @@
     "collectedAt": "2026-08-06T22:31:50.668Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "감독 선임",
-      "감독",
-      "선임",
-      "홍명보"
+      "감사",
+      "조사 결과"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -4356,17 +4632,15 @@
       "축구협회 해명"
     ],
     "issueTags": [
-      "coach-appointment"
+      "mcst-audit"
     ],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -4381,15 +4655,15 @@
       ],
       "earliestPublishedAt": 1786023840000,
       "latestPublishedAt": 1786023840000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_7f2e76dd10e0e9dd",
     "type": "news",
     "title": "'월드컵 탈락 후폭풍' 축구협회…11시간 걸린 초유의 압수수색(종합)",
-    "summary": "사상 첫 경찰의 압수수색을 받은 대한축구협회 가 충격에 빠졌다. 북중미 월드컵 32강 실패와 국회 청문회... 월드컵 탈락 후폭풍에 축구협회 는 그야말로 아수라장이다. 정몽규 회장은 지난해 2월 논란 속에 4선 연임에...",
+    "summary": "사상 첫 경찰의 압수수색을 받은 대한축구협회 가 충격에 빠졌다. 북중미 월드컵 32강 실패와 국회 청문회... 축구협회 내부는 초토화된 상태다. 경찰은 홍 전 감독을 지난 4일 피의자 신분으로 소환해 조사했고, 이임생 전...",
     "url": "https://www.newsis.com/view/NISX20260806_0003739660",
     "originalUrl": "https://www.newsis.com/view/NISX20260806_0003739660",
     "publisher": "newsis.com",
@@ -4397,7 +4671,7 @@
     "collectedAt": "2026-08-06T22:31:50.668Z",
     "matchedKeywords": [
       "대한축구협회",
-      "정몽규",
+      "이임생",
       "청문회"
     ],
     "discoveryQueries": [
@@ -4422,7 +4696,7 @@
     ],
     "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu"
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
@@ -4444,8 +4718,8 @@
       ],
       "earliestPublishedAt": 1786023600000,
       "latestPublishedAt": 1786023600000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -4484,8 +4758,8 @@
       ],
       "earliestPublishedAt": 1786023480000,
       "latestPublishedAt": 1786023480000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -4575,15 +4849,15 @@
       ],
       "earliestPublishedAt": 1786023120000,
       "latestPublishedAt": 1786023120000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_49263091cfc140bb",
     "type": "news",
     "title": "경찰, 축구협회 11시간 압수수색…홍명보 선임 의혹 수사 '속도'",
-    "summary": "홍명보 전 축구 대표팀 감독 선임 의혹을 수사 중인 경찰이 대한 축구협회 압수수색을 마무리하고 내부 문건과 전자자료 등을 확보했다. 경찰은 확보한 자료를 토대로 감독 선임 과정의 위법 여부를 본격적으로 들여다볼...",
+    "summary": "홍명보 전 축구 대표팀 감독 선임 의혹을 수사 중인 경찰이 대한 축구협회 압수수색을 마무리하고 내부... 경찰은 이들이 협회 정관 과 국가대표팀 운영 규정을 위반하거나 전력강화위원회와 이사회의 의사결정에 영향을...",
     "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2293099",
     "originalUrl": "https://www.daejonilbo.com/news/articleView.html?idxno=2293099",
     "publisher": "daejonilbo.com",
@@ -4592,6 +4866,8 @@
     "matchedKeywords": [
       "홍명보",
       "대한 축구협회",
+      "정관",
+      "이사회",
       "감독 선임",
       "대표팀 감독",
       "감독",
@@ -4613,6 +4889,8 @@
       "축구협회장"
     ],
     "issueTags": [
+      "statute-revision",
+      "kfa-executives",
       "coach-appointment"
     ],
     "personTags": [
@@ -4620,7 +4898,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ],
@@ -4637,8 +4915,8 @@
       ],
       "earliestPublishedAt": 1786022700000,
       "latestPublishedAt": 1786022700000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -4695,19 +4973,15 @@
     "id": "item_8b625554e3f111f2",
     "type": "news",
     "title": "中 \"20년형 리티에 감독 사건의 한국 버전인가?\"…축구협회 압수수색+홍...",
-    "summary": "홍 전 감독은 지난달 2일 정몽규 전 축구협회 회장과 함께 시민단체 서민민생대책위원회(서민위)로부터 축구 대표팀 감독 선임 과 관련한 강요·협박·업무방해·업무상 배임 등 혐의로 고발됐다. 해당 사건은 지난 2024년...",
+    "summary": "대대적인 축구협회 부정부패 척결이 일었던 중국이 대한 축구협회 상황을 비슷하게 바라보는 듯 하다. 중국... 승인하는 이사회 의 결정에 부당하게 개입했는지 등을 들여다볼 것으로 예상된다. 앞서 지난 4일 경찰은 홍 전...",
     "url": "https://www.xportsnews.com/article/2180876",
     "originalUrl": "https://www.xportsnews.com/article/2180876",
     "publisher": "xportsnews.com",
     "publishedAt": "2026-08-06T13:11:00.000Z",
     "collectedAt": "2026-08-07T00:31:15.163Z",
     "matchedKeywords": [
-      "축구협회",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "선임",
-      "정몽규"
+      "대한 축구협회",
+      "이사회"
     ],
     "discoveryQueries": [
       "대표팀 감독 선임",
@@ -4718,18 +4992,30 @@
       "축구협회 정관"
     ],
     "issueTags": [
-      "coach-appointment"
+      "kfa-executives"
     ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급"
-    ]
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2180876"
+      ],
+      "stories": [
+        "news|news|中 \"20년형 리티에 감독 사건의 한국 버전인가?\"…축구협회 압수수색+홍...|xportsnews.com|2026-08-06T13:11:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|中 \"20년형 리티에 감독 사건의 한국 버전인가?\"…축구협회 압수수색+홍...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1786021860000,
+      "latestPublishedAt": 1786021860000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "item_98ae6ba0f17c35a3",
@@ -4758,7 +5044,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20260806_0003739661"
+      ],
+      "stories": [
+        "news|news|축구협회, 15년 전 심판 성 접대 파문에 \"현재는 내부 지침 준수\"|newsis.com|2026-08-06T13:11:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회, 15년 전 심판 성 접대 파문에 \"현재는 내부 지침 준수\"|newsis.com"
+      ],
+      "earliestPublishedAt": 1786021860000,
+      "latestPublishedAt": 1786021860000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
+    }
   },
   {
     "id": "youtube_jJDMaQMIxgw",
@@ -4889,8 +5191,8 @@
       ],
       "earliestPublishedAt": 1786021320000,
       "latestPublishedAt": 1786021320000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -4982,7 +5284,7 @@
     "id": "item_becf10af71cd527a",
     "type": "news",
     "title": "축구협회, 외국인 심판들에 '성 접대' 의혹...법카로 안마업소 결제",
-    "summary": "대한 축구협회 가 과거 국가대표팀 경기 당시 외국인 심판들에게 성 접대를 했다는 내용의 문화체육관광부 감사 보고서가 공개됐다. 6일 문화체육관광부 보고서에 따르면, 축구협회 는 2011년 3월부터 2012년 3월까지...",
+    "summary": "문체부 는 감사 과정에서 복수의 축구협회 심판국 관계자 진술, 카드 사용 내역, 협회 소명 자료 등을 종합해 이같은 결론을 내렸다. 축구협회 전직 관계자들은 이같은 성 접대가 관행적으로 이뤄진 것으로 보고있다....",
     "url": "https://www.mt.co.kr/culture/2026/08/06/2026080621441840800",
     "originalUrl": "https://www.mt.co.kr/culture/2026/08/06/2026080621441840800",
     "publisher": "mt.co.kr",
@@ -4990,8 +5292,6 @@
     "collectedAt": "2026-08-06T13:19:32.212Z",
     "matchedKeywords": [
       "축구협회",
-      "대한 축구협회",
-      "문화체육관광부 감사",
       "감사"
     ],
     "discoveryQueries": [
@@ -5008,7 +5308,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 22,
+    "relevanceScore": 19,
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
@@ -5028,15 +5328,15 @@
       ],
       "earliestPublishedAt": 1786021020000,
       "latestPublishedAt": 1786021020000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_c30308fe8b377b02",
     "type": "news",
     "title": "'홍명보 감독 대표팀 선임 결정적 역할' 이임생의 반격 \"홍명보 선임 기...",
-    "summary": "이임생 전 대한 축구협회 기술총괄이사가 홍명보 전 축구 대표팀 감독 선임 논란과 관련해 직접 법정에 나선다. 한겨레 6일 보도에 따르면 이임생 전 이사는 홍명보 전 감독 선임 과정을 둘러싼 사실관계를 바로잡겠다며...",
+    "summary": "이번 소송은 문체부 가 2024년 대한 축구협회 특정 감사 를 통해 홍명보 감독 선임 절차에 문제가 있었다고 판단하면서 시작됐다. 당시 문체부 는 정몽규 전 회장과 김정배 부회장, 이임생 당시 기술총괄이사 등에 대한 징계를...",
     "url": "http://www.osen.co.kr/article/G1112853223",
     "originalUrl": "http://www.osen.co.kr/article/G1112853223",
     "publisher": "osen.co.kr",
@@ -5048,8 +5348,10 @@
       "홍명보",
       "이임생",
       "대한 축구협회",
+      "감사",
+      "부회장",
       "감독 선임",
-      "대표팀 감독"
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -5074,17 +5376,21 @@
       "축구협회 임원"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "mcst-audit",
+      "kfa-executives"
     ],
     "personTags": [
       "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_lee_im_saeng",
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 55,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -5099,8 +5405,8 @@
       ],
       "earliestPublishedAt": 1786021020000,
       "latestPublishedAt": 1786021020000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -5147,8 +5453,8 @@
       ],
       "earliestPublishedAt": 1786020960000,
       "latestPublishedAt": 1786020960000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -5254,8 +5560,8 @@
       ],
       "earliestPublishedAt": 1786020780000,
       "latestPublishedAt": 1786020780000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -5322,15 +5628,15 @@
       ],
       "earliestPublishedAt": 1786020540000,
       "latestPublishedAt": 1786020540000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_d5074cca6360a830",
     "type": "news",
     "title": "'초유의 사태!' 대한축구협회, 사상 첫 압수수색...경찰, 사무실 직원 모...",
-    "summary": "내 대한축구협회 사무실에 수사관을 보내 압수수색 영장을 집행했다. 경찰은 홍명보 전 감독 선임 과정서 규정 위반 여부와 정몽규 전 회장, 이임생 전 기술총괄이사 등의 부당 개입 여부를 확인하고자, 관련 문서 및...",
+    "summary": "대한 축구협회 사무실에 수사관을 보내 압수수색 영장을 집행했다. 경찰은 홍명보 전 감독 선임 과정서 규정... 경찰은 당시 협회 가 홍명보 전 감독 을 대표팀 사령탑으로 선임하는 과정에서 전력강화위원회 운영과 후보 ...",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553439162",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553439162",
     "publisher": "sportalkorea.com",
@@ -5338,12 +5644,15 @@
     "collectedAt": "2026-08-06T13:19:32.212Z",
     "matchedKeywords": [
       "대한축구협회",
+      "대한 축구협회",
       "감독 선임",
+      "전력강화위원회",
       "감독",
+      "사령탑",
+      "전력강화위원",
       "선임",
-      "정몽규",
-      "홍명보",
-      "이임생"
+      "후보",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -5369,13 +5678,11 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 33,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -5393,8 +5700,8 @@
       ],
       "earliestPublishedAt": 1786020060000,
       "latestPublishedAt": 1786020060000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -5593,8 +5900,8 @@
       ],
       "earliestPublishedAt": 1786019760000,
       "latestPublishedAt": 1786019760000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -5989,15 +6296,15 @@
       ],
       "earliestPublishedAt": 1786019100000,
       "latestPublishedAt": 1786019100000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_7c433673b875cb62",
     "type": "news",
     "title": "경찰, 대한축구협회 첫 압수수색…홍명보 소환 이틀만",
-    "summary": "홍명보 / 전 축구대표팀 감독 (지난달 30일) \"저는 제가 불공정으로 감독이 된 거에 대해서 전혀 알 수가 없었습니다.\" 2년 전 한 시민단체는 종로경찰서에 감독 선임 과정에 의혹을 제기하며 정몽규 전 축구협회장 과 이임생...",
+    "summary": "동시에 홍명보 전 감독 선임 과정에 대한 논란도 커졌습니다. 이를 수사하는 경찰이 오늘 대한축구협회를... 앞서 문체부는 축구협회 감사 결과를 발표하며 감독 선임과정에 절차적 문제를 지적했습니다. 이에 대해 이 전...",
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/08/06/2026080690283.html",
     "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/08/06/2026080690283.html",
     "publisher": "news.tvchosun.com",
@@ -6006,12 +6313,10 @@
     "matchedKeywords": [
       "대한축구협회",
       "홍명보",
-      "축구협회장",
+      "감사",
       "감독 선임",
       "감독",
-      "선임",
-      "정몽규",
-      "이임생"
+      "선임"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -6033,19 +6338,18 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election",
+      "mcst-audit",
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_chung_mong_gyu",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 48,
+    "relevanceScore": 47,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -6060,15 +6364,15 @@
       ],
       "earliestPublishedAt": 1786019100000,
       "latestPublishedAt": 1786019100000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_8ecad41bcd896a5c",
     "type": "news",
     "title": "[단독] 홍명보 감독 선임 의혹에…축구협회 첫 압수수색",
-    "summary": "홍명보 전 축구 대표팀 감독 선임 과정에 대한축구협회 의 부당한 개입이 있었는지 수사 중인 경찰이 첫 강제... 당시 축구협회 장과 이임생 당시 기술총괄이사 등이 전력강화위원회와 이사회의 결정에 부당하게 개입했는지...",
+    "summary": "경찰은 감독 후보 를 선별하는 축구협회 전력강화위원회와 국가대표 지원팀, 월드컵 지원팀 등을 대상으로 대표팀 감독 선임과 관련한 자료를 확보한 것으로 알려졌습니다. 수사팀은 특히 축구협회 PC에 보관된 내부 자료...",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008693953&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008693953&plink=ORI",
     "publisher": "news.sbs.co.kr",
@@ -6079,10 +6383,12 @@
       "감독",
       "선임",
       "홍명보",
-      "대한축구협회",
-      "이사회",
+      "축구협회",
       "대표팀 감독",
-      "이임생"
+      "전력강화위원회",
+      "감독 후보",
+      "전력강화위원",
+      "후보"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -6103,16 +6409,14 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment",
-      "kfa-executives"
+      "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ],
@@ -6129,8 +6433,8 @@
       ],
       "earliestPublishedAt": 1786019100000,
       "latestPublishedAt": 1786019100000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -6179,8 +6483,8 @@
       ],
       "earliestPublishedAt": 1786018920000,
       "latestPublishedAt": 1786018920000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -6221,8 +6525,8 @@
       ],
       "earliestPublishedAt": 1786018800000,
       "latestPublishedAt": 1786018800000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -6272,8 +6576,8 @@
       ],
       "earliestPublishedAt": 1786018680000,
       "latestPublishedAt": 1786018680000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -6338,8 +6642,8 @@
       ],
       "earliestPublishedAt": 1786018440000,
       "latestPublishedAt": 1786018440000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -6534,7 +6838,7 @@
     "id": "item_edb3cee6ffbeefba",
     "type": "news",
     "title": "축구협회 '성접대' 감사보고서 나왔다…월드컵·올림픽 심판 포함",
-    "summary": "문화체육관광부 감사 보고서가 공개됐다. 접대 대상에는 월드컵 예선과 올림픽 예선 경기에 참여한 심판들도 포함된 것으로 나타났다. 6일 JTBC 보도에 따르면 문체부 가 2016년 작성한 '대한 축구협회 임직원 등 비리 조사...",
+    "summary": "6일 JTBC 보도에 따르면 문체부가 2016년 작성한 '대한 축구협회 임직원 등 비리 조사 결과 ' 문건에는 축구협회 가 2011년 3월부터 2012년 3월까지 1년 간 국가대표팀 경기에 참여한 외국인 심판들에게 7차례 부적절한 성...",
     "url": "https://www.newsis.com/view/NISX20260806_0003739650",
     "originalUrl": "https://www.newsis.com/view/NISX20260806_0003739650",
     "publisher": "newsis.com",
@@ -6543,7 +6847,7 @@
     "matchedKeywords": [
       "감사",
       "대한 축구협회",
-      "문화체육관광부 감사"
+      "조사 결과"
     ],
     "discoveryQueries": [
       "대표팀 감독",
@@ -6559,7 +6863,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 15,
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
@@ -6577,8 +6881,8 @@
       ],
       "earliestPublishedAt": 1786018020000,
       "latestPublishedAt": 1786018020000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -6695,8 +6999,8 @@
       ],
       "earliestPublishedAt": 1786017720000,
       "latestPublishedAt": 1786017720000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -6749,8 +7053,8 @@
       ],
       "earliestPublishedAt": 1786017660000,
       "latestPublishedAt": 1786017660000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -6794,8 +7098,8 @@
       ],
       "earliestPublishedAt": 1786017600000,
       "latestPublishedAt": 1786017600000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -6847,8 +7151,8 @@
       ],
       "earliestPublishedAt": 1786017540000,
       "latestPublishedAt": 1786017540000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -6898,8 +7202,8 @@
       ],
       "earliestPublishedAt": 1786017540000,
       "latestPublishedAt": 1786017540000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -7017,7 +7321,7 @@
     "id": "item_689f5ff84ae9a1c8",
     "type": "news",
     "title": "경찰, 축협 축구회관 등 압수수색 11시간 만에 종료(종합)",
-    "summary": "이어 지난달 14일에는 홍 전 감독 선임 당시 대한축구협회 전력강화 위원을 지낸 A씨와 대한축구협회 부회장을... 앞서 시민단체 서민민생대책 위원회 (서민위)는 지난달 2일 대한축구협회 운영과 국가대표팀 감독 선임 과정에...",
+    "summary": "이어 지난달 14일에는 홍 전 감독 선임 당시 대한축구협회 전력강화위원을 지낸 A씨와 대한 축구협회 부회장 을 지낸 B씨를 참고인 신분으로 불러 조사했다. 같은 달 9일에는 선임 과정의 공정성을 공개적으로 비판해 온...",
     "url": "https://www.newsis.com/view/NISX20260806_0003739652",
     "originalUrl": "https://www.newsis.com/view/NISX20260806_0003739652",
     "publisher": "newsis.com",
@@ -7026,10 +7330,11 @@
     "matchedKeywords": [
       "축협",
       "대한축구협회",
+      "대한 축구협회",
       "부회장",
       "감독 선임",
-      "대표팀 감독",
       "감독",
+      "전력강화위원",
       "선임"
     ],
     "discoveryQueries": [
@@ -7071,8 +7376,8 @@
       ],
       "earliestPublishedAt": 1786017360000,
       "latestPublishedAt": 1786017360000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -7116,8 +7421,8 @@
       ],
       "earliestPublishedAt": 1786016880000,
       "latestPublishedAt": 1786016880000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -7180,8 +7485,8 @@
       ],
       "earliestPublishedAt": 1786016880000,
       "latestPublishedAt": 1786016880000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -7250,8 +7555,8 @@
       ],
       "earliestPublishedAt": 1786016820000,
       "latestPublishedAt": 1786016820000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -7563,8 +7868,8 @@
       ],
       "earliestPublishedAt": 1786016160000,
       "latestPublishedAt": 1786016160000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -7707,8 +8012,8 @@
       ],
       "earliestPublishedAt": 1786015920000,
       "latestPublishedAt": 1786015920000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -7867,8 +8172,8 @@
       ],
       "earliestPublishedAt": 1786015680000,
       "latestPublishedAt": 1786015680000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -7928,8 +8233,8 @@
       ],
       "earliestPublishedAt": 1786015260000,
       "latestPublishedAt": 1786015260000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -8192,8 +8497,8 @@
       ],
       "earliestPublishedAt": 1786014960000,
       "latestPublishedAt": 1786014960000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -8278,8 +8583,8 @@
       ],
       "earliestPublishedAt": 1786014420000,
       "latestPublishedAt": 1786014420000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -8464,8 +8769,8 @@
       ],
       "earliestPublishedAt": 1786014060000,
       "latestPublishedAt": 1786014060000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -8846,8 +9151,8 @@
       ],
       "earliestPublishedAt": 1786013700000,
       "latestPublishedAt": 1786013700000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -8923,8 +9228,8 @@
       ],
       "earliestPublishedAt": 1786013400000,
       "latestPublishedAt": 1786013400000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -9529,8 +9834,8 @@
       ],
       "earliestPublishedAt": 1786012380000,
       "latestPublishedAt": 1786012380000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -9647,20 +9952,22 @@
       "urls": [
         "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8630550&ref=A",
         "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8630700&ref=A",
-        "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8630945&ref=A"
+        "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8630945&ref=A",
+        "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8631155&ref=A"
       ],
       "stories": [
         "news|news|경찰, ‘홍명보 선임 의혹’ 대한축구협회 압수수색|news.kbs.co.kr|2026-08-06T10:27:00.000Z",
         "news|news|경찰, ‘홍명보 선임 의혹’ 대한축구협회 압수수색|news.kbs.co.kr|2026-08-06T12:33:00.000Z",
-        "news|news|경찰, ‘홍명보 선임 의혹’ 대한축구협회 압수수색|news.kbs.co.kr|2026-08-06T21:21:00.000Z"
+        "news|news|경찰, ‘홍명보 선임 의혹’ 대한축구협회 압수수색|news.kbs.co.kr|2026-08-06T21:21:00.000Z",
+        "news|news|경찰, ‘홍명보 선임 의혹’ 대한축구협회 압수수색|news.kbs.co.kr|2026-08-07T00:52:00.000Z"
       ],
       "nearKeys": [
         "news|news|경찰, ‘홍명보 선임 의혹’ 대한축구협회 압수수색|news.kbs.co.kr"
       ],
       "earliestPublishedAt": 1786012020000,
-      "latestPublishedAt": 1786051260000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "latestPublishedAt": 1786063920000,
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -9730,8 +10037,8 @@
       ],
       "earliestPublishedAt": 1786011840000,
       "latestPublishedAt": 1786011840000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -9794,8 +10101,8 @@
       ],
       "earliestPublishedAt": 1786011720000,
       "latestPublishedAt": 1786011720000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -10096,8 +10403,8 @@
       ],
       "earliestPublishedAt": 1786010580000,
       "latestPublishedAt": 1786010580000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -10165,8 +10472,8 @@
       ],
       "earliestPublishedAt": 1786010520000,
       "latestPublishedAt": 1786010520000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -10234,8 +10541,8 @@
       ],
       "earliestPublishedAt": 1786010400000,
       "latestPublishedAt": 1786010400000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -10346,7 +10653,7 @@
     "id": "item_acc0952df76eee81",
     "type": "news",
     "title": "'터질 것이 터졌다' 사상 초유의 '압수수색', 대한축구협회는 '초상집'…...",
-    "summary": "것으로 문체부 감사 에서 확인됐다. 당시 정해성 전 전력강화위원장에게 최종 후보를 결정할 권한이 위임됐고 홍 감독이 선택돼 정몽규 당시 대한 축구협회 장에게 보고된 것으로 알려졌다. 하지만 이후 상황이 꼬였다. 정 전...",
+    "summary": "당시 정해성 전 전력강화위원장에게 최종 후보 를 결정할 권한이 위임됐고 홍 감독 이 선택돼 정몽규 당시 대한 축구협회 장에게 보고된 것으로 알려졌다. 하지만 이후 상황이 꼬였다. 정 전 회장이 외국인 후보 를 추가로...",
     "url": "https://www.xportsnews.com/article/2180842",
     "originalUrl": "https://www.xportsnews.com/article/2180842",
     "publisher": "xportsnews.com",
@@ -10355,8 +10662,6 @@
     "matchedKeywords": [
       "대한축구협회",
       "대한 축구협회",
-      "문체부 감사",
-      "감사",
       "감독",
       "전력강화위원",
       "후보",
@@ -10386,7 +10691,6 @@
       "축구협회장"
     ],
     "issueTags": [
-      "mcst-audit",
       "coach-appointment"
     ],
     "personTags": [
@@ -10394,11 +10698,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 39,
+    "relevanceScore": 33,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
+      "인물 언급"
     ],
     "dedupeState": {
       "version": 1,
@@ -10413,8 +10716,8 @@
       ],
       "earliestPublishedAt": 1786009680000,
       "latestPublishedAt": 1786009680000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -10454,8 +10757,8 @@
       ],
       "earliestPublishedAt": 1786009320000,
       "latestPublishedAt": 1786009320000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -10647,8 +10950,8 @@
       ],
       "earliestPublishedAt": 1786007280000,
       "latestPublishedAt": 1786007280000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -10775,8 +11078,8 @@
       ],
       "earliestPublishedAt": 1786006980000,
       "latestPublishedAt": 1786006980000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -10902,8 +11205,8 @@
       ],
       "earliestPublishedAt": 1786005840000,
       "latestPublishedAt": 1786005840000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -10956,7 +11259,7 @@
     "id": "item_9eb3666c88ccba70",
     "type": "news",
     "title": "홍명보 선임 논란 2년…2024년 파동부터 소환·압색까지",
-    "summary": "경찰은 지난 4일 홍 전 감독 을 피의자 신분으로 불러 비공개 조사한 데 이어, 6일엔 대한 축구협회 를 전격... 차기 감독 선임 절차에 착수했습니다. 감독 선임에 전권을 쥔 전력강화위원회는 국내외 지도자를 후보 군에 두고...",
+    "summary": "축협은 감사 결과에 불복해 2025년 2월 행정소송을 제기했으나, 서울행정법원은 2026년 4월 문체부의 중징계 처분 요구가 정당하다며 축협의 청구를 기각했습니다. 지난 6월30일 새벽 홍명보 전 국가대표팀 감독이 북중미...",
     "url": "http://www.newstomato.com/ReadNews.aspx?inflow=N&no=1309481",
     "originalUrl": "http://www.newstomato.com/ReadNews.aspx?inflow=N&no=1309481",
     "publisher": "newstomato.com",
@@ -10964,13 +11267,7 @@
     "collectedAt": "2026-08-06T11:07:06.398Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
-      "감독 선임",
-      "전력강화위원회",
-      "감독",
-      "전력강화위원",
-      "선임",
-      "후보"
+      "감사"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -10996,17 +11293,16 @@
       "축구협회 이사회",
       "축구협회장"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 13,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -11021,8 +11317,8 @@
       ],
       "earliestPublishedAt": 1786005120000,
       "latestPublishedAt": 1786005120000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -11289,8 +11585,8 @@
       ],
       "earliestPublishedAt": 1786004280000,
       "latestPublishedAt": 1786004280000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -11441,8 +11737,8 @@
       ],
       "earliestPublishedAt": 1786003380000,
       "latestPublishedAt": 1786003380000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -11678,8 +11974,8 @@
       ],
       "earliestPublishedAt": 1786002360000,
       "latestPublishedAt": 1786002360000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -11798,8 +12094,8 @@
       ],
       "earliestPublishedAt": 1786001820000,
       "latestPublishedAt": 1786001820000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -11861,8 +12157,8 @@
       ],
       "earliestPublishedAt": 1786001040000,
       "latestPublishedAt": 1786001040000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -11973,8 +12269,8 @@
       ],
       "earliestPublishedAt": 1785999840000,
       "latestPublishedAt": 1785999840000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -12148,8 +12444,8 @@
       ],
       "earliestPublishedAt": 1785999240000,
       "latestPublishedAt": 1785999240000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -12214,8 +12510,8 @@
       ],
       "earliestPublishedAt": 1785999060000,
       "latestPublishedAt": 1785999060000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -12271,8 +12567,8 @@
       ],
       "earliestPublishedAt": 1785998040000,
       "latestPublishedAt": 1785998040000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -12342,8 +12638,8 @@
       ],
       "earliestPublishedAt": 1785998040000,
       "latestPublishedAt": 1785998040000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -12557,8 +12853,8 @@
       ],
       "earliestPublishedAt": 1785997560000,
       "latestPublishedAt": 1785997560000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -12624,8 +12920,8 @@
       ],
       "earliestPublishedAt": 1785997560000,
       "latestPublishedAt": 1785997560000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -12689,7 +12985,7 @@
     "id": "item_6c64b1f9a5c8b564",
     "type": "news",
     "title": "\"정몽규가 지시\" 새 주장 나왔다…\"내 책임 아니야\" 결국",
-    "summary": "이임생 전 대한 축구협회 기술총괄이사가 홍명보 전 국가대표팀 감독 선임 과정을 둘러싼 문화체육관광부와... 최근 해외 도피성 취업 논란으로 불거진 이 전 이사의 캄보디아행에 대한 해명 도 나왔습니다. 이 전 이사 측은...",
+    "summary": "결론짓고 정몽규 축구협회 회장과 김정배 부회장, 이 전 이사 등에 대한 중징계를 권고했습니다. 이에... 최근 해외 도피성 취업 논란으로 불거진 이 전 이사의 캄보디아행에 대한 해명 도 나왔습니다. 이 전 이사 측은...",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008693353&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008693353&plink=ORI",
     "publisher": "news.sbs.co.kr",
@@ -12697,13 +12993,8 @@
     "collectedAt": "2026-08-06T08:06:33.531Z",
     "matchedKeywords": [
       "정몽규",
-      "대한 축구협회",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "선임",
-      "홍명보",
-      "이임생",
+      "축구협회",
+      "부회장",
       "해명"
     ],
     "discoveryQueries": [
@@ -12732,16 +13023,14 @@
       "축구협회 해명"
     ],
     "issueTags": [
-      "coach-appointment"
+      "kfa-executives"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -12760,8 +13049,8 @@
       ],
       "earliestPublishedAt": 1785997320000,
       "latestPublishedAt": 1785997320000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -12825,8 +13114,8 @@
       ],
       "earliestPublishedAt": 1785996720000,
       "latestPublishedAt": 1785996720000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -12880,8 +13169,8 @@
       ],
       "earliestPublishedAt": 1785996720000,
       "latestPublishedAt": 1785996720000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -13120,8 +13409,8 @@
       ],
       "earliestPublishedAt": 1785995040000,
       "latestPublishedAt": 1785995040000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -13304,8 +13593,8 @@
       ],
       "earliestPublishedAt": 1785994200000,
       "latestPublishedAt": 1785994200000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -13442,7 +13731,7 @@
     "id": "item_b9337866b2fef9d4",
     "type": "news",
     "title": "홍명보 선임 지시한 인물은… 이임생 아닌 ‘이 사람’이라는 폭로가 터...",
-    "summary": "대한민국 축구 대표팀 감독에 홍명보를 선임하는 것을 지시한 인물은 정몽규 전 대한 축구협회 회장이었다는... 과정에서 정관 을 위반했는지를 집중 조사할 계획이다. 협회 정관 에 명시된 감독 선임 절차와 실제 진행 과정...",
+    "summary": "홍명보 전 감독도 이미 피의자 조사 받아경찰은 압수수색에 앞서 지난달 14일 홍 전 감독 선임 당시 축구협회 전력강화위원으로 활동한 관계자와 축구협회 부회장 을 지낸 관계자를 참고인 신분으로 불러 조사했다. 이어...",
     "url": "https://www.wikitree.co.kr/articles/1150809",
     "originalUrl": "https://www.wikitree.co.kr/articles/1150809",
     "publisher": "wikitree.co.kr",
@@ -13451,12 +13740,11 @@
     "matchedKeywords": [
       "홍명보",
       "이임생",
-      "대한 축구협회",
-      "정관",
-      "대표팀 감독",
+      "축구협회",
+      "감독 선임",
       "감독",
-      "선임",
-      "정몽규"
+      "전력강화위원",
+      "선임"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -13484,17 +13772,15 @@
       "KFA"
     ],
     "issueTags": [
-      "statute-revision",
       "coach-appointment"
     ],
     "personTags": [
       "person_hong_myung_bo",
-      "person_lee_im_saeng",
-      "person_chung_mong_gyu"
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급"
     ],
@@ -13511,8 +13797,8 @@
       ],
       "earliestPublishedAt": 1785993960000,
       "latestPublishedAt": 1785993960000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -13704,8 +13990,8 @@
       ],
       "earliestPublishedAt": 1785993120000,
       "latestPublishedAt": 1785993120000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -13819,8 +14105,8 @@
       ],
       "earliestPublishedAt": 1785992520000,
       "latestPublishedAt": 1785992520000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -13881,15 +14167,15 @@
       ],
       "earliestPublishedAt": 1785992520000,
       "latestPublishedAt": 1785992520000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_f13a9413951d3529",
     "type": "news",
     "title": "경찰, 축구협회 등 압수수색⋯홍명보 소환 이틀만",
-    "summary": "확보한 자료를 토대로 정몽규 당시 축구협회 장과 이임생 당시 기술총괄이사 등이 협회 정관 을 어겼는지, 전력강화위원회와 이사회의 결정 과정에 부당하게 관여했는지 등을 확인할 것으로 보인다. 앞서 경찰은 4일 홍 전...",
+    "summary": "경찰은 2024년 홍 전 감독이 대표팀 사령탑으로 선임되는 과정에서 축구협회 임원 등의 부당한 개입이 있었는지 들여다보고 있다. 확보한 자료를 토대로 정몽규 당시 축구협회장과 이임생 당시 기술총괄이사 등이 협회...",
     "url": "https://www.etoday.co.kr/news/view/2611760",
     "originalUrl": "https://www.etoday.co.kr/news/view/2611760",
     "publisher": "etoday.co.kr",
@@ -13897,9 +14183,7 @@
     "collectedAt": "2026-08-06T08:06:33.531Z",
     "matchedKeywords": [
       "홍명보",
-      "축구협회",
-      "정관",
-      "이사회",
+      "임원",
       "정몽규",
       "이임생"
     ],
@@ -13922,7 +14206,6 @@
       "축구협회장"
     ],
     "issueTags": [
-      "statute-revision",
       "kfa-executives"
     ],
     "personTags": [
@@ -13932,7 +14215,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 18,
     "labels": [
       "인물 언급"
     ],
@@ -13949,8 +14232,8 @@
       ],
       "earliestPublishedAt": 1785992160000,
       "latestPublishedAt": 1785992160000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -14350,8 +14633,8 @@
       ],
       "earliestPublishedAt": 1785991200000,
       "latestPublishedAt": 1785991200000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -14458,8 +14741,8 @@
       ],
       "earliestPublishedAt": 1785990960000,
       "latestPublishedAt": 1785990960000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -14589,7 +14872,7 @@
     "id": "item_87794bbf7cf9ea75",
     "type": "news",
     "title": "'깜짝 폭로' 이임생 \"정몽규 회장이 홍명보 선임 지시, 나가월드 디렉터...",
-    "summary": "앞서 문체부는 2024년 말 축구협회 특정 감사 결과를 발표하면서 홍명보 감독 선임 과정에서 심각한 절차적 위반이 있었다고 결론짓고 정몽규 축구협회 회장과 김정배 부회장, 이임생 전 이사 등에 대한 중징계를 권고했다....",
+    "summary": "앞서 문체부는 2024년 말 축구협회 특정감사 결과를 발표하면서 홍명보 감독 선임 과정에서 심각한 절차적 위반이 있었다고 결론짓고 정몽규 축구협회 회장과 김정배 부회장 , 이임생 전 이사 등에 대한 중징계를 권고했다....",
     "url": "https://www.starnewskorea.com/sports/2026/08/06/2026080612580957940",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/08/06/2026080612580957940",
     "publisher": "starnewskorea.com",
@@ -14662,8 +14945,8 @@
       ],
       "earliestPublishedAt": 1785989340000,
       "latestPublishedAt": 1785989340000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -14713,8 +14996,8 @@
       ],
       "earliestPublishedAt": 1785988320000,
       "latestPublishedAt": 1785988320000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -14777,8 +15060,8 @@
       ],
       "earliestPublishedAt": 1785987720000,
       "latestPublishedAt": 1785987720000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -14940,15 +15223,15 @@
       ],
       "earliestPublishedAt": 1785986940000,
       "latestPublishedAt": 1785986940000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
     "id": "item_c1ba8be668f43a04",
     "type": "news",
     "title": "경찰, 축구협회 등 압수수색…홍명보 감독 선임 의혹 관련",
-    "summary": "이날 압수수색을 통해 확보한 증거들을 토대로 정몽규 당시 축구협회 장과 이임생 당시 기술총괄이사 등이 홍 전 감독을 축구 대표팀 감독으로 선임하는 과정에서 지위 등을 이용해 정관 을 위반했는지, 전력강화위원회 및...",
+    "summary": "현재 경찰은 2024년 홍 전 감독이 국가대표 감독직에 선임되는 과정에 축구협회 임원 등에 의한 부당한 개입이 있었는지 수사하고 있다. 이날 압수수색을 통해 확보한 증거들을 토대로 정몽규 당시 축구협회장과 이임생...",
     "url": "https://www.sisajournal.com/news/articleView.html?idxno=382589",
     "originalUrl": "https://www.sisajournal.com/news/articleView.html?idxno=382589",
     "publisher": "sisajournal.com",
@@ -14960,10 +15243,7 @@
       "선임",
       "홍명보",
       "축구협회",
-      "정관",
-      "대표팀 감독",
-      "전력강화위원회",
-      "전력강화위원",
+      "임원",
       "정몽규",
       "이임생"
     ],
@@ -14987,7 +15267,7 @@
     ],
     "issueTags": [
       "coach-appointment",
-      "statute-revision"
+      "kfa-executives"
     ],
     "personTags": [
       "person_hong_myung_bo",
@@ -14996,7 +15276,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 37,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ],
@@ -15013,8 +15293,8 @@
       ],
       "earliestPublishedAt": 1785986700000,
       "latestPublishedAt": 1785986700000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -15678,8 +15958,8 @@
       ],
       "earliestPublishedAt": 1785985440000,
       "latestPublishedAt": 1785985440000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -15974,8 +16254,8 @@
       ],
       "earliestPublishedAt": 1785984600000,
       "latestPublishedAt": 1785985200000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -16040,8 +16320,8 @@
       ],
       "earliestPublishedAt": 1785984420000,
       "latestPublishedAt": 1786007340000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -18456,8 +18736,8 @@
       ],
       "earliestPublishedAt": 1785981660000,
       "latestPublishedAt": 1785981660000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -18511,8 +18791,8 @@
       ],
       "earliestPublishedAt": 1785981660000,
       "latestPublishedAt": 1785981660000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -19145,7 +19425,7 @@
     "id": "item_07e9749722e445e2",
     "type": "news",
     "title": "[단독] 이임생 “홍명보 면담 기록 있다”…축협-문체부 소송에 ‘소송...",
-    "summary": "문체부는 2024년말 대한축구협회 특정 감사 결과를 발표하고, 홍명보 감독 선임 과정의 절차적 문제를 들어 정몽규 회장과 김정배 부회장, 이임생 이사 등에 대한 징계를 대한축구협회에 권고했다. 하지만 대한축구협회는...",
+    "summary": "이임생 이사의 법률대리인은 6일 “문화체육관광부의 대한축구협회 감사 에서 드러난 문체부의 인식과 달리 이임생 이사가 (홍명보 감독을 면담하면서) 자필로 기록한 자료가 존재한다. 그동안 잘못된 사실관계나 루머를...",
     "url": "https://www.hani.co.kr/arti/society/society_general/1271659.html",
     "originalUrl": "https://www.hani.co.kr/arti/society/society_general/1271659.html",
     "publisher": "hani.co.kr",
@@ -19155,12 +19435,7 @@
       "홍명보",
       "이임생",
       "대한축구협회",
-      "감사",
-      "부회장",
-      "감독 선임",
-      "감독",
-      "선임",
-      "정몽규"
+      "감사"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -19177,18 +19452,15 @@
       "축구협회 임원"
     ],
     "issueTags": [
-      "mcst-audit",
-      "kfa-executives",
-      "coach-appointment"
+      "mcst-audit"
     ],
     "personTags": [
       "person_hong_myung_bo",
-      "person_lee_im_saeng",
-      "person_chung_mong_gyu"
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 34,
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
@@ -19206,8 +19478,8 @@
       ],
       "earliestPublishedAt": 1785980520000,
       "latestPublishedAt": 1785980520000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -19475,8 +19747,8 @@
       ],
       "earliestPublishedAt": 1785980040000,
       "latestPublishedAt": 1785980040000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -19547,8 +19819,8 @@
       ],
       "earliestPublishedAt": 1785980040000,
       "latestPublishedAt": 1785980040000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -19705,8 +19977,8 @@
       ],
       "earliestPublishedAt": 1785979980000,
       "latestPublishedAt": 1786007760000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -19976,8 +20248,8 @@
       ],
       "earliestPublishedAt": 1785978240000,
       "latestPublishedAt": 1785978240000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -20157,8 +20429,8 @@
       ],
       "earliestPublishedAt": 1785975000000,
       "latestPublishedAt": 1785975000000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   },
   {
@@ -20211,8 +20483,8 @@
       ],
       "earliestPublishedAt": 1785974520000,
       "latestPublishedAt": 1785974520000,
-      "representativeCollectedAt": 1786062675163,
-      "latestCollectedAt": 1786062675163
+      "representativeCollectedAt": 1786073924706,
+      "latestCollectedAt": 1786073924706
     }
   }
 ]
