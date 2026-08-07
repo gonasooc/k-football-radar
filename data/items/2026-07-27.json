@@ -424,7 +424,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 20,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112847519"
+      ],
+      "stories": [
+        "news|news|'최휘영 문체부 장관도 합류' k-축구 혁신위, \"회의록 없는 혁신?\" '밀실...|osen.co.kr|2026-07-27T21:03:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'최휘영 문체부 장관도 합류' k-축구 혁신위, \"회의록 없는 혁신?\" '밀실...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1785186180000,
+      "latestPublishedAt": 1785186180000,
+      "representativeCollectedAt": 1786091962157,
+      "latestCollectedAt": 1786091962157
+    }
   },
   {
     "id": "item_93bb2851d0de3b44",
@@ -1310,8 +1326,8 @@
       ],
       "earliestPublishedAt": 1785152400000,
       "latestPublishedAt": 1785152400000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1786091962157,
+      "latestCollectedAt": 1786091962157
     }
   },
   {
@@ -2750,8 +2766,8 @@
       ],
       "earliestPublishedAt": 1785139860000,
       "latestPublishedAt": 1785139860000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1786091962157,
+      "latestCollectedAt": 1786091962157
     }
   },
   {
@@ -3039,8 +3055,8 @@
       ],
       "earliestPublishedAt": 1785136800000,
       "latestPublishedAt": 1785136800000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1786091962157,
+      "latestCollectedAt": 1786091962157
     }
   },
   {
@@ -3762,8 +3778,8 @@
       ],
       "earliestPublishedAt": 1785133800000,
       "latestPublishedAt": 1785133800000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1786091962157,
+      "latestCollectedAt": 1786091962157
     }
   },
   {
@@ -3842,8 +3858,8 @@
       ],
       "earliestPublishedAt": 1785133140000,
       "latestPublishedAt": 1785133140000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1786091962157,
+      "latestCollectedAt": 1786091962157
     }
   },
   {
@@ -3980,8 +3996,8 @@
       ],
       "earliestPublishedAt": 1785133080000,
       "latestPublishedAt": 1785133080000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1786091962157,
+      "latestCollectedAt": 1786091962157
     }
   },
   {
@@ -4602,8 +4618,8 @@
       ],
       "earliestPublishedAt": 1785130860000,
       "latestPublishedAt": 1785130860000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1786091962157,
+      "latestCollectedAt": 1786091962157
     }
   },
   {
@@ -4978,8 +4994,8 @@
       ],
       "earliestPublishedAt": 1785129960000,
       "latestPublishedAt": 1785129960000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1786091962157,
+      "latestCollectedAt": 1786091962157
     }
   },
   {
@@ -5275,8 +5291,8 @@
       ],
       "earliestPublishedAt": 1785129120000,
       "latestPublishedAt": 1785129120000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1786091962157,
+      "latestCollectedAt": 1786091962157
     }
   },
   {
@@ -7601,8 +7617,8 @@
       ],
       "earliestPublishedAt": 1785124680000,
       "latestPublishedAt": 1785124680000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1786091962157,
+      "latestCollectedAt": 1786091962157
     }
   },
   {
