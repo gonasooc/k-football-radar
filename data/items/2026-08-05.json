@@ -175,8 +175,8 @@
       ],
       "earliestPublishedAt": 1785973320000,
       "latestPublishedAt": 1785973320000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -291,8 +291,8 @@
       ],
       "earliestPublishedAt": 1785972720000,
       "latestPublishedAt": 1785972720000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -354,7 +354,7 @@
     "id": "item_c2eabb2499ac6474",
     "type": "news",
     "title": "\"2만명 선거인단 시대\"…축구협회 회장 선거 구도 요동",
-    "summary": "대한 축구협회 차기 회장 선거를 앞두고 선거인단 구조가 대대적으로 바뀌면서, 선거 구도 전반에 변화가 예고되는 모양새다. 특히 선거인단 수가 기존 대비 100배 이상 커진 가운데, 전문 선수와 동호인 비중이 크게...",
+    "summary": "대한축구협회 차기 회장 선거를 앞두고 선거인단 구조가 대대적으로 바뀌면서, 선거 구도 전반에 변화가... 이 같은 구도 속에서 경기인 출신 인사 가운데서는 김병지 강원FC 대표이사가 유력한 후보군으로 거론된다....",
     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16156012",
     "originalUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16156012",
     "publisher": "topstarnews.net",
@@ -365,7 +365,8 @@
       "회장 선거",
       "선거인단",
       "선거인",
-      "대한 축구협회"
+      "대한축구협회",
+      "김병지"
     ],
     "discoveryQueries": [
       "\"김병지\" 대한축구협회",
@@ -394,11 +395,14 @@
       "election",
       "electoral-college"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_kim_byung_ji"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 51,
+    "relevanceScore": 54,
     "labels": [
+      "인물 언급",
       "선거 키워드 포함"
     ],
     "dedupeState": {
@@ -414,8 +418,8 @@
       ],
       "earliestPublishedAt": 1785972120000,
       "latestPublishedAt": 1785972120000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -466,8 +470,8 @@
       ],
       "earliestPublishedAt": 1785971700000,
       "latestPublishedAt": 1785971700000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -537,8 +541,8 @@
       ],
       "earliestPublishedAt": 1785971400000,
       "latestPublishedAt": 1785971400000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -600,7 +604,7 @@
     "id": "item_b56fcd5f881f3d8d",
     "type": "news",
     "title": "선거제 개혁 주문한 李 대통령 “축구협회, 가장 큰 문제는 비민주적 구...",
-    "summary": "사진=청와대통신사진기자단 대한 축구협회 는 현재 차기 회장 선출을 위한 제도 정비를 진행하고 있다. 문화체육관광부 산하 K- 축구 혁신위원회 는 기존 약 200명 규모인 회장 선거인단을 약 2만명으로 확대하고 전자투표...",
+    "summary": "사진=청와대통신사진기자단 대한 축구협회 는 현재 차기 회장 선출을 위한 제도 정비를 진행하고 있다.... 특정 제도 개편 보다 체육인의 삶이라 생각한다”고 강조했다. 유 회장은 “대통령님의 관심과 격려는 저에게 큰...",
     "url": "https://www.sportsworldi.com/newsView/20260806504344",
     "originalUrl": "https://www.sportsworldi.com/newsView/20260806504344",
     "publisher": "sportsworldi.com",
@@ -609,11 +613,7 @@
     "matchedKeywords": [
       "축구협회",
       "대한 축구협회",
-      "회장 선거",
-      "선거인단",
-      "선거인",
-      "혁신위원회",
-      "축구 혁신"
+      "제도 개편"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -626,17 +626,13 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
-      "electoral-college",
-      "innovation-committee"
+      "statute-revision"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
-    "labels": [
-      "선거 키워드 포함"
-    ],
+    "relevanceScore": 20,
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -650,8 +646,8 @@
       ],
       "earliestPublishedAt": 1785968640000,
       "latestPublishedAt": 1785968640000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -885,19 +881,15 @@
     "id": "item_9a74e811bb1e847f",
     "type": "news",
     "title": "오심보다 심각한 축구협회의 불공정...한국 축구를 퇴행시킨 장본인들",
-    "summary": "대한축구협회장과 홍명보 전 축구대표팀 감독이 증인 선서하고 있다. (사진=연합뉴스) 7월 30일 축구협회에... 문 위원장은 또 지난해 2월 축구협회 회장 선거 운동 기간, 선거 운동원 자격이 없는데도 정몽규 회장...",
+    "summary": "출신 대의원 을 상대로 선거운동을 벌인 사실이 드러났다. 문 위원장은 정몽규 전 회장이 당선된 후 축구협회 심판위원장으로 임명돼 보은 인사라고 해도 무방하다. 문 위원장은 특히 국회의원들의 질문에 목소리를...",
     "url": "https://www.newsverse.kr/news/articleView.html?idxno=11103",
     "originalUrl": "https://www.newsverse.kr/news/articleView.html?idxno=11103",
     "publisher": "newsverse.kr",
     "publishedAt": "2026-08-05T21:04:00.000Z",
     "collectedAt": "2026-08-05T21:55:38.542Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "축구협회장",
-      "회장 선거",
-      "대한축구협회장",
-      "정몽규",
-      "홍명보"
+      "대의원",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -916,15 +908,14 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "electoral-college"
     ],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 7,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -942,15 +933,15 @@
       ],
       "earliestPublishedAt": 1785963840000,
       "latestPublishedAt": 1785963840000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
     "id": "item_46a9f16418e29443",
     "type": "news",
     "title": "[기자수첩] '국민의힘' 네 글자가 부끄럽지 않으려면",
-    "summary": "지방 선거 전 국민의힘은 당명 교체 문제로 한바탕 소란을 겪었다. 장동혁 지도부는 2020년 김종인... 월드컵 대참사 이후 축구협회에 대한 국민적 비판이 거센 상황에서 정몽규 전 대한축구협회 회장에게 보낸 \"더 잘...",
+    "summary": "월드컵 대참사 이후 축구협회에 대한 국민적 비판이 거센 상황에서 정몽규 전 대한축구협회 회장에게 보낸... 원내지도부는 개인적 친분에서 비롯된 문자라고 해명 했지만, 성난 여론을 돌리기에는 부족했다. 여기에 서범수...",
     "url": "http://www.inews24.com/view/1992306",
     "originalUrl": "http://www.inews24.com/view/1992306",
     "publisher": "inews24.com",
@@ -958,7 +949,8 @@
     "collectedAt": "2026-08-05T21:55:38.542Z",
     "matchedKeywords": [
       "대한축구협회",
-      "정몽규"
+      "정몽규",
+      "해명"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -977,10 +969,11 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 9,
+    "relevanceScore": 11,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -995,8 +988,8 @@
       ],
       "earliestPublishedAt": 1785963660000,
       "latestPublishedAt": 1785963660000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -1204,8 +1197,8 @@
       ],
       "earliestPublishedAt": 1785949200000,
       "latestPublishedAt": 1785949200000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -1933,8 +1926,8 @@
       ],
       "earliestPublishedAt": 1785934860000,
       "latestPublishedAt": 1785934860000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -3271,8 +3264,8 @@
       ],
       "earliestPublishedAt": 1785928140000,
       "latestPublishedAt": 1785928140000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -3495,8 +3488,8 @@
       ],
       "earliestPublishedAt": 1785926880000,
       "latestPublishedAt": 1785926880000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -3817,7 +3810,7 @@
     "id": "item_625499f3f1cbe2b3",
     "type": "news",
     "title": "\"선거인단 확대\" 주문에 유승민 \"민주적 선거제도 개선 추진\"",
-    "summary": "이재명 대통령은 대한 축구협회 를 포함한 각종 종목단체 구조를 언급하며 비민주적 운영과 장기 집권 문제를... 유승민 대한체육회장은 산하 단체 회장 선거인단 범위를 최대한 확대해 직선제에 근접한 방식으로 운용해야...",
+    "summary": "연합뉴스 보도에 따르면 유승민 대한 체육회장은 대한축구협회 등 산하 단체 회장 선거 제도 개편과 관련해... 이 발언을 통해 회장 선거제 개편뿐 아니라 선수· 지도자 ·종사자 여건 개선을 함께 추진하겠다는 인식을...",
     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16155750",
     "originalUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16155750",
     "publisher": "topstarnews.net",
@@ -3826,8 +3819,9 @@
     "matchedKeywords": [
       "선거인단",
       "선거인",
-      "대한 축구협회",
-      "회장 선거"
+      "대한축구협회",
+      "회장 선거",
+      "제도 개편"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -3840,12 +3834,13 @@
     ],
     "issueTags": [
       "electoral-college",
-      "election"
+      "election",
+      "statute-revision"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 29,
     "relevanceTier": "secondary",
     "labels": [
       "선거 키워드 포함"
@@ -3863,8 +3858,8 @@
       ],
       "earliestPublishedAt": 1785924840000,
       "latestPublishedAt": 1785924840000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -4041,8 +4036,8 @@
       ],
       "earliestPublishedAt": 1785924240000,
       "latestPublishedAt": 1785924240000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -4148,8 +4143,8 @@
       ],
       "earliestPublishedAt": 1785924060000,
       "latestPublishedAt": 1785924060000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -4645,7 +4640,7 @@
     "id": "item_aab191198edf67ed",
     "type": "news",
     "title": "홍명보 전 축구대표팀 감독, 피의자 신분 첫 소환 조사",
-    "summary": "대한축구협회의 국가대표팀 감독 선임 과정을 수사 중인 경찰이 홍명보 전 축구대표팀 감독을 처음으로... 절차를 거쳐 제안한 것으로 생각했다\"며 \"특혜나 이익을 요구한 적은 한 번도 없다\"는 취지로 해명 한 바 있습니다.",
+    "summary": "앞서 홍 전 감독은 지난달 2일 정몽규 전 대한축구협회장, 이임생 전 기술총괄 이사 등과 함께 업무방해와... 절차를 거쳐 제안한 것으로 생각했다\"며 \"특혜나 이익을 요구한 적은 한 번도 없다\"는 취지로 해명 한 바 있습니다.",
     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000543580",
     "originalUrl": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000543580",
     "publisher": "ichannela.com",
@@ -4654,10 +4649,10 @@
     "matchedKeywords": [
       "홍명보",
       "대한축구협회",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "선임",
+      "축구협회장",
+      "대한축구협회장",
+      "정몽규",
+      "이임생",
       "해명"
     ],
     "discoveryQueries": [
@@ -4680,14 +4675,16 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment"
+      "election"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -4705,8 +4702,8 @@
       ],
       "earliestPublishedAt": 1785921600000,
       "latestPublishedAt": 1785921600000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -5036,8 +5033,8 @@
       ],
       "earliestPublishedAt": 1785920820000,
       "latestPublishedAt": 1785920820000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -5489,7 +5486,7 @@
     "id": "item_4f6e51b2c2cccbff",
     "type": "news",
     "title": "K리그 29개 구단 중 '수뇌부 동반 비즈니스석 멕시코행'은 강원FC뿐…\"시...",
-    "summary": "칸쿤에서 시간을 보낸 21개 K리그 구단 대표들은 축구협회 장 선거의 표를 쥔 사람들이었다. 선거인 단 192명 중 K리그1 구단 대표 몫이 12명이다. 여기에 K리그1 구단 대표들은 '회원단체 추천 임원' 명목으로 12명을 더...",
+    "summary": "참관단 16명 가운데 14명이 축구협회 장 선거에서 막강한 영향력을 행사하고 투표권 까지 쥔 시도 축구협회 장과 박한동 대학 축구 연맹 회장, K리그 구단 대표이사였다. 협회 실무진은 단 2명. '국제 축구 운영 동향'을 볼...",
     "url": "http://www.spochoo.com/news/articleView.html?idxno=128479",
     "originalUrl": "http://www.spochoo.com/news/articleView.html?idxno=128479",
     "publisher": "spochoo.com",
@@ -5497,7 +5494,7 @@
     "collectedAt": "2026-08-05T11:05:27.313Z",
     "matchedKeywords": [
       "축구협회",
-      "선거인"
+      "투표권"
     ],
     "discoveryQueries": [
       "\"김병지\" 대한축구협회",
@@ -5538,8 +5535,8 @@
       ],
       "earliestPublishedAt": 1785919680000,
       "latestPublishedAt": 1785919680000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -5648,8 +5645,8 @@
       ],
       "earliestPublishedAt": 1785919560000,
       "latestPublishedAt": 1785919560000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -5893,7 +5890,7 @@
     "id": "item_995f5ab3b471d32b",
     "type": "news",
     "title": "경찰, '대표팀 감독 선임 논란' 홍명보 첫 소환 조사",
-    "summary": "대한축구협회의 국가대표팀 감독 선임 과정을 수사 중인 경찰이 홍명보 전 축구대표팀 감독을 처음으로... 취지로 해명 한 바 있습니다. 경찰은 2024년 7월 홍 전 감독 선임 의혹에 대한 수사에 착수한 뒤 정 전 회장과 이 전...",
+    "summary": "앞서 홍 전 감독은 지난달 2일 정몽규 전 대한축구협회장, 이임생 전 기술총괄 이사 등과 함께 업무방해와... 취지로 해명 한 바 있습니다. 경찰은 2024년 7월 홍 전 감독 선임 의혹에 대한 수사에 착수한 뒤 정 전 회장과 이 전...",
     "url": "https://news.jtbc.co.kr/article/NB12311895?influxDiv=NAVER",
     "originalUrl": "https://news.jtbc.co.kr/article/NB12311895?influxDiv=NAVER",
     "publisher": "news.jtbc.co.kr",
@@ -5906,6 +5903,10 @@
       "선임",
       "홍명보",
       "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "정몽규",
+      "이임생",
       "해명"
     ],
     "discoveryQueries": [
@@ -5928,14 +5929,17 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "election"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 36,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -5953,8 +5957,8 @@
       ],
       "earliestPublishedAt": 1785918900000,
       "latestPublishedAt": 1785918900000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -6232,8 +6236,8 @@
       ],
       "earliestPublishedAt": 1785918720000,
       "latestPublishedAt": 1785918720000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -8126,8 +8130,8 @@
       ],
       "earliestPublishedAt": 1785916440000,
       "latestPublishedAt": 1785916440000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -8309,8 +8313,8 @@
       ],
       "earliestPublishedAt": 1785916140000,
       "latestPublishedAt": 1785916140000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -8362,8 +8366,8 @@
       ],
       "earliestPublishedAt": 1785916140000,
       "latestPublishedAt": 1785916140000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -8502,7 +8506,7 @@
     "id": "item_f1d523510a2e8e68",
     "type": "news",
     "title": "경찰, 홍명보 전 감독 첫 소환 조사… 배임 등 혐의",
-    "summary": "대한축구협회의 축구 국가대표팀 감독 선임 의혹을 수사 중인 경찰이 홍명보 전 대표팀 감독을 처음으로... 취지로 해명 했다. 경찰은 2024년 7월 홍 전 감독 선임 의혹과 관련해 수사에 착수한 뒤 정 전 회장과 이 전 이사 등...",
+    "summary": "이들은 정몽규 전 대한축구협회장과 이임생 전 기술총괄이사 등이 전력강화위원회의 정상적인 의사결정을... 취지로 해명 했다. 경찰은 2024년 7월 홍 전 감독 선임 의혹과 관련해 수사에 착수한 뒤 정 전 회장과 이 전 이사...",
     "url": "https://www.hankookilbo.com/news/article/A2026080516200005509?did=NA",
     "originalUrl": "https://www.hankookilbo.com/news/article/A2026080516200005509?did=NA",
     "publisher": "hankookilbo.com",
@@ -8511,10 +8515,10 @@
     "matchedKeywords": [
       "홍명보",
       "대한축구협회",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "선임",
+      "축구협회장",
+      "대한축구협회장",
+      "정몽규",
+      "이임생",
       "해명"
     ],
     "discoveryQueries": [
@@ -8538,14 +8542,16 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment"
+      "election"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 26,
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
@@ -8563,8 +8569,8 @@
       ],
       "earliestPublishedAt": 1785916080000,
       "latestPublishedAt": 1785916080000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -9114,8 +9120,8 @@
       ],
       "earliestPublishedAt": 1785915420000,
       "latestPublishedAt": 1785915420000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -9392,8 +9398,8 @@
       ],
       "earliestPublishedAt": 1785914640000,
       "latestPublishedAt": 1785914640000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -9525,8 +9531,8 @@
       ],
       "earliestPublishedAt": 1785914340000,
       "latestPublishedAt": 1785914340000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -9807,8 +9813,8 @@
       ],
       "earliestPublishedAt": 1785913800000,
       "latestPublishedAt": 1785913800000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -10251,8 +10257,8 @@
       ],
       "earliestPublishedAt": 1785913260000,
       "latestPublishedAt": 1785913260000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -10600,8 +10606,8 @@
       ],
       "earliestPublishedAt": 1785912840000,
       "latestPublishedAt": 1785912840000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -10900,8 +10906,8 @@
       ],
       "earliestPublishedAt": 1785912300000,
       "latestPublishedAt": 1785912300000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -11008,8 +11014,8 @@
       ],
       "earliestPublishedAt": 1785912240000,
       "latestPublishedAt": 1785912240000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -11482,8 +11488,8 @@
       ],
       "earliestPublishedAt": 1785909600000,
       "latestPublishedAt": 1785909600000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -11591,8 +11597,8 @@
       ],
       "earliestPublishedAt": 1785907920000,
       "latestPublishedAt": 1785907920000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
@@ -14381,8 +14387,8 @@
       ],
       "earliestPublishedAt": 1785889200000,
       "latestPublishedAt": 1785889200000,
-      "representativeCollectedAt": 1786147525520,
-      "latestCollectedAt": 1786147525520
+      "representativeCollectedAt": 1786156483657,
+      "latestCollectedAt": 1786156483657
     }
   },
   {
