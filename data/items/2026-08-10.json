@@ -1,5 +1,54 @@
 [
   {
+    "id": "item_b5ea7d40c82a40af",
+    "type": "news",
+    "title": "'2만 명 선거인단' 축구협회장 투표, '키오스크나 PC 도입' 검토",
+    "summary": "▶ 인터뷰 : 박지성 / K- 축구 혁신위원회 공동위원장(지난달) - \" 축구협회 만으로 할 수 있을 거라 생각하진 않기 때문에 당연히 도움이 필요할 거라 생각….\" 2만 명으로 늘어난 선거인단의 참여율을 높이기 위해 온라인 투표...",
+    "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5211564",
+    "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5211564",
+    "publisher": "mbn.co.kr",
+    "publishedAt": "2026-08-10T22:43:00.000Z",
+    "collectedAt": "2026-08-10T23:18:34.962Z",
+    "matchedKeywords": [
+      "축구협회장",
+      "선거인단",
+      "선거인",
+      "축구협회",
+      "혁신위원회",
+      "축구 혁신",
+      "박지성"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "축구 혁신",
+      "축구혁신위",
+      "축구협회 대의원",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 혁신위원회",
+      "축구협회 회장 선거",
+      "축구협회 K-혁신위",
+      "축구협회장",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "election",
+      "electoral-college",
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 51,
+    "labels": [
+      "인물 언급",
+      "선거 키워드 포함"
+    ]
+  },
+  {
     "id": "item_3499dc5bbc1b4ac5",
     "type": "news",
     "title": "\"거스 포옛, 대한민국 대표팀 취임 거의 확실\"...日, '임시 감독' 공개 ...",
@@ -30,7 +79,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553447409"
+      ],
+      "stories": [
+        "news|news|\"거스 포옛, 대한민국 대표팀 취임 거의 확실\"...日, '임시 감독' 공개 ...|sportalkorea.com|2026-08-10T22:06:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"거스 포옛, 대한민국 대표팀 취임 거의 확실\"...日, '임시 감독' 공개 ...|sportalkorea.com"
+      ],
+      "earliestPublishedAt": 1786399560000,
+      "latestPublishedAt": 1786399560000,
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
+    }
   },
   {
     "id": "item_4c9a694baaa0637d",
@@ -61,7 +126,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.tvchosun.com/site/data/html_dir/2026/08/11/2026081190012.html"
+      ],
+      "stories": [
+        "news|news|\"포옛, 韓 대표팀 임시 감독 유력\"…日 매체 보도에 관심|news.tvchosun.com|2026-08-10T22:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"포옛, 韓 대표팀 임시 감독 유력\"…日 매체 보도에 관심|news.tvchosun.com"
+      ],
+      "earliestPublishedAt": 1786399500000,
+      "latestPublishedAt": 1786399500000,
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
+    }
   },
   {
     "id": "item_a84effffe44bb9cf",
@@ -90,7 +171,23 @@
     "isOfficial": false,
     "relevanceScore": 3,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://biz.sbs.co.kr/article_hub/20000327824?division=NAVER"
+      ],
+      "stories": [
+        "news|news|축구협회 ‘성 접대’ 15년 전인데…지금 수사 가능할까?|biz.sbs.co.kr|2026-08-10T22:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회 ‘성 접대’ 15년 전인데…지금 수사 가능할까?|biz.sbs.co.kr"
+      ],
+      "earliestPublishedAt": 1786399260000,
+      "latestPublishedAt": 1786399260000,
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
+    }
   },
   {
     "id": "item_36a70c9cec30e505",
@@ -131,7 +228,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mydaily.co.kr/page/view/2026081017140033973"
+      ],
+      "stories": [
+        "news|news|'압수수색+성접대 스캔들' 최악의 韓 축구...'에이스' 이강인의 다짐 \"선...|mydaily.co.kr|2026-08-10T21:34:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'압수수색+성접대 스캔들' 최악의 韓 축구...'에이스' 이강인의 다짐 \"선...|mydaily.co.kr"
+      ],
+      "earliestPublishedAt": 1786397640000,
+      "latestPublishedAt": 1786397640000,
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
+    }
   },
   {
     "id": "item_c1b8d8a173c599e0",
@@ -182,8 +295,8 @@
       ],
       "earliestPublishedAt": 1786396800000,
       "latestPublishedAt": 1786396800000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -230,8 +343,8 @@
       ],
       "earliestPublishedAt": 1786396740000,
       "latestPublishedAt": 1786396740000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -275,8 +388,8 @@
       ],
       "earliestPublishedAt": 1786395600000,
       "latestPublishedAt": 1786395600000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -327,8 +440,8 @@
       ],
       "earliestPublishedAt": 1786391340000,
       "latestPublishedAt": 1786391340000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -378,8 +491,8 @@
       ],
       "earliestPublishedAt": 1786382400000,
       "latestPublishedAt": 1786382400000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -437,8 +550,8 @@
       ],
       "earliestPublishedAt": 1786380360000,
       "latestPublishedAt": 1786380360000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -492,8 +605,8 @@
       ],
       "earliestPublishedAt": 1786378740000,
       "latestPublishedAt": 1786378740000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -546,8 +659,8 @@
       ],
       "earliestPublishedAt": 1786377540000,
       "latestPublishedAt": 1786377540000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -598,8 +711,8 @@
       ],
       "earliestPublishedAt": 1786377360000,
       "latestPublishedAt": 1786377360000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -651,8 +764,8 @@
       ],
       "earliestPublishedAt": 1786375200000,
       "latestPublishedAt": 1786375200000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -703,8 +816,8 @@
       ],
       "earliestPublishedAt": 1786374360000,
       "latestPublishedAt": 1786374360000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -751,8 +864,8 @@
       ],
       "earliestPublishedAt": 1786374120000,
       "latestPublishedAt": 1786374120000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -801,8 +914,8 @@
       ],
       "earliestPublishedAt": 1786374060000,
       "latestPublishedAt": 1786374060000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -852,8 +965,8 @@
       ],
       "earliestPublishedAt": 1786370100000,
       "latestPublishedAt": 1786370100000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -891,8 +1004,8 @@
       ],
       "earliestPublishedAt": 1786367880000,
       "latestPublishedAt": 1786367880000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -941,8 +1054,8 @@
       ],
       "earliestPublishedAt": 1786367760000,
       "latestPublishedAt": 1786367760000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -1090,8 +1203,8 @@
       ],
       "earliestPublishedAt": 1786366920000,
       "latestPublishedAt": 1786366920000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -1145,8 +1258,8 @@
       ],
       "earliestPublishedAt": 1786366920000,
       "latestPublishedAt": 1786366920000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -1188,8 +1301,8 @@
       ],
       "earliestPublishedAt": 1786366380000,
       "latestPublishedAt": 1786366380000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -1243,8 +1356,8 @@
       ],
       "earliestPublishedAt": 1786366080000,
       "latestPublishedAt": 1786366080000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -1291,8 +1404,8 @@
       ],
       "earliestPublishedAt": 1786364280000,
       "latestPublishedAt": 1786364280000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -1341,8 +1454,8 @@
       ],
       "earliestPublishedAt": 1786363320000,
       "latestPublishedAt": 1786363320000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -1394,8 +1507,8 @@
       ],
       "earliestPublishedAt": 1786363200000,
       "latestPublishedAt": 1786363200000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -1456,8 +1569,8 @@
       ],
       "earliestPublishedAt": 1786361760000,
       "latestPublishedAt": 1786361760000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -1761,8 +1874,8 @@
       ],
       "earliestPublishedAt": 1786359780000,
       "latestPublishedAt": 1786359780000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -1889,8 +2002,8 @@
       ],
       "earliestPublishedAt": 1786359660000,
       "latestPublishedAt": 1786359660000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -1997,7 +2110,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.jtbc.co.kr/article/NB12312614?influxDiv=NAVER"
+      ],
+      "stories": [
+        "news|news|[단독] \"업소 갔지만 성매매는 아냐\" 말에…감사원 '축협 성접대' 덮었다|news.jtbc.co.kr|2026-08-10T10:41:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] \"업소 갔지만 성매매는 아냐\" 말에…감사원 '축협 성접대' 덮었다|news.jtbc.co.kr"
+      ],
+      "earliestPublishedAt": 1786358460000,
+      "latestPublishedAt": 1786358460000,
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
+    }
   },
   {
     "id": "item_e35373af6aff085b",
@@ -2048,8 +2177,8 @@
       ],
       "earliestPublishedAt": 1786358400000,
       "latestPublishedAt": 1786358400000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -2105,8 +2234,8 @@
       ],
       "earliestPublishedAt": 1786357680000,
       "latestPublishedAt": 1786357680000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -2170,8 +2299,8 @@
       ],
       "earliestPublishedAt": 1786357320000,
       "latestPublishedAt": 1786357320000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -2214,8 +2343,8 @@
       ],
       "earliestPublishedAt": 1786357140000,
       "latestPublishedAt": 1786357140000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -2515,8 +2644,8 @@
       ],
       "earliestPublishedAt": 1786356000000,
       "latestPublishedAt": 1786356000000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -2558,8 +2687,8 @@
       ],
       "earliestPublishedAt": 1786355880000,
       "latestPublishedAt": 1786355880000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -2674,8 +2803,8 @@
       ],
       "earliestPublishedAt": 1786355400000,
       "latestPublishedAt": 1786355400000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -2719,30 +2848,24 @@
       ],
       "earliestPublishedAt": 1786355280000,
       "latestPublishedAt": 1786355280000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
     "id": "item_7b844c99d005a059",
     "type": "news",
     "title": "축구협회 성접대 심판 7경기 무패…경찰, 수사 가능성 열어놨다 [세상&...",
-    "summary": "홍명보 전 축구 대표팀 감독 의 선임 과정 중 대한 축구협회 임원 등의 부당 개입 여부에 대해 수사 중인 경찰이 전력강화위원회(전강위)와 이사회 결정 과정을 집중 수사하고 있다. 또 경찰은 과거 축구협회 가 외국인...",
+    "summary": "또 정몽규 전 축구협회 장과 이임생 전 기술총괄이사 등이 국가대표팀 월드컵 탈락 이후 휴대전화를 교체했다는 의혹에 대해 경찰 관계자는 “해당 부분을 포함해 수사를 충실하게 하도록 하겠다”고 했다. 또 축구협회 는...",
     "url": "https://biz.heraldcorp.com/article/10836259?ref=naver",
     "originalUrl": "https://biz.heraldcorp.com/article/10836259?ref=naver",
     "publisher": "biz.heraldcorp.com",
     "publishedAt": "2026-08-10T09:46:00.000Z",
     "collectedAt": "2026-08-10T10:47:13.745Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "임원",
-      "이사회",
-      "대표팀 감독",
-      "전력강화위원회",
-      "감독",
-      "전력강화위원",
-      "선임",
-      "홍명보"
+      "축구협회",
+      "정몽규",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -2761,16 +2884,14 @@
       "축구협회 임원",
       "축구협회장"
     ],
-    "issueTags": [
-      "kfa-executives",
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_chung_mong_gyu",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 9,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -2788,8 +2909,8 @@
       ],
       "earliestPublishedAt": 1786355160000,
       "latestPublishedAt": 1786355160000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -2935,8 +3056,8 @@
       ],
       "earliestPublishedAt": 1786353300000,
       "latestPublishedAt": 1786353300000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -2979,8 +3100,8 @@
       ],
       "earliestPublishedAt": 1786353180000,
       "latestPublishedAt": 1786353180000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -3040,9 +3161,42 @@
       ],
       "earliestPublishedAt": 1786353180000,
       "latestPublishedAt": 1786353180000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
+  },
+  {
+    "id": "item_38d2e5837d96607b",
+    "type": "news",
+    "title": "\"임시 사령탑 사단 체제\"…축구협회, 다음 주 온라인 면접 착수",
+    "summary": "홍명보 전 감독이 월드컵 조별리그 탈락 책임을 지고 사퇴한 뒤 축구협회 는 11월 A매치 기간까지 대표팀을 맡을 임시 감독과 코치진을 한 묶음으로 선발하기로 했다. 이에 따라 단일 인물 중심이 아닌 코칭 사단 전체의...",
+    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16159964",
+    "originalUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16159964",
+    "publisher": "topstarnews.net",
+    "publishedAt": "2026-08-10T09:10:00.000Z",
+    "collectedAt": "2026-08-10T23:18:34.962Z",
+    "matchedKeywords": [
+      "축구협회",
+      "홍명보",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대한축구협회 지도자 자격",
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 8,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_4db91bf5b0c137b3",
@@ -3098,15 +3252,15 @@
       ],
       "earliestPublishedAt": 1786352640000,
       "latestPublishedAt": 1786352640000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
     "id": "item_c576240a15d96258",
     "type": "news",
     "title": "‘홍명보 후임 누구?’ 축구협회 “다음 주 내 면접 진행→평가 결과 따...",
-    "summary": "홍명보 전 축구 대표팀 감독 후임을 찾는 대한 축구협회 가 임시 사령탑 공개 채용 서류 접수를 9일 오후 5시... 축구협회 는 “이번 주 내 전력강화위원 일부와 외부 위원을 위촉해 평가위원회를 구성하고, 다음주 내 후보 자...",
+    "summary": "홍명보 전 축구 대표팀 감독 후임을 찾는 대한 축구협회 가 임시 사령탑 공개 채용 서류 접수를 9일 오후 5시 마감했다고 10일 밝혔다. 축구협회 는 “이번 주 내 전력강화위원 일부와 외부 위원을 위촉해 평가위원회를...",
     "url": "https://isplus.com/article/view/isp202608100179",
     "originalUrl": "https://isplus.com/article/view/isp202608100179",
     "publisher": "isplus.com",
@@ -3118,8 +3272,6 @@
       "대표팀 감독",
       "감독",
       "사령탑",
-      "전력강화위원",
-      "후보",
       "후임"
     ],
     "discoveryQueries": [
@@ -3157,8 +3309,8 @@
       ],
       "earliestPublishedAt": 1786352520000,
       "latestPublishedAt": 1786352520000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -3208,8 +3360,8 @@
       ],
       "earliestPublishedAt": 1786352040000,
       "latestPublishedAt": 1786352040000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -3265,8 +3417,8 @@
       ],
       "earliestPublishedAt": 1786351860000,
       "latestPublishedAt": 1786351860000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -3329,8 +3481,8 @@
       ],
       "earliestPublishedAt": 1786351740000,
       "latestPublishedAt": 1786351740000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -3421,22 +3573,22 @@
       ],
       "earliestPublishedAt": 1786351560000,
       "latestPublishedAt": 1786351560000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
     "id": "item_eea5684a0797dacb",
     "type": "news",
     "title": "축구대표팀 임시감독 서류 접수 마감‥다음 주 온라인 면접",
-    "summary": "홍명보 전 대표팀 감독 사퇴 이후 축구 대표팀의 임시 감독을 찾고 있는 대한 축구협회 가 서류 접수를 마감했습니다. 협회 는 어제 오후 5시까지 접수를 받았다면서 협상에 영향을 줄 수 있어 구체적인 접수 현황은 밝히지...",
+    "summary": "홍명보 전 대표팀 감독 사퇴 이후 축구 대표팀의 임시 감독을 찾고 있는 대한축구협회 가 서류 접수를 마감했습니다. 협회 는 어제 오후 5시까지 접수를 받았다면서 협상에 영향을 줄 수 있어 구체적인 접수 현황은 밝히지...",
     "url": "https://imnews.imbc.com/news/2026/sports/article/6843708_36946.html",
     "originalUrl": "https://imnews.imbc.com/news/2026/sports/article/6843708_36946.html",
     "publisher": "imnews.imbc.com",
     "publishedAt": "2026-08-10T08:44:00.000Z",
     "collectedAt": "2026-08-10T20:22:19.590Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "홍명보",
       "사퇴"
     ],
@@ -3468,8 +3620,8 @@
       ],
       "earliestPublishedAt": 1786351440000,
       "latestPublishedAt": 1786351440000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -3550,7 +3702,7 @@
     "id": "item_380621aec5e7edd2",
     "type": "news",
     "title": "축구협회, 남자 대표팀 임시 감독 공개채용 마감… 접수 현황은 비공개",
-    "summary": "대한축구협회 (KFA)가 9월과 10월 남자 축구 대표팀을 이끌 임시 감독 공개 채용을 마감했다. KFA는 10일 \"남자... 한국 축구 대표팀 감독은 홍명보 감독의 자진사임으로 현재 공석이다. 협회 는 차기 감독 선임을 위해 지난달...",
+    "summary": "대한축구협회( KFA )가 9월과 10월 남자 축구대표팀을 이끌 임시 감독 공개 채용을 마감했다. KFA 는 10일 \"남자 국가대표 임시 감독 공개채용 서류 접수가 9일 오후 5시 마감됐다\"며 \"이번주 내로 전력강화위원 일부와 외부...",
     "url": "https://sports.hankooki.com/news/articleView.html?idxno=6937783",
     "originalUrl": "https://sports.hankooki.com/news/articleView.html?idxno=6937783",
     "publisher": "sports.hankooki.com",
@@ -3558,8 +3710,7 @@
     "collectedAt": "2026-08-10T09:01:20.896Z",
     "matchedKeywords": [
       "대한축구협회",
-      "KFA",
-      "홍명보"
+      "KFA"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -3574,16 +3725,12 @@
       "KFA"
     ],
     "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 9,
+    "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급"
-    ],
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -3597,8 +3744,8 @@
       ],
       "earliestPublishedAt": 1786351200000,
       "latestPublishedAt": 1786351200000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -3708,8 +3855,8 @@
       ],
       "earliestPublishedAt": 1786350600000,
       "latestPublishedAt": 1786350600000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -3856,8 +4003,8 @@
       ],
       "earliestPublishedAt": 1786350240000,
       "latestPublishedAt": 1786350240000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -3918,8 +4065,8 @@
       ],
       "earliestPublishedAt": 1786350240000,
       "latestPublishedAt": 1786350240000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -3975,8 +4122,8 @@
       ],
       "earliestPublishedAt": 1786350120000,
       "latestPublishedAt": 1786350120000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -4105,8 +4252,8 @@
       ],
       "earliestPublishedAt": 1786349700000,
       "latestPublishedAt": 1786349700000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -4158,8 +4305,8 @@
       ],
       "earliestPublishedAt": 1786348560000,
       "latestPublishedAt": 1786348560000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -4282,8 +4429,8 @@
       ],
       "earliestPublishedAt": 1786348260000,
       "latestPublishedAt": 1786348260000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -4398,8 +4545,8 @@
       ],
       "earliestPublishedAt": 1786347240000,
       "latestPublishedAt": 1786347240000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -4463,8 +4610,8 @@
       ],
       "earliestPublishedAt": 1786346640000,
       "latestPublishedAt": 1786346640000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -4541,8 +4688,8 @@
       ],
       "earliestPublishedAt": 1786345740000,
       "latestPublishedAt": 1786345740000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -4611,8 +4758,8 @@
       ],
       "earliestPublishedAt": 1786345680000,
       "latestPublishedAt": 1786345680000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -4668,8 +4815,8 @@
       ],
       "earliestPublishedAt": 1786345200000,
       "latestPublishedAt": 1786345200000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -4720,8 +4867,8 @@
       ],
       "earliestPublishedAt": 1786344720000,
       "latestPublishedAt": 1786344720000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -4821,8 +4968,8 @@
       ],
       "earliestPublishedAt": 1786343820000,
       "latestPublishedAt": 1786343820000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -4979,8 +5126,8 @@
       ],
       "earliestPublishedAt": 1786342860000,
       "latestPublishedAt": 1786342860000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5023,8 +5170,8 @@
       ],
       "earliestPublishedAt": 1786342800000,
       "latestPublishedAt": 1786342800000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5092,8 +5239,8 @@
       ],
       "earliestPublishedAt": 1786342740000,
       "latestPublishedAt": 1786342740000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5149,8 +5296,8 @@
       ],
       "earliestPublishedAt": 1786342620000,
       "latestPublishedAt": 1786342620000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5216,8 +5363,8 @@
       ],
       "earliestPublishedAt": 1786342440000,
       "latestPublishedAt": 1786342440000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5282,8 +5429,8 @@
       ],
       "earliestPublishedAt": 1786341720000,
       "latestPublishedAt": 1786341720000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5331,8 +5478,8 @@
       ],
       "earliestPublishedAt": 1786341600000,
       "latestPublishedAt": 1786341600000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5396,8 +5543,8 @@
       ],
       "earliestPublishedAt": 1786341300000,
       "latestPublishedAt": 1786341300000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5506,8 +5653,8 @@
       ],
       "earliestPublishedAt": 1786340580000,
       "latestPublishedAt": 1786340580000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5581,8 +5728,8 @@
       ],
       "earliestPublishedAt": 1786340400000,
       "latestPublishedAt": 1786340400000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5640,8 +5787,8 @@
       ],
       "earliestPublishedAt": 1786340400000,
       "latestPublishedAt": 1786340400000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5701,8 +5848,8 @@
       ],
       "earliestPublishedAt": 1786340220000,
       "latestPublishedAt": 1786340220000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5762,8 +5909,8 @@
       ],
       "earliestPublishedAt": 1786340160000,
       "latestPublishedAt": 1786340160000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5818,8 +5965,8 @@
       ],
       "earliestPublishedAt": 1786339440000,
       "latestPublishedAt": 1786339440000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -5880,8 +6027,8 @@
       ],
       "earliestPublishedAt": 1786339440000,
       "latestPublishedAt": 1786339440000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6012,8 +6159,8 @@
       ],
       "earliestPublishedAt": 1786339080000,
       "latestPublishedAt": 1786339080000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6079,8 +6226,8 @@
       ],
       "earliestPublishedAt": 1786339080000,
       "latestPublishedAt": 1786339080000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6144,8 +6291,8 @@
       ],
       "earliestPublishedAt": 1786338960000,
       "latestPublishedAt": 1786338960000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6194,8 +6341,8 @@
       ],
       "earliestPublishedAt": 1786338900000,
       "latestPublishedAt": 1786338900000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6313,8 +6460,8 @@
       ],
       "earliestPublishedAt": 1786338060000,
       "latestPublishedAt": 1786338060000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6375,8 +6522,8 @@
       ],
       "earliestPublishedAt": 1786338060000,
       "latestPublishedAt": 1786338060000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6443,8 +6590,8 @@
       ],
       "earliestPublishedAt": 1786338000000,
       "latestPublishedAt": 1786338000000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6512,8 +6659,8 @@
       ],
       "earliestPublishedAt": 1786338000000,
       "latestPublishedAt": 1786338000000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6582,8 +6729,8 @@
       ],
       "earliestPublishedAt": 1786337940000,
       "latestPublishedAt": 1786337940000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6644,15 +6791,15 @@
       ],
       "earliestPublishedAt": 1786337880000,
       "latestPublishedAt": 1786337880000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
     "id": "item_9011eb02453edaab",
     "type": "news",
     "title": "경찰, 축구협회 '심판 성 접대 의혹' 수사 여부 검토…공소시효 관건",
-    "summary": "앞서 문화체육관광부 가 지난 2016년 감사 를 통해 축구협회 의 성 접대 사실을 확인했다는 내용이 뒤늦게 알려지면서 파장이 이어지고 있습니다. 축구협회 는 2011년부터 2012년까지 월드컵·올림픽 예선 3경기와 평가전 4경기...",
+    "summary": "앞서 문화체육관광부가 지난 2016년 감사 를 통해 축구협회의 성 접대 사실을 확인했다는 내용이 뒤늦게... 또 지난 6일에는 축구협회 사무실 등을 압수수색했으며, 정몽규 전 축구협회장의 휴대전화 등도 확보한 것으로...",
     "url": "https://www.ikbc.co.kr/article/view/kbc202608100033",
     "originalUrl": "https://www.ikbc.co.kr/article/view/kbc202608100033",
     "publisher": "ikbc.co.kr",
@@ -6660,7 +6807,8 @@
     "collectedAt": "2026-08-10T05:09:46.526Z",
     "matchedKeywords": [
       "축구협회",
-      "감사"
+      "감사",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -6686,12 +6834,15 @@
     "issueTags": [
       "mcst-audit"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 19,
     "relevanceTier": "secondary",
     "labels": [
+      "인물 언급",
       "감사 키워드 포함"
     ],
     "dedupeState": {
@@ -6707,8 +6858,8 @@
       ],
       "earliestPublishedAt": 1786337640000,
       "latestPublishedAt": 1786337640000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6897,8 +7048,8 @@
       ],
       "earliestPublishedAt": 1786337460000,
       "latestPublishedAt": 1786337460000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -6962,8 +7113,8 @@
       ],
       "earliestPublishedAt": 1786337280000,
       "latestPublishedAt": 1786337280000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7011,8 +7162,8 @@
       ],
       "earliestPublishedAt": 1786337220000,
       "latestPublishedAt": 1786337220000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7061,8 +7212,8 @@
       ],
       "earliestPublishedAt": 1786336980000,
       "latestPublishedAt": 1786336980000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7123,8 +7274,8 @@
       ],
       "earliestPublishedAt": 1786336560000,
       "latestPublishedAt": 1786336560000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7180,8 +7331,8 @@
       ],
       "earliestPublishedAt": 1786336020000,
       "latestPublishedAt": 1786336020000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7241,8 +7392,8 @@
       ],
       "earliestPublishedAt": 1786335900000,
       "latestPublishedAt": 1786335900000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7302,8 +7453,8 @@
       ],
       "earliestPublishedAt": 1786335780000,
       "latestPublishedAt": 1786335780000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7364,8 +7515,8 @@
       ],
       "earliestPublishedAt": 1786335660000,
       "latestPublishedAt": 1786335660000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7422,8 +7573,8 @@
       ],
       "earliestPublishedAt": 1786335360000,
       "latestPublishedAt": 1786335360000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7485,8 +7636,8 @@
       ],
       "earliestPublishedAt": 1786335060000,
       "latestPublishedAt": 1786335060000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7554,8 +7705,8 @@
       ],
       "earliestPublishedAt": 1786335000000,
       "latestPublishedAt": 1786335000000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7615,8 +7766,8 @@
       ],
       "earliestPublishedAt": 1786335000000,
       "latestPublishedAt": 1786335000000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7683,8 +7834,8 @@
       ],
       "earliestPublishedAt": 1786334520000,
       "latestPublishedAt": 1786334520000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7741,8 +7892,8 @@
       ],
       "earliestPublishedAt": 1786333800000,
       "latestPublishedAt": 1786333800000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -7810,15 +7961,15 @@
       ],
       "earliestPublishedAt": 1786332960000,
       "latestPublishedAt": 1786332960000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
     "id": "item_5b3a5525a20c9ee5",
     "type": "news",
     "title": "‘축구협회 성접대 의혹’ 아직 수사 착수 안한 경찰 “소추 요건 등 검...",
-    "summary": "대한 축구협회 의 국가대표 감독 선임 과정에 대해 수사 중인 경찰이 최근 불거진 성접대 의혹에 대해서는... 수사 착수 2년 만에 압수수색에 나선 배경에 대해 경찰 관계자는 “전력강화위원회 추천, 이사회 결정 등 감독...",
+    "summary": "문체부 감사 에서 확인된 축구협회 의 마지막 성접대 시기는 2012년 3월로 14년 전이다. 이 때문에 ‘필요하면 공소시효 등을 검토하겠다’는 경찰 방침에도 수사 착수는 어려울 수 있다는 관측이 나온다. 이 사건으로...",
     "url": "https://www.khan.co.kr/article/202608101235001",
     "originalUrl": "https://www.khan.co.kr/article/202608101235001",
     "publisher": "khan.co.kr",
@@ -7826,11 +7977,8 @@
     "collectedAt": "2026-08-10T05:09:46.526Z",
     "matchedKeywords": [
       "축구협회",
-      "대한 축구협회",
-      "이사회",
-      "감독 선임",
-      "감독",
-      "선임"
+      "문체부 감사",
+      "감사"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -7854,14 +8002,15 @@
       "축구협회장"
     ],
     "issueTags": [
-      "kfa-executives",
-      "coach-appointment"
+      "mcst-audit"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
-    "labels": [],
+    "relevanceScore": 19,
+    "labels": [
+      "감사 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -7875,8 +8024,8 @@
       ],
       "earliestPublishedAt": 1786332900000,
       "latestPublishedAt": 1786332900000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8002,8 +8151,8 @@
       ],
       "earliestPublishedAt": 1786332720000,
       "latestPublishedAt": 1786332720000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8065,8 +8214,8 @@
       ],
       "earliestPublishedAt": 1786332600000,
       "latestPublishedAt": 1786332600000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8132,8 +8281,8 @@
       ],
       "earliestPublishedAt": 1786332360000,
       "latestPublishedAt": 1786332360000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8193,8 +8342,8 @@
       ],
       "earliestPublishedAt": 1786331640000,
       "latestPublishedAt": 1786331640000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8254,8 +8403,8 @@
       ],
       "earliestPublishedAt": 1786331580000,
       "latestPublishedAt": 1786331580000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8354,8 +8503,8 @@
       ],
       "earliestPublishedAt": 1786331160000,
       "latestPublishedAt": 1786331160000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8408,8 +8557,8 @@
       ],
       "earliestPublishedAt": 1786331100000,
       "latestPublishedAt": 1786331100000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8459,8 +8608,8 @@
       ],
       "earliestPublishedAt": 1786331040000,
       "latestPublishedAt": 1786331040000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8519,8 +8668,8 @@
       ],
       "earliestPublishedAt": 1786330860000,
       "latestPublishedAt": 1786330860000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8633,8 +8782,8 @@
       ],
       "earliestPublishedAt": 1786330800000,
       "latestPublishedAt": 1786330800000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8684,8 +8833,8 @@
       ],
       "earliestPublishedAt": 1786330140000,
       "latestPublishedAt": 1786330140000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8752,23 +8901,24 @@
       ],
       "earliestPublishedAt": 1786329480000,
       "latestPublishedAt": 1786329480000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
     "id": "item_eab2fc7ba32ef218",
     "type": "news",
     "title": "AT마드리드 이적뒤 첫경기 이강인 “韓축구 좋은 상황 아냐… 많이 반성...",
-    "summary": "홍명보 대표팀 감독과 정몽규 대한 축구협회장 이 물러났지만 후임 선임 및 선출 시기는 알 수 없고, 정치권에서는 잇달아 비판을 쏟아내고 있다. 특히 최근에는 14∼15년 전 외국인 심판 성접대 사실이 드러나 충격을...",
+    "summary": "홍명보 대표팀 감독과 정몽규 대한축구협회장 이 물러났지만 후임 선임 및 선출 시기는 알 수 없고, 정치권에서는 잇달아 비판을 쏟아내고 있다. 특히 최근에는 14∼15년 전 외국인 심판 성접대 사실이 드러나 충격을...",
     "url": "https://www.munhwa.com/article/11608378?ref=naver",
     "originalUrl": "https://www.munhwa.com/article/11608378?ref=naver",
     "publisher": "munhwa.com",
     "publishedAt": "2026-08-10T02:23:00.000Z",
     "collectedAt": "2026-08-10T02:59:28.817Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "축구협회장",
+      "대한축구협회장",
       "대표팀 감독",
       "감독",
       "선임",
@@ -8816,8 +8966,8 @@
       ],
       "earliestPublishedAt": 1786328580000,
       "latestPublishedAt": 1786328580000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8861,8 +9011,8 @@
       ],
       "earliestPublishedAt": 1786327800000,
       "latestPublishedAt": 1786327800000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -8918,8 +9068,8 @@
       ],
       "earliestPublishedAt": 1786326120000,
       "latestPublishedAt": 1786326120000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -9071,8 +9221,8 @@
       ],
       "earliestPublishedAt": 1786323300000,
       "latestPublishedAt": 1786323300000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -9119,8 +9269,8 @@
       ],
       "earliestPublishedAt": 1786320600000,
       "latestPublishedAt": 1786320600000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   },
   {
@@ -9195,8 +9345,8 @@
       ],
       "earliestPublishedAt": 1786320000000,
       "latestPublishedAt": 1786320000000,
-      "representativeCollectedAt": 1786400378907,
-      "latestCollectedAt": 1786400378907
+      "representativeCollectedAt": 1786403914962,
+      "latestCollectedAt": 1786403914962
     }
   }
 ]
