@@ -255,8 +255,8 @@
       ],
       "earliestPublishedAt": 1786316400000,
       "latestPublishedAt": 1786316400000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -763,8 +763,8 @@
       ],
       "earliestPublishedAt": 1786311000000,
       "latestPublishedAt": 1786311000000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -945,8 +945,8 @@
       ],
       "earliestPublishedAt": 1786307640000,
       "latestPublishedAt": 1786307640000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -1043,8 +1043,8 @@
       ],
       "earliestPublishedAt": 1786306560000,
       "latestPublishedAt": 1786306560000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -1097,8 +1097,8 @@
       ],
       "earliestPublishedAt": 1786306320000,
       "latestPublishedAt": 1786306320000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -1142,8 +1142,8 @@
       ],
       "earliestPublishedAt": 1786305720000,
       "latestPublishedAt": 1786305720000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -1206,8 +1206,8 @@
       ],
       "earliestPublishedAt": 1786305600000,
       "latestPublishedAt": 1786305600000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -1255,8 +1255,8 @@
       ],
       "earliestPublishedAt": 1786305360000,
       "latestPublishedAt": 1786305360000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -1320,8 +1320,8 @@
       ],
       "earliestPublishedAt": 1786302720000,
       "latestPublishedAt": 1786302720000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -1399,8 +1399,8 @@
       ],
       "earliestPublishedAt": 1786299840000,
       "latestPublishedAt": 1786299840000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -1592,8 +1592,8 @@
       ],
       "earliestPublishedAt": 1786292460000,
       "latestPublishedAt": 1786292460000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -2108,7 +2108,7 @@
     "id": "item_a7d6d79c5a81307b",
     "type": "news",
     "title": "[이원홍의 스포트라이트]축구협회 저질 청문회와 경찰 뒷북수사의 ‘스...",
-    "summary": "경찰에 축구협회 관련 고발장이 접수된 건 2년 전이다. 그동안 협회 는 문화체육관광부 감사 를 통해 위르겐... 협회 는 이런 내용과 관련한 문체부 의 징계 요구가 부당하다며 행정소송을 벌였지만 1심에서 패했다. 이후 한국...",
+    "summary": "문화체육관광부 감사 를 통해 위르겐 클린스만 감독 선임 과정에서 감독 추천 기능을 지닌 전력강화위원회를 무력화했고 정 회장이 부당하게 개입했으며 홍 감독 선임 과정에서도 규정상 권한이 없는 이임생 전 기술총괄...",
     "url": "https://www.donga.com/news/Opinion/article/all/20260809/134445819/3",
     "originalUrl": "https://www.donga.com/news/Opinion/article/all/20260809/134445819/3",
     "publisher": "donga.com",
@@ -2118,7 +2118,13 @@
       "축구협회",
       "청문회",
       "문화체육관광부 감사",
-      "감사"
+      "감사",
+      "감독 선임",
+      "전력강화위원회",
+      "감독",
+      "전력강화위원",
+      "선임",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -2140,13 +2146,17 @@
       "축구협회장"
     ],
     "issueTags": [
-      "mcst-audit"
+      "mcst-audit",
+      "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_lee_im_saeng"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 28,
     "labels": [
+      "인물 언급",
       "감사 키워드 포함"
     ],
     "dedupeState": {
@@ -2162,8 +2172,8 @@
       ],
       "earliestPublishedAt": 1786284360000,
       "latestPublishedAt": 1786284360000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -2634,8 +2644,8 @@
       ],
       "earliestPublishedAt": 1786272900000,
       "latestPublishedAt": 1786272900000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -3302,8 +3312,8 @@
       ],
       "earliestPublishedAt": 1786264440000,
       "latestPublishedAt": 1786264440000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -4599,8 +4609,8 @@
       ],
       "earliestPublishedAt": 1786254720000,
       "latestPublishedAt": 1786254720000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -4844,8 +4854,8 @@
       ],
       "earliestPublishedAt": 1786253040000,
       "latestPublishedAt": 1786253040000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -5149,8 +5159,8 @@
       ],
       "earliestPublishedAt": 1786249620000,
       "latestPublishedAt": 1786249620000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -5287,8 +5297,8 @@
       ],
       "earliestPublishedAt": 1786248120000,
       "latestPublishedAt": 1786248120000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -5436,8 +5446,8 @@
       ],
       "earliestPublishedAt": 1786244340000,
       "latestPublishedAt": 1786244340000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -5977,7 +5987,7 @@
     "id": "item_ad9f1f74955116f6",
     "type": "news",
     "title": "박성완 충남축구협회장 \"축구 혁신 필요하지만, 원칙과 정관부터 지켜야...",
-    "summary": "끝으로 박 회장은 \"혁신과 원칙은 서로 대립하는 개념이 아니다\"라며 \"법과 정관 을 존중하면서도 국민이 신뢰할 수 있는 대한 축구협회 를 만드는 것이 진정한 혁신\"이라고 밝혔다. 이어 \" 축구 발전을 위해서는 감정이나...",
+    "summary": "특히 차기 대한 축구협회 장 선출 절차와 관련해 \"정몽규 전 회장이 재임 중 관련 정관 을 개정 하지 않았다면 현행 정관 에 따라 절차를 진행하는 것이 가장 바람직하다\"고 말했다. 이어 \"회장 궐위 시 60일 이내 선거를...",
     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3659651",
     "originalUrl": "https://www.gukjenews.com/news/articleView.html?idxno=3659651",
     "publisher": "gukjenews.com",
@@ -5987,7 +5997,8 @@
       "정관",
       "축구 혁신",
       "박성완",
-      "대한 축구협회"
+      "대한 축구협회",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -6017,11 +6028,12 @@
       "innovation-committee"
     ],
     "personTags": [
-      "person_park_sung_wan"
+      "person_park_sung_wan",
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 48,
     "labels": [
       "인물 언급"
     ],
@@ -6038,8 +6050,8 @@
       ],
       "earliestPublishedAt": 1786241280000,
       "latestPublishedAt": 1786241280000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -6247,8 +6259,8 @@
       ],
       "earliestPublishedAt": 1786239600000,
       "latestPublishedAt": 1786239600000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -6323,8 +6335,8 @@
       ],
       "earliestPublishedAt": 1786239420000,
       "latestPublishedAt": 1786239420000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -6400,8 +6412,8 @@
       ],
       "earliestPublishedAt": 1786238520000,
       "latestPublishedAt": 1786238520000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -6455,8 +6467,8 @@
       ],
       "earliestPublishedAt": 1786238520000,
       "latestPublishedAt": 1786238520000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -6603,8 +6615,8 @@
       ],
       "earliestPublishedAt": 1786237020000,
       "latestPublishedAt": 1786237020000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -6730,8 +6742,8 @@
       ],
       "earliestPublishedAt": 1786235520000,
       "latestPublishedAt": 1786235520000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
@@ -6798,8 +6810,8 @@
       ],
       "earliestPublishedAt": 1786234920000,
       "latestPublishedAt": 1786234920000,
-      "representativeCollectedAt": 1786451344835,
-      "latestCollectedAt": 1786451344835
+      "representativeCollectedAt": 1786457122039,
+      "latestCollectedAt": 1786457122039
     }
   },
   {
