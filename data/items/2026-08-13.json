@@ -36,7 +36,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/sports/2026/08/14/2026081407392448957"
+      ],
+      "stories": [
+        "news|news|\"임시 감독 검토했지만…\" 김학범, 대표팀 공채 지원 안 한 이유는|mt.co.kr|2026-08-13T23:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"임시 감독 검토했지만…\" 김학범, 대표팀 공채 지원 안 한 이유는|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1786664760000,
+      "latestPublishedAt": 1786664760000,
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
+    }
   },
   {
     "id": "item_9558d267db0282ee",
@@ -86,7 +102,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.edaily.co.kr/news/newspath.asp?newsid=03319366645547320"
+      ],
+      "stories": [
+        "news|news|경찰 \"정몽규와 연락했나\" 묻자…홍명보가 내놓은 답|edaily.co.kr|2026-08-13T23:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|경찰 \"정몽규와 연락했나\" 묻자…홍명보가 내놓은 답|edaily.co.kr"
+      ],
+      "earliestPublishedAt": 1786664640000,
+      "latestPublishedAt": 1786664640000,
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
+    }
   },
   {
     "id": "item_950c6c703d67d43d",
@@ -135,7 +167,23 @@
     "relevanceScore": 46,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sidae.com/article/2026081408211729211"
+      ],
+      "stories": [
+        "news|news|홍명보 \"감독 선임 과정 정몽규와 소통 없었다\"…개입설 부인|sidae.com|2026-08-13T23:43:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 \"감독 선임 과정 정몽규와 소통 없었다\"…개입설 부인|sidae.com"
+      ],
+      "earliestPublishedAt": 1786664580000,
+      "latestPublishedAt": 1786664580000,
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
+    }
   },
   {
     "id": "item_fce8fc1e60baf6c5",
@@ -183,32 +231,67 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/society/2026/08/14/2026081408110225313"
+      ],
+      "stories": [
+        "news|news|홍명보, \"연봉 높은 이유 뭐냐\" 경찰 질문에...'피고발인 신분' 조사|mt.co.kr|2026-08-13T23:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보, \"연봉 높은 이유 뭐냐\" 경찰 질문에...'피고발인 신분' 조사|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1786664520000,
+      "latestPublishedAt": 1786664520000,
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
+    }
   },
   {
     "id": "item_89fb71bb2a6e7702",
     "type": "news",
     "title": "수사의뢰 3달 뒤에야 사건 접수…'성매매 알선' 공소시효 만료",
-    "summary": "대한축구협회 의 심판 성접대가 이제야 드러난 데에는 수사기관의 소극적인 대응이 있었습니다. 문체부는 공소시효를 3개월 앞두고 수사를 의뢰했고, 경찰은 그동안 사건을 접수조차 하지 않았습니다. 그렇게 '성매매...",
+    "summary": "대한 축구협회 임직원 18명의 법인카드 비리 내역을 수사해 달라는 건데, 심판 성접대 관련한 상세 내용이 담긴 조사 결과 보고서도 첨부했습니다. 경찰청에 넘어간 보고서엔 2011년 3월 25일부터 2012년 3월 14일까지 7경기에...",
     "url": "https://news.jtbc.co.kr/article/NB12313315?influxDiv=NAVER",
     "originalUrl": "https://news.jtbc.co.kr/article/NB12313315?influxDiv=NAVER",
     "publisher": "news.jtbc.co.kr",
     "publishedAt": "2026-08-13T23:38:00.000Z",
     "collectedAt": "2026-08-14T00:43:12.997Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한 축구협회",
+      "조사 결과"
     ],
     "discoveryQueries": [
       "대한축구협회",
       "축구협회 조사 결과"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "mcst-audit"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.jtbc.co.kr/article/NB12313315?influxDiv=NAVER"
+      ],
+      "stories": [
+        "news|news|수사의뢰 3달 뒤에야 사건 접수…'성매매 알선' 공소시효 만료|news.jtbc.co.kr|2026-08-13T23:38:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|수사의뢰 3달 뒤에야 사건 접수…'성매매 알선' 공소시효 만료|news.jtbc.co.kr"
+      ],
+      "earliestPublishedAt": 1786664280000,
+      "latestPublishedAt": 1786664280000,
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
+    }
   },
   {
     "id": "item_21c1c182701dcabd",
@@ -260,7 +343,23 @@
     "relevanceScore": 42,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.edaily.co.kr/news/newspath.asp?newsid=03283286645547320"
+      ],
+      "stories": [
+        "news|news|홍명보 \"감독 선임 관련 정몽규 회장과 연락한 적 없다\"…의혹 부인|edaily.co.kr|2026-08-13T23:37:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 \"감독 선임 관련 정몽규 회장과 연락한 적 없다\"…의혹 부인|edaily.co.kr"
+      ],
+      "earliestPublishedAt": 1786664220000,
+      "latestPublishedAt": 1786664220000,
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
+    }
   },
   {
     "id": "item_774c4b8bb25555c5",
@@ -310,13 +409,29 @@
     "relevanceScore": 42,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.tvchosun.com/site/data/html_dir/2026/08/14/2026081490085.html"
+      ],
+      "stories": [
+        "news|news|홍명보 \"감독 선임 과정서 정몽규 전 회장 연락한 적 없어\"|news.tvchosun.com|2026-08-13T23:35:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 \"감독 선임 과정서 정몽규 전 회장 연락한 적 없어\"|news.tvchosun.com"
+      ],
+      "earliestPublishedAt": 1786664100000,
+      "latestPublishedAt": 1786664100000,
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
+    }
   },
   {
     "id": "item_af951ff02ffaa7b7",
     "type": "news",
     "title": "홍명보 \"감독 선임 과정 정몽규와 소통 없었다\"",
-    "summary": "경찰은 지난 2024년 홍명보 전 감독 의 선임 과정에 정 전 회장과 이임생 당시 대한 축구협회 기술총괄이사 등 윗선의 부당한 개입이 있었는지 수사 중으로, 홍 전 감독 은 이와 관련해 '아는 바가 없다'는 취지로 진술했다....",
+    "summary": "홍 전 감독은 '감독 선임 전후로 정몽규 전 회장과 연락했느냐'는 취지의 질문에 이같이 답했다. 경찰은 지난 2024년 홍명보 전 감독의 선임 과정에 정 전 회장과 이임생 당시 대한축구협회 기술총괄이사 등 윗선의 부당한...",
     "url": "http://www.inews24.com/view/1994947",
     "originalUrl": "http://www.inews24.com/view/1994947",
     "publisher": "inews24.com",
@@ -328,7 +443,7 @@
       "선임",
       "정몽규",
       "홍명보",
-      "대한 축구협회",
+      "대한축구협회",
       "이임생"
     ],
     "discoveryQueries": [
@@ -357,16 +472,32 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 45,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.inews24.com/view/1994947"
+      ],
+      "stories": [
+        "news|news|홍명보 \"감독 선임 과정 정몽규와 소통 없었다\"|inews24.com|2026-08-13T23:28:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 \"감독 선임 과정 정몽규와 소통 없었다\"|inews24.com"
+      ],
+      "earliestPublishedAt": 1786663680000,
+      "latestPublishedAt": 1786663680000,
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
+    }
   },
   {
     "id": "item_3923b1359f6033c0",
     "type": "news",
     "title": "홍명보 “감독 선임 과정 정몽규와 소통 없었다”…경찰 진술서 개입 부...",
-    "summary": "축구 대표팀 감독 선임 과정에서 대한 축구협회 윗선 개입 의혹을 받는 홍명보 전 감독 이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통한 바가 없다고 진술했다. 14일 연합뉴스에 따르면 서울경찰청 광역수사단...",
+    "summary": "축구 대표팀 감독 선임 과정에서 대한 축구협회 윗선 개입 의혹을 받는 홍명보 전 감독이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통한 바가 없다고 진술했다. 14일 연합뉴스에 따르면 서울경찰청 광역수사단...",
     "url": "https://www.mk.co.kr/article/12127598",
     "originalUrl": "https://www.mk.co.kr/article/12127598",
     "publisher": "mk.co.kr",
@@ -422,15 +553,15 @@
       ],
       "earliestPublishedAt": 1786663380000,
       "latestPublishedAt": 1786663380000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
     "id": "item_e84c5f2412060675",
     "type": "news",
     "title": "홍명보, 경찰 조사서 \"감독 선임 과정에 정몽규와 연락 안했다\"",
-    "summary": "정몽규 전 대한축구협회장 등 윗선의 개입으로 축구 대표팀 감독 에 선임 됐다는 의혹에 휩싸인 홍명보 전 감독 이 경찰 조사에서 \" 감독 선임 과정에서 정 회장과 연락한 적 없다\"고 진술했다. 14일 뉴스1 취재를 종합하면...",
+    "summary": "정몽규 전 대한 축구협회 장 등 윗선의 개입으로 축구 대표팀 감독에 선임됐다는 의혹에 휩싸인 홍명보 전 감독이 경찰 조사에서 \"감독 선임 과정에서 정 회장과 연락한 적 없다\"고 진술했다. 14일 뉴스1 취재를 종합하면...",
     "url": "https://www.news1.kr/society/incident-accident/6258799",
     "originalUrl": "https://www.news1.kr/society/incident-accident/6258799",
     "publisher": "news1.kr",
@@ -442,9 +573,7 @@
       "선임",
       "정몽규",
       "홍명보",
-      "대한축구협회",
-      "축구협회장",
-      "대한축구협회장",
+      "대한 축구협회",
       "대표팀 감독"
     ],
     "discoveryQueries": [
@@ -466,8 +595,7 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment",
-      "election"
+      "coach-appointment"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -475,7 +603,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 46,
+    "relevanceScore": 42,
     "labels": [
       "인물 언급"
     ],
@@ -492,15 +620,15 @@
       ],
       "earliestPublishedAt": 1786662960000,
       "latestPublishedAt": 1786662960000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
     "id": "item_fee7a7dc227ccc1b",
     "type": "news",
     "title": "홍명보, 경찰에 \"감독 선임 때 정몽규와 소통 없었다\" 개입 부인",
-    "summary": "대한 축구협회 윗선 개입으로 축구 대표팀 감독 으로 선임 됐다는 의혹을 받는 홍명보 전 감독 이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통한 바가 없다고 진술했다. 14일 연합뉴스 보도에 따르면, 서울경찰청...",
+    "summary": "경찰은 2024년 홍명보 전 감독의 선임 과정에 정 전 회장과 이임생 당시 대한 축구협회 기술총괄이사 등 윗선의 부당한 개입이 있었는지 수사 중이다. 앞서 이임생 전 이사도 문화체육관광부와 축구협회 의 분쟁을 심리하는...",
     "url": "https://www.ytn.co.kr/_ln/0103_202608140809433518",
     "originalUrl": "https://www.ytn.co.kr/_ln/0103_202608140809433518",
     "publisher": "ytn.co.kr",
@@ -513,7 +641,7 @@
       "정몽규",
       "홍명보",
       "대한 축구협회",
-      "대표팀 감독"
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -536,7 +664,8 @@
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
@@ -557,8 +686,8 @@
       ],
       "earliestPublishedAt": 1786662540000,
       "latestPublishedAt": 1786662540000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -614,8 +743,8 @@
       ],
       "earliestPublishedAt": 1786662360000,
       "latestPublishedAt": 1786662360000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -688,15 +817,15 @@
       ],
       "earliestPublishedAt": 1786662120000,
       "latestPublishedAt": 1786662120000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
     "id": "item_68709e6b76b18e19",
     "type": "news",
     "title": "홍명보 \"감독 선임 과정서 정몽규와 연락한 적 없다\" 개입 부인",
-    "summary": "축구 대표팀 감독 선임 과정에서 대한 축구협회 임원 등의 윗선 개입 의혹을 받는 홍명보 전 축구 대표팀 감독 이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통한 바 없다고 진술했다. 14일 연합뉴스에 따르면 서울경찰청...",
+    "summary": "축구 대표팀 감독 선임 과정에서 대한 축구협회 임원 등의 윗선 개입 의혹을 받는 홍명보 전 축구 대표팀 감독이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통한 바 없다고 진술했다. 14일 연합뉴스에 따르면 서울경찰청...",
     "url": "http://www.fnnews.com/news/202608140737229377",
     "originalUrl": "http://www.fnnews.com/news/202608140737229377",
     "publisher": "fnnews.com",
@@ -755,8 +884,8 @@
       ],
       "earliestPublishedAt": 1786661160000,
       "latestPublishedAt": 1786661160000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -822,15 +951,15 @@
       ],
       "earliestPublishedAt": 1786660800000,
       "latestPublishedAt": 1786660800000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
     "id": "item_8aff34b0b86b2985",
     "type": "news",
     "title": "'국대 감독 선임 개입' 의혹…홍명보 \"당시 정몽규 연락한 적 없다\"",
-    "summary": "대한 축구협회 윗선 개입으로 축구 대표팀 감독 으로 선임 됐다는 의혹을 받는 홍명보 전 감독 이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통한 바가 없다고 진술했습니다. 오늘(14일) 서울경찰청 광역수사단...",
+    "summary": "경찰은 지난 2024년 홍명보 전 감독의 선임 과정에 정 전 회장과 이임생 당시 대한 축구협회 기술총괄이사 등 윗선의 부당한 개입이 있었는지 수사 중인데, 홍 전 감독은 이와 관련해 아는 바가 없다는 취지로 진술한 겁니다....",
     "url": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5212401",
     "originalUrl": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00009&news_seq_no=5212401",
     "publisher": "mbn.mk.co.kr",
@@ -843,7 +972,7 @@
       "정몽규",
       "홍명보",
       "대한 축구협회",
-      "대표팀 감독"
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -866,7 +995,8 @@
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
@@ -887,15 +1017,15 @@
       ],
       "earliestPublishedAt": 1786660740000,
       "latestPublishedAt": 1786660740000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
     "id": "item_0f53f2809eed1d2f",
     "type": "news",
     "title": "홍명보, 경찰에 \"정몽규와 소통 없었다\"…'감독 선임 개입' 부인",
-    "summary": "대한 축구협회 수뇌부의 개입으로 축구 대표팀 감독 에 선임 됐다는 의혹을 받는 홍명보 전 감독 이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통한 사실이 없다고 진술했다. 14일 연합뉴스에 따르면 서울경찰청...",
+    "summary": "승인하는 이사회 의 업무를 방해했는지 등을 집중적으로 들여다볼 것으로 보인다. 경찰은 지난 6일 충남 천안의 대한 축구협회 사무실과 서울 종로구 축구 회관을 압수수색해 감독 선임 관련 자료를 확보한 것으로 전해졌다....",
     "url": "https://www.hankyung.com/article/2026081405727",
     "originalUrl": "https://www.hankyung.com/article/2026081405727",
     "publisher": "hankyung.com",
@@ -908,7 +1038,7 @@
       "정몽규",
       "홍명보",
       "대한 축구협회",
-      "대표팀 감독"
+      "이사회"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -927,7 +1057,8 @@
       "축구협회 이사회"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -935,7 +1066,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급"
     ],
@@ -952,8 +1083,8 @@
       ],
       "earliestPublishedAt": 1786660320000,
       "latestPublishedAt": 1786660320000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -1057,7 +1188,7 @@
     "id": "item_be21c0137c53c14e",
     "type": "news",
     "title": "홍명보 “감독 선임 과정 정몽규와 소통 없었다”… 경찰, ‘윗선 개입...",
-    "summary": "연합뉴스 홍명보 전 국가대표팀 감독 이 경찰 조사에서 축구 대표팀 감독 선임 과정 속 정몽규 전 대한 축구협회 회장의 부당 개입 의혹을 전면 부인한 것으로 확인됐다. 경찰은 축구협회 주요 사무실을 압수수색하며 정 전...",
+    "summary": "연합뉴스 홍명보 전 국가대표팀 감독이 경찰 조사에서 축구대표팀 감독 선임 과정 속 정몽규 전... 대해서도 해명 했다. 그는 프로축구 울산 HD 감독 재임 당시에도 비슷한 수준의 연봉을 수령했다는 취지로 진술한 것으로...",
     "url": "https://www.segye.com/newsView/20260814504214?OutUrl=naver",
     "originalUrl": "https://www.segye.com/newsView/20260814504214?OutUrl=naver",
     "publisher": "segye.com",
@@ -1069,8 +1200,8 @@
       "선임",
       "정몽규",
       "홍명보",
-      "대한 축구협회",
-      "대표팀 감독"
+      "대표팀 감독",
+      "해명"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -1101,9 +1232,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 38,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -1118,15 +1250,15 @@
       ],
       "earliestPublishedAt": 1786659240000,
       "latestPublishedAt": 1786659240000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
     "id": "item_8599d40c5e5a1d34",
     "type": "news",
     "title": "홍명보 “감독 선임 과정 정몽규와 소통 없었다”…경찰에 진술",
-    "summary": "축구 대표팀 감독 선임 과정에서 대한 축구협회 윗선이 개입했다는 의혹을 받는 홍명보 전 감독 이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통하지 않았다고 진술한 것으로 전해졌다. 14일 연합뉴스에 따르면...",
+    "summary": "경찰은 2024년 홍명보 전 감독의 선임 과정에 정 전 회장과 이임생 당시 대한 축구협회 기술총괄이사 등 윗선의 부당한 개입이 있었는지 수사 중인데, 홍 전 감독은 이와 관련해 아는 바가 없다는 취지로 진술한 것이다. 홍...",
     "url": "https://biz.heraldcorp.com/article/10840858?ref=naver",
     "originalUrl": "https://biz.heraldcorp.com/article/10840858?ref=naver",
     "publisher": "biz.heraldcorp.com",
@@ -1139,7 +1271,7 @@
       "정몽규",
       "홍명보",
       "대한 축구협회",
-      "대표팀 감독"
+      "이임생"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -1161,7 +1293,8 @@
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
@@ -1182,8 +1315,8 @@
       ],
       "earliestPublishedAt": 1786658460000,
       "latestPublishedAt": 1786658460000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -1231,7 +1364,7 @@
     "id": "item_f46929a586fec164",
     "type": "news",
     "title": "홍명보, 경찰에 \"감독 선임 과정 정몽규와 소통 없었다\"",
-    "summary": "대한 축구협회 윗선 개입으로 축구 대표팀 감독 으로 선임 됐다는 의혹을 받는 홍명보 전 감독 이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통한 바가 없다고 진술했다. 사진=연합뉴스 14일 연합뉴스에 따르면 서울경찰청...",
+    "summary": "대한 축구협회 윗선 개입으로 축구 대표팀 감독으로 선임됐다는 의혹을 받는 홍명보 전 감독이 경찰 조사에서... 감독 선임을 최종 승인하는 이사회 업무를 방해한 혐의가 성립하는지 판단에 수사력을 모을 것으로 보인다.",
     "url": "https://www.slist.kr/news/articleView.html?idxno=758655",
     "originalUrl": "https://www.slist.kr/news/articleView.html?idxno=758655",
     "publisher": "slist.kr",
@@ -1244,6 +1377,7 @@
       "정몽규",
       "홍명보",
       "대한 축구협회",
+      "이사회",
       "대표팀 감독"
     ],
     "discoveryQueries": [
@@ -1263,7 +1397,8 @@
       "축구협회 이사회"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -1271,7 +1406,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ],
@@ -1288,15 +1423,15 @@
       ],
       "earliestPublishedAt": 1786658400000,
       "latestPublishedAt": 1786658400000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
     "id": "item_3623c667febd736d",
     "type": "news",
     "title": "홍명보 \"감독 선임 과정, 정몽규와 소통 없었다\" 개입 부인",
-    "summary": "대한 축구협회 윗선 개입으로 축구 대표팀 감독 으로 선임 됐다는 의혹을 받는 홍명보 전 감독 이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통한 바가 없다고 진술했습니다. 14일 연합뉴스에 따르면 서울경찰청...",
+    "summary": "승인하는 이사회 업무를 방해한 혐의가 성립하는지 판단에 수사력을 모을 것으로 보입니다. 경찰은 지난 6일 천안 소재 대한 축구협회 사무실과 서울 종로구 축구 회관을 압수수색해 감독 선임과 관련한 자료를 확보한...",
     "url": "https://www.ikbc.co.kr/article/view/kbc202608140001",
     "originalUrl": "https://www.ikbc.co.kr/article/view/kbc202608140001",
     "publisher": "ikbc.co.kr",
@@ -1309,7 +1444,7 @@
       "정몽규",
       "홍명보",
       "대한 축구협회",
-      "대표팀 감독"
+      "이사회"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -1328,7 +1463,8 @@
       "축구협회 이사회"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -1336,7 +1472,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급"
     ],
@@ -1353,8 +1489,8 @@
       ],
       "earliestPublishedAt": 1786657140000,
       "latestPublishedAt": 1786657140000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -1397,7 +1533,7 @@
     "id": "item_7c66ed9f89af4b06",
     "type": "news",
     "title": "홍명보 \"감독 선임, 정몽규와 소통 없었다\"…경찰에 개입 부인",
-    "summary": "경찰은 2024년 홍명보 전 감독 선임 과정에 정 전 회장과 이임생 당시 대한 축구협회 기술총괄이사 등 윗선이 부당하게 개입했는지 수사 중인데, 홍 전 감독은 아는 바가 없다는 취지로 진술한 것으로 전해졌다. 앞서 이임생 ...",
+    "summary": "이에 경찰은 정몽규 전 회장이 지위를 이용해 감독 선임을 최종 승인하는 이사회 업무를 방해한 혐의가 성립하는지 여부를 판별하는데 수사력을 모을 것으로 보인다. 경찰은 지난 6일 천안 소재 대한 축구협회 사무실과...",
     "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202608140158&t=NN",
     "originalUrl": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202608140158&t=NN",
     "publisher": "wowtv.co.kr",
@@ -1410,7 +1546,7 @@
       "정몽규",
       "홍명보",
       "대한 축구협회",
-      "이임생"
+      "이사회"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -1429,16 +1565,16 @@
       "축구협회 이사회"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 43,
     "labels": [
       "인물 언급"
     ],
@@ -1455,15 +1591,15 @@
       ],
       "earliestPublishedAt": 1786655820000,
       "latestPublishedAt": 1786655820000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
     "id": "item_a526a4a3d9288068",
     "type": "news",
     "title": "홍명보, 경찰에 \"감독 선임 과정 정몽규와 소통 없었다\"…개입 부인",
-    "summary": "▲ 홍명보 전 축구 대표팀 감독 대한 축구협회 윗선 개입으로 축구 대표팀 감독 으로 선임 됐다는 의혹을 받는 홍명보 전 감독 이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통한 바가 없다고 진술했습니다. 오늘(14일)...",
+    "summary": "승인하는 이사회 업무를 방해한 혐의가 성립하는지 판단에 수사력을 모을 것으로 보입니다. 경찰은 지난 6일 천안 소재 대한 축구협회 사무실과 서울 종로구 축구 회관을 압수수색해 감독 선임과 관련한 자료를 확보한...",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008704851&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008704851&plink=ORI",
     "publisher": "news.sbs.co.kr",
@@ -1476,7 +1612,7 @@
       "정몽규",
       "홍명보",
       "대한 축구협회",
-      "대표팀 감독"
+      "이사회"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -1495,7 +1631,8 @@
       "축구협회 이사회"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -1503,7 +1640,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급"
     ],
@@ -1520,15 +1657,15 @@
       ],
       "earliestPublishedAt": 1786655580000,
       "latestPublishedAt": 1786655580000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
     "id": "item_2ea874fd24ba145d",
     "type": "news",
     "title": "[한의사 이현효의 도서비평] 현대의 능력주의가 낳은 한국 월드컵 진출...",
-    "summary": "정몽규 회장의 축구협회 운영과 홍명보 감독의 선임절차, 그리고 3백 전술에 대해 경기전부터 많은 우려가... 홍명보 감독은 정식절차, PT없이 이임생 기술이사와 빵집(?)면담만으로 선임되었다. 공정한 경쟁의 규칙 자체가...",
+    "summary": "난생 처음으로 선거 권을 부여받아 1표를 행사한 후보가 대통령에 당선되었고, 그해 월드컵에서 대한민국은... 정몽규 회장 의 축구협회 운영과 홍명보 감독의 선임절차, 그리고 3백 전술에 대해 경기전부터 많은 우려가...",
     "url": "http://www.mjmedi.com/news/articleView.html?idxno=62958",
     "originalUrl": "http://www.mjmedi.com/news/articleView.html?idxno=62958",
     "publisher": "mjmedi.com",
@@ -1539,9 +1676,7 @@
       "감독",
       "선임",
       "정몽규",
-      "홍명보",
-      "이임생",
-      "이임생 기술이사"
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"이임생\" 선거",
@@ -1560,12 +1695,11 @@
     ],
     "personTags": [
       "person_chung_mong_gyu",
-      "person_hong_myung_bo",
-      "person_lee_im_saeng"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1583,8 +1717,8 @@
       ],
       "earliestPublishedAt": 1786655520000,
       "latestPublishedAt": 1786655520000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -1711,7 +1845,7 @@
     "id": "item_e0b3ea552fb16199",
     "type": "news",
     "title": "홍명보 이어 '또' 한국인 감독 선임 가능성, 韓 축구 마주한 '딜레마'",
-    "summary": "당장 임시 사령탑부터 뽑아야 하고, 11월 이후에야 '정식 감독'을 선임하기로 결정한 대한 축구협회 가 마주한 딜레마다. 직접 아시아 축구 연맹(AFC) 아시안컵을 포함한 대륙별 대회 지휘를 희망하고, 실제 한국 대표팀...",
+    "summary": "당장 임시 사령탑부터 뽑아야 하고, 11월 이후에야 '정식 감독'을 선임하기로 결정한 대한축구 협회가 마주한... 결국 새 축구협회장 이 선출되고, 정식 감독 선임 절차가 진행될 때까지는 사실상 이러지도 저러지도 못하는...",
     "url": "https://www.starnewskorea.com/sports/2026/08/14/2026081317051041680",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/08/14/2026081317051041680",
     "publisher": "starnewskorea.com",
@@ -1722,8 +1856,7 @@
       "감독",
       "선임",
       "홍명보",
-      "대한 축구협회",
-      "사령탑"
+      "축구협회장"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1743,14 +1876,15 @@
       "축구협회장"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "election"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ],
@@ -1767,15 +1901,15 @@
       ],
       "earliestPublishedAt": 1786654860000,
       "latestPublishedAt": 1786654860000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
     "id": "item_e25666c8ee9ae9c5",
     "type": "news",
     "title": "홍명보, 경찰에 \"감독 선임 과정 정몽규와 소통 없었다\"…개입 부인",
-    "summary": "축구협회 전력강화위 논의에 대해선 \"아는 바 없다\" 안홍석 전재훈 기자 = 대한 축구협회 윗선 개입으로 축구 대표팀 감독 으로 선임 됐다는 의혹을 받는 홍명보 전 감독 이 경찰 조사에서 정몽규 당시 축구협회 회장과 소통한...",
+    "summary": "승인하는 이사회 업무를 방해한 혐의가 성립하는지 판단에 수사력을 모을 것으로 보인다. 경찰은 지난 6일 천안 소재 대한 축구협회 사무실과 서울 종로구 축구 회관을 압수수색해 감독 선임과 관련한 자료를 확보한 것으로...",
     "url": "https://www.yna.co.kr/view/AKR20260813171000004?input=1195m",
     "originalUrl": "https://www.yna.co.kr/view/AKR20260813171000004?input=1195m",
     "publisher": "yna.co.kr",
@@ -1788,7 +1922,7 @@
       "정몽규",
       "홍명보",
       "대한 축구협회",
-      "대표팀 감독"
+      "이사회"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -1807,7 +1941,8 @@
       "축구협회 이사회"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "kfa-executives"
     ],
     "personTags": [
       "person_chung_mong_gyu",
@@ -1815,7 +1950,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 40,
     "labels": [
       "인물 언급"
     ],
@@ -1832,8 +1967,8 @@
       ],
       "earliestPublishedAt": 1786654500000,
       "latestPublishedAt": 1786654500000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -1982,8 +2117,8 @@
       ],
       "earliestPublishedAt": 1786633380000,
       "latestPublishedAt": 1786633380000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -2628,8 +2763,8 @@
       ],
       "earliestPublishedAt": 1786622400000,
       "latestPublishedAt": 1786622400000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -2675,8 +2810,8 @@
       ],
       "earliestPublishedAt": 1786621680000,
       "latestPublishedAt": 1786621680000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -2719,8 +2854,8 @@
       ],
       "earliestPublishedAt": 1786621440000,
       "latestPublishedAt": 1786621440000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -2901,8 +3036,8 @@
       ],
       "earliestPublishedAt": 1786618140000,
       "latestPublishedAt": 1786618140000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -3130,8 +3265,8 @@
       ],
       "earliestPublishedAt": 1786617060000,
       "latestPublishedAt": 1786617060000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -3240,15 +3375,15 @@
       ],
       "earliestPublishedAt": 1786616880000,
       "latestPublishedAt": 1786616880000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
     "id": "item_87ca0ef093b1fbdf",
     "type": "news",
     "title": "“누군가는 거짓말하고 있다”…박문성, 이임생·홍명보 선임 진실공방...",
-    "summary": "“최소한 한 명은 거짓말을 하고 있는 거다.” 이임생 전 대한 축구협회 기술총괄이사가 행정소송에 참여해 법원에 기존과 다른 내용의 서면을 제출하면서, 정몽규 전 대한 축구협회 장과 이 전 이사, 홍명보 감독을 둘러싼...",
+    "summary": "“최소한 한 명은 거짓말을 하고 있는 거다.” 이임생 전 대한 축구협회 기술총괄이사가 행정소송에 참여해... 자세한 건 김정배 부회장 과 상의하라”고 했다는 것이 이 전 이사 측 주장이다. 박문성 위원이 특히 주목한...",
     "url": "https://mhnse.com/news/articleView.html?idxno=1487445",
     "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1487445",
     "publisher": "mhnse.com",
@@ -3258,7 +3393,7 @@
       "홍명보",
       "이임생",
       "대한 축구협회",
-      "정몽규"
+      "부회장"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -3276,15 +3411,16 @@
       "축구협회 집행부",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "kfa-executives"
+    ],
     "personTags": [
       "person_hong_myung_bo",
-      "person_lee_im_saeng",
-      "person_chung_mong_gyu"
+      "person_lee_im_saeng"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 29,
     "labels": [
       "인물 언급"
     ],
@@ -3301,8 +3437,8 @@
       ],
       "earliestPublishedAt": 1786615920000,
       "latestPublishedAt": 1786615920000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -3399,8 +3535,8 @@
       ],
       "earliestPublishedAt": 1786614360000,
       "latestPublishedAt": 1786614360000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -3557,8 +3693,8 @@
       ],
       "earliestPublishedAt": 1786611900000,
       "latestPublishedAt": 1786611900000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -3772,8 +3908,8 @@
       ],
       "earliestPublishedAt": 1786610280000,
       "latestPublishedAt": 1786610280000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -3824,8 +3960,8 @@
       ],
       "earliestPublishedAt": 1786609440000,
       "latestPublishedAt": 1786609440000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -3899,8 +4035,8 @@
       ],
       "earliestPublishedAt": 1786608960000,
       "latestPublishedAt": 1786608960000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -3945,8 +4081,8 @@
       ],
       "earliestPublishedAt": 1786608720000,
       "latestPublishedAt": 1786608720000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4097,8 +4233,8 @@
       ],
       "earliestPublishedAt": 1786608240000,
       "latestPublishedAt": 1786608240000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4142,8 +4278,8 @@
       ],
       "earliestPublishedAt": 1786608240000,
       "latestPublishedAt": 1786608240000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4231,8 +4367,8 @@
       ],
       "earliestPublishedAt": 1786605960000,
       "latestPublishedAt": 1786605960000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4276,8 +4412,8 @@
       ],
       "earliestPublishedAt": 1786604280000,
       "latestPublishedAt": 1786604280000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4320,8 +4456,8 @@
       ],
       "earliestPublishedAt": 1786600860000,
       "latestPublishedAt": 1786600860000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4361,8 +4497,8 @@
       ],
       "earliestPublishedAt": 1786600860000,
       "latestPublishedAt": 1786600860000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4471,8 +4607,8 @@
       ],
       "earliestPublishedAt": 1786599600000,
       "latestPublishedAt": 1786599600000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4512,8 +4648,8 @@
       ],
       "earliestPublishedAt": 1786599000000,
       "latestPublishedAt": 1786599000000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4558,8 +4694,8 @@
       ],
       "earliestPublishedAt": 1786598580000,
       "latestPublishedAt": 1786598580000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4611,8 +4747,8 @@
       ],
       "earliestPublishedAt": 1786597620000,
       "latestPublishedAt": 1786597620000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4658,8 +4794,8 @@
       ],
       "earliestPublishedAt": 1786594440000,
       "latestPublishedAt": 1786594440000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4705,8 +4841,8 @@
       ],
       "earliestPublishedAt": 1786593360000,
       "latestPublishedAt": 1786593360000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4859,8 +4995,8 @@
       ],
       "earliestPublishedAt": 1786589220000,
       "latestPublishedAt": 1786589220000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4905,8 +5041,8 @@
       ],
       "earliestPublishedAt": 1786588680000,
       "latestPublishedAt": 1786588680000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -4950,8 +5086,8 @@
       ],
       "earliestPublishedAt": 1786588440000,
       "latestPublishedAt": 1786588440000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -5024,8 +5160,8 @@
       ],
       "earliestPublishedAt": 1786588260000,
       "latestPublishedAt": 1786588260000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -5076,8 +5212,8 @@
       ],
       "earliestPublishedAt": 1786588140000,
       "latestPublishedAt": 1786588140000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -5163,8 +5299,8 @@
       ],
       "earliestPublishedAt": 1786587240000,
       "latestPublishedAt": 1786587240000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -5209,8 +5345,8 @@
       ],
       "earliestPublishedAt": 1786585740000,
       "latestPublishedAt": 1786585740000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -5256,8 +5392,8 @@
       ],
       "earliestPublishedAt": 1786585080000,
       "latestPublishedAt": 1786585080000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -5349,8 +5485,8 @@
       ],
       "earliestPublishedAt": 1786584720000,
       "latestPublishedAt": 1786584720000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   },
   {
@@ -5564,8 +5700,8 @@
       ],
       "earliestPublishedAt": 1786579320000,
       "latestPublishedAt": 1786579320000,
-      "representativeCollectedAt": 1786668192997,
-      "latestCollectedAt": 1786668192997
+      "representativeCollectedAt": 1786677145619,
+      "latestCollectedAt": 1786677145619
     }
   }
 ]
