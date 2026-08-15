@@ -1,5 +1,37 @@
 [
   {
+    "id": "item_0eec6906f09da084",
+    "type": "news",
+    "title": "\"협회 들어와서 하라고? 앞뒤가 안 맞아\"...이천수 극대노, 홍명보 향한...",
+    "summary": "이천수는 13일 자신의 유튜브 채널을 통해 최근 논란이 된 대한 축구협회 의 심판 성접대 사건에 대해... 숨지 말고 이제 축구 계에서 일을 하지 않겠다고 당당히 밝혀야 한다”고 목소리를 높였다. 그는 홍명보 전 대한민국...",
+    "url": "https://www.mydaily.co.kr/page/view/2026081513290871305",
+    "originalUrl": "https://www.mydaily.co.kr/page/view/2026081513290871305",
+    "publisher": "mydaily.co.kr",
+    "publishedAt": "2026-08-15T04:30:00.000Z",
+    "collectedAt": "2026-08-15T05:02:30.667Z",
+    "matchedKeywords": [
+      "홍명보",
+      "대한 축구협회"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독",
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 17,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_77f8bc43a80987fe",
     "type": "news",
     "title": "\"다 망쳐놓고 해보라고?\" 이천수, 또 분통...홍명보 향해 직격탄 \"못 들...",
@@ -30,7 +62,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112857772"
+      ],
+      "stories": [
+        "news|news|\"다 망쳐놓고 해보라고?\" 이천수, 또 분통...홍명보 향해 직격탄 \"못 들...|osen.co.kr|2026-08-15T04:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"다 망쳐놓고 해보라고?\" 이천수, 또 분통...홍명보 향해 직격탄 \"못 들...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1786766700000,
+      "latestPublishedAt": 1786766700000,
+      "representativeCollectedAt": 1786770150667,
+      "latestCollectedAt": 1786770150667
+    }
   },
   {
     "id": "item_b39a56623bd3ddd5",
@@ -69,7 +117,23 @@
     "isOfficial": false,
     "relevanceScore": 14,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blte026f89f4193bc12"
+      ],
+      "stories": [
+        "news|news|“한국 축구 임시 사령탑 ‘삼파전’ 양상…가장 유력한 후보는 포옛 감...|goal.com|2026-08-15T03:48:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“한국 축구 임시 사령탑 ‘삼파전’ 양상…가장 유력한 후보는 포옛 감...|goal.com"
+      ],
+      "earliestPublishedAt": 1786765680000,
+      "latestPublishedAt": 1786765680000,
+      "representativeCollectedAt": 1786770150667,
+      "latestCollectedAt": 1786770150667
+    }
   },
   {
     "id": "item_85ac3dc7a9316b62",
@@ -118,8 +182,8 @@
       ],
       "earliestPublishedAt": 1786763880000,
       "latestPublishedAt": 1786763880000,
-      "representativeCollectedAt": 1786767248255,
-      "latestCollectedAt": 1786767248255
+      "representativeCollectedAt": 1786770150667,
+      "latestCollectedAt": 1786770150667
     }
   },
   {
@@ -173,8 +237,8 @@
       ],
       "earliestPublishedAt": 1786757400000,
       "latestPublishedAt": 1786757400000,
-      "representativeCollectedAt": 1786767248255,
-      "latestCollectedAt": 1786767248255
+      "representativeCollectedAt": 1786770150667,
+      "latestCollectedAt": 1786770150667
     }
   },
   {
@@ -234,8 +298,8 @@
       ],
       "earliestPublishedAt": 1786754340000,
       "latestPublishedAt": 1786754340000,
-      "representativeCollectedAt": 1786767248255,
-      "latestCollectedAt": 1786767248255
+      "representativeCollectedAt": 1786770150667,
+      "latestCollectedAt": 1786770150667
     }
   },
   {
