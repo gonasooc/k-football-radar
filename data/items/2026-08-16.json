@@ -29,7 +29,23 @@
     "relevanceScore": 24,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.fnnews.com/news/202608161314067523"
+      ],
+      "stories": [
+        "news|news|\"다 망쳐놓고 들어와서 하라고?\" 이천수, 홍명보 청문회 발언 정면 반박|fnnews.com|2026-08-16T04:17:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"다 망쳐놓고 들어와서 하라고?\" 이천수, 홍명보 청문회 발언 정면 반박|fnnews.com"
+      ],
+      "earliestPublishedAt": 1786853820000,
+      "latestPublishedAt": 1786853820000,
+      "representativeCollectedAt": 1786856745489,
+      "latestCollectedAt": 1786856745489
+    }
   },
   {
     "id": "item_4b3eeb9b1785ed74",
@@ -53,7 +69,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.chosun.com/sports/football/2026/08/16/66K6X3OM4VEGRHUEJL4UPVYGVU"
+      ],
+      "stories": [
+        "news|news|매탄고·대건고 승, 현대고·수원공고 패… 1차전부터 희비 엇갈린 강팀...|chosun.com|2026-08-16T03:38:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|매탄고·대건고 승, 현대고·수원공고 패… 1차전부터 희비 엇갈린 강팀...|chosun.com"
+      ],
+      "earliestPublishedAt": 1786851480000,
+      "latestPublishedAt": 1786851480000,
+      "representativeCollectedAt": 1786856745489,
+      "latestCollectedAt": 1786856745489
+    }
   },
   {
     "id": "item_e5e694fd97d21492",
@@ -99,8 +131,8 @@
       ],
       "earliestPublishedAt": 1786847340000,
       "latestPublishedAt": 1786847340000,
-      "representativeCollectedAt": 1786854009112,
-      "latestCollectedAt": 1786854009112
+      "representativeCollectedAt": 1786856745489,
+      "latestCollectedAt": 1786856745489
     }
   },
   {
@@ -142,8 +174,8 @@
       ],
       "earliestPublishedAt": 1786845360000,
       "latestPublishedAt": 1786845360000,
-      "representativeCollectedAt": 1786854009112,
-      "latestCollectedAt": 1786854009112
+      "representativeCollectedAt": 1786856745489,
+      "latestCollectedAt": 1786856745489
     }
   },
   {
@@ -236,8 +268,8 @@
       ],
       "earliestPublishedAt": 1786841880000,
       "latestPublishedAt": 1786841880000,
-      "representativeCollectedAt": 1786854009112,
-      "latestCollectedAt": 1786854009112
+      "representativeCollectedAt": 1786856745489,
+      "latestCollectedAt": 1786856745489
     }
   },
   {
@@ -290,8 +322,8 @@
       ],
       "earliestPublishedAt": 1786841520000,
       "latestPublishedAt": 1786841520000,
-      "representativeCollectedAt": 1786854009112,
-      "latestCollectedAt": 1786854009112
+      "representativeCollectedAt": 1786856745489,
+      "latestCollectedAt": 1786856745489
     }
   }
 ]
