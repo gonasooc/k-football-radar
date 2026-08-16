@@ -22,7 +22,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 27,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.stoo.com/article.php?aid=108358236110"
+      ],
+      "stories": [
+        "news|news|'런닝맨' 김종국, '축구협회장 출마' 발언 일 커졌다…\"김민재도 '하셔...|stoo.com|2026-08-16T10:34:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'런닝맨' 김종국, '축구협회장 출마' 발언 일 커졌다…\"김민재도 '하셔...|stoo.com"
+      ],
+      "earliestPublishedAt": 1786876440000,
+      "latestPublishedAt": 1786876440000,
+      "representativeCollectedAt": 1786881421942,
+      "latestCollectedAt": 1786881421942
+    }
   },
   {
     "id": "item_1088aa39f0d7d6f1",
@@ -48,7 +64,23 @@
     "isOfficial": false,
     "relevanceScore": 7,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112858451"
+      ],
+      "stories": [
+        "news|news|김종국, '축구협회장 출마선언' 일 커졌다..뮌헨 김민재도 \"하셔야죠\" 공...|osen.co.kr|2026-08-16T10:06:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|김종국, '축구협회장 출마선언' 일 커졌다..뮌헨 김민재도 \"하셔야죠\" 공...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1786874760000,
+      "latestPublishedAt": 1786874760000,
+      "representativeCollectedAt": 1786881421942,
+      "latestCollectedAt": 1786881421942
+    }
   },
   {
     "id": "item_29fb47c09bc54488",
@@ -93,8 +125,8 @@
       ],
       "earliestPublishedAt": 1786874100000,
       "latestPublishedAt": 1786874100000,
-      "representativeCollectedAt": 1786877934435,
-      "latestCollectedAt": 1786877934435
+      "representativeCollectedAt": 1786881421942,
+      "latestCollectedAt": 1786881421942
     }
   },
   {
@@ -145,8 +177,8 @@
       ],
       "earliestPublishedAt": 1786865460000,
       "latestPublishedAt": 1786865460000,
-      "representativeCollectedAt": 1786877934435,
-      "latestCollectedAt": 1786877934435
+      "representativeCollectedAt": 1786881421942,
+      "latestCollectedAt": 1786881421942
     }
   },
   {
@@ -186,8 +218,8 @@
       ],
       "earliestPublishedAt": 1786865400000,
       "latestPublishedAt": 1786865400000,
-      "representativeCollectedAt": 1786877934435,
-      "latestCollectedAt": 1786877934435
+      "representativeCollectedAt": 1786881421942,
+      "latestCollectedAt": 1786881421942
     }
   },
   {
@@ -226,8 +258,8 @@
       ],
       "earliestPublishedAt": 1786858320000,
       "latestPublishedAt": 1786858320000,
-      "representativeCollectedAt": 1786877934435,
-      "latestCollectedAt": 1786877934435
+      "representativeCollectedAt": 1786881421942,
+      "latestCollectedAt": 1786881421942
     }
   },
   {
@@ -274,8 +306,8 @@
       ],
       "earliestPublishedAt": 1786853820000,
       "latestPublishedAt": 1786853820000,
-      "representativeCollectedAt": 1786877934435,
-      "latestCollectedAt": 1786877934435
+      "representativeCollectedAt": 1786881421942,
+      "latestCollectedAt": 1786881421942
     }
   },
   {
@@ -314,8 +346,8 @@
       ],
       "earliestPublishedAt": 1786851480000,
       "latestPublishedAt": 1786851480000,
-      "representativeCollectedAt": 1786877934435,
-      "latestCollectedAt": 1786877934435
+      "representativeCollectedAt": 1786881421942,
+      "latestCollectedAt": 1786881421942
     }
   },
   {
@@ -362,8 +394,8 @@
       ],
       "earliestPublishedAt": 1786847340000,
       "latestPublishedAt": 1786847340000,
-      "representativeCollectedAt": 1786877934435,
-      "latestCollectedAt": 1786877934435
+      "representativeCollectedAt": 1786881421942,
+      "latestCollectedAt": 1786881421942
     }
   },
   {
@@ -405,8 +437,8 @@
       ],
       "earliestPublishedAt": 1786845360000,
       "latestPublishedAt": 1786845360000,
-      "representativeCollectedAt": 1786877934435,
-      "latestCollectedAt": 1786877934435
+      "representativeCollectedAt": 1786881421942,
+      "latestCollectedAt": 1786881421942
     }
   },
   {
@@ -553,8 +585,8 @@
       ],
       "earliestPublishedAt": 1786841520000,
       "latestPublishedAt": 1786841520000,
-      "representativeCollectedAt": 1786877934435,
-      "latestCollectedAt": 1786877934435
+      "representativeCollectedAt": 1786881421942,
+      "latestCollectedAt": 1786881421942
     }
   }
 ]
