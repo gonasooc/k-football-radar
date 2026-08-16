@@ -21,7 +21,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.tvchosun.com/site/data/html_dir/2026/08/16/2026081690054.html"
+      ],
+      "stories": [
+        "news|news|금호고 7골, 매탄고 4골 폭발…고교축구선수권 우승후보들 희비 엇갈려|news.tvchosun.com|2026-08-16T05:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|금호고 7골, 매탄고 4골 폭발…고교축구선수권 우승후보들 희비 엇갈려|news.tvchosun.com"
+      ],
+      "earliestPublishedAt": 1786858320000,
+      "latestPublishedAt": 1786858320000,
+      "representativeCollectedAt": 1786864698112,
+      "latestCollectedAt": 1786864698112
+    }
   },
   {
     "id": "item_d0b5b6d4a82eba75",
@@ -67,8 +83,8 @@
       ],
       "earliestPublishedAt": 1786853820000,
       "latestPublishedAt": 1786853820000,
-      "representativeCollectedAt": 1786860068675,
-      "latestCollectedAt": 1786860068675
+      "representativeCollectedAt": 1786864698112,
+      "latestCollectedAt": 1786864698112
     }
   },
   {
@@ -107,8 +123,8 @@
       ],
       "earliestPublishedAt": 1786851480000,
       "latestPublishedAt": 1786851480000,
-      "representativeCollectedAt": 1786860068675,
-      "latestCollectedAt": 1786860068675
+      "representativeCollectedAt": 1786864698112,
+      "latestCollectedAt": 1786864698112
     }
   },
   {
@@ -155,8 +171,8 @@
       ],
       "earliestPublishedAt": 1786847340000,
       "latestPublishedAt": 1786847340000,
-      "representativeCollectedAt": 1786860068675,
-      "latestCollectedAt": 1786860068675
+      "representativeCollectedAt": 1786864698112,
+      "latestCollectedAt": 1786864698112
     }
   },
   {
@@ -198,8 +214,8 @@
       ],
       "earliestPublishedAt": 1786845360000,
       "latestPublishedAt": 1786845360000,
-      "representativeCollectedAt": 1786860068675,
-      "latestCollectedAt": 1786860068675
+      "representativeCollectedAt": 1786864698112,
+      "latestCollectedAt": 1786864698112
     }
   },
   {
@@ -346,8 +362,8 @@
       ],
       "earliestPublishedAt": 1786841520000,
       "latestPublishedAt": 1786841520000,
-      "representativeCollectedAt": 1786860068675,
-      "latestCollectedAt": 1786860068675
+      "representativeCollectedAt": 1786864698112,
+      "latestCollectedAt": 1786864698112
     }
   }
 ]
