@@ -1,5 +1,37 @@
 [
   {
+    "id": "item_e5e694fd97d21492",
+    "type": "news",
+    "title": "이천수 “축협 안마시술소 법카, 나라 망신…선수로서 많이 쪽팔린다”",
+    "summary": "국가대표 출신 이천수가 과거 대한축구협회 의 외국인 심판 접대와 안마시술소 법인카드 결제 논란을 두고 “나라의 망신”이라며 강하게 비판했다. 이천수는 지난 13일 자신의 유튜브 채널 ‘리춘수’에서 “더 말할...",
+    "url": "https://www.seoul.co.kr/news/society/2026/08/16/20260816500028?wlog_tag3=naver",
+    "originalUrl": "https://www.seoul.co.kr/news/society/2026/08/16/20260816500028?wlog_tag3=naver",
+    "publisher": "seoul.co.kr",
+    "publishedAt": "2026-08-16T02:29:00.000Z",
+    "collectedAt": "2026-08-16T03:32:23.725Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 축구협회",
+      "\"박지성\" 해명",
+      "대한축구협회",
+      "축구 혁신",
+      "축구협회 조사 결과",
+      "축구협회 해명",
+      "축구협회 혁신위원회",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_53d84a4bedafa5e4",
     "type": "news",
     "title": "미국 백악관, 궁지 몰린 인판티노 구하기 “비판에는 정치와 질투 있다...",
@@ -24,7 +56,23 @@
     "isOfficial": false,
     "relevanceScore": 7,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.khan.co.kr/article/202608161055003?pt=nv"
+      ],
+      "stories": [
+        "news|news|미국 백악관, 궁지 몰린 인판티노 구하기 “비판에는 정치와 질투 있다...|sports.khan.co.kr|2026-08-16T01:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|미국 백악관, 궁지 몰린 인판티노 구하기 “비판에는 정치와 질투 있다...|sports.khan.co.kr"
+      ],
+      "earliestPublishedAt": 1786845360000,
+      "latestPublishedAt": 1786845360000,
+      "representativeCollectedAt": 1786851143725,
+      "latestCollectedAt": 1786851143725
+    }
   },
   {
     "id": "youtube_1Fv4e5ETxso",
@@ -102,7 +150,23 @@
     "relevanceScore": 11,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.khan.co.kr/article/202608160957003?pt=nv"
+      ],
+      "stories": [
+        "news|news|‘찐 축구팬’ 강부자, 홍명보 귀국 태도 작심 비판 “겸손 모른다”|sports.khan.co.kr|2026-08-16T00:58:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘찐 축구팬’ 강부자, 홍명보 귀국 태도 작심 비판 “겸손 모른다”|sports.khan.co.kr"
+      ],
+      "earliestPublishedAt": 1786841880000,
+      "latestPublishedAt": 1786841880000,
+      "representativeCollectedAt": 1786851143725,
+      "latestCollectedAt": 1786851143725
+    }
   },
   {
     "id": "item_31be441d6d69ee47",
@@ -140,6 +204,22 @@
     "relevanceScore": 24,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.insight.co.kr/news/568472"
+      ],
+      "stories": [
+        "news|news|\"국대 출신으로서 쪽팔린다\"... 축구협회 안마방 법카 결제 의혹에 폭발...|insight.co.kr|2026-08-16T00:52:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"국대 출신으로서 쪽팔린다\"... 축구협회 안마방 법카 결제 의혹에 폭발...|insight.co.kr"
+      ],
+      "earliestPublishedAt": 1786841520000,
+      "latestPublishedAt": 1786841520000,
+      "representativeCollectedAt": 1786851143725,
+      "latestCollectedAt": 1786851143725
+    }
   }
 ]
