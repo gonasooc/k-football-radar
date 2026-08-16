@@ -1,5 +1,61 @@
 [
   {
+    "id": "item_d0b5b6d4a82eba75",
+    "type": "news",
+    "title": "\"다 망쳐놓고 들어와서 하라고?\" 이천수, 홍명보 청문회 발언 정면 반박",
+    "summary": "전 축구 국가대표 이천수가 홍명보 전 국가 대표팀 감독 의 국회 청문회 발언을 정면으로 반박하며, 벼랑 끝에 몰린 대한축구협회의 폐쇄적인 조직 문화를 강도 높게 질타했다. 이천수는 지난 13일 자신의 유튜브 채널 '리춘수...",
+    "url": "http://www.fnnews.com/news/202608161314067523",
+    "originalUrl": "http://www.fnnews.com/news/202608161314067523",
+    "publisher": "fnnews.com",
+    "publishedAt": "2026-08-16T04:17:00.000Z",
+    "collectedAt": "2026-08-16T04:20:09.112Z",
+    "matchedKeywords": [
+      "홍명보",
+      "청문회",
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독",
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 24,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_4b3eeb9b1785ed74",
+    "type": "news",
+    "title": "매탄고·대건고 승, 현대고·수원공고 패… 1차전부터 희비 엇갈린 강팀...",
+    "summary": "전국고교축구선수권, 조별리그 1차전부터 이변 제81회 전국고교축구선수권대회 겸 전국고등축구리그 왕중왕전(조선일보사· 대한축구협회 ·교육부·문화체육관광부 주최) 조별리그 1차전부터 우승 후보들의 희비가...",
+    "url": "https://www.chosun.com/sports/football/2026/08/16/66K6X3OM4VEGRHUEJL4UPVYGVU",
+    "originalUrl": "https://www.chosun.com/sports/football/2026/08/16/66K6X3OM4VEGRHUEJL4UPVYGVU",
+    "publisher": "chosun.com",
+    "publishedAt": "2026-08-16T03:38:00.000Z",
+    "collectedAt": "2026-08-16T04:20:09.112Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_e5e694fd97d21492",
     "type": "news",
     "title": "이천수 “축협 안마시술소 법카, 나라 망신…선수로서 많이 쪽팔린다”",
@@ -29,7 +85,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.seoul.co.kr/news/society/2026/08/16/20260816500028?wlog_tag3=naver"
+      ],
+      "stories": [
+        "news|news|이천수 “축협 안마시술소 법카, 나라 망신…선수로서 많이 쪽팔린다”|seoul.co.kr|2026-08-16T02:29:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|이천수 “축협 안마시술소 법카, 나라 망신…선수로서 많이 쪽팔린다”|seoul.co.kr"
+      ],
+      "earliestPublishedAt": 1786847340000,
+      "latestPublishedAt": 1786847340000,
+      "representativeCollectedAt": 1786854009112,
+      "latestCollectedAt": 1786854009112
+    }
   },
   {
     "id": "item_53d84a4bedafa5e4",
@@ -70,8 +142,8 @@
       ],
       "earliestPublishedAt": 1786845360000,
       "latestPublishedAt": 1786845360000,
-      "representativeCollectedAt": 1786851143725,
-      "latestCollectedAt": 1786851143725
+      "representativeCollectedAt": 1786854009112,
+      "latestCollectedAt": 1786854009112
     }
   },
   {
@@ -164,8 +236,8 @@
       ],
       "earliestPublishedAt": 1786841880000,
       "latestPublishedAt": 1786841880000,
-      "representativeCollectedAt": 1786851143725,
-      "latestCollectedAt": 1786851143725
+      "representativeCollectedAt": 1786854009112,
+      "latestCollectedAt": 1786854009112
     }
   },
   {
@@ -218,8 +290,8 @@
       ],
       "earliestPublishedAt": 1786841520000,
       "latestPublishedAt": 1786841520000,
-      "representativeCollectedAt": 1786851143725,
-      "latestCollectedAt": 1786851143725
+      "representativeCollectedAt": 1786854009112,
+      "latestCollectedAt": 1786854009112
     }
   }
 ]
