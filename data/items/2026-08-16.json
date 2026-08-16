@@ -33,7 +33,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112858380"
+      ],
+      "stories": [
+        "news|news|'3개월짜리 한국 감독'에 포옛-카사스-토렌트 몰렸다...정식 사령탑엔 ...|osen.co.kr|2026-08-16T07:31:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'3개월짜리 한국 감독'에 포옛-카사스-토렌트 몰렸다...정식 사령탑엔 ...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1786865460000,
+      "latestPublishedAt": 1786865460000,
+      "representativeCollectedAt": 1786870972421,
+      "latestCollectedAt": 1786870972421
+    }
   },
   {
     "id": "item_99843afbff7845ab",
@@ -58,7 +74,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 18,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsseoul.com/news/read/1628889?ref=naver"
+      ],
+      "stories": [
+        "news|news|“회장 하나 바꾼다고 안 돼” 이천수, 축구협회 ‘성접대’ 논란 맹비...|sportsseoul.com|2026-08-16T07:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“회장 하나 바꾼다고 안 돼” 이천수, 축구협회 ‘성접대’ 논란 맹비...|sportsseoul.com"
+      ],
+      "earliestPublishedAt": 1786865400000,
+      "latestPublishedAt": 1786865400000,
+      "representativeCollectedAt": 1786870972421,
+      "latestCollectedAt": 1786870972421
+    }
   },
   {
     "id": "item_259f6061ed547531",
@@ -96,8 +128,8 @@
       ],
       "earliestPublishedAt": 1786858320000,
       "latestPublishedAt": 1786858320000,
-      "representativeCollectedAt": 1786867197129,
-      "latestCollectedAt": 1786867197129
+      "representativeCollectedAt": 1786870972421,
+      "latestCollectedAt": 1786870972421
     }
   },
   {
@@ -144,8 +176,8 @@
       ],
       "earliestPublishedAt": 1786853820000,
       "latestPublishedAt": 1786853820000,
-      "representativeCollectedAt": 1786867197129,
-      "latestCollectedAt": 1786867197129
+      "representativeCollectedAt": 1786870972421,
+      "latestCollectedAt": 1786870972421
     }
   },
   {
@@ -184,8 +216,8 @@
       ],
       "earliestPublishedAt": 1786851480000,
       "latestPublishedAt": 1786851480000,
-      "representativeCollectedAt": 1786867197129,
-      "latestCollectedAt": 1786867197129
+      "representativeCollectedAt": 1786870972421,
+      "latestCollectedAt": 1786870972421
     }
   },
   {
@@ -232,8 +264,8 @@
       ],
       "earliestPublishedAt": 1786847340000,
       "latestPublishedAt": 1786847340000,
-      "representativeCollectedAt": 1786867197129,
-      "latestCollectedAt": 1786867197129
+      "representativeCollectedAt": 1786870972421,
+      "latestCollectedAt": 1786870972421
     }
   },
   {
@@ -275,8 +307,8 @@
       ],
       "earliestPublishedAt": 1786845360000,
       "latestPublishedAt": 1786845360000,
-      "representativeCollectedAt": 1786867197129,
-      "latestCollectedAt": 1786867197129
+      "representativeCollectedAt": 1786870972421,
+      "latestCollectedAt": 1786870972421
     }
   },
   {
@@ -423,8 +455,8 @@
       ],
       "earliestPublishedAt": 1786841520000,
       "latestPublishedAt": 1786841520000,
-      "representativeCollectedAt": 1786867197129,
-      "latestCollectedAt": 1786867197129
+      "representativeCollectedAt": 1786870972421,
+      "latestCollectedAt": 1786870972421
     }
   }
 ]
