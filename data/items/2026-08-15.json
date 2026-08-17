@@ -285,8 +285,8 @@
       ],
       "earliestPublishedAt": 1786829100000,
       "latestPublishedAt": 1786829100000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -501,8 +501,8 @@
       ],
       "earliestPublishedAt": 1786812720000,
       "latestPublishedAt": 1786812720000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -650,20 +650,18 @@
     "id": "item_b3e118891ba36ea6",
     "type": "news",
     "title": "日 깜짝 폭로! 위기의 한국 축구, 누가 구할까...韓 대표팀 감독 3파전 ...",
-    "summary": "일본 언론에서 한국 대표팀 임시 감독 유력 후보 의 이름이 거론됐다. 일본의 스포니치 소속 기자인 가기우치... 대한 축구협회 (KFA)는 최근 임시 감독 선임을 위한 공개 채용 지원을 마감했다. KFA는 지난 10일 ' 축구 대표팀...",
+    "summary": "대한축구협회( KFA )는 최근 임시 감독 선임을 위한 공개 채용 지원을 마감했다. KFA 는 지난 10일 '축구 대표팀 임시 감독 공개채용 서류 접수를 9일 마감했다. 이번 주에 전력강화위원 일부와 외부 위원을 위촉해 평가위원회를...",
     "url": "https://www.sportschosun.com/football/2026-08-15/202608150100091030005759",
     "originalUrl": "https://www.sportschosun.com/football/2026-08-15/202608150100091030005759",
     "publisher": "sportschosun.com",
     "publishedAt": "2026-08-15T12:26:00.000Z",
     "collectedAt": "2026-08-15T13:17:23.071Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "KFA",
       "감독 선임",
       "감독",
-      "선임",
-      "후보",
-      "거론"
+      "선임"
     ],
     "discoveryQueries": [
       "감독 후보",
@@ -697,8 +695,8 @@
       ],
       "earliestPublishedAt": 1786796760000,
       "latestPublishedAt": 1786796760000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -804,27 +802,25 @@
       ],
       "earliestPublishedAt": 1786792260000,
       "latestPublishedAt": 1786792260000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
     "id": "item_05f31c70bbc6f05e",
     "type": "news",
     "title": "\"韓 축구 감독 후보, 3명으로 압축\" 포옛에 日 꺾은 카사스, 펩 오른팔까...",
-    "summary": "통해 \"대한민국 축구 대표팀 차기 감독 후보 가 유력 후보 인 포옛을 포함해 3명으로 좁혀진 것으로 보인다\"고... 임시 감독 을 맡을 전망\"이라고 보도한 바 있다. 현재 대한 축구협회 (KFA)는 2026 북중미 월드컵 조별리그 탈락을...",
+    "summary": "대한축구협회( KFA )는 2026 북중미 월드컵 조별리그 탈락을 끝으로 물러난 홍명보 전 감독의 공백을 메우기 위해 임시 감독을 물색 중이다. 홍 전 감독은 32강 진출이 좌절된 직후 멕시코 현지에서 자진 사퇴했다. 이후 KFA 는...",
     "url": "http://www.osen.co.kr/article/G1112857823",
     "originalUrl": "http://www.osen.co.kr/article/G1112857823",
     "publisher": "osen.co.kr",
     "publishedAt": "2026-08-15T09:32:00.000Z",
     "collectedAt": "2026-08-15T09:58:54.972Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "KFA",
-      "감독 후보",
-      "감독",
-      "후보",
-      "차기"
+      "홍명보",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -840,15 +836,17 @@
       "축구협회 감독 후보",
       "KFA"
     ],
-    "issueTags": [
-      "coach-appointment"
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
     ],
-    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 11,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -862,8 +860,8 @@
       ],
       "earliestPublishedAt": 1786786320000,
       "latestPublishedAt": 1786786320000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -1037,7 +1035,7 @@
     "id": "item_5265c30c5f5925e0",
     "type": "news",
     "title": "'성 접대 논란' 대한축구협회 향한 이천수 작심발언...\"눈물을 흘리면서...",
-    "summary": "국가대표 출신 이천수가 과거 대한축구협회 (KFA)의 외국인 심판 성접대 의혹을 두고 작심 발언을 쏟아냈다.... 다른 축구 계 조직으로 이동하는 방식으로 다시 활동해서도 안 된다는 취지다. 홍명보 전 대표팀 감독의 과거...",
+    "summary": "국가대표 출신 이천수가 과거 대한축구협회( KFA )의 외국인 심판 성접대 의혹을 두고 작심 발언을 쏟아냈다. 단순한 사과에 그쳐서는 안 되며 당시 사안에 연관된 인사들이 축구계를 완전히 떠나야 한다고 주장했다. 이천수는...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1002042",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1002042",
     "publisher": "spotvnews.co.kr",
@@ -1045,8 +1043,7 @@
     "collectedAt": "2026-08-15T09:02:35.341Z",
     "matchedKeywords": [
       "대한축구협회",
-      "KFA",
-      "홍명보"
+      "KFA"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -1058,15 +1055,11 @@
       "KFA"
     ],
     "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
-    "labels": [
-      "인물 언급"
-    ],
+    "relevanceScore": 26,
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1080,8 +1073,8 @@
       ],
       "earliestPublishedAt": 1786782660000,
       "latestPublishedAt": 1786782660000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -1583,22 +1576,23 @@
       ],
       "earliestPublishedAt": 1786765680000,
       "latestPublishedAt": 1786765680000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
     "id": "item_85ac3dc7a9316b62",
     "type": "news",
     "title": "이천수, 원희룡 선거운동 '부메랑' 됐나 \"나도 축협 들어가고 싶었다…...",
-    "summary": "홍 전 감독 은 이천수와 김영광 등 유튜브에서 축구협회 와 한국 축구 의 상황을 비판하는 축구 인들이 직접... 계양을 후보 의 선거운동을 도왔다. 특히 원희룡 전 후보 의 선거를 도울 당시 다른 후보 의 유세를 방해하고...",
+    "summary": "이천수는 13일 자신의 유튜브 채널 '리춘수'를 통해 홍명보 전 축구 국가대표팀 감독이 최근 청문회에서 꺼낸... 이천수가 특정 정치인 선거 운동을 대놓고 하는 거의 유일한 축구인이다보니 축구계가 곱지 않은 눈초리를...",
     "url": "https://www.xportsnews.com/article/2184089",
     "originalUrl": "https://www.xportsnews.com/article/2184089",
     "publisher": "xportsnews.com",
     "publishedAt": "2026-08-15T03:18:00.000Z",
     "collectedAt": "2026-08-15T03:22:50.015Z",
     "matchedKeywords": [
-      "축구협회"
+      "홍명보",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -1610,12 +1604,16 @@
       "축구협회 감독 후보"
     ],
     "issueTags": [],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 3,
+    "relevanceScore": 5,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1629,8 +1627,8 @@
       ],
       "earliestPublishedAt": 1786763880000,
       "latestPublishedAt": 1786763880000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -1864,8 +1862,8 @@
       ],
       "earliestPublishedAt": 1786755300000,
       "latestPublishedAt": 1786755300000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -1929,8 +1927,8 @@
       ],
       "earliestPublishedAt": 1786754340000,
       "latestPublishedAt": 1786754340000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {

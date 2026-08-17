@@ -54,8 +54,8 @@
       ],
       "earliestPublishedAt": 1786923180000,
       "latestPublishedAt": 1786923180000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -109,8 +109,8 @@
       ],
       "earliestPublishedAt": 1786922040000,
       "latestPublishedAt": 1786922040000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -156,8 +156,8 @@
       ],
       "earliestPublishedAt": 1786919700000,
       "latestPublishedAt": 1786919700000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -317,17 +317,44 @@
     }
   },
   {
+    "id": "item_7de5ef084bf3fd41",
+    "type": "news",
+    "title": "이동국 품은 포옛 감독, 임시 사령탑으로 태극 전사 이끌까",
+    "summary": "한편 축구협회는 임시 감독 선임을 위해 금주 중 전력강화 위원 일부와 외부 위원을 위촉해 평가 위원회 를 구성할 예정이다. 차주엔 후보자 제출 서류 적정성 검토와 온라인 면접이 진행되며, 평가 위원회 평가 결과에...",
+    "url": "https://www.newsis.com/view/NISX20260814_0003749766",
+    "originalUrl": "https://www.newsis.com/view/NISX20260814_0003749766",
+    "publisher": "newsis.com",
+    "publishedAt": "2026-08-16T22:00:00.000Z",
+    "collectedAt": "2026-08-17T06:04:54.661Z",
+    "matchedKeywords": [
+      "축구협회"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "전력강화위원회",
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 3,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_4301029d3a0cac83",
     "type": "news",
     "title": "[아시안게임 D-30] ③야구 '5연패' 축구 '4연패'…금빛 대기록 도전(끝)",
-    "summary": "우즈베키스탄은 U-23 연령대 아시아 무대의 전통적인 강호로, 이번에도 강력한 후보 로 꼽힌다. 이 감독 으로서도 물러설 곳이 없다. U-23 아시안컵 이후 불거진 경질 여론 속에서 대한 축구협회 전력강화위원회의...",
+    "summary": "이 감독으로서도 물러설 곳이 없다. U-23 아시안컵 이후 불거진 경질 여론 속에서 대한축구협회 전력강화위원회 의 결정으로 지휘봉을 지킨 만큼, 이번 대회 성적이 곧 그 결정에 대한 평가가 된다.",
     "url": "https://www.yna.co.kr/view/AKR20260814170700007?input=1195m",
     "originalUrl": "https://www.yna.co.kr/view/AKR20260814170700007?input=1195m",
     "publisher": "yna.co.kr",
     "publishedAt": "2026-08-16T22:00:00.000Z",
     "collectedAt": "2026-08-17T05:21:12.550Z",
     "matchedKeywords": [
-      "대한 축구협회"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "전력강화위원회",
@@ -339,7 +366,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260814170700007?input=1195m"
+      ],
+      "stories": [
+        "news|news|[아시안게임 d-30] ③야구 '5연패' 축구 '4연패'…금빛 대기록 도전(끝)|yna.co.kr|2026-08-16T22:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[아시안게임 d-30] ③야구 '5연패' 축구 '4연패'…금빛 대기록 도전(끝)|yna.co.kr"
+      ],
+      "earliestPublishedAt": 1786917600000,
+      "latestPublishedAt": 1786917600000,
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
+    }
   },
   {
     "id": "youtube_2oPiQvMVacE",
@@ -455,8 +498,8 @@
       ],
       "earliestPublishedAt": 1786916040000,
       "latestPublishedAt": 1786916040000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -508,7 +551,7 @@
     "id": "item_62c3d32bcfb6c213",
     "type": "news",
     "title": "홍명보 후임 자처 '한국 감독 하고 싶습니다' 포옛만 아니었다...카사스...",
-    "summary": "그가 언급한 인물은 포옛 감독 과 카사스 감독 , 토렌트 감독 이다. 세 사람 모두 대한 축구협회 (KFA)가 진행한... 다만 KFA는 곧바로 정식 감독 을 선임 하기보다는 우선 임시 사령탑 체제로 하반기 A매치를 치르기로 결정했다....",
+    "summary": "세 사람 모두 대한 축구협회 (KFA)가 진행한 공개 채용에 지원한 것으로 알려졌다. 특히 가키우치 기자는 이... 한국 대표팀은 2026 국제 축구 연맹(FIFA) 북중미 월드컵 이후 새로운 출발을 준비하고 있다. 홍명보 전 감독이...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1002216",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1002216",
     "publisher": "spotvnews.co.kr",
@@ -519,9 +562,7 @@
       "후임",
       "홍명보",
       "대한 축구협회",
-      "KFA",
-      "사령탑",
-      "선임"
+      "KFA"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -544,7 +585,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ],
@@ -561,8 +602,8 @@
       ],
       "earliestPublishedAt": 1786898220000,
       "latestPublishedAt": 1786898220000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -622,8 +663,8 @@
       ],
       "earliestPublishedAt": 1786896060000,
       "latestPublishedAt": 1786896060000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -752,8 +793,8 @@
       ],
       "earliestPublishedAt": 1786876440000,
       "latestPublishedAt": 1786876440000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -794,8 +835,8 @@
       ],
       "earliestPublishedAt": 1786874760000,
       "latestPublishedAt": 1786874760000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -841,8 +882,8 @@
       ],
       "earliestPublishedAt": 1786874100000,
       "latestPublishedAt": 1786874100000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -1009,8 +1050,8 @@
       ],
       "earliestPublishedAt": 1786865460000,
       "latestPublishedAt": 1786865460000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -1138,8 +1179,8 @@
       ],
       "earliestPublishedAt": 1786853820000,
       "latestPublishedAt": 1786853820000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -1229,8 +1270,8 @@
       ],
       "earliestPublishedAt": 1786847340000,
       "latestPublishedAt": 1786847340000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -1272,8 +1313,8 @@
       ],
       "earliestPublishedAt": 1786845360000,
       "latestPublishedAt": 1786845360000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   },
   {
@@ -1436,8 +1477,8 @@
       ],
       "earliestPublishedAt": 1786841520000,
       "latestPublishedAt": 1786841520000,
-      "representativeCollectedAt": 1786944072550,
-      "latestCollectedAt": 1786944072550
+      "representativeCollectedAt": 1786946694661,
+      "latestCollectedAt": 1786946694661
     }
   }
 ]
