@@ -1,5 +1,120 @@
 [
   {
+    "id": "item_0bd391f80c28e791",
+    "type": "news",
+    "title": "클린스만·홍명보 그다음은…축협, 이번주 '임시 감독' 면접 돌입",
+    "summary": "홍명보 전 축구 국가대표 감독의 후임 윤곽이 곧 드러날 전망입니다. 대한 축구협회 (KFA)는 오늘(17일) 축구 대표팀 임시 감독 지원자 서류 전형을 마치고 이번 주 온라인 면접에 들어간다고 밝혔습니다. 지원자 현황과...",
+    "url": "https://news.jtbc.co.kr/article/NB12313743?influxDiv=NAVER",
+    "originalUrl": "https://news.jtbc.co.kr/article/NB12313743?influxDiv=NAVER",
+    "publisher": "news.jtbc.co.kr",
+    "publishedAt": "2026-08-17T09:16:00.000Z",
+    "collectedAt": "2026-08-17T09:23:38.289Z",
+    "matchedKeywords": [
+      "홍명보",
+      "대한 축구협회",
+      "KFA",
+      "감독",
+      "후임",
+      "지원자"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임",
+      "KFA"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 21,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_117381a13900f997",
+    "type": "news",
+    "title": "[오피셜] 韓 감독 지원은 안 했나...한국보다 더했던 '월드컵 참사' 스코...",
+    "summary": "대한축구협회( KFA )는 17일 보도자료를 통해 남자 A대표팀 임시 감독 선발 관련 지원자 서류 전형을 통해 합격자 및 불합격자 통보를 진행했으며, 금주 중 온라인 면접을 실시할 예정이라고 밝혔다. 거스 포옛, 헤수스...",
+    "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=96512",
+    "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=96512",
+    "publisher": "fourfourtwo.co.kr",
+    "publishedAt": "2026-08-17T08:42:00.000Z",
+    "collectedAt": "2026-08-17T09:23:38.289Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "KFA",
+      "감독",
+      "지원자"
+    ],
+    "discoveryQueries": [
+      "감독 후보",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보",
+      "KFA"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_b60ecc46bc44d527",
+    "type": "news",
+    "title": "2024년엔 최종후보, 이번엔 서류 탈락... 포옛의 두 번째 한국 대표팀 감...",
+    "summary": "2024년 한국 축구 대표팀 감독 선임 당시 최종후보까지 올랐던 거스 포옛 전 전북 현대 감독이 두 번째 도전에서는 서류전형을 통과하지 못했다. 대한축구협회는 17일 \"지난 주말 임시 감독 공개모집 지원자들을 대상으로...",
+    "url": "https://www.starnewskorea.com/sports/2026/08/17/2026081717080641281",
+    "originalUrl": "https://www.starnewskorea.com/sports/2026/08/17/2026081717080641281",
+    "publisher": "starnewskorea.com",
+    "publishedAt": "2026-08-17T08:42:00.000Z",
+    "collectedAt": "2026-08-17T09:23:38.289Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "후보",
+      "지원자",
+      "도전"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "감독 후보",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_54ddee72782e3350",
     "type": "news",
     "title": "[공식발표] ‘월드컵 조별리그 탈락’ 홍명보 뒤이을 감독은 누구…축구...",
@@ -42,7 +157,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt5bf2367c1ecf0342"
+      ],
+      "stories": [
+        "news|news|[공식발표] ‘월드컵 조별리그 탈락’ 홍명보 뒤이을 감독은 누구…축구...|goal.com|2026-08-17T08:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[공식발표] ‘월드컵 조별리그 탈락’ 홍명보 뒤이을 감독은 누구…축구...|goal.com"
+      ],
+      "earliestPublishedAt": 1786954560000,
+      "latestPublishedAt": 1786954560000,
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
+    }
   },
   {
     "id": "item_05880884abfec99e",
@@ -83,7 +214,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kgnews.co.kr/news/article.html?no=907971"
+      ],
+      "stories": [
+        "news|news|축구대표팀 임시 감독 면접 후보에 외국인 5명…포옛은 탈락|kgnews.co.kr|2026-08-17T08:14:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구대표팀 임시 감독 면접 후보에 외국인 5명…포옛은 탈락|kgnews.co.kr"
+      ],
+      "earliestPublishedAt": 1786954440000,
+      "latestPublishedAt": 1786954440000,
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
+    }
   },
   {
     "id": "item_eefe1cb037bcf975",
@@ -123,7 +270,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.nocutnews.co.kr/news/6563788"
+      ],
+      "stories": [
+        "news|news|\"epl서 韓 지고 日 떴다\"…英 가디언도 주목한 아시아 축구 대격변|nocutnews.co.kr|2026-08-17T08:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"epl서 韓 지고 日 떴다\"…英 가디언도 주목한 아시아 축구 대격변|nocutnews.co.kr"
+      ],
+      "earliestPublishedAt": 1786953900000,
+      "latestPublishedAt": 1786953900000,
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
+    }
   },
   {
     "id": "item_84fc0fdc6ecc024b",
@@ -159,7 +322,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.maniareport.com/view.php?ud=202608171322419000dad9f33a29_19"
+      ],
+      "stories": [
+        "news|news|축구협회, 임시 감독 서류 전형 마무리...이번 주 온라인 면접|maniareport.com|2026-08-17T08:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회, 임시 감독 서류 전형 마무리...이번 주 온라인 면접|maniareport.com"
+      ],
+      "earliestPublishedAt": 1786953720000,
+      "latestPublishedAt": 1786953720000,
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
+    }
   },
   {
     "id": "item_0581de5164f89d6b",
@@ -209,7 +388,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sisajournal.com/news/articleView.html?idxno=383368"
+      ],
+      "stories": [
+        "news|news|손흥민, 압도적 지목률로 9년 연속 1위…박지성 2위로 급부상 [2026 누가...|sisajournal.com|2026-08-17T08:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|손흥민, 압도적 지목률로 9년 연속 1위…박지성 2위로 급부상 [2026 누가...|sisajournal.com"
+      ],
+      "earliestPublishedAt": 1786953600000,
+      "latestPublishedAt": 1786953600000,
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
+    }
   },
   {
     "id": "item_14b52e3d749d96e2",
@@ -246,7 +441,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mk.co.kr/article/12129387"
+      ],
+      "stories": [
+        "news|news|韓축구 임시감독 서류전형 끝…이번주부터 온라인 면접 돌입|mk.co.kr|2026-08-17T07:59:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|韓축구 임시감독 서류전형 끝…이번주부터 온라인 면접 돌입|mk.co.kr"
+      ],
+      "earliestPublishedAt": 1786953540000,
+      "latestPublishedAt": 1786953540000,
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
+    }
   },
   {
     "id": "item_971d15d134d5ebf6",
@@ -287,7 +498,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.joongang.co.kr/article/25453900"
+      ],
+      "stories": [
+        "news|news|대한축구협회, 대표팀 임시 감독 서류전형 완료…면접 돌입|joongang.co.kr|2026-08-17T07:52:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한축구협회, 대표팀 임시 감독 서류전형 완료…면접 돌입|joongang.co.kr"
+      ],
+      "earliestPublishedAt": 1786953120000,
+      "latestPublishedAt": 1786953120000,
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
+    }
   },
   {
     "id": "item_c8d4313a27cc2ddd",
@@ -325,7 +552,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008708441&plink=ORI"
+      ],
+      "stories": [
+        "news|news|\"사실상 확실\" 보도에도 서류 '광탈'…코칭 스태프에 이동국도 넣었지만...|news.sbs.co.kr|2026-08-17T07:47:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"사실상 확실\" 보도에도 서류 '광탈'…코칭 스태프에 이동국도 넣었지만...|news.sbs.co.kr"
+      ],
+      "earliestPublishedAt": 1786952820000,
+      "latestPublishedAt": 1786952820000,
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
+    }
   },
   {
     "id": "item_53ec3b56e80e5649",
@@ -366,7 +609,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsworldi.com/newsView/20260817513507"
+      ],
+      "stories": [
+        "news|news|축구협회, 대표팀 임시 감독 ‘서류 전형 완료→이번 주 면접 돌입’…...|sportsworldi.com|2026-08-17T07:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회, 대표팀 임시 감독 ‘서류 전형 완료→이번 주 면접 돌입’…...|sportsworldi.com"
+      ],
+      "earliestPublishedAt": 1786952520000,
+      "latestPublishedAt": 1786952520000,
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
+    }
   },
   {
     "id": "item_b6a4e0e1ce81b392",
@@ -410,7 +669,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.nocutnews.co.kr/news/6563767"
+      ],
+      "stories": [
+        "news|news|'유력 후보' 포옛 서류 탈락 이변…축구협회, 임시 사령탑 후보 외인 5명...|nocutnews.co.kr|2026-08-17T07:41:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'유력 후보' 포옛 서류 탈락 이변…축구협회, 임시 사령탑 후보 외인 5명...|nocutnews.co.kr"
+      ],
+      "earliestPublishedAt": 1786952460000,
+      "latestPublishedAt": 1786952460000,
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
+    }
   },
   {
     "id": "item_5fb7801e79fa56d8",
@@ -467,8 +742,8 @@
       ],
       "earliestPublishedAt": 1786952340000,
       "latestPublishedAt": 1786952340000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -521,8 +796,8 @@
       ],
       "earliestPublishedAt": 1786952160000,
       "latestPublishedAt": 1786952160000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -573,8 +848,8 @@
       ],
       "earliestPublishedAt": 1786950600000,
       "latestPublishedAt": 1786950600000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -619,8 +894,8 @@
       ],
       "earliestPublishedAt": 1786950420000,
       "latestPublishedAt": 1786950420000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -671,8 +946,8 @@
       ],
       "earliestPublishedAt": 1786950120000,
       "latestPublishedAt": 1786950120000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -724,8 +999,8 @@
       ],
       "earliestPublishedAt": 1786950000000,
       "latestPublishedAt": 1786950000000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -785,8 +1060,8 @@
       ],
       "earliestPublishedAt": 1786948200000,
       "latestPublishedAt": 1786948200000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -838,8 +1113,8 @@
       ],
       "earliestPublishedAt": 1786948020000,
       "latestPublishedAt": 1786948020000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -899,8 +1174,8 @@
       ],
       "earliestPublishedAt": 1786948020000,
       "latestPublishedAt": 1786948020000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -957,8 +1232,8 @@
       ],
       "earliestPublishedAt": 1786947960000,
       "latestPublishedAt": 1786947960000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1014,9 +1289,45 @@
       ],
       "earliestPublishedAt": 1786947180000,
       "latestPublishedAt": 1786947180000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
+  },
+  {
+    "id": "item_e2bfefc412d6bc21",
+    "type": "news",
+    "title": "축구협회, 대표팀 임시 감독 면접 진행…포옛은 서류 탈락(종합)",
+    "summary": "대한축구협회 가 남자 축구 국가대표팀 임시 감독 공개 채용 관련 진행 상황을 17일 공지했다. 축구협회 는... 축구 대표팀은 2026 국제 축구 연맹(FIFA) 북중미 월드컵에서 조별리그 탈락한 뒤 홍명보 전 감독이 지휘봉을...",
+    "url": "https://www.newsis.com/view/NISX20260817_0003751502",
+    "originalUrl": "https://www.newsis.com/view/NISX20260817_0003751502",
+    "publisher": "newsis.com",
+    "publishedAt": "2026-08-17T06:10:00.000Z",
+    "collectedAt": "2026-08-17T09:23:38.289Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "전력강화위원회",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보",
+      "축구협회 이사회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_f4f43f0f8a05f815",
@@ -1070,8 +1381,8 @@
       ],
       "earliestPublishedAt": 1786946640000,
       "latestPublishedAt": 1786946640000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1120,8 +1431,8 @@
       ],
       "earliestPublishedAt": 1786945560000,
       "latestPublishedAt": 1786945560000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1167,8 +1478,8 @@
       ],
       "earliestPublishedAt": 1786945200000,
       "latestPublishedAt": 1786945200000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1224,8 +1535,8 @@
       ],
       "earliestPublishedAt": 1786945080000,
       "latestPublishedAt": 1786945080000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1274,8 +1585,8 @@
       ],
       "earliestPublishedAt": 1786945080000,
       "latestPublishedAt": 1786945080000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1325,8 +1636,8 @@
       ],
       "earliestPublishedAt": 1786945080000,
       "latestPublishedAt": 1786945080000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1385,8 +1696,8 @@
       ],
       "earliestPublishedAt": 1786944960000,
       "latestPublishedAt": 1786944960000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1435,8 +1746,8 @@
       ],
       "earliestPublishedAt": 1786944720000,
       "latestPublishedAt": 1786944720000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1488,8 +1799,8 @@
       ],
       "earliestPublishedAt": 1786944480000,
       "latestPublishedAt": 1786944480000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1536,8 +1847,8 @@
       ],
       "earliestPublishedAt": 1786944420000,
       "latestPublishedAt": 1786944420000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1588,8 +1899,8 @@
       ],
       "earliestPublishedAt": 1786944360000,
       "latestPublishedAt": 1786944360000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1646,8 +1957,8 @@
       ],
       "earliestPublishedAt": 1786944000000,
       "latestPublishedAt": 1786944000000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1700,8 +2011,8 @@
       ],
       "earliestPublishedAt": 1786943520000,
       "latestPublishedAt": 1786943520000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1758,8 +2069,8 @@
       ],
       "earliestPublishedAt": 1786943400000,
       "latestPublishedAt": 1786943400000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1844,8 +2155,8 @@
       ],
       "earliestPublishedAt": 1786942080000,
       "latestPublishedAt": 1786942080000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -1902,8 +2213,8 @@
       ],
       "earliestPublishedAt": 1786942020000,
       "latestPublishedAt": 1786942020000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -2008,8 +2319,8 @@
       ],
       "earliestPublishedAt": 1786941780000,
       "latestPublishedAt": 1786941780000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -2065,8 +2376,8 @@
       ],
       "earliestPublishedAt": 1786941780000,
       "latestPublishedAt": 1786941780000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -2122,8 +2433,8 @@
       ],
       "earliestPublishedAt": 1786941480000,
       "latestPublishedAt": 1786941480000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -2174,15 +2485,15 @@
       ],
       "earliestPublishedAt": 1786941240000,
       "latestPublishedAt": 1786941240000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
     "id": "item_1fc872a9d472a7a1",
     "type": "news",
     "title": "홍명보 후임 찾기 본격화…축구대표팀 임시 감독, 이번주 면접",
-    "summary": "이후 홍명보 전 감독이 물러나면서 현재 사령탑이 공석인 상태다. 축구협회 는 지난달 24일 이사회를 열고 오는 9월부터 11월까지 예정된 A매치 기간 대표팀을 맡을 임시 감독 선임 절차를 승인했다. 대한 체육회의...",
+    "summary": "축구협회 는 지난달 24일 이사회 를 열고 오는 9월부터 11월까지 예정된 A매치 기간 대표팀을 맡을 임시 감독 선임 절차를 승인했다. 대한체육회의 국가대표 선발 및 운영 규정에 따라 공개 채용 방식으로 새로운 사령탑을...",
     "url": "https://www.mt.co.kr/society/2026/08/17/2026081713300020131",
     "originalUrl": "https://www.mt.co.kr/society/2026/08/17/2026081713300020131",
     "publisher": "mt.co.kr",
@@ -2214,7 +2525,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 24,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ],
@@ -2231,8 +2542,8 @@
       ],
       "earliestPublishedAt": 1786941240000,
       "latestPublishedAt": 1786941240000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -2286,8 +2597,8 @@
       ],
       "earliestPublishedAt": 1786941060000,
       "latestPublishedAt": 1786941060000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -2352,14 +2663,19 @@
     "id": "item_c7d02e6cd7c54df9",
     "type": "news",
     "title": "위기의 한국 축구 누가 구하나… 축구협회, 대표팀 임시 감독 면접 돌입",
-    "summary": "대한축구협회 가 남자 성인 국가대표팀 임시 감독 서류 전형을 마치고 이제 면접 절차에 들어간다.... 한편 한국 축구 대표팀 감독은 홍명보 감독의 자진사임으로 현재 공석이다. 협회 는 차기 감독 선임을 위해 지난달...",
+    "summary": "한국 축구 대표팀 감독은 홍명보 감독의 자진사임으로 현재 공석이다. 협회는 차기 감독 선임을 위해 지난달 전력강화위원회 를 열었지만 결국 임시감독 체제로 9월부터 11월까지 진행되는 A매치 6경기를 소화하기로 결정했다.",
     "url": "https://sports.hankooki.com/news/articleView.html?idxno=6938061",
     "originalUrl": "https://sports.hankooki.com/news/articleView.html?idxno=6938061",
     "publisher": "sports.hankooki.com",
     "publishedAt": "2026-08-17T04:28:00.000Z",
     "collectedAt": "2026-08-17T05:21:12.550Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "감독 선임",
+      "전력강화위원회",
+      "감독",
+      "전력강화위원",
+      "선임",
+      "차기",
       "홍명보"
     ],
     "discoveryQueries": [
@@ -2373,13 +2689,15 @@
       "축구협회 감독 선임",
       "축구협회 감독 후보"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "coach-appointment"
+    ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 9,
+    "relevanceScore": 7,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -2397,8 +2715,8 @@
       ],
       "earliestPublishedAt": 1786940880000,
       "latestPublishedAt": 1786940880000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -2496,7 +2814,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.khan.co.kr/article/202608171324003?pt=nv"
+      ],
+      "stories": [
+        "news|news|축구협, 임시 감독 서류 합격자 발표 안한다 왜?··· “전형 진행중, ...|sports.khan.co.kr|2026-08-17T04:25:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협, 임시 감독 서류 합격자 발표 안한다 왜?··· “전형 진행중, ...|sports.khan.co.kr"
+      ],
+      "earliestPublishedAt": 1786940700000,
+      "latestPublishedAt": 1786940700000,
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
+    }
   },
   {
     "id": "item_ffe9939b7826eced",
@@ -2558,8 +2892,8 @@
       ],
       "earliestPublishedAt": 1786940640000,
       "latestPublishedAt": 1786940640000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -2779,8 +3113,8 @@
       ],
       "earliestPublishedAt": 1786931460000,
       "latestPublishedAt": 1786931460000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   },
   {
@@ -2843,8 +3177,8 @@
       ],
       "earliestPublishedAt": 1786930920000,
       "latestPublishedAt": 1786930920000,
-      "representativeCollectedAt": 1786955056919,
-      "latestCollectedAt": 1786955056919
+      "representativeCollectedAt": 1786958618289,
+      "latestCollectedAt": 1786958618289
     }
   }
 ]
