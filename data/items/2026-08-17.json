@@ -35,13 +35,29 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-08-17/202608170100096140006132"
+      ],
+      "stories": [
+        "news|news|[단독]포옛, 임시 감독 탈락! 서류 전형서 고배...kfa, 이메일로 통보|sportschosun.com|2026-08-17T01:51:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독]포옛, 임시 감독 탈락! 서류 전형서 고배...kfa, 이메일로 통보|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1786931460000,
+      "latestPublishedAt": 1786931460000,
+      "representativeCollectedAt": 1786937586463,
+      "latestCollectedAt": 1786937586463
+    }
   },
   {
     "id": "item_4ed1e04a2324d41b",
     "type": "news",
-    "title": "포옛 아니다… 한국 축구 대표팀 감독직 노린다 거론된 '해외 거물 2명'",
-    "summary": "거스 포옛 전 전북 현대 감독을 비롯해 헤수스 카사스 전 이라크 대표팀 감독 , 도메네크 토렌트 감독까지 해외 유명 지도자 3인이 최종 유력 후보군으로 떠올랐다는 구체적인 분석이 나왔다. 일본의 저명 스포츠 매체...",
+    "title": "포옛과 함께… 한국 축구 대표팀 감독직 노린다 거론된 '해외 거물 2명'",
+    "summary": "보도에 따르면 세 지도자 모두 대한축구협회( KFA )가 공식적으로 추진한 임시 감독 공개 채용 절차에 응모를... 홍명보 체제 종식과 KFA 의 임시 사령탑 카드 한국 축구 대표팀은 2026 국제축구연맹(FIFA) 북중미 월드컵 이후...",
     "url": "https://www.wikitree.co.kr/articles/1152864",
     "originalUrl": "https://www.wikitree.co.kr/articles/1152864",
     "publisher": "wikitree.co.kr",
@@ -51,7 +67,10 @@
       "대표팀 감독",
       "감독",
       "거론",
-      "감독직"
+      "감독직",
+      "대한축구협회",
+      "KFA",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -69,11 +88,33 @@
     "issueTags": [
       "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 19,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [
+      "인물 언급"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1152864"
+      ],
+      "stories": [
+        "news|news|포옛 아니다… 한국 축구 대표팀 감독직 노린다 거론된 '해외 거물 2명'|wikitree.co.kr|2026-08-17T01:42:00.000Z",
+        "news|news|포옛과 함께… 한국 축구 대표팀 감독직 노린다 거론된 '해외 거물 2명'|wikitree.co.kr|2026-08-17T01:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|포옛 아니다… 한국 축구 대표팀 감독직 노린다 거론된 '해외 거물 2명'|wikitree.co.kr",
+        "news|news|포옛과 함께… 한국 축구 대표팀 감독직 노린다 거론된 '해외 거물 2명'|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1786930920000,
+      "latestPublishedAt": 1786930920000,
+      "representativeCollectedAt": 1786937586463,
+      "latestCollectedAt": 1786937586463
+    }
   }
 ]
