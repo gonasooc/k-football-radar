@@ -3,14 +3,14 @@
     "id": "item_87454069adfed1ea",
     "type": "news",
     "title": "韓日 극명 격차 \"일본, 한국에 주도권 넘겨받아\"…프리미어리그 내 뒤바...",
-    "summary": "홍명보 감독 선임 공정성 시비와 대한 축구협회 (KFA)의 과거 성 비위 논란 등 촌극이 거듭되는 한국과 달리... 비록 '우승 후보 ' 브라질을 만나 1-2로 석패하긴 했으나, 세계 최강을 상대로 대등한 혈투를 벌이며 탈아시아급...",
+    "summary": "홍명보 감독 선임 공정성 시비와 대한축구협회( KFA )의 과거 성 비위 논란 등 촌극이 거듭되는 한국과 달리, 일본은 '100년 구상'이라는 장기 프로젝트를 동력 삼아 우상향 곡선을 그리는 중이다. 시스템과 행정력의 차이는...",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553462827",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553462827",
     "publisher": "sportalkorea.com",
     "publishedAt": "2026-08-16T23:33:00.000Z",
     "collectedAt": "2026-08-16T23:56:21.031Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "KFA",
       "감독 선임",
       "감독",
@@ -54,8 +54,8 @@
       ],
       "earliestPublishedAt": 1786923180000,
       "latestPublishedAt": 1786923180000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   },
   {
@@ -109,8 +109,8 @@
       ],
       "earliestPublishedAt": 1786922040000,
       "latestPublishedAt": 1786922040000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   },
   {
@@ -341,7 +341,23 @@
     "isOfficial": false,
     "relevanceScore": 3,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20260814_0003749766"
+      ],
+      "stories": [
+        "news|news|이동국 품은 포옛 감독, 임시 사령탑으로 태극 전사 이끌까|newsis.com|2026-08-16T22:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|이동국 품은 포옛 감독, 임시 사령탑으로 태극 전사 이끌까|newsis.com"
+      ],
+      "earliestPublishedAt": 1786917600000,
+      "latestPublishedAt": 1786917600000,
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
+    }
   },
   {
     "id": "item_4301029d3a0cac83",
@@ -380,8 +396,8 @@
       ],
       "earliestPublishedAt": 1786917600000,
       "latestPublishedAt": 1786917600000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   },
   {
@@ -498,8 +514,8 @@
       ],
       "earliestPublishedAt": 1786916040000,
       "latestPublishedAt": 1786916040000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   },
   {
@@ -551,7 +567,7 @@
     "id": "item_62c3d32bcfb6c213",
     "type": "news",
     "title": "홍명보 후임 자처 '한국 감독 하고 싶습니다' 포옛만 아니었다...카사스...",
-    "summary": "세 사람 모두 대한 축구협회 (KFA)가 진행한 공개 채용에 지원한 것으로 알려졌다. 특히 가키우치 기자는 이... 한국 대표팀은 2026 국제 축구 연맹(FIFA) 북중미 월드컵 이후 새로운 출발을 준비하고 있다. 홍명보 전 감독이...",
+    "summary": "홍명보 전 감독이 월드컵 조별리그 탈락의 책임을 지고 물러나면서 사령탑 자리가 공석이 됐다. 다만 KFA는... 새로운 회장 선거 를 준비하고 있는 상황에서 충분한 시간을 두고 정식 감독 선임 절차를 진행하기 어렵다는...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1002216",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1002216",
     "publisher": "spotvnews.co.kr",
@@ -561,8 +577,7 @@
       "감독",
       "후임",
       "홍명보",
-      "대한 축구협회",
-      "KFA"
+      "회장 선거"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -578,14 +593,15 @@
       "KFA"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "election"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 25,
     "labels": [
       "인물 언급"
     ],
@@ -602,15 +618,15 @@
       ],
       "earliestPublishedAt": 1786898220000,
       "latestPublishedAt": 1786898220000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   },
   {
     "id": "item_3d3009c41282d0e8",
     "type": "news",
     "title": "“한국의 시대 끝났다” 英 유력지 ‘촌철살인’ 박지성과 손흥민이 만...",
-    "summary": "홍명보 가 이끈 한국 축구 대표팀은 2026 국제 축구 연맹(FIFA) 북중미 월드컵에서 처참하게 무너졌다. 또 대한 축구협회 (KFA)는 성접대 관행, 감독 선임 과정 공정성 등 여러 문제로 경찰 조사를 받고 있다. 여기에 2005년...",
+    "summary": "또 대한축구협회( KFA )는 성접대 관행, 감독 선임 과정 공정성 등 여러 문제로 경찰 조사를 받고 있다. 여기에 2005년 이후 처음으로 ‘한국인 없는 PL’이 진행될 가능성이 커지고 있다. 일본 상황은 정반대다. 매체는...",
     "url": "https://sports.khan.co.kr/article/202608170101003?pt=nv",
     "originalUrl": "https://sports.khan.co.kr/article/202608170101003?pt=nv",
     "publisher": "sports.khan.co.kr",
@@ -618,12 +634,11 @@
     "collectedAt": "2026-08-16T17:00:44.543Z",
     "matchedKeywords": [
       "박지성",
-      "대한 축구협회",
+      "대한축구협회",
       "KFA",
       "감독 선임",
       "감독",
-      "선임",
-      "홍명보"
+      "선임"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -640,12 +655,11 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_park_ji_sung",
-      "person_hong_myung_bo"
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 18,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -663,8 +677,8 @@
       ],
       "earliestPublishedAt": 1786896060000,
       "latestPublishedAt": 1786896060000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   },
   {
@@ -793,8 +807,8 @@
       ],
       "earliestPublishedAt": 1786876440000,
       "latestPublishedAt": 1786876440000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   },
   {
@@ -835,8 +849,8 @@
       ],
       "earliestPublishedAt": 1786874760000,
       "latestPublishedAt": 1786874760000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   },
   {
@@ -882,8 +896,8 @@
       ],
       "earliestPublishedAt": 1786874100000,
       "latestPublishedAt": 1786874100000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   },
   {
@@ -1270,8 +1284,8 @@
       ],
       "earliestPublishedAt": 1786847340000,
       "latestPublishedAt": 1786847340000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   },
   {
@@ -1313,8 +1327,8 @@
       ],
       "earliestPublishedAt": 1786845360000,
       "latestPublishedAt": 1786845360000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   },
   {
@@ -1477,8 +1491,8 @@
       ],
       "earliestPublishedAt": 1786841520000,
       "latestPublishedAt": 1786841520000,
-      "representativeCollectedAt": 1786946694661,
-      "latestCollectedAt": 1786946694661
+      "representativeCollectedAt": 1786952339269,
+      "latestCollectedAt": 1786952339269
     }
   }
 ]
