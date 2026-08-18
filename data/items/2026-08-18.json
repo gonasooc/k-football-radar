@@ -1,5 +1,75 @@
 [
   {
+    "id": "item_7248324630b00823",
+    "type": "news",
+    "title": "“조직은 희생으로 완성...회장 조건은 인기보다 경영능력\"[장세정의 직...",
+    "summary": "\" 선거 인단 2만명 ? 인기투표 되지 않겠나 비난 여론이 빗발치자 지난 7월 6일 'K- 축구 혁신위원회'가... 7월 30일 국회 문화체육관광위원회 청문회에 출석한 정몽규 전 회장 과 홍명보 전 감독은 축구협회 운영과 감독 선임...",
+    "url": "https://www.joongang.co.kr/article/25454299",
+    "originalUrl": "https://www.joongang.co.kr/article/25454299",
+    "publisher": "joongang.co.kr",
+    "publishedAt": "2026-08-18T15:16:00.000Z",
+    "collectedAt": "2026-08-18T16:02:36.155Z",
+    "matchedKeywords": [
+      "축구협회",
+      "혁신위원회",
+      "축구 혁신",
+      "감독 선임",
+      "감독",
+      "선임",
+      "정몽규",
+      "홍명보",
+      "청문회"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 선거",
+      "\"홍명보\" 축구협회",
+      "감독 후보",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "대한축구협회 유소년 육성 시스템",
+      "대한축구협회 유소년 정책",
+      "대한축구협회 유소년 제도",
+      "대한축구협회 지도자 제도",
+      "대한축구협회장",
+      "축구 혁신",
+      "축구혁신위",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보",
+      "축구협회 부회장",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 정관",
+      "축구협회 혁신위원회",
+      "축구협회 회장 선거",
+      "축구협회 K-혁신위",
+      "축구협회장",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "innovation-committee",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 19,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_0e41cc8599974bab",
     "type": "news",
     "title": "[김PD의 비하인드캠] (40) 시민구단 광주FC, 공공재인가",
@@ -35,7 +105,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.gjdream.com/news/articleView.html?idxno=671905"
+      ],
+      "stories": [
+        "news|news|[김pd의 비하인드캠] (40) 시민구단 광주fc, 공공재인가|gjdream.com|2026-08-18T15:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[김pd의 비하인드캠] (40) 시민구단 광주fc, 공공재인가|gjdream.com"
+      ],
+      "earliestPublishedAt": 1787065320000,
+      "latestPublishedAt": 1787065320000,
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
+    }
   },
   {
     "id": "item_980c41d860973df5",
@@ -75,7 +161,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/MYH20260818232625OFi"
+      ],
+      "stories": [
+        "news|news|축구대표팀 a매치, 수원·서울·울산·용인 개최|yonhapnewstv.co.kr|2026-08-18T14:27:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구대표팀 a매치, 수원·서울·울산·용인 개최|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1787063220000,
+      "latestPublishedAt": 1787063220000,
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
+    }
   },
   {
     "id": "item_102ae29a98bef1d4",
@@ -127,8 +229,8 @@
       ],
       "earliestPublishedAt": 1787061480000,
       "latestPublishedAt": 1787061480000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -172,8 +274,8 @@
       ],
       "earliestPublishedAt": 1787057400000,
       "latestPublishedAt": 1787057400000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -222,8 +324,8 @@
       ],
       "earliestPublishedAt": 1787056560000,
       "latestPublishedAt": 1787056560000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -312,8 +414,8 @@
       ],
       "earliestPublishedAt": 1787055420000,
       "latestPublishedAt": 1787055420000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -369,8 +471,8 @@
       ],
       "earliestPublishedAt": 1787055000000,
       "latestPublishedAt": 1787055000000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -414,8 +516,8 @@
       ],
       "earliestPublishedAt": 1787054400000,
       "latestPublishedAt": 1787054400000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -457,8 +559,8 @@
       ],
       "earliestPublishedAt": 1787051280000,
       "latestPublishedAt": 1787051280000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -512,8 +614,8 @@
       ],
       "earliestPublishedAt": 1787051100000,
       "latestPublishedAt": 1787051100000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -574,8 +676,8 @@
       ],
       "earliestPublishedAt": 1787050860000,
       "latestPublishedAt": 1787050860000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -810,8 +912,8 @@
       ],
       "earliestPublishedAt": 1787043120000,
       "latestPublishedAt": 1787043120000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -890,7 +992,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://mhnse.com/news/articleView.html?idxno=1493205"
+      ],
+      "stories": [
+        "news|news|“전북 우승 포옛이 서류 탈락?”…‘인종차별 징계’ 타노스 코치가 발...|mhnse.com|2026-08-18T08:23:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“전북 우승 포옛이 서류 탈락?”…‘인종차별 징계’ 타노스 코치가 발...|mhnse.com"
+      ],
+      "earliestPublishedAt": 1787041380000,
+      "latestPublishedAt": 1787041380000,
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
+    }
   },
   {
     "id": "item_7f40fca2f5eb1e12",
@@ -976,8 +1094,8 @@
       ],
       "earliestPublishedAt": 1787039880000,
       "latestPublishedAt": 1787039880000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1023,8 +1141,8 @@
       ],
       "earliestPublishedAt": 1787039760000,
       "latestPublishedAt": 1787039760000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1073,8 +1191,8 @@
       ],
       "earliestPublishedAt": 1787037480000,
       "latestPublishedAt": 1787037480000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1121,8 +1239,8 @@
       ],
       "earliestPublishedAt": 1787037120000,
       "latestPublishedAt": 1787037120000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1209,8 +1327,8 @@
       ],
       "earliestPublishedAt": 1787036460000,
       "latestPublishedAt": 1787036460000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1255,8 +1373,8 @@
       ],
       "earliestPublishedAt": 1787035980000,
       "latestPublishedAt": 1787035980000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1303,8 +1421,8 @@
       ],
       "earliestPublishedAt": 1787035740000,
       "latestPublishedAt": 1787035740000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1352,8 +1470,8 @@
       ],
       "earliestPublishedAt": 1787035440000,
       "latestPublishedAt": 1787035440000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1407,8 +1525,8 @@
       ],
       "earliestPublishedAt": 1787035200000,
       "latestPublishedAt": 1787035200000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1455,8 +1573,8 @@
       ],
       "earliestPublishedAt": 1787034900000,
       "latestPublishedAt": 1787034900000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1504,8 +1622,8 @@
       ],
       "earliestPublishedAt": 1787034720000,
       "latestPublishedAt": 1787034720000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1560,8 +1678,8 @@
       ],
       "earliestPublishedAt": 1787034300000,
       "latestPublishedAt": 1787034300000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1616,8 +1734,8 @@
       ],
       "earliestPublishedAt": 1787034240000,
       "latestPublishedAt": 1787034240000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1666,8 +1784,8 @@
       ],
       "earliestPublishedAt": 1787032560000,
       "latestPublishedAt": 1787062680000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1719,8 +1837,8 @@
       ],
       "earliestPublishedAt": 1787032200000,
       "latestPublishedAt": 1787032200000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1766,8 +1884,8 @@
       ],
       "earliestPublishedAt": 1787031840000,
       "latestPublishedAt": 1787031840000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1827,8 +1945,8 @@
       ],
       "earliestPublishedAt": 1787031480000,
       "latestPublishedAt": 1787031480000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1875,8 +1993,8 @@
       ],
       "earliestPublishedAt": 1787031120000,
       "latestPublishedAt": 1787031120000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1916,8 +2034,8 @@
       ],
       "earliestPublishedAt": 1787030760000,
       "latestPublishedAt": 1787030760000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -1965,8 +2083,8 @@
       ],
       "earliestPublishedAt": 1787030340000,
       "latestPublishedAt": 1787030340000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2017,8 +2135,8 @@
       ],
       "earliestPublishedAt": 1787030040000,
       "latestPublishedAt": 1787030040000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2071,8 +2189,8 @@
       ],
       "earliestPublishedAt": 1787029260000,
       "latestPublishedAt": 1787029260000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2210,8 +2328,8 @@
       ],
       "earliestPublishedAt": 1787028600000,
       "latestPublishedAt": 1787028600000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2256,8 +2374,8 @@
       ],
       "earliestPublishedAt": 1787027280000,
       "latestPublishedAt": 1787027280000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2310,8 +2428,8 @@
       ],
       "earliestPublishedAt": 1787027280000,
       "latestPublishedAt": 1787027280000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2358,8 +2476,8 @@
       ],
       "earliestPublishedAt": 1787027040000,
       "latestPublishedAt": 1787027040000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2406,8 +2524,8 @@
       ],
       "earliestPublishedAt": 1787026740000,
       "latestPublishedAt": 1787026740000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2499,8 +2617,8 @@
       ],
       "earliestPublishedAt": 1787026080000,
       "latestPublishedAt": 1787026080000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2594,8 +2712,8 @@
       ],
       "earliestPublishedAt": 1787025000000,
       "latestPublishedAt": 1787025000000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2649,8 +2767,8 @@
       ],
       "earliestPublishedAt": 1787024400000,
       "latestPublishedAt": 1787024400000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2760,8 +2878,8 @@
       ],
       "earliestPublishedAt": 1787023980000,
       "latestPublishedAt": 1787023980000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -2821,8 +2939,8 @@
       ],
       "earliestPublishedAt": 1787023800000,
       "latestPublishedAt": 1787023800000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -3001,8 +3119,8 @@
       ],
       "earliestPublishedAt": 1787022240000,
       "latestPublishedAt": 1787022240000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -3067,8 +3185,8 @@
       ],
       "earliestPublishedAt": 1787022120000,
       "latestPublishedAt": 1787022120000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -3114,8 +3232,8 @@
       ],
       "earliestPublishedAt": 1787021880000,
       "latestPublishedAt": 1787021880000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -3169,9 +3287,40 @@
       ],
       "earliestPublishedAt": 1787021520000,
       "latestPublishedAt": 1787021520000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
+  },
+  {
+    "id": "item_66600f5e5e46bb63",
+    "type": "news",
+    "title": "[공식발표] '임시감독 선임' 앞둔 축가대표팀, A매치 4연전 장소 확정.....",
+    "summary": "임시 감독 선임 을 앞둔 대한민국 국가대표팀이 수원과 서울, 울산, 용인에서 차례대로 9월·10월 A매치 4연전을 치른다. 대한 축구협회 (KFA)는 18일 보도자료를 통해 \"오는 9월과 10월 국내에서 개최되는 '하나은행 초청...",
+    "url": "https://www.mydaily.co.kr/page/view/2026081811431945287",
+    "originalUrl": "https://www.mydaily.co.kr/page/view/2026081811431945287",
+    "publisher": "mydaily.co.kr",
+    "publishedAt": "2026-08-18T02:44:00.000Z",
+    "collectedAt": "2026-08-18T16:02:36.155Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "KFA",
+      "감독 선임",
+      "감독",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "축구협회 감독 선임",
+      "KFA"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_838f41b33bed677d",
@@ -3221,8 +3370,8 @@
       ],
       "earliestPublishedAt": 1787021040000,
       "latestPublishedAt": 1787021040000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -3315,8 +3464,8 @@
       ],
       "earliestPublishedAt": 1787018520000,
       "latestPublishedAt": 1787018520000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -3357,8 +3506,8 @@
       ],
       "earliestPublishedAt": 1787017560000,
       "latestPublishedAt": 1787017560000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -3417,8 +3566,8 @@
       ],
       "earliestPublishedAt": 1787016660000,
       "latestPublishedAt": 1787016660000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -3462,8 +3611,8 @@
       ],
       "earliestPublishedAt": 1787016300000,
       "latestPublishedAt": 1787016300000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -3518,8 +3667,8 @@
       ],
       "earliestPublishedAt": 1787015520000,
       "latestPublishedAt": 1787015520000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
@@ -3570,8 +3719,8 @@
       ],
       "earliestPublishedAt": 1787013240000,
       "latestPublishedAt": 1787013240000,
-      "representativeCollectedAt": 1787065722970,
-      "latestCollectedAt": 1787065722970
+      "representativeCollectedAt": 1787068956155,
+      "latestCollectedAt": 1787068956155
     }
   },
   {
