@@ -385,7 +385,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112856190"
+      ],
+      "stories": [
+        "news|news|'한국축구가 어쩌다 여기까지' bbc 대서특필...외국인 심판 성접대 의혹...|osen.co.kr|2026-08-12T22:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'한국축구가 어쩌다 여기까지' bbc 대서특필...외국인 심판 성접대 의혹...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1786573800000,
+      "latestPublishedAt": 1786573800000,
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
+    }
   },
   {
     "id": "item_75b4727abdeec9cc",
@@ -643,8 +659,8 @@
       ],
       "earliestPublishedAt": 1786564800000,
       "latestPublishedAt": 1786564800000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -726,15 +742,15 @@
       ],
       "earliestPublishedAt": 1786552920000,
       "latestPublishedAt": 1786552920000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
     "id": "item_1e140e30dae9165e",
     "type": "news",
     "title": "'법카로 10여 명 성 접대' 축구협회, 끝내 박지성까지 심경 고백...\"충격...",
-    "summary": "박지성 K- 축구 혁신위 원회 공동위원장이 성접대 파문에 대해 입을 열었다. 박 위원장은 11일 서울 종로구 국립현대미술관에서 열린 K- 축구 혁신위 원회 6차 회의 브리핑에서 최근 불거진 심판 성 접대 논란과 관련한 질문을...",
+    "summary": "우선 차기 대한 축구협회 장 선거와 관련한 제도 개선도 진행 중이다. 박 위원장은 기존 200여 명 수준이던... 회의는 축구 인과 팬들이 직접 참여하는 열린 경청회 형태로 진행될 예정이다. 유소년 육성 시스템 개편 과 리그...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1001404",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1001404",
     "publisher": "spotvnews.co.kr",
@@ -742,7 +758,7 @@
     "collectedAt": "2026-08-12T16:36:29.267Z",
     "matchedKeywords": [
       "박지성",
-      "축구 혁신"
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -781,15 +797,13 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [
-      "innovation-committee"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -807,8 +821,8 @@
       ],
       "earliestPublishedAt": 1786552260000,
       "latestPublishedAt": 1786552260000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -948,8 +962,8 @@
       ],
       "earliestPublishedAt": 1786548120000,
       "latestPublishedAt": 1786548120000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -1086,8 +1100,8 @@
       ],
       "earliestPublishedAt": 1786546860000,
       "latestPublishedAt": 1786546860000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -1228,8 +1242,8 @@
       ],
       "earliestPublishedAt": 1786536540000,
       "latestPublishedAt": 1786536540000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -1280,8 +1294,8 @@
       ],
       "earliestPublishedAt": 1786535820000,
       "latestPublishedAt": 1786535820000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -1467,8 +1481,8 @@
       ],
       "earliestPublishedAt": 1786531860000,
       "latestPublishedAt": 1786531860000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -1683,15 +1697,15 @@
       ],
       "earliestPublishedAt": 1786529460000,
       "latestPublishedAt": 1786529460000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
     "id": "item_6fbdb3e7353bbb96",
     "type": "news",
     "title": "박지성, 축구협회 심판 성접대 의혹에 \"충격적…신뢰 회복 고민할 때\"",
-    "summary": "대한 축구협회 가 과거 국제경기에 배정된 외국인 심판진 등을 상대로 성 접대를 했다는 의혹이 불거진 가운데 박지성 K- 축구 혁신위 원회 공동위원장이 축구 계의 신뢰 회복 필요성을 강조했다. 협회 장 선거와 관련해서는...",
+    "summary": "대한축구협회가 과거 국제경기에 배정된 외국인 심판진 등을 상대로 성 접대를 했다는 의혹이 불거진 가운데 박지성 K-축구 혁신위원회 공동위원장이 축구계의 신뢰 회복 필요성을 강조했다. 협회장 선거 와 관련해서는...",
     "url": "https://www.kado.net/news/articleView.html?idxno=2066377",
     "originalUrl": "https://www.kado.net/news/articleView.html?idxno=2066377",
     "publisher": "kado.net",
@@ -1700,7 +1714,9 @@
     "matchedKeywords": [
       "축구협회",
       "박지성",
-      "대한 축구협회",
+      "대한축구협회",
+      "회장 선거",
+      "혁신위원회",
       "축구 혁신"
     ],
     "discoveryQueries": [
@@ -1732,6 +1748,7 @@
       "KFA"
     ],
     "issueTags": [
+      "election",
       "innovation-committee"
     ],
     "personTags": [
@@ -1739,7 +1756,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 35,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1757,8 +1774,8 @@
       ],
       "earliestPublishedAt": 1786526760000,
       "latestPublishedAt": 1786526760000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -1818,8 +1835,8 @@
       ],
       "earliestPublishedAt": 1786526760000,
       "latestPublishedAt": 1786526760000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -1879,7 +1896,7 @@
     "id": "item_ffa338ac681638b9",
     "type": "news",
     "title": "“일 잘한다”…박문성, 박지성 혁신위 ‘열린 경청회’ 승부수에 감탄",
-    "summary": "박문성 축구 해설위원이 박지성 공동위원장이 이끄는 K 축구 혁신위 원회의 과감한 선택에 놀라움을 나타냈다. K 축구 혁신위 원회는 지난 11일 6차 회의를 열고 대한축구협회장 선거 관련 후속 조치와 유소년 선수 육성 체계...",
+    "summary": "대한축구협회장 선거 를 늦어도 올해 안에 마무리하는 것, 그리고 혁신위 논의 과정에 축구인과 팬들이 직접 참여할 수 있도록 공개하는 것이다. 특히 박지성 공동위원장이 이끄는 혁신위가 기존 축구계 내부의 논의에...",
     "url": "https://mhnse.com/news/articleView.html?idxno=1486797",
     "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1486797",
     "publisher": "mhnse.com",
@@ -1890,12 +1907,7 @@
       "대한축구협회",
       "축구협회장",
       "회장 선거",
-      "대한축구협회장",
-      "축구 혁신",
-      "유소년",
-      "육성",
-      "육성 체계",
-      "체계"
+      "대한축구협회장"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1918,16 +1930,14 @@
       "KFA"
     ],
     "issueTags": [
-      "election",
-      "innovation-committee",
-      "youth-governance"
+      "election"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 29,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ],
@@ -1944,15 +1954,15 @@
       ],
       "earliestPublishedAt": 1786526340000,
       "latestPublishedAt": 1786526340000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
     "id": "item_5f2eb55c8fe7ccc8",
     "type": "news",
     "title": "\"韓 축구 매우 안 좋은 상황\" 박지성도 무거운 입 열었다…'심판 접대' ...",
-    "summary": "'외국인 심판 접대 의혹'으로 한국 축구 가 신뢰의 위기에 놓인 가운데 박지성 K- 축구 혁신위 원회 공동위원장이 대한 축구협회 쇄신에 속도를 낸다. 첫 단추는 2026 북중미 월드컵 이후 공석이 된 축구협회 장 선거다. 기존...",
+    "summary": "'외국인 심판 접대 의혹'으로 한국 축구가 신뢰의 위기에 놓인 가운데 박지성 K-축구 혁신위원회... 10여 년 전 문화체육관광부 감사 과정에서 관련 정황이 포착된 사실이 뒤늦게 알려지면서 축구협회의 과거 행정과 내부...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1001568",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1001568",
     "publisher": "spotvnews.co.kr",
@@ -1960,8 +1970,10 @@
     "collectedAt": "2026-08-12T10:42:32.192Z",
     "matchedKeywords": [
       "박지성",
-      "대한 축구협회",
-      "축구 혁신"
+      "혁신위원회",
+      "축구 혁신",
+      "문화체육관광부 감사",
+      "감사"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -1992,7 +2004,8 @@
       "KFA"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "mcst-audit"
     ],
     "personTags": [
       "person_park_ji_sung"
@@ -2002,7 +2015,8 @@
     "relevanceScore": 21,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -2017,8 +2031,8 @@
       ],
       "earliestPublishedAt": 1786525560000,
       "latestPublishedAt": 1786525560000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -2107,8 +2121,8 @@
       ],
       "earliestPublishedAt": 1786525140000,
       "latestPublishedAt": 1786525140000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -2200,8 +2214,8 @@
       ],
       "earliestPublishedAt": 1786522740000,
       "latestPublishedAt": 1786522740000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -2272,17 +2286,14 @@
     "id": "item_c58500a4153a602f",
     "type": "news",
     "title": "“축구협회장 할 사람 없나요?” 혁신위 노력에도 ‘죽쑤어 개준다’ 우...",
-    "summary": "박지성 케이- 축구 혁신위 원회(혁신위) 공동위원장은 지난 11일 혁신위 6차 회의 이후 브리핑 자리에서 대한축구협회(KFA) 회장 보궐 선거와 관련해 “최대한 빨리 선거를 치르는 데 KFA도 적극적이다. 늦어도 올해는 넘기지...",
+    "summary": "위원으로 참여 중인 최휘영 문화체육관광부 장관은 애초 “혁신위 인물이 회장 선거 에 출마할 경우 이해관계가 충돌할 수 있다는 견해가 나왔다”며 박지성 , 이영표 등 대중의 지지를 얻으며 개혁 이미지를 갖춘 혁신위...",
     "url": "https://www.sportsseoul.com/news/read/1628303?ref=naver",
     "originalUrl": "https://www.sportsseoul.com/news/read/1628303?ref=naver",
     "publisher": "sportsseoul.com",
     "publishedAt": "2026-08-12T07:55:00.000Z",
     "collectedAt": "2026-08-12T08:51:05.649Z",
     "matchedKeywords": [
-      "축구협회장",
-      "대한축구협회",
-      "KFA",
-      "축구 혁신",
+      "회장 선거",
       "박지성"
     ],
     "discoveryQueries": [
@@ -2309,14 +2320,14 @@
       "KFA"
     ],
     "issueTags": [
-      "innovation-committee"
+      "election"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 7,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -2334,8 +2345,8 @@
       ],
       "earliestPublishedAt": 1786521300000,
       "latestPublishedAt": 1786521300000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -2600,8 +2611,8 @@
       ],
       "earliestPublishedAt": 1786520460000,
       "latestPublishedAt": 1786520460000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -2793,7 +2804,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/soccer/6257093"
+      ],
+      "stories": [
+        "news|news|k혁신위, 19일 '축구팬 초청 경청회'…라이브 중계로 국민과 소통|news1.kr|2026-08-12T07:22:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|k혁신위, 19일 '축구팬 초청 경청회'…라이브 중계로 국민과 소통|news1.kr"
+      ],
+      "earliestPublishedAt": 1786519320000,
+      "latestPublishedAt": 1786519320000,
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
+    }
   },
   {
     "id": "youtube_8ZmLN2iD-h8",
@@ -3101,7 +3128,7 @@
     "id": "item_5e3c237eb1ac294a",
     "type": "news",
     "title": "박지성도 답하기 어려웠다… 축구협회 ‘심판 성 접대’ 파문에 “신뢰...",
-    "summary": "대한 축구협회 를 둘러싼 과거 외국인 심판 접대 논란이 다시 수면 위로 올라왔다. K- 축구 혁신위 원회 공동위원장으로 활동 중인 박지성도 관련 질문을 받았지만 구체적인 판단은 아꼈다. 대신 지금 축구협회 에 필요한 것은...",
+    "summary": "K-축구 혁신위원회 공동위원장으로 활동 중인 박지성 도 관련 질문을 받았지만 구체적인 판단은 아꼈다. 대신... 최근 공개된 2016년 문화체육관광부 감사 자료에는 축구협회가 2011년 3월부터 1년 동안 7경기에 걸쳐 외국인...",
     "url": "https://mhnse.com/news/articleView.html?idxno=1486618",
     "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1486618",
     "publisher": "mhnse.com",
@@ -3109,8 +3136,10 @@
     "collectedAt": "2026-08-12T06:58:17.400Z",
     "matchedKeywords": [
       "박지성",
-      "대한 축구협회",
-      "축구 혁신"
+      "혁신위원회",
+      "축구 혁신",
+      "문화체육관광부 감사",
+      "감사"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -3128,7 +3157,8 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "mcst-audit"
     ],
     "personTags": [
       "person_park_ji_sung"
@@ -3138,7 +3168,8 @@
     "relevanceScore": 21,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -3153,8 +3184,8 @@
       ],
       "earliestPublishedAt": 1786517160000,
       "latestPublishedAt": 1786517160000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -3229,8 +3260,8 @@
       ],
       "earliestPublishedAt": 1786515960000,
       "latestPublishedAt": 1786515960000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -3348,8 +3379,8 @@
       ],
       "earliestPublishedAt": 1786514400000,
       "latestPublishedAt": 1786514400000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -3426,8 +3457,8 @@
       ],
       "earliestPublishedAt": 1786514400000,
       "latestPublishedAt": 1786514400000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -3608,7 +3639,7 @@
     "id": "item_ecd836ab72aa03e0",
     "type": "news",
     "title": "[단독] K-축구 혁신위 생중계 전환…풀뿌리 축구 민낯 '파묘'",
-    "summary": "대한축구협회장 선거 제도 개선을 집중 다뤄온 혁신위는 그동안 무관심 속에 방치됐던 한국 축구의 뿌리인... 박지성 K-축구 혁신위원회 공동위원장이 밝힌 이번 회의의 핵심 주제는 '풀뿌리 축구'. < 박지성 / K-축구...",
+    "summary": "밀실 논의에서 벗어나 최초로 시도되는 이번 생중계에서는 유소년 축구 등 한국 축구 풀뿌리 현장의 생생한... 대한축구협회 장 선거 제도 개선을 집중 다뤄온 혁신위는 그동안 무관심 속에 방치됐던 한국 축구 의 뿌리인...",
     "url": "http://www.yonhapnewstv.co.kr/news/MYH20260812143604Pzi",
     "originalUrl": "http://www.yonhapnewstv.co.kr/news/MYH20260812143604Pzi",
     "publisher": "yonhapnewstv.co.kr",
@@ -3616,12 +3647,7 @@
     "collectedAt": "2026-08-12T06:58:17.400Z",
     "matchedKeywords": [
       "축구 혁신",
-      "대한축구협회",
-      "축구협회장",
-      "회장 선거",
-      "대한축구협회장",
-      "혁신위원회",
-      "박지성"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -3641,18 +3667,14 @@
       "KFA"
     ],
     "issueTags": [
-      "innovation-committee",
-      "election"
+      "innovation-committee"
     ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
-    "labels": [
-      "인물 언급"
-    ],
+    "relevanceScore": 16,
+    "relevanceTier": "secondary",
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -3666,15 +3688,15 @@
       ],
       "earliestPublishedAt": 1786512960000,
       "latestPublishedAt": 1786512960000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
     "id": "item_0a033ff264f7bf38",
     "type": "news",
     "title": "충격적인 축구협회 ‘성 접대’ 파문에 입 연 박지성 위원장 “안 좋은...",
-    "summary": "대한축구협회가 과거 외국인 심판에게 성 접대를 했다는 사실이 밝혀지면서 파문이 일고 있는 가운데 박지성 ... 향후 축구협회 회장 선거 에 대해서는 “실수 없도록 하기 위해서 많은 준비를 하고 있다. 아직 시간이 조금...",
+    "summary": "대한축구협회가 과거 외국인 심판에게 성 접대를 했다는 사실이 밝혀지면서 파문이 일고 있는 가운데 박지성 ... 앞서 JTBC가 지난 6일 입수한 2016년 문화체육관광부의 감사 보고서에 따르면 축구협회는 2011년 3월부터 1년...",
     "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt5142ffd1a1079a5b",
     "originalUrl": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt5142ffd1a1079a5b",
     "publisher": "goal.com",
@@ -3683,7 +3705,7 @@
     "matchedKeywords": [
       "박지성",
       "대한축구협회",
-      "회장 선거"
+      "감사"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -3706,17 +3728,18 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election"
+      "mcst-audit"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 23,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -3731,8 +3754,8 @@
       ],
       "earliestPublishedAt": 1786512660000,
       "latestPublishedAt": 1786512660000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -3863,8 +3886,8 @@
       ],
       "earliestPublishedAt": 1786512120000,
       "latestPublishedAt": 1786512120000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -3995,7 +4018,7 @@
     "id": "item_af1f8f9cd385ea94",
     "type": "news",
     "title": "'심판 성 접대 파문'에…박지성 \"충격적 상황, 신뢰 회복 고민할 때\"",
-    "summary": "가운데, 박지성 K-축구 혁신위원회 공동위원장이 이에 대한 입장을 밝혔다. 박 위원장은 지난 11일 서울... 박 위원장은 \"대한축구협회 회장 선거 가 투명하고 민주적으로 진행될 수 있도록 조속한 정관개정 등으로 선거 를...",
+    "summary": "가운데, 박지성 K-축구 혁신위원회 공동위원장이 이에 대한 입장을 밝혔다. 박 위원장은 지난 11일 서울... 법인카드 오남용이 일절 발생하지 않고 있다. 이번 일을 계기로 강도 높은 조직 쇄신에 나서겠다\"고 해명 했다.",
     "url": "https://www.imaeil.com/page/view/2026081213530307944",
     "originalUrl": "https://www.imaeil.com/page/view/2026081213530307944",
     "publisher": "imaeil.com",
@@ -4003,11 +4026,9 @@
     "collectedAt": "2026-08-12T05:18:55.435Z",
     "matchedKeywords": [
       "박지성",
-      "대한축구협회",
-      "회장 선거",
-      "정관",
       "혁신위원회",
-      "축구 혁신"
+      "축구 혁신",
+      "해명"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -4029,8 +4050,6 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
-      "statute-revision",
       "innovation-committee"
     ],
     "personTags": [
@@ -4038,10 +4057,11 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -4056,8 +4076,8 @@
       ],
       "earliestPublishedAt": 1786510440000,
       "latestPublishedAt": 1786510440000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -4334,8 +4354,8 @@
       ],
       "earliestPublishedAt": 1786507440000,
       "latestPublishedAt": 1786507440000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -4436,8 +4456,8 @@
       ],
       "earliestPublishedAt": 1786506360000,
       "latestPublishedAt": 1786506360000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -4506,8 +4526,8 @@
       ],
       "earliestPublishedAt": 1786505280000,
       "latestPublishedAt": 1786505280000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -4572,8 +4592,8 @@
       ],
       "earliestPublishedAt": 1786504740000,
       "latestPublishedAt": 1786504740000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -4635,8 +4655,8 @@
       ],
       "earliestPublishedAt": 1786503240000,
       "latestPublishedAt": 1786503240000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -5070,8 +5090,8 @@
       ],
       "earliestPublishedAt": 1786500240000,
       "latestPublishedAt": 1786500240000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -5130,8 +5150,8 @@
       ],
       "earliestPublishedAt": 1786500060000,
       "latestPublishedAt": 1786500060000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -5196,8 +5216,8 @@
       ],
       "earliestPublishedAt": 1786499880000,
       "latestPublishedAt": 1786499880000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -5327,8 +5347,8 @@
       ],
       "earliestPublishedAt": 1786499220000,
       "latestPublishedAt": 1786499220000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -5435,8 +5455,8 @@
       ],
       "earliestPublishedAt": 1786498560000,
       "latestPublishedAt": 1786498560000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -5549,8 +5569,8 @@
       ],
       "earliestPublishedAt": 1786497600000,
       "latestPublishedAt": 1786497600000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -5610,8 +5630,8 @@
       ],
       "earliestPublishedAt": 1786497420000,
       "latestPublishedAt": 1786497420000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -5778,8 +5798,8 @@
       ],
       "earliestPublishedAt": 1786495440000,
       "latestPublishedAt": 1786495440000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -5965,8 +5985,8 @@
       ],
       "earliestPublishedAt": 1786494840000,
       "latestPublishedAt": 1786494840000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -6024,8 +6044,8 @@
       ],
       "earliestPublishedAt": 1786493820000,
       "latestPublishedAt": 1786493820000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   },
   {
@@ -6083,8 +6103,8 @@
       ],
       "earliestPublishedAt": 1786493040000,
       "latestPublishedAt": 1786493040000,
-      "representativeCollectedAt": 1787133842717,
-      "latestCollectedAt": 1787133842717
+      "representativeCollectedAt": 1787137314687,
+      "latestCollectedAt": 1787137314687
     }
   }
 ]
