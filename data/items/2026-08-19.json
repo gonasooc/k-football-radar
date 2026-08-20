@@ -41,8 +41,8 @@
       ],
       "earliestPublishedAt": 1787182800000,
       "latestPublishedAt": 1787182800000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -213,8 +213,8 @@
       ],
       "earliestPublishedAt": 1787177040000,
       "latestPublishedAt": 1787177040000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -264,8 +264,8 @@
       ],
       "earliestPublishedAt": 1787176920000,
       "latestPublishedAt": 1787176920000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -320,8 +320,8 @@
       ],
       "earliestPublishedAt": 1787175180000,
       "latestPublishedAt": 1787175180000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -402,8 +402,8 @@
       ],
       "earliestPublishedAt": 1787175000000,
       "latestPublishedAt": 1787175000000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -550,8 +550,8 @@
       ],
       "earliestPublishedAt": 1787171100000,
       "latestPublishedAt": 1787171100000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -639,22 +639,26 @@
       ],
       "earliestPublishedAt": 1787168520000,
       "latestPublishedAt": 1787168520000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
     "id": "item_76c14dd65aadb819",
     "type": "news",
     "title": "'한국 임시 감독 서류 탈락' 포옛, 해외 러브콜 폭발...알제리·폴란드·...",
-    "summary": "공교롭게도 해외에서의 움직임은 포옛이 대한축구협회 로부터 서류전형 탈락 통보를 받은 직후 이어졌다. 포옛은 9월부터 11월까지 A매치 6경기를 지휘할 한국 대표팀 임시 감독 공개모집에 직접 지원한 것으로...",
+    "summary": "포옛이 알제리나 다른 대표팀과 계약할 경우 한국 대표팀 정식 감독 선임 과정에 다시 이름을 올릴 가능성은 자연스럽게 낮아진다. 대한 축구협회 는 11월까지 임시 감독 체제로 A매치 6경기를 치른 뒤 새 집행부 출범과...",
     "url": "http://www.osen.co.kr/article/G1112859911",
     "originalUrl": "http://www.osen.co.kr/article/G1112859911",
     "publisher": "osen.co.kr",
     "publishedAt": "2026-08-19T19:41:00.000Z",
     "collectedAt": "2026-08-19T19:59:29.394Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한 축구협회",
+      "집행부",
+      "감독 선임",
+      "감독",
+      "선임"
     ],
     "discoveryQueries": [
       "감독 후보",
@@ -665,11 +669,14 @@
       "축구협회 감독 후보",
       "축구협회 집행부"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "kfa-executives",
+      "coach-appointment"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -685,8 +692,8 @@
       ],
       "earliestPublishedAt": 1787168460000,
       "latestPublishedAt": 1787168460000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -738,9 +745,36 @@
       ],
       "earliestPublishedAt": 1787167080000,
       "latestPublishedAt": 1787167080000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
+  },
+  {
+    "id": "item_e8918d106772595d",
+    "type": "news",
+    "title": "축구협회 심판 성접대, 日 이어 중국도 칼 빼들었다! 강력 처벌 시사…...",
+    "summary": "대한 축구협회 를 둘러싼 과거 외국인 심판 접대 의혹이 어디까지 번질지 주변국 축구협회 들의 조사 결과 에도 관심이 집중될 전망이다. 사진=SNS / 연합뉴스 / JTBC 영상 캡처",
+    "url": "https://www.xportsnews.com/article/2185694",
+    "originalUrl": "https://www.xportsnews.com/article/2185694",
+    "publisher": "xportsnews.com",
+    "publishedAt": "2026-08-19T18:00:00.000Z",
+    "collectedAt": "2026-08-20T08:18:10.064Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "조사 결과"
+    ],
+    "discoveryQueries": [
+      "축구협회 조사 결과"
+    ],
+    "issueTags": [
+      "mcst-audit"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_bba9e3666432621a",
@@ -797,8 +831,8 @@
       ],
       "earliestPublishedAt": 1787151420000,
       "latestPublishedAt": 1787151420000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -848,8 +882,8 @@
       ],
       "earliestPublishedAt": 1787147640000,
       "latestPublishedAt": 1787147640000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1032,8 +1066,8 @@
       ],
       "earliestPublishedAt": 1787145120000,
       "latestPublishedAt": 1787145120000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1198,8 +1232,8 @@
       ],
       "earliestPublishedAt": 1787144640000,
       "latestPublishedAt": 1787144640000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1242,8 +1276,8 @@
       ],
       "earliestPublishedAt": 1787144460000,
       "latestPublishedAt": 1787144460000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1310,8 +1344,8 @@
       ],
       "earliestPublishedAt": 1787143920000,
       "latestPublishedAt": 1787143920000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1358,8 +1392,8 @@
       ],
       "earliestPublishedAt": 1787142060000,
       "latestPublishedAt": 1787142060000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1492,8 +1526,8 @@
       ],
       "earliestPublishedAt": 1787141820000,
       "latestPublishedAt": 1787141820000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1541,8 +1575,8 @@
       ],
       "earliestPublishedAt": 1787141520000,
       "latestPublishedAt": 1787141520000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1590,8 +1624,8 @@
       ],
       "earliestPublishedAt": 1787141460000,
       "latestPublishedAt": 1787141460000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1634,8 +1668,8 @@
       ],
       "earliestPublishedAt": 1787141460000,
       "latestPublishedAt": 1787141460000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1678,8 +1712,8 @@
       ],
       "earliestPublishedAt": 1787141460000,
       "latestPublishedAt": 1787141460000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1722,8 +1756,8 @@
       ],
       "earliestPublishedAt": 1787141460000,
       "latestPublishedAt": 1787141460000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1904,8 +1938,8 @@
       ],
       "earliestPublishedAt": 1787140380000,
       "latestPublishedAt": 1787140380000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -1964,8 +1998,8 @@
       ],
       "earliestPublishedAt": 1787140380000,
       "latestPublishedAt": 1787140380000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -2012,8 +2046,8 @@
       ],
       "earliestPublishedAt": 1787140020000,
       "latestPublishedAt": 1787140020000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -2190,8 +2224,8 @@
       ],
       "earliestPublishedAt": 1787138700000,
       "latestPublishedAt": 1787138700000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -2256,8 +2290,8 @@
       ],
       "earliestPublishedAt": 1787138280000,
       "latestPublishedAt": 1787138280000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -2492,8 +2526,8 @@
       ],
       "earliestPublishedAt": 1787137560000,
       "latestPublishedAt": 1787137560000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -2542,8 +2576,8 @@
       ],
       "earliestPublishedAt": 1787137560000,
       "latestPublishedAt": 1787137560000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -2608,8 +2642,8 @@
       ],
       "earliestPublishedAt": 1787137500000,
       "latestPublishedAt": 1787137500000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -2657,8 +2691,8 @@
       ],
       "earliestPublishedAt": 1787137500000,
       "latestPublishedAt": 1787137500000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -2718,8 +2752,8 @@
       ],
       "earliestPublishedAt": 1787137200000,
       "latestPublishedAt": 1787137200000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -3161,8 +3195,8 @@
       ],
       "earliestPublishedAt": 1787135940000,
       "latestPublishedAt": 1787135940000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -3269,8 +3303,8 @@
       ],
       "earliestPublishedAt": 1787135520000,
       "latestPublishedAt": 1787135520000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -3314,8 +3348,8 @@
       ],
       "earliestPublishedAt": 1787135160000,
       "latestPublishedAt": 1787135160000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -3369,8 +3403,8 @@
       ],
       "earliestPublishedAt": 1787134920000,
       "latestPublishedAt": 1787134920000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -3417,8 +3451,8 @@
       ],
       "earliestPublishedAt": 1787134680000,
       "latestPublishedAt": 1787134680000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -3646,8 +3680,8 @@
       ],
       "earliestPublishedAt": 1787134200000,
       "latestPublishedAt": 1787134200000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -3725,8 +3759,8 @@
       ],
       "earliestPublishedAt": 1787134200000,
       "latestPublishedAt": 1787134200000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -3791,8 +3825,8 @@
       ],
       "earliestPublishedAt": 1787134200000,
       "latestPublishedAt": 1787134200000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -3844,8 +3878,8 @@
       ],
       "earliestPublishedAt": 1787134080000,
       "latestPublishedAt": 1787134080000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -3960,8 +3994,8 @@
       ],
       "earliestPublishedAt": 1787133660000,
       "latestPublishedAt": 1787133660000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4064,8 +4098,8 @@
       ],
       "earliestPublishedAt": 1787133360000,
       "latestPublishedAt": 1787133360000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4125,8 +4159,8 @@
       ],
       "earliestPublishedAt": 1787133180000,
       "latestPublishedAt": 1787133180000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4168,8 +4202,8 @@
       ],
       "earliestPublishedAt": 1787133120000,
       "latestPublishedAt": 1787133120000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4212,8 +4246,8 @@
       ],
       "earliestPublishedAt": 1787133000000,
       "latestPublishedAt": 1787133000000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4255,8 +4289,8 @@
       ],
       "earliestPublishedAt": 1787132880000,
       "latestPublishedAt": 1787132880000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4327,8 +4361,8 @@
       ],
       "earliestPublishedAt": 1787132760000,
       "latestPublishedAt": 1787132760000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4403,8 +4437,8 @@
       ],
       "earliestPublishedAt": 1787132760000,
       "latestPublishedAt": 1787132760000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4445,8 +4479,8 @@
       ],
       "earliestPublishedAt": 1787132640000,
       "latestPublishedAt": 1787132640000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4509,8 +4543,8 @@
       ],
       "earliestPublishedAt": 1787132640000,
       "latestPublishedAt": 1787132640000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4553,8 +4587,8 @@
       ],
       "earliestPublishedAt": 1787132220000,
       "latestPublishedAt": 1787132220000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4614,8 +4648,8 @@
       ],
       "earliestPublishedAt": 1787132040000,
       "latestPublishedAt": 1787132040000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4678,8 +4712,8 @@
       ],
       "earliestPublishedAt": 1787132040000,
       "latestPublishedAt": 1787132040000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -4752,8 +4786,8 @@
       ],
       "earliestPublishedAt": 1787131800000,
       "latestPublishedAt": 1787131800000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -5035,8 +5069,8 @@
       ],
       "earliestPublishedAt": 1787130900000,
       "latestPublishedAt": 1787130900000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -5084,8 +5118,8 @@
       ],
       "earliestPublishedAt": 1787130840000,
       "latestPublishedAt": 1787130840000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -5141,8 +5175,8 @@
       ],
       "earliestPublishedAt": 1787130720000,
       "latestPublishedAt": 1787130720000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -5202,8 +5236,8 @@
       ],
       "earliestPublishedAt": 1787130480000,
       "latestPublishedAt": 1787130480000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -5255,8 +5289,8 @@
       ],
       "earliestPublishedAt": 1787130420000,
       "latestPublishedAt": 1787130420000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -5356,8 +5390,8 @@
       ],
       "earliestPublishedAt": 1787130300000,
       "latestPublishedAt": 1787130300000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -5413,8 +5447,8 @@
       ],
       "earliestPublishedAt": 1787130240000,
       "latestPublishedAt": 1787130240000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -5509,8 +5543,8 @@
       ],
       "earliestPublishedAt": 1787129520000,
       "latestPublishedAt": 1787129520000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -5586,8 +5620,8 @@
       ],
       "earliestPublishedAt": 1787129520000,
       "latestPublishedAt": 1787129520000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -6178,8 +6212,8 @@
       ],
       "earliestPublishedAt": 1787127960000,
       "latestPublishedAt": 1787127960000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -6225,8 +6259,8 @@
       ],
       "earliestPublishedAt": 1787127900000,
       "latestPublishedAt": 1787127900000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -6442,8 +6476,8 @@
       ],
       "earliestPublishedAt": 1787127000000,
       "latestPublishedAt": 1787127000000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -6605,8 +6639,8 @@
       ],
       "earliestPublishedAt": 1787125440000,
       "latestPublishedAt": 1787125440000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -6698,8 +6732,8 @@
       ],
       "earliestPublishedAt": 1787124720000,
       "latestPublishedAt": 1787124720000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -6806,8 +6840,8 @@
       ],
       "earliestPublishedAt": 1787123520000,
       "latestPublishedAt": 1787123520000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -6852,8 +6886,8 @@
       ],
       "earliestPublishedAt": 1787123160000,
       "latestPublishedAt": 1787123160000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -6901,8 +6935,8 @@
       ],
       "earliestPublishedAt": 1787121600000,
       "latestPublishedAt": 1787121600000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -6943,8 +6977,8 @@
       ],
       "earliestPublishedAt": 1787121120000,
       "latestPublishedAt": 1787121120000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7037,8 +7071,8 @@
       ],
       "earliestPublishedAt": 1787120640000,
       "latestPublishedAt": 1787120640000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7083,8 +7117,8 @@
       ],
       "earliestPublishedAt": 1787120580000,
       "latestPublishedAt": 1787120580000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7135,8 +7169,8 @@
       ],
       "earliestPublishedAt": 1787120040000,
       "latestPublishedAt": 1787120040000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7353,8 +7387,8 @@
       ],
       "earliestPublishedAt": 1787118900000,
       "latestPublishedAt": 1787118900000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7510,8 +7544,8 @@
       ],
       "earliestPublishedAt": 1787117760000,
       "latestPublishedAt": 1787117760000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7561,8 +7595,8 @@
       ],
       "earliestPublishedAt": 1787117520000,
       "latestPublishedAt": 1787117520000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7622,8 +7656,8 @@
       ],
       "earliestPublishedAt": 1787117400000,
       "latestPublishedAt": 1787117400000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7672,8 +7706,8 @@
       ],
       "earliestPublishedAt": 1787117160000,
       "latestPublishedAt": 1787117160000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7721,8 +7755,8 @@
       ],
       "earliestPublishedAt": 1787117040000,
       "latestPublishedAt": 1787117040000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7815,8 +7849,8 @@
       ],
       "earliestPublishedAt": 1787116320000,
       "latestPublishedAt": 1787116320000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7862,8 +7896,8 @@
       ],
       "earliestPublishedAt": 1787116200000,
       "latestPublishedAt": 1787116200000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7940,8 +7974,8 @@
       ],
       "earliestPublishedAt": 1787116140000,
       "latestPublishedAt": 1787116140000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -7989,8 +8023,8 @@
       ],
       "earliestPublishedAt": 1787116080000,
       "latestPublishedAt": 1787116080000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -8034,8 +8068,8 @@
       ],
       "earliestPublishedAt": 1787116080000,
       "latestPublishedAt": 1787116080000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -8232,8 +8266,8 @@
       ],
       "earliestPublishedAt": 1787115600000,
       "latestPublishedAt": 1787115600000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -8449,8 +8483,8 @@
       ],
       "earliestPublishedAt": 1787114640000,
       "latestPublishedAt": 1787114640000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -8552,8 +8586,8 @@
       ],
       "earliestPublishedAt": 1787114160000,
       "latestPublishedAt": 1787114160000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -8650,8 +8684,8 @@
       ],
       "earliestPublishedAt": 1787113920000,
       "latestPublishedAt": 1787113920000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -8743,8 +8777,8 @@
       ],
       "earliestPublishedAt": 1787113500000,
       "latestPublishedAt": 1787113500000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -8787,8 +8821,8 @@
       ],
       "earliestPublishedAt": 1787113200000,
       "latestPublishedAt": 1787113200000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -8921,8 +8955,8 @@
       ],
       "earliestPublishedAt": 1787112300000,
       "latestPublishedAt": 1787112300000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -8979,8 +9013,8 @@
       ],
       "earliestPublishedAt": 1787111460000,
       "latestPublishedAt": 1787111460000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -9139,8 +9173,8 @@
       ],
       "earliestPublishedAt": 1787109600000,
       "latestPublishedAt": 1787109600000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -9360,8 +9394,8 @@
       ],
       "earliestPublishedAt": 1787108760000,
       "latestPublishedAt": 1787108760000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -9454,8 +9488,8 @@
       ],
       "earliestPublishedAt": 1787108580000,
       "latestPublishedAt": 1787108580000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -9502,8 +9536,8 @@
       ],
       "earliestPublishedAt": 1787108580000,
       "latestPublishedAt": 1787108580000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -9559,8 +9593,8 @@
       ],
       "earliestPublishedAt": 1787108400000,
       "latestPublishedAt": 1787108400000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -9744,8 +9778,8 @@
       ],
       "earliestPublishedAt": 1787106660000,
       "latestPublishedAt": 1787106660000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -9847,8 +9881,8 @@
       ],
       "earliestPublishedAt": 1787105700000,
       "latestPublishedAt": 1787105700000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -10013,8 +10047,8 @@
       ],
       "earliestPublishedAt": 1787104260000,
       "latestPublishedAt": 1787104260000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -10056,8 +10090,8 @@
       ],
       "earliestPublishedAt": 1787103840000,
       "latestPublishedAt": 1787103840000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -10106,8 +10140,8 @@
       ],
       "earliestPublishedAt": 1787101560000,
       "latestPublishedAt": 1787101560000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   },
   {
@@ -10329,8 +10363,8 @@
       ],
       "earliestPublishedAt": 1787098500000,
       "latestPublishedAt": 1787098500000,
-      "representativeCollectedAt": 1787210850043,
-      "latestCollectedAt": 1787210850043
+      "representativeCollectedAt": 1787213890064,
+      "latestCollectedAt": 1787213890064
     }
   }
 ]
