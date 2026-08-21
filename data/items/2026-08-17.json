@@ -223,8 +223,8 @@
       ],
       "earliestPublishedAt": 1787009400000,
       "latestPublishedAt": 1787009400000,
-      "representativeCollectedAt": 1787289359070,
-      "latestCollectedAt": 1787289359070
+      "representativeCollectedAt": 1787292227895,
+      "latestCollectedAt": 1787292227895
     }
   },
   {
@@ -993,8 +993,8 @@
       ],
       "earliestPublishedAt": 1786978860000,
       "latestPublishedAt": 1786978860000,
-      "representativeCollectedAt": 1787289359070,
-      "latestCollectedAt": 1787289359070
+      "representativeCollectedAt": 1787292227895,
+      "latestCollectedAt": 1787292227895
     }
   },
   {
@@ -2319,8 +2319,8 @@
       ],
       "earliestPublishedAt": 1786954560000,
       "latestPublishedAt": 1786954560000,
-      "representativeCollectedAt": 1787289359070,
-      "latestCollectedAt": 1787289359070
+      "representativeCollectedAt": 1787292227895,
+      "latestCollectedAt": 1787292227895
     }
   },
   {
@@ -2617,8 +2617,8 @@
       ],
       "earliestPublishedAt": 1786953600000,
       "latestPublishedAt": 1786953600000,
-      "representativeCollectedAt": 1787289359070,
-      "latestCollectedAt": 1787289359070
+      "representativeCollectedAt": 1787292227895,
+      "latestCollectedAt": 1787292227895
     }
   },
   {
@@ -2731,14 +2731,16 @@
     "id": "item_14ba4af0f7168ea3",
     "type": "news",
     "title": "축구협회, 임시 감독 서류 전형 마무리…이번 주 온라인 면접 돌입",
-    "summary": "어수선한 상황 속에서 축구협회 는 지난달 24일 이사회 를 열고 오는 9월부터 11월까지 A매치 일정을 소화할 임시 감독 선임 절차를 승인했다. 이번 채용은 대한체육회 국가대표 선발 및 운영 규정에 의거해 투명한...",
+    "summary": "대표팀은 2026 국제 축구 연맹(FIFA) 북중미 월드컵 조별리그에서 탈락하는 고배를 마셨고, 이에 대한 책임을 지고 홍명보 전 감독이 지휘봉을 내려놓았다. 정몽규 축구협회 장까지 자리에서 물러난 가운데 협회 는 국회...",
     "url": "https://www.ajunews.com/view/20260817164708740",
     "originalUrl": "https://www.ajunews.com/view/20260817164708740",
     "publisher": "ajunews.com",
     "publishedAt": "2026-08-17T07:50:00.000Z",
     "collectedAt": "2026-08-18T07:24:44.065Z",
     "matchedKeywords": [
-      "축구협회"
+      "축구협회",
+      "정몽규",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2748,12 +2750,17 @@
       "축구협회장"
     ],
     "issueTags": [],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 3,
+    "relevanceScore": 9,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -2767,8 +2774,8 @@
       ],
       "earliestPublishedAt": 1786953000000,
       "latestPublishedAt": 1786953000000,
-      "representativeCollectedAt": 1787289359070,
-      "latestCollectedAt": 1787289359070
+      "representativeCollectedAt": 1787292227895,
+      "latestCollectedAt": 1787292227895
     }
   },
   {
@@ -3133,8 +3140,8 @@
       ],
       "earliestPublishedAt": 1786950420000,
       "latestPublishedAt": 1786950420000,
-      "representativeCollectedAt": 1787289359070,
-      "latestCollectedAt": 1787289359070
+      "representativeCollectedAt": 1787292227895,
+      "latestCollectedAt": 1787292227895
     }
   },
   {
@@ -3738,8 +3745,8 @@
       ],
       "earliestPublishedAt": 1786946640000,
       "latestPublishedAt": 1786946640000,
-      "representativeCollectedAt": 1787289359070,
-      "latestCollectedAt": 1787289359070
+      "representativeCollectedAt": 1787292227895,
+      "latestCollectedAt": 1787292227895
     }
   },
   {
@@ -5283,8 +5290,8 @@
       ],
       "earliestPublishedAt": 1786940700000,
       "latestPublishedAt": 1786940700000,
-      "representativeCollectedAt": 1787289359070,
-      "latestCollectedAt": 1787289359070
+      "representativeCollectedAt": 1787292227895,
+      "latestCollectedAt": 1787292227895
     }
   },
   {
@@ -5672,8 +5679,8 @@
       ],
       "earliestPublishedAt": 1786930920000,
       "latestPublishedAt": 1786930920000,
-      "representativeCollectedAt": 1787289359070,
-      "latestCollectedAt": 1787289359070
+      "representativeCollectedAt": 1787292227895,
+      "latestCollectedAt": 1787292227895
     }
   }
 ]
