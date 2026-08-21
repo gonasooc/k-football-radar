@@ -59,7 +59,23 @@
     "relevanceScore": 37,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.starnewskorea.com/sports/2026/08/22/2026082122430096578"
+      ],
+      "stories": [
+        "news|news|'홍명보 선임 주도→청문회 불출석' 이임생 이사 근황 공개, 소속팀서 ...|starnewskorea.com|2026-08-21T16:07:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'홍명보 선임 주도→청문회 불출석' 이임생 이사 근황 공개, 소속팀서 ...|starnewskorea.com"
+      ],
+      "earliestPublishedAt": 1787328420000,
+      "latestPublishedAt": 1787328420000,
+      "representativeCollectedAt": 1787335371675,
+      "latestCollectedAt": 1787335371675
+    }
   },
   {
     "id": "item_dc225a35e6ae7b8c",
@@ -107,8 +123,8 @@
       ],
       "earliestPublishedAt": 1787328060000,
       "latestPublishedAt": 1787328060000,
-      "representativeCollectedAt": 1787332002110,
-      "latestCollectedAt": 1787332002110
+      "representativeCollectedAt": 1787335371675,
+      "latestCollectedAt": 1787335371675
     }
   },
   {
@@ -162,8 +178,8 @@
       ],
       "earliestPublishedAt": 1787328000000,
       "latestPublishedAt": 1787328000000,
-      "representativeCollectedAt": 1787332002110,
-      "latestCollectedAt": 1787332002110
+      "representativeCollectedAt": 1787335371675,
+      "latestCollectedAt": 1787335371675
     }
   },
   {
@@ -202,8 +218,8 @@
       ],
       "earliestPublishedAt": 1787326800000,
       "latestPublishedAt": 1787326800000,
-      "representativeCollectedAt": 1787332002110,
-      "latestCollectedAt": 1787332002110
+      "representativeCollectedAt": 1787335371675,
+      "latestCollectedAt": 1787335371675
     }
   },
   {
@@ -254,8 +270,8 @@
       ],
       "earliestPublishedAt": 1787321100000,
       "latestPublishedAt": 1787321100000,
-      "representativeCollectedAt": 1787332002110,
-      "latestCollectedAt": 1787332002110
+      "representativeCollectedAt": 1787335371675,
+      "latestCollectedAt": 1787335371675
     }
   },
   {
@@ -382,8 +398,8 @@
       ],
       "earliestPublishedAt": 1787293380000,
       "latestPublishedAt": 1787293380000,
-      "representativeCollectedAt": 1787332002110,
-      "latestCollectedAt": 1787332002110
+      "representativeCollectedAt": 1787335371675,
+      "latestCollectedAt": 1787335371675
     }
   },
   {
@@ -586,8 +602,8 @@
       ],
       "earliestPublishedAt": 1787281080000,
       "latestPublishedAt": 1787298420000,
-      "representativeCollectedAt": 1787332002110,
-      "latestCollectedAt": 1787332002110
+      "representativeCollectedAt": 1787335371675,
+      "latestCollectedAt": 1787335371675
     }
   },
   {
@@ -637,8 +653,8 @@
       ],
       "earliestPublishedAt": 1787272080000,
       "latestPublishedAt": 1787272080000,
-      "representativeCollectedAt": 1787332002110,
-      "latestCollectedAt": 1787332002110
+      "representativeCollectedAt": 1787335371675,
+      "latestCollectedAt": 1787335371675
     }
   }
 ]
