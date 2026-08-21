@@ -31,7 +31,23 @@
     "relevanceScore": 21,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=1003072"
+      ],
+      "stories": [
+        "news|news|'칸쿤 논란' 김병지 \"박문성 씨, 민사 소송 제기하겠습니다\"...아들 토트...|spotvnews.co.kr|2026-08-21T14:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'칸쿤 논란' 김병지 \"박문성 씨, 민사 소송 제기하겠습니다\"...아들 토트...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1787321100000,
+      "latestPublishedAt": 1787321100000,
+      "representativeCollectedAt": 1787325259454,
+      "latestCollectedAt": 1787325259454
+    }
   },
   {
     "id": "item_d2b7f8a38f4c6e04",
@@ -119,8 +135,8 @@
       ],
       "earliestPublishedAt": 1787295300000,
       "latestPublishedAt": 1787295300000,
-      "representativeCollectedAt": 1787321938314,
-      "latestCollectedAt": 1787321938314
+      "representativeCollectedAt": 1787325259454,
+      "latestCollectedAt": 1787325259454
     }
   },
   {
@@ -157,8 +173,8 @@
       ],
       "earliestPublishedAt": 1787293380000,
       "latestPublishedAt": 1787293380000,
-      "representativeCollectedAt": 1787321938314,
-      "latestCollectedAt": 1787321938314
+      "representativeCollectedAt": 1787325259454,
+      "latestCollectedAt": 1787325259454
     }
   },
   {
@@ -361,8 +377,8 @@
       ],
       "earliestPublishedAt": 1787281080000,
       "latestPublishedAt": 1787298420000,
-      "representativeCollectedAt": 1787321938314,
-      "latestCollectedAt": 1787321938314
+      "representativeCollectedAt": 1787325259454,
+      "latestCollectedAt": 1787325259454
     }
   },
   {
@@ -412,8 +428,8 @@
       ],
       "earliestPublishedAt": 1787272080000,
       "latestPublishedAt": 1787272080000,
-      "representativeCollectedAt": 1787321938314,
-      "latestCollectedAt": 1787321938314
+      "representativeCollectedAt": 1787325259454,
+      "latestCollectedAt": 1787325259454
     }
   }
 ]
