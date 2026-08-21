@@ -1,5 +1,67 @@
 [
   {
+    "id": "item_3b9a16d160b0f958",
+    "type": "news",
+    "title": "'홍명보 선임 주도→청문회 불출석' 이임생 이사 근황 공개, 소속팀서 ...",
+    "summary": "차기 회장 선거는 시기조차 미정이고, 홍명보 감독 사퇴로 공석인 축구 대표팀 감독 은 당장 '임시 감독 '부터 선임 하기 위한 공개 채용 절차가 진행 중이다. 이런 가운데 공개된 이임생 전 이사의 '환한 미소'는, 여전히...",
+    "url": "https://www.starnewskorea.com/sports/2026/08/22/2026082122430096578",
+    "originalUrl": "https://www.starnewskorea.com/sports/2026/08/22/2026082122430096578",
+    "publisher": "starnewskorea.com",
+    "publishedAt": "2026-08-21T16:07:00.000Z",
+    "collectedAt": "2026-08-21T17:06:42.110Z",
+    "matchedKeywords": [
+      "홍명보",
+      "이임생",
+      "청문회",
+      "회장 선거",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "차기",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"이임생\" 감사",
+      "\"이임생\" 대한축구협회",
+      "\"이임생\" 선거",
+      "\"이임생\" 축구협회",
+      "\"정몽규\" 감사",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 감사",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 선거",
+      "\"홍명보\" 축구협회",
+      "감독 후보",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보",
+      "축구협회 감사",
+      "축구협회 문체부 감사",
+      "축구협회 부회장",
+      "축구협회 회장 선거",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "election",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 37,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_dc225a35e6ae7b8c",
     "type": "news",
     "title": "김병지, 박문성 위원 향해 민사소송 예고 \"정말 몰랐나? 난 칸쿤 안 갔다...",
@@ -31,7 +93,23 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112861625"
+      ],
+      "stories": [
+        "news|news|김병지, 박문성 위원 향해 민사소송 예고 \"정말 몰랐나? 난 칸쿤 안 갔다...|osen.co.kr|2026-08-21T16:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|김병지, 박문성 위원 향해 민사소송 예고 \"정말 몰랐나? 난 칸쿤 안 갔다...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1787328060000,
+      "latestPublishedAt": 1787328060000,
+      "representativeCollectedAt": 1787332002110,
+      "latestCollectedAt": 1787332002110
+    }
   },
   {
     "id": "item_db72693b79223ab5",
@@ -70,7 +148,23 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2186580"
+      ],
+      "stories": [
+        "news|news|김병지 화 났다! \"나 칸쿤 간 적 없다\"…박문성 해설위원에 정면 반박→...|xportsnews.com|2026-08-21T16:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|김병지 화 났다! \"나 칸쿤 간 적 없다\"…박문성 해설위원에 정면 반박→...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1787328000000,
+      "latestPublishedAt": 1787328000000,
+      "representativeCollectedAt": 1787332002110,
+      "latestCollectedAt": 1787332002110
+    }
   },
   {
     "id": "item_91e2284575b7c842",
@@ -94,12 +188,28 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.chosun.com/sports/football/2026/08/22/LAP2XS6HPNEQPJA3SUATXD7PKA"
+      ],
+      "stories": [
+        "news|news|금호고, 매탄고 꺾고 작년 결승 패배 설욕|chosun.com|2026-08-21T15:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|금호고, 매탄고 꺾고 작년 결승 패배 설욕|chosun.com"
+      ],
+      "earliestPublishedAt": 1787326800000,
+      "latestPublishedAt": 1787326800000,
+      "representativeCollectedAt": 1787332002110,
+      "latestCollectedAt": 1787332002110
+    }
   },
   {
     "id": "item_6e7976b890f6b743",
     "type": "news",
-    "title": "'칸쿤 논란' 김병지 \"박문성 씨, 민사 소송 제기하겠습니다\"...아들 토트...",
+    "title": "'칸쿤 논란' 김병지 \"민사 소송 제기하겠습니다\"...아들 토트넘 연수 문...",
     "summary": "김병지 대표이사는 박문성 해설위원이 과거 방송에서 언급했던 대한 축구협회 내부 일화에 대해서도 입장을 밝혔다. 박 위원은 축구 인 출신의 대한 축구협회 부회장이 나이키 출신의 협회 마케팅 담당자를 자신의 방으로...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1003072",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1003072",
@@ -135,15 +245,17 @@
         "https://www.spotvnews.co.kr/news/articleView.html?idxno=1003072"
       ],
       "stories": [
+        "news|news|'칸쿤 논란' 김병지 \"민사 소송 제기하겠습니다\"...아들 토트넘 연수 문...|spotvnews.co.kr|2026-08-21T14:05:00.000Z",
         "news|news|'칸쿤 논란' 김병지 \"박문성 씨, 민사 소송 제기하겠습니다\"...아들 토트...|spotvnews.co.kr|2026-08-21T14:05:00.000Z"
       ],
       "nearKeys": [
+        "news|news|'칸쿤 논란' 김병지 \"민사 소송 제기하겠습니다\"...아들 토트넘 연수 문...|spotvnews.co.kr",
         "news|news|'칸쿤 논란' 김병지 \"박문성 씨, 민사 소송 제기하겠습니다\"...아들 토트...|spotvnews.co.kr"
       ],
       "earliestPublishedAt": 1787321100000,
       "latestPublishedAt": 1787321100000,
-      "representativeCollectedAt": 1787328284092,
-      "latestCollectedAt": 1787328284092
+      "representativeCollectedAt": 1787332002110,
+      "latestCollectedAt": 1787332002110
     }
   },
   {
@@ -270,8 +382,8 @@
       ],
       "earliestPublishedAt": 1787293380000,
       "latestPublishedAt": 1787293380000,
-      "representativeCollectedAt": 1787328284092,
-      "latestCollectedAt": 1787328284092
+      "representativeCollectedAt": 1787332002110,
+      "latestCollectedAt": 1787332002110
     }
   },
   {
@@ -474,8 +586,8 @@
       ],
       "earliestPublishedAt": 1787281080000,
       "latestPublishedAt": 1787298420000,
-      "representativeCollectedAt": 1787328284092,
-      "latestCollectedAt": 1787328284092
+      "representativeCollectedAt": 1787332002110,
+      "latestCollectedAt": 1787332002110
     }
   },
   {
@@ -525,8 +637,8 @@
       ],
       "earliestPublishedAt": 1787272080000,
       "latestPublishedAt": 1787272080000,
-      "representativeCollectedAt": 1787328284092,
-      "latestCollectedAt": 1787328284092
+      "representativeCollectedAt": 1787332002110,
+      "latestCollectedAt": 1787332002110
     }
   }
 ]
