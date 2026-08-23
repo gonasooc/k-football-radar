@@ -21,7 +21,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.chosun.com/sports/football/2026/08/24/F2Z7L76JV5HWPGNXKXCQACCVQE"
+      ],
+      "stories": [
+        "news|news|신평고 4골 폭발… 고교축구선수권 8강 안착|chosun.com|2026-08-23T15:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|신평고 4골 폭발… 고교축구선수권 8강 안착|chosun.com"
+      ],
+      "earliestPublishedAt": 1787499600000,
+      "latestPublishedAt": 1787499600000,
+      "representativeCollectedAt": 1787504466474,
+      "latestCollectedAt": 1787504466474
+    }
   },
   {
     "id": "item_0a99ad35da67e143",
@@ -55,7 +71,23 @@
     "relevanceScore": 21,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kwnews.co.kr/article/20260823500979"
+      ],
+      "stories": [
+        "news|news|김병지 대표이사 “허위 의혹엔 더 이상 침묵 않겠다”…법적 대응 시사|kwnews.co.kr|2026-08-23T15:25:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|김병지 대표이사 “허위 의혹엔 더 이상 침묵 않겠다”…법적 대응 시사|kwnews.co.kr"
+      ],
+      "earliestPublishedAt": 1787498700000,
+      "latestPublishedAt": 1787498700000,
+      "representativeCollectedAt": 1787504466474,
+      "latestCollectedAt": 1787504466474
+    }
   },
   {
     "id": "youtube_zZPJ7FCxuQk",
