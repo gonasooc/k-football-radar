@@ -1726,8 +1726,8 @@
       ],
       "earliestPublishedAt": 1786050060000,
       "latestPublishedAt": 1786050060000,
-      "representativeCollectedAt": 1787652375059,
-      "latestCollectedAt": 1787652375059
+      "representativeCollectedAt": 1787655875590,
+      "latestCollectedAt": 1787655875590
     }
   },
   {
@@ -5167,8 +5167,8 @@
       ],
       "earliestPublishedAt": 1786011840000,
       "latestPublishedAt": 1786011840000,
-      "representativeCollectedAt": 1787652375059,
-      "latestCollectedAt": 1787652375059
+      "representativeCollectedAt": 1787655875590,
+      "latestCollectedAt": 1787655875590
     }
   },
   {
@@ -7471,8 +7471,8 @@
       ],
       "earliestPublishedAt": 1785989340000,
       "latestPublishedAt": 1785989340000,
-      "representativeCollectedAt": 1787652375059,
-      "latestCollectedAt": 1787652375059
+      "representativeCollectedAt": 1787655875590,
+      "latestCollectedAt": 1787655875590
     }
   },
   {
@@ -9705,8 +9705,8 @@
       ],
       "earliestPublishedAt": 1785981660000,
       "latestPublishedAt": 1785981660000,
-      "representativeCollectedAt": 1787652375059,
-      "latestCollectedAt": 1787652375059
+      "representativeCollectedAt": 1787655875590,
+      "latestCollectedAt": 1787655875590
     }
   },
   {
@@ -10475,15 +10475,15 @@
       ],
       "earliestPublishedAt": 1785980040000,
       "latestPublishedAt": 1785980040000,
-      "representativeCollectedAt": 1787652375059,
-      "latestCollectedAt": 1787652375059
+      "representativeCollectedAt": 1787655875590,
+      "latestCollectedAt": 1787655875590
     }
   },
   {
     "id": "item_a2f436f966dd8b30",
     "type": "news",
     "title": "2만명까지 커진 축구협회 회장 선거인단…누가 유리할까",
-    "summary": "축구 계에서는 이 권고안에 맞춰 축구협회 가 대의원 총회를 열어 정관을 개정하고 전자투표를 어떻게 실시할지 등 선거 방식을 정하는 데에 최소 3개월 정도는 걸린다고 보고 있다. 확대된 선거인단 구성원 중 대학...",
+    "summary": "선거 인단에서 동호인 규모도 5천여명 수준이 될 것으로 전해지면서 대중에게 잘 알려진 스타 경기인 출신 후보가 당선될 가능성도 적지 않다. 그 중에는 김병지 강원FC 대표이사가 유력한 후보로 거론된다. 변 전 회장...",
     "url": "https://www.imaeil.com/page/view/2026080610334128414",
     "originalUrl": "https://www.imaeil.com/page/view/2026080610334128414",
     "publisher": "imaeil.com",
@@ -10494,8 +10494,7 @@
       "회장 선거",
       "선거인단",
       "선거인",
-      "대의원",
-      "정관"
+      "김병지"
     ],
     "discoveryQueries": [
       "\"김병지\" 대한축구협회",
@@ -10519,14 +10518,16 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college",
-      "statute-revision"
+      "electoral-college"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_kim_byung_ji"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
+    "relevanceScore": 38,
     "labels": [
+      "인물 언급",
       "선거 키워드 포함"
     ],
     "dedupeState": {
@@ -10542,8 +10543,8 @@
       ],
       "earliestPublishedAt": 1785980040000,
       "latestPublishedAt": 1785980040000,
-      "representativeCollectedAt": 1787652375059,
-      "latestCollectedAt": 1787652375059
+      "representativeCollectedAt": 1787655875590,
+      "latestCollectedAt": 1787655875590
     }
   },
   {
