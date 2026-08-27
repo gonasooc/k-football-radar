@@ -96,6 +96,22 @@
     "relevanceScore": 6,
     "relevanceTier": "secondary",
     "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=rSkUCxWWX5s"
+      ],
+      "stories": [
+        "youtube|youtube|축구협회, 프로심판평가협의체 개편…비심판 출신 40%이상으로 확대|아주경제|2026-08-25T22:59:55Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|축구협회, 프로심판평가협의체 개편…비심판 출신 40%이상으로 확대|아주경제"
+      ],
+      "earliestPublishedAt": 1787698795000,
+      "latestPublishedAt": 1787698795000,
+      "representativeCollectedAt": 1787869011661,
+      "latestCollectedAt": 1787869011661
+    },
     "youtube": {
       "videoId": "rSkUCxWWX5s",
       "channelId": "UCmvqtBEL3UM3VpVIKkCjPmg",
@@ -377,8 +393,8 @@
       ],
       "earliestPublishedAt": 1787689786000,
       "latestPublishedAt": 1787689786000,
-      "representativeCollectedAt": 1787750231457,
-      "latestCollectedAt": 1787750231457
+      "representativeCollectedAt": 1787869011661,
+      "latestCollectedAt": 1787869011661
     },
     "youtube": {
       "videoId": "_HEEX4NLZKY",
@@ -748,8 +764,8 @@
       ],
       "earliestPublishedAt": 1787665439000,
       "latestPublishedAt": 1787665439000,
-      "representativeCollectedAt": 1787750231457,
-      "latestCollectedAt": 1787750231457
+      "representativeCollectedAt": 1787869011661,
+      "latestCollectedAt": 1787869011661
     },
     "youtube": {
       "videoId": "2lLvbj7oO0w",
