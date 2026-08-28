@@ -467,6 +467,22 @@
     "relevanceScore": 26,
     "relevanceTier": "secondary",
     "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=AJgxH39aTWw"
+      ],
+      "stories": [
+        "youtube|youtube|(자막방송) 대한축구협회, 법인카드 건별 내역 대신 뭉뚱그린 꼼수 자료 제출|정부남 news|2026-08-27T11:30:48Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|(자막방송) 대한축구협회, 법인카드 건별 내역 대신 뭉뚱그린 꼼수 자료 제출|정부남 news"
+      ],
+      "earliestPublishedAt": 1787830248000,
+      "latestPublishedAt": 1787830248000,
+      "representativeCollectedAt": 1787955701145,
+      "latestCollectedAt": 1787955701145
+    },
     "youtube": {
       "videoId": "AJgxH39aTWw",
       "channelId": "UCWI2LIxZM8d6jEN3boLmbcQ",
