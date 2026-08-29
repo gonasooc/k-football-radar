@@ -569,6 +569,22 @@
     "relevanceScore": 3,
     "relevanceTier": "secondary",
     "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=qkT2sp46_7U"
+      ],
+      "stories": [
+        "youtube|youtube|주심이 \"예민해, 생리하나 봐\"…지소연 항의하자 '레드카드' 꺼냈다 / jtbc 이 시각 뉴스룸|jtbc news|2026-08-29T03:43:27Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|주심이 \"예민해, 생리하나 봐\"…지소연 항의하자 '레드카드' 꺼냈다 / jtbc 이 시각 뉴스룸|jtbc news"
+      ],
+      "earliestPublishedAt": 1787975007000,
+      "latestPublishedAt": 1787975007000,
+      "representativeCollectedAt": 1788021843373,
+      "latestCollectedAt": 1788021843373
+    },
     "youtube": {
       "videoId": "qkT2sp46_7U",
       "channelId": "UCsU-I-vHLiaMfV_ceaYz5rQ",
@@ -661,6 +677,22 @@
     "labels": [
       "인물 언급"
     ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=yrfaUtBrDKM"
+      ],
+      "stories": [
+        "youtube|youtube|\"축구협회보다 더 심각\" ... 박지성의 폭로|jtv뉴스|2026-08-29T01:05:28Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|\"축구협회보다 더 심각\" ... 박지성의 폭로|jtv뉴스"
+      ],
+      "earliestPublishedAt": 1787965528000,
+      "latestPublishedAt": 1787965528000,
+      "representativeCollectedAt": 1788021843373,
+      "latestCollectedAt": 1788021843373
+    },
     "youtube": {
       "videoId": "yrfaUtBrDKM",
       "channelId": "UCWGk_-J9WJxgFBAgJXi4ilA",
