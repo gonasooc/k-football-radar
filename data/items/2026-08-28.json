@@ -28,7 +28,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://weekly.khan.co.kr/article/202608290600021"
+      ],
+      "stories": [
+        "news|news|[단독] “축구협회보다 더 부패”…상이군경회 ‘상납’ 의혹 수사 왜 ...|weekly.khan.co.kr|2026-08-28T21:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] “축구협회보다 더 부패”…상이군경회 ‘상납’ 의혹 수사 왜 ...|weekly.khan.co.kr"
+      ],
+      "earliestPublishedAt": 1787950920000,
+      "latestPublishedAt": 1787950920000,
+      "representativeCollectedAt": 1787995378578,
+      "latestCollectedAt": 1787995378578
+    }
   },
   {
     "id": "item_ff79b294690e8f9a",
@@ -78,8 +94,8 @@
       ],
       "earliestPublishedAt": 1787940900000,
       "latestPublishedAt": 1787940900000,
-      "representativeCollectedAt": 1787970434573,
-      "latestCollectedAt": 1787970434573
+      "representativeCollectedAt": 1787995378578,
+      "latestCollectedAt": 1787995378578
     }
   },
   {
@@ -125,6 +141,30 @@
       "representativeCollectedAt": 1787970434573,
       "latestCollectedAt": 1787970434573
     }
+  },
+  {
+    "id": "item_01ed6bda5351a74d",
+    "type": "news",
+    "title": "상반된 팀 컬러… 양보 없는 ‘정면 충돌’",
+    "summary": "두 팀은 29일 오후 5시 30분 경북 안동시민운동장에서 열리는 제81회 전국고교축구선수권 겸 2026 전국고등축구리그 왕중왕전(조선일보사· 대한축구협회 ·교육부·문화체육관광부 주최) 결승전에서 맞붙는다. K리그1...",
+    "url": "https://www.chosun.com/sports/football/2026/08/29/WKU3EFCELNGJPK5IFQZYVN7PM4",
+    "originalUrl": "https://www.chosun.com/sports/football/2026/08/29/WKU3EFCELNGJPK5IFQZYVN7PM4",
+    "publisher": "chosun.com",
+    "publishedAt": "2026-08-28T15:33:00.000Z",
+    "collectedAt": "2026-08-29T09:22:58.578Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_0297501efc4f9d6f",
@@ -174,8 +214,8 @@
       ],
       "earliestPublishedAt": 1787930460000,
       "latestPublishedAt": 1787930460000,
-      "representativeCollectedAt": 1787970434573,
-      "latestCollectedAt": 1787970434573
+      "representativeCollectedAt": 1787995378578,
+      "latestCollectedAt": 1787995378578
     }
   },
   {
@@ -257,8 +297,8 @@
       ],
       "earliestPublishedAt": 1787912220000,
       "latestPublishedAt": 1787912220000,
-      "representativeCollectedAt": 1787970434573,
-      "latestCollectedAt": 1787970434573
+      "representativeCollectedAt": 1787995378578,
+      "latestCollectedAt": 1787995378578
     }
   },
   {
@@ -351,8 +391,8 @@
       ],
       "earliestPublishedAt": 1787908020000,
       "latestPublishedAt": 1787908020000,
-      "representativeCollectedAt": 1787970434573,
-      "latestCollectedAt": 1787970434573
+      "representativeCollectedAt": 1787995378578,
+      "latestCollectedAt": 1787995378578
     }
   },
   {
@@ -456,8 +496,8 @@
       ],
       "earliestPublishedAt": 1787900940000,
       "latestPublishedAt": 1787900940000,
-      "representativeCollectedAt": 1787970434573,
-      "latestCollectedAt": 1787970434573
+      "representativeCollectedAt": 1787995378578,
+      "latestCollectedAt": 1787995378578
     }
   },
   {
@@ -507,8 +547,8 @@
       ],
       "earliestPublishedAt": 1787900460000,
       "latestPublishedAt": 1787900460000,
-      "representativeCollectedAt": 1787970434573,
-      "latestCollectedAt": 1787970434573
+      "representativeCollectedAt": 1787995378578,
+      "latestCollectedAt": 1787995378578
     }
   },
   {
@@ -554,8 +594,8 @@
       ],
       "earliestPublishedAt": 1787899800000,
       "latestPublishedAt": 1787899800000,
-      "representativeCollectedAt": 1787970434573,
-      "latestCollectedAt": 1787970434573
+      "representativeCollectedAt": 1787995378578,
+      "latestCollectedAt": 1787995378578
     }
   },
   {
@@ -828,8 +868,8 @@
       ],
       "earliestPublishedAt": 1787880780000,
       "latestPublishedAt": 1787880780000,
-      "representativeCollectedAt": 1787970434573,
-      "latestCollectedAt": 1787970434573
+      "representativeCollectedAt": 1787995378578,
+      "latestCollectedAt": 1787995378578
     }
   }
 ]
