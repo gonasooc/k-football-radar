@@ -1,5 +1,65 @@
 [
   {
+    "id": "item_e81e8c760559d460",
+    "type": "news",
+    "title": "수장부터 심판까지 '막말, 또 막말'... 입으로 논란의 중심에 선 韓 심판...",
+    "summary": "수원FC 구단은 우선 대한축구협회 와 여자축구연맹에 항의 공문을 발송한다는 계획이지만, K리그 등 모든 심판들이 그랬듯 심판에 대한 징계 여부 또는 그 수위는 공개되지 않는다. 문제는 심판 또는 심판 관계자가 판정도...",
+    "url": "https://www.starnewskorea.com/sports/2026/08/30/2026082915421866105",
+    "originalUrl": "https://www.starnewskorea.com/sports/2026/08/30/2026082915421866105",
+    "publisher": "starnewskorea.com",
+    "publishedAt": "2026-08-29T16:01:00.000Z",
+    "collectedAt": "2026-08-29T17:54:24.704Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 회장 선거",
+      "축구협회장"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_cb627c9b1764ba5f",
+    "type": "news",
+    "title": "FIFA, 9월 축구협회 방문…‘K-축구혁신위’ 활동 점검",
+    "summary": "K- 축구혁신위 활동을 점검하기 위해서다. 29일 축구계에 따르면 FIFA 담당자가 혁신위 활동 등을 점검하고자 다음 달 협회를 방문한다. FIFA의 회원협회 사무국 국장을 포함한 3명이 9월 둘째 주 중 2박 3일 일정으로...",
+    "url": "https://www.sportsworldi.com/newsView/20260829506318",
+    "originalUrl": "https://www.sportsworldi.com/newsView/20260829506318",
+    "publisher": "sportsworldi.com",
+    "publishedAt": "2026-08-29T15:01:00.000Z",
+    "collectedAt": "2026-08-29T17:54:24.704Z",
+    "matchedKeywords": [
+      "축구혁신위"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "축구혁신위",
+      "축구협회 정관",
+      "축구협회 회장 선거",
+      "축구협회 K-혁신위"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 40,
+    "labels": []
+  },
+  {
     "id": "item_933f5a1c3db782a7",
     "type": "news",
     "title": "지소연에게 \"생리하나 봐\"…여자축구 그라운드 뒤집은 심판 한마디, 협...",
@@ -27,7 +87,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.suwonilbo.kr/news/articleView.html?idxno=317824"
+      ],
+      "stories": [
+        "news|news|지소연에게 \"생리하나 봐\"…여자축구 그라운드 뒤집은 심판 한마디, 협...|suwonilbo.kr|2026-08-29T14:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|지소연에게 \"생리하나 봐\"…여자축구 그라운드 뒤집은 심판 한마디, 협...|suwonilbo.kr"
+      ],
+      "earliestPublishedAt": 1788012240000,
+      "latestPublishedAt": 1788012240000,
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
+    }
   },
   {
     "id": "item_cb3be5d6641ce068",
@@ -64,7 +140,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 40,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20260829_0003768033"
+      ],
+      "stories": [
+        "news|news|fifa, 9월 둘째 주 '2박 3일'로 'k-축구혁신위' 활동 현장 점검|newsis.com|2026-08-29T13:06:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|fifa, 9월 둘째 주 '2박 3일'로 'k-축구혁신위' 활동 현장 점검|newsis.com"
+      ],
+      "earliestPublishedAt": 1788008760000,
+      "latestPublishedAt": 1788008760000,
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
+    }
   },
   {
     "id": "item_b6cebf6b76524280",
@@ -100,7 +192,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 40,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.joongang.co.kr/article/25457298"
+      ],
+      "stories": [
+        "news|news|fifa, 9월 축구협회 방문…‘k-축구혁신위’ 활동 점검|joongang.co.kr|2026-08-29T12:22:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|fifa, 9월 축구협회 방문…‘k-축구혁신위’ 활동 점검|joongang.co.kr"
+      ],
+      "earliestPublishedAt": 1788006120000,
+      "latestPublishedAt": 1788006120000,
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
+    }
   },
   {
     "id": "item_be66d37b7436c54a",
@@ -127,7 +235,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.jtbc.co.kr/article/NB12315721?influxDiv=NAVER"
+      ],
+      "stories": [
+        "news|news|\"생리하나 봐\" 들었다는 지소연…주심은 \"선수가 오해\"|news.jtbc.co.kr|2026-08-29T12:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"생리하나 봐\" 들었다는 지소연…주심은 \"선수가 오해\"|news.jtbc.co.kr"
+      ],
+      "earliestPublishedAt": 1788005100000,
+      "latestPublishedAt": 1788005100000,
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
+    }
   },
   {
     "id": "item_cf7f031a8eb8617a",
@@ -166,7 +290,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 40,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=432989"
+      ],
+      "stories": [
+        "news|news|fifa, 'k-축구혁신위' 들여다본다…9월 협회 현장점검|dailysportshankook.co.kr|2026-08-29T12:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|fifa, 'k-축구혁신위' 들여다본다…9월 협회 현장점검|dailysportshankook.co.kr"
+      ],
+      "earliestPublishedAt": 1788005040000,
+      "latestPublishedAt": 1788005040000,
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
+    }
   },
   {
     "id": "item_f72ab5b297a785c2",
@@ -203,7 +343,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 20,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newspim.com/news/view/20260829000113"
+      ],
+      "stories": [
+        "news|news|fifa, 9월 k-축구 혁신위 현장 점검...출전금지 중징계로 이어질까|newspim.com|2026-08-29T11:53:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|fifa, 9월 k-축구 혁신위 현장 점검...출전금지 중징계로 이어질까|newspim.com"
+      ],
+      "earliestPublishedAt": 1788004380000,
+      "latestPublishedAt": 1788004380000,
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
+    }
   },
   {
     "id": "item_20a56c8ce88a006b",
@@ -239,7 +395,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 40,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/AKR20260829204822R5R"
+      ],
+      "stories": [
+        "news|news|fifa, 다음달 축구협회 찾는다…k-축구혁신위 활동 등 점검|yonhapnewstv.co.kr|2026-08-29T11:49:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|fifa, 다음달 축구협회 찾는다…k-축구혁신위 활동 등 점검|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1788004140000,
+      "latestPublishedAt": 1788004140000,
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
+    }
   },
   {
     "id": "item_2d20bc9f2733272e",
@@ -276,7 +448,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 40,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/soccer/6273536"
+      ],
+      "stories": [
+        "news|news|fifa, 'k-축구혁신위' 활동 직접 점검…9월 협회 방문|news1.kr|2026-08-29T11:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|fifa, 'k-축구혁신위' 활동 직접 점검…9월 협회 방문|news1.kr"
+      ],
+      "earliestPublishedAt": 1788003960000,
+      "latestPublishedAt": 1788003960000,
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
+    }
   },
   {
     "id": "item_16be89b96fc93d93",
@@ -310,7 +498,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 40,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://biz.heraldcorp.com/article/10856196?ref=naver"
+      ],
+      "stories": [
+        "news|news|fifa, 9월 대한축구협회 직접 점검…k-축구혁신위 활동 살핀다|biz.heraldcorp.com|2026-08-29T11:39:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|fifa, 9월 대한축구협회 직접 점검…k-축구혁신위 활동 살핀다|biz.heraldcorp.com"
+      ],
+      "earliestPublishedAt": 1788003540000,
+      "latestPublishedAt": 1788003540000,
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
+    }
   },
   {
     "id": "item_e81a9fc04cbe6da6",
@@ -345,7 +549,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 40,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.topstarnews.net/news/articleView.html?idxno=16176944"
+      ],
+      "stories": [
+        "news|news|fifa, 내달 서울서 축구협회 점검…k-축구혁신위 자료 요구|topstarnews.net|2026-08-29T11:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|fifa, 내달 서울서 축구협회 점검…k-축구혁신위 자료 요구|topstarnews.net"
+      ],
+      "earliestPublishedAt": 1788003120000,
+      "latestPublishedAt": 1788003120000,
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
+    }
   },
   {
     "id": "item_ba88fe369f5fdd3a",
@@ -381,7 +601,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 40,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260829047600007?input=1195m"
+      ],
+      "stories": [
+        "news|news|'k-축구혁신위 활동 정보 요청' fifa, 내달 협회 현장점검|yna.co.kr|2026-08-29T11:15:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'k-축구혁신위 활동 정보 요청' fifa, 내달 협회 현장점검|yna.co.kr"
+      ],
+      "earliestPublishedAt": 1788002100000,
+      "latestPublishedAt": 1788002100000,
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
+    }
   },
   {
     "id": "item_4d032b47639900b4",
@@ -422,8 +658,8 @@
       ],
       "earliestPublishedAt": 1787993160000,
       "latestPublishedAt": 1787993160000,
-      "representativeCollectedAt": 1788014509611,
-      "latestCollectedAt": 1788014509611
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
     }
   },
   {
@@ -484,8 +720,8 @@
       ],
       "earliestPublishedAt": 1787991120000,
       "latestPublishedAt": 1787991120000,
-      "representativeCollectedAt": 1788014509611,
-      "latestCollectedAt": 1788014509611
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
     }
   },
   {
@@ -542,8 +778,8 @@
       ],
       "earliestPublishedAt": 1787983920000,
       "latestPublishedAt": 1787983920000,
-      "representativeCollectedAt": 1788014509611,
-      "latestCollectedAt": 1788014509611
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
     }
   },
   {
@@ -641,8 +877,8 @@
       ],
       "earliestPublishedAt": 1787970180000,
       "latestPublishedAt": 1787970180000,
-      "representativeCollectedAt": 1788014509611,
-      "latestCollectedAt": 1788014509611
+      "representativeCollectedAt": 1788026064704,
+      "latestCollectedAt": 1788026064704
     }
   },
   {
