@@ -1,5 +1,105 @@
 [
   {
+    "id": "item_0e78e9e8b4192050",
+    "type": "news",
+    "title": "韓 임시 감독 지원했다가 탈락→ 이번엔 알제리 1순위… '전북 우승' 포...",
+    "summary": "김태석 기자 한국 축구 국가 대표팀 임시 감독 직에 지원했다가 최종 후보에도 들어가지 못한 것으로 알려진 우루과이 출신 거스 포옛 감독 이 알제리 축구 국가 대표팀 차기 사령탑에 유력한 것으로 알려졌다. 우루과이...",
+    "url": "https://www.besteleven.com/news/articleView.html?idxno=311671",
+    "originalUrl": "https://www.besteleven.com/news/articleView.html?idxno=311671",
+    "publisher": "besteleven.com",
+    "publishedAt": "2026-08-30T16:54:00.000Z",
+    "collectedAt": "2026-08-30T17:46:24.999Z",
+    "matchedKeywords": [
+      "감독",
+      "사령탑",
+      "후보",
+      "차기",
+      "지원했다"
+    ],
+    "discoveryQueries": [
+      "감독 후보",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 4,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_d2158e4ad4f87a27",
+    "type": "news",
+    "title": "“생리는 안썼다”더니 ‘걸스데이’…지소연 격분시킨 심판진의 말장...",
+    "summary": "“생리라는 단어는 쓰지 않았다.” 대한 축구협회 (KFA) 심판팀이 내놓은 첫 해명 이다. 그런데 확인해 보니 심판진은 ‘걸스데이(Girl’s Day)’라는 표현을 사용했다. 논란은 지난 28일 수원종합운동장에서 열린 수원FC...",
+    "url": "https://www.sportsseoul.com/news/read/1631810?ref=naver",
+    "originalUrl": "https://www.sportsseoul.com/news/read/1631810?ref=naver",
+    "publisher": "sportsseoul.com",
+    "publishedAt": "2026-08-30T15:07:00.000Z",
+    "collectedAt": "2026-08-30T17:46:24.999Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "KFA",
+      "해명"
+    ],
+    "discoveryQueries": [
+      "대한축구협회",
+      "축구협회 조사 결과",
+      "축구협회 해명",
+      "KFA"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 8,
+    "relevanceTier": "secondary",
+    "labels": [
+      "해명 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_8faf79f8a7d7d8f7",
+    "type": "news",
+    "title": "[심찬구의 스포츠 르네상스] 위기의 한국 축구, 암흑기 탈출한 벨기에를...",
+    "summary": "지금 한국 축구 는 결말이 보이지 않는 혼란기다. 회장 과 감독을 둘러싼 책임 공방이 이어졌고 K 축구 ... 최근에는 FIFA와 AFC까지 혁신위 활동과 선거 제도 변경 상황에 대한 설명을 요구하며 축구협회 의 독립성을 당부하고...",
+    "url": "https://www.chosun.com/opinion/specialist_column/2026/08/30/X7NCJPXZCZHO3HBM3D6QYUNJDU",
+    "originalUrl": "https://www.chosun.com/opinion/specialist_column/2026/08/30/X7NCJPXZCZHO3HBM3D6QYUNJDU",
+    "publisher": "chosun.com",
+    "publishedAt": "2026-08-30T14:33:00.000Z",
+    "collectedAt": "2026-08-30T17:46:24.999Z",
+    "matchedKeywords": [],
+    "discoveryQueries": [
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "대한축구협회 유소년 육성 시스템",
+      "대한축구협회 유소년 정책",
+      "대한축구협회 유소년 제도",
+      "대한축구협회 지도자 제도",
+      "축구 혁신",
+      "축구혁신위",
+      "축구협회 감독 선임",
+      "축구협회 혁신위원회",
+      "축구협회 회장 선거",
+      "축구협회 K-혁신위",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 0,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_05c208bc39a93dd5",
     "type": "news",
     "title": "'생리'라고 안 했다더니…지소연에 \"걸스데이인가 봐\" 심판 논란",
@@ -25,7 +125,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://weekly.chosun.com/news/articleView.html?idxno=54808"
+      ],
+      "stories": [
+        "news|news|'생리'라고 안 했다더니…지소연에 \"걸스데이인가 봐\" 심판 논란|weekly.chosun.com|2026-08-30T12:55:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'생리'라고 안 했다더니…지소연에 \"걸스데이인가 봐\" 심판 논란|weekly.chosun.com"
+      ],
+      "earliestPublishedAt": 1788094500000,
+      "latestPublishedAt": 1788094500000,
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
+    }
   },
   {
     "id": "youtube_t4Xe2qqthwY",
@@ -98,7 +214,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.jtbc.co.kr/article/NB12315792?influxDiv=NAVER"
+      ],
+      "stories": [
+        "news|news|[단독] 지소연에 '생리' 단어 안 썼다더니…\"걸스데이인가 봐\"|news.jtbc.co.kr|2026-08-30T11:45:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] 지소연에 '생리' 단어 안 썼다더니…\"걸스데이인가 봐\"|news.jtbc.co.kr"
+      ],
+      "earliestPublishedAt": 1788090300000,
+      "latestPublishedAt": 1788090300000,
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
+    }
   },
   {
     "id": "item_a934eb8d6a05a838",
@@ -142,7 +274,23 @@
     "relevanceScore": 18,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=1004741"
+      ],
+      "stories": [
+        "news|news|결국 fifa가 직접 온다, 박지성이 가장 우려했던 일이…혁신위 개정안 ...|spotvnews.co.kr|2026-08-30T10:39:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|결국 fifa가 직접 온다, 박지성이 가장 우려했던 일이…혁신위 개정안 ...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1788086340000,
+      "latestPublishedAt": 1788086340000,
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
+    }
   },
   {
     "id": "item_775279ad76c88921",
@@ -167,7 +315,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/society/2026/08/30/2026083019301025009"
+      ],
+      "stories": [
+        "news|news|지소연에 '생리' 발언?...\"그 말은 안 썼다\" 심판, 뭐라고 했길래|mt.co.kr|2026-08-30T10:37:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|지소연에 '생리' 발언?...\"그 말은 안 썼다\" 심판, 뭐라고 했길래|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1788086220000,
+      "latestPublishedAt": 1788086220000,
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
+    }
   },
   {
     "id": "item_a4a08769a800d51d",
@@ -195,7 +359,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.cbci.co.kr/news/articleView.html?idxno=602275"
+      ],
+      "stories": [
+        "news|news|[일본 간사이 기행] 오사카·고베·교토·나라…네 가지 일본을 만나다|cbci.co.kr|2026-08-30T10:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[일본 간사이 기행] 오사카·고베·교토·나라…네 가지 일본을 만나다|cbci.co.kr"
+      ],
+      "earliestPublishedAt": 1788084600000,
+      "latestPublishedAt": 1788084600000,
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
+    }
   },
   {
     "id": "item_d2044ddc9789ce76",
@@ -221,7 +401,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.nocutnews.co.kr/news/6570274"
+      ],
+      "stories": [
+        "news|news|\"지소연 생리하나 봐\"→실제 은어 \"걸스 데이\" 사용 드러나|nocutnews.co.kr|2026-08-30T09:43:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"지소연 생리하나 봐\"→실제 은어 \"걸스 데이\" 사용 드러나|nocutnews.co.kr"
+      ],
+      "earliestPublishedAt": 1788082980000,
+      "latestPublishedAt": 1788082980000,
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
+    }
   },
   {
     "id": "item_8f0af781227428b2",
@@ -245,7 +441,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20260830_0003768528"
+      ],
+      "stories": [
+        "news|news|지소연에 '생리' 단어 안 썼다더니…'걸스데이' 은어 쓴 심판|newsis.com|2026-08-30T09:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|지소연에 '생리' 단어 안 썼다더니…'걸스데이' 은어 쓴 심판|newsis.com"
+      ],
+      "earliestPublishedAt": 1788081660000,
+      "latestPublishedAt": 1788081660000,
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
+    }
   },
   {
     "id": "item_3a808689bb5664b8",
@@ -276,7 +488,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.ikpnews.net/news/articleView.html?idxno=71305"
+      ],
+      "stories": [
+        "news|news|[농민칼럼] 집도 땅도, 개혁은 권력의 분산|ikpnews.net|2026-08-30T09:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[농민칼럼] 집도 땅도, 개혁은 권력의 분산|ikpnews.net"
+      ],
+      "earliestPublishedAt": 1788081480000,
+      "latestPublishedAt": 1788081480000,
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
+    }
   },
   {
     "id": "item_e73b93b7fd682dde",
@@ -317,7 +545,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.donga.com/sports/article/all/20260830/134570143/1"
+      ],
+      "stories": [
+        "news|news|[사커토픽] fifa 조사단, 9월 한국 직접 찾는다! 혁신위 목적 & 협회장 선...|sports.donga.com|2026-08-30T07:39:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[사커토픽] fifa 조사단, 9월 한국 직접 찾는다! 혁신위 목적 & 협회장 선...|sports.donga.com"
+      ],
+      "earliestPublishedAt": 1788075540000,
+      "latestPublishedAt": 1788075540000,
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
+    }
   },
   {
     "id": "item_2096a90e2e21ea75",
@@ -345,7 +589,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.tvchosun.com/site/data/html_dir/2026/08/30/2026083090078.html"
+      ],
+      "stories": [
+        "news|news|'생리' 단어 안 썼다더니…女주심, 지소연에 '걸스데이' 은어 사용|news.tvchosun.com|2026-08-30T07:37:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'생리' 단어 안 썼다더니…女주심, 지소연에 '걸스데이' 은어 사용|news.tvchosun.com"
+      ],
+      "earliestPublishedAt": 1788075420000,
+      "latestPublishedAt": 1788075420000,
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
+    }
   },
   {
     "id": "item_24a73d585fc3e79b",
@@ -383,8 +643,8 @@
       ],
       "earliestPublishedAt": 1788072900000,
       "latestPublishedAt": 1788072900000,
-      "representativeCollectedAt": 1788095862399,
-      "latestCollectedAt": 1788095862399
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
     }
   },
   {
@@ -441,8 +701,8 @@
       ],
       "earliestPublishedAt": 1788068640000,
       "latestPublishedAt": 1788068640000,
-      "representativeCollectedAt": 1788095862399,
-      "latestCollectedAt": 1788095862399
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
     }
   },
   {
@@ -485,8 +745,8 @@
       ],
       "earliestPublishedAt": 1788067500000,
       "latestPublishedAt": 1788067500000,
-      "representativeCollectedAt": 1788095862399,
-      "latestCollectedAt": 1788095862399
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
     }
   },
   {
@@ -586,8 +846,8 @@
       ],
       "earliestPublishedAt": 1788066240000,
       "latestPublishedAt": 1788066240000,
-      "representativeCollectedAt": 1788095862399,
-      "latestCollectedAt": 1788095862399
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
     }
   },
   {
@@ -716,8 +976,8 @@
       ],
       "earliestPublishedAt": 1788055080000,
       "latestPublishedAt": 1788055080000,
-      "representativeCollectedAt": 1788095862399,
-      "latestCollectedAt": 1788095862399
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
     }
   },
   {
@@ -769,8 +1029,8 @@
       ],
       "earliestPublishedAt": 1788054480000,
       "latestPublishedAt": 1788054480000,
-      "representativeCollectedAt": 1788095862399,
-      "latestCollectedAt": 1788095862399
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
     }
   },
   {
@@ -994,8 +1254,8 @@
       ],
       "earliestPublishedAt": 1788048900000,
       "latestPublishedAt": 1788048900000,
-      "representativeCollectedAt": 1788095862399,
-      "latestCollectedAt": 1788095862399
+      "representativeCollectedAt": 1788111984999,
+      "latestCollectedAt": 1788111984999
     }
   }
 ]
