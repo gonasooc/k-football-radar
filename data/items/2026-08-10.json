@@ -105,8 +105,8 @@
       ],
       "earliestPublishedAt": 1786406340000,
       "latestPublishedAt": 1786406340000,
-      "representativeCollectedAt": 1788046550591,
-      "latestCollectedAt": 1788046550591
+      "representativeCollectedAt": 1788054031562,
+      "latestCollectedAt": 1788054031562
     }
   },
   {
@@ -772,8 +772,8 @@
       ],
       "earliestPublishedAt": 1786401780000,
       "latestPublishedAt": 1786401780000,
-      "representativeCollectedAt": 1788046550591,
-      "latestCollectedAt": 1788046550591
+      "representativeCollectedAt": 1788054031562,
+      "latestCollectedAt": 1788054031562
     }
   },
   {
@@ -1982,56 +1982,6 @@
     }
   },
   {
-    "id": "item_40da35c6e4615f2e",
-    "type": "news",
-    "title": "“월드컵 죄송하다” 오죽하면 이강인이 용기 있게 사과…ATM 데뷔전서...",
-    "summary": "이어 입단식 때도 마이크를 잡더니 “더운 날씨에 많이 찾아주셔서 감사 드린다. 좋은 구단에 왔는데 앞으로... 월드컵 실패 이후 축구협회와 홍명보 전 감독을 향해 모든 비판 여론이 몰린 가운데 이강인이 참가한 선수로...",
-    "url": "https://www.sportsseoul.com/news/read/1627811?ref=naver",
-    "originalUrl": "https://www.sportsseoul.com/news/read/1627811?ref=naver",
-    "publisher": "sportsseoul.com",
-    "publishedAt": "2026-08-10T15:02:00.000Z",
-    "collectedAt": "2026-08-10T15:38:13.147Z",
-    "matchedKeywords": [
-      "축구협회",
-      "홍명보",
-      "감사"
-    ],
-    "discoveryQueries": [
-      "\"홍명보\" 감사",
-      "\"홍명보\" 축구협회",
-      "대표팀 감독",
-      "축구협회 감사"
-    ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 8,
-    "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
-    ],
-    "dedupeState": {
-      "version": 1,
-      "urls": [
-        "https://www.sportsseoul.com/news/read/1627811?ref=naver"
-      ],
-      "stories": [
-        "news|news|“월드컵 죄송하다” 오죽하면 이강인이 용기 있게 사과…atm 데뷔전서...|sportsseoul.com|2026-08-10T15:02:00.000Z"
-      ],
-      "nearKeys": [
-        "news|news|“월드컵 죄송하다” 오죽하면 이강인이 용기 있게 사과…atm 데뷔전서...|sportsseoul.com"
-      ],
-      "earliestPublishedAt": 1786374120000,
-      "latestPublishedAt": 1786374120000,
-      "representativeCollectedAt": 1787729513204,
-      "latestCollectedAt": 1787729513204
-    }
-  },
-  {
     "id": "item_34630d0be0f0edeb",
     "type": "news",
     "title": "'홍명보 후임' 드디어 찾았다! '전북 우승 명장' 포옛, 韓 대표팀 사령탑...",
@@ -2262,64 +2212,6 @@
         "height": 720
       },
       "durationSeconds": 2464
-    }
-  },
-  {
-    "id": "item_0b0ea1d2f650214a",
-    "type": "news",
-    "title": "한국 국대 신임 사령탑 미쳤다! \"거스 포옛 감독 유력\"…日 매체 강력 주...",
-    "summary": "앞서 대한축구협회 의 운영 체계와 홍명보 감독 선임 과정에서의 불투명성 등을 확인하기 위한 국회 청문회가 지난달 말 열리는 등 대대적인 개편이 이뤄지고 있다. 한국 축구협회 는 공식 홈페이지를 통해 향후 방침을...",
-    "url": "https://www.sportschosun.com/football/2026-08-10/202608100100058730003654",
-    "originalUrl": "https://www.sportschosun.com/football/2026-08-10/202608100100058730003654",
-    "publisher": "sportschosun.com",
-    "publishedAt": "2026-08-10T13:55:00.000Z",
-    "collectedAt": "2026-08-10T14:06:12.783Z",
-    "matchedKeywords": [
-      "대한축구협회",
-      "감독 선임",
-      "감독",
-      "선임",
-      "홍명보",
-      "청문회"
-    ],
-    "discoveryQueries": [
-      "\"홍명보\" 대한축구협회",
-      "\"홍명보\" 축구협회",
-      "감독 후보",
-      "대표팀 감독",
-      "대표팀 감독 선임",
-      "대한축구협회",
-      "축구협회 감독 선임",
-      "축구협회 감독 후보"
-    ],
-    "issueTags": [
-      "coach-appointment"
-    ],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
-    "sourceType": "news",
-    "isOfficial": false,
-    "relevanceScore": 15,
-    "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급"
-    ],
-    "dedupeState": {
-      "version": 1,
-      "urls": [
-        "https://www.sportschosun.com/football/2026-08-10/202608100100058730003654"
-      ],
-      "stories": [
-        "news|news|한국 국대 신임 사령탑 미쳤다! \"거스 포옛 감독 유력\"…日 매체 강력 주...|sportschosun.com|2026-08-10T13:55:00.000Z"
-      ],
-      "nearKeys": [
-        "news|news|한국 국대 신임 사령탑 미쳤다! \"거스 포옛 감독 유력\"…日 매체 강력 주...|sportschosun.com"
-      ],
-      "earliestPublishedAt": 1786370100000,
-      "latestPublishedAt": 1786370100000,
-      "representativeCollectedAt": 1786416721019,
-      "latestCollectedAt": 1786416721019
     }
   },
   {
@@ -3054,8 +2946,8 @@
       ],
       "earliestPublishedAt": 1786359660000,
       "latestPublishedAt": 1786359660000,
-      "representativeCollectedAt": 1788046550591,
-      "latestCollectedAt": 1788046550591
+      "representativeCollectedAt": 1788054031562,
+      "latestCollectedAt": 1788054031562
     }
   },
   {
@@ -4609,8 +4501,8 @@
       ],
       "earliestPublishedAt": 1786345740000,
       "latestPublishedAt": 1786345740000,
-      "representativeCollectedAt": 1788046550591,
-      "latestCollectedAt": 1788046550591
+      "representativeCollectedAt": 1788054031562,
+      "latestCollectedAt": 1788054031562
     }
   },
   {
@@ -5920,8 +5812,8 @@
       ],
       "earliestPublishedAt": 1786320000000,
       "latestPublishedAt": 1786320000000,
-      "representativeCollectedAt": 1788046550591,
-      "latestCollectedAt": 1788046550591
+      "representativeCollectedAt": 1788054031562,
+      "latestCollectedAt": 1788054031562
     }
   }
 ]
