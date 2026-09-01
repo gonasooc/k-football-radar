@@ -47,8 +47,8 @@
       ],
       "earliestPublishedAt": 1787958240000,
       "latestPublishedAt": 1787958240000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -94,8 +94,8 @@
       ],
       "earliestPublishedAt": 1787950920000,
       "latestPublishedAt": 1787950920000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -146,8 +146,8 @@
       ],
       "earliestPublishedAt": 1787940900000,
       "latestPublishedAt": 1787940900000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -222,15 +222,18 @@
     "id": "item_0297501efc4f9d6f",
     "type": "news",
     "title": "'임시 감독 맞아?' 中언론의 예상 \"한국대표팀 감독, 9월초 선임...내년...",
-    "summary": "새롭게 선임 되는 임시 감독 은 오는 9월부터 11월까지 한국 대표팀 의 A매치 6경기를 지휘할 예정이다. 9월에는 에콰도르와 우루과이, 10월에는 베네수엘라와 우즈베키스탄을 상대하며 11월에도 두 차례 A매치가 예정돼 있다....",
+    "summary": "27일 \" 대한축구협회 는 현재 한국대표팀 감독 최종 후보 가운데 1순위로 평가된 지도자 와 계약 조건을 놓고... 대한축구협회 는 홍명보 감독이 물러난 뒤 공개 모집을 통해 후보자들의 자격 과 경력 등을 검토한 뒤 온라인...",
     "url": "http://www.osen.co.kr/article/G1112865566",
     "originalUrl": "http://www.osen.co.kr/article/G1112865566",
     "publisher": "osen.co.kr",
     "publishedAt": "2026-08-28T15:21:00.000Z",
     "collectedAt": "2026-08-28T19:00:50.465Z",
     "matchedKeywords": [
+      "대한축구협회",
+      "대표팀 감독",
       "감독",
-      "선임"
+      "후보",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -247,12 +250,16 @@
     "issueTags": [
       "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 4,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -266,8 +273,8 @@
       ],
       "earliestPublishedAt": 1787930460000,
       "latestPublishedAt": 1787930460000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -349,8 +356,8 @@
       ],
       "earliestPublishedAt": 1787912220000,
       "latestPublishedAt": 1787912220000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -383,15 +390,15 @@
     "id": "item_1bb88c00d64839f5",
     "type": "news",
     "title": "[단독]'정치 개입→자율성 침해' 우려! '충격' FIFA, 한국 직접 방문 KFA...",
-    "summary": "축구의 정치 개입을 극도로 경계하는 국제축구연맹(FIFA)이 대한축구협회( KFA )를 현장 조사키로 해 충격이다. 축구계의 한 관계자는 28일 \"FIFA가 다음달 '자율성 침해' 등 한국 축구 상황을 점검하기 위해 직접 KFA 를...",
+    "summary": "축구계의 한 관계자는 28일 \"FIFA가 다음달 '자율성 침해' 등 한국 축구 상황을 점검하기 위해 직접 KFA를 방문해 문화체육관광부가 출범시킨 K- 축구혁신위 원회 등을 점검하기로 했다\"고 밝혔다. FIFA와 아시아축구연맹...",
     "url": "https://www.sportschosun.com/football/2026-08-28/202608280100171490011053",
     "originalUrl": "https://www.sportschosun.com/football/2026-08-28/202608280100171490011053",
     "publisher": "sportschosun.com",
     "publishedAt": "2026-08-28T09:07:00.000Z",
     "collectedAt": "2026-08-28T19:00:50.465Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "KFA"
+      "KFA",
+      "축구혁신위"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -423,11 +430,13 @@
       "K-축구혁신위원회",
       "KFA"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "innovation-committee"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -443,8 +452,8 @@
       ],
       "earliestPublishedAt": 1787908020000,
       "latestPublishedAt": 1787908020000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -548,8 +557,8 @@
       ],
       "earliestPublishedAt": 1787900940000,
       "latestPublishedAt": 1787900940000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -646,8 +655,8 @@
       ],
       "earliestPublishedAt": 1787899800000,
       "latestPublishedAt": 1787899800000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -916,8 +925,8 @@
       ],
       "earliestPublishedAt": 1787880780000,
       "latestPublishedAt": 1787880780000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   }
 ]

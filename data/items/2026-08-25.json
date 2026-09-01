@@ -135,7 +135,7 @@
     "id": "item_ddbdc7480c5207d2",
     "type": "news",
     "title": "[심층] 한국 축구 임시 감독 후보 분석…가장 유력하다는 '톱5'",
-    "summary": "독립적인 감독 경력을 쌓으며 러시아 클럽 소치에서는 3년 재계약을 맺기도 했다. 모레노의 강점은 후보 들... 대한 축구협회 는 이번에 임시 감독 과 코칭스태프를 사단 형태로 공개 모집했다. 홍명보 감독 의 사퇴 이후...",
+    "summary": "감독 선임 절차 자체에 대한 문제 제기가 반복되면서 대한축구협회 는 운영 체계를 다시 손보는 작업에 들어갔다. K- 축구 혁신위원회 역시 협회 거버넌스와 회장 선거 제도 등을 중심으로 개혁 방안을 논의하고 있다....",
     "url": "https://www.wikitree.co.kr/articles/1153722",
     "originalUrl": "https://www.wikitree.co.kr/articles/1153722",
     "publisher": "wikitree.co.kr",
@@ -145,9 +145,12 @@
       "감독 후보",
       "감독",
       "후보",
-      "대한 축구협회",
-      "홍명보",
-      "사퇴"
+      "대한축구협회",
+      "회장 선거",
+      "혁신위원회",
+      "축구 혁신",
+      "감독 선임",
+      "선임"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -172,17 +175,15 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "coach-appointment"
+      "coach-appointment",
+      "election",
+      "innovation-committee"
     ],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
-    "labels": [
-      "인물 언급"
-    ],
+    "relevanceScore": 28,
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -196,8 +197,8 @@
       ],
       "earliestPublishedAt": 1787695200000,
       "latestPublishedAt": 1787695200000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -338,8 +339,8 @@
       ],
       "earliestPublishedAt": 1787689800000,
       "latestPublishedAt": 1787689800000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -570,8 +571,8 @@
       ],
       "earliestPublishedAt": 1787673660000,
       "latestPublishedAt": 1787673660000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -615,6 +616,35 @@
       "representativeCollectedAt": 1787729513204,
       "latestCollectedAt": 1787729513204
     }
+  },
+  {
+    "id": "item_45a31ba0c1a9147c",
+    "type": "news",
+    "title": "[박현재 교수 경영 3.0] 거버넌스와 정당성의 경고",
+    "summary": "대한 축구협회 에는 전력강화위원회와 이사회라는 공식 의사결정기구가 모두 존재했다. 즉, 조직도 상에는... 3) 집행부 가 후보군을 좁힘과 동시에 외부 위원이 과반인 위원회가 최종 검증권과 거부권을 행사함. (장점...",
+    "url": "http://www.gjdream.com/news/articleView.html?idxno=672137",
+    "originalUrl": "http://www.gjdream.com/news/articleView.html?idxno=672137",
+    "publisher": "gjdream.com",
+    "publishedAt": "2026-08-25T15:16:00.000Z",
+    "collectedAt": "2026-09-01T06:51:11.668Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "이사회",
+      "집행부"
+    ],
+    "discoveryQueries": [
+      "축구협회 문화체육관광부 감사",
+      "축구협회 집행부"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_7e3d64077309b612",
@@ -664,8 +694,8 @@
       ],
       "earliestPublishedAt": 1787670060000,
       "latestPublishedAt": 1787670060000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -710,8 +740,8 @@
       ],
       "earliestPublishedAt": 1787669520000,
       "latestPublishedAt": 1787669520000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -1018,8 +1048,8 @@
       ],
       "earliestPublishedAt": 1787659860000,
       "latestPublishedAt": 1787659860000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -1076,8 +1106,8 @@
       ],
       "earliestPublishedAt": 1787657700000,
       "latestPublishedAt": 1787657700000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -1223,8 +1253,8 @@
       ],
       "earliestPublishedAt": 1787656020000,
       "latestPublishedAt": 1787656020000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -1499,8 +1529,8 @@
       ],
       "earliestPublishedAt": 1787649960000,
       "latestPublishedAt": 1787649960000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -1722,8 +1752,8 @@
       ],
       "earliestPublishedAt": 1787646480000,
       "latestPublishedAt": 1787646480000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -2195,15 +2225,15 @@
       ],
       "earliestPublishedAt": 1787639520000,
       "latestPublishedAt": 1787639520000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
     "id": "item_54f8827dbcecaf93",
     "type": "news",
     "title": "FIFA, 축구혁신위원회 지목했다…축구협회에 관련 정보 요청, 징계 여부...",
-    "summary": "축구협회장 선거제도 개편을 위해선 정관 개정 등 축구협회 이사회 를 거쳐야 한다. 또한 상위 단체인 대한체육회의 정관도 따져야 한다. 북중미월드컵 졸전 이후 국회 문화체육관광위원회의 청문회와 축구혁신위원회...",
+    "summary": "혁신위원회는 그 동안 대한 축구협회 선거 제도 개편 에 집중해왔다. 박지성위원장은 지난 11일 혁신위원회 회의를 마친 후 대한 축구협회 장 선거에 대해 \"절차상 준비 시간이 필요하겠지만 늦어져도 올해를 넘기지 않아야...",
     "url": "https://www.mydaily.co.kr/page/view/2026082513574421380",
     "originalUrl": "https://www.mydaily.co.kr/page/view/2026082513574421380",
     "publisher": "mydaily.co.kr",
@@ -2213,13 +2243,9 @@
       "축구혁신위",
       "축구협회",
       "혁신위원회",
-      "축구협회장",
-      "회장 선거",
-      "정관",
-      "정관 개정",
+      "대한 축구협회",
       "제도 개편",
-      "이사회",
-      "청문회"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2241,15 +2267,17 @@
     ],
     "issueTags": [
       "innovation-committee",
-      "election",
-      "statute-revision",
-      "kfa-executives"
+      "statute-revision"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 56,
-    "labels": [],
+    "relevanceScore": 47,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -2263,8 +2291,8 @@
       ],
       "earliestPublishedAt": 1787639400000,
       "latestPublishedAt": 1787639400000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -2314,8 +2342,8 @@
       ],
       "earliestPublishedAt": 1787638980000,
       "latestPublishedAt": 1787638980000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -2411,8 +2439,8 @@
       ],
       "earliestPublishedAt": 1787638680000,
       "latestPublishedAt": 1787638680000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -2456,8 +2484,8 @@
       ],
       "earliestPublishedAt": 1787638560000,
       "latestPublishedAt": 1787638560000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -2510,8 +2538,8 @@
       ],
       "earliestPublishedAt": 1787638500000,
       "latestPublishedAt": 1787638500000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -2565,8 +2593,8 @@
       ],
       "earliestPublishedAt": 1787638380000,
       "latestPublishedAt": 1787638380000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -2623,8 +2651,8 @@
       ],
       "earliestPublishedAt": 1787638320000,
       "latestPublishedAt": 1787638320000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -2675,8 +2703,8 @@
       ],
       "earliestPublishedAt": 1787638320000,
       "latestPublishedAt": 1787638320000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -2727,8 +2755,8 @@
       ],
       "earliestPublishedAt": 1787636040000,
       "latestPublishedAt": 1787636040000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -2784,8 +2812,8 @@
       ],
       "earliestPublishedAt": 1787635980000,
       "latestPublishedAt": 1787635980000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -2942,8 +2970,8 @@
       ],
       "earliestPublishedAt": 1787633340000,
       "latestPublishedAt": 1787633340000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -3043,15 +3071,15 @@
       ],
       "earliestPublishedAt": 1787632440000,
       "latestPublishedAt": 1787632440000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
     "id": "item_b3650d927e6f776b",
     "type": "news",
     "title": "‘박지성 선 그었지만’ FIFA·AFC, K-축구혁신위 주시…제재 가능성?",
-    "summary": "대한 축구협회 (이하 협회 ) 등에 따르면 국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)은 최근 협회 에 공식 서한을... FIFA 정관 14조 1항에는 “회원 협회 는 독립적으로 운영돼야 한다. 제3자의 간섭을 받아서는 안 된다”고...",
+    "summary": "대한 축구협회 (이하 협회 ) 등에 따르면 국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)은 최근 협회 에 공식 서한을... 혁신위는 지금까지 수차례 회의를 진행하면서 협회 장 선거제도 개편을 핵심 의제로 다뤘다. 이에 선거인 단...",
     "url": "https://www.dailian.co.kr/news/view/1681799/?sc=Naver",
     "originalUrl": "https://www.dailian.co.kr/news/view/1681799/?sc=Naver",
     "publisher": "dailian.co.kr",
@@ -3061,7 +3089,8 @@
       "축구혁신위",
       "박지성",
       "대한 축구협회",
-      "정관"
+      "선거인",
+      "제도 개편"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -3083,6 +3112,7 @@
     ],
     "issueTags": [
       "innovation-committee",
+      "electoral-college",
       "statute-revision"
     ],
     "personTags": [
@@ -3090,7 +3120,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
+    "relevanceScore": 52,
     "labels": [
       "인물 언급"
     ],
@@ -3107,8 +3137,8 @@
       ],
       "earliestPublishedAt": 1787630160000,
       "latestPublishedAt": 1787630160000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -3366,8 +3396,8 @@
       ],
       "earliestPublishedAt": 1787628120000,
       "latestPublishedAt": 1787628120000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -3494,7 +3524,7 @@
     "id": "item_014b6c4c451eb238",
     "type": "news",
     "title": "FIFA·AFC, 대한축구협회에 제재 내릴까?… 축구혁신위 상황 요구",
-    "summary": "또 이 공문에는 FIFA 정관 상 제3자가 축구협회 의 독립성에 부당하게 개입하면 제재를 받을 수도 있다는 규정도 포함됐다. 대한 축구협회 관계자는 “FIFA가 국내 축구 상황에 대해 수시로 모니터링하는 것으로 안다”며...",
+    "summary": "거버넌스, 유소년 선수 육성 , 첨단 기술 시스템 도입 등 한국 축구 의 미래 경쟁력을 높이기 위한 주요 과제를 종합적으로 논의하고 있다. 하지만 혁신위는 출범 당시 대한축구협회 에 대한 정부 간섭이나 개입을 우려해...",
     "url": "https://www.munhwa.com/article/11611907?ref=naver",
     "originalUrl": "https://www.munhwa.com/article/11611907?ref=naver",
     "publisher": "munhwa.com",
@@ -3503,8 +3533,10 @@
     "matchedKeywords": [
       "대한축구협회",
       "축구혁신위",
-      "대한 축구협회",
-      "정관"
+      "유소년",
+      "육성",
+      "거버넌스",
+      "시스템"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -3520,12 +3552,12 @@
     ],
     "issueTags": [
       "innovation-committee",
-      "statute-revision"
+      "youth-governance"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 42,
+    "relevanceScore": 40,
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -3540,8 +3572,8 @@
       ],
       "earliestPublishedAt": 1787626740000,
       "latestPublishedAt": 1787626740000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -3595,8 +3627,8 @@
       ],
       "earliestPublishedAt": 1787625840000,
       "latestPublishedAt": 1787625840000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -3650,8 +3682,8 @@
       ],
       "earliestPublishedAt": 1787625240000,
       "latestPublishedAt": 1787625240000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -3897,8 +3929,8 @@
       ],
       "earliestPublishedAt": 1787624160000,
       "latestPublishedAt": 1787624160000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -3968,8 +4000,8 @@
       ],
       "earliestPublishedAt": 1787623920000,
       "latestPublishedAt": 1787623920000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -4113,8 +4145,8 @@
       ],
       "earliestPublishedAt": 1787623260000,
       "latestPublishedAt": 1787623260000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -4158,8 +4190,8 @@
       ],
       "earliestPublishedAt": 1787622840000,
       "latestPublishedAt": 1787622840000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
@@ -4820,8 +4852,8 @@
       ],
       "earliestPublishedAt": 1787618100000,
       "latestPublishedAt": 1787618100000,
-      "representativeCollectedAt": 1788223670145,
-      "latestCollectedAt": 1788223670145
+      "representativeCollectedAt": 1788245471668,
+      "latestCollectedAt": 1788245471668
     }
   },
   {
