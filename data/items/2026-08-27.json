@@ -93,8 +93,8 @@
       ],
       "earliestPublishedAt": 1787874480000,
       "latestPublishedAt": 1787874480000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -139,8 +139,8 @@
       ],
       "earliestPublishedAt": 1787871300000,
       "latestPublishedAt": 1787871300000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -244,8 +244,8 @@
       ],
       "earliestPublishedAt": 1787854500000,
       "latestPublishedAt": 1787854500000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -399,8 +399,8 @@
       ],
       "earliestPublishedAt": 1787846760000,
       "latestPublishedAt": 1787846760000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -482,6 +482,55 @@
       "representativeCollectedAt": 1788245471668,
       "latestCollectedAt": 1788245471668
     }
+  },
+  {
+    "id": "item_750a65df0a68623a",
+    "type": "news",
+    "title": "유승민 대한체육회장에게 바란다",
+    "summary": "유 회장은 대한체육회장 선거에 임원 , 심판, 지도자, 선수, 선수관리자 등이 참여하도록 범위를 확대하면... K 축구 혁신위원회는 대한 축구협회 장 선거의 선거인단을 약 2만명 규모로 확대하는 방안을 추진하고 있다. 박지성...",
+    "url": "http://www.gnmaeil.com/news/articleView.html?idxno=593671",
+    "originalUrl": "http://www.gnmaeil.com/news/articleView.html?idxno=593671",
+    "publisher": "gnmaeil.com",
+    "publishedAt": "2026-08-27T12:32:00.000Z",
+    "collectedAt": "2026-09-01T12:04:26.327Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "회장 선거",
+      "선거인단",
+      "선거인",
+      "혁신위원회",
+      "축구 혁신",
+      "박지성"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "대한축구협회 지도자 자격",
+      "대한축구협회 지도자 제도",
+      "축구협회 대의원",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 임원",
+      "축구협회 혁신위원회",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "election",
+      "electoral-college",
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 23,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급",
+      "선거 키워드 포함"
+    ]
   },
   {
     "id": "youtube_AJgxH39aTWw",
@@ -695,8 +744,8 @@
       ],
       "earliestPublishedAt": 1787823300000,
       "latestPublishedAt": 1787823300000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1001,8 +1050,8 @@
       ],
       "earliestPublishedAt": 1787816100000,
       "latestPublishedAt": 1787816100000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1138,8 +1187,8 @@
       ],
       "earliestPublishedAt": 1787814360000,
       "latestPublishedAt": 1787814360000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1187,8 +1236,8 @@
       ],
       "earliestPublishedAt": 1787812320000,
       "latestPublishedAt": 1787812320000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1218,7 +1267,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.khan.co.kr/article/202608271522003?pt=nv"
+      ],
+      "stories": [
+        "news|news|韓 축구대표팀 임시 사령탑 선임 ‘막바지’…빠르면 9월 초 발표|sports.khan.co.kr|2026-08-27T06:23:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|韓 축구대표팀 임시 사령탑 선임 ‘막바지’…빠르면 9월 초 발표|sports.khan.co.kr"
+      ],
+      "earliestPublishedAt": 1787811780000,
+      "latestPublishedAt": 1787811780000,
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
+    }
   },
   {
     "id": "item_5d6d3b7b11781ac6",
@@ -1259,8 +1324,8 @@
       ],
       "earliestPublishedAt": 1787811300000,
       "latestPublishedAt": 1787811300000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1490,8 +1555,8 @@
       ],
       "earliestPublishedAt": 1787801820000,
       "latestPublishedAt": 1787801820000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1801,8 +1866,8 @@
       ],
       "earliestPublishedAt": 1787796660000,
       "latestPublishedAt": 1787796660000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1851,8 +1916,8 @@
       ],
       "earliestPublishedAt": 1787796540000,
       "latestPublishedAt": 1787796540000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2013,8 +2078,8 @@
       ],
       "earliestPublishedAt": 1787796000000,
       "latestPublishedAt": 1787796000000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2063,8 +2128,8 @@
       ],
       "earliestPublishedAt": 1787795160000,
       "latestPublishedAt": 1787795160000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2232,8 +2297,8 @@
       ],
       "earliestPublishedAt": 1787788980000,
       "latestPublishedAt": 1787788980000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   }
 ]

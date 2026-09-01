@@ -197,8 +197,8 @@
       ],
       "earliestPublishedAt": 1787695200000,
       "latestPublishedAt": 1787695200000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -339,8 +339,8 @@
       ],
       "earliestPublishedAt": 1787689800000,
       "latestPublishedAt": 1787689800000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -571,8 +571,8 @@
       ],
       "earliestPublishedAt": 1787673660000,
       "latestPublishedAt": 1787673660000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -644,7 +644,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.gjdream.com/news/articleView.html?idxno=672137"
+      ],
+      "stories": [
+        "news|news|[박현재 교수 경영 3.0] 거버넌스와 정당성의 경고|gjdream.com|2026-08-25T15:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[박현재 교수 경영 3.0] 거버넌스와 정당성의 경고|gjdream.com"
+      ],
+      "earliestPublishedAt": 1787670960000,
+      "latestPublishedAt": 1787670960000,
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
+    }
   },
   {
     "id": "item_7e3d64077309b612",
@@ -694,8 +710,8 @@
       ],
       "earliestPublishedAt": 1787670060000,
       "latestPublishedAt": 1787670060000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -740,8 +756,8 @@
       ],
       "earliestPublishedAt": 1787669520000,
       "latestPublishedAt": 1787669520000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1048,8 +1064,8 @@
       ],
       "earliestPublishedAt": 1787659860000,
       "latestPublishedAt": 1787659860000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1106,8 +1122,8 @@
       ],
       "earliestPublishedAt": 1787657700000,
       "latestPublishedAt": 1787657700000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1253,8 +1269,8 @@
       ],
       "earliestPublishedAt": 1787656020000,
       "latestPublishedAt": 1787656020000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1529,8 +1545,8 @@
       ],
       "earliestPublishedAt": 1787649960000,
       "latestPublishedAt": 1787649960000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -1752,8 +1768,8 @@
       ],
       "earliestPublishedAt": 1787646480000,
       "latestPublishedAt": 1787646480000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2076,6 +2092,39 @@
     }
   },
   {
+    "id": "item_32f180ef2f3c2fa8",
+    "type": "news",
+    "title": "[사커토픽] ‘Situation of the KFA’ 레터 보낸 FIFA, 자체 모니터링 후...",
+    "summary": "국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)이 대한축구협회 에 전달한 공식 서한에는 우려할 만한 내용이... “정치적 목적이 아니다”라는 박지성 혁신위 공동위원장의 공개적인 발언이 있었지만 국제 기관은 혁신위...",
+    "url": "https://sports.donga.com/sports/article/all/20260825/134538902/1",
+    "originalUrl": "https://sports.donga.com/sports/article/all/20260825/134538902/1",
+    "publisher": "sports.donga.com",
+    "publishedAt": "2026-08-25T07:04:00.000Z",
+    "collectedAt": "2026-09-01T12:04:26.327Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "박지성"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "축구혁신위",
+      "축구협회 K-혁신위"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_b4d3e17ddc141db2",
     "type": "news",
     "title": "김병지 강원FC 대표의 역공…박문성 해설위원에 “법정에서 가리자”",
@@ -2225,8 +2274,8 @@
       ],
       "earliestPublishedAt": 1787639520000,
       "latestPublishedAt": 1787639520000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2291,8 +2340,8 @@
       ],
       "earliestPublishedAt": 1787639400000,
       "latestPublishedAt": 1787639400000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2342,8 +2391,8 @@
       ],
       "earliestPublishedAt": 1787638980000,
       "latestPublishedAt": 1787638980000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2439,8 +2488,8 @@
       ],
       "earliestPublishedAt": 1787638680000,
       "latestPublishedAt": 1787638680000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2484,8 +2533,8 @@
       ],
       "earliestPublishedAt": 1787638560000,
       "latestPublishedAt": 1787638560000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2538,15 +2587,15 @@
       ],
       "earliestPublishedAt": 1787638500000,
       "latestPublishedAt": 1787638500000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
     "id": "item_53313b12f830a2b7",
     "type": "news",
     "title": "K-혁신위 향한 FIFA·AFC의 눈…논의 내용 상세 제출 요청",
-    "summary": "공문에는 FIFA 정관 상 제3자가 회원국 축구협회 의 독립성에 부당하게 개입할 경우 제재가 이뤄질 수 있다는 내용도 포함된 것으로 전해졌다. K- 축구 혁신위원회는 2026 FIFA 북중미 월드컵 조기 탈락 이후 커진 한국 축구 ...",
+    "summary": "박지성 FIFA 분과위원회 위원이 공동위원장을 맡은 혁신위는 축구 행정 거버넌스 개편, 유소년 육성 체계 개선, 첨단 기술 시스템 도입 등 주요 과제를 다루고 있다. 다만 혁신위는 출범 당시부터 대한축구협회 의...",
     "url": "https://www.sedaily.com/article/20083055?ref=naver",
     "originalUrl": "https://www.sedaily.com/article/20083055?ref=naver",
     "publisher": "sedaily.com",
@@ -2554,10 +2603,8 @@
     "collectedAt": "2026-08-25T07:30:15.051Z",
     "matchedKeywords": [
       "K-혁신위",
-      "축구협회",
-      "정관",
-      "혁신위원회",
-      "축구 혁신"
+      "대한축구협회",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2572,14 +2619,18 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee",
-      "statute-revision"
+      "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
-    "labels": [],
+    "relevanceScore": 19,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -2593,8 +2644,8 @@
       ],
       "earliestPublishedAt": 1787638380000,
       "latestPublishedAt": 1787638380000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2651,8 +2702,8 @@
       ],
       "earliestPublishedAt": 1787638320000,
       "latestPublishedAt": 1787638320000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2763,7 +2814,7 @@
     "id": "item_25c8ea799975e9c8",
     "type": "news",
     "title": "K-축구혁신위에 FIFA·AFC도 촉각…축구협회 독립성 살핀다",
-    "summary": "FIFA와 AFC가 확인하려는 핵심 가운데 하나는 축구협회 의 독립성인 것으로 알려졌다. 공문에는 FIFA 정관 에 따라 제3자가 회원 협회 의 독립적인 운영에 부당하게 개입할 경우 제재 대상이 될 수 있다는 내용도 담겼다....",
+    "summary": "국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)이 대한축구협회 에 혁신위의 활동과 논의 내용을 설명해 달라고... 박지성 FIFA 분과위원회 위원이 공동위원장을 맡고 있으며 축구 행정과 거버넌스, 유소년 육성, 첨단 기술...",
     "url": "https://isplus.com/article/view/isp202608250137",
     "originalUrl": "https://isplus.com/article/view/isp202608250137",
     "publisher": "isplus.com",
@@ -2771,7 +2822,8 @@
     "collectedAt": "2026-08-25T06:03:53.339Z",
     "matchedKeywords": [
       "축구혁신위",
-      "정관"
+      "대한축구협회",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2791,14 +2843,17 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee",
-      "statute-revision"
+      "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 36,
-    "labels": [],
+    "relevanceScore": 39,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -2812,8 +2867,8 @@
       ],
       "earliestPublishedAt": 1787635980000,
       "latestPublishedAt": 1787635980000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -2970,8 +3025,8 @@
       ],
       "earliestPublishedAt": 1787633340000,
       "latestPublishedAt": 1787633340000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -3071,8 +3126,8 @@
       ],
       "earliestPublishedAt": 1787632440000,
       "latestPublishedAt": 1787632440000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -3137,8 +3192,8 @@
       ],
       "earliestPublishedAt": 1787630160000,
       "latestPublishedAt": 1787630160000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -3396,8 +3451,8 @@
       ],
       "earliestPublishedAt": 1787628120000,
       "latestPublishedAt": 1787628120000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -3572,8 +3627,8 @@
       ],
       "earliestPublishedAt": 1787626740000,
       "latestPublishedAt": 1787626740000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -3627,8 +3682,8 @@
       ],
       "earliestPublishedAt": 1787625840000,
       "latestPublishedAt": 1787625840000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -3682,8 +3737,8 @@
       ],
       "earliestPublishedAt": 1787625240000,
       "latestPublishedAt": 1787625240000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -3929,8 +3984,8 @@
       ],
       "earliestPublishedAt": 1787624160000,
       "latestPublishedAt": 1787624160000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -4000,8 +4055,8 @@
       ],
       "earliestPublishedAt": 1787623920000,
       "latestPublishedAt": 1787623920000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -4145,8 +4200,8 @@
       ],
       "earliestPublishedAt": 1787623260000,
       "latestPublishedAt": 1787623260000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -4190,8 +4245,8 @@
       ],
       "earliestPublishedAt": 1787622840000,
       "latestPublishedAt": 1787622840000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
@@ -4852,8 +4907,8 @@
       ],
       "earliestPublishedAt": 1787618100000,
       "latestPublishedAt": 1787618100000,
-      "representativeCollectedAt": 1788245471668,
-      "latestCollectedAt": 1788245471668
+      "representativeCollectedAt": 1788264266327,
+      "latestCollectedAt": 1788264266327
     }
   },
   {
