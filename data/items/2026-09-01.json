@@ -1320,8 +1320,8 @@
       ],
       "earliestPublishedAt": 1788278426000,
       "latestPublishedAt": 1788278426000,
-      "representativeCollectedAt": 1788323758653,
-      "latestCollectedAt": 1788323758653
+      "representativeCollectedAt": 1788366946710,
+      "latestCollectedAt": 1788366946710
     },
     "youtube": {
       "videoId": "alZQyegh6yc",
@@ -2285,6 +2285,22 @@
     "labels": [
       "인물 언급"
     ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=LxrrOF3xCcE"
+      ],
+      "stories": [
+        "youtube|youtube|차기 축구협회장, 결국 누가 될까?|골든볼|2026-09-01T12:01:33Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|차기 축구협회장, 결국 누가 될까?|골든볼"
+      ],
+      "earliestPublishedAt": 1788264093000,
+      "latestPublishedAt": 1788264093000,
+      "representativeCollectedAt": 1788366946710,
+      "latestCollectedAt": 1788366946710
+    },
     "youtube": {
       "videoId": "LxrrOF3xCcE",
       "channelId": "UCfIZ-AuDNAYY2m1EBz4aq6g",
@@ -2583,8 +2599,8 @@
       ],
       "earliestPublishedAt": 1788261891000,
       "latestPublishedAt": 1788261891000,
-      "representativeCollectedAt": 1788323758653,
-      "latestCollectedAt": 1788323758653
+      "representativeCollectedAt": 1788366946710,
+      "latestCollectedAt": 1788366946710
     },
     "youtube": {
       "videoId": "ak82iMnkP4c",
@@ -2781,8 +2797,8 @@
       ],
       "earliestPublishedAt": 1788261424000,
       "latestPublishedAt": 1788261424000,
-      "representativeCollectedAt": 1788323758653,
-      "latestCollectedAt": 1788323758653
+      "representativeCollectedAt": 1788366946710,
+      "latestCollectedAt": 1788366946710
     },
     "youtube": {
       "videoId": "ilXa1awMHGU",
@@ -6828,6 +6844,75 @@
       "latestPublishedAt": 1788241680000,
       "representativeCollectedAt": 1788264266327,
       "latestCollectedAt": 1788264266327
+    }
+  },
+  {
+    "id": "youtube_3VfGi7uqPBU",
+    "type": "youtube",
+    "title": "'32강 탈락' 홍명보 후임 선임..대한민국 이끌 '외국인 감독' / '트레블' 루이스 엔리케 오른팔..로베르토 모레노 '임시감독' 선임 / SBS 뉴스속보",
+    "summary": "#로베르토모레노 #대한축구협회 #축구 #감독 #홍명보 #SBS뉴스 #8뉴스 #실시간 으로 만나 보세요 라이브 뉴스 채널 SBS 모바일24 Copyright Ⓒ SBS. All rights reserved. 무단 전재, 재배포 및 AI학습 이용 금지",
+    "url": "https://www.youtube.com/watch?v=3VfGi7uqPBU",
+    "originalUrl": "https://www.youtube.com/watch?v=3VfGi7uqPBU",
+    "publisher": "SBS 뉴스",
+    "publishedAt": "2026-09-01T05:30:21Z",
+    "collectedAt": "2026-09-02T16:35:46.710Z",
+    "matchedKeywords": [
+      "감독",
+      "선임",
+      "후임",
+      "홍명보",
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "youtube",
+    "isOfficial": false,
+    "relevanceScore": 27,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ],
+    "youtube": {
+      "videoId": "3VfGi7uqPBU",
+      "channelId": "UCkinYTS9IHqOEwR1Sze2JTw",
+      "channelStatus": "unlisted",
+      "contentRelevanceTier": "primary",
+      "tags": [
+        "SBS NEWS",
+        "SBS뉴스",
+        "sbs뉴스",
+        "sbs8뉴스",
+        "에스비에스",
+        "sbs 뉴스",
+        "SBS",
+        "실시간",
+        "sbs 실시간",
+        "SBS 8뉴스",
+        "SBS 8시뉴스",
+        "SBS LIVE",
+        "sbs live",
+        "sbs 생중계",
+        "sbs 온에어",
+        "SBS 모닝와이드",
+        "sbs모바일24",
+        "모바일24",
+        "sbsmobile24",
+        "sbs24시",
+        "sbs라이브"
+      ],
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/3VfGi7uqPBU/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "durationSeconds": 899
     }
   },
   {
