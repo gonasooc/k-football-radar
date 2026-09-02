@@ -43,8 +43,8 @@
       ],
       "earliestPublishedAt": 1788132960000,
       "latestPublishedAt": 1788132960000,
-      "representativeCollectedAt": 1788330362080,
-      "latestCollectedAt": 1788330362080
+      "representativeCollectedAt": 1788349443951,
+      "latestCollectedAt": 1788349443951
     }
   },
   {
@@ -172,8 +172,8 @@
       ],
       "earliestPublishedAt": 1788131640000,
       "latestPublishedAt": 1788131640000,
-      "representativeCollectedAt": 1788330362080,
-      "latestCollectedAt": 1788330362080
+      "representativeCollectedAt": 1788349443951,
+      "latestCollectedAt": 1788349443951
     }
   },
   {
@@ -222,8 +222,8 @@
       ],
       "earliestPublishedAt": 1788131340000,
       "latestPublishedAt": 1788131340000,
-      "representativeCollectedAt": 1788330362080,
-      "latestCollectedAt": 1788330362080
+      "representativeCollectedAt": 1788349443951,
+      "latestCollectedAt": 1788349443951
     }
   },
   {
@@ -274,7 +274,7 @@
     "id": "item_f2bb11d52562abfd",
     "type": "news",
     "title": "[단독 비하인드]\"국내는 깜깜이, 나라 밖 시선은 우려\" FIFA '정치 개입'...",
-    "summary": "축구 의 정치 개입을 극도로 경계하는 국제 축구 연맹(FIFA)이 대한 축구협회 (KFA)를 현장 조사키로 했다.... FIFA 정관 14조 1항 '회원단체의 의무' 중 (i), 19조 1항 '회원 협회 의 독립성' AFC 정관 15조 4항에 해당하는 '각 협회 는...",
+    "summary": "축구 의 정치 개입을 극도로 경계하는 국제 축구 연맹(FIFA)이 대한 축구협회 (KFA)를 현장 조사키로 했다.... 정몽규 전 KFA 회장의 사임 이후 선거 제도 변화 등 주요 현안에 대한 보고서를 요청했다. 특히 혁신위의 이름을...",
     "url": "https://www.sportschosun.com/football/2026-08-30/202608300100179220011633",
     "originalUrl": "https://www.sportschosun.com/football/2026-08-30/202608300100179220011633",
     "publisher": "sportschosun.com",
@@ -283,7 +283,7 @@
     "matchedKeywords": [
       "대한 축구협회",
       "KFA",
-      "정관"
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -315,15 +315,17 @@
       "K-축구혁신위원회",
       "KFA"
     ],
-    "issueTags": [
-      "statute-revision"
+    "issueTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
     ],
-    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 12,
+    "relevanceScore": 9,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -337,8 +339,8 @@
       ],
       "earliestPublishedAt": 1788125400000,
       "latestPublishedAt": 1788125400000,
-      "representativeCollectedAt": 1788330362080,
-      "latestCollectedAt": 1788330362080
+      "representativeCollectedAt": 1788349443951,
+      "latestCollectedAt": 1788349443951
     }
   },
   {
@@ -517,24 +519,21 @@
       ],
       "earliestPublishedAt": 1788102420000,
       "latestPublishedAt": 1788102420000,
-      "representativeCollectedAt": 1788330362080,
-      "latestCollectedAt": 1788330362080
+      "representativeCollectedAt": 1788349443951,
+      "latestCollectedAt": 1788349443951
     }
   },
   {
     "id": "item_8faf79f8a7d7d8f7",
     "type": "news",
     "title": "[심찬구의 스포츠 르네상스] 위기의 한국 축구, 암흑기 탈출한 벨기에를...",
-    "summary": "회장과 감독을 둘러싼 책임 공방이 이어졌고 K 축구 혁신위원회 는 선거 제도, 감독 선임 시스템 등을 논의하고 있다. 혁신 위의 역할은 방향성 제시와 권고까지다. 최근에는 FIFA와 AFC까지 혁신 위 활동과 선거 제도 변경...",
+    "summary": "선임 시스템 등을 논의하고 있다. 혁신위의 역할은 방향성 제시와 권고까지다. 최근에는 FIFA와 AFC까지 혁신위 활동과 선거 제도 변경 상황에 대한 설명을 요구하며 축구협회 의 독립성을 당부하고 나섰다. 결국 권고를...",
     "url": "https://www.chosun.com/opinion/specialist_column/2026/08/30/X7NCJPXZCZHO3HBM3D6QYUNJDU",
     "originalUrl": "https://www.chosun.com/opinion/specialist_column/2026/08/30/X7NCJPXZCZHO3HBM3D6QYUNJDU",
     "publisher": "chosun.com",
     "publishedAt": "2026-08-30T14:33:00.000Z",
     "collectedAt": "2026-08-30T17:46:24.999Z",
-    "matchedKeywords": [
-      "혁신위원회",
-      "축구 혁신"
-    ],
+    "matchedKeywords": [],
     "discoveryQueries": [
       "대표팀 감독",
       "대표팀 감독 선임",
@@ -551,13 +550,11 @@
       "축구협회 K-혁신위",
       "K-축구혁신위원회"
     ],
-    "issueTags": [
-      "innovation-committee"
-    ],
+    "issueTags": [],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 4,
+    "relevanceScore": 0,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -573,8 +570,8 @@
       ],
       "earliestPublishedAt": 1788100380000,
       "latestPublishedAt": 1788100380000,
-      "representativeCollectedAt": 1788330362080,
-      "latestCollectedAt": 1788330362080
+      "representativeCollectedAt": 1788349443951,
+      "latestCollectedAt": 1788349443951
     }
   },
   {
@@ -730,7 +727,7 @@
     "id": "item_a934eb8d6a05a838",
     "type": "news",
     "title": "결국 FIFA가 직접 온다, 박지성이 가장 우려했던 일이…혁신위 개정안 ...",
-    "summary": "대한 축구협회 를 둘러싼 변화의 시계가 잠시 멈출 수도 있다. 한국 축구 의 쇄신을 위해 출범한 K- 축구 혁신위 원회를 놓고 국제 축구 연맹(FIFA)이 직접 움직이기 시작했다. 축구 계에 따르면 엘칸 마마도프 FIFA 회원 협회 ...",
+    "summary": "이와 관련해 월드컵에 나가지 못하더라도 쇄신의 기회로 삼아야 한다는 여론이 있지만, FIFA가 징계를 결정할 경우 혁신위 개정 안을 적용하지 않고 현재 축구협회 정관 상 운영을 권고할 수 있어 만반의 대응이...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1004741",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1004741",
     "publisher": "spotvnews.co.kr",
@@ -738,8 +735,8 @@
     "collectedAt": "2026-08-30T13:17:42.399Z",
     "matchedKeywords": [
       "박지성",
-      "대한 축구협회",
-      "축구 혁신"
+      "축구협회",
+      "정관"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -758,14 +755,14 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "statute-revision"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 18,
+    "relevanceScore": 17,
     "labels": [
       "인물 언급"
     ],
@@ -782,8 +779,8 @@
       ],
       "earliestPublishedAt": 1788086340000,
       "latestPublishedAt": 1788086340000,
-      "representativeCollectedAt": 1788330362080,
-      "latestCollectedAt": 1788330362080
+      "representativeCollectedAt": 1788349443951,
+      "latestCollectedAt": 1788349443951
     }
   },
   {
@@ -1002,15 +999,15 @@
       ],
       "earliestPublishedAt": 1788081480000,
       "latestPublishedAt": 1788081480000,
-      "representativeCollectedAt": 1788330362080,
-      "latestCollectedAt": 1788330362080
+      "representativeCollectedAt": 1788349443951,
+      "latestCollectedAt": 1788349443951
     }
   },
   {
     "id": "item_e73b93b7fd682dde",
     "type": "news",
     "title": "[사커토픽] FIFA 조사단, 9월 한국 직접 찾는다! 혁신위 목적 & 협회장 선...",
-    "summary": "국제 축구 연맹(FIFA)이 문화체육관광부 주도로 구성된 임시 기구인 K- 축구 혁신위 원회( 혁신위 ) 관련 정보를 제공할 것을 대한 축구협회 에 요청한 데 이어 9월 직접 한국을 방문해 현장 점검에 나선다. 축구협회 관계자는...",
+    "summary": "국제 축구 연맹(FIFA)이 문화체육관광부 주도로 구성된 임시 기구인 K- 축구 혁신위원회(혁신위) 관련 정보를 제공할 것을 대한 축구협회 에 요청한 데 이어 9월 직접 한국을 방문해 현장 점검에 나선다. 축구협회 관계자는...",
     "url": "https://sports.donga.com/sports/article/all/20260830/134570143/1",
     "originalUrl": "https://sports.donga.com/sports/article/all/20260830/134570143/1",
     "publisher": "sports.donga.com",
@@ -1018,6 +1015,7 @@
     "collectedAt": "2026-08-30T13:17:42.399Z",
     "matchedKeywords": [
       "대한 축구협회",
+      "혁신위원회",
       "축구 혁신"
     ],
     "discoveryQueries": [
@@ -1059,8 +1057,8 @@
       ],
       "earliestPublishedAt": 1788075540000,
       "latestPublishedAt": 1788075540000,
-      "representativeCollectedAt": 1788330362080,
-      "latestCollectedAt": 1788330362080
+      "representativeCollectedAt": 1788349443951,
+      "latestCollectedAt": 1788349443951
     }
   },
   {
@@ -1151,7 +1149,7 @@
     "id": "item_e299b586d689e898",
     "type": "news",
     "title": "'박지성' 축구혁신위가 부당 개입?…FIFA, '訪韓 점검' 예고",
-    "summary": "국제 축구 연맹(FIFA)이 K(케이)- 축구 혁신위원회(혁신위) 활동을 점검하기 위해 대한 축구협회 를 방문한다.... 한국 축구 의 새 판을 짜기 위해 문화체육관광부 주도로 지난 7월 출범한 한시적 기구다. 박지성 FIFA 분과위원회...",
+    "summary": "거버넌스, 유소년 선수 육성 , 첨단 기술 시스템 도입 등 한국 축구 의 미래 경쟁력을 높이기 위한 주요 과제를 논의하고 있다. 다만 혁신위 활동이 협회 에 대한 정부의 간섭이나 개입으로 비칠 수 있다는 우려도 있다....",
     "url": "https://www.nocutnews.co.kr/news/6570225",
     "originalUrl": "https://www.nocutnews.co.kr/news/6570225",
     "publisher": "nocutnews.co.kr",
@@ -1160,9 +1158,10 @@
     "matchedKeywords": [
       "축구혁신위",
       "박지성",
-      "대한 축구협회",
-      "혁신위원회",
-      "축구 혁신"
+      "유소년",
+      "육성",
+      "거버넌스",
+      "시스템"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1177,14 +1176,15 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "youth-governance"
     ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 51,
+    "relevanceScore": 42,
     "labels": [
       "인물 언급"
     ],
@@ -1201,8 +1201,8 @@
       ],
       "earliestPublishedAt": 1788068640000,
       "latestPublishedAt": 1788068640000,
-      "representativeCollectedAt": 1788330362080,
-      "latestCollectedAt": 1788330362080
+      "representativeCollectedAt": 1788349443951,
+      "latestCollectedAt": 1788349443951
     }
   },
   {
@@ -1488,14 +1488,16 @@
     "id": "item_2bca724935c1982c",
     "type": "news",
     "title": "FIFA, K-축구혁신위 활동 직접 들여다본다…9월 축구협회 방문",
-    "summary": "9월 둘째 주 2박 3일 일정으로 현장 점검 예정 아주경제=강상헌 기자 ksh@ajunews.com 국제축구연맹(FIFA)이 정부 주도로 출범한 'K- 축구혁신위 원회' 활동 현황을 직접 들여다보기 위해 다음 달 한국을 찾는다. [사진=연합뉴스]...",
+    "summary": "박지성 FIFA 분과위원과 유승민 대한체육회장이 공동위원장을 맡아 K-축구 거버넌스 개편, 유소년 시스템... 축구협회 선거 에 개입했다는 이유로 스리랑카협회에 징계를 내린 바 있다. 이러한 우려에 대해 혁신위 측은...",
     "url": "https://www.ajunews.com/view/20260830102628514",
     "originalUrl": "https://www.ajunews.com/view/20260830102628514",
     "publisher": "ajunews.com",
     "publishedAt": "2026-08-30T01:48:00.000Z",
     "collectedAt": "2026-08-30T07:25:41.770Z",
     "matchedKeywords": [
-      "축구혁신위"
+      "축구혁신위",
+      "축구협회",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1515,11 +1517,15 @@
     "issueTags": [
       "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
-    "labels": [],
+    "relevanceScore": 36,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1533,8 +1539,8 @@
       ],
       "earliestPublishedAt": 1788054480000,
       "latestPublishedAt": 1788054480000,
-      "representativeCollectedAt": 1788330362080,
-      "latestCollectedAt": 1788330362080
+      "representativeCollectedAt": 1788349443951,
+      "latestCollectedAt": 1788349443951
     }
   },
   {
