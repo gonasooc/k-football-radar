@@ -3,14 +3,14 @@
     "id": "item_db4747c287ee6627",
     "type": "news",
     "title": "스페인 출신 40대 로베르토 모레노, 남자 축구 대표팀 임시 감독 공채 '...",
-    "summary": "▲ 로베르토 모레노(자료사진: EPA=연합뉴스) 스페인 출신의 40대 지도자인 로베르토 모레노가 남자 축구 대표팀 의 임시 감독 으로 선임 됐다. 대한축구협회는 1일 충남 천안 코리아풋볼파크에서 2026년도 제7차 이사회를...",
+    "summary": "임시 감독 으로 선임됐다. 대한 축구협회 는 1일 충남 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열어... 최종 후보 명단에는 모레노 감독 을 비롯해 도메네크 토렌트, 헤수스 카사스, 에르빈 쿠만 감독 등이...",
     "url": "https://swtvnews.com/news/newsview.php?ncode=1065568991346735",
     "originalUrl": "https://swtvnews.com/news/newsview.php?ncode=1065568991346735",
     "publisher": "swtvnews.com",
     "publishedAt": "2026-09-01T23:34:00.000Z",
     "collectedAt": "2026-09-02T01:25:09.451Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "대한 축구협회",
       "이사회"
     ],
     "discoveryQueries": [
@@ -33,7 +33,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://swtvnews.com/news/newsview.php?ncode=1065568991346735"
+      ],
+      "stories": [
+        "news|news|스페인 출신 40대 로베르토 모레노, 남자 축구 대표팀 임시 감독 공채 '...|swtvnews.com|2026-09-01T23:34:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|스페인 출신 40대 로베르토 모레노, 남자 축구 대표팀 임시 감독 공채 '...|swtvnews.com"
+      ],
+      "earliestPublishedAt": 1788305640000,
+      "latestPublishedAt": 1788305640000,
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
+    }
   },
   {
     "id": "item_7e55b87f75e72bb7",
@@ -97,7 +113,7 @@
     "id": "item_cb8d944fb29f7c64",
     "type": "news",
     "title": "축구대표팀 임시 감독에 모레노…내년 아시안컵까지 맡을 수도",
-    "summary": "스페인 출신의 로베르토 모레노(48) 감독 이 하반기 축구 국가대표팀 A매치 6경기를 지휘할 '임시 사령탑'으로 선임 됐다. 대한 축구협회 는 1일 충남 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열어 모레노 감독 의...",
+    "summary": "대한 축구협회 는 1일 충남 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열어 모레노 감독의 대표팀... 현영민 전력강화위원장은 \"이번 임시 감독 선임은 절차적 정당성과 공정성에 대한 국민적 관심이 컸던 만큼...",
     "url": "https://www.moneystorm.kr/news/articleView.html?idxno=6140",
     "originalUrl": "https://www.moneystorm.kr/news/articleView.html?idxno=6140",
     "publisher": "moneystorm.kr",
@@ -106,9 +122,12 @@
     "matchedKeywords": [
       "대한 축구협회",
       "이사회",
+      "감독 선임",
       "감독",
-      "사령탑",
-      "선임"
+      "전력강화위원",
+      "선임",
+      "관심",
+      "현영민"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -129,12 +148,16 @@
       "kfa-executives",
       "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -148,9 +171,46 @@
       ],
       "earliestPublishedAt": 1788302400000,
       "latestPublishedAt": 1788302400000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
+  },
+  {
+    "id": "item_25bb255e3dfd9454",
+    "type": "news",
+    "title": "'포옛 우승 경험' 강상윤, 모레노 임시 감독에 만족 \"외국인 감독과 잘...",
+    "summary": "모레노 감독 이 대한민국 남자 축구 대표팀 임시 감독 이 됐다. 대한 축구협회 는 지난 1일 충청남도 천안... 이후 현영민 국가대표전력강화위원장이 유럽으로 출국해 후보 자들과 대면 면접을 실시했고, 계약 조건 조율을...",
+    "url": "http://www.footballist.co.kr/news/articleView.html?idxno=214253",
+    "originalUrl": "http://www.footballist.co.kr/news/articleView.html?idxno=214253",
+    "publisher": "footballist.co.kr",
+    "publishedAt": "2026-09-01T22:30:00.000Z",
+    "collectedAt": "2026-09-02T06:26:02.080Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "전력강화위원",
+      "후보",
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 감사",
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회",
+      "축구협회 감독 후보",
+      "축구협회 감사"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_f7accf6214b253b9",
@@ -188,13 +248,29 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/sports/2026/09/02/2026090206382565497"
+      ],
+      "stories": [
+        "news|news|\"챗gpt로 선수 평가\" 논란…한국 지휘봉 잡은 모레노, 스페인도 '뜻밖'|mt.co.kr|2026-09-01T22:06:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"챗gpt로 선수 평가\" 논란…한국 지휘봉 잡은 모레노, 스페인도 '뜻밖'|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1788300360000,
+      "latestPublishedAt": 1788300360000,
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
+    }
   },
   {
     "id": "item_bfb332d4c2af4c2f",
     "type": "news",
     "title": "'사상 최초 공채·비선출·엔리케 오른팔...' 韓 축구대표팀 신임 감독,...",
-    "summary": "대한 축구협회 (KFA)는 1일 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열고 모레노 감독 을 포함한 총 6명의 코칭스태프 선임 을 공식 승인했다. 이번 선임 은 협회 역사상 최초로 대한체육회 규정에 따른 공개채용...",
+    "summary": "대한 축구협회 (KFA)는 1일 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열고 모레노 감독을 포함한 총... 현영민 전력강화위원장은 \"이번 임시 감독 선임은 절차적 정당성과 공정성에 대한 국민적 관심이 컸던 만큼...",
     "url": "https://www.starnewskorea.com/sports/2026/09/02/2026090201041172993",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/09/02/2026090201041172993",
     "publisher": "starnewskorea.com",
@@ -204,8 +280,12 @@
       "대한 축구협회",
       "KFA",
       "이사회",
+      "감독 선임",
       "감독",
-      "선임"
+      "전력강화위원",
+      "선임",
+      "관심",
+      "현영민"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -223,12 +303,16 @@
       "kfa-executives",
       "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -242,8 +326,8 @@
       ],
       "earliestPublishedAt": 1788300060000,
       "latestPublishedAt": 1788300060000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -292,8 +376,8 @@
       ],
       "earliestPublishedAt": 1788298800000,
       "latestPublishedAt": 1788298800000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -343,8 +427,8 @@
       ],
       "earliestPublishedAt": 1788298200000,
       "latestPublishedAt": 1788298200000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -403,8 +487,8 @@
       ],
       "earliestPublishedAt": 1788294300000,
       "latestPublishedAt": 1788294300000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -561,8 +645,8 @@
       ],
       "earliestPublishedAt": 1788293160000,
       "latestPublishedAt": 1788293160000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -618,15 +702,15 @@
       ],
       "earliestPublishedAt": 1788293100000,
       "latestPublishedAt": 1788293100000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_e05a6b354c3f8157",
     "type": "news",
     "title": "무패함대 이끌던 지략가 ‘엔리케 오른팔’ 모레노, 좌초된 한국축구 건...",
-    "summary": "(48) 감독 이 낙점됐다. 대한 축구협회 는 1일 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열고 모레노... 임시 감독 선임 안을 의결했다. 이로써 2026 북중미 월드컵 이후 이어진 대표팀의 리더십 공백은 모레노 감독 을...",
+    "summary": "대한 축구협회 는 1일 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열고 모레노 감독의 국가대표팀 임시... 현영민 전력강화위원장 역시 “한국 축구 에 대해 이미 높은 이해도를 갖추고 있으며, 다양한 전술적 대안을...",
     "url": "https://sports.khan.co.kr/article/202609020500026?pt=nv",
     "originalUrl": "https://sports.khan.co.kr/article/202609020500026?pt=nv",
     "publisher": "sports.khan.co.kr",
@@ -634,7 +718,8 @@
     "collectedAt": "2026-09-01T22:49:51.997Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "이사회"
+      "이사회",
+      "현영민"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -648,12 +733,16 @@
     "issueTags": [
       "kfa-executives"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -667,15 +756,15 @@
       ],
       "earliestPublishedAt": 1788292860000,
       "latestPublishedAt": 1788292860000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_541d1d8279497812",
     "type": "news",
     "title": "“AI로 전술 짠다?” 한국대표팀 새 감독 모레노에 대한 의혹…”러시아...",
-    "summary": "홍명보 감독 이 사퇴한 뒤 진통을 겪었던 대한 축구협회 는 공개모집으로 후임을 선임 했다. 모레노 감독 의 계약 기간은 오는 11월 27일까지다. 그는 9~10월 예정된 4차례 A매치를 포함해 총 6경기를 지휘할 예정이다. 그는...",
+    "summary": "대한 축구협회 는 1일 모레노 감독을 한국 대표팀 임시 감독으로 선임했다고 공식 발표했다. 홍명보 감독이 사퇴한 뒤 진통을 겪었던 대한 축구협회 는 공개모집으로 후임을 선임했다. 모레노 감독의 계약 기간은 오는 11월...",
     "url": "http://www.osen.co.kr/article/G1112867768",
     "originalUrl": "http://www.osen.co.kr/article/G1112867768",
     "publisher": "osen.co.kr",
@@ -725,8 +814,8 @@
       ],
       "earliestPublishedAt": 1788291780000,
       "latestPublishedAt": 1788291780000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -938,15 +1027,15 @@
       ],
       "earliestPublishedAt": 1788284040000,
       "latestPublishedAt": 1788284040000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_be4e2e4e64e52c58",
     "type": "news",
     "title": "축구협회, 정관 개정안 의결…회장 선출 기한 최대 6개월 연장",
-    "summary": "대한 축구협회 (KFA)는 1일 천안 코리아풋볼파크에서 2026년도 제1차 임시 대의원총회를 개최해 정관 개정안을... 대한체육회 이사회 의 의결을 거쳐 60일 단위로 선출 기한을 연장할 수 있도록 했다. 단, 연장 기간의 합계는...",
+    "summary": "대한 축구협회 (KFA)는 1일 천안 코리아풋볼파크에서 2026년도 제1차 임시 대의원총회를 개최해 정관 개정 안을... 또한, 회장 직무대행의 권한과 업무 범위를 명확히 규정 해 리더십 부재 시 행정 혼선을 예방하도록 했다. 이번...",
     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3681861",
     "originalUrl": "https://www.gukjenews.com/news/articleView.html?idxno=3681861",
     "publisher": "gukjenews.com",
@@ -958,8 +1047,7 @@
       "정관 개정",
       "대한 축구협회",
       "KFA",
-      "대의원",
-      "이사회"
+      "대의원"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -973,13 +1061,12 @@
     ],
     "issueTags": [
       "statute-revision",
-      "electoral-college",
-      "kfa-executives"
+      "electoral-college"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 45,
+    "relevanceScore": 41,
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -994,15 +1081,15 @@
       ],
       "earliestPublishedAt": 1788283920000,
       "latestPublishedAt": 1788283920000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_beb135167cb1b989",
     "type": "news",
     "title": "한국 축구대표팀 임시 사령탑은 스페인 출신 모레노",
-    "summary": "대한 축구협회 (축협)는 1일 충남 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열었다. 이 자리에서 모레노 감독 을 대표팀 임시 감독 으로 선임 하는 안을 의결했다. 모레노 감독 을 비롯해 그가 꾸린 코치진까지 함께...",
+    "summary": "대한 축구협회 (축협)는 1일 충남 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열었다. 이 자리에서... 현영민 전력강화위원장은 절차적 정당성과 공정성에 대한 국민적 관심이 컸던 만큼 대한체육회 기준에 맞추기...",
     "url": "https://www.imaeil.com/page/view/2026090201233743463",
     "originalUrl": "https://www.imaeil.com/page/view/2026090201233743463",
     "publisher": "imaeil.com",
@@ -1011,7 +1098,10 @@
     "matchedKeywords": [
       "대한 축구협회",
       "축협",
-      "이사회"
+      "이사회",
+      "전력강화위원",
+      "관심",
+      "현영민"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -1025,14 +1115,19 @@
       "축구협회 이사회"
     ],
     "issueTags": [
-      "kfa-executives"
+      "kfa-executives",
+      "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1046,22 +1141,24 @@
       ],
       "earliestPublishedAt": 1788281700000,
       "latestPublishedAt": 1788281700000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_8eb3e70a4613e151",
     "type": "news",
     "title": "축구대표팀 임시 사령탑에 ‘엔리케 오른팔’",
-    "summary": "차기 축구협회장 선출이 늦어질 가능성에 대비한 포석이다. 모레노 감독은 루이스 엔리케 파리생제르맹(PSG) 감독의 ‘오른팔’로 이름을 알린 인물이다. 선수로 프로 무대를 밟은 적은 없지만 스페인 명문 클럽...",
+    "summary": "대한축구협회 는 1일 충남 천안 코리아풋볼파크에서 이사회를 열고 모레노 감독의 남자 축구 대표팀 임시... 현영민 축구협회 전력강화위원장은 “모레노 감독은 한국 축구 에 대해 이미 높은 이해도를 갖추고 다양한...",
     "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000008235&cp=nv",
     "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=9000008235&cp=nv",
     "publisher": "kmib.co.kr",
     "publishedAt": "2026-09-01T16:15:00.000Z",
     "collectedAt": "2026-09-01T16:55:39.979Z",
     "matchedKeywords": [
-      "축구협회장"
+      "대한축구협회",
+      "이사회",
+      "현영민"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -1080,14 +1177,18 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "kfa-executives"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 7,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1101,8 +1202,8 @@
       ],
       "earliestPublishedAt": 1788279300000,
       "latestPublishedAt": 1788279300000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1283,15 +1384,15 @@
       ],
       "earliestPublishedAt": 1788277260000,
       "latestPublishedAt": 1788277260000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_65960798564977f5",
     "type": "news",
     "title": "\"모레노, 바르셀로나 선수들 데리고 있는줄 알아\"...'단 6경기' 韓 임시...",
-    "summary": "대한 축구협회 는 1일 \"천안에 위치한 코리아풋볼파크에서 2026년도 제7차 이사회를 개최하고, 월드컵 이후 공석인 남자 국가대표팀 코칭스태프로 모레노 감독 을 포함한 총 6명의 코칭스태프 선임 을 승인했다\"고 밝혔다....",
+    "summary": "대한 축구협회 는 1일 \"천안에 위치한 코리아풋볼파크에서 2026년도 제7차 이사회를 개최하고, 월드컵 이후... 현영민 전력강화위원장은 \"이번 임시 감독 선임은 절차적 정당성과 공정성에 대한 국민적 관심이 컸던 만큼...",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553505275",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553505275",
     "publisher": "sportalkorea.com",
@@ -1300,8 +1401,12 @@
     "matchedKeywords": [
       "대한 축구협회",
       "이사회",
+      "감독 선임",
       "감독",
-      "선임"
+      "전력강화위원",
+      "선임",
+      "관심",
+      "현영민"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -1315,12 +1420,16 @@
       "kfa-executives",
       "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1334,8 +1443,8 @@
       ],
       "earliestPublishedAt": 1788275520000,
       "latestPublishedAt": 1788275520000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1388,17 +1497,46 @@
     }
   },
   {
+    "id": "item_b3c98f33003ee7c6",
+    "type": "news",
+    "title": "한국, 3개월간 ‘스페인 축구’",
+    "summary": "뒤 협회 는 처음으로 공개채용에 나섰다. 최종후보 5인에 든 모레노는 온라인과 대면 면접을 모두 통과했다. 유럽으로 찾아간 현영민 전력강화위원장은 “한국 축구 에 대한 이해도가 이미 높았고, 다양한 전술적 대안을...",
+    "url": "https://www.joongang.co.kr/article/25458213",
+    "originalUrl": "https://www.joongang.co.kr/article/25458213",
+    "publisher": "joongang.co.kr",
+    "publishedAt": "2026-09-01T15:01:00.000Z",
+    "collectedAt": "2026-09-02T06:26:02.080Z",
+    "matchedKeywords": [
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 3,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_13117b21f2570aa2",
     "type": "news",
     "title": "축구 국가대표팀 임시 감독 '스페인 출신' 로베르트 모레노…팬들 반응...",
-    "summary": "1일 KFA(대한 축구협회 )는 대한민국 축구 국가대표팀 임시 감독 에 로베르트 모레노 감독 을 선임 했다고 밝혔다. 앞서 2026 FIFA 북중미 월드컵을 34위로 마무리한 후 홍명보 감독 이 자진 사퇴했다. KFA는 \"공개채용을 통해...",
+    "summary": "1일 KFA (대한축구협회)는 대한민국 축구국가대표팀 임시 감독에 로베르트 모레노 감독을 선임했다고 밝혔다. 앞서 2026 FIFA 북중미 월드컵을 34위로 마무리한 후 홍명보 감독이 자진 사퇴했다. KFA 는 \"공개채용을 통해...",
     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16179874",
     "originalUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16179874",
     "publisher": "topstarnews.net",
     "publishedAt": "2026-09-01T15:00:00.000Z",
     "collectedAt": "2026-09-01T16:55:39.979Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "KFA",
       "감독",
       "선임",
@@ -1440,8 +1578,8 @@
       ],
       "earliestPublishedAt": 1788274800000,
       "latestPublishedAt": 1788274800000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1506,15 +1644,14 @@
     "id": "item_661ccbed6c55fdc3",
     "type": "news",
     "title": "[SPO 현장] 이민성 감독, 음주운전 전력에 \"제 아킬레스건이고 죄송한 마...",
-    "summary": "지난 7월 문화체육관광위원회가 주도한 축구협회 청문회에서 뜻밖에도 이민성 아시안게임 축구 대표팀 감독 에 대한 문제점도 거론됐다. 과거 음주운전 및 뺑소니 전력이 사령탑 선임 과정에서 제대로 검증되지 않았다는...",
+    "summary": "감독에 대한 문제점도 거론됐다. 과거 음주운전 및 뺑소니 전력이 사령탑 선임 과정에서 제대로 검증되지 않았다는 사실로 논란이 됐다. 이와 관련해 정몽규 전 축구협회 장과 이용수 회장 직무대행 모두 선임 당시 해당...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1005095",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1005095",
     "publisher": "spotvnews.co.kr",
     "publishedAt": "2026-09-01T14:53:00.000Z",
     "collectedAt": "2026-09-01T16:55:39.979Z",
     "matchedKeywords": [
-      "축구협회",
-      "청문회"
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -1529,12 +1666,16 @@
       "축구협회장"
     ],
     "issueTags": [],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 5,
+    "relevanceScore": 3,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1548,8 +1689,8 @@
       ],
       "earliestPublishedAt": 1788274380000,
       "latestPublishedAt": 1788274380000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1687,8 +1828,8 @@
       ],
       "earliestPublishedAt": 1788271560000,
       "latestPublishedAt": 1788271560000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1794,8 +1935,8 @@
       ],
       "earliestPublishedAt": 1788267060000,
       "latestPublishedAt": 1788267060000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1849,26 +1990,26 @@
       ],
       "earliestPublishedAt": 1788266760000,
       "latestPublishedAt": 1788266760000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_c66a89cf05dfbc96",
     "type": "news",
     "title": "'엔리케의 오른팔' 모레노, 축구대표팀 임시 감독…6경기로 평가",
-    "summary": "대한 축구협회 는 오늘 이사회 를 통해 모레노 임시 감독 선임을 확정했습니다. 스페인 출신 첫 대표팀 감독으로, 49살의 젊은 축구 지도자입니다. 세계 축구 계에선 챔피언스리그 2연패를 달성한 파리 생제르맹 루이스...",
+    "summary": "축구협회 는 모레노 감독의 전술적 다양성에 높은 점수를 줬습니다. 감독 선임을 주도한 현영민 전력강화위원장은 \"한국 축구 에 대한 이해도가 높았고, 다양한 전술적 대안을 제시하는 등 열의가 인상 깊었다\"고...",
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/01/2026090190253.html",
     "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/09/01/2026090190253.html",
     "publisher": "news.tvchosun.com",
     "publishedAt": "2026-09-01T12:46:00.000Z",
     "collectedAt": "2026-09-01T16:55:39.979Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "이사회",
       "감독 선임",
       "감독",
-      "선임"
+      "전력강화위원",
+      "선임",
+      "현영민"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -1879,15 +2020,18 @@
       "축구협회 이사회"
     ],
     "issueTags": [
-      "kfa-executives",
       "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 7,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1901,22 +2045,22 @@
       ],
       "earliestPublishedAt": 1788266760000,
       "latestPublishedAt": 1788266760000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_c49ad913ea7a3bd5",
     "type": "news",
     "title": "[오피셜] '韓 감독직 2연속 실패' 카사스, 모레노 선임 발표 직후 소속팀...",
-    "summary": "그는 지난 2024년 위르겐 클린스만 감독 경질 당시 대한 축구협회 (KFA)의 차기 국가대표팀 감독 최종 후보군에... 이후 협상이 틀어진 KFA는 홍명보 감독으로 선회했다. 이후 2026 북중미 월드컵 조별리그 탈락 여파로 홍명보 ...",
+    "summary": "그는 지난 2024년 위르겐 클린스만 감독 경질 당시 대한축구협회( KFA )의 차기 국가대표팀 감독 최종 후보군에... 이후 협상이 틀어진 KFA 는 홍명보 감독으로 선회했다. 이후 2026 북중미 월드컵 조별리그 탈락 여파로 홍명보...",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553505101",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553505101",
     "publisher": "sportalkorea.com",
     "publishedAt": "2026-09-01T12:41:00.000Z",
     "collectedAt": "2026-09-01T16:55:39.979Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "KFA",
       "대표팀 감독",
       "감독",
@@ -1960,8 +2104,8 @@
       ],
       "earliestPublishedAt": 1788266460000,
       "latestPublishedAt": 1788266460000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2062,8 +2206,8 @@
       ],
       "earliestPublishedAt": 1788264120000,
       "latestPublishedAt": 1788264120000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2158,8 +2302,8 @@
       ],
       "earliestPublishedAt": 1788264000000,
       "latestPublishedAt": 1788264000000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2257,8 +2401,8 @@
       ],
       "earliestPublishedAt": 1788263160000,
       "latestPublishedAt": 1788263160000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2437,7 +2581,7 @@
     "id": "item_33d69980502005a2",
     "type": "news",
     "title": "축구대표팀 임시감독에 모레노… ‘엔리케 오른팔’로 불린 전술가",
-    "summary": "대한 축구협회 는 1일 천안 코리아풋볼파크에서 2026년도 제7차 이사회 를 열어 모레노 감독의 대표팀 임시감독 선임안을 의결했다. 모레노 감독은 9∼10월 4경기와 11월 2경기 등 A매치 6경기를 지휘한다. 계약 기간은...",
+    "summary": "대한 축구협회 는 1일 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열어 모레노 감독의 대표팀 임시감독... 현영민 전력강화위원장은 “모레노 감독은 한국 축구 에 대해 이미 높은 이해도를 갖추고 다양한 전술적...",
     "url": "https://www.segye.com/newsView/20260901517392?OutUrl=naver",
     "originalUrl": "https://www.segye.com/newsView/20260901517392?OutUrl=naver",
     "publisher": "segye.com",
@@ -2446,9 +2590,7 @@
     "matchedKeywords": [
       "대한 축구협회",
       "이사회",
-      "감독 선임",
-      "감독",
-      "선임"
+      "현영민"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -2467,15 +2609,18 @@
       "축구협회장"
     ],
     "issueTags": [
-      "kfa-executives",
-      "coach-appointment"
+      "kfa-executives"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -2489,8 +2634,8 @@
       ],
       "earliestPublishedAt": 1788261780000,
       "latestPublishedAt": 1788261780000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2555,8 +2700,8 @@
       ],
       "earliestPublishedAt": 1788261660000,
       "latestPublishedAt": 1788261660000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2680,8 +2825,8 @@
       ],
       "earliestPublishedAt": 1788260340000,
       "latestPublishedAt": 1788260340000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2726,8 +2871,8 @@
       ],
       "earliestPublishedAt": 1788259860000,
       "latestPublishedAt": 1788259860000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2789,8 +2934,8 @@
       ],
       "earliestPublishedAt": 1788259620000,
       "latestPublishedAt": 1788259620000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2965,19 +3110,19 @@
     "id": "item_ea7dd37b6ec0722b",
     "type": "news",
     "title": "돌고 돌아 한국행! 위기의 한국 축구 구할 임시 소방수는 '엔리케 오른...",
-    "summary": "대한 축구협회 (KFA)는 1일 '임시 사령탑으로 모레노 감독을 선임했다'고 발표했다.<스포츠조선 9월 1일 오전... 북중미월드컵에서 조별리그 탈락이라는 충격적인 성적표를 받아 든 한국 축구 는 쑥대밭이 됐다. 홍명보 감독이...",
+    "summary": "대한축구협회( KFA )는 1일 '임시 사령탑으로 모레노 감독을 선임했다'고 발표했다.<스포츠조선 9월 1일 오전 9시40분 단독보도> KFA 는 이날 충남 천안의 코리아풋볼파크에서 2026년 제7차 이사회를 개최하고, 2026년...",
     "url": "https://www.sportschosun.com/football/2026-09-01/202609010100007050000218",
     "originalUrl": "https://www.sportschosun.com/football/2026-09-01/202609010100007050000218",
     "publisher": "sportschosun.com",
     "publishedAt": "2026-09-01T10:11:00.000Z",
     "collectedAt": "2026-09-01T12:04:26.327Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "KFA",
+      "이사회",
       "감독",
       "사령탑",
-      "선임",
-      "홍명보"
+      "선임"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -3001,18 +3146,15 @@
       "KFA"
     ],
     "issueTags": [
+      "kfa-executives",
       "coach-appointment"
     ],
-    "personTags": [
-      "person_hong_myung_bo"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급"
-    ],
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -3026,8 +3168,8 @@
       ],
       "earliestPublishedAt": 1788257460000,
       "latestPublishedAt": 1788257460000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3081,8 +3223,8 @@
       ],
       "earliestPublishedAt": 1788256920000,
       "latestPublishedAt": 1788256920000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3145,7 +3287,7 @@
     "id": "item_dc61312d9379978e",
     "type": "news",
     "title": "\"홍명보 후임에 모레노, 韓 사상 첫 공모 감독\" 일본도 대대적 보도",
-    "summary": "앞서 한국은 월드컵에서 탈락했고, 홍명보 전 감독은 선임 과정 불공정성 등으로 대한 축구협회 와 함께 큰 타격을 받았다\"고 전했다. 또 다른 매체인 니칸스포츠도 \"모레노 감독의 선임은 사상 최초의 공모에 의한 결정...",
+    "summary": "모레노 감독과 대한 축구협회 간 계약 기간은 11월 27일까지로, A매치 6경기 이후 평가를 통해 아시안컵까지 계약 연장이 가능하다. 현영민 전력강화위원장은 \"모레노 감독은 한국 축구 에 대해 이미 높은 이해도를 갖추고...",
     "url": "https://www.starnewskorea.com/sports/2026/09/01/2026090117502059436",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/09/01/2026090117502059436",
     "publisher": "starnewskorea.com",
@@ -3156,7 +3298,7 @@
       "후임",
       "홍명보",
       "대한 축구협회",
-      "선임"
+      "현영민"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -3173,11 +3315,12 @@
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_hyun_young_min"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ],
@@ -3194,8 +3337,8 @@
       ],
       "earliestPublishedAt": 1788255720000,
       "latestPublishedAt": 1788255720000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3371,8 +3514,8 @@
       ],
       "earliestPublishedAt": 1788253920000,
       "latestPublishedAt": 1788253920000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3421,8 +3564,8 @@
       ],
       "earliestPublishedAt": 1788253860000,
       "latestPublishedAt": 1788253860000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3451,14 +3594,16 @@
     "id": "item_7f262c9507e1b432",
     "type": "news",
     "title": "韓축구 임시 감독에 모레노…A매치 거쳐 연장여부 결정",
-    "summary": "실패로 홍명보 전 감독이 물러나면서 공석이 된 대표팀 사령탑을 맡아 9~10월 4경기와 11월 2경기 등 A매치 6경기를 지휘한다. 이달 24일 에콰도르와의 홈 평가전이 모레노 감독의 한국 축구 데뷔전이다. 축구 협회 는 서류...",
+    "summary": "대한축구협회 는 1일 충남 천안 코리아풋볼파크에서 이사회를 열어 모레노 감독의 대표팀 임시 감독... 현영민 축구협회 전력강화위원장은 “모레노 감독은 한국 축구 에 대해 높은 이해도를 갖추고 다양한 전술적...",
     "url": "https://www.sedaily.com/article/20085966?ref=naver",
     "originalUrl": "https://www.sedaily.com/article/20085966?ref=naver",
     "publisher": "sedaily.com",
     "publishedAt": "2026-09-01T09:02:00.000Z",
     "collectedAt": "2026-09-01T12:04:26.327Z",
     "matchedKeywords": [
-      "홍명보"
+      "대한축구협회",
+      "이사회",
+      "현영민"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -3472,13 +3617,15 @@
       "축구협회 감독 후보",
       "축구협회 이사회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "kfa-executives"
+    ],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hyun_young_min"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 3,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -3496,8 +3643,8 @@
       ],
       "earliestPublishedAt": 1788253320000,
       "latestPublishedAt": 1788253320000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3549,8 +3696,8 @@
       ],
       "earliestPublishedAt": 1788253140000,
       "latestPublishedAt": 1788253140000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3602,8 +3749,8 @@
       ],
       "earliestPublishedAt": 1788252780000,
       "latestPublishedAt": 1788252780000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3660,29 +3807,23 @@
       ],
       "earliestPublishedAt": 1788252720000,
       "latestPublishedAt": 1788252720000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_58d1048f2e3b0630",
     "type": "news",
     "title": "한국 축구에 ‘점유·압박’ 입힐까…임시 사령탑 모레노는 누구?",
-    "summary": "#로베르토 모레노 선임 확정 2026 북중미 월드컵을 전후로 대한축구협회 는 극심한 혼란을 겪었다. 홍명보 전... 정몽규 전 회장 역시 자리에서 물러났다. 감독 선임 작업을 진행하는 협회 전력강화위원회는 대표팀을 임시...",
+    "summary": "2026 북중미 월드컵 이후 홍명보 전 감독이 물러나고 축구협회 리더십에도 공백이 생긴 가운데 대표팀은 임시... 서류 전형과 온라인 면접이 진행됐고 현영민 전력강화위원장이 팀을 꾸려 유럽 현지에서 협상을 펼친 끝에...",
     "url": "https://ilyo.co.kr/?ac=article_view&entry_id=512539",
     "originalUrl": "https://ilyo.co.kr/?ac=article_view&entry_id=512539",
     "publisher": "ilyo.co.kr",
     "publishedAt": "2026-09-01T08:48:00.000Z",
     "collectedAt": "2026-09-01T12:04:26.327Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "감독 선임",
-      "전력강화위원회",
-      "감독",
-      "전력강화위원",
-      "선임",
-      "정몽규",
-      "홍명보"
+      "홍명보",
+      "현영민"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -3696,16 +3837,14 @@
       "전력강화위원회",
       "축구협회 감독 선임"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_hong_myung_bo",
+      "person_hyun_young_min"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 6,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -3723,8 +3862,8 @@
       ],
       "earliestPublishedAt": 1788252480000,
       "latestPublishedAt": 1788252480000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3782,8 +3921,8 @@
       ],
       "earliestPublishedAt": 1788252420000,
       "latestPublishedAt": 1788252420000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3827,8 +3966,8 @@
       ],
       "earliestPublishedAt": 1788252360000,
       "latestPublishedAt": 1788252360000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3880,8 +4019,8 @@
       ],
       "earliestPublishedAt": 1788252060000,
       "latestPublishedAt": 1788252060000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3983,8 +4122,8 @@
       ],
       "earliestPublishedAt": 1788251520000,
       "latestPublishedAt": 1788251520000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4037,8 +4176,8 @@
       ],
       "earliestPublishedAt": 1788251520000,
       "latestPublishedAt": 1788251520000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4091,8 +4230,8 @@
       ],
       "earliestPublishedAt": 1788250560000,
       "latestPublishedAt": 1788250560000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4134,8 +4273,8 @@
       ],
       "earliestPublishedAt": 1788250440000,
       "latestPublishedAt": 1788250440000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4190,26 +4329,24 @@
       ],
       "earliestPublishedAt": 1788250200000,
       "latestPublishedAt": 1788250200000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_0d6eee6b71ae944e",
     "type": "news",
     "title": "축구대표팀 임시감독에 스페인 출신 로베르토 모레노 선임",
-    "summary": "대한 축구협회 는 1일 충남 천안 코리아풋볼파크에서 이사회 를 열고 모레노 감독의 남자 축구 대표팀 임시 감독 선임안을 의결했다. 한국 축구 사상 첫 스페인 출신 사령탑이다. 모레노 감독은 에두아르도 도캄포...",
+    "summary": "대한축구협회 는 1일 충남 천안 코리아풋볼파크에서 이사회를 열고 모레노 감독의 남자 축구 대표팀 임시... 현영민 축구협회 전력강화위원장은 “모레노 감독은 한국 축구 에 대해 이미 높은 이해도를 갖추고 다양한...",
     "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000008100&cp=nv",
     "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=9000008100&cp=nv",
     "publisher": "kmib.co.kr",
     "publishedAt": "2026-09-01T08:07:00.000Z",
     "collectedAt": "2026-09-01T12:04:26.327Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "이사회",
-      "감독 선임",
-      "감독",
-      "선임"
+      "현영민"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -4225,15 +4362,18 @@
       "축구협회장"
     ],
     "issueTags": [
-      "kfa-executives",
-      "coach-appointment"
+      "kfa-executives"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -4247,8 +4387,8 @@
       ],
       "earliestPublishedAt": 1788250020000,
       "latestPublishedAt": 1788250020000,
-      "representativeCollectedAt": 1788281739979,
-      "latestCollectedAt": 1788281739979
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4362,8 +4502,8 @@
       ],
       "earliestPublishedAt": 1788249360000,
       "latestPublishedAt": 1788249360000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4483,8 +4623,8 @@
       ],
       "earliestPublishedAt": 1788249240000,
       "latestPublishedAt": 1788249240000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4546,14 +4686,14 @@
     "id": "item_59a308b47fba8f5d",
     "type": "news",
     "title": "축구대표팀 임시 감독에 스페인 출신 로베르토 모레노…6경기 평가 결과...",
-    "summary": "대한 축구협회 는 1일 충남 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열어 모레노 감독의 대표팀... 현영민 전력강화위원장은 \"이번 임시 감독 선임은 절차적 정당성과 공정성에 대한 국민적 관심이 컸던 만큼...",
+    "summary": "대한축구협회 는 1일 충남 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열어 모레노 감독의 대표팀... 현영민 전력강화위원장은 \"이번 임시 감독 선임은 절차적 정당성과 공정성에 대한 국민적 관심이 컸던 만큼...",
     "url": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=375345",
     "originalUrl": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=375345",
     "publisher": "thesportstimes.co.kr",
     "publishedAt": "2026-09-01T07:40:00.000Z",
     "collectedAt": "2026-09-01T12:04:26.327Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "이사회",
       "감독 선임",
       "감독",
@@ -4600,8 +4740,8 @@
       ],
       "earliestPublishedAt": 1788248400000,
       "latestPublishedAt": 1788248400000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4638,7 +4778,7 @@
   {
     "id": "item_08e7addd3099507a",
     "type": "news",
-    "title": "[오피셜]KFA. 새 회장 선출 최대 6개월 연장 가능 조항 신설…임시 대의...",
+    "title": "[오피셜]KFA, 새 회장 선출 최대 6개월 연장 가능 조항 신설…임시 대의...",
     "summary": "대한 축구협회 (KFA)가 2026년도 제1차 임시 대의원총회를 열고 정관 개정 안을 의결했다. 임시 대의원총회는 1일... 회장 직무대행이 수행할 수 있는 업무의 한계와 권한 범위를 명확히 규정 , 리더십 부재시 발생할 수 있는...",
     "url": "https://www.sportschosun.com/football/2026-09-01/202609010100007570000242",
     "originalUrl": "https://www.sportschosun.com/football/2026-09-01/202609010100007570000242",
@@ -4677,15 +4817,17 @@
         "https://www.sportschosun.com/football/2026-09-01/202609010100007570000242"
       ],
       "stories": [
+        "news|news|[오피셜]kfa, 새 회장 선출 최대 6개월 연장 가능 조항 신설…임시 대의...|sportschosun.com|2026-09-01T07:30:00.000Z",
         "news|news|[오피셜]kfa. 새 회장 선출 최대 6개월 연장 가능 조항 신설…임시 대의...|sportschosun.com|2026-09-01T07:30:00.000Z"
       ],
       "nearKeys": [
+        "news|news|[오피셜]kfa, 새 회장 선출 최대 6개월 연장 가능 조항 신설…임시 대의...|sportschosun.com",
         "news|news|[오피셜]kfa. 새 회장 선출 최대 6개월 연장 가능 조항 신설…임시 대의...|sportschosun.com"
       ],
       "earliestPublishedAt": 1788247800000,
       "latestPublishedAt": 1788247800000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4736,8 +4878,8 @@
       ],
       "earliestPublishedAt": 1788247200000,
       "latestPublishedAt": 1788247200000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4804,7 +4946,7 @@
     "id": "item_80f3f40ac895f71a",
     "type": "news",
     "title": "'정몽규 퇴진 후 쇄신 가속' 대한축구협회, 회장 선출 기한 최대 6개월 ...",
-    "summary": "대한축구협회 는 13년 동안 이끌어 온 정몽규 회장이 물러나면서 새 수장을 뽑아야 하는 처지다. 행정 난맥상으로 끊임없이 비판받아 온 축구협회 는 쇄신을 위해 차기 회장 선거를 기존 방식대로 해선 안 된다는 요구에도...",
+    "summary": "대한 축구협회 가 회장 궐위 시 후임 선출 기한을 6개월까지 연장할 수 있도록 규정 을 개정 했다. 축구협회 는 1일 충남 천안의 코리아풋볼파크에서 2026년도 제1차 임시 대의원총회를 열고 정관 개정 안을 의결했다고 밝혔다....",
     "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000061580",
     "originalUrl": "https://www.jnilbo.com/news/articleView.html?idxno=90000061580",
     "publisher": "jnilbo.com",
@@ -4813,7 +4955,10 @@
     "matchedKeywords": [
       "대한축구협회",
       "정몽규",
-      "회장 선거"
+      "대한 축구협회",
+      "대의원",
+      "정관",
+      "정관 개정"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -4827,14 +4972,15 @@
       "축구협회 회장 선거"
     ],
     "issueTags": [
-      "election"
+      "electoral-college",
+      "statute-revision"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 41,
+    "relevanceScore": 44,
     "labels": [
       "인물 언급"
     ],
@@ -4851,8 +4997,8 @@
       ],
       "earliestPublishedAt": 1788247140000,
       "latestPublishedAt": 1788247140000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4950,8 +5096,8 @@
       ],
       "earliestPublishedAt": 1788247020000,
       "latestPublishedAt": 1788247020000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -5064,15 +5210,15 @@
       ],
       "earliestPublishedAt": 1788246480000,
       "latestPublishedAt": 1788246480000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_c4f870f63a0f92cc",
     "type": "news",
     "title": "[공식발표] 대한축구협회, 새 회장 선출 기한 60일→최대 6개월로...임시...",
-    "summary": "대한축구협회( KFA )가 회장 공석 상황에 대비한 행정 절차를 정비하고 직무대행의 권한 범위를 명확히 하는 정관 개정안을 통과시켰다. 협회는 1일 천안 코리아풋볼파크에서 2026년도 제1차 임시 대의원총회를 개최하고 정관...",
+    "summary": "대한 축구협회 (KFA)가 회장 공석 상황에 대비한 행정 절차를 정비하고 직무대행의 권한 범위를 명확히 하는... 협회 는 1일 천안 코리아풋볼파크에서 2026년도 제1차 임시 대의원 총회를 개최하고 정관 개정안을 최종 의결했다....",
     "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=97243",
     "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=97243",
     "publisher": "fourfourtwo.co.kr",
@@ -5080,6 +5226,7 @@
     "collectedAt": "2026-09-01T12:04:26.327Z",
     "matchedKeywords": [
       "대한축구협회",
+      "대한 축구협회",
       "KFA",
       "대의원",
       "정관",
@@ -5116,8 +5263,8 @@
       ],
       "earliestPublishedAt": 1788246480000,
       "latestPublishedAt": 1788246480000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -5228,8 +5375,8 @@
       ],
       "earliestPublishedAt": 1788246300000,
       "latestPublishedAt": 1788246300000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -5332,8 +5479,8 @@
       ],
       "earliestPublishedAt": 1788245760000,
       "latestPublishedAt": 1788245760000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -5421,8 +5568,8 @@
       ],
       "earliestPublishedAt": 1788244860000,
       "latestPublishedAt": 1788244860000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -5537,8 +5684,8 @@
       ],
       "earliestPublishedAt": 1788244800000,
       "latestPublishedAt": 1788244800000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -5592,8 +5739,8 @@
       ],
       "earliestPublishedAt": 1788244800000,
       "latestPublishedAt": 1788244800000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -5688,8 +5835,8 @@
       ],
       "earliestPublishedAt": 1788244500000,
       "latestPublishedAt": 1788244500000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -5740,8 +5887,8 @@
       ],
       "earliestPublishedAt": 1788244500000,
       "latestPublishedAt": 1788244500000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -5859,8 +6006,8 @@
       ],
       "earliestPublishedAt": 1788244140000,
       "latestPublishedAt": 1788244140000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -5999,24 +6146,22 @@
       ],
       "earliestPublishedAt": 1788243300000,
       "latestPublishedAt": 1788243300000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_14a21fda948ae019",
     "type": "news",
     "title": "77년생 모레노호 출범···신뢰 잃은 한국 축구 구할까",
-    "summary": "대한축구협회( KFA )는 1일 충남 천안 코리아풋볼파크에서 2026년도 제7차 이사회를 열어 로베르토 모레노 감독을 포함한 코칭스태프 6명의 선임안을 승인했다. 스페인 출신 감독이 한국 축구대표팀을 이끄는 것은 이번이...",
+    "summary": "이번 선임은 축구협회 가 국가대표팀 감독을 공개채용으로 뽑은 첫 사례다. 지난 2월 개정 된 대한체육회의 국가대표 선발·운영 규정 에 따라 공개모집을 진행했으며, 전력강화위원과 외부 인사로 평가위원회를 구성해...",
     "url": "https://www.thereport.co.kr/news/articleView.html?idxno=90966",
     "originalUrl": "https://www.thereport.co.kr/news/articleView.html?idxno=90966",
     "publisher": "thereport.co.kr",
     "publishedAt": "2026-09-01T06:14:00.000Z",
     "collectedAt": "2026-09-01T06:51:11.668Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "KFA",
-      "이사회",
+      "대표팀 감독",
       "감독",
       "선임"
     ],
@@ -6035,13 +6180,12 @@
       "KFA"
     ],
     "issueTags": [
-      "kfa-executives",
       "coach-appointment"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 4,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -6057,8 +6201,8 @@
       ],
       "earliestPublishedAt": 1788243240000,
       "latestPublishedAt": 1788243240000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -6326,8 +6470,8 @@
       ],
       "earliestPublishedAt": 1788242580000,
       "latestPublishedAt": 1788242580000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -6735,8 +6879,8 @@
       ],
       "earliestPublishedAt": 1788240420000,
       "latestPublishedAt": 1788240420000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -6798,7 +6942,7 @@
     "id": "item_c30d126f7c104807",
     "type": "news",
     "title": "[자막뉴스] '홍명보 후임' \"돌고 돌아 찾았다\"…\"선수 경력 전무\" '최초...",
-    "summary": "앞서 현영민 국가대표 전력강화위원장을 필두로 한 협상팀이 유럽으로 출국해 후보 자들과 직접 만나고... 했지만 축구협회 는 그때 위르겐 클린스만 감독 을 선택했습니다. 이번에 재차 공모가 뜨자 다시 한번 지원을 한...",
+    "summary": "대한 축구협회 는 오늘(1일) 충남 천안 코리아풋볼파크에서 이사회를 열어 스페인 출신의 로베르토 모레노 감독의 대표팀 임시감독 선임안을 의결했습니다. 모레노 감독은 9월부터 11월까지 펼쳐지는 A매치 6경기를...",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008731792&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008731792&plink=ORI",
     "publisher": "news.sbs.co.kr",
@@ -6806,9 +6950,11 @@
     "collectedAt": "2026-09-01T06:51:11.668Z",
     "matchedKeywords": [
       "홍명보",
-      "전력강화위원",
-      "후보",
-      "현영민"
+      "대한 축구협회",
+      "이사회",
+      "감독 선임",
+      "감독",
+      "선임"
     ],
     "discoveryQueries": [
       "\"현영민\" 대한축구협회",
@@ -6825,15 +6971,15 @@
       "축구협회 전무"
     ],
     "issueTags": [
+      "kfa-executives",
       "coach-appointment"
     ],
     "personTags": [
-      "person_hong_myung_bo",
-      "person_hyun_young_min"
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 22,
     "labels": [
       "인물 언급"
     ],
@@ -6850,8 +6996,8 @@
       ],
       "earliestPublishedAt": 1788240180000,
       "latestPublishedAt": 1788240180000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -6930,7 +7076,7 @@
     "id": "item_247a654cf0f6106e",
     "type": "news",
     "title": "'홍명보 후임' 임시 사령탑은 모레노... 아시안컵까지 계약 연장 가능",
-    "summary": "차기 축구협회장 선출이 늦어질 경우 대표팀 정식 감독 선임 일정도 밀릴 수 있기 때문이다. 마침 이날 축구협회는 '회장 궐위 시 후임 선출 기한'을 6개월까지 연장할 수 있도록 정관을 개정했다. 모레노 감독이 임시...",
+    "summary": "마침 이날 축구협회 는 '회장 궐위 시 후임 선출 기한'을 6개월까지 연장할 수 있도록 정관 을 개정 했다. 모레노 감독이 임시 사령탑을 넘어 정식 감독으로 승격할 수 있을지도 관심이다. 공교롭게도 그는 스페인...",
     "url": "https://www.hankookilbo.com/news/article/A2026090113440001955?did=NA",
     "originalUrl": "https://www.hankookilbo.com/news/article/A2026090113440001955?did=NA",
     "publisher": "hankookilbo.com",
@@ -6940,7 +7086,7 @@
       "사령탑",
       "후임",
       "홍명보",
-      "축구협회장",
+      "축구협회",
       "정관"
     ],
     "discoveryQueries": [
@@ -6963,7 +7109,6 @@
     ],
     "issueTags": [
       "coach-appointment",
-      "election",
       "statute-revision"
     ],
     "personTags": [
@@ -6971,7 +7116,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 31,
+    "relevanceScore": 27,
     "labels": [
       "인물 언급"
     ],
@@ -6988,8 +7133,8 @@
       ],
       "earliestPublishedAt": 1788239820000,
       "latestPublishedAt": 1788239820000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -7305,8 +7450,8 @@
       ],
       "earliestPublishedAt": 1788238500000,
       "latestPublishedAt": 1788238500000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -7350,15 +7495,17 @@
     "id": "item_409d634aea4486ee",
     "type": "news",
     "title": "모레노, 축구대표팀 임시감독직 맡았다",
-    "summary": "1일 대한축구협회( KFA )는 충남 천안 코리아풋볼파크에서 가진 제7차 이사회에서 모레노 감독의 대표팀... KFA 는 \"대표팀 감독을 공개채용 형태로 선발한 건 이번이 처음이었는데, 지난 7월 말 이사회 후 전력강화위원회...",
+    "summary": "1일 대한 축구협회 (KFA)는 충남 천안 코리아풋볼파크에서 가진 제7차 이사회에서 모레노 감독의 대표팀... 아무래도 최근 K- 축구 혁신위원회 및 문체부의 권고들을 수용한 것으로 알려진 대한체육회가 지난 7월 이사회를...",
     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=321846",
     "originalUrl": "https://www.stnsports.co.kr/news/articleView.html?idxno=321846",
     "publisher": "stnsports.co.kr",
     "publishedAt": "2026-09-01T04:48:00.000Z",
     "collectedAt": "2026-09-01T06:51:11.668Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "대한 축구협회",
       "KFA",
+      "혁신위원회",
+      "축구 혁신",
       "이사회"
     ],
     "discoveryQueries": [
@@ -7371,12 +7518,13 @@
       "KFA"
     ],
     "issueTags": [
+      "innovation-committee",
       "kfa-executives"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -7392,8 +7540,8 @@
       ],
       "earliestPublishedAt": 1788238080000,
       "latestPublishedAt": 1788238080000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -7682,8 +7830,8 @@
       ],
       "earliestPublishedAt": 1788237240000,
       "latestPublishedAt": 1788237240000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -7737,8 +7885,8 @@
       ],
       "earliestPublishedAt": 1788237120000,
       "latestPublishedAt": 1788237120000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -8257,8 +8405,8 @@
       ],
       "earliestPublishedAt": 1788233400000,
       "latestPublishedAt": 1788233400000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -8597,8 +8745,8 @@
       ],
       "earliestPublishedAt": 1788231480000,
       "latestPublishedAt": 1788231480000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -8640,8 +8788,8 @@
       ],
       "earliestPublishedAt": 1788231000000,
       "latestPublishedAt": 1788231000000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -8910,8 +9058,8 @@
       ],
       "earliestPublishedAt": 1788228360000,
       "latestPublishedAt": 1788228360000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -9030,8 +9178,8 @@
       ],
       "earliestPublishedAt": 1788223260000,
       "latestPublishedAt": 1788223260000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -9081,15 +9229,15 @@
       ],
       "earliestPublishedAt": 1788223080000,
       "latestPublishedAt": 1788223080000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_d4c94bfdfad87e4a",
     "type": "news",
     "title": "박문성, 김병지 공개 질의에 반박…“의혹 본질 흐리지 말라”",
-    "summary": "박문성 축구 해설위원이 자신을 향해 공개 질의를 한 김병지 대한 축구협회 부회장 의 주장에 반박했다. 김 부회장이 자신을 둘러싼 의혹의 본질에는 답하지 않은 채 논점을 흐리고 있다는 취지다. 박 위원은 지난달 31일...",
+    "summary": "박문성 축구 해설위원이 자신을 향해 공개 질의를 한 김병지 대한 축구협회 부회장의 주장에 반박했다. 김 부회장이 자신을 둘러싼 의혹의 본질에는 답하지 않은 채 논점을 흐리고 있다는 취지다. 박 위원은 지난달 31일...",
     "url": "https://biz.chosun.com/topics/topics_social/2026/09/01/YGO4DFAHRVGYTIFIW34NHCIPYU",
     "originalUrl": "https://biz.chosun.com/topics/topics_social/2026/09/01/YGO4DFAHRVGYTIFIW34NHCIPYU",
     "publisher": "biz.chosun.com",
@@ -9134,8 +9282,8 @@
       ],
       "earliestPublishedAt": 1788222300000,
       "latestPublishedAt": 1788222300000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {

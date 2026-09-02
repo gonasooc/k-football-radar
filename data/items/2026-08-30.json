@@ -43,8 +43,8 @@
       ],
       "earliestPublishedAt": 1788132960000,
       "latestPublishedAt": 1788132960000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -172,8 +172,8 @@
       ],
       "earliestPublishedAt": 1788131640000,
       "latestPublishedAt": 1788131640000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -222,8 +222,8 @@
       ],
       "earliestPublishedAt": 1788131340000,
       "latestPublishedAt": 1788131340000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -337,8 +337,8 @@
       ],
       "earliestPublishedAt": 1788125400000,
       "latestPublishedAt": 1788125400000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -517,21 +517,24 @@
       ],
       "earliestPublishedAt": 1788102420000,
       "latestPublishedAt": 1788102420000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_8faf79f8a7d7d8f7",
     "type": "news",
     "title": "[심찬구의 스포츠 르네상스] 위기의 한국 축구, 암흑기 탈출한 벨기에를...",
-    "summary": "지금 한국 축구 는 결말이 보이지 않는 혼란기다. 회장 과 감독을 둘러싼 책임 공방이 이어졌고 K 축구 ... 최근에는 FIFA와 AFC까지 혁신위 활동과 선거 제도 변경 상황에 대한 설명을 요구하며 축구협회 의 독립성을 당부하고...",
+    "summary": "회장과 감독을 둘러싼 책임 공방이 이어졌고 K 축구 혁신위원회 는 선거 제도, 감독 선임 시스템 등을 논의하고 있다. 혁신 위의 역할은 방향성 제시와 권고까지다. 최근에는 FIFA와 AFC까지 혁신 위 활동과 선거 제도 변경...",
     "url": "https://www.chosun.com/opinion/specialist_column/2026/08/30/X7NCJPXZCZHO3HBM3D6QYUNJDU",
     "originalUrl": "https://www.chosun.com/opinion/specialist_column/2026/08/30/X7NCJPXZCZHO3HBM3D6QYUNJDU",
     "publisher": "chosun.com",
     "publishedAt": "2026-08-30T14:33:00.000Z",
     "collectedAt": "2026-08-30T17:46:24.999Z",
-    "matchedKeywords": [],
+    "matchedKeywords": [
+      "혁신위원회",
+      "축구 혁신"
+    ],
     "discoveryQueries": [
       "대표팀 감독",
       "대표팀 감독 선임",
@@ -548,11 +551,13 @@
       "축구협회 K-혁신위",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "innovation-committee"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 0,
+    "relevanceScore": 4,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -568,8 +573,8 @@
       ],
       "earliestPublishedAt": 1788100380000,
       "latestPublishedAt": 1788100380000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -777,8 +782,8 @@
       ],
       "earliestPublishedAt": 1788086340000,
       "latestPublishedAt": 1788086340000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -955,14 +960,15 @@
     "id": "item_3a808689bb5664b8",
     "type": "news",
     "title": "[농민칼럼] 집도 땅도, 개혁은 권력의 분산",
-    "summary": "대한 축구협회 도 지금까지는 200명이 안 되는 소수의 선거 인단으로 회장 을 선출했는데, 선거 인단을 장악한 회장 패거리들의 선거 농단을 통해 장기 독재하는 회장 의 독단으로 협회 를 운영하다 조직이 곪아 터졌다....",
+    "summary": "대한 축구협회 도 지금까지는 200명이 안 되는 소수의 선거인 단으로 회장을 선출했는데, 선거인 단을 장악한 회장 패거리들의 선거 농단을 통해 장기 독재하는 회장의 독단으로 협회 를 운영하다 조직이 곪아 터졌다....",
     "url": "http://www.ikpnews.net/news/articleView.html?idxno=71305",
     "originalUrl": "http://www.ikpnews.net/news/articleView.html?idxno=71305",
     "publisher": "ikpnews.net",
     "publishedAt": "2026-08-30T09:18:00.000Z",
     "collectedAt": "2026-08-30T13:17:42.399Z",
     "matchedKeywords": [
-      "대한 축구협회"
+      "대한 축구협회",
+      "선거인"
     ],
     "discoveryQueries": [
       "대표팀 감독",
@@ -974,11 +980,13 @@
       "축구협회 회장 선거",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "electoral-college"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -994,8 +1002,8 @@
       ],
       "earliestPublishedAt": 1788081480000,
       "latestPublishedAt": 1788081480000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1051,8 +1059,8 @@
       ],
       "earliestPublishedAt": 1788075540000,
       "latestPublishedAt": 1788075540000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1193,8 +1201,8 @@
       ],
       "earliestPublishedAt": 1788068640000,
       "latestPublishedAt": 1788068640000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1525,8 +1533,8 @@
       ],
       "earliestPublishedAt": 1788054480000,
       "latestPublishedAt": 1788054480000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1750,8 +1758,8 @@
       ],
       "earliestPublishedAt": 1788048900000,
       "latestPublishedAt": 1788048900000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   }
 ]

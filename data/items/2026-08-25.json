@@ -197,8 +197,8 @@
       ],
       "earliestPublishedAt": 1787695200000,
       "latestPublishedAt": 1787695200000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -571,8 +571,8 @@
       ],
       "earliestPublishedAt": 1787673660000,
       "latestPublishedAt": 1787673660000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -658,8 +658,8 @@
       ],
       "earliestPublishedAt": 1787670960000,
       "latestPublishedAt": 1787670960000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -756,8 +756,8 @@
       ],
       "earliestPublishedAt": 1787669520000,
       "latestPublishedAt": 1787669520000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1026,15 +1026,15 @@
     "id": "item_014f68e523834325",
     "type": "news",
     "title": "FIFA·AFC, 축협에 공문…\"혁신위 논의 상황 알려달라\"",
-    "summary": "국제 축구 연맹과 아시아 축구 연맹이 대한 축구협회 에 공문을 보내, K- 축구 혁신위 활동에 대해 알려달라고 요청했습니다. 이 공문엔 '외부 개입에 따른 제재 가능성'도 언급됐습니다. 북중미 월드컵 이후 지난달 정부...",
+    "summary": "혁신위는 회장 선거인 단을 기존 200명대에서 2만 명으로 대폭 늘리는 권고안을 마련하는 등 한국 축구 개혁 방안을 논의하고 있습니다. 협회 관계자는 SBS에 \" 협회 의 독립성을 최대한 지키면서, 논의에 임하고 있다\"며...",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008721455&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008721455&plink=ORI",
     "publisher": "news.sbs.co.kr",
     "publishedAt": "2026-08-25T12:11:00.000Z",
     "collectedAt": "2026-08-25T13:35:02.301Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "축구 혁신"
+      "회장 선거",
+      "선거인"
     ],
     "discoveryQueries": [
       "축구혁신위",
@@ -1044,12 +1044,13 @@
       "축구협회 K-혁신위"
     ],
     "issueTags": [
-      "innovation-committee"
+      "election",
+      "electoral-college"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 8,
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -1064,23 +1065,23 @@
       ],
       "earliestPublishedAt": 1787659860000,
       "latestPublishedAt": 1787659860000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_2cbdff7e527b021b",
     "type": "news",
     "title": "한국축구 재기 가능할까 日언론도 주목 \"한국정치계가 축구 개입했나.....",
-    "summary": "한국 축구 계에서 추진되고 있는 개혁 작업을 놓고 국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)이 대한 축구협회 에 공식적인 설명을 요구했다. 정부 주도로 출범한 K- 축구 혁신위 원회의 활동이 국제 축구 계가 금지하는...",
+    "summary": "회장 선거 제도 개선과 선거 인단 확대, 온라인 투표 도입, 유소년 시스템 개선 등이 주요 논의 대상이다. 박지성 과 유승민이 공동위원장을 맡고 있다. 문제는 FIFA가 회원국 축구협회의 독립성을 매우 중요하게 본다는...",
     "url": "http://www.osen.co.kr/article/G1112863558",
     "originalUrl": "http://www.osen.co.kr/article/G1112863558",
     "publisher": "osen.co.kr",
     "publishedAt": "2026-08-25T11:35:00.000Z",
     "collectedAt": "2026-08-25T12:03:00.235Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "축구 혁신"
+      "회장 선거",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1101,14 +1102,18 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "election"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 7,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1122,8 +1127,8 @@
       ],
       "earliestPublishedAt": 1787657700000,
       "latestPublishedAt": 1787657700000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1215,7 +1220,7 @@
     "id": "item_7a3ca2045e38b9d7",
     "type": "news",
     "title": "'박지성 K축구 혁신위' 제동 걸리나…FIFA, 제3자 개입 여부 살필까",
-    "summary": "국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)이 'K- 축구 혁신위 원회' 관련 정보 등을 대한 축구협회 (KFA)에 요청한 것으로 전해졌다. FIFA와 AFC의 해석에 따라 혁신위 활동이 '제3자 개입'으로 판단될 경우 KFA에 대한 징계가...",
+    "summary": "국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)이 'K- 축구 혁신위원회' 관련 정보 등을 대한축구협회 (KFA)에... 박지성 FIFA 분과위원회 위원과 유승민 대한 체육회장이 공동 위원장을 맡고 최휘영 문체부 장관과 김승희 KFA...",
     "url": "https://www.mt.co.kr/sports/2026/08/25/2026082519545912203",
     "originalUrl": "https://www.mt.co.kr/sports/2026/08/25/2026082519545912203",
     "publisher": "mt.co.kr",
@@ -1224,8 +1229,9 @@
     "matchedKeywords": [
       "축구 혁신",
       "박지성",
-      "대한 축구협회",
-      "KFA"
+      "대한축구협회",
+      "KFA",
+      "혁신위원회"
     ],
     "discoveryQueries": [
       "\"김승희\" 대한축구협회",
@@ -1252,7 +1258,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 28,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ],
@@ -1269,8 +1275,8 @@
       ],
       "earliestPublishedAt": 1787656020000,
       "latestPublishedAt": 1787656020000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1545,8 +1551,8 @@
       ],
       "earliestPublishedAt": 1787649960000,
       "latestPublishedAt": 1787649960000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -1768,8 +1774,8 @@
       ],
       "earliestPublishedAt": 1787646480000,
       "latestPublishedAt": 1787646480000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2095,14 +2101,17 @@
     "id": "item_32f180ef2f3c2fa8",
     "type": "news",
     "title": "[사커토픽] ‘Situation of the KFA’ 레터 보낸 FIFA, 자체 모니터링 후...",
-    "summary": "국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)이 대한축구협회 에 전달한 공식 서한에는 우려할 만한 내용이... “정치적 목적이 아니다”라는 박지성 혁신위 공동위원장의 공개적인 발언이 있었지만 국제 기관은 혁신위...",
+    "summary": "문화체육관광부 주도로 설치된 임시기구인 K-축구혁신위원회(혁신위) 활동 및 조치 사항, 차기 회장 선거 ... “정치적 목적이 아니다”라는 박지성 혁신위 공동위원장의 공개적인 발언이 있었지만 국제 기관은...",
     "url": "https://sports.donga.com/sports/article/all/20260825/134538902/1",
     "originalUrl": "https://sports.donga.com/sports/article/all/20260825/134538902/1",
     "publisher": "sports.donga.com",
     "publishedAt": "2026-08-25T07:04:00.000Z",
     "collectedAt": "2026-09-01T12:04:26.327Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "K-축구혁신위원회",
+      "회장 선거",
+      "축구혁신위",
+      "혁신위원회",
       "박지성"
     ],
     "discoveryQueries": [
@@ -2112,13 +2121,16 @@
       "축구혁신위",
       "축구협회 K-혁신위"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election",
+      "innovation-committee"
+    ],
     "personTags": [
       "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 9,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -2136,8 +2148,8 @@
       ],
       "earliestPublishedAt": 1787641440000,
       "latestPublishedAt": 1787641440000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2235,7 +2247,7 @@
     "id": "item_6a3345a575deb2e6",
     "type": "news",
     "title": "FIFA 징계도 가능… K-축구 혁신위, 논란만 키웠나",
-    "summary": "박지성 K- 축구 혁신위 원회 공동위원장(왼쪽)과 최휘영 문화체육관광부 장관. /문화체육관광부 제공 | 서울... 국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)까지 혁신위 활동 파악에 나섰다. 대한 축구협회 에 따르면 FIFA와 AFC는...",
+    "summary": "국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)까지 혁신위 활동 파악에 나섰다. 대한축구협회 에 따르면 FIFA와... 축구협회 장 선거인단 확대, 전력강화위원회 독립성 강화, 유소년 육성 시스템 개선 등 여러 현안을 논의했다....",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=859414",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=859414",
     "publisher": "hansbiz.co.kr",
@@ -2243,8 +2255,9 @@
     "collectedAt": "2026-08-25T07:30:15.051Z",
     "matchedKeywords": [
       "축구 혁신",
-      "대한 축구협회",
-      "박지성"
+      "대한축구협회",
+      "선거인단",
+      "선거인"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2266,16 +2279,15 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "electoral-college"
     ],
-    "personTags": [
-      "person_park_ji_sung"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 22,
     "labels": [
-      "인물 언급"
+      "선거 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -2290,8 +2302,8 @@
       ],
       "earliestPublishedAt": 1787639520000,
       "latestPublishedAt": 1787639520000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2356,15 +2368,15 @@
       ],
       "earliestPublishedAt": 1787639400000,
       "latestPublishedAt": 1787639400000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_4933d200e322dab2",
     "type": "news",
     "title": "축구협회 “FIFA·AFC로부터 K-축구혁신위 상황 제공 요청”",
-    "summary": "국제축구연맹(FIFA)과 아시아축구연맹(AFC)이 공동명의로 대한축구협회에 K(케이)- 축구혁신위 원회에서 논의된 내용을 상세하게 알려 달라는 요청을 해왔다. 축구협회 관계자는 25일 “FIFA와 AFC가 공동명의로 지난 21일...",
+    "summary": "케이- 축구 거버넌스, 유소년 선수 육성 , 첨단 기술 시스템 도입 등 한국 축구 의 미래 경쟁력을 높이기 위한... 다만 혁신위는 축구협회 에 대한 정부 간섭이나 개입을 우려해 “ 축구협회 의 독립성은 반드시 보장받아야 할...",
     "url": "https://www.joongang.co.kr/article/25456020",
     "originalUrl": "https://www.joongang.co.kr/article/25456020",
     "publisher": "joongang.co.kr",
@@ -2372,7 +2384,10 @@
     "collectedAt": "2026-08-25T07:30:15.051Z",
     "matchedKeywords": [
       "축구혁신위",
-      "대한축구협회"
+      "유소년",
+      "육성",
+      "거버넌스",
+      "시스템"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2387,12 +2402,13 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "youth-governance"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 34,
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -2407,8 +2423,8 @@
       ],
       "earliestPublishedAt": 1787638980000,
       "latestPublishedAt": 1787638980000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2455,7 +2471,7 @@
     "id": "item_c94fcef65aed139b",
     "type": "news",
     "title": "'박지성 체제 혁신위' 제동 걸리나, '제3자 개입 시 징계' FIFA, 대한축구...",
-    "summary": "FIFA의 징계 대상이 될 수도 있는 정부 등 외부 개입 논란을 사전에 차단하기 위해 박지성 공동 위원장은 혁신위 활동 내내 축구협회 에 대한 강제력이 없는 권고 기구일 뿐이라고 선을 그어왔다. 혁신위에서 어떠한...",
+    "summary": "박지성 FIFA 분과위원회 위원과 유승민 대한 체육회장이 공동 위원장을 맡고, 최휘영 문체부 장관과 김승희 축구협회 전무이사, 조연상 한국프로 축구 연맹 사무총장 등이 혁신위를 구성하고 있다. FIFA의 징계 대상이 될...",
     "url": "https://www.starnewskorea.com/sports/2026/08/25/2026082514260212859",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/08/25/2026082514260212859",
     "publisher": "starnewskorea.com",
@@ -2504,8 +2520,8 @@
       ],
       "earliestPublishedAt": 1787638680000,
       "latestPublishedAt": 1787638680000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2549,15 +2565,15 @@
       ],
       "earliestPublishedAt": 1787638560000,
       "latestPublishedAt": 1787638560000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
     "id": "item_3bf42cab58785c4e",
     "type": "news",
     "title": "FIFA·AFC, KFA에 \"K-혁신위 자료 달라\" 요청",
-    "summary": "배영수 기자┃국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)이 대한 축구협회 (KFA)에 최근 공식서한을 보내 KFA의... 축구 계에서도 예의주시하는 분위기다. 현재까지는 정부와 혁신위 모두 특정 인사를 차기회장 등 임원 으로...",
+    "summary": "차기회장 선거 관련 절차 및 'K-축구 혁신위원회(혁신위)'의 활동 내역을 공식적으로 전달해달라고 요청한... 출신 박지성 해설위원과 유승민 대한체육회장이 공동위원장을 맡고 있다. FIFA와 AFC가 특정 국가의 정부가...",
     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=321461",
     "originalUrl": "https://www.stnsports.co.kr/news/articleView.html?idxno=321461",
     "publisher": "stnsports.co.kr",
@@ -2565,8 +2581,10 @@
     "collectedAt": "2026-08-25T07:30:15.051Z",
     "matchedKeywords": [
       "K-혁신위",
-      "대한 축구협회",
-      "KFA"
+      "회장 선거",
+      "혁신위원회",
+      "축구 혁신",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2583,13 +2601,18 @@
       "KFA"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "election"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
-    "labels": [],
+    "relevanceScore": 21,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -2603,8 +2626,8 @@
       ],
       "earliestPublishedAt": 1787638500000,
       "latestPublishedAt": 1787638500000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2660,8 +2683,8 @@
       ],
       "earliestPublishedAt": 1787638380000,
       "latestPublishedAt": 1787638380000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2715,8 +2738,8 @@
       ],
       "earliestPublishedAt": 1787638320000,
       "latestPublishedAt": 1787638320000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -2883,8 +2906,8 @@
       ],
       "earliestPublishedAt": 1787635980000,
       "latestPublishedAt": 1787635980000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3041,8 +3064,8 @@
       ],
       "earliestPublishedAt": 1787633340000,
       "latestPublishedAt": 1787633340000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3142,8 +3165,8 @@
       ],
       "earliestPublishedAt": 1787632440000,
       "latestPublishedAt": 1787632440000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3208,8 +3231,8 @@
       ],
       "earliestPublishedAt": 1787630160000,
       "latestPublishedAt": 1787630160000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3467,8 +3490,8 @@
       ],
       "earliestPublishedAt": 1787628120000,
       "latestPublishedAt": 1787628120000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3643,8 +3666,8 @@
       ],
       "earliestPublishedAt": 1787626740000,
       "latestPublishedAt": 1787626740000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3698,8 +3721,8 @@
       ],
       "earliestPublishedAt": 1787625840000,
       "latestPublishedAt": 1787625840000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -3753,8 +3776,8 @@
       ],
       "earliestPublishedAt": 1787625240000,
       "latestPublishedAt": 1787625240000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4000,8 +4023,8 @@
       ],
       "earliestPublishedAt": 1787624160000,
       "latestPublishedAt": 1787624160000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4071,8 +4094,8 @@
       ],
       "earliestPublishedAt": 1787623920000,
       "latestPublishedAt": 1787623920000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4216,8 +4239,8 @@
       ],
       "earliestPublishedAt": 1787623260000,
       "latestPublishedAt": 1787623260000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4261,8 +4284,8 @@
       ],
       "earliestPublishedAt": 1787622840000,
       "latestPublishedAt": 1787622840000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
@@ -4923,8 +4946,8 @@
       ],
       "earliestPublishedAt": 1787618100000,
       "latestPublishedAt": 1787618100000,
-      "representativeCollectedAt": 1788312309451,
-      "latestCollectedAt": 1788312309451
+      "representativeCollectedAt": 1788330362080,
+      "latestCollectedAt": 1788330362080
     }
   },
   {
