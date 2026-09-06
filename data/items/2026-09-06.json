@@ -28,7 +28,23 @@
     "isOfficial": false,
     "relevanceScore": 30,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.segye.com/newsView/20260906509403?OutUrl=naver"
+      ],
+      "stories": [
+        "news|news|“심판 목 밀쳤다고 평생 감독 못 한다?”…대법원 “대한축구협회 규정...|segye.com|2026-09-06T14:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“심판 목 밀쳤다고 평생 감독 못 한다?”…대법원 “대한축구협회 규정...|segye.com"
+      ],
+      "earliestPublishedAt": 1788703320000,
+      "latestPublishedAt": 1788703320000,
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
+    }
   },
   {
     "id": "item_c1d42d2ecba9a50d",
@@ -53,7 +69,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.khan.co.kr/article/202609062052005"
+      ],
+      "stories": [
+        "news|news|폭력 징계로 지도자 자격 영구 박탈? “무효”|khan.co.kr|2026-09-06T11:52:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|폭력 징계로 지도자 자격 영구 박탈? “무효”|khan.co.kr"
+      ],
+      "earliestPublishedAt": 1788695520000,
+      "latestPublishedAt": 1788695520000,
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
+    }
   },
   {
     "id": "item_bc6b94acd8653c54",
@@ -92,9 +124,42 @@
       ],
       "earliestPublishedAt": 1788692160000,
       "latestPublishedAt": 1788692160000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
+  },
+  {
+    "id": "item_1e123e1b065d2e7e",
+    "type": "news",
+    "title": "'아쉬움 여전하다' 손흥민이 직접 골랐다…\"월드컵에서 더 잘할 수 있었...",
+    "summary": "대한 축구협회 는 지난 1일 대한민국 축구 국가대표팀 임시 사령탑으로 스페인 출신 로베르토 모레노 감독 을 선임 했다. 모레노 감독 이 한국 축구 에 대한 높은 이해도와 다양한 전술적 대안을 제시한 게 긍정적인...",
+    "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=693991",
+    "originalUrl": "https://www.interfootball.co.kr/news/articleView.html?idxno=693991",
+    "publisher": "interfootball.co.kr",
+    "publishedAt": "2026-09-06T10:45:00.000Z",
+    "collectedAt": "2026-09-06T17:20:58.577Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독",
+      "사령탑",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_dffb09e42cc13659",
@@ -154,8 +219,8 @@
       ],
       "earliestPublishedAt": 1788690840000,
       "latestPublishedAt": 1788690840000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -199,8 +264,8 @@
       ],
       "earliestPublishedAt": 1788687300000,
       "latestPublishedAt": 1788687300000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -337,8 +402,8 @@
       ],
       "earliestPublishedAt": 1788684060000,
       "latestPublishedAt": 1788684060000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -378,8 +443,8 @@
       ],
       "earliestPublishedAt": 1788674400000,
       "latestPublishedAt": 1788674400000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -420,8 +485,8 @@
       ],
       "earliestPublishedAt": 1788671460000,
       "latestPublishedAt": 1788671460000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -465,8 +530,8 @@
       ],
       "earliestPublishedAt": 1788671160000,
       "latestPublishedAt": 1788671160000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -506,8 +571,8 @@
       ],
       "earliestPublishedAt": 1788670860000,
       "latestPublishedAt": 1788670860000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -558,8 +623,8 @@
       ],
       "earliestPublishedAt": 1788664140000,
       "latestPublishedAt": 1788664140000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -605,8 +670,8 @@
       ],
       "earliestPublishedAt": 1788662760000,
       "latestPublishedAt": 1788662760000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -646,8 +711,8 @@
       ],
       "earliestPublishedAt": 1788662280000,
       "latestPublishedAt": 1788662280000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -693,8 +758,8 @@
       ],
       "earliestPublishedAt": 1788661080000,
       "latestPublishedAt": 1788661080000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -735,8 +800,8 @@
       ],
       "earliestPublishedAt": 1788659940000,
       "latestPublishedAt": 1788659940000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -777,8 +842,8 @@
       ],
       "earliestPublishedAt": 1788659520000,
       "latestPublishedAt": 1788659520000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -837,8 +902,8 @@
       ],
       "earliestPublishedAt": 1788659400000,
       "latestPublishedAt": 1788659400000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -879,8 +944,8 @@
       ],
       "earliestPublishedAt": 1788657060000,
       "latestPublishedAt": 1788657060000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -949,8 +1014,8 @@
       ],
       "earliestPublishedAt": 1788656160000,
       "latestPublishedAt": 1788656160000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -991,8 +1056,8 @@
       ],
       "earliestPublishedAt": 1788655140000,
       "latestPublishedAt": 1788655140000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -1033,8 +1098,8 @@
       ],
       "earliestPublishedAt": 1788653880000,
       "latestPublishedAt": 1788653880000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -1080,8 +1145,8 @@
       ],
       "earliestPublishedAt": 1788653160000,
       "latestPublishedAt": 1788653160000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -1123,8 +1188,8 @@
       ],
       "earliestPublishedAt": 1788652920000,
       "latestPublishedAt": 1788652920000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -1169,8 +1234,8 @@
       ],
       "earliestPublishedAt": 1788652920000,
       "latestPublishedAt": 1788652920000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -1212,8 +1277,8 @@
       ],
       "earliestPublishedAt": 1788652800000,
       "latestPublishedAt": 1788652800000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   },
   {
@@ -1253,8 +1318,8 @@
       ],
       "earliestPublishedAt": 1788652800000,
       "latestPublishedAt": 1788652800000,
-      "representativeCollectedAt": 1788704672824,
-      "latestCollectedAt": 1788704672824
+      "representativeCollectedAt": 1788715258577,
+      "latestCollectedAt": 1788715258577
     }
   }
 ]
