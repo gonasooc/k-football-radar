@@ -134,8 +134,8 @@
       ],
       "earliestPublishedAt": 1788620460000,
       "latestPublishedAt": 1788620460000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -193,8 +193,8 @@
       ],
       "earliestPublishedAt": 1788615660000,
       "latestPublishedAt": 1788615660000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -314,7 +314,7 @@
     "id": "item_1a81bf3cc93cdfd0",
     "type": "news",
     "title": "박항서 \"자기들만의 리그, 너무 교만했다\"…축구협회 작심 비판",
-    "summary": "북중미 월드컵 당시 대표팀 지원단장을 맡았던 박항서 감독, 이번엔 대한축구협회 를 향한 작심 비판에 나섰습니다. 학연을 넘어선 '축구협회 카르텔'이 존재했다며 선수들을 무시한 협회의 교만함은 언젠간 터질 '시한폭탄...",
+    "summary": "북중미 월드컵 당시 대표팀 지원단장을 맡았던 박항서 감독, 이번엔 대한축구협회 를 향한 작심 비판에... [리포트] “ 홍명보 나가!\" 팬들의 거센 야유가 쏟아진 월드컵 축구 대표팀의 귀국길. 가장 앞에 선 사람은 박항서 당시...",
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/05/2026090590117.html",
     "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/09/05/2026090590117.html",
     "publisher": "news.tvchosun.com",
@@ -322,7 +322,8 @@
     "collectedAt": "2026-09-05T10:55:37.956Z",
     "matchedKeywords": [
       "축구협회",
-      "대한축구협회"
+      "대한축구협회",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -332,11 +333,15 @@
       "축구협회 전무"
     ],
     "issueTags": [],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
-    "labels": [],
+    "relevanceScore": 19,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -350,8 +355,8 @@
       ],
       "earliestPublishedAt": 1788604500000,
       "latestPublishedAt": 1788604500000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -489,14 +494,17 @@
     "id": "item_6f57ab395e53315a",
     "type": "news",
     "title": "박항서 \"축구협회 카르텔…답답한 손흥민 찾아와\" 작심비판",
-    "summary": "박항서 전 한국 축구 대표팀 선수지원단장이 대한축구협회 카르텔을 비판하며 성찰이 필요하다고 말했다. 박 전 단장은 최근 유튜브 채널에 출연해 “‘고려대 카르텔’ 문제가 아니라, ‘축구협회 카르텔’이 있었다....",
+    "summary": "박항서 전 한국 축구 대표팀 선수지원단장이 대한 축구협회 카르텔을 비판하며 성찰이 필요하다고 말했다. 박... 홍명보 당시 대표팀 감독의 사퇴 과정에 대해서도 “처음에는 사과하는 자리에 나와 전무 , 전력강화위원장이...",
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/05/2026090590064.html",
     "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/09/05/2026090590064.html",
     "publisher": "news.tvchosun.com",
     "publishedAt": "2026-09-05T07:17:00.000Z",
     "collectedAt": "2026-09-05T10:55:37.956Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한 축구협회",
+      "전무",
+      "홍명보",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -507,13 +515,19 @@
       "대한축구협회",
       "축구협회 전무"
     ],
-    "issueTags": [],
-    "personTags": [],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 15,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -527,8 +541,8 @@
       ],
       "earliestPublishedAt": 1788592620000,
       "latestPublishedAt": 1788592620000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -578,8 +592,8 @@
       ],
       "earliestPublishedAt": 1788586500000,
       "latestPublishedAt": 1788586500000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -679,8 +693,8 @@
       ],
       "earliestPublishedAt": 1788585720000,
       "latestPublishedAt": 1788585720000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -728,8 +742,8 @@
       ],
       "earliestPublishedAt": 1788584640000,
       "latestPublishedAt": 1788584640000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -857,8 +871,8 @@
       ],
       "earliestPublishedAt": 1788582120000,
       "latestPublishedAt": 1788582120000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -908,8 +922,8 @@
       ],
       "earliestPublishedAt": 1788582060000,
       "latestPublishedAt": 1788582060000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -958,8 +972,8 @@
       ],
       "earliestPublishedAt": 1788581640000,
       "latestPublishedAt": 1788581640000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -1007,8 +1021,8 @@
       ],
       "earliestPublishedAt": 1788575580000,
       "latestPublishedAt": 1788575580000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -1200,8 +1214,8 @@
       ],
       "earliestPublishedAt": 1788574140000,
       "latestPublishedAt": 1788574140000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -1309,8 +1323,8 @@
       ],
       "earliestPublishedAt": 1788574020000,
       "latestPublishedAt": 1788574020000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -1358,8 +1372,8 @@
       ],
       "earliestPublishedAt": 1788570840000,
       "latestPublishedAt": 1788570840000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   },
   {
@@ -1410,8 +1424,8 @@
       ],
       "earliestPublishedAt": 1788569040000,
       "latestPublishedAt": 1788569040000,
-      "representativeCollectedAt": 1788676230724,
-      "latestCollectedAt": 1788676230724
+      "representativeCollectedAt": 1788693681635,
+      "latestCollectedAt": 1788693681635
     }
   }
 ]
