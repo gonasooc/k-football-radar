@@ -1,5 +1,61 @@
 [
   {
+    "id": "item_d9813f49981e36e0",
+    "type": "news",
+    "title": "“심판 목 밀쳤다고 평생 감독 못 한다?”…대법원 “대한축구협회 규정...",
+    "summary": "대한축구협회 공정위원회는 같은 해 12월 이를 폭력행위로 판단해 지도자 자격 정지 1년의 징계를 내렸다. 쟁점은 징계가 끝난 뒤 다시 지도자 로 등록할 수 있느냐였다. A씨는 2023년 12월 지도자 등록을 신청했지만...",
+    "url": "https://www.segye.com/newsView/20260906509403?OutUrl=naver",
+    "originalUrl": "https://www.segye.com/newsView/20260906509403?OutUrl=naver",
+    "publisher": "segye.com",
+    "publishedAt": "2026-09-06T14:02:00.000Z",
+    "collectedAt": "2026-09-06T14:24:32.824Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "지도자",
+      "지도자 자격",
+      "자격"
+    ],
+    "discoveryQueries": [
+      "대한축구협회",
+      "대한축구협회 지도자 자격",
+      "KFA"
+    ],
+    "issueTags": [
+      "youth-governance"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 30,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_c1d42d2ecba9a50d",
+    "type": "news",
+    "title": "폭력 징계로 지도자 자격 영구 박탈? “무효”",
+    "summary": "폭력행위로 자격 정지 1년 이상 징계를 받은 사람은 지도자 등록을 할 수 없도록 한 대한축구협회 규정은 무효라고 대법원이 판단했다. 대법원 1부(주심 천대엽 대법관)는 최근 전북 지역의 대학 축구 부 감독 A씨가...",
+    "url": "https://www.khan.co.kr/article/202609062052005",
+    "originalUrl": "https://www.khan.co.kr/article/202609062052005",
+    "publisher": "khan.co.kr",
+    "publishedAt": "2026-09-06T11:52:00.000Z",
+    "collectedAt": "2026-09-06T14:24:32.824Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회",
+      "대한축구협회 지도자 자격"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_bc6b94acd8653c54",
     "type": "news",
     "title": "영덕군 공공시설 'A○○ 축구공원' 이름 논란",
@@ -22,7 +78,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.hidomin.com/news/articleView.html?idxno=720032"
+      ],
+      "stories": [
+        "news|news|영덕군 공공시설 'a○○ 축구공원' 이름 논란|hidomin.com|2026-09-06T10:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|영덕군 공공시설 'a○○ 축구공원' 이름 논란|hidomin.com"
+      ],
+      "earliestPublishedAt": 1788692160000,
+      "latestPublishedAt": 1788692160000,
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
+    }
   },
   {
     "id": "item_dffb09e42cc13659",
@@ -68,13 +140,29 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20260907.22018001827"
+      ],
+      "stories": [
+        "news|news|“상무팀도 알만큼 한국축구 꿰뚫어”|kookje.co.kr|2026-09-06T10:34:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“상무팀도 알만큼 한국축구 꿰뚫어”|kookje.co.kr"
+      ],
+      "earliestPublishedAt": 1788690840000,
+      "latestPublishedAt": 1788690840000,
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
+    }
   },
   {
     "id": "item_d8113c65eb0d843e",
     "type": "news",
     "title": "'한국 감독 탈락' 포옛 여전히 야인 생활, 깜짝 고백 \"토트넘 존중 대상...",
-    "summary": "한국 축구 대표팀 임시 감독 후보에서 탈락한 뒤 야인 생활을 이어가고 있는 거스 포옛 감독 이다. 포옛은 5일(한국시각) 영국 매체 더 선과의 인터뷰에서 과거 첼시를 떠나 토트넘으로 이적했던 결정에 대해 입을 열었다....",
+    "summary": "한국 축구대표팀 임시 감독 후보 에서 탈락한 뒤 야인 생활을 이어가고 있는 거스 포옛 감독이다. 포옛은 5일(한국시각) 영국 매체 더 선과의 인터뷰에서 과거 첼시를 떠나 토트넘으로 이적했던 결정에 대해 입을 열었다....",
     "url": "https://www.sportschosun.com/football/2026-09-06/202609060100041380002675",
     "originalUrl": "https://www.sportschosun.com/football/2026-09-06/202609060100041380002675",
     "publisher": "sportschosun.com",
@@ -97,7 +185,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-09-06/202609060100041380002675"
+      ],
+      "stories": [
+        "news|news|'한국 감독 탈락' 포옛 여전히 야인 생활, 깜짝 고백 \"토트넘 존중 대상...|sportschosun.com|2026-09-06T09:35:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'한국 감독 탈락' 포옛 여전히 야인 생활, 깜짝 고백 \"토트넘 존중 대상...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1788687300000,
+      "latestPublishedAt": 1788687300000,
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
+    }
   },
   {
     "id": "item_354a201f2c17d1fc",
@@ -123,7 +227,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008740040&plink=ORI"
+      ],
+      "stories": [
+        "news|news|'폭력' 자격 정지 1년이면 지도자 등록 제한한 축구협회…대법 \"무효\"|news.sbs.co.kr|2026-09-06T08:41:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'폭력' 자격 정지 1년이면 지도자 등록 제한한 축구협회…대법 \"무효\"|news.sbs.co.kr"
+      ],
+      "earliestPublishedAt": 1788684060000,
+      "latestPublishedAt": 1788684060000,
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
+    }
   },
   {
     "id": "item_d443b0f4c887217c",
@@ -162,8 +282,8 @@
       ],
       "earliestPublishedAt": 1788674400000,
       "latestPublishedAt": 1788674400000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -204,8 +324,8 @@
       ],
       "earliestPublishedAt": 1788671460000,
       "latestPublishedAt": 1788671460000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -249,8 +369,8 @@
       ],
       "earliestPublishedAt": 1788671160000,
       "latestPublishedAt": 1788671160000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -290,8 +410,8 @@
       ],
       "earliestPublishedAt": 1788670860000,
       "latestPublishedAt": 1788670860000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -342,8 +462,8 @@
       ],
       "earliestPublishedAt": 1788664140000,
       "latestPublishedAt": 1788664140000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -389,8 +509,8 @@
       ],
       "earliestPublishedAt": 1788662760000,
       "latestPublishedAt": 1788662760000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -430,8 +550,8 @@
       ],
       "earliestPublishedAt": 1788662280000,
       "latestPublishedAt": 1788662280000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -477,8 +597,8 @@
       ],
       "earliestPublishedAt": 1788661080000,
       "latestPublishedAt": 1788661080000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -519,8 +639,8 @@
       ],
       "earliestPublishedAt": 1788659940000,
       "latestPublishedAt": 1788659940000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -561,8 +681,8 @@
       ],
       "earliestPublishedAt": 1788659520000,
       "latestPublishedAt": 1788659520000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -621,8 +741,8 @@
       ],
       "earliestPublishedAt": 1788659400000,
       "latestPublishedAt": 1788659400000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -663,8 +783,8 @@
       ],
       "earliestPublishedAt": 1788657060000,
       "latestPublishedAt": 1788657060000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -733,8 +853,8 @@
       ],
       "earliestPublishedAt": 1788656160000,
       "latestPublishedAt": 1788656160000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -775,8 +895,8 @@
       ],
       "earliestPublishedAt": 1788655140000,
       "latestPublishedAt": 1788655140000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -817,8 +937,8 @@
       ],
       "earliestPublishedAt": 1788653880000,
       "latestPublishedAt": 1788653880000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -864,8 +984,8 @@
       ],
       "earliestPublishedAt": 1788653160000,
       "latestPublishedAt": 1788653160000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -907,32 +1027,37 @@
       ],
       "earliestPublishedAt": 1788652920000,
       "latestPublishedAt": 1788652920000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
     "id": "item_5d56462f0e4afda2",
     "type": "news",
     "title": "'심판 밀쳐 자격정지 1년' 축구감독…대법 \"영구 제명은 부당\"",
-    "summary": "경기에서 패배하자 심판에 폭력을 행사한 대학교 축구부 감독에 대해 대한축구협회 가 자격정지 1년 징계처분을 내린 것은 정당하나, 이를 근거로 영구적으로 지도자 등록 신청을 거부하는 것은 부당하단 대법원 판단이...",
+    "summary": "A씨는 이에 자격 정지 1년의 징계처분은 무효이며, 대한축구협회 소속 지도자 자격 이 있음을 확인하는 소송을 제기했다. 1심은 대한축구협회 가 1년의 징계처분을 내린 데 대해 정당하다 판단하고 A씨 청구를 기각하는 한편...",
     "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01220166645577496",
     "originalUrl": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01220166645577496",
     "publisher": "edaily.co.kr",
     "publishedAt": "2026-09-06T00:02:00.000Z",
     "collectedAt": "2026-09-06T01:20:08.399Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "지도자",
+      "지도자 자격",
+      "자격"
     ],
     "discoveryQueries": [
       "대한축구협회",
       "대한축구협회 지도자 자격"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "youth-governance"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -948,8 +1073,8 @@
       ],
       "earliestPublishedAt": 1788652920000,
       "latestPublishedAt": 1788652920000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -991,8 +1116,8 @@
       ],
       "earliestPublishedAt": 1788652800000,
       "latestPublishedAt": 1788652800000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   },
   {
@@ -1032,8 +1157,8 @@
       ],
       "earliestPublishedAt": 1788652800000,
       "latestPublishedAt": 1788652800000,
-      "representativeCollectedAt": 1788693681635,
-      "latestCollectedAt": 1788693681635
+      "representativeCollectedAt": 1788704672824,
+      "latestCollectedAt": 1788704672824
     }
   }
 ]
