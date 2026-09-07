@@ -1,5 +1,33 @@
 [
   {
+    "id": "item_957f7d94ba723014",
+    "type": "news",
+    "title": "'지소연 걸스데이 발언' 선수협, 심판위의 부적절한 해명에 유감 \"특정...",
+    "summary": "사단법인 한국프로축구선수협회(이하 선수협)가 수원FC위민과 서울시청과의 경기에서 발생한 심판진의 이른바 '걸스데이' 발언과 관련해, 사태 수습 과정에서 나온 대한축구협회 심판위원장 대행의 해명에 깊은 우려와...",
+    "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=97544",
+    "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=97544",
+    "publisher": "fourfourtwo.co.kr",
+    "publishedAt": "2026-09-07T22:57:00.000Z",
+    "collectedAt": "2026-09-07T23:48:01.467Z",
+    "matchedKeywords": [
+      "해명",
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회",
+      "축구협회 해명"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
+    "labels": [
+      "해명 키워드 포함"
+    ]
+  },
+  {
     "id": "item_4293631186d0eddc",
     "type": "news",
     "title": "\"정몽규 밀어달라\"던 심판 평가관, 논란에도 제재 없이 활동",
@@ -32,7 +60,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.jtbc.co.kr/article/NB12317220?influxDiv=NAVER"
+      ],
+      "stories": [
+        "news|news|\"정몽규 밀어달라\"던 심판 평가관, 논란에도 제재 없이 활동|news.jtbc.co.kr|2026-09-07T21:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"정몽규 밀어달라\"던 심판 평가관, 논란에도 제재 없이 활동|news.jtbc.co.kr"
+      ],
+      "earliestPublishedAt": 1788817440000,
+      "latestPublishedAt": 1788817440000,
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
+    }
   },
   {
     "id": "item_3487afcce621f724",
@@ -59,6 +103,55 @@
     "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.starnewskorea.com/sports/2026/09/08/2026090721470754344"
+      ],
+      "stories": [
+        "news|news|'韓 슈퍼스타' 지소연에 성희롱 발언→직접 찾아가 '사과 대신 변명'......|starnewskorea.com|2026-09-07T21:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'韓 슈퍼스타' 지소연에 성희롱 발언→직접 찾아가 '사과 대신 변명'......|starnewskorea.com"
+      ],
+      "earliestPublishedAt": 1788814860000,
+      "latestPublishedAt": 1788814860000,
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
+    }
+  },
+  {
+    "id": "item_2766ce14101f4a78",
+    "type": "news",
+    "title": "손흥민 주장 교체 적기? '韓 최장기' 캡틴의 부담 덜어줄 때…'임시 사령...",
+    "summary": "대한축구협회( KFA ), 물러난 홍명보 감독은 물론 선수에게도 '대재앙'에 책임이 있다. 누구 '탓'으로 돌리기... 더 나아가 팬심을 얻을 경우 새로운 KFA 회장 체제에서도 더 긴 세월을 한국 축구와 함께할 수 있다. 첫 시험대...",
+    "url": "https://www.sportschosun.com/football/2026-09-07/202609070100046320003032",
+    "originalUrl": "https://www.sportschosun.com/football/2026-09-07/202609070100046320003032",
+    "publisher": "sportschosun.com",
+    "publishedAt": "2026-09-07T20:59:00.000Z",
+    "collectedAt": "2026-09-07T23:48:01.467Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "KFA",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대한축구협회",
+      "KFA"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
     ]
   },
   {
@@ -102,8 +195,8 @@
       ],
       "earliestPublishedAt": 1788801660000,
       "latestPublishedAt": 1788801660000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -147,8 +240,8 @@
       ],
       "earliestPublishedAt": 1788800400000,
       "latestPublishedAt": 1788800400000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -427,8 +520,8 @@
       ],
       "earliestPublishedAt": 1788780180000,
       "latestPublishedAt": 1788780180000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -471,8 +564,8 @@
       ],
       "earliestPublishedAt": 1788778920000,
       "latestPublishedAt": 1788803460000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -515,8 +608,8 @@
       ],
       "earliestPublishedAt": 1788778140000,
       "latestPublishedAt": 1788778140000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -582,12 +675,12 @@
     }
   },
   {
-    "id": "item_3b2ab2426985997d",
+    "id": "item_d576a6b652c625c7",
     "type": "news",
     "title": "[단독] \"정몽규 뽑아달라\"던 심판 평가관, 논란 이후 버젓이 활동",
     "summary": "55대 축구협회 장 선거가 있던 지난해 2월, 공식 선거운동원이 아니었던 심판 평가관 A 씨는 선거권을 가진 심판들에게 연락해 정몽규 당시 후보에 대한 지지를 호소했습니다. 이후 문진희 심판위원장과 함께 해당 심판을...",
-    "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5217627",
-    "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5217627",
+    "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5217682",
+    "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5217682",
     "publisher": "mbn.co.kr",
     "publishedAt": "2026-09-07T10:39:00.000Z",
     "collectedAt": "2026-09-07T13:01:44.647Z",
@@ -626,18 +719,20 @@
     "dedupeState": {
       "version": 1,
       "urls": [
-        "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5217627"
+        "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5217627",
+        "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5217682"
       ],
       "stories": [
-        "news|news|[단독] \"정몽규 뽑아달라\"던 심판 평가관, 논란 이후 버젓이 활동|mbn.co.kr|2026-09-07T10:39:00.000Z"
+        "news|news|[단독] \"정몽규 뽑아달라\"던 심판 평가관, 논란 이후 버젓이 활동|mbn.co.kr|2026-09-07T10:39:00.000Z",
+        "news|news|[단독] \"정몽규 뽑아달라\"던 심판 평가관, 논란 이후 버젓이 활동|mbn.co.kr|2026-09-07T22:45:00.000Z"
       ],
       "nearKeys": [
         "news|news|[단독] \"정몽규 뽑아달라\"던 심판 평가관, 논란 이후 버젓이 활동|mbn.co.kr"
       ],
       "earliestPublishedAt": 1788777540000,
-      "latestPublishedAt": 1788777540000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "latestPublishedAt": 1788821100000,
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -680,8 +775,8 @@
       ],
       "earliestPublishedAt": 1788775680000,
       "latestPublishedAt": 1788775680000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -773,6 +868,32 @@
     }
   },
   {
+    "id": "item_20c89c8d81a5d1ff",
+    "type": "news",
+    "title": "\"생리하나 봐\" 논란, 지소연 입 열었다 \"사과는 하셨는데…\"",
+    "summary": "축구협회 심판운영팀은 당시 \"교신에서 '생리'라는 단어를 쓰지 않았고 지소연을 특정한 것도 아니다\"라고 해명 한 바 있다. 다만 배 주심은 '생리' 대신 '걸스 데이(girl's day)'라는 표현을 사용한 것으로 알려졌다. '걸스...",
+    "url": "https://www.nocutnews.co.kr/news/6574381",
+    "originalUrl": "https://www.nocutnews.co.kr/news/6574381",
+    "publisher": "nocutnews.co.kr",
+    "publishedAt": "2026-09-07T09:07:00.000Z",
+    "collectedAt": "2026-09-07T23:48:01.467Z",
+    "matchedKeywords": [
+      "해명"
+    ],
+    "discoveryQueries": [
+      "축구협회 해명"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 2,
+    "relevanceTier": "secondary",
+    "labels": [
+      "해명 키워드 포함"
+    ]
+  },
+  {
     "id": "item_9ce54de3083bdefb",
     "type": "news",
     "title": "“지소연 아닌 선수 전체 향한 발언”… 선수협, 심판위원장 대행 해명...",
@@ -812,8 +933,8 @@
       ],
       "earliestPublishedAt": 1788771780000,
       "latestPublishedAt": 1788771780000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -899,8 +1020,8 @@
       ],
       "earliestPublishedAt": 1788770880000,
       "latestPublishedAt": 1788770880000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -943,8 +1064,8 @@
       ],
       "earliestPublishedAt": 1788770640000,
       "latestPublishedAt": 1788770640000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1060,8 +1181,8 @@
       ],
       "earliestPublishedAt": 1788768960000,
       "latestPublishedAt": 1788768960000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1104,8 +1225,8 @@
       ],
       "earliestPublishedAt": 1788768660000,
       "latestPublishedAt": 1788768660000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1151,8 +1272,8 @@
       ],
       "earliestPublishedAt": 1788767880000,
       "latestPublishedAt": 1788767880000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1195,8 +1316,8 @@
       ],
       "earliestPublishedAt": 1788767760000,
       "latestPublishedAt": 1788767760000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1239,8 +1360,8 @@
       ],
       "earliestPublishedAt": 1788766680000,
       "latestPublishedAt": 1788766680000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1282,8 +1403,8 @@
       ],
       "earliestPublishedAt": 1788764400000,
       "latestPublishedAt": 1788764400000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1326,8 +1447,8 @@
       ],
       "earliestPublishedAt": 1788761640000,
       "latestPublishedAt": 1788761640000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1379,8 +1500,8 @@
       ],
       "earliestPublishedAt": 1788761400000,
       "latestPublishedAt": 1788761400000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1423,8 +1544,8 @@
       ],
       "earliestPublishedAt": 1788761400000,
       "latestPublishedAt": 1788761400000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1473,8 +1594,8 @@
       ],
       "earliestPublishedAt": 1788760620000,
       "latestPublishedAt": 1788790800000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1535,8 +1656,8 @@
       ],
       "earliestPublishedAt": 1788759000000,
       "latestPublishedAt": 1788759000000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1597,8 +1718,8 @@
       ],
       "earliestPublishedAt": 1788758640000,
       "latestPublishedAt": 1788758640000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1657,8 +1778,8 @@
       ],
       "earliestPublishedAt": 1788756360000,
       "latestPublishedAt": 1788756360000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1720,8 +1841,8 @@
       ],
       "earliestPublishedAt": 1788755160000,
       "latestPublishedAt": 1788755160000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1782,8 +1903,8 @@
       ],
       "earliestPublishedAt": 1788755160000,
       "latestPublishedAt": 1788755160000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1844,8 +1965,8 @@
       ],
       "earliestPublishedAt": 1788754560000,
       "latestPublishedAt": 1788754560000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -1905,8 +2026,8 @@
       ],
       "earliestPublishedAt": 1788752640000,
       "latestPublishedAt": 1788752640000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -2013,8 +2134,8 @@
       ],
       "earliestPublishedAt": 1788750960000,
       "latestPublishedAt": 1788750960000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -2066,8 +2187,8 @@
       ],
       "earliestPublishedAt": 1788750120000,
       "latestPublishedAt": 1788750120000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -2127,8 +2248,8 @@
       ],
       "earliestPublishedAt": 1788750060000,
       "latestPublishedAt": 1788750060000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -2187,8 +2308,8 @@
       ],
       "earliestPublishedAt": 1788750000000,
       "latestPublishedAt": 1788750000000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -2248,8 +2369,8 @@
       ],
       "earliestPublishedAt": 1788750000000,
       "latestPublishedAt": 1788750000000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -2309,8 +2430,8 @@
       ],
       "earliestPublishedAt": 1788750000000,
       "latestPublishedAt": 1788750000000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   },
   {
@@ -2358,8 +2479,8 @@
       ],
       "earliestPublishedAt": 1788741060000,
       "latestPublishedAt": 1788741060000,
-      "representativeCollectedAt": 1788817628927,
-      "latestCollectedAt": 1788817628927
+      "representativeCollectedAt": 1788824881467,
+      "latestCollectedAt": 1788824881467
     }
   }
 ]
