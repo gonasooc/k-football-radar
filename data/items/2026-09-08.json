@@ -1,5 +1,87 @@
 [
   {
+    "id": "item_0384ce22c50e3530",
+    "type": "news",
+    "title": "박주호, 축구협회 논란 언급 \"축구인으로서 도의적 책임 느껴\"",
+    "summary": "한편 대한 축구협회 는 위르겐 클린스만 감독 선임 과정부터 홍명보 감독 선임 논란, 국회 청문회, 경찰의 강제수사, 외국인 심판 성접대 의혹 등의 논란으로 비판받았다. /walktalkunique@osen.co.kr [사진] '박주호' 영상",
+    "url": "http://www.osen.co.kr/article/G1112872304",
+    "originalUrl": "http://www.osen.co.kr/article/G1112872304",
+    "publisher": "osen.co.kr",
+    "publishedAt": "2026-09-08T15:27:00.000Z",
+    "collectedAt": "2026-09-08T18:07:51.391Z",
+    "matchedKeywords": [
+      "축구협회",
+      "대한 축구협회",
+      "감독 선임",
+      "감독",
+      "선임",
+      "홍명보",
+      "청문회"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대한축구협회",
+      "축구 혁신",
+      "축구협회 감독 선임",
+      "축구협회 혁신위원회",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 25,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_53d973229f6a6228",
+    "type": "news",
+    "title": "[사설] ‘한물간’ 김병기도 1년 뭉갰는데, 경찰이 김승원 수사 하겠나",
+    "summary": "서울경찰청이 이런 상황인데 법무장관 후보 자 사건을 일선 경찰서로 넘기면 수사가 되겠나. 서울경찰청 광역수사단이 대한 축구협회 의 홍명보 국가대표 감독 선임 의혹과 관련한 고발 사건을 지난 7월 서울 종로경찰서에서...",
+    "url": "https://www.chosun.com/opinion/editorial/2026/09/09/FXJT63YYP5DDDPJXSIWQOV6ONY",
+    "originalUrl": "https://www.chosun.com/opinion/editorial/2026/09/09/FXJT63YYP5DDDPJXSIWQOV6ONY",
+    "publisher": "chosun.com",
+    "publishedAt": "2026-09-08T15:26:00.000Z",
+    "collectedAt": "2026-09-08T18:07:51.391Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독 선임",
+      "감독",
+      "선임",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "감독 후보",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_9c9f9ad6d6350b47",
     "type": "news",
     "title": "박주호 \"축구인으로서 도의적 책임…유소년 축구대회 직접 열 것\"",
@@ -28,7 +110,23 @@
     "isOfficial": false,
     "relevanceScore": 7,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/sports/2026/09/08/2026090821463215012"
+      ],
+      "stories": [
+        "news|news|박주호 \"축구인으로서 도의적 책임…유소년 축구대회 직접 열 것\"|mt.co.kr|2026-09-08T13:39:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박주호 \"축구인으로서 도의적 책임…유소년 축구대회 직접 열 것\"|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1788874740000,
+      "latestPublishedAt": 1788874740000,
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
+    }
   },
   {
     "id": "item_670e2e74b3b5d88e",
@@ -56,7 +154,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ngonews.kr/news/articleView.html?idxno=237593"
+      ],
+      "stories": [
+        "news|news|언제까지 마이크를 고함 치는 용도로 쓸 것인가?|ngonews.kr|2026-09-08T13:22:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|언제까지 마이크를 고함 치는 용도로 쓸 것인가?|ngonews.kr"
+      ],
+      "earliestPublishedAt": 1788873720000,
+      "latestPublishedAt": 1788873720000,
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
+    }
   },
   {
     "id": "item_7c8c9218d6845d4e",
@@ -84,7 +198,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 30,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.chosun.com/sports/football/2026/09/08/LVEEYDUJUVGQ5MHMCN4SZI4NZ4"
+      ],
+      "stories": [
+        "news|news|박주호 축구혁신위원 “말로만 비판말고 작은 실천부터” 유소년 축구 ...|chosun.com|2026-09-08T12:08:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박주호 축구혁신위원 “말로만 비판말고 작은 실천부터” 유소년 축구 ...|chosun.com"
+      ],
+      "earliestPublishedAt": 1788869280000,
+      "latestPublishedAt": 1788869280000,
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
+    }
   },
   {
     "id": "item_601e24e79de21266",
@@ -115,7 +245,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kyeongin.com/article/1770478"
+      ],
+      "stories": [
+        "news|news|[경인칼럼] 언론의 내로남불|kyeongin.com|2026-09-08T10:26:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[경인칼럼] 언론의 내로남불|kyeongin.com"
+      ],
+      "earliestPublishedAt": 1788863160000,
+      "latestPublishedAt": 1788863160000,
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
+    }
   },
   {
     "id": "youtube_bWTKdRKVIl0",
@@ -490,8 +636,8 @@
       ],
       "earliestPublishedAt": 1788852660000,
       "latestPublishedAt": 1788874920000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -588,8 +734,8 @@
       ],
       "earliestPublishedAt": 1788845640000,
       "latestPublishedAt": 1788845640000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -750,8 +896,8 @@
       ],
       "earliestPublishedAt": 1788838080000,
       "latestPublishedAt": 1788838080000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -795,8 +941,8 @@
       ],
       "earliestPublishedAt": 1788837780000,
       "latestPublishedAt": 1788837780000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -840,8 +986,8 @@
       ],
       "earliestPublishedAt": 1788837660000,
       "latestPublishedAt": 1788837660000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -949,8 +1095,8 @@
       ],
       "earliestPublishedAt": 1788835560000,
       "latestPublishedAt": 1788835560000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -997,8 +1143,8 @@
       ],
       "earliestPublishedAt": 1788834060000,
       "latestPublishedAt": 1788834060000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -1054,8 +1200,8 @@
       ],
       "earliestPublishedAt": 1788833880000,
       "latestPublishedAt": 1788833880000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -1268,8 +1414,8 @@
       ],
       "earliestPublishedAt": 1788831240000,
       "latestPublishedAt": 1788831240000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -1313,8 +1459,8 @@
       ],
       "earliestPublishedAt": 1788830820000,
       "latestPublishedAt": 1788830820000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -1357,8 +1503,8 @@
       ],
       "earliestPublishedAt": 1788830100000,
       "latestPublishedAt": 1788830100000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -1401,8 +1547,8 @@
       ],
       "earliestPublishedAt": 1788828900000,
       "latestPublishedAt": 1788828900000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -1455,8 +1601,8 @@
       ],
       "earliestPublishedAt": 1788826200000,
       "latestPublishedAt": 1788826200000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -1576,8 +1722,8 @@
       ],
       "earliestPublishedAt": 1788825840000,
       "latestPublishedAt": 1788825840000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   },
   {
@@ -1620,8 +1766,8 @@
       ],
       "earliestPublishedAt": 1788825720000,
       "latestPublishedAt": 1788825720000,
-      "representativeCollectedAt": 1788878805206,
-      "latestCollectedAt": 1788878805206
+      "representativeCollectedAt": 1788890871391,
+      "latestCollectedAt": 1788890871391
     }
   }
 ]
