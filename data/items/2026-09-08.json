@@ -1,5 +1,74 @@
 [
   {
+    "id": "item_4ad0b84ff8a50ae4",
+    "type": "news",
+    "title": "'김승원 사건' 광수단 아닌 일선서 배당...\"재수사 여부 검토\"",
+    "summary": "경찰이 김승원 법무부 장관 후보 자의 식약처 청탁 의혹 관련 고발 사건을 서울 영등포경찰서에... 앞서 무소속 김병기 의원 사건과 대한 축구협회 감독 선임 의혹, 스타벅스 '탱크데이' 사건 등 여론의 주목을 받는 굵직한...",
+    "url": "https://www.ytn.co.kr/_ln/0103_202609081631385609",
+    "originalUrl": "https://www.ytn.co.kr/_ln/0103_202609081631385609",
+    "publisher": "ytn.co.kr",
+    "publishedAt": "2026-09-08T07:31:00.000Z",
+    "collectedAt": "2026-09-08T10:05:39.367Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독 선임",
+      "감독",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "감독 후보",
+      "대한축구협회",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_cfd7755babbf9de5",
+    "type": "news",
+    "title": "안정환, 5억 기부했는데 돌연 유튜브 '빨간불'…\"욕먹으니 기운도 없다...",
+    "summary": "안정환은 지금까지의 과정을 돌아보며 \"저희에게 PPL을 넣어주신 기업이나 모든 분들께 감사 하다\"며... 최근 안정환은 2026 북중미 월드컵 이후 대한 축구협회 와 홍명보 감독을 옹호한다는 일각의 비판을 받기도 했다. 이에...",
+    "url": "https://www.tenasia.co.kr/article/2026090811874",
+    "originalUrl": "https://www.tenasia.co.kr/article/2026090811874",
+    "publisher": "tenasia.co.kr",
+    "publishedAt": "2026-09-08T05:34:00.000Z",
+    "collectedAt": "2026-09-08T10:05:39.367Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "홍명보",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 감사",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "\"홍명보\" 해명",
+      "대한축구협회",
+      "축구협회 감사",
+      "축구협회 해명"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 11,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
     "id": "youtube_SM3J5ltCdCY",
     "type": "youtube",
     "title": "\"자기 자식들에게 부끄럽지 않습니까?\" — 축구협회 관련 청문회 쟁점 총정리 [발언 전문]",
@@ -89,6 +158,31 @@
     }
   },
   {
+    "id": "item_2ccbf1ec4271fb7a",
+    "type": "news",
+    "title": "'6번째 도전' 지소연, 아시안게임 출사표...\"이번엔 메달 색깔 바꾼다\"",
+    "summary": "그는 지난달 28일 서울시청과의 경기 도중 배선영 주심으로부터 문제의 발언을 들었고 구단과 함께 공식 항의 절차를 밟아 지난 1일 배 심판과 최수진 대한축구협회 심판위원회장 대행을 만나 사과를 받았다. 지소연은...",
+    "url": "https://www.ftimes.kr/news/articleView.html?idxno=39520",
+    "originalUrl": "https://www.ftimes.kr/news/articleView.html?idxno=39520",
+    "publisher": "ftimes.kr",
+    "publishedAt": "2026-09-08T03:28:00.000Z",
+    "collectedAt": "2026-09-08T10:05:39.367Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회",
+      "축구협회 해명"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_3e944b6629235f7f",
     "type": "news",
     "title": "\"갈등보다 통합을, 비난보다 대안을!\" 한국축구지도자협회 \"유튜버들 책...",
@@ -115,7 +209,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-09-08/202609080100053950003480"
+      ],
+      "stories": [
+        "news|news|\"갈등보다 통합을, 비난보다 대안을!\" 한국축구지도자협회 \"유튜버들 책...|sportschosun.com|2026-09-08T03:23:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"갈등보다 통합을, 비난보다 대안을!\" 한국축구지도자협회 \"유튜버들 책...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1788837780000,
+      "latestPublishedAt": 1788837780000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   },
   {
     "id": "item_bba08d31b8523dd0",
@@ -144,7 +254,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553522143"
+      ],
+      "stories": [
+        "news|news|[전문] \"한국 축구 발전과 미래를 위해 뜻 모아야\"...지도자협회, 공식 ...|sportalkorea.com|2026-09-08T03:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[전문] \"한국 축구 발전과 미래를 위해 뜻 모아야\"...지도자협회, 공식 ...|sportalkorea.com"
+      ],
+      "earliestPublishedAt": 1788837660000,
+      "latestPublishedAt": 1788837660000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   },
   {
     "id": "youtube_i1-vdiOlkj0",
@@ -221,7 +347,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.hani.co.kr/arti/sports/soccer/1276746.html"
+      ],
+      "stories": [
+        "news|news|축구지도자협회 “축구계 내부 인신공격 심화…축구 발전 도움 안 돼”|hani.co.kr|2026-09-08T02:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구지도자협회 “축구계 내부 인신공격 심화…축구 발전 도움 안 돼”|hani.co.kr"
+      ],
+      "earliestPublishedAt": 1788835560000,
+      "latestPublishedAt": 1788835560000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   },
   {
     "id": "item_baecb695f2b93441",
@@ -253,7 +395,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-09-08/202609080100053440003449"
+      ],
+      "stories": [
+        "news|news|[오피셜]'2018년 한국 대표팀 지휘봉 잡을뻔한' 키케 플로레스 알바레스...|sportschosun.com|2026-09-08T02:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[오피셜]'2018년 한국 대표팀 지휘봉 잡을뻔한' 키케 플로레스 알바레스...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1788834060000,
+      "latestPublishedAt": 1788834060000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   },
   {
     "id": "item_00c74ad7fa3d7daa",
@@ -294,7 +452,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20260908_0003780634"
+      ],
+      "stories": [
+        "news|news|\"이미지 좋은 박항서를 이용했나\"…신문선, 축구협회 주먹구구 행정 비...|newsis.com|2026-09-08T02:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"이미지 좋은 박항서를 이용했나\"…신문선, 축구협회 주먹구구 행정 비...|newsis.com"
+      ],
+      "earliestPublishedAt": 1788833880000,
+      "latestPublishedAt": 1788833880000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   },
   {
     "id": "youtube_w_ux7wAOMF4",
@@ -460,7 +634,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.starnewskorea.com/sports/2026/09/08/2026090809564412138"
+      ],
+      "stories": [
+        "news|news|\"축구계 인신공격·시도민구단 매도 멈춰야...\" 지도자협회 공식 성명|starnewskorea.com|2026-09-08T01:34:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"축구계 인신공격·시도민구단 매도 멈춰야...\" 지도자협회 공식 성명|starnewskorea.com"
+      ],
+      "earliestPublishedAt": 1788831240000,
+      "latestPublishedAt": 1788831240000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   },
   {
     "id": "item_4c1b4c08617cfb46",
@@ -489,7 +679,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mydaily.co.kr/page/view/2026090810254264802"
+      ],
+      "stories": [
+        "news|news|\"갈등보다 통합, 공격보다 대안\"…한국축구지도자협회, 현장 중심 축구...|mydaily.co.kr|2026-09-08T01:27:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"갈등보다 통합, 공격보다 대안\"…한국축구지도자협회, 현장 중심 축구...|mydaily.co.kr"
+      ],
+      "earliestPublishedAt": 1788830820000,
+      "latestPublishedAt": 1788830820000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   },
   {
     "id": "item_4ca9e580eb69997b",
@@ -517,7 +723,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 4,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/AKR20260908101424nhG"
+      ],
+      "stories": [
+        "news|news|한국축구지도자협회 \"축구계 현안, 현장 중심의 개혁 필요\"|yonhapnewstv.co.kr|2026-09-08T01:15:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|한국축구지도자협회 \"축구계 현안, 현장 중심의 개혁 필요\"|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1788830100000,
+      "latestPublishedAt": 1788830100000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   },
   {
     "id": "item_a3eb51409562923d",
@@ -545,7 +767,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.footballist.co.kr/news/articleView.html?idxno=214485"
+      ],
+      "stories": [
+        "news|news|지소연 1명에서 선수 전체로…심판위 충격적 해명, 피해 범위만 확대|footballist.co.kr|2026-09-08T00:55:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|지소연 1명에서 선수 전체로…심판위 충격적 해명, 피해 범위만 확대|footballist.co.kr"
+      ],
+      "earliestPublishedAt": 1788828900000,
+      "latestPublishedAt": 1788828900000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   },
   {
     "id": "item_a3bba472f6f4cb70",
@@ -583,7 +821,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.redaily.co.kr/news/articleView.html?idxno=17501"
+      ],
+      "stories": [
+        "news|news|[리더십 경영] (91) '실패한 리더십의 전형' 홍명보가 주는 교훈|redaily.co.kr|2026-09-08T00:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[리더십 경영] (91) '실패한 리더십의 전형' 홍명보가 주는 교훈|redaily.co.kr"
+      ],
+      "earliestPublishedAt": 1788826200000,
+      "latestPublishedAt": 1788826200000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   },
   {
     "id": "youtube_rZeFdY936ck",
@@ -672,7 +926,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.khan.co.kr/article/202609080903003?pt=nv"
+      ],
+      "stories": [
+        "news|news|‘8년 전 벤투 대신 한국 감독 될뻔’ 플로레스, 라리가 8월의 감독···...|sports.khan.co.kr|2026-09-08T00:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘8년 전 벤투 대신 한국 감독 될뻔’ 플로레스, 라리가 8월의 감독···...|sports.khan.co.kr"
+      ],
+      "earliestPublishedAt": 1788825840000,
+      "latestPublishedAt": 1788825840000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   },
   {
     "id": "item_de9bf952565dda0b",
@@ -700,6 +970,22 @@
     "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553520973"
+      ],
+      "stories": [
+        "news|news|\"이런 일이 과연 처음인지\" 지소연, 앞에서 '걸스데이' 망언 내뱉곤 황...|sportalkorea.com|2026-09-08T00:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"이런 일이 과연 처음인지\" 지소연, 앞에서 '걸스데이' 망언 내뱉곤 황...|sportalkorea.com"
+      ],
+      "earliestPublishedAt": 1788825720000,
+      "latestPublishedAt": 1788825720000,
+      "representativeCollectedAt": 1788861939367,
+      "latestCollectedAt": 1788861939367
+    }
   }
 ]
