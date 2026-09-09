@@ -134,26 +134,27 @@
       ],
       "earliestPublishedAt": 1788620460000,
       "latestPublishedAt": 1788620460000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
     "id": "item_f177db87c50f2244",
     "type": "news",
     "title": "\"韓, 친선전 이겨봤자 변화 없다\" 일침...'임시 감독' 모레노 체제 조명...",
-    "summary": "앞서 대한 축구협회 (KFA)는 지난 1일 모레노 감독 을 국가대표팀 임시 사령탑으로 공식 선임했다. 그는 거스 포옛, 헤수스 카사스, 도메네크 토렌트 등 쟁쟁한 22인의 후보 들을 제치고 공개 채용을 통해 지휘봉을 잡았다....",
+    "summary": "앞서 대한축구협회( KFA )는 지난 1일 모레노 감독을 국가대표팀 임시 사령탑으로 공식 선임했다. 그는 거스... 설상가상 홍명보 감독이 사임한 뒤 불공정 재점화되며 논란이 불거졌고, KFA 의 외국인 심판진에 대한 성 비위...",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553515773",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553515773",
     "publisher": "sportalkorea.com",
     "publishedAt": "2026-09-05T13:41:00.000Z",
     "collectedAt": "2026-09-05T14:00:16.950Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "KFA",
       "감독",
       "사령탑",
-      "선임"
+      "선임",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -174,12 +175,16 @@
     "issueTags": [
       "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -193,8 +198,8 @@
       ],
       "earliestPublishedAt": 1788615660000,
       "latestPublishedAt": 1788615660000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
@@ -314,7 +319,7 @@
     "id": "item_1a81bf3cc93cdfd0",
     "type": "news",
     "title": "박항서 \"자기들만의 리그, 너무 교만했다\"…축구협회 작심 비판",
-    "summary": "북중미 월드컵 당시 대표팀 지원단장을 맡았던 박항서 감독, 이번엔 대한축구협회 를 향한 작심 비판에... [리포트] “ 홍명보 나가!\" 팬들의 거센 야유가 쏟아진 월드컵 축구 대표팀의 귀국길. 가장 앞에 선 사람은 박항서 당시...",
+    "summary": "박항서 / 전 축구 대표팀 지원단장 “딱 눈치를 보니까 전무 와 전력강화위원장은 안 서고 싶은 생각이 있는 것 같았어요. 그래서 그냥 빠지라고,\" 충격적 패배와 반복되는 책임 회파의 원인으로는 축구 협회 의 공고한 '카르텔...",
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/05/2026090590117.html",
     "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/09/05/2026090590117.html",
     "publisher": "news.tvchosun.com",
@@ -322,8 +327,7 @@
     "collectedAt": "2026-09-05T10:55:37.956Z",
     "matchedKeywords": [
       "축구협회",
-      "대한축구협회",
-      "홍명보"
+      "전무"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -332,16 +336,14 @@
       "대한축구협회",
       "축구협회 전무"
     ],
-    "issueTags": [],
-    "personTags": [
-      "person_hong_myung_bo"
+    "issueTags": [
+      "kfa-executives"
     ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
-    "labels": [
-      "인물 언급"
-    ],
+    "relevanceScore": 14,
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -355,8 +357,8 @@
       ],
       "earliestPublishedAt": 1788604500000,
       "latestPublishedAt": 1788604500000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
@@ -541,8 +543,8 @@
       ],
       "earliestPublishedAt": 1788592620000,
       "latestPublishedAt": 1788592620000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
@@ -592,8 +594,8 @@
       ],
       "earliestPublishedAt": 1788586500000,
       "latestPublishedAt": 1788586500000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
@@ -692,8 +694,8 @@
       ],
       "earliestPublishedAt": 1788585720000,
       "latestPublishedAt": 1788585720000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
@@ -741,8 +743,8 @@
       ],
       "earliestPublishedAt": 1788584640000,
       "latestPublishedAt": 1788584640000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
@@ -870,15 +872,15 @@
       ],
       "earliestPublishedAt": 1788582120000,
       "latestPublishedAt": 1788582120000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
     "id": "item_b2d8683547deea4a",
     "type": "news",
     "title": "'한국 축구 첫 스페인 감독' 모레노의 묵직한 출사표...\"우리의 이야기...",
-    "summary": "대한 축구협회 가 처음으로 실시한 대표팀 감독 공개 모집을 통해 선임됐다는 점에서도 의미가 있다. 모레노... 첫 소집까지 주어진 시간이 길지 않은 만큼 기존 대표팀 자원과 새로운 후보 들을 빠르게 파악해야 한다. 첫...",
+    "summary": "대한 축구협회 (KFA)는 지난 1일 충남 천안 코리아풋볼파크에서 2026년도 제7차 이사회 를 열고 모레노 감독을 비롯한 코칭스태프 6명의 선임안을 승인했다. 계약 기간은 오는 11월 27일까지다. 모레노 감독은 9월부터 11월까지...",
     "url": "http://www.osen.co.kr/article/G1112870265",
     "originalUrl": "http://www.osen.co.kr/article/G1112870265",
     "publisher": "osen.co.kr",
@@ -886,7 +888,8 @@
     "collectedAt": "2026-09-05T14:00:16.950Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "대표팀 감독",
+      "KFA",
+      "이사회",
       "감독",
       "선임"
     ],
@@ -900,12 +903,13 @@
       "KFA"
     ],
     "issueTags": [
+      "kfa-executives",
       "coach-appointment"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -921,8 +925,8 @@
       ],
       "earliestPublishedAt": 1788582060000,
       "latestPublishedAt": 1788582060000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
@@ -1018,8 +1022,8 @@
       ],
       "earliestPublishedAt": 1788575580000,
       "latestPublishedAt": 1788575580000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
@@ -1208,8 +1212,8 @@
       ],
       "earliestPublishedAt": 1788574140000,
       "latestPublishedAt": 1788574140000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
@@ -1317,8 +1321,8 @@
       ],
       "earliestPublishedAt": 1788574020000,
       "latestPublishedAt": 1788574020000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
@@ -1366,8 +1370,8 @@
       ],
       "earliestPublishedAt": 1788570840000,
       "latestPublishedAt": 1788570840000,
-      "representativeCollectedAt": 1788917557713,
-      "latestCollectedAt": 1788917557713
+      "representativeCollectedAt": 1788936111906,
+      "latestCollectedAt": 1788936111906
     }
   },
   {
