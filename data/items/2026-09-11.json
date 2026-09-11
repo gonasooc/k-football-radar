@@ -1,5 +1,79 @@
 [
   {
+    "id": "item_1e0fd63c3504c030",
+    "type": "news",
+    "title": "'정몽규·홍명보 다 떠났다' 충격적이었던 A매치 관중 수, 모레노 감독 ...",
+    "summary": "정몽규 전 대한 축구협회 장과 홍명보 전 대표팀 감독을 향한 성난 여론 속 충격적인 수준으로 추락했던 관중 수가 회복될지도 관심사다. 로베르트 모레노(스페인) 임시 감독이 이끄는 한국은 오는 24일...",
+    "url": "https://www.starnewskorea.com/sports/2026/09/11/2026091114334125672",
+    "originalUrl": "https://www.starnewskorea.com/sports/2026/09/11/2026091114334125672",
+    "publisher": "starnewskorea.com",
+    "publishedAt": "2026-09-11T07:30:00.000Z",
+    "collectedAt": "2026-09-11T11:49:15.806Z",
+    "matchedKeywords": [
+      "정몽규",
+      "홍명보",
+      "대한 축구협회",
+      "대표팀 감독",
+      "감독",
+      "관심"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 32,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_345960838430c448",
+    "type": "news",
+    "title": "인천시축구협회, 대한축구협회 정기 종합감사 제외",
+    "summary": "기호일보, KIHOILBO 인천시축구협회가 대한축구협회 회원단체 정기 종합감사에서 우수단체로 평가받아 올해 실지감사 대상에서 제외됐다. 인천시축구협회는 '2025년 회원단체 종합감사' 평가 결과 우수단체로 선정돼...",
+    "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3034409",
+    "originalUrl": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3034409",
+    "publisher": "kihoilbo.co.kr",
+    "publishedAt": "2026-09-11T07:30:00.000Z",
+    "collectedAt": "2026-09-11T11:49:15.806Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "대한축구협회",
+      "축구협회 감사",
+      "축구협회 문화체육관광부 감사"
+    ],
+    "issueTags": [
+      "mcst-audit"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 47,
+    "labels": [
+      "감사 키워드 포함"
+    ]
+  },
+  {
     "id": "item_ad54c34312332298",
     "type": "news",
     "title": "대한축구협회, 여자축구 동호인 대회 신설…34개팀 예선전 참가",
@@ -23,7 +97,23 @@
     "isOfficial": false,
     "relevanceScore": 26,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.hani.co.kr/arti/sports/soccer/1277389.html"
+      ],
+      "stories": [
+        "news|news|대한축구협회, 여자축구 동호인 대회 신설…34개팀 예선전 참가|hani.co.kr|2026-09-11T06:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한축구협회, 여자축구 동호인 대회 신설…34개팀 예선전 참가|hani.co.kr"
+      ],
+      "earliestPublishedAt": 1789108320000,
+      "latestPublishedAt": 1789108320000,
+      "representativeCollectedAt": 1789127355806,
+      "latestCollectedAt": 1789127355806
+    }
   },
   {
     "id": "item_f5df43dbb0909d8d",
@@ -49,7 +139,23 @@
     "isOfficial": false,
     "relevanceScore": 26,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/soccer/6287759"
+      ],
+      "stories": [
+        "news|news|대한축구협회, 女 아마추어 8대8 대회 '더 에이트' 신설|news1.kr|2026-09-11T06:09:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한축구협회, 女 아마추어 8대8 대회 '더 에이트' 신설|news1.kr"
+      ],
+      "earliestPublishedAt": 1789106940000,
+      "latestPublishedAt": 1789106940000,
+      "representativeCollectedAt": 1789127355806,
+      "latestCollectedAt": 1789127355806
+    }
   },
   {
     "id": "youtube_UjZEU3bV3xc",
@@ -105,7 +211,7 @@
     "id": "item_b69396c00692a0da",
     "type": "news",
     "title": "대한축구협회, 아마추어 여자 8대8 축구대회 ‘THE 8IGHT’ 신설",
-    "summary": "대한축구협회 가 대한민국 최고의 여성 아마추어 축구팀을 가릴 ‘THE 8IGHT : KFA WOMEN’S CHAMPIONSHIP을 신설한다. ‘THE 8IGHT’는 전국의 여자 아마추어 클럽이 참가하는 전국 아마추어 8대8 여자 축구대회다....",
+    "summary": "대한축구협회가 대한민국 최고의 여성 아마추어 축구팀을 가릴 ‘THE 8IGHT : KFA WOMEN’S CHAMPIONSHIP을 신설한다. ‘THE 8IGHT’는 전국의 여자 아마추어 클럽이 참가하는 전국 아마추어 8대8 여자 축구대회다....",
     "url": "https://www.sportsseoul.com/news/read/1634449?ref=naver",
     "originalUrl": "https://www.sportsseoul.com/news/read/1634449?ref=naver",
     "publisher": "sportsseoul.com",
@@ -125,13 +231,29 @@
     "isOfficial": false,
     "relevanceScore": 26,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsseoul.com/news/read/1634449?ref=naver"
+      ],
+      "stories": [
+        "news|news|대한축구협회, 아마추어 여자 8대8 축구대회 ‘the 8ight’ 신설|sportsseoul.com|2026-09-11T03:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한축구협회, 아마추어 여자 8대8 축구대회 ‘the 8ight’ 신설|sportsseoul.com"
+      ],
+      "earliestPublishedAt": 1789096860000,
+      "latestPublishedAt": 1789096860000,
+      "representativeCollectedAt": 1789127355806,
+      "latestCollectedAt": 1789127355806
+    }
   },
   {
     "id": "item_ce665b5a6de29df9",
     "type": "news",
     "title": "대한축구협회, 아마추어 여자 8대8 대회 '더 에이트' 신설",
-    "summary": "대한축구협회 는 여성 아마추어팀이 경쟁하는 8대8 대회 '더 에이트 KFA 위민스 챔피언십'(이하 '더 에이트')을 신설한다고 11일 밝혔다. 대한축구협회 가 주최·주관하고 국제축구연맹(FIFA)의 여자 축구 발전 프로그램...",
+    "summary": "대한축구협회는 여성 아마추어팀이 경쟁하는 8대8 대회 '더 에이트 KFA 위민스 챔피언십'(이하 '더 에이트')을 신설한다고 11일 밝혔다. 대한축구협회가 주최·주관하고 국제축구연맹(FIFA)의 여자 축구 발전 프로그램...",
     "url": "https://www.yna.co.kr/view/AKR20260911079900007?input=1195m",
     "originalUrl": "https://www.yna.co.kr/view/AKR20260911079900007?input=1195m",
     "publisher": "yna.co.kr",
@@ -151,13 +273,29 @@
     "isOfficial": false,
     "relevanceScore": 26,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20260911079900007?input=1195m"
+      ],
+      "stories": [
+        "news|news|대한축구협회, 아마추어 여자 8대8 대회 '더 에이트' 신설|yna.co.kr|2026-09-11T02:53:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한축구협회, 아마추어 여자 8대8 대회 '더 에이트' 신설|yna.co.kr"
+      ],
+      "earliestPublishedAt": 1789095180000,
+      "latestPublishedAt": 1789095180000,
+      "representativeCollectedAt": 1789127355806,
+      "latestCollectedAt": 1789127355806
+    }
   },
   {
     "id": "item_f9248ba7d498c616",
     "type": "news",
     "title": "[공식발표] 대한축구협회, 여자 아마추어 8대8 축구대회 'THE 8IGHT' 신설",
-    "summary": "대한축구협회 가 여자 아마추어 축구 저변 확대를 위한 새로운 무대를 마련한다. 대한축구협회 는 11일 전국 여자 아마추어 클럽들이 참가하는 8대8 축구대회 'THE 8IGHT : KFA WOMEN'S CHAMPIONSHIP(더 에이트 : KFA 위민스...",
+    "summary": "대한축구협회는 11일 전국 여자 아마추어 클럽들이 참가하는 8대8 축구대회 'THE 8IGHT : KFA WOMEN'S CHAMPIONSHIP(더 에이트 : KFA 위민스 챔피언십)'을 신설한다고 밝혔다. 'THE 8IGHT'는 대한축구협회가 직접 주최·주관하는...",
     "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=97707",
     "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=97707",
     "publisher": "fourfourtwo.co.kr",
@@ -177,7 +315,23 @@
     "isOfficial": false,
     "relevanceScore": 26,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=97707"
+      ],
+      "stories": [
+        "news|news|[공식발표] 대한축구협회, 여자 아마추어 8대8 축구대회 'the 8ight' 신설|fourfourtwo.co.kr|2026-09-11T01:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[공식발표] 대한축구협회, 여자 아마추어 8대8 축구대회 'the 8ight' 신설|fourfourtwo.co.kr"
+      ],
+      "earliestPublishedAt": 1789090200000,
+      "latestPublishedAt": 1789090200000,
+      "representativeCollectedAt": 1789127355806,
+      "latestCollectedAt": 1789127355806
+    }
   },
   {
     "id": "item_de9cb5de2d84427c",
@@ -216,8 +370,8 @@
       ],
       "earliestPublishedAt": 1789089480000,
       "latestPublishedAt": 1789089480000,
-      "representativeCollectedAt": 1789108689112,
-      "latestCollectedAt": 1789108689112
+      "representativeCollectedAt": 1789127355806,
+      "latestCollectedAt": 1789127355806
     }
   },
   {
@@ -259,8 +413,8 @@
       ],
       "earliestPublishedAt": 1789088760000,
       "latestPublishedAt": 1789088760000,
-      "representativeCollectedAt": 1789108689112,
-      "latestCollectedAt": 1789108689112
+      "representativeCollectedAt": 1789127355806,
+      "latestCollectedAt": 1789127355806
     }
   },
   {
@@ -291,6 +445,22 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112873731"
+      ],
+      "stories": [
+        "news|news|‘캡틴 손흥민의 라스트댄스', 아시안컵 우승으로 결실 맺나…한국축구...|osen.co.kr|2026-09-11T00:45:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘캡틴 손흥민의 라스트댄스', 아시안컵 우승으로 결실 맺나…한국축구...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1789087500000,
+      "latestPublishedAt": 1789087500000,
+      "representativeCollectedAt": 1789127355806,
+      "latestCollectedAt": 1789127355806
+    }
   }
 ]
