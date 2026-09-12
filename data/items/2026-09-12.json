@@ -1,9 +1,76 @@
 [
   {
+    "id": "item_7fba968ba3587b1a",
+    "type": "news",
+    "title": "[현장인터뷰]K리그 '국내파' 최초 2년 연속 '10-10' 역사, 이동경의 환희...",
+    "summary": "높은 순위에서 끝내고 싶고, 개인적으로는 '10-10'을 했기 때문에 더 이상은 약간 보너스라는 마음으로 열심히 뛸 것이다.\" 홍명보 감독 의 후임으로 A 대표팀 의 지휘봉을 잡은 로베르토 모레노 임시 감독 이 한국 땅을...",
+    "url": "https://www.sportschosun.com/football/2026-09-13/202609130100085160005563",
+    "originalUrl": "https://www.sportschosun.com/football/2026-09-13/202609130100085160005563",
+    "publisher": "sportschosun.com",
+    "publishedAt": "2026-09-12T15:33:00.000Z",
+    "collectedAt": "2026-09-12T16:29:59.013Z",
+    "matchedKeywords": [
+      "감독",
+      "후임",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 7,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_97f0bf01251fc431",
+    "type": "news",
+    "title": "'대표팀 명단 발표 D-2' 모레노 사단, 벌써 움직였다...K리그2 현장까지...",
+    "summary": "이는 모레노 감독 이 선임 과정에서 보여준 행보와도 맞닿아 있다. 현영민 대한 축구협회 전력강화위원장은 앞서 모레노 감독 이 기존 대표팀 선수들뿐 아니라 K리그 선수들과 군 팀인 김천 상무의 특수성까지 이미...",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1007145",
+    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1007145",
+    "publisher": "spotvnews.co.kr",
+    "publishedAt": "2026-09-12T14:12:00.000Z",
+    "collectedAt": "2026-09-12T16:29:59.013Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "전력강화위원회",
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_08f90076fede48de",
     "type": "news",
     "title": "안정환, 모레노 감독 선임에 입 열었다…\"과정 너무 짧아, 색깔 바꾸는...",
-    "summary": "축구선수 출신 방송인 안정환이 로베르트 모레노 감독 의 대한민국 축구 대표팀 임시 감독 선임에 대한 생각을 밝혔다. 12일 방송된 MBC 예능 프로그램 '놀면 뭐하니?'는 ‘2026 아이치 나고야 아시안게임’ 특집으로 꾸며진...",
+    "summary": "축구선수 출신 방송인 안정환이 로베르트 모레노 감독 의 대한민국 축구 대표팀 임시 감독 선임 에 대한 생각을 밝혔다. 12일 방송된 MBC 예능 프로그램 '놀면 뭐하니?'는 ‘2026 아이치 나고야 아시안게임’ 특집으로 꾸며진...",
     "url": "https://www.xportsnews.com/article/2195044",
     "originalUrl": "https://www.xportsnews.com/article/2195044",
     "publisher": "xportsnews.com",
@@ -29,7 +96,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2195044"
+      ],
+      "stories": [
+        "news|news|안정환, 모레노 감독 선임에 입 열었다…\"과정 너무 짧아, 색깔 바꾸는...|xportsnews.com|2026-09-12T10:48:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|안정환, 모레노 감독 선임에 입 열었다…\"과정 너무 짧아, 색깔 바꾸는...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1789210080000,
+      "latestPublishedAt": 1789210080000,
+      "representativeCollectedAt": 1789230599013,
+      "latestCollectedAt": 1789230599013
+    }
   },
   {
     "id": "youtube_OzCtw2O5JLc",
@@ -157,8 +240,8 @@
       ],
       "earliestPublishedAt": 1789193280000,
       "latestPublishedAt": 1789193280000,
-      "representativeCollectedAt": 1789218573519,
-      "latestCollectedAt": 1789218573519
+      "representativeCollectedAt": 1789230599013,
+      "latestCollectedAt": 1789230599013
     }
   },
   {
@@ -286,8 +369,8 @@
       ],
       "earliestPublishedAt": 1789188960000,
       "latestPublishedAt": 1789188960000,
-      "representativeCollectedAt": 1789218573519,
-      "latestCollectedAt": 1789218573519
+      "representativeCollectedAt": 1789230599013,
+      "latestCollectedAt": 1789230599013
     }
   },
   {
@@ -340,8 +423,8 @@
       ],
       "earliestPublishedAt": 1789185660000,
       "latestPublishedAt": 1789185660000,
-      "representativeCollectedAt": 1789218573519,
-      "latestCollectedAt": 1789218573519
+      "representativeCollectedAt": 1789230599013,
+      "latestCollectedAt": 1789230599013
     }
   },
   {
@@ -392,8 +475,8 @@
       ],
       "earliestPublishedAt": 1789181400000,
       "latestPublishedAt": 1789181400000,
-      "representativeCollectedAt": 1789218573519,
-      "latestCollectedAt": 1789218573519
+      "representativeCollectedAt": 1789230599013,
+      "latestCollectedAt": 1789230599013
     }
   },
   {
@@ -453,8 +536,8 @@
       ],
       "earliestPublishedAt": 1789180080000,
       "latestPublishedAt": 1789180080000,
-      "representativeCollectedAt": 1789218573519,
-      "latestCollectedAt": 1789218573519
+      "representativeCollectedAt": 1789230599013,
+      "latestCollectedAt": 1789230599013
     }
   },
   {
@@ -503,8 +586,8 @@
       ],
       "earliestPublishedAt": 1789173840000,
       "latestPublishedAt": 1789173840000,
-      "representativeCollectedAt": 1789218573519,
-      "latestCollectedAt": 1789218573519
+      "representativeCollectedAt": 1789230599013,
+      "latestCollectedAt": 1789230599013
     }
   },
   {
@@ -562,8 +645,8 @@
       ],
       "earliestPublishedAt": 1789173360000,
       "latestPublishedAt": 1789173360000,
-      "representativeCollectedAt": 1789218573519,
-      "latestCollectedAt": 1789218573519
+      "representativeCollectedAt": 1789230599013,
+      "latestCollectedAt": 1789230599013
     }
   }
 ]
