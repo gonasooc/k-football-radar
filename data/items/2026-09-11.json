@@ -276,8 +276,8 @@
       ],
       "earliestPublishedAt": 1789111800000,
       "latestPublishedAt": 1789111800000,
-      "representativeCollectedAt": 1789350084985,
-      "latestCollectedAt": 1789350084985
+      "representativeCollectedAt": 1789369615664,
+      "latestCollectedAt": 1789369615664
     }
   },
   {
@@ -323,8 +323,8 @@
       ],
       "earliestPublishedAt": 1789111800000,
       "latestPublishedAt": 1789111800000,
-      "representativeCollectedAt": 1789350084985,
-      "latestCollectedAt": 1789350084985
+      "representativeCollectedAt": 1789369615664,
+      "latestCollectedAt": 1789369615664
     }
   },
   {
@@ -349,7 +349,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/MYH20260911162021Wx8"
+      ],
+      "stories": [
+        "news|news|모레노 사단 구성 완료…'운명의 6경기' 성과 주목|yonhapnewstv.co.kr|2026-09-11T07:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|모레노 사단 구성 완료…'운명의 6경기' 성과 주목|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1789111260000,
+      "latestPublishedAt": 1789111260000,
+      "representativeCollectedAt": 1789369615664,
+      "latestCollectedAt": 1789369615664
+    }
   },
   {
     "id": "item_ad54c34312332298",
@@ -753,8 +769,8 @@
       ],
       "earliestPublishedAt": 1789088760000,
       "latestPublishedAt": 1789088760000,
-      "representativeCollectedAt": 1789350084985,
-      "latestCollectedAt": 1789350084985
+      "representativeCollectedAt": 1789369615664,
+      "latestCollectedAt": 1789369615664
     }
   },
   {
