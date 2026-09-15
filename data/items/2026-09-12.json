@@ -3,7 +3,7 @@
     "id": "item_3721348d5e3966c7",
     "type": "news",
     "title": "'충격의 월드컵 탈락+협회장 선거 혼란' 한국 축구 택한 모레노...입국장...",
-    "summary": "첫 번째 관심사는 한국 대표팀 임시 감독 직에 직접 지원한 이유다. 대한 축구협회 는 2026 국제 축구 연맹(FIFA)... 모레노 감독 은 입국 전부터 유럽에서 한국 선수들의 소속팀 경기를 직접 지켜봤고, K리그와 대표팀 후보 ...",
+    "summary": "대한축구협회는 2026 국제축구연맹(FIFA) 북중미월드컵 조별리그 탈락과 홍명보 전 감독의 사퇴 이후... 대한축구협회장 선거 를 앞둔 불확실한 상황과 짧은 계약 기간에도 모레노 감독이 직접 공개채용에 지원한 이유...",
     "url": "http://www.osen.co.kr/article/G1112874682",
     "originalUrl": "http://www.osen.co.kr/article/G1112874682",
     "publisher": "osen.co.kr",
@@ -11,9 +11,11 @@
     "collectedAt": "2026-09-12T21:00:18.981Z",
     "matchedKeywords": [
       "회장 선거",
-      "대한 축구협회",
-      "감독",
-      "관심"
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "홍명보",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -29,14 +31,17 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election",
-      "coach-appointment"
+      "election"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
-    "labels": [],
+    "relevanceScore": 25,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -50,8 +55,8 @@
       ],
       "earliestPublishedAt": 1789246560000,
       "latestPublishedAt": 1789246560000,
-      "representativeCollectedAt": 1789433811152,
-      "latestCollectedAt": 1789433811152
+      "representativeCollectedAt": 1789454627002,
+      "latestCollectedAt": 1789454627002
     }
   },
   {
@@ -200,8 +205,8 @@
       ],
       "earliestPublishedAt": 1789210080000,
       "latestPublishedAt": 1789210080000,
-      "representativeCollectedAt": 1789433811152,
-      "latestCollectedAt": 1789433811152
+      "representativeCollectedAt": 1789454627002,
+      "latestCollectedAt": 1789454627002
     }
   },
   {
@@ -507,8 +512,8 @@
       ],
       "earliestPublishedAt": 1789188960000,
       "latestPublishedAt": 1789188960000,
-      "representativeCollectedAt": 1789433811152,
-      "latestCollectedAt": 1789433811152
+      "representativeCollectedAt": 1789454627002,
+      "latestCollectedAt": 1789454627002
     }
   },
   {
@@ -561,8 +566,8 @@
       ],
       "earliestPublishedAt": 1789185660000,
       "latestPublishedAt": 1789185660000,
-      "representativeCollectedAt": 1789433811152,
-      "latestCollectedAt": 1789433811152
+      "representativeCollectedAt": 1789454627002,
+      "latestCollectedAt": 1789454627002
     }
   },
   {
@@ -674,8 +679,8 @@
       ],
       "earliestPublishedAt": 1789180080000,
       "latestPublishedAt": 1789180080000,
-      "representativeCollectedAt": 1789433811152,
-      "latestCollectedAt": 1789433811152
+      "representativeCollectedAt": 1789454627002,
+      "latestCollectedAt": 1789454627002
     }
   },
   {
@@ -783,8 +788,8 @@
       ],
       "earliestPublishedAt": 1789173360000,
       "latestPublishedAt": 1789173360000,
-      "representativeCollectedAt": 1789433811152,
-      "latestCollectedAt": 1789433811152
+      "representativeCollectedAt": 1789454627002,
+      "latestCollectedAt": 1789454627002
     }
   }
 ]
