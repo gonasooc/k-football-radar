@@ -31,7 +31,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.asiatoday.co.kr/kn/view.php?key=20260916010006374"
+      ],
+      "stories": [
+        "news|news|[데스크 칼럼] 가슴팍 허전한 '슬픈' 시민구단 저지|asiatoday.co.kr|2026-09-16T21:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[데스크 칼럼] 가슴팍 허전한 '슬픈' 시민구단 저지|asiatoday.co.kr"
+      ],
+      "earliestPublishedAt": 1789592400000,
+      "latestPublishedAt": 1789592400000,
+      "representativeCollectedAt": 1789609368765,
+      "latestCollectedAt": 1789609368765
+    }
   },
   {
     "id": "youtube_IQFnWDnYn8Y",
@@ -140,15 +156,15 @@
       ],
       "earliestPublishedAt": 1789554840000,
       "latestPublishedAt": 1789554840000,
-      "representativeCollectedAt": 1789600523090,
-      "latestCollectedAt": 1789600523090
+      "representativeCollectedAt": 1789609368765,
+      "latestCollectedAt": 1789609368765
     }
   },
   {
     "id": "item_5ab1a50b221588b3",
     "type": "news",
     "title": "무료 공공풋살장인데 개인계좌로 사용?…의정부시, 전 축협회장 조사",
-    "summary": "공공이 운영하는 풋살구장의 사용료를 개인계좌로 받는 등 경기 의정부시 전임 축구협회 장에 대한 비위 의혹이 제기돼 시가 조사에 착수했다. 해당 인사는 \"전임 시장 시절 정상적으로 위탁받고 계약서대로 진행한 것이며...",
+    "summary": "공공이 운영하는 풋살구장의 사용료를 개인계좌로 받는 등 경기 의정부시 전임 축구협회장 에 대한 비위 의혹이 제기돼 시가 조사에 착수했다. 해당 인사는 \"전임 시장 시절 정상적으로 위탁받고 계약서대로 진행한 것이며...",
     "url": "https://www.news1.kr/local/gyeonggi/6292958",
     "originalUrl": "https://www.news1.kr/local/gyeonggi/6292958",
     "publisher": "news1.kr",
@@ -156,18 +172,20 @@
     "collectedAt": "2026-09-16T12:09:59.163Z",
     "matchedKeywords": [
       "축협",
-      "축구협회"
+      "축구협회장"
     ],
     "discoveryQueries": [
       "대한축구협회",
       "대한축구협회장",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 17,
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -182,8 +200,8 @@
       ],
       "earliestPublishedAt": 1789548360000,
       "latestPublishedAt": 1789548360000,
-      "representativeCollectedAt": 1789600523090,
-      "latestCollectedAt": 1789600523090
+      "representativeCollectedAt": 1789609368765,
+      "latestCollectedAt": 1789609368765
     }
   },
   {
@@ -270,8 +288,8 @@
       ],
       "earliestPublishedAt": 1789546020000,
       "latestPublishedAt": 1789546020000,
-      "representativeCollectedAt": 1789600523090,
-      "latestCollectedAt": 1789600523090
+      "representativeCollectedAt": 1789609368765,
+      "latestCollectedAt": 1789609368765
     }
   },
   {
@@ -356,8 +374,8 @@
       ],
       "earliestPublishedAt": 1789533840000,
       "latestPublishedAt": 1789533840000,
-      "representativeCollectedAt": 1789600523090,
-      "latestCollectedAt": 1789600523090
+      "representativeCollectedAt": 1789609368765,
+      "latestCollectedAt": 1789609368765
     }
   },
   {
@@ -521,8 +539,8 @@
       ],
       "earliestPublishedAt": 1789524120000,
       "latestPublishedAt": 1789524120000,
-      "representativeCollectedAt": 1789600523090,
-      "latestCollectedAt": 1789600523090
+      "representativeCollectedAt": 1789609368765,
+      "latestCollectedAt": 1789609368765
     }
   },
   {
@@ -587,8 +605,8 @@
       ],
       "earliestPublishedAt": 1789523280000,
       "latestPublishedAt": 1789523280000,
-      "representativeCollectedAt": 1789600523090,
-      "latestCollectedAt": 1789600523090
+      "representativeCollectedAt": 1789609368765,
+      "latestCollectedAt": 1789609368765
     }
   },
   {
@@ -629,8 +647,8 @@
       ],
       "earliestPublishedAt": 1789523160000,
       "latestPublishedAt": 1789523160000,
-      "representativeCollectedAt": 1789600523090,
-      "latestCollectedAt": 1789600523090
+      "representativeCollectedAt": 1789609368765,
+      "latestCollectedAt": 1789609368765
     }
   },
   {
@@ -742,8 +760,8 @@
       ],
       "earliestPublishedAt": 1789519440000,
       "latestPublishedAt": 1789519440000,
-      "representativeCollectedAt": 1789600523090,
-      "latestCollectedAt": 1789600523090
+      "representativeCollectedAt": 1789609368765,
+      "latestCollectedAt": 1789609368765
     }
   },
   {
