@@ -1,5 +1,36 @@
 [
   {
+    "id": "item_6c8a6574a3f02c16",
+    "type": "news",
+    "title": "'부천 안양 방문' 모레노 사단 총출동! 21일 소집 준비 착실, 6경기 오디...",
+    "summary": "지난 1일 대한 축구협회 는 모레노 감독 선임 을 발표했다. 임시 사령탑 신분인 모레노 감독 은 11월 A매치까지 총 6경기 지휘 후 2027 아시아 축구 연맹(AFC) 아시안컵 연장 지휘 여부를 심사받는다. 짧은 기간 동안 확실한...",
+    "url": "http://www.footballist.co.kr/news/articleView.html?idxno=214946",
+    "originalUrl": "http://www.footballist.co.kr/news/articleView.html?idxno=214946",
+    "publisher": "footballist.co.kr",
+    "publishedAt": "2026-09-19T10:24:00.000Z",
+    "collectedAt": "2026-09-19T13:26:13.288Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독 선임",
+      "감독",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_1bf1c51674fa5b08",
     "type": "news",
     "title": "영덕군 '신태용축구공원' 명칭 변경 검토… 지역 여론·공공성 종합 반...",
@@ -24,12 +55,28 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.enewstoday.co.kr/news/articleView.html?idxno=2472493"
+      ],
+      "stories": [
+        "news|news|영덕군 '신태용축구공원' 명칭 변경 검토… 지역 여론·공공성 종합 반...|enewstoday.co.kr|2026-09-19T06:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|영덕군 '신태용축구공원' 명칭 변경 검토… 지역 여론·공공성 종합 반...|enewstoday.co.kr"
+      ],
+      "earliestPublishedAt": 1789800000000,
+      "latestPublishedAt": 1789800000000,
+      "representativeCollectedAt": 1789824373288,
+      "latestCollectedAt": 1789824373288
+    }
   },
   {
     "id": "item_83d4e8756a1d2fdf",
     "type": "news",
-    "title": "대한축구협회, FIFA에 100억 넘는 돈 받을까…유럽·북중미 “각 협회에...",
+    "title": "FIFA, 대한축구협회에 100억 넘는 '돈벼락' 터트릴까…유럽·북중미 “각...",
     "summary": "물밑에서 빠르게 처리하려고 했던 인판티노 회장 이었지만, 각국 축구 협회 의 엄청난 반대에 부딪혀 나흘 만에 철회됐다. 인판티노 회장 은 오는 3월 네 번째 임기 도전을 위한 선거 에 나설 예정이다. 인판티노...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1008317",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1008317",
@@ -49,7 +96,25 @@
     "isOfficial": false,
     "relevanceScore": 20,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=1008317"
+      ],
+      "stories": [
+        "news|news|대한축구협회, fifa에 100억 넘는 돈 받을까…유럽·북중미 “각 협회에...|spotvnews.co.kr|2026-09-19T05:31:00.000Z",
+        "news|news|fifa, 대한축구협회에 100억 넘는 '돈벼락' 터트릴까…유럽·북중미 “각...|spotvnews.co.kr|2026-09-19T05:31:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|대한축구협회, fifa에 100억 넘는 돈 받을까…유럽·북중미 “각 협회에...|spotvnews.co.kr",
+        "news|news|fifa, 대한축구협회에 100억 넘는 '돈벼락' 터트릴까…유럽·북중미 “각...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1789795860000,
+      "latestPublishedAt": 1789795860000,
+      "representativeCollectedAt": 1789824373288,
+      "latestCollectedAt": 1789824373288
+    }
   },
   {
     "id": "youtube_OOmhRTBUUVs",
@@ -129,8 +194,8 @@
       ],
       "earliestPublishedAt": 1789786560000,
       "latestPublishedAt": 1789786560000,
-      "representativeCollectedAt": 1789811006899,
-      "latestCollectedAt": 1789811006899
+      "representativeCollectedAt": 1789824373288,
+      "latestCollectedAt": 1789824373288
     }
   },
   {
@@ -169,8 +234,8 @@
       ],
       "earliestPublishedAt": 1789781400000,
       "latestPublishedAt": 1789781400000,
-      "representativeCollectedAt": 1789811006899,
-      "latestCollectedAt": 1789811006899
+      "representativeCollectedAt": 1789824373288,
+      "latestCollectedAt": 1789824373288
     }
   },
   {
@@ -208,8 +273,8 @@
       ],
       "earliestPublishedAt": 1789778280000,
       "latestPublishedAt": 1789778280000,
-      "representativeCollectedAt": 1789811006899,
-      "latestCollectedAt": 1789811006899
+      "representativeCollectedAt": 1789824373288,
+      "latestCollectedAt": 1789824373288
     }
   },
   {
