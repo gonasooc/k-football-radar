@@ -65,7 +65,23 @@
     "relevanceScore": 35,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.rightknow.co.kr/news/articleView.html?idxno=34786"
+      ],
+      "stories": [
+        "news|news|[기획] '홍명보 선임 의혹' 정몽규 11시간 조사…축구협회 의사결정의 ...|rightknow.co.kr|2026-09-20T14:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[기획] '홍명보 선임 의혹' 정몽규 11시간 조사…축구협회 의사결정의 ...|rightknow.co.kr"
+      ],
+      "earliestPublishedAt": 1789915200000,
+      "latestPublishedAt": 1789915200000,
+      "representativeCollectedAt": 1789931027395,
+      "latestCollectedAt": 1789931027395
+    }
   },
   {
     "id": "youtube_QJuBzegTZeI",
@@ -202,8 +218,8 @@
       ],
       "earliestPublishedAt": 1789887360000,
       "latestPublishedAt": 1789887360000,
-      "representativeCollectedAt": 1789921824752,
-      "latestCollectedAt": 1789921824752
+      "representativeCollectedAt": 1789931027395,
+      "latestCollectedAt": 1789931027395
     }
   },
   {
@@ -243,8 +259,8 @@
       ],
       "earliestPublishedAt": 1789876080000,
       "latestPublishedAt": 1789876080000,
-      "representativeCollectedAt": 1789921824752,
-      "latestCollectedAt": 1789921824752
+      "representativeCollectedAt": 1789931027395,
+      "latestCollectedAt": 1789931027395
     }
   }
 ]
