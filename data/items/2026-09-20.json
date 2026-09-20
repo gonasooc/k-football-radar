@@ -22,7 +22,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=3700347"
+      ],
+      "stories": [
+        "news|news|영덕군, 축구공원 명칭 변경 여부 신중 검토…공공성·절차 투명성 강조|gukjenews.com|2026-09-20T06:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|영덕군, 축구공원 명칭 변경 여부 신중 검토…공공성·절차 투명성 강조|gukjenews.com"
+      ],
+      "earliestPublishedAt": 1789887360000,
+      "latestPublishedAt": 1789887360000,
+      "representativeCollectedAt": 1789907857459,
+      "latestCollectedAt": 1789907857459
+    }
   },
   {
     "id": "item_a69087639cbf2ea2",
@@ -47,6 +63,22 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kbsm.net/news/view.php?idx=534850"
+      ],
+      "stories": [
+        "news|news|‘신태용축구공원’ 명칭 바뀌나…징계 이후 영덕서 변경 요구|kbsm.net|2026-09-20T03:48:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘신태용축구공원’ 명칭 바뀌나…징계 이후 영덕서 변경 요구|kbsm.net"
+      ],
+      "earliestPublishedAt": 1789876080000,
+      "latestPublishedAt": 1789876080000,
+      "representativeCollectedAt": 1789907857459,
+      "latestCollectedAt": 1789907857459
+    }
   }
 ]
