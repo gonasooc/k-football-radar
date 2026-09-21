@@ -4,9 +4,9 @@ import type { RadarItem } from "./schema";
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
 export const DEFAULT_ITEM_RETENTION_DAYS = 90;
-export const DEFAULT_MAX_RETAINED_ITEMS = 4000;
-export const DEFAULT_MAX_RETAINED_SECONDARY_ITEMS = 700;
-export const DEFAULT_MAX_RETAINED_YOUTUBE_ITEMS = 500;
+export const DEFAULT_MAX_RETAINED_ITEMS = 6000;
+export const DEFAULT_MAX_RETAINED_SECONDARY_ITEMS = 3400;
+export const DEFAULT_MAX_RETAINED_YOUTUBE_ITEMS = 1200;
 
 function parseBoundedInteger({
   value,
@@ -128,6 +128,9 @@ export function applyItemRetentionPolicy(
   // "전체" scope but arrive nearly as fast as primary ones, so without their own
   // cap they consume roughly half the editorial budget and cut how far back the
   // default feed, issue timelines and person timelines reach.
+  // Each cap is sized so the retention window, not the cap, is what ends up
+  // binding at the intake measured on 2026-09-21 (primary 43/day, secondary
+  // 35/day, youtube 11/day). Raise them together with the window.
   const editorialItems = retained.filter((item) => item.sourceType !== "youtube");
   const primaryItems = sortItemsLatestFirst(
     editorialItems.filter(isPrimaryEditorialItem)

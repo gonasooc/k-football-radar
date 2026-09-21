@@ -4,7 +4,7 @@
 
 Korea Football Radar는 한국 축구 거버넌스 관련 뉴스·공식자료와 유튜브 영상의 메타데이터를 GitHub Actions로 수집해 `data/`에 커밋하고, 검증한 snapshot을 Cloudflare R2로 발행해 맥미니 홈서버의 Next.js 앱이 읽는 공개 서비스다. 수집·발행 자동화와 홈서버 배포까지 끝나 운영 중이며, 2026-08-06 이후 코드 변경 없이 수집 데이터 커밋만 쌓이고 있다.
 
-2026-09-21 기준 당분간 기능을 늘리지 않고 유지보수만 한다. 지금 열려 있는 판단은 보존 상한을 올릴지 하나다.
+2026-09-21 기준 당분간 기능을 늘리지 않고 유지보수만 한다. 같은 날 보존 상한을 6,000 / 3,400 / 1,200으로 올려 세 버킷 모두 90일을 커버하도록 맞췄다.
 
 ## 기본 문서
 
@@ -34,7 +34,7 @@ UI를 추가·수정·검토하기 전에 관련 부분을 확인합니다. 이 
 ## 진행 중·예정·보류 작업
 
 - [docs/work/W-001-main-docs-structure.md](work/W-001-main-docs-structure.md) — docs-starter 문서 구조 적용 — 진행 중
-- [docs/work/W-002-main-item-retention-review.md](work/W-002-main-item-retention-review.md) — 보존 상한 인상 검토 — 진행 중 (측정 완료, 결정 대기)
+- [docs/work/W-002-main-item-retention-review.md](work/W-002-main-item-retention-review.md) — 보존 상한 인상 — 진행 중 (C안 적용 완료, 과거 항목 복구 판단만 남음)
 
 상태는 `예정`, `진행 중`, `보류`, `완료`를 사용합니다. 새 작업은 [docs/work/_template.md](work/_template.md)를 복사해 `W-번호-생성당시브랜치-주제.md`로 저장하고 이 목록에 연결합니다. 상세 내용은 작업 문서에서 관리합니다.
 

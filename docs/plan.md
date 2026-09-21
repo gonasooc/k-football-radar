@@ -40,14 +40,16 @@ Korea Football Radar는 대한축구협회(KFA), 문화체육관광부, 대한�
 - 데이터 품질: 데이터가 이상하면 수집량을 늘리기보다 필터와 검증을 먼저 고친다. `/sources`의 원문 목록은 묶지 않고 모든 항목을 유지한다.
 - 유튜브 채널 정책: `preferred`는 uploads playlist를 별도 수집하고 `선별 채널` 범위에 노출하며, 목록에 없는 채널은 `unlisted`로 최대 secondary, `blocked`는 수집과 기존 데이터에서 제외한다. 채널 상태는 자동으로 바뀌지 않고 사람이 `data/youtube-channels.json`을 고쳐야 바뀐다.
 - Shorts와 라이브: 최소 재생 시간 기준을 두지 않는다. 명시적 표식이나 `/shorts/{videoId}` 확인으로 확정된 Shorts만 제외하고, 불명확하면 보존하는 fail-open 정책이다. 라이브·예약 방송·라이브 다시보기는 일반 영상과 같은 관련도 규칙으로 수집한다(2026-07-29 변경, `tests/youtube.test.ts`에서 확인).
-- 보존 정책: 발행 90일이 지난 항목을 버리고, 주요 뉴스·공식자료 4,000건, 보조 뉴스 700건, 유튜브 500건의 독립 예산으로 최신순 보존한다. 한 종류가 다른 종류를 밀어내지 않게 하려는 결정이다(`lib/item-retention.ts`). 2026-09-21 측정으로 실제 노출 기간은 주요 90일, 보조 20일, 유튜브 45일임을 확인했고 상한 인상 여부를 검토 중이다([docs/work/W-002-main-item-retention-review.md](work/W-002-main-item-retention-review.md)).
+- 보존 정책: 발행 90일이 지난 항목을 버리고, 주요 뉴스·공식자료 6,000건, 보조 뉴스 3,400건, 유튜브 1,200건의 독립 예산으로 최신순 보존한다. 한 종류가 다른 종류를 밀어내지 않게 하려는 결정이다(`lib/item-retention.ts`). 2026-09-21에 상한을 올려 세 버킷 모두 90일 창이 먼저 걸리도록 맞췄다. 이전 상한(4,000 / 700 / 500)에서는 보조가 20일, 유튜브가 45일에서 잘렸다([docs/work/W-002-main-item-retention-review.md](work/W-002-main-item-retention-review.md)).
 - 운영 경계: 수집 API 키는 GitHub Actions에서만 사용하고 홈서버 런타임에 두지 않는다. 수집 데이터 변경은 R2로 반영하고 앱 이미지는 코드가 바뀔 때만 다시 배포한다.
 
 ## 아직 결정할 사항
 
-- 보존 상한(4,000 / 700 / 500)을 올릴지 검토 중이다. 측정과 선택지는 [docs/work/W-002-main-item-retention-review.md](work/W-002-main-item-retention-review.md)에 있고 결정만 남았다.
+- 없음.
 
 ### 결정된 사항
+
+- 2026-09-21 — 보존 상한을 6,000 / 3,400 / 1,200으로 올려 세 버킷 모두 90일을 커버하게 했다. 측정과 선택 근거는 [docs/work/W-002-main-item-retention-review.md](work/W-002-main-item-retention-review.md)에 있다.
 
 - 2026-09-21 — 당분간 유지보수만 한다. [docs/mvp-plan.md](mvp-plan.md) 17절의 향후 확장 후보(Telegram 알림, 태그 보정, DB 도입, 검수 큐, 검수 후 AI 요약, 뉴스 소스 추가, 검색 고도화 등)는 진행 예정이 없다. 보류이며 폐기는 아니다.
 - 2026-09-21 — 공개 서비스의 목표 이용 규모와 성장 지표는 지금 정하지 않는다. 백로그로 둔다.
