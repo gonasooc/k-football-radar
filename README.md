@@ -131,8 +131,8 @@ fail-open 정책입니다. 현재 방송 중인 라이브, 예약 방송, 종료
 pnpm run check:readiness -- --strict
 ```
 
-외부 확인 작업과 정기 점검 절차는
-[docs/remaining-work.md](docs/remaining-work.md)에 정리합니다.
+정기 점검 절차와 확인 항목은 [docs/specs.md](docs/specs.md)의 ‘운영 점검과 수동 절차’에
+있습니다. 열려 있는 작업은 [docs/README.md](docs/README.md)의 작업 목록에서 관리합니다.
 
 ## 문서
 
@@ -147,7 +147,6 @@ pnpm run check:readiness -- --strict
 - [전체 작동 구조](docs/system-overview.md): 수집부터 화면 배포까지 이어지는 흐름
 - [R2 데이터 배포](docs/r2-data-deployment.md): 수집 결과를 앱 재배포 없이 반영하는 경로
 - [홈서버 배포](docs/home-server-deployment.md): 릴리스 빌드·선택·배포와 도메인 설정
-- [잔여 작업과 운영 점검](docs/remaining-work.md): 남은 외부 작업과 정기 점검 항목
 
 에이전트가 문서를 읽고 갱신하는 규칙은 [AGENTS.md](AGENTS.md)에 있습니다. 작업 기록은 `docs/work/`에 남깁니다.
 

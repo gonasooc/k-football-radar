@@ -5,7 +5,7 @@
 ## 이 프로젝트에서
 
 - 이 저장소는 한국 축구 거버넌스 관련 뉴스·공식자료·유튜브 메타데이터를 모아 공개하는 서비스다. 실명과 조직 이슈를 다루므로 [docs/plan.md](docs/plan.md)의 안전 원칙을 모든 작업에서 지킨다.
-- 이 문서 구조를 적용하기 전에 쓰던 문서를 그대로 보존한다. 상세 기획은 [docs/mvp-plan.md](docs/mvp-plan.md), 수집부터 배포까지의 전체 흐름은 [docs/system-overview.md](docs/system-overview.md), 운영은 [docs/r2-data-deployment.md](docs/r2-data-deployment.md), [docs/home-server-deployment.md](docs/home-server-deployment.md), [docs/remaining-work.md](docs/remaining-work.md)에 있다. 새 기본 문서는 이 문서들을 요약하고 연결하므로, 같은 내용을 양쪽에서 따로 관리하지 않고 담당 문서를 정해 한쪽만 갱신한다.
+- 이 문서 구조를 적용하기 전에 쓰던 문서를 그대로 보존한다. 상세 기획은 [docs/mvp-plan.md](docs/mvp-plan.md), 수집부터 배포까지의 전체 흐름은 [docs/system-overview.md](docs/system-overview.md), 운영은 [docs/r2-data-deployment.md](docs/r2-data-deployment.md)와 [docs/home-server-deployment.md](docs/home-server-deployment.md)에 있다. 새 기본 문서는 이 문서들을 요약하고 연결하므로, 같은 내용을 양쪽에서 따로 관리하지 않고 담당 문서를 정해 한쪽만 갱신한다.
 - UI 작업에는 저장소 루트의 [DESIGN.md](DESIGN.md), [PRODUCT.md](PRODUCT.md), [.impeccable.md](.impeccable.md)를 기존 디자인 지침으로 사용한다. [docs/design.md](docs/design.md)는 이 파일들과 실제 코드의 관계, 확인한 구현, 불일치를 정리한 진입점이다.
 - `data/items/`, `data/story-clusters.json`, `data/collection-state.json`, `data/youtube-format-cache.json`은 수집 스크립트와 GitHub Actions가 갱신한다. 사람이 직접 고치지 않는다.
 - `data/issues.json`, `data/people.json`, `data/sources.json`, `data/youtube-queries.json`, `data/youtube-channels.json`은 사람이 관리하는 정책 파일이다. 바꾼 뒤에는 `pnpm run validate:data`로 확인한다.

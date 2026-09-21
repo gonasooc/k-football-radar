@@ -28,7 +28,6 @@ UI를 추가·수정·검토하기 전에 관련 부분을 확인합니다. 이 
 - [docs/system-overview.md](system-overview.md): 수집·분류·묶음·저장·배포로 이어지는 전체 작동 구조
 - [docs/r2-data-deployment.md](r2-data-deployment.md): R2 snapshot 발행과 런타임 조회, 실패·복구 절차
 - [docs/home-server-deployment.md](home-server-deployment.md): 맥미니 릴리스 빌드·선택·배포와 도메인 설정
-- [docs/remaining-work.md](remaining-work.md): 저장소 밖에서 확인해야 하는 외부 작업과 정기 점검
 - [README.md](../README.md): 저장소 소개, 명령 목록, 수집·운영 요약
 
 ## 진행 중·예정·보류 작업

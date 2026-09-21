@@ -32,6 +32,19 @@ Docker network와 이미 실행 중인 공유 Cloudflare Tunnel을 사용한다.
 `docker compose up --build`로 운영 배포하지 않는다. 이전 검증 릴리스의 SHA를 다시
 선택하고 서비스를 재생성하면 코드 롤백이 가능하다.
 
+## 배포 후 확인
+
+앱 이미지를 새로 배포했을 때만 필요하다. 수집 데이터 변경은 R2로 반영되므로 이 절차가 필요하지 않다.
+
+확인할 화면: `/`, `/news`, `/youtube`, `/tracking`, `/issues/[id]`, `/people/[id]`, `/sources`
+
+확인할 것:
+
+- 최신 수집 시각과 통계가 보이는지
+- 피드 필터, 검색, 더보기가 동작하는지
+- 원문 링크가 새 탭으로 열리는지
+- 모바일 화면에서 텍스트와 필터 UI가 겹치지 않는지
+
 ## 도메인과 ingress
 
 1. Porkbun에서 최종 도메인을 구매한다. 구매 후 registrar lock과 자동 갱신을 켠다.
