@@ -204,8 +204,8 @@
       ],
       "earliestPublishedAt": 1785535080000,
       "latestPublishedAt": 1785535080000,
-      "representativeCollectedAt": 1786134136590,
-      "latestCollectedAt": 1786134136590
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -496,7 +496,7 @@
     "id": "item_ffc093941d3fa144",
     "type": "news",
     "title": "'양민혁·배준호·김지수' 군대 갈 판인데...이민성 감독, '음주 뺑소니...",
-    "summary": "국회 문화체육관광위원회는 30일 대한 축구협회 현안 관련 청문회를 열었다. 최근 사임한 정몽규 전 회장과 홍명보 전 감독, 이용수 회장 직무대행, 김승희 전무 이사, 김병지 부회장 등 증인 15명 중 13명이 참석했다....",
+    "summary": "국회 문화체육관광위원회는 30일 대한 축구협회 현안 관련 청문회를 열었다. 최근 사임한 정몽규 전 회장과 홍명보 전 감독, 이용수 회장 직무대행, 김승희 전무이사, 김병지 부회장 등 증인 15명 중 13명이 참석했다....",
     "url": "http://www.osen.co.kr/article/G1112849987",
     "originalUrl": "http://www.osen.co.kr/article/G1112849987",
     "publisher": "osen.co.kr",
@@ -511,6 +511,7 @@
       "김병지",
       "김병지 부회장",
       "김승희 전무",
+      "김승희 전무이사",
       "청문회"
     ],
     "discoveryQueries": [
@@ -563,8 +564,8 @@
       ],
       "earliestPublishedAt": 1785530460000,
       "latestPublishedAt": 1785530460000,
-      "representativeCollectedAt": 1786134136590,
-      "latestCollectedAt": 1786134136590
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -791,8 +792,8 @@
       ],
       "earliestPublishedAt": 1785510060000,
       "latestPublishedAt": 1785510060000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -870,8 +871,8 @@
       ],
       "earliestPublishedAt": 1785510060000,
       "latestPublishedAt": 1785510060000,
-      "representativeCollectedAt": 1786134136590,
-      "latestCollectedAt": 1786134136590
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -1248,7 +1249,7 @@
     "id": "item_03aea674b176f4aa",
     "type": "news",
     "title": "회피·침묵 작전에 '유효슈팅' 불발…진실은 문체부 감사로",
-    "summary": "예고된 문체부의 특별 감사 에서는 축구팬들의 의문이 풀릴지 주목됩니다. 온누리 기자가 보도합니다. [기자]... [ 이용수 /축구협회 회장 직무대행(부회장) : {항소 절차 중단하시죠? 이사회 다시 의결하면 되지 않습니까?} 제가...",
+    "summary": "요 얘기를 하는 거예요.] 축구협회는 해명 도, 설명도 부족했고 답은 피해가곤 했습니다. [ 이용수 /축구협회 회장 직무대행(부회장) : {항소 절차 중단하시죠? 이사회 다시 의결하면 되지 않습니까?} 제가 하겠다는 답변을...",
     "url": "https://news.jtbc.co.kr/article/NB12311193?influxDiv=NAVER",
     "originalUrl": "https://news.jtbc.co.kr/article/NB12311193?influxDiv=NAVER",
     "publisher": "news.jtbc.co.kr",
@@ -1256,7 +1257,8 @@
     "collectedAt": "2026-07-31T13:19:27.348Z",
     "matchedKeywords": [
       "문체부 감사",
-      "감사"
+      "감사",
+      "해명"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -1278,9 +1280,10 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
+      "해명 키워드 포함",
       "감사 키워드 포함"
     ],
     "dedupeState": {
@@ -1296,8 +1299,8 @@
       ],
       "earliestPublishedAt": 1785498780000,
       "latestPublishedAt": 1785498780000,
-      "representativeCollectedAt": 1786111139929,
-      "latestCollectedAt": 1786111139929
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -1344,8 +1347,8 @@
       ],
       "earliestPublishedAt": 1785498480000,
       "latestPublishedAt": 1785498480000,
-      "representativeCollectedAt": 1786111139929,
-      "latestCollectedAt": 1786111139929
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -1570,15 +1573,18 @@
     "id": "item_b8c90655a51d4a84",
     "type": "news",
     "title": "무책임한 답변에 안하무인 태도까지…답 없는 축구협회",
-    "summary": "▶ 인터뷰 : 이용수 / 대한 축구협회 장 직무대행 - \"받아들이지 못 하는 결정들이 있어서 그런 부분을 말씀드리는 겁니다.\" 반성은 고사하고, 정몽규 전 회장을 위한 불법 선거 운동 의혹을 받는 인사는 오만불손한 언행으로...",
+    "summary": "\" 사퇴한 정몽규 전 회장 대신 임시로 협회를 이끄는 이용수 회장 직무대행은 특정감사 결과에 불복해 낸... 아침부터.\" 속시원한 해명 과 혁신 의지를 듣기는 커녕, 답답함과 분노만 더 키운 청문회. 축구협회의 자체적인...",
     "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5209579",
     "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5209579",
     "publisher": "mbn.co.kr",
     "publishedAt": "2026-07-31T10:45:00.000Z",
     "collectedAt": "2026-08-05T01:06:50.670Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "정몽규"
+      "정몽규",
+      "해명",
+      "사퇴",
+      "감사",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -1598,10 +1604,12 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 9,
+    "relevanceScore": 7,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -1616,8 +1624,8 @@
       ],
       "earliestPublishedAt": 1785494700000,
       "latestPublishedAt": 1785494700000,
-      "representativeCollectedAt": 1786105668311,
-      "latestCollectedAt": 1786105668311
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -1718,7 +1726,7 @@
     "id": "item_7aee0ade988e9395",
     "type": "news",
     "title": "‘거짓 공약’ 정몽규 ‘안하무인’ 문진희…‘카르텔 벽’ 절감한 청문...",
-    "summary": "대한 축구협회 는 국회 청문회를 통해 왜 개혁이 필요한 집단인지를 스스로 증명했는데요. 정몽규 회장의... 물었으면.\"] 시민구단 강원의 대표이기도 한 김병지 부회장이 휴양지인 멕시코 칸쿤을 경유한 이른바 혈세 출장을...",
+    "summary": "정몽규 전 회장은 금권 선거 라는 지적에도 선거 직전 50억 원 기부 공약을 몰아붙여 4선에 성공했지만, 그... 물었으면.\"] 시민구단 강원의 대표이기도 한 김병지 부회장이 휴양지인 멕시코 칸쿤을 경유한 이른바 혈세...",
     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8625599&ref=A",
     "originalUrl": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8625599&ref=A",
     "publisher": "news.kbs.co.kr",
@@ -1726,11 +1734,9 @@
     "collectedAt": "2026-07-31T11:11:43.775Z",
     "matchedKeywords": [
       "정몽규",
-      "대한 축구협회",
       "부회장",
       "김병지",
-      "김병지 부회장",
-      "청문회"
+      "김병지 부회장"
     ],
     "discoveryQueries": [
       "\"김병지\" 대한축구협회",
@@ -1754,7 +1760,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 18,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1774,8 +1780,8 @@
       ],
       "earliestPublishedAt": 1785493140000,
       "latestPublishedAt": 1785502140000,
-      "representativeCollectedAt": 1786102284583,
-      "latestCollectedAt": 1786102284583
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -2261,8 +2267,8 @@
       ],
       "earliestPublishedAt": 1785490320000,
       "latestPublishedAt": 1785490320000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -2757,8 +2763,8 @@
       ],
       "earliestPublishedAt": 1785486540000,
       "latestPublishedAt": 1785486540000,
-      "representativeCollectedAt": 1786098797701,
-      "latestCollectedAt": 1786098797701
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -2867,14 +2873,18 @@
     "id": "item_5fd53dd4b5ea87d6",
     "type": "news",
     "title": "'빵집 면접'에 특혜 없었다는데…예고된 실패 [이브닝 브리핑]",
-    "summary": "홍 전 감독은 2017년 축구협회 의 전무 이사로 활동한 바 있는 만큼 감독 선임 절차에 대해 누구보다 잘 알고 있습니다. 그런데 한밤 중 '빵집 면접'을 하면서 \" 축구협회 가 모든 절차를 진행한 것으로 생각했다\"고 말하는 것은...",
+    "summary": "정해성 전 국가대표전력강화위원장이 사퇴하자 이임생 전 기술총괄이사가 감독 추천과 협상 권한을... 전혀 해명 하지 못했습니다. 홍 전 감독은 2017년 축구협회의 전무이사로 활동한 바 있는 만큼 감독 선임 절차에 대해...",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008684839&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008684839&plink=ORI",
     "publisher": "news.sbs.co.kr",
     "publishedAt": "2026-07-31T08:16:00.000Z",
     "collectedAt": "2026-07-31T08:20:34.432Z",
     "matchedKeywords": [
-      "축구협회"
+      "축구협회",
+      "전무",
+      "이임생",
+      "해명",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -2897,13 +2907,20 @@
       "축구협회 정관",
       "축구협회 해명"
     ],
-    "issueTags": [],
-    "personTags": [],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_lee_im_saeng"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 3,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급",
+      "해명 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -2917,8 +2934,8 @@
       ],
       "earliestPublishedAt": 1785485760000,
       "latestPublishedAt": 1785485760000,
-      "representativeCollectedAt": 1786098797701,
-      "latestCollectedAt": 1786098797701
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -3436,8 +3453,8 @@
       ],
       "earliestPublishedAt": 1785483360000,
       "latestPublishedAt": 1785483360000,
-      "representativeCollectedAt": 1786095666623,
-      "latestCollectedAt": 1786095666623
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -5695,8 +5712,8 @@
       ],
       "earliestPublishedAt": 1785476340000,
       "latestPublishedAt": 1785476340000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -5769,8 +5786,8 @@
       ],
       "earliestPublishedAt": 1785476040000,
       "latestPublishedAt": 1785476040000,
-      "representativeCollectedAt": 1786085572563,
-      "latestCollectedAt": 1786085572563
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -6030,8 +6047,8 @@
       ],
       "earliestPublishedAt": 1785475320000,
       "latestPublishedAt": 1785475320000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -6316,8 +6333,8 @@
       ],
       "earliestPublishedAt": 1785474000000,
       "latestPublishedAt": 1785474000000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -6858,8 +6875,8 @@
       ],
       "earliestPublishedAt": 1785470760000,
       "latestPublishedAt": 1785470760000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -6951,8 +6968,8 @@
       ],
       "earliestPublishedAt": 1785470520000,
       "latestPublishedAt": 1785470520000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -9006,8 +9023,8 @@
       ],
       "earliestPublishedAt": 1785463200000,
       "latestPublishedAt": 1785463200000,
-      "representativeCollectedAt": 1786080187177,
-      "latestCollectedAt": 1786080187177
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -9116,7 +9133,7 @@
     "id": "item_f6b741cc12155493",
     "type": "news",
     "title": "'\"집에서 놀고 있었다\" vs 녹취 공개' 심판위원장, 결정적 증거들 앞엔 ...",
-    "summary": "대한 축구협회 선거관리규정에는 후보 자와 등록 된 선거사무원만 선거운동을 할 수 있도록 규정돼 있다. 청문회에서는 문 위원장의 답변 태도를 둘러싼 지적도 나왔다. 조국혁신당 김재원 의원은 질의 도중 \"자세 똑바로...",
+    "summary": "당시 심판 평가관이 투표권 을 가진 심판들과 만나 정몽규 당시 후보 지지를 요청한 정황이 담긴 녹취가 공개됐고, 문 위원장이 같은 자리에 있었다는 내용도 함께 보도됐다. 대한 축구협회 선거관리규정에는 후보자와...",
     "url": "http://www.osen.co.kr/article/G1112849713",
     "originalUrl": "http://www.osen.co.kr/article/G1112849713",
     "publisher": "osen.co.kr",
@@ -9124,7 +9141,8 @@
     "collectedAt": "2026-07-31T05:06:41.421Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "청문회"
+      "투표권",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -9143,13 +9161,19 @@
       "축구협회 후보 등록",
       "축구협회장"
     ],
-    "issueTags": [],
-    "personTags": [],
+    "issueTags": [
+      "electoral-college"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -9163,8 +9187,8 @@
       ],
       "earliestPublishedAt": 1785463140000,
       "latestPublishedAt": 1785463140000,
-      "representativeCollectedAt": 1786080187177,
-      "latestCollectedAt": 1786080187177
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -9523,8 +9547,8 @@
       ],
       "earliestPublishedAt": 1785462480000,
       "latestPublishedAt": 1785462480000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -9775,8 +9799,8 @@
       ],
       "earliestPublishedAt": 1785461760000,
       "latestPublishedAt": 1785461760000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -9882,8 +9906,8 @@
       ],
       "earliestPublishedAt": 1785461220000,
       "latestPublishedAt": 1785461220000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -10242,7 +10266,7 @@
     "id": "item_8052d34d3258de5d",
     "type": "news",
     "title": "\"남아공전 왜 졌냐\" 어이없는 질문만 남아…이런 청문회 왜 했나?",
-    "summary": "대한 축구협회 운영 실태 전반과 국가대표팀 감독 선임 절차를 점검하기 위해 열린 '대한 축구협회 청문회'가... \" \" 이사회 가 결정했다\"는 등의 책임 회피성 답을 내놨다. 김정배 전 부회장 역시 \"시스템에 따라 행정 절차를...",
+    "summary": "선거 원이 아님에도 비공개 선거 인단을 만나 정 회장 지지 활동을 했다는 의혹을 받았던 문진희 심판위원장은... 이번 청문회에 증인으로 출석 요구서를 받은 이임생 전 전력강화위원장은 홍명보 감독 선임을 직접 진행한...",
     "url": "https://www.news1.kr/politics/assembly/6245098",
     "originalUrl": "https://www.news1.kr/politics/assembly/6245098",
     "publisher": "news1.kr",
@@ -10250,13 +10274,12 @@
     "collectedAt": "2026-07-31T01:13:54.583Z",
     "matchedKeywords": [
       "청문회",
-      "대한 축구협회",
-      "이사회",
-      "부회장",
       "감독 선임",
-      "대표팀 감독",
       "감독",
-      "선임"
+      "전력강화위원",
+      "선임",
+      "홍명보",
+      "이임생"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -10299,15 +10322,19 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "kfa-executives",
       "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -10321,8 +10348,8 @@
       ],
       "earliestPublishedAt": 1785460020000,
       "latestPublishedAt": 1785460020000,
-      "representativeCollectedAt": 1785966938542,
-      "latestCollectedAt": 1785966938542
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -10395,8 +10422,8 @@
       ],
       "earliestPublishedAt": 1785459900000,
       "latestPublishedAt": 1785459900000,
-      "representativeCollectedAt": 1786073924706,
-      "latestCollectedAt": 1786073924706
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -10457,7 +10484,7 @@
     "id": "item_8463703a0a45cd2a",
     "type": "news",
     "title": "\"밖에서 얘기만 해도 좋지만...\" 홍명보 前 감독 소신발언, 김영광·이천...",
-    "summary": "국회 문화체육관광위원회는 30일 대한 축구협회 현안 관련 청문회를 열었다. 최근 사임한 정몽규 전 회장과 홍명보 전 감독, 이용수 회장 직무대행, 김승희 전무 이사, 김병지 부회장 등 증인 15명 중 13명이 참석했다. 월드컵...",
+    "summary": "국회 문화체육관광위원회는 30일 대한 축구협회 현안 관련 청문회를 열었다. 최근 사임한 정몽규 전 회장과 홍명보 전 감독, 이용수 회장 직무대행, 김승희 전무이사, 김병지 부회장 등 증인 15명 중 13명이 참석했다. 월드컵...",
     "url": "http://www.osen.co.kr/article/G1112849695",
     "originalUrl": "http://www.osen.co.kr/article/G1112849695",
     "publisher": "osen.co.kr",
@@ -10472,6 +10499,7 @@
       "김병지",
       "김병지 부회장",
       "김승희 전무",
+      "김승희 전무이사",
       "청문회"
     ],
     "discoveryQueries": [
@@ -10523,8 +10551,8 @@
       ],
       "earliestPublishedAt": 1785459480000,
       "latestPublishedAt": 1785459480000,
-      "representativeCollectedAt": 1786073924706,
-      "latestCollectedAt": 1786073924706
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -10855,8 +10883,8 @@
       ],
       "earliestPublishedAt": 1785458160000,
       "latestPublishedAt": 1785458160000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {

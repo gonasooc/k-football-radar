@@ -84,8 +84,8 @@
       ],
       "earliestPublishedAt": 1785714960000,
       "latestPublishedAt": 1785714960000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -2146,7 +2146,7 @@
     "id": "item_cb916bb04e22967a",
     "type": "news",
     "title": "청문회·월드컵 보이콧…바람 잘 날 없는 국내·외 축구계",
-    "summary": "이날 청문회는 \"축구 거버넌스 전반에 대한 지혜를 모색하고 자리가 될 것\"이라는 이재정 문체위원장의 기대와는 달리 정몽규 전 회장을 비롯한 축구협회 임원 들의 책임 회피를 구경하는 자리가 되고 말았다. ◆ FIFA 회장...",
+    "summary": "위원들은 증인으로 출석한 정몽규 전 대한축구협회장에게 선거 당시 약속한 사재출연 약속 미이행과 감독... 현재 회장 대행인 이용수 부회장은 \"소송 취하는 이사회를 통해 의견을 묻겠다\"고 답변했지만 오히려 \"정 전...",
     "url": "https://www.imaeil.com/page/view/2026080213440944498",
     "originalUrl": "https://www.imaeil.com/page/view/2026080213440944498",
     "publisher": "imaeil.com",
@@ -2154,8 +2154,11 @@
     "collectedAt": "2026-08-03T05:22:18.881Z",
     "matchedKeywords": [
       "청문회",
-      "축구협회",
-      "임원",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "이사회",
+      "부회장",
       "정몽규"
     ],
     "discoveryQueries": [
@@ -2179,6 +2182,7 @@
       "축구협회장"
     ],
     "issueTags": [
+      "election",
       "kfa-executives"
     ],
     "personTags": [
@@ -2186,11 +2190,27 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 22,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.imaeil.com/page/view/2026080213440944498"
+      ],
+      "stories": [
+        "news|news|청문회·월드컵 보이콧…바람 잘 날 없는 국내·외 축구계|imaeil.com|2026-08-02T04:45:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|청문회·월드컵 보이콧…바람 잘 날 없는 국내·외 축구계|imaeil.com"
+      ],
+      "earliestPublishedAt": 1785645900000,
+      "latestPublishedAt": 1785645900000,
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
+    }
   },
   {
     "id": "item_169d28b49acb0d7f",

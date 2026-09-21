@@ -1519,8 +1519,8 @@
       ],
       "earliestPublishedAt": 1785758520000,
       "latestPublishedAt": 1785758520000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -2781,8 +2781,8 @@
       ],
       "earliestPublishedAt": 1785744000000,
       "latestPublishedAt": 1785744000000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -4276,7 +4276,7 @@
     "id": "item_dfd76ee2b1067589",
     "type": "news",
     "title": "[공식 발표] 문진희 심판위원장, '청문회 실언+태도 논란' 나흘 만에 물...",
-    "summary": "청문회 이후 정치권에서는 해당 의혹에 대한 협회 차원의 조사와 문화체육관광부 감사 가 필요하다는 요구가 제기됐다. 이용수 대한축구협회장 직무대행은 자체 조사를 약속했고, 최휘영 문화체육관광부 장관도 관련...",
+    "summary": "당시 정몽규 회장의 제55대 대한 축구협회 장 선거 과정에서 정 회장 표를 모으기 위해 선거운동에 관여한 것 아니냐는 의혹과 함께 심판 배정·평가를 둘러싼 문제에 대한 질의를 받았다. 청문회에서는 문 위원장이 투표권 을...",
     "url": "https://www.besteleven.com/news/articleView.html?idxno=310736",
     "originalUrl": "https://www.besteleven.com/news/articleView.html?idxno=310736",
     "publisher": "besteleven.com",
@@ -4284,11 +4284,9 @@
     "collectedAt": "2026-08-03T08:51:19.568Z",
     "matchedKeywords": [
       "청문회",
-      "대한축구협회",
-      "축구협회장",
-      "대한축구협회장",
-      "문화체육관광부 감사",
-      "감사"
+      "대한 축구협회",
+      "투표권",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -4312,16 +4310,17 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election",
-      "mcst-audit"
+      "electoral-college"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
     "labels": [
-      "감사 키워드 포함"
+      "인물 언급"
     ],
     "dedupeState": {
       "version": 1,
@@ -4336,8 +4335,8 @@
       ],
       "earliestPublishedAt": 1785738600000,
       "latestPublishedAt": 1785738600000,
-      "representativeCollectedAt": 1786204960355,
-      "latestCollectedAt": 1786204960355
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -5331,7 +5330,7 @@
     "id": "item_9fed7d9b6cbdafdc",
     "type": "news",
     "title": "\"거기는 끼지 마시고\" 청문회 막말…문진희 심판위원장 사퇴 의사",
-    "summary": "문 심판위원장이 사퇴하면 대한 축구협회 는 후임 심판위원장 선임 절차에 착수해야 한다. 다만 현재 협회 는 이용수 부회장이 회장 직무대행을 맡고 있어 관련 규정에 대한 검토가 필요한 상황이다. 대한 축구협회 관계자는...",
+    "summary": "대한축구협회장 선거 당시 공식 선거 운동원 자격이 없었음에도 정몽규 전 회장의 선거 운동을 도왔다는... 다만 현재 협회는 이용수 부회장이 회장 직무대행을 맡고 있어 관련 규정에 대한 검토가 필요한 상황이다....",
     "url": "https://www.mt.co.kr/society/2026/08/03/2026080313411419092",
     "originalUrl": "https://www.mt.co.kr/society/2026/08/03/2026080313411419092",
     "publisher": "mt.co.kr",
@@ -5340,8 +5339,12 @@
     "matchedKeywords": [
       "사퇴",
       "청문회",
-      "대한 축구협회",
-      "부회장"
+      "대한축구협회",
+      "축구협회장",
+      "회장 선거",
+      "대한축구협회장",
+      "부회장",
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -5358,14 +5361,19 @@
       "축구협회장"
     ],
     "issueTags": [
+      "election",
       "kfa-executives"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 22,
+    "relevanceScore": 27,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -5379,8 +5387,8 @@
       ],
       "earliestPublishedAt": 1785734460000,
       "latestPublishedAt": 1785734460000,
-      "representativeCollectedAt": 1786177296523,
-      "latestCollectedAt": 1786177296523
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -6827,8 +6835,8 @@
       ],
       "earliestPublishedAt": 1785726780000,
       "latestPublishedAt": 1785726780000,
-      "representativeCollectedAt": 1786161466877,
-      "latestCollectedAt": 1786161466877
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
@@ -7261,8 +7269,8 @@
       ],
       "earliestPublishedAt": 1785722460000,
       "latestPublishedAt": 1785722460000,
-      "representativeCollectedAt": 1789968613423,
-      "latestCollectedAt": 1789968613423
+      "representativeCollectedAt": 1789974408725,
+      "latestCollectedAt": 1789974408725
     }
   },
   {
