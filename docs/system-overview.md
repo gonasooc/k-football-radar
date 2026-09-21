@@ -444,12 +444,16 @@ pnpm run build
 `collect.yml`과 `collect-youtube.yml`은 예약 실행과 수동 실행을 지원한다.
 
 ```text
-매시 47분에 실행
+매시 47분으로 예약(실제 실행은 더 드물다)
 또는 workflow_dispatch로 수동 실행
 
 유튜브: 매일 00:17, 12:17 UTC(09:17, 21:17 KST)
 또는 날짜 경계를 지정한 workflow_dispatch 실행
 ```
+
+예약 실행은 설정한 주기대로 오지 않는다. GitHub가 예약 워크플로를 지연하거나 병합하기
+때문이며, 2026-09-20~21 관측에서 뉴스 수집의 실제 시작 간격은 2.6~5.6시간이었다. 수집
+직후를 확인해야 하면 `gh workflow run collect.yml`로 수동 실행한다.
 
 수집 워크플로는 다음 순서로 돈다.
 
