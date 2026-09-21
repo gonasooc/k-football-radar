@@ -32,14 +32,15 @@ UI를 추가·수정·검토하기 전에 관련 부분을 확인합니다. 이 
 
 ## 진행 중·예정·보류 작업
 
-- [docs/work/W-001-main-docs-structure.md](work/W-001-main-docs-structure.md) — docs-starter 문서 구조 적용 — 진행 중
-- [docs/work/W-002-main-item-retention-review.md](work/W-002-main-item-retention-review.md) — 보존 상한 인상 — 진행 중 (C안 적용 완료, 과거 항목 복구 판단만 남음)
+- [docs/work/W-002-main-item-retention-review.md](work/W-002-main-item-retention-review.md) — 보존 상한 인상 — 진행 중 (C안 적용과 과거 보조 뉴스 복구 완료, 유튜브 과거 구간 재수집 결정과 push 후 보존량 확인 남음)
 
 상태는 `예정`, `진행 중`, `보류`, `완료`를 사용합니다. 새 작업은 [docs/work/_template.md](work/_template.md)를 복사해 `W-번호-생성당시브랜치-주제.md`로 저장하고 이 목록에 연결합니다. 상세 내용은 작업 문서에서 관리합니다.
 
 ## 최근 완료
 
-완료한 작업이 없습니다. 완료 후에도 원래 작업 문서를 보존하고 링크를 이곳으로 옮깁니다.
+- [docs/work/W-001-main-docs-structure.md](work/W-001-main-docs-structure.md) — docs-starter 문서 구조 적용 — 2026-09-21 완료
+
+완료 후에도 원래 작업 문서를 보존하고 링크를 이곳으로 옮깁니다.
 
 ## 기록을 찾을 때
 
