@@ -10,3 +10,6 @@ deploy/macos/production.env
 *.log
 *.tsbuildinfo
 .DS_Store
+
+# 공유하지 않는 세션 원문과 개인 메모
+docs/.local/

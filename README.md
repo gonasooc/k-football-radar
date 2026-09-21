@@ -136,11 +136,20 @@ pnpm run check:readiness -- --strict
 
 ## 문서
 
+문서 홈은 [docs/README.md](docs/README.md)입니다. 현재 상황, 기본 문서, 작업 목록이 여기에서 시작합니다.
+
+- [프로젝트 문서 홈](docs/README.md): 현재 상황, 기본 문서, 진행 중인 작업 목록
+- [제품 기획](docs/plan.md): 목적, 사용자, 기능 범위, 제품 정책
+- [아키텍처](docs/architecture.md): 구성 요소, 폴더 책임, 구조 규칙
+- [기술 명세](docs/specs.md): 기술 구성, 구현 규칙, 실행·검증 방법
+- [UI 디자인 기준](docs/design.md): 관찰된 구현과 디자인 기준, 코드 근거
 - [MVP 기획서](docs/mvp-plan.md): 제품 범위, 제외 기능, 데이터 모델, 완료 기준
 - [전체 작동 구조](docs/system-overview.md): 수집부터 화면 배포까지 이어지는 흐름
 - [R2 데이터 배포](docs/r2-data-deployment.md): 수집 결과를 앱 재배포 없이 반영하는 경로
 - [홈서버 배포](docs/home-server-deployment.md): 릴리스 빌드·선택·배포와 도메인 설정
 - [잔여 작업과 운영 점검](docs/remaining-work.md): 남은 외부 작업과 정기 점검 항목
+
+에이전트가 문서를 읽고 갱신하는 규칙은 [AGENTS.md](AGENTS.md)에 있습니다. 작업 기록은 `docs/work/`에 남깁니다.
 
 ## 맥미니 홈서버 배포
 

@@ -4,6 +4,7 @@ description: Readable editorial desk for Korean football governance monitoring
 colors:
   ink: "oklch(20% 0.012 70)"
   ink-soft: "oklch(38% 0.012 70)"
+  summary: "oklch(48% 0.01 70)"
   muted: "oklch(50% 0.01 70)"
   canvas: "oklch(99% 0.003 80)"
   paper: "oklch(97% 0.004 80)"
@@ -17,6 +18,25 @@ colors:
   official: "oklch(47% 0.105 155)"
   news: "oklch(45% 0.09 240)"
   warning: "oklch(62% 0.12 78)"
+  shadow: "oklch(20% 0.012 70)"
+colorsDark:
+  ink: "oklch(92% 0.008 85)"
+  ink-soft: "oklch(75% 0.01 82)"
+  summary: "oklch(66% 0.01 82)"
+  muted: "oklch(63% 0.012 82)"
+  canvas: "oklch(18% 0.006 75)"
+  paper: "oklch(21% 0.006 75)"
+  panel: "oklch(19.5% 0.006 75)"
+  panel-strong: "oklch(25% 0.008 75)"
+  line: "oklch(30% 0.008 75)"
+  rule: "oklch(40% 0.01 78)"
+  accent: "oklch(64% 0.17 28)"
+  blush: "oklch(27% 0.04 28)"
+  accent-soft: "oklch(43% 0.1 28)"
+  official: "oklch(66% 0.11 158)"
+  news: "oklch(67% 0.1 240)"
+  warning: "oklch(73% 0.12 82)"
+  shadow: "oklch(0% 0 0)"
 typography:
   display:
     fontFamily: "Pretendard, sans-serif"
@@ -47,7 +67,7 @@ typography:
     fontSize: "0.6875rem"
     fontWeight: 900
     lineHeight: 1.2
-    letterSpacing: "0.18em"
+    letterSpacing: "0.14em"
 rounded:
   chip: "3px"
   control: "4px"
@@ -95,7 +115,7 @@ The system must prioritize readability. Titles, summaries, source names, dates, 
 
 **Key Characteristics:**
 
-- White canvas with subtle gray surfaces.
+- White canvas with subtle gray surfaces in the default light theme, and a full dark theme built from the same token names.
 - Centered masthead and horizontal section navigation.
 - Pretendard typography across headlines, metadata, and controls.
 - Compact featured briefs followed by quieter row entries on the same page.
@@ -125,9 +145,31 @@ The palette is quiet and editorial: warm white, gray rules, black-brown ink, and
 - **Panel Strong** (`oklch(95.5% 0.005 80)`): metadata cells and subtle row sections.
 - **Line** (`oklch(89% 0.006 80)`): default borders.
 - **Rule** (`oklch(83% 0.008 80)`): stronger table dividers.
+- **Summary** (`oklch(48% 0.01 70)`): article and video summary text, one step darker than Muted.
 - **Muted** (`oklch(50% 0.01 70)`): captions, helper text, metadata labels.
 
 **The Red Dot Rule.** Red is a small editorial marker, not a background theme. A screen should read as white and black before it reads as red.
+
+### Dark Theme
+
+Both palettes live in [app/globals.css](app/globals.css) as CSS custom properties holding a bare `L C H` triplet. Light is the default on `:root`; `:root[data-theme="dark"]` replaces every value under the same token names, and [tailwind.config.ts](tailwind.config.ts) exposes them as `oklch(var(--token) / <alpha-value>)`. Components never branch on theme: they use the token, and the theme decides the value. Use `dark:` variants only where a value cannot be a token, as with the header logo's `dark:invert dark:hue-rotate-180`.
+
+The dark theme is a dim warm gray desk, not pure black. It keeps the newspaper reading order by inverting lightness while holding hue and chroma close to the light values.
+
+- **Canvas** (`oklch(18% 0.006 75)`) and **Paper** (`oklch(21% 0.006 75)`): page and sidebar surfaces. Panels sit at `19.5%` and panel-strong at `25%`, so surfaces separate by small lightness steps instead of borders alone.
+- **Ink** (`oklch(92% 0.008 85)`), **Ink Soft** (`75%`), **Summary** (`66%`), **Muted** (`63%`): the text ramp stays in the same order as light, with each role at least one step apart.
+- **Line** (`30%`) and **Rule** (`40%`): rules must stay visible against the dim canvas, so both are lighter relative to their surface than the light theme's are.
+- **Editorial Red** (`oklch(64% 0.17 28)`): the accent brightens from `52%` so it keeps its role as an emphasis marker on a dark surface. **Blush** (`27%`) and **Accent Soft** (`43%`) invert with it.
+- **Official Green** (`66%`), **News Blue** (`67%`), **Warm Warning** (`73%`): source and status colors brighten together so the badge set stays readable and mutually distinct.
+- **Shadow** (`oklch(0% 0 0)`): shadows tint from pure black in dark, where the light theme tints from ink.
+
+**Rules for the dark theme.**
+
+- Add every new color as a token in both blocks. A color defined only in light silently breaks the dark screen.
+- Keep the Red Dot Rule. Dark surfaces make red read louder, so accent stays an emphasis marker and never becomes a surface.
+- The theme applies before first paint via the inline script in [app/layout.tsx](app/layout.tsx), which reads the stored choice and falls back to `prefers-color-scheme`. Keep that script, the `<meta name="theme-color">` values and [components/ThemeToggle.tsx](components/ThemeToggle.tsx) in sync when the canvas changes.
+- Theme switching cross-fades through `.theme-transition`, and `.motion-soft` transitions apply only under `prefers-reduced-motion: no-preference`. New motion follows the same guard.
+- WCAG AA contrast is the target in both themes. Check summary and muted text against Panel and Paper, not only against Canvas.
 
 ## 3. Typography
 
@@ -140,12 +182,15 @@ The palette is quiet and editorial: warm white, gray rules, black-brown ink, and
 
 ### Hierarchy
 
-- **Display** (Pretendard, 900, 3rem, 1.15): masthead and major page titles.
-- **Lead Headline** (Pretendard, 900, 2.25rem, 1.15): front page lead story.
-- **Headline** (Pretendard, 900, 1.5rem, 1.25): section headings and compact story titles.
-- **Title** (Pretendard, 900, 1.125rem, 1.35): article row names.
-- **Body** (500, 0.875rem, 1.75): summaries and descriptions.
-- **Label** (900, 0.6875rem, 0.18em uppercase): table headers and section kickers.
+As implemented, the scale is narrower than the token list above and steps up at `sm`:
+
+- **Page Title** (900, 1.5rem → 1.875rem at `sm`, -0.02em): page `h1` and home section headings ([components/SectionHeader.tsx](components/SectionHeader.tsx), [components/HomeFeedSection.tsx](components/HomeFeedSection.tsx)).
+- **Story Title** (900, 1.25rem → 1.375rem at `sm`, -0.018em): article and video headlines, clamped to two lines from `sm` up ([components/ItemCard.tsx](components/ItemCard.tsx), [components/YouTubeCard.tsx](components/YouTubeCard.tsx)).
+- **Body** (500, 0.875rem): summaries, descriptions and most controls.
+- **Meta** (0.75rem): metadata rows, chips and helper text.
+- **Label** (900, 0.6875rem, 0.14em): table headers and section kickers.
+
+The masthead is the logo image, not text, so the `display` (3rem) and lead-headline (2.25rem) sizes are not used by any screen today. Keep them out of new work unless a text masthead or lead story is actually introduced.
 
 **The Reading Column Rule.** Summary text should stay below 75 characters per line where possible. Tables may be wider, but prose should not sprawl.
 
@@ -176,7 +221,7 @@ Elevation is minimal. The interface relies on rules, spacing, and tonal contrast
 
 ### Article Blocks
 
-- **Featured:** three ruled briefs at desktop, a single readable column on smaller screens.
+- **Featured:** the home sections show three compact briefs in a ruled three-column grid at `lg`, followed by three quieter entries in the same grid. Below `lg` both rows stack into one readable column ([components/HomeFeedSection.tsx](components/HomeFeedSection.tsx)).
 - **Row:** source-first metadata, article body, limited tags, and a visible original link.
 - **Corner Style:** article blocks generally use no visible rounding. Controls use 4px and chips use 3px.
 - **Border:** thin horizontal and vertical rules. Never colored side stripes.
@@ -197,7 +242,7 @@ Elevation is minimal. The interface relies on rules, spacing, and tonal contrast
 
 ### Article Rows
 
-- **Structure:** lead, compact, and row variants.
+- **Structure:** `row` and `compact` variants. Feeds and timelines use `row`; the home grid uses `compact`, which also tightens the tag limit from six to four. There is no separate lead variant.
 - **Metadata:** source type, date, publisher, collected time.
 - **Body:** title first, summary second, tags third.
 - **Action:** every headline is the original link and carries a small external-link glyph; avoid a duplicate CTA in the same item.
@@ -207,7 +252,7 @@ Elevation is minimal. The interface relies on rules, spacing, and tonal contrast
 - **Structure:** preserve the article metadata, headline, summary, and tag rhythm, adding a 16:9 thumbnail before the text.
 - **Metadata:** show the YouTube source badge, channel, publication date, and duration without inventing a separate visual language.
 - **Shorts:** treat Shorts like any other video; duration is informative, not a filter.
-- **Live media:** live, upcoming, and completed-live records do not appear in the feed.
+- **Live media:** live, upcoming and completed-live videos are collected and shown like any other video. Status and duration are informative, not filters.
 
 ## 6. Do's and Don'ts
 
