@@ -118,8 +118,8 @@
       ],
       "earliestPublishedAt": 1789505460000,
       "latestPublishedAt": 1789505460000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
@@ -294,8 +294,8 @@
       ],
       "earliestPublishedAt": 1789478280000,
       "latestPublishedAt": 1789478280000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
@@ -352,8 +352,8 @@
       ],
       "earliestPublishedAt": 1789476600000,
       "latestPublishedAt": 1789476600000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
@@ -403,8 +403,8 @@
       ],
       "earliestPublishedAt": 1789476300000,
       "latestPublishedAt": 1789476300000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
@@ -447,9 +447,38 @@
       ],
       "earliestPublishedAt": 1789463640000,
       "latestPublishedAt": 1789463640000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
+  },
+  {
+    "id": "item_202a13077af198d4",
+    "type": "news",
+    "title": "1700명 분석해 고른 명단…모레노호 ‘첫 발탁’ 김건희·김민수·박태준...",
+    "summary": "이에 더해 대한 축구협회 장 공석, K- 축구 혁신위원회 의 개혁 작업까지 맞물려 있다. 다가올 모레노 감독 체제 4경기는 단순 평가전을 넘어 한국 축구 의 다음 방향을 정하는 첫 시험대가 될 전망이다.",
+    "url": "https://ilyo.co.kr/?ac=article_view&entry_id=512718",
+    "originalUrl": "https://ilyo.co.kr/?ac=article_view&entry_id=512718",
+    "publisher": "ilyo.co.kr",
+    "publishedAt": "2026-09-15T09:04:00.000Z",
+    "collectedAt": "2026-09-22T05:24:02.047Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "혁신위원회",
+      "축구 혁신"
+    ],
+    "discoveryQueries": [
+      "축구협회 혁신위원회",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_f1e41d271fa936c6",
@@ -556,8 +585,8 @@
       ],
       "earliestPublishedAt": 1789461000000,
       "latestPublishedAt": 1789461000000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
@@ -703,8 +732,8 @@
       ],
       "earliestPublishedAt": 1789458000000,
       "latestPublishedAt": 1789458000000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
@@ -986,7 +1015,7 @@
     "id": "item_384c1e556dc7bb02",
     "type": "news",
     "title": "‘홍명보 스리백’ 본 모레노의 결론은 4-4-2 “전임 감독에 대한 평가...",
-    "summary": "홍명보 감독의 지긋지긋한 스리백은 더 이상 없다. 대한 축구협회 는 14일 천안 코리아풋볼파크에서 로베르트 모레노 감독의 공식 취임식과 기자회견을 개최했다. 모레노가 위기에 빠진 한국 축구 를 구할 소방수가 될지...",
+    "summary": "대한 축구협회 는 14일 천안 코리아풋볼파크에서 로베르트 모레노 감독의 공식 취임식과 기자회견을... 청문회가 시작됐고 K 축구 혁신위원회 가 등장했다. 한국 축구 썩은 고인물을 바꿔보자는 의도였다. 그 과정에서...",
     "url": "http://www.osen.co.kr/article/G1112875643",
     "originalUrl": "http://www.osen.co.kr/article/G1112875643",
     "publisher": "osen.co.kr",
@@ -994,7 +1023,10 @@
     "collectedAt": "2026-09-15T06:43:47.002Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회"
+      "대한 축구협회",
+      "혁신위원회",
+      "축구 혁신",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1006,13 +1038,15 @@
       "축구협회 혁신위원회",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "innovation-committee"
+    ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1030,8 +1064,8 @@
       ],
       "earliestPublishedAt": 1789444920000,
       "latestPublishedAt": 1789444920000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
@@ -1179,8 +1213,8 @@
       ],
       "earliestPublishedAt": 1789437480000,
       "latestPublishedAt": 1789437480000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
@@ -1439,8 +1473,8 @@
       ],
       "earliestPublishedAt": 1789430400000,
       "latestPublishedAt": 1789430400000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   }
 ]

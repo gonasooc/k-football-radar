@@ -47,8 +47,8 @@
       ],
       "earliestPublishedAt": 1789592400000,
       "latestPublishedAt": 1789592400000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
@@ -128,7 +128,7 @@
     "id": "item_e711f1e05a4b8b06",
     "type": "news",
     "title": "[SPO 현장] '대한민국을 위해 매의 눈으로 관찰' 홍명보 후임 모레노 감...",
-    "summary": "홍명보 감독의 후임으로 낙점받은 모레노 감독은 임시 사령탑으로 9월과 10월, 11월에 예정된 A매치 6경기를... 모레노 감독은 대한 축구협회 를 통해 \"오늘과 내일 경기장 방문을 통해 한국의 축구 문화와 경기장을...",
+    "summary": "모레노 감독 은 대한 축구협회 를 통해 \"오늘과 내일 경기장 방문을 통해 한국의 축구 문화와 경기장을... 잠재적인 후보 들에 대한 관전도 목표로 한다\"고 말했다. 전북 선수 중 모레노호에 승선한 선수는 총 3명. 송범근과...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1007825",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1007825",
     "publisher": "spotvnews.co.kr",
@@ -136,10 +136,7 @@
     "collectedAt": "2026-09-16T12:09:59.163Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회",
-      "감독",
-      "사령탑",
-      "후임"
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -149,15 +146,13 @@
       "대한축구협회",
       "축구협회 감독 후보"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 21,
+    "relevanceScore": 14,
     "labels": [
       "인물 언급"
     ],
@@ -174,8 +169,8 @@
       ],
       "earliestPublishedAt": 1789554840000,
       "latestPublishedAt": 1789554840000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
@@ -306,8 +301,8 @@
       ],
       "earliestPublishedAt": 1789546020000,
       "latestPublishedAt": 1789546020000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
@@ -520,7 +515,7 @@
     "id": "item_f72d7d830c463969",
     "type": "news",
     "title": "“초반에 경고 때려라”…'정몽규 구단' 유리하게 승부조작 지시, 충격...",
-    "summary": "SBS에 따르면 심판위원회 고위 관계자가 정몽규 전 대한 축구협회 장이 구단주로 있는 부산 아이파크에 유리한 판정을 하도록 현장 심판에게 요구했다는 의혹이 제기됐다. 논란의 발단은 2023년 K리그2 정규리그 최종전이다....",
+    "summary": "전력강화위원들이 위촉되기 전 후보군이 추려졌고, 최종 후보자 면접을 정몽규 당시 회장이 직접 진행한 것으로 조사됐다. 이사회 선임 절차가 누락된 사실도 감사 에서 확인됐다. 클린스만 감독은 2023 아시안컵에서 졸전...",
     "url": "https://www.wikitree.co.kr/articles/1159846",
     "originalUrl": "https://www.wikitree.co.kr/articles/1159846",
     "publisher": "wikitree.co.kr",
@@ -528,7 +523,10 @@
     "collectedAt": "2026-09-16T06:46:33.913Z",
     "matchedKeywords": [
       "정몽규",
-      "대한 축구협회"
+      "이사회",
+      "전력강화위원",
+      "후보",
+      "감사"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -551,16 +549,20 @@
       "축구협회 조사 결과",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "kfa-executives",
+      "coach-appointment"
+    ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 21,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -575,8 +577,8 @@
       ],
       "earliestPublishedAt": 1789524120000,
       "latestPublishedAt": 1789524120000,
-      "representativeCollectedAt": 1790036266668,
-      "latestCollectedAt": 1790036266668
+      "representativeCollectedAt": 1790054642047,
+      "latestCollectedAt": 1790054642047
     }
   },
   {
