@@ -118,8 +118,8 @@
       ],
       "earliestPublishedAt": 1789505460000,
       "latestPublishedAt": 1789505460000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -294,8 +294,8 @@
       ],
       "earliestPublishedAt": 1789478280000,
       "latestPublishedAt": 1789478280000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -478,7 +478,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://ilyo.co.kr/?ac=article_view&entry_id=512718"
+      ],
+      "stories": [
+        "news|news|1700명 분석해 고른 명단…모레노호 ‘첫 발탁’ 김건희·김민수·박태준...|ilyo.co.kr|2026-09-15T09:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|1700명 분석해 고른 명단…모레노호 ‘첫 발탁’ 김건희·김민수·박태준...|ilyo.co.kr"
+      ],
+      "earliestPublishedAt": 1789463040000,
+      "latestPublishedAt": 1789463040000,
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
+    }
   },
   {
     "id": "item_f1e41d271fa936c6",
@@ -585,8 +601,8 @@
       ],
       "earliestPublishedAt": 1789461000000,
       "latestPublishedAt": 1789461000000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -732,8 +748,8 @@
       ],
       "earliestPublishedAt": 1789458000000,
       "latestPublishedAt": 1789458000000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -1064,8 +1080,8 @@
       ],
       "earliestPublishedAt": 1789444920000,
       "latestPublishedAt": 1789444920000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -1213,8 +1229,8 @@
       ],
       "earliestPublishedAt": 1789437480000,
       "latestPublishedAt": 1789437480000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -1473,8 +1489,8 @@
       ],
       "earliestPublishedAt": 1789430400000,
       "latestPublishedAt": 1789430400000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   }
 ]

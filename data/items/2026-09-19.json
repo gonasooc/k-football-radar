@@ -129,8 +129,8 @@
       ],
       "earliestPublishedAt": 1789800000000,
       "latestPublishedAt": 1789800000000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -172,8 +172,8 @@
       ],
       "earliestPublishedAt": 1789795860000,
       "latestPublishedAt": 1789795860000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -421,7 +421,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=3700637"
+      ],
+      "stories": [
+        "news|news|\"구단 운영 공백 최소화\" 광주fc, 최수용 협회장 대표이사 직무대행 지...|gukjenews.com|2026-09-19T01:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"구단 운영 공백 최소화\" 광주fc, 최수용 협회장 대표이사 직무대행 지...|gukjenews.com"
+      ],
+      "earliestPublishedAt": 1789782120000,
+      "latestPublishedAt": 1789782120000,
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
+    }
   },
   {
     "id": "item_90d0d828ba49f9a7",

@@ -46,8 +46,8 @@
       ],
       "earliestPublishedAt": 1789772520000,
       "latestPublishedAt": 1789772520000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -79,7 +79,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/bltec98e1e7321f666c"
+      ],
+      "stories": [
+        "news|news|[오피셜] k리그 역대 ‘최다무승’ 불명예 쓴 광주fc, 최수용 대표이사...|goal.com|2026-09-18T17:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[오피셜] k리그 역대 ‘최다무승’ 불명예 쓴 광주fc, 최수용 대표이사...|goal.com"
+      ],
+      "earliestPublishedAt": 1789751880000,
+      "latestPublishedAt": 1789751880000,
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
+    }
   },
   {
     "id": "item_dc24d2f14ffb2c2e",
@@ -217,8 +233,8 @@
       ],
       "earliestPublishedAt": 1789720620000,
       "latestPublishedAt": 1789720620000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -258,8 +274,8 @@
       ],
       "earliestPublishedAt": 1789719600000,
       "latestPublishedAt": 1789719600000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -299,8 +315,8 @@
       ],
       "earliestPublishedAt": 1789716960000,
       "latestPublishedAt": 1789716960000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
@@ -552,22 +568,22 @@
       ],
       "earliestPublishedAt": 1789699680000,
       "latestPublishedAt": 1789699680000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   },
   {
     "id": "item_31642f39e56fb56c",
     "type": "news",
     "title": "자격미달 아들을 코치로 쓰려다 탈락한 포옛[소소한 복도통신]",
-    "summary": "포옛 감독 의 아들이자 코치인 디에고의 자격도 다른 후보 군의 사단과 비교해 크게 부족했다. 디에고의 지도자 라이선스는 C급에 불과했다. 현영민 대한 축구협회 전력강화위원장에 따르면 모레노 사단의 6명 전원은 P급에...",
+    "summary": "포옛 감독의 아들이자 코치인 디에고의 자격 도 다른 후보군의 사단과 비교해 크게 부족했다. 디에고의 지도자 라이선스는 C급에 불과했다. 현영민 대한축구협회 전력강화위원장에 따르면 모레노 사단의 6명 전원은 P급에...",
     "url": "https://www.munhwa.com/article/11617990?ref=naver",
     "originalUrl": "https://www.munhwa.com/article/11617990?ref=naver",
     "publisher": "munhwa.com",
     "publishedAt": "2026-09-18T00:22:00.000Z",
     "collectedAt": "2026-09-18T06:40:38.953Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "현영민"
     ],
     "discoveryQueries": [
@@ -605,8 +621,8 @@
       ],
       "earliestPublishedAt": 1789690920000,
       "latestPublishedAt": 1789690920000,
-      "representativeCollectedAt": 1790054642047,
-      "latestCollectedAt": 1790054642047
+      "representativeCollectedAt": 1790072442908,
+      "latestCollectedAt": 1790072442908
     }
   }
 ]
