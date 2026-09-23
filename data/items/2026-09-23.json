@@ -1,5 +1,31 @@
 [
   {
+    "id": "item_4df76438013164df",
+    "type": "news",
+    "title": "[추석 TV의 맛] ‘아시안게임’ 금·은·동 터지는 순간… 스포츠 중계 ...",
+    "summary": "24일 신임 모레노호의 축구 A매치 친선 경기 중계를 지상파·종편 중 유일하게 단독 생중계하며 한가위를 달군다. TV조선은 지난해부터 2034년까지 10년간 대한축구협회 의 국가대표 축구 중계권을 독점으로 확보하고 있다.",
+    "url": "https://www.chosun.com/entertainments/broadcast/2026/09/24/PKNR6K7MLNEYZPW357GRYDXLBI",
+    "originalUrl": "https://www.chosun.com/entertainments/broadcast/2026/09/24/PKNR6K7MLNEYZPW357GRYDXLBI",
+    "publisher": "chosun.com",
+    "publishedAt": "2026-09-23T15:31:00.000Z",
+    "collectedAt": "2026-09-23T17:28:23.808Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "\"구자철\" 대한축구협회",
+      "\"구자철\" 축구협회",
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "youtube_TtVqKIk_-6Q",
     "type": "youtube",
     "title": "축구협회 또 터졌다, 심판 접대 문건에 축구팬들 분노",
@@ -57,6 +83,47 @@
     }
   },
   {
+    "id": "item_f0f9c9e9a12e17ff",
+    "type": "news",
+    "title": "손흥민, '모레노 1기 주장 선임'‥\"팬들 마음 돌리겠다\"",
+    "summary": "[손흥민/축구 대표팀 주장] \"존중할 수 있는 그런 시간이 될 수 있었으면 좋겠고 얼굴 붉힐 일도 없고 서로 간에 협조해서 좋은 상황을 만들 수 있지 않을까 생각합니다.\" 홍명보 전 감독 선임 과정에서의 논란과 정몽규 전...",
+    "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6853849_37004.html",
+    "originalUrl": "https://imnews.imbc.com/replay/2026/nwdesk/article/6853849_37004.html",
+    "publisher": "imnews.imbc.com",
+    "publishedAt": "2026-09-23T12:57:00.000Z",
+    "collectedAt": "2026-09-23T17:28:23.808Z",
+    "matchedKeywords": [
+      "감독 선임",
+      "감독",
+      "선임",
+      "정몽규",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_24bcff801e114b01",
     "type": "news",
     "title": "[IN VIEW] 이강인, 에콰도르전 출전 적신호→월드컵 악몽 지우려는 모레...",
@@ -88,13 +155,29 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.interfootball.co.kr/news/articleView.html?idxno=695102"
+      ],
+      "stories": [
+        "news|news|[in view] 이강인, 에콰도르전 출전 적신호→월드컵 악몽 지우려는 모레...|interfootball.co.kr|2026-09-23T10:48:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[in view] 이강인, 에콰도르전 출전 적신호→월드컵 악몽 지우려는 모레...|interfootball.co.kr"
+      ],
+      "earliestPublishedAt": 1790160480000,
+      "latestPublishedAt": 1790160480000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_c818beadc13ea382",
     "type": "news",
     "title": "모레노 감독 보고 드디어 웃은 손흥민 \"소통 많이 하시는 것 같아\"",
-    "summary": "손흥민(왼쪽)·모레노 감독 . ⓒKFA 한국 축구 대표팀 은 2026 북중미 월드컵에서 32강 진출에 실패했다. 역대급 쇼크 속에 홍명보 감독 은 사령탑에서 물러났고 모레노 임시 감독 이 공개 채용을 통해 지휘봉을 잡았다. 모레노...",
+    "summary": "ⓒ KFA 한국 축구대표팀은 2026 북중미 월드컵에서 32강 진출에 실패했다. 역대급 쇼크 속에 홍명보 감독은 사령탑에서 물러났고 모레노 임시 감독이 공개 채용을 통해 지휘봉을 잡았다. 모레노 임시 감독은 취임 후 13일...",
     "url": "https://sports.hankooki.com/news/articleView.html?idxno=6940333",
     "originalUrl": "https://sports.hankooki.com/news/articleView.html?idxno=6940333",
     "publisher": "sports.hankooki.com",
@@ -118,7 +201,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.hankooki.com/news/articleView.html?idxno=6940333"
+      ],
+      "stories": [
+        "news|news|모레노 감독 보고 드디어 웃은 손흥민 \"소통 많이 하시는 것 같아\"|sports.hankooki.com|2026-09-23T10:38:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|모레노 감독 보고 드디어 웃은 손흥민 \"소통 많이 하시는 것 같아\"|sports.hankooki.com"
+      ],
+      "earliestPublishedAt": 1790159880000,
+      "latestPublishedAt": 1790159880000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_3e401ef1537d834d",
@@ -176,7 +275,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=1009242"
+      ],
+      "stories": [
+        "news|news|'홍명보가 망친 월드컵' 손흥민은 아직도 가슴이 찢어진다...\"회복 쉽지...|spotvnews.co.kr|2026-09-23T10:23:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'홍명보가 망친 월드컵' 손흥민은 아직도 가슴이 찢어진다...\"회복 쉽지...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1790158980000,
+      "latestPublishedAt": 1790158980000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_818b5c45f10210b9",
@@ -206,7 +321,23 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.the-today.com/news/articleView.html?idxno=90689"
+      ],
+      "stories": [
+        "news|news|돈만 내면 그만인가…정몽규·정몽용, 이전 명령에도 '불법 묘역' 그대...|the-today.com|2026-09-23T09:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|돈만 내면 그만인가…정몽규·정몽용, 이전 명령에도 '불법 묘역' 그대...|the-today.com"
+      ],
+      "earliestPublishedAt": 1790157360000,
+      "latestPublishedAt": 1790157360000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_c643e74d1a84275e",
@@ -245,7 +376,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-09-23/202609230100161430010551"
+      ],
+      "stories": [
+        "news|news|주장은 또 손흥민! 에콰도르전 첫선 모레노 \"모르는 상황, 변화 어렵다...|sportschosun.com|2026-09-23T09:06:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|주장은 또 손흥민! 에콰도르전 첫선 모레노 \"모르는 상황, 변화 어렵다...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1790154360000,
+      "latestPublishedAt": 1790154360000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_27be04b929ffdfa6",
@@ -278,7 +425,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mydaily.co.kr/page/view/2026092315104452072"
+      ],
+      "stories": [
+        "news|news|\"결과 중요하지만, 어떤 과정을 거쳐 그 결과에 도달하는지도 중요\"…모...|mydaily.co.kr|2026-09-23T09:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"결과 중요하지만, 어떤 과정을 거쳐 그 결과에 도달하는지도 중요\"…모...|mydaily.co.kr"
+      ],
+      "earliestPublishedAt": 1790154240000,
+      "latestPublishedAt": 1790154240000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_703a35f9af92f882",
@@ -308,7 +471,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00013&news_seq_no=5221206"
+      ],
+      "stories": [
+        "news|news|손흥민 \"모레노 감독 열정적…실망한 팬심 돌리는 건 선수 몫\"|mbn.mk.co.kr|2026-09-23T09:03:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|손흥민 \"모레노 감독 열정적…실망한 팬심 돌리는 건 선수 몫\"|mbn.mk.co.kr"
+      ],
+      "earliestPublishedAt": 1790154180000,
+      "latestPublishedAt": 1790154180000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_0236b3c39351eaf7",
@@ -332,7 +511,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.stnsports.co.kr/news/articleView.html?idxno=323193"
+      ],
+      "stories": [
+        "news|news|하나은행, 청년 한가위 혜택 마련... 스포츠 후원으로 사회적 가치 실천|stnsports.co.kr|2026-09-23T08:57:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|하나은행, 청년 한가위 혜택 마련... 스포츠 후원으로 사회적 가치 실천|stnsports.co.kr"
+      ],
+      "earliestPublishedAt": 1790153820000,
+      "latestPublishedAt": 1790153820000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_5cde4a8eb280cdd8",
@@ -365,7 +560,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://mhnse.com/news/articleView.html?idxno=1558668"
+      ],
+      "stories": [
+        "news|news|월드컵 이후 한국 축구, 아직도 후유증…손흥민 \"생각하면 너무 고통스...|mhnse.com|2026-09-23T08:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|월드컵 이후 한국 축구, 아직도 후유증…손흥민 \"생각하면 너무 고통스...|mhnse.com"
+      ],
+      "earliestPublishedAt": 1790153040000,
+      "latestPublishedAt": 1790153040000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_91729b8d18c426d9",
@@ -399,7 +610,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.slist.kr/news/articleView.html?idxno=768484"
+      ],
+      "stories": [
+        "news|news|손흥민 \"모레노 감독 열정적...실망한 팬심 돌리는건 선수 몫\"|slist.kr|2026-09-23T08:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|손흥민 \"모레노 감독 열정적...실망한 팬심 돌리는건 선수 몫\"|slist.kr"
+      ],
+      "earliestPublishedAt": 1790152320000,
+      "latestPublishedAt": 1790152320000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_ac004301e598347b",
@@ -432,7 +659,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.topstarnews.net/news/articleView.html?idxno=16209450"
+      ],
+      "stories": [
+        "news|news|\"팬심 돌릴 기회는 경기장에\"…손흥민, 에콰도르전 앞두고 각오 다져|topstarnews.net|2026-09-23T08:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"팬심 돌릴 기회는 경기장에\"…손흥민, 에콰도르전 앞두고 각오 다져|topstarnews.net"
+      ],
+      "earliestPublishedAt": 1790152200000,
+      "latestPublishedAt": 1790152200000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_caded57ab076bb39",
@@ -475,7 +718,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://kor.theasian.asia/archives/416414"
+      ],
+      "stories": [
+        "news|news|[오늘의 신문] 유가 100달러선·추석 차례상 4.1%↑…관악 아파트 평균 ...|kor.theasian.asia|2026-09-23T07:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[오늘의 신문] 유가 100달러선·추석 차례상 4.1%↑…관악 아파트 평균 ...|kor.theasian.asia"
+      ],
+      "earliestPublishedAt": 1790148720000,
+      "latestPublishedAt": 1790148720000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_71a0789a7151d375",
@@ -516,8 +775,8 @@
       ],
       "earliestPublishedAt": 1790144160000,
       "latestPublishedAt": 1790144160000,
-      "representativeCollectedAt": 1790165575073,
-      "latestCollectedAt": 1790165575073
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
     }
   },
   {
@@ -553,7 +812,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.imaeil.com/page/view/2026092309351653119"
+      ],
+      "stories": [
+        "news|news|a매치 나서는 모레노號…한국 축구 다시 뛴다|imaeil.com|2026-09-23T05:06:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|a매치 나서는 모레노號…한국 축구 다시 뛴다|imaeil.com"
+      ],
+      "earliestPublishedAt": 1790139960000,
+      "latestPublishedAt": 1790139960000,
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
+    }
   },
   {
     "id": "item_e7ab02dca305a5ff",
@@ -593,8 +868,8 @@
       ],
       "earliestPublishedAt": 1790129220000,
       "latestPublishedAt": 1790129220000,
-      "representativeCollectedAt": 1790165575073,
-      "latestCollectedAt": 1790165575073
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
     }
   },
   {
@@ -632,8 +907,8 @@
       ],
       "earliestPublishedAt": 1790124120000,
       "latestPublishedAt": 1790124120000,
-      "representativeCollectedAt": 1790165575073,
-      "latestCollectedAt": 1790165575073
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
     }
   },
   {
@@ -700,8 +975,8 @@
       ],
       "earliestPublishedAt": 1790123520000,
       "latestPublishedAt": 1790123520000,
-      "representativeCollectedAt": 1790165575073,
-      "latestCollectedAt": 1790165575073
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
     }
   },
   {
@@ -853,8 +1128,8 @@
       ],
       "earliestPublishedAt": 1790122080000,
       "latestPublishedAt": 1790122080000,
-      "representativeCollectedAt": 1790165575073,
-      "latestCollectedAt": 1790165575073
+      "representativeCollectedAt": 1790184503808,
+      "latestCollectedAt": 1790184503808
     }
   }
 ]
