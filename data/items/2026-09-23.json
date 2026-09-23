@@ -1,5 +1,73 @@
 [
   {
+    "id": "item_c762f1e920a5bd6c",
+    "type": "news",
+    "title": "한국 축구의 새 출발…모레노호, 오늘 에콰도르 상대로 데뷔전",
+    "summary": "내년 1월 사우디아라비아에서 개막하는 아시아 축구 연맹(AFC) 아시안컵을 앞두고 대한 축구협회 는 지난 8월 공개채용을 통해 감독 선임 작업에 돌입했다. 이달 초 모레노 감독 을 선임 한 대표팀은 이번 9~10월 A매치 4연전을...",
+    "url": "https://www.news1.kr/sports/soccer/6300862",
+    "originalUrl": "https://www.news1.kr/sports/soccer/6300862",
+    "publisher": "news1.kr",
+    "publishedAt": "2026-09-23T22:00:00.000Z",
+    "collectedAt": "2026-09-23T23:09:48.196Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독 선임",
+      "감독",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_bc165659ed1f8727",
+    "type": "news",
+    "title": "[오피셜] 이강인 '적'으로 마주한다...'韓 대표팀 감독 부임설' 아기레,...",
+    "summary": "최근 홍명보 감독 사임 이후 멕시코 현지 매체들을 중심으로 한국 대표팀 차기 사령탑 부임설(로베르트 모레노 임시 감독 최종 선임 )이 제기되기도 했다. 무엇보다 '이강인의 은사'로 잘 알려져 있다. 두 사람의 인연은...",
+    "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553565658",
+    "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553565658",
+    "publisher": "sportalkorea.com",
+    "publishedAt": "2026-09-23T21:34:00.000Z",
+    "collectedAt": "2026-09-23T23:09:48.196Z",
+    "matchedKeywords": [
+      "감독",
+      "사령탑",
+      "선임",
+      "차기",
+      "부임",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독",
+      "대표팀 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 7,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_8df7db8ea59c6b6a",
     "type": "news",
     "title": "왜 그곳에 묘역을 만들었을까?…현대가 정몽규 정몽용 총수들 '불법 묘...",
@@ -27,7 +95,23 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.the-today.com/news/articleView.html?idxno=90692"
+      ],
+      "stories": [
+        "news|news|왜 그곳에 묘역을 만들었을까?…현대가 정몽규 정몽용 총수들 '불법 묘...|the-today.com|2026-09-23T17:48:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|왜 그곳에 묘역을 만들었을까?…현대가 정몽규 정몽용 총수들 '불법 묘...|the-today.com"
+      ],
+      "earliestPublishedAt": 1790185680000,
+      "latestPublishedAt": 1790185680000,
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
+    }
   },
   {
     "id": "item_4df76438013164df",
@@ -67,8 +151,8 @@
       ],
       "earliestPublishedAt": 1790177460000,
       "latestPublishedAt": 1790177460000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -181,8 +265,8 @@
       ],
       "earliestPublishedAt": 1790168220000,
       "latestPublishedAt": 1790168220000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -231,8 +315,8 @@
       ],
       "earliestPublishedAt": 1790160480000,
       "latestPublishedAt": 1790160480000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -277,8 +361,8 @@
       ],
       "earliestPublishedAt": 1790159880000,
       "latestPublishedAt": 1790159880000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -351,8 +435,8 @@
       ],
       "earliestPublishedAt": 1790158980000,
       "latestPublishedAt": 1790158980000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -397,8 +481,8 @@
       ],
       "earliestPublishedAt": 1790157360000,
       "latestPublishedAt": 1790157360000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -452,8 +536,8 @@
       ],
       "earliestPublishedAt": 1790154360000,
       "latestPublishedAt": 1790154360000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -501,8 +585,8 @@
       ],
       "earliestPublishedAt": 1790154240000,
       "latestPublishedAt": 1790154240000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -547,8 +631,8 @@
       ],
       "earliestPublishedAt": 1790154180000,
       "latestPublishedAt": 1790154180000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -587,8 +671,8 @@
       ],
       "earliestPublishedAt": 1790153820000,
       "latestPublishedAt": 1790153820000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -636,8 +720,8 @@
       ],
       "earliestPublishedAt": 1790153040000,
       "latestPublishedAt": 1790153040000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -686,8 +770,8 @@
       ],
       "earliestPublishedAt": 1790152320000,
       "latestPublishedAt": 1790152320000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -735,8 +819,8 @@
       ],
       "earliestPublishedAt": 1790152200000,
       "latestPublishedAt": 1790152200000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -794,15 +878,15 @@
       ],
       "earliestPublishedAt": 1790148720000,
       "latestPublishedAt": 1790148720000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
     "id": "item_71a0789a7151d375",
     "type": "news",
     "title": "[공식발표] “팬들이 먼저다” 선언한 대한축구협회, 이번 A매치서 확 달...",
-    "summary": "대한축구협회 (KFA)의 A매치 풍경이 달라진다. 단순히 국가대표팀 경기를 보여주는 데 그치지 않고, 경기장을 찾은 팬들이 입장부터 퇴장까지 매치데이 자체를 즐길 수 있도록 경기장 안팎의 운영을 손보기 시작했다....",
+    "summary": "대한축구협회( KFA )의 A매치 풍경이 달라진다. 단순히 국가대표팀 경기를 보여주는 데 그치지 않고, 경기장을... 경기장 밖에는 ' KFA 플레이 그라운드'가 들어선다. 대표팀 마스코트 ‘백호·프렌즈’를 활용해 불꽃 슛...",
     "url": "https://mhnse.com/news/articleView.html?idxno=1558438",
     "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1558438",
     "publisher": "mhnse.com",
@@ -837,8 +921,8 @@
       ],
       "earliestPublishedAt": 1790144160000,
       "latestPublishedAt": 1790144160000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -888,8 +972,8 @@
       ],
       "earliestPublishedAt": 1790139960000,
       "latestPublishedAt": 1790139960000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -930,8 +1014,8 @@
       ],
       "earliestPublishedAt": 1790129220000,
       "latestPublishedAt": 1790129220000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -969,8 +1053,8 @@
       ],
       "earliestPublishedAt": 1790124120000,
       "latestPublishedAt": 1790124120000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -1037,8 +1121,8 @@
       ],
       "earliestPublishedAt": 1790123520000,
       "latestPublishedAt": 1790123520000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   },
   {
@@ -1190,8 +1274,8 @@
       ],
       "earliestPublishedAt": 1790122080000,
       "latestPublishedAt": 1790122080000,
-      "representativeCollectedAt": 1790196070999,
-      "latestCollectedAt": 1790196070999
+      "representativeCollectedAt": 1790204988196,
+      "latestCollectedAt": 1790204988196
     }
   }
 ]
