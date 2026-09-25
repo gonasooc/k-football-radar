@@ -1,5 +1,90 @@
 [
   {
+    "id": "item_1e7bc53eced45247",
+    "type": "news",
+    "title": "\"홍명보와 정반대 축구\" 모레노 감독의 한국 축구 개혁 시작! 포지션 고...",
+    "summary": "대한 축구협회 는 북중미 월드컵 이후 홍명보 감독이 사임하면서 후임으로 모레노 감독을 선택했다. 계약 기간은 오는 11월 27일까지다. 이 기간 총 6차례 A매치를 치른 뒤 평가에 따라 아시안컵까지 동행을 이어갈 수 있다....",
+    "url": "https://mhnse.com/news/articleView.html?idxno=1559834",
+    "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1559834",
+    "publisher": "mhnse.com",
+    "publishedAt": "2026-09-25T16:01:00.000Z",
+    "collectedAt": "2026-09-25T18:53:39.663Z",
+    "matchedKeywords": [
+      "홍명보",
+      "대한 축구협회",
+      "감독",
+      "후임"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독",
+      "대한축구협회"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 21,
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_f10df51162d0b6c5",
+    "type": "news",
+    "title": "‘쓸놈쓸’ 홍명보 감독과 다르다…모레노, 첫 경기부터 쐐기골 합작한...",
+    "summary": "모레노 감독 은 한국 대표팀 데뷔전에서 깔끔한 승리를 신고했다. 북중미월드컵 참패의 원인은 선수들 컨디션을 고려하지 않은 선수기용도 있었다. 특히 남아공전에서 선발로 기용한 황희찬은 소속팀에서도 폼이 올라오지...",
+    "url": "http://www.osen.co.kr/article/G1112882012",
+    "originalUrl": "http://www.osen.co.kr/article/G1112882012",
+    "publisher": "osen.co.kr",
+    "publishedAt": "2026-09-25T15:38:00.000Z",
+    "collectedAt": "2026-09-25T18:53:39.663Z",
+    "matchedKeywords": [
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 8,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_fd73e647ba2c6bf4",
+    "type": "news",
+    "title": "박지현, 韓 여배우 최초 국제에미상 후보…장혁·故 이선균 잇는 쾌거",
+    "summary": "배우 박지현이 한국 여배우 최초로 국제에미상 후보 에 이름을 올렸다. 25일... SBS ‘브람스를 좋아하세요?’, JTBC ‘사랑의 이해’를 통해 관계의 섬세한 결을 직조해 온 조영민 감독 , 농밀한 필력의 송혜진 작가가...",
+    "url": "https://biz.heraldcorp.com/article/10884714?ref=naver",
+    "originalUrl": "https://biz.heraldcorp.com/article/10884714?ref=naver",
+    "publisher": "biz.heraldcorp.com",
+    "publishedAt": "2026-09-25T15:12:00.000Z",
+    "collectedAt": "2026-09-25T18:53:39.663Z",
+    "matchedKeywords": [],
+    "discoveryQueries": [
+      "감독 후보"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 0,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_0344b85cdc2f908a",
     "type": "news",
     "title": "[442.live] 얼마 만인가, 이렇게 즐거운 A매치...손흥민도 3만 3천 팬들도...",
@@ -21,7 +106,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=98341"
+      ],
+      "stories": [
+        "news|news|[442.live] 얼마 만인가, 이렇게 즐거운 a매치...손흥민도 3만 3천 팬들도...|fourfourtwo.co.kr|2026-09-25T09:55:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[442.live] 얼마 만인가, 이렇게 즐거운 a매치...손흥민도 3만 3천 팬들도...|fourfourtwo.co.kr"
+      ],
+      "earliestPublishedAt": 1790330100000,
+      "latestPublishedAt": 1790330100000,
+      "representativeCollectedAt": 1790362419663,
+      "latestCollectedAt": 1790362419663
+    }
   },
   {
     "id": "youtube_UaAWPG5H6IU",
@@ -196,8 +297,8 @@
       ],
       "earliestPublishedAt": 1790317320000,
       "latestPublishedAt": 1790317320000,
-      "representativeCollectedAt": 1790345427861,
-      "latestCollectedAt": 1790345427861
+      "representativeCollectedAt": 1790362419663,
+      "latestCollectedAt": 1790362419663
     }
   },
   {
@@ -290,8 +391,8 @@
       ],
       "earliestPublishedAt": 1790300160000,
       "latestPublishedAt": 1790300160000,
-      "representativeCollectedAt": 1790345427861,
-      "latestCollectedAt": 1790345427861
+      "representativeCollectedAt": 1790362419663,
+      "latestCollectedAt": 1790362419663
     }
   },
   {
@@ -352,8 +453,8 @@
       ],
       "earliestPublishedAt": 1790299440000,
       "latestPublishedAt": 1790299440000,
-      "representativeCollectedAt": 1790345427861,
-      "latestCollectedAt": 1790345427861
+      "representativeCollectedAt": 1790362419663,
+      "latestCollectedAt": 1790362419663
     }
   },
   {
@@ -402,8 +503,8 @@
       ],
       "earliestPublishedAt": 1790295120000,
       "latestPublishedAt": 1790295120000,
-      "representativeCollectedAt": 1790345427861,
-      "latestCollectedAt": 1790345427861
+      "representativeCollectedAt": 1790362419663,
+      "latestCollectedAt": 1790362419663
     }
   }
 ]
