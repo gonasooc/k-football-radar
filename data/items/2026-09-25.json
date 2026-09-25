@@ -1,5 +1,29 @@
 [
   {
+    "id": "item_0344b85cdc2f908a",
+    "type": "news",
+    "title": "[442.live] 얼마 만인가, 이렇게 즐거운 A매치...손흥민도 3만 3천 팬들도...",
+    "summary": "최근 대표팀 경기는 경기 외적인 논란이 끊이지 않으면서 감독이나 대한축구협회 를 향한 야유가 경기장을 채우는 경우가 적지 않았다. 그러나 이날만큼은 분위기가 달랐다. 킥오프 전부터 경기 종료 후까지 대표팀을 향한...",
+    "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=98341",
+    "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=98341",
+    "publisher": "fourfourtwo.co.kr",
+    "publishedAt": "2026-09-25T09:55:00.000Z",
+    "collectedAt": "2026-09-25T14:10:27.861Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_6fd1899e28ad1edd",
     "type": "news",
     "title": "“포백이니까 편하다”…홍명보호와 ‘딴판’ 모레노호, 어디가 달라졌...",
@@ -86,7 +110,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.rightknow.co.kr/news/articleView.html?idxno=34809"
+      ],
+      "stories": [
+        "news|news|홍명보 선임 '허위 심의자료' 혐의…정몽규 등 3명 檢 송치|rightknow.co.kr|2026-09-25T06:22:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보 선임 '허위 심의자료' 혐의…정몽규 등 3명 檢 송치|rightknow.co.kr"
+      ],
+      "earliestPublishedAt": 1790317320000,
+      "latestPublishedAt": 1790317320000,
+      "representativeCollectedAt": 1790345427861,
+      "latestCollectedAt": 1790345427861
+    }
   },
   {
     "id": "item_0d7fb71610162e2d",
@@ -108,7 +148,23 @@
     "isOfficial": false,
     "relevanceScore": 0,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mydaily.co.kr/page/view/2026092511583796197"
+      ],
+      "stories": [
+        "news|news|'손흥민은 악몽이었다'…'발롱도르 최종 후보' 에콰도르 수비수, 한국에...|mydaily.co.kr|2026-09-25T06:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'손흥민은 악몽이었다'…'발롱도르 최종 후보' 에콰도르 수비수, 한국에...|mydaily.co.kr"
+      ],
+      "earliestPublishedAt": 1790316120000,
+      "latestPublishedAt": 1790316120000,
+      "representativeCollectedAt": 1790345427861,
+      "latestCollectedAt": 1790345427861
+    }
   },
   {
     "id": "item_5a69311301f5d3a0",
@@ -162,8 +218,8 @@
       ],
       "earliestPublishedAt": 1790300160000,
       "latestPublishedAt": 1790300160000,
-      "representativeCollectedAt": 1790323887215,
-      "latestCollectedAt": 1790323887215
+      "representativeCollectedAt": 1790345427861,
+      "latestCollectedAt": 1790345427861
     }
   },
   {
@@ -224,8 +280,8 @@
       ],
       "earliestPublishedAt": 1790299440000,
       "latestPublishedAt": 1790299440000,
-      "representativeCollectedAt": 1790323887215,
-      "latestCollectedAt": 1790323887215
+      "representativeCollectedAt": 1790345427861,
+      "latestCollectedAt": 1790345427861
     }
   },
   {
@@ -274,8 +330,8 @@
       ],
       "earliestPublishedAt": 1790295120000,
       "latestPublishedAt": 1790295120000,
-      "representativeCollectedAt": 1790323887215,
-      "latestCollectedAt": 1790323887215
+      "representativeCollectedAt": 1790345427861,
+      "latestCollectedAt": 1790345427861
     }
   }
 ]
