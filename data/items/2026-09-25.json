@@ -1,5 +1,36 @@
 [
   {
+    "id": "item_3f67262f6b4959fc",
+    "type": "news",
+    "title": "[단독] 문체부 고위직 25명, 취업심사 없이 유관기관行",
+    "summary": "부이사관 이상 25명…27명 중 15명은 퇴직 당월 유관기관 재취업 대한축구협회 ·도핑방지위부터 국립발레단·오페라단까지 주요 보직 이동 문체부 “당시 취업심사 대상기관 아니었다”…현재는 소관 유관기관 41곳 지정...",
+    "url": "https://www.segye.com/newsView/20260926500651?OutUrl=naver",
+    "originalUrl": "https://www.segye.com/newsView/20260926500651?OutUrl=naver",
+    "publisher": "segye.com",
+    "publishedAt": "2026-09-25T20:05:00.000Z",
+    "collectedAt": "2026-09-25T22:49:43.003Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회",
+      "축구 혁신",
+      "축구협회 감사",
+      "축구협회 문체부 감사",
+      "축구협회 문화체육관광부 감사",
+      "축구협회 부회장",
+      "축구협회 혁신위원회",
+      "KFA"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_1e7bc53eced45247",
     "type": "news",
     "title": "\"홍명보와 정반대 축구\" 모레노 감독의 한국 축구 개혁 시작! 포지션 고...",
@@ -32,7 +63,23 @@
     "relevanceScore": 21,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://mhnse.com/news/articleView.html?idxno=1559834"
+      ],
+      "stories": [
+        "news|news|\"홍명보와 정반대 축구\" 모레노 감독의 한국 축구 개혁 시작! 포지션 고...|mhnse.com|2026-09-25T16:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"홍명보와 정반대 축구\" 모레노 감독의 한국 축구 개혁 시작! 포지션 고...|mhnse.com"
+      ],
+      "earliestPublishedAt": 1790352060000,
+      "latestPublishedAt": 1790352060000,
+      "representativeCollectedAt": 1790376583003,
+      "latestCollectedAt": 1790376583003
+    }
   },
   {
     "id": "item_f10df51162d0b6c5",
@@ -82,7 +129,23 @@
     "isOfficial": false,
     "relevanceScore": 0,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://biz.heraldcorp.com/article/10884714?ref=naver"
+      ],
+      "stories": [
+        "news|news|박지현, 韓 여배우 최초 국제에미상 후보…장혁·故 이선균 잇는 쾌거|biz.heraldcorp.com|2026-09-25T15:12:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박지현, 韓 여배우 최초 국제에미상 후보…장혁·故 이선균 잇는 쾌거|biz.heraldcorp.com"
+      ],
+      "earliestPublishedAt": 1790349120000,
+      "latestPublishedAt": 1790349120000,
+      "representativeCollectedAt": 1790376583003,
+      "latestCollectedAt": 1790376583003
+    }
   },
   {
     "id": "item_0344b85cdc2f908a",
@@ -120,8 +183,8 @@
       ],
       "earliestPublishedAt": 1790330100000,
       "latestPublishedAt": 1790330100000,
-      "representativeCollectedAt": 1790362419663,
-      "latestCollectedAt": 1790362419663
+      "representativeCollectedAt": 1790376583003,
+      "latestCollectedAt": 1790376583003
     }
   },
   {
@@ -297,8 +360,8 @@
       ],
       "earliestPublishedAt": 1790317320000,
       "latestPublishedAt": 1790317320000,
-      "representativeCollectedAt": 1790362419663,
-      "latestCollectedAt": 1790362419663
+      "representativeCollectedAt": 1790376583003,
+      "latestCollectedAt": 1790376583003
     }
   },
   {
@@ -391,8 +454,8 @@
       ],
       "earliestPublishedAt": 1790300160000,
       "latestPublishedAt": 1790300160000,
-      "representativeCollectedAt": 1790362419663,
-      "latestCollectedAt": 1790362419663
+      "representativeCollectedAt": 1790376583003,
+      "latestCollectedAt": 1790376583003
     }
   },
   {
@@ -453,8 +516,8 @@
       ],
       "earliestPublishedAt": 1790299440000,
       "latestPublishedAt": 1790299440000,
-      "representativeCollectedAt": 1790362419663,
-      "latestCollectedAt": 1790362419663
+      "representativeCollectedAt": 1790376583003,
+      "latestCollectedAt": 1790376583003
     }
   },
   {
@@ -503,8 +566,8 @@
       ],
       "earliestPublishedAt": 1790295120000,
       "latestPublishedAt": 1790295120000,
-      "representativeCollectedAt": 1790362419663,
-      "latestCollectedAt": 1790362419663
+      "representativeCollectedAt": 1790376583003,
+      "latestCollectedAt": 1790376583003
     }
   }
 ]
