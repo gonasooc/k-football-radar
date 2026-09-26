@@ -1,5 +1,38 @@
 [
   {
+    "id": "item_f5bdd5e72119dc74",
+    "type": "news",
+    "title": "[442.told] '이강인·황인범 없이도 이길 수 있다니…' 홍명보가 풀지 못...",
+    "summary": "홍명보 호 시절 풀어낼 수 없을 것만 같았던 숙제. 모레노호는 단 한 경기 만에 풀었다. 로베르트 모레노... 두 선수가 합류한 '완전체' 모레노호의 모습이 더욱 기대되는 이유다. 사진= 대한축구협회",
+    "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=98369",
+    "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=98369",
+    "publisher": "fourfourtwo.co.kr",
+    "publishedAt": "2026-09-25T23:23:00.000Z",
+    "collectedAt": "2026-09-26T01:59:54.027Z",
+    "matchedKeywords": [
+      "홍명보",
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 17,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_3f67262f6b4959fc",
     "type": "news",
     "title": "[단독] 문체부 고위직 25명, 취업심사 없이 유관기관行",
@@ -28,7 +61,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.segye.com/newsView/20260926500651?OutUrl=naver"
+      ],
+      "stories": [
+        "news|news|[단독] 문체부 고위직 25명, 취업심사 없이 유관기관行|segye.com|2026-09-25T20:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] 문체부 고위직 25명, 취업심사 없이 유관기관行|segye.com"
+      ],
+      "earliestPublishedAt": 1790366700000,
+      "latestPublishedAt": 1790366700000,
+      "representativeCollectedAt": 1790387994027,
+      "latestCollectedAt": 1790387994027
+    }
   },
   {
     "id": "item_1e7bc53eced45247",
@@ -77,8 +126,8 @@
       ],
       "earliestPublishedAt": 1790352060000,
       "latestPublishedAt": 1790352060000,
-      "representativeCollectedAt": 1790376583003,
-      "latestCollectedAt": 1790376583003
+      "representativeCollectedAt": 1790387994027,
+      "latestCollectedAt": 1790387994027
     }
   },
   {
@@ -143,8 +192,8 @@
       ],
       "earliestPublishedAt": 1790349120000,
       "latestPublishedAt": 1790349120000,
-      "representativeCollectedAt": 1790376583003,
-      "latestCollectedAt": 1790376583003
+      "representativeCollectedAt": 1790387994027,
+      "latestCollectedAt": 1790387994027
     }
   },
   {
@@ -183,8 +232,8 @@
       ],
       "earliestPublishedAt": 1790330100000,
       "latestPublishedAt": 1790330100000,
-      "representativeCollectedAt": 1790376583003,
-      "latestCollectedAt": 1790376583003
+      "representativeCollectedAt": 1790387994027,
+      "latestCollectedAt": 1790387994027
     }
   },
   {
@@ -360,8 +409,8 @@
       ],
       "earliestPublishedAt": 1790317320000,
       "latestPublishedAt": 1790317320000,
-      "representativeCollectedAt": 1790376583003,
-      "latestCollectedAt": 1790376583003
+      "representativeCollectedAt": 1790387994027,
+      "latestCollectedAt": 1790387994027
     }
   },
   {
@@ -454,8 +503,8 @@
       ],
       "earliestPublishedAt": 1790300160000,
       "latestPublishedAt": 1790300160000,
-      "representativeCollectedAt": 1790376583003,
-      "latestCollectedAt": 1790376583003
+      "representativeCollectedAt": 1790387994027,
+      "latestCollectedAt": 1790387994027
     }
   },
   {
@@ -516,8 +565,8 @@
       ],
       "earliestPublishedAt": 1790299440000,
       "latestPublishedAt": 1790299440000,
-      "representativeCollectedAt": 1790376583003,
-      "latestCollectedAt": 1790376583003
+      "representativeCollectedAt": 1790387994027,
+      "latestCollectedAt": 1790387994027
     }
   },
   {
@@ -566,8 +615,8 @@
       ],
       "earliestPublishedAt": 1790295120000,
       "latestPublishedAt": 1790295120000,
-      "representativeCollectedAt": 1790376583003,
-      "latestCollectedAt": 1790376583003
+      "representativeCollectedAt": 1790387994027,
+      "latestCollectedAt": 1790387994027
     }
   }
 ]
