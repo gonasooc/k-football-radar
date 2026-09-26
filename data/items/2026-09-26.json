@@ -31,7 +31,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-09-26/202609260100172450011351"
+      ],
+      "stories": [
+        "news|news|\"5만 홈팬 야유\" 만치니 복귀에도 이탈리아 '노답'! 벨기에 완패, 박지성...|sportschosun.com|2026-09-26T01:29:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"5만 홈팬 야유\" 만치니 복귀에도 이탈리아 '노답'! 벨기에 완패, 박지성...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1790386140000,
+      "latestPublishedAt": 1790386140000,
+      "representativeCollectedAt": 1790409609540,
+      "latestCollectedAt": 1790409609540
+    }
   },
   {
     "id": "youtube_zw-zxFT9T20",
@@ -135,6 +151,22 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-09-26/202609260100172150011333"
+      ],
+      "stories": [
+        "news|news|'동에 번쩍, 서에 번쩍' 모레노 데뷔전 직관한 정몽준 전 회장, 24시간도...|sportschosun.com|2026-09-26T00:14:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'동에 번쩍, 서에 번쩍' 모레노 데뷔전 직관한 정몽준 전 회장, 24시간도...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1790381640000,
+      "latestPublishedAt": 1790381640000,
+      "representativeCollectedAt": 1790409609540,
+      "latestCollectedAt": 1790409609540
+    }
   }
 ]
