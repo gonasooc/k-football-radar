@@ -1,5 +1,105 @@
 [
   {
+    "id": "item_c7d16144bb13dc19",
+    "type": "news",
+    "title": "'조규성 부상 하차+황인범 휴식'...모레노호 '28명'으로 우루과이전 최...",
+    "summary": "로베르토 모레노 감독 이 임시로 지휘봉을 잡은 대한민국 축구 대표팀 은 28일 오후 8시 서울월드컵경기장에서... 홍명보 전 감독 과 정몽규 전 대한축구협회장이 나란히 물러난 가운데 공개채용을 통해 모레노 감독 을 선임 했...",
+    "url": "https://www.mydaily.co.kr/page/view/2026092719011785987",
+    "originalUrl": "https://www.mydaily.co.kr/page/view/2026092719011785987",
+    "publisher": "mydaily.co.kr",
+    "publishedAt": "2026-09-27T11:10:00.000Z",
+    "collectedAt": "2026-09-27T14:18:29.031Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "감독",
+      "선임",
+      "정몽규",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "election",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 20,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_b6ed6b8825288812",
+    "type": "news",
+    "title": "[IN PRESS] \"이강인 다른 포지션 배치? 경솔하고 무모한 선택\"…모레노 ...",
+    "summary": "로베르토 모레노 감독 은 지난 1일 공개 채용을 통해 대한민국 축구 국가 대표팀 임시 사령탑에 선임 됐다. 그는 9월부터 11월까지 예정된A매치 윈도우의 6경기를 지휘한다. 모레노 감독 은 대한민국 축구 국가 대표팀 사령탑...",
+    "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=695305",
+    "originalUrl": "https://www.interfootball.co.kr/news/articleView.html?idxno=695305",
+    "publisher": "interfootball.co.kr",
+    "publishedAt": "2026-09-27T10:40:00.000Z",
+    "collectedAt": "2026-09-27T14:18:29.031Z",
+    "matchedKeywords": [
+      "감독",
+      "사령탑",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 4,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_1cb687eedf2325b2",
+    "type": "news",
+    "title": "[IS 상암] 한국전 앞둔 포를란 감독 \"항상 까다로웠던 기억, 내일 경기 ...",
+    "summary": "그는 새로운 축구협회장 선거가 열리는 오는 2027년 3월까지 A대표팀을 이끈 뒤, 20세 이하(U-20) 대표팀을 맡는 거로 알려져 있다. 마침 한국을 이끄는 로베르트 모레노(스페인) 감독 역시 오는 11월까지 계약된 임시...",
+    "url": "https://isplus.com/article/view/isp202609270073",
+    "originalUrl": "https://isplus.com/article/view/isp202609270073",
+    "publisher": "isplus.com",
+    "publishedAt": "2026-09-27T08:55:00.000Z",
+    "collectedAt": "2026-09-27T14:18:29.031Z",
+    "matchedKeywords": [
+      "회장 선거"
+    ],
+    "discoveryQueries": [
+      "축구협회장"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 4,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_a5856207593be3e1",
     "type": "news",
     "title": "[IN PRESS] \"최고의 모습 보여줘야 한다!\"…우루과이전 앞둔 모레노 감독...",
@@ -25,7 +125,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.interfootball.co.kr/news/articleView.html?idxno=695300"
+      ],
+      "stories": [
+        "news|news|[in press] \"최고의 모습 보여줘야 한다!\"…우루과이전 앞둔 모레노 감독...|interfootball.co.kr|2026-09-27T07:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[in press] \"최고의 모습 보여줘야 한다!\"…우루과이전 앞둔 모레노 감독...|interfootball.co.kr"
+      ],
+      "earliestPublishedAt": 1790495040000,
+      "latestPublishedAt": 1790495040000,
+      "representativeCollectedAt": 1790518709031,
+      "latestCollectedAt": 1790518709031
+    }
   },
   {
     "id": "item_2a23fac1b7ee9f56",
@@ -52,6 +168,22 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.footballist.co.kr/news/articleView.html?idxno=215211"
+      ],
+      "stories": [
+        "news|news|조현우 \"모레노 감독과 함께 하는 새 대표팀이 기대되는 이유\" [뽈터뷰]|footballist.co.kr|2026-09-27T04:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|조현우 \"모레노 감독과 함께 하는 새 대표팀이 기대되는 이유\" [뽈터뷰]|footballist.co.kr"
+      ],
+      "earliestPublishedAt": 1790484240000,
+      "latestPublishedAt": 1790484240000,
+      "representativeCollectedAt": 1790518709031,
+      "latestCollectedAt": 1790518709031
+    }
   }
 ]
