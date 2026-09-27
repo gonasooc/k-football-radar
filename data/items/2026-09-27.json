@@ -1,5 +1,37 @@
 [
   {
+    "id": "item_b88337a97e6e537f",
+    "type": "news",
+    "title": "‘차범근 최다골 대기록 넘는다!’ 손흥민, 명실상부 한국축구 GOAT로 올...",
+    "summary": "차범근과 박지성 을 넘은 한국축구 역대최고선수라 봐도 부족함이 없다. 손흥민은 “나중에 언제든 그 기록이 깨진다고 해도 내 자랑거리는 아니다. 모든 동료와 모든 스태프분들, 뒤에서 응원해주신 팬분들께 감사 하다...",
+    "url": "http://www.osen.co.kr/article/G1112883170",
+    "originalUrl": "http://www.osen.co.kr/article/G1112883170",
+    "publisher": "osen.co.kr",
+    "publishedAt": "2026-09-27T15:24:00.000Z",
+    "collectedAt": "2026-09-27T18:39:38.982Z",
+    "matchedKeywords": [
+      "박지성",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 감사",
+      "\"홍명보\" 감사",
+      "대표팀 감독"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 5,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
     "id": "item_c7d16144bb13dc19",
     "type": "news",
     "title": "'조규성 부상 하차+황인범 휴식'...모레노호 '28명'으로 우루과이전 최...",
@@ -43,7 +75,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mydaily.co.kr/page/view/2026092719011785987"
+      ],
+      "stories": [
+        "news|news|'조규성 부상 하차+황인범 휴식'...모레노호 '28명'으로 우루과이전 최...|mydaily.co.kr|2026-09-27T11:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'조규성 부상 하차+황인범 휴식'...모레노호 '28명'으로 우루과이전 최...|mydaily.co.kr"
+      ],
+      "earliestPublishedAt": 1790507400000,
+      "latestPublishedAt": 1790507400000,
+      "representativeCollectedAt": 1790534378982,
+      "latestCollectedAt": 1790534378982
+    }
   },
   {
     "id": "item_b6ed6b8825288812",
@@ -71,7 +119,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.interfootball.co.kr/news/articleView.html?idxno=695305"
+      ],
+      "stories": [
+        "news|news|[in press] \"이강인 다른 포지션 배치? 경솔하고 무모한 선택\"…모레노 ...|interfootball.co.kr|2026-09-27T10:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[in press] \"이강인 다른 포지션 배치? 경솔하고 무모한 선택\"…모레노 ...|interfootball.co.kr"
+      ],
+      "earliestPublishedAt": 1790505600000,
+      "latestPublishedAt": 1790505600000,
+      "representativeCollectedAt": 1790534378982,
+      "latestCollectedAt": 1790534378982
+    }
   },
   {
     "id": "item_1cb687eedf2325b2",
@@ -97,7 +161,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://isplus.com/article/view/isp202609270073"
+      ],
+      "stories": [
+        "news|news|[is 상암] 한국전 앞둔 포를란 감독 \"항상 까다로웠던 기억, 내일 경기 ...|isplus.com|2026-09-27T08:55:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[is 상암] 한국전 앞둔 포를란 감독 \"항상 까다로웠던 기억, 내일 경기 ...|isplus.com"
+      ],
+      "earliestPublishedAt": 1790499300000,
+      "latestPublishedAt": 1790499300000,
+      "representativeCollectedAt": 1790534378982,
+      "latestCollectedAt": 1790534378982
+    }
   },
   {
     "id": "item_a5856207593be3e1",
@@ -139,8 +219,8 @@
       ],
       "earliestPublishedAt": 1790495040000,
       "latestPublishedAt": 1790495040000,
-      "representativeCollectedAt": 1790518709031,
-      "latestCollectedAt": 1790518709031
+      "representativeCollectedAt": 1790534378982,
+      "latestCollectedAt": 1790534378982
     }
   },
   {
@@ -182,8 +262,8 @@
       ],
       "earliestPublishedAt": 1790484240000,
       "latestPublishedAt": 1790484240000,
-      "representativeCollectedAt": 1790518709031,
-      "latestCollectedAt": 1790518709031
+      "representativeCollectedAt": 1790534378982,
+      "latestCollectedAt": 1790534378982
     }
   }
 ]
