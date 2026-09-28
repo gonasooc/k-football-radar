@@ -1,14 +1,14 @@
 # W-004 · 뉴스 재분류의 수집기별 건수 동기화
 
-- 상태: 진행 중
-- 최근 갱신: 2026-09-28
+- 상태: 완료
+- 최근 갱신: 2026-09-29
 - 관련 문서: [docs/README.md](../README.md), [docs/work/W-003-main-collector-total-sync.md](W-003-main-collector-total-sync.md), [scripts/reclassify-news.ts](../../scripts/reclassify-news.ts), [scripts/collection-run.ts](../../scripts/collection-run.ts)
 
 ## 현재 상황
 
-W-003에서 후속 후보로 남긴 문제다. `pnpm run reclassify:news`는 재분류로 뉴스를 제거하면 최상위 `totalItems`만 고치고 `collectors.naver.totalItems`는 그대로 둬서, 실행 직후 `validate:data`가 실패했다. W-003의 건수 재계산을 공용 함수로 옮겨 재분류에도 적용했고, 데이터 복사본에서 수정 전후를 확인했다. 커밋·push와 CI 확인이 남았다.
+W-003에서 후속 후보로 남긴 문제다. `pnpm run reclassify:news`는 재분류로 뉴스를 제거하면 최상위 `totalItems`만 고치고 `collectors.naver.totalItems`는 그대로 둬서, 실행 직후 `validate:data`가 실패했다. W-003의 건수 재계산을 공용 함수로 옮겨 재분류에도 적용했고, 데이터 복사본에서 수정 전후를 확인했다. `50a33372`로 `main`에 반영했고 CI가 통과해 완료했다.
 
-- 완료 조건: 수정이 `main`에 반영돼 CI를 통과하고, 뉴스를 제거하는 `reclassify:news` 실행 뒤에도 `validate:data`가 통과한다(데이터 복사본에서 확인).
+- 완료 조건: 수정이 `main`에 반영돼 CI를 통과하고, 뉴스를 제거하는 `reclassify:news` 실행 뒤에도 `validate:data`가 통과한다(데이터 복사본에서 확인). — 충족
 - 사람이 판단할 사항: `reclassify:news`에 dry-run을 둘지, 아니면 문서를 지금 동작에 맞출지(아래 관찰 참고). 이 작업의 완료 조건과는 별개다.
 
 ## 진행과 판단
@@ -45,17 +45,18 @@ W-003을 닫은 뒤 "잔여 작업이 있으면 새 작업으로 진행"하라�
 - `pnpm test` — 통과(360개 테스트, 71개 스위트).
 - `pnpm run validate:data` — 통과(항목 7,887건).
 - `pnpm run build` — 통과.
-- CI — 미실행. 아직 커밋·push하지 않았다.
+- CI(run 36498835112, `50a33372`) — 통과. lint → typecheck → test → validate:data → build, 2026-09-28 23:35~23:38 UTC.
 
 ### 세션 메모
 
 - 2026-09-28 17:57 KST · Claude Code (Opus 5.5) — 원인 재현, 수정, 회귀 테스트, 로컬 검증까지 마쳤다. 미커밋. 다음 행동은 커밋·push 후 CI 확인이다.
+- 2026-09-29 08:38 KST · Claude Code (Opus 5.5) — 사용자 승인으로 커밋·push했다(봇 커밋 위로 rebase해 `50a33372`). CI가 통과해 완료 조건을 채웠고 상태를 `완료`로 바꿨다.
 
 ## 남은 일
 
 - [x] 데이터 복사본에서 원인 재현
 - [x] 공용 건수 재계산 함수로 수정하고 회귀 테스트 추가
 - [x] 로컬 검증(lint, typecheck, test, validate:data, build, 데이터 복사본 실행)
-- [ ] 커밋·push 후 CI 통과 확인
+- [x] 커밋·push 후 CI 통과 확인 — `50a33372`, run 36498835112
 
-재개에 필요한 코드 상태: `main`, HEAD `262ca659` 위의 미커밋 변경 — [scripts/collection-run.ts](../../scripts/collection-run.ts), [scripts/reclassify-news.ts](../../scripts/reclassify-news.ts), [tests/reclassify-news.test.ts](../../tests/reclassify-news.test.ts), 문서(이 파일, [docs/README.md](../README.md), [docs/specs.md](../specs.md)).
+재개에 필요한 코드 상태: 해당 없음. 수정은 `50a33372`로 `main`에 반영됐다. 후속으로 볼 것이 생긴다면 `reclassify:news`의 dry-run 여부다(위 관찰). 요청이 있을 때 새 작업으로 다룬다.
