@@ -46,6 +46,26 @@ function countCollectorItems(items: readonly RadarItem[], collectorId: Collector
   return items.filter((item) => itemBelongsToCollector(item, collectorId)).length;
 }
 
+// Retention and reclassification can remove items of any source type, and
+// validation checks each total against the stored items, so every total moves
+// with them; run time and status stay with each collector's own last run.
+export function refreshCollectorTotals(
+  collectors: CollectionState["collectors"],
+  items: readonly RadarItem[]
+): CollectionState["collectors"] {
+  if (!collectors) {
+    return undefined;
+  }
+  const refreshed = { ...collectors };
+  for (const id of ["naver", "official", "youtube"] as const) {
+    const collector = refreshed[id];
+    if (collector) {
+      refreshed[id] = { ...collector, totalItems: countCollectorItems(items, id) };
+    }
+  }
+  return refreshed;
+}
+
 function updateCollectorStates({
   previousState,
   items,
@@ -62,17 +82,8 @@ function updateCollectorStates({
   if (collectorResults.length === 0 && !previousState?.collectors) {
     return undefined;
   }
-  const collectors = { ...(previousState?.collectors ?? {}) };
-
-  // Retention prunes every source type, so a collector that did not run can
-  // still lose items. Validation checks each total against the stored items, so
-  // all totals move with them; run time and status stay with each collector.
-  for (const id of ["naver", "official", "youtube"] as const) {
-    const previous = collectors[id];
-    if (previous) {
-      collectors[id] = { ...previous, totalItems: countCollectorItems(items, id) };
-    }
-  }
+  // A collector that did not run can still lose items to retention.
+  const collectors = { ...refreshCollectorTotals(previousState?.collectors, items) };
 
   for (const { id, result } of collectorResults) {
     const previous = collectors[id];
