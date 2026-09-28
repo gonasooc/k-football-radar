@@ -51,8 +51,8 @@
       ],
       "earliestPublishedAt": 1790542920000,
       "latestPublishedAt": 1790542920000,
-      "representativeCollectedAt": 1790574829161,
-      "latestCollectedAt": 1790574829161
+      "representativeCollectedAt": 1790584004357,
+      "latestCollectedAt": 1790584004357
     }
   },
   {
@@ -175,8 +175,8 @@
       ],
       "earliestPublishedAt": 1790522640000,
       "latestPublishedAt": 1790522640000,
-      "representativeCollectedAt": 1790574829161,
-      "latestCollectedAt": 1790574829161
+      "representativeCollectedAt": 1790584004357,
+      "latestCollectedAt": 1790584004357
     }
   },
   {
@@ -234,8 +234,8 @@
       ],
       "earliestPublishedAt": 1790507400000,
       "latestPublishedAt": 1790507400000,
-      "representativeCollectedAt": 1790574829161,
-      "latestCollectedAt": 1790574829161
+      "representativeCollectedAt": 1790584004357,
+      "latestCollectedAt": 1790584004357
     }
   },
   {
@@ -320,8 +320,8 @@
       ],
       "earliestPublishedAt": 1790499300000,
       "latestPublishedAt": 1790499300000,
-      "representativeCollectedAt": 1790574829161,
-      "latestCollectedAt": 1790574829161
+      "representativeCollectedAt": 1790584004357,
+      "latestCollectedAt": 1790584004357
     }
   },
   {
@@ -356,7 +356,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.joongang.co.kr/article/25465012"
+      ],
+      "stories": [
+        "news|news|한 템포 쉰 이강인, 우루과이전 뜬다...모레노호 난적 상대 ‘진짜 시험...|joongang.co.kr|2026-09-27T08:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|한 템포 쉰 이강인, 우루과이전 뜬다...모레노호 난적 상대 ‘진짜 시험...|joongang.co.kr"
+      ],
+      "earliestPublishedAt": 1790497080000,
+      "latestPublishedAt": 1790497080000,
+      "representativeCollectedAt": 1790584004357,
+      "latestCollectedAt": 1790584004357
+    }
   },
   {
     "id": "item_a5856207593be3e1",
@@ -436,7 +452,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.asiatoday.co.kr/kn/view.php?key=20260927010009298"
+      ],
+      "stories": [
+        "news|news|'산뜻한 출발' 모레노호, 2연승 간다…손흥민 a매치 최다골 도전|asiatoday.co.kr|2026-09-27T04:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'산뜻한 출발' 모레노호, 2연승 간다…손흥민 a매치 최다골 도전|asiatoday.co.kr"
+      ],
+      "earliestPublishedAt": 1790484360000,
+      "latestPublishedAt": 1790484360000,
+      "representativeCollectedAt": 1790584004357,
+      "latestCollectedAt": 1790584004357
+    }
   },
   {
     "id": "item_2a23fac1b7ee9f56",
