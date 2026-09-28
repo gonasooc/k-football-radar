@@ -42,6 +42,10 @@ function itemBelongsToCollector(item: RadarItem, collectorId: CollectorId): bool
     : item.sourceType === collectorId;
 }
 
+function countCollectorItems(items: readonly RadarItem[], collectorId: CollectorId): number {
+  return items.filter((item) => itemBelongsToCollector(item, collectorId)).length;
+}
+
 function updateCollectorStates({
   previousState,
   items,
@@ -60,9 +64,19 @@ function updateCollectorStates({
   }
   const collectors = { ...(previousState?.collectors ?? {}) };
 
+  // Retention prunes every source type, so a collector that did not run can
+  // still lose items. Validation checks each total against the stored items, so
+  // all totals move with them; run time and status stay with each collector.
+  for (const id of ["naver", "official", "youtube"] as const) {
+    const previous = collectors[id];
+    if (previous) {
+      collectors[id] = { ...previous, totalItems: countCollectorItems(items, id) };
+    }
+  }
+
   for (const { id, result } of collectorResults) {
     const previous = collectors[id];
-    const totalItems = items.filter((item) => itemBelongsToCollector(item, id)).length;
+    const totalItems = countCollectorItems(items, id);
 
     if (result.attempted === 0) {
       collectors[id] = previous

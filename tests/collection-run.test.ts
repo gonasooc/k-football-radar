@@ -218,6 +218,94 @@ describe("collection run state", () => {
     });
   });
 
+  it("refreshes a collector that did not run when retention prunes its items", () => {
+    const newsItem = (id: string, publishedAt: string): RadarItem => ({
+      ...item(id, publishedAt),
+      type: "news",
+      sourceType: "news",
+      isOfficial: false
+    });
+    // Inside the window at the last news run, outside it by the YouTube run.
+    const agedOutNews = newsItem("aged-out-news", "2026-04-13T09:00:00.000Z");
+    const currentNews = newsItem("current-news", "2026-07-12T00:00:00.000Z");
+    const previousState: CollectionState = {
+      lastCollectedAt: "2026-07-12T08:00:00.000Z",
+      lastRunStatus: "success",
+      lastRunNewItems: 0,
+      totalItems: 2,
+      collectors: {
+        naver: {
+          lastCollectedAt: "2026-07-12T08:00:00.000Z",
+          lastRunStatus: "success",
+          lastRunNewItems: 0,
+          totalItems: 2
+        }
+      }
+    };
+    const youtubeRun = result({});
+    const update = prepareCollectionRun({
+      existingItems: [agedOutNews, currentNews],
+      results: [youtubeRun],
+      collectorResults: [{ id: "youtube", result: youtubeRun }],
+      previousState,
+      now: new Date("2026-07-12T12:00:00.000Z")
+    });
+
+    assert.deepEqual(
+      update.items.map((record) => record.id),
+      ["current-news"]
+    );
+    assert.deepEqual(update.state.collectors?.naver, {
+      ...previousState.collectors?.naver,
+      totalItems: 1
+    });
+  });
+
+  it("refreshes every stored collector total on a run without named collectors", () => {
+    const agedOutVideo: RadarItem = {
+      ...item("aged-out-video", "2026-04-13T09:00:00.000Z"),
+      type: "youtube",
+      sourceType: "youtube",
+      isOfficial: false,
+      url: "https://www.youtube.com/watch?v=video-1",
+      originalUrl: "https://www.youtube.com/watch?v=video-1",
+      youtube: {
+        videoId: "video-1",
+        channelId: "channel-1",
+        thumbnail: {
+          url: "https://i.ytimg.com/vi/video-1/hqdefault.jpg",
+          width: 480,
+          height: 360
+        },
+        durationSeconds: 90
+      }
+    };
+    const collectorState = {
+      lastCollectedAt: "2026-07-12T08:00:00.000Z",
+      lastRunStatus: "success",
+      lastRunNewItems: 0,
+      totalItems: 1
+    } as const;
+    const previousState: CollectionState = {
+      lastCollectedAt: "2026-07-12T08:00:00.000Z",
+      lastRunStatus: "success",
+      lastRunNewItems: 0,
+      totalItems: 2,
+      collectors: { official: collectorState, youtube: collectorState }
+    };
+    const update = prepareCollectionRun({
+      existingItems: [agedOutVideo, item("current-official")],
+      results: [result({})],
+      previousState,
+      now: new Date("2026-07-12T12:00:00.000Z")
+    });
+
+    assert.deepEqual(update.state.collectors, {
+      official: collectorState,
+      youtube: { ...collectorState, totalItems: 0 }
+    });
+  });
+
   it("merges successful items while retaining existing items on a partial run", () => {
     const update = prepareCollectionRun({
       existingItems: [item("existing")],
