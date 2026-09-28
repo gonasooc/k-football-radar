@@ -1,15 +1,15 @@
 # W-003 · 수집기별 건수 동기화
 
-- 상태: 진행 중
+- 상태: 완료
 - 최근 갱신: 2026-09-28
 - 관련 문서: [docs/README.md](../README.md), [docs/work/W-002-main-item-retention-review.md](W-002-main-item-retention-review.md), [scripts/collection-run.ts](../../scripts/collection-run.ts), [lib/validation.ts](../../lib/validation.ts)
 
 ## 현재 상황
 
-유튜브 수집 워크플로가 `validate:data`에서 `collection-state naver totalItems=… does not match items=…`로 간헐적으로 실패했다(2026-08-27부터 6회, 최근 09-26·27·28). 저장할 때 보존 정책은 모든 유형을 90일 창으로 정리하는데, 수집기별 `totalItems`는 이번에 돈 수집기만 다시 셌기 때문이다. 세 수집기의 `totalItems`를 모두 저장 항목에서 다시 세도록 고쳤고 로컬 검증까지 마쳤다. 커밋·push와 운영 실행 확인이 남았다.
+유튜브 수집 워크플로가 `validate:data`에서 `collection-state naver totalItems=… does not match items=…`로 간헐적으로 실패했다(2026-08-27부터 6회, 최근 09-26·27·28). 저장할 때 보존 정책은 모든 유형을 90일 창으로 정리하는데, 수집기별 `totalItems`는 이번에 돈 수집기만 다시 셌기 때문이다. 세 수집기의 `totalItems`를 모두 저장 항목에서 다시 세도록 고쳐 `421836bf`로 `main`에 반영했다. 뉴스 2건이 창을 벗어나는 시점에 유튜브 수집을 수동 실행해 통과를 확인했다(옛 코드라면 실패할 조건). 이어서 뉴스 수집도 수동 실행해 통과를 확인하고 완료했다.
 
-- 완료 조건: 수정이 `main`에 반영된 뒤 유튜브 수집과 뉴스 수집 실행이 각각 한 번 이상 `validate:data`를 통과한다.
-- 사람이 판단할 사항: 커밋·push 시점. [scripts/reclassify-news.ts](../../scripts/reclassify-news.ts)의 같은 문제를 후속 작업으로 고칠지.
+- 완료 조건: 수정이 `main`에 반영된 뒤 유튜브 수집과 뉴스 수집 실행이 각각 한 번 이상 `validate:data`를 통과한다. — 충족
+- 사람이 판단할 사항: [scripts/reclassify-news.ts](../../scripts/reclassify-news.ts)의 같은 문제를 후속 작업으로 고칠지. 이 작업의 완료 조건과는 별개다.
 
 ## 진행과 판단
 
@@ -64,21 +64,31 @@
 - `pnpm run lint`, `pnpm run typecheck` — 통과.
 - `pnpm test` — 통과(359개 테스트, 70개 스위트).
 - `pnpm run validate:data` — 통과(항목 7,887건, 묶음 848개).
-- `pnpm run build` — 미실행. 앱 코드는 `scripts/`를 import하지 않는다. push 후 CI에서 확인한다.
-- 운영 실행 확인 — 미실행. 아직 커밋·push하지 않았다.
+- `pnpm run build` — 통과(커밋 전 확인).
+- CI(run 36396394519, `421836bf`) — 통과. lint → typecheck → test → validate:data → build, 2026-09-28 08:16~08:19 UTC.
+- 유튜브 수집 수동 실행(run 36396447481, 2026-09-28 08:17~08:21 UTC) — 통과.
+  - dispatch 전에 저장 시점(약 08:20 UTC)에 뉴스 2건이 창을 벗어나는 것을 계산해 두었다. 옛 코드라면 `naver totalItems=7341 does not match items=7339`로 실패할 조건이다.
+  - `421836b`로 동기화한 뒤 영상 3건을 병합했고, `validate:data`가 항목 7,887건으로 통과했다. `c6e6fd06`으로 커밋하고 R2 snapshot(수집 시각 08:18:58.222Z)을 발행했다.
+  - 커밋된 `collection-state.json`에서 `naver.totalItems`만 7341 → 7339로 바뀌었고, naver의 시각·상태는 05:53:48Z 뉴스 실행 값 그대로였다. youtube는 541 → 543.
+  - `/api/health`가 `data.source: "r2"`, `stale: false`, snapshot `2026-09-28T08:18:58.222Z`를 반환했다.
+- 뉴스 수집 수동 실행(run 36397355589, 2026-09-28 08:26~08:32 UTC) — 통과.
+  - `c6e6fd0`으로 동기화한 뒤 신규 1건, 전체 7,887건으로 저장했고 `validate:data`가 통과했다. `d37da09c`로 커밋하고 R2 snapshot(수집 시각 08:26:43.898Z)을 발행했다.
+  - 커밋된 `collection-state.json`에서 naver·official의 시각과 신규 수만 바뀌었다. youtube의 시각·상태·신규 수·건수(08:18:58.222Z, success, 2, 543)는 그대로였다.
+  - `/api/health`가 `data.source: "r2"`, `stale: false`, snapshot `2026-09-28T08:26:43.898Z`를 반환했다.
 
 ### 세션 메모
 
 - 2026-09-28 17:05 KST · Claude Code (Opus 5.5) — 로그 분석, 원인 재현, 수정과 회귀 테스트, 로컬 검증까지 마쳤다. 미커밋. 다음 행동은 커밋·push 후 유튜브 수집 실행 확인이다.
+- 2026-09-28 17:23 KST · Claude Code (Opus 5.5) — 사용자 승인으로 `421836bf`를 커밋·push했다. CI와 유튜브 수집 수동 실행이 통과해 운영 반영을 확인했다. 다음 행동은 뉴스 수집 실행 확인 후 작업 종료다.
+- 2026-09-28 17:34 KST · Claude Code (Opus 5.5) — 사용자 요청으로 뉴스 수집을 수동 실행해 통과를 확인했다. 완료 조건을 채워 상태를 `완료`로 바꿨다.
 
 ## 남은 일
 
 - [x] 실패 로그 분석과 실제 데이터로 원인 재현
 - [x] 수집기별 `totalItems` 동기화 수정과 회귀 테스트 추가
 - [x] 로컬 검증(lint, typecheck, test, validate:data, 실제 데이터 재현)
-- [ ] 커밋·push. 수집 봇이 계속 `main`에 커밋하므로 push 전에 `git pull --rebase`가 필요하다
-- [ ] push 후 유튜브 수집 실행이 `validate:data`를 통과하는지 확인. 예약 실행을 기다리지 않으려면 `gh workflow run "Collect Korea Football Radar YouTube Data"`
-- [ ] 같은 코드로 뉴스 수집 실행도 통과하는지 확인
-- [ ] (후속 후보) `scripts/reclassify-news.ts`의 `collectors.naver.totalItems` 동기화
+- [x] 커밋·push — `421836bf`
+- [x] push 후 유튜브 수집 실행이 `validate:data`를 통과하는지 확인 — run 36396447481, 뉴스 2건 재계산
+- [x] 같은 코드로 뉴스 수집 실행도 통과하는지 확인 — run 36397355589
 
-재개에 필요한 코드 상태: `main`, HEAD `378e1617` 위의 미커밋 변경 — [scripts/collection-run.ts](../../scripts/collection-run.ts), [tests/collection-run.test.ts](../../tests/collection-run.test.ts), 문서(이 파일, [docs/README.md](../README.md), [docs/specs.md](../specs.md)).
+재개에 필요한 코드 상태: 해당 없음. 수정은 `421836bf`로 `main`에 반영됐다. 후속으로 볼 것이 생긴다면 [scripts/reclassify-news.ts](../../scripts/reclassify-news.ts)의 `collectors.naver.totalItems` 동기화다. 요청이 있을 때 새 작업으로 다룬다.
