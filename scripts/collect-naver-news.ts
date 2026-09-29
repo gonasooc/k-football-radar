@@ -1971,6 +1971,7 @@ async function run(): Promise<void> {
   const update = await persistCollectionRun({
     existingItems: items,
     results: [result],
+    collectorResults: [{ id: "naver", result }],
     filterItems: (candidateItems) =>
       reclassifyAndFilterNewsItemsForCollection({
         items: candidateItems,

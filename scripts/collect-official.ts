@@ -560,7 +560,11 @@ async function run(): Promise<void> {
     readPeople()
   ]);
   const result = await collectOfficialSourcesRun({ sources, issues, people });
-  const update = await persistCollectionRun({ existingItems: items, results: [result] });
+  const update = await persistCollectionRun({
+    existingItems: items,
+    results: [result],
+    collectorResults: [{ id: "official", result }]
+  });
   console.log(
     `Official collector merged ${result.items.length} candidate items (${result.succeeded}/${result.attempted} sources succeeded, status ${update.state.lastRunStatus})`
   );
