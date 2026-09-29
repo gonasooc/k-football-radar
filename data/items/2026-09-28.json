@@ -24,7 +24,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ytn.co.kr/_ln/0101_202609290738462960"
+      ],
+      "stories": [
+        "news|news|박균택 \"조희대, 탄핵 명분 충분... 충분한 응징 가해야\"|ytn.co.kr|2026-09-28T22:38:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박균택 \"조희대, 탄핵 명분 충분... 충분한 응징 가해야\"|ytn.co.kr"
+      ],
+      "earliestPublishedAt": 1790635080000,
+      "latestPublishedAt": 1790635080000,
+      "representativeCollectedAt": 1790667060201,
+      "latestCollectedAt": 1790667060201
+    }
   },
   {
     "id": "item_190a4536894e6992",
@@ -246,8 +262,8 @@
       ],
       "earliestPublishedAt": 1790603640000,
       "latestPublishedAt": 1790603640000,
-      "representativeCollectedAt": 1790644596246,
-      "latestCollectedAt": 1790644596246
+      "representativeCollectedAt": 1790667060201,
+      "latestCollectedAt": 1790667060201
     }
   },
   {
@@ -293,8 +309,8 @@
       ],
       "earliestPublishedAt": 1790603520000,
       "latestPublishedAt": 1790603520000,
-      "representativeCollectedAt": 1790644596246,
-      "latestCollectedAt": 1790644596246
+      "representativeCollectedAt": 1790667060201,
+      "latestCollectedAt": 1790667060201
     }
   },
   {
@@ -366,8 +382,8 @@
       ],
       "earliestPublishedAt": 1790593980000,
       "latestPublishedAt": 1790593980000,
-      "representativeCollectedAt": 1790644596246,
-      "latestCollectedAt": 1790644596246
+      "representativeCollectedAt": 1790667060201,
+      "latestCollectedAt": 1790667060201
     }
   },
   {
@@ -424,8 +440,8 @@
       ],
       "earliestPublishedAt": 1790592720000,
       "latestPublishedAt": 1790592720000,
-      "representativeCollectedAt": 1790644596246,
-      "latestCollectedAt": 1790644596246
+      "representativeCollectedAt": 1790667060201,
+      "latestCollectedAt": 1790667060201
     }
   },
   {
@@ -481,8 +497,8 @@
       ],
       "earliestPublishedAt": 1790589360000,
       "latestPublishedAt": 1790589360000,
-      "representativeCollectedAt": 1790644596246,
-      "latestCollectedAt": 1790644596246
+      "representativeCollectedAt": 1790667060201,
+      "latestCollectedAt": 1790667060201
     }
   },
   {
@@ -533,8 +549,8 @@
       ],
       "earliestPublishedAt": 1790587800000,
       "latestPublishedAt": 1790587800000,
-      "representativeCollectedAt": 1790644596246,
-      "latestCollectedAt": 1790644596246
+      "representativeCollectedAt": 1790667060201,
+      "latestCollectedAt": 1790667060201
     }
   },
   {
@@ -595,8 +611,8 @@
       ],
       "earliestPublishedAt": 1790587680000,
       "latestPublishedAt": 1790587680000,
-      "representativeCollectedAt": 1790644596246,
-      "latestCollectedAt": 1790644596246
+      "representativeCollectedAt": 1790667060201,
+      "latestCollectedAt": 1790667060201
     }
   },
   {
@@ -729,8 +745,8 @@
       ],
       "earliestPublishedAt": 1790556900000,
       "latestPublishedAt": 1790556900000,
-      "representativeCollectedAt": 1790644596246,
-      "latestCollectedAt": 1790644596246
+      "representativeCollectedAt": 1790667060201,
+      "latestCollectedAt": 1790667060201
     }
   }
 ]
