@@ -2,7 +2,10 @@ import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 
 import type { CollectionState, RadarItem } from "../lib/schema";
-import { prepareNewsReclassification } from "../scripts/reclassify-news";
+import {
+  buildNewsReclassificationReport,
+  prepareNewsReclassification
+} from "../scripts/reclassify-news";
 
 function item(id: string, sourceType: "news" | "official", title: string): RadarItem {
   return {
@@ -61,6 +64,38 @@ describe("stored news reclassification", () => {
         naver: { ...collectorState, totalItems: 0 },
         official: collectorState
       }
+    });
+  });
+
+  it("reports removed and re-tiered news by ID without counting other sources", () => {
+    const secondary = (record: RadarItem): RadarItem => ({
+      ...record,
+      relevanceTier: "secondary"
+    });
+    const kept = item("kept", "news", "유지");
+    const demoted = item("demoted", "news", "강등");
+    const promoted = secondary(item("promoted", "news", "승격"));
+    const removed = item("removed", "news", "제거");
+    const official = item("official", "official", "공식 발표");
+
+    const report = buildNewsReclassificationReport({
+      items: [kept, demoted, promoted, removed, official],
+      reclassifiedItems: [
+        kept,
+        secondary(demoted),
+        { ...promoted, relevanceTier: undefined },
+        official
+      ],
+      now: new Date("2026-09-29T00:00:00.000Z")
+    });
+
+    assert.deepEqual(report, {
+      generatedAt: "2026-09-29T00:00:00.000Z",
+      beforeNews: 4,
+      afterNews: 3,
+      removed: ["removed"],
+      promotedToPrimary: ["promoted"],
+      demotedToSecondary: ["demoted"]
     });
   });
 });

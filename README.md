@@ -51,7 +51,10 @@ pnpm run rebuild:story-clusters
 
 `reclassify:news`는 저장된 뉴스의 제목과 요약을 현재 관련도 규칙으로 다시
 분류하고, 기준에서 벗어난 항목을 제거합니다. 이슈 규칙이나 관련도 정책을
-바꾼 뒤 기존 데이터까지 일관되게 갱신할 때 사용합니다.
+바꾼 뒤 기존 데이터까지 일관되게 갱신할 때 사용합니다. 기본은 dry-run으로
+제거·등급 변경 대상 ID만 `reports/news-reclassification-dry-run.json`에
+기록합니다. 결과를 검토한 뒤 `pnpm run reclassify:news -- --apply --confirm`으로
+적용합니다.
 
 뉴스 묶음은 36시간 안에 발행된 기사끼리 제목과 요약의 유사도, 공통 이슈·인물
 태그를 비교해 수집 시점에 다시 계산합니다. `41배`처럼 여러 발행처에서 짧은 시간에

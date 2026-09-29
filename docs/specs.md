@@ -29,7 +29,7 @@
 - 의미 키워드(`matchedKeywords`)와 수집에 사용한 검색어(`discoveryQueries`)를 섞지 않는다. 검색어로 찾았다는 사실은 관련도 근거가 아니다.
 - 관련도 판정은 제목 근거를 설명 근거보다 강하게 본다. 설명에만 근거가 있는 항목은 primary로 승격하지 않는다(`lib/classify.ts`).
 - 외부 응답은 Zod로 파싱한 뒤 사용한다. 공식자료 출처 하나의 fetch가 실패해도 전체 수집을 중단하지 않는다.
-- 기존 데이터를 바꾸는 스크립트는 기본이 dry-run이다. 적용하려면 `--apply --confirm`을 명시해야 한다(`scripts/reclassify-youtube.ts`).
+- 기존 데이터를 바꾸는 스크립트는 기본이 dry-run이다. 적용하려면 `--apply --confirm`을 명시해야 한다(`scripts/reclassify-youtube.ts`, `scripts/reclassify-news.ts`, `scripts/restore-evicted-news.ts`).
 - 항목을 저장할 때 `data/collection-state.json`의 수집기별 `totalItems`는 이번에 돌지 않은 수집기까지 모두 저장 항목에서 다시 센다. 보존 정책이 실행마다 모든 유형을 정리하고, `validate:data`가 수집기별 건수를 실제 항목 수와 비교하기 때문이다. 시각·상태·신규 수는 해당 수집기가 돌 때만 바꾼다. 공용 함수는 `scripts/collection-run.ts`의 `refreshCollectorTotals`다(근거 [docs/work/W-003-main-collector-total-sync.md](work/W-003-main-collector-total-sync.md), [docs/work/W-004-main-reclassify-news-total-sync.md](work/W-004-main-reclassify-news-total-sync.md)).
 - 새 파일을 만들 때 저장소의 컨벤션을 따른다. ESM(`"type": "module"`), 명시적 확장자 없는 `@/` 별칭 import, 서버 전용 코드는 `lib/feed-context.ts` 쪽에 둔다.
 - 테스트는 `node:test`와 `node:assert/strict`를 사용하고 파일명은 `tests/<주제>.test.ts`로 맞춘다. 외부 네트워크에 의존하지 않도록 fetch를 대체한다.

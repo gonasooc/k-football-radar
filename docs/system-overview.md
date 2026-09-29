@@ -45,9 +45,9 @@ tests/        단위 테스트
 
 각 폴더는 역할이 명확히 나뉜다. 화면은 `app/`와 `components/`가 담당하고, 수집과 데이터 가공은 `scripts/`와 `lib/`가 담당한다.
 
-`reports/`의 파일은 자동 반영되지 않는다. `report:youtube-channels`와
-`reclassify:youtube`가 만드는 검토용 산출물이며, 정책 변경은 사람이
-`data/youtube-channels.json`을 고쳐야 일어난다.
+`reports/`의 파일은 자동 반영되지 않는다. `report:youtube-channels`,
+`reclassify:youtube`, `reclassify:news`, `restore:news`가 만드는 검토용 산출물이며,
+채널 정책 변경은 사람이 `data/youtube-channels.json`을 고쳐야 일어난다.
 
 ## 3. 데이터 파일
 
