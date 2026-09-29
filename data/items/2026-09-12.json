@@ -55,8 +55,8 @@
       ],
       "earliestPublishedAt": 1789246560000,
       "latestPublishedAt": 1789246560000,
-      "representativeCollectedAt": 1790710745468,
-      "latestCollectedAt": 1790710745468
+      "representativeCollectedAt": 1790723540676,
+      "latestCollectedAt": 1790723540676
     }
   },
   {
@@ -520,14 +520,16 @@
     "id": "item_f467b867e82d1028",
     "type": "news",
     "title": "수첩을 펼친 3초, 카메라는 놓치지 않았다 — 김민석 대표 ‘메모 사진...",
-    "summary": "정작 당사자인 김 대표는 당 공식 유튜브 채널에서 직접 해명 에 나섰습니다. 10일 아침 라이브 ‘민티07’에... 올해만 해도 야당 문체위원이 정몽규 전 대한 축구협회 장에게 보낸 문자, 청문회를 앞둔 김승원 법무부장관...",
+    "summary": "정작 당사자인 김 대표는 당 공식 유튜브 채널에서 직접 해명 에 나섰습니다. 10일 아침 라이브 ‘민티07’에... 올해만 해도 야당 문체위원이 정몽규 전 대한축구협회장에게 보낸 문자, 청문회를 앞둔 김승원 법무부장관...",
     "url": "https://www.donga.com/news/Politics/article/all/20260912/134654417/1",
     "originalUrl": "https://www.donga.com/news/Politics/article/all/20260912/134654417/1",
     "publisher": "donga.com",
     "publishedAt": "2026-09-12T04:01:00.000Z",
     "collectedAt": "2026-09-12T05:05:06.280Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
       "정몽규",
       "해명",
       "청문회"
@@ -541,13 +543,15 @@
       "축구협회 해명",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -566,8 +570,8 @@
       ],
       "earliestPublishedAt": 1789185660000,
       "latestPublishedAt": 1789185660000,
-      "representativeCollectedAt": 1790710745468,
-      "latestCollectedAt": 1790710745468
+      "representativeCollectedAt": 1790723540676,
+      "latestCollectedAt": 1790723540676
     }
   },
   {
