@@ -1,14 +1,14 @@
 # W-006 · 단독 수집의 수집기별 상태 갱신
 
-- 상태: 진행 중
+- 상태: 완료
 - 최근 갱신: 2026-09-29
 - 관련 문서: [docs/README.md](../README.md), [docs/work/W-004-main-reclassify-news-total-sync.md](W-004-main-reclassify-news-total-sync.md), [scripts/collect-naver-news.ts](../../scripts/collect-naver-news.ts), [scripts/collect-official.ts](../../scripts/collect-official.ts), [scripts/collection-run.ts](../../scripts/collection-run.ts)
 
 ## 현재 상황
 
-W-004에서 관찰한 문제다. `collect:naver`, `collect:official`을 단독으로 실행하면 최상위 시각·상태만 바뀌었다. `collectors.naver`·`collectors.official`의 시각·상태·신규 수는 이전 실행 값으로 남았다. 두 스크립트가 `persistCollectionRun`에 수집기 결과를 넘기지 않았기 때문이다. 넘기도록 고쳤고, 데이터 복사본에서 가짜 fetch로 실제 스크립트를 실행해 확인했다. 커밋·push와 CI 확인이 남았다.
+W-004에서 관찰한 문제다. `collect:naver`, `collect:official`을 단독으로 실행하면 최상위 시각·상태만 바뀌었다. `collectors.naver`·`collectors.official`의 시각·상태·신규 수는 이전 실행 값으로 남았다. 두 스크립트가 `persistCollectionRun`에 수집기 결과를 넘기지 않았기 때문이다. 넘기도록 고쳤고, 데이터 복사본에서 가짜 fetch로 실제 스크립트를 실행해 확인했다. `bd83bac5`로 `main`에 반영했고 CI가 통과해 완료했다.
 
-- 완료 조건: 단독 실행 뒤 해당 수집기의 시각·상태·신규 수가 그 실행 값으로 바뀌고 `validate:data`가 통과한다(데이터 복사본에서 확인). 수정이 `main`에 반영돼 CI를 통과한다.
+- 완료 조건: 단독 실행 뒤 해당 수집기의 시각·상태·신규 수가 그 실행 값으로 바뀌고 `validate:data`가 통과한다(데이터 복사본에서 확인). 수정이 `main`에 반영돼 CI를 통과한다. — 충족
 - 사람이 판단할 사항: 없음.
 
 ## 진행과 판단
@@ -43,17 +43,18 @@ W-004를 닫으며 보고한 두 후속 후보 중 하나다. 다른 하나는 [
   - 두 실행 모두 `validate:data`가 통과했다.
 - 네트워크와 API 키는 쓰지 않았다. 가짜 fetch를 먼저 불러와 네이버 검색 96회에 빈 결과를, 공식자료 3회에 빈 HTML을 돌려줬다. 복사본은 세션 임시 폴더에 만들었고 저장소 데이터는 바뀌지 않았다.
 - W-005와 함께 확인한 전체 검증 — 통과. `pnpm run lint`, `pnpm run typecheck`, `pnpm test`(361개 테스트, 71개 스위트), `pnpm run validate:data`(7,889건), `pnpm run build`.
-- CI — 미실행. 아직 커밋·push하지 않았다.
+- CI(run 36501036763, `bd83bac5`) — 통과. lint → typecheck → test → validate:data → build, 2026-09-29 00:01~00:04 UTC.
 
 ### 세션 메모
 
 - 2026-09-29 08:58 KST · Claude Code (Opus 5.5) — 원인 재현, 수정, 데이터 복사본 확인까지 마쳤다. 미커밋. 다음 행동은 커밋·push 후 CI 확인이다.
+- 2026-09-29 09:05 KST · Claude Code (Opus 5.5) — 사용자 승인으로 `bd83bac5`를 커밋·push했다. CI가 통과해 완료 조건을 채웠고 상태를 `완료`로 바꿨다.
 
 ## 남은 일
 
 - [x] 데이터 복사본에서 원인 재현
 - [x] 두 단독 스크립트가 수집기 결과를 넘기도록 수정
 - [x] 데이터 복사본에서 수정 확인
-- [ ] 커밋·push 후 CI 통과 확인
+- [x] 커밋·push 후 CI 통과 확인 — `bd83bac5`, run 36501036763
 
-재개에 필요한 코드 상태: `main`, HEAD `5097e49c` 위의 미커밋 변경 — [scripts/collect-naver-news.ts](../../scripts/collect-naver-news.ts), [scripts/collect-official.ts](../../scripts/collect-official.ts), 문서(이 파일, [docs/README.md](../README.md)).
+재개에 필요한 코드 상태: 해당 없음. 수정은 `bd83bac5`로 `main`에 반영됐다.

@@ -1,14 +1,14 @@
 # W-005 · 뉴스 재분류 dry-run 도입
 
-- 상태: 진행 중
+- 상태: 완료
 - 최근 갱신: 2026-09-29
 - 관련 문서: [docs/README.md](../README.md), [docs/work/W-004-main-reclassify-news-total-sync.md](W-004-main-reclassify-news-total-sync.md), [scripts/reclassify-news.ts](../../scripts/reclassify-news.ts), [docs/specs.md](../specs.md)
 
 ## 현재 상황
 
-W-004에서 관찰한 불일치를 해소하는 작업이다. `pnpm run reclassify:news`는 실행하면 바로 데이터를 고쳐 썼지만, [docs/specs.md](../specs.md)와 [AGENTS.md](../../AGENTS.md)는 이 명령에 dry-run이 있는 것처럼 적고 있었다. `reclassify:youtube`와 같은 방식으로 기본 dry-run을 넣었고, 데이터 복사본에서 세 가지 실행 방식을 확인했다. 커밋·push와 CI 확인이 남았다.
+W-004에서 관찰한 불일치를 해소하는 작업이다. `pnpm run reclassify:news`는 실행하면 바로 데이터를 고쳐 썼지만, [docs/specs.md](../specs.md)와 [AGENTS.md](../../AGENTS.md)는 이 명령에 dry-run이 있는 것처럼 적고 있었다. `reclassify:youtube`와 같은 방식으로 기본 dry-run을 넣었고, 데이터 복사본에서 세 가지 실행 방식을 확인했다. `6a0f6044`로 `main`에 반영했고 CI가 통과해 완료했다.
 
-- 완료 조건: 기본 실행은 데이터를 바꾸지 않고 보고서만 만들며, `--apply --confirm`일 때만 적용한다. 수정이 `main`에 반영돼 CI를 통과한다.
+- 완료 조건: 기본 실행은 데이터를 바꾸지 않고 보고서만 만들며, `--apply --confirm`일 때만 적용한다. 수정이 `main`에 반영돼 CI를 통과한다. — 충족
 - 사람이 판단할 사항: 없음.
 
 ## 진행과 판단
@@ -40,17 +40,18 @@ W-004를 닫으며 두 가지 후속 후보를 보고했다. 하나는 dry-run �
   - `--apply --confirm`: 적용하고 apply 보고서를 썼으며 `validate:data`가 항목 7,889건으로 통과했다.
   - 복사본은 세션 임시 폴더에 만들었고 저장소의 `data/`·`reports/`는 바뀌지 않았다.
 - W-006과 함께 확인한 전체 검증 — 통과. `pnpm run lint`, `pnpm run typecheck`, `pnpm test`(361개 테스트, 71개 스위트), `pnpm run validate:data`(7,889건), `pnpm run build`, W-003 실제 데이터 재현 4건.
-- CI — 미실행. 아직 커밋·push하지 않았다.
+- CI(run 36501036763, `bd83bac5`) — 통과. lint → typecheck → test → validate:data → build, 2026-09-29 00:01~00:04 UTC. 이 작업의 커밋 `6a0f6044`를 포함한 HEAD 기준이다.
 
 ### 세션 메모
 
 - 2026-09-29 08:58 KST · Claude Code (Opus 5.5) — 구현, 테스트, 데이터 복사본 확인, 문서 갱신까지 마쳤다. 미커밋. 다음 행동은 커밋·push 후 CI 확인이다.
+- 2026-09-29 09:05 KST · Claude Code (Opus 5.5) — 사용자 승인으로 `6a0f6044`를 커밋·push했다. CI가 통과해 완료 조건을 채웠고 상태를 `완료`로 바꿨다.
 
 ## 남은 일
 
 - [x] dry-run·`--apply --confirm` 구현과 보고서 테스트 추가
 - [x] 데이터 복사본에서 세 가지 실행 방식 확인
 - [x] README·system-overview·specs 갱신
-- [ ] 커밋·push 후 CI 통과 확인
+- [x] 커밋·push 후 CI 통과 확인 — `6a0f6044`, run 36501036763
 
-재개에 필요한 코드 상태: `main`, HEAD `5097e49c` 위의 미커밋 변경 — [scripts/reclassify-news.ts](../../scripts/reclassify-news.ts), [tests/reclassify-news.test.ts](../../tests/reclassify-news.test.ts), 문서(이 파일, [README.md](../../README.md), [docs/system-overview.md](../system-overview.md), [docs/specs.md](../specs.md), [docs/README.md](../README.md)).
+재개에 필요한 코드 상태: 해당 없음. 수정은 `6a0f6044`로 `main`에 반영됐다.
