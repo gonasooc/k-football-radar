@@ -1,5 +1,32 @@
 [
   {
+    "id": "item_e36197db3e9bbe37",
+    "type": "news",
+    "title": "[내일을 열며] 예술단체장 밀실 인사 개혁을",
+    "summary": "앞서 이재명 대통령은 대한 축구협회 의 불투명한 사유화와 인선 난맥상을 두고 공정과 쇄신의 칼날을... 공개하는 제도 가 선행되어야 한다. 예술행정 선진화는 기관 통합이나 조직 개편 만으로 완성되지 않는다. 예술의...",
+    "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000018798&cp=nv",
+    "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=9000018798&cp=nv",
+    "publisher": "kmib.co.kr",
+    "publishedAt": "2026-09-30T15:40:00.000Z",
+    "collectedAt": "2026-09-30T16:05:56.914Z",
+    "matchedKeywords": [
+      "대한 축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회",
+      "축구 혁신",
+      "축구협회 제도 개편",
+      "축구협회 혁신위원회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_662244ec7306f168",
     "type": "news",
     "title": "국민의힘, '암살자(들)' 맹공…\"'건국전쟁' 때는 참고인 불렀다\"",
@@ -25,7 +52,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.bbsi.co.kr/news/articleView.html?idxno=4109421"
+      ],
+      "stories": [
+        "news|news|국민의힘, '암살자(들)' 맹공…\"'건국전쟁' 때는 참고인 불렀다\"|news.bbsi.co.kr|2026-09-30T03:12:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|국민의힘, '암살자(들)' 맹공…\"'건국전쟁' 때는 참고인 불렀다\"|news.bbsi.co.kr"
+      ],
+      "earliestPublishedAt": 1790737920000,
+      "latestPublishedAt": 1790737920000,
+      "representativeCollectedAt": 1790784356914,
+      "latestCollectedAt": 1790784356914
+    }
   },
   {
     "id": "item_73ee1ce49b496bf1",
@@ -65,8 +108,8 @@
       ],
       "earliestPublishedAt": 1790727360000,
       "latestPublishedAt": 1790727360000,
-      "representativeCollectedAt": 1790758859406,
-      "latestCollectedAt": 1790758859406
+      "representativeCollectedAt": 1790784356914,
+      "latestCollectedAt": 1790784356914
     }
   }
 ]
