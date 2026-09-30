@@ -24,7 +24,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kmib.co.kr/article/view.asp?arcid=9000018798&cp=nv"
+      ],
+      "stories": [
+        "news|news|[내일을 열며] 예술단체장 밀실 인사 개혁을|kmib.co.kr|2026-09-30T15:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[내일을 열며] 예술단체장 밀실 인사 개혁을|kmib.co.kr"
+      ],
+      "earliestPublishedAt": 1790782800000,
+      "latestPublishedAt": 1790782800000,
+      "representativeCollectedAt": 1790802065075,
+      "latestCollectedAt": 1790802065075
+    }
   },
   {
     "id": "youtube_PIk6W8zhjvQ",
@@ -141,8 +157,8 @@
       ],
       "earliestPublishedAt": 1790737920000,
       "latestPublishedAt": 1790737920000,
-      "representativeCollectedAt": 1790784356914,
-      "latestCollectedAt": 1790784356914
+      "representativeCollectedAt": 1790802065075,
+      "latestCollectedAt": 1790802065075
     }
   },
   {
@@ -183,8 +199,8 @@
       ],
       "earliestPublishedAt": 1790727360000,
       "latestPublishedAt": 1790727360000,
-      "representativeCollectedAt": 1790784356914,
-      "latestCollectedAt": 1790784356914
+      "representativeCollectedAt": 1790802065075,
+      "latestCollectedAt": 1790802065075
     }
   }
 ]
