@@ -143,6 +143,22 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mk.co.kr/article/12165653"
+      ],
+      "stories": [
+        "news|news|정치 발언 안 한다던 한정수, ‘암살자들’ 논란에 한 말은…|mk.co.kr|2026-10-01T00:31:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|정치 발언 안 한다던 한정수, ‘암살자들’ 논란에 한 말은…|mk.co.kr"
+      ],
+      "earliestPublishedAt": 1790814660000,
+      "latestPublishedAt": 1790814660000,
+      "representativeCollectedAt": 1790840930453,
+      "latestCollectedAt": 1790840930453
+    }
   }
 ]
