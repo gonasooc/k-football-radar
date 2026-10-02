@@ -1,5 +1,33 @@
 [
   {
+    "id": "item_f78ec70afcc994a5",
+    "type": "news",
+    "title": "손가락질받던 홍명보 떠났는데 '한국 축구 무엇이 달라졌나'…\"머리 처...",
+    "summary": "이후 로베르트 모레노 감독 이 대표팀 의 새로운 지휘봉을 잡았다. A매치 4연전 라인업은 에콰도르(9월 24일), 우루과이(9월 28일), 베네수엘라(2일), 우즈베키스탄(6일)이다. 우리 대표팀 이 이기지 못할 압도적인 강팀은...",
+    "url": "https://www.sportschosun.com/football/2026-10-03/202610030100018840000983",
+    "originalUrl": "https://www.sportschosun.com/football/2026-10-03/202610030100018840000983",
+    "publisher": "sportschosun.com",
+    "publishedAt": "2026-10-02T21:57:00.000Z",
+    "collectedAt": "2026-10-02T22:34:06.238Z",
+    "matchedKeywords": [
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 8,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "youtube_oUgVfDgrZIo",
     "type": "youtube",
     "title": "[축구] 대한축구협회 KFA 싸인볼 축구공 가로 롱폼",
@@ -58,6 +86,51 @@
     }
   },
   {
+    "id": "item_5399c33f94e29cc1",
+    "type": "news",
+    "title": "김민재 작심 인터뷰+손흥민·황인범 반응, 삐걱대는 한국 축구",
+    "summary": "현재 대한 축구협회 (KFA)는 수장 공백이 이어지고 있다. 정몽규 전 회장이 지난 7월 사퇴한 뒤 현재 이용수 부회장 이 회장 직무대행을 맡고 있다. 차기 회장 선거도 곧바로 치러지지 않았다. 행정을 이끌 회장은 물론 오는...",
+    "url": "https://www.newsq.co.kr/news/articleView.html?idxno=500356",
+    "originalUrl": "https://www.newsq.co.kr/news/articleView.html?idxno=500356",
+    "publisher": "newsq.co.kr",
+    "publishedAt": "2026-10-02T15:48:00.000Z",
+    "collectedAt": "2026-10-02T22:34:06.238Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "KFA",
+      "회장 선거",
+      "부회장",
+      "정몽규",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 대한축구협회",
+      "\"이용수\" 선거",
+      "\"이용수\" 축구협회",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "대한축구협회",
+      "축구협회 부회장",
+      "축구협회 회장 선거",
+      "KFA"
+    ],
+    "issueTags": [
+      "election",
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 19,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_861d3e5a12af898b",
     "type": "news",
     "title": "\"왜 졌어요?\"→\"왜 비겼어요?\" 홍명보 떠나면 천지개벽! 주소 틀린 현실...",
@@ -90,7 +163,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-10-02/202610020100017950000928"
+      ],
+      "stories": [
+        "news|news|\"왜 졌어요?\"→\"왜 비겼어요?\" 홍명보 떠나면 천지개벽! 주소 틀린 현실...|sportschosun.com|2026-10-02T13:24:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"왜 졌어요?\"→\"왜 비겼어요?\" 홍명보 떠나면 천지개벽! 주소 틀린 현실...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1790947440000,
+      "latestPublishedAt": 1790947440000,
+      "representativeCollectedAt": 1790980446238,
+      "latestCollectedAt": 1790980446238
+    }
   },
   {
     "id": "item_68bbe235f3a9f63b",
@@ -130,8 +219,8 @@
       ],
       "earliestPublishedAt": 1790945640000,
       "latestPublishedAt": 1790945640000,
-      "representativeCollectedAt": 1790966539585,
-      "latestCollectedAt": 1790966539585
+      "representativeCollectedAt": 1790980446238,
+      "latestCollectedAt": 1790980446238
     }
   },
   {
@@ -177,8 +266,8 @@
       ],
       "earliestPublishedAt": 1790932800000,
       "latestPublishedAt": 1790932800000,
-      "representativeCollectedAt": 1790966539585,
-      "latestCollectedAt": 1790966539585
+      "representativeCollectedAt": 1790980446238,
+      "latestCollectedAt": 1790980446238
     }
   },
   {
@@ -233,8 +322,8 @@
       ],
       "earliestPublishedAt": 1790927640000,
       "latestPublishedAt": 1790927640000,
-      "representativeCollectedAt": 1790966539585,
-      "latestCollectedAt": 1790966539585
+      "representativeCollectedAt": 1790980446238,
+      "latestCollectedAt": 1790980446238
     }
   },
   {
@@ -277,8 +366,8 @@
       ],
       "earliestPublishedAt": 1790926200000,
       "latestPublishedAt": 1790926200000,
-      "representativeCollectedAt": 1790966539585,
-      "latestCollectedAt": 1790966539585
+      "representativeCollectedAt": 1790980446238,
+      "latestCollectedAt": 1790980446238
     }
   },
   {
@@ -321,8 +410,8 @@
       ],
       "earliestPublishedAt": 1790900760000,
       "latestPublishedAt": 1790900760000,
-      "representativeCollectedAt": 1790966539585,
-      "latestCollectedAt": 1790966539585
+      "representativeCollectedAt": 1790980446238,
+      "latestCollectedAt": 1790980446238
     }
   }
 ]
