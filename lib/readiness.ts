@@ -1,12 +1,26 @@
+import { z } from "zod";
+
 export type WorkflowConclusion = "success" | "failure" | "cancelled" | "skipped" | "unknown";
+
+export type WorkflowRun = {
+  conclusion: WorkflowConclusion;
+  createdAt?: string;
+};
 
 export type ReadinessInput = {
   secretNames: string[];
   variableNames: string[];
-  latestCiConclusion: WorkflowConclusion;
-  latestCollectConclusion: WorkflowConclusion;
-  latestYouTubeCollectConclusion: WorkflowConclusion;
+  latestCiRun: WorkflowRun;
+  latestCollectRun: WorkflowRun;
+  latestYouTubeCollectRun: WorkflowRun;
 };
+
+const workflowTimestampSchema = z.string().datetime({ offset: true });
+const HOUR_MS = 60 * 60 * 1000;
+// collect.yml runs hourly: allow two intervals plus one hour for scheduling/queue delays.
+const COLLECT_MAX_AGE_MS = 3 * HOUR_MS;
+// collect-youtube.yml runs every 12 hours: allow two intervals plus two hours of delay.
+const YOUTUBE_COLLECT_MAX_AGE_MS = 26 * HOUR_MS;
 
 export type ReadinessCheck = {
   id: string;
@@ -42,17 +56,45 @@ function configurationCheck({
   };
 }
 
-function workflowCheck(id: string, label: string, conclusion: WorkflowConclusion): ReadinessCheck {
-  const passed = conclusion === "success";
+function workflowCheck(
+  id: string,
+  label: string,
+  run: WorkflowRun,
+  now: number,
+  maxAgeMs?: number
+): ReadinessCheck {
+  if (run.conclusion !== "success") {
+    return { id, label, status: "fail", detail: `Latest main run conclusion: ${run.conclusion}` };
+  }
+
+  const timestamp = workflowTimestampSchema.safeParse(run.createdAt);
+  if (!timestamp.success || !Number.isFinite(now)) {
+    return { id, label, status: "fail", detail: "Latest main run has a missing or invalid timestamp" };
+  }
+  const ageMs = now - Date.parse(timestamp.data);
+  if (!Number.isFinite(ageMs)) {
+    return { id, label, status: "fail", detail: "Latest main run has an invalid timestamp" };
+  }
+  if (ageMs < 0) {
+    return { id, label, status: "fail", detail: "Latest main run timestamp is in the future" };
+  }
+  if (maxAgeMs !== undefined && ageMs > maxAgeMs) {
+    return {
+      id,
+      label,
+      status: "fail",
+      detail: `Latest main run is too old: created ${timestamp.data} (limit ${maxAgeMs / HOUR_MS}h)`
+    };
+  }
   return {
     id,
     label,
-    status: passed ? "pass" : "fail",
-    detail: passed ? "Latest run succeeded" : `Latest run conclusion: ${conclusion}`
+    status: "pass",
+    detail: `Latest main run succeeded: created ${timestamp.data}`
   };
 }
 
-export function evaluateReadiness(input: ReadinessInput): ReadinessReport {
+export function evaluateReadiness(input: ReadinessInput, now = Date.now()): ReadinessReport {
   const checks: ReadinessCheck[] = [
     configurationCheck({
       id: "naver-client-id",
@@ -103,16 +145,20 @@ export function evaluateReadiness(input: ReadinessInput): ReadinessReport {
       requiredName: "R2_BUCKET_NAME",
       type: "variable"
     }),
-    workflowCheck("ci-workflow", "Latest CI workflow", input.latestCiConclusion),
+    workflowCheck("ci-workflow", "Latest CI workflow", input.latestCiRun, now),
     workflowCheck(
       "collect-workflow",
       "Latest collect workflow",
-      input.latestCollectConclusion
+      input.latestCollectRun,
+      now,
+      COLLECT_MAX_AGE_MS
     ),
     workflowCheck(
       "youtube-collect-workflow",
       "Latest YouTube collect workflow",
-      input.latestYouTubeCollectConclusion
+      input.latestYouTubeCollectRun,
+      now,
+      YOUTUBE_COLLECT_MAX_AGE_MS
     )
   ];
 

@@ -121,9 +121,11 @@ fail-open 정책입니다. 현재 방송 중인 라이브, 예약 방송, 종료
 - `YOUTUBE_API_KEY` 저장소 시크릿
 - `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` 저장소 시크릿
 - `CLOUDFLARE_ACCOUNT_ID`, `R2_BUCKET_NAME` 저장소 변수
-- 최신 CI 워크플로 결과
-- 최신 수집 워크플로 결과
-- 최신 유튜브 수집 워크플로 결과
+- `main`의 최신 완료 CI 워크플로 결과
+- `main`의 최신 완료 뉴스·유튜브 수집 결과와 최근 실행 여부
+
+최신성 기준과 예약 지연 허용 범위는 [docs/system-overview.md](docs/system-overview.md)의
+‘준비 상태 확인’에서 관리합니다.
 
 이 명령은 GitHub CLI만 사용하므로 홈서버 상태는 확인하지 않습니다. 배포된 앱은
 `curl https://k-football-radar.app/api/health`로 따로 확인합니다.

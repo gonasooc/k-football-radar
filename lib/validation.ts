@@ -117,6 +117,14 @@ export function validateDataBundle({
   };
   for (const collectorId of ["naver", "official", "youtube"] as const) {
     const collector = collectionState.collectors?.[collectorId];
+    if (
+      collector?.collectionCursor &&
+      Date.parse(collector.collectionCursor) > Date.parse(collector.lastCollectedAt)
+    ) {
+      throw new Error(
+        `collection-state ${collectorId} cursor cannot exceed its last collection time`
+      );
+    }
     if (collector && collector.totalItems !== collectorCounts[collectorId]) {
       throw new Error(
         `collection-state ${collectorId} totalItems=${collector.totalItems} does not match items=${collectorCounts[collectorId]}`

@@ -15,6 +15,7 @@ export type CollectorRunResult = {
   attempted: number;
   succeeded: number;
   failed: number;
+  collectionCursor?: string | null;
 };
 
 export type CollectorId = "naver" | "official" | "youtube";
@@ -114,6 +115,12 @@ function updateCollectorStates({
       0
     );
     collectors[id] = {
+      ...(previous?.collectionCursor !== undefined
+        ? { collectionCursor: previous.collectionCursor }
+        : {}),
+      ...(result.collectionCursor !== undefined
+        ? { collectionCursor: result.collectionCursor }
+        : {}),
       lastCollectedAt:
         lastRunStatus === "failed" && previous
           ? previous.lastCollectedAt

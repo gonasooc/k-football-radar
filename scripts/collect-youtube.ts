@@ -8,6 +8,7 @@ import { getItemRetentionDays, isPublishedAtWithinRetention } from "../lib/item-
 import { hasLocalFootballAssociationContext } from "../lib/korean-localities";
 import { stripInlineHtml, truncateSummary } from "../lib/normalize";
 import type {
+  CollectorRunState,
   Issue,
   Person,
   RadarItem,
@@ -227,6 +228,17 @@ function parseOptionalDate(value: string | undefined, label: string): Date | und
     throw new Error(`${label} must be an ISO-8601 date`);
   }
   return parsed;
+}
+
+export function getYouTubeCollectionCursor(
+  state?: CollectorRunState
+): string | undefined {
+  if (state?.collectionCursor !== undefined) {
+    return state.collectionCursor ?? undefined;
+  }
+  // Older partial/failed runs may already have advanced lastCollectedAt past
+  // missing videos. Retry the backfill window when no reliable cursor exists.
+  return state?.lastRunStatus === "success" ? state.lastCollectedAt : undefined;
 }
 
 export function getYouTubeCollectionWindow({
@@ -507,16 +519,21 @@ export function reclassifyAndFilterYouTubeItemsForCollection({
   items,
   issues,
   people,
-  channelPolicy = EMPTY_YOUTUBE_CHANNEL_POLICY
+  channelPolicy = EMPTY_YOUTUBE_CHANNEL_POLICY,
+  formatCache
 }: {
   items: RadarItem[];
   issues: Issue[];
   people: Person[];
   channelPolicy?: YouTubeChannelPolicyFile;
+  formatCache?: YouTubeFormatCacheFile;
 }): RadarItem[] {
   return items.flatMap((item) => {
     if (item.sourceType !== "youtube") return [item];
     if (!item.youtube) return [];
+    if (formatCache?.entries[item.youtube.videoId]?.classification === "shorts") {
+      return [];
+    }
     const channelStatus = getVisibleYouTubeChannelStatus(
       channelPolicy,
       item.youtube.channelId
@@ -555,6 +572,7 @@ export function reclassifyAndFilterYouTubeItemsForCollection({
 }
 
 export type YouTubeCollectorRunResult = CollectorRunResult & {
+  collectionCursor: string | null;
   formatCache: YouTubeFormatCacheFile;
   shortsExcluded: number;
   unknownFormats: number;
@@ -575,8 +593,8 @@ export async function collectYouTubeRun({
   redirectProbeEnabled = process.env.YOUTUBE_SHORTS_REDIRECT_PROBE !== "false",
   maxPagesPerQuery = getYouTubeMaxPagesPerQuery(),
   maxPagesPerChannel = getYouTubeMaxPagesPerChannel(),
-  publishedAfter,
-  publishedBefore
+  publishedAfter = process.env.YOUTUBE_PUBLISHED_AFTER,
+  publishedBefore = process.env.YOUTUBE_PUBLISHED_BEFORE
 }: {
   issues: Issue[];
   people: Person[];
@@ -600,6 +618,7 @@ export async function collectYouTubeRun({
       attempted: 1,
       succeeded: 0,
       failed: 1,
+      collectionCursor: lastCollectedAt ?? null,
       formatCache,
       shortsExcluded: 0,
       unknownFormats: 0,
@@ -607,10 +626,12 @@ export async function collectYouTubeRun({
     };
   }
 
-  const window =
-    publishedAfter && publishedBefore
-      ? { publishedAfter, publishedBefore }
-      : getYouTubeCollectionWindow({ now, lastCollectedAt });
+  const window = getYouTubeCollectionWindow({
+    now,
+    lastCollectedAt,
+    explicitAfter: publishedAfter,
+    explicitBefore: publishedBefore
+  });
   const activeQueries = queries.filter((query) => query.enabled).slice(0, MAX_YOUTUBE_SEARCH_QUERIES);
   const preferredChannelIds = getPreferredYouTubeChannelIds(channelPolicy);
   const blockedChannelIds = getBlockedYouTubeChannelIds(channelPolicy);
@@ -870,6 +891,13 @@ export async function collectYouTubeRun({
     attempted,
     succeeded,
     failed,
+    // Manual backfills must not move the regular collection window, even when
+    // only one explicit bound was supplied. Failed batches need the same
+    // window on the next attempt, including a first-run 90-day backfill.
+    collectionCursor:
+      succeeded > 0 && failed === 0 && !publishedAfter && !publishedBefore
+        ? window.publishedBefore
+        : lastCollectedAt ?? null,
     formatCache,
     shortsExcluded,
     unknownFormats,
@@ -902,10 +930,7 @@ async function run(): Promise<void> {
     queries,
     channelPolicy,
     formatCache,
-    lastCollectedAt:
-      previousYouTubeState?.lastRunStatus === "never"
-        ? undefined
-        : previousYouTubeState?.lastCollectedAt
+    lastCollectedAt: getYouTubeCollectionCursor(previousYouTubeState)
   });
   const update = await persistCollectionRun({
     existingItems,
@@ -916,7 +941,8 @@ async function run(): Promise<void> {
         items,
         issues,
         people,
-        channelPolicy
+        channelPolicy,
+        formatCache: result.formatCache
       })
   });
   await writeYouTubeFormatCache(result.formatCache);

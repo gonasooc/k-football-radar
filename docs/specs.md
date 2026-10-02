@@ -31,6 +31,8 @@
 - 외부 응답은 Zod로 파싱한 뒤 사용한다. 공식자료 출처 하나의 fetch가 실패해도 전체 수집을 중단하지 않는다.
 - 기존 데이터를 바꾸는 스크립트는 기본이 dry-run이다. 적용하려면 `--apply --confirm`을 명시해야 한다(`scripts/reclassify-youtube.ts`, `scripts/reclassify-news.ts`, `scripts/restore-evicted-news.ts`).
 - 항목을 저장할 때 `data/collection-state.json`의 수집기별 `totalItems`는 이번에 돌지 않은 수집기까지 모두 저장 항목에서 다시 센다. 보존 정책이 실행마다 모든 유형을 정리하고, `validate:data`가 수집기별 건수를 실제 항목 수와 비교하기 때문이다. 시각·상태·신규 수는 해당 수집기가 돌 때만 바꾼다. 공용 함수는 `scripts/collection-run.ts`의 `refreshCollectorTotals`다(근거 [docs/work/W-003-main-collector-total-sync.md](work/W-003-main-collector-total-sync.md), [docs/work/W-004-main-reclassify-news-total-sync.md](work/W-004-main-reclassify-news-total-sync.md)).
+- 유튜브의 정기 수집 기준은 `collectors.youtube.collectionCursor`이며, 표시용 `lastCollectedAt`과 구분한다. 검색·상세 조회가 모두 성공한 정기 실행만 조회 종료 시각으로 전진시키고, 부분·전체 실패와 기간을 지정한 수동 실행은 이전 값을 유지한다. `null`은 아직 성공한 정기 구간이 없다는 뜻으로 최근 90일을 다시 조회한다. 필드가 없는 기존 상태는 `success`일 때만 `lastCollectedAt`을 기준으로 쓰고 나머지는 최근 90일을 재조회한다. 다른 수집기 실행과 재분류는 이 필드를 보존한다([scripts/collect-youtube.ts](../scripts/collect-youtube.ts), [scripts/collection-run.ts](../scripts/collection-run.ts), [docs/work/W-007-main-review-fixes.md](work/W-007-main-review-fixes.md)).
+- 일반 유튜브 수집에서도 기존 항목에 포맷 캐시의 확정 Shorts 판정을 적용한다. 캐시가 없거나 판정이 불명확하면 유지한다. 제품 정책은 [docs/plan.md](plan.md), 회귀 테스트는 [tests/youtube.test.ts](../tests/youtube.test.ts)를 따른다.
 - 새 파일을 만들 때 저장소의 컨벤션을 따른다. ESM(`"type": "module"`), 명시적 확장자 없는 `@/` 별칭 import, 서버 전용 코드는 `lib/feed-context.ts` 쪽에 둔다.
 - 테스트는 `node:test`와 `node:assert/strict`를 사용하고 파일명은 `tests/<주제>.test.ts`로 맞춘다. 외부 네트워크에 의존하지 않도록 fetch를 대체한다.
 - 비밀값은 코드·문서·테스트에 넣지 않는다. 로컬은 `.env`(Git 무시), CI는 GitHub Secrets, 운영은 `deploy/macos/production.env`를 사용한다.

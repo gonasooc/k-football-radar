@@ -12,6 +12,29 @@ import {
 import { createRemoteDataLoader } from "../lib/remote-data";
 
 describe("R2 data snapshots", () => {
+  it("round-trips completed and empty collection cursors independently of the displayed timestamp", () => {
+    for (const collectionCursor of [null, "2026-07-10T00:00:00.000Z"]) {
+      const lastCollectedAt = "2026-07-17T00:00:00.000Z";
+      const snapshot = serializeDataSnapshot({
+        items: [], people: [], issues: [],
+        sources: [{
+          id: "official", name: "공식자료", type: "official",
+          url: "https://example.com", enabled: true
+        }],
+        collectionState: {
+          lastCollectedAt, lastRunStatus: "partial", lastRunNewItems: 0, totalItems: 0,
+          collectors: { youtube: {
+            lastCollectedAt, collectionCursor,
+            lastRunStatus: "partial", lastRunNewItems: 0, totalItems: 0
+          } }
+        }
+      });
+      const parsed = parseDataSnapshot(snapshot.body, snapshot.manifest);
+      assert.equal(parsed.collectionState.collectors?.youtube?.collectionCursor, collectionCursor);
+      assert.equal(snapshot.manifest.collectedAt, lastCollectedAt);
+    }
+  });
+
   it("defaults old snapshots without story relationships to an empty v1 file", async () => {
     const oldBundle: Partial<Awaited<ReturnType<typeof getDataBundle>>> = {
       ...(await getDataBundle())

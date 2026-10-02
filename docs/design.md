@@ -36,6 +36,7 @@ UI의 시각적 기준과 상호작용·반응형·접근성 기준을 다룹니
 - 접근성 장치로 `본문으로 건너뛰기` 링크, `focus-ring`(accent outline, offset 2), 아이콘 버튼의 `aria-label`, 섹션의 `aria-labelledby`를 사용한다.
 - 기사 카드 변형은 `row`와 `compact` 둘이다. 태그 노출 한도는 각각 6개와 4개이고, 홈은 상위 3건과 다음 3건을 모두 `compact`로 배치한다(`components/HomeFeedSection.tsx`).
 - 목록 항목에 `content-visibility: auto`와 `contain-intrinsic-size`를 적용해 긴 피드의 렌더링 비용을 줄인다.
+- 이슈·인물 상세 목록은 유형을 바꾸면 이전 더보기와 snapshot 재조회 응답·오류를 무시한다. 새 유형의 항목·건수·로딩 상태를 이전 요청이 덮어쓰지 않도록 요청 식별자를 공유한다([components/PaginatedItemList.tsx](../components/PaginatedItemList.tsx), [tests/paginated-item-list.test.ts](../tests/paginated-item-list.test.ts), [docs/work/W-007-main-review-fixes.md](work/W-007-main-review-fixes.md), 2026-10-02 코드·동작 테스트 확인).
 - 헤더 로고는 다크 테마에서 `invert`와 `hue-rotate`로 반전한다. 원격 이미지는 유튜브 썸네일(`i.ytimg.com`)만 허용한다.
 
 ## 합의된 디자인 기준

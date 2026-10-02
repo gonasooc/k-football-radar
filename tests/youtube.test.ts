@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import { describe, it } from "node:test";
 
 import type {
+  CollectionState,
   Issue,
   Person,
   RadarItem,
@@ -12,12 +13,15 @@ import type {
 import {
   collectYouTubeRun,
   getYouTubeBackfillDays,
+  getYouTubeCollectionCursor,
   getYouTubeCollectionWindow,
   getYouTubeMaxPagesPerChannel,
   getYouTubeMaxPagesPerQuery,
   parseYouTubeDuration,
   reclassifyAndFilterYouTubeItemsForCollection
 } from "../scripts/collect-youtube";
+import { prepareCollectionRun } from "../scripts/collection-run";
+import { collectionStateSchema } from "../lib/schema";
 
 const issues: Issue[] = [
   {
@@ -82,6 +86,157 @@ function shortsHtml(videoId: string): string {
 }
 
 describe("YouTube collection window", () => {
+  it("migrates only successful legacy runs and preserves an explicitly empty cursor", () => {
+    const state = {
+      lastCollectedAt: "2026-07-16T00:00:00.000Z",
+      lastRunStatus: "success" as const,
+      lastRunNewItems: 0,
+      totalItems: 0
+    };
+    assert.equal(getYouTubeCollectionCursor(state), state.lastCollectedAt);
+    for (const lastRunStatus of ["partial", "failed", "never"] as const) {
+      assert.equal(getYouTubeCollectionCursor({ ...state, lastRunStatus }), undefined);
+    }
+    assert.equal(getYouTubeCollectionCursor({ ...state, collectionCursor: null }), undefined);
+    assert.equal(
+      getYouTubeCollectionCursor({
+        ...state,
+        lastRunStatus: "partial",
+        collectionCursor: "2026-07-10T00:00:00.000Z"
+      }),
+      "2026-07-10T00:00:00.000Z"
+    );
+  });
+
+  for (const previousCursor of [undefined, "2026-07-10T00:00:00.000Z"]) {
+    for (const outage of ["details", "all"] as const) {
+      it(`retries ${outage === "all" ? "a total" : "a detail API"} outage with ${previousCursor ? "an existing" : "no previous"} cursor`, async () => {
+        const now = new Date("2026-07-17T00:00:00.000Z");
+        const previousState: CollectionState | undefined = previousCursor
+          ? {
+              lastCollectedAt: previousCursor,
+              lastRunStatus: "success",
+              lastRunNewItems: 0,
+              totalItems: 0,
+              collectors: {
+                youtube: {
+                  lastCollectedAt: previousCursor,
+                  lastRunStatus: "success",
+                  lastRunNewItems: 0,
+                  totalItems: 0
+                }
+              }
+            }
+          : undefined;
+        const videoSnippet = {
+          ...snippet({ title: "대한축구협회 회장 선거 절차" }),
+          publishedAt: "2026-07-10T03:00:00.000Z"
+        };
+        const searchResult = { items: [{ id: { videoId: "retry-video" }, snippet: videoSnippet }] };
+        const failed = await collectYouTubeRun({
+          issues, people: [], queries, now, apiKey: "test-key",
+          lastCollectedAt: getYouTubeCollectionCursor(previousState?.collectors?.youtube),
+          redirectProbeEnabled: false,
+          fetchImpl: async (input) =>
+            outage === "details" && new URL(String(input)).pathname.endsWith("/search")
+              ? jsonResponse(searchResult)
+              : jsonResponse({}, 503)
+        });
+        const first = prepareCollectionRun({
+          existingItems: [], results: [failed],
+          collectorResults: [{ id: "youtube", result: failed }],
+          previousState, now
+        });
+        // Model the schema round-trip when the next collector process reads
+        // persisted state, so an explicit null cannot become a legacy success.
+        const state = collectionStateSchema.parse(JSON.parse(JSON.stringify(first.state)));
+        assert.equal(state.collectors?.youtube?.lastRunStatus, outage === "all" ? "failed" : "partial");
+        assert.equal(state.collectors?.youtube?.collectionCursor, previousCursor ?? null);
+        if (outage === "details") {
+          assert.equal(state.collectors?.youtube?.lastCollectedAt, now.toISOString());
+        }
+        const nextNow = new Date("2026-07-17T06:00:00.000Z");
+        const retried = await collectYouTubeRun({
+          issues, people: [], queries, now: nextNow, apiKey: "test-key",
+          lastCollectedAt: getYouTubeCollectionCursor(state.collectors?.youtube),
+          redirectProbeEnabled: false,
+          fetchImpl: async (input) => {
+            const url = new URL(String(input));
+            if (url.pathname.endsWith("/search")) {
+              const after = url.searchParams.get("publishedAfter")!;
+              assert.equal(after, previousCursor
+                ? "2026-07-09T00:00:00.000Z"
+                : "2026-04-18T06:00:00.000Z");
+              return jsonResponse({
+                items: Date.parse(videoSnippet.publishedAt) > Date.parse(after)
+                  ? searchResult.items : []
+              });
+            }
+            return jsonResponse({ items: [{
+              id: "retry-video", snippet: videoSnippet,
+              contentDetails: { duration: "PT5M" }
+            }] });
+          }
+        });
+        assert.equal(retried.items.length, 1);
+        const completed = prepareCollectionRun({
+          existingItems: [], results: [retried],
+          collectorResults: [{ id: "youtube", result: retried }],
+          previousState: state, now: nextNow
+        });
+        assert.equal(completed.state.collectors?.youtube?.collectionCursor, nextNow.toISOString());
+      });
+    }
+  }
+
+  it("keeps regular cursors unchanged for manual windows with either or both explicit bounds", async () => {
+    const now = new Date("2026-07-17T00:00:00.000Z");
+    for (const lastCollectedAt of [undefined, "2026-07-10T00:00:00.000Z"]) {
+      for (const bounds of [
+        { publishedAfter: "2026-07-01T00:00:00.000Z" },
+        { publishedBefore: "2026-07-15T00:00:00.000Z" },
+        { publishedAfter: "2026-07-01T00:00:00.000Z", publishedBefore: "2026-07-05T00:00:00.000Z" }
+      ]) {
+        const result = await collectYouTubeRun({
+          issues, people: [], queries, now, lastCollectedAt,
+          apiKey: "test-key", redirectProbeEnabled: false,
+          fetchImpl: async () => jsonResponse({ items: [] }),
+          ...bounds
+        });
+        const update = prepareCollectionRun({
+          existingItems: [], results: [result],
+          collectorResults: [{ id: "youtube", result }], now
+        });
+        assert.equal(update.state.collectors?.youtube?.lastRunStatus, "success");
+        assert.equal(update.state.collectors?.youtube?.collectionCursor, lastCollectedAt ?? null);
+        assert.equal(getYouTubeCollectionCursor(update.state.collectors?.youtube), lastCollectedAt);
+      }
+    }
+  });
+
+  it("does not advance the cursor when a single manual bound comes from the environment", async () => {
+    const previousAfter = process.env.YOUTUBE_PUBLISHED_AFTER;
+    const previousBefore = process.env.YOUTUBE_PUBLISHED_BEFORE;
+    try {
+      process.env.YOUTUBE_PUBLISHED_AFTER = "2026-07-01T00:00:00.000Z";
+      delete process.env.YOUTUBE_PUBLISHED_BEFORE;
+      const result = await collectYouTubeRun({
+        issues, people: [], queries, now: new Date("2026-07-17T00:00:00.000Z"),
+        apiKey: "test-key", redirectProbeEnabled: false,
+        fetchImpl: async (input) => {
+          assert.equal(new URL(String(input)).searchParams.get("publishedAfter"), "2026-07-01T00:00:00.000Z");
+          return jsonResponse({ items: [] });
+        }
+      });
+      assert.equal(result.collectionCursor, null);
+    } finally {
+      if (previousAfter === undefined) delete process.env.YOUTUBE_PUBLISHED_AFTER;
+      else process.env.YOUTUBE_PUBLISHED_AFTER = previousAfter;
+      if (previousBefore === undefined) delete process.env.YOUTUBE_PUBLISHED_BEFORE;
+      else process.env.YOUTUBE_PUBLISHED_BEFORE = previousBefore;
+    }
+  });
+
   it("uses a 90-day window for the first run and a 24-hour overlap later", () => {
     const now = new Date("2026-07-17T00:00:00.000Z");
 
@@ -146,6 +301,53 @@ describe("YouTube duration parsing", () => {
 });
 
 describe("YouTube collector", () => {
+  it("removes an existing video once collection confirms Shorts and keeps unknown formats", async () => {
+    const now = new Date("2026-07-17T00:00:00.000Z");
+    const videos = [
+      { id: "confirmed-short", title: "대한축구협회 회장 선거 절차 설명", duration: "PT35S" },
+      { id: "unknown-format", title: "대한축구협회 회장 선거 후보 등록", duration: "PT60S" },
+      { id: "regular-video", title: "대한축구협회 회장 선거 결과 발표", duration: "PT5M" }
+    ];
+    let confirmed = false;
+    const fetchImpl = async (input: string | URL | Request) => {
+      if (new URL(String(input)).pathname.endsWith("/search")) {
+        return jsonResponse({ items: videos.map((video) => ({
+          id: { videoId: video.id }, snippet: snippet({ title: video.title })
+        })) });
+      }
+      return jsonResponse({ items: videos.map((video) => ({
+        id: video.id,
+        snippet: {
+          ...snippet({ title: video.title }),
+          tags: confirmed && video.id === "confirmed-short" ? ["shorts"] : []
+        },
+        contentDetails: { duration: video.duration }
+      })) });
+    };
+    const options = {
+      issues, people: [], queries, now, apiKey: "test-key", fetchImpl,
+      redirectProbeEnabled: false,
+      shortsFetchImpl: async (): Promise<Response> => assert.fail("No additional Shorts requests expected")
+    };
+    const initial = await collectYouTubeRun(options);
+    assert.equal(initial.items.length, 3);
+    assert.equal(initial.unknownFormats, 2);
+    confirmed = true;
+    const recollected = await collectYouTubeRun({ ...options, formatCache: initial.formatCache });
+    assert.equal(recollected.shortsExcluded, 1);
+    const update = prepareCollectionRun({
+      existingItems: initial.items, results: [recollected],
+      collectorResults: [{ id: "youtube", result: recollected }], now,
+      filterItems: (items) => reclassifyAndFilterYouTubeItemsForCollection({
+        items, issues, people: [], formatCache: recollected.formatCache
+      })
+    });
+    assert.deepEqual(new Set(update.items.map((item) => item.id)), new Set([
+      "youtube_unknown-format", "youtube_regular-video"
+    ]));
+    assert.equal(update.state.collectors?.youtube?.totalItems, 2);
+  });
+
   it("excludes confirmed Shorts while keeping scheduled, active, and completed live videos", async () => {
     const requestedUrls: URL[] = [];
     const fetchImpl = async (input: string | URL | Request): Promise<Response> => {
@@ -1159,6 +1361,7 @@ describe("YouTube collector", () => {
       attempted: 1,
       succeeded: 0,
       failed: 1,
+      collectionCursor: null,
       formatCache: { version: 1, entries: {} },
       shortsExcluded: 0,
       unknownFormats: 0,

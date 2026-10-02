@@ -2,9 +2,9 @@
 
 ## 현재 상황
 
-Korea Football Radar는 한국 축구 거버넌스 관련 뉴스·공식자료와 유튜브 영상의 메타데이터를 GitHub Actions로 수집해 `data/`에 커밋하고, 검증한 snapshot을 Cloudflare R2로 발행해 맥미니 홈서버의 Next.js 앱이 읽는 공개 서비스다. 수집·발행 자동화와 홈서버 배포까지 끝나 운영 중이며, 2026-08-06 이후 코드 변경 없이 수집 데이터 커밋만 쌓이고 있다.
+Korea Football Radar는 한국 축구 거버넌스 관련 뉴스·공식자료와 유튜브 영상의 메타데이터를 GitHub Actions로 수집해 `data/`에 커밋하고, 검증한 snapshot을 Cloudflare R2로 발행해 맥미니 홈서버의 Next.js 앱이 읽는 공개 서비스다. 수집·발행 자동화와 홈서버 배포까지 끝나 운영 중이다.
 
-2026-09-21 기준 당분간 기능을 늘리지 않고 유지보수만 한다. 같은 날 보존 상한을 6,000 / 3,400 / 1,200으로 올리고 밀려났던 보조 뉴스 2,701건을 복구해 저장 항목이 7,744건이 됐다. 2026-09-28에는 유튜브 수집이 수집기별 건수 불일치로 검증에서 간헐적으로 실패하던 문제를 고쳤다(W-003). 같은 문제가 있던 `reclassify:news`도 2026-09-29에 고쳤다(W-004). 그 과정에서 찾은 `reclassify:news`의 dry-run 부재와 단독 수집의 수집기별 상태 누락도 같은 날 고쳤다(W-005, W-006). 열려 있는 작업은 없다.
+2026-09-21 기준 당분간 기능을 늘리지 않고 유지보수만 한다. 같은 날 보존 상한을 6,000 / 3,400 / 1,200으로 올리고 밀려났던 보조 뉴스 2,701건을 복구해 저장 항목이 7,744건이 됐다. 2026-09-28에는 유튜브 수집이 수집기별 건수 불일치로 검증에서 간헐적으로 실패하던 문제를 고쳤다(W-003). 같은 문제가 있던 `reclassify:news`도 2026-09-29에 고쳤다(W-004). 그 과정에서 찾은 `reclassify:news`의 dry-run 부재와 단독 수집의 수집기별 상태 누락도 같은 날 고쳤다(W-005, W-006). 2026-10-02에는 수집 실패 재시도·파일 저장 복구·상세 필터·Shorts 정리·운영 점검 오류 5건의 코드 수정과 검증을 완료했다(W-007). 커밋·배포 전이며 열려 있는 구현 작업은 없다.
 
 ## 기본 문서
 
@@ -44,6 +44,7 @@ UI를 추가·수정·검토하기 전에 관련 부분을 확인합니다. 이 
 - [docs/work/W-004-main-reclassify-news-total-sync.md](work/W-004-main-reclassify-news-total-sync.md) — 뉴스 재분류의 수집기별 건수 동기화 — 2026-09-29 완료
 - [docs/work/W-005-main-reclassify-news-dry-run.md](work/W-005-main-reclassify-news-dry-run.md) — 뉴스 재분류 dry-run 도입 — 2026-09-29 완료
 - [docs/work/W-006-main-standalone-collector-state.md](work/W-006-main-standalone-collector-state.md) — 단독 수집의 수집기별 상태 갱신 — 2026-09-29 완료
+- [docs/work/W-007-main-review-fixes.md](work/W-007-main-review-fixes.md) — 코드 검토에서 확인한 오류 5건 수정 — 2026-10-02 완료
 
 완료 후에도 원래 작업 문서를 보존하고 링크를 이곳으로 옮깁니다.
 

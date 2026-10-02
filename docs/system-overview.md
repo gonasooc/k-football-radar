@@ -296,7 +296,9 @@ NAVER_CLIENT_SECRET
 `scripts/collect-youtube.ts`는 `YOUTUBE_API_KEY`로 `search.list`를 호출한 뒤, 발견한
 영상과 `preferred` 채널의 uploads playlist에서 찾은 영상을 영상 ID로 합친다. 이후 최대
 50개씩 묶어 `videos.list`에서 상태·재생 시간·썸네일을 확인한다. 최초 실행은 최근 90일,
-이후 실행은 이전 성공 시각보다 24시간 앞선 구간부터 검색한다. 검색 결과와 선별 채널
+이후 실행은 마지막으로 성공한 정기 수집 구간의 종료 시각보다 24시간 앞선 구간부터 검색한다.
+부분 실패나 수동 백필은 정기 수집 기준을 전진시키지 않는다. 상태 필드와 이전 형식의
+호환 규칙은 [docs/specs.md](specs.md)의 구현 규칙을 따른다. 검색 결과와 선별 채널
 업로드 모두 같은 주제 관련도 규칙을 통과해야 저장된다. 선별 채널의 주제 중심 영상은
 primary, 그 외 채널의 관련 영상은 최대 secondary로 노출한다.
 
@@ -580,9 +582,15 @@ pnpm run validate:data
 - GitHub 저장소 시크릿 `YOUTUBE_API_KEY`
 - GitHub 저장소 시크릿 `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`
 - GitHub 저장소 변수 `CLOUDFLARE_ACCOUNT_ID`, `R2_BUCKET_NAME`
-- 최신 CI 워크플로 결과
-- 최신 수집 워크플로 결과
-- 최신 유튜브 수집 워크플로 결과
+- `main`에서 마지막으로 완료된 CI 워크플로의 성공 여부와 유효한 실행 시각
+- `main`에서 마지막으로 완료된 뉴스 수집의 성공 여부와 실행 시작 후 3시간 이내인지
+- `main`에서 마지막으로 완료된 유튜브 수집의 성공 여부와 실행 시작 후 26시간 이내인지
+
+최신성은 GitHub 실행의 `createdAt`으로 판단한다. 뉴스의 1시간 주기에는 두 주기와
+1시간 여유를, 유튜브의 12시간 주기에는 두 주기와 2시간 여유를 둔다. 시각이 없거나
+잘못됐거나 현재보다 미래이면 실패로 처리한다. CI는 이벤트 기반이므로 오래됐다는
+이유만으로 실패하지 않는다. 근거: [lib/readiness.ts](../lib/readiness.ts),
+[docs/work/W-007-main-review-fixes.md](work/W-007-main-review-fixes.md).
 
 이 명령은 GitHub CLI만 사용하므로 홈서버 상태는 확인하지 않는다. 배포된 앱은
 `curl https://k-football-radar.app/api/health`로 따로 확인한다.

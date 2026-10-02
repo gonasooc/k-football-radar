@@ -212,6 +212,10 @@ export const youtubeFormatCacheFileSchema = z.object({
 
 export const collectorRunStateSchema = z.object({
   lastCollectedAt: isoDateString,
+  // YouTube's completed regular collection window, independent of the latest
+  // attempt shown in the UI. Null means no regular window has completed yet;
+  // an absent field belongs to the legacy state format.
+  collectionCursor: isoDateString.nullable().optional(),
   lastRunStatus: z.enum(["success", "partial", "failed", "never"]),
   lastRunNewItems: z.number().int().min(0),
   totalItems: z.number().int().min(0)

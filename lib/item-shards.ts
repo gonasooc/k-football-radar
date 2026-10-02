@@ -47,6 +47,20 @@ async function writeFileAtomically(filePath: string, content: string): Promise<v
   }
 }
 
+async function awaitShardOperations(operations: Promise<void>[]): Promise<void> {
+  // A caller can roll back as soon as this rejects. Every started mutation must
+  // finish first so a delayed write or deletion cannot undo that rollback.
+  const results = await Promise.allSettled(operations);
+  const errors: unknown[] = [];
+  for (const result of results) {
+    if (result.status === "rejected") errors.push(result.reason);
+  }
+  if (errors.length === 1) throw errors[0];
+  if (errors.length > 1) {
+    throw new AggregateError(errors, "Item shard operations failed");
+  }
+}
+
 export function getItemShardDate(item: Pick<RadarItem, "id" | "publishedAt">): string {
   const shardDate = item.publishedAt.slice(0, 10);
   if (!ITEM_SHARD_DATE_PATTERN.test(shardDate)) {
@@ -119,7 +133,7 @@ export async function writeItemShards(
     .filter((entry) => entry.isFile() && isItemShardFilename(entry.name))
     .map((entry) => entry.name);
 
-  await Promise.all(
+  await awaitShardOperations(
     Array.from(itemsByShard.entries(), async ([shardDate, shardItems]) => {
       const shardPath = path.join(itemsDir, `${shardDate}.json`);
       const formatted = formatItems(shardItems);
@@ -138,7 +152,7 @@ export async function writeItemShards(
     })
   );
 
-  await Promise.all(
+  await awaitShardOperations(
     existingFilenames
       .filter((filename) => !expectedFilenames.has(filename))
       .map((filename) => rm(path.join(itemsDir, filename)))

@@ -74,7 +74,7 @@ app/ 화면과 /api/feed, /api/source-links, /api/health
 - 런타임에 받은 snapshot은 byte 길이, SHA-256, object key, 수집 시각, Zod 스키마, 데이터 간 참조 무결성을 모두 확인한 값만 캐시한다(`lib/remote-data.ts`, `lib/data-snapshot.ts`).
 - snapshot 하나에만 의존하는 파생값(표시용 항목 목록, 페이지네이션 토큰, 유사도 모델, 대표 기사 선정)은 `lib/feed-context.ts`에서 snapshot 객체를 키로 한 번만 계산한다. 요청마다 다시 만들면 전체 코퍼스를 매번 세우게 된다.
 - `lib/feed-page.ts`는 클라이언트 컴포넌트도 import하므로 `node:` 모듈을 쓰는 코드를 넣지 않는다. 서버에서만 필요한 값은 `lib/feed-context.ts`에 둔다.
-- 수집 산출물 저장은 `scripts/data-io.ts`가 담당하고, 항목·묶음·상태 중 하나라도 저장에 실패하면 이전 상태로 되돌린다.
+- 수집 산출물 저장은 `scripts/data-io.ts`가 담당하고, 항목·묶음·상태 중 하나라도 저장에 실패하면 이전 상태로 되돌린다. 복구는 이미 시작한 날짜별 파일 쓰기·삭제가 모두 끝난 뒤 시작해야 한다. 그렇지 않으면 지연된 작업이 복구 결과를 다시 바꿀 수 있다([lib/item-shards.ts](../lib/item-shards.ts), [docs/work/W-007-main-review-fixes.md](work/W-007-main-review-fixes.md)).
 - `reports/`의 산출물은 자동으로 반영되지 않는다. 채널 정책 변경은 사람이 `data/youtube-channels.json`을 고쳐야 일어난다.
 - 두 수집 워크플로는 같은 `collect-radar-data` concurrency group을 쓰고 실행 전 `main`과 동기화한다. 둘 다 `data/collection-state.json`의 같은 줄을 고치기 때문이다.
 - 앱 이미지는 코드가 바뀔 때만 다시 빌드·선택·배포한다. 수집 데이터 변경은 R2로 반영한다.

@@ -43,14 +43,15 @@ export function PaginatedItemList({
   const [isFiltering, setIsFiltering] = useState(false);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const [loadError, setLoadError] = useState(false);
-  const filterRequestId = useRef(0);
+  // A type change also invalidates pending pagination and snapshot recovery.
+  const activeRequestId = useRef(0);
   const activeFilters = { ...fixedFilters, type: typeFilter };
   const remainingCount = Math.max(0, results.totalEntries - results.entries.length);
 
   const applyTypeFilter = async (nextType: FeedTypeFilter) => {
     if (nextType === typeFilter || isFiltering) return;
     const previousType = typeFilter;
-    const requestId = ++filterRequestId.current;
+    const requestId = ++activeRequestId.current;
     setTypeFilter(nextType);
     setIsFiltering(true);
     setLoadError(false);
@@ -58,20 +59,21 @@ export function PaginatedItemList({
 
     try {
       const page = await fetchFeedPage({ ...fixedFilters, type: nextType }, 0);
-      if (filterRequestId.current === requestId) setResults(page);
+      if (activeRequestId.current === requestId) setResults(page);
     } catch {
-      if (filterRequestId.current === requestId) {
+      if (activeRequestId.current === requestId) {
         setTypeFilter(previousType);
         setLoadError(true);
       }
     } finally {
-      if (filterRequestId.current === requestId) setIsFiltering(false);
+      if (activeRequestId.current === requestId) setIsFiltering(false);
     }
   };
 
   const loadMore = async () => {
-    if (isLoadingMore) return;
+    if (isLoadingMore || isFiltering || !results.hasMore) return;
 
+    const requestId = ++activeRequestId.current;
     const requestedOffset = results.entries.length;
     const requestedSnapshot = results.snapshot;
     setIsLoadingMore(true);
@@ -83,6 +85,7 @@ export function PaginatedItemList({
       });
       setResults((current) => {
         if (
+          activeRequestId.current !== requestId ||
           current.entries.length !== requestedOffset ||
           current.snapshot !== requestedSnapshot
         ) {
@@ -98,21 +101,22 @@ export function PaginatedItemList({
         };
       });
     } catch (error) {
+      if (activeRequestId.current !== requestId) return;
       if (error instanceof FeedSnapshotMismatchError) {
         try {
           const freshPage = await fetchFeedPage(activeFilters, 0, {
             snapshot: error.snapshot
           });
-          setResults(freshPage);
+          if (activeRequestId.current === requestId) setResults(freshPage);
           return;
         } catch {
-          setLoadError(true);
+          if (activeRequestId.current === requestId) setLoadError(true);
           return;
         }
       }
       setLoadError(true);
     } finally {
-      setIsLoadingMore(false);
+      if (activeRequestId.current === requestId) setIsLoadingMore(false);
     }
   };
 

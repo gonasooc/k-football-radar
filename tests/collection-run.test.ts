@@ -43,6 +43,40 @@ function result(override: Partial<CollectorRunResult>): CollectorRunResult {
 }
 
 describe("collection run state", () => {
+  for (const collectionCursor of ["2026-07-10T00:00:00.000Z", null]) {
+    it(`preserves the ${collectionCursor === null ? "initial" : "completed"} cursor when a result does not provide one`, () => {
+      const previousCollector = {
+        lastCollectedAt: "2026-07-12T08:00:00.000Z",
+        collectionCursor,
+        lastRunStatus: "partial" as const,
+        lastRunNewItems: 0,
+        totalItems: 0
+      };
+      const previousState: CollectionState = {
+        lastCollectedAt: previousCollector.lastCollectedAt,
+        lastRunStatus: previousCollector.lastRunStatus,
+        lastRunNewItems: 0,
+        totalItems: 0,
+        collectors: { youtube: previousCollector }
+      };
+      for (const run of [result({}), result({ attempted: 0, succeeded: 0 })]) {
+        const update = prepareCollectionRun({
+          existingItems: [], results: [run], previousState,
+          collectorResults: [{ id: "youtube", result: run }],
+          now: new Date("2026-07-13T00:00:00.000Z")
+        });
+        assert.equal(update.state.collectors?.youtube?.collectionCursor, previousCollector.collectionCursor);
+      }
+      const otherCollector = result({});
+      const update = prepareCollectionRun({
+        existingItems: [], results: [otherCollector], previousState,
+        collectorResults: [{ id: "official", result: otherCollector }],
+        now: new Date("2026-07-13T00:00:00.000Z")
+      });
+      assert.equal(update.state.collectors?.youtube?.collectionCursor, previousCollector.collectionCursor);
+    });
+  }
+
   it("marks total outages failed and partial outages partial", () => {
     assert.equal(
       getCollectionRunStatus([result({ succeeded: 0, failed: 1 })]),

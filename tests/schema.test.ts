@@ -2,9 +2,32 @@ import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 
 import {
+  collectorRunStateSchema,
   radarItemSchema,
   youtubeChannelPolicyFileSchema
 } from "../lib/schema";
+
+describe("collectorRunStateSchema", () => {
+  it("preserves legacy states, empty cursors, and valid completed-window cursors", () => {
+    const state = {
+      lastCollectedAt: "2026-07-17T00:00:00.000Z",
+      lastRunStatus: "partial",
+      lastRunNewItems: 0,
+      totalItems: 0
+    };
+    assert.deepEqual(collectorRunStateSchema.parse(state), state);
+    for (const collectionCursor of [null, "2026-07-10T00:00:00.000Z"]) {
+      assert.equal(
+        collectorRunStateSchema.parse({ ...state, collectionCursor }).collectionCursor,
+        collectionCursor
+      );
+    }
+    assert.equal(
+      collectorRunStateSchema.safeParse({ ...state, collectionCursor: "invalid" }).success,
+      false
+    );
+  });
+});
 
 const validRadarItem = {
   id: "item_ok",

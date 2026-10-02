@@ -66,6 +66,21 @@ function item(id: string, override: Partial<RadarItem> = {}): RadarItem {
 }
 
 describe("validateDataBundle", () => {
+  it("accepts empty or completed cursors but rejects cursors beyond the collector run", () => {
+    const bundle = {
+      items: [item("one")], issues, people, sources,
+      collectionState: {
+        ...state,
+        collectors: { naver: { ...state, collectionCursor: null as string | null } }
+      }
+    };
+    assert.doesNotThrow(() => validateDataBundle(bundle));
+    bundle.collectionState.collectors.naver.collectionCursor = state.lastCollectedAt;
+    assert.doesNotThrow(() => validateDataBundle(bundle));
+    bundle.collectionState.collectors.naver.collectionCursor = "2026-07-08T00:00:00.000Z";
+    assert.throws(() => validateDataBundle(bundle), /cursor cannot exceed its last collection time/);
+  });
+
   it("rejects duplicate item IDs", () => {
     assert.throws(
       () =>
