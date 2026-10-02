@@ -80,7 +80,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.interfootball.co.kr/news/articleView.html?idxno=695596"
+      ],
+      "stories": [
+        "news|news|[in press] \"선수들도 동의했다\"…모레노 감독이 원하는 축구 철학은? \"1...|interfootball.co.kr|2026-10-01T21:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[in press] \"선수들도 동의했다\"…모레노 감독이 원하는 축구 철학은? \"1...|interfootball.co.kr"
+      ],
+      "earliestPublishedAt": 1790888700000,
+      "latestPublishedAt": 1790888700000,
+      "representativeCollectedAt": 1790921665532,
+      "latestCollectedAt": 1790921665532
+    }
   },
   {
     "id": "youtube_AUnrqQ9JE0M",
@@ -272,8 +288,8 @@
       ],
       "earliestPublishedAt": 1790814660000,
       "latestPublishedAt": 1790814660000,
-      "representativeCollectedAt": 1790900077927,
-      "latestCollectedAt": 1790900077927
+      "representativeCollectedAt": 1790921665532,
+      "latestCollectedAt": 1790921665532
     }
   }
 ]
