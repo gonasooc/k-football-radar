@@ -1,5 +1,36 @@
 [
   {
+    "id": "item_e4b262516086d2da",
+    "type": "news",
+    "title": "김민재는 사실을 말했을 뿐이다, 수년간 이어진 대표팀 고질병 '낮은 에...",
+    "summary": "에너지 레벨이 너무 낮다는 대표팀의 문제는 최소한 위르겐 클린스만 감독 때 시작해 임시감독들과 홍명보 ... 더 '내 습관대로' 플레이하려는 모습을 보인다면 팀 경기력에 저해가 된다. 사진= 대한 축구협회 제공, 풋볼리스트",
+    "url": "http://www.footballist.co.kr/news/articleView.html?idxno=215439",
+    "originalUrl": "http://www.footballist.co.kr/news/articleView.html?idxno=215439",
+    "publisher": "footballist.co.kr",
+    "publishedAt": "2026-10-02T23:32:00.000Z",
+    "collectedAt": "2026-10-03T07:06:03.955Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_8431b0cec9d1c17d",
     "type": "news",
     "title": "\"도움 줄 사람이 없다\" 황인범의 폭로, 벼랑 끝에 선 대표팀 현주소",
@@ -19,7 +50,23 @@
     "isOfficial": false,
     "relevanceScore": 0,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ftimes.kr/news/articleView.html?idxno=40132"
+      ],
+      "stories": [
+        "news|news|\"도움 줄 사람이 없다\" 황인범의 폭로, 벼랑 끝에 선 대표팀 현주소|ftimes.kr|2026-10-02T23:14:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"도움 줄 사람이 없다\" 황인범의 폭로, 벼랑 끝에 선 대표팀 현주소|ftimes.kr"
+      ],
+      "earliestPublishedAt": 1790982840000,
+      "latestPublishedAt": 1790982840000,
+      "representativeCollectedAt": 1791011163955,
+      "latestCollectedAt": 1791011163955
+    }
   },
   {
     "id": "item_f78ec70afcc994a5",
@@ -180,8 +227,8 @@
       ],
       "earliestPublishedAt": 1790956080000,
       "latestPublishedAt": 1790956080000,
-      "representativeCollectedAt": 1790990855508,
-      "latestCollectedAt": 1790990855508
+      "representativeCollectedAt": 1791011163955,
+      "latestCollectedAt": 1791011163955
     }
   },
   {
@@ -231,8 +278,8 @@
       ],
       "earliestPublishedAt": 1790947440000,
       "latestPublishedAt": 1790947440000,
-      "representativeCollectedAt": 1790990855508,
-      "latestCollectedAt": 1790990855508
+      "representativeCollectedAt": 1791011163955,
+      "latestCollectedAt": 1791011163955
     }
   },
   {
@@ -273,8 +320,8 @@
       ],
       "earliestPublishedAt": 1790945640000,
       "latestPublishedAt": 1790945640000,
-      "representativeCollectedAt": 1790990855508,
-      "latestCollectedAt": 1790990855508
+      "representativeCollectedAt": 1791011163955,
+      "latestCollectedAt": 1791011163955
     }
   },
   {
@@ -320,8 +367,8 @@
       ],
       "earliestPublishedAt": 1790932800000,
       "latestPublishedAt": 1790932800000,
-      "representativeCollectedAt": 1790990855508,
-      "latestCollectedAt": 1790990855508
+      "representativeCollectedAt": 1791011163955,
+      "latestCollectedAt": 1791011163955
     }
   },
   {
@@ -376,8 +423,8 @@
       ],
       "earliestPublishedAt": 1790927640000,
       "latestPublishedAt": 1790927640000,
-      "representativeCollectedAt": 1790990855508,
-      "latestCollectedAt": 1790990855508
+      "representativeCollectedAt": 1791011163955,
+      "latestCollectedAt": 1791011163955
     }
   },
   {
@@ -420,8 +467,8 @@
       ],
       "earliestPublishedAt": 1790926200000,
       "latestPublishedAt": 1790926200000,
-      "representativeCollectedAt": 1790990855508,
-      "latestCollectedAt": 1790990855508
+      "representativeCollectedAt": 1791011163955,
+      "latestCollectedAt": 1791011163955
     }
   },
   {
@@ -464,8 +511,8 @@
       ],
       "earliestPublishedAt": 1790900760000,
       "latestPublishedAt": 1790900760000,
-      "representativeCollectedAt": 1790990855508,
-      "latestCollectedAt": 1790990855508
+      "representativeCollectedAt": 1791011163955,
+      "latestCollectedAt": 1791011163955
     }
   }
 ]
