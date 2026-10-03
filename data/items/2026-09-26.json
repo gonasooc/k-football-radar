@@ -137,7 +137,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.cbci.co.kr/news/articleView.html?idxno=610063"
+      ],
+      "stories": [
+        "news|news|[스타家] 로베르토 모레노 ㅣ 월드컵 아픔 딛고 새 출발…에콰도르 완파...|cbci.co.kr|2026-09-26T04:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[스타家] 로베르토 모레노 ㅣ 월드컵 아픔 딛고 새 출발…에콰도르 완파...|cbci.co.kr"
+      ],
+      "earliestPublishedAt": 1790395320000,
+      "latestPublishedAt": 1790395320000,
+      "representativeCollectedAt": 1791045913499,
+      "latestCollectedAt": 1791045913499
+    }
   },
   {
     "id": "item_4ab916d97626f0a4",
@@ -301,8 +317,8 @@
       ],
       "earliestPublishedAt": 1790382840000,
       "latestPublishedAt": 1790382840000,
-      "representativeCollectedAt": 1791031455107,
-      "latestCollectedAt": 1791031455107
+      "representativeCollectedAt": 1791045913499,
+      "latestCollectedAt": 1791045913499
     }
   },
   {
@@ -348,8 +364,8 @@
       ],
       "earliestPublishedAt": 1790381640000,
       "latestPublishedAt": 1790381640000,
-      "representativeCollectedAt": 1791031455107,
-      "latestCollectedAt": 1791031455107
+      "representativeCollectedAt": 1791045913499,
+      "latestCollectedAt": 1791045913499
     }
   }
 ]

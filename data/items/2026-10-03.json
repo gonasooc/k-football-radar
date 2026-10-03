@@ -1,5 +1,45 @@
 [
   {
+    "id": "item_f68870169b0bdff3",
+    "type": "news",
+    "title": "'항해 내내 잡음' 이민성 감독, 그래도 4연속 金으로 해피엔딩[AG]",
+    "summary": "대한 축구협회 는 2025년 5월 이 감독 의 U23 대표팀 사령탑 선임 을 발표했다. 이전까지 대전하나시티즌 등을 지휘했지만 뚜렷한 성과를 내지 못했던 그를 향한 팬들의 시선은 싸늘했다. 당시 홍명보 A대표팀 감독 선임 과정의...",
+    "url": "https://www.news1.kr/sports/soccer/6309970",
+    "originalUrl": "https://www.news1.kr/sports/soccer/6309970",
+    "publisher": "news1.kr",
+    "publishedAt": "2026-10-03T12:55:00.000Z",
+    "collectedAt": "2026-10-03T16:45:13.499Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "사령탑",
+      "선임",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_14322e829c449a0c",
     "type": "news",
     "title": "[아시안게임] \"금메달로 한국 축구 일으킬 것\"…약속 지키며 떠나는 이...",
@@ -34,7 +74,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.yna.co.kr/view/AKR20261003050400007?input=1195m"
+      ],
+      "stories": [
+        "news|news|[아시안게임] \"금메달로 한국 축구 일으킬 것\"…약속 지키며 떠나는 이...|yna.co.kr|2026-10-03T12:38:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[아시안게임] \"금메달로 한국 축구 일으킬 것\"…약속 지키며 떠나는 이...|yna.co.kr"
+      ],
+      "earliestPublishedAt": 1791031080000,
+      "latestPublishedAt": 1791031080000,
+      "representativeCollectedAt": 1791045913499,
+      "latestCollectedAt": 1791045913499
+    }
   },
   {
     "id": "item_dfc51a744bea3160",
@@ -78,8 +134,8 @@
       ],
       "earliestPublishedAt": 1791002520000,
       "latestPublishedAt": 1791002520000,
-      "representativeCollectedAt": 1791031455107,
-      "latestCollectedAt": 1791031455107
+      "representativeCollectedAt": 1791045913499,
+      "latestCollectedAt": 1791045913499
     }
   }
 ]
