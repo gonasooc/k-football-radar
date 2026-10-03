@@ -1,5 +1,42 @@
 [
   {
+    "id": "item_14322e829c449a0c",
+    "type": "news",
+    "title": "[아시안게임] \"금메달로 한국 축구 일으킬 것\"…약속 지키며 떠나는 이...",
+    "summary": "대한 축구협회 는 지난해 5월 이민성 감독 을 선임 해 아시안게임 준비를 본격화했으나 올해 초 아시아 축구 연맹(AFC) U-23 아시안컵에서 4위에 그치는 등 이 연령대에서도 부진한 성적 탓에 비판이 나왔고, 이 감독 도 위기를...",
+    "url": "https://www.yna.co.kr/view/AKR20261003050400007?input=1195m",
+    "originalUrl": "https://www.yna.co.kr/view/AKR20261003050400007?input=1195m",
+    "publisher": "yna.co.kr",
+    "publishedAt": "2026-10-03T12:38:00.000Z",
+    "collectedAt": "2026-10-03T12:44:15.107Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_dfc51a744bea3160",
     "type": "news",
     "title": "“일관성 있는 경기력 보여주지 못해…모레노 감독이 이끄는 한국 끝없...",
@@ -27,6 +64,22 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt7f212c72de533b0c"
+      ],
+      "stories": [
+        "news|news|“일관성 있는 경기력 보여주지 못해…모레노 감독이 이끄는 한국 끝없...|goal.com|2026-10-03T04:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“일관성 있는 경기력 보여주지 못해…모레노 감독이 이끄는 한국 끝없...|goal.com"
+      ],
+      "earliestPublishedAt": 1791002520000,
+      "latestPublishedAt": 1791002520000,
+      "representativeCollectedAt": 1791031455107,
+      "latestCollectedAt": 1791031455107
+    }
   }
 ]
