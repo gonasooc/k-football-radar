@@ -1,5 +1,71 @@
 [
   {
+    "id": "item_49aa8ae6b000c7b2",
+    "type": "news",
+    "title": "난세의 영웅이 박지성?",
+    "summary": "\"박지성 K- 축구 혁신위원회 공동위원장이 ' 대한축구협회 장(이하 협회 장)에 출마하지 않겠다'던 말을... 지역 협회 의 중요성을 안다. 대중 여론과 실제 선거인단의 판단은 다를 수 있다\"고 주장했다. 김병지 강원FC 대표이사의...",
+    "url": "http://weekly.chosun.com/news/articleView.html?idxno=55801",
+    "originalUrl": "http://weekly.chosun.com/news/articleView.html?idxno=55801",
+    "publisher": "weekly.chosun.com",
+    "publishedAt": "2026-10-03T19:00:00.000Z",
+    "collectedAt": "2026-10-03T19:29:47.702Z",
+    "matchedKeywords": [
+      "박지성",
+      "대한축구협회",
+      "선거인단",
+      "선거인",
+      "혁신위원회",
+      "축구 혁신",
+      "김병지"
+    ],
+    "discoveryQueries": [
+      "\"김병지\" 대한축구협회",
+      "\"김병지\" 선거",
+      "\"김병지\" 축구협회",
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 선거",
+      "\"박지성\" 축구협회",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 선거",
+      "\"홍명보\" 축구협회",
+      "감독 후보",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구 혁신",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보",
+      "축구협회 선거인",
+      "축구협회 선거인단",
+      "축구협회 임원",
+      "축구협회 혁신위원회",
+      "축구협회 회장 선거",
+      "축구협회장",
+      "K-축구혁신위원회",
+      "KFA"
+    ],
+    "issueTags": [
+      "electoral-college",
+      "innovation-committee"
+    ],
+    "personTags": [
+      "person_park_ji_sung",
+      "person_kim_byung_ji"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 30,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급",
+      "선거 키워드 포함"
+    ]
+  },
+  {
     "id": "item_f68870169b0bdff3",
     "type": "news",
     "title": "'항해 내내 잡음' 이민성 감독, 그래도 4연속 金으로 해피엔딩[AG]",
@@ -37,7 +103,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/soccer/6309970"
+      ],
+      "stories": [
+        "news|news|'항해 내내 잡음' 이민성 감독, 그래도 4연속 金으로 해피엔딩[ag]|news1.kr|2026-10-03T12:55:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'항해 내내 잡음' 이민성 감독, 그래도 4연속 金으로 해피엔딩[ag]|news1.kr"
+      ],
+      "earliestPublishedAt": 1791032100000,
+      "latestPublishedAt": 1791032100000,
+      "representativeCollectedAt": 1791055787702,
+      "latestCollectedAt": 1791055787702
+    }
   },
   {
     "id": "item_14322e829c449a0c",
@@ -88,8 +170,8 @@
       ],
       "earliestPublishedAt": 1791031080000,
       "latestPublishedAt": 1791031080000,
-      "representativeCollectedAt": 1791045913499,
-      "latestCollectedAt": 1791045913499
+      "representativeCollectedAt": 1791055787702,
+      "latestCollectedAt": 1791055787702
     }
   },
   {
@@ -134,8 +216,8 @@
       ],
       "earliestPublishedAt": 1791002520000,
       "latestPublishedAt": 1791002520000,
-      "representativeCollectedAt": 1791045913499,
-      "latestCollectedAt": 1791045913499
+      "representativeCollectedAt": 1791055787702,
+      "latestCollectedAt": 1791055787702
     }
   }
 ]
