@@ -63,7 +63,23 @@
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://weekly.chosun.com/news/articleView.html?idxno=55801"
+      ],
+      "stories": [
+        "news|news|난세의 영웅이 박지성?|weekly.chosun.com|2026-10-03T19:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|난세의 영웅이 박지성?|weekly.chosun.com"
+      ],
+      "earliestPublishedAt": 1791054000000,
+      "latestPublishedAt": 1791054000000,
+      "representativeCollectedAt": 1791066377146,
+      "latestCollectedAt": 1791066377146
+    }
   },
   {
     "id": "item_f68870169b0bdff3",
@@ -117,8 +133,8 @@
       ],
       "earliestPublishedAt": 1791032100000,
       "latestPublishedAt": 1791032100000,
-      "representativeCollectedAt": 1791055787702,
-      "latestCollectedAt": 1791055787702
+      "representativeCollectedAt": 1791066377146,
+      "latestCollectedAt": 1791066377146
     }
   },
   {
@@ -170,8 +186,8 @@
       ],
       "earliestPublishedAt": 1791031080000,
       "latestPublishedAt": 1791031080000,
-      "representativeCollectedAt": 1791055787702,
-      "latestCollectedAt": 1791055787702
+      "representativeCollectedAt": 1791066377146,
+      "latestCollectedAt": 1791066377146
     }
   },
   {
@@ -216,8 +232,8 @@
       ],
       "earliestPublishedAt": 1791002520000,
       "latestPublishedAt": 1791002520000,
-      "representativeCollectedAt": 1791055787702,
-      "latestCollectedAt": 1791055787702
+      "representativeCollectedAt": 1791066377146,
+      "latestCollectedAt": 1791066377146
     }
   }
 ]
