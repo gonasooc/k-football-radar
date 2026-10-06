@@ -21,7 +21,51 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000553713"
+      ],
+      "stories": [
+        "news|news|유승민 회장도 고개 숙인 ‘병역 논란’…“국민·장병께 심심한 사과”|ichannela.com|2026-10-05T22:09:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|유승민 회장도 고개 숙인 ‘병역 논란’…“국민·장병께 심심한 사과”|ichannela.com"
+      ],
+      "earliestPublishedAt": 1791238140000,
+      "latestPublishedAt": 1791238140000,
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
+    }
+  },
+  {
+    "id": "item_850ee3d762009651",
+    "type": "news",
+    "title": "\"우승 인터뷰는 이렇게 하는 겁니다\"…최시원, 축구대표팀 논란에 손흥...",
+    "summary": "이어 \"대한민국 사람으로서 대한민국 경기에 나가는 것을 상당히 영광스럽게 생각하고 국민에게 항상 감사 ... 논란이 커지자 이들은 각각 경솔했던 발언과 행동에 대해 사과했고, 대한 축구협회 도 \"일부 선수들의 경솔한...",
+    "url": "https://www.fnnews.com/news/202610060623244903",
+    "originalUrl": "https://www.fnnews.com/news/202610060623244903",
+    "publisher": "fnnews.com",
+    "publishedAt": "2026-10-05T21:48:00.000Z",
+    "collectedAt": "2026-10-06T03:20:16.516Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "대한축구협회",
+      "축구협회 감사"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 8,
+    "relevanceTier": "secondary",
+    "labels": [
+      "감사 키워드 포함"
+    ]
   },
   {
     "id": "item_70c6a26190d4886b",
@@ -53,7 +97,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.seoul.co.kr/news/sport/soccer/2026/10/06/20261006034004?wlog_tag3=naver"
+      ],
+      "stories": [
+        "news|news|“이번엔 시작부터 우즈베크 압박”… 모레노의 위기 돌파 작전|seoul.co.kr|2026-10-05T20:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“이번엔 시작부터 우즈베크 압박”… 모레노의 위기 돌파 작전|seoul.co.kr"
+      ],
+      "earliestPublishedAt": 1791230700000,
+      "latestPublishedAt": 1791230700000,
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
+    }
   },
   {
     "id": "item_41276dfbe547fedd",
@@ -79,7 +139,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.starnewskorea.com/sports/2026/10/06/2026100604084587830"
+      ],
+      "stories": [
+        "news|news|\"몇몇 韓 선수 인터뷰에 53년 병역특례 제도까지 흔들\"... 외신, bts까지...|starnewskorea.com|2026-10-05T19:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"몇몇 韓 선수 인터뷰에 53년 병역특례 제도까지 흔들\"... 외신, bts까지...|starnewskorea.com"
+      ],
+      "earliestPublishedAt": 1791227760000,
+      "latestPublishedAt": 1791227760000,
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
+    }
   },
   {
     "id": "item_0af0803410ad6d68",
@@ -132,8 +208,8 @@
       ],
       "earliestPublishedAt": 1791203400000,
       "latestPublishedAt": 1791203400000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -176,22 +252,23 @@
       ],
       "earliestPublishedAt": 1791203040000,
       "latestPublishedAt": 1791203040000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
     "id": "item_9c1c12dc3ca7b479",
     "type": "news",
     "title": "'삐딱 전역모'에 '절뚝절뚝 걸음' 망동…'병역 특례' 우쭐대다 뒤늦게 ...",
-    "summary": "유승민 / 대한체육회장 \"인터뷰나 발언이나 SNS에서 본인을 표현하는 그런 부분들도 국가대표 선수답게 품위를 갖추고 할 수 있는 방안을 좀 더 모색해서….\" 대한축구협회 는 선수들이 오해를 불러일으킬 발언과 행동을 한...",
+    "summary": "\" 대한 축구협회 는 선수들이 오해를 불러일으킬 발언과 행동을 한 것에 깊이 뉘우치고 있다며, 선수 품행 관리를 위해 노력하겠다고 해명 했습니다. TV조선 구자형입니다.",
     "url": "https://news.tvchosun.com/site/data/html_dir/2026/10/05/2026100590121.html",
     "originalUrl": "https://news.tvchosun.com/site/data/html_dir/2026/10/05/2026100590121.html",
     "publisher": "news.tvchosun.com",
     "publishedAt": "2026-10-05T12:05:00.000Z",
     "collectedAt": "2026-10-05T16:23:36.436Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한 축구협회",
+      "해명"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -201,24 +278,28 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "해명 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
-        "https://news.tvchosun.com/site/data/html_dir/2026/10/05/2026100590121.html"
+        "https://news.tvchosun.com/site/data/html_dir/2026/10/05/2026100590121.html",
+        "https://news.tvchosun.com/site/data/html_dir/2026/10/06/2026100690020.html"
       ],
       "stories": [
-        "news|news|'삐딱 전역모'에 '절뚝절뚝 걸음' 망동…'병역 특례' 우쭐대다 뒤늦게 ...|news.tvchosun.com|2026-10-05T12:05:00.000Z"
+        "news|news|'삐딱 전역모'에 '절뚝절뚝 걸음' 망동…'병역 특례' 우쭐대다 뒤늦게 ...|news.tvchosun.com|2026-10-05T12:05:00.000Z",
+        "news|news|'삐딱 전역모'에 '절뚝절뚝 걸음' 망동…'병역 특례' 우쭐대다 뒤늦게 ...|news.tvchosun.com|2026-10-05T22:56:00.000Z"
       ],
       "nearKeys": [
         "news|news|'삐딱 전역모'에 '절뚝절뚝 걸음' 망동…'병역 특례' 우쭐대다 뒤늦게 ...|news.tvchosun.com"
       ],
       "earliestPublishedAt": 1791201900000,
-      "latestPublishedAt": 1791201900000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "latestPublishedAt": 1791240960000,
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -265,8 +346,8 @@
       ],
       "earliestPublishedAt": 1791198120000,
       "latestPublishedAt": 1791198120000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -306,8 +387,8 @@
       ],
       "earliestPublishedAt": 1791193080000,
       "latestPublishedAt": 1791193080000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -391,8 +472,8 @@
       ],
       "earliestPublishedAt": 1791192360000,
       "latestPublishedAt": 1791192360000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -443,8 +524,8 @@
       ],
       "earliestPublishedAt": 1791189000000,
       "latestPublishedAt": 1791189000000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -491,8 +572,8 @@
       ],
       "earliestPublishedAt": 1791188880000,
       "latestPublishedAt": 1791188880000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -539,8 +620,8 @@
       ],
       "earliestPublishedAt": 1791179940000,
       "latestPublishedAt": 1791179940000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -582,8 +663,8 @@
       ],
       "earliestPublishedAt": 1791174660000,
       "latestPublishedAt": 1791174660000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -626,8 +707,8 @@
       ],
       "earliestPublishedAt": 1791173700000,
       "latestPublishedAt": 1791173700000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -674,8 +755,8 @@
       ],
       "earliestPublishedAt": 1791171060000,
       "latestPublishedAt": 1791171060000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -767,8 +848,8 @@
       ],
       "earliestPublishedAt": 1791165840000,
       "latestPublishedAt": 1791165840000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -810,8 +891,8 @@
       ],
       "earliestPublishedAt": 1791164940000,
       "latestPublishedAt": 1791164940000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -853,8 +934,8 @@
       ],
       "earliestPublishedAt": 1791159600000,
       "latestPublishedAt": 1791159600000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   },
   {
@@ -901,8 +982,8 @@
       ],
       "earliestPublishedAt": 1791158400000,
       "latestPublishedAt": 1791158400000,
-      "representativeCollectedAt": 1791240922241,
-      "latestCollectedAt": 1791240922241
+      "representativeCollectedAt": 1791256816516,
+      "latestCollectedAt": 1791256816516
     }
   }
 ]
