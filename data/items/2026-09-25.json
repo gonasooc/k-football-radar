@@ -46,8 +46,8 @@
       ],
       "earliestPublishedAt": 1790378580000,
       "latestPublishedAt": 1790378580000,
-      "representativeCollectedAt": 1791323647204,
-      "latestCollectedAt": 1791323647204
+      "representativeCollectedAt": 1791337748451,
+      "latestCollectedAt": 1791337748451
     }
   },
   {
@@ -239,7 +239,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2200304"
+      ],
+      "stories": [
+        "news|news|'진정한 2002 레전드' 韓 축구 거목 나고야 왔다!…정몽준 前 kfa 회장, 손...|xportsnews.com|2026-09-25T15:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'진정한 2002 레전드' 韓 축구 거목 나고야 왔다!…정몽준 前 kfa 회장, 손...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1790348400000,
+      "latestPublishedAt": 1790348400000,
+      "representativeCollectedAt": 1791337748451,
+      "latestCollectedAt": 1791337748451
+    }
   },
   {
     "id": "item_0344b85cdc2f908a",
@@ -470,8 +486,8 @@
       ],
       "earliestPublishedAt": 1790317320000,
       "latestPublishedAt": 1790317320000,
-      "representativeCollectedAt": 1791323647204,
-      "latestCollectedAt": 1791323647204
+      "representativeCollectedAt": 1791337748451,
+      "latestCollectedAt": 1791337748451
     }
   },
   {
@@ -677,8 +693,8 @@
       ],
       "earliestPublishedAt": 1790299440000,
       "latestPublishedAt": 1790299440000,
-      "representativeCollectedAt": 1791323647204,
-      "latestCollectedAt": 1791323647204
+      "representativeCollectedAt": 1791337748451,
+      "latestCollectedAt": 1791337748451
     }
   },
   {
@@ -727,8 +743,8 @@
       ],
       "earliestPublishedAt": 1790295120000,
       "latestPublishedAt": 1790295120000,
-      "representativeCollectedAt": 1791323647204,
-      "latestCollectedAt": 1791323647204
+      "representativeCollectedAt": 1791337748451,
+      "latestCollectedAt": 1791337748451
     }
   }
 ]
