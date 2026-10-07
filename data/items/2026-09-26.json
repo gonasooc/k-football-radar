@@ -134,7 +134,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsseoul.com/news/read/1637608?ref=naver"
+      ],
+      "stories": [
+        "news|news|日 나고야까지 ‘깜짝 방문’한 정몽준 전 회장…이민성호 8강전 ‘관전...|sportsseoul.com|2026-09-26T08:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|日 나고야까지 ‘깜짝 방문’한 정몽준 전 회장…이민성호 8강전 ‘관전...|sportsseoul.com"
+      ],
+      "earliestPublishedAt": 1790409720000,
+      "latestPublishedAt": 1790409720000,
+      "representativeCollectedAt": 1791364665937,
+      "latestCollectedAt": 1791364665937
+    }
   },
   {
     "id": "item_50fee858cb10dc43",
@@ -209,7 +225,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.hankookilbo.com/news/article/A2026092523320005361?did=NA"
+      ],
+      "stories": [
+        "news|news|나고야에서 만난 '광폭 행보' 정몽준 \"한국, 요즘 아주 좋은 축구 보여...|hankookilbo.com|2026-09-26T03:28:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|나고야에서 만난 '광폭 행보' 정몽준 \"한국, 요즘 아주 좋은 축구 보여...|hankookilbo.com"
+      ],
+      "earliestPublishedAt": 1790393280000,
+      "latestPublishedAt": 1790393280000,
+      "representativeCollectedAt": 1791364665937,
+      "latestCollectedAt": 1791364665937
+    }
   },
   {
     "id": "item_4ab916d97626f0a4",
@@ -420,8 +452,8 @@
       ],
       "earliestPublishedAt": 1790381640000,
       "latestPublishedAt": 1790381640000,
-      "representativeCollectedAt": 1791337748451,
-      "latestCollectedAt": 1791337748451
+      "representativeCollectedAt": 1791364665937,
+      "latestCollectedAt": 1791364665937
     }
   }
 ]
