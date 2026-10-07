@@ -2,78 +2,6 @@
   "version": 1,
   "clusters": [
     {
-      "id": "story_438efe65b368c079e3af",
-      "seedItemId": "item_fd2be206c9e8d279",
-      "memberIds": [
-        "item_fd2be206c9e8d279",
-        "item_bc62c7a31be42cd7"
-      ]
-    },
-    {
-      "id": "story_e5409ec35c1af5b9e907",
-      "seedItemId": "item_dbb7ab28d5932877",
-      "memberIds": [
-        "item_dbb7ab28d5932877",
-        "item_e78e8d773e631d78"
-      ]
-    },
-    {
-      "id": "story_ab353a080877766ed038",
-      "seedItemId": "item_5c5c0f34b41ca577",
-      "memberIds": [
-        "item_5c5c0f34b41ca577",
-        "item_a9e8099900f2753a"
-      ]
-    },
-    {
-      "id": "story_c85cb59bfd0ee33e9a2a",
-      "seedItemId": "item_4e6f2c37c833556e",
-      "memberIds": [
-        "item_4e6f2c37c833556e",
-        "item_c0b2d1b3ca91afa7"
-      ]
-    },
-    {
-      "id": "story_d2e9df3f3b9b657d32e1",
-      "seedItemId": "item_91aac9a51834717f",
-      "memberIds": [
-        "item_91aac9a51834717f",
-        "item_d5b764771957f145"
-      ]
-    },
-    {
-      "id": "story_fd57edd780434c9c2b5c",
-      "seedItemId": "item_d08870f08b1b0d8a",
-      "memberIds": [
-        "item_d08870f08b1b0d8a",
-        "item_032ad1707656adcb"
-      ]
-    },
-    {
-      "id": "story_eb222041bef22c10b246",
-      "seedItemId": "item_451f9521993fddb0",
-      "memberIds": [
-        "item_451f9521993fddb0",
-        "item_06c8cee4b454b6ba"
-      ]
-    },
-    {
-      "id": "story_86eaf31b6d1aa86d1a06",
-      "seedItemId": "item_374e9d80f3740acc",
-      "memberIds": [
-        "item_374e9d80f3740acc",
-        "item_eb29ddd5ea5c273f"
-      ]
-    },
-    {
-      "id": "story_7778c430c4118b919b1a",
-      "seedItemId": "item_59b4a35844fe3e4c",
-      "memberIds": [
-        "item_59b4a35844fe3e4c",
-        "item_046a7474457b79e7"
-      ]
-    },
-    {
       "id": "story_e87ecd4f97b87fa2f511",
       "seedItemId": "item_8e509d96bb7e7866",
       "memberIds": [
@@ -870,9 +798,17 @@
       "memberIds": [
         "item_c0daa970f09401db",
         "item_95b1ac5c024deb8e",
-        "item_5bd4aa6e0933a859",
+        "item_863efbc77695ef29",
         "item_9dd01a09c1fcbd38",
         "item_d5f51546d6f7ad55"
+      ]
+    },
+    {
+      "id": "story_60b125143f4ec9850c23",
+      "seedItemId": "item_5bd4aa6e0933a859",
+      "memberIds": [
+        "item_5bd4aa6e0933a859",
+        "item_e3523ff8afe61c4d"
       ]
     },
     {
@@ -880,15 +816,7 @@
       "seedItemId": "item_995cf2d2232b0803",
       "memberIds": [
         "item_995cf2d2232b0803",
-        "item_863efbc77695ef29"
-      ]
-    },
-    {
-      "id": "story_2cd0311222141a3e9072",
-      "seedItemId": "item_0ea130a314e08e63",
-      "memberIds": [
-        "item_0ea130a314e08e63",
-        "item_e3523ff8afe61c4d"
+        "item_0ea130a314e08e63"
       ]
     },
     {
@@ -2034,14 +1962,6 @@
       ]
     },
     {
-      "id": "story_acbcd3f817ef5b966509",
-      "seedItemId": "item_d463037d47e5dcd7",
-      "memberIds": [
-        "item_d463037d47e5dcd7",
-        "item_5a09d3ff54b60a12"
-      ]
-    },
-    {
       "id": "story_08a60109f54f01d60b9b",
       "seedItemId": "item_61279db7ff3d3d4d",
       "memberIds": [
@@ -2201,6 +2121,14 @@
       "memberIds": [
         "item_05936a3d029c70df",
         "item_99d635b33c74915f"
+      ]
+    },
+    {
+      "id": "story_e3c4437a8bdadab1e65c",
+      "seedItemId": "item_5a09d3ff54b60a12",
+      "memberIds": [
+        "item_5a09d3ff54b60a12",
+        "item_0d44e28916b26417"
       ]
     },
     {
@@ -6911,6 +6839,22 @@
       "memberIds": [
         "item_0d1433104eda632f",
         "item_5db93172606decc6"
+      ]
+    },
+    {
+      "id": "story_2b53c20b9fa1a1e50afc",
+      "seedItemId": "youtube_d_ZvbsJC7Wg",
+      "memberIds": [
+        "youtube_d_ZvbsJC7Wg",
+        "youtube_XY92dkuWaTo"
+      ]
+    },
+    {
+      "id": "story_c898cc255e0a3c285e19",
+      "seedItemId": "youtube_r-M2qPHYPSc",
+      "memberIds": [
+        "youtube_r-M2qPHYPSc",
+        "youtube_0P9kVHS-kM8"
       ]
     }
   ]
