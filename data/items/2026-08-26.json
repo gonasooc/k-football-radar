@@ -212,8 +212,8 @@
       ],
       "earliestPublishedAt": 1787783160000,
       "latestPublishedAt": 1787783160000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -381,8 +381,8 @@
       ],
       "earliestPublishedAt": 1787777700000,
       "latestPublishedAt": 1787777700000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -432,8 +432,8 @@
       ],
       "earliestPublishedAt": 1787775900000,
       "latestPublishedAt": 1787775900000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -535,8 +535,8 @@
       ],
       "earliestPublishedAt": 1787767200000,
       "latestPublishedAt": 1787767200000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -586,8 +586,8 @@
       ],
       "earliestPublishedAt": 1787760120000,
       "latestPublishedAt": 1787760120000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -641,8 +641,8 @@
       ],
       "earliestPublishedAt": 1787760060000,
       "latestPublishedAt": 1787760060000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -819,8 +819,8 @@
       ],
       "earliestPublishedAt": 1787754480000,
       "latestPublishedAt": 1787754480000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -928,8 +928,8 @@
       ],
       "earliestPublishedAt": 1787747400000,
       "latestPublishedAt": 1787747400000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -995,7 +995,7 @@
     "id": "item_c3783fda3ef12094",
     "type": "news",
     "title": "대한체육회, 아이치-나고야 아시안게임 선수단 파견 의결…1052명 규모",
-    "summary": "이번 개정으로 정몽규 전 회장 사퇴 후 새 회장 선거를 준비 중인 대한 축구협회 는 선거인 단 확대에 속도를 낼 수 있게 됐다. 2026 다카르 청소년올림픽 선수단장 선임, 민선 3기 지방체육회장 선거, K- 축구 혁신위원회 논의...",
+    "summary": "이번 개정으로 정몽규 전 회장 사퇴 후 새 회장 선거를 준비 중인 대한 축구협회 는 선거인단 확대에 속도를 낼 수 있게 됐다. 2026 다카르 청소년올림픽 선수단장 선임, 민선 3기 지방체육회장 선거, K- 축구 혁신위원회 논의...",
     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=321558",
     "originalUrl": "https://www.stnsports.co.kr/news/articleView.html?idxno=321558",
     "publisher": "stnsports.co.kr",
@@ -1004,6 +1004,7 @@
     "matchedKeywords": [
       "대한 축구협회",
       "회장 선거",
+      "선거인단",
       "선거인",
       "혁신위원회",
       "축구 혁신",
@@ -1034,10 +1035,11 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 23,
+    "relevanceScore": 25,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "선거 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -1052,8 +1054,8 @@
       ],
       "earliestPublishedAt": 1787742960000,
       "latestPublishedAt": 1787742960000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -1620,7 +1622,7 @@
     "id": "item_e475ccb8a2dea79c",
     "type": "news",
     "title": "대한체육회, 종목단체 선거인단 확대 위해 규정 개정…선거제도 정비",
-    "summary": "정몽규 전 회장의 사퇴 후 새 회장 선거를 준비 중인 대한 축구협회 는 회원종목단체 규정 개정에 따라 선거인단 확대에 박차를 가할 수 있게 됐다. 앞서 대한체육회는 회원종목단체 규정을 개정해 회장 궐위시 후임 선출...",
+    "summary": "기존 회원종목단체 규정에 따르면 회장 선거인단은 대의원 , 선수, 지도자, 심판, 동호인 등으로 100명 이상... 정몽규 전 회장의 사퇴 후 새 회장 선거를 준비 중인 대한 축구협회 는 회원종목단체 규정 개정에 따라...",
     "url": "https://www.newsis.com/view/NISX20260826_0003764017",
     "originalUrl": "https://www.newsis.com/view/NISX20260826_0003764017",
     "publisher": "newsis.com",
@@ -1632,6 +1634,7 @@
       "규정 개정",
       "대한 축구협회",
       "회장 선거",
+      "대의원",
       "정몽규",
       "사퇴"
     ],
@@ -1677,8 +1680,8 @@
       ],
       "earliestPublishedAt": 1787735400000,
       "latestPublishedAt": 1787735400000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -5357,8 +5360,8 @@
       ],
       "earliestPublishedAt": 1787703840000,
       "latestPublishedAt": 1787703840000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {

@@ -89,8 +89,8 @@
       ],
       "earliestPublishedAt": 1790283600000,
       "latestPublishedAt": 1790283600000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -296,8 +296,8 @@
       ],
       "earliestPublishedAt": 1790261040000,
       "latestPublishedAt": 1790261040000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -387,8 +387,8 @@
       ],
       "earliestPublishedAt": 1790257200000,
       "latestPublishedAt": 1790257200000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -423,7 +423,23 @@
     "isOfficial": false,
     "relevanceScore": 8,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112881541"
+      ],
+      "stories": [
+        "news|news|‘송민규+정승원 좌우날개 깜짝 선발’ 모레노 감독 용병술 적중…한국...|osen.co.kr|2026-09-24T13:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘송민규+정승원 좌우날개 깜짝 선발’ 모레노 감독 용병술 적중…한국...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1790256060000,
+      "latestPublishedAt": 1790256060000,
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
+    }
   },
   {
     "id": "item_0ee3f721acd928aa",
@@ -475,8 +491,8 @@
       ],
       "earliestPublishedAt": 1790255760000,
       "latestPublishedAt": 1790255760000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -528,8 +544,8 @@
       ],
       "earliestPublishedAt": 1790255400000,
       "latestPublishedAt": 1790255400000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -844,8 +860,8 @@
       ],
       "earliestPublishedAt": 1790249400000,
       "latestPublishedAt": 1790249400000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -898,8 +914,8 @@
       ],
       "earliestPublishedAt": 1790248320000,
       "latestPublishedAt": 1790248320000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -964,8 +980,8 @@
       ],
       "earliestPublishedAt": 1790246940000,
       "latestPublishedAt": 1790246940000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -1004,14 +1020,14 @@
     "id": "item_422b771e0a858dab",
     "type": "news",
     "title": "\"대한민국 파이팅!\"…모레노호 데뷔·첫 국내 A매치에 빅버드 '활기'",
-    "summary": "부임 과정에서부터 불공정 의혹이 제기됐던 홍명보 감독은 성적에 따른 책임을 지면서 지휘봉을 내려놓았고, 오랜 기간 대한 축구협회 를 이끌었던 정몽규 회장도 자리에서 물러났다. 축구협회 는 임시 사령탑과 함께...",
+    "summary": "부임 과정에서부터 불공정 의혹이 제기됐던 홍명보 감독은 성적에 따른 책임을 지면서 지휘봉을 내려놓았고, 오랜 기간 대한축구협회 를 이끌었던 정몽규 회장도 자리에서 물러났다. 축구협회 는 임시 사령탑과 함께...",
     "url": "https://www.newsis.com/view/NISX20260924_0003803104",
     "originalUrl": "https://www.newsis.com/view/NISX20260924_0003803104",
     "publisher": "newsis.com",
     "publishedAt": "2026-09-24T10:11:00.000Z",
     "collectedAt": "2026-09-28T20:49:15.746Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "감독",
       "부임",
       "정몽규",
@@ -1050,8 +1066,8 @@
       ],
       "earliestPublishedAt": 1790244660000,
       "latestPublishedAt": 1790244660000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
@@ -1117,8 +1133,8 @@
       ],
       "earliestPublishedAt": 1790244360000,
       "latestPublishedAt": 1790244360000,
-      "representativeCollectedAt": 1791425813296,
-      "latestCollectedAt": 1791425813296
+      "representativeCollectedAt": 1791451713720,
+      "latestCollectedAt": 1791451713720
     }
   },
   {
