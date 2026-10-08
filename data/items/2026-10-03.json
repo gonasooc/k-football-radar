@@ -47,8 +47,8 @@
       ],
       "earliestPublishedAt": 1791069300000,
       "latestPublishedAt": 1791069300000,
-      "representativeCollectedAt": 1791451713720,
-      "latestCollectedAt": 1791451713720
+      "representativeCollectedAt": 1791478651034,
+      "latestCollectedAt": 1791478651034
     }
   },
   {
@@ -129,8 +129,8 @@
       ],
       "earliestPublishedAt": 1791054000000,
       "latestPublishedAt": 1791054000000,
-      "representativeCollectedAt": 1791451713720,
-      "latestCollectedAt": 1791451713720
+      "representativeCollectedAt": 1791478651034,
+      "latestCollectedAt": 1791478651034
     }
   },
   {
@@ -241,8 +241,8 @@
       ],
       "earliestPublishedAt": 1791031080000,
       "latestPublishedAt": 1791031080000,
-      "representativeCollectedAt": 1791451713720,
-      "latestCollectedAt": 1791451713720
+      "representativeCollectedAt": 1791478651034,
+      "latestCollectedAt": 1791478651034
     }
   },
   {
@@ -320,6 +320,22 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-10-03/202610030100019100001018"
+      ],
+      "stories": [
+        "news|news|\"싸워\" 조롱받던 홍명보 발언 재평가, 선수 입에서 처음 나온 \"우리 탓\"...|sportschosun.com|2026-10-03T00:27:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"싸워\" 조롱받던 홍명보 발언 재평가, 선수 입에서 처음 나온 \"우리 탓\"...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1790987220000,
+      "latestPublishedAt": 1790987220000,
+      "representativeCollectedAt": 1791478651034,
+      "latestCollectedAt": 1791478651034
+    }
   }
 ]
