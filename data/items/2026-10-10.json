@@ -121,6 +121,61 @@
     }
   },
   {
+    "id": "item_328a56add921f238",
+    "type": "news",
+    "title": "[오피셜] ‘대표팀 은퇴’ 소동으로 韓 축구 뒤흔든 황인범…소속팀 복...",
+    "summary": "( 대한축구협회 ) 회장님도 안 계시고, 감독님도 임시 사령탑이라서 미래를 모르는 상황이라 선수들 입장에서... 이에 현영민 전력강화위원장이 장시간 대화를 나누며 설득했고, 은퇴 소동은 일단락됐다. 황인범도 대표팀을...",
+    "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt2f3db9e57a79d212",
+    "originalUrl": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt2f3db9e57a79d212",
+    "publisher": "goal.com",
+    "publishedAt": "2026-10-10T03:18:00.000Z",
+    "collectedAt": "2026-10-10T07:44:52.623Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회",
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_8cb81169ee581b17",
+    "type": "news",
+    "title": "주장 손흥민 흔들기 그만…'백의종군'하라고? 완장 내려놓을지는 본인 ...",
+    "summary": "감독의 선수단 관리, 대한축구협회 의 대표팀 운영, 선수 개개인의 책임까지 함께 살펴봐야 한다. 더욱이 '백의종군'은 반드시 주장 완장을 내려놓아야 한다는 의미로만 볼 수 없다. 주장을 맡지 않고도 팀을 위해 헌신할 수...",
+    "url": "https://www.maniareport.com/view.php?ud=20261010114143947291b55a0d56_19",
+    "originalUrl": "https://www.maniareport.com/view.php?ud=20261010114143947291b55a0d56_19",
+    "publisher": "maniareport.com",
+    "publishedAt": "2026-10-10T02:43:00.000Z",
+    "collectedAt": "2026-10-10T07:44:52.623Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_6a153753f16f6e35",
     "type": "news",
     "title": "박문성과 박동희 결국 법정으로..\"김병지, 끝까지 시시비비 가릴 것\"",
@@ -178,6 +233,22 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsseoul.com/news/read/1640451?ref=naver"
+      ],
+      "stories": [
+        "news|news|“압력에 굴복하지 않겠다” 김병지 대표 입 열었다, 법적 대응 공식화|sportsseoul.com|2026-10-10T01:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“압력에 굴복하지 않겠다” 김병지 대표 입 열었다, 법적 대응 공식화|sportsseoul.com"
+      ],
+      "earliestPublishedAt": 1791594060000,
+      "latestPublishedAt": 1791594060000,
+      "representativeCollectedAt": 1791618292623,
+      "latestCollectedAt": 1791618292623
+    }
   }
 ]
