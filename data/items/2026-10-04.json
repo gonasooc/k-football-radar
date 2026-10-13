@@ -286,8 +286,8 @@
       ],
       "earliestPublishedAt": 1791151920000,
       "latestPublishedAt": 1791151920000,
-      "representativeCollectedAt": 1791919957105,
-      "latestCollectedAt": 1791919957105
+      "representativeCollectedAt": 1791933970673,
+      "latestCollectedAt": 1791933970673
     }
   },
   {
@@ -1070,8 +1070,8 @@
       ],
       "earliestPublishedAt": 1791090240000,
       "latestPublishedAt": 1791090240000,
-      "representativeCollectedAt": 1791919957105,
-      "latestCollectedAt": 1791919957105
+      "representativeCollectedAt": 1791933970673,
+      "latestCollectedAt": 1791933970673
     }
   },
   {
@@ -1126,8 +1126,8 @@
       ],
       "earliestPublishedAt": 1791088200000,
       "latestPublishedAt": 1791088200000,
-      "representativeCollectedAt": 1791919957105,
-      "latestCollectedAt": 1791919957105
+      "representativeCollectedAt": 1791933970673,
+      "latestCollectedAt": 1791933970673
     }
   },
   {
@@ -1164,7 +1164,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01282486645609640"
+      ],
+      "stories": [
+        "news|news|비판도 악재도 버텼다… 이민성, 금메달로 지킨 약속|edaily.co.kr|2026-10-04T03:53:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|비판도 악재도 버텼다… 이민성, 금메달로 지킨 약속|edaily.co.kr"
+      ],
+      "earliestPublishedAt": 1791085980000,
+      "latestPublishedAt": 1791085980000,
+      "representativeCollectedAt": 1791933970673,
+      "latestCollectedAt": 1791933970673
+    }
   },
   {
     "id": "item_f46d68e19e5ce833",
@@ -1214,8 +1230,8 @@
       ],
       "earliestPublishedAt": 1791085860000,
       "latestPublishedAt": 1791085860000,
-      "representativeCollectedAt": 1791919957105,
-      "latestCollectedAt": 1791919957105
+      "representativeCollectedAt": 1791933970673,
+      "latestCollectedAt": 1791933970673
     }
   },
   {
