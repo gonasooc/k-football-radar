@@ -89,8 +89,8 @@
       ],
       "earliestPublishedAt": 1790283600000,
       "latestPublishedAt": 1790283600000,
-      "representativeCollectedAt": 1792004073395,
-      "latestCollectedAt": 1792004073395
+      "representativeCollectedAt": 1792017511945,
+      "latestCollectedAt": 1792017511945
     }
   },
   {
@@ -296,8 +296,8 @@
       ],
       "earliestPublishedAt": 1790261040000,
       "latestPublishedAt": 1790261040000,
-      "representativeCollectedAt": 1792004073395,
-      "latestCollectedAt": 1792004073395
+      "representativeCollectedAt": 1792017511945,
+      "latestCollectedAt": 1792017511945
     }
   },
   {
@@ -387,8 +387,8 @@
       ],
       "earliestPublishedAt": 1790257200000,
       "latestPublishedAt": 1790257200000,
-      "representativeCollectedAt": 1792004073395,
-      "latestCollectedAt": 1792004073395
+      "representativeCollectedAt": 1792017511945,
+      "latestCollectedAt": 1792017511945
     }
   },
   {
@@ -436,8 +436,8 @@
       ],
       "earliestPublishedAt": 1790256060000,
       "latestPublishedAt": 1790256060000,
-      "representativeCollectedAt": 1792004073395,
-      "latestCollectedAt": 1792004073395
+      "representativeCollectedAt": 1792017511945,
+      "latestCollectedAt": 1792017511945
     }
   },
   {
@@ -979,8 +979,8 @@
       ],
       "earliestPublishedAt": 1790246940000,
       "latestPublishedAt": 1790246940000,
-      "representativeCollectedAt": 1792004073395,
-      "latestCollectedAt": 1792004073395
+      "representativeCollectedAt": 1792017511945,
+      "latestCollectedAt": 1792017511945
     }
   },
   {
@@ -1132,8 +1132,8 @@
       ],
       "earliestPublishedAt": 1790244360000,
       "latestPublishedAt": 1790244360000,
-      "representativeCollectedAt": 1792004073395,
-      "latestCollectedAt": 1792004073395
+      "representativeCollectedAt": 1792017511945,
+      "latestCollectedAt": 1792017511945
     }
   },
   {
@@ -1522,7 +1522,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112881354"
+      ],
+      "stories": [
+        "news|news|‘남아공전 충격의 선발제외’ 캡틴 손흥민 다시 일어섰다…모레노 첫...|osen.co.kr|2026-09-24T09:48:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘남아공전 충격의 선발제외’ 캡틴 손흥민 다시 일어섰다…모레노 첫...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1790243280000,
+      "latestPublishedAt": 1790243280000,
+      "representativeCollectedAt": 1792017511945,
+      "latestCollectedAt": 1792017511945
+    }
   },
   {
     "id": "item_7652d6fc9d9fc109",
@@ -1802,8 +1818,8 @@
       ],
       "earliestPublishedAt": 1790229120000,
       "latestPublishedAt": 1790229120000,
-      "representativeCollectedAt": 1792004073395,
-      "latestCollectedAt": 1792004073395
+      "representativeCollectedAt": 1792017511945,
+      "latestCollectedAt": 1792017511945
     }
   },
   {
