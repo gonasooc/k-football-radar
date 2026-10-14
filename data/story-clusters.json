@@ -2,60 +2,6 @@
   "version": 1,
   "clusters": [
     {
-      "id": "story_5271ced95478f18997aa",
-      "seedItemId": "item_1ab903220b8a5ced",
-      "memberIds": [
-        "item_1ab903220b8a5ced",
-        "item_b4d197fc7e9ec3e8",
-        "item_e08317b07dc81801",
-        "item_bb3cf2ac76043de0"
-      ]
-    },
-    {
-      "id": "story_37aa8a9d13d2aaeb5bc4",
-      "seedItemId": "item_d1246e7ee96092a0",
-      "memberIds": [
-        "item_d1246e7ee96092a0",
-        "item_146b493a38463107",
-        "item_64bd6caba52b846c",
-        "item_38155231b2a98cdf"
-      ]
-    },
-    {
-      "id": "story_f5650fe6e5af8aff55ae",
-      "seedItemId": "item_e1f32a8a74224ea9",
-      "memberIds": [
-        "item_e1f32a8a74224ea9",
-        "item_3ace372701d142de"
-      ]
-    },
-    {
-      "id": "story_3d61cf9a18a42f7d9bac",
-      "seedItemId": "item_e3f53c5be9fdda76",
-      "memberIds": [
-        "item_e3f53c5be9fdda76",
-        "item_0c5eb511f7a79465",
-        "item_4254716aaab1b63e",
-        "item_3252f364d3e1237a"
-      ]
-    },
-    {
-      "id": "story_7af538a366979fcb113d",
-      "seedItemId": "item_69a8143af942c826",
-      "memberIds": [
-        "item_69a8143af942c826",
-        "item_7de9aaf50e869a5e"
-      ]
-    },
-    {
-      "id": "story_7d327a3ec3b4127f3de6",
-      "seedItemId": "item_af0f4bae2c8e3638",
-      "memberIds": [
-        "item_af0f4bae2c8e3638",
-        "item_bf2d0b7a2beb7879"
-      ]
-    },
-    {
       "id": "story_d04a02b95edfb355f989",
       "seedItemId": "item_e3304209e27369be",
       "memberIds": [
@@ -113,11 +59,21 @@
       ]
     },
     {
+      "id": "story_8e1ef6cdf82cb7fd3a4a",
+      "seedItemId": "item_38155231b2a98cdf",
+      "memberIds": [
+        "item_38155231b2a98cdf",
+        "item_3ace372701d142de"
+      ]
+    },
+    {
       "id": "story_79a333e1deff20b97165",
       "seedItemId": "item_f7a538307f2bd293",
       "memberIds": [
         "item_f7a538307f2bd293",
+        "item_b4d197fc7e9ec3e8",
         "item_9a7eb9d713ff8a90",
+        "item_e08317b07dc81801",
         "item_11bc07708cb5b366"
       ]
     },
@@ -130,6 +86,14 @@
         "item_e40a424adb84b1f6",
         "item_d604c899836f1074",
         "item_4ab9357469d1af7b"
+      ]
+    },
+    {
+      "id": "story_e3cc16d4389295304ac6",
+      "seedItemId": "item_bf2d0b7a2beb7879",
+      "memberIds": [
+        "item_bf2d0b7a2beb7879",
+        "item_4430e71e0c485a66"
       ]
     },
     {
