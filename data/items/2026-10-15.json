@@ -21,7 +21,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112893272"
+      ],
+      "stories": [
+        "news|news|‘이래도 국가대표 주장 손흥민 리더십을 의심하나?’ lafc서 1골 2도움 ...|osen.co.kr|2026-10-15T15:43:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘이래도 국가대표 주장 손흥민 리더십을 의심하나?’ lafc서 1골 2도움 ...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1792078980000,
+      "latestPublishedAt": 1792078980000,
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
+    }
   },
   {
     "id": "youtube_N2C548x0GL4",
@@ -153,8 +169,8 @@
       ],
       "earliestPublishedAt": 1792064040000,
       "latestPublishedAt": 1792064040000,
-      "representativeCollectedAt": 1792084931692,
-      "latestCollectedAt": 1792084931692
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
     }
   },
   {
@@ -218,8 +234,8 @@
       ],
       "earliestPublishedAt": 1792054200000,
       "latestPublishedAt": 1792054200000,
-      "representativeCollectedAt": 1792084931692,
-      "latestCollectedAt": 1792084931692
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
     }
   },
   {
@@ -313,7 +329,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.stnsports.co.kr/news/articleView.html?idxno=324102"
+      ],
+      "stories": [
+        "news|news|이영표, 축구대표팀 내분설 관련 의견 밝혀|stnsports.co.kr|2026-10-15T08:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|이영표, 축구대표팀 내분설 관련 의견 밝혀|stnsports.co.kr"
+      ],
+      "earliestPublishedAt": 1792053000000,
+      "latestPublishedAt": 1792053000000,
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
+    }
   },
   {
     "id": "youtube_SZZvqcWJbdM",
@@ -501,8 +533,8 @@
       ],
       "earliestPublishedAt": 1792050720000,
       "latestPublishedAt": 1792050720000,
-      "representativeCollectedAt": 1792084931692,
-      "latestCollectedAt": 1792084931692
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
     }
   },
   {
@@ -550,8 +582,8 @@
       ],
       "earliestPublishedAt": 1792047780000,
       "latestPublishedAt": 1792047780000,
-      "representativeCollectedAt": 1792084931692,
-      "latestCollectedAt": 1792084931692
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
     }
   },
   {
@@ -637,8 +669,8 @@
       ],
       "earliestPublishedAt": 1792036560000,
       "latestPublishedAt": 1792036560000,
-      "representativeCollectedAt": 1792084931692,
-      "latestCollectedAt": 1792084931692
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
     }
   },
   {
@@ -699,8 +731,8 @@
       ],
       "earliestPublishedAt": 1792036380000,
       "latestPublishedAt": 1792036380000,
-      "representativeCollectedAt": 1792084931692,
-      "latestCollectedAt": 1792084931692
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
     }
   },
   {
@@ -775,8 +807,8 @@
       ],
       "earliestPublishedAt": 1792032480000,
       "latestPublishedAt": 1792032480000,
-      "representativeCollectedAt": 1792084931692,
-      "latestCollectedAt": 1792084931692
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
     }
   },
   {
@@ -846,8 +878,8 @@
       ],
       "earliestPublishedAt": 1792030680000,
       "latestPublishedAt": 1792030680000,
-      "representativeCollectedAt": 1792084931692,
-      "latestCollectedAt": 1792084931692
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
     }
   },
   {
@@ -900,8 +932,8 @@
       ],
       "earliestPublishedAt": 1792029120000,
       "latestPublishedAt": 1792029120000,
-      "representativeCollectedAt": 1792084931692,
-      "latestCollectedAt": 1792084931692
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
     }
   },
   {
@@ -978,8 +1010,8 @@
       ],
       "earliestPublishedAt": 1792028640000,
       "latestPublishedAt": 1792028640000,
-      "representativeCollectedAt": 1792084931692,
-      "latestCollectedAt": 1792084931692
+      "representativeCollectedAt": 1792096349543,
+      "latestCollectedAt": 1792096349543
     }
   }
 ]
