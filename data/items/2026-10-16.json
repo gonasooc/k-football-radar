@@ -1,5 +1,101 @@
 [
   {
+    "id": "item_78027ccac54e7116",
+    "type": "news",
+    "title": "중동 정세 불안에도…사우디 아시안컵 조직위 \"준비 이상 없어\"",
+    "summary": "다만 대회 연기 가능성도 거론되면서 한국 대표팀 의 평가전 일정과 감독 선임 계획에도 관심이 쏠리고 있다. 16일 AFP 통신에 따르면 사우디아라비아 아시안컵 조직위원회는 이날 성명을 통해 \"AFC 및 관계 당사자들과...",
+    "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000074043",
+    "originalUrl": "https://www.jnilbo.com/news/articleView.html?idxno=90000074043",
+    "publisher": "jnilbo.com",
+    "publishedAt": "2026-10-16T06:19:00.000Z",
+    "collectedAt": "2026-10-16T06:23:47.419Z",
+    "matchedKeywords": [
+      "감독 선임",
+      "감독",
+      "선임",
+      "거론",
+      "관심"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 4,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_4d2c62ef06184fde",
+    "type": "news",
+    "title": "“그냥 한국 국가대표 은퇴해라” 비난→김민재 뮌헨 떠나 EPL 이적할까...",
+    "summary": "사태의 심각성을 인지한 현영민 대한 축구협회 전력강화위원장이 라커룸에서 자정이 넘도록 설득한 끝에 은퇴 소동은 일단락됐다. 일부 축구 팬들은 김민재, 황인범, 황희찬을 향해 분위기를 흐리지 말고 대표팀을...",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1013425",
+    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1013425",
+    "publisher": "spotvnews.co.kr",
+    "publishedAt": "2026-10-16T03:46:00.000Z",
+    "collectedAt": "2026-10-16T06:23:47.419Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회",
+      "감독 후보",
+      "대한축구협회",
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_796f27175453978b",
+    "type": "news",
+    "title": "홍명보식 가르침 통했나...\"감독님이 '싸워'라고 주문하셨어\" 미친 활약...",
+    "summary": "팬들에게 감사 하다\"며 승리 소감을 밝혔다. 이어 \"상대는 매우 공격적이었다. 상대보다 더 강해져야 한다는... 홍명보 전 한국 축구 국가대표팀 감독이 선수들에게 강조했던 말이 온라인상에서 화제가 되었던 바 있다....",
+    "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=99337",
+    "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=99337",
+    "publisher": "fourfourtwo.co.kr",
+    "publishedAt": "2026-10-16T01:55:00.000Z",
+    "collectedAt": "2026-10-16T06:23:47.419Z",
+    "matchedKeywords": [
+      "홍명보",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 감사"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
+  },
+  {
     "id": "item_b85ea8a9ccab9797",
     "type": "news",
     "title": "도피성 출국 논란 이임생, 2026 월드컵 독단 선임 파장 속 국정감사 다시...",
@@ -48,7 +144,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ftimes.kr/news/articleView.html?idxno=40441"
+      ],
+      "stories": [
+        "news|news|도피성 출국 논란 이임생, 2026 월드컵 독단 선임 파장 속 국정감사 다시...|ftimes.kr|2026-10-16T01:24:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|도피성 출국 논란 이임생, 2026 월드컵 독단 선임 파장 속 국정감사 다시...|ftimes.kr"
+      ],
+      "earliestPublishedAt": 1792113840000,
+      "latestPublishedAt": 1792113840000,
+      "representativeCollectedAt": 1792131827419,
+      "latestCollectedAt": 1792131827419
+    }
   },
   {
     "id": "item_7994219e4960f523",
@@ -103,6 +215,22 @@
     "isOfficial": false,
     "relevanceScore": 0,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003275768"
+      ],
+      "stories": [
+        "news|news|아시안컵 1년 연기될까? 한국축구가 얻을 득과 실|ohmynews.com|2026-10-16T00:21:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|아시안컵 1년 연기될까? 한국축구가 얻을 득과 실|ohmynews.com"
+      ],
+      "earliestPublishedAt": 1792110060000,
+      "latestPublishedAt": 1792110060000,
+      "representativeCollectedAt": 1792131827419,
+      "latestCollectedAt": 1792131827419
+    }
   }
 ]
