@@ -19,7 +19,23 @@
     "isOfficial": false,
     "relevanceScore": 0,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.starnewskorea.com/sports/2026/10/16/2026101616461040643"
+      ],
+      "stories": [
+        "news|news|'우승 후보' 소노 충격 4연패→사령탑 자책 \"2·3쿼터, 코트에 한국말 2...|starnewskorea.com|2026-10-16T09:45:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'우승 후보' 소노 충격 4연패→사령탑 자책 \"2·3쿼터, 코트에 한국말 2...|starnewskorea.com"
+      ],
+      "earliestPublishedAt": 1792143900000,
+      "latestPublishedAt": 1792143900000,
+      "representativeCollectedAt": 1792169885158,
+      "latestCollectedAt": 1792169885158
+    }
   },
   {
     "id": "item_1fbc7e79ed8cd999",
@@ -74,7 +90,23 @@
     "relevanceScore": 32,
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.stnsports.co.kr/news/articleView.html?idxno=324149"
+      ],
+      "stories": [
+        "news|news|석 달째 빈 축구협회장 자리... 대한축구협회, 선거 채비 시작... 투표일...|stnsports.co.kr|2026-10-16T09:15:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|석 달째 빈 축구협회장 자리... 대한축구협회, 선거 채비 시작... 투표일...|stnsports.co.kr"
+      ],
+      "earliestPublishedAt": 1792142100000,
+      "latestPublishedAt": 1792142100000,
+      "representativeCollectedAt": 1792169885158,
+      "latestCollectedAt": 1792169885158
+    }
   },
   {
     "id": "item_0887930124adf5b1",
@@ -101,7 +133,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.footballist.co.kr/news/articleView.html?idxno=215897"
+      ],
+      "stories": [
+        "news|news|[공식발표] 이강인·황인범, afc 올해의 국제 선수상 입후보! 한국인 5연...|footballist.co.kr|2026-10-16T09:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[공식발표] 이강인·황인범, afc 올해의 국제 선수상 입후보! 한국인 5연...|footballist.co.kr"
+      ],
+      "earliestPublishedAt": 1792141200000,
+      "latestPublishedAt": 1792141200000,
+      "representativeCollectedAt": 1792169885158,
+      "latestCollectedAt": 1792169885158
+    }
   },
   {
     "id": "item_78027ccac54e7116",
@@ -148,8 +196,8 @@
       ],
       "earliestPublishedAt": 1792131540000,
       "latestPublishedAt": 1792131540000,
-      "representativeCollectedAt": 1792151702007,
-      "latestCollectedAt": 1792151702007
+      "representativeCollectedAt": 1792169885158,
+      "latestCollectedAt": 1792169885158
     }
   },
   {
@@ -197,8 +245,8 @@
       ],
       "earliestPublishedAt": 1792122360000,
       "latestPublishedAt": 1792122360000,
-      "representativeCollectedAt": 1792151702007,
-      "latestCollectedAt": 1792151702007
+      "representativeCollectedAt": 1792169885158,
+      "latestCollectedAt": 1792169885158
     }
   },
   {
@@ -243,8 +291,8 @@
       ],
       "earliestPublishedAt": 1792115700000,
       "latestPublishedAt": 1792115700000,
-      "representativeCollectedAt": 1792151702007,
-      "latestCollectedAt": 1792151702007
+      "representativeCollectedAt": 1792169885158,
+      "latestCollectedAt": 1792169885158
     }
   },
   {
@@ -310,8 +358,8 @@
       ],
       "earliestPublishedAt": 1792113840000,
       "latestPublishedAt": 1792113840000,
-      "representativeCollectedAt": 1792151702007,
-      "latestCollectedAt": 1792151702007
+      "representativeCollectedAt": 1792169885158,
+      "latestCollectedAt": 1792169885158
     }
   },
   {
@@ -381,8 +429,8 @@
       ],
       "earliestPublishedAt": 1792110060000,
       "latestPublishedAt": 1792110060000,
-      "representativeCollectedAt": 1792151702007,
-      "latestCollectedAt": 1792151702007
+      "representativeCollectedAt": 1792169885158,
+      "latestCollectedAt": 1792169885158
     }
   }
 ]
