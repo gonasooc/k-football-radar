@@ -31,7 +31,55 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 14,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.yonhapnewstv.co.kr/news/MYH20261016060048mZe"
+      ],
+      "stories": [
+        "news|news|축협, 회장선거 준비 한창…\"사전 절차 진행 중\"|yonhapnewstv.co.kr|2026-10-15T21:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축협, 회장선거 준비 한창…\"사전 절차 진행 중\"|yonhapnewstv.co.kr"
+      ],
+      "earliestPublishedAt": 1792098060000,
+      "latestPublishedAt": 1792098060000,
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
+    }
+  },
+  {
+    "id": "item_62f47e082dbba84b",
+    "type": "news",
+    "title": "\"日 이토나 팔아라\"...김민재, 韓 21호 프리미어리거 가능성 대반전! 'PL...",
+    "summary": "영입 후보 로 거론했다\"고 전했다. 이어 매체는 \"미켈리는 과거 이탈리아 세리에A 나폴리에서 일할 당시... 현영민 대한 축구협회 전력강화위원장이 자정이 넘도록 세 선수와 대화를 나눈 끝에 은퇴 소동이 일단락됐으나...",
+    "url": "http://www.osen.co.kr/article/G1112893532",
+    "originalUrl": "http://www.osen.co.kr/article/G1112893532",
+    "publisher": "osen.co.kr",
+    "publishedAt": "2026-10-15T19:30:00.000Z",
+    "collectedAt": "2026-10-16T01:39:53.289Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회",
+      "대한축구협회",
+      "축구협회 감독 후보"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_6ffb9dd68e5b6120",
@@ -69,8 +117,8 @@
       ],
       "earliestPublishedAt": 1792078980000,
       "latestPublishedAt": 1792078980000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   },
   {
@@ -203,8 +251,8 @@
       ],
       "earliestPublishedAt": 1792064040000,
       "latestPublishedAt": 1792064040000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   },
   {
@@ -268,8 +316,8 @@
       ],
       "earliestPublishedAt": 1792054200000,
       "latestPublishedAt": 1792054200000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   },
   {
@@ -377,8 +425,8 @@
       ],
       "earliestPublishedAt": 1792053000000,
       "latestPublishedAt": 1792053000000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   },
   {
@@ -567,8 +615,8 @@
       ],
       "earliestPublishedAt": 1792050720000,
       "latestPublishedAt": 1792050720000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   },
   {
@@ -616,8 +664,8 @@
       ],
       "earliestPublishedAt": 1792047780000,
       "latestPublishedAt": 1792047780000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   },
   {
@@ -703,8 +751,8 @@
       ],
       "earliestPublishedAt": 1792036560000,
       "latestPublishedAt": 1792036560000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   },
   {
@@ -765,8 +813,8 @@
       ],
       "earliestPublishedAt": 1792036380000,
       "latestPublishedAt": 1792036380000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   },
   {
@@ -841,8 +889,8 @@
       ],
       "earliestPublishedAt": 1792032480000,
       "latestPublishedAt": 1792032480000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   },
   {
@@ -912,8 +960,8 @@
       ],
       "earliestPublishedAt": 1792030680000,
       "latestPublishedAt": 1792030680000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   },
   {
@@ -966,8 +1014,8 @@
       ],
       "earliestPublishedAt": 1792029120000,
       "latestPublishedAt": 1792029120000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   },
   {
@@ -1044,8 +1092,8 @@
       ],
       "earliestPublishedAt": 1792028640000,
       "latestPublishedAt": 1792028640000,
-      "representativeCollectedAt": 1792106316574,
-      "latestCollectedAt": 1792106316574
+      "representativeCollectedAt": 1792114793289,
+      "latestCollectedAt": 1792114793289
     }
   }
 ]
