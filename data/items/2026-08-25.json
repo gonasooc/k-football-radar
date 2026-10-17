@@ -756,8 +756,8 @@
       ],
       "earliestPublishedAt": 1787669520000,
       "latestPublishedAt": 1787669520000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -1134,8 +1134,8 @@
       ],
       "earliestPublishedAt": 1787657700000,
       "latestPublishedAt": 1787657700000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -1282,8 +1282,8 @@
       ],
       "earliestPublishedAt": 1787656020000,
       "latestPublishedAt": 1787656020000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -1558,8 +1558,8 @@
       ],
       "earliestPublishedAt": 1787649960000,
       "latestPublishedAt": 1787649960000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -1781,8 +1781,8 @@
       ],
       "earliestPublishedAt": 1787646480000,
       "latestPublishedAt": 1787646480000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -2373,8 +2373,8 @@
       ],
       "earliestPublishedAt": 1787639400000,
       "latestPublishedAt": 1787639400000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -2525,8 +2525,8 @@
       ],
       "earliestPublishedAt": 1787638680000,
       "latestPublishedAt": 1787638680000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -2570,8 +2570,8 @@
       ],
       "earliestPublishedAt": 1787638560000,
       "latestPublishedAt": 1787638560000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -2911,8 +2911,8 @@
       ],
       "earliestPublishedAt": 1787635980000,
       "latestPublishedAt": 1787635980000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -3429,7 +3429,7 @@
     "id": "item_39a5a54cb71e188f",
     "type": "news",
     "title": "FIFA·AFC, K-축구혁신위 활동 내역 요청…'제3자 개입' 제재 가능성도 ...",
-    "summary": "특히 정관 개정 이 필요한 사안은 대한 축구협회 이사회와 대의원총회 등 별도의 절차를 거쳐야 한다. 혁신위 역시 자신들의 역할이 직접적인 의사결정이 아닌 권고와 방향 제시에 있다는 점을 거듭 강조해왔다. 그러나...",
+    "summary": "혁신위는 그동안 대한축구협회 회장 선거 제도 개선과 대표팀 감독 선임 시스템, 유소년 축구 정책 등을 주요 의제로 논의했다. 회장 선거와 관련해서는 선거인단을 대폭 확대하고 전자투표 시스템을 활용하는 방안...",
     "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=432845",
     "originalUrl": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=432845",
     "publisher": "dailysportshankook.co.kr",
@@ -3437,11 +3437,19 @@
     "collectedAt": "2026-08-25T03:31:10.552Z",
     "matchedKeywords": [
       "축구혁신위",
-      "대한 축구협회",
-      "대의원",
-      "정관",
-      "정관 개정",
-      "이사회"
+      "대한축구협회",
+      "회장 선거",
+      "선거인단",
+      "선거인",
+      "감독 선임",
+      "대표팀 감독",
+      "감독",
+      "선임",
+      "유소년",
+      "제도",
+      "정책",
+      "개선",
+      "시스템"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -3474,15 +3482,18 @@
     ],
     "issueTags": [
       "innovation-committee",
+      "election",
       "electoral-college",
-      "statute-revision",
-      "kfa-executives"
+      "coach-appointment",
+      "youth-governance"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
-    "labels": [],
+    "relevanceScore": 54,
+    "labels": [
+      "선거 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -3496,8 +3507,8 @@
       ],
       "earliestPublishedAt": 1787628120000,
       "latestPublishedAt": 1787628120000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -3725,8 +3736,8 @@
       ],
       "earliestPublishedAt": 1787625840000,
       "latestPublishedAt": 1787625840000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -4098,8 +4109,8 @@
       ],
       "earliestPublishedAt": 1787623920000,
       "latestPublishedAt": 1787623920000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -4243,8 +4254,8 @@
       ],
       "earliestPublishedAt": 1787623260000,
       "latestPublishedAt": 1787623260000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
@@ -4949,8 +4960,8 @@
       ],
       "earliestPublishedAt": 1787618100000,
       "latestPublishedAt": 1787618100000,
-      "representativeCollectedAt": 1792200802483,
-      "latestCollectedAt": 1792200802483
+      "representativeCollectedAt": 1792217587367,
+      "latestCollectedAt": 1792217587367
     }
   },
   {
