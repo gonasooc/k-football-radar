@@ -30,7 +30,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/bltbb1246408a0f410f"
+      ],
+      "stories": [
+        "news|news|'대표팀 은퇴 소동' 김민재, 韓 21호 프리미어리거 되나…'디펜딩 챔피...|goal.com|2026-10-17T19:55:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'대표팀 은퇴 소동' 김민재, 韓 21호 프리미어리거 되나…'디펜딩 챔피...|goal.com"
+      ],
+      "earliestPublishedAt": 1792266900000,
+      "latestPublishedAt": 1792266900000,
+      "representativeCollectedAt": 1792279708127,
+      "latestCollectedAt": 1792279708127
+    }
   },
   {
     "id": "item_c6631f08fcd872a1",
@@ -76,8 +92,8 @@
       ],
       "earliestPublishedAt": 1792250760000,
       "latestPublishedAt": 1792250760000,
-      "representativeCollectedAt": 1792273507799,
-      "latestCollectedAt": 1792273507799
+      "representativeCollectedAt": 1792279708127,
+      "latestCollectedAt": 1792279708127
     }
   },
   {
