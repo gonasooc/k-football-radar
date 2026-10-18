@@ -30,7 +30,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt7a35495abf9567d7"
+      ],
+      "stories": [
+        "news|news|\"황희찬 대표팀 차출, 시기 좋지 않았다\" 샬케 감독 작심 발언…\"몸 상태...|goal.com|2026-10-17T22:45:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"황희찬 대표팀 차출, 시기 좋지 않았다\" 샬케 감독 작심 발언…\"몸 상태...|goal.com"
+      ],
+      "earliestPublishedAt": 1792277100000,
+      "latestPublishedAt": 1792277100000,
+      "representativeCollectedAt": 1792323853290,
+      "latestCollectedAt": 1792323853290
+    }
   },
   {
     "id": "item_2c07b80da7ca44dd",
@@ -77,8 +93,8 @@
       ],
       "earliestPublishedAt": 1792266900000,
       "latestPublishedAt": 1792266900000,
-      "representativeCollectedAt": 1792305382491,
-      "latestCollectedAt": 1792305382491
+      "representativeCollectedAt": 1792323853290,
+      "latestCollectedAt": 1792323853290
     }
   },
   {
@@ -193,8 +209,8 @@
       ],
       "earliestPublishedAt": 1792250760000,
       "latestPublishedAt": 1792250760000,
-      "representativeCollectedAt": 1792305382491,
-      "latestCollectedAt": 1792305382491
+      "representativeCollectedAt": 1792323853290,
+      "latestCollectedAt": 1792323853290
     }
   },
   {
