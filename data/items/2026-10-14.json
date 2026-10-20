@@ -165,8 +165,8 @@
       ],
       "earliestPublishedAt": 1792015200000,
       "latestPublishedAt": 1792015200000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -355,8 +355,8 @@
       ],
       "earliestPublishedAt": 1792008060000,
       "latestPublishedAt": 1792008060000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -453,8 +453,8 @@
       ],
       "earliestPublishedAt": 1792001580000,
       "latestPublishedAt": 1792001580000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -573,8 +573,8 @@
       ],
       "earliestPublishedAt": 1791990360000,
       "latestPublishedAt": 1791990360000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -654,8 +654,8 @@
       ],
       "earliestPublishedAt": 1791990180000,
       "latestPublishedAt": 1791990180000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -727,27 +727,25 @@
       ],
       "earliestPublishedAt": 1791990060000,
       "latestPublishedAt": 1791990060000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
     "id": "item_3de8deca1b066e58",
     "type": "news",
     "title": "문체위, 국감 증인 채택 놓고 여야 충돌…‘암살자(들)’ 제작진은 불발",
-    "summary": "이들은 오는 21일 대한체육회와 대한 축구협회 를 대상으로 열리는 국정감사에서 축협 운영과 축구 국가대표 감독 선임 문제에 대한 질의를 받을 예정이다. 표결에 앞서 여야는 영화 ‘암살자(들)’ 제작진의 증인 채택...",
+    "summary": "국회 문화체육관광위원회가 국정 감사 증인·참고인 출석 요구안을 의결하는 과정에서 영화 ‘암살자(들)... 문체위는 14일 전체회의를 열고 이용수 대한축구협회 회장 직무대행과 이임생 전 축협 기술총괄이사를 포함한...",
     "url": "https://www.g-enews.com/view.php?ud=202610141955576086b065b72042_1",
     "originalUrl": "https://www.g-enews.com/view.php?ud=202610141955576086b065b72042_1",
     "publisher": "g-enews.com",
     "publishedAt": "2026-10-14T12:44:00.000Z",
     "collectedAt": "2026-10-14T14:03:07.198Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "축협",
-      "감사",
-      "감독 선임",
-      "감독",
-      "선임"
+      "이임생",
+      "감사"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -760,16 +758,16 @@
       "축구협회 감독 선임",
       "축구협회 감사"
     ],
-    "issueTags": [
-      "mcst-audit",
-      "coach-appointment"
+    "issueTags": [],
+    "personTags": [
+      "person_lee_im_saeng"
     ],
-    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 11,
     "relevanceTier": "secondary",
     "labels": [
+      "인물 언급",
       "감사 키워드 포함"
     ],
     "dedupeState": {
@@ -785,8 +783,8 @@
       ],
       "earliestPublishedAt": 1791981840000,
       "latestPublishedAt": 1791981840000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -830,8 +828,8 @@
       ],
       "earliestPublishedAt": 1791980640000,
       "latestPublishedAt": 1791980640000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -923,7 +921,7 @@
     "id": "item_230bea8086ced37b",
     "type": "news",
     "title": "[2026 국정감사] 농지 전수조사·암살자(들) 화두에…\"임차농 영농 기반...",
-    "summary": "회장 직무대행, 이임생 전 대한 축구협회 기술총괄이사 등 대한체육회 국정감사(21일) 증인 13명에 대한 출석 요구의 건을 의결했다. 축구협회 운영상 문제점, 축구 국가대표 감독 선임 문제 등이 화두에 오를 전망이다.",
+    "summary": "한편 문체위는 이날 이용수 대한 축구협회 회장 직무대행, 이임생 전 대한 축구협회 기술총괄이사 등 대한체육회 국정감사(21일) 증인 13명에 대한 출석 요구의 건을 의결했다. 축구협회 운영상 문제점, 축구 국가대표 감독...",
     "url": "https://www.ajunews.com/view/20261014190125584",
     "originalUrl": "https://www.ajunews.com/view/20261014190125584",
     "publisher": "ajunews.com",
@@ -973,8 +971,8 @@
       ],
       "earliestPublishedAt": 1791972720000,
       "latestPublishedAt": 1791972720000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -1030,8 +1028,8 @@
       ],
       "earliestPublishedAt": 1791972540000,
       "latestPublishedAt": 1791972540000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -1185,7 +1183,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.thereport.co.kr/news/articleView.html?idxno=92290"
+      ],
+      "stories": [
+        "news|news|'암살자(들)' 감독·메가박스 증인 채택 불발|thereport.co.kr|2026-10-14T09:06:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'암살자(들)' 감독·메가박스 증인 채택 불발|thereport.co.kr"
+      ],
+      "earliestPublishedAt": 1791968760000,
+      "latestPublishedAt": 1791968760000,
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
+    }
   },
   {
     "id": "item_fef5e6b4a57e74be",
@@ -1256,8 +1270,8 @@
       ],
       "earliestPublishedAt": 1791967980000,
       "latestPublishedAt": 1791967980000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -1313,8 +1327,8 @@
       ],
       "earliestPublishedAt": 1791966900000,
       "latestPublishedAt": 1791966900000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -1450,8 +1464,8 @@
       ],
       "earliestPublishedAt": 1791966360000,
       "latestPublishedAt": 1791966360000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -1507,8 +1521,8 @@
       ],
       "earliestPublishedAt": 1791965640000,
       "latestPublishedAt": 1791965640000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -1668,8 +1682,8 @@
       ],
       "earliestPublishedAt": 1791963720000,
       "latestPublishedAt": 1791963720000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -1724,8 +1738,8 @@
       ],
       "earliestPublishedAt": 1791963000000,
       "latestPublishedAt": 1791963000000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -1782,8 +1796,8 @@
       ],
       "earliestPublishedAt": 1791962220000,
       "latestPublishedAt": 1791962220000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -1840,8 +1854,8 @@
       ],
       "earliestPublishedAt": 1791961500000,
       "latestPublishedAt": 1791987120000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -1887,8 +1901,8 @@
       ],
       "earliestPublishedAt": 1791960720000,
       "latestPublishedAt": 1791960720000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -1945,8 +1959,8 @@
       ],
       "earliestPublishedAt": 1791959760000,
       "latestPublishedAt": 1791959760000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -2005,15 +2019,15 @@
       ],
       "earliestPublishedAt": 1791957780000,
       "latestPublishedAt": 1791957780000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
     "id": "item_1c1dfd536d9b306e",
     "type": "news",
     "title": "아시안컵 '1년 연기' 관측까지, 모레노 감독 韓 동행 허무하게 끝나나",
-    "summary": "다만 만약 아시안컵이 연기되면 모레노 감독 은 11월 말을 끝으로 계약이 만료돼 대표팀을 떠날 수밖에 없다. 이후 대한 축구협회 장 새 회장 체제에서 정식 사령탑을 선임하는 절차에 다시 지원해 다른 후보 자들과 경쟁을...",
+    "summary": "대한 축구협회 가 홍명보 감독 사퇴 이후 정식 감독이 아닌 '임시 감독'을 선임한 건 정몽규 회장 사퇴로 현재 수장이 공석이기 때문이다. 새 회장이 선출될 때까지는 우선 임시 사령탑 체제로 대표팀을 운영하다, 이후 새...",
     "url": "https://www.starnewskorea.com/sports/2026/10/14/2026101411222524375",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/10/14/2026101411222524375",
     "publisher": "starnewskorea.com",
@@ -2021,9 +2035,11 @@
     "collectedAt": "2026-10-14T14:03:07.198Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "사령탑",
+      "감독",
       "선임",
-      "후보"
+      "정몽규",
+      "홍명보",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2040,12 +2056,17 @@
     "issueTags": [
       "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 18,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -2059,8 +2080,8 @@
       ],
       "earliestPublishedAt": 1791955620000,
       "latestPublishedAt": 1791955620000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -2117,8 +2138,8 @@
       ],
       "earliestPublishedAt": 1791955560000,
       "latestPublishedAt": 1791955560000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -2179,8 +2200,8 @@
       ],
       "earliestPublishedAt": 1791954900000,
       "latestPublishedAt": 1791954900000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -2221,8 +2242,8 @@
       ],
       "earliestPublishedAt": 1791954000000,
       "latestPublishedAt": 1791954000000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -2278,8 +2299,8 @@
       ],
       "earliestPublishedAt": 1791953160000,
       "latestPublishedAt": 1791953160000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -2335,22 +2356,22 @@
       ],
       "earliestPublishedAt": 1791952680000,
       "latestPublishedAt": 1791952680000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
     "id": "item_28b563a94b163abb",
     "type": "news",
     "title": "문체위, 암살자(들) 국감 증인 채택 또 불발…野 반발하며 퇴장",
-    "summary": "문체위는 14일 서울 여의도 국회에서 전체회의를 열고 이용수 대한 축구협회 회장 직무대행과 이임생 전 축협 기술총괄이사 등 국정감사 증인 13명과 참고인에 대한 출석 요구의 건을 여권 주도로 의결했다. 오는 21일...",
+    "summary": "문체위는 14일 서울 여의도 국회에서 전체회의를 열고 이용수 대한축구협회 회장 직무대행과 이임생 전 축협 기술총괄이사 등 국정감사 증인 13명과 참고인에 대한 출석 요구의 건을 여권 주도로 의결했다. 오는 21일...",
     "url": "https://www.mt.co.kr/politics/2026/10/14/2026101412515735712",
     "originalUrl": "https://www.mt.co.kr/politics/2026/10/14/2026101412515735712",
     "publisher": "mt.co.kr",
     "publishedAt": "2026-10-14T04:30:00.000Z",
     "collectedAt": "2026-10-14T08:01:38.142Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "축협",
       "감사",
       "이임생"
@@ -2394,8 +2415,8 @@
       ],
       "earliestPublishedAt": 1791952200000,
       "latestPublishedAt": 1791952200000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -2684,8 +2705,8 @@
       ],
       "earliestPublishedAt": 1791946800000,
       "latestPublishedAt": 1791946800000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -2746,8 +2767,8 @@
       ],
       "earliestPublishedAt": 1791946440000,
       "latestPublishedAt": 1791946440000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -2852,8 +2873,8 @@
       ],
       "earliestPublishedAt": 1791942000000,
       "latestPublishedAt": 1791942000000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -2984,8 +3005,8 @@
       ],
       "earliestPublishedAt": 1791940440000,
       "latestPublishedAt": 1791940440000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {

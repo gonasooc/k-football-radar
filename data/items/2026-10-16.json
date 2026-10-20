@@ -107,8 +107,8 @@
       ],
       "earliestPublishedAt": 1792182900000,
       "latestPublishedAt": 1792182900000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -272,8 +272,8 @@
       ],
       "earliestPublishedAt": 1792142100000,
       "latestPublishedAt": 1792142100000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -402,8 +402,8 @@
       ],
       "earliestPublishedAt": 1792141200000,
       "latestPublishedAt": 1792141200000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -451,8 +451,8 @@
       ],
       "earliestPublishedAt": 1792131540000,
       "latestPublishedAt": 1792131540000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -500,8 +500,8 @@
       ],
       "earliestPublishedAt": 1792122360000,
       "latestPublishedAt": 1792122360000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -546,8 +546,8 @@
       ],
       "earliestPublishedAt": 1792115700000,
       "latestPublishedAt": 1792115700000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -613,8 +613,8 @@
       ],
       "earliestPublishedAt": 1792113840000,
       "latestPublishedAt": 1792113840000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   },
   {
@@ -647,7 +647,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.interfootball.co.kr/news/articleView.html?idxno=696496"
+      ],
+      "stories": [
+        "news|news|[in point] 96라인 은퇴설부터 손흥민-이강인 루머 논란까지 나오는데…...|interfootball.co.kr|2026-10-16T00:59:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[in point] 96라인 은퇴설부터 손흥민-이강인 루머 논란까지 나오는데…...|interfootball.co.kr"
+      ],
+      "earliestPublishedAt": 1792112340000,
+      "latestPublishedAt": 1792112340000,
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
+    }
   },
   {
     "id": "item_7994219e4960f523",
@@ -718,8 +734,8 @@
       ],
       "earliestPublishedAt": 1792110060000,
       "latestPublishedAt": 1792110060000,
-      "representativeCollectedAt": 1792473596254,
-      "latestCollectedAt": 1792473596254
+      "representativeCollectedAt": 1792491952743,
+      "latestCollectedAt": 1792491952743
     }
   }
 ]
