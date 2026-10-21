@@ -5531,15 +5531,15 @@
       ],
       "earliestPublishedAt": 1788358560000,
       "latestPublishedAt": 1788358560000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
     "id": "item_b1bca687d5d86252",
     "type": "news",
     "title": "\"K-축구 혁신위, FIFA가 문제 삼진 않을 것\"",
-    "summary": "/문화체육관광부 제공 | 서울=한스경제 박종민 기자 | 김대현(58) 문화체육관광부 제2차관이 K- 축구 혁신위 원... 혁신위 는 지난달 19일 경청회까지 총 6차례 회의를 실시했다. 그 과정에서 대한 축구협회 장 선거인단을 기존...",
+    "summary": "문체부는 7월 혁신위를 출범하고 한국 축구 의 경쟁력을 높이는데 주력했다. 주요 논의 과제로는 ▲ 유소년 ... 그 과정에서 대한축구협회 장 선거인단을 기존 200여명에서 약 2만 명 규모로 크게 확대하는 선거 제도 개편...",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=861736",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=861736",
     "publisher": "hansbiz.co.kr",
@@ -5547,9 +5547,10 @@
     "collectedAt": "2026-09-02T15:18:27.807Z",
     "matchedKeywords": [
       "축구 혁신",
-      "대한 축구협회",
+      "대한축구협회",
       "선거인단",
-      "선거인"
+      "선거인",
+      "제도 개편"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -5573,7 +5574,8 @@
     ],
     "issueTags": [
       "innovation-committee",
-      "electoral-college"
+      "electoral-college",
+      "statute-revision"
     ],
     "personTags": [],
     "sourceType": "news",
@@ -5595,8 +5597,8 @@
       ],
       "earliestPublishedAt": 1788355800000,
       "latestPublishedAt": 1788355800000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -7189,14 +7191,17 @@
     "id": "item_0cd7a4fc7b3979eb",
     "type": "news",
     "title": "K-축구혁신위 문제삼는 FIFA, 문체부 \"문제없을 것\"",
-    "summary": "배영수 기자┃최근 K- 축구혁신위 원회(이하 혁신위)의 활동에 대해 자료 등을 요구하고 추가적으로 방한하는 등 국내 여론과는 거리감 있는 행보를 보이고 있는 국제축구연맹(FIFA)에 대해 문화체육관광부는 별다른...",
+    "summary": "물러나면서 박지성 FIFA 분과위원회 위원과 유승민 대한체육회장의 공동위원장 체제로 운영되고 있다\"고... 지난달 19일 천안축구센터에서 열린 경청회까지 총 여섯 차례 회의를 통해 KFA 회장 선거 와 관련된 선거 인단을...",
     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=321943",
     "originalUrl": "https://www.stnsports.co.kr/news/articleView.html?idxno=321943",
     "publisher": "stnsports.co.kr",
     "publishedAt": "2026-09-02T08:58:00.000Z",
     "collectedAt": "2026-09-02T11:44:03.951Z",
     "matchedKeywords": [
-      "축구혁신위"
+      "축구혁신위",
+      "KFA",
+      "회장 선거",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -7223,13 +7228,18 @@
       "KFA"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "election"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
-    "labels": [],
+    "relevanceScore": 43,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -7243,8 +7253,8 @@
       ],
       "earliestPublishedAt": 1788339480000,
       "latestPublishedAt": 1788339480000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -7339,7 +7349,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsseoul.com/news/read/1632505?ref=naver"
+      ],
+      "stories": [
+        "news|news|fifa ‘정부 주도’ 혁신위 조사에…김대현 차관 “최휘영 장관 (공동위...|sportsseoul.com|2026-09-02T08:51:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|fifa ‘정부 주도’ 혁신위 조사에…김대현 차관 “최휘영 장관 (공동위...|sportsseoul.com"
+      ],
+      "earliestPublishedAt": 1788339060000,
+      "latestPublishedAt": 1788339060000,
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
+    }
   },
   {
     "id": "youtube_CNU9_GR7r9Y",
@@ -7507,7 +7533,7 @@
     "id": "item_8a340c9271917797",
     "type": "news",
     "title": "FIFA, K-축구혁신위 활동 점검 일정 연기… 문체부 “별다른 문제 없을 ...",
-    "summary": "사진=김진수 기자 국제 축구 연맹(FIFA)의 문화체육관광부 주도의 K- 축구 혁신위 원회 활동 현장 점검이 미뤄졌다. 2일 대한 축구협회 전날 FIFA로부터 내부 사정으로 인해 차주 방한이 연기됐다고 안내받았다. FIFA는 향후...",
+    "summary": "거버넌스, 유소년 선수 육성 등 한국 축구 의 미래 경쟁력을 높이기 위한 주요 과제를 종합적으로 논의하고 있다. 다만 혁신위 활동이 협회 에 대한 정부 간섭이나 개입으로 비칠 수도 있다. 이에 대해 김대현...",
     "url": "https://www.sportsworldi.com/newsView/20260902517854",
     "originalUrl": "https://www.sportsworldi.com/newsView/20260902517854",
     "publisher": "sportsworldi.com",
@@ -7515,8 +7541,9 @@
     "collectedAt": "2026-09-02T11:44:03.951Z",
     "matchedKeywords": [
       "축구혁신위",
-      "대한 축구협회",
-      "축구 혁신"
+      "유소년",
+      "육성",
+      "거버넌스"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -7531,12 +7558,13 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "youth-governance"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 34,
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -7551,15 +7579,15 @@
       ],
       "earliestPublishedAt": 1788338340000,
       "latestPublishedAt": 1788338340000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
     "id": "item_fceb8d292fd299eb",
     "type": "news",
     "title": "FIFA, 'K-축구혁신위' 현장 점검 연기…문체부 \"문제 없을 것\"(종합)",
-    "summary": "안경남 김진엽 기자 = 국제 축구 연맹(FIFA)의 문화체육관광부 주도의 K (케이)- 축구 혁신위 원회(이하 혁신위 ) 활동 현장 점검이 미뤄졌다. 2일 대한 축구협회 관계자에 따르면 전날 FIFA로부터 내부 사정으로 인해 차주...",
+    "summary": "거버넌스, 유소년 선수 육성 , 첨단 기술 시스템 도입 등 한국 축구 의 미래 경쟁력을 높이기 위한 주요 과제를 종합적으로 논의하고 있다. 하지만 혁신위 활동이 협회 에 대한 정부 간섭이나 개입으로 비칠 수도 있다....",
     "url": "https://www.newsis.com/view/NISX20260902_0003773593",
     "originalUrl": "https://www.newsis.com/view/NISX20260902_0003773593",
     "publisher": "newsis.com",
@@ -7567,8 +7595,10 @@
     "collectedAt": "2026-09-02T11:44:03.951Z",
     "matchedKeywords": [
       "축구혁신위",
-      "대한 축구협회",
-      "축구 혁신"
+      "유소년",
+      "육성",
+      "거버넌스",
+      "시스템"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -7584,12 +7614,13 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "youth-governance"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 34,
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -7604,8 +7635,8 @@
       ],
       "earliestPublishedAt": 1788337200000,
       "latestPublishedAt": 1788337200000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -8128,7 +8159,7 @@
     "id": "item_fad1c83f8b69aabe",
     "type": "news",
     "title": "김대현 문체부 차관 “K축구 혁신위, FIFA 문제 삼을 수준 아냐”",
-    "summary": "김대현 문화체육관광부 제2차관이 케이( K )- 축구 혁신위 원회(이하 혁신위 )가 정치권력의 개입으로 비칠 수... 김 차관은 또 “ 혁신위 에는 대한체육회, 대한 축구협회 , 한국프로 축구 연맹 등 관계 기관들이 모두 참여하는...",
+    "summary": "대한체육회장, 박지성 FIFA 분과위원회 위원의 공동위원장 체제로 구성된 것도 그런 논란을 피하기... 혁신위는 지금까지 수차례 회의를 진행하면서 협회장 선거 제도 개편을 핵심 의제로 다뤘다. 이에 선거 인단을 최대...",
     "url": "https://www.dailian.co.kr/news/view/1685593/?sc=Naver",
     "originalUrl": "https://www.dailian.co.kr/news/view/1685593/?sc=Naver",
     "publisher": "dailian.co.kr",
@@ -8136,7 +8167,9 @@
     "collectedAt": "2026-09-02T11:44:03.951Z",
     "matchedKeywords": [
       "축구 혁신",
-      "대한 축구협회"
+      "회장 선거",
+      "제도 개편",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -8156,13 +8189,19 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "election",
+      "statute-revision"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 20,
-    "labels": [],
+    "relevanceScore": 21,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -8176,8 +8215,8 @@
       ],
       "earliestPublishedAt": 1788336060000,
       "latestPublishedAt": 1788336060000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -8386,8 +8425,8 @@
       ],
       "earliestPublishedAt": 1788335460000,
       "latestPublishedAt": 1788335460000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -8459,7 +8498,7 @@
     "id": "item_e12d171db4da818b",
     "type": "news",
     "title": "김대현 문체부 차관 \"축구혁신위, FIFA가 문제 삼을 만한 사안 없을 것\"",
-    "summary": "[사진=강상헌 기자] 김대현 문화체육관광부 제2차관이 국제 축구 연맹(FIFA)의 대한 축구협회 현장 점검 추진과 K- 축구 혁신위 원회 활동이 '정치권력 개입'으로 비칠 수 있다는 우려에 대해 \"FIFA가 문제 삼을 만한 사안은 없을...",
+    "summary": "com 2일 김대현 문화체육관광부 제2차관이 정부서울청사에서 열린 국가스포츠 정책 위원회 사전 브리핑에서 답변하고 있다. [사진=강상헌 기자] 김대현 문화체육관광부 제2차관이 국제 축구 연맹(FIFA)의 대한축구협회 현장...",
     "url": "https://www.ajunews.com/view/20260902163532169",
     "originalUrl": "https://www.ajunews.com/view/20260902163532169",
     "publisher": "ajunews.com",
@@ -8467,8 +8506,7 @@
     "collectedAt": "2026-09-02T11:44:03.951Z",
     "matchedKeywords": [
       "축구혁신위",
-      "대한 축구협회",
-      "축구 혁신"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -8489,7 +8527,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 36,
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -8504,8 +8542,8 @@
       ],
       "earliestPublishedAt": 1788335160000,
       "latestPublishedAt": 1788335160000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -8573,8 +8611,8 @@
       ],
       "earliestPublishedAt": 1788334980000,
       "latestPublishedAt": 1788334980000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -8683,8 +8721,8 @@
       ],
       "earliestPublishedAt": 1788334740000,
       "latestPublishedAt": 1788334740000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -9076,8 +9114,8 @@
       ],
       "earliestPublishedAt": 1788332760000,
       "latestPublishedAt": 1788332760000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -9138,8 +9176,8 @@
       ],
       "earliestPublishedAt": 1788332700000,
       "latestPublishedAt": 1788332700000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -9415,14 +9453,14 @@
     "id": "item_42f0e440710346fb",
     "type": "news",
     "title": "\"챗GPT 논란 감독을? 뜻밖의 선임\" 韓 축구의 모레노 선택, 베트남도 놀...",
-    "summary": "그는 2026 월드컵 이후 경질된 홍명보 감독을 대신해 9월부터 11월까지 이어지는 국제축구연맹(FIFA) A매치... 그는 성적 부진으로 소치와 계약을 해지한 뒤 스페인 '마르카'에 공개 서한을 보내 해명 하기도 했다. 모레노...",
+    "summary": "그는 성적 부진으로 소치와 계약을 해지한 뒤 스페인 '마르카'에 공개 서한을 보내 해명 하기도 했다. 모레노... 현영민 전력강화위원장은 \"모레노 감독은 이미 한국 축구에 관해 높은 이해도를 갖추고 있었다. 다양한...",
     "url": "http://www.osen.co.kr/article/G1112868029",
     "originalUrl": "http://www.osen.co.kr/article/G1112868029",
     "publisher": "osen.co.kr",
     "publishedAt": "2026-09-02T06:44:00.000Z",
     "collectedAt": "2026-09-02T11:44:03.951Z",
     "matchedKeywords": [
-      "홍명보",
+      "현영민",
       "해명"
     ],
     "discoveryQueries": [
@@ -9439,7 +9477,7 @@
     ],
     "issueTags": [],
     "personTags": [
-      "person_hong_myung_bo"
+      "person_hyun_young_min"
     ],
     "sourceType": "news",
     "isOfficial": false,
@@ -9462,8 +9500,8 @@
       ],
       "earliestPublishedAt": 1788331440000,
       "latestPublishedAt": 1788331440000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -10937,8 +10975,8 @@
       ],
       "earliestPublishedAt": 1788328440000,
       "latestPublishedAt": 1788328440000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -11785,8 +11823,8 @@
       ],
       "earliestPublishedAt": 1788325680000,
       "latestPublishedAt": 1788325680000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -12415,7 +12453,7 @@
     "id": "item_9557d86621ddca0d",
     "type": "news",
     "title": "두 달간 한국 축구에 일어난 일 : 축구협회는 부패할 수밖에 없었다",
-    "summary": "박지성 을 전면에 내세운 ‘K-축구 혁신위원회’가 출범했다. 정몽규는 나갔고, 박지성 이 들어왔다. 그림만... 기존 회장 선거 인단도 정관상 100명 이상 300명 이하로 제한되어 있다. 체육관 선거 를 떠올리게 하는...",
+    "summary": "더구나 대한 축구협회 의 최고 의결기관인 대의원 총회 역시 시도 축구협회 , 전국연맹, 프로 1부 구단 대표를 중심으로 구성된다. 선수와 지도자, 심판도 대한 축구협회 의 회원이지만 최고 의결기관에서 직접 대표권을...",
     "url": "http://www.ddanzi.com/893304709",
     "originalUrl": "http://www.ddanzi.com/893304709",
     "publisher": "ddanzi.com",
@@ -12423,12 +12461,8 @@
     "collectedAt": "2026-09-02T06:26:02.080Z",
     "matchedKeywords": [
       "축구협회",
-      "회장 선거",
-      "정관",
-      "혁신위원회",
-      "축구 혁신",
-      "정몽규",
-      "박지성"
+      "대한 축구협회",
+      "대의원"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -12470,20 +12504,13 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
-      "statute-revision",
-      "innovation-committee"
+      "electoral-college"
     ],
-    "personTags": [
-      "person_chung_mong_gyu",
-      "person_park_ji_sung"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
-    "labels": [
-      "인물 언급"
-    ],
+    "relevanceScore": 20,
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -12497,8 +12524,8 @@
       ],
       "earliestPublishedAt": 1788324480000,
       "latestPublishedAt": 1788324480000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -13497,8 +13524,8 @@
       ],
       "earliestPublishedAt": 1788322320000,
       "latestPublishedAt": 1788322320000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -13550,8 +13577,8 @@
       ],
       "earliestPublishedAt": 1788322320000,
       "latestPublishedAt": 1788322320000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -15760,8 +15787,8 @@
       ],
       "earliestPublishedAt": 1788318600000,
       "latestPublishedAt": 1788318600000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -16068,8 +16095,8 @@
       ],
       "earliestPublishedAt": 1788314340000,
       "latestPublishedAt": 1788314340000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -16220,8 +16247,8 @@
       ],
       "earliestPublishedAt": 1788313920000,
       "latestPublishedAt": 1788313920000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -16277,8 +16304,8 @@
       ],
       "earliestPublishedAt": 1788313680000,
       "latestPublishedAt": 1788313680000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
@@ -16386,8 +16413,8 @@
       ],
       "earliestPublishedAt": 1788313440000,
       "latestPublishedAt": 1788313440000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792585580813,
+      "latestCollectedAt": 1792585580813
     }
   },
   {
