@@ -120,17 +120,17 @@
     "id": "item_82c8af0f6fca9b26",
     "type": "news",
     "title": "악재 겹친 축구대표팀 '임시 사령탑' 모레노…거취도 '안갯속'",
-    "summary": "2026 북중미월드컵을 끝으로 떠난 홍명보 전 감독의 후임으로 지휘봉을 잡은 모레노 감독의 계약 기간은... 대한축구협회 가 가짜 뉴스를 향해 엄중 경고에 나서면서 진화에 나섰지만, 여론을 잠재우기에는 역부족이다....",
+    "summary": "2026 북중미월드컵을 끝으로 떠난 홍명보 전 감독의 후임으로 지휘봉을 잡은 모레노 감독의 계약 기간은... 논란의 당사자들이 명확한 입장이나 해명 을 내놓지 않은 상황에서 이들을 11월 명단에 다시 포함할지...",
     "url": "https://www.newsis.com/view/NISX20261014_0003826290",
     "originalUrl": "https://www.newsis.com/view/NISX20261014_0003826290",
     "publisher": "newsis.com",
     "publishedAt": "2026-10-14T22:00:00.000Z",
     "collectedAt": "2026-10-15T12:08:18.210Z",
     "matchedKeywords": [
-      "대한축구협회",
       "감독",
       "후임",
-      "홍명보"
+      "홍명보",
+      "해명"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -147,10 +147,11 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 9,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -165,8 +166,8 @@
       ],
       "earliestPublishedAt": 1792015200000,
       "latestPublishedAt": 1792015200000,
-      "representativeCollectedAt": 1792564473739,
-      "latestCollectedAt": 1792564473739
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
     }
   },
   {
@@ -571,8 +572,8 @@
       ],
       "earliestPublishedAt": 1791990360000,
       "latestPublishedAt": 1791990360000,
-      "representativeCollectedAt": 1792585580813,
-      "latestCollectedAt": 1792585580813
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
     }
   },
   {
@@ -648,8 +649,8 @@
       ],
       "earliestPublishedAt": 1791990180000,
       "latestPublishedAt": 1791990180000,
-      "representativeCollectedAt": 1792585580813,
-      "latestCollectedAt": 1792585580813
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
     }
   },
   {
@@ -721,8 +722,8 @@
       ],
       "earliestPublishedAt": 1791990060000,
       "latestPublishedAt": 1791990060000,
-      "representativeCollectedAt": 1792585580813,
-      "latestCollectedAt": 1792585580813
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
     }
   },
   {
@@ -963,8 +964,8 @@
       ],
       "earliestPublishedAt": 1791972720000,
       "latestPublishedAt": 1791972720000,
-      "representativeCollectedAt": 1792585580813,
-      "latestCollectedAt": 1792585580813
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
     }
   },
   {
@@ -1262,8 +1263,8 @@
       ],
       "earliestPublishedAt": 1791967980000,
       "latestPublishedAt": 1791967980000,
-      "representativeCollectedAt": 1792585580813,
-      "latestCollectedAt": 1792585580813
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
     }
   },
   {
@@ -1954,8 +1955,8 @@
       ],
       "earliestPublishedAt": 1791959760000,
       "latestPublishedAt": 1791959760000,
-      "representativeCollectedAt": 1792585580813,
-      "latestCollectedAt": 1792585580813
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
     }
   },
   {
@@ -2238,8 +2239,8 @@
       ],
       "earliestPublishedAt": 1791954000000,
       "latestPublishedAt": 1791954000000,
-      "representativeCollectedAt": 1792585580813,
-      "latestCollectedAt": 1792585580813
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
     }
   },
   {
@@ -2331,7 +2332,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mediaus.co.kr/news/articleView.html?idxno=318456"
+      ],
+      "stories": [
+        "news|news|이재정 \"언론재단, 국회엔 4년간 오류 자료…문체부엔 제대로\"|mediaus.co.kr|2026-10-14T04:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|이재정 \"언론재단, 국회엔 4년간 오류 자료…문체부엔 제대로\"|mediaus.co.kr"
+      ],
+      "earliestPublishedAt": 1791952800000,
+      "latestPublishedAt": 1791952800000,
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
+    }
   },
   {
     "id": "item_8f02522e05935c17",
@@ -2797,8 +2814,8 @@
       ],
       "earliestPublishedAt": 1791946440000,
       "latestPublishedAt": 1791946440000,
-      "representativeCollectedAt": 1792585580813,
-      "latestCollectedAt": 1792585580813
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
     }
   },
   {
@@ -2904,8 +2921,8 @@
       ],
       "earliestPublishedAt": 1791942000000,
       "latestPublishedAt": 1791942000000,
-      "representativeCollectedAt": 1792585580813,
-      "latestCollectedAt": 1792585580813
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
     }
   },
   {
@@ -3036,8 +3053,8 @@
       ],
       "earliestPublishedAt": 1791940440000,
       "latestPublishedAt": 1791940440000,
-      "representativeCollectedAt": 1792585580813,
-      "latestCollectedAt": 1792585580813
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
     }
   },
   {
@@ -3072,7 +3089,23 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003275094"
+      ],
+      "stories": [
+        "news|news|'축구대표팀 갈등설'에 몸살... 축구협회는 뭐했나|ohmynews.com|2026-10-14T00:41:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'축구대표팀 갈등설'에 몸살... 축구협회는 뭐했나|ohmynews.com"
+      ],
+      "earliestPublishedAt": 1791938460000,
+      "latestPublishedAt": 1791938460000,
+      "representativeCollectedAt": 1792604403259,
+      "latestCollectedAt": 1792604403259
+    }
   },
   {
     "id": "youtube_51rayl64Eq8",
