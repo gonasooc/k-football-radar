@@ -34,7 +34,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.nocutnews.co.kr/news/6593817"
+      ],
+      "stories": [
+        "news|news|박문성 \"96라인 은퇴설, 국가대표 자리가 거래 대상인가?\"[한판승부]|nocutnews.co.kr|2026-10-19T23:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|박문성 \"96라인 은퇴설, 국가대표 자리가 거래 대상인가?\"[한판승부]|nocutnews.co.kr"
+      ],
+      "earliestPublishedAt": 1792450860000,
+      "latestPublishedAt": 1792450860000,
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
+    }
   },
   {
     "id": "item_3ad9f896f5e312e7",
@@ -83,8 +99,8 @@
       ],
       "earliestPublishedAt": 1792442040000,
       "latestPublishedAt": 1792442040000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -158,8 +174,8 @@
       ],
       "earliestPublishedAt": 1792428300000,
       "latestPublishedAt": 1792428300000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -201,8 +217,8 @@
       ],
       "earliestPublishedAt": 1792426500000,
       "latestPublishedAt": 1792426500000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -324,8 +340,8 @@
       ],
       "earliestPublishedAt": 1792418460000,
       "latestPublishedAt": 1792418460000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -400,8 +416,8 @@
       ],
       "earliestPublishedAt": 1792418280000,
       "latestPublishedAt": 1792418280000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -724,8 +740,8 @@
       ],
       "earliestPublishedAt": 1792400700000,
       "latestPublishedAt": 1792400700000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -799,8 +815,8 @@
       ],
       "earliestPublishedAt": 1792398000000,
       "latestPublishedAt": 1792398000000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -950,8 +966,8 @@
       ],
       "earliestPublishedAt": 1792396800000,
       "latestPublishedAt": 1792396800000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -1017,24 +1033,25 @@
       ],
       "earliestPublishedAt": 1792395120000,
       "latestPublishedAt": 1792395120000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
     "id": "item_8b55c12d4f2a9ede",
     "type": "news",
     "title": "[국감 말·말·말](19일)",
-    "summary": "\"(더불어민주당 조계원 의원, 국회 문화체육관광위원회 국정 감사 에 증인으로 채택된 이임생 전 대한 축구협회 기술총괄이사의 불출석을 비판하며) ▲ \"정권 창출에 기여하셨던 분들을 공공기관의 장으로 보내기도 하는데...",
+    "summary": "\"(더불어민주당 조계원 의원, 국회 문화체육관광위원회 국정 감사 에 증인으로 채택된 이임생 전 대한축구협회 기술총괄이사의 불출석을 비판하며) ▲ \"정권 창출에 기여하셨던 분들을 공공기관의 장으로 보내기도 하는데...",
     "url": "https://www.yna.co.kr/view/AKR20261019137500001?input=1195m",
     "originalUrl": "https://www.yna.co.kr/view/AKR20261019137500001?input=1195m",
     "publisher": "yna.co.kr",
     "publishedAt": "2026-10-19T07:15:00.000Z",
     "collectedAt": "2026-10-19T14:58:59.152Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "감사",
-      "이임생"
+      "이임생",
+      "이임생 전 대한축구협회"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -1070,8 +1087,8 @@
       ],
       "earliestPublishedAt": 1792394100000,
       "latestPublishedAt": 1792394100000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -1119,8 +1136,8 @@
       ],
       "earliestPublishedAt": 1792392540000,
       "latestPublishedAt": 1792392540000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -1184,8 +1201,8 @@
       ],
       "earliestPublishedAt": 1792390620000,
       "latestPublishedAt": 1792390620000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -1287,8 +1304,8 @@
       ],
       "earliestPublishedAt": 1792388880000,
       "latestPublishedAt": 1792388880000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -1390,8 +1407,8 @@
       ],
       "earliestPublishedAt": 1792388340000,
       "latestPublishedAt": 1792388340000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -1550,8 +1567,8 @@
       ],
       "earliestPublishedAt": 1792386060000,
       "latestPublishedAt": 1792386060000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -1686,8 +1703,8 @@
       ],
       "earliestPublishedAt": 1792384800000,
       "latestPublishedAt": 1792384800000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -1756,8 +1773,8 @@
       ],
       "earliestPublishedAt": 1792384200000,
       "latestPublishedAt": 1792384200000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -1826,8 +1843,8 @@
       ],
       "earliestPublishedAt": 1792378020000,
       "latestPublishedAt": 1792378020000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   },
   {
@@ -1889,8 +1906,8 @@
       ],
       "earliestPublishedAt": 1792375560000,
       "latestPublishedAt": 1792375560000,
-      "representativeCollectedAt": 1792544316886,
-      "latestCollectedAt": 1792544316886
+      "representativeCollectedAt": 1792564473739,
+      "latestCollectedAt": 1792564473739
     }
   }
 ]
