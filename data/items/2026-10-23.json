@@ -206,6 +206,30 @@
     }
   },
   {
+    "id": "item_0b2f8dff5a2aee00",
+    "type": "news",
+    "title": "“군대 안 갑니다”가 마지막 방아쇠…53년 ‘AG금메달 병역혜택’ 폐지...",
+    "summary": "비판이 커지자 선수와 대한축구협회 가 사과했다. 다만 이들의 발언 때문에 제도 폐지가 갑자기 시작된 것은 아니다. 저출생에 따른 병역자원 감소와 종목 간 형평성 문제로 정부는 이미 예술·체육요원 제도의 축소를...",
+    "url": "https://www.sportsseoul.com/news/read/1643614?ref=naver",
+    "originalUrl": "https://www.sportsseoul.com/news/read/1643614?ref=naver",
+    "publisher": "sportsseoul.com",
+    "publishedAt": "2026-10-23T13:10:00.000Z",
+    "collectedAt": "2026-10-23T17:27:36.391Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "youtube_o5Z0_Qy7QsY",
     "type": "youtube",
     "title": "초유 사태, 마이크 뺏은 조은희 .....최민희 '벌떡', 국감장 '아수라장'",
@@ -278,7 +302,7 @@
   {
     "id": "item_64832e39885a685e",
     "type": "news",
-    "title": "\"한국 주장 '등번호'로 부른 국대들\"…외신들도 놀랐다",
+    "title": "\"한국 주장 '등번호'로 부른 국대들\"…해외까지 번졌다",
     "summary": "{손흥민 선수요?} 손흥민 선수가 '7번'입니까?] 대한 축구협회 는 이 주장을 수긍도, 부인도 하지 않았고... 홍명보 감독 선임 과정 논란으로 도마에 오른 한국 축구 는 다시 일어서려 하지만, 여전히 차가운 시선을 받고 있다\"고...",
     "url": "https://news.jtbc.co.kr/article/NB12324596?influxDiv=NAVER",
     "originalUrl": "https://news.jtbc.co.kr/article/NB12324596?influxDiv=NAVER",
@@ -319,7 +343,25 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.jtbc.co.kr/article/NB12324596?influxDiv=NAVER"
+      ],
+      "stories": [
+        "news|news|\"한국 주장 '등번호'로 부른 국대들\"…외신들도 놀랐다|news.jtbc.co.kr|2026-10-23T11:56:00.000Z",
+        "news|news|\"한국 주장 '등번호'로 부른 국대들\"…해외까지 번졌다|news.jtbc.co.kr|2026-10-23T11:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"한국 주장 '등번호'로 부른 국대들\"…외신들도 놀랐다|news.jtbc.co.kr",
+        "news|news|\"한국 주장 '등번호'로 부른 국대들\"…해외까지 번졌다|news.jtbc.co.kr"
+      ],
+      "earliestPublishedAt": 1792756560000,
+      "latestPublishedAt": 1792756560000,
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
+    }
   },
   {
     "id": "item_ca6b685ac8d769e8",
@@ -343,7 +385,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 6,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsworker.co.kr/news/articleView.html?idxno=510308"
+      ],
+      "stories": [
+        "news|news|천안시의회, 대한민국 축구종합센터 재정 부담과 불평등 협약 재정비 촉...|newsworker.co.kr|2026-10-23T11:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|천안시의회, 대한민국 축구종합센터 재정 부담과 불평등 협약 재정비 촉...|newsworker.co.kr"
+      ],
+      "earliestPublishedAt": 1792754160000,
+      "latestPublishedAt": 1792754160000,
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
+    }
   },
   {
     "id": "item_2f46a908a3a447c8",
@@ -384,7 +442,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.footballist.co.kr/news/articleView.html?idxno=216124"
+      ],
+      "stories": [
+        "news|news|\"이름 대신 7번이라고 부른다\"… 손흥민 '침묵의 리더십' 끝내야|footballist.co.kr|2026-10-23T10:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"이름 대신 7번이라고 부른다\"… 손흥민 '침묵의 리더십' 끝내야|footballist.co.kr"
+      ],
+      "earliestPublishedAt": 1792750200000,
+      "latestPublishedAt": 1792750200000,
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
+    }
   },
   {
     "id": "youtube_J9b6PJn3HHI",
@@ -586,7 +660,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.newsian.co.kr/news/articleView.html?idxno=97658"
+      ],
+      "stories": [
+        "news|news|[로컬 워치] 천안 축구종합센터, 사업비 불어나고 협약은 불공정 논란…...|newsian.co.kr|2026-10-23T08:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[로컬 워치] 천안 축구종합센터, 사업비 불어나고 협약은 불공정 논란…...|newsian.co.kr"
+      ],
+      "earliestPublishedAt": 1792745160000,
+      "latestPublishedAt": 1792745160000,
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
+    }
   },
   {
     "id": "item_cfaabf38ae839be7",
@@ -610,7 +700,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.gukjenews.com/news/articleView.html?idxno=3730975"
+      ],
+      "stories": [
+        "news|news|천안시의회 시정질문. 축구종합센터 협약·통학로 안전 '도마 위'|gukjenews.com|2026-10-23T08:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|천안시의회 시정질문. 축구종합센터 협약·통학로 안전 '도마 위'|gukjenews.com"
+      ],
+      "earliestPublishedAt": 1792745160000,
+      "latestPublishedAt": 1792745160000,
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
+    }
   },
   {
     "id": "item_17774bcff375e918",
@@ -662,7 +768,23 @@
     "labels": [
       "감사 키워드 포함",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.spochoo.com/news/articleView.html?idxno=131392"
+      ],
+      "stories": [
+        "news|news|\"k1~k4 한 표, k5~k7은 개인 투표권 없다\"…김재원 의원, 축구협회장 선...|spochoo.com|2026-10-23T08:45:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"k1~k4 한 표, k5~k7은 개인 투표권 없다\"…김재원 의원, 축구협회장 선...|spochoo.com"
+      ],
+      "earliestPublishedAt": 1792745100000,
+      "latestPublishedAt": 1792745100000,
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
+    }
   },
   {
     "id": "youtube_4yxiCXIPLK4",
@@ -945,7 +1067,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/sports/2026/10/23/2026102316033894632"
+      ],
+      "stories": [
+        "news|news|마지막 시험대 앞둔 '임시 감독' 모레노…이강인·김민재 부상 변수|mt.co.kr|2026-10-23T07:35:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|마지막 시험대 앞둔 '임시 감독' 모레노…이강인·김민재 부상 변수|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1792740900000,
+      "latestPublishedAt": 1792740900000,
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
+    }
   },
   {
     "id": "youtube_V2q3HyiHQQ8",
@@ -1112,7 +1250,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.footballist.co.kr/news/articleView.html?idxno=216115"
+      ],
+      "stories": [
+        "news|news|29일 대표팀 기자회견 예고… '92-96 불화설' 모레노 입장에 관심, 단 '청...|footballist.co.kr|2026-10-23T07:20:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|29일 대표팀 기자회견 예고… '92-96 불화설' 모레노 입장에 관심, 단 '청...|footballist.co.kr"
+      ],
+      "earliestPublishedAt": 1792740000000,
+      "latestPublishedAt": 1792740000000,
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
+    }
   },
   {
     "id": "youtube_z_IDe7Vh-Qk",
@@ -1217,7 +1371,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.jtbc.co.kr/article/NB12324545?influxDiv=NAVER"
+      ],
+      "stories": [
+        "news|news|손흥민 '7번 선수' 불화설…박문성 \"당사자들 입장 공개하라\"|news.jtbc.co.kr|2026-10-23T06:54:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|손흥민 '7번 선수' 불화설…박문성 \"당사자들 입장 공개하라\"|news.jtbc.co.kr"
+      ],
+      "earliestPublishedAt": 1792738440000,
+      "latestPublishedAt": 1792738440000,
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
+    }
   },
   {
     "id": "item_3db678c097c1e540",
@@ -1261,7 +1431,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://ilyo.co.kr/?ac=article_view&entry_id=513280"
+      ],
+      "stories": [
+        "news|news|홍명보와 각별한 회사가 왜? 대한축구협회 뉴미디어 중계권 ‘삼자계약...|ilyo.co.kr|2026-10-23T06:50:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|홍명보와 각별한 회사가 왜? 대한축구협회 뉴미디어 중계권 ‘삼자계약...|ilyo.co.kr"
+      ],
+      "earliestPublishedAt": 1792738200000,
+      "latestPublishedAt": 1792738200000,
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
+    }
   },
   {
     "id": "item_676b829d8f21e998",
@@ -1308,8 +1494,8 @@
       ],
       "earliestPublishedAt": 1792735380000,
       "latestPublishedAt": 1792735380000,
-      "representativeCollectedAt": 1792757282957,
-      "latestCollectedAt": 1792757282957
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
     }
   },
   {
@@ -1405,8 +1591,8 @@
       ],
       "earliestPublishedAt": 1792733760000,
       "latestPublishedAt": 1792733760000,
-      "representativeCollectedAt": 1792757282957,
-      "latestCollectedAt": 1792757282957
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
     }
   },
   {
@@ -1454,8 +1640,8 @@
       ],
       "earliestPublishedAt": 1792733400000,
       "latestPublishedAt": 1792733400000,
-      "representativeCollectedAt": 1792757282957,
-      "latestCollectedAt": 1792757282957
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
     }
   },
   {
@@ -1494,8 +1680,8 @@
       ],
       "earliestPublishedAt": 1792731120000,
       "latestPublishedAt": 1792731120000,
-      "representativeCollectedAt": 1792757282957,
-      "latestCollectedAt": 1792757282957
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
     }
   },
   {
@@ -1626,8 +1812,8 @@
       ],
       "earliestPublishedAt": 1792727700000,
       "latestPublishedAt": 1792727700000,
-      "representativeCollectedAt": 1792757282957,
-      "latestCollectedAt": 1792757282957
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
     }
   },
   {
@@ -1666,8 +1852,8 @@
       ],
       "earliestPublishedAt": 1792726740000,
       "latestPublishedAt": 1792726740000,
-      "representativeCollectedAt": 1792757282957,
-      "latestCollectedAt": 1792757282957
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
     }
   },
   {
@@ -2146,8 +2332,8 @@
       ],
       "earliestPublishedAt": 1792722960000,
       "latestPublishedAt": 1792722960000,
-      "representativeCollectedAt": 1792757282957,
-      "latestCollectedAt": 1792757282957
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
     }
   },
   {
@@ -2276,8 +2462,8 @@
       ],
       "earliestPublishedAt": 1792721640000,
       "latestPublishedAt": 1792721640000,
-      "representativeCollectedAt": 1792757282957,
-      "latestCollectedAt": 1792757282957
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
     }
   },
   {
@@ -2432,8 +2618,8 @@
       ],
       "earliestPublishedAt": 1792720140000,
       "latestPublishedAt": 1792720140000,
-      "representativeCollectedAt": 1792757282957,
-      "latestCollectedAt": 1792757282957
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
     }
   },
   {
@@ -2944,8 +3130,8 @@
       ],
       "earliestPublishedAt": 1792715880000,
       "latestPublishedAt": 1792715880000,
-      "representativeCollectedAt": 1792757282957,
-      "latestCollectedAt": 1792757282957
+      "representativeCollectedAt": 1792776456391,
+      "latestCollectedAt": 1792776456391
     }
   }
 ]
