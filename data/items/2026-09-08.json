@@ -241,8 +241,8 @@
       ],
       "earliestPublishedAt": 1788902460000,
       "latestPublishedAt": 1788902460000,
-      "representativeCollectedAt": 1792787955357,
-      "latestCollectedAt": 1792787955357
+      "representativeCollectedAt": 1792798292922,
+      "latestCollectedAt": 1792798292922
     }
   },
   {
@@ -1293,7 +1293,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.sportsq.co.kr/news/articleView.html?idxno=498133"
+      ],
+      "stories": [
+        "news|news|'걸스데이' 논란, 지소연은 징계보다 변화를 말했다 [wk리그]|sportsq.co.kr|2026-09-08T06:54:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'걸스데이' 논란, 지소연은 징계보다 변화를 말했다 [wk리그]|sportsq.co.kr"
+      ],
+      "earliestPublishedAt": 1788850440000,
+      "latestPublishedAt": 1788850440000,
+      "representativeCollectedAt": 1792798292922,
+      "latestCollectedAt": 1792798292922
+    }
   },
   {
     "id": "item_cfd7755babbf9de5",
@@ -1344,8 +1360,8 @@
       ],
       "earliestPublishedAt": 1788845640000,
       "latestPublishedAt": 1788845640000,
-      "representativeCollectedAt": 1792787955357,
-      "latestCollectedAt": 1792787955357
+      "representativeCollectedAt": 1792798292922,
+      "latestCollectedAt": 1792798292922
     }
   },
   {
