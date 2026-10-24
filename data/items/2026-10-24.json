@@ -62,7 +62,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=1015115"
+      ],
+      "stories": [
+        "news|news|‘충격’ 홍명보, 손흥민 한국 대표팀 선발 제외 생각나…英 bbc “맨유...|spotvnews.co.kr|2026-10-24T08:24:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘충격’ 홍명보, 손흥민 한국 대표팀 선발 제외 생각나…英 bbc “맨유...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1792830240000,
+      "latestPublishedAt": 1792830240000,
+      "representativeCollectedAt": 1792858518132,
+      "latestCollectedAt": 1792858518132
+    }
   },
   {
     "id": "youtube_HTXLYt7tzKQ",
@@ -144,8 +160,8 @@
       ],
       "earliestPublishedAt": 1792826220000,
       "latestPublishedAt": 1792826220000,
-      "representativeCollectedAt": 1792844021007,
-      "latestCollectedAt": 1792844021007
+      "representativeCollectedAt": 1792858518132,
+      "latestCollectedAt": 1792858518132
     }
   },
   {
@@ -244,8 +260,8 @@
       ],
       "earliestPublishedAt": 1792814640000,
       "latestPublishedAt": 1792814640000,
-      "representativeCollectedAt": 1792844021007,
-      "latestCollectedAt": 1792844021007
+      "representativeCollectedAt": 1792858518132,
+      "latestCollectedAt": 1792858518132
     }
   },
   {
