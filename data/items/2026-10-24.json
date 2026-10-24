@@ -1,5 +1,33 @@
 [
   {
+    "id": "item_52f0e72ec615b4a1",
+    "type": "news",
+    "title": "‘충격’ 홍명보, 손흥민 한국 대표팀 선발 제외 생각나…英 BBC “맨유...",
+    "summary": "감독 이 격정적인 기자회견에서 브루노 페르난데스 선발 제외 가능성을 부인하지 않았다. 경질 위기에 처한 그는 5분 30초 동안 열띤 기자회견으로 자신의 자리를 지키기 위한 총력전에 나섰다”라고 보도했다. 캐릭 감독 은...",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1015115",
+    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1015115",
+    "publisher": "spotvnews.co.kr",
+    "publishedAt": "2026-10-24T08:24:00.000Z",
+    "collectedAt": "2026-10-24T12:13:41.007Z",
+    "matchedKeywords": [
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 8,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_a9ad1b9610bbaafc",
     "type": "news",
     "title": "\"한국 축구 혁신은 협회부터\" 천안서 축구정책포럼",
@@ -29,7 +57,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 10,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20261024_0003839602"
+      ],
+      "stories": [
+        "news|news|\"한국 축구 혁신은 협회부터\" 천안서 축구정책포럼|newsis.com|2026-10-24T07:17:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"한국 축구 혁신은 협회부터\" 천안서 축구정책포럼|newsis.com"
+      ],
+      "earliestPublishedAt": 1792826220000,
+      "latestPublishedAt": 1792826220000,
+      "representativeCollectedAt": 1792844021007,
+      "latestCollectedAt": 1792844021007
+    }
   },
   {
     "id": "item_8be4b210385190ef",
@@ -62,6 +106,22 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.fnnews.com/news/202610241301382383"
+      ],
+      "stories": [
+        "news|news|\"손흥민이 어쩌다 '그 사람' 됐나\"…외신까지 번진 '7번' 호칭 논란, 국...|fnnews.com|2026-10-24T04:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"손흥민이 어쩌다 '그 사람' 됐나\"…외신까지 번진 '7번' 호칭 논란, 국...|fnnews.com"
+      ],
+      "earliestPublishedAt": 1792814640000,
+      "latestPublishedAt": 1792814640000,
+      "representativeCollectedAt": 1792844021007,
+      "latestCollectedAt": 1792844021007
+    }
   }
 ]
