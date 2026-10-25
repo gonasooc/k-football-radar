@@ -1,5 +1,42 @@
 [
   {
+    "id": "item_983349b740df36ca",
+    "type": "news",
+    "title": "[아침을 열며]화합은 사라지고 분열만 남은 한국 축구",
+    "summary": "2023년 축구협회 는 승부조작 가담자 48명을 포함한 징계 축구 인 100명을 사면하려다 반발에 부딪쳐 철회했다. 2024년에는 위르겐 클린스만과 홍명보 감독 선임 과정에서 절차적 정당성 문제가 제기돼 극심한 비판이 일었다....",
+    "url": "https://www.khan.co.kr/article/202610252013015",
+    "originalUrl": "https://www.khan.co.kr/article/202610252013015",
+    "publisher": "khan.co.kr",
+    "publishedAt": "2026-10-25T11:13:00.000Z",
+    "collectedAt": "2026-10-25T14:34:20.284Z",
+    "matchedKeywords": [
+      "축구협회",
+      "감독 선임",
+      "감독",
+      "선임",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 축구협회",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_d01eae5b4347ed66",
     "type": "news",
     "title": "‘비리 폭로 vs 법적 대응’…기로에 선 여주시민축구단",
@@ -31,7 +68,56 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kgnews.co.kr/news/article.html?no=916494"
+      ],
+      "stories": [
+        "news|news|‘비리 폭로 vs 법적 대응’…기로에 선 여주시민축구단|kgnews.co.kr|2026-10-25T08:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘비리 폭로 vs 법적 대응’…기로에 선 여주시민축구단|kgnews.co.kr"
+      ],
+      "earliestPublishedAt": 1792915800000,
+      "latestPublishedAt": 1792915800000,
+      "representativeCollectedAt": 1792938860284,
+      "latestCollectedAt": 1792938860284
+    }
+  },
+  {
+    "id": "item_f073aae7b536ceb7",
+    "type": "news",
+    "title": "\"위험 감수하고 싶지 않다\" 김민재, 11월 대표팀 합류 불발될 수도…뮌...",
+    "summary": "우선 현영민 대한 축구협회 (KFA) 전력강화위원장의 설득 끝에 사태는 일단락됐지만 세 선수가 뚜렷한 입장을 내놓지 않고 있어 당분간 후폭풍은 이어질 전망이다. 대표팀은 내달 카타르 도하로 이동해 13일 사우디, 17일...",
+    "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/bltd7d1b5485d38e627",
+    "originalUrl": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/bltd7d1b5485d38e627",
+    "publisher": "goal.com",
+    "publishedAt": "2026-10-25T06:56:00.000Z",
+    "collectedAt": "2026-10-25T14:34:20.284Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "KFA",
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회",
+      "대한축구협회",
+      "KFA"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "youtube_ltzon66gIU0",
@@ -327,8 +413,8 @@
       ],
       "earliestPublishedAt": 1792898280000,
       "latestPublishedAt": 1792898280000,
-      "representativeCollectedAt": 1792922976341,
-      "latestCollectedAt": 1792922976341
+      "representativeCollectedAt": 1792938860284,
+      "latestCollectedAt": 1792938860284
     }
   },
   {
@@ -426,8 +512,8 @@
       ],
       "earliestPublishedAt": 1792893600000,
       "latestPublishedAt": 1792893600000,
-      "representativeCollectedAt": 1792922976341,
-      "latestCollectedAt": 1792922976341
+      "representativeCollectedAt": 1792938860284,
+      "latestCollectedAt": 1792938860284
     }
   }
 ]

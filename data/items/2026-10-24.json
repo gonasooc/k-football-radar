@@ -30,7 +30,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/blt8e989c53f3a15c2c"
+      ],
+      "stories": [
+        "news|news|'韓 대표 공격수' 황희찬, 샬케 이적 후 첫 선발 출전→풀타임 소화…공...|goal.com|2026-10-24T23:55:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'韓 대표 공격수' 황희찬, 샬케 이적 후 첫 선발 출전→풀타임 소화…공...|goal.com"
+      ],
+      "earliestPublishedAt": 1792886100000,
+      "latestPublishedAt": 1792886100000,
+      "representativeCollectedAt": 1792938860284,
+      "latestCollectedAt": 1792938860284
+    }
   },
   {
     "id": "youtube_p1OwtVs3zP0",
@@ -237,8 +253,8 @@
       ],
       "earliestPublishedAt": 1792826220000,
       "latestPublishedAt": 1792826220000,
-      "representativeCollectedAt": 1792922976341,
-      "latestCollectedAt": 1792922976341
+      "representativeCollectedAt": 1792938860284,
+      "latestCollectedAt": 1792938860284
     }
   },
   {
@@ -337,8 +353,8 @@
       ],
       "earliestPublishedAt": 1792814640000,
       "latestPublishedAt": 1792814640000,
-      "representativeCollectedAt": 1792922976341,
-      "latestCollectedAt": 1792922976341
+      "representativeCollectedAt": 1792938860284,
+      "latestCollectedAt": 1792938860284
     }
   },
   {
