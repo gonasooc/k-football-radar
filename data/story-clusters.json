@@ -2,14 +2,6 @@
   "version": 1,
   "clusters": [
     {
-      "id": "story_f0e8fa8a725dd00e4c08",
-      "seedItemId": "item_a62295b26693fcb1",
-      "memberIds": [
-        "item_a62295b26693fcb1",
-        "item_edbd44c4aebb6309"
-      ]
-    },
-    {
       "id": "story_c117f331066bf30661c1",
       "seedItemId": "item_86ddf4a6452a2b84",
       "memberIds": [
@@ -3130,14 +3122,6 @@
       ]
     },
     {
-      "id": "story_53d0541135b5277a6fa0",
-      "seedItemId": "item_e9269226d0006d1f",
-      "memberIds": [
-        "item_e9269226d0006d1f",
-        "item_61c4f8f973064e70"
-      ]
-    },
-    {
       "id": "story_038dc53b60744821facc",
       "seedItemId": "item_4ae5076d675c5f3f",
       "memberIds": [
@@ -3917,7 +3901,8 @@
       "seedItemId": "youtube_IDucGp1NHU0",
       "memberIds": [
         "youtube_IDucGp1NHU0",
-        "youtube_DmvWm1iir00"
+        "youtube_DmvWm1iir00",
+        "youtube_Qi6bwpS6NxY"
       ]
     },
     {
@@ -3974,19 +3959,19 @@
       ]
     },
     {
-      "id": "story_dac9a8d60a1feb8e10c4",
-      "seedItemId": "youtube_Qi6bwpS6NxY",
-      "memberIds": [
-        "youtube_Qi6bwpS6NxY",
-        "youtube_A9CU0Z5xoRk"
-      ]
-    },
-    {
       "id": "story_1fb99309e3952c56ac1c",
       "seedItemId": "item_08e24e36ea9e233d",
       "memberIds": [
         "item_08e24e36ea9e233d",
         "item_10e9ea188944f653"
+      ]
+    },
+    {
+      "id": "story_473d401068d2e0f1aa57",
+      "seedItemId": "youtube_A9CU0Z5xoRk",
+      "memberIds": [
+        "youtube_A9CU0Z5xoRk",
+        "youtube_Kkaww_GGkiQ"
       ]
     },
     {
@@ -4125,14 +4110,6 @@
       "memberIds": [
         "item_6c84271cf007abab",
         "item_d725110f036cdf7b"
-      ]
-    },
-    {
-      "id": "story_d4055e5135661ddd5cfd",
-      "seedItemId": "youtube_Kkaww_GGkiQ",
-      "memberIds": [
-        "youtube_Kkaww_GGkiQ",
-        "youtube_2TG45Y_EwAw"
       ]
     },
     {
@@ -5469,8 +5446,7 @@
       "seedItemId": "item_1d6a61737dc5e529",
       "memberIds": [
         "item_1d6a61737dc5e529",
-        "item_7cc4b99580950267",
-        "item_ed3eb5fa3156fc65"
+        "item_7cc4b99580950267"
       ]
     },
     {
@@ -5547,6 +5523,14 @@
       ]
     },
     {
+      "id": "story_1fe81f9cacad55f56228",
+      "seedItemId": "item_8645e423c72c7ffd",
+      "memberIds": [
+        "item_8645e423c72c7ffd",
+        "item_ed3eb5fa3156fc65"
+      ]
+    },
+    {
       "id": "story_e68c143af5333c685145",
       "seedItemId": "item_79daedbf20278343",
       "memberIds": [
@@ -5602,6 +5586,46 @@
       "memberIds": [
         "youtube_JoP-0rnxBEA",
         "youtube_p1OwtVs3zP0"
+      ]
+    },
+    {
+      "id": "story_8379def7610e25bcf37b",
+      "seedItemId": "youtube_c8XoeCDvPy4",
+      "memberIds": [
+        "youtube_c8XoeCDvPy4",
+        "youtube_rBuDzJkTB_Q"
+      ]
+    },
+    {
+      "id": "story_ec38f0e1ec1be50f2638",
+      "seedItemId": "youtube_LiTrv7rqNNc",
+      "memberIds": [
+        "youtube_LiTrv7rqNNc",
+        "youtube_38Qfy_K8le8"
+      ]
+    },
+    {
+      "id": "story_6b72f718670192d25872",
+      "seedItemId": "youtube_VYllSoS6WuU",
+      "memberIds": [
+        "youtube_VYllSoS6WuU",
+        "youtube_ixnw2QRdmXk"
+      ]
+    },
+    {
+      "id": "story_c466a22642508d2f28dc",
+      "seedItemId": "youtube_COB2udBo7KM",
+      "memberIds": [
+        "youtube_COB2udBo7KM",
+        "youtube_G69WEWWfXwY"
+      ]
+    },
+    {
+      "id": "story_6e3db195ad116bc3c82f",
+      "seedItemId": "youtube_z_IDe7Vh-Qk",
+      "memberIds": [
+        "youtube_z_IDe7Vh-Qk",
+        "youtube_xxUaoI9QSX8"
       ]
     }
   ]
