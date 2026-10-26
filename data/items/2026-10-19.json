@@ -49,8 +49,8 @@
       ],
       "earliestPublishedAt": 1792450860000,
       "latestPublishedAt": 1792450860000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
@@ -100,15 +100,15 @@
       ],
       "earliestPublishedAt": 1792442040000,
       "latestPublishedAt": 1792442040000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
     "id": "item_5c92d0a300be7af0",
     "type": "news",
     "title": "밤 11시에 홍명보 만나 \"한국 축구 위해 헌신해달라\" 부탁했던 이임생,...",
-    "summary": "이임생 전 대한축구협회 기술총괄이사가 국회 청문회에 이어 국정 감사 에도 출석하지 않을 예정이다. 19일... 그는 \"밤 11시경 홍명보 감독님을 집 앞에서 만났다\"며 \"A대표팀과 연령별 대표팀의 연계와 발전을 위해 한국...",
+    "summary": "이임생 전 대한축구협회 기술총괄이사가 국회 청문회에 이어 국정감사에도 출석하지 않을 예정이다. 19일... 그는 \"밤 11시경 홍명보 감독님을 집 앞에서 만났다\"며 \"A대표팀과 연령별 대표팀의 연계와 발전을 위해 한국...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014149",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014149",
     "publisher": "spotvnews.co.kr",
@@ -175,8 +175,8 @@
       ],
       "earliestPublishedAt": 1792428300000,
       "latestPublishedAt": 1792428300000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
@@ -341,15 +341,15 @@
       ],
       "earliestPublishedAt": 1792418460000,
       "latestPublishedAt": 1792418460000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
     "id": "item_e6984045000ff81f",
     "type": "news",
     "title": "홍명보-정몽규 나올 때도 불참하더니…이임생 또 국회 안 나온다, 조계...",
-    "summary": "홍명보 전 감독 선임 과정의 절차적 정당성과 축구협회 운영 문제를 추가로 확인하려 했지만, 핵심 당사자의... 앞서 이임생 전 이사는 법원에 제출한 소송 참가 신청서에서 정몽규 전 회장이 모든 후보 자를 선입견 없이...",
+    "summary": "홍명보 전 축구 대표팀 감독 선임 논란으로 검찰에 송치된 이임생 전 대한축구협회 기술총괄이사가 또다시 국회 출석을 피했다. 지난 청문회에 이어 국정감사에도 불참 의사를 밝히면서 감독 선임 과정의 의혹을 둘러싼...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014143",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014143",
     "publisher": "spotvnews.co.kr",
@@ -359,10 +359,14 @@
       "정몽규",
       "홍명보",
       "이임생",
-      "축구협회",
+      "대한축구협회",
       "감독 선임",
+      "대표팀 감독",
       "감독",
-      "선임"
+      "선임",
+      "이임생 전 대한축구협회",
+      "감사",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -400,9 +404,10 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
+    "relevanceScore": 44,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -417,15 +422,15 @@
       ],
       "earliestPublishedAt": 1792418280000,
       "latestPublishedAt": 1792418280000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
     "id": "item_51fc7a7a05041a1b",
     "type": "news",
     "title": "\"홍명보 감독, 韓 축구 위해 헌신해 달라\" 밤 11시 찾아갔던 이임생, 국...",
-    "summary": "이에 축구 팬들은 물론 국회에서도 그가 홍명보 전 감독 선임 과정을 둘러싼 진상 규명을 피하기 위해 '도피성 취업'을 택했다는 비판이 쏟아졌다. 이번엔 다를까 싶었다. 지난 14일 국회 문체위는 이용수 대한축구협회 회장...",
+    "summary": "이임생 전 대한 축구협회 기술총괄이사가 이번에도 국회에 모습을 드러내지 않기로 했다. 그가 국회 청문회에 이어 국정감사 출석도 거절했다. 19일 더불어민주당 조계원 의원실에 따르면 이 전 이사는 오는 21일 열리는...",
     "url": "http://www.osen.co.kr/article/G1112895061",
     "originalUrl": "http://www.osen.co.kr/article/G1112895061",
     "publisher": "osen.co.kr",
@@ -434,10 +439,9 @@
     "matchedKeywords": [
       "홍명보",
       "이임생",
-      "대한축구협회",
-      "감독 선임",
-      "감독",
-      "선임"
+      "대한 축구협회",
+      "감사",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"이임생\" 감사",
@@ -446,9 +450,7 @@
       "\"홍명보\" 대한축구협회",
       "축구협회 감독 후보"
     ],
-    "issueTags": [
-      "coach-appointment"
-    ],
+    "issueTags": [],
     "personTags": [
       "person_hong_myung_bo",
       "person_lee_im_saeng"
@@ -458,7 +460,8 @@
     "relevanceScore": 29,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "감사 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -473,8 +476,8 @@
       ],
       "earliestPublishedAt": 1792410060000,
       "latestPublishedAt": 1792410060000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
@@ -801,8 +804,8 @@
       ],
       "earliestPublishedAt": 1792400700000,
       "latestPublishedAt": 1792400700000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
@@ -875,8 +878,8 @@
       ],
       "earliestPublishedAt": 1792398000000,
       "latestPublishedAt": 1792398000000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
@@ -1026,8 +1029,8 @@
       ],
       "earliestPublishedAt": 1792396800000,
       "latestPublishedAt": 1792396800000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
@@ -1094,8 +1097,8 @@
       ],
       "earliestPublishedAt": 1792395120000,
       "latestPublishedAt": 1792395120000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
@@ -1148,8 +1151,8 @@
       ],
       "earliestPublishedAt": 1792394100000,
       "latestPublishedAt": 1792394100000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
@@ -1262,8 +1265,8 @@
       ],
       "earliestPublishedAt": 1792390620000,
       "latestPublishedAt": 1792390620000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
@@ -1644,8 +1647,8 @@
       ],
       "earliestPublishedAt": 1792386060000,
       "latestPublishedAt": 1792386060000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
@@ -1784,8 +1787,8 @@
       ],
       "earliestPublishedAt": 1792384800000,
       "latestPublishedAt": 1792384800000,
-      "representativeCollectedAt": 1793025222465,
-      "latestCollectedAt": 1793025222465
+      "representativeCollectedAt": 1793045372929,
+      "latestCollectedAt": 1793045372929
     }
   },
   {
