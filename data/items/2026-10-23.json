@@ -501,8 +501,8 @@
       ],
       "earliestPublishedAt": 1792756560000,
       "latestPublishedAt": 1792756560000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -544,8 +544,8 @@
       ],
       "earliestPublishedAt": 1792754160000,
       "latestPublishedAt": 1792754160000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -601,8 +601,8 @@
       ],
       "earliestPublishedAt": 1792750200000,
       "latestPublishedAt": 1792750200000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -1322,8 +1322,8 @@
       ],
       "earliestPublishedAt": 1792740900000,
       "latestPublishedAt": 1792740900000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -1631,15 +1631,14 @@
     "id": "item_b9e6e71d8453b420",
     "type": "news",
     "title": "손흥민 '7번 선수' 불화설…박문성 \"당사자들 입장 공개하라\"",
-    "summary": "최근 국정 감사 에서 다뤄진 축구 대표팀 내부 불화설을 두고, 박문성 축구 해설위원은 당사자로 지목된... [이용수 대한 축구협회 장 직무대행 (지난 21일)] 손흥민 선수요? 국회 국감장에서도 나온 축구 대표팀 내부 불화설...",
+    "summary": "[ 이용수 대한 축구협회 장 직무대행 (지난 21일)] 손흥민 선수요? 국회 국감장에서도 나온 축구 대표팀 내부 불화설 논란. 이제는 당사자들이 직접 사실관계를 정리해야 한단 목소리가 나왔습니다. [박문성 해설위원 (지난...",
     "url": "https://news.jtbc.co.kr/article/NB12324545?influxDiv=NAVER",
     "originalUrl": "https://news.jtbc.co.kr/article/NB12324545?influxDiv=NAVER",
     "publisher": "news.jtbc.co.kr",
     "publishedAt": "2026-10-23T06:54:00.000Z",
     "collectedAt": "2026-10-23T12:08:02.957Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "감사"
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -1656,11 +1655,9 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": [
-      "감사 키워드 포함"
-    ],
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1674,8 +1671,8 @@
       ],
       "earliestPublishedAt": 1792738440000,
       "latestPublishedAt": 1792738440000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -1739,23 +1736,58 @@
       ],
       "earliestPublishedAt": 1792738200000,
       "latestPublishedAt": 1792738200000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
+  },
+  {
+    "id": "item_c76c93ec6b803a3b",
+    "type": "news",
+    "title": "'7번'으로 불리는 손흥민, 주장 계속 맡을까?",
+    "summary": "[기자] 이번 국회 국정 감사 에서 주장 손흥민에 대한 대표팀 선수들 사이의 호칭 논란이 수면 위로... [ 이용수 / 대한축구협회장 직무대행 : 국가대표팀 내부의 문제이기 때문에 간략히 보고만 받았고…. 라커룸 내에서...",
+    "url": "https://www.ytn.co.kr/_ln/0107_202610231538211547",
+    "originalUrl": "https://www.ytn.co.kr/_ln/0107_202610231538211547",
+    "publisher": "ytn.co.kr",
+    "publishedAt": "2026-10-23T06:38:00.000Z",
+    "collectedAt": "2026-10-26T14:33:42.465Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 감사",
+      "\"이용수\" 대한축구협회",
+      "\"이용수\" 축구협회",
+      "대한축구협회장"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 12,
+    "relevanceTier": "secondary",
+    "labels": [
+      "감사 키워드 포함"
+    ]
   },
   {
     "id": "item_676b829d8f21e998",
     "type": "news",
     "title": "'7번?' '그분?' 그래도 손흥민은 여전히 달리는데, 동료들은 함께 뛰고 ...",
-    "summary": "지난 21일 국회 국정 감사 에서 정연욱 의원은 대한 축구협회 이용수 회장 직무대행에게 선수들이 주장 손흥민을 두고 ‘7번’ 또는 ‘그분’이라고 부른다는 의혹을 질의했다. 이용수 직무대행은 관련 내용을 간략하게...",
+    "summary": "지난 21일 국회 국정 감사 에서 정연욱 의원은 대한축구협회 이용수 회장 직무대행에게 선수들이 주장 손흥민을 두고 ‘7번’ 또는 ‘그분’이라고 부른다는 의혹을 질의했다. 이용수 직무대행은 관련 내용을 간략하게...",
     "url": "https://mhnse.com/news/articleView.html?idxno=1610136",
     "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1610136",
     "publisher": "mhnse.com",
     "publishedAt": "2026-10-23T06:03:00.000Z",
     "collectedAt": "2026-10-23T06:29:02.535Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "감사"
+      "대한축구협회",
+      "감사",
+      "대한축구협회 이용수"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -1767,12 +1799,15 @@
     "issueTags": [
       "mcst-audit"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_lee_yong_soo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 12,
+    "relevanceScore": 15,
     "relevanceTier": "secondary",
     "labels": [
+      "인물 언급",
       "감사 키워드 포함"
     ],
     "dedupeState": {
@@ -1788,8 +1823,8 @@
       ],
       "earliestPublishedAt": 1792735380000,
       "latestPublishedAt": 1792735380000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -1880,7 +1915,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsq.co.kr/news/articleView.html?idxno=500578"
+      ],
+      "stories": [
+        "news|news|사우디·카타르 철벽 넘어라, 모레노호 마지막 시험대 [축구 국가대표]|newsq.co.kr|2026-10-23T05:52:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|사우디·카타르 철벽 넘어라, 모레노호 마지막 시험대 [축구 국가대표]|newsq.co.kr"
+      ],
+      "earliestPublishedAt": 1792734720000,
+      "latestPublishedAt": 1792734720000,
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
+    }
   },
   {
     "id": "item_8bfdedd2e34636a6",
@@ -1934,8 +1985,8 @@
       ],
       "earliestPublishedAt": 1792733760000,
       "latestPublishedAt": 1792733760000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -1983,8 +2034,8 @@
       ],
       "earliestPublishedAt": 1792733400000,
       "latestPublishedAt": 1792733400000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -2202,8 +2253,8 @@
       ],
       "earliestPublishedAt": 1792727700000,
       "latestPublishedAt": 1792727700000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -2857,8 +2908,8 @@
       ],
       "earliestPublishedAt": 1792721760000,
       "latestPublishedAt": 1792721760000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -2901,8 +2952,8 @@
       ],
       "earliestPublishedAt": 1792721640000,
       "latestPublishedAt": 1792721640000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -3057,8 +3108,8 @@
       ],
       "earliestPublishedAt": 1792720140000,
       "latestPublishedAt": 1792720140000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   },
   {
@@ -3586,8 +3637,8 @@
       ],
       "earliestPublishedAt": 1792715880000,
       "latestPublishedAt": 1792715880000,
-      "representativeCollectedAt": 1792998070247,
-      "latestCollectedAt": 1792998070247
+      "representativeCollectedAt": 1793025222465,
+      "latestCollectedAt": 1793025222465
     }
   }
 ]
