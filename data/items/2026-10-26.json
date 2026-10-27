@@ -21,7 +21,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.ngonews.kr/news/articleView.html?idxno=241534"
+      ],
+      "stories": [
+        "news|news|손흥민에게 \"니하오\" 반복한 관중…미 언론 \"인종차별 논란\"|ngonews.kr|2026-10-26T23:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|손흥민에게 \"니하오\" 반복한 관중…미 언론 \"인종차별 논란\"|ngonews.kr"
+      ],
+      "earliestPublishedAt": 1793056200000,
+      "latestPublishedAt": 1793056200000,
+      "representativeCollectedAt": 1793079436076,
+      "latestCollectedAt": 1793079436076
+    }
   },
   {
     "id": "item_68c627115800bd8b",
@@ -85,8 +101,8 @@
       ],
       "earliestPublishedAt": 1793043600000,
       "latestPublishedAt": 1793043600000,
-      "representativeCollectedAt": 1793059518771,
-      "latestCollectedAt": 1793059518771
+      "representativeCollectedAt": 1793079436076,
+      "latestCollectedAt": 1793079436076
     }
   },
   {
@@ -126,6 +142,43 @@
       "representativeCollectedAt": 1793045372929,
       "latestCollectedAt": 1793045372929
     }
+  },
+  {
+    "id": "item_52749c2913e92b62",
+    "type": "news",
+    "title": "[기자가만난세상] 태극마크는 거래 대상이 아니다",
+    "summary": "대표팀 선수들 간의 불화설과 리더십 논란이 언론과 팬들 사이에서 오르내리는 걸 넘어서서 국정 감사 에서도... 이들은 자정이 넘은 시간까지 현영민 대한 축구협회 전력강화위원장과 면담을 이어갔다. 면담을 마치고...",
+    "url": "https://www.segye.com/newsView/20261026514003?OutUrl=naver",
+    "originalUrl": "https://www.segye.com/newsView/20261026514003?OutUrl=naver",
+    "publisher": "segye.com",
+    "publishedAt": "2026-10-26T13:59:00.000Z",
+    "collectedAt": "2026-10-27T05:37:16.076Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "현영민",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 감사",
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 감사",
+      "축구협회장"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 11,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ]
   },
   {
     "id": "youtube_JALxMIoGo7k",
@@ -236,8 +289,8 @@
       ],
       "earliestPublishedAt": 1793016480000,
       "latestPublishedAt": 1793016480000,
-      "representativeCollectedAt": 1793059518771,
-      "latestCollectedAt": 1793059518771
+      "representativeCollectedAt": 1793079436076,
+      "latestCollectedAt": 1793079436076
     }
   },
   {
@@ -342,7 +395,7 @@
     "id": "item_d176afe941c24b05",
     "type": "news",
     "title": "[경기도내 체육회장 선거 누가 뛰나] 경기도체육회, 이원성·이내응·이...",
-    "summary": "거론되는 후보군이 모두 출마하면 가장 높은 4대1의 경쟁률을 보이겠지만 이석재 회장 의 대한 축구협회 장 선거 출마와 이내응 단장과 정창훈 회장 의 단일화 변수도 남아 있어 속단하기에는 이르다. 하지만 정창훈 회장 은...",
+    "summary": "후보군이 모두 출마하면 가장 높은 4대1의 경쟁률을 보이겠지만 이석재 회장의 대한축구협회 장 선거 출마와 이내응 단장과 정창훈 회장의 단일화 변수도 남아 있어 속단하기에는 이르다. 하지만 정창훈 회장은 체육회장...",
     "url": "https://www.joongboo.com/news/articleView.html?idxno=363740511",
     "originalUrl": "https://www.joongboo.com/news/articleView.html?idxno=363740511",
     "publisher": "joongboo.com",
@@ -350,7 +403,8 @@
     "collectedAt": "2026-10-26T14:33:42.465Z",
     "matchedKeywords": [
       "회장 선거",
-      "대한 축구협회"
+      "대한축구협회",
+      "이석재"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -362,12 +416,16 @@
     "issueTags": [
       "election"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_lee_seok_jae"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 19,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -381,8 +439,8 @@
       ],
       "earliestPublishedAt": 1793005800000,
       "latestPublishedAt": 1793005800000,
-      "representativeCollectedAt": 1793059518771,
-      "latestCollectedAt": 1793059518771
+      "representativeCollectedAt": 1793079436076,
+      "latestCollectedAt": 1793079436076
     }
   },
   {
@@ -708,8 +766,8 @@
       ],
       "earliestPublishedAt": 1792994400000,
       "latestPublishedAt": 1792994400000,
-      "representativeCollectedAt": 1793059518771,
-      "latestCollectedAt": 1793059518771
+      "representativeCollectedAt": 1793079436076,
+      "latestCollectedAt": 1793079436076
     }
   },
   {
@@ -749,8 +807,8 @@
       ],
       "earliestPublishedAt": 1792991700000,
       "latestPublishedAt": 1792991700000,
-      "representativeCollectedAt": 1793059518771,
-      "latestCollectedAt": 1793059518771
+      "representativeCollectedAt": 1793079436076,
+      "latestCollectedAt": 1793079436076
     }
   },
   {
@@ -789,8 +847,8 @@
       ],
       "earliestPublishedAt": 1792990560000,
       "latestPublishedAt": 1792990560000,
-      "representativeCollectedAt": 1793059518771,
-      "latestCollectedAt": 1793059518771
+      "representativeCollectedAt": 1793079436076,
+      "latestCollectedAt": 1793079436076
     }
   },
   {
@@ -923,8 +981,8 @@
       ],
       "earliestPublishedAt": 1792984740000,
       "latestPublishedAt": 1792984740000,
-      "representativeCollectedAt": 1793059518771,
-      "latestCollectedAt": 1793059518771
+      "representativeCollectedAt": 1793079436076,
+      "latestCollectedAt": 1793079436076
     }
   },
   {
@@ -1031,8 +1089,8 @@
       ],
       "earliestPublishedAt": 1792980540000,
       "latestPublishedAt": 1792980540000,
-      "representativeCollectedAt": 1793059518771,
-      "latestCollectedAt": 1793059518771
+      "representativeCollectedAt": 1793079436076,
+      "latestCollectedAt": 1793079436076
     }
   },
   {
@@ -1078,8 +1136,8 @@
       ],
       "earliestPublishedAt": 1792979760000,
       "latestPublishedAt": 1792979760000,
-      "representativeCollectedAt": 1793059518771,
-      "latestCollectedAt": 1793059518771
+      "representativeCollectedAt": 1793079436076,
+      "latestCollectedAt": 1793079436076
     }
   },
   {
