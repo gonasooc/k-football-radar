@@ -35,8 +35,8 @@
       ],
       "earliestPublishedAt": 1793056200000,
       "latestPublishedAt": 1793056200000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -101,8 +101,8 @@
       ],
       "earliestPublishedAt": 1793043600000,
       "latestPublishedAt": 1793043600000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -178,7 +178,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.segye.com/newsView/20261026514003?OutUrl=naver"
+      ],
+      "stories": [
+        "news|news|[기자가만난세상] 태극마크는 거래 대상이 아니다|segye.com|2026-10-26T13:59:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[기자가만난세상] 태극마크는 거래 대상이 아니다|segye.com"
+      ],
+      "earliestPublishedAt": 1793023140000,
+      "latestPublishedAt": 1793023140000,
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
+    }
   },
   {
     "id": "youtube_JALxMIoGo7k",
@@ -289,8 +305,8 @@
       ],
       "earliestPublishedAt": 1793016480000,
       "latestPublishedAt": 1793016480000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -439,8 +455,8 @@
       ],
       "earliestPublishedAt": 1793005800000,
       "latestPublishedAt": 1793005800000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -766,8 +782,8 @@
       ],
       "earliestPublishedAt": 1792994400000,
       "latestPublishedAt": 1792994400000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -807,8 +823,8 @@
       ],
       "earliestPublishedAt": 1792991700000,
       "latestPublishedAt": 1792991700000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -847,8 +863,8 @@
       ],
       "earliestPublishedAt": 1792990560000,
       "latestPublishedAt": 1792990560000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -981,8 +997,8 @@
       ],
       "earliestPublishedAt": 1792984740000,
       "latestPublishedAt": 1792984740000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -1089,8 +1105,8 @@
       ],
       "earliestPublishedAt": 1792980540000,
       "latestPublishedAt": 1792980540000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -1136,8 +1152,8 @@
       ],
       "earliestPublishedAt": 1792979760000,
       "latestPublishedAt": 1792979760000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -1319,6 +1335,36 @@
     "relevanceScore": 0,
     "relevanceTier": "secondary",
     "labels": []
+  },
+  {
+    "id": "item_dc3a4990701c975c",
+    "type": "news",
+    "title": "'무릎 부상→월드컵 좌절' 김주성, 악몽 같은 부상 딛고 복귀...\"실전 감...",
+    "summary": "김주성은 이미 홍명보 전 감독 체제에서 국가대표로 발탁돼 스리백의 왼쪽 수비수를 소화한 경험이 있다.... 대표팀의 부름을 받을 수 있을지 주목된다. 사진= 쿠팡플레이 중계화면 캡처, 산프레체 히로시마, 대한 축구협회",
+    "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553643812",
+    "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553643812",
+    "publisher": "sportalkorea.com",
+    "publishedAt": "2026-10-26T00:39:00.000Z",
+    "collectedAt": "2026-10-27T11:00:44.164Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_7a1bef94329cd396",

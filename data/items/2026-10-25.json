@@ -228,8 +228,8 @@
       ],
       "earliestPublishedAt": 1792942620000,
       "latestPublishedAt": 1792942620000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -371,8 +371,8 @@
       ],
       "earliestPublishedAt": 1792926780000,
       "latestPublishedAt": 1792926780000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -939,8 +939,8 @@
       ],
       "earliestPublishedAt": 1792915800000,
       "latestPublishedAt": 1792915800000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -988,8 +988,8 @@
       ],
       "earliestPublishedAt": 1792914960000,
       "latestPublishedAt": 1792914960000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -1123,8 +1123,8 @@
       ],
       "earliestPublishedAt": 1792911360000,
       "latestPublishedAt": 1792911360000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   },
   {
@@ -1496,6 +1496,30 @@
     }
   },
   {
+    "id": "item_7084457e50a506f2",
+    "type": "news",
+    "title": "영동군, 전국 유소년 축구 페스티벌 성황리 마무리",
+    "summary": "이번 대회는 영동군과 관계기관의 지원은 물론, 지역 기업·단체와 축구협회 임원 및 관계자들의 적극적인 후원과 협조 속에 성공적으로 마무리됐다. 전국 단위 스포츠대회와 지역축제를 연계하고 지역화폐를 활용한...",
+    "url": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=916633",
+    "originalUrl": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=916633",
+    "publisher": "chungnamilbo.co.kr",
+    "publishedAt": "2026-10-25T03:54:00.000Z",
+    "collectedAt": "2026-10-27T11:00:44.164Z",
+    "matchedKeywords": [
+      "축구협회"
+    ],
+    "discoveryQueries": [
+      "축구협회 임원"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 3,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "youtube_CkR7UZyWJlc",
     "type": "youtube",
     "title": "\"사직하고 이 자리에 섰습니다\"...충격 녹취록 공개에 국감장 '얼음'",
@@ -1773,14 +1797,16 @@
     "id": "item_a6f895a465ea4966",
     "type": "news",
     "title": "‘96라인’ 갈등설 와중에… 김민재, 11월 A매치 소집 불투명한 이유",
-    "summary": "이 문제는 지난 21일 국회 문화체육관광위원회 국정 감사 에서도 다뤄졌다.정연욱 국민의힘 의원은 이용수 대한 축구협회 장 직무대행에게 선수들 사이에서 ‘7번'으로 불리는 사람이 누구냐고 물었다. 이에 이 직무대행은...",
+    "summary": "이 문제는 지난 21일 국회 문화체육관광위원회 국정 감사 에서도 다뤄졌다.정연욱 국민의힘 의원은 이용수 대한축구협회장 직무대행에게 선수들 사이에서 ‘7번'으로 불리는 사람이 누구냐고 물었다. 이에 이 직무대행은...",
     "url": "https://www.wikitree.co.kr/articles/1168928",
     "originalUrl": "https://www.wikitree.co.kr/articles/1168928",
     "publisher": "wikitree.co.kr",
     "publishedAt": "2026-10-25T02:00:00.000Z",
     "collectedAt": "2026-10-25T05:19:40.378Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
       "감사"
     ],
     "discoveryQueries": [
@@ -1796,11 +1822,13 @@
       "축구협회 감사",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
@@ -1818,8 +1846,8 @@
       ],
       "earliestPublishedAt": 1792893600000,
       "latestPublishedAt": 1792893600000,
-      "representativeCollectedAt": 1793079436076,
-      "latestCollectedAt": 1793079436076
+      "representativeCollectedAt": 1793098844164,
+      "latestCollectedAt": 1793098844164
     }
   }
 ]
