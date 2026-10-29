@@ -57,7 +57,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=100005"
+      ],
+      "stories": [
+        "news|news|모레노 감독 결단 내릴까...'손흥민 리더십 논란' 김민재·황희찬·황인...|fourfourtwo.co.kr|2026-10-28T22:35:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|모레노 감독 결단 내릴까...'손흥민 리더십 논란' 김민재·황희찬·황인...|fourfourtwo.co.kr"
+      ],
+      "earliestPublishedAt": 1793226900000,
+      "latestPublishedAt": 1793226900000,
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
+    }
   },
   {
     "id": "item_f6c20716996602bd",
@@ -88,7 +104,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.segye.com/newsView/20261029500600?OutUrl=naver"
+      ],
+      "stories": [
+        "news|news|여전히 대체불가 자원 김민재-황인범, 폼 떨어진 황희찬...‘96라인’ 3인...|segye.com|2026-10-28T22:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|여전히 대체불가 자원 김민재-황인범, 폼 떨어진 황희찬...‘96라인’ 3인...|segye.com"
+      ],
+      "earliestPublishedAt": 1793224920000,
+      "latestPublishedAt": 1793224920000,
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
+    }
   },
   {
     "id": "item_276c896f03ba6286",
@@ -124,7 +156,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mydaily.co.kr/page/view/2026102816501121769"
+      ],
+      "stories": [
+        "news|news|'대표팀 은퇴 논란' 96라인 소집하나, 중동 원정 명단 발표 주목…아시...|mydaily.co.kr|2026-10-28T21:55:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'대표팀 은퇴 논란' 96라인 소집하나, 중동 원정 명단 발표 주목…아시...|mydaily.co.kr"
+      ],
+      "earliestPublishedAt": 1793224500000,
+      "latestPublishedAt": 1793224500000,
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
+    }
   },
   {
     "id": "item_87569dc5ea038f07",
@@ -168,8 +216,8 @@
       ],
       "earliestPublishedAt": 1793224440000,
       "latestPublishedAt": 1793224440000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -219,8 +267,8 @@
       ],
       "earliestPublishedAt": 1793220120000,
       "latestPublishedAt": 1793220120000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -361,24 +409,25 @@
       ],
       "earliestPublishedAt": 1793187360000,
       "latestPublishedAt": 1793187360000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
     "id": "item_51c68613e65fe91b",
     "type": "news",
     "title": "모레노, 은퇴소동 ‘96라인’ 달랜다…대표팀 내홍 풀까",
-    "summary": "- 엄지성 등 합류 불꽃 경쟁 예고 로베르트 모레노(사진) 한국 축구 대표팀 감독 이 올해 마지막 A매치 참가... 치를 예정인 대한축구협회 회장 보궐선거 이후 새 회장 체제에서 새롭게 정식 감독 을 선임 하는 방안이 유력하다.",
+    "summary": "하지만 아시안컵 개최 예정지인 사우디아라비아의 정세가 불안해 대회가 연기될 가능성도 거론되고 있어, 올해 안에 치를 예정인 대한 축구협회 회장 보궐선거 이후 새 회장 체제에서 새롭게 정식 감독 을 선임 하는...",
     "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20261029.22015008245",
     "originalUrl": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20261029.22015008245",
     "publisher": "kookje.co.kr",
     "publishedAt": "2026-10-28T10:32:00.000Z",
     "collectedAt": "2026-10-28T19:07:02.942Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "대한 축구협회",
       "감독",
-      "선임"
+      "선임",
+      "거론"
     ],
     "discoveryQueries": [
       "대표팀 감독 선임",
@@ -408,8 +457,8 @@
       ],
       "earliestPublishedAt": 1793183520000,
       "latestPublishedAt": 1793183520000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -459,8 +508,8 @@
       ],
       "earliestPublishedAt": 1793181180000,
       "latestPublishedAt": 1793181180000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -574,8 +623,8 @@
       ],
       "earliestPublishedAt": 1793181060000,
       "latestPublishedAt": 1793181060000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -617,8 +666,8 @@
       ],
       "earliestPublishedAt": 1793179620000,
       "latestPublishedAt": 1793179620000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -704,8 +753,8 @@
       ],
       "earliestPublishedAt": 1793178300000,
       "latestPublishedAt": 1793178300000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -964,7 +1013,7 @@
     "id": "item_c1d7f02c088a2f00",
     "type": "news",
     "title": "'은퇴 소동' 96라인 부를까…11월 모레노호 명단에 쏠린 눈",
-    "summary": "지난 21일 국회 문화체육관광위원회 국정 감사 에서는 일부 선수들이 손흥민을 이름 대신 '7번' '그분'으로... 대회 일정이 미뤄지거나 공석인 대한 축구협회 회장 보궐선거가 연내 치러질 경우 새 회장 체제에서 정식...",
+    "summary": "받아 정세가 불안해지면서 아시안컵이 1년 연기될 가능성이 거론되고 있다. 대회 일정이 미뤄지거나 공석인 대한 축구협회 회장 보궐 선거 가 연내 치러질 경우 새 회장 체제에서 정식 감독을 새롭게 선임할 가능성도 있다.",
     "url": "https://www.ajunews.com/view/20261028171730322",
     "originalUrl": "https://www.ajunews.com/view/20261028171730322",
     "publisher": "ajunews.com",
@@ -972,7 +1021,8 @@
     "collectedAt": "2026-10-28T13:32:44.574Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "감사"
+      "감독",
+      "선임"
     ],
     "discoveryQueries": [
       "대표팀 감독 선임",
@@ -981,15 +1031,15 @@
       "축구협회 감사",
       "축구협회 회장 선거"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "coach-appointment"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": [
-      "감사 키워드 포함"
-    ],
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1003,8 +1053,8 @@
       ],
       "earliestPublishedAt": 1793175720000,
       "latestPublishedAt": 1793175720000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -1114,15 +1164,15 @@
       ],
       "earliestPublishedAt": 1793171100000,
       "latestPublishedAt": 1793171100000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
     "id": "item_4d609c357a37a9fb",
     "type": "news",
     "title": "선수는 입 닫고, 협회는 팔짱만…‘96라인’ 문제 떠안은 모레노[쿠키 ...",
-    "summary": "정연욱 국민의힘 의원은 지난 21일 국회 문화체육관광위원회 국정 감사 에서 ‘96라인’ 은퇴설과 손흥민을 둘러싼 호칭 논란 등을 거론하며 협회 의 선수단 관리 방식을 질의했다. 이용수 축구협회 회장 직무대행은 당시...",
+    "summary": "정연욱 국민의힘 의원은 지난 21일 국회 문화체육관광위원회 국정 감사 에서 ‘96라인’ 은퇴설과 손흥민을 둘러싼 호칭 논란 등을 거론하며 협회의 선수단 관리 방식을 질의했다. 이용수 축구협회 회장 직무대행은 당시...",
     "url": "https://www.kukinews.com/article/view/kuk202610280078",
     "originalUrl": "https://www.kukinews.com/article/view/kuk202610280078",
     "publisher": "kukinews.com",
@@ -1160,8 +1210,8 @@
       ],
       "earliestPublishedAt": 1793164320000,
       "latestPublishedAt": 1793164320000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -1239,29 +1289,28 @@
     "id": "item_88eb2eb8ece5d844",
     "type": "news",
     "title": "기용해도 논란, 안하면 부담...'96라인' 딜레마 [자막뉴스]",
-    "summary": "베네수엘라전 이후 공개적으로 경기 내용에 대해 비판하더니 축구협회 장과 정식 감독 부재 상황까지... [정연욱 / 국민의힘 의원 (지난 21일 국회 국정 감사 ) : 손흥민 선수가 7번입니까? 선수팀 내부에서는 이름 자체가 없고...",
+    "summary": "베네수엘라전 이후 공개적으로 경기 내용에 대해 비판하더니 축구협회장 과 정식 감독 부재 상황까지 지적했습니다. 급기야 김민재와 황인범, 황희찬이 대표팀 동반 은퇴 의사를 밝혔다는 얘기도 나왔습니다. [김민재...",
     "url": "https://www.ytn.co.kr/_ln/0134_202610281314558929",
     "originalUrl": "https://www.ytn.co.kr/_ln/0134_202610281314558929",
     "publisher": "ytn.co.kr",
     "publishedAt": "2026-10-28T04:14:00.000Z",
     "collectedAt": "2026-10-28T06:19:49.513Z",
     "matchedKeywords": [
-      "축구협회",
-      "감사"
+      "축구협회장"
     ],
     "discoveryQueries": [
       "축구협회 감사",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 5,
+    "relevanceScore": 7,
     "relevanceTier": "secondary",
-    "labels": [
-      "감사 키워드 포함"
-    ],
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1275,8 +1324,8 @@
       ],
       "earliestPublishedAt": 1793160840000,
       "latestPublishedAt": 1793160840000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -1319,8 +1368,8 @@
       ],
       "earliestPublishedAt": 1793160060000,
       "latestPublishedAt": 1793160060000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -1374,8 +1423,8 @@
       ],
       "earliestPublishedAt": 1793159400000,
       "latestPublishedAt": 1793159400000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -1421,8 +1470,8 @@
       ],
       "earliestPublishedAt": 1793158440000,
       "latestPublishedAt": 1793158440000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -1468,23 +1517,22 @@
       ],
       "earliestPublishedAt": 1793157660000,
       "latestPublishedAt": 1793157660000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
     "id": "item_2aef2abaeb34e789",
     "type": "news",
     "title": "은퇴 소동 ‘96라인’ 다시 태극마크 다나… 11월 A매치 명단 발표 임박",
-    "summary": "국회 국정 감사 에서는 일부 선수들이 손흥민을 이름 대신 ‘7번'이나 '그분'으로 부른다는 주장까지 나왔다.... 만약 아시안컵이 연기되고 공석인 대한 축구협회 회장 보궐선거가 연내 치러진다면, 새 회장 체제에서 정식...",
+    "summary": "이 때문에 대회가 1년 연기될 수 있다는 이야기까지 나오고 있다. 만약 아시안컵이 연기되고 공석인 대한 축구협회 회장 보궐 선거 가 연내 치러진다면, 새 회장 체제에서 정식 감독을 새로 뽑을 수도 있다.",
     "url": "https://www.wikitree.co.kr/articles/1169803",
     "originalUrl": "https://www.wikitree.co.kr/articles/1169803",
     "publisher": "wikitree.co.kr",
     "publishedAt": "2026-10-28T02:54:00.000Z",
     "collectedAt": "2026-10-28T06:19:49.513Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "감사"
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -1495,11 +1543,9 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": [
-      "감사 키워드 포함"
-    ],
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1513,8 +1559,8 @@
       ],
       "earliestPublishedAt": 1793156040000,
       "latestPublishedAt": 1793156040000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -1562,8 +1608,8 @@
       ],
       "earliestPublishedAt": 1793156040000,
       "latestPublishedAt": 1793156040000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -1612,8 +1658,8 @@
       ],
       "earliestPublishedAt": 1793154180000,
       "latestPublishedAt": 1793223720000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
@@ -1658,8 +1704,8 @@
       ],
       "earliestPublishedAt": 1793151960000,
       "latestPublishedAt": 1793151960000,
-      "representativeCollectedAt": 1793242418931,
-      "latestCollectedAt": 1793242418931
+      "representativeCollectedAt": 1793269500938,
+      "latestCollectedAt": 1793269500938
     }
   },
   {
