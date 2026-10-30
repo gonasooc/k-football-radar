@@ -1,5 +1,102 @@
 [
   {
+    "id": "item_433874ab2efeffda",
+    "type": "news",
+    "title": "“현재 퍼포먼스 기준 뽑힐 자격 충분해” 모레노 감독의 결정에 의문 ...",
+    "summary": "결국 현영민 대한 축구협회 전력강화위원장이 직접 나서 이들과 장시간 대화를 나눈 끝에 사태는 일단락됐다. 다만 여전히 분위기는 어수선한 데다, 김민재와 황인범, 황희찬은 그 뒤로 따로 공식입장도 밝히지 않고...",
+    "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/bltfe228cb22742cc1a",
+    "originalUrl": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/bltfe228cb22742cc1a",
+    "publisher": "goal.com",
+    "publishedAt": "2026-10-30T15:16:00.000Z",
+    "collectedAt": "2026-10-30T16:14:28.446Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회",
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_c6f2c0430d1e7711",
+    "type": "news",
+    "title": "영국도 놀랐다...\"손흥민, 호날두처럼 대표팀 분열 일으킬 수도\" 英 가디...",
+    "summary": "지난 21일 국회 문화체육관광위원회 국정 감사 에서 정연욱 의원은 이용수 대한 축구협회 회장 직무대행에게 대표팀 일부 선수들이 특정 선수를 이름 대신 '7번' 또는 '그 사람'이라고 부른다는 제보를 언급했다. 이용수...",
+    "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=100085",
+    "originalUrl": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=100085",
+    "publisher": "fourfourtwo.co.kr",
+    "publishedAt": "2026-10-30T12:05:00.000Z",
+    "collectedAt": "2026-10-30T16:14:28.446Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 감사",
+      "\"이용수\" 대한축구협회",
+      "\"이용수\" 축구협회",
+      "대표팀 감독",
+      "대한축구협회",
+      "축구협회 감사"
+    ],
+    "issueTags": [
+      "mcst-audit"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 12,
+    "relevanceTier": "secondary",
+    "labels": [
+      "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_0e76ae5f0096fc96",
+    "type": "news",
+    "title": "\"은퇴한다더니 전원 발탁\"…축구대표팀 '96라인' 복귀에 시끌",
+    "summary": "대한 축구협회 전력강화위원장이 세 선수와 자정 넘어서까지 면담을 진행한 것으로 알려졌다. 황인범은... 지난 21일 국회 문화체육관광위원회 국정 감사 에서는 정연욱 국민의힘 의원이 \"국가대표 선수들 사이에서 손흥민...",
+    "url": "https://www.newsis.com/view/NISX20261030_0003847630",
+    "originalUrl": "https://www.newsis.com/view/NISX20261030_0003847630",
+    "publisher": "newsis.com",
+    "publishedAt": "2026-10-30T06:30:00.000Z",
+    "collectedAt": "2026-10-30T16:14:28.446Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 감사",
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회",
+      "대한축구협회",
+      "전력강화위원회",
+      "축구협회 감사"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 8,
+    "relevanceTier": "secondary",
+    "labels": [
+      "감사 키워드 포함"
+    ]
+  },
+  {
     "id": "item_aff06466b645033e",
     "type": "news",
     "title": "\"덮고 간다? 이게 덮이냐고\" 박문성, 작심 발언...'96라인' 갈등설, 모레...",
@@ -28,7 +125,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112901112"
+      ],
+      "stories": [
+        "news|news|\"덮고 간다? 이게 덮이냐고\" 박문성, 작심 발언...'96라인' 갈등설, 모레...|osen.co.kr|2026-10-30T05:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"덮고 간다? 이게 덮이냐고\" 박문성, 작심 발언...'96라인' 갈등설, 모레...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1793338920000,
+      "latestPublishedAt": 1793338920000,
+      "representativeCollectedAt": 1793376868446,
+      "latestCollectedAt": 1793376868446
+    }
   },
   {
     "id": "item_87641e425b702066",
@@ -72,7 +185,23 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://ilyo.co.kr/?ac=article_view&entry_id=513374"
+      ],
+      "stories": [
+        "news|news|[단독] 뿌리는 '금강파'? 대한축구협회 이권 카르텔 인맥지도 해부|ilyo.co.kr|2026-10-30T04:14:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] 뿌리는 '금강파'? 대한축구협회 이권 카르텔 인맥지도 해부|ilyo.co.kr"
+      ],
+      "earliestPublishedAt": 1793333640000,
+      "latestPublishedAt": 1793333640000,
+      "representativeCollectedAt": 1793376868446,
+      "latestCollectedAt": 1793376868446
+    }
   },
   {
     "id": "item_f6e27c1cb94e7e09",
@@ -96,7 +225,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.cbci.co.kr/news/articleView.html?idxno=621363"
+      ],
+      "stories": [
+        "news|news|손흥민 주장 유지, 논란의 96라인도 품었다…쟁점은?|cbci.co.kr|2026-10-30T02:38:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|손흥민 주장 유지, 논란의 96라인도 품었다…쟁점은?|cbci.co.kr"
+      ],
+      "earliestPublishedAt": 1793327880000,
+      "latestPublishedAt": 1793327880000,
+      "representativeCollectedAt": 1793376868446,
+      "latestCollectedAt": 1793376868446
+    }
   },
   {
     "id": "item_49581a6b188de094",
@@ -130,7 +275,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1170418"
+      ],
+      "stories": [
+        "news|news|“손흥민 대놓고 무시하는 황희찬”…여론 폭발한 7초짜리 영상, 급속 ...|wikitree.co.kr|2026-10-30T02:08:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“손흥민 대놓고 무시하는 황희찬”…여론 폭발한 7초짜리 영상, 급속 ...|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1793326080000,
+      "latestPublishedAt": 1793326080000,
+      "representativeCollectedAt": 1793376868446,
+      "latestCollectedAt": 1793376868446
+    }
   },
   {
     "id": "youtube_XVrDK2KAO-M",
