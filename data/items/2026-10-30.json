@@ -30,7 +30,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2213751"
+      ],
+      "stories": [
+        "news|news|'손흥민을 7번·그분이라 부른다?' 국제 망신으로 번진 韓 대표팀 불화...|xportsnews.com|2026-10-30T23:53:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'손흥민을 7번·그분이라 부른다?' 국제 망신으로 번진 韓 대표팀 불화...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1793404380000,
+      "latestPublishedAt": 1793404380000,
+      "representativeCollectedAt": 1793431820925,
+      "latestCollectedAt": 1793431820925
+    }
   },
   {
     "id": "item_edf4f2c578a1674a",
@@ -64,7 +80,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1170669"
+      ],
+      "stories": [
+        "news|news|“황희찬, 자기 잘못 인정하고 크게 뉘우치는 모습 보였다”|wikitree.co.kr|2026-10-30T23:50:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|“황희찬, 자기 잘못 인정하고 크게 뉘우치는 모습 보였다”|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1793404200000,
+      "latestPublishedAt": 1793404200000,
+      "representativeCollectedAt": 1793431820925,
+      "latestCollectedAt": 1793431820925
+    }
   },
   {
     "id": "item_b07e9936b1766e3d",
@@ -110,6 +142,53 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 20,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-10-31/202610310100198670014102"
+      ],
+      "stories": [
+        "news|news|국제망신! \"탁구게이트 때보다 심하다\" 英 가디언, 韓 축구 내분설 집중...|sportschosun.com|2026-10-30T23:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|국제망신! \"탁구게이트 때보다 심하다\" 英 가디언, 韓 축구 내분설 집중...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1793401500000,
+      "latestPublishedAt": 1793401500000,
+      "representativeCollectedAt": 1793431820925,
+      "latestCollectedAt": 1793431820925
+    }
+  },
+  {
+    "id": "item_6d80997fc15697ae",
+    "type": "news",
+    "title": "\"황희찬, 은퇴 소동 때문에 뽑힌 거 아냐?\" 모레노 선택에 의문 나왔다...",
+    "summary": "실제로 현영민 대한 축구협회 전력강화위원장이 자정이 넘어서까지 면담을 진행하며 설득한 것으로 알려졌고, 이후 손흥민의 리더십에 불만을 품었다는 이야기까지 흘러나왔다. 자연스레 김민재와 황인범, 황희찬의 소집...",
+    "url": "http://www.osen.co.kr/article/G1112901317",
+    "originalUrl": "http://www.osen.co.kr/article/G1112901317",
+    "publisher": "osen.co.kr",
+    "publishedAt": "2026-10-30T21:11:00.000Z",
+    "collectedAt": "2026-10-31T07:30:20.925Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회",
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -164,8 +243,8 @@
       ],
       "earliestPublishedAt": 1793392920000,
       "latestPublishedAt": 1793392920000,
-      "representativeCollectedAt": 1793408638546,
-      "latestCollectedAt": 1793408638546
+      "representativeCollectedAt": 1793431820925,
+      "latestCollectedAt": 1793431820925
     }
   },
   {
@@ -211,8 +290,8 @@
       ],
       "earliestPublishedAt": 1793373360000,
       "latestPublishedAt": 1793373360000,
-      "representativeCollectedAt": 1793408638546,
-      "latestCollectedAt": 1793408638546
+      "representativeCollectedAt": 1793431820925,
+      "latestCollectedAt": 1793431820925
     }
   },
   {
@@ -265,8 +344,8 @@
       ],
       "earliestPublishedAt": 1793372100000,
       "latestPublishedAt": 1793372100000,
-      "representativeCollectedAt": 1793408638546,
-      "latestCollectedAt": 1793408638546
+      "representativeCollectedAt": 1793431820925,
+      "latestCollectedAt": 1793431820925
     }
   },
   {
@@ -315,8 +394,8 @@
       ],
       "earliestPublishedAt": 1793361900000,
       "latestPublishedAt": 1793361900000,
-      "representativeCollectedAt": 1793408638546,
-      "latestCollectedAt": 1793408638546
+      "representativeCollectedAt": 1793431820925,
+      "latestCollectedAt": 1793431820925
     }
   },
   {
@@ -363,8 +442,8 @@
       ],
       "earliestPublishedAt": 1793341800000,
       "latestPublishedAt": 1793341800000,
-      "representativeCollectedAt": 1793408638546,
-      "latestCollectedAt": 1793408638546
+      "representativeCollectedAt": 1793431820925,
+      "latestCollectedAt": 1793431820925
     }
   },
   {
@@ -410,8 +489,8 @@
       ],
       "earliestPublishedAt": 1793338920000,
       "latestPublishedAt": 1793338920000,
-      "representativeCollectedAt": 1793408638546,
-      "latestCollectedAt": 1793408638546
+      "representativeCollectedAt": 1793431820925,
+      "latestCollectedAt": 1793431820925
     }
   },
   {
@@ -470,8 +549,8 @@
       ],
       "earliestPublishedAt": 1793333640000,
       "latestPublishedAt": 1793333640000,
-      "representativeCollectedAt": 1793408638546,
-      "latestCollectedAt": 1793408638546
+      "representativeCollectedAt": 1793431820925,
+      "latestCollectedAt": 1793431820925
     }
   },
   {
@@ -560,8 +639,8 @@
       ],
       "earliestPublishedAt": 1793326080000,
       "latestPublishedAt": 1793326080000,
-      "representativeCollectedAt": 1793408638546,
-      "latestCollectedAt": 1793408638546
+      "representativeCollectedAt": 1793431820925,
+      "latestCollectedAt": 1793431820925
     }
   },
   {
