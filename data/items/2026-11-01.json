@@ -92,6 +92,22 @@
     "relevanceScore": 43,
     "labels": [
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsworldi.com/newsView/20261101507015"
+      ],
+      "stories": [
+        "news|news|축구협회, 선거인단 2만1000여명 가닥… 차기 회장 선거 향해 속도|sportsworldi.com|2026-11-01T07:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회, 선거인단 2만1000여명 가닥… 차기 회장 선거 향해 속도|sportsworldi.com"
+      ],
+      "earliestPublishedAt": 1793516520000,
+      "latestPublishedAt": 1793516520000,
+      "representativeCollectedAt": 1793546885818,
+      "latestCollectedAt": 1793546885818
+    }
   }
 ]
