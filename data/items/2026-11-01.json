@@ -98,6 +98,22 @@
     "relevanceScore": 26,
     "relevanceTier": "secondary",
     "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=pot0Lpbd89s"
+      ],
+      "stories": [
+        "youtube|youtube|[cbs 박성태의 뉴스쇼] 대한축구협회 독단과 카르텔 뿌리뽑아야 | 260630 방송|한국인사이트|2026-11-01T15:20:04Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|[cbs 박성태의 뉴스쇼] 대한축구협회 독단과 카르텔 뿌리뽑아야 | 260630 방송|한국인사이트"
+      ],
+      "earliestPublishedAt": 1793546404000,
+      "latestPublishedAt": 1793546404000,
+      "representativeCollectedAt": 1793599586987,
+      "latestCollectedAt": 1793599586987
+    },
     "youtube": {
       "videoId": "pot0Lpbd89s",
       "channelId": "UC24R7LtbgXt8tOdESrK3XtQ",
