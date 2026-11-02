@@ -263,8 +263,8 @@
       ],
       "earliestPublishedAt": 1792705500000,
       "latestPublishedAt": 1792705500000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -424,8 +424,8 @@
       ],
       "earliestPublishedAt": 1792702800000,
       "latestPublishedAt": 1792702800000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -466,7 +466,23 @@
     "labels": [
       "인물 언급",
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112896807"
+      ],
+      "stories": [
+        "news|news|\"용돈 좀 보내줘\" 문진희 前 위원장, 협회 조사도 중단됐다...왜? \"본인이...|osen.co.kr|2026-10-22T20:31:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"용돈 좀 보내줘\" 문진희 前 위원장, 협회 조사도 중단됐다...왜? \"본인이...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1792701060000,
+      "latestPublishedAt": 1792701060000,
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
+    }
   },
   {
     "id": "item_f817e91bea06da35",
@@ -837,8 +853,8 @@
       ],
       "earliestPublishedAt": 1792670520000,
       "latestPublishedAt": 1792670520000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -1230,8 +1246,8 @@
       ],
       "earliestPublishedAt": 1792662900000,
       "latestPublishedAt": 1792662900000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -1649,22 +1665,22 @@
       ],
       "earliestPublishedAt": 1792656240000,
       "latestPublishedAt": 1792656240000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
     "id": "item_7ab47041a2119f27",
     "type": "news",
     "title": "\"손흥민 이름 부르기 싫어 '7번, 그분'이라 불러\"...96라인 은퇴설 속 촉...",
-    "summary": "체육계 현안과 더불어 축구 계 각종 문제에 관해 유승민 대한체육회 회장 , 이용수 대한 축구협회 회장 ... 12월 중순 새 회장 선거 가 진행될 것으로 예상되나 그 전에 아시안컵 준비는 끝나야 한다. 당장 11월 A매치도 있다. 그...",
+    "summary": "체육계 현안과 더불어 축구계 각종 문제에 관해 유승민 대한체육회 회장, 이용수 대한축구협회 회장... 12월 중순 새 회장 선거 가 진행될 것으로 예상되나 그 전에 아시안컵 준비는 끝나야 한다. 당장 11월 A매치도 있다. 그...",
     "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=696915",
     "originalUrl": "https://www.interfootball.co.kr/news/articleView.html?idxno=696915",
     "publisher": "interfootball.co.kr",
     "publishedAt": "2026-10-22T07:33:00.000Z",
     "collectedAt": "2026-10-22T10:39:16.748Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "회장 선거"
     ],
     "discoveryQueries": [
@@ -1698,8 +1714,8 @@
       ],
       "earliestPublishedAt": 1792654380000,
       "latestPublishedAt": 1792654380000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -1818,8 +1834,8 @@
       ],
       "earliestPublishedAt": 1792652760000,
       "latestPublishedAt": 1792652760000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -1918,8 +1934,8 @@
       ],
       "earliestPublishedAt": 1792651020000,
       "latestPublishedAt": 1792651020000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -2026,8 +2042,8 @@
       ],
       "earliestPublishedAt": 1792649760000,
       "latestPublishedAt": 1792649760000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -2314,8 +2330,8 @@
       ],
       "earliestPublishedAt": 1792645020000,
       "latestPublishedAt": 1792645020000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -2414,8 +2430,8 @@
       ],
       "earliestPublishedAt": 1792643640000,
       "latestPublishedAt": 1792643640000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -2573,8 +2589,8 @@
       ],
       "earliestPublishedAt": 1792641060000,
       "latestPublishedAt": 1792641060000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -2658,8 +2674,8 @@
       ],
       "earliestPublishedAt": 1792640820000,
       "latestPublishedAt": 1792640820000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -2778,8 +2794,8 @@
       ],
       "earliestPublishedAt": 1792639920000,
       "latestPublishedAt": 1792639920000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -2858,8 +2874,8 @@
       ],
       "earliestPublishedAt": 1792639920000,
       "latestPublishedAt": 1792639920000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -3192,8 +3208,8 @@
       ],
       "earliestPublishedAt": 1792638240000,
       "latestPublishedAt": 1792638240000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -3448,8 +3464,8 @@
       ],
       "earliestPublishedAt": 1792636440000,
       "latestPublishedAt": 1792636440000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -3531,8 +3547,8 @@
       ],
       "earliestPublishedAt": 1792634880000,
       "latestPublishedAt": 1792634880000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -3724,8 +3740,8 @@
       ],
       "earliestPublishedAt": 1792634160000,
       "latestPublishedAt": 1792634160000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -4352,8 +4368,8 @@
       ],
       "earliestPublishedAt": 1792631400000,
       "latestPublishedAt": 1792631400000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -4424,8 +4440,8 @@
       ],
       "earliestPublishedAt": 1792631040000,
       "latestPublishedAt": 1792631040000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {
@@ -4586,8 +4602,8 @@
       ],
       "earliestPublishedAt": 1792629000000,
       "latestPublishedAt": 1792629000000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   },
   {

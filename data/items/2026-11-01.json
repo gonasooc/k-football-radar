@@ -73,7 +73,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.bntnews.co.kr/article/view/bnt202611020024"
+      ],
+      "stories": [
+        "news|news|afc 아시안컵 1년 미뤄지나…손흥민 마지막 도전 흔들|bntnews.co.kr|2026-11-01T22:22:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|afc 아시안컵 1년 미뤄지나…손흥민 마지막 도전 흔들|bntnews.co.kr"
+      ],
+      "earliestPublishedAt": 1793571720000,
+      "latestPublishedAt": 1793571720000,
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
+    }
   },
   {
     "id": "youtube_pot0Lpbd89s",
@@ -234,8 +250,8 @@
       ],
       "earliestPublishedAt": 1793516520000,
       "latestPublishedAt": 1793516520000,
-      "representativeCollectedAt": 1793577273381,
-      "latestCollectedAt": 1793577273381
+      "representativeCollectedAt": 1793602292183,
+      "latestCollectedAt": 1793602292183
     }
   }
 ]
