@@ -56,8 +56,8 @@
       ],
       "earliestPublishedAt": 1792626480000,
       "latestPublishedAt": 1792626480000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -118,8 +118,8 @@
       ],
       "earliestPublishedAt": 1792626240000,
       "latestPublishedAt": 1792626240000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -396,8 +396,8 @@
       ],
       "earliestPublishedAt": 1792624140000,
       "latestPublishedAt": 1792624140000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -1668,8 +1668,8 @@
       ],
       "earliestPublishedAt": 1792600800000,
       "latestPublishedAt": 1792600800000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -1717,8 +1717,8 @@
       ],
       "earliestPublishedAt": 1792599240000,
       "latestPublishedAt": 1792599240000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -1824,8 +1824,8 @@
       ],
       "earliestPublishedAt": 1792597320000,
       "latestPublishedAt": 1792597320000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -2189,8 +2189,8 @@
       ],
       "earliestPublishedAt": 1792595520000,
       "latestPublishedAt": 1792595520000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -2308,15 +2308,16 @@
     "id": "item_9d9176d5c967dc68",
     "type": "news",
     "title": "\"의원한텐 버럭하더니 돈 달라?\"…축구협회 前 심판위원장 '용돈 녹취' ...",
-    "summary": "문 전 위원장은 2025년 정몽규 전 대한 축구협회 장이 4선에 성공한 선거 과정에서 정 후보를 지지해 달라는 취지의 활동을 했다는 의혹을 받았다. 당시 청문회에서는 해당 활동 시점과 문 전 위원장의 직책, 발언 경위 등을...",
+    "summary": "지난 7월 청문회에서는 의원들의 지적에 거칠게 맞섰던 그가 정작 새로운 의혹을 해명 해야 할 21일... 이에 이용수 대한축구협회 부회장 겸 회장 직무대행은 부적절한 경력이 있는 인물은 협회의 공식 등록 절차를 통과할 수...",
     "url": "https://www.ftimes.kr/news/articleView.html?idxno=40559",
     "originalUrl": "https://www.ftimes.kr/news/articleView.html?idxno=40559",
     "publisher": "ftimes.kr",
     "publishedAt": "2026-10-21T15:08:00.000Z",
     "collectedAt": "2026-10-22T05:23:02.766Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "정몽규",
+      "대한축구협회",
+      "부회장",
+      "해명",
       "청문회"
     ],
     "discoveryQueries": [
@@ -2334,16 +2335,16 @@
       "축구협회 회장 선거",
       "축구협회장"
     ],
-    "issueTags": [],
-    "personTags": [
-      "person_chung_mong_gyu"
+    "issueTags": [
+      "kfa-executives"
     ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 11,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -2358,8 +2359,8 @@
       ],
       "earliestPublishedAt": 1792595280000,
       "latestPublishedAt": 1792595280000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -2404,15 +2405,15 @@
       ],
       "earliestPublishedAt": 1792595280000,
       "latestPublishedAt": 1792595280000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
     "id": "item_0cc85352d79ffc8a",
     "type": "news",
     "title": "정몽규 홍명보는 이제 그만, '사퇴 5개월 만에 새 회장 뽑나'…대한축구...",
-    "summary": "대한 축구협회 는 지난 7월 6일 정몽규 전 회장이 사퇴한 이후 회장 직무대행 체제로 운영되고 있다. 정 전 회장은 2013년 3월 처음 회장직에 오른 뒤 4연임에 성공하며 약 13년 4개월 동안 한국 축구 행정을 이끌었다. 그러나...",
+    "summary": "다만 정관 개정 과 관계 기관 협의가 남아 있어 실제 선거 날짜가 확정된 것은 아니다. 대한 축구협회 는 지난 7월 6일 정몽규 전 회장이 사퇴한 이후 회장 직무대행 체제로 운영되고 있다. 정 전 회장은 2013년 3월 처음...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014660",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014660",
     "publisher": "spotvnews.co.kr",
@@ -2422,7 +2423,9 @@
       "정몽규",
       "홍명보",
       "사퇴",
-      "대한 축구협회"
+      "대한 축구협회",
+      "정관",
+      "정관 개정"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -2461,14 +2464,16 @@
       "축구협회 K-혁신위",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "statute-revision"
+    ],
     "personTags": [
       "person_chung_mong_gyu",
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 32,
+    "relevanceScore": 38,
     "labels": [
       "인물 언급"
     ],
@@ -2487,8 +2492,8 @@
       ],
       "earliestPublishedAt": 1792595160000,
       "latestPublishedAt": 1792595160000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -2924,8 +2929,8 @@
       ],
       "earliestPublishedAt": 1792588320000,
       "latestPublishedAt": 1792588320000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -3013,14 +3018,16 @@
     "id": "item_ed37ed6a473090ef",
     "type": "news",
     "title": "문진희 전 심판위원장, 심판에 “용돈 보내달라” 녹취 공개 파문",
-    "summary": "정몽규 대한 축구협회 장 시절 심판 행정을 관장한 문진희 전 심판위원장이 국정감사에 무단으로 불출석해 빈축을 샀는데요. 여기에 현직 심판에 금품을 요구하는 녹취까지 공개돼 파장이 커지고 있습니다. 김화영...",
+    "summary": "정몽규 대한축구협회장 시절 심판 행정을 관장한 문진희 전 심판위원장이 국정 감사 에 무단으로 불출석해 빈축을 샀는데요. 여기에 현직 심판에 금품을 요구하는 녹취까지 공개돼 파장이 커지고 있습니다. 김화영...",
     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8692079&ref=A",
     "originalUrl": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8692079&ref=A",
     "publisher": "news.kbs.co.kr",
     "publishedAt": "2026-10-21T12:51:00.000Z",
     "collectedAt": "2026-10-21T17:40:03.259Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
       "감사",
       "정몽규"
     ],
@@ -3039,6 +3046,7 @@
       "축구협회장"
     ],
     "issueTags": [
+      "election",
       "mcst-audit"
     ],
     "personTags": [
@@ -3046,7 +3054,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 19,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급",
@@ -3067,15 +3075,15 @@
       ],
       "earliestPublishedAt": 1792587060000,
       "latestPublishedAt": 1792622460000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
     "id": "item_b4b79397f398d7dd",
     "type": "news",
     "title": "축구협회장 선거, 잠정적으로 12월 18일 계획…\"선거인단 2만 명 규모\"",
-    "summary": "선거 인단 역시 200명에서 2만 명 규모로 대폭 확대할 것으로 보인다. 이용수 대한축구협회 회장 직무대행은 21일 국회 문화체육관광위원회 국정 감사에 출석해 \"구체적으로 확정되지는 않았지만, 잠정적으로 12월 18일을...",
+    "summary": "축구협회장 자리는 지난 7월 2026 국제축구연맹(FIFA) 북중미 월드컵 16강 진출 실패 후 정몽규 전 회장이 떠난 뒤 3개월 동안 공석인 상황이다. 선거 인단도 사상 최대 규모로 확장될 계획이다. 이 직무대행은 \"기존 200여...",
     "url": "http://www.stoo.com/article.php?aid=109477074506",
     "originalUrl": "http://www.stoo.com/article.php?aid=109477074506",
     "publisher": "stoo.com",
@@ -3085,9 +3093,7 @@
       "회장 선거",
       "선거인단",
       "선거인",
-      "축구협회장",
-      "대한축구협회",
-      "감사"
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -3115,15 +3121,16 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college",
-      "mcst-audit"
+      "electoral-college"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 47,
+    "relevanceScore": 28,
     "labels": [
-      "감사 키워드 포함",
+      "인물 언급",
       "선거 키워드 포함"
     ],
     "dedupeState": {
@@ -3139,8 +3146,8 @@
       ],
       "earliestPublishedAt": 1792586520000,
       "latestPublishedAt": 1792586520000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -3251,8 +3258,8 @@
       ],
       "earliestPublishedAt": 1792585200000,
       "latestPublishedAt": 1792585200000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -3322,8 +3329,8 @@
       ],
       "earliestPublishedAt": 1792584960000,
       "latestPublishedAt": 1792584960000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -3374,8 +3381,8 @@
       ],
       "earliestPublishedAt": 1792584840000,
       "latestPublishedAt": 1792584840000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -3481,8 +3488,8 @@
       ],
       "earliestPublishedAt": 1792584420000,
       "latestPublishedAt": 1792584420000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -3677,8 +3684,8 @@
       ],
       "earliestPublishedAt": 1792583940000,
       "latestPublishedAt": 1792583940000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -3827,26 +3834,24 @@
       ],
       "earliestPublishedAt": 1792583280000,
       "latestPublishedAt": 1792583280000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
     "id": "item_7c89c6b1f9b20c9a",
     "type": "news",
     "title": "\"용돈 좀 보내줘, 계좌 알려줄게\" 충격 녹취 공개…'국회서 고성' 축구협...",
-    "summary": "더불어민주당 조계원 의원은 21일 국회 문화체육관광위원회 국정 감사 에서 문 전 위원장의 금품 요구 의혹을... 당시 문 전 위원장은 정몽규 전 대한축구협회장의 4선 도전 과정에서 선거운동에 관여했다는 의혹과 심판...",
+    "summary": "국회 청문회에서 의원들과 언쟁을 벌이며 태도 논란을 일으켰던 문진희 전 대한 축구협회 심판위원장이... 또한 문화체육관광부 차원의 감사 와 수사 의뢰 필요성을 강조하는 한편, 한국프로 축구 연맹이 유소년 선수에게...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014661",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1014661",
     "publisher": "spotvnews.co.kr",
     "publishedAt": "2026-10-21T11:46:00.000Z",
     "collectedAt": "2026-10-21T12:26:20.813Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "축구협회장",
-      "대한축구협회장",
-      "정몽규",
-      "감사"
+      "대한 축구협회",
+      "감사",
+      "청문회"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -3866,17 +3871,14 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "mcst-audit"
     ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급",
       "감사 키워드 포함"
     ],
     "dedupeState": {
@@ -3892,8 +3894,8 @@
       ],
       "earliestPublishedAt": 1792583160000,
       "latestPublishedAt": 1792583160000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -4073,8 +4075,8 @@
       ],
       "earliestPublishedAt": 1792581120000,
       "latestPublishedAt": 1792581120000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -4273,15 +4275,15 @@
       ],
       "earliestPublishedAt": 1792580820000,
       "latestPublishedAt": 1792580820000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
     "id": "item_3226abf2da5f7cc0",
     "type": "news",
     "title": "축구협회 차기 회장 선거, 12월 18일 잠정 확정…정관 개정 필요",
-    "summary": "국정 감사 에 출석해, 차기 회장 선거 일정 및 협회 지배구조 개선에 관한 질의에 답변했다. 이 직무대행은 \"아직 최종 확정은 아니지만, 12월 18일을 목표로 실무 준비를 하고 있다\"고 밝혔다. 협회가 올해 7월 정몽규 전...",
+    "summary": "국제뉴스/DB 대한 축구협회 가 차기 회장 선거에서 선거인 단을 2만 명 규모로 확대하는 방안을 추진하고 있다. 이 같은 변화는 기존의 소수 대의원 중심 선거 구조를 개선해 지도자, 심판, 선수, 동호인 등 축구 계 전반의...",
     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3728589",
     "originalUrl": "https://www.gukjenews.com/news/articleView.html?idxno=3728589",
     "publisher": "gukjenews.com",
@@ -4292,8 +4294,9 @@
       "회장 선거",
       "정관",
       "정관 개정",
-      "정몽규",
-      "감사"
+      "대한 축구협회",
+      "선거인",
+      "대의원"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -4324,18 +4327,14 @@
     ],
     "issueTags": [
       "election",
-      "statute-revision"
+      "statute-revision",
+      "electoral-college"
     ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
-    "labels": [
-      "인물 언급",
-      "감사 키워드 포함"
-    ],
+    "relevanceScore": 49,
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -4349,8 +4348,8 @@
       ],
       "earliestPublishedAt": 1792580760000,
       "latestPublishedAt": 1792580760000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -4661,8 +4660,8 @@
       ],
       "earliestPublishedAt": 1792579560000,
       "latestPublishedAt": 1792579560000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -4882,8 +4881,8 @@
       ],
       "earliestPublishedAt": 1792577940000,
       "latestPublishedAt": 1792577940000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -5023,8 +5022,8 @@
       ],
       "earliestPublishedAt": 1792577760000,
       "latestPublishedAt": 1792577760000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -5250,8 +5249,8 @@
       ],
       "earliestPublishedAt": 1792576920000,
       "latestPublishedAt": 1792576920000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -5967,8 +5966,8 @@
       ],
       "earliestPublishedAt": 1792573200000,
       "latestPublishedAt": 1792573200000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -6087,8 +6086,8 @@
       ],
       "earliestPublishedAt": 1792572960000,
       "latestPublishedAt": 1792572960000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -6146,8 +6145,8 @@
       ],
       "earliestPublishedAt": 1792572900000,
       "latestPublishedAt": 1792572900000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -6606,8 +6605,8 @@
       ],
       "earliestPublishedAt": 1792572240000,
       "latestPublishedAt": 1792572240000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -6704,8 +6703,8 @@
       ],
       "earliestPublishedAt": 1792572060000,
       "latestPublishedAt": 1792572060000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -6988,8 +6987,8 @@
       ],
       "earliestPublishedAt": 1792571580000,
       "latestPublishedAt": 1792571580000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -7154,7 +7153,7 @@
     "id": "item_7cc4b99580950267",
     "type": "news",
     "title": "축구협회, 차기 회장 선거 12월 18일 준비…선거인단 2만명 확대",
-    "summary": "한강타임즈 백진아 기자 =대한 축구협회 가 차기 회장 선거를 올해 12월 18일로 잠정 준비하고 있으며... 축구 계에서는 기존 선거 방식의 개혁을 요구해 왔으며, 지난 8월 박지성 위원장이 이끄는 K- 축구 혁신위원회 가...",
+    "summary": "한강타임즈 백진아 기자 =대한 축구협회 가 차기 회장 선거를 올해 12월 18일로 잠정 준비하고 있으며... 축구 계에서는 기존 선거 방식의 개혁을 요구해 왔으며, 지난 8월 박지성 위원장이 이끄는 K- 축구 혁신위원회가...",
     "url": "https://www.hg-times.com/news/articleView.html?idxno=306279",
     "originalUrl": "https://www.hg-times.com/news/articleView.html?idxno=306279",
     "publisher": "hg-times.com",
@@ -7224,8 +7223,8 @@
       ],
       "earliestPublishedAt": 1792571160000,
       "latestPublishedAt": 1792571160000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -7289,8 +7288,8 @@
       ],
       "earliestPublishedAt": 1792571100000,
       "latestPublishedAt": 1792571100000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -7447,8 +7446,8 @@
       ],
       "earliestPublishedAt": 1792570920000,
       "latestPublishedAt": 1792570920000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -7526,18 +7525,17 @@
     "id": "item_3aba5c254dec1024",
     "type": "news",
     "title": "차기 협회장 ‘선거’ 일정 밝힌 이용수 직무대행 “잠정적으로 12월18일...",
-    "summary": "혁신위원회에서 논의했던 선거 인단은 200여명에서 2만명으로 대폭 확대할 계획이라고도 했다. 정몽규 회장이 물러난 뒤 대한축구협회장은 아직 공석이다. 정 전 회장은 2026 북중미 월드컵이 끝난 뒤인 지난 7월 협회장...",
+    "summary": "월드컵 실패와 맞물려 축구협회장 선거 방식에 관한 변화를 요구하는 목소리가 컸다. 박지성 위원장을 비롯해 K-축구 혁신위원회가 출범, 협회장 선거 인단을 확대하는 등의 권고안을 이미 발표한 바 있다. 이 직무대행은...",
     "url": "https://www.sportsseoul.com/news/read/1643138?ref=naver",
     "originalUrl": "https://www.sportsseoul.com/news/read/1643138?ref=naver",
     "publisher": "sportsseoul.com",
     "publishedAt": "2026-10-21T08:21:00.000Z",
     "collectedAt": "2026-10-21T12:26:20.813Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "축구협회장",
-      "대한축구협회장",
+      "회장 선거",
       "혁신위원회",
-      "정몽규"
+      "축구 혁신",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -7566,11 +7564,11 @@
       "innovation-committee"
     ],
     "personTags": [
-      "person_chung_mong_gyu"
+      "person_park_ji_sung"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 11,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -7588,8 +7586,8 @@
       ],
       "earliestPublishedAt": 1792570860000,
       "latestPublishedAt": 1792570860000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -7654,8 +7652,8 @@
       ],
       "earliestPublishedAt": 1792570680000,
       "latestPublishedAt": 1792570680000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -7787,8 +7785,8 @@
       ],
       "earliestPublishedAt": 1792570200000,
       "latestPublishedAt": 1792570200000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -7905,8 +7903,8 @@
       ],
       "earliestPublishedAt": 1792570080000,
       "latestPublishedAt": 1792570080000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -7996,8 +7994,8 @@
       ],
       "earliestPublishedAt": 1792570080000,
       "latestPublishedAt": 1792570080000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -8068,8 +8066,8 @@
       ],
       "earliestPublishedAt": 1792570020000,
       "latestPublishedAt": 1792570020000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -8360,7 +8358,7 @@
     "id": "item_090cdfa8875bbae9",
     "type": "news",
     "title": "이용수 축구협회장 직무대행 \"차기 회장 선거 12월 18일로 계획\"",
-    "summary": "대한 축구협회 의 차기 회장 선거가 12월 18일로 잠정 결정됐다. 선거인단 을 최대 2만 명으로 확대하는 방안도 추진 중이다. 이용수 축구협회 장 직무대행은 21일 서울 여의도 국회 문화체육관광위원회 국정감사에...",
+    "summary": "이 직무대행은 \"K- 축구 혁신위, 문화체육관광부, 대한체육회 등과 협의해 선거인단을 2만 명으로 확대할 계획\"이라면서도 \"그 전에 협회 정관 개정 작업을 진행해야 한다. 또 개정 된 정관 이 국제 축구 연맹(FIFA)과...",
     "url": "https://www.hankookilbo.com/news/article/A2026102116140005369?did=NA",
     "originalUrl": "https://www.hankookilbo.com/news/article/A2026102116140005369?did=NA",
     "publisher": "hankookilbo.com",
@@ -8369,10 +8367,11 @@
     "matchedKeywords": [
       "축구협회장",
       "회장 선거",
-      "대한 축구협회",
       "선거인단",
       "선거인",
-      "감사"
+      "정관",
+      "정관 개정",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "\"이용수\" 선거",
@@ -8395,14 +8394,15 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college"
+      "electoral-college",
+      "statute-revision",
+      "innovation-committee"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 38,
+    "relevanceScore": 36,
     "labels": [
-      "감사 키워드 포함",
       "선거 키워드 포함"
     ],
     "dedupeState": {
@@ -8418,8 +8418,8 @@
       ],
       "earliestPublishedAt": 1792569720000,
       "latestPublishedAt": 1792569720000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -8522,8 +8522,8 @@
       ],
       "earliestPublishedAt": 1792569660000,
       "latestPublishedAt": 1792569660000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -8570,8 +8570,8 @@
       ],
       "earliestPublishedAt": 1792569600000,
       "latestPublishedAt": 1792569600000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -8636,8 +8636,8 @@
       ],
       "earliestPublishedAt": 1792569600000,
       "latestPublishedAt": 1792569600000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -8750,8 +8750,8 @@
       ],
       "earliestPublishedAt": 1792569480000,
       "latestPublishedAt": 1792569480000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -8818,8 +8818,8 @@
       ],
       "earliestPublishedAt": 1792569480000,
       "latestPublishedAt": 1792569480000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -8970,8 +8970,8 @@
       ],
       "earliestPublishedAt": 1792569420000,
       "latestPublishedAt": 1792569420000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -9174,8 +9174,8 @@
       ],
       "earliestPublishedAt": 1792569000000,
       "latestPublishedAt": 1792569000000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -9338,8 +9338,8 @@
       ],
       "earliestPublishedAt": 1792568880000,
       "latestPublishedAt": 1792568880000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -9404,8 +9404,8 @@
       ],
       "earliestPublishedAt": 1792568820000,
       "latestPublishedAt": 1792568820000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -9514,8 +9514,8 @@
       ],
       "earliestPublishedAt": 1792568460000,
       "latestPublishedAt": 1792568460000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -9580,8 +9580,8 @@
       ],
       "earliestPublishedAt": 1792568400000,
       "latestPublishedAt": 1792568400000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -9682,8 +9682,8 @@
       ],
       "earliestPublishedAt": 1792568400000,
       "latestPublishedAt": 1792568400000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -9797,8 +9797,8 @@
       ],
       "earliestPublishedAt": 1792568280000,
       "latestPublishedAt": 1792568280000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10000,8 +10000,8 @@
       ],
       "earliestPublishedAt": 1792567860000,
       "latestPublishedAt": 1792567860000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10060,8 +10060,8 @@
       ],
       "earliestPublishedAt": 1792567500000,
       "latestPublishedAt": 1792567500000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10115,8 +10115,8 @@
       ],
       "earliestPublishedAt": 1792567440000,
       "latestPublishedAt": 1792567440000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10238,8 +10238,8 @@
       ],
       "earliestPublishedAt": 1792567320000,
       "latestPublishedAt": 1792567320000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10387,8 +10387,8 @@
       ],
       "earliestPublishedAt": 1792566900000,
       "latestPublishedAt": 1792566900000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10564,8 +10564,8 @@
       ],
       "earliestPublishedAt": 1792566720000,
       "latestPublishedAt": 1792566720000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10626,8 +10626,8 @@
       ],
       "earliestPublishedAt": 1792566420000,
       "latestPublishedAt": 1792566420000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10675,8 +10675,8 @@
       ],
       "earliestPublishedAt": 1792566360000,
       "latestPublishedAt": 1792566360000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10757,8 +10757,8 @@
       ],
       "earliestPublishedAt": 1792566120000,
       "latestPublishedAt": 1792566120000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10808,8 +10808,8 @@
       ],
       "earliestPublishedAt": 1792565880000,
       "latestPublishedAt": 1792565880000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10926,8 +10926,8 @@
       ],
       "earliestPublishedAt": 1792565640000,
       "latestPublishedAt": 1792565640000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -10989,8 +10989,8 @@
       ],
       "earliestPublishedAt": 1792565580000,
       "latestPublishedAt": 1792565580000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -11040,8 +11040,8 @@
       ],
       "earliestPublishedAt": 1792565520000,
       "latestPublishedAt": 1792565520000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -11365,8 +11365,8 @@
       ],
       "earliestPublishedAt": 1792564680000,
       "latestPublishedAt": 1792564680000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -11996,8 +11996,8 @@
       ],
       "earliestPublishedAt": 1792563180000,
       "latestPublishedAt": 1792563180000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -12501,8 +12501,8 @@
       ],
       "earliestPublishedAt": 1792562280000,
       "latestPublishedAt": 1792562280000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -13406,8 +13406,8 @@
       ],
       "earliestPublishedAt": 1792556100000,
       "latestPublishedAt": 1792556100000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -13466,8 +13466,8 @@
       ],
       "earliestPublishedAt": 1792554120000,
       "latestPublishedAt": 1792554120000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -13509,8 +13509,8 @@
       ],
       "earliestPublishedAt": 1792553940000,
       "latestPublishedAt": 1792553940000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -13638,8 +13638,8 @@
       ],
       "earliestPublishedAt": 1792553220000,
       "latestPublishedAt": 1792553220000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -13825,8 +13825,8 @@
       ],
       "earliestPublishedAt": 1792551480000,
       "latestPublishedAt": 1792551480000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -14583,8 +14583,8 @@
       ],
       "earliestPublishedAt": 1792544880000,
       "latestPublishedAt": 1792544880000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {

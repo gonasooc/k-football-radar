@@ -44,8 +44,8 @@
       ],
       "earliestPublishedAt": 1793404380000,
       "latestPublishedAt": 1793404380000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -98,8 +98,8 @@
       ],
       "earliestPublishedAt": 1793404200000,
       "latestPublishedAt": 1793404200000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -163,8 +163,8 @@
       ],
       "earliestPublishedAt": 1793401500000,
       "latestPublishedAt": 1793401500000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -210,22 +210,26 @@
       ],
       "earliestPublishedAt": 1793394660000,
       "latestPublishedAt": 1793394660000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
     "id": "item_19a3c99626fe1acd",
     "type": "news",
     "title": "‘韓 축구의 추락’ 손흥민 입지도 위태롭다, 英 가디언 “한국 축구 월...",
-    "summary": "가디언은 북중미 월드컵 조별리그 탈락 이후 한국 축구가 대표팀 내부의 세대 갈등과 리더십 논란, 대한축구협회 수뇌부 공백 등 복합적인 문제에 직면했다고 진단했다. 특히 선수단 내부 갈등이 손흥민의 주장직과 선발...",
+    "summary": "지난 21일 국회 문화체육관광위원회 국정 감사 에서는 정연욱 의원이 이용수 대한축구협회 회장 직무대행에게... 한국은 월드컵 조별리그 탈락 이후 홍명보 감독이 사퇴했고, 정몽규 전 회장도 자리에서 물러났다. 경찰은...",
     "url": "https://sports.khan.co.kr/article/202610310541003?pt=nv",
     "originalUrl": "https://sports.khan.co.kr/article/202610310541003?pt=nv",
     "publisher": "sports.khan.co.kr",
     "publishedAt": "2026-10-30T20:42:00.000Z",
     "collectedAt": "2026-10-30T21:03:30.436Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한축구협회",
+      "감사",
+      "정몽규",
+      "홍명보",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -243,13 +247,21 @@
       "축구협회 감사",
       "축구협회장"
     ],
-    "issueTags": [],
-    "personTags": [],
+    "issueTags": [
+      "mcst-audit"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급",
+      "감사 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -263,9 +275,52 @@
       ],
       "earliestPublishedAt": 1793392920000,
       "latestPublishedAt": 1793392920000,
-      "representativeCollectedAt": 1793496512683,
-      "latestCollectedAt": 1793496512683
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
+  },
+  {
+    "id": "item_a0e41c8c30b4a02d",
+    "type": "news",
+    "title": "'역대급' 韓 축구 국제망신 \"손흥민 왕따설·협회 경찰 조사·96파벌... ...",
+    "summary": "이용수 대한축구협회 (KFA) 회장 직무대행이 \"손흥민 선수를 말하는 것이냐\"고 답했던 일화를 상세히... 2026 북중미월드컵 조별리그 탈락과 기자회견 보이콧 파문 이후 홍명보 감독과 정몽규 회장이 사퇴하고 국회 청문회에...",
+    "url": "https://www.starnewskorea.com/sports/2026/10/31/2026103019131839295",
+    "originalUrl": "https://www.starnewskorea.com/sports/2026/10/31/2026103019131839295",
+    "publisher": "starnewskorea.com",
+    "publishedAt": "2026-10-30T16:11:00.000Z",
+    "collectedAt": "2026-11-03T15:29:05.221Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "KFA",
+      "정몽규",
+      "홍명보",
+      "사퇴",
+      "청문회"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 감사",
+      "\"이용수\" 대한축구협회",
+      "\"이용수\" 축구협회",
+      "\"정몽규\" 감사",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 감사",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "KFA"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 16,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_433874ab2efeffda",
@@ -310,8 +365,8 @@
       ],
       "earliestPublishedAt": 1793373360000,
       "latestPublishedAt": 1793373360000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -364,8 +419,8 @@
       ],
       "earliestPublishedAt": 1793372100000,
       "latestPublishedAt": 1793372100000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -414,8 +469,8 @@
       ],
       "earliestPublishedAt": 1793361900000,
       "latestPublishedAt": 1793361900000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -466,8 +521,8 @@
       ],
       "earliestPublishedAt": 1793341800000,
       "latestPublishedAt": 1793341800000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -513,8 +568,8 @@
       ],
       "earliestPublishedAt": 1793338920000,
       "latestPublishedAt": 1793338920000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -573,8 +628,8 @@
       ],
       "earliestPublishedAt": 1793333640000,
       "latestPublishedAt": 1793333640000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
@@ -663,8 +718,8 @@
       ],
       "earliestPublishedAt": 1793326080000,
       "latestPublishedAt": 1793326080000,
-      "representativeCollectedAt": 1793690121112,
-      "latestCollectedAt": 1793690121112
+      "representativeCollectedAt": 1793719745221,
+      "latestCollectedAt": 1793719745221
     }
   },
   {
