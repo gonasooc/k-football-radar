@@ -25,7 +25,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.jndn.com/article.php?aid=1793662366442323107"
+      ],
+      "stories": [
+        "news|news|구례 노고단배 전국 중등 1학년 축구페스티벌…32개팀 500명 열전|jndn.com|2026-11-02T23:36:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|구례 노고단배 전국 중등 1학년 축구페스티벌…32개팀 500명 열전|jndn.com"
+      ],
+      "earliestPublishedAt": 1793662560000,
+      "latestPublishedAt": 1793662560000,
+      "representativeCollectedAt": 1793690121112,
+      "latestCollectedAt": 1793690121112
+    }
   },
   {
     "id": "item_1328abe88e40c035",
@@ -60,7 +76,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112902734"
+      ],
+      "stories": [
+        "news|news|'34세 손흥민, 마지막 아시안컵은 36세에?' 중동 매체의 충격 전망...한...|osen.co.kr|2026-11-02T22:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'34세 손흥민, 마지막 아시안컵은 36세에?' 중동 매체의 충격 전망...한...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1793657040000,
+      "latestPublishedAt": 1793657040000,
+      "representativeCollectedAt": 1793690121112,
+      "latestCollectedAt": 1793690121112
+    }
   },
   {
     "id": "item_5dd1b91c9ed7e783",
@@ -124,7 +156,23 @@
     "relevanceScore": 29,
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20261102_0003851729"
+      ],
+      "stories": [
+        "news|news|12월18일 목표…축구협회 차기 회장 선거, 어떻게 준비하고 있나|newsis.com|2026-11-02T22:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|12월18일 목표…축구협회 차기 회장 선거, 어떻게 준비하고 있나|newsis.com"
+      ],
+      "earliestPublishedAt": 1793656800000,
+      "latestPublishedAt": 1793656800000,
+      "representativeCollectedAt": 1793690121112,
+      "latestCollectedAt": 1793690121112
+    }
   },
   {
     "id": "youtube_kcs14gzN43g",
@@ -305,8 +353,8 @@
       ],
       "earliestPublishedAt": 1793612040000,
       "latestPublishedAt": 1793612040000,
-      "representativeCollectedAt": 1793664141208,
-      "latestCollectedAt": 1793664141208
+      "representativeCollectedAt": 1793690121112,
+      "latestCollectedAt": 1793690121112
     }
   },
   {
@@ -425,8 +473,8 @@
       ],
       "earliestPublishedAt": 1793607180000,
       "latestPublishedAt": 1793607180000,
-      "representativeCollectedAt": 1793664141208,
-      "latestCollectedAt": 1793664141208
+      "representativeCollectedAt": 1793690121112,
+      "latestCollectedAt": 1793690121112
     }
   },
   {
@@ -495,22 +543,22 @@
       ],
       "earliestPublishedAt": 1793588040000,
       "latestPublishedAt": 1793588040000,
-      "representativeCollectedAt": 1793664141208,
-      "latestCollectedAt": 1793664141208
+      "representativeCollectedAt": 1793690121112,
+      "latestCollectedAt": 1793690121112
     }
   },
   {
     "id": "item_4e142b9e479000df",
     "type": "news",
     "title": "'아시안컵 연기되면 감독 어쩌나' 韓日 사령탑 거취까지 대혼란... 모레...",
-    "summary": "감독 은 오는 11월 말 계약이 만료된다. 대한축구협회는 지난 9월 모레노 감독 을 임시 사령탑으로 선임 하면서... U-21 대표팀 감독 에게 지휘봉을 넘긴다고 공식 발표했다. 2018년부터 일본 대표팀 을 이끌어온 모리야스...",
+    "summary": "대한 축구협회 는 지난 9월 모레노 감독 을 임시 사령탑으로 선임 하면서 9~11월 A매치 6경기를 지휘하도록 했다. 이후 경기 결과와 지도력 등을 평가해 내년 1월 아시안컵까지 계약을 연장할 수 있는 조건도 포함했다....",
     "url": "https://www.starnewskorea.com/sports/2026/11/02/2026110210372219670",
     "originalUrl": "https://www.starnewskorea.com/sports/2026/11/02/2026110210372219670",
     "publisher": "starnewskorea.com",
     "publishedAt": "2026-11-02T02:26:00.000Z",
     "collectedAt": "2026-11-02T06:51:32.183Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "대한 축구협회",
       "감독",
       "사령탑",
       "선임"
@@ -542,8 +590,8 @@
       ],
       "earliestPublishedAt": 1793586360000,
       "latestPublishedAt": 1793586360000,
-      "representativeCollectedAt": 1793664141208,
-      "latestCollectedAt": 1793664141208
+      "representativeCollectedAt": 1793690121112,
+      "latestCollectedAt": 1793690121112
     }
   },
   {
@@ -582,8 +630,8 @@
       ],
       "earliestPublishedAt": 1793581080000,
       "latestPublishedAt": 1793581080000,
-      "representativeCollectedAt": 1793664141208,
-      "latestCollectedAt": 1793664141208
+      "representativeCollectedAt": 1793690121112,
+      "latestCollectedAt": 1793690121112
     }
   }
 ]
