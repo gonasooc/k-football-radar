@@ -27,7 +27,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.starnewskorea.com/sports/2026/11/04/2026110406092442043"
+      ],
+      "stories": [
+        "news|news|\"아시안컵 연기했더니 또 다른 아시안컵과 겹쳤다\" 무려 20일 가까이 일...|starnewskorea.com|2026-11-03T22:14:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"아시안컵 연기했더니 또 다른 아시안컵과 겹쳤다\" 무려 20일 가까이 일...|starnewskorea.com"
+      ],
+      "earliestPublishedAt": 1793744040000,
+      "latestPublishedAt": 1793744040000,
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
+    }
   },
   {
     "id": "item_bc8425aa2da969c0",
@@ -55,7 +71,23 @@
     "isOfficial": false,
     "relevanceScore": 3,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20261103_0003853362"
+      ],
+      "stories": [
+        "news|news|아시안컵 연기로 꼬인 모레노…축구대표팀 갈등은 어쩌나|newsis.com|2026-11-03T22:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|아시안컵 연기로 꼬인 모레노…축구대표팀 갈등은 어쩌나|newsis.com"
+      ],
+      "earliestPublishedAt": 1793743200000,
+      "latestPublishedAt": 1793743200000,
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
+    }
   },
   {
     "id": "item_1f97e4b704a7f6ec",
@@ -95,7 +127,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 14,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.thesportstimes.co.kr/news/articleView.html?idxno=377174"
+      ],
+      "stories": [
+        "news|news|'아시안컵 연기' 모레노 감독 운명은...12월 18일 선출될 새 축구협회 집...|thesportstimes.co.kr|2026-11-03T21:58:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'아시안컵 연기' 모레노 감독 운명은...12월 18일 선출될 새 축구협회 집...|thesportstimes.co.kr"
+      ],
+      "earliestPublishedAt": 1793743080000,
+      "latestPublishedAt": 1793743080000,
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
+    }
   },
   {
     "id": "youtube_dom3toeoW20",
@@ -212,6 +260,36 @@
     }
   },
   {
+    "id": "item_0ea17575ab7e6e90",
+    "type": "news",
+    "title": "[핌 포커스] 아시안컵 11개월 연기, 모레노 감독에 독일까 약일까",
+    "summary": "대한 축구협회 입장에서는 감독 선임 을 서두를 이유가 줄었다는 점도 중요하다. 기존에는 내년 1월 아시안컵이 눈앞에 있었기 때문에 감독 을 교체하더라도 새로운 지도자가 대표팀을 파악할 시간이 부족했다. 모레노가...",
+    "url": "https://www.newspim.com/news/view/20261103001151",
+    "originalUrl": "https://www.newspim.com/news/view/20261103001151",
+    "publisher": "newspim.com",
+    "publishedAt": "2026-11-03T20:01:00.000Z",
+    "collectedAt": "2026-11-04T08:01:26.983Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독 선임",
+      "감독",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독 선임",
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_7a4c9a665ac1a232",
     "type": "news",
     "title": "감독 또 뽑아? 아시안컵 1년 연기→모레노 낙동강 오리알 신세...한국 축...",
@@ -255,8 +333,8 @@
       ],
       "earliestPublishedAt": 1793729700000,
       "latestPublishedAt": 1793729700000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -311,8 +389,8 @@
       ],
       "earliestPublishedAt": 1793725800000,
       "latestPublishedAt": 1793725800000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -356,9 +434,84 @@
       ],
       "earliestPublishedAt": 1793722080000,
       "latestPublishedAt": 1793722080000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
+  },
+  {
+    "id": "item_b0800756b3857001",
+    "type": "news",
+    "title": "감독은 짐 싸고…캡틴은 손 터나",
+    "summary": "대한 축구협회 는 차기 사령탑 선임 을 위한 시간을 확보했고, 새 축구협회 장 체제에서 감독 선임 작업을 본격화할 것으로 예상된다. 손흥민의 대표팀 내 거취도 장기적인 관점에서 살펴볼 변수가 됐다. 대회가 예정대로...",
+    "url": "https://sports.khan.co.kr/article/202611040000006?pt=nv",
+    "originalUrl": "https://sports.khan.co.kr/article/202611040000006?pt=nv",
+    "publisher": "sports.khan.co.kr",
+    "publishedAt": "2026-11-03T15:00:00.000Z",
+    "collectedAt": "2026-11-04T08:01:26.983Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독 선임",
+      "감독",
+      "사령탑",
+      "선임",
+      "차기"
+    ],
+    "discoveryQueries": [
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_a07663e721b8734e",
+    "type": "news",
+    "title": "아시안컵 내년 연기에 모레노 운명은?…축구협회도 '난감'",
+    "summary": "다음 집행부 로 넘기는 게 맞는다고 본다\"고 밝혔다. 축구협회 는 2026 북중미 월드컵 조별리그 탈락의 부진으로 홍명보 전 감독이 사퇴하면서 스페인 출신의 모레노 감독을 임시 사령탑으로 영입해 9∼10월 A매치 4경기와...",
+    "url": "https://www.slist.kr/news/articleView.html?idxno=778692",
+    "originalUrl": "https://www.slist.kr/news/articleView.html?idxno=778692",
+    "publisher": "slist.kr",
+    "publishedAt": "2026-11-03T14:54:00.000Z",
+    "collectedAt": "2026-11-04T08:01:26.983Z",
+    "matchedKeywords": [
+      "축구협회",
+      "홍명보",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 선거",
+      "\"이용수\" 축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 선거",
+      "\"홍명보\" 축구협회",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보",
+      "축구협회 부회장",
+      "축구협회 이사회",
+      "축구협회 집행부",
+      "축구협회 회장 선거",
+      "축구협회장"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 8,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "youtube_aXNLL3OSlAI",
@@ -469,6 +622,42 @@
     }
   },
   {
+    "id": "item_003db9c1b407d1c2",
+    "type": "news",
+    "title": "아시안컵 연기 여파…'96라인 대표팀 은퇴 논란 수습' 나선 모레노 감독...",
+    "summary": "지난달 열린 우즈베키스탄전 이후 축구 대표팀 96라인 선수들은 대표팀 은퇴 의사를 나타냈고 경기 후 현영민 전력강화위원장과 면담하기도 했다. 대한 축구협회 는 11월 카타르 원정 평가전을 앞두고 발표한 대표팀 소집...",
+    "url": "https://www.mydaily.co.kr/page/view/2026110319273155903",
+    "originalUrl": "https://www.mydaily.co.kr/page/view/2026110319273155903",
+    "publisher": "mydaily.co.kr",
+    "publishedAt": "2026-11-03T13:03:00.000Z",
+    "collectedAt": "2026-11-04T08:01:26.983Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 선거",
+      "\"현영민\" 축구협회",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회 집행부",
+      "축구협회 회장 선거",
+      "축구협회장"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_20abcea764ff5e17",
     "type": "news",
     "title": "2027 아시안컵, 중동 정세 불안에 1년 연기…내년 12월 개막",
@@ -496,17 +685,19 @@
     "id": "item_680138c7e2dd5c96",
     "type": "news",
     "title": "아시안컵 일정 결국 미뤄진다… 사우디 정세 불안에 '직격탄'",
-    "summary": "한편, 로베르트 모레노 임시 감독 이 이끄는 한국 대표팀 은 예정대로 이달 13일 사우디아라비아, 17일... 대한축구협회는 두 경기를 포함한 A매치 6경기 평가를 예정대로 진행하되, 아시안컵을 지휘할 정식 감독 선임 은...",
+    "summary": "모레노 감독 의 계약은 27일까지다. 대한 축구협회 는 두 경기를 포함한 A매치 6경기 평가를 예정대로 진행하되, 아시안컵을 지휘할 정식 감독 선임 은 차기 집행부에 맡길 여유가 생겼다.",
     "url": "https://www.dkilbo.com/news/articleView.html?idxno=559545",
     "originalUrl": "https://www.dkilbo.com/news/articleView.html?idxno=559545",
     "publisher": "dkilbo.com",
     "publishedAt": "2026-11-03T12:24:00.000Z",
     "collectedAt": "2026-11-03T15:29:05.221Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "대한 축구협회",
+      "집행부",
       "감독 선임",
       "감독",
-      "선임"
+      "선임",
+      "차기"
     ],
     "discoveryQueries": [
       "대표팀 감독",
@@ -516,12 +707,13 @@
       "축구협회 집행부"
     ],
     "issueTags": [
+      "kfa-executives",
       "coach-appointment"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -537,8 +729,8 @@
       ],
       "earliestPublishedAt": 1793708640000,
       "latestPublishedAt": 1793708640000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -586,8 +778,8 @@
       ],
       "earliestPublishedAt": 1793707320000,
       "latestPublishedAt": 1793707320000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -663,8 +855,8 @@
       ],
       "earliestPublishedAt": 1793707320000,
       "latestPublishedAt": 1793707320000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -747,7 +939,7 @@
     "id": "item_ed5c83ac3834931a",
     "type": "news",
     "title": "중동 정세 불안에 아시안컵 결국 연기‥'모레노 감독 운명은?'",
-    "summary": "하지만 차기 축구협회 장 선거를 다음 달 18일로 잠정적으로 결정했고, 내년 3월 A매치까지 시간을 번 만큼 새 집행부에서 정식 대표팀 감독 을 선임 할 가능성이 커진 겁니다. 축구 대표팀이 대회 준비를 위해 사우디에서...",
+    "summary": "하지만 차기 축구협회 장 선거를 다음 달 18일로 잠정적으로 결정했고, 내년 3월 A매치까지 시간을 번 만큼 새 집행부 에서 정식 대표팀 감독을 선임할 가능성이 커진 겁니다. 축구 대표팀이 대회 준비를 위해 사우디에서...",
     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6862949_37004.html",
     "originalUrl": "https://imnews.imbc.com/replay/2026/nwdesk/article/6862949_37004.html",
     "publisher": "imnews.imbc.com",
@@ -783,9 +975,65 @@
       ],
       "earliestPublishedAt": 1793706180000,
       "latestPublishedAt": 1793706180000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
+  },
+  {
+    "id": "item_e7c2c7074a9caecc",
+    "type": "news",
+    "title": "끝내 '오피셜' 공식발표, '임시 감독' 모레노는 정식 전환 없이 끝나나...",
+    "summary": "대한 축구협회 장 선거 도 중요한 변수다. 현재 회장 자리가 공석인 상황에서 오는 12월 차기 회장 선거 가 예정돼 있다. 정식 감독 선임은 대표팀의 전술과 선수단 구성뿐 아니라 향후 한국 축구 의 운영 방향까지 결정하는...",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1017328",
+    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1017328",
+    "publisher": "spotvnews.co.kr",
+    "publishedAt": "2026-11-03T10:25:00.000Z",
+    "collectedAt": "2026-11-04T08:01:26.983Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "회장 선거",
+      "감독 선임",
+      "감독",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "대한축구협회장",
+      "축구협회 집행부",
+      "축구협회 회장 선거"
+    ],
+    "issueTags": [
+      "election",
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 14,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_621244b75c5e1905",
+    "type": "news",
+    "title": "아시안컵 전격 연기…'우승 도전' 손흥민·'정규직 전환' 모레노 대형 변...",
+    "summary": "축구협회 장이 공석인 만큼, 올해 12월 이후 치러질 회장 보궐 선거 에서 새 회장 체제가 구축되면 정식 사령탑 인선이 본격화할 전망입니다. 모레노 감독은 13일 사우디, 17일 카타르와의 11월 평가전 2연전을 끝으로 당초...",
+    "url": "http://www.yonhapnewstv.co.kr/news/MYH20261103185356zum",
+    "originalUrl": "http://www.yonhapnewstv.co.kr/news/MYH20261103185356zum",
+    "publisher": "yonhapnewstv.co.kr",
+    "publishedAt": "2026-11-03T09:54:00.000Z",
+    "collectedAt": "2026-11-04T08:01:26.983Z",
+    "matchedKeywords": [],
+    "discoveryQueries": [
+      "대한축구협회장",
+      "축구협회 회장 선거"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 0,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_005f3b6e9fcaa0d6",
@@ -860,8 +1108,8 @@
       ],
       "earliestPublishedAt": 1793698080000,
       "latestPublishedAt": 1793698080000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -906,8 +1154,8 @@
       ],
       "earliestPublishedAt": 1793697120000,
       "latestPublishedAt": 1793697120000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1015,7 +1263,7 @@
     "id": "item_f708a3c6bfa4d4d6",
     "type": "news",
     "title": "2027 아시안컵 1년 연기…모레노 감독 거취·차기 사령탑 선임 모두 '안...",
-    "summary": "사령탑 선임 은 다음 집행부로 넘기는 게 맞는다고 본다\"고 말했다. 대한 축구협회 는 2026 북중미 월드컵 조별리그 탈락 이후 홍명보 전 감독 이 사퇴하자, 스페인 출신인 모레노 감독 을 임시 사령탑으로 선임 했다. 모레노...",
+    "summary": "대한 축구협회 는 2026 북중미 월드컵 조별리그 탈락 이후 홍명보 전 감독 이 사퇴하자, 스페인 출신인 모레노... 사령탑 후보 추천을 사실상 결정하기 어려운 상황이다. 현재로선 다음 집행부에 이 과정을 넘리는 게 최선...",
     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16267241",
     "originalUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16267241",
     "publisher": "topstarnews.net",
@@ -1024,9 +1272,6 @@
     "matchedKeywords": [
       "대한 축구협회",
       "집행부",
-      "감독",
-      "사령탑",
-      "선임",
       "홍명보",
       "사퇴"
     ],
@@ -1050,19 +1295,34 @@
       "축구협회장"
     ],
     "issueTags": [
-      "kfa-executives",
-      "coach-appointment"
+      "kfa-executives"
     ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 19,
+    "relevanceScore": 15,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.topstarnews.net/news/articleView.html?idxno=16267241"
+      ],
+      "stories": [
+        "news|news|2027 아시안컵 1년 연기…모레노 감독 거취·차기 사령탑 선임 모두 '안...|topstarnews.net|2026-11-03T08:52:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|2027 아시안컵 1년 연기…모레노 감독 거취·차기 사령탑 선임 모두 '안...|topstarnews.net"
+      ],
+      "earliestPublishedAt": 1793695920000,
+      "latestPublishedAt": 1793695920000,
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
+    }
   },
   {
     "id": "item_aa2b3efa15113c12",
@@ -1126,22 +1386,24 @@
       ],
       "earliestPublishedAt": 1793695020000,
       "latestPublishedAt": 1793695020000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
     "id": "item_cb3a7c2727948be9",
     "type": "news",
     "title": "'2027 아시안컵' 중동 불안에 결국 연기…2027년 12월 개최",
-    "summary": "당장 내년 1월 대회를 준비해야 했던 부담이 사라진 만큼, 대한 축구협회 는 대표팀의 장기적인 운영 방향과 감독 선임 문제를 보다 여유 있게 검토할 수 있을 전망이다. 한국은 1960년 이후 66년 동안 아시안컵 정상에...",
+    "summary": "대한축구협회장 을 선출하기 위한 선거가 12월로 예정됐기 때문이다. 당장 내년 1월 대회를 준비해야 했던 부담이 사라진 만큼, 대한축구협회는 대표팀의 장기적인 운영 방향과 감독 선임 문제를 보다 여유 있게...",
     "url": "https://www.goodkyung.com/news/articleView.html?idxno=293058",
     "originalUrl": "https://www.goodkyung.com/news/articleView.html?idxno=293058",
     "publisher": "goodkyung.com",
     "publishedAt": "2026-11-03T08:36:00.000Z",
     "collectedAt": "2026-11-03T15:29:05.221Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
       "감독 선임",
       "감독",
       "선임"
@@ -1154,12 +1416,13 @@
       "축구협회장"
     ],
     "issueTags": [
+      "election",
       "coach-appointment"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -1175,8 +1438,8 @@
       ],
       "earliestPublishedAt": 1793694960000,
       "latestPublishedAt": 1793694960000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1250,8 +1513,8 @@
       ],
       "earliestPublishedAt": 1793694480000,
       "latestPublishedAt": 1793694480000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1291,16 +1554,17 @@
     "id": "item_b993cfa9436ea539",
     "type": "news",
     "title": "사우디 아시안컵, 내년 1월→12월 연기…중동 정세 불안 원인",
-    "summary": "그의 계약 기간은 이달 말까지인데, 아시안컵이 임박하면서 계약 연장 가능성도 점쳐졌다. 하지만 아시안컵의 연기로 대한 축구협회장 선거 뒤 정식 사령탑을 선임할 가능성이 커졌다.",
+    "summary": "그의 계약 기간은 이달 말까지인데, 아시안컵이 임박하면서 계약 연장 가능성도 점쳐졌다. 하지만 아시안컵의 연기로 대한축구협회장 선거 뒤 정식 사령탑을 선임할 가능성이 커졌다.",
     "url": "https://www.hani.co.kr/arti/sports/soccer/1285563.html",
     "originalUrl": "https://www.hani.co.kr/arti/sports/soccer/1285563.html",
     "publisher": "hani.co.kr",
     "publishedAt": "2026-11-03T07:32:00.000Z",
     "collectedAt": "2026-11-03T15:29:05.221Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "축구협회장",
       "회장 선거",
+      "대한축구협회장",
       "사령탑",
       "선임"
     ],
@@ -1333,8 +1597,8 @@
       ],
       "earliestPublishedAt": 1793691120000,
       "latestPublishedAt": 1793691120000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1381,8 +1645,8 @@
       ],
       "earliestPublishedAt": 1793691060000,
       "latestPublishedAt": 1793691060000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1437,15 +1701,16 @@
     "id": "item_c4149e8ebf07c548",
     "type": "news",
     "title": "2027 아시안컵, 내년 12월로 연기…모레노 임시감독 거취 주목(종합)",
-    "summary": "대신 새로운 대한 축구협회장 이 선출된 이후 정식 감독 선임 절차를 밟을 가능성이 커졌다. 모레노호는 카타르 도하에서 오는 13일 사우디아라비아, 17일 카타르와 중동 2연전을 치를 예정이다. [스포츠투데이 ]",
+    "summary": "대신 새로운 대한축구협회장 이 선출된 이후 정식 감독 선임 절차를 밟을 가능성이 커졌다. 모레노호는 카타르 도하에서 오는 13일 사우디아라비아, 17일 카타르와 중동 2연전을 치를 예정이다. [스포츠투데이 ]",
     "url": "http://www.stoo.com/article.php?aid=109687655935",
     "originalUrl": "http://www.stoo.com/article.php?aid=109687655935",
     "publisher": "stoo.com",
     "publishedAt": "2026-11-03T07:12:00.000Z",
     "collectedAt": "2026-11-03T15:29:05.221Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "축구협회장",
+      "대한축구협회장",
       "감독 선임",
       "감독",
       "선임"
@@ -1478,8 +1743,8 @@
       ],
       "earliestPublishedAt": 1793689920000,
       "latestPublishedAt": 1793689920000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1524,8 +1789,8 @@
       ],
       "earliestPublishedAt": 1793689380000,
       "latestPublishedAt": 1793689380000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1569,8 +1834,8 @@
       ],
       "earliestPublishedAt": 1793688720000,
       "latestPublishedAt": 1793688720000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1619,8 +1884,8 @@
       ],
       "earliestPublishedAt": 1793688240000,
       "latestPublishedAt": 1793688240000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1747,8 +2012,8 @@
       ],
       "earliestPublishedAt": 1793688120000,
       "latestPublishedAt": 1793688120000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1798,8 +2063,8 @@
       ],
       "earliestPublishedAt": 1793687880000,
       "latestPublishedAt": 1793687880000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1845,8 +2110,8 @@
       ],
       "earliestPublishedAt": 1793687760000,
       "latestPublishedAt": 1793687760000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
@@ -1891,8 +2156,8 @@
       ],
       "earliestPublishedAt": 1793687040000,
       "latestPublishedAt": 1793687040000,
-      "representativeCollectedAt": 1793756396021,
-      "latestCollectedAt": 1793756396021
+      "representativeCollectedAt": 1793779286983,
+      "latestCollectedAt": 1793779286983
     }
   },
   {
