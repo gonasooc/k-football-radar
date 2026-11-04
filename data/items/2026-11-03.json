@@ -1,5 +1,103 @@
 [
   {
+    "id": "item_a9043982c9d02dae",
+    "type": "news",
+    "title": "\"아시안컵 연기했더니 또 다른 아시안컵과 겹쳤다\" 무려 20일 가까이 일...",
+    "summary": "오는 12월 차기 축구협회장 선거까지 예정된 상황에서 정식 사령탑 선임 문제도 더욱 복잡해졌다. 난감한... 특히 일본은 선수 차출뿐 아니라 대표팀 감독 문제까지 겹쳤다. 일본 매체 사커킹은 아시안컵 연기로 인해...",
+    "url": "https://www.starnewskorea.com/sports/2026/11/04/2026110406092442043",
+    "originalUrl": "https://www.starnewskorea.com/sports/2026/11/04/2026110406092442043",
+    "publisher": "starnewskorea.com",
+    "publishedAt": "2026-11-03T22:14:00.000Z",
+    "collectedAt": "2026-11-04T01:39:56.021Z",
+    "matchedKeywords": [
+      "회장 선거"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 4,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_bc8425aa2da969c0",
+    "type": "news",
+    "title": "아시안컵 연기로 꼬인 모레노…축구대표팀 갈등은 어쩌나",
+    "summary": "AFC는 \"대회조직위원회와 참가 회원국 축구협회 , 후원사, 방송 및 상업 파트너 등 모든 관계자와 긴밀히... 다만 현실적으로 대표팀 정식 사령탑 선임은 다음 집행부 로 넘어갈 것이 유력하다. 대회 연기로 모레노 임시...",
+    "url": "https://www.newsis.com/view/NISX20261103_0003853362",
+    "originalUrl": "https://www.newsis.com/view/NISX20261103_0003853362",
+    "publisher": "newsis.com",
+    "publishedAt": "2026-11-03T22:00:00.000Z",
+    "collectedAt": "2026-11-04T01:39:56.021Z",
+    "matchedKeywords": [
+      "축구협회"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임",
+      "축구협회 집행부",
+      "축구협회 회장 선거"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 3,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_1f97e4b704a7f6ec",
+    "type": "news",
+    "title": "'아시안컵 연기' 모레노 감독 운명은...12월 18일 선출될 새 축구협회 집...",
+    "summary": "사령탑 선임 등 중요 정책을 12월 예정 차기 회장 선거 이후로 미룰 수밖에 없는 상황이다. 이 때문에 축구협회 는 모레노 임시 감독 이 A매치 6경기에서 좋은 결과를 내더라도 곧바로 공식 사령탑으로 임명하지 않고...",
+    "url": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=377174",
+    "originalUrl": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=377174",
+    "publisher": "thesportstimes.co.kr",
+    "publishedAt": "2026-11-03T21:58:00.000Z",
+    "collectedAt": "2026-11-04T01:39:56.021Z",
+    "matchedKeywords": [
+      "축구협회",
+      "회장 선거"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 선거",
+      "\"이용수\" 축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 선거",
+      "\"홍명보\" 축구협회",
+      "대표팀 감독 선임",
+      "전력강화위원회",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보",
+      "축구협회 부회장",
+      "축구협회 이사회",
+      "축구협회 집행부",
+      "축구협회 회장 선거",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 14,
+    "labels": []
+  },
+  {
     "id": "item_7a4c9a665ac1a232",
     "type": "news",
     "title": "감독 또 뽑아? 아시안컵 1년 연기→모레노 낙동강 오리알 신세...한국 축...",
@@ -29,7 +127,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112903131"
+      ],
+      "stories": [
+        "news|news|감독 또 뽑아? 아시안컵 1년 연기→모레노 낙동강 오리알 신세...한국 축...|osen.co.kr|2026-11-03T18:15:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|감독 또 뽑아? 아시안컵 1년 연기→모레노 낙동강 오리알 신세...한국 축...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1793729700000,
+      "latestPublishedAt": 1793729700000,
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
+    }
   },
   {
     "id": "item_787a67e8af4a4b0a",
@@ -69,7 +183,23 @@
     "labels": [
       "인물 언급",
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/bltdd00de81748d16a7"
+      ],
+      "stories": [
+        "news|news|'국가대표 은퇴' 소동으로 韓 축구 뒤흔든 김민재, 뮌헨서는 이길 자 없...|goal.com|2026-11-03T17:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'국가대표 은퇴' 소동으로 韓 축구 뒤흔든 김민재, 뮌헨서는 이길 자 없...|goal.com"
+      ],
+      "earliestPublishedAt": 1793725800000,
+      "latestPublishedAt": 1793725800000,
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
+    }
   },
   {
     "id": "item_68190d6f7a0f5ec0",
@@ -98,7 +228,23 @@
     "isOfficial": false,
     "relevanceScore": 3,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kmib.co.kr/article/20261103502043"
+      ],
+      "stories": [
+        "news|news|중동 정세 불안에… 아시안컵, 내년 연말로 연기|kmib.co.kr|2026-11-03T16:08:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|중동 정세 불안에… 아시안컵, 내년 연말로 연기|kmib.co.kr"
+      ],
+      "earliestPublishedAt": 1793722080000,
+      "latestPublishedAt": 1793722080000,
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
+    }
   },
   {
     "id": "youtube_aXNLL3OSlAI",
@@ -151,7 +297,7 @@
     "id": "item_52e88369325e5e24",
     "type": "news",
     "title": "중동 정세 불안에…아시안컵 내년 말로 연기",
-    "summary": "중동 원정 평가전 2연전까지 지휘한 뒤 아시안컵 동행 여부가 결정될 예정이던 축구 대표팀 모레노 임시 감독 의 거취에도 관심이 쏠리는데, 대한축구협회는 원래 예정대로 평가전 이후에 모레노 감독 에 대한 평가를...",
+    "summary": "중동 원정 평가전 2연전까지 지휘한 뒤 아시안컵 동행 여부가 결정될 예정이던 축구 대표팀 모레노 임시 감독의 거취에도 관심이 쏠리는데, 대한축구협회 는 원래 예정대로 평가전 이후에 모레노 감독에 대한 평가를...",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008829073&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008829073&plink=ORI",
     "publisher": "news.sbs.co.kr",
@@ -188,8 +334,8 @@
       ],
       "earliestPublishedAt": 1793714880000,
       "latestPublishedAt": 1793714880000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -261,8 +407,8 @@
       ],
       "earliestPublishedAt": 1793708640000,
       "latestPublishedAt": 1793708640000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -310,8 +456,8 @@
       ],
       "earliestPublishedAt": 1793707320000,
       "latestPublishedAt": 1793707320000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -387,8 +533,8 @@
       ],
       "earliestPublishedAt": 1793707320000,
       "latestPublishedAt": 1793707320000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -491,8 +637,8 @@
       ],
       "earliestPublishedAt": 1793706180000,
       "latestPublishedAt": 1793706180000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -568,8 +714,8 @@
       ],
       "earliestPublishedAt": 1793698080000,
       "latestPublishedAt": 1793698080000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -614,8 +760,8 @@
       ],
       "earliestPublishedAt": 1793697120000,
       "latestPublishedAt": 1793697120000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -704,6 +850,59 @@
     }
   },
   {
+    "id": "item_f708a3c6bfa4d4d6",
+    "type": "news",
+    "title": "2027 아시안컵 1년 연기…모레노 감독 거취·차기 사령탑 선임 모두 '안...",
+    "summary": "사령탑 선임 은 다음 집행부로 넘기는 게 맞는다고 본다\"고 말했다. 대한 축구협회 는 2026 북중미 월드컵 조별리그 탈락 이후 홍명보 전 감독 이 사퇴하자, 스페인 출신인 모레노 감독 을 임시 사령탑으로 선임 했다. 모레노...",
+    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16267241",
+    "originalUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16267241",
+    "publisher": "topstarnews.net",
+    "publishedAt": "2026-11-03T08:52:00.000Z",
+    "collectedAt": "2026-11-04T01:39:56.021Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "집행부",
+      "감독",
+      "사령탑",
+      "선임",
+      "홍명보",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 대한축구협회",
+      "\"이용수\" 선거",
+      "\"이용수\" 축구협회",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 선거",
+      "\"홍명보\" 축구협회",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보",
+      "축구협회 부회장",
+      "축구협회 이사회",
+      "축구협회 집행부",
+      "축구협회 회장 선거",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "kfa-executives",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 19,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
     "id": "item_aa2b3efa15113c12",
     "type": "news",
     "title": "아시안컵 연기에 모레노 운명은?…선장 없는 축구협회도 '난감'",
@@ -765,8 +964,8 @@
       ],
       "earliestPublishedAt": 1793695020000,
       "latestPublishedAt": 1793695020000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -814,9 +1013,41 @@
       ],
       "earliestPublishedAt": 1793694960000,
       "latestPublishedAt": 1793694960000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
+  },
+  {
+    "id": "item_d84498b0317bd535",
+    "type": "news",
+    "title": "[오피셜] '손흥민 라스트댄스' 끝내 미뤄졌다...AFC, 중동 전쟁 문제로 ...",
+    "summary": "대한 축구협회 는 감독 선임 을 보다 신중하게 검토할 수 있게 됐고, 새 사령탑이 부임하더라도 전술을 정비하고 선수단을 구성할 시간을 확보할 수 있다. 최근 대표팀은 기대에 미치지 못한 경기력과 선수단 내부 갈등...",
+    "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1017258",
+    "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1017258",
+    "publisher": "spotvnews.co.kr",
+    "publishedAt": "2026-11-03T08:31:00.000Z",
+    "collectedAt": "2026-11-04T01:39:56.021Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독 선임",
+      "감독",
+      "사령탑",
+      "선임",
+      "부임"
+    ],
+    "discoveryQueries": [
+      "축구협회 감독 선임",
+      "축구협회 감사"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_430bdd3dc84cd663",
@@ -857,8 +1088,8 @@
       ],
       "earliestPublishedAt": 1793694480000,
       "latestPublishedAt": 1793694480000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -898,7 +1129,7 @@
     "id": "item_b993cfa9436ea539",
     "type": "news",
     "title": "사우디 아시안컵, 내년 1월→12월 연기…중동 정세 불안 원인",
-    "summary": "임시 감독 의 거취에도 관심이 쏠린다. 그의 계약 기간은 이달 말까지인데, 아시안컵이 임박하면서 계약 연장 가능성도 점쳐졌다. 하지만 아시안컵의 연기로 대한 축구협회 장 선거 뒤 정식 사령탑을 선임 할 가능성이...",
+    "summary": "그의 계약 기간은 이달 말까지인데, 아시안컵이 임박하면서 계약 연장 가능성도 점쳐졌다. 하지만 아시안컵의 연기로 대한 축구협회장 선거 뒤 정식 사령탑을 선임할 가능성이 커졌다.",
     "url": "https://www.hani.co.kr/arti/sports/soccer/1285563.html",
     "originalUrl": "https://www.hani.co.kr/arti/sports/soccer/1285563.html",
     "publisher": "hani.co.kr",
@@ -906,6 +1137,8 @@
     "collectedAt": "2026-11-03T15:29:05.221Z",
     "matchedKeywords": [
       "대한 축구협회",
+      "축구협회장",
+      "회장 선거",
       "사령탑",
       "선임"
     ],
@@ -916,12 +1149,13 @@
       "축구협회장"
     ],
     "issueTags": [
+      "election",
       "coach-appointment"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -937,8 +1171,8 @@
       ],
       "earliestPublishedAt": 1793691120000,
       "latestPublishedAt": 1793691120000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -985,8 +1219,8 @@
       ],
       "earliestPublishedAt": 1793691060000,
       "latestPublishedAt": 1793691060000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -1082,8 +1316,8 @@
       ],
       "earliestPublishedAt": 1793689920000,
       "latestPublishedAt": 1793689920000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -1128,8 +1362,8 @@
       ],
       "earliestPublishedAt": 1793689380000,
       "latestPublishedAt": 1793689380000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -1173,8 +1407,8 @@
       ],
       "earliestPublishedAt": 1793688720000,
       "latestPublishedAt": 1793688720000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -1223,8 +1457,8 @@
       ],
       "earliestPublishedAt": 1793688240000,
       "latestPublishedAt": 1793688240000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -1351,8 +1585,8 @@
       ],
       "earliestPublishedAt": 1793688120000,
       "latestPublishedAt": 1793688120000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -1402,8 +1636,8 @@
       ],
       "earliestPublishedAt": 1793687880000,
       "latestPublishedAt": 1793687880000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -1449,8 +1683,8 @@
       ],
       "earliestPublishedAt": 1793687760000,
       "latestPublishedAt": 1793687760000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -1495,8 +1729,8 @@
       ],
       "earliestPublishedAt": 1793687040000,
       "latestPublishedAt": 1793687040000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
@@ -1636,8 +1870,8 @@
       ],
       "earliestPublishedAt": 1793683380000,
       "latestPublishedAt": 1793683380000,
-      "representativeCollectedAt": 1793740575849,
-      "latestCollectedAt": 1793740575849
+      "representativeCollectedAt": 1793756396021,
+      "latestCollectedAt": 1793756396021
     }
   },
   {
