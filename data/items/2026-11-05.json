@@ -1,5 +1,115 @@
 [
   {
+    "id": "item_a6eeb088bee47fca",
+    "type": "news",
+    "title": "표류하는 한국 축구, 축구협회 리더십 공백이 너무 길다 [이영규의 비욘...",
+    "summary": "대한 축구협회 의 리더십 공백이 위태로울 정도로 장기화되고 있다. 정몽규 회장이 중도 사퇴한 이후 수개월째... 선거 일정이 촉박하게 확정되고 후보 등록 과 선거운동 기간마저 충분히 보장되지 않는다면, 기존 축구 계의...",
+    "url": "https://news.tf.co.kr/read/soccer/2385310.htm",
+    "originalUrl": "https://news.tf.co.kr/read/soccer/2385310.htm",
+    "publisher": "news.tf.co.kr",
+    "publishedAt": "2026-11-05T15:01:00.000Z",
+    "collectedAt": "2026-11-05T18:58:37.832Z",
+    "matchedKeywords": [
+      "축구협회",
+      "대한 축구협회",
+      "후보 등록",
+      "정몽규",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 감사",
+      "\"이용수\" 대한축구협회",
+      "\"이용수\" 선거",
+      "\"이용수\" 축구협회",
+      "\"정몽규\" 감사",
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "감독 후보",
+      "대표팀 감독",
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "대한축구협회 유소년 육성 시스템",
+      "대한축구협회 유소년 제도",
+      "대한축구협회 지도자 제도",
+      "대한축구협회장",
+      "축구 혁신",
+      "축구협회 감독 선임",
+      "축구협회 감독 후보",
+      "축구협회 감사",
+      "축구협회 대의원",
+      "축구협회 부회장",
+      "축구협회 이사회",
+      "축구협회 집행부",
+      "축구협회 혁신위원회",
+      "축구협회 회장 선거",
+      "축구협회 후보 등록",
+      "축구협회장",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 25,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_ae1e8a2a8935ab60",
+    "type": "news",
+    "title": "\"손흥민이 2년 전 경고했던 현실?\"…양민혁, 벨기에 선발 0회에 감독마저...",
+    "summary": "당시 일부 선수들의 유사한 발언과 SNS 게시물까지 논란이 되면서 대한축구협회 가 공식 사과에 나섰고, 병역특례 제도를 둘러싼 논의가 정치권으로 번지기도 했다. 양민혁은 논란이 확산하자 자신의 SNS를 통해 사과했다....",
+    "url": "https://www.ftimes.kr/news/articleView.html?idxno=40911",
+    "originalUrl": "https://www.ftimes.kr/news/articleView.html?idxno=40911",
+    "publisher": "ftimes.kr",
+    "publishedAt": "2026-11-05T11:42:00.000Z",
+    "collectedAt": "2026-11-05T18:58:37.832Z",
+    "matchedKeywords": [
+      "대한축구협회"
+    ],
+    "discoveryQueries": [
+      "대한축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_8d163bcf4eb40e98",
+    "type": "news",
+    "title": "브라질 청소년 축구서 집단 난투극 ‘53명 퇴장’",
+    "summary": "로이터는 여기에 우베를란지아 구단 임원 2명까지 포함해 전체 퇴장 인원을 53명으로 집계했다. 기존 최다... 미나스제라이스 축구협회 는 이번 사태를 주 스포츠사법재판소에 회부해 별도 징계를 심의하도록 했다. 브라질...",
+    "url": "https://www.khan.co.kr/article/202611052032025",
+    "originalUrl": "https://www.khan.co.kr/article/202611052032025",
+    "publisher": "khan.co.kr",
+    "publishedAt": "2026-11-05T11:32:00.000Z",
+    "collectedAt": "2026-11-05T18:58:37.832Z",
+    "matchedKeywords": [
+      "축구협회"
+    ],
+    "discoveryQueries": [
+      "축구협회 임원"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 3,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_e0dceea57d25308a",
     "type": "news",
     "title": "민선 3기 경기도체육회장 선거 입후보 설명회 개최…다음 달 3일 후보자...",
@@ -36,7 +146,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.kgnews.co.kr/news/article.html?no=918408"
+      ],
+      "stories": [
+        "news|news|민선 3기 경기도체육회장 선거 입후보 설명회 개최…다음 달 3일 후보자...|kgnews.co.kr|2026-11-05T08:40:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|민선 3기 경기도체육회장 선거 입후보 설명회 개최…다음 달 3일 후보자...|kgnews.co.kr"
+      ],
+      "earliestPublishedAt": 1793868000000,
+      "latestPublishedAt": 1793868000000,
+      "representativeCollectedAt": 1793905117832,
+      "latestCollectedAt": 1793905117832
+    }
   },
   {
     "id": "item_ddaf41a18ce9e8dc",
@@ -60,7 +186,23 @@
     "isOfficial": false,
     "relevanceScore": 3,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.khan.co.kr/article/202611051720001"
+      ],
+      "stories": [
+        "news|news|축구 난투극 53명 레드카드 ‘기네스 기록’···브라질 청소년 리그, ...|khan.co.kr|2026-11-05T08:20:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구 난투극 53명 레드카드 ‘기네스 기록’···브라질 청소년 리그, ...|khan.co.kr"
+      ],
+      "earliestPublishedAt": 1793866800000,
+      "latestPublishedAt": 1793866800000,
+      "representativeCollectedAt": 1793905117832,
+      "latestCollectedAt": 1793905117832
+    }
   },
   {
     "id": "item_3dfe4088312ae757",
@@ -84,7 +226,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.stnsports.co.kr/news/articleView.html?idxno=325153"
+      ],
+      "stories": [
+        "news|news|하나금융, 스텔란티스와 '금융 동맹'... 자동차 금융부터 스포츠 esg까지...|stnsports.co.kr|2026-11-05T08:17:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|하나금융, 스텔란티스와 '금융 동맹'... 자동차 금융부터 스포츠 esg까지...|stnsports.co.kr"
+      ],
+      "earliestPublishedAt": 1793866620000,
+      "latestPublishedAt": 1793866620000,
+      "representativeCollectedAt": 1793905117832,
+      "latestCollectedAt": 1793905117832
+    }
   },
   {
     "id": "item_55dbe9e1441062d6",
@@ -123,7 +281,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20261105_0003856264"
+      ],
+      "stories": [
+        "news|news|아시안컵 축구 연기 후폭풍…각국 사령탑 거취 '안갯속'|newsis.com|2026-11-05T05:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|아시안컵 축구 연기 후폭풍…각국 사령탑 거취 '안갯속'|newsis.com"
+      ],
+      "earliestPublishedAt": 1793855400000,
+      "latestPublishedAt": 1793855400000,
+      "representativeCollectedAt": 1793905117832,
+      "latestCollectedAt": 1793905117832
+    }
   },
   {
     "id": "item_a35176b58cb31a7b",
@@ -164,7 +338,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/local/busan-gyeongnam/6344200"
+      ],
+      "stories": [
+        "news|news|백현식 \"축구협회 70세 출마 제한은 과도한 차별…합리적 근거 밝혀야\"|news1.kr|2026-11-05T04:41:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|백현식 \"축구협회 70세 출마 제한은 과도한 차별…합리적 근거 밝혀야\"|news1.kr"
+      ],
+      "earliestPublishedAt": 1793853660000,
+      "latestPublishedAt": 1793853660000,
+      "representativeCollectedAt": 1793905117832,
+      "latestCollectedAt": 1793905117832
+    }
   },
   {
     "id": "youtube_lbtadSCCAlU",
@@ -679,7 +869,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.khan.co.kr/article/202611051018013?pt=nv"
+      ],
+      "stories": [
+        "news|news|실망스러운 대표팀, 목표까지 실종…입버릇처럼 이번에도 “팬과 승리를...|sports.khan.co.kr|2026-11-05T01:19:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|실망스러운 대표팀, 목표까지 실종…입버릇처럼 이번에도 “팬과 승리를...|sports.khan.co.kr"
+      ],
+      "earliestPublishedAt": 1793841540000,
+      "latestPublishedAt": 1793841540000,
+      "representativeCollectedAt": 1793905117832,
+      "latestCollectedAt": 1793905117832
+    }
   },
   {
     "id": "item_cad75c373a8264f0",
@@ -731,8 +937,8 @@
       ],
       "earliestPublishedAt": 1793837400000,
       "latestPublishedAt": 1793837400000,
-      "representativeCollectedAt": 1793878262222,
-      "latestCollectedAt": 1793878262222
+      "representativeCollectedAt": 1793905117832,
+      "latestCollectedAt": 1793905117832
     }
   }
 ]
