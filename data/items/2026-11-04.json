@@ -26,6 +26,93 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112904564"
+      ],
+      "stories": [
+        "news|news|\"손흥민 2028년이면 한국식 나이 37세, 한국축구 대혼란\" 일본 언론도 주...|osen.co.kr|2026-11-04T21:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"손흥민 2028년이면 한국식 나이 37세, 한국축구 대혼란\" 일본 언론도 주...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1793827920000,
+      "latestPublishedAt": 1793827920000,
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
+    }
+  },
+  {
+    "id": "item_387367dd903fa53e",
+    "type": "news",
+    "title": "김지수→신민하→손정범 '영건즈'…왕따설부터 불화설까지 '위기의' 韓...",
+    "summary": "그동안 중심을 잡았던 정몽규 대한 축구협회 장과 홍명보 감독 이 떠난 뒤 수면 아래의 갈등이 폭발했다. 결국... 올 시즌 가장 강력한 '영플레이어상' 후보 다. 그는 소속팀에서 이미 4-4-2 포메이션에 적응을 마친 상태다....",
+    "url": "https://www.sportschosun.com/football/2026-11-04/202611030100017920001633",
+    "originalUrl": "https://www.sportschosun.com/football/2026-11-04/202611030100017920001633",
+    "publisher": "sportschosun.com",
+    "publishedAt": "2026-11-04T21:27:00.000Z",
+    "collectedAt": "2026-11-05T02:48:17.617Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "정몽규",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대한축구협회",
+      "대한축구협회장",
+      "축구협회 감독 후보",
+      "축구협회장"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 12,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
+  },
+  {
+    "id": "item_48bd58aadaacd0e6",
+    "type": "news",
+    "title": "결국 '1년 연기' 오피셜, '소방수' 모레노 어쩌나...\"11월 27일 계약 만료...",
+    "summary": "당초 대한축구협회( KFA )는 모레노 감독의 성적과 경기력을 평가한 뒤 정식 감독 선임 여부를 결정할... KFA 로서는 기존의 임시 감독 체제를 유지할지, 새로운 정식 감독을 선임할지 신중하게 판단할 여유가 생긴 셈. 물론...",
+    "url": "http://www.osen.co.kr/article/G1112903998",
+    "originalUrl": "http://www.osen.co.kr/article/G1112903998",
+    "publisher": "osen.co.kr",
+    "publishedAt": "2026-11-04T19:30:00.000Z",
+    "collectedAt": "2026-11-05T02:48:17.617Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "KFA",
+      "감독 선임",
+      "감독",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독 선임",
+      "대한축구협회",
+      "축구협회 감독 선임",
+      "KFA"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
     "labels": []
   },
   {
@@ -76,8 +163,8 @@
       ],
       "earliestPublishedAt": 1793807700000,
       "latestPublishedAt": 1793807700000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -122,8 +209,8 @@
       ],
       "earliestPublishedAt": 1793805180000,
       "latestPublishedAt": 1793805180000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -170,8 +257,8 @@
       ],
       "earliestPublishedAt": 1793804520000,
       "latestPublishedAt": 1793804520000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -237,8 +324,8 @@
       ],
       "earliestPublishedAt": 1793804460000,
       "latestPublishedAt": 1793804460000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -418,8 +505,8 @@
       ],
       "earliestPublishedAt": 1793787720000,
       "latestPublishedAt": 1793787720000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -566,8 +653,8 @@
       ],
       "earliestPublishedAt": 1793785500000,
       "latestPublishedAt": 1793785500000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -633,8 +720,8 @@
       ],
       "earliestPublishedAt": 1793784000000,
       "latestPublishedAt": 1793784000000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -681,8 +768,8 @@
       ],
       "earliestPublishedAt": 1793781420000,
       "latestPublishedAt": 1793781420000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -815,8 +902,8 @@
       ],
       "earliestPublishedAt": 1793778420000,
       "latestPublishedAt": 1793778420000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -863,8 +950,8 @@
       ],
       "earliestPublishedAt": 1793775900000,
       "latestPublishedAt": 1793775900000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -924,8 +1011,8 @@
       ],
       "earliestPublishedAt": 1793775000000,
       "latestPublishedAt": 1793775000000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -968,8 +1055,8 @@
       ],
       "earliestPublishedAt": 1793775000000,
       "latestPublishedAt": 1793775000000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1032,8 +1119,8 @@
       ],
       "earliestPublishedAt": 1793774820000,
       "latestPublishedAt": 1793774820000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1081,8 +1168,8 @@
       ],
       "earliestPublishedAt": 1793774640000,
       "latestPublishedAt": 1793774640000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1127,9 +1214,40 @@
       ],
       "earliestPublishedAt": 1793774400000,
       "latestPublishedAt": 1793774400000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
+  },
+  {
+    "id": "item_47cafdd0b40e6186",
+    "type": "news",
+    "title": "아시안컵 1년 연기…한국 축구엔 ‘약’일까 ‘독’일까",
+    "summary": "당초 대한축구 협회는 9~10월 평가전 4경기와 11월 2경기까지 총 6경기를 살핀 뒤 계약 연장 여부를 판단할... 공석인 축구협회장 선거가 다음 달로 예정된 만큼 새 집행부가 차기 감독 선임과 대표팀 운영의 청사진을...",
+    "url": "https://www.busan.com/view/busan/view.php?code=2026110411262280396",
+    "originalUrl": "https://www.busan.com/view/busan/view.php?code=2026110411262280396",
+    "publisher": "busan.com",
+    "publishedAt": "2026-11-04T06:27:00.000Z",
+    "collectedAt": "2026-11-05T02:48:17.617Z",
+    "matchedKeywords": [
+      "축구협회장",
+      "회장 선거"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독 선임",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회 집행부",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 7,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_c2fac6449c0338ea",
@@ -1171,8 +1289,8 @@
       ],
       "earliestPublishedAt": 1793772840000,
       "latestPublishedAt": 1793772840000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1217,8 +1335,8 @@
       ],
       "earliestPublishedAt": 1793772780000,
       "latestPublishedAt": 1793772780000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1263,8 +1381,8 @@
       ],
       "earliestPublishedAt": 1793771040000,
       "latestPublishedAt": 1793771040000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1317,8 +1435,8 @@
       ],
       "earliestPublishedAt": 1793770500000,
       "latestPublishedAt": 1793770500000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1365,8 +1483,8 @@
       ],
       "earliestPublishedAt": 1793761560000,
       "latestPublishedAt": 1793761560000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1462,25 +1580,26 @@
       ],
       "earliestPublishedAt": 1793760420000,
       "latestPublishedAt": 1793760420000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
     "id": "item_4d96b651c3fe4472",
     "type": "news",
     "title": "아시안컵 11개월 연기…한국 축구대표팀도 새판 짜기 돌입하나",
-    "summary": "이번 연기로 가장 큰 변화가 예상되는 부분은 대표팀 사령탑 선임 이다. 대한축구협회는 지난 9월 스페인 출신 로베르토 모레노 감독 을 임시 사령탑으로 선임 했다. 계약 기간은 오는 27일까지이며, 9~11월 A매치 6경기를...",
+    "summary": "그러나 아시안컵이 2027년 말로 연기되면서 협회 의 감독 선임 구상에도 변화가 예상된다. 특히 대한 축구협회 장 선거가 내달 18일 잠정 예정된 만큼, 현 집행부가 정식 사령탑 선임 을 추진하기보다는 차기 집행부 출범...",
     "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=435144",
     "originalUrl": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=435144",
     "publisher": "dailysportshankook.co.kr",
     "publishedAt": "2026-11-04T02:20:00.000Z",
     "collectedAt": "2026-11-04T08:01:26.983Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "감독",
+      "대한 축구협회",
+      "집행부",
       "사령탑",
-      "선임"
+      "선임",
+      "차기"
     ],
     "discoveryQueries": [
       "대표팀 감독 선임",
@@ -1491,12 +1610,13 @@
       "축구협회장"
     ],
     "issueTags": [
+      "kfa-executives",
       "coach-appointment"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -1512,8 +1632,8 @@
       ],
       "earliestPublishedAt": 1793758800000,
       "latestPublishedAt": 1793758800000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1569,8 +1689,8 @@
       ],
       "earliestPublishedAt": 1793758800000,
       "latestPublishedAt": 1793758800000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1623,8 +1743,8 @@
       ],
       "earliestPublishedAt": 1793758320000,
       "latestPublishedAt": 1793758320000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1673,8 +1793,8 @@
       ],
       "earliestPublishedAt": 1793758200000,
       "latestPublishedAt": 1793758200000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1813,8 +1933,8 @@
       ],
       "earliestPublishedAt": 1793756520000,
       "latestPublishedAt": 1793802420000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1867,8 +1987,8 @@
       ],
       "earliestPublishedAt": 1793755560000,
       "latestPublishedAt": 1793755560000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1913,8 +2033,8 @@
       ],
       "earliestPublishedAt": 1793754360000,
       "latestPublishedAt": 1793754360000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   },
   {
@@ -1982,8 +2102,8 @@
       ],
       "earliestPublishedAt": 1793752680000,
       "latestPublishedAt": 1793752680000,
-      "representativeCollectedAt": 1793830378429,
-      "latestCollectedAt": 1793830378429
+      "representativeCollectedAt": 1793846897617,
+      "latestCollectedAt": 1793846897617
     }
   }
 ]
