@@ -32,7 +32,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=1017959"
+      ],
+      "stories": [
+        "news|news|[이성필의 언중유향]'행정 마비' 중에도 한국 축구는 '임시' 감독 모레노...|spotvnews.co.kr|2026-11-05T22:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[이성필의 언중유향]'행정 마비' 중에도 한국 축구는 '임시' 감독 모레노...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1793916000000,
+      "latestPublishedAt": 1793916000000,
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
+    }
   },
   {
     "id": "item_f6538363202899cb",
@@ -66,7 +82,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.imaeil.com/page/view/2026110510131851798"
+      ],
+      "stories": [
+        "news|news|[김건표의 연극리뷰] 진실과 정의가 왜곡되어 '민중의 적'이 되는 시대...|imaeil.com|2026-11-05T21:31:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[김건표의 연극리뷰] 진실과 정의가 왜곡되어 '민중의 적'이 되는 시대...|imaeil.com"
+      ],
+      "earliestPublishedAt": 1793914260000,
+      "latestPublishedAt": 1793914260000,
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
+    }
   },
   {
     "id": "youtube_y6ZjZ_zYhvI",
@@ -187,8 +219,8 @@
       ],
       "earliestPublishedAt": 1793890860000,
       "latestPublishedAt": 1793890860000,
-      "representativeCollectedAt": 1793925193093,
-      "latestCollectedAt": 1793925193093
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
     }
   },
   {
@@ -299,8 +331,8 @@
       ],
       "earliestPublishedAt": 1793878920000,
       "latestPublishedAt": 1793878920000,
-      "representativeCollectedAt": 1793925193093,
-      "latestCollectedAt": 1793925193093
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
     }
   },
   {
@@ -339,8 +371,8 @@
       ],
       "earliestPublishedAt": 1793878320000,
       "latestPublishedAt": 1793878320000,
-      "representativeCollectedAt": 1793925193093,
-      "latestCollectedAt": 1793925193093
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
     }
   },
   {
@@ -394,8 +426,8 @@
       ],
       "earliestPublishedAt": 1793868000000,
       "latestPublishedAt": 1793868000000,
-      "representativeCollectedAt": 1793925193093,
-      "latestCollectedAt": 1793925193093
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
     }
   },
   {
@@ -434,8 +466,8 @@
       ],
       "earliestPublishedAt": 1793866800000,
       "latestPublishedAt": 1793866800000,
-      "representativeCollectedAt": 1793925193093,
-      "latestCollectedAt": 1793925193093
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
     }
   },
   {
@@ -474,8 +506,8 @@
       ],
       "earliestPublishedAt": 1793866620000,
       "latestPublishedAt": 1793866620000,
-      "representativeCollectedAt": 1793925193093,
-      "latestCollectedAt": 1793925193093
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
     }
   },
   {
@@ -529,8 +561,8 @@
       ],
       "earliestPublishedAt": 1793855400000,
       "latestPublishedAt": 1793855400000,
-      "representativeCollectedAt": 1793925193093,
-      "latestCollectedAt": 1793925193093
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
     }
   },
   {
@@ -586,8 +618,8 @@
       ],
       "earliestPublishedAt": 1793853660000,
       "latestPublishedAt": 1793853660000,
-      "representativeCollectedAt": 1793925193093,
-      "latestCollectedAt": 1793925193093
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
     }
   },
   {
@@ -1230,8 +1262,8 @@
       ],
       "earliestPublishedAt": 1793841540000,
       "latestPublishedAt": 1793841540000,
-      "representativeCollectedAt": 1793925193093,
-      "latestCollectedAt": 1793925193093
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
     }
   },
   {
@@ -1284,8 +1316,8 @@
       ],
       "earliestPublishedAt": 1793837400000,
       "latestPublishedAt": 1793837400000,
-      "representativeCollectedAt": 1793925193093,
-      "latestCollectedAt": 1793925193093
+      "representativeCollectedAt": 1793949920295,
+      "latestCollectedAt": 1793949920295
     }
   }
 ]
