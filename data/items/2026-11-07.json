@@ -28,7 +28,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553681720"
+      ],
+      "stories": [
+        "news|news|\"연봉까지 논의했는데\"...'대한민국 대표팀 감독직 불발' 포옛 감독, 알...|sportalkorea.com|2026-11-07T11:31:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"연봉까지 논의했는데\"...'대한민국 대표팀 감독직 불발' 포옛 감독, 알...|sportalkorea.com"
+      ],
+      "earliestPublishedAt": 1794051060000,
+      "latestPublishedAt": 1794051060000,
+      "representativeCollectedAt": 1794078193175,
+      "latestCollectedAt": 1794078193175
+    }
   },
   {
     "id": "youtube_2aoXwT9TUb0",
@@ -221,8 +237,8 @@
       ],
       "earliestPublishedAt": 1794015960000,
       "latestPublishedAt": 1794015960000,
-      "representativeCollectedAt": 1794061384501,
-      "latestCollectedAt": 1794061384501
+      "representativeCollectedAt": 1794078193175,
+      "latestCollectedAt": 1794078193175
     }
   },
   {
