@@ -199,8 +199,8 @@
       ],
       "earliestPublishedAt": 1791495060000,
       "latestPublishedAt": 1791495060000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -563,8 +563,8 @@
       ],
       "earliestPublishedAt": 1791471780000,
       "latestPublishedAt": 1791471780000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -755,8 +755,8 @@
       ],
       "earliestPublishedAt": 1791463920000,
       "latestPublishedAt": 1791463920000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -867,8 +867,8 @@
       ],
       "earliestPublishedAt": 1791462840000,
       "latestPublishedAt": 1791462840000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -920,8 +920,8 @@
       ],
       "earliestPublishedAt": 1791461640000,
       "latestPublishedAt": 1791461640000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -1149,8 +1149,8 @@
       ],
       "earliestPublishedAt": 1791457260000,
       "latestPublishedAt": 1791457260000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -1366,8 +1366,8 @@
       ],
       "earliestPublishedAt": 1791453720000,
       "latestPublishedAt": 1791453720000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -1459,8 +1459,8 @@
       ],
       "earliestPublishedAt": 1791450720000,
       "latestPublishedAt": 1791450720000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -1624,8 +1624,8 @@
       ],
       "earliestPublishedAt": 1791449580000,
       "latestPublishedAt": 1791449580000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -1983,8 +1983,8 @@
       ],
       "earliestPublishedAt": 1791443820000,
       "latestPublishedAt": 1791443820000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -2182,7 +2182,7 @@
     "id": "item_5cc2dd41fd8a4630",
     "type": "news",
     "title": "FIFA, 축구협회에 'K축구혁신위' 관련 공문…운영 현황·규정 등 문의",
-    "summary": "국제 축구 연맹(FIFA)이 대한 축구협회 (KFA)에 K 축구 혁신위 원회(이하 혁신위 )의 운영 현황과 관련 규정 등을... 혁신위 는 K- 축구 거버넌스 개선과 유소년 선수 육성, 첨단 기술 시스템 도입 등을 주요 과제로 삼고 매주 회의를...",
+    "summary": "이후 FIFA와 대한축구협회는 지난달 30일 온라인 회의를 열고 혁신위 운영 및 대한축구협회장 선거 와 관련한... 출범 당시 최휘영 문화체육관광부 장관과 박지성 이 공동위원장을 맡았으며, 이후 최 장관은 위원으로...",
     "url": "https://www.news1.kr/sports/soccer/6314490",
     "originalUrl": "https://www.news1.kr/sports/soccer/6314490",
     "publisher": "news1.kr",
@@ -2190,9 +2190,11 @@
     "collectedAt": "2026-10-08T09:28:33.720Z",
     "matchedKeywords": [
       "축구혁신위",
-      "대한 축구협회",
-      "KFA",
-      "축구 혁신"
+      "대한축구협회",
+      "축구협회장",
+      "회장 선거",
+      "대한축구협회장",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -2215,13 +2217,18 @@
       "KFA"
     ],
     "issueTags": [
-      "innovation-committee"
+      "innovation-committee",
+      "election"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 40,
-    "labels": [],
+    "relevanceScore": 43,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -2235,8 +2242,8 @@
       ],
       "earliestPublishedAt": 1791440460000,
       "latestPublishedAt": 1791440460000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -2604,8 +2611,8 @@
       ],
       "earliestPublishedAt": 1791432420000,
       "latestPublishedAt": 1791432420000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -2654,8 +2661,8 @@
       ],
       "earliestPublishedAt": 1791432180000,
       "latestPublishedAt": 1791432180000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -2702,8 +2709,8 @@
       ],
       "earliestPublishedAt": 1791430200000,
       "latestPublishedAt": 1791430200000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -2745,8 +2752,8 @@
       ],
       "earliestPublishedAt": 1791429960000,
       "latestPublishedAt": 1791429960000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -2874,8 +2881,8 @@
       ],
       "earliestPublishedAt": 1791426480000,
       "latestPublishedAt": 1791426480000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {

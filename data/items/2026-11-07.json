@@ -30,7 +30,23 @@
     "isOfficial": false,
     "relevanceScore": 7,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsis.com/view/NISX20261107_0003858787"
+      ],
+      "stories": [
+        "news|news|모레노호, 오늘 밤 소집해 출국…손흥민·96라인은 현지 합류|newsis.com|2026-11-07T23:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|모레노호, 오늘 밤 소집해 출국…손흥민·96라인은 현지 합류|newsis.com"
+      ],
+      "earliestPublishedAt": 1794092400000,
+      "latestPublishedAt": 1794092400000,
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
+    }
   },
   {
     "id": "item_a94ecfc47949c7d4",
@@ -90,7 +106,59 @@
     "isOfficial": false,
     "relevanceScore": 40,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.segye.com/newsView/20261108500107?OutUrl=naver"
+      ],
+      "stories": [
+        "news|news|침묵 깬 신문선 “왜 내가 돌 맞고 피 흘려야 하나”…대한축구협회장...|segye.com|2026-11-07T20:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|침묵 깬 신문선 “왜 내가 돌 맞고 피 흘려야 하나”…대한축구협회장...|segye.com"
+      ],
+      "earliestPublishedAt": 1794083400000,
+      "latestPublishedAt": 1794083400000,
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
+    }
+  },
+  {
+    "id": "item_c62526e4bf2364e3",
+    "type": "news",
+    "title": "세월 앞에 장사 없다… 국대 중심엔 이제 이강인",
+    "summary": "박지성 , 기성용, 손흥민이 그랬다. 여기에 또 하나의 조건이 중요해졌다. 리더십이다. 주장은 ' 축구 를 잘하는... 이강인은 당시 \"이런 말을 해도 될지 모르지만 감독님과 대한 축구협회 (KFA)를 공격하고 비판하는 분이 많다....",
+    "url": "http://weekly.chosun.com/news/articleView.html?idxno=56914",
+    "originalUrl": "http://weekly.chosun.com/news/articleView.html?idxno=56914",
+    "publisher": "weekly.chosun.com",
+    "publishedAt": "2026-11-07T19:00:00.000Z",
+    "collectedAt": "2026-11-08T02:43:13.413Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "KFA",
+      "박지성"
+    ],
+    "discoveryQueries": [
+      "\"박지성\" 대한축구협회",
+      "\"박지성\" 축구협회",
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회",
+      "대한축구협회",
+      "축구협회 감독 후보",
+      "KFA"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_fc0e6158cced993f",
@@ -135,8 +203,8 @@
       ],
       "earliestPublishedAt": 1794051060000,
       "latestPublishedAt": 1794051060000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
@@ -330,8 +398,8 @@
       ],
       "earliestPublishedAt": 1794015960000,
       "latestPublishedAt": 1794015960000,
-      "representativeCollectedAt": 1794092501622,
-      "latestCollectedAt": 1794092501622
+      "representativeCollectedAt": 1794105793413,
+      "latestCollectedAt": 1794105793413
     }
   },
   {
