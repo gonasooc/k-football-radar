@@ -357,8 +357,8 @@
       ],
       "earliestPublishedAt": 1791840720000,
       "latestPublishedAt": 1791840720000,
-      "representativeCollectedAt": 1794105793413,
-      "latestCollectedAt": 1794105793413
+      "representativeCollectedAt": 1794130175643,
+      "latestCollectedAt": 1794130175643
     }
   },
   {
@@ -545,8 +545,8 @@
       ],
       "earliestPublishedAt": 1791821880000,
       "latestPublishedAt": 1791821880000,
-      "representativeCollectedAt": 1794105793413,
-      "latestCollectedAt": 1794105793413
+      "representativeCollectedAt": 1794130175643,
+      "latestCollectedAt": 1794130175643
     }
   },
   {
@@ -674,8 +674,8 @@
       ],
       "earliestPublishedAt": 1791817260000,
       "latestPublishedAt": 1791817260000,
-      "representativeCollectedAt": 1794105793413,
-      "latestCollectedAt": 1794105793413
+      "representativeCollectedAt": 1794130175643,
+      "latestCollectedAt": 1794130175643
     }
   },
   {
@@ -941,8 +941,8 @@
       ],
       "earliestPublishedAt": 1791810000000,
       "latestPublishedAt": 1791810000000,
-      "representativeCollectedAt": 1794105793413,
-      "latestCollectedAt": 1794105793413
+      "representativeCollectedAt": 1794130175643,
+      "latestCollectedAt": 1794130175643
     }
   },
   {
@@ -1538,8 +1538,8 @@
       ],
       "earliestPublishedAt": 1791791160000,
       "latestPublishedAt": 1791791160000,
-      "representativeCollectedAt": 1794105793413,
-      "latestCollectedAt": 1794105793413
+      "representativeCollectedAt": 1794130175643,
+      "latestCollectedAt": 1794130175643
     }
   },
   {
@@ -1579,8 +1579,8 @@
       ],
       "earliestPublishedAt": 1791790380000,
       "latestPublishedAt": 1791790380000,
-      "representativeCollectedAt": 1794105793413,
-      "latestCollectedAt": 1794105793413
+      "representativeCollectedAt": 1794130175643,
+      "latestCollectedAt": 1794130175643
     }
   },
   {
@@ -1700,7 +1700,7 @@
     "id": "item_82aba618b4918552",
     "type": "news",
     "title": "'사실상 개점휴업' K-축구 혁신위, 8월 이후 서면 회의만 1회…FIFA에 제...",
-    "summary": "지난 달 3일 문체부는 \"K- 축구 혁신위 원회의 운영을 지원하고 200명 이하에 불과했던 축구협회 회장 선거인단을 2만명 이상으로 대폭 확대하는 K- 축구 혁신위 원회 권고안 마련을 적극 뒷받침해 국민 신뢰 회복에 기여했다...",
+    "summary": "회장 선거 제도만 '원포인트 개선'하는데 그친 모양새다. FIFA는 KFA에 자료 제출을 요구하며 제 3자 개입에... 경청회를 겸해 개최된 7차 회의 후 박지성 공동위원장은 \"지금까지 매주 회의를 이어왔는데, 앞으로는 상황에...",
     "url": "http://www.footballist.co.kr/news/articleView.html?idxno=215772",
     "originalUrl": "http://www.footballist.co.kr/news/articleView.html?idxno=215772",
     "publisher": "footballist.co.kr",
@@ -1708,10 +1708,8 @@
     "collectedAt": "2026-10-12T06:33:12.444Z",
     "matchedKeywords": [
       "축구 혁신",
-      "축구협회",
       "회장 선거",
-      "선거인단",
-      "선거인"
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1737,15 +1735,17 @@
     ],
     "issueTags": [
       "innovation-committee",
-      "election",
-      "electoral-college"
+      "election"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 27,
+    "relevanceScore": 17,
+    "relevanceTier": "secondary",
     "labels": [
-      "선거 키워드 포함"
+      "인물 언급"
     ],
     "dedupeState": {
       "version": 1,
@@ -1762,8 +1762,8 @@
       ],
       "earliestPublishedAt": 1791782160000,
       "latestPublishedAt": 1791782160000,
-      "representativeCollectedAt": 1794105793413,
-      "latestCollectedAt": 1794105793413
+      "representativeCollectedAt": 1794130175643,
+      "latestCollectedAt": 1794130175643
     }
   },
   {
@@ -1864,8 +1864,8 @@
       ],
       "earliestPublishedAt": 1791776160000,
       "latestPublishedAt": 1791776160000,
-      "representativeCollectedAt": 1794105793413,
-      "latestCollectedAt": 1794105793413
+      "representativeCollectedAt": 1794130175643,
+      "latestCollectedAt": 1794130175643
     }
   },
   {
