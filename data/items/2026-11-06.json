@@ -588,8 +588,8 @@
       ],
       "earliestPublishedAt": 1793949660000,
       "latestPublishedAt": 1793949660000,
-      "representativeCollectedAt": 1794130175643,
-      "latestCollectedAt": 1794130175643
+      "representativeCollectedAt": 1794154808743,
+      "latestCollectedAt": 1794154808743
     }
   },
   {
@@ -629,8 +629,8 @@
       ],
       "earliestPublishedAt": 1793948220000,
       "latestPublishedAt": 1793948220000,
-      "representativeCollectedAt": 1794130175643,
-      "latestCollectedAt": 1794130175643
+      "representativeCollectedAt": 1794154808743,
+      "latestCollectedAt": 1794154808743
     }
   },
   {
@@ -679,8 +679,8 @@
       ],
       "earliestPublishedAt": 1793943960000,
       "latestPublishedAt": 1793943960000,
-      "representativeCollectedAt": 1794130175643,
-      "latestCollectedAt": 1794130175643
+      "representativeCollectedAt": 1794154808743,
+      "latestCollectedAt": 1794154808743
     }
   },
   {
@@ -719,8 +719,8 @@
       ],
       "earliestPublishedAt": 1793943780000,
       "latestPublishedAt": 1793943780000,
-      "representativeCollectedAt": 1794130175643,
-      "latestCollectedAt": 1794130175643
+      "representativeCollectedAt": 1794154808743,
+      "latestCollectedAt": 1794154808743
     }
   },
   {
@@ -772,8 +772,8 @@
       ],
       "earliestPublishedAt": 1793943240000,
       "latestPublishedAt": 1793943240000,
-      "representativeCollectedAt": 1794130175643,
-      "latestCollectedAt": 1794130175643
+      "representativeCollectedAt": 1794154808743,
+      "latestCollectedAt": 1794154808743
     }
   },
   {
@@ -970,6 +970,22 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-11-06/202611060100042270004185"
+      ],
+      "stories": [
+        "news|news|한-일축구 '동반 오피셜' 임박, 모레노→모리야스 11월 퇴임 현실화…모...|sportschosun.com|2026-11-06T00:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|한-일축구 '동반 오피셜' 임박, 모레노→모리야스 11월 퇴임 현실화…모...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1793923200000,
+      "latestPublishedAt": 1793923200000,
+      "representativeCollectedAt": 1794154808743,
+      "latestCollectedAt": 1794154808743
+    }
   }
 ]
