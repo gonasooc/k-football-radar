@@ -97,6 +97,22 @@
     "labels": [
       "선거 키워드 포함"
     ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=fGOkvVMpKe4"
+      ],
+      "stories": [
+        "youtube|youtube|fifa, 대한축구협회 연내 회장 선거 제동…개혁안 수정 권고 / 연합뉴스tv (yonhapnewstv)|연합뉴스tv|2026-11-08T20:42:32Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|fifa, 대한축구협회 연내 회장 선거 제동…개혁안 수정 권고 / 연합뉴스tv (yonhapnewstv)|연합뉴스tv"
+      ],
+      "earliestPublishedAt": 1794170552000,
+      "latestPublishedAt": 1794170552000,
+      "representativeCollectedAt": 1794262986811,
+      "latestCollectedAt": 1794262986811
+    },
     "youtube": {
       "videoId": "fGOkvVMpKe4",
       "channelId": "UCTHCOPwqNfZ0uiKOvFyhGwg",
@@ -311,6 +327,60 @@
     }
   },
   {
+    "id": "youtube_itHjMdF6fhk",
+    "type": "youtube",
+    "title": "(의혹제기) [EP.10] \"TV조선이 11월 대표팀 평가전 중계를 포기했다?\", \"한국축구산업이 무너지고 있다\", \"이와중에 기탁금으로 삥뜯기\" #신문선 #축구연구소 #소통방송",
+    "summary": "[LIVE] \"대표팀 경기는 어디에서 볼 수 있을까?\" EP10. (20261108 AM12:00) #live [신문선의 골이에요] #축구협회장 #선거 #기탁금 #이석재 #김병지 #박지성 #이영표 #박주호 #유승민 #대한체육회 #TV조선 #중계권 #중계포기 #SBS #KBS #MBC #중계권무료 #대한축구협회 #대표팀 #내전 #갈등 #논란 #대한축구협회장 #KFA #정몽규 #out #남자축구국가대표 #홍명보 #감독 #월드컵 #worldcup #KOREA #KOR - - - \"해설 신문선과 함께 관람하시죠!!\" - #신문선 #국가대표 #프로축구 #축구선수 #축구전문가 #축구해설가 #축구 #SBS #MBC #프로축구단 #성남FC #대표이사 \"축구 개혁을 위해 다시 뛰겠습니다\" #축구 #soccer #footb...",
+    "url": "https://www.youtube.com/watch?v=itHjMdF6fhk",
+    "originalUrl": "https://www.youtube.com/watch?v=itHjMdF6fhk",
+    "publisher": "신문선의 골이에요",
+    "publishedAt": "2026-11-08T14:59:09Z",
+    "collectedAt": "2026-11-09T22:23:06.811Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "KFA",
+      "축구협회장",
+      "대한축구협회장",
+      "정몽규",
+      "홍명보",
+      "박지성",
+      "김병지",
+      "이석재"
+    ],
+    "discoveryQueries": [
+      "\"대한축구협회\"|\"축구협회\"|\"KFA\""
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo",
+      "person_park_ji_sung",
+      "person_kim_byung_ji",
+      "person_lee_seok_jae"
+    ],
+    "sourceType": "youtube",
+    "isOfficial": false,
+    "relevanceScore": 25,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ],
+    "youtube": {
+      "videoId": "itHjMdF6fhk",
+      "channelId": "UCMyUYWnJ05drPrz7ILW0jzw",
+      "channelStatus": "unlisted",
+      "contentRelevanceTier": "secondary",
+      "thumbnail": {
+        "url": "https://i.ytimg.com/vi/itHjMdF6fhk/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "durationSeconds": 1473
+    }
+  },
+  {
     "id": "youtube_muhDIZKBuMY",
     "type": "youtube",
     "title": "축구협회 연내 회장 선거 무산…FIFA 공동서한에 무슨 내용이 / JTBC 뉴스룸",
@@ -359,8 +429,8 @@
       ],
       "earliestPublishedAt": 1794138508000,
       "latestPublishedAt": 1794138508000,
-      "representativeCollectedAt": 1794205985800,
-      "latestCollectedAt": 1794205985800
+      "representativeCollectedAt": 1794262986811,
+      "latestCollectedAt": 1794262986811
     },
     "youtube": {
       "videoId": "muhDIZKBuMY",
@@ -947,8 +1017,8 @@
       ],
       "earliestPublishedAt": 1794126363000,
       "latestPublishedAt": 1794126363000,
-      "representativeCollectedAt": 1794205985800,
-      "latestCollectedAt": 1794205985800
+      "representativeCollectedAt": 1794262986811,
+      "latestCollectedAt": 1794262986811
     },
     "youtube": {
       "videoId": "BWtsFTZctfk",
