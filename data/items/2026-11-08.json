@@ -25,7 +25,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553683490"
+      ],
+      "stories": [
+        "news|news|韓 대표팀 '불화설 정면 돌파'...'92라인' 이재성, '96라인' 김민재 향해...|sportalkorea.com|2026-11-08T23:31:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|韓 대표팀 '불화설 정면 돌파'...'92라인' 이재성, '96라인' 김민재 향해...|sportalkorea.com"
+      ],
+      "earliestPublishedAt": 1794180660000,
+      "latestPublishedAt": 1794180660000,
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
+    }
   },
   {
     "id": "item_6098f5f51ecbd2ec",
@@ -87,8 +103,8 @@
       ],
       "earliestPublishedAt": 1794176520000,
       "latestPublishedAt": 1794176520000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -208,8 +224,8 @@
       ],
       "earliestPublishedAt": 1794170520000,
       "latestPublishedAt": 1794170520000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -277,8 +293,8 @@
       ],
       "earliestPublishedAt": 1794169860000,
       "latestPublishedAt": 1794169860000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -350,8 +366,8 @@
       ],
       "earliestPublishedAt": 1794168120000,
       "latestPublishedAt": 1794168120000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -477,7 +493,7 @@
     "id": "item_9913f3d560210cef",
     "type": "news",
     "title": "FIFA 제동에 축구협회 연내 회장 선거 사실상 무산…선거제 재검토",
-    "summary": "대한 축구협회 가 추진하던 연내 회장 선거 가 국제 축구 연맹(FIFA)의 제동으로 사실상 무산됐다. 선거 인단 확대와 온라인 투표 도입을 골자로 한 개혁안에 FIFA가 우려를 표하면서 선거 일정도 내년으로 미뤄질 전망이다....",
+    "summary": "대한 축구협회 가 추진하던 연내 회장 선거가 국제 축구 연맹(FIFA)의 제동으로 사실상 무산됐다. 선거인 단 확대와 온라인 투표 도입을 골자로 한 개혁안에 FIFA가 우려를 표하면서 선거 일정도 내년으로 미뤄질 전망이다....",
     "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02381286645643752",
     "originalUrl": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02381286645643752",
     "publisher": "edaily.co.kr",
@@ -486,7 +502,8 @@
     "matchedKeywords": [
       "축구협회",
       "회장 선거",
-      "대한 축구협회"
+      "대한 축구협회",
+      "선거인"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -506,12 +523,13 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "electoral-college"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 30,
+    "relevanceScore": 34,
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -526,15 +544,15 @@
       ],
       "earliestPublishedAt": 1794138420000,
       "latestPublishedAt": 1794138420000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
     "id": "item_27b2ee6a41890196",
     "type": "news",
     "title": "축구협회 연내 회장 선거 무산…FIFA 공동서한에 무슨 내용이",
-    "summary": "리더십 공백이 길어지는 대한 축구협회 '연내 회장 선거 ' 계획이 국제 축구 연맹, FIFA의 제동으로 사실상 무산됐습니다. 대한 축구협회 관계자에 따르면 협회 는 어제 FIFA와 아시아 축구 연맹으로부터 공동 서한을...",
+    "summary": "리더십 공백이 길어지는 대한축구 협회 '연내 회장 선거' 계획이 국제 축구 연맹, FIFA의 제동으로 사실상... 아시아 축구 연맹으로부터 공동 서한을 받았습니다. 여기엔 축구 협회 선거제도 개혁안대로 협회장 선거인단을...",
     "url": "https://news.jtbc.co.kr/article/NB12327067?influxDiv=NAVER",
     "originalUrl": "https://news.jtbc.co.kr/article/NB12327067?influxDiv=NAVER",
     "publisher": "news.jtbc.co.kr",
@@ -543,7 +561,8 @@
     "matchedKeywords": [
       "축구협회",
       "회장 선거",
-      "대한 축구협회"
+      "선거인단",
+      "선거인"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -558,13 +577,16 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "electoral-college"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 30,
-    "labels": [],
+    "labels": [
+      "선거 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -578,8 +600,8 @@
       ],
       "earliestPublishedAt": 1794138060000,
       "latestPublishedAt": 1794138060000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -685,8 +707,8 @@
       ],
       "earliestPublishedAt": 1794132480000,
       "latestPublishedAt": 1794132480000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -751,8 +773,8 @@
       ],
       "earliestPublishedAt": 1794129420000,
       "latestPublishedAt": 1794129420000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -809,8 +831,8 @@
       ],
       "earliestPublishedAt": 1794128700000,
       "latestPublishedAt": 1794128700000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -862,8 +884,8 @@
       ],
       "earliestPublishedAt": 1794128400000,
       "latestPublishedAt": 1794128400000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -922,8 +944,8 @@
       ],
       "earliestPublishedAt": 1794127860000,
       "latestPublishedAt": 1794127860000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -989,8 +1011,8 @@
       ],
       "earliestPublishedAt": 1794126600000,
       "latestPublishedAt": 1794126600000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1167,8 +1189,8 @@
       ],
       "earliestPublishedAt": 1794125160000,
       "latestPublishedAt": 1794125160000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1220,8 +1242,8 @@
       ],
       "earliestPublishedAt": 1794123600000,
       "latestPublishedAt": 1794123600000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1294,8 +1316,8 @@
       ],
       "earliestPublishedAt": 1794122580000,
       "latestPublishedAt": 1794122580000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1369,8 +1391,8 @@
       ],
       "earliestPublishedAt": 1794122520000,
       "latestPublishedAt": 1794122520000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1435,8 +1457,8 @@
       ],
       "earliestPublishedAt": 1794122340000,
       "latestPublishedAt": 1794122340000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1501,8 +1523,8 @@
       ],
       "earliestPublishedAt": 1794122280000,
       "latestPublishedAt": 1794122280000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1543,15 +1565,15 @@
       ],
       "earliestPublishedAt": 1794122160000,
       "latestPublishedAt": 1794122160000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
     "id": "item_611b3de17a285b5d",
     "type": "news",
     "title": "FIFA 제동에 축구협회장 연내 선거 무산…제도 개편 원점 재검토",
-    "summary": "FIFA·AFC 공동 서한… 선거인 단 확대·전자투표에 우려 축구협회 , 9일 이사회·임시총회 취소…12월 18일 선거 무산 새 회장 선출 시한 내년 3월…수장 공백 장기화 전망 아주경제=강상헌 기자 ksh@ajunews.com 29일 충남 천안...",
+    "summary": "FIFA·AFC 공동 서한…선거인단 확대·전자투표에 우려 축구협회 , 9일 이사회 ·임시총회 취소…12월 18일 선거 무산 새 회장 선출 시한 내년 3월…수장 공백 장기화 전망 아주경제=강상헌 기자 ksh@ajunews.com 29일 충남 천안...",
     "url": "https://www.ajunews.com/view/20261108155624728",
     "originalUrl": "https://www.ajunews.com/view/20261108155624728",
     "publisher": "ajunews.com",
@@ -1560,6 +1582,7 @@
     "matchedKeywords": [
       "제도 개편",
       "축구협회",
+      "선거인단",
       "선거인"
     ],
     "discoveryQueries": [
@@ -1591,8 +1614,10 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
-    "labels": [],
+    "relevanceScore": 19,
+    "labels": [
+      "선거 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1606,8 +1631,8 @@
       ],
       "earliestPublishedAt": 1794121440000,
       "latestPublishedAt": 1794121440000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1679,8 +1704,8 @@
       ],
       "earliestPublishedAt": 1794120180000,
       "latestPublishedAt": 1794120180000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1741,8 +1766,8 @@
       ],
       "earliestPublishedAt": 1794120000000,
       "latestPublishedAt": 1794120000000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1809,8 +1834,8 @@
       ],
       "earliestPublishedAt": 1794120000000,
       "latestPublishedAt": 1794120000000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1872,8 +1897,8 @@
       ],
       "earliestPublishedAt": 1794119700000,
       "latestPublishedAt": 1794119700000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -1940,8 +1965,8 @@
       ],
       "earliestPublishedAt": 1794119400000,
       "latestPublishedAt": 1794119400000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2010,8 +2035,8 @@
       ],
       "earliestPublishedAt": 1794119220000,
       "latestPublishedAt": 1794119220000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2062,8 +2087,8 @@
       ],
       "earliestPublishedAt": 1794118200000,
       "latestPublishedAt": 1794118200000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2129,8 +2154,8 @@
       ],
       "earliestPublishedAt": 1794118020000,
       "latestPublishedAt": 1794118020000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2197,8 +2222,8 @@
       ],
       "earliestPublishedAt": 1794117960000,
       "latestPublishedAt": 1794117960000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2263,8 +2288,8 @@
       ],
       "earliestPublishedAt": 1794117660000,
       "latestPublishedAt": 1794117660000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2330,8 +2355,8 @@
       ],
       "earliestPublishedAt": 1794117600000,
       "latestPublishedAt": 1794117600000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2395,15 +2420,15 @@
       ],
       "earliestPublishedAt": 1794117300000,
       "latestPublishedAt": 1794117300000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
     "id": "item_4554f85416435522",
     "type": "news",
     "title": "대한축구협회 '연내 회장 선거' 무산…FIFA, 개혁안에 우려 표명",
-    "summary": "대한 축구협회 는 애초 연내 새로운 회장 선출을 목표로 두고 이번 주 임시 대의원 총회와 이사회를 열어 선거 관련 정관을 개정할 방침이었는데, FIFA의 우려 표명으로 재검토가 불가피해지면서 연기했다. 이에 따라 회장...",
+    "summary": "서한에는 대한축구협회 가 케이(K)- 축구 혁신위원회의 권고에 따라 추진해 온 선거 제도 개혁안에 대한 우려가 담겼다. 13년 동안 이끌어 온 정몽규 전 회장이 올해 5월 성명을 통해 사퇴 의사를 밝힌 뒤 7월 물러나면서...",
     "url": "https://www.yna.co.kr/view/AKR20261108029100007?input=1195m",
     "originalUrl": "https://www.yna.co.kr/view/AKR20261108029100007?input=1195m",
     "publisher": "yna.co.kr",
@@ -2412,10 +2437,10 @@
     "matchedKeywords": [
       "대한축구협회",
       "회장 선거",
-      "대한 축구협회",
-      "대의원",
-      "정관",
-      "이사회"
+      "혁신위원회",
+      "축구 혁신",
+      "정몽규",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -2438,15 +2463,17 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college",
-      "statute-revision",
-      "kfa-executives"
+      "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 50,
-    "labels": [],
+    "relevanceScore": 45,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -2460,8 +2487,8 @@
       ],
       "earliestPublishedAt": 1794117000000,
       "latestPublishedAt": 1794117000000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2528,8 +2555,8 @@
       ],
       "earliestPublishedAt": 1794116640000,
       "latestPublishedAt": 1794116640000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2590,8 +2617,8 @@
       ],
       "earliestPublishedAt": 1794115740000,
       "latestPublishedAt": 1794115740000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2655,8 +2682,8 @@
       ],
       "earliestPublishedAt": 1794115320000,
       "latestPublishedAt": 1794115320000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2724,8 +2751,8 @@
       ],
       "earliestPublishedAt": 1794114000000,
       "latestPublishedAt": 1794114000000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2785,8 +2812,8 @@
       ],
       "earliestPublishedAt": 1794111180000,
       "latestPublishedAt": 1794111180000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2855,8 +2882,8 @@
       ],
       "earliestPublishedAt": 1794108840000,
       "latestPublishedAt": 1794108840000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -2925,7 +2952,7 @@
     "id": "item_809d93c0643e9bb9",
     "type": "news",
     "title": "FIFA 제동에 올해 축구협회장 선거 무산…내년 3월까지 새 회장 선임",
-    "summary": "국제 축구 연맹(FIFA)이 대한축구 협회(KFA)의 차기 회장 선거 제도 개편에 제동을 걸면서 올해 예정됐던 회장 선거가 무산됐다. 축구 협회는 FIFA와 아시아 축구 연맹(AFC)의 의견을 검토한 뒤 내년 3월까지 새 회장을 선임할...",
+    "summary": "8일 축구협회 관계자에 따르면 FIFA와 AFC는 지난 7일 축구협회 에 정관과 회장 선거 규정 개정 안, 선거 제도 개편 등에 관한 의견을 전달했다. 이에 축구협회 는 FIFA와 AFC의 의견을 검토하기 위해 9일 열릴 예정이던...",
     "url": "https://www.news1.kr/sports/soccer/6346711",
     "originalUrl": "https://www.news1.kr/sports/soccer/6346711",
     "publisher": "news1.kr",
@@ -2933,8 +2960,9 @@
     "collectedAt": "2026-11-08T09:29:35.643Z",
     "matchedKeywords": [
       "회장 선거",
-      "축구협회장",
-      "KFA",
+      "축구협회",
+      "정관",
+      "규정 개정",
       "제도 개편"
     ],
     "discoveryQueries": [
@@ -2960,7 +2988,7 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 23,
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -2975,15 +3003,15 @@
       ],
       "earliestPublishedAt": 1794106260000,
       "latestPublishedAt": 1794106260000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
     "id": "item_a07f0e43104a305b",
     "type": "news",
     "title": "[단독]FIFA, 대한축구협회 회장 선거 제동…KFA, 12월 18일 선거 연기 불...",
-    "summary": "국제 축구 연맹(FIFA)이 정몽규 회장의 사퇴로 공석인 대한 축구협회 (KFA) 회장 선거에 제동을 걸었다. KFA는... KFA는 정부 주도로 출범한 K- 축구 혁신위 원회의 권고대로 선거인단을 2만으로 대폭 확대해 12월 18일 회장...",
+    "summary": "국제 축구 연맹(FIFA)이 정몽규 회장의 사퇴로 공석인 대한 축구협회 (KFA) 회장 선거에 제동을 걸었다. KFA는... KFA는 7일 FIFA와 아시아 축구 연맹(AFC)으로부터 KFA의 정관 및 회장 선거 규정 개정 안, 선거제도 개편 등에...",
     "url": "https://www.sportschosun.com/football/2026-11-08/202611080100053430005268",
     "originalUrl": "https://www.sportschosun.com/football/2026-11-08/202611080100053430005268",
     "publisher": "sportschosun.com",
@@ -2994,9 +3022,9 @@
       "회장 선거",
       "대한 축구협회",
       "KFA",
-      "선거인단",
-      "선거인",
-      "축구 혁신",
+      "정관",
+      "규정 개정",
+      "제도 개편",
       "정몽규",
       "사퇴"
     ],
@@ -3023,18 +3051,16 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college",
-      "innovation-committee"
+      "statute-revision"
     ],
     "personTags": [
       "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 55,
+    "relevanceScore": 51,
     "labels": [
-      "인물 언급",
-      "선거 키워드 포함"
+      "인물 언급"
     ],
     "dedupeState": {
       "version": 1,
@@ -3049,8 +3075,8 @@
       ],
       "earliestPublishedAt": 1794101940000,
       "latestPublishedAt": 1794101940000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   },
   {
@@ -3118,8 +3144,8 @@
       ],
       "earliestPublishedAt": 1794101280000,
       "latestPublishedAt": 1794101280000,
-      "representativeCollectedAt": 1794331048525,
-      "latestCollectedAt": 1794331048525
+      "representativeCollectedAt": 1794349885831,
+      "latestCollectedAt": 1794349885831
     }
   }
 ]
