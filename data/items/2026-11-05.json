@@ -46,8 +46,8 @@
       ],
       "earliestPublishedAt": 1793916000000,
       "latestPublishedAt": 1793916000000,
-      "representativeCollectedAt": 1794246564212,
-      "latestCollectedAt": 1794246564212
+      "representativeCollectedAt": 1794275178340,
+      "latestCollectedAt": 1794275178340
     }
   },
   {
@@ -235,8 +235,8 @@
       ],
       "earliestPublishedAt": 1793890860000,
       "latestPublishedAt": 1793890860000,
-      "representativeCollectedAt": 1794246564212,
-      "latestCollectedAt": 1794246564212
+      "representativeCollectedAt": 1794275178340,
+      "latestCollectedAt": 1794275178340
     }
   },
   {
@@ -419,8 +419,8 @@
       ],
       "earliestPublishedAt": 1793878320000,
       "latestPublishedAt": 1793878320000,
-      "representativeCollectedAt": 1794246564212,
-      "latestCollectedAt": 1794246564212
+      "representativeCollectedAt": 1794275178340,
+      "latestCollectedAt": 1794275178340
     }
   },
   {
@@ -546,8 +546,8 @@
       ],
       "earliestPublishedAt": 1793868000000,
       "latestPublishedAt": 1793868000000,
-      "representativeCollectedAt": 1794246564212,
-      "latestCollectedAt": 1794246564212
+      "representativeCollectedAt": 1794275178340,
+      "latestCollectedAt": 1794275178340
     }
   },
   {
@@ -586,8 +586,8 @@
       ],
       "earliestPublishedAt": 1793866800000,
       "latestPublishedAt": 1793866800000,
-      "representativeCollectedAt": 1794246564212,
-      "latestCollectedAt": 1794246564212
+      "representativeCollectedAt": 1794275178340,
+      "latestCollectedAt": 1794275178340
     }
   },
   {
@@ -668,7 +668,23 @@
     "isOfficial": false,
     "relevanceScore": 14,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newsq.co.kr/news/articleView.html?idxno=500755"
+      ],
+      "stories": [
+        "news|news|아시안컵 연기 나비효과, 한국·일본·호주 감독 거취 안갯속|newsq.co.kr|2026-11-05T05:44:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|아시안컵 연기 나비효과, 한국·일본·호주 감독 거취 안갯속|newsq.co.kr"
+      ],
+      "earliestPublishedAt": 1793857440000,
+      "latestPublishedAt": 1793857440000,
+      "representativeCollectedAt": 1794275178340,
+      "latestCollectedAt": 1794275178340
+    }
   },
   {
     "id": "item_55dbe9e1441062d6",
@@ -777,8 +793,8 @@
       ],
       "earliestPublishedAt": 1793853660000,
       "latestPublishedAt": 1793853660000,
-      "representativeCollectedAt": 1794246564212,
-      "latestCollectedAt": 1794246564212
+      "representativeCollectedAt": 1794275178340,
+      "latestCollectedAt": 1794275178340
     }
   },
   {
@@ -1421,8 +1437,8 @@
       ],
       "earliestPublishedAt": 1793841540000,
       "latestPublishedAt": 1793841540000,
-      "representativeCollectedAt": 1794246564212,
-      "latestCollectedAt": 1794246564212
+      "representativeCollectedAt": 1794275178340,
+      "latestCollectedAt": 1794275178340
     }
   },
   {
@@ -1475,8 +1491,8 @@
       ],
       "earliestPublishedAt": 1793837400000,
       "latestPublishedAt": 1793837400000,
-      "representativeCollectedAt": 1794246564212,
-      "latestCollectedAt": 1794246564212
+      "representativeCollectedAt": 1794275178340,
+      "latestCollectedAt": 1794275178340
     }
   }
 ]
