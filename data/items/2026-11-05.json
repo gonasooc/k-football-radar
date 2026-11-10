@@ -46,8 +46,8 @@
       ],
       "earliestPublishedAt": 1793916000000,
       "latestPublishedAt": 1793916000000,
-      "representativeCollectedAt": 1794300668966,
-      "latestCollectedAt": 1794300668966
+      "representativeCollectedAt": 1794331048525,
+      "latestCollectedAt": 1794331048525
     }
   },
   {
@@ -235,8 +235,8 @@
       ],
       "earliestPublishedAt": 1793890860000,
       "latestPublishedAt": 1793890860000,
-      "representativeCollectedAt": 1794300668966,
-      "latestCollectedAt": 1794300668966
+      "representativeCollectedAt": 1794331048525,
+      "latestCollectedAt": 1794331048525
     }
   },
   {
@@ -419,8 +419,8 @@
       ],
       "earliestPublishedAt": 1793878320000,
       "latestPublishedAt": 1793878320000,
-      "representativeCollectedAt": 1794300668966,
-      "latestCollectedAt": 1794300668966
+      "representativeCollectedAt": 1794331048525,
+      "latestCollectedAt": 1794331048525
     }
   },
   {
@@ -546,8 +546,8 @@
       ],
       "earliestPublishedAt": 1793868000000,
       "latestPublishedAt": 1793868000000,
-      "representativeCollectedAt": 1794300668966,
-      "latestCollectedAt": 1794300668966
+      "representativeCollectedAt": 1794331048525,
+      "latestCollectedAt": 1794331048525
     }
   },
   {
@@ -586,8 +586,8 @@
       ],
       "earliestPublishedAt": 1793866800000,
       "latestPublishedAt": 1793866800000,
-      "representativeCollectedAt": 1794300668966,
-      "latestCollectedAt": 1794300668966
+      "representativeCollectedAt": 1794331048525,
+      "latestCollectedAt": 1794331048525
     }
   },
   {
@@ -634,7 +634,7 @@
     "id": "item_b978b3c3047e55ff",
     "type": "news",
     "title": "아시안컵 연기 나비효과, 한국·일본·호주 감독 거취 안갯속",
-    "summary": "시간적 여유가 생기면서 현 집행부가 정식 감독 을 결정할 필요성도 줄어들었다. 연합뉴스에 따르면 대한 축구협회 관계자는 \"현재 집행부의 이사회는 차기 사령탑 후보 추천을 사실상 결정하기 어려운 상황이다....",
+    "summary": "이후 홍명보 전 감독이 물러나자 지난 9월 스페인 출신 로베르토 모레노 감독을 임시 사령탑으로 선임했다. 모레노 감독의 계약은 오는 27일 만료된다. 대한 축구협회 (KFA)는 9~10월 A매치 4경기와 11월 2경기 등 총 6경기를...",
     "url": "https://www.newsq.co.kr/news/articleView.html?idxno=500755",
     "originalUrl": "https://www.newsq.co.kr/news/articleView.html?idxno=500755",
     "publisher": "newsq.co.kr",
@@ -642,11 +642,11 @@
     "collectedAt": "2026-11-09T17:49:24.212Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "이사회",
-      "집행부",
+      "KFA",
+      "감독",
       "사령탑",
-      "후보",
-      "차기"
+      "선임",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -660,15 +660,18 @@
       "축구협회 집행부"
     ],
     "issueTags": [
-      "kfa-executives",
       "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -682,8 +685,8 @@
       ],
       "earliestPublishedAt": 1793857440000,
       "latestPublishedAt": 1793857440000,
-      "representativeCollectedAt": 1794300668966,
-      "latestCollectedAt": 1794300668966
+      "representativeCollectedAt": 1794331048525,
+      "latestCollectedAt": 1794331048525
     }
   },
   {
@@ -793,8 +796,8 @@
       ],
       "earliestPublishedAt": 1793853660000,
       "latestPublishedAt": 1793853660000,
-      "representativeCollectedAt": 1794300668966,
-      "latestCollectedAt": 1794300668966
+      "representativeCollectedAt": 1794331048525,
+      "latestCollectedAt": 1794331048525
     }
   },
   {
@@ -1437,8 +1440,8 @@
       ],
       "earliestPublishedAt": 1793841540000,
       "latestPublishedAt": 1793841540000,
-      "representativeCollectedAt": 1794300668966,
-      "latestCollectedAt": 1794300668966
+      "representativeCollectedAt": 1794331048525,
+      "latestCollectedAt": 1794331048525
     }
   },
   {
@@ -1491,8 +1494,8 @@
       ],
       "earliestPublishedAt": 1793837400000,
       "latestPublishedAt": 1793837400000,
-      "representativeCollectedAt": 1794300668966,
-      "latestCollectedAt": 1794300668966
+      "representativeCollectedAt": 1794331048525,
+      "latestCollectedAt": 1794331048525
     }
   }
 ]
