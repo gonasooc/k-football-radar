@@ -33,13 +33,29 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.khan.co.kr/article/202611110700006?pt=nv"
+      ],
+      "stories": [
+        "news|news|‘첩첩산중’ 모레노, 마지막 2연전 운명 건다|sports.khan.co.kr|2026-11-10T22:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|‘첩첩산중’ 모레노, 마지막 2연전 운명 건다|sports.khan.co.kr"
+      ],
+      "earliestPublishedAt": 1794348060000,
+      "latestPublishedAt": 1794348060000,
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
+    }
   },
   {
     "id": "item_90946b0cebc14a1d",
     "type": "news",
     "title": "\"당신들 없어도 한국 축구는 돌아간다\" 박문성, 축구협회 향해 작심 발...",
-    "summary": "박문성 축구 해설위원이 한국 축구 국가대표팀의 A매치 중계권 포기 사태를 두고 대한축구협회 를 강하게 비판했다. 박 위원은 지난 10일 유튜브 채널 '달수네라이브'를 통해 최근 발생한 한국 대표팀의 A매치 중계권 포기...",
+    "summary": "최근 축구협회 회장 선거 와 관련해서도 비판을 이어갔다. 박 위원은 \"FIFA 뒤에 숨어서 말도 안 되는 주장을 하는 것을 멈추고 정신을 차려야 한다. 자기들끼리 모여서 또다시 같은 방식을 반복하려는 것은 도돌이표 같은...",
     "url": "https://mhnse.com/news/articleView.html?idxno=1692009",
     "originalUrl": "https://mhnse.com/news/articleView.html?idxno=1692009",
     "publisher": "mhnse.com",
@@ -47,18 +63,20 @@
     "collectedAt": "2026-11-10T22:31:25.831Z",
     "matchedKeywords": [
       "축구협회",
-      "대한축구협회"
+      "회장 선거"
     ],
     "discoveryQueries": [
       "대한축구협회",
       "축구 혁신",
       "축구협회 회장 선거"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 16,
+    "relevanceScore": 17,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -74,8 +92,8 @@
       ],
       "earliestPublishedAt": 1794348060000,
       "latestPublishedAt": 1794348060000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -136,8 +154,8 @@
       ],
       "earliestPublishedAt": 1794348000000,
       "latestPublishedAt": 1794348000000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -204,8 +222,8 @@
       ],
       "earliestPublishedAt": 1794346200000,
       "latestPublishedAt": 1794346200000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -237,7 +255,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.bntnews.co.kr/article/view/bnt202611110008"
+      ],
+      "stories": [
+        "news|news|a매치 일정 확정…한국, 13일 사우디전|bntnews.co.kr|2026-11-10T21:22:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|a매치 일정 확정…한국, 13일 사우디전|bntnews.co.kr"
+      ],
+      "earliestPublishedAt": 1794345720000,
+      "latestPublishedAt": 1794345720000,
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
+    }
   },
   {
     "id": "item_8bc5cda80085864a",
@@ -268,7 +302,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/soccer/6349438"
+      ],
+      "stories": [
+        "news|news|어수선한 축구대표팀, 모레노에게 필요한 건 전술보다 '소통'|news1.kr|2026-11-10T21:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|어수선한 축구대표팀, 모레노에게 필요한 건 전술보다 '소통'|news1.kr"
+      ],
+      "earliestPublishedAt": 1794344400000,
+      "latestPublishedAt": 1794344400000,
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
+    }
   },
   {
     "id": "item_59afd0bbce643195",
@@ -327,8 +377,8 @@
       ],
       "earliestPublishedAt": 1794341100000,
       "latestPublishedAt": 1794341100000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -409,8 +459,8 @@
       ],
       "earliestPublishedAt": 1794324720000,
       "latestPublishedAt": 1794324720000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -464,8 +514,8 @@
       ],
       "earliestPublishedAt": 1794322860000,
       "latestPublishedAt": 1794322860000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -515,8 +565,8 @@
       ],
       "earliestPublishedAt": 1794317400000,
       "latestPublishedAt": 1794317400000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -561,8 +611,8 @@
       ],
       "earliestPublishedAt": 1794307320000,
       "latestPublishedAt": 1794307320000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -786,8 +836,8 @@
       ],
       "earliestPublishedAt": 1794302220000,
       "latestPublishedAt": 1794302220000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -832,8 +882,8 @@
       ],
       "earliestPublishedAt": 1794300480000,
       "latestPublishedAt": 1794300480000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -878,8 +928,8 @@
       ],
       "earliestPublishedAt": 1794299520000,
       "latestPublishedAt": 1794299520000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -924,8 +974,8 @@
       ],
       "earliestPublishedAt": 1794299160000,
       "latestPublishedAt": 1794299160000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -970,8 +1020,8 @@
       ],
       "earliestPublishedAt": 1794298140000,
       "latestPublishedAt": 1794298140000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -1091,8 +1141,8 @@
       ],
       "earliestPublishedAt": 1794297360000,
       "latestPublishedAt": 1794297360000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -1142,8 +1192,8 @@
       ],
       "earliestPublishedAt": 1794297000000,
       "latestPublishedAt": 1794297000000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -1197,8 +1247,8 @@
       ],
       "earliestPublishedAt": 1794295260000,
       "latestPublishedAt": 1794295260000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -1243,15 +1293,15 @@
       ],
       "earliestPublishedAt": 1794292800000,
       "latestPublishedAt": 1794292800000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
     "id": "item_33bf71d6ed6aaaad",
     "type": "news",
     "title": "개혁만 외치다 길 잃은 한국 축구…리더십 공백 장기화 우려 [ST스페셜]",
-    "summary": "현재 대한 축구협회 는 차기 대표팀 감독 선임 , 대표팀 내 갈등 해소, 축구 팬 신뢰 회복 등 여러 시급한 과제에 직면해 있다. 벌써 5개월째 회장 공백 상황이 계속되고 있고, 하루라도 빨리 안정적인 리더십이 필요한...",
+    "summary": "국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)은 최근 대한 축구협회 (KFA)에 공동 서한을 발송했다. 서한에는 회장... 사퇴했고, 박지성 공동 혁신위원장도 여러 차례 \"K- 축구 혁신위원회는 자문, 권고 기구\"라고 강조했다. 다만...",
     "url": "http://www.stoo.com/article.php?aid=109831348142",
     "originalUrl": "http://www.stoo.com/article.php?aid=109831348142",
     "publisher": "stoo.com",
@@ -1259,11 +1309,11 @@
     "collectedAt": "2026-11-10T08:51:08.966Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "감독 선임",
-      "대표팀 감독",
-      "감독",
-      "선임",
-      "차기"
+      "KFA",
+      "혁신위원회",
+      "축구 혁신",
+      "박지성",
+      "사퇴"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -1296,13 +1346,17 @@
       "KFA"
     ],
     "issueTags": [
-      "coach-appointment"
+      "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
-    "labels": [],
+    "relevanceScore": 15,
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1316,8 +1370,8 @@
       ],
       "earliestPublishedAt": 1794292560000,
       "latestPublishedAt": 1794292560000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -1362,8 +1416,8 @@
       ],
       "earliestPublishedAt": 1794292560000,
       "latestPublishedAt": 1794292560000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -1408,8 +1462,8 @@
       ],
       "earliestPublishedAt": 1794290520000,
       "latestPublishedAt": 1794290520000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -1454,15 +1508,15 @@
       ],
       "earliestPublishedAt": 1794289080000,
       "latestPublishedAt": 1794289080000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
     "id": "item_fb6cf948ae5d7507",
     "type": "news",
     "title": "'교수님' 아르센 벵거 전 아스널 감독 FIFA 회장 선거 출마할까… 인판...",
-    "summary": "| 스마트비즈 = 김경호 기자 | 아르센 벵거(77) 전 아스널 감독 이자 현 국제 축구 연맹(FIFA) 글로벌... 후보 로 나서려면 최소 5개국 축구협회 지지를 받아야 하며, 내년 3월 FIFA 회장 선거에서 승리하기 위해서는 전체 211개...",
+    "summary": "벵거는 오는 18일 내년 3월 있을 FIFA 회장선거 후보 등록 마감일을 앞두고 UEFA(유럽 축구 연맹)를 비롯한 주요... 후보 로 나서려면 최소 5개국 축구협회 지지를 받아야 하며, 내년 3월 FIFA 회장 선거에서 승리하기 위해서는...",
     "url": "https://www.smartbizn.com/news/articleView.html?idxno=158952",
     "originalUrl": "https://www.smartbizn.com/news/articleView.html?idxno=158952",
     "publisher": "smartbizn.com",
@@ -1470,7 +1524,8 @@
     "collectedAt": "2026-11-10T08:51:08.966Z",
     "matchedKeywords": [
       "회장 선거",
-      "축구협회"
+      "축구협회",
+      "후보 등록"
     ],
     "discoveryQueries": [
       "축구협회 감독 후보",
@@ -1499,8 +1554,8 @@
       ],
       "earliestPublishedAt": 1794282120000,
       "latestPublishedAt": 1794282120000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -1557,8 +1612,8 @@
       ],
       "earliestPublishedAt": 1794277380000,
       "latestPublishedAt": 1794277380000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -1624,7 +1679,7 @@
     "id": "item_3d6a7cbdb4be2595",
     "type": "news",
     "title": "한국 축구 발목 잡은 '박지성 혁신위'의 자충수",
-    "summary": "박지성 K- 축구혁신 위원회 공동위원장(왼쪽)과 최휘영 문화체육관광부 장관. /문화체육관광부 제공 | 서울=한스경제 김성진 기자 | 한국 축구를 바꾸겠다던 K- 축구 혁신 위원회(이하 혁신위)가 우려했던 대로 한국 축구의...",
+    "summary": "박지성 K- 축구혁신위 원회 공동위원장(왼쪽)과 최휘영 문화체육관광부 장관. /문화체육관광부 제공 | 서울=한스경제 김성진 기자 | 한국 축구를 바꾸겠다던 K- 축구 혁신위 원회(이하 혁신위)가 우려했던 대로 한국 축구의...",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881648",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=881648",
     "publisher": "hansbiz.co.kr",
@@ -1632,6 +1687,7 @@
     "collectedAt": "2026-11-10T08:51:08.966Z",
     "matchedKeywords": [
       "박지성",
+      "축구혁신위",
       "축구 혁신"
     ],
     "discoveryQueries": [
@@ -1668,7 +1724,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 15,
+    "relevanceScore": 21,
     "labels": [
       "인물 언급"
     ],
@@ -1685,8 +1741,8 @@
       ],
       "earliestPublishedAt": 1794276000000,
       "latestPublishedAt": 1794276000000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   },
   {
@@ -1747,8 +1803,8 @@
       ],
       "earliestPublishedAt": 1794274920000,
       "latestPublishedAt": 1794274920000,
-      "representativeCollectedAt": 1794363347903,
-      "latestCollectedAt": 1794363347903
+      "representativeCollectedAt": 1794390675612,
+      "latestCollectedAt": 1794390675612
     }
   }
 ]
