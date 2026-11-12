@@ -51,8 +51,8 @@
       ],
       "earliestPublishedAt": 1793462160000,
       "latestPublishedAt": 1793462160000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -102,8 +102,8 @@
       ],
       "earliestPublishedAt": 1793462160000,
       "latestPublishedAt": 1793462160000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -156,8 +156,8 @@
       ],
       "earliestPublishedAt": 1793460900000,
       "latestPublishedAt": 1793460900000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -212,22 +212,24 @@
       ],
       "earliestPublishedAt": 1793445060000,
       "latestPublishedAt": 1793445060000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
     "id": "item_2026f081dce28428",
     "type": "news",
     "title": "\"이제 손흥민이 선발로 뛰어야 하는지도 의문\" 英 정론지의 냉혹한 평가...",
-    "summary": "당시 정연욱 의원은 이용수 대한 축구협회 회장 직무대행에게 \"최근 대표팀 내부에서 선수들이 그를 이름이 아닌 '7번'이나 '그 사람'이라고 부른다고 한다. 누구인지 알고 있느냐\"라고 질문했다. 이용수 직무대행은...",
+    "summary": "월드컵 이후 홍명보 감독과 정몽규 대한 축구협회 장이 물러났으며 두 사람은 국회에서 질의를 받았다. 이후 경찰이 대한 축구협회 를 압수수색하는 사태까지 이어졌다. 가디언은 한국 대표팀 내부의 세대 갈등이 다른...",
     "url": "http://www.osen.co.kr/article/G1112901781",
     "originalUrl": "http://www.osen.co.kr/article/G1112901781",
     "publisher": "osen.co.kr",
     "publishedAt": "2026-10-31T10:31:00.000Z",
     "collectedAt": "2026-11-01T01:28:32.683Z",
     "matchedKeywords": [
-      "대한 축구협회"
+      "대한 축구협회",
+      "정몽규",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -241,12 +243,17 @@
       "축구협회장"
     ],
     "issueTags": [],
-    "personTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -260,8 +267,8 @@
       ],
       "earliestPublishedAt": 1793442660000,
       "latestPublishedAt": 1793442660000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -324,8 +331,8 @@
       ],
       "earliestPublishedAt": 1793440320000,
       "latestPublishedAt": 1793440320000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -373,14 +380,17 @@
     "id": "item_70055861a6b9c64e",
     "type": "news",
     "title": "“손흥민도 호날두처럼?”…英 가디언, 한국 축구 ‘분열 논란’ 조명",
-    "summary": "대표팀 일부 선수가 손흥민을 이름 대신 이같이 부른다는 의혹에 이용수 대한 축구협회 장 직무대행이 명확한 답변을 내놓지 않으면서 논란이 커졌다는 것이다. 이어 현재 상황이 2024년 아시안컵 당시 손흥민과 이강인 등의...",
+    "summary": "가디언은 국회 국정 감사 에서 제기된 ‘7번·그분’ 호칭 의혹도 소개했다. 대표팀 일부 선수가 손흥민을 이름 대신 이같이 부른다는 의혹에 이용수 대한축구협회장 직무대행이 명확한 답변을 내놓지 않으면서 논란이...",
     "url": "https://www.sedaily.com/article/20108597?ref=naver",
     "originalUrl": "https://www.sedaily.com/article/20108597?ref=naver",
     "publisher": "sedaily.com",
     "publishedAt": "2026-10-31T07:55:00.000Z",
     "collectedAt": "2026-11-05T02:48:17.617Z",
     "matchedKeywords": [
-      "대한 축구협회"
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "감사"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -388,13 +398,17 @@
       "\"이용수\" 축구협회",
       "\"이용수\" 해명"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "감사 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -408,8 +422,8 @@
       ],
       "earliestPublishedAt": 1793433300000,
       "latestPublishedAt": 1793433300000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -477,8 +491,8 @@
       ],
       "earliestPublishedAt": 1793433180000,
       "latestPublishedAt": 1793433180000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -581,8 +595,8 @@
       ],
       "earliestPublishedAt": 1793430780000,
       "latestPublishedAt": 1793430780000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -646,8 +660,8 @@
       ],
       "earliestPublishedAt": 1793430600000,
       "latestPublishedAt": 1793430600000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -707,8 +721,8 @@
       ],
       "earliestPublishedAt": 1793430360000,
       "latestPublishedAt": 1793430360000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -762,8 +776,8 @@
       ],
       "earliestPublishedAt": 1793428980000,
       "latestPublishedAt": 1793428980000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -858,8 +872,8 @@
       ],
       "earliestPublishedAt": 1793418240000,
       "latestPublishedAt": 1793418240000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -910,8 +924,8 @@
       ],
       "earliestPublishedAt": 1793414340000,
       "latestPublishedAt": 1793414340000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -969,8 +983,8 @@
       ],
       "earliestPublishedAt": 1793409120000,
       "latestPublishedAt": 1793409120000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   }
 ]

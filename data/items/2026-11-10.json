@@ -47,8 +47,8 @@
       ],
       "earliestPublishedAt": 1794348060000,
       "latestPublishedAt": 1794348060000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -92,8 +92,8 @@
       ],
       "earliestPublishedAt": 1794348060000,
       "latestPublishedAt": 1794348060000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -154,8 +154,8 @@
       ],
       "earliestPublishedAt": 1794348000000,
       "latestPublishedAt": 1794348000000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -324,15 +324,15 @@
     "id": "item_59afd0bbce643195",
     "type": "news",
     "title": "“FIFA가 막는 것들만 한 혁신위”… 축구협회장 장기 공석 위기",
-    "summary": "FIFA와 AFC는 변경되는 축구협회장 선거 제도의 절차적 정당성과 형식의 적절성을 지적했으나, 사실상 이번 제도 개편안 자체가 FIFA가 엄격히 금지하고 있는 ‘정치의 축구 행정 개입’에 해당하는 것으로 판단한...",
+    "summary": "추진되던 대한축구 협회 회장 선거제도 개혁안이 FIFA의 제동으로 사실상 무산되면서 한국 축구 컨트롤타워... FIFA와 AFC는 변경되는 축구협회장 선거 제도의 절차적 정당성과 형식의 적절성을 지적했으나, 사실상 이번...",
     "url": "https://www.seoul.co.kr/news/sport/soccer/2026/11/11/20261111034001?wlog_tag3=naver",
     "originalUrl": "https://www.seoul.co.kr/news/sport/soccer/2026/11/11/20261111034001?wlog_tag3=naver",
     "publisher": "seoul.co.kr",
     "publishedAt": "2026-11-10T20:05:00.000Z",
     "collectedAt": "2026-11-10T22:31:25.831Z",
     "matchedKeywords": [
-      "회장 선거",
-      "제도 개편"
+      "축구협회장",
+      "회장 선거"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -355,13 +355,12 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election",
-      "statute-revision"
+      "election"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -377,8 +376,8 @@
       ],
       "earliestPublishedAt": 1794341100000,
       "latestPublishedAt": 1794341100000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -514,8 +513,8 @@
       ],
       "earliestPublishedAt": 1794322860000,
       "latestPublishedAt": 1794322860000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -565,24 +564,25 @@
       ],
       "earliestPublishedAt": 1794317400000,
       "latestPublishedAt": 1794317400000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
     "id": "item_482594964310c093",
     "type": "news",
     "title": "'완전체' 모레노호 \"'모래알' 논란 딛고 '모래 바람' 넘는다\"",
-    "summary": "여기에 대한 축구협회장 선거와 아시안컵이 나란히 연기된 데다, 이번 달 계약이 끝나는 모레노 임시 감독의 거취까지 불투명한 상황. 대표팀이 어수선한 상황을 극복하고 단합된 경기력을 보여줄 수 있을지, 기대와...",
+    "summary": "여기에 대한축구협회장 선거와 아시안컵이 나란히 연기된 데다, 이번 달 계약이 끝나는 모레노 임시 감독의 거취까지 불투명한 상황. 대표팀이 어수선한 상황을 극복하고 단합된 경기력을 보여줄 수 있을지, 기대와...",
     "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5230117",
     "originalUrl": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5230117",
     "publisher": "mbn.co.kr",
     "publishedAt": "2026-11-10T11:07:00.000Z",
     "collectedAt": "2026-11-12T00:59:54.981Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "축구협회장",
-      "회장 선거"
+      "회장 선거",
+      "대한축구협회장"
     ],
     "discoveryQueries": [
       "대한축구협회장",
@@ -596,7 +596,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5230117"
+      ],
+      "stories": [
+        "news|news|'완전체' 모레노호 \"'모래알' 논란 딛고 '모래 바람' 넘는다\"|mbn.co.kr|2026-11-10T11:07:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'완전체' 모레노호 \"'모래알' 논란 딛고 '모래 바람' 넘는다\"|mbn.co.kr"
+      ],
+      "earliestPublishedAt": 1794308820000,
+      "latestPublishedAt": 1794308820000,
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
+    }
   },
   {
     "id": "item_fa03d91c61950026",
@@ -640,8 +656,8 @@
       ],
       "earliestPublishedAt": 1794307320000,
       "latestPublishedAt": 1794307320000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -865,8 +881,8 @@
       ],
       "earliestPublishedAt": 1794302220000,
       "latestPublishedAt": 1794302220000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -911,8 +927,8 @@
       ],
       "earliestPublishedAt": 1794300480000,
       "latestPublishedAt": 1794300480000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -957,8 +973,8 @@
       ],
       "earliestPublishedAt": 1794299520000,
       "latestPublishedAt": 1794299520000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1003,8 +1019,8 @@
       ],
       "earliestPublishedAt": 1794299160000,
       "latestPublishedAt": 1794299160000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1049,8 +1065,8 @@
       ],
       "earliestPublishedAt": 1794298140000,
       "latestPublishedAt": 1794298140000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1170,8 +1186,8 @@
       ],
       "earliestPublishedAt": 1794297360000,
       "latestPublishedAt": 1794297360000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1224,8 +1240,8 @@
       ],
       "earliestPublishedAt": 1794297000000,
       "latestPublishedAt": 1794297000000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1279,8 +1295,8 @@
       ],
       "earliestPublishedAt": 1794295260000,
       "latestPublishedAt": 1794295260000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1325,8 +1341,8 @@
       ],
       "earliestPublishedAt": 1794292800000,
       "latestPublishedAt": 1794292800000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1402,8 +1418,8 @@
       ],
       "earliestPublishedAt": 1794292560000,
       "latestPublishedAt": 1794292560000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1448,8 +1464,8 @@
       ],
       "earliestPublishedAt": 1794292560000,
       "latestPublishedAt": 1794292560000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1494,8 +1510,8 @@
       ],
       "earliestPublishedAt": 1794290520000,
       "latestPublishedAt": 1794290520000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1540,8 +1556,8 @@
       ],
       "earliestPublishedAt": 1794289080000,
       "latestPublishedAt": 1794289080000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1586,8 +1602,8 @@
       ],
       "earliestPublishedAt": 1794282120000,
       "latestPublishedAt": 1794282120000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1644,8 +1660,8 @@
       ],
       "earliestPublishedAt": 1794277380000,
       "latestPublishedAt": 1794277380000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1773,8 +1789,8 @@
       ],
       "earliestPublishedAt": 1794276000000,
       "latestPublishedAt": 1794276000000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   },
   {
@@ -1835,8 +1851,8 @@
       ],
       "earliestPublishedAt": 1794274920000,
       "latestPublishedAt": 1794274920000,
-      "representativeCollectedAt": 1794445194981,
-      "latestCollectedAt": 1794445194981
+      "representativeCollectedAt": 1794473454770,
+      "latestCollectedAt": 1794473454770
     }
   }
 ]
