@@ -58,8 +58,8 @@
       ],
       "earliestPublishedAt": 1794238920000,
       "latestPublishedAt": 1794238920000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -253,8 +253,8 @@
       ],
       "earliestPublishedAt": 1794234540000,
       "latestPublishedAt": 1794234540000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -421,8 +421,8 @@
       ],
       "earliestPublishedAt": 1794228720000,
       "latestPublishedAt": 1794261540000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -491,8 +491,8 @@
       ],
       "earliestPublishedAt": 1794228360000,
       "latestPublishedAt": 1794228360000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -734,8 +734,8 @@
       ],
       "earliestPublishedAt": 1794225120000,
       "latestPublishedAt": 1794225120000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -1286,8 +1286,8 @@
       ],
       "earliestPublishedAt": 1794215940000,
       "latestPublishedAt": 1794215940000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -1395,8 +1395,8 @@
       ],
       "earliestPublishedAt": 1794211140000,
       "latestPublishedAt": 1794211140000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -1468,8 +1468,8 @@
       ],
       "earliestPublishedAt": 1794207360000,
       "latestPublishedAt": 1794207360000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -1548,8 +1548,8 @@
       ],
       "earliestPublishedAt": 1794206040000,
       "latestPublishedAt": 1794206040000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -1619,8 +1619,8 @@
       ],
       "earliestPublishedAt": 1794202980000,
       "latestPublishedAt": 1794202980000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -1683,8 +1683,8 @@
       ],
       "earliestPublishedAt": 1794202200000,
       "latestPublishedAt": 1794202200000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -1747,8 +1747,8 @@
       ],
       "earliestPublishedAt": 1794197520000,
       "latestPublishedAt": 1794197520000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -1780,7 +1780,23 @@
     "isOfficial": false,
     "relevanceScore": 20,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018811"
+      ],
+      "stories": [
+        "news|news|[spo 현장] '차기 축구협회장 후보 거론' 범lg家 3세 이상현 나고야 ag 선...|spotvnews.co.kr|2026-11-09T03:39:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[spo 현장] '차기 축구협회장 후보 거론' 범lg家 3세 이상현 나고야 ag 선...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1794195540000,
+      "latestPublishedAt": 1794195540000,
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
+    }
   },
   {
     "id": "item_08b2c0eb42fcfeda",
@@ -1963,8 +1979,8 @@
       ],
       "earliestPublishedAt": 1794190320000,
       "latestPublishedAt": 1794190320000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -2024,8 +2040,8 @@
       ],
       "earliestPublishedAt": 1794188640000,
       "latestPublishedAt": 1794188640000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   },
   {
@@ -2096,8 +2112,8 @@
       ],
       "earliestPublishedAt": 1794186840000,
       "latestPublishedAt": 1794186840000,
-      "representativeCollectedAt": 1794473454770,
-      "latestCollectedAt": 1794473454770
+      "representativeCollectedAt": 1794505474199,
+      "latestCollectedAt": 1794505474199
     }
   }
 ]
