@@ -43,8 +43,8 @@
       ],
       "earliestPublishedAt": 1794522600000,
       "latestPublishedAt": 1794522600000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -93,8 +93,8 @@
       ],
       "earliestPublishedAt": 1794519660000,
       "latestPublishedAt": 1794519660000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -148,8 +148,8 @@
       ],
       "earliestPublishedAt": 1794519120000,
       "latestPublishedAt": 1794519120000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -184,7 +184,23 @@
     "isOfficial": false,
     "relevanceScore": 14,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.bntnews.co.kr/article/view/bnt202611130006"
+      ],
+      "stories": [
+        "news|news|축구 국가대표 평가전, 13일 오후 11시 일정|bntnews.co.kr|2026-11-12T21:28:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구 국가대표 평가전, 13일 오후 11시 일정|bntnews.co.kr"
+      ],
+      "earliestPublishedAt": 1794518880000,
+      "latestPublishedAt": 1794518880000,
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
+    }
   },
   {
     "id": "item_620298f3570a7738",
@@ -215,6 +231,51 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsworldi.com/newsView/20261112520068"
+      ],
+      "stories": [
+        "news|news|[로드 투 아시안컵①] 최악의 1년 뒤 희망의 1년… 아시안컵·월드컵 향...|sportsworldi.com|2026-11-12T21:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[로드 투 아시안컵①] 최악의 1년 뒤 희망의 1년… 아시안컵·월드컵 향...|sportsworldi.com"
+      ],
+      "earliestPublishedAt": 1794517440000,
+      "latestPublishedAt": 1794517440000,
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
+    }
+  },
+  {
+    "id": "item_88acc171e9d3fc6d",
+    "type": "news",
+    "title": "불화설 속 다시 모인 韓 축구, 원팀 증명해야 할 중동 2연전",
+    "summary": "일단 불화설에 휩싸인 5명은 12일 대한 축구협회 를 통해 개인적인 갈등 및 국가대표 은퇴는 사실이 아니라고 해명 했다. 그만큼 11월 A매치 2연전은 중요하다. 카타르 도하에서의 첫 훈련에 앞서 손흥민과 황희찬이 따로...",
+    "url": "https://www.nocutnews.co.kr/news/6606271",
+    "originalUrl": "https://www.nocutnews.co.kr/news/6606271",
+    "publisher": "nocutnews.co.kr",
+    "publishedAt": "2026-11-12T21:01:00.000Z",
+    "collectedAt": "2026-11-13T11:35:32.313Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "해명"
+    ],
+    "discoveryQueries": [
+      "축구협회 감독 선임",
+      "축구협회 집행부",
+      "축구협회 해명"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 8,
+    "relevanceTier": "secondary",
+    "labels": [
+      "해명 키워드 포함"
     ]
   },
   {
@@ -245,7 +306,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112909282"
+      ],
+      "stories": [
+        "news|news|\"손흥민 포함 5명, 이례적인 공동 성명\" 韓 축구 공식발표→일본도 집중...|osen.co.kr|2026-11-12T16:26:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"손흥민 포함 5명, 이례적인 공동 성명\" 韓 축구 공식발표→일본도 집중...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1794500760000,
+      "latestPublishedAt": 1794500760000,
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
+    }
   },
   {
     "id": "item_551bb0470af83e2d",
@@ -293,15 +370,15 @@
       ],
       "earliestPublishedAt": 1794498120000,
       "latestPublishedAt": 1794498120000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
     "id": "item_eb65bb426b0deff4",
     "type": "news",
     "title": "“한 마음으로 최선 다한다” 92·96 갈등 봉합…모레노 감독, 중동 2연...",
-    "summary": "여기에 대한 축구협회 장 선거도 올해 12월에서 내년으로 지연되면서 정식 사령탑 선임 과 모레노 감독 의 거취 역시 안갯속에 놓였다. 결국 중동 2연전의 무게는 더 커졌다. 선수단 내부 갈등설에 휩싸였던 대표팀을 빠르게...",
+    "summary": "여기에 대한 축구협회장 선거도 올해 12월에서 내년으로 지연되면서 정식 사령탑 선임과 모레노 감독의 거취 역시 안갯속에 놓였다. 결국 중동 2연전의 무게는 더 커졌다. 선수단 내부 갈등설에 휩싸였던 대표팀을 빠르게...",
     "url": "https://isplus.com/article/view/isp202611120166",
     "originalUrl": "https://isplus.com/article/view/isp202611120166",
     "publisher": "isplus.com",
@@ -309,6 +386,8 @@
     "collectedAt": "2026-11-12T17:44:34.199Z",
     "matchedKeywords": [
       "대한 축구협회",
+      "축구협회장",
+      "회장 선거",
       "감독",
       "사령탑",
       "선임"
@@ -322,12 +401,13 @@
       "축구협회장"
     ],
     "issueTags": [
+      "election",
       "coach-appointment"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -343,8 +423,8 @@
       ],
       "earliestPublishedAt": 1794495720000,
       "latestPublishedAt": 1794495720000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -461,8 +541,8 @@
       ],
       "earliestPublishedAt": 1794474000000,
       "latestPublishedAt": 1794474000000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -502,8 +582,8 @@
       ],
       "earliestPublishedAt": 1794469200000,
       "latestPublishedAt": 1794469200000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -556,8 +636,8 @@
       ],
       "earliestPublishedAt": 1794467100000,
       "latestPublishedAt": 1794467100000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -581,6 +661,31 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 26,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_6889a6dc0100946b",
+    "type": "news",
+    "title": "'국가대표 볼모' 은퇴 협박! 손흥민 왕따설·파벌설 등 드디어 오피셜 ...",
+    "summary": "대표팀의 주축인 손흥민, 이재성, 김민재, 황인범, 황희찬은 12일 대한축구협회( KFA )를 통해 최근 대표팀을 둘러싼 논란과 관련해 입장문을 밝혔다. 이들은 \"최근 대표팀과 관련한 여러 보도로 국민 여러분과 축구 팬...",
+    "url": "https://www.sportschosun.com/football/2026-11-12/202611120100086720008239",
+    "originalUrl": "https://www.sportschosun.com/football/2026-11-12/202611120100086720008239",
+    "publisher": "sportschosun.com",
+    "publishedAt": "2026-11-12T06:06:00.000Z",
+    "collectedAt": "2026-11-13T11:35:32.313Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "KFA"
+    ],
+    "discoveryQueries": [
+      "KFA"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 6,
     "relevanceTier": "secondary",
     "labels": []
   },
@@ -621,8 +726,8 @@
       ],
       "earliestPublishedAt": 1794463500000,
       "latestPublishedAt": 1794463500000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -666,8 +771,8 @@
       ],
       "earliestPublishedAt": 1794463320000,
       "latestPublishedAt": 1794463320000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -711,8 +816,8 @@
       ],
       "earliestPublishedAt": 1794461040000,
       "latestPublishedAt": 1794461040000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -759,8 +864,8 @@
       ],
       "earliestPublishedAt": 1794460200000,
       "latestPublishedAt": 1794460200000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -915,8 +1020,8 @@
       ],
       "earliestPublishedAt": 1794454200000,
       "latestPublishedAt": 1794454200000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -965,9 +1070,49 @@
       ],
       "earliestPublishedAt": 1794452340000,
       "latestPublishedAt": 1794452340000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
+  },
+  {
+    "id": "item_930697eec5fed89a",
+    "type": "news",
+    "title": "불화설에 결국 사과문까지…하루 전 포착된 손흥민·김민재·황희찬, 눈...",
+    "summary": "지난달 국회 문화체육관광위원회 국정감사에서 국민의힘 정연욱 의원은 이용수 대한축구협회장... 특히 논란의 중심이던 96라인 3명이 따로 해명 하지 않고 최고참 손흥민, 이재성까지 이름을 올린 '공동 입장문' 형식을...",
+    "url": "https://www.wikitree.co.kr/articles/1174004",
+    "originalUrl": "https://www.wikitree.co.kr/articles/1174004",
+    "publisher": "wikitree.co.kr",
+    "publishedAt": "2026-11-12T02:52:00.000Z",
+    "collectedAt": "2026-11-13T11:35:32.313Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
+      "감사",
+      "해명"
+    ],
+    "discoveryQueries": [
+      "\"이용수\" 감사",
+      "\"이용수\" 대한축구협회",
+      "\"이용수\" 축구협회",
+      "\"이용수\" 해명",
+      "대한축구협회장",
+      "축구협회 감사",
+      "축구협회장"
+    ],
+    "issueTags": [
+      "election",
+      "mcst-audit"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 18,
+    "relevanceTier": "secondary",
+    "labels": [
+      "해명 키워드 포함",
+      "감사 키워드 포함"
+    ]
   },
   {
     "id": "item_d1ed1e90e604b357",
@@ -1059,8 +1204,8 @@
       ],
       "earliestPublishedAt": 1794447720000,
       "latestPublishedAt": 1794447720000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -1152,8 +1297,8 @@
       ],
       "earliestPublishedAt": 1794446760000,
       "latestPublishedAt": 1794446760000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -1206,8 +1351,8 @@
       ],
       "earliestPublishedAt": 1794446580000,
       "latestPublishedAt": 1794446580000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -1258,8 +1403,8 @@
       ],
       "earliestPublishedAt": 1794445920000,
       "latestPublishedAt": 1794445920000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -1350,8 +1495,8 @@
       ],
       "earliestPublishedAt": 1794444600000,
       "latestPublishedAt": 1794444600000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -1473,8 +1618,8 @@
       ],
       "earliestPublishedAt": 1794443340000,
       "latestPublishedAt": 1794443340000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -1521,8 +1666,8 @@
       ],
       "earliestPublishedAt": 1794443160000,
       "latestPublishedAt": 1794443160000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -1569,8 +1714,8 @@
       ],
       "earliestPublishedAt": 1794442920000,
       "latestPublishedAt": 1794442920000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
@@ -1616,8 +1761,8 @@
       ],
       "earliestPublishedAt": 1794442620000,
       "latestPublishedAt": 1794442620000,
-      "representativeCollectedAt": 1794540972389,
-      "latestCollectedAt": 1794540972389
+      "representativeCollectedAt": 1794569732313,
+      "latestCollectedAt": 1794569732313
     }
   },
   {
