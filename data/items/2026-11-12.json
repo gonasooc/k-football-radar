@@ -3,7 +3,7 @@
     "id": "item_7f9f689680caaddc",
     "type": "news",
     "title": "오늘 '한국 사우디' 축구 중계 채널, 긴급 변경",
-    "summary": "당초 중계권을 가진 TV조선이 시청률 하락, 제작비 부담 등을 이유로 중계 포기를 알리면서, 대한축구 협회가... 새로운 축구협회장 이 선출될 예정인 만큼 새 지도부 아래서 정식 감독을 선임할 수도 있다\"고 말했다. 반면...",
+    "summary": "당초 중계권을 가진 TV조선이 시청률 하락, 제작비 부담 등을 이유로 중계 포기를 알리면서, 대한축구 협회가... 새로운 축구협회장 이 선출될 예정인 만큼 새 지도부 아래서 정식 감독을 선임할 수도 있다\"고 말했다.반면...",
     "url": "https://www.wikitree.co.kr/articles/1173325",
     "originalUrl": "https://www.wikitree.co.kr/articles/1173325",
     "publisher": "wikitree.co.kr",
@@ -29,7 +29,23 @@
     "isOfficial": false,
     "relevanceScore": 7,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1173325"
+      ],
+      "stories": [
+        "news|news|오늘 '한국 사우디' 축구 중계 채널, 긴급 변경|wikitree.co.kr|2026-11-12T22:30:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|오늘 '한국 사우디' 축구 중계 채널, 긴급 변경|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1794522600000,
+      "latestPublishedAt": 1794522600000,
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
+    }
   },
   {
     "id": "item_f5d5b39069636547",
@@ -63,7 +79,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "해명 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112909309"
+      ],
+      "stories": [
+        "news|news|\"손흥민·이재성은 피해자인데?\" 韓 축구, 경기 하루 전 '원팀 성명'에도...|osen.co.kr|2026-11-12T21:41:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"손흥민·이재성은 피해자인데?\" 韓 축구, 경기 하루 전 '원팀 성명'에도...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1794519660000,
+      "latestPublishedAt": 1794519660000,
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
+    }
   },
   {
     "id": "item_6c9ca074f6100aad",
@@ -102,7 +134,118 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 30,
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsworldi.com/newsView/20261113500390"
+      ],
+      "stories": [
+        "news|news|[로드 투 아시안컵②] 원점으로 돌아간 축구협회장 선거…아시안컵이 예...|sportsworldi.com|2026-11-12T21:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[로드 투 아시안컵②] 원점으로 돌아간 축구협회장 선거…아시안컵이 예...|sportsworldi.com"
+      ],
+      "earliestPublishedAt": 1794519120000,
+      "latestPublishedAt": 1794519120000,
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
+    }
+  },
+  {
+    "id": "item_4dcbd032c242a822",
+    "type": "news",
+    "title": "축구 국가대표 평가전, 13일 오후 11시 일정",
+    "summary": "대한 축구협회 는 당초 6경기를 치른 뒤 임시 감독 체제를 재평가할 계획이었으나, 아시안컵 일정 변경과 차기 집행부 구성 문제로 정식 사령탑 선임 시점은 불투명해졌다. 대표팀을 둘러싼 논란이 완전히 해소됐다고...",
+    "url": "https://www.bntnews.co.kr/article/view/bnt202611130006",
+    "originalUrl": "https://www.bntnews.co.kr/article/view/bnt202611130006",
+    "publisher": "bntnews.co.kr",
+    "publishedAt": "2026-11-12T21:28:00.000Z",
+    "collectedAt": "2026-11-13T03:36:12.389Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "집행부",
+      "감독",
+      "사령탑",
+      "선임",
+      "차기"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독 선임",
+      "축구협회 감독 선임",
+      "축구협회 집행부"
+    ],
+    "issueTags": [
+      "kfa-executives",
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 14,
+    "relevanceTier": "secondary",
     "labels": []
+  },
+  {
+    "id": "item_620298f3570a7738",
+    "type": "news",
+    "title": "[로드 투 아시안컵①] 최악의 1년 뒤 희망의 1년… 아시안컵·월드컵 향...",
+    "summary": "축구협회 는 각종 논란으로 국회 국정 감사 의 단골 소재가 됐다. 곳곳에서 잡음이 일면서 한때 국민적 자부심이었던 대표팀을 향한 팬들의 관심과 신뢰도 예전 같지 않다. 정우원 쿠팡플레이 해설위원은 “한국 축구 에...",
+    "url": "https://www.sportsworldi.com/newsView/20261112520068",
+    "originalUrl": "https://www.sportsworldi.com/newsView/20261112520068",
+    "publisher": "sportsworldi.com",
+    "publishedAt": "2026-11-12T21:04:00.000Z",
+    "collectedAt": "2026-11-13T03:36:12.389Z",
+    "matchedKeywords": [
+      "축구협회",
+      "감사"
+    ],
+    "discoveryQueries": [
+      "대표팀 감독 선임",
+      "대한축구협회장",
+      "축구협회 감독 선임",
+      "축구협회 감사",
+      "축구협회장"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 5,
+    "relevanceTier": "secondary",
+    "labels": [
+      "감사 키워드 포함"
+    ]
+  },
+  {
+    "id": "item_3957ee888d9fe126",
+    "type": "news",
+    "title": "\"손흥민 포함 5명, 이례적인 공동 성명\" 韓 축구 공식발표→일본도 집중...",
+    "summary": "여기에 지난달 6일 우즈베키스탄전 이후에는 김민재, 황인범, 황희찬 세 선수가 현영민 대한 축구협회 전력강화위원장과 자정을 넘겨서까지 면담한 끝에 마음을 돌린 것으로 알려졌다. 여기서 끝이 아니었다. 이른바...",
+    "url": "http://www.osen.co.kr/article/G1112909282",
+    "originalUrl": "http://www.osen.co.kr/article/G1112909282",
+    "publisher": "osen.co.kr",
+    "publishedAt": "2026-11-12T16:26:00.000Z",
+    "collectedAt": "2026-11-13T03:36:12.389Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "현영민"
+    ],
+    "discoveryQueries": [
+      "\"현영민\" 대한축구협회",
+      "\"현영민\" 축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hyun_young_min"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_551bb0470af83e2d",
@@ -150,8 +293,8 @@
       ],
       "earliestPublishedAt": 1794498120000,
       "latestPublishedAt": 1794498120000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -200,8 +343,8 @@
       ],
       "earliestPublishedAt": 1794495720000,
       "latestPublishedAt": 1794495720000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -302,8 +445,8 @@
       ],
       "earliestPublishedAt": 1794474000000,
       "latestPublishedAt": 1794474000000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -343,8 +486,8 @@
       ],
       "earliestPublishedAt": 1794469200000,
       "latestPublishedAt": 1794469200000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -397,8 +540,8 @@
       ],
       "earliestPublishedAt": 1794467100000,
       "latestPublishedAt": 1794467100000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -462,8 +605,8 @@
       ],
       "earliestPublishedAt": 1794463500000,
       "latestPublishedAt": 1794463500000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -507,8 +650,8 @@
       ],
       "earliestPublishedAt": 1794463320000,
       "latestPublishedAt": 1794463320000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -552,8 +695,8 @@
       ],
       "earliestPublishedAt": 1794461040000,
       "latestPublishedAt": 1794461040000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -600,8 +743,8 @@
       ],
       "earliestPublishedAt": 1794460200000,
       "latestPublishedAt": 1794460200000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -756,8 +899,8 @@
       ],
       "earliestPublishedAt": 1794454200000,
       "latestPublishedAt": 1794454200000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -806,8 +949,8 @@
       ],
       "earliestPublishedAt": 1794452340000,
       "latestPublishedAt": 1794452340000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -900,8 +1043,8 @@
       ],
       "earliestPublishedAt": 1794447720000,
       "latestPublishedAt": 1794447720000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -941,8 +1084,8 @@
       ],
       "earliestPublishedAt": 1794447720000,
       "latestPublishedAt": 1794447720000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -993,22 +1136,24 @@
       ],
       "earliestPublishedAt": 1794446760000,
       "latestPublishedAt": 1794446760000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
     "id": "item_4359f9aeeca44986",
     "type": "news",
     "title": "\"은퇴 조건으로 요구? 사실 아냐\" 손흥민·이재성·김민재·황인범·황희...",
-    "summary": "게다가 지난달 21일 국회 문화체육관광위원회 국정 감사 에서 국민의힘 정연욱 위원이 이용수 대한 축구협회 장 직무대행을 향해 대표팀 선수들이 손흥민을 '7번' 혹은 '그분' 등의 호칭으로 부르고 있는 사실을 알고 있는지...",
+    "summary": "게다가 지난달 21일 국회 문화체육관광위원회 국정 감사 에서 국민의힘 정연욱 위원이 이용수 대한축구협회장 직무대행을 향해 대표팀 선수들이 손흥민을 '7번' 혹은 '그분' 등의 호칭으로 부르고 있는 사실을 알고 있는지...",
     "url": "https://www.xportsnews.com/article/2218616",
     "originalUrl": "https://www.xportsnews.com/article/2218616",
     "publisher": "xportsnews.com",
     "publishedAt": "2026-11-12T01:23:00.000Z",
     "collectedAt": "2026-11-12T22:52:23.094Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장",
       "감사"
     ],
     "discoveryQueries": [
@@ -1021,16 +1166,33 @@
       "축구협회장"
     ],
     "issueTags": [
+      "election",
       "mcst-audit"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 12,
+    "relevanceScore": 16,
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2218616"
+      ],
+      "stories": [
+        "news|news|\"은퇴 조건으로 요구? 사실 아냐\" 손흥민·이재성·김민재·황인범·황희...|xportsnews.com|2026-11-12T01:23:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"은퇴 조건으로 요구? 사실 아냐\" 손흥민·이재성·김민재·황인범·황희...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1794446580000,
+      "latestPublishedAt": 1794446580000,
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
+    }
   },
   {
     "id": "item_cbc75e4ac9e4c483",
@@ -1080,8 +1242,8 @@
       ],
       "earliestPublishedAt": 1794445920000,
       "latestPublishedAt": 1794445920000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -1172,8 +1334,8 @@
       ],
       "earliestPublishedAt": 1794444600000,
       "latestPublishedAt": 1794444600000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -1295,8 +1457,8 @@
       ],
       "earliestPublishedAt": 1794443340000,
       "latestPublishedAt": 1794443340000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -1343,8 +1505,8 @@
       ],
       "earliestPublishedAt": 1794443160000,
       "latestPublishedAt": 1794443160000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -1391,8 +1553,8 @@
       ],
       "earliestPublishedAt": 1794442920000,
       "latestPublishedAt": 1794442920000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
@@ -1438,8 +1600,8 @@
       ],
       "earliestPublishedAt": 1794442620000,
       "latestPublishedAt": 1794442620000,
-      "representativeCollectedAt": 1794523943094,
-      "latestCollectedAt": 1794523943094
+      "representativeCollectedAt": 1794540972389,
+      "latestCollectedAt": 1794540972389
     }
   },
   {
