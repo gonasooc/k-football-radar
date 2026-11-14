@@ -1,9 +1,36 @@
 [
   {
+    "id": "item_500d9cee6ee5da1e",
+    "type": "news",
+    "title": "충돌로 공격수 숨지게 한 스페인 프로축구 GK, 12경기 출전정지",
+    "summary": "진심으로 되돌리고 싶은 끔찍한 사고\"라고 해명 했지만, 징계를 피할 수는 없었다. 오워노는 축구협회 징계를 넘어 형사 처벌을 받을 가능성도 있다. 스페인 경찰이 과실치사 가능성이 있는지 조사에 착수했기 때문이다....",
+    "url": "https://www.yna.co.kr/view/AKR20261114021200007?input=1195m",
+    "originalUrl": "https://www.yna.co.kr/view/AKR20261114021200007?input=1195m",
+    "publisher": "yna.co.kr",
+    "publishedAt": "2026-11-13T23:59:00.000Z",
+    "collectedAt": "2026-11-14T07:01:59.086Z",
+    "matchedKeywords": [
+      "축구협회",
+      "해명"
+    ],
+    "discoveryQueries": [
+      "축구협회 해명"
+    ],
+    "issueTags": [],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 5,
+    "relevanceTier": "secondary",
+    "labels": [
+      "해명 키워드 포함"
+    ]
+  },
+  {
     "id": "item_8ab31c6a34b3bc10",
     "type": "news",
     "title": "'홍명보 사퇴 과정' 보고 듣고 분석했던 모레노, '주장' SON 교체 결단 못...",
-    "summary": "그러나 모레노 감독 은 대표팀 을 맡고 5경기를 지휘하며 유독 손흥민을 교체하지 못하고 있다. 실제로, 34세 베테랑은 에콰도르전 85분, 우루과이전 90분, 베네수엘라전 85분, 우즈베키스탄전 71분, 사우디전 90분을 치르며 단...",
+    "summary": "당연히 홍명보 전 감독이 손흥민의 출전 시간을 조절하는 과정에서 일부 불필요한 마찰을 겪게 된 사실과 이로 인한 여론 역시 명확하게 인지하고 있다. 사진=뉴스1, 대한 축구협회",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553700273",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553700273",
     "publisher": "sportalkorea.com",
@@ -11,7 +38,8 @@
     "collectedAt": "2026-11-13T23:55:54.091Z",
     "matchedKeywords": [
       "홍명보",
-      "사퇴"
+      "사퇴",
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -25,10 +53,26 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 13,
+    "relevanceScore": 22,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553700273"
+      ],
+      "stories": [
+        "news|news|'홍명보 사퇴 과정' 보고 듣고 분석했던 모레노, '주장' son 교체 결단 못...|sportalkorea.com|2026-11-13T23:50:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'홍명보 사퇴 과정' 보고 듣고 분석했던 모레노, '주장' son 교체 결단 못...|sportalkorea.com"
+      ],
+      "earliestPublishedAt": 1794613800000,
+      "latestPublishedAt": 1794613800000,
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
+    }
   },
   {
     "id": "item_337ca53bf276935a",
@@ -69,7 +113,23 @@
     "relevanceScore": 18,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019749"
+      ],
+      "stories": [
+        "news|news|\"홍명보 보다 나은 게 없다\" 모레노, 정식 감독 선임 의문부호…사우디...|spotvnews.co.kr|2026-11-13T21:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"홍명보 보다 나은 게 없다\" 모레노, 정식 감독 선임 의문부호…사우디...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1794606360000,
+      "latestPublishedAt": 1794606360000,
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
+    }
   },
   {
     "id": "item_4d7a9429e7ea40b0",
@@ -98,7 +158,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newscj.com/news/articleView.html?idxno=3448641"
+      ],
+      "stories": [
+        "news|news|사우디에 무너진 모레노호… 42년 만의 3실점|newscj.com|2026-11-13T21:20:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|사우디에 무너진 모레노호… 42년 만의 3실점|newscj.com"
+      ],
+      "earliestPublishedAt": 1794604800000,
+      "latestPublishedAt": 1794604800000,
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
+    }
   },
   {
     "id": "item_a8bd7f8a85a1bdea",
@@ -128,7 +204,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.stoo.com/article.php?aid=109894581290"
+      ],
+      "stories": [
+        "news|news|'비효율적 압박·수비 불안' 모레노호, 손흥민·96라인 손 잡았음에도 분...|stoo.com|2026-11-13T17:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'비효율적 압박·수비 불안' 모레노호, 손흥민·96라인 손 잡았음에도 분...|stoo.com"
+      ],
+      "earliestPublishedAt": 1794589200000,
+      "latestPublishedAt": 1794589200000,
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
+    }
   },
   {
     "id": "item_b11d30700cefc97b",
@@ -171,8 +263,8 @@
       ],
       "earliestPublishedAt": 1794588720000,
       "latestPublishedAt": 1794588720000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -218,8 +310,8 @@
       ],
       "earliestPublishedAt": 1794588360000,
       "latestPublishedAt": 1794588360000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -263,8 +355,8 @@
       ],
       "earliestPublishedAt": 1794587820000,
       "latestPublishedAt": 1794587820000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -310,8 +402,8 @@
       ],
       "earliestPublishedAt": 1794587640000,
       "latestPublishedAt": 1794587640000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -516,8 +608,8 @@
       ],
       "earliestPublishedAt": 1794583440000,
       "latestPublishedAt": 1794583440000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -566,8 +658,8 @@
       ],
       "earliestPublishedAt": 1794580200000,
       "latestPublishedAt": 1794580200000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -682,8 +774,8 @@
       ],
       "earliestPublishedAt": 1794577860000,
       "latestPublishedAt": 1794577860000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -730,8 +822,8 @@
       ],
       "earliestPublishedAt": 1794576840000,
       "latestPublishedAt": 1794576840000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -774,8 +866,8 @@
       ],
       "earliestPublishedAt": 1794570360000,
       "latestPublishedAt": 1794570360000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -824,8 +916,8 @@
       ],
       "earliestPublishedAt": 1794564600000,
       "latestPublishedAt": 1794564600000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -873,8 +965,8 @@
       ],
       "earliestPublishedAt": 1794562620000,
       "latestPublishedAt": 1794562620000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -921,8 +1013,8 @@
       ],
       "earliestPublishedAt": 1794562440000,
       "latestPublishedAt": 1794562440000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -995,8 +1087,8 @@
       ],
       "earliestPublishedAt": 1794560460000,
       "latestPublishedAt": 1794560460000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -1162,8 +1254,8 @@
       ],
       "earliestPublishedAt": 1794549480000,
       "latestPublishedAt": 1794549480000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -1218,8 +1310,8 @@
       ],
       "earliestPublishedAt": 1794547740000,
       "latestPublishedAt": 1794547740000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -1277,8 +1369,8 @@
       ],
       "earliestPublishedAt": 1794542040000,
       "latestPublishedAt": 1794542040000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -1326,8 +1418,8 @@
       ],
       "earliestPublishedAt": 1794535740000,
       "latestPublishedAt": 1794535740000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   },
   {
@@ -1427,8 +1519,8 @@
       ],
       "earliestPublishedAt": 1794534000000,
       "latestPublishedAt": 1794534000000,
-      "representativeCollectedAt": 1794614154091,
-      "latestCollectedAt": 1794614154091
+      "representativeCollectedAt": 1794639719086,
+      "latestCollectedAt": 1794639719086
     }
   }
 ]
