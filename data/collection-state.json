@@ -1,27 +1,27 @@
 {
-  "lastCollectedAt": "2026-11-15T06:36:20.955Z",
-  "lastRunStatus": "partial",
-  "lastRunNewItems": 0,
-  "totalItems": 4233,
+  "lastCollectedAt": "2026-11-15T11:30:40.228Z",
+  "lastRunStatus": "success",
+  "lastRunNewItems": 6,
+  "totalItems": 4210,
   "collectors": {
     "naver": {
-      "lastCollectedAt": "2026-11-15T03:05:42.475Z",
+      "lastCollectedAt": "2026-11-15T11:30:40.228Z",
       "lastRunStatus": "success",
-      "lastRunNewItems": 1,
-      "totalItems": 3486
+      "lastRunNewItems": 6,
+      "totalItems": 3466
     },
     "official": {
-      "lastCollectedAt": "2026-11-15T03:05:42.475Z",
+      "lastCollectedAt": "2026-11-15T11:30:40.228Z",
       "lastRunStatus": "success",
       "lastRunNewItems": 0,
       "totalItems": 1
     },
     "youtube": {
-      "collectionCursor": "2026-11-13T19:43:23.765Z",
       "lastCollectedAt": "2026-11-15T06:36:20.955Z",
+      "collectionCursor": "2026-11-13T19:43:23.765Z",
       "lastRunStatus": "partial",
       "lastRunNewItems": 0,
-      "totalItems": 746
+      "totalItems": 743
     }
   }
 }
