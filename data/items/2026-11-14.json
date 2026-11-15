@@ -452,6 +452,22 @@
     "relevanceScore": 10,
     "relevanceTier": "secondary",
     "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=eR3riFi5iFQ"
+      ],
+      "stories": [
+        "youtube|youtube|[사상 초유의 충격] 한국, 사우디전에서 42년 만에 3실점 굴욕! 모레노의 발언 뒤 다시 불거진 kfa 논란… 6경기 임시 감독 체제의 진실은?|축구뉴스룸|2026-11-14T07:43:22Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|[사상 초유의 충격] 한국, 사우디전에서 42년 만에 3실점 굴욕! 모레노의 발언 뒤 다시 불거진 kfa 논란… 6경기 임시 감독 체제의 진실은?|축구뉴스룸"
+      ],
+      "earliestPublishedAt": 1794642202000,
+      "latestPublishedAt": 1794642202000,
+      "representativeCollectedAt": 1794724506213,
+      "latestCollectedAt": 1794724506213
+    },
     "youtube": {
       "videoId": "eR3riFi5iFQ",
       "channelId": "UC0YH4rpshaql5BxV7pjcbUQ",
@@ -678,8 +694,8 @@
       ],
       "earliestPublishedAt": 1794622634000,
       "latestPublishedAt": 1794622634000,
-      "representativeCollectedAt": 1794679412854,
-      "latestCollectedAt": 1794679412854
+      "representativeCollectedAt": 1794724506213,
+      "latestCollectedAt": 1794724506213
     },
     "youtube": {
       "videoId": "eN-CzamDRSE",
