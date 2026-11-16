@@ -147,8 +147,8 @@
       ],
       "earliestPublishedAt": 1793743080000,
       "latestPublishedAt": 1793743080000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -457,8 +457,8 @@
       ],
       "earliestPublishedAt": 1793725800000,
       "latestPublishedAt": 1793725800000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -608,8 +608,8 @@
       ],
       "earliestPublishedAt": 1793717640000,
       "latestPublishedAt": 1793717640000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -768,8 +768,8 @@
       ],
       "earliestPublishedAt": 1793710980000,
       "latestPublishedAt": 1793710980000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -896,25 +896,25 @@
       ],
       "earliestPublishedAt": 1793707320000,
       "latestPublishedAt": 1793707320000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
     "id": "item_1e7c69ea04f25608",
     "type": "news",
     "title": "[단독]KFA 회장 보궐 선거 연내 어렵다? 12월18일 사실상 무산…“이사...",
-    "summary": "대한 축구협회 (KFA)가 목표대로 12월18일 새 회장 을 뽑을 수 있을까. 현재로서는 쉽지 않아 보인다. 정부 주도로 탄생한 케이- 축구 혁신위원회(혁신위)가 내놓은 선거 제도 개혁안을 토대로 미래를 그리는데, 기존 선거 ...",
+    "summary": "정몽규 전 회장이 물러나며 ‘수장 공백’ 사태를 4개월째 보내는 대한축구협회 (KFA)가 목표대로 12월18일 새... 특히 A는 지난 정몽규 4선 당시 허정무 캠프에서 일한 인사를 선거 사무원으로 둘 것으로 알려졌다. 이밖에...",
     "url": "https://www.sportsseoul.com/news/read/1646548?ref=naver",
     "originalUrl": "https://www.sportsseoul.com/news/read/1646548?ref=naver",
     "publisher": "sportsseoul.com",
     "publishedAt": "2026-11-03T12:02:00.000Z",
     "collectedAt": "2026-11-03T15:29:05.221Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "KFA",
-      "혁신위원회",
-      "축구 혁신"
+      "정몽규",
+      "허정무"
     ],
     "discoveryQueries": [
       "\"김승희\" 감사",
@@ -951,15 +951,18 @@
       "축구협회 회장 선거",
       "KFA"
     ],
-    "issueTags": [
-      "innovation-committee"
+    "issueTags": [],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_huh_jung_moo"
     ],
-    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 12,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -973,8 +976,8 @@
       ],
       "earliestPublishedAt": 1793707320000,
       "latestPublishedAt": 1793707320000,
-      "representativeCollectedAt": 1793878262222,
-      "latestCollectedAt": 1793878262222
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -1254,8 +1257,8 @@
       ],
       "earliestPublishedAt": 1793698080000,
       "latestPublishedAt": 1793698080000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -1468,8 +1471,8 @@
       ],
       "earliestPublishedAt": 1793695920000,
       "latestPublishedAt": 1793695920000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -1530,8 +1533,8 @@
       ],
       "earliestPublishedAt": 1793695020000,
       "latestPublishedAt": 1793695020000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -2195,8 +2198,8 @@
       ],
       "earliestPublishedAt": 1793688120000,
       "latestPublishedAt": 1793688120000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {

@@ -22,7 +22,23 @@
     "isOfficial": false,
     "relevanceScore": 3,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://isplus.com/article/view/isp202611150044"
+      ],
+      "stories": [
+        "news|news|색깔 내기엔 무리였나…위기 놓인 모레노 감독|isplus.com|2026-11-15T23:11:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|색깔 내기엔 무리였나…위기 놓인 모레노 감독|isplus.com"
+      ],
+      "earliestPublishedAt": 1794784260000,
+      "latestPublishedAt": 1794784260000,
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
+    }
   },
   {
     "id": "item_de87cdace8e58953",
@@ -59,7 +75,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.tf.co.kr/read/baseball/2389006.htm"
+      ],
+      "stories": [
+        "news|news|더 멀어진 일본, '대책 없는' 한국 야구·축구는 어디로 가나 [박순규의...|news.tf.co.kr|2026-11-15T23:11:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|더 멀어진 일본, '대책 없는' 한국 야구·축구는 어디로 가나 [박순규의...|news.tf.co.kr"
+      ],
+      "earliestPublishedAt": 1794784260000,
+      "latestPublishedAt": 1794784260000,
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
+    }
   },
   {
     "id": "item_6cc5f934a1d0f0b3",
@@ -146,8 +178,8 @@
       ],
       "earliestPublishedAt": 1794781320000,
       "latestPublishedAt": 1794781320000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -206,8 +238,8 @@
       ],
       "earliestPublishedAt": 1794779280000,
       "latestPublishedAt": 1794779280000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -253,8 +285,8 @@
       ],
       "earliestPublishedAt": 1794776400000,
       "latestPublishedAt": 1794776400000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -324,8 +356,8 @@
       ],
       "earliestPublishedAt": 1794773520000,
       "latestPublishedAt": 1794773520000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -370,22 +402,51 @@
       ],
       "earliestPublishedAt": 1794750180000,
       "latestPublishedAt": 1794750180000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
+  },
+  {
+    "id": "item_8f20a1979109e9c3",
+    "type": "news",
+    "title": "'무색·무취' 모레노호, 올해 마지막 A매치 잡을까",
+    "summary": "대한 축구협회 는 경기 결과와 내용 등을 종합적으로 평가해 정식 감독 선임 여부를 검토할 예정이었다. 하지만 모레노호의 출발과 달리 시간이 흐를수록 기대감은 실망으로 바뀌었다. 부임 첫 경기에서 에콰도르를 3...",
+    "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=565357",
+    "originalUrl": "https://www.idaegu.co.kr/news/articleView.html?idxno=565357",
+    "publisher": "idaegu.co.kr",
+    "publishedAt": "2026-11-15T12:24:00.000Z",
+    "collectedAt": "2026-11-16T12:03:37.503Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독 선임",
+      "감독",
+      "선임"
+    ],
+    "discoveryQueries": [
+      "축구협회 감독 선임"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_7dfe4fb3432c0048",
     "type": "news",
     "title": "불화설 논란 내부적으로 풀었다지만... 사우디에 패한 모레노호, 카타르...",
-    "summary": "로베르트 모레노(49·스페인) 임시 감독 이 이끄는 축구 대표팀 은 17일 카타르 도하의 압둘라 빈 칼리파... 27일 대한축구협회와 계약을 종료하는 모레노 감독 은 6경기 성적에 따라 정식 감독 선임 여부 가능성을...",
+    "summary": "27일 대한 축구협회 와 계약을 종료하는 모레노 감독 은 6경기 성적에 따라 정식 감독 선임 여부 가능성을 열어뒀지만 기대에 미치지 못한 상황이다. 손흥민도 한국 남자 선수 최초 A매치 60호 골을 목전에 두고 있다.",
     "url": "https://www.hankookilbo.com/news/article/A2026111516350002553?did=NA",
     "originalUrl": "https://www.hankookilbo.com/news/article/A2026111516350002553?did=NA",
     "publisher": "hankookilbo.com",
     "publishedAt": "2026-11-15T09:01:00.000Z",
     "collectedAt": "2026-11-15T11:30:40.405Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "대한 축구협회",
       "감독 선임",
       "감독",
       "선임"
@@ -417,8 +478,8 @@
       ],
       "earliestPublishedAt": 1794733260000,
       "latestPublishedAt": 1794733260000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -468,8 +529,8 @@
       ],
       "earliestPublishedAt": 1794731460000,
       "latestPublishedAt": 1794731460000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -515,8 +576,8 @@
       ],
       "earliestPublishedAt": 1794723960000,
       "latestPublishedAt": 1794723960000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -564,8 +625,8 @@
       ],
       "earliestPublishedAt": 1794717000000,
       "latestPublishedAt": 1794717000000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   },
   {
@@ -611,8 +672,8 @@
       ],
       "earliestPublishedAt": 1794715800000,
       "latestPublishedAt": 1794715800000,
-      "representativeCollectedAt": 1794798556088,
-      "latestCollectedAt": 1794798556088
+      "representativeCollectedAt": 1794830617503,
+      "latestCollectedAt": 1794830617503
     }
   }
 ]
