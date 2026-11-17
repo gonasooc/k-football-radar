@@ -121,7 +121,7 @@
     "id": "item_2d3aaffd31fe6319",
     "type": "news",
     "title": "\"브라질-파라과이 잡아 FIFA랭킹 올려 월드컵에 대비하자\" 명확한 목표 ...",
-    "summary": "정몽규 전 회장 이 지난 7월 물러난 뒤 대한 축구협회 는 차기 회장 선출을 준비해 왔다. 당초 오는 12월 18일 선거 를 치를 예정이었으나 국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)의 제동으로 연내 선거 가 사실상 무산됐다....",
+    "summary": "정몽규 전 회장이 지난 7월 물러난 뒤 대한 축구협회 는 차기 회장 선출을 준비해 왔다. 당초 오는 12월 18일 선거를 치를 예정이었으나 국제 축구 연맹(FIFA)과 아시아 축구 연맹(AFC)의 제동으로 연내 선거가 사실상 무산됐다....",
     "url": "http://www.osen.co.kr/article/G1112910831",
     "originalUrl": "http://www.osen.co.kr/article/G1112910831",
     "publisher": "osen.co.kr",
@@ -178,8 +178,8 @@
       ],
       "earliestPublishedAt": 1794781320000,
       "latestPublishedAt": 1794781320000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -238,8 +238,8 @@
       ],
       "earliestPublishedAt": 1794779280000,
       "latestPublishedAt": 1794779280000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -285,8 +285,8 @@
       ],
       "earliestPublishedAt": 1794776400000,
       "latestPublishedAt": 1794776400000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -338,7 +338,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112910766"
+      ],
+      "stories": [
+        "news|news|혁신위 행정은 제자리걸음인데 일본은 세계로 간다...fifa 제동에 kfa 회...|osen.co.kr|2026-11-15T20:12:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|혁신위 행정은 제자리걸음인데 일본은 세계로 간다...fifa 제동에 kfa 회...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1794773520000,
+      "latestPublishedAt": 1794773520000,
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
+    }
   },
   {
     "id": "item_0c8e092ee286b366",
@@ -407,9 +423,63 @@
       ],
       "earliestPublishedAt": 1794773520000,
       "latestPublishedAt": 1794773520000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
+  },
+  {
+    "id": "item_e706e93d2f7033ef",
+    "type": "news",
+    "title": "브라질 이긴 일본 축구, 사우디에 무너진 한국 축구… 모레노 감독과의...",
+    "summary": "정부 주도로 출범한 혁신위원회 의 활동이 축구협회 의 독립성을 침해할 수 있다는 우려가 진즉에 불거졌지만, 협회 는 지켜만 보고 있었다. 결국 협회 장 선거는 연내 치르기 어려워졌다. 대표팀이 언제까지 표류할 지 알...",
+    "url": "https://www.sportsworldi.com/newsView/20261115507796",
+    "originalUrl": "https://www.sportsworldi.com/newsView/20261115507796",
+    "publisher": "sportsworldi.com",
+    "publishedAt": "2026-11-15T20:02:00.000Z",
+    "collectedAt": "2026-11-17T14:54:40.386Z",
+    "matchedKeywords": [
+      "혁신위원회"
+    ],
+    "discoveryQueries": [
+      "축구협회 혁신위원회"
+    ],
+    "issueTags": [
+      "innovation-committee"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 4,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
+    "id": "item_73bdb4c87a458f97",
+    "type": "news",
+    "title": "日 축구 대참사 위기! 브라질 이겼는데 무슨 일?…'FIFA 회장 출마' 다시...",
+    "summary": "FIFA 회장 선거 정식 후보 로 등록 하려면 FIFA 회원국 축구협회 5곳의 지지가 필요한데, 다시마가 후보 등록 을 사흘여 앞두고 아직 자신을 지지할 세력을 확보하지 못한 것이다. 후보 등록 은 현지시간으로 18일 마감된다....",
+    "url": "https://www.xportsnews.com/article/2219885",
+    "originalUrl": "https://www.xportsnews.com/article/2219885",
+    "publisher": "xportsnews.com",
+    "publishedAt": "2026-11-15T16:05:00.000Z",
+    "collectedAt": "2026-11-17T14:54:40.386Z",
+    "matchedKeywords": [
+      "축구협회",
+      "회장 선거",
+      "후보 등록"
+    ],
+    "discoveryQueries": [
+      "축구협회 후보 등록"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 7,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_1bcc4df17f209d3c",
@@ -453,8 +523,8 @@
       ],
       "earliestPublishedAt": 1794750180000,
       "latestPublishedAt": 1794750180000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -596,9 +666,39 @@
       ],
       "earliestPublishedAt": 1794731460000,
       "latestPublishedAt": 1794731460000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
+  },
+  {
+    "id": "item_abe4e19dbdc8d0f7",
+    "type": "news",
+    "title": "보여준 것 없는 모레노호... 한국 축구는 제자리걸음만",
+    "summary": "대한 축구협회 제공 | 서울=한스경제 박종민 기자 | 2승 1무 2패. 오는 27일 계약이 끝나는 '임시 사령탑... 그러나 홍명보 호의 실패를 겪었던 한국 축구 의 기대에는 크게 미치지 못했다. 모레노 감독은 지휘봉을 잡은 첫...",
+    "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=883406",
+    "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=883406",
+    "publisher": "hansbiz.co.kr",
+    "publishedAt": "2026-11-15T06:58:00.000Z",
+    "collectedAt": "2026-11-17T14:54:40.386Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_a0ee3a067ae7d269",
@@ -643,8 +743,8 @@
       ],
       "earliestPublishedAt": 1794723960000,
       "latestPublishedAt": 1794723960000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -692,8 +792,8 @@
       ],
       "earliestPublishedAt": 1794717000000,
       "latestPublishedAt": 1794717000000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {

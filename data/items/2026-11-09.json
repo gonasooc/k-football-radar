@@ -58,8 +58,8 @@
       ],
       "earliestPublishedAt": 1794238920000,
       "latestPublishedAt": 1794238920000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -253,8 +253,8 @@
       ],
       "earliestPublishedAt": 1794234540000,
       "latestPublishedAt": 1794234540000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -421,8 +421,8 @@
       ],
       "earliestPublishedAt": 1794228720000,
       "latestPublishedAt": 1794261540000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -491,8 +491,8 @@
       ],
       "earliestPublishedAt": 1794228360000,
       "latestPublishedAt": 1794228360000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -734,8 +734,8 @@
       ],
       "earliestPublishedAt": 1794225120000,
       "latestPublishedAt": 1794225120000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -1286,8 +1286,8 @@
       ],
       "earliestPublishedAt": 1794215940000,
       "latestPublishedAt": 1794215940000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -1403,7 +1403,7 @@
     "id": "item_d1d239390ec3320c",
     "type": "news",
     "title": "[포커스] KFA 회장선거, 왜 '내년 3월 안에 치러야 한다'는 말이 나올까",
-    "summary": "정몽규 전 대한 축구협회 장이 사임한 날짜는 지난 7월 6일이다. 기존 대한체육회 규정에 따르면 회장 궐위 시 60일 이내에 후임 회장을 선출해야 한다. 그러나 대한 축구협회 는 K- 축구 혁신위원회를 중심으로 선거제도...",
+    "summary": "축구협회 장 직무대행이 국정감사에서 공표한 12월 18일 회장 선거 일정이 국제 축구 연맹(FIFA)의 정관 개정 ... 반대로 대한 축구협회 가 국내 규정 에 맞춰 선거인단 확대를 강행하는 것도 사실상 어려운 상황이다. FIFA가 이미...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018890",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1018890",
     "publisher": "spotvnews.co.kr",
@@ -1412,9 +1412,12 @@
     "matchedKeywords": [
       "KFA",
       "대한 축구협회",
-      "혁신위원회",
-      "축구 혁신",
-      "정몽규"
+      "회장 선거",
+      "선거인단",
+      "선거인",
+      "정관",
+      "정관 개정",
+      "감사"
     ],
     "discoveryQueries": [
       "\"이용수\" 감사",
@@ -1444,16 +1447,17 @@
       "KFA"
     ],
     "issueTags": [
-      "innovation-committee"
+      "election",
+      "electoral-college",
+      "statute-revision"
     ],
-    "personTags": [
-      "person_chung_mong_gyu"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 33,
+    "relevanceScore": 42,
     "labels": [
-      "인물 언급"
+      "감사 키워드 포함",
+      "선거 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -1468,15 +1472,15 @@
       ],
       "earliestPublishedAt": 1794207360000,
       "latestPublishedAt": 1794207360000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
     "id": "item_0dcd8ee8d418230d",
     "type": "news",
     "title": "\"정몽규로 당하고도 정신 못 차렸나\"…축구협회장 선거 또 원점, FIFA 제...",
-    "summary": "정몽규 전 대한 축구협회 장이 물러난 뒤 한국 축구 가 추진하던 선거 제도 개혁이 국제 축구 연맹(FIFA)의 제동에 걸렸다. 기존 192명 수준이던 회장 선거인단을 2만명으로 확대해 소수 관계자 중심의 선거 구조를 바꾸려던...",
+    "summary": "정몽규 전 대한축구협회장이 물러난 뒤 한국 축구가 추진하던 선거 제도 개혁이 국제축구연맹(FIFA)의 제동에... 특히 위르겐 클린스만 전 감독 선임과 경질, 홍명보 감독 선임 절차를 둘러싼 공정성 논란은 협회에 대한...",
     "url": "https://www.ftimes.kr/news/articleView.html?idxno=40964",
     "originalUrl": "https://www.ftimes.kr/news/articleView.html?idxno=40964",
     "publisher": "ftimes.kr",
@@ -1486,9 +1490,12 @@
       "회장 선거",
       "정몽규",
       "축구협회장",
-      "대한 축구협회",
-      "선거인단",
-      "선거인"
+      "대한축구협회",
+      "대한축구협회장",
+      "감독 선임",
+      "감독",
+      "선임",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"박지성\" 대한축구협회",
@@ -1523,17 +1530,17 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college"
+      "coach-appointment"
     ],
     "personTags": [
-      "person_chung_mong_gyu"
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 47,
+    "relevanceScore": 48,
     "labels": [
-      "인물 언급",
-      "선거 키워드 포함"
+      "인물 언급"
     ],
     "dedupeState": {
       "version": 1,
@@ -1548,8 +1555,8 @@
       ],
       "earliestPublishedAt": 1794206040000,
       "latestPublishedAt": 1794206040000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -1619,8 +1626,8 @@
       ],
       "earliestPublishedAt": 1794202980000,
       "latestPublishedAt": 1794202980000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -1683,15 +1690,15 @@
       ],
       "earliestPublishedAt": 1794202200000,
       "latestPublishedAt": 1794202200000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
     "id": "item_80828e9b990a0cab",
     "type": "news",
     "title": "혼돈의 축구협회, FIFA 제동에 ‘연내 회장 선거’ 무산…모레노 거취도...",
-    "summary": "연내 회장 선거를 치르려던 대한 축구협회 의 계획이 국제 축구 연맹(FIFA)의 제동으로 사실상 무산됐다.... 아시안컵 연기로 대표팀은 내년 3월 첫 A매치를 치를 예정인데 새 집행부 출범 이후 감독 선임 절차를 시작할 경우...",
+    "summary": "대한 축구협회 는 애초 연내 새로운 회장 선출을 목표로 두고 이번 주 임시 대의원총회와 이사회를 열어 선거 관련 정관 을 개정 할 방침이었는데, FIFA의 우려 표명으로 재검토가 불가피해져 이를 연기했다. 이에 따라 회장...",
     "url": "https://www.dailian.co.kr/news/view/1712455/?sc=Naver",
     "originalUrl": "https://www.dailian.co.kr/news/view/1712455/?sc=Naver",
     "publisher": "dailian.co.kr",
@@ -1701,7 +1708,9 @@
       "축구협회",
       "회장 선거",
       "대한 축구협회",
-      "집행부"
+      "대의원",
+      "정관",
+      "이사회"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1727,12 +1736,14 @@
     ],
     "issueTags": [
       "election",
+      "electoral-college",
+      "statute-revision",
       "kfa-executives"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 34,
+    "relevanceScore": 40,
     "labels": [],
     "dedupeState": {
       "version": 1,
@@ -1747,8 +1758,8 @@
       ],
       "earliestPublishedAt": 1794197520000,
       "latestPublishedAt": 1794197520000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -1795,8 +1806,8 @@
       ],
       "earliestPublishedAt": 1794195540000,
       "latestPublishedAt": 1794195540000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -1980,8 +1991,8 @@
       ],
       "earliestPublishedAt": 1794190320000,
       "latestPublishedAt": 1794190320000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -2041,8 +2052,8 @@
       ],
       "earliestPublishedAt": 1794188640000,
       "latestPublishedAt": 1794188640000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   },
   {
@@ -2113,8 +2124,8 @@
       ],
       "earliestPublishedAt": 1794186840000,
       "latestPublishedAt": 1794186840000,
-      "representativeCollectedAt": 1794890841997,
-      "latestCollectedAt": 1794890841997
+      "representativeCollectedAt": 1794927280386,
+      "latestCollectedAt": 1794927280386
     }
   }
 ]
