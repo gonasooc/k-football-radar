@@ -178,8 +178,8 @@
       ],
       "earliestPublishedAt": 1794781320000,
       "latestPublishedAt": 1794781320000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -238,8 +238,8 @@
       ],
       "earliestPublishedAt": 1794779280000,
       "latestPublishedAt": 1794779280000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -285,8 +285,8 @@
       ],
       "earliestPublishedAt": 1794776400000,
       "latestPublishedAt": 1794776400000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -352,8 +352,8 @@
       ],
       "earliestPublishedAt": 1794773520000,
       "latestPublishedAt": 1794773520000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -423,8 +423,8 @@
       ],
       "earliestPublishedAt": 1794773520000,
       "latestPublishedAt": 1794773520000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -451,7 +451,23 @@
     "isOfficial": false,
     "relevanceScore": 4,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsworldi.com/newsView/20261115507796"
+      ],
+      "stories": [
+        "news|news|브라질 이긴 일본 축구, 사우디에 무너진 한국 축구… 모레노 감독과의...|sportsworldi.com|2026-11-15T20:02:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|브라질 이긴 일본 축구, 사우디에 무너진 한국 축구… 모레노 감독과의...|sportsworldi.com"
+      ],
+      "earliestPublishedAt": 1794772920000,
+      "latestPublishedAt": 1794772920000,
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
+    }
   },
   {
     "id": "item_73bdb4c87a458f97",
@@ -479,13 +495,29 @@
     "isOfficial": false,
     "relevanceScore": 7,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.xportsnews.com/article/2219885"
+      ],
+      "stories": [
+        "news|news|日 축구 대참사 위기! 브라질 이겼는데 무슨 일?…'fifa 회장 출마' 다시...|xportsnews.com|2026-11-15T16:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|日 축구 대참사 위기! 브라질 이겼는데 무슨 일?…'fifa 회장 출마' 다시...|xportsnews.com"
+      ],
+      "earliestPublishedAt": 1794758700000,
+      "latestPublishedAt": 1794758700000,
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
+    }
   },
   {
     "id": "item_1bcc4df17f209d3c",
     "type": "news",
     "title": "\"홍명보 연봉 반납하라\"던 한정수, 이번엔 야구 저격…\"축구보다 더 엉...",
-    "summary": "앞서 그는 지난 6월 2026 북중미 월드컵에서 한국 축구 대표팀이 32강 진출에 실패하자 홍명보 당시 감독을... 대한 축구협회 를 향해서도 조직을 전면 개편해야 한다는 취지의 발언을 이어가며 축구 계의 변화를 촉구한 바...",
+    "summary": "앞서 그는 지난 6월 2026 북중미 월드컵에서 한국 축구 대표팀이 32강 진출에 실패하자 홍명보 당시 감독을... 대한축구협회 를 향해서도 조직을 전면 개편해야 한다는 취지의 발언을 이어가며 축구 계의 변화를 촉구한 바...",
     "url": "https://www.mydaily.co.kr/page/view/2026111521410399099",
     "originalUrl": "https://www.mydaily.co.kr/page/view/2026111521410399099",
     "publisher": "mydaily.co.kr",
@@ -493,7 +525,7 @@
     "collectedAt": "2026-11-15T17:59:08.276Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -523,8 +555,8 @@
       ],
       "earliestPublishedAt": 1794750180000,
       "latestPublishedAt": 1794750180000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -666,8 +698,8 @@
       ],
       "earliestPublishedAt": 1794731460000,
       "latestPublishedAt": 1794731460000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -743,8 +775,8 @@
       ],
       "earliestPublishedAt": 1794723960000,
       "latestPublishedAt": 1794723960000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -792,8 +824,8 @@
       ],
       "earliestPublishedAt": 1794717000000,
       "latestPublishedAt": 1794717000000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {

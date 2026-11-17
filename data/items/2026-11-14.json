@@ -287,8 +287,8 @@
       ],
       "earliestPublishedAt": 1794682800000,
       "latestPublishedAt": 1794682800000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -348,8 +348,8 @@
       ],
       "earliestPublishedAt": 1794668760000,
       "latestPublishedAt": 1794668760000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -396,7 +396,7 @@
     "id": "item_7b9a0e769702de82",
     "type": "news",
     "title": "\"홍명보보다 나은 게 뭐야\" 축구 팬들 불만 폭발! 소방수로 기대 모았던...",
-    "summary": "당초 대한 축구협회 는 9월과 10월에 치른 평가전 4경기, 11월 A매치 2경기까지 총 6경기의 성과를 종합적으로... 특히 전임 홍명보 감독과 비교하는 목소리까지 등장했다. \" 홍명보 보다 나은 게 없다\", \"감독을 바꿨는데 무엇이...",
+    "summary": "과정이었다고 해명 했다. 모레노 감독 역시 선수들의 대화를 긍정적으로 평가했다. 선수들이 직접 얼굴을... 특히 전임 홍명보 감독과 비교하는 목소리까지 등장했다. \" 홍명보 보다 나은 게 없다\", \"감독을 바꿨는데 무엇이...",
     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019829",
     "originalUrl": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019829",
     "publisher": "spotvnews.co.kr",
@@ -404,7 +404,7 @@
     "collectedAt": "2026-11-14T14:31:31.997Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회"
+      "해명"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -421,10 +421,11 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "해명 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -439,8 +440,8 @@
       ],
       "earliestPublishedAt": 1794646860000,
       "latestPublishedAt": 1794646860000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -565,7 +566,23 @@
     "isOfficial": false,
     "relevanceScore": 12,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.incheonilbo.com/news/articleView.html?idxno=1336797"
+      ],
+      "stories": [
+        "news|news|파주 프런티어fc, 선수단 잔여 급여 미지급 인정…파주시에 재정 지원 ...|incheonilbo.com|2026-11-14T04:10:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|파주 프런티어fc, 선수단 잔여 급여 미지급 인정…파주시에 재정 지원 ...|incheonilbo.com"
+      ],
+      "earliestPublishedAt": 1794629400000,
+      "latestPublishedAt": 1794629400000,
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
+    }
   },
   {
     "id": "item_a56fa792c787e451",
@@ -700,8 +717,8 @@
       ],
       "earliestPublishedAt": 1794622860000,
       "latestPublishedAt": 1794622860000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   },
   {
@@ -869,8 +886,8 @@
       ],
       "earliestPublishedAt": 1794614880000,
       "latestPublishedAt": 1794614880000,
-      "representativeCollectedAt": 1794927280386,
-      "latestCollectedAt": 1794927280386
+      "representativeCollectedAt": 1794956982048,
+      "latestCollectedAt": 1794956982048
     }
   }
 ]
