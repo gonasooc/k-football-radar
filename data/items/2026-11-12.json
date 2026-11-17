@@ -44,8 +44,8 @@
       ],
       "earliestPublishedAt": 1794522720000,
       "latestPublishedAt": 1794522720000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -92,8 +92,8 @@
       ],
       "earliestPublishedAt": 1794522600000,
       "latestPublishedAt": 1794522600000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -146,8 +146,8 @@
       ],
       "earliestPublishedAt": 1794519660000,
       "latestPublishedAt": 1794519660000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -200,8 +200,8 @@
       ],
       "earliestPublishedAt": 1794519120000,
       "latestPublishedAt": 1794519120000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -250,8 +250,8 @@
       ],
       "earliestPublishedAt": 1794518880000,
       "latestPublishedAt": 1794518880000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -301,8 +301,8 @@
       ],
       "earliestPublishedAt": 1794517440000,
       "latestPublishedAt": 1794517440000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -351,6 +351,34 @@
     }
   },
   {
+    "id": "item_0fe6c9bed9d1d3de",
+    "type": "news",
+    "title": "FIFA 회장 도전한 대학강사 “난 연봉 1달러만 받겠다”…파격 공약 화...",
+    "summary": "FIFA 회장 선거에 공식 후보 로 등록 하려면 회원국 축구협회 5곳의 추천을 받아야 한다. 후보 등록 의사 표명 마감일은 이달 18일이다. 아우프 데어 하이데는 축구 강국이 아닌 국가들을 위한 별도의 국제대회 창설도...",
+    "url": "https://www.segye.com/newsView/20261112510251?OutUrl=naver",
+    "originalUrl": "https://www.segye.com/newsView/20261112510251?OutUrl=naver",
+    "publisher": "segye.com",
+    "publishedAt": "2026-11-12T19:59:00.000Z",
+    "collectedAt": "2026-11-17T04:47:21.997Z",
+    "matchedKeywords": [
+      "축구협회",
+      "회장 선거",
+      "후보 등록"
+    ],
+    "discoveryQueries": [
+      "축구협회 후보 등록"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 7,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_3957ee888d9fe126",
     "type": "news",
     "title": "\"손흥민 포함 5명, 이례적인 공동 성명\" 韓 축구 공식발표→일본도 집중...",
@@ -392,22 +420,26 @@
       ],
       "earliestPublishedAt": 1794500760000,
       "latestPublishedAt": 1794500760000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
     "id": "item_551bb0470af83e2d",
     "type": "news",
     "title": "내분 확인된 축구 대표팀, 입장문 발표로 ‘원팀’ 될까",
-    "summary": "5명은 대한축구 협회를 통해 최근 불거진 불화설에 대한 공식 입장을 밝혔다. 현역 국가대표 선수들이 A매치... 최근 국제 축구 연맹(FIFA)의 권고로 연내 무산된 차기 축구협회장 선거를 조속히 치르고, 충분한 임기와 선수단...",
+    "summary": "홍명보 전 감독은 부임 직후 선수단 분위기 쇄신을 위해 주장 교체를 추진했지만, 차기 주장직을 제안받은... 최근 국제축구연맹(FIFA)의 권고로 연내 무산된 차기 축구협회장 선거 를 조속히 치르고, 충분한 임기와 선수단...",
     "url": "https://www.chosun.com/sports/football/2026/11/13/EVJWNSXCXJA7BAUEITMSURPB5M",
     "originalUrl": "https://www.chosun.com/sports/football/2026/11/13/EVJWNSXCXJA7BAUEITMSURPB5M",
     "publisher": "chosun.com",
     "publishedAt": "2026-11-12T15:42:00.000Z",
     "collectedAt": "2026-11-12T17:44:34.199Z",
     "matchedKeywords": [
-      "회장 선거"
+      "회장 선거",
+      "감독",
+      "차기",
+      "부임",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -421,14 +453,19 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 4,
+    "relevanceScore": 11,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -442,8 +479,8 @@
       ],
       "earliestPublishedAt": 1794498120000,
       "latestPublishedAt": 1794498120000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -669,8 +706,8 @@
       ],
       "earliestPublishedAt": 1794472200000,
       "latestPublishedAt": 1794472200000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -764,8 +801,8 @@
       ],
       "earliestPublishedAt": 1794467100000,
       "latestPublishedAt": 1794467100000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -899,15 +936,15 @@
       ],
       "earliestPublishedAt": 1794463320000,
       "latestPublishedAt": 1794463320000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
     "id": "item_bae3a35dfd9389d6",
     "type": "news",
     "title": "KFA, 산청군과 유소년 축구 육성거점 조성 위한 업무협약",
-    "summary": "대한축구협회( KFA )가 경남 산청군과 손잡고 유소년 축구 육성거점 조성에 나선다. KFA 는 \"산청군과 '유소년 축구 발전 및 육성거점 조성을 위한 업무협약'을 체결했다\"고 12일 전했다. 지난 11일 코리아풋볼파크에서 열린...",
+    "summary": "대한축구협회 (KFA)가 경남 산청군과 손잡고 유소년 축구 육성거점 조성에 나선다. KFA는 \"산청군과 '유소년... 지난 11일 코리아풋볼파크에서 열린 협약식에는 이용수 KFA 회장 직무대행, 유명현 산청군수, 백찬문...",
     "url": "https://www.news1.kr/sports/soccer/6351950",
     "originalUrl": "https://www.news1.kr/sports/soccer/6351950",
     "publisher": "news1.kr",
@@ -915,7 +952,8 @@
     "collectedAt": "2026-11-12T08:50:54.770Z",
     "matchedKeywords": [
       "KFA",
-      "대한축구협회"
+      "대한축구협회",
+      "백찬문"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -925,12 +963,16 @@
       "KFA"
     ],
     "issueTags": [],
-    "personTags": [],
+    "personTags": [
+      "person_baek_chan_moon"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 26,
+    "relevanceScore": 29,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -944,8 +986,8 @@
       ],
       "earliestPublishedAt": 1794461040000,
       "latestPublishedAt": 1794461040000,
-      "representativeCollectedAt": 1794569732313,
-      "latestCollectedAt": 1794569732313
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -992,8 +1034,8 @@
       ],
       "earliestPublishedAt": 1794460200000,
       "latestPublishedAt": 1794460200000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -1191,8 +1233,8 @@
       ],
       "earliestPublishedAt": 1794454200000,
       "latestPublishedAt": 1794454200000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -1241,8 +1283,8 @@
       ],
       "earliestPublishedAt": 1794452340000,
       "latestPublishedAt": 1794452340000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -1297,8 +1339,8 @@
       ],
       "earliestPublishedAt": 1794451920000,
       "latestPublishedAt": 1794451920000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -1391,8 +1433,8 @@
       ],
       "earliestPublishedAt": 1794447720000,
       "latestPublishedAt": 1794447720000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -1538,8 +1580,8 @@
       ],
       "earliestPublishedAt": 1794446580000,
       "latestPublishedAt": 1794446580000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -1590,8 +1632,8 @@
       ],
       "earliestPublishedAt": 1794445920000,
       "latestPublishedAt": 1794445920000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -1682,8 +1724,8 @@
       ],
       "earliestPublishedAt": 1794444600000,
       "latestPublishedAt": 1794444600000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -1803,8 +1845,8 @@
       ],
       "earliestPublishedAt": 1794443340000,
       "latestPublishedAt": 1794443340000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -1851,8 +1893,8 @@
       ],
       "earliestPublishedAt": 1794443160000,
       "latestPublishedAt": 1794443160000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -1899,8 +1941,8 @@
       ],
       "earliestPublishedAt": 1794442920000,
       "latestPublishedAt": 1794442920000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
@@ -1946,8 +1988,8 @@
       ],
       "earliestPublishedAt": 1794442620000,
       "latestPublishedAt": 1794442620000,
-      "representativeCollectedAt": 1794868278593,
-      "latestCollectedAt": 1794868278593
+      "representativeCollectedAt": 1794890841997,
+      "latestCollectedAt": 1794890841997
     }
   },
   {
