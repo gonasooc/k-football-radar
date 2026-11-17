@@ -242,6 +242,22 @@
     "relevanceScore": 10,
     "relevanceTier": "secondary",
     "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=TomkKMQf0Pw"
+      ],
+      "stories": [
+        "youtube|youtube|모레노, 카타르전 앞두고 선수들과 긴급 개별 면담! 손흥민의 역할까지 바뀌나?|스포츠 메|2026-11-16T23:00:25Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|모레노, 카타르전 앞두고 선수들과 긴급 개별 면담! 손흥민의 역할까지 바뀌나?|스포츠 메"
+      ],
+      "earliestPublishedAt": 1794870025000,
+      "latestPublishedAt": 1794870025000,
+      "representativeCollectedAt": 1794949018833,
+      "latestCollectedAt": 1794949018833
+    },
     "youtube": {
       "videoId": "TomkKMQf0Pw",
       "channelId": "UC7PDS9vif2aI6c94bWfkvMw",
@@ -505,8 +521,8 @@
       ],
       "earliestPublishedAt": 1794832230000,
       "latestPublishedAt": 1794832230000,
-      "representativeCollectedAt": 1794902178483,
-      "latestCollectedAt": 1794902178483
+      "representativeCollectedAt": 1794949018833,
+      "latestCollectedAt": 1794949018833
     },
     "youtube": {
       "videoId": "UBm6oo2BTEU",
