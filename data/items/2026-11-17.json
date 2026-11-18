@@ -34,7 +34,23 @@
     "relevanceScore": 20,
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.tf.co.kr/read/soccer/2390143.htm"
+      ],
+      "stories": [
+        "news|news|'임시'로는 못 넘는다...홍명보 사퇴 후 4개월, 무엇을 남겼나 [박순규의...|news.tf.co.kr|2026-11-17T23:42:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'임시'로는 못 넘는다...홍명보 사퇴 후 4개월, 무엇을 남겼나 [박순규의...|news.tf.co.kr"
+      ],
+      "earliestPublishedAt": 1794958920000,
+      "latestPublishedAt": 1794958920000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
   },
   {
     "id": "item_19936623cba4de3c",
@@ -62,7 +78,23 @@
     "isOfficial": false,
     "relevanceScore": 3,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.mt.co.kr/sports/2026/11/18/2026111807064598350"
+      ],
+      "stories": [
+        "news|news|슈팅 21개에 1골, 아쉽다...모레노 '마지막 경기' 1-0 승, 연임은?|mt.co.kr|2026-11-17T23:33:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|슈팅 21개에 1골, 아쉽다...모레노 '마지막 경기' 1-0 승, 연임은?|mt.co.kr"
+      ],
+      "earliestPublishedAt": 1794958380000,
+      "latestPublishedAt": 1794958380000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
   },
   {
     "id": "item_69b65dd9d5028943",
@@ -93,7 +125,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "감사 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://isplus.com/article/view/isp202611180020"
+      ],
+      "stories": [
+        "news|news|슈팅 21개 날리고 1-0 진땀승…‘66분 침묵’ 이강인 “골 못 넣어 동료...|isplus.com|2026-11-17T23:32:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|슈팅 21개 날리고 1-0 진땀승…‘66분 침묵’ 이강인 “골 못 넣어 동료...|isplus.com"
+      ],
+      "earliestPublishedAt": 1794958320000,
+      "latestPublishedAt": 1794958320000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
   },
   {
     "id": "item_21303fe8b33a2ee7",
@@ -128,13 +176,29 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.news1.kr/sports/soccer/6357446"
+      ],
+      "stories": [
+        "news|news|'임시 감독' 모레노와 2개월 동행 끝…이제 선택은 축구협회 몫|news1.kr|2026-11-17T23:18:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'임시 감독' 모레노와 2개월 동행 끝…이제 선택은 축구협회 몫|news1.kr"
+      ],
+      "earliestPublishedAt": 1794957480000,
+      "latestPublishedAt": 1794957480000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
   },
   {
     "id": "item_ce1a0c7d4ff1b288",
     "type": "news",
     "title": "'손흥민 왕따 주범 루머' 피해자 된 韓 축구 에이스, 이강인 입 뗐다…...",
-    "summary": "대한 축구협회 는 이번 A매치 6경기 결과를 토대로 전력강화위원회에서 평가할 예정이다. 이후 이사회에... 정말 감사 드린다. 앞으로 어떻게 될지 모르는 상황인 만큼 선수들도 감독님의 행운을 빌어드렸다\"고 했다. 한편...",
+    "summary": "대한 축구협회 는 이번 A매치 6경기 결과를 토대로 전력강화위원회에서 평가할 예정이다. 이후 이사회 에 통보하고, 이사회 는 모레노 감독의 계약 연장 여부를 결정한다. 이강인은 \"모레노 감독님이 라커룸에서 선수들에게...",
     "url": "https://www.sportschosun.com/football/2026-11-18/202611180100114650010536",
     "originalUrl": "https://www.sportschosun.com/football/2026-11-18/202611180100114650010536",
     "publisher": "sportschosun.com",
@@ -142,8 +206,7 @@
     "collectedAt": "2026-11-18T04:42:59.669Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "이사회",
-      "감사"
+      "이사회"
     ],
     "discoveryQueries": [
       "축구협회 감사",
@@ -155,11 +218,25 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 12,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": [
-      "감사 키워드 포함"
-    ]
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportschosun.com/football/2026-11-18/202611180100114650010536"
+      ],
+      "stories": [
+        "news|news|'손흥민 왕따 주범 루머' 피해자 된 韓 축구 에이스, 이강인 입 뗐다…...|sportschosun.com|2026-11-17T23:14:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|'손흥민 왕따 주범 루머' 피해자 된 韓 축구 에이스, 이강인 입 뗐다…...|sportschosun.com"
+      ],
+      "earliestPublishedAt": 1794957240000,
+      "latestPublishedAt": 1794957240000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
   },
   {
     "id": "item_34b7fc7887820a69",
@@ -208,7 +285,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.insight.co.kr/news/582474"
+      ],
+      "stories": [
+        "news|news|오세훈 결승골로 1-0 카타르 제압... 모레노호 임기 승리로 마무리|insight.co.kr|2026-11-17T22:36:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|오세훈 결승골로 1-0 카타르 제압... 모레노호 임기 승리로 마무리|insight.co.kr"
+      ],
+      "earliestPublishedAt": 1794954960000,
+      "latestPublishedAt": 1794954960000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
   },
   {
     "id": "item_470ccb7b6b97ce23",
@@ -247,7 +340,52 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.interfootball.co.kr/news/articleView.html?idxno=698679"
+      ],
+      "stories": [
+        "news|news|[in point] 모레노 6경기 종료→한국 귀국 없이 스페인행...혼란의 한국...|interfootball.co.kr|2026-11-17T22:35:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[in point] 모레노 6경기 종료→한국 귀국 없이 스페인행...혼란의 한국...|interfootball.co.kr"
+      ],
+      "earliestPublishedAt": 1794954900000,
+      "latestPublishedAt": 1794954900000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
+  },
+  {
+    "id": "item_ac5033caa6ba2a85",
+    "type": "news",
+    "title": "모레노 임시감독, 카타르전서 유종의 미…결별일까 동행일까 [ST스페셜...",
+    "summary": "또한 올해 12월로 전망됐던 차기 대한축구협회장 선거도 내년으로 밀렸다. 이에 따라 모레노 임시감독의 계약 연장과 정식 감독 선임 여부 역시 불투명한 상황이 됐다. 대표팀도, 자신의 입지도 혼란스러운 상황에서 11월...",
+    "url": "http://www.stoo.com/article.php?aid=109959262037",
+    "originalUrl": "http://www.stoo.com/article.php?aid=109959262037",
+    "publisher": "stoo.com",
+    "publishedAt": "2026-11-17T22:32:00.000Z",
+    "collectedAt": "2026-11-18T13:27:57.303Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "축구협회장",
+      "회장 선거",
+      "대한축구협회장"
+    ],
+    "discoveryQueries": [
+      "대한축구협회장"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_18bf13a8488d482d",
@@ -301,7 +439,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.topstarnews.net/news/articleView.html?idxno=16279399"
+      ],
+      "stories": [
+        "news|news|3승 1무 2패로 끝난 66일…한국 축구 대표팀 모레노 감독 '절반의 성공'|topstarnews.net|2026-11-17T22:04:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|3승 1무 2패로 끝난 66일…한국 축구 대표팀 모레노 감독 '절반의 성공'|topstarnews.net"
+      ],
+      "earliestPublishedAt": 1794953040000,
+      "latestPublishedAt": 1794953040000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
   },
   {
     "id": "item_48c6ca04d3319899",
@@ -347,9 +501,44 @@
       ],
       "earliestPublishedAt": 1794952800000,
       "latestPublishedAt": 1794952800000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
+  },
+  {
+    "id": "item_4963a0507f2970e6",
+    "type": "news",
+    "title": "한국 축구와 보낸 힘겨웠던 66일…모레노 감독 '절반의 성공'",
+    "summary": "대한 축구협회 는 2026 북중미 월드컵 조별리그 탈락으로 홍명보 전 감독이 물러난 이후 대한체육회의 국가대표 선발 및 운영 규정에 따라 공개 채용 형태로 임시 사령탑 선임에 나섰고, 9월 1일 모레노 감독에게 남자...",
+    "url": "https://www.yna.co.kr/view/AKR20261118013600007?input=1195m",
+    "originalUrl": "https://www.yna.co.kr/view/AKR20261118013600007?input=1195m",
+    "publisher": "yna.co.kr",
+    "publishedAt": "2026-11-17T21:51:00.000Z",
+    "collectedAt": "2026-11-18T13:27:57.303Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "감독",
+      "사령탑",
+      "선임",
+      "홍명보"
+    ],
+    "discoveryQueries": [
+      "\"홍명보\" 대한축구협회",
+      "\"홍명보\" 축구협회"
+    ],
+    "issueTags": [
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 13,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_6693501c5556c092",
@@ -400,8 +589,8 @@
   {
     "id": "item_e6fd8a860971d9f8",
     "type": "news",
-    "title": "임시 감독 체제서 3승2무1패, 스페인으로 떠난 모레노 감독…축구대표팀...",
-    "summary": "아시안컵 연기로 인해 모레노 감독 의 정식 감독 선임 여부는 불투명한 상황에 놓이게 됐다. 축구협회 는 다음달 신임 축구협회 장 선거를 진행할 계획이었지만 국제 축구 연맹(FIFA)과 AFC의 제동으로 인해 회장 선거 시기도...",
+    "title": "임시 감독 체제서 3승1무2패, 스페인으로 떠난 모레노 감독…축구대표팀...",
+    "summary": "축구협회 는 다음달 신임 축구협회 장 선거 를 진행할 계획이었지만 국제 축구 연맹(FIFA)과 AFC의 제동으로 인해 회장 선거 시기도 불투명한 상황이다. 축구협회 는 신임 회장 부임 시기도 불확실한 가운데 남아공월드컵 이후...",
     "url": "https://www.mydaily.co.kr/page/view/2026111801560990849",
     "originalUrl": "https://www.mydaily.co.kr/page/view/2026111801560990849",
     "publisher": "mydaily.co.kr",
@@ -432,16 +621,46 @@
         "https://www.mydaily.co.kr/page/view/2026111801560990849"
       ],
       "stories": [
+        "news|news|임시 감독 체제서 3승1무2패, 스페인으로 떠난 모레노 감독…축구대표팀...|mydaily.co.kr|2026-11-17T21:50:00.000Z",
         "news|news|임시 감독 체제서 3승2무1패, 스페인으로 떠난 모레노 감독…축구대표팀...|mydaily.co.kr|2026-11-17T21:50:00.000Z"
       ],
       "nearKeys": [
+        "news|news|임시 감독 체제서 3승1무2패, 스페인으로 떠난 모레노 감독…축구대표팀...|mydaily.co.kr",
         "news|news|임시 감독 체제서 3승2무1패, 스페인으로 떠난 모레노 감독…축구대표팀...|mydaily.co.kr"
       ],
       "earliestPublishedAt": 1794952200000,
       "latestPublishedAt": 1794952200000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
+  },
+  {
+    "id": "item_c09a612019b3697a",
+    "type": "news",
+    "title": "모레노 거취 불투명 속 ‘카타르전 결승포’ 오세훈 “골 더 넣을 수 있...",
+    "summary": "그러나 내년 1월 예정된 아시안컵이 12월로 연기되고, 대한 축구협회 가 회장 보궐 선거 를 앞두면서 그의 연장 여부는 더욱더 불확실해졌다. 현재로서는 차기 집행부에서 여유를 두고 새 사령탑을 선임할 가능성이 크다.",
+    "url": "https://www.sportsseoul.com/news/read/1650502?ref=naver",
+    "originalUrl": "https://www.sportsseoul.com/news/read/1650502?ref=naver",
+    "publisher": "sportsseoul.com",
+    "publishedAt": "2026-11-17T21:43:00.000Z",
+    "collectedAt": "2026-11-18T13:27:57.303Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "집행부"
+    ],
+    "discoveryQueries": [
+      "축구협회 집행부",
+      "축구협회 회장 선거"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 10,
+    "relevanceTier": "secondary",
+    "labels": []
   },
   {
     "id": "item_6bf0969ce8974fd8",
@@ -618,8 +837,8 @@
       ],
       "earliestPublishedAt": 1794947400000,
       "latestPublishedAt": 1794947400000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -659,8 +878,8 @@
       ],
       "earliestPublishedAt": 1794934260000,
       "latestPublishedAt": 1794934260000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -714,8 +933,8 @@
       ],
       "earliestPublishedAt": 1794933900000,
       "latestPublishedAt": 1794933900000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -764,8 +983,8 @@
       ],
       "earliestPublishedAt": 1794933360000,
       "latestPublishedAt": 1794933360000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -822,8 +1041,8 @@
       ],
       "earliestPublishedAt": 1794933060000,
       "latestPublishedAt": 1794933060000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -1033,8 +1252,8 @@
       ],
       "earliestPublishedAt": 1794931020000,
       "latestPublishedAt": 1794931020000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -1076,8 +1295,8 @@
       ],
       "earliestPublishedAt": 1794930780000,
       "latestPublishedAt": 1794930780000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -1145,8 +1364,8 @@
       ],
       "earliestPublishedAt": 1794930720000,
       "latestPublishedAt": 1794930720000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -1198,8 +1417,8 @@
       ],
       "earliestPublishedAt": 1794927120000,
       "latestPublishedAt": 1794927120000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -1359,8 +1578,8 @@
       ],
       "earliestPublishedAt": 1794924600000,
       "latestPublishedAt": 1794924600000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -1447,8 +1666,8 @@
       ],
       "earliestPublishedAt": 1794922560000,
       "latestPublishedAt": 1794922560000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -1542,8 +1761,8 @@
       ],
       "earliestPublishedAt": 1794920280000,
       "latestPublishedAt": 1794920280000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -1588,7 +1807,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.wikitree.co.kr/articles/1175418"
+      ],
+      "stories": [
+        "news|news|모레노 감독이 카타르전 직후 한국 입국하지 않고 바로 스페인 가는 이...|wikitree.co.kr|2026-11-17T12:52:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|모레노 감독이 카타르전 직후 한국 입국하지 않고 바로 스페인 가는 이...|wikitree.co.kr"
+      ],
+      "earliestPublishedAt": 1794919920000,
+      "latestPublishedAt": 1794919920000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
   },
   {
     "id": "youtube_a-F1l-qKbCA",
@@ -1680,7 +1915,7 @@
     "id": "item_56778112d443b0e9",
     "type": "news",
     "title": "모레노 감독, 지휘봉 내려놓나...축구 사령탑 연임 여부 불투명",
-    "summary": "당초 12월로 예정됐던 축구협회 차기 회장 선거 마저 국제 축구 연맹(FIFA)의 선거 제도 개혁안 관련 우려 표명으로 불투명해지면서 새 사령탑 결정 역시 기약 없이 미뤄질 수 있다는 전망이 나온다. 이 같은 상황에 대표팀...",
+    "summary": "하지만 회장 공석과 부회장 대행 체제로 운영되는 집행부 의 한계로 차기 사령탑 선임 절차가 차기 집행부 로 넘어갈 가능성이 크다. 당초 12월로 예정됐던 축구협회 차기 회장 선거마저 국제 축구 연맹(FIFA)의 선거 제도...",
     "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=565663",
     "originalUrl": "https://www.idaegu.co.kr/news/articleView.html?idxno=565663",
     "publisher": "idaegu.co.kr",
@@ -1704,7 +1939,23 @@
     "isOfficial": false,
     "relevanceScore": 7,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.idaegu.co.kr/news/articleView.html?idxno=565663"
+      ],
+      "stories": [
+        "news|news|모레노 감독, 지휘봉 내려놓나...축구 사령탑 연임 여부 불투명|idaegu.co.kr|2026-11-17T12:34:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|모레노 감독, 지휘봉 내려놓나...축구 사령탑 연임 여부 불투명|idaegu.co.kr"
+      ],
+      "earliestPublishedAt": 1794918840000,
+      "latestPublishedAt": 1794918840000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
   },
   {
     "id": "item_10f37b82fb809af3",
@@ -1857,7 +2108,23 @@
     "isOfficial": false,
     "relevanceScore": 8,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=1020393"
+      ],
+      "stories": [
+        "news|news|韓 축구 '불확실한 겨울' 확정…회장도 없는데 감독 계약마저 끝난다 \"...|spotvnews.co.kr|2026-11-17T11:08:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|韓 축구 '불확실한 겨울' 확정…회장도 없는데 감독 계약마저 끝난다 \"...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1794913680000,
+      "latestPublishedAt": 1794913680000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
   },
   {
     "id": "item_d78fb421d079d75d",
@@ -1991,18 +2258,19 @@
     "id": "item_5ea11dd4ee60d88b",
     "type": "news",
     "title": "거취 확정 안 된 모레노 감독, 결국 카타르전 후 스페인행",
-    "summary": "대한축구협회( KFA )의 사정을 감안하면 차기 감독 인선 등 이후 상황이 전부 불투명해진 것으로, 모레노 감독이 굳이 한국행을 할 이유가 없어진 것도 배경으로 읽힌다. 17일 KFA 에 따르면 모레노 감독은 한국시간으로 17일...",
+    "summary": "최근 FIFA의 제동으로 차기 회장을 선출하지 못하게 된 대한 축구협회 (KFA)의 사정을 감안하면 차기 감독 인선... 최근 FIFA와 AFC는 KFA에 지난 7일 차기회장 선거 제도 개편 안에 심각한 우려를 표명하면서 '사실상의 경고장...",
     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=325640",
     "originalUrl": "https://www.stnsports.co.kr/news/articleView.html?idxno=325640",
     "publisher": "stnsports.co.kr",
     "publishedAt": "2026-11-17T10:12:00.000Z",
     "collectedAt": "2026-11-17T14:54:40.386Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "대한 축구협회",
       "KFA",
+      "회장 선거",
+      "제도 개편",
       "감독",
-      "차기",
-      "한국행"
+      "차기"
     ],
     "discoveryQueries": [
       "대표팀 감독 선임",
@@ -2023,12 +2291,14 @@
       "KFA"
     ],
     "issueTags": [
+      "election",
+      "statute-revision",
       "coach-appointment"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 18,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -2044,23 +2314,25 @@
       ],
       "earliestPublishedAt": 1794910320000,
       "latestPublishedAt": 1794910320000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
     "id": "item_310d22927ee1e437",
     "type": "news",
     "title": "\"한국 안 오고 스페인 직행\" 모레노 고별전 되나… 분위기가 이별 예감...",
-    "summary": "대한 축구협회 (KFA)는 17일 \"모레노 감독 이 카타르와의 평가전 직후 코칭스태프와 함께 스페인으로 귀국할... 사령탑 선임 의 주체가 되어야 할 차기 축구협회 장 선거가 국제 축구 연맹(FIFA)의 철퇴를 맞고 멈춰 섰다. 당초...",
+    "summary": "모레노 감독은 2026 북중미 월드컵 조별리그 탈락 직후 불명예 퇴진한 홍명보 전 감독의 후임으로 지난 9월... 사령탑 선임의 주체가 되어야 할 차기 축구협회장 선거 가 국제축구연맹(FIFA)의 철퇴를 맞고 멈춰 섰다. 당초...",
     "url": "https://www.fnnews.com/news/202611171906546334",
     "originalUrl": "https://www.fnnews.com/news/202611171906546334",
     "publisher": "fnnews.com",
     "publishedAt": "2026-11-17T10:09:00.000Z",
     "collectedAt": "2026-11-17T14:54:40.386Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "KFA"
+      "회장 선거",
+      "감독",
+      "후임",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -2079,13 +2351,20 @@
       "K-축구혁신위원회",
       "KFA"
     ],
-    "issueTags": [],
-    "personTags": [],
+    "issueTags": [
+      "election",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 11,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -2099,8 +2378,8 @@
       ],
       "earliestPublishedAt": 1794910140000,
       "latestPublishedAt": 1794910140000,
-      "representativeCollectedAt": 1794956982048,
-      "latestCollectedAt": 1794956982048
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -2157,8 +2436,8 @@
       ],
       "earliestPublishedAt": 1794908760000,
       "latestPublishedAt": 1794908760000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -2212,8 +2491,8 @@
       ],
       "earliestPublishedAt": 1794907860000,
       "latestPublishedAt": 1794907860000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -2319,7 +2598,7 @@
     "id": "item_6219770169b3c725",
     "type": "news",
     "title": "'한국 축구 이대로 괜찮나' 모레노 감독은 카타르전 끝나면 스페인행.....",
-    "summary": "대한 축구협회 는 현재 회장 공석으로 부 회장 대행 체제를 유지하고 있다. 차기 회장 선거 마저 국제 축구 연맹(FIFA)과 AFC의 제동으로 지연된 상황이다. 현 집행부가 정식 감독 선임과 같은 중요한 결정을 내리기 어려울 수...",
+    "summary": "대한 축구협회 는 현재 회장 공석으로 부회장 대행 체제를 유지하고 있다. 차기 회장 선거마저 국제 축구 연맹(FIFA)과 AFC의 제동으로 지연된 상황이다. 현 집행부 가 정식 감독 선임과 같은 중요한 결정을 내리기 어려울 수...",
     "url": "http://www.osen.co.kr/article/G1112911425",
     "originalUrl": "http://www.osen.co.kr/article/G1112911425",
     "publisher": "osen.co.kr",
@@ -2328,7 +2607,8 @@
     "matchedKeywords": [
       "대한 축구협회",
       "회장 선거",
-      "집행부"
+      "집행부",
+      "부회장"
     ],
     "discoveryQueries": [
       "대표팀 감독 선임",
@@ -2363,15 +2643,15 @@
       ],
       "earliestPublishedAt": 1794905760000,
       "latestPublishedAt": 1794905760000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
     "id": "item_30a8b2c02a755f5c",
     "type": "news",
     "title": "모레노 감독, 카타르전 이후 한국 입국 없을 예정… 스페인서 최종 평가...",
-    "summary": "17일 대한축구 협회는 보도자료를 통해 \"모레노 감독 및 스페인 코칭스태프는 스페인으로 귀국할 예정이다.... 축구 협회는 2026 국제 축구 연맹(FIFA) 북중미 월드컵 이후 홍명보 감독이 사임하고, 정몽규 축구협회장 도...",
+    "summary": "모레노 감독은 9월부터 11월까지 A매치 6경기를 지휘하기 위한 대한 민국 남자 축구 대표팀 임시 감독직을 맡았다. 축구협회 는 2026 국제 축구 연맹(FIFA) 북중미 월드컵 이후 홍명보 감독이 사임하고, 정몽규 축구협회 장도...",
     "url": "http://www.footballist.co.kr/news/articleView.html?idxno=216916",
     "originalUrl": "http://www.footballist.co.kr/news/articleView.html?idxno=216916",
     "publisher": "footballist.co.kr",
@@ -2423,15 +2703,15 @@
       ],
       "earliestPublishedAt": 1794904980000,
       "latestPublishedAt": 1794904980000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
     "id": "item_254e820142b5c175",
     "type": "news",
     "title": "모레노, 카타르전 끝나면 스페인으로 귀국… 임시 감독 업무도 끝",
-    "summary": "축구협회 는 K- 축구 혁신위원회의 선거 제도 개선 권고에 따라 12월 중에 새 회장 을 선출할 계획이었다. 그러나 국제 축구 연맹(FIFA)이 선거 제도 개선에 제동을 걸었다. 회장 이 공석이기에 대표팀 감독 선임을 진행하기...",
+    "summary": "축구협회 는 K- 축구 혁신위원회 의 선거제도 개선 권고에 따라 12월 중에 새 회장을 선출할 계획이었다. 그러나 국제 축구 연맹(FIFA)이 선거제도 개선에 제동을 걸었다. 회장이 공석이기에 대표팀 감독 선임을 진행하기...",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=884307",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=884307",
     "publisher": "hansbiz.co.kr",
@@ -2456,7 +2736,23 @@
     "isOfficial": false,
     "relevanceScore": 7,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.hansbiz.co.kr/news/articleView.html?idxno=884307"
+      ],
+      "stories": [
+        "news|news|모레노, 카타르전 끝나면 스페인으로 귀국… 임시 감독 업무도 끝|hansbiz.co.kr|2026-11-17T08:36:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|모레노, 카타르전 끝나면 스페인으로 귀국… 임시 감독 업무도 끝|hansbiz.co.kr"
+      ],
+      "earliestPublishedAt": 1794904560000,
+      "latestPublishedAt": 1794904560000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
+    }
   },
   {
     "id": "item_0e781100b795de42",
@@ -2554,8 +2850,8 @@
       ],
       "earliestPublishedAt": 1794902760000,
       "latestPublishedAt": 1794902760000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -2627,14 +2923,16 @@
     "id": "item_f516576563907fa4",
     "type": "news",
     "title": "모레노 감독, 카타르전 마치면 한국 대신 고국 스페인으로 귀국",
-    "summary": "결국 축구협회 가 새 수장을 뽑고 새 집행부 가 꾸려진 다음에야 대표팀 감독 선임 작업도 본격화될 것으로 보인다. 한편, 모레노 임시 감독이 이끈 대표팀은 9~10월 A매 4연전에서 2승 1무 1패를 기록했고 13일 열린...",
+    "summary": "12월 새 축구 협회장 선거를 실시할 예정이었으나, 국제 축구 연맹(FIFA)이 케이( K )- 축구 혁신위원회 의 권고에 따라 추진해 온 축구 협회 선거 제도 개혁안에 우려의 뜻을 전달함으로써 12월 회장 선거도 무산될 가능성이...",
     "url": "https://www.mediapen.com/news/view/1138075",
     "originalUrl": "https://www.mediapen.com/news/view/1138075",
     "publisher": "mediapen.com",
     "publishedAt": "2026-11-17T07:36:00.000Z",
     "collectedAt": "2026-11-17T14:54:40.386Z",
     "matchedKeywords": [
-      "축구협회"
+      "회장 선거",
+      "혁신위원회",
+      "축구 혁신"
     ],
     "discoveryQueries": [
       "대표팀 감독 선임",
@@ -2648,11 +2946,14 @@
       "축구협회장",
       "K-축구혁신위원회"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election",
+      "innovation-committee"
+    ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 3,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -2668,8 +2969,8 @@
       ],
       "earliestPublishedAt": 1794900960000,
       "latestPublishedAt": 1794900960000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -2716,8 +3017,8 @@
       ],
       "earliestPublishedAt": 1794900660000,
       "latestPublishedAt": 1794900660000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -2764,8 +3065,8 @@
       ],
       "earliestPublishedAt": 1794899760000,
       "latestPublishedAt": 1794899760000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -2862,8 +3163,8 @@
       ],
       "earliestPublishedAt": 1794899220000,
       "latestPublishedAt": 1794899220000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -2918,8 +3219,8 @@
       ],
       "earliestPublishedAt": 1794897720000,
       "latestPublishedAt": 1794897720000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -3051,8 +3352,8 @@
       ],
       "earliestPublishedAt": 1794897480000,
       "latestPublishedAt": 1794897480000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -3109,8 +3410,8 @@
       ],
       "earliestPublishedAt": 1794897000000,
       "latestPublishedAt": 1794897000000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -3156,8 +3457,8 @@
       ],
       "earliestPublishedAt": 1794896820000,
       "latestPublishedAt": 1794896820000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -3199,8 +3500,8 @@
       ],
       "earliestPublishedAt": 1794896340000,
       "latestPublishedAt": 1794896340000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -3252,8 +3553,8 @@
       ],
       "earliestPublishedAt": 1794895800000,
       "latestPublishedAt": 1794895800000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -3390,8 +3691,8 @@
       ],
       "earliestPublishedAt": 1794889080000,
       "latestPublishedAt": 1794889080000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -3524,12 +3825,12 @@
     "labels": []
   },
   {
-    "id": "item_d68242029dce2d0c",
+    "id": "item_e675ff4fd7838ea5",
     "type": "news",
     "title": "악재 많았던 올해 한국축구...카타르전에서 유종의 미 거둘까?",
     "summary": "누구의 편도 들어서는 안 되고 모두에게 공정해야 합니다.] 올 한해 한국 축구 는 월드컵 32강 탈락에 이어 정몽규 대한 축구협회 장과 홍명보 감독의 불명예 퇴진, 잇따른 축구 계 비리 등으로 큰 홍역을 치렀습니다. 마지막...",
-    "url": "https://www.ytn.co.kr/_ln/0107_202611171119374363",
-    "originalUrl": "https://www.ytn.co.kr/_ln/0107_202611171119374363",
+    "url": "https://www.ytn.co.kr/_ln/0107_202611171820372869",
+    "originalUrl": "https://www.ytn.co.kr/_ln/0107_202611171820372869",
     "publisher": "ytn.co.kr",
     "publishedAt": "2026-11-17T02:19:00.000Z",
     "collectedAt": "2026-11-17T23:09:42.048Z",
@@ -3559,18 +3860,20 @@
     "dedupeState": {
       "version": 1,
       "urls": [
-        "https://www.ytn.co.kr/_ln/0107_202611171119374363"
+        "https://www.ytn.co.kr/_ln/0107_202611171119374363",
+        "https://www.ytn.co.kr/_ln/0107_202611171820372869"
       ],
       "stories": [
-        "news|news|악재 많았던 올해 한국축구...카타르전에서 유종의 미 거둘까?|ytn.co.kr|2026-11-17T02:19:00.000Z"
+        "news|news|악재 많았던 올해 한국축구...카타르전에서 유종의 미 거둘까?|ytn.co.kr|2026-11-17T02:19:00.000Z",
+        "news|news|악재 많았던 올해 한국축구...카타르전에서 유종의 미 거둘까?|ytn.co.kr|2026-11-17T09:20:00.000Z"
       ],
       "nearKeys": [
         "news|news|악재 많았던 올해 한국축구...카타르전에서 유종의 미 거둘까?|ytn.co.kr"
       ],
       "earliestPublishedAt": 1794881940000,
-      "latestPublishedAt": 1794881940000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "latestPublishedAt": 1794907200000,
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -3683,8 +3986,8 @@
       ],
       "earliestPublishedAt": 1794881220000,
       "latestPublishedAt": 1794881220000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -3917,8 +4220,8 @@
       ],
       "earliestPublishedAt": 1794877680000,
       "latestPublishedAt": 1794877680000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   },
   {
@@ -3999,7 +4302,7 @@
     "id": "item_52a38abac5e51bc8",
     "type": "news",
     "title": "임시 감독 체제에 대한 황인범의 작심 발언 \"대표팀에 긍정적이지 않아...",
-    "summary": "홍명보 감독 사퇴 후 임시로 지휘봉을 잡은 모레노 감독의 계약기간은 11월27일까지다. 당초 1월 사우디에서... 설상가상으로 정몽규 회장이 물러나며 공석이 된 대한 축구협회 장 선거마저 연기된 상황이다. 이런 상황을...",
+    "summary": "설상가상으로 정몽규 회장이 물러나며 공석이 된 대한 축구협회 장 선거마저 연기된 상황이다. 이런 상황을 바라보는 황인범의 마음은 복잡하기만 하다. 황인범은 \"이런 이야기하는 것도 조심스럽다\"며 \"비록 미뤄지긴...",
     "url": "https://www.sportschosun.com/football/2026-11-17/202611170100108570009981",
     "originalUrl": "https://www.sportschosun.com/football/2026-11-17/202611170100108570009981",
     "publisher": "sportschosun.com",
@@ -4007,9 +4310,7 @@
     "collectedAt": "2026-11-17T04:47:21.997Z",
     "matchedKeywords": [
       "대한 축구협회",
-      "정몽규",
-      "홍명보",
-      "사퇴"
+      "정몽규"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -4024,12 +4325,11 @@
     ],
     "issueTags": [],
     "personTags": [
-      "person_chung_mong_gyu",
-      "person_hong_myung_bo"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 9,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -4047,8 +4347,8 @@
       ],
       "earliestPublishedAt": 1794874440000,
       "latestPublishedAt": 1794874440000,
-      "representativeCollectedAt": 1794976979669,
-      "latestCollectedAt": 1794976979669
+      "representativeCollectedAt": 1795008477303,
+      "latestCollectedAt": 1795008477303
     }
   }
 ]
