@@ -48,8 +48,8 @@
       ],
       "earliestPublishedAt": 1794958920000,
       "latestPublishedAt": 1794958920000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -92,8 +92,8 @@
       ],
       "earliestPublishedAt": 1794958380000,
       "latestPublishedAt": 1794958380000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -187,8 +187,8 @@
       ],
       "earliestPublishedAt": 1794957480000,
       "latestPublishedAt": 1794957480000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -259,7 +259,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.osen.co.kr/article/G1112911562"
+      ],
+      "stories": [
+        "news|news|[단독] '사우디전 21년 만의 굴욕에도 한국 잔류?' 모레노, k리그 진출 타...|osen.co.kr|2026-11-17T23:00:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[단독] '사우디전 21년 만의 굴욕에도 한국 잔류?' 모레노, k리그 진출 타...|osen.co.kr"
+      ],
+      "earliestPublishedAt": 1794956400000,
+      "latestPublishedAt": 1794956400000,
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
+    }
   },
   {
     "id": "item_34b7fc7887820a69",
@@ -377,8 +393,8 @@
       ],
       "earliestPublishedAt": 1794954900000,
       "latestPublishedAt": 1794954900000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -454,14 +470,14 @@
     "id": "item_7d94eb9bf2185bc9",
     "type": "news",
     "title": "3승 1무 2패로 끝난 66일…한국 축구 대표팀 모레노 감독 '절반의 성공'",
-    "summary": "대한 축구협회 는 2026 북중미 월드컵 조별리그 탈락 이후 홍명보 전 감독이 물러나자 대한체육회의 국가대표 선발 및 운영 규정에 따라 공개 채용 방식으로 임시 사령탑을 찾았다. 그 결과 9월 1일 데이터 분석 능력을...",
+    "summary": "대한축구협회 는 2026 북중미 월드컵 조별리그 탈락 이후 홍명보 전 감독이 물러나자 대한 체육회의 국가대표 선발 및 운영 규정에 따라 공개 채용 방식으로 임시 사령탑을 찾았다. 그 결과 9월 1일 데이터 분석 능력을...",
     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16279399",
     "originalUrl": "https://www.topstarnews.net/news/articleView.html?idxno=16279399",
     "publisher": "topstarnews.net",
     "publishedAt": "2026-11-17T22:04:00.000Z",
     "collectedAt": "2026-11-18T04:42:59.669Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "홍명보"
     ],
     "discoveryQueries": [
@@ -492,8 +508,8 @@
       ],
       "earliestPublishedAt": 1794953040000,
       "latestPublishedAt": 1794953040000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -546,8 +562,8 @@
       ],
       "earliestPublishedAt": 1794952800000,
       "latestPublishedAt": 1794952800000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -735,8 +751,8 @@
       ],
       "earliestPublishedAt": 1794951780000,
       "latestPublishedAt": 1794951780000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -914,8 +930,8 @@
       ],
       "earliestPublishedAt": 1794947400000,
       "latestPublishedAt": 1794947400000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -963,7 +979,7 @@
     "id": "item_590db94c5a17d32e",
     "type": "news",
     "title": "[IN POINT] 홍명보 아래 월드컵 실패, 모레노 임시 체제까지...한국 축구...",
-    "summary": "2026 국제 축구 연맹(FIFA) 북중미 월드컵 본선 진출이라는 성과를 거뒀지만, 대한 축구협회 와 홍명보 감독을 둘러싼 논란이 끊이지 않으면서 대표팀을 향한 여론은 좀처럼 호의적으로 돌아서지 않았다. 월드컵을 앞둔 준비...",
+    "summary": "2026 국제축구연맹(FIFA) 북중미 월드컵 본선 진출이라는 성과를 거뒀지만, 대한축구협회와 홍명보 감독을... 정식 감독 여부는 추후에 결정되는데 대한축구협회장 선거 가 미뤄진 상황에서 어떻게 평가되고 결정될지...",
     "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=698677",
     "originalUrl": "https://www.interfootball.co.kr/news/articleView.html?idxno=698677",
     "publisher": "interfootball.co.kr",
@@ -971,7 +987,10 @@
     "collectedAt": "2026-11-17T23:09:42.048Z",
     "matchedKeywords": [
       "홍명보",
-      "대한 축구협회"
+      "대한축구협회",
+      "축구협회장",
+      "회장 선거",
+      "대한축구협회장"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -986,13 +1005,15 @@
       "축구협회 회장 선거",
       "축구협회장"
     ],
-    "issueTags": [],
+    "issueTags": [
+      "election"
+    ],
     "personTags": [
       "person_hong_myung_bo"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 21,
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
@@ -1010,8 +1031,8 @@
       ],
       "earliestPublishedAt": 1794933900000,
       "latestPublishedAt": 1794933900000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -1060,8 +1081,8 @@
       ],
       "earliestPublishedAt": 1794933360000,
       "latestPublishedAt": 1794933360000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -1118,8 +1139,8 @@
       ],
       "earliestPublishedAt": 1794933060000,
       "latestPublishedAt": 1794933060000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -1329,8 +1350,8 @@
       ],
       "earliestPublishedAt": 1794931020000,
       "latestPublishedAt": 1794931020000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -1494,8 +1515,8 @@
       ],
       "earliestPublishedAt": 1794927840000,
       "latestPublishedAt": 1794927840000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -1547,8 +1568,8 @@
       ],
       "earliestPublishedAt": 1794927120000,
       "latestPublishedAt": 1794927120000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -1708,8 +1729,8 @@
       ],
       "earliestPublishedAt": 1794924600000,
       "latestPublishedAt": 1794924600000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -1951,8 +1972,8 @@
       ],
       "earliestPublishedAt": 1794919920000,
       "latestPublishedAt": 1794919920000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -2083,8 +2104,8 @@
       ],
       "earliestPublishedAt": 1794918840000,
       "latestPublishedAt": 1794918840000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -2252,8 +2273,8 @@
       ],
       "earliestPublishedAt": 1794913680000,
       "latestPublishedAt": 1794913680000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -2444,8 +2465,8 @@
       ],
       "earliestPublishedAt": 1794910320000,
       "latestPublishedAt": 1794910320000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -2508,8 +2529,8 @@
       ],
       "earliestPublishedAt": 1794910140000,
       "latestPublishedAt": 1794910140000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -2571,8 +2592,8 @@
       ],
       "earliestPublishedAt": 1794908760000,
       "latestPublishedAt": 1794908760000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -2626,8 +2647,8 @@
       ],
       "earliestPublishedAt": 1794907860000,
       "latestPublishedAt": 1794907860000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -2733,7 +2754,7 @@
     "id": "item_6219770169b3c725",
     "type": "news",
     "title": "'한국 축구 이대로 괜찮나' 모레노 감독은 카타르전 끝나면 스페인행.....",
-    "summary": "대한 축구협회 는 현재 회장 공석으로 부회장 대행 체제를 유지하고 있다. 차기 회장 선거마저 국제 축구 연맹(FIFA)과 AFC의 제동으로 지연된 상황이다. 현 집행부 가 정식 감독 선임과 같은 중요한 결정을 내리기 어려울 수...",
+    "summary": "대한 축구협회 는 현재 회장 공석으로 부회장 대행 체제를 유지하고 있다. 차기 회장 선거마저 국제 축구 연맹(FIFA)과 AFC의 제동으로 지연된 상황이다. 현 집행부가 정식 감독 선임과 같은 중요한 결정을 내리기 어려울 수...",
     "url": "http://www.osen.co.kr/article/G1112911425",
     "originalUrl": "http://www.osen.co.kr/article/G1112911425",
     "publisher": "osen.co.kr",
@@ -2778,8 +2799,8 @@
       ],
       "earliestPublishedAt": 1794905760000,
       "latestPublishedAt": 1794905760000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -2838,8 +2859,8 @@
       ],
       "earliestPublishedAt": 1794904980000,
       "latestPublishedAt": 1794904980000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -2885,8 +2906,8 @@
       ],
       "earliestPublishedAt": 1794904560000,
       "latestPublishedAt": 1794904560000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -2989,8 +3010,8 @@
       ],
       "earliestPublishedAt": 1794902760000,
       "latestPublishedAt": 1794902760000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -3108,8 +3129,8 @@
       ],
       "earliestPublishedAt": 1794900960000,
       "latestPublishedAt": 1794900960000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -3302,8 +3323,8 @@
       ],
       "earliestPublishedAt": 1794899220000,
       "latestPublishedAt": 1794899220000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -3353,8 +3374,8 @@
       ],
       "earliestPublishedAt": 1794898920000,
       "latestPublishedAt": 1794898920000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -3411,8 +3432,8 @@
       ],
       "earliestPublishedAt": 1794897720000,
       "latestPublishedAt": 1794897720000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -3544,8 +3565,8 @@
       ],
       "earliestPublishedAt": 1794897480000,
       "latestPublishedAt": 1794897480000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -3602,8 +3623,8 @@
       ],
       "earliestPublishedAt": 1794897000000,
       "latestPublishedAt": 1794897000000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -3681,7 +3702,23 @@
     "isOfficial": false,
     "relevanceScore": 8,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008850012&plink=ORI"
+      ],
+      "stories": [
+        "news|news|모레노 축구대표팀 임시 감독, 카타르전 마치면 스페인으로 귀국|news.sbs.co.kr|2026-11-17T06:26:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|모레노 축구대표팀 임시 감독, 카타르전 마치면 스페인으로 귀국|news.sbs.co.kr"
+      ],
+      "earliestPublishedAt": 1794896760000,
+      "latestPublishedAt": 1794896760000,
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
+    }
   },
   {
     "id": "item_fff7be86a0932f13",
@@ -3768,8 +3805,8 @@
       ],
       "earliestPublishedAt": 1794895920000,
       "latestPublishedAt": 1794895920000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -3821,8 +3858,8 @@
       ],
       "earliestPublishedAt": 1794895800000,
       "latestPublishedAt": 1794895800000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -3891,8 +3928,8 @@
       ],
       "earliestPublishedAt": 1794895740000,
       "latestPublishedAt": 1794895740000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -3937,8 +3974,8 @@
       ],
       "earliestPublishedAt": 1794895440000,
       "latestPublishedAt": 1794895440000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -4232,8 +4269,8 @@
       ],
       "earliestPublishedAt": 1794881940000,
       "latestPublishedAt": 1794907200000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -4346,8 +4383,8 @@
       ],
       "earliestPublishedAt": 1794881220000,
       "latestPublishedAt": 1794881220000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -4580,8 +4617,8 @@
       ],
       "earliestPublishedAt": 1794877680000,
       "latestPublishedAt": 1794877680000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   },
   {
@@ -4707,8 +4744,8 @@
       ],
       "earliestPublishedAt": 1794874440000,
       "latestPublishedAt": 1794874440000,
-      "representativeCollectedAt": 1795056560750,
-      "latestCollectedAt": 1795056560750
+      "representativeCollectedAt": 1795090210240,
+      "latestCollectedAt": 1795090210240
     }
   }
 ]
