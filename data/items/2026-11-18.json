@@ -838,6 +838,22 @@
     "relevanceScore": 14,
     "relevanceTier": "secondary",
     "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.youtube.com/watch?v=4A8fXkklpsw"
+      ],
+      "stories": [
+        "youtube|youtube|'6경기 지휘' 모레노 감독이 남긴 말말말...모레노 축구는 무엇이었나?｜지금 이 장면|jtbc news|2026-11-18T08:13:52Z"
+      ],
+      "nearKeys": [
+        "youtube|youtube|'6경기 지휘' 모레노 감독이 남긴 말말말...모레노 축구는 무엇이었나?｜지금 이 장면|jtbc news"
+      ],
+      "earliestPublishedAt": 1794989632000,
+      "latestPublishedAt": 1794989632000,
+      "representativeCollectedAt": 1795073250976,
+      "latestCollectedAt": 1795073250976
+    },
     "youtube": {
       "videoId": "4A8fXkklpsw",
       "channelId": "UCsU-I-vHLiaMfV_ceaYz5rQ",
