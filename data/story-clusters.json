@@ -2,14 +2,6 @@
   "version": 1,
   "clusters": [
     {
-      "id": "story_d3b75cc0994107a5c2ec",
-      "seedItemId": "item_a7a112b09986ec9c",
-      "memberIds": [
-        "item_a7a112b09986ec9c",
-        "item_2a9212c9dd4b0d46"
-      ]
-    },
-    {
       "id": "story_24c6b7839ec54a80bd11",
       "seedItemId": "youtube_2BcCkuuoOLs",
       "memberIds": [
@@ -3055,6 +3047,14 @@
       "memberIds": [
         "item_4963a0507f2970e6",
         "item_7d94eb9bf2185bc9"
+      ]
+    },
+    {
+      "id": "story_71df02e6d21de32d50b0",
+      "seedItemId": "item_8e496bb56a569a1a",
+      "memberIds": [
+        "item_8e496bb56a569a1a",
+        "item_68a99b40b59878fd"
       ]
     }
   ]

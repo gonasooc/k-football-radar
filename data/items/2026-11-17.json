@@ -48,8 +48,8 @@
       ],
       "earliestPublishedAt": 1794958920000,
       "latestPublishedAt": 1794958920000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -92,8 +92,8 @@
       ],
       "earliestPublishedAt": 1794958380000,
       "latestPublishedAt": 1794958380000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -187,8 +187,8 @@
       ],
       "earliestPublishedAt": 1794957480000,
       "latestPublishedAt": 1794957480000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -467,7 +467,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newspim.com/news/view/20261118000037"
+      ],
+      "stories": [
+        "news|news|66일간의 모레노 감독, 느낌표 아닌 물음표 남기고 떠나다|newspim.com|2026-11-17T22:19:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|66일간의 모레노 감독, 느낌표 아닌 물음표 남기고 떠나다|newspim.com"
+      ],
+      "earliestPublishedAt": 1794953940000,
+      "latestPublishedAt": 1794953940000,
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
+    }
   },
   {
     "id": "item_18bf13a8488d482d",
@@ -589,8 +605,8 @@
       ],
       "earliestPublishedAt": 1794952800000,
       "latestPublishedAt": 1794952800000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -778,8 +794,8 @@
       ],
       "earliestPublishedAt": 1794951780000,
       "latestPublishedAt": 1794951780000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -1058,8 +1074,8 @@
       ],
       "earliestPublishedAt": 1794933900000,
       "latestPublishedAt": 1794933900000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -1108,8 +1124,8 @@
       ],
       "earliestPublishedAt": 1794933360000,
       "latestPublishedAt": 1794933360000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -1166,8 +1182,8 @@
       ],
       "earliestPublishedAt": 1794933060000,
       "latestPublishedAt": 1794933060000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -1377,8 +1393,8 @@
       ],
       "earliestPublishedAt": 1794931020000,
       "latestPublishedAt": 1794931020000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -1542,8 +1558,8 @@
       ],
       "earliestPublishedAt": 1794927840000,
       "latestPublishedAt": 1794927840000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -1595,8 +1611,8 @@
       ],
       "earliestPublishedAt": 1794927120000,
       "latestPublishedAt": 1794927120000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -1756,8 +1772,8 @@
       ],
       "earliestPublishedAt": 1794924600000,
       "latestPublishedAt": 1794924600000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -1894,6 +1910,34 @@
     }
   },
   {
+    "id": "item_7923d7d3e492f785",
+    "type": "news",
+    "title": "'끝나면 스페인행' 모레노 감독의 마지막 선택, 다시 한번 4-4-2...손흥민...",
+    "summary": "부회장 대행 체제로 운영되는 현재 집행부 에서 차기 사령탑 후보 추천을 결정하기 어려운 상황이라는 점이 변수다. 12월로 예정됐던 축구협회 차기 회장 선거가 사실상 무산된 상황에서 사령탑에 대한 결정도...",
+    "url": "https://www.sportschosun.com/football/2026-11-17/202611170100113470010463",
+    "originalUrl": "https://www.sportschosun.com/football/2026-11-17/202611170100113470010463",
+    "publisher": "sportschosun.com",
+    "publishedAt": "2026-11-17T12:59:00.000Z",
+    "collectedAt": "2026-11-20T10:31:19.659Z",
+    "matchedKeywords": [
+      "축구협회",
+      "회장 선거"
+    ],
+    "discoveryQueries": [
+      "축구협회 부회장",
+      "축구협회 집행부"
+    ],
+    "issueTags": [
+      "election"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 7,
+    "relevanceTier": "secondary",
+    "labels": []
+  },
+  {
     "id": "item_dc3663470290ac72",
     "type": "news",
     "title": "'7명 변화+손흥민-오세훈 투톱 가동' 모레노의 마지막 경기, 카타르전 파...",
@@ -1999,8 +2043,8 @@
       ],
       "earliestPublishedAt": 1794919920000,
       "latestPublishedAt": 1794919920000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -2028,7 +2072,23 @@
     "isOfficial": false,
     "relevanceScore": 3,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.slist.kr/news/articleView.html?idxno=782569"
+      ],
+      "stories": [
+        "news|news|모레노 임시 감독, 카타르전 마치면 스페인으로 귀국|slist.kr|2026-11-17T12:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|모레노 임시 감독, 카타르전 마치면 스페인으로 귀국|slist.kr"
+      ],
+      "earliestPublishedAt": 1794919560000,
+      "latestPublishedAt": 1794919560000,
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
+    }
   },
   {
     "id": "youtube_a-F1l-qKbCA",
@@ -2158,8 +2218,8 @@
       ],
       "earliestPublishedAt": 1794918840000,
       "latestPublishedAt": 1794918840000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -2327,8 +2387,8 @@
       ],
       "earliestPublishedAt": 1794913680000,
       "latestPublishedAt": 1794913680000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -2452,8 +2512,8 @@
       ],
       "earliestPublishedAt": 1794912180000,
       "latestPublishedAt": 1794912180000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -2516,8 +2576,8 @@
       ],
       "earliestPublishedAt": 1794910320000,
       "latestPublishedAt": 1794910320000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -2580,8 +2640,8 @@
       ],
       "earliestPublishedAt": 1794910140000,
       "latestPublishedAt": 1794910140000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -2643,9 +2703,43 @@
       ],
       "earliestPublishedAt": 1794908760000,
       "latestPublishedAt": 1794908760000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
+  },
+  {
+    "id": "item_21fe3cf6b6fec5d2",
+    "type": "news",
+    "title": "[오피셜]공식발표 나왔다, '임시 감독' 모레노 카타르전 끝나면 한국 입...",
+    "summary": "모레노 감독의 미래는 불투명하고, 정몽규 회장이 물러나며 공석이 된 대한 축구협회 장 선거마저 연기된 상황이다. 대표팀에 힘을 실어줄 사람도, 대표팀을 장기적인 관점에서 이끌 사람도 없는 셈이다. 황인범은 16일...",
+    "url": "https://www.sportschosun.com/football/2026-11-17/202611170100111830010278",
+    "originalUrl": "https://www.sportschosun.com/football/2026-11-17/202611170100111830010278",
+    "publisher": "sportschosun.com",
+    "publishedAt": "2026-11-17T09:36:00.000Z",
+    "collectedAt": "2026-11-20T10:31:19.659Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "정몽규"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "대한축구협회 지도자 제도",
+      "축구협회 혁신위원회",
+      "K-축구혁신위원회"
+    ],
+    "issueTags": [],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 9,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_bf3da691fd2b5aa8",
@@ -2698,8 +2792,8 @@
       ],
       "earliestPublishedAt": 1794907860000,
       "latestPublishedAt": 1794907860000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -2796,8 +2890,8 @@
       ],
       "earliestPublishedAt": 1794905940000,
       "latestPublishedAt": 1794905940000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -2909,8 +3003,8 @@
       ],
       "earliestPublishedAt": 1794904980000,
       "latestPublishedAt": 1794904980000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -2956,8 +3050,8 @@
       ],
       "earliestPublishedAt": 1794904560000,
       "latestPublishedAt": 1794904560000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -3060,8 +3154,8 @@
       ],
       "earliestPublishedAt": 1794902760000,
       "latestPublishedAt": 1794902760000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -3112,8 +3206,8 @@
       ],
       "earliestPublishedAt": 1794902160000,
       "latestPublishedAt": 1794902160000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -3195,8 +3289,8 @@
       ],
       "earliestPublishedAt": 1794900960000,
       "latestPublishedAt": 1794900960000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -3389,8 +3483,8 @@
       ],
       "earliestPublishedAt": 1794899220000,
       "latestPublishedAt": 1794899220000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -3435,8 +3529,8 @@
       ],
       "earliestPublishedAt": 1794899160000,
       "latestPublishedAt": 1794899160000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -3486,8 +3580,8 @@
       ],
       "earliestPublishedAt": 1794898920000,
       "latestPublishedAt": 1794898920000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -3533,8 +3627,8 @@
       ],
       "earliestPublishedAt": 1794898560000,
       "latestPublishedAt": 1794898560000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -3580,8 +3674,8 @@
       ],
       "earliestPublishedAt": 1794898500000,
       "latestPublishedAt": 1794898500000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -3638,8 +3732,8 @@
       ],
       "earliestPublishedAt": 1794897720000,
       "latestPublishedAt": 1794897720000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -3771,8 +3865,8 @@
       ],
       "earliestPublishedAt": 1794897480000,
       "latestPublishedAt": 1794897480000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -3829,8 +3923,8 @@
       ],
       "earliestPublishedAt": 1794897000000,
       "latestPublishedAt": 1794897000000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -4064,8 +4158,8 @@
       ],
       "earliestPublishedAt": 1794895800000,
       "latestPublishedAt": 1794895800000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -4475,8 +4569,8 @@
       ],
       "earliestPublishedAt": 1794881940000,
       "latestPublishedAt": 1794907200000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -4589,8 +4683,8 @@
       ],
       "earliestPublishedAt": 1794881220000,
       "latestPublishedAt": 1794881220000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -4823,8 +4917,8 @@
       ],
       "earliestPublishedAt": 1794877680000,
       "latestPublishedAt": 1794877680000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   },
   {
@@ -4950,8 +5044,8 @@
       ],
       "earliestPublishedAt": 1794874440000,
       "latestPublishedAt": 1794874440000,
-      "representativeCollectedAt": 1795142235657,
-      "latestCollectedAt": 1795142235657
+      "representativeCollectedAt": 1795170679659,
+      "latestCollectedAt": 1795170679659
     }
   }
 ]
