@@ -45,8 +45,8 @@
       ],
       "earliestPublishedAt": 1795273260000,
       "latestPublishedAt": 1795273260000,
-      "representativeCollectedAt": 1795391467313,
-      "latestCollectedAt": 1795391467313
+      "representativeCollectedAt": 1795421765746,
+      "latestCollectedAt": 1795421765746
     }
   },
   {
@@ -93,8 +93,8 @@
       ],
       "earliestPublishedAt": 1795269360000,
       "latestPublishedAt": 1795269360000,
-      "representativeCollectedAt": 1795391467313,
-      "latestCollectedAt": 1795391467313
+      "representativeCollectedAt": 1795421765746,
+      "latestCollectedAt": 1795421765746
     }
   },
   {
@@ -398,17 +398,14 @@
     "id": "item_bccd66e52510f229",
     "type": "news",
     "title": "'한국은 아직 감독도 못 정했는데'…日 축구, 29년 만의 파격 결단! \"위...",
-    "summary": "대한민국 축구 국가 대표팀 이 여전히 정식 감독 을 확정하지 못한 가운데, 일본은 이미 차기 사령탑 선임 을 마치고 코칭스태프 구성까지 속도를 내고 있다. 일본 매체 '닛칸스포츠'는 21일(이하 한국시간) \"내년 3월부터...",
+    "summary": "이어 \"오이와 감독의 강력한 요청을 받은 야마모토 마사쿠니 일본 축구협회 기술위원장이 지난 10월 말... 한국은 북중미 월드컵 조별리그 탈락 이후 홍명보 감독이 물러나자 지난 9월 스페인 출신 로베르트 모레노 감독을...",
     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553720094",
     "originalUrl": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553720094",
     "publisher": "sportalkorea.com",
     "publishedAt": "2026-11-21T04:04:00.000Z",
     "collectedAt": "2026-11-21T08:46:20.294Z",
     "matchedKeywords": [
-      "감독",
-      "사령탑",
-      "선임",
-      "차기"
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"홍명보\" 대한축구협회",
@@ -420,15 +417,17 @@
       "축구협회 감독 선임",
       "축구협회 회장 선거"
     ],
-    "issueTags": [
-      "coach-appointment"
+    "issueTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
     ],
-    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 4,
+    "relevanceScore": 3,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -442,8 +441,8 @@
       ],
       "earliestPublishedAt": 1795233840000,
       "latestPublishedAt": 1795233840000,
-      "representativeCollectedAt": 1795391467313,
-      "latestCollectedAt": 1795391467313
+      "representativeCollectedAt": 1795421765746,
+      "latestCollectedAt": 1795421765746
     }
   },
   {
@@ -485,8 +484,8 @@
       ],
       "earliestPublishedAt": 1795229280000,
       "latestPublishedAt": 1795229280000,
-      "representativeCollectedAt": 1795391467313,
-      "latestCollectedAt": 1795391467313
+      "representativeCollectedAt": 1795421765746,
+      "latestCollectedAt": 1795421765746
     }
   },
   {
@@ -529,8 +528,8 @@
       ],
       "earliestPublishedAt": 1795224840000,
       "latestPublishedAt": 1795224840000,
-      "representativeCollectedAt": 1795391467313,
-      "latestCollectedAt": 1795391467313
+      "representativeCollectedAt": 1795421765746,
+      "latestCollectedAt": 1795421765746
     }
   },
   {
@@ -573,8 +572,8 @@
       ],
       "earliestPublishedAt": 1795222440000,
       "latestPublishedAt": 1795222440000,
-      "representativeCollectedAt": 1795391467313,
-      "latestCollectedAt": 1795391467313
+      "representativeCollectedAt": 1795421765746,
+      "latestCollectedAt": 1795421765746
     }
   },
   {
@@ -615,8 +614,8 @@
       ],
       "earliestPublishedAt": 1795221240000,
       "latestPublishedAt": 1795221240000,
-      "representativeCollectedAt": 1795391467313,
-      "latestCollectedAt": 1795391467313
+      "representativeCollectedAt": 1795421765746,
+      "latestCollectedAt": 1795421765746
     }
   },
   {
@@ -672,8 +671,8 @@
       ],
       "earliestPublishedAt": 1795220640000,
       "latestPublishedAt": 1795220640000,
-      "representativeCollectedAt": 1795391467313,
-      "latestCollectedAt": 1795391467313
+      "representativeCollectedAt": 1795421765746,
+      "latestCollectedAt": 1795421765746
     }
   },
   {
@@ -729,8 +728,8 @@
       ],
       "earliestPublishedAt": 1795219200000,
       "latestPublishedAt": 1795219200000,
-      "representativeCollectedAt": 1795391467313,
-      "latestCollectedAt": 1795391467313
+      "representativeCollectedAt": 1795421765746,
+      "latestCollectedAt": 1795421765746
     }
   }
 ]
