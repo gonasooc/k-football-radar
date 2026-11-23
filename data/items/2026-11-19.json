@@ -43,8 +43,8 @@
       ],
       "earliestPublishedAt": 1795129860000,
       "latestPublishedAt": 1795129860000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -216,8 +216,8 @@
       ],
       "earliestPublishedAt": 1795122000000,
       "latestPublishedAt": 1795122000000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -362,15 +362,16 @@
     "id": "item_676497184bb4bd58",
     "type": "news",
     "title": "스페인 언론들, '모레노 감독과 KFA 협상 중' 소식 전해 논란",
-    "summary": "하지만 모레노호가 치른 A매치 6경기 전반을 평가하는 대한축구협회( KFA )의 전력강화위원회의 회의 소집이... 당시 KFA 는 모레노 감독의 계약기간이 11월 27일까지라고 밝힌 뒤 이 기간 내 예정된 6번의 A매치를 평가하고...",
+    "summary": "하지만 모레노호가 치른 A매치 6경기 전반을 평가하는 대한 축구협회 (KFA)의 전력강화위원회의 회의 소집이... 이런 보도와 소식들이 나온 상황에서 KFA가 어떤 이야기들 혹은 해명 을 하게 될 지도 주목할 부분이다.",
     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=325793",
     "originalUrl": "https://www.stnsports.co.kr/news/articleView.html?idxno=325793",
     "publisher": "stnsports.co.kr",
     "publishedAt": "2026-11-19T12:31:00.000Z",
     "collectedAt": "2026-11-19T20:58:57.768Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "KFA"
+      "대한 축구협회",
+      "KFA",
+      "해명"
     ],
     "discoveryQueries": [
       "대표팀 감독 선임",
@@ -384,9 +385,11 @@
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 8,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "해명 키워드 포함"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -400,23 +403,25 @@
       ],
       "earliestPublishedAt": 1795091460000,
       "latestPublishedAt": 1795091460000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
     "id": "item_b481e856f38063cf",
     "type": "news",
     "title": "스페인 돌아간 모레노, '한국 사령탑 리포트' 공개",
-    "summary": "대한축구협회( KFA )에도 감사한다\"고 밝혔다. 이어 \"무엇보다 한국 전역의 경기장은 물론 멀리 도하... 당시 KFA 는 이 불신을 해소하겠다는 명목으로 공개채용을 통해 서류심사와 심층 면접을 거쳐 모레노 감독을 최종...",
+    "summary": "향한 감사 도 전했다. 앞서 모레노 감독은 지난 9월 한국 축구 사상 최초의 '사단 단위 공개채용 방식'을 통해 대표팀 임시 사령탑에 선임된 바 있다. 선임과정의 논란 속에 결국 월드컵을 실패한 홍명보 전 감독의 사임으로...",
     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=325792",
     "originalUrl": "https://www.stnsports.co.kr/news/articleView.html?idxno=325792",
     "publisher": "stnsports.co.kr",
     "publishedAt": "2026-11-19T12:31:00.000Z",
     "collectedAt": "2026-11-19T20:58:57.768Z",
     "matchedKeywords": [
-      "대한축구협회",
-      "KFA",
+      "감독",
+      "사령탑",
+      "선임",
+      "홍명보",
       "감사"
     ],
     "discoveryQueries": [
@@ -430,14 +435,17 @@
       "KFA"
     ],
     "issueTags": [
-      "mcst-audit"
+      "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 12,
+    "relevanceScore": 9,
     "relevanceTier": "secondary",
     "labels": [
+      "인물 언급",
       "감사 키워드 포함"
     ],
     "dedupeState": {
@@ -453,24 +461,25 @@
       ],
       "earliestPublishedAt": 1795091460000,
       "latestPublishedAt": 1795091460000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
     "id": "item_9cacf6747e327c90",
     "type": "news",
     "title": "\"최근 좋은 모습 아니었는데...\" 한국 FIFA랭킹 올랐다",
-    "summary": "올해 A매치가 모두 종료된 한국 축구는 이제 차기 대한축구협회( KFA ) 회장 선거 및 대표팀 감독 선임 문제가 남아있다. 조만간 KFA 는 전력강화위원회를 열어 6경기 성과를 평가하고 이를 토대로 연임 여부에 관한...",
+    "summary": "축구 는 이제 차기 대한 축구협회 (KFA) 회장 선거 및 대표팀 감독 선임 문제가 남아있다. 조만간 KFA는 전력강화위원회를 열어 6경기 성과를 평가하고 이를 토대로 연임 여부에 관한 의견을 이사회 에 전달할 예정이다.",
     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=325790",
     "originalUrl": "https://www.stnsports.co.kr/news/articleView.html?idxno=325790",
     "publisher": "stnsports.co.kr",
     "publishedAt": "2026-11-19T11:30:00.000Z",
     "collectedAt": "2026-11-19T12:10:10.240Z",
     "matchedKeywords": [
-      "대한축구협회",
+      "대한 축구협회",
       "KFA",
       "회장 선거",
+      "이사회",
       "감독 선임",
       "대표팀 감독",
       "감독",
@@ -488,12 +497,13 @@
     ],
     "issueTags": [
       "election",
+      "kfa-executives",
       "coach-appointment"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 18,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -509,8 +519,8 @@
       ],
       "earliestPublishedAt": 1795087800000,
       "latestPublishedAt": 1795087800000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -553,8 +563,8 @@
       ],
       "earliestPublishedAt": 1795084440000,
       "latestPublishedAt": 1795084440000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -602,7 +612,7 @@
     "id": "item_fc1d66331eb8c819",
     "type": "news",
     "title": "KFA, 모레노 감독 연장 계약 협상 루머…\"결정 사항 아무것도 없다→전...",
-    "summary": "대한축구 협회(KFA) 측은 \"결정된 것은 아무것도 없다\"고 딱 잘라 선을 그었다. 스페인의 유력 기자인 마테오... KFA는 12월 18일 협회장 선거를 진행할 계획이었다. 하지만 국제 축구 연맹(FIFA)이 KFA가 K- 축구 혁신위원회의...",
+    "summary": "하지만 국제축구연맹(FIFA)이 KFA가 K-축구 혁신위원회 의 권고에 따라 추진해 온 선거 제도 개혁안에 대해 우려의 목소리를 낸 것이다. 결국 연내 선거가 무산됐다. 모레노 감독은 6경기에서 3승1무2패를 기록했다. 선수...",
     "url": "https://www.sportschosun.com/football/2026-11-19/202611190100126020011730",
     "originalUrl": "https://www.sportschosun.com/football/2026-11-19/202611190100126020011730",
     "publisher": "sportschosun.com",
@@ -610,7 +620,6 @@
     "collectedAt": "2026-11-20T02:37:15.657Z",
     "matchedKeywords": [
       "KFA",
-      "회장 선거",
       "혁신위원회",
       "축구 혁신"
     ],
@@ -625,13 +634,12 @@
       "KFA"
     ],
     "issueTags": [
-      "election",
       "innovation-committee"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 14,
+    "relevanceScore": 10,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -647,8 +655,8 @@
       ],
       "earliestPublishedAt": 1795076820000,
       "latestPublishedAt": 1795076820000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -739,8 +747,8 @@
       ],
       "earliestPublishedAt": 1795075320000,
       "latestPublishedAt": 1795075320000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -830,8 +838,8 @@
       ],
       "earliestPublishedAt": 1795071660000,
       "latestPublishedAt": 1795071660000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -892,8 +900,8 @@
       ],
       "earliestPublishedAt": 1795071300000,
       "latestPublishedAt": 1795071300000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -961,8 +969,8 @@
       ],
       "earliestPublishedAt": 1795069980000,
       "latestPublishedAt": 1795069980000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -1009,6 +1017,42 @@
       "representativeCollectedAt": 1795391467313,
       "latestCollectedAt": 1795391467313
     }
+  },
+  {
+    "id": "item_86f7ede51ad27e22",
+    "type": "news",
+    "title": "'모레노 연임 가능성!' 스페인 현지 \"韓 축구 대표팀, 모레노 감독과 아...",
+    "summary": "지난 여름 국제 축구 연맹(FIFA) 북중미 월드컵 참패 후 대한 축구협회 는 모레노 감독을 임시감독으로 임명했다. 정몽규 회장 사퇴 후 집행부가 행정력을 잃었고 급한 불부터 끄고자 임시감독 체제의 공개채용을 진행했다....",
+    "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/bltf34b100e2ae69eeb",
+    "originalUrl": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/a/bltf34b100e2ae69eeb",
+    "publisher": "goal.com",
+    "publishedAt": "2026-11-19T06:00:00.000Z",
+    "collectedAt": "2026-11-23T20:34:23.356Z",
+    "matchedKeywords": [
+      "대한 축구협회",
+      "집행부",
+      "정몽규",
+      "사퇴"
+    ],
+    "discoveryQueries": [
+      "\"정몽규\" 대한축구협회",
+      "\"정몽규\" 선거",
+      "\"정몽규\" 축구협회",
+      "축구협회 집행부"
+    ],
+    "issueTags": [
+      "kfa-executives"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu"
+    ],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 15,
+    "relevanceTier": "secondary",
+    "labels": [
+      "인물 언급"
+    ]
   },
   {
     "id": "item_93eb59fc3217f7e3",
@@ -1109,8 +1153,8 @@
       ],
       "earliestPublishedAt": 1795065840000,
       "latestPublishedAt": 1795065840000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -1160,8 +1204,8 @@
       ],
       "earliestPublishedAt": 1795064640000,
       "latestPublishedAt": 1795064640000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -1294,8 +1338,8 @@
       ],
       "earliestPublishedAt": 1795060800000,
       "latestPublishedAt": 1795060800000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -1613,8 +1657,8 @@
       ],
       "earliestPublishedAt": 1795054200000,
       "latestPublishedAt": 1795054200000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -1683,8 +1727,8 @@
       ],
       "earliestPublishedAt": 1795053780000,
       "latestPublishedAt": 1795053780000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -1830,8 +1874,8 @@
       ],
       "earliestPublishedAt": 1795051620000,
       "latestPublishedAt": 1795051620000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -1883,8 +1927,8 @@
       ],
       "earliestPublishedAt": 1795051140000,
       "latestPublishedAt": 1795051140000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {
@@ -1986,8 +2030,8 @@
       ],
       "earliestPublishedAt": 1795048440000,
       "latestPublishedAt": 1795048440000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   },
   {

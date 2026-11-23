@@ -178,7 +178,7 @@
     "id": "item_91dc738ff21a9020",
     "type": "news",
     "title": "축구협회, 선거인단 2만1000여명 가닥… 차기 회장 선거 향해 속도",
-    "summary": "사진=뉴시스 이용수 대한축구협회 회장 직무대행이 지난달 21일 서울 여의도 국회에서 열린... 뒤 축구 계에서는 기존 선거 방식의 대표성과 공정성을 높여야 한다는 목소리가 일었다. 이에 지난 8월 박지성 위원장이...",
+    "summary": "국정 감사 에서 질문에 답하고 있다. 사진=뉴시스 대한축구협회장 보궐선거의 윤곽이 드러나고 있다.... 정몽규 전 협회장이 지난 7월6일 사임한 뒤 축구계에서는 기존 선거 방식의 대표성과 공정성을 높여야 한다는...",
     "url": "https://www.sportsworldi.com/newsView/20261101507015",
     "originalUrl": "https://www.sportsworldi.com/newsView/20261101507015",
     "publisher": "sportsworldi.com",
@@ -190,7 +190,10 @@
       "선거인단",
       "선거인",
       "대한축구협회",
-      "박지성"
+      "축구협회장",
+      "대한축구협회장",
+      "정몽규",
+      "감사"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -230,13 +233,14 @@
       "electoral-college"
     ],
     "personTags": [
-      "person_park_ji_sung"
+      "person_chung_mong_gyu"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 44,
+    "relevanceScore": 50,
     "labels": [
       "인물 언급",
+      "감사 키워드 포함",
       "선거 키워드 포함"
     ],
     "dedupeState": {
@@ -252,8 +256,8 @@
       ],
       "earliestPublishedAt": 1793516520000,
       "latestPublishedAt": 1793516520000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795466063356,
+      "latestCollectedAt": 1795466063356
     }
   }
 ]
