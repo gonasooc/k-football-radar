@@ -41,7 +41,23 @@
     "sourceType": "news",
     "isOfficial": false,
     "relevanceScore": 34,
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newspim.com/news/view/20261124000192"
+      ],
+      "stories": [
+        "news|news|축구협회, 회장 선거 개편 관련 소통 내역 공개...\"fifa·afc와 별도 논의...|newspim.com|2026-11-23T23:58:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회, 회장 선거 개편 관련 소통 내역 공개...\"fifa·afc와 별도 논의...|newspim.com"
+      ],
+      "earliestPublishedAt": 1795478280000,
+      "latestPublishedAt": 1795478280000,
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
+    }
   },
   {
     "id": "youtube_Fjs_KEXr_AA",
@@ -151,7 +167,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=101227"
+      ],
+      "stories": [
+        "news|news|[공식 성명] '특혜 의혹'에 kfa-쿠팡플레이의 반박, \"규정과 절차에 따라...|fourfourtwo.co.kr|2026-11-23T23:01:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|[공식 성명] '특혜 의혹'에 kfa-쿠팡플레이의 반박, \"규정과 절차에 따라...|fourfourtwo.co.kr"
+      ],
+      "earliestPublishedAt": 1795474860000,
+      "latestPublishedAt": 1795474860000,
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
+    }
   },
   {
     "id": "item_d0100ee5a02af1f4",
@@ -220,7 +252,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://sports.hankooki.com/news/articleView.html?idxno=6944056"
+      ],
+      "stories": [
+        "news|news|축구협회, 체육회 소통방식 의문 제기에 \"제출 서류 외 별도 논의 없었...|sports.hankooki.com|2026-11-23T21:46:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|축구협회, 체육회 소통방식 의문 제기에 \"제출 서류 외 별도 논의 없었...|sports.hankooki.com"
+      ],
+      "earliestPublishedAt": 1795470360000,
+      "latestPublishedAt": 1795470360000,
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
+    }
   },
   {
     "id": "item_9c3da7cd60a0d76a",
@@ -272,8 +320,8 @@
       ],
       "earliestPublishedAt": 1795462380000,
       "latestPublishedAt": 1795462380000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -348,8 +396,8 @@
       ],
       "earliestPublishedAt": 1795455360000,
       "latestPublishedAt": 1795455360000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -390,22 +438,34 @@
       ],
       "earliestPublishedAt": 1795450980000,
       "latestPublishedAt": 1795450980000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
     "id": "item_105f7cce47ccc532",
     "type": "news",
     "title": "\"축구협회, 동네 계모임보다 못해\"…직격탄 날렸던 '강유정 의원', 돌고...",
-    "summary": "\" 대한축구협회 , 동네 계모임이나 동아리보다도 못하다.\" 2년 전 대한축구협회 를 비판했던 국회의원이 이제 상급 기관인 문화체육관광부(문체부) 장관 후보자로 지명돼 부임이 유력하다. 청와대는 23일 개각을 발표하면서...",
+    "summary": "당시 강 후보자는 정몽규 전 대한 축구협회 장에게 \" 이임생 기술이사에게 전강위(전력강화위원회) 업무를 병행하도록 한 것은 축구협회 정관 위반에 해당한다. 홍명보 감독 선임 이후 열린 이사회 안건 등 어디에도 이...",
     "url": "https://www.xportsnews.com/article/2222312",
     "originalUrl": "https://www.xportsnews.com/article/2222312",
     "publisher": "xportsnews.com",
     "publishedAt": "2026-11-23T16:00:00.000Z",
     "collectedAt": "2026-11-23T20:34:23.356Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한 축구협회",
+      "정관",
+      "이사회",
+      "감독 선임",
+      "전력강화위원회",
+      "감독",
+      "전력강화위원",
+      "선임",
+      "후보",
+      "정몽규",
+      "홍명보",
+      "이임생",
+      "이임생 기술이사"
     ],
     "discoveryQueries": [
       "\"이임생\" 대한축구협회",
@@ -427,13 +487,23 @@
       "축구협회장",
       "KFA"
     ],
-    "issueTags": [],
-    "personTags": [],
+    "issueTags": [
+      "statute-revision",
+      "kfa-executives",
+      "coach-appointment"
+    ],
+    "personTags": [
+      "person_chung_mong_gyu",
+      "person_hong_myung_bo",
+      "person_lee_im_saeng"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 6,
+    "relevanceScore": 29,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -447,8 +517,8 @@
       ],
       "earliestPublishedAt": 1795449600000,
       "latestPublishedAt": 1795449600000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -499,8 +569,8 @@
       ],
       "earliestPublishedAt": 1795446180000,
       "latestPublishedAt": 1795446180000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -553,8 +623,8 @@
       ],
       "earliestPublishedAt": 1795446120000,
       "latestPublishedAt": 1795446120000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -612,8 +682,8 @@
       ],
       "earliestPublishedAt": 1795441500000,
       "latestPublishedAt": 1795441500000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -741,7 +811,7 @@
     "id": "item_ed2610ef90762094",
     "type": "news",
     "title": "체육회·축구협회 충돌…'관리 단체' 압박",
-    "summary": "유승민 대한체육 회장 이 공동 위원장을 맡은 혁신위원회의 권고에 따라 추진 중이던 축구협회 장 선거 제도 개편이 FIFA의 제동으로 멈춰 선 데 대해 체육회가 불편한 심기를 드러냈습니다. 체육회 관계자는 SBS와...",
+    "summary": "유승민 대한체육회장이 공동 위원장을 맡은 혁신위원회의 권고에 따라 추진 중이던 축구협회 장 선거 제도 개편 이 FIFA의 제동으로 멈춰 선 데 대해 체육회가 불편한 심기를 드러냈습니다. 체육회 관계자는 SBS와...",
     "url": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008859636&plink=ORI",
     "originalUrl": "https://news.sbs.co.kr/news/endPage.do?cooper=NAVER&news_id=N1008859636&plink=ORI",
     "publisher": "news.sbs.co.kr",
@@ -786,8 +856,8 @@
       ],
       "earliestPublishedAt": 1795436460000,
       "latestPublishedAt": 1795474020000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -935,15 +1005,16 @@
     "id": "item_bb88719f64983fc2",
     "type": "news",
     "title": "체육회-축구협회, FIFA 공문으로 신경전‥'관리 단체 지정?'",
-    "summary": "◀ 앵커 ▶ FIFA의 제동으로 대한 축구협회장 연내 선거가 무산된 가운데, 이번엔 유승민 대한체육회장이 '관리 단체 지정'을 언급하며 축구협회를 압박하고 나섰습니다. ◀ 리포트 ▶ 2만 명 이상의 선거인단으로...",
+    "summary": "◀ 앵커 ▶ FIFA의 제동으로 대한축구협회장 연내 선거가 무산된 가운데, 이번엔 유승민 대한체육회장이 '관리 단체 지정'을 언급하며 축구협회를 압박하고 나섰습니다. ◀ 리포트 ▶ 2만 명 이상의 선거인단으로...",
     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6867943_37004.html",
     "originalUrl": "https://imnews.imbc.com/replay/2026/nwdesk/article/6867943_37004.html",
     "publisher": "imnews.imbc.com",
     "publishedAt": "2026-11-23T11:59:00.000Z",
     "collectedAt": "2026-11-23T20:34:23.356Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "축구협회장",
+      "대한축구협회장",
       "선거인단",
       "선거인"
     ],
@@ -983,8 +1054,8 @@
       ],
       "earliestPublishedAt": 1795435140000,
       "latestPublishedAt": 1795435140000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1037,8 +1108,8 @@
       ],
       "earliestPublishedAt": 1795434720000,
       "latestPublishedAt": 1795434720000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1186,8 +1257,8 @@
       ],
       "earliestPublishedAt": 1795432740000,
       "latestPublishedAt": 1795432740000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1231,8 +1302,8 @@
       ],
       "earliestPublishedAt": 1795431900000,
       "latestPublishedAt": 1795431900000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1289,8 +1360,8 @@
       ],
       "earliestPublishedAt": 1795430100000,
       "latestPublishedAt": 1795430100000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1343,8 +1414,8 @@
       ],
       "earliestPublishedAt": 1795428540000,
       "latestPublishedAt": 1795428540000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1404,8 +1475,8 @@
       ],
       "earliestPublishedAt": 1795425060000,
       "latestPublishedAt": 1795425060000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1588,8 +1659,8 @@
       ],
       "earliestPublishedAt": 1795421280000,
       "latestPublishedAt": 1795421280000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1645,8 +1716,8 @@
       ],
       "earliestPublishedAt": 1795421220000,
       "latestPublishedAt": 1795421220000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1703,15 +1774,15 @@
       ],
       "earliestPublishedAt": 1795420920000,
       "latestPublishedAt": 1795420920000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
     "id": "item_a366dc015bed2767",
     "type": "news",
     "title": "이원성 경기도체육회장, 3선 불출마 선언…차기 선거 3파전 구도",
-    "summary": "정창훈 회장 은 25일 경기도의회에서 출마 기자회견을 할 예정이며, 이석재 회장 도 대한 축구협회 장 대신 도체육 회장 선거 에 나서는 방향으로 선회한 것으로 알려졌다. 이에 따라 세 후보가 제시할 경기체육 발전 구상과...",
+    "summary": "대한 축구협회 장 대신 도체육회장 선거에 나서는 방향으로 선회한 것으로 알려졌다. 이에 따라 세 후보 가... 한편 후보 자 등록 은 다음 달 3~4일 진행되며, 투표는 16일 오후 1시부터 5시까지 수원시 장안구 보훈재활센터에서...",
     "url": "https://www.kgnews.co.kr/news/article.html?no=920842",
     "originalUrl": "https://www.kgnews.co.kr/news/article.html?no=920842",
     "publisher": "kgnews.co.kr",
@@ -1753,8 +1824,8 @@
       ],
       "earliestPublishedAt": 1795419840000,
       "latestPublishedAt": 1795419840000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1800,8 +1871,8 @@
       ],
       "earliestPublishedAt": 1795419480000,
       "latestPublishedAt": 1795419480000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1849,8 +1920,8 @@
       ],
       "earliestPublishedAt": 1795418460000,
       "latestPublishedAt": 1795418460000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1893,8 +1964,8 @@
       ],
       "earliestPublishedAt": 1795417440000,
       "latestPublishedAt": 1795417440000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1939,8 +2010,8 @@
       ],
       "earliestPublishedAt": 1795415460000,
       "latestPublishedAt": 1795415460000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -1998,8 +2069,8 @@
       ],
       "earliestPublishedAt": 1795415460000,
       "latestPublishedAt": 1795415460000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2045,8 +2116,8 @@
       ],
       "earliestPublishedAt": 1795415100000,
       "latestPublishedAt": 1795415100000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2133,15 +2204,16 @@
     "id": "item_023a9158259f23b3",
     "type": "news",
     "title": "모레노 감독 스페인 귀국...축구대표팀 차기 사령탑 선임 난항",
-    "summary": "한국 축구대표팀 모레노 임시감독이 스페인으로 돌아가는 가운데 차기 정식 감독 선임 문제가 대한 축구협회장 공백과 맞물리면서 장기화할 가능성이 제기되고 있다. 지난 18일 YTN 보도에 따르면 모레노 감독은...",
+    "summary": "한국 축구대표팀 모레노 임시감독이 스페인으로 돌아가는 가운데 차기 정식 감독 선임 문제가 대한축구협회장 공백과 맞물리면서 장기화할 가능성이 제기되고 있다. 지난 18일 YTN 보도에 따르면 모레노 감독은...",
     "url": "https://www.ppss.kr/news/articleView.html?idxno=322403",
     "originalUrl": "https://www.ppss.kr/news/articleView.html?idxno=322403",
     "publisher": "ppss.kr",
     "publishedAt": "2026-11-23T06:09:00.000Z",
     "collectedAt": "2026-11-23T08:16:05.746Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "축구협회장",
+      "대한축구협회장",
       "감독 선임",
       "감독",
       "선임",
@@ -2183,15 +2255,15 @@
       ],
       "earliestPublishedAt": 1795414140000,
       "latestPublishedAt": 1795414140000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
     "id": "item_19864cde2888cd8e",
     "type": "news",
     "title": "[인터뷰] 이석재 경기도축구협회장, 경기도체육회장 선거 출마",
-    "summary": "기호일보, KIHOILBO 민선 3기 경기도체육회장 선거에 출마할 것으로 예상되는 이석재 경기도 축구협회장 . \"경기도 체육에 몸담아 온 약 30년의 경험을 바탕으로 솔선수범하는 자세로 도 체육 발전을 이뤄내겠습니다.\" 민선 3기...",
+    "summary": "특히 이석재 회장이 과거 대한축구협회장 출마를 저울질 하고 있다는 일부 언론 보도가 있었던 만큼, 이번 도체육회장 선거 출마를 결심하기까지 이원성 회장과 충분한 교감이 있었던 것 아니냐는 추측도 나온다. 아울러...",
     "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041823",
     "originalUrl": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041823",
     "publisher": "kihoilbo.co.kr",
@@ -2199,7 +2271,10 @@
     "collectedAt": "2026-11-23T08:16:05.746Z",
     "matchedKeywords": [
       "회장 선거",
-      "이석재"
+      "이석재",
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -2215,7 +2290,7 @@
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 31,
     "labels": [
       "인물 언급"
     ],
@@ -2232,8 +2307,8 @@
       ],
       "earliestPublishedAt": 1795412760000,
       "latestPublishedAt": 1795412760000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2284,8 +2359,8 @@
       ],
       "earliestPublishedAt": 1795411560000,
       "latestPublishedAt": 1795411560000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2331,8 +2406,8 @@
       ],
       "earliestPublishedAt": 1795410960000,
       "latestPublishedAt": 1795410960000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2385,8 +2460,8 @@
       ],
       "earliestPublishedAt": 1795410360000,
       "latestPublishedAt": 1795410360000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2440,23 +2515,25 @@
       ],
       "earliestPublishedAt": 1795408560000,
       "latestPublishedAt": 1795408560000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
     "id": "item_885a782550a9f275",
     "type": "news",
     "title": "이원성 경기도체육회장, 3선 불출마 가닥...이석재 방향 선회로 3파전 구...",
-    "summary": "특히 이 회장 의 거취가 가까운 체육계 인사들에게도 뒤늦게 알려진 것으로 파악된 가운데, 이석재 경기도 축구협회 장도 대한 축구협회 장 대신 도체육 회장 선거 에 무게를 두면서 후보 간 경쟁 구도에도 변화가 예상된다....",
+    "summary": "특히 이 회장의 거취가 가까운 체육계 인사들에게도 뒤늦게 알려진 것으로 파악된 가운데, 이석재 경기도축구협회장도 대한축구협회장 대신 도체육회장 선거에 무게를 두면서 후보 간 경쟁 구도에도 변화가 예상된다....",
     "url": "https://www.kyeonggi.com/article/20261123580175",
     "originalUrl": "https://www.kyeonggi.com/article/20261123580175",
     "publisher": "kyeonggi.com",
     "publishedAt": "2026-11-23T04:03:00.000Z",
     "collectedAt": "2026-11-23T08:16:05.746Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
+      "축구협회장",
       "회장 선거",
+      "대한축구협회장",
       "이석재"
     ],
     "discoveryQueries": [
@@ -2493,8 +2570,8 @@
       ],
       "earliestPublishedAt": 1795406580000,
       "latestPublishedAt": 1795406580000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2541,8 +2618,8 @@
       ],
       "earliestPublishedAt": 1795406160000,
       "latestPublishedAt": 1795406160000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2585,8 +2662,8 @@
       ],
       "earliestPublishedAt": 1795403100000,
       "latestPublishedAt": 1795403100000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2630,8 +2707,8 @@
       ],
       "earliestPublishedAt": 1795402920000,
       "latestPublishedAt": 1795402920000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2721,7 +2798,7 @@
     "id": "item_5cc1869d98461a69",
     "type": "news",
     "title": "문체위 김재원 “감사원, 축구협회·18개 시도민 축구단 감사 착수”",
-    "summary": "국회 문화체육관광위원회 소속 김재원 조국혁신당 의원은 23일 감사 원이 대한 축구협회 와 전국 18개 시·도민 프로 축구 단의 공적 재원 집행 적정성에 대한 실지 감사 에 착수한다고 밝혔다. 김 의원은 이날 보도자료를...",
+    "summary": "국회 문화체육관광위원회 소속 김재원 조국혁신당 의원은 23일 감사 원이 대한 축구협회 와 전국 18개 시·도민... “제한된 감사 기간에 모든 문제를 확인하기는 어려운 만큼 감사 결과를 국회와 지방의회, 문체부 와 각...",
     "url": "https://www.seoul.co.kr/news/politics/2026/11/23/20261123500089?wlog_tag3=naver",
     "originalUrl": "https://www.seoul.co.kr/news/politics/2026/11/23/20261123500089?wlog_tag3=naver",
     "publisher": "seoul.co.kr",
@@ -2759,15 +2836,15 @@
       ],
       "earliestPublishedAt": 1795399500000,
       "latestPublishedAt": 1795399500000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
     "id": "item_56ac8f9c6a577917",
     "type": "news",
     "title": "감사원, 축구협회·전국 18개 시·도민구단 공적재원 집행 감사 착수",
-    "summary": "국회 문화체육관광위원회 소속 조국혁신당 김재원 의원은 23일 보도자료를 통해 감사 원이 대한 축구협회 와 전국 18개 시·도민구단을 대상으로 공적재원 집행의 적정성을 확인하기 위한 실지 감사 에 착수한다고 밝혔다....",
+    "summary": "김 의원의 설명에 따르면 감사 원은 최근 문화체육관광부 와 대한 축구협회 , 전국 20개 지방정부 및 감사 기관에 감사 실시 계획을 통보했다. 이번 감사 는 개별 지방정부 차원에서 이뤄지던 시·도민구단의 재정 점검을 넘어...",
     "url": "https://www.kado.net/news/articleView.html?idxno=2086556",
     "originalUrl": "https://www.kado.net/news/articleView.html?idxno=2086556",
     "publisher": "kado.net",
@@ -2804,8 +2881,8 @@
       ],
       "earliestPublishedAt": 1795399320000,
       "latestPublishedAt": 1795399320000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2848,8 +2925,8 @@
       ],
       "earliestPublishedAt": 1795399200000,
       "latestPublishedAt": 1795399200000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
@@ -2895,9 +2972,38 @@
       ],
       "earliestPublishedAt": 1795398960000,
       "latestPublishedAt": 1795398960000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
+  },
+  {
+    "id": "item_c9f7223d81ac90bc",
+    "type": "news",
+    "title": "칼 빼 든 감사원…대한축구협회·18개 시·도민구단 대규모 실지감사",
+    "summary": "문체부 ·20개 지방정부에 감사 통보…\"공적재원 관리 사각지대 해소\" 김 의원에 따르면 감사 원은 최근 문체부 와 대한 축구협회 를 비롯해 전국 20개 지방정부와 감사 기관에 감사 실시를 통보했다. 김 의원은 \" 축구 계의...",
+    "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000085536",
+    "originalUrl": "https://www.jnilbo.com/news/articleView.html?idxno=90000085536",
+    "publisher": "jnilbo.com",
+    "publishedAt": "2026-11-23T01:31:00.000Z",
+    "collectedAt": "2026-11-24T16:27:07.611Z",
+    "matchedKeywords": [
+      "대한축구협회",
+      "감사",
+      "대한 축구협회"
+    ],
+    "discoveryQueries": [
+      "축구협회 문체부 감사"
+    ],
+    "issueTags": [
+      "mcst-audit"
+    ],
+    "personTags": [],
+    "sourceType": "news",
+    "isOfficial": false,
+    "relevanceScore": 47,
+    "labels": [
+      "감사 키워드 포함"
+    ]
   },
   {
     "id": "item_c08aa0c2b6525341",
@@ -2948,15 +3054,15 @@
       ],
       "earliestPublishedAt": 1795397400000,
       "latestPublishedAt": 1795397400000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
     "id": "item_991ba3ee13ec4655",
     "type": "news",
     "title": "혁신당 김재원 \"감사원, 축구협회·시도민구단 감사 착수\"",
-    "summary": "조국혁신당 김재원 의원은 23일 \" 감사 원이 대한 축구협회 와 전국 18개 시·도민 프로 축구 단의 공적재원 집행 적정성에 대한 대규모 실지 감사 에 착수한다\"고 밝혔다. 국회 문화체육관광위원회 소속인 김 의원은 이날...",
+    "summary": "김 의원에 따르면 감사 원은 최근 문체부 와 대한 축구협회 를 비롯해 전국 20개 지방정부와 감사 기관에 감사 실시를 통보했다. 김 의원은 \" 축구 계의 반복되는 문제를 내부의 자정 노력에만 맡길 수 없다는 국민의 요구가...",
     "url": "https://www.yna.co.kr/view/AKR20261123054900001?input=1195m",
     "originalUrl": "https://www.yna.co.kr/view/AKR20261123054900001?input=1195m",
     "publisher": "yna.co.kr",
@@ -2993,15 +3099,15 @@
       ],
       "earliestPublishedAt": 1795396860000,
       "latestPublishedAt": 1795396860000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {
     "id": "item_ed0ffe85f1dfce92",
     "type": "news",
     "title": "감사원, 축구협회·전국 18개 시도민구단 전방위 감사 착수…사상 첫 동...",
-    "summary": "［뉴시안= 이태영 기자］ 감사 원이 대한 축구협회 와 전국 18개 시·도민 프로 축구 단을 대상으로 공적재원 집행 실태에 대한 전방위 감사 에 착수했다. 국민 890명이 참여한 감사 청구가 국가 감사 기관의 실지 감사 로 이어진...",
+    "summary": "감사 원은 문화체육관광부 와 대한 축구협회 를 비롯해 전국 20개 지방정부 및 감사 기관에 감사 실시를 통보했다. 김 의원 측은 지방정부 수신처를 해당 시·도민구단과 대조한 결과 감사 대상이 18개 구단에 해당한다고...",
     "url": "https://www.newsian.co.kr/news/articleView.html?idxno=101810",
     "originalUrl": "https://www.newsian.co.kr/news/articleView.html?idxno=101810",
     "publisher": "newsian.co.kr",
@@ -3039,8 +3145,8 @@
       ],
       "earliestPublishedAt": 1795395600000,
       "latestPublishedAt": 1795395600000,
-      "representativeCollectedAt": 1795496359922,
-      "latestCollectedAt": 1795496359922
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
     }
   },
   {

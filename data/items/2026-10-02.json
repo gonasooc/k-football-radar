@@ -506,7 +506,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "http://www.footballist.co.kr/news/articleView.html?idxno=215408"
+      ],
+      "stories": [
+        "news|news|선수협, 국내 유망주 보호·축구계 비위 대응 논의…11월 선수 서밋 추진|footballist.co.kr|2026-10-02T06:22:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|선수협, 국내 유망주 보호·축구계 비위 대응 논의…11월 선수 서밋 추진|footballist.co.kr"
+      ],
+      "earliestPublishedAt": 1790922120000,
+      "latestPublishedAt": 1790922120000,
+      "representativeCollectedAt": 1795537627611,
+      "latestCollectedAt": 1795537627611
+    }
   },
   {
     "id": "item_347ecf57a161bc98",
