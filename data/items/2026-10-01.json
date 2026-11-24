@@ -92,7 +92,23 @@
     "isOfficial": false,
     "relevanceScore": 6,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=98662"
+      ],
+      "stories": [
+        "news|news|선수협, 제2차 남자이사회 개최…\"선수들이 축구의 현재와 미래에 목소...|fourfourtwo.co.kr|2026-10-01T23:29:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|선수협, 제2차 남자이사회 개최…\"선수들이 축구의 현재와 미래에 목소...|fourfourtwo.co.kr"
+      ],
+      "earliestPublishedAt": 1790897340000,
+      "latestPublishedAt": 1790897340000,
+      "representativeCollectedAt": 1795496359922,
+      "latestCollectedAt": 1795496359922
+    }
   },
   {
     "id": "item_28f592756c19ab28",
