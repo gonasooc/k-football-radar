@@ -251,8 +251,8 @@
       ],
       "earliestPublishedAt": 1795122000000,
       "latestPublishedAt": 1795122000000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -438,8 +438,8 @@
       ],
       "earliestPublishedAt": 1795091460000,
       "latestPublishedAt": 1795091460000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -496,8 +496,8 @@
       ],
       "earliestPublishedAt": 1795091460000,
       "latestPublishedAt": 1795091460000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -782,8 +782,8 @@
       ],
       "earliestPublishedAt": 1795075320000,
       "latestPublishedAt": 1795075320000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -873,8 +873,8 @@
       ],
       "earliestPublishedAt": 1795071660000,
       "latestPublishedAt": 1795071660000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -935,8 +935,8 @@
       ],
       "earliestPublishedAt": 1795071300000,
       "latestPublishedAt": 1795071300000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -1101,8 +1101,8 @@
       ],
       "earliestPublishedAt": 1795068000000,
       "latestPublishedAt": 1795068000000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -1204,8 +1204,8 @@
       ],
       "earliestPublishedAt": 1795065840000,
       "latestPublishedAt": 1795065840000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -1260,8 +1260,8 @@
       ],
       "earliestPublishedAt": 1795064640000,
       "latestPublishedAt": 1795064640000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -1394,8 +1394,8 @@
       ],
       "earliestPublishedAt": 1795060800000,
       "latestPublishedAt": 1795060800000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -1487,15 +1487,17 @@
     "id": "item_3c403a4e57e1fef5",
     "type": "news",
     "title": "모레노 감독과 동행 이어갈까, 선택의 기로 선 한국축구",
-    "summary": "모레노 감독과 대한축구 협회의 임시 감독 계약이 지난 11월 A매치 2연전을 끝으로 종료됐다. 모레노 감독이... 혁신위가 추진하던 축구협회장 선거제도 개편이 FIFA(국제 축구 연맹)에서 ' 축구 의 정치개입 가능성 우려'를...",
+    "summary": "모레노 감독과 대한 축구협회 의 임시 감독 계약이 지난 11월 A매치 2연전을 끝으로 종료됐다. 모레노 감독이... 스페인 출신의 모레노 감독은 북중미월드컵에서 최악의 성적을 기록하며 사임한 홍명보 감독의 후임으로 한국...",
     "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003286437",
     "originalUrl": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CMPT_CD=P0010&CNTN_CD=A0003286437",
     "publisher": "ohmynews.com",
     "publishedAt": "2026-11-19T03:01:00.000Z",
     "collectedAt": "2026-11-19T12:10:10.240Z",
     "matchedKeywords": [
-      "회장 선거",
-      "제도 개편"
+      "대한 축구협회",
+      "감독",
+      "후임",
+      "홍명보"
     ],
     "discoveryQueries": [
       "\"정몽규\" 대한축구협회",
@@ -1515,15 +1517,18 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election",
-      "statute-revision"
+      "coach-appointment"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_hong_myung_bo"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 8,
+    "relevanceScore": 13,
     "relevanceTier": "secondary",
-    "labels": [],
+    "labels": [
+      "인물 언급"
+    ],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1537,8 +1542,8 @@
       ],
       "earliestPublishedAt": 1795057260000,
       "latestPublishedAt": 1795057260000,
-      "representativeCollectedAt": 1795421765746,
-      "latestCollectedAt": 1795421765746
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -1713,8 +1718,8 @@
       ],
       "earliestPublishedAt": 1795054200000,
       "latestPublishedAt": 1795054200000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -1780,8 +1785,8 @@
       ],
       "earliestPublishedAt": 1795053780000,
       "latestPublishedAt": 1795053780000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -1927,8 +1932,8 @@
       ],
       "earliestPublishedAt": 1795051620000,
       "latestPublishedAt": 1795051620000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -1980,8 +1985,8 @@
       ],
       "earliestPublishedAt": 1795051140000,
       "latestPublishedAt": 1795051140000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -2031,14 +2036,14 @@
     "id": "item_88b9193455f331c4",
     "type": "news",
     "title": "정식 감독 못하나 했는데…모레노, '초대형 소식' 전해졌다",
-    "summary": "2026 국제 축구 연맹(FIFA) 북중미 월드컵에서 한국이 조별리그 탈락한 뒤 홍명보 전 감독이 물러나자 대한 축구협회 는 새 감독 선임 절차에 착수했다. 이 과정에서 모레노 감독에게 9월부터 11월까지 A매치 6경기를 맡겼으며...",
+    "summary": "2026 국제 축구 연맹(FIFA) 북중미 월드컵에서 한국이 조별리그 탈락한 뒤 홍명보 전 감독이 물러나자 대한축구협회 는 새 감독 선임 절차에 착수했다. 이 과정에서 모레노 감독에게 9월부터 11월까지 A매치 6경기를 맡겼으며...",
     "url": "https://www.wikitree.co.kr/articles/1175817",
     "originalUrl": "https://www.wikitree.co.kr/articles/1175817",
     "publisher": "wikitree.co.kr",
     "publishedAt": "2026-11-19T00:34:00.000Z",
     "collectedAt": "2026-11-19T02:49:20.750Z",
     "matchedKeywords": [
-      "대한 축구협회",
+      "대한축구협회",
       "감독 선임",
       "감독",
       "선임",
@@ -2083,8 +2088,8 @@
       ],
       "earliestPublishedAt": 1795048440000,
       "latestPublishedAt": 1795048440000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {

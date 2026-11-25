@@ -43,8 +43,8 @@
       ],
       "earliestPublishedAt": 1795389720000,
       "latestPublishedAt": 1795389720000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -93,8 +93,8 @@
       ],
       "earliestPublishedAt": 1795387260000,
       "latestPublishedAt": 1795387260000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -250,8 +250,8 @@
       ],
       "earliestPublishedAt": 1795380240000,
       "latestPublishedAt": 1795380240000,
-      "representativeCollectedAt": 1795602596290,
-      "latestCollectedAt": 1795602596290
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
     }
   },
   {
@@ -435,7 +435,23 @@
     "labels": [
       "인물 언급",
       "선거 키워드 포함"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.starnewskorea.com/sports/2026/11/22/2026112215334419452"
+      ],
+      "stories": [
+        "news|news|日은 4년 뒤 보는데, 한국은 모레노 거취도 아직 모른다... 안정환 탄식...|starnewskorea.com|2026-11-22T07:20:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|日은 4년 뒤 보는데, 한국은 모레노 거취도 아직 모른다... 안정환 탄식...|starnewskorea.com"
+      ],
+      "earliestPublishedAt": 1795332000000,
+      "latestPublishedAt": 1795332000000,
+      "representativeCollectedAt": 1795637512245,
+      "latestCollectedAt": 1795637512245
+    }
   },
   {
     "id": "item_e750f25afb02794e",
