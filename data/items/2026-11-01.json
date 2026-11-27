@@ -178,7 +178,7 @@
     "id": "item_91dc738ff21a9020",
     "type": "news",
     "title": "축구협회, 선거인단 2만1000여명 가닥… 차기 회장 선거 향해 속도",
-    "summary": "사진=뉴시스 이용수 대한축구협회 회장 직무대행이 지난달 21일 서울 여의도 국회에서 열린 문화체육관광위원회의 대한체육회 등에 대한 국정 감사 에서 질문에 답하고 있다. 사진=뉴시스 대한축구협회장 보궐선거의...",
+    "summary": "이에 지난 8월 박지성 위원장이 이끄는 K-축구혁신위원회는 선거 인단을 2만명 이상으로 확대하는 내용의 권고안을 발표했다. 회원종목단체를 관할하는 대한체육회는 지난 7월 기존 2200여명이던 선거 권자를...",
     "url": "https://www.sportsworldi.com/newsView/20261101507015",
     "originalUrl": "https://www.sportsworldi.com/newsView/20261101507015",
     "publisher": "sportsworldi.com",
@@ -189,10 +189,10 @@
       "회장 선거",
       "선거인단",
       "선거인",
-      "대한축구협회",
-      "축구협회장",
-      "대한축구협회장",
-      "감사"
+      "K-축구혁신위원회",
+      "축구혁신위",
+      "혁신위원회",
+      "박지성"
     ],
     "discoveryQueries": [
       "\"박지성\" 감사",
@@ -229,14 +229,17 @@
     ],
     "issueTags": [
       "election",
-      "electoral-college"
+      "electoral-college",
+      "innovation-committee"
     ],
-    "personTags": [],
+    "personTags": [
+      "person_park_ji_sung"
+    ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 47,
+    "relevanceScore": 48,
     "labels": [
-      "감사 키워드 포함",
+      "인물 언급",
       "선거 키워드 포함"
     ],
     "dedupeState": {
@@ -252,8 +255,8 @@
       ],
       "earliestPublishedAt": 1793516520000,
       "latestPublishedAt": 1793516520000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   }
 ]

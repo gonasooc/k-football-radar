@@ -86,7 +86,23 @@
     "isOfficial": false,
     "relevanceScore": 14,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.spotvnews.co.kr/news/articleView.html?idxno=1022160"
+      ],
+      "stories": [
+        "news|news|\"좋은 감독은 지원하지 않는다\" 이영표 소신 발언…공정성 위해 바꾼 공...|spotvnews.co.kr|2026-11-26T22:16:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|\"좋은 감독은 지원하지 않는다\" 이영표 소신 발언…공정성 위해 바꾼 공...|spotvnews.co.kr"
+      ],
+      "earliestPublishedAt": 1795731360000,
+      "latestPublishedAt": 1795731360000,
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
+    }
   },
   {
     "id": "item_c8407194c3de6e1e",
@@ -133,7 +149,7 @@
     "id": "item_761af28f72d3df5b",
     "type": "news",
     "title": "결정권자 없이 표류하는 KFA…출범 '1년 7개월' 전강위도 외롭다",
-    "summary": "대한 축구협회 (KFA)가 수장 없이 표류하는 가운데 출범한 지 1년 7개월이 된 국가대표전력강화 위원회 (전강위)... KFA는 보궐선거를 통해 새 회장을 선출하려 했으나 대한체육회 주도의 K 축구 혁신위원회 ( 혁신 위)가 선거 제도...",
+    "summary": "대한 축구협회 (KFA)가 수장 없이 표류하는 가운데 출범한 지 1년 7개월이 된 국가대표전력강화위원회(전강위)... K 축구 혁신위원회(혁신위)가 선거 제도 개편에 나서면서 선거 일정이 미뤄졌다. 그러나 ' 선거인 단 2만 명 이상...",
     "url": "https://www.news1.kr/sports/soccer/6367613",
     "originalUrl": "https://www.news1.kr/sports/soccer/6367613",
     "publisher": "news1.kr",
@@ -142,6 +158,8 @@
     "matchedKeywords": [
       "대한 축구협회",
       "KFA",
+      "선거인",
+      "제도 개편",
       "혁신위원회",
       "축구 혁신"
     ],
@@ -167,12 +185,14 @@
       "KFA"
     ],
     "issueTags": [
+      "electoral-college",
+      "statute-revision",
       "innovation-committee"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 10,
+    "relevanceScore": 18,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -188,8 +208,8 @@
       ],
       "earliestPublishedAt": 1795726800000,
       "latestPublishedAt": 1795726800000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -243,8 +263,8 @@
       ],
       "earliestPublishedAt": 1795721460000,
       "latestPublishedAt": 1795721460000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -297,8 +317,8 @@
       ],
       "earliestPublishedAt": 1795712400000,
       "latestPublishedAt": 1795712400000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -391,7 +411,23 @@
     "isOfficial": false,
     "relevanceScore": 10,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.sportsseoul.com/news/read/1652605?ref=naver"
+      ],
+      "stories": [
+        "news|news|장시간 이어진 전력강화위 2차 평가…6경기 3승1무2패 ‘임시 감독’ 모...|sportsseoul.com|2026-11-26T15:05:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|장시간 이어진 전력강화위 2차 평가…6경기 3승1무2패 ‘임시 감독’ 모...|sportsseoul.com"
+      ],
+      "earliestPublishedAt": 1795705500000,
+      "latestPublishedAt": 1795705500000,
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
+    }
   },
   {
     "id": "item_e92ad101f7560393",
@@ -440,23 +476,24 @@
       ],
       "earliestPublishedAt": 1795701600000,
       "latestPublishedAt": 1795701600000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
     "id": "item_d9a654efde2df550",
     "type": "news",
     "title": "강유정 \"한중 후속대책 빨리 마련...2배속 일하겠다\"",
-    "summary": "이 녹기 시작한 그 해빙기에 정말 민과 관이 합동으로 조직을 만들어서 기회가 다양한 곳에….] 강 후보자는 미뤄지고 있는 신임 대한 축구협회장 선출에 대해선 공정성과 민주적 제도의 관점에서 사안을 풀어야 한다고...",
+    "summary": "이 녹기 시작한 그 해빙기에 정말 민과 관이 합동으로 조직을 만들어서 기회가 다양한 곳에….] 강 후보자는 미뤄지고 있는 신임 대한축구협회장 선출에 대해선 공정성과 민주적 제도의 관점에서 사안을 풀어야 한다고...",
     "url": "https://www.ytn.co.kr/_ln/0106_202611262251437715",
     "originalUrl": "https://www.ytn.co.kr/_ln/0106_202611262251437715",
     "publisher": "ytn.co.kr",
     "publishedAt": "2026-11-26T13:51:00.000Z",
     "collectedAt": "2026-11-26T22:36:35.536Z",
     "matchedKeywords": [
-      "대한 축구협회",
-      "축구협회장"
+      "대한축구협회",
+      "축구협회장",
+      "대한축구협회장"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -487,8 +524,8 @@
       ],
       "earliestPublishedAt": 1795701060000,
       "latestPublishedAt": 1795706100000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -764,15 +801,15 @@
       ],
       "earliestPublishedAt": 1795695960000,
       "latestPublishedAt": 1795695960000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
     "id": "item_1e35abded644ec27",
     "type": "news",
     "title": "이석재 경기도축구협회장, 경기도체육회장 선거 출마와 5대 공약 제시",
-    "summary": "매일일보 = 강재규 기자 | 이석재 경기도 축구협회장 이 26일 제37대 민선 3기 경기도체육회장 선거 출마를 선언하고 경기체육 발전을 위한 5대 공약을 발표했다. 선거는 다음 달 16일 치러진다. 이원성 경기도체육회장이 3선...",
+    "summary": "2013년 경기도 축구협회 장에 취임한 이석재 회장은 2025년 4선에 성공해 임기를 이어왔다. 경기도체육회장 선거는 다음 달 3~4일 후보 자 등록 을 거쳐 16일 선거인단이 참여한 가운데 투표를 실시한다. 시·군체육회장 선거는...",
     "url": "https://www.m-i.kr/news/articleView.html?idxno=2024095",
     "originalUrl": "https://www.m-i.kr/news/articleView.html?idxno=2024095",
     "publisher": "m-i.kr",
@@ -780,7 +817,9 @@
     "collectedAt": "2026-11-26T13:11:12.084Z",
     "matchedKeywords": [
       "회장 선거",
-      "이석재"
+      "이석재",
+      "선거인단",
+      "선거인"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -793,16 +832,18 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "electoral-college"
     ],
     "personTags": [
       "person_lee_seok_jae"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 31,
     "labels": [
-      "인물 언급"
+      "인물 언급",
+      "선거 키워드 포함"
     ],
     "dedupeState": {
       "version": 1,
@@ -817,8 +858,8 @@
       ],
       "earliestPublishedAt": 1795694640000,
       "latestPublishedAt": 1795694640000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -865,8 +906,8 @@
       ],
       "earliestPublishedAt": 1795694400000,
       "latestPublishedAt": 1795694400000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -925,7 +966,7 @@
     "id": "item_b1794d0f6273b5ab",
     "type": "news",
     "title": "이석재 경기도축구협회장, 제37대 경기도체육회장 선거 출마 선언",
-    "summary": "이석재 경기도 축구협회 장이 2027년 전국체전 성공 개최와 경기도선수촌 건립, 안정적인 체육재정 확보, 시군체육회 및 종목단체 지원 강화, 국제스포츠대회 유치를 주요 공약으로 내걸고 차기 경기도체육 회장 선거 에...",
+    "summary": "이어 2017 FIFA U-20 월드컵 개최와 생활체육·엘리트 축구 통합, 대한 축구협회 부회장 활동 등을 언급하며 \"그 모든 시간은 경기도의 운동장에서 시작됐다. 경기도는 내 삶의 운동장이다\"라고 말했다. 현 이원성...",
     "url": "https://www.kmaeil.com/news/articleView.html?idxno=660017",
     "originalUrl": "https://www.kmaeil.com/news/articleView.html?idxno=660017",
     "publisher": "kmaeil.com",
@@ -933,7 +974,9 @@
     "collectedAt": "2026-11-26T13:11:12.084Z",
     "matchedKeywords": [
       "회장 선거",
-      "이석재"
+      "이석재",
+      "대한 축구협회",
+      "부회장"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -944,14 +987,15 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "kfa-executives"
     ],
     "personTags": [
       "person_lee_seok_jae"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ],
@@ -968,8 +1012,8 @@
       ],
       "earliestPublishedAt": 1795689840000,
       "latestPublishedAt": 1795689840000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -1122,7 +1166,7 @@
     "id": "item_bb42cc750b0d8af3",
     "type": "news",
     "title": "이석재, 제37대 경기도체육회장 선거 출마 선언",
-    "summary": "이석재 경기도 축구협회장 . 이석재 경기도 축구협회장 이 26일 제37대 민선 3기 경기도체육회장 선거 출마를 공식 선언하고 경기체육 발전을 위한 5대 핵심 공약을 발표했다. 이 회장은 출마선언문을 통해 지난 13년간 체육...",
+    "summary": "그는 \"2017 FIFA U-20 월드컵을 경기도에서 성공적으로 치러 냈고, 생활체육과 엘리트 축구의 통합을 이끌었다\"며 \"대한 축구협회 부회장 으로서 한국 축구의 살림도 함께 짊어졌다\"고 말했다. 이어 이원성 경기도체육회장이...",
     "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1316487",
     "originalUrl": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1316487",
     "publisher": "jeonmae.co.kr",
@@ -1130,7 +1174,8 @@
     "collectedAt": "2026-11-26T13:11:12.084Z",
     "matchedKeywords": [
       "회장 선거",
-      "이석재"
+      "대한 축구협회",
+      "부회장"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -1140,18 +1185,15 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "kfa-executives"
     ],
-    "personTags": [
-      "person_lee_seok_jae"
-    ],
+    "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 17,
+    "relevanceScore": 20,
     "relevanceTier": "secondary",
-    "labels": [
-      "인물 언급"
-    ],
+    "labels": [],
     "dedupeState": {
       "version": 1,
       "urls": [
@@ -1165,8 +1207,8 @@
       ],
       "earliestPublishedAt": 1795686000000,
       "latestPublishedAt": 1795686000000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -1220,8 +1262,8 @@
       ],
       "earliestPublishedAt": 1795685340000,
       "latestPublishedAt": 1795685340000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -1296,14 +1338,14 @@
     "id": "item_0f03eb0f1ee0cff5",
     "type": "news",
     "title": "'치열했던 심사와 뜨거운 축하' 학교체육을 위해 노력한 '모두의 축제',...",
-    "summary": "교육부와 16개 시·도 교육청이 주최하고 학교체육진흥회와 스포츠조선이 공동주관하며, 대한축구협회 , 대한장애인체육회, SK텔레콤, 한국스포츠레저(주)가 후원한 '2026 학교체육대상'이 26일 서울 중구 태평로...",
+    "summary": "이번 시상식에는 유지완 교육부 학교지원관, 정덕근 인천광역시 학교교육국장, 정진완 대한장애인체육회장, 이용수 대한 축구협회 장 직무대행, 주형근 SK텔레콤 국장이 자리를 빛냈다. 초등학교부터 특수학교까지...",
     "url": "https://www.sportschosun.com/sports-news/2026-11-26/202611260100168310015580",
     "originalUrl": "https://www.sportschosun.com/sports-news/2026-11-26/202611260100168310015580",
     "publisher": "sportschosun.com",
     "publishedAt": "2026-11-26T08:57:00.000Z",
     "collectedAt": "2026-11-26T13:11:12.084Z",
     "matchedKeywords": [
-      "대한축구협회"
+      "대한 축구협회"
     ],
     "discoveryQueries": [
       "\"이용수\" 대한축구협회",
@@ -1332,8 +1374,8 @@
       ],
       "earliestPublishedAt": 1795683420000,
       "latestPublishedAt": 1795683420000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -1754,7 +1796,7 @@
     "id": "item_a85c58d2293c5c1d",
     "type": "news",
     "title": "이석재 경기도축구협회장, 경기도체육회장 선거 출마 선언",
-    "summary": "이석재 경기도 축구협회 장이 제3기 민선 경기도체육 회장 선거 에 출마한다. 이 회장 은 26일 경기도의회 브리핑룸에서 기자회견을 열고 출마를 공식 선언하며 경기체육 발전을 위한 5대 공약을 제시했다. 주요 공약은...",
+    "summary": "이 회장은 2013년부터 경기도축구협회장을 맡고 있으며 대한 축구협회 부회장 과 경기도체육회 종목단체협의회장 등을 역임했다. 그는 \"체육회장은 군림하는 자리가 아니라 가장 먼저 체육 현장으로 나가는 자리\"라며...",
     "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5088430",
     "originalUrl": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5088430",
     "publisher": "shinailbo.co.kr",
@@ -1762,7 +1804,10 @@
     "collectedAt": "2026-11-26T13:11:12.084Z",
     "matchedKeywords": [
       "회장 선거",
-      "이석재"
+      "이석재",
+      "대한 축구협회",
+      "축구협회장",
+      "부회장"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -1772,14 +1817,15 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "kfa-executives"
     ],
     "personTags": [
       "person_lee_seok_jae"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
     ],
@@ -1796,8 +1842,8 @@
       ],
       "earliestPublishedAt": 1795678560000,
       "latestPublishedAt": 1795678560000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -1896,8 +1942,8 @@
       ],
       "earliestPublishedAt": 1795678320000,
       "latestPublishedAt": 1795678320000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -1987,8 +2033,8 @@
       ],
       "earliestPublishedAt": 1795677600000,
       "latestPublishedAt": 1795677600000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -2229,7 +2275,7 @@
     "id": "item_786093e980c4a02d",
     "type": "news",
     "title": "이석재 경기도축구협회장, 경기도체육회장 선거 출마 선언…“한 팀 경...",
-    "summary": "이석재 경기도 축구협회 장이 민선 3기 경기도체육 회장 선거 에 출사표를 던졌다. 이석재 회장 은 26일 경기도의회에서 기자회견을 열고 다음 달 16일 치러지는 경기도체육 회장 선거 출마를 선언했다. 이 회장 은 2013년...",
+    "summary": "대한 축구협회 부회장 , 경기도민관협치위원회 위원, 이천시축구협회장 등을 역임했다. 이날 이 회장은 앞서 불출마를 선언한 이원성 회장에게 깊은 경의를 표한다면서 “민선 1·2기 동안 어려운 여건 속에서도 전국체전...",
     "url": "https://www.kyeonggi.com/article/20261126580233",
     "originalUrl": "https://www.kyeonggi.com/article/20261126580233",
     "publisher": "kyeonggi.com",
@@ -2237,7 +2283,10 @@
     "collectedAt": "2026-11-26T13:11:12.084Z",
     "matchedKeywords": [
       "회장 선거",
-      "이석재"
+      "이석재",
+      "대한 축구협회",
+      "축구협회장",
+      "부회장"
     ],
     "discoveryQueries": [
       "대한축구협회장",
@@ -2246,14 +2295,15 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "kfa-executives"
     ],
     "personTags": [
       "person_lee_seok_jae"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 32,
     "labels": [
       "인물 언급"
     ],
@@ -2270,15 +2320,15 @@
       ],
       "earliestPublishedAt": 1795671480000,
       "latestPublishedAt": 1795671480000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
     "id": "item_c48f657ec7da9aaa",
     "type": "news",
     "title": "이석재 경기도축구협회장, 경기도체육회장 선거 출마…\"체육재정 안정화...",
-    "summary": "이석재 경기도 축구협회 장이 제37대 민선 3기 경기도체육 회장 선거 출마를 공식 선언했다. 김두일 기자 | 수원=한스경제 김두일 기자 | 이석재 경기도 축구협회 장이 제37대 민선 3기 경기도체육 회장 선거 출마를 공식...",
+    "summary": "또한 대한 축구협회 부회장 으로 활동하며 한국 축구 발전에도 참여했다고 강조했다. 특히 민선 1·2기 경기도체육회를 이끌어 온 이원성 회장에게 경의를 표하며, 전국체전 연속 종합우승과 2027년 전국체전 유치 등의...",
     "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=887639",
     "originalUrl": "http://www.hansbiz.co.kr/news/articleView.html?idxno=887639",
     "publisher": "hansbiz.co.kr",
@@ -2286,7 +2336,9 @@
     "collectedAt": "2026-11-26T13:11:12.084Z",
     "matchedKeywords": [
       "회장 선거",
-      "이석재"
+      "이석재",
+      "대한 축구협회",
+      "부회장"
     ],
     "discoveryQueries": [
       "대한축구협회장",
@@ -2295,14 +2347,15 @@
       "축구협회장"
     ],
     "issueTags": [
-      "election"
+      "election",
+      "kfa-executives"
     ],
     "personTags": [
       "person_lee_seok_jae"
     ],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 25,
+    "relevanceScore": 28,
     "labels": [
       "인물 언급"
     ],
@@ -2319,8 +2372,8 @@
       ],
       "earliestPublishedAt": 1795670280000,
       "latestPublishedAt": 1795670280000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -2386,8 +2439,8 @@
       ],
       "earliestPublishedAt": 1795669980000,
       "latestPublishedAt": 1795669980000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -2439,8 +2492,8 @@
       ],
       "earliestPublishedAt": 1795668180000,
       "latestPublishedAt": 1795668180000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -2485,8 +2538,8 @@
       ],
       "earliestPublishedAt": 1795665660000,
       "latestPublishedAt": 1795665660000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
@@ -2537,8 +2590,8 @@
       ],
       "earliestPublishedAt": 1795658280000,
       "latestPublishedAt": 1795658280000,
-      "representativeCollectedAt": 1795753977671,
-      "latestCollectedAt": 1795753977671
+      "representativeCollectedAt": 1795789342965,
+      "latestCollectedAt": 1795789342965
     }
   },
   {
