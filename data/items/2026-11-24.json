@@ -138,8 +138,8 @@
       ],
       "earliestPublishedAt": 1795561500000,
       "latestPublishedAt": 1795561500000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -196,8 +196,8 @@
       ],
       "earliestPublishedAt": 1795555800000,
       "latestPublishedAt": 1795555800000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -792,7 +792,23 @@
     "relevanceTier": "secondary",
     "labels": [
       "인물 언급"
-    ]
+    ],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.newspim.com/news/view/20261124001434"
+      ],
+      "stories": [
+        "news|news|모레노 감독 유임 여부, 25일 전력강화위서 논의…최종 결정은 12월 전망|newspim.com|2026-11-24T10:08:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|모레노 감독 유임 여부, 25일 전력강화위서 논의…최종 결정은 12월 전망|newspim.com"
+      ],
+      "earliestPublishedAt": 1795514880000,
+      "latestPublishedAt": 1795514880000,
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
+    }
   },
   {
     "id": "youtube__ISB3BsXJq0",
@@ -919,15 +935,15 @@
     "id": "item_b43946e477734b51",
     "type": "news",
     "title": "유승민 대한체육회 회장, FIFA·AFC 서한에 “체육회 독립성·권한도 존...",
-    "summary": "선거 제도 로 개편 할 것을 요구했다. 축구협회 는 이후 FIFA 의견을 재검토하기 위해 회장 선거 일정을 연기했다. 유 회장은 “국제연맹과 축구협회 의 자율성을 존중해야 하듯 국가올림픽위원회(NOC)인 체육회 독립성과...",
+    "summary": "축구협회 는 전날(23일) FIFA와 AFC의 공동 서한이 두 기구의 자체적 판단에 따른 것이라고 설명하면서 “ 협회 정관 개정 안과 회장선거 관리 규정 , 체육회 회원종목단체 규정 등을 제출한 것 이외에는 별도 논의를 하지...",
     "url": "https://sports.donga.com/sports/article/all/20261124/135082642/1",
     "originalUrl": "https://sports.donga.com/sports/article/all/20261124/135082642/1",
     "publisher": "sports.donga.com",
     "publishedAt": "2026-11-24T09:06:00.000Z",
     "collectedAt": "2026-11-25T10:29:56.290Z",
     "matchedKeywords": [
-      "축구협회",
-      "회장 선거"
+      "정관",
+      "정관 개정"
     ],
     "discoveryQueries": [
       "대한축구협회장",
@@ -945,12 +961,12 @@
       "K-축구혁신위원회"
     ],
     "issueTags": [
-      "election"
+      "statute-revision"
     ],
     "personTags": [],
     "sourceType": "news",
     "isOfficial": false,
-    "relevanceScore": 7,
+    "relevanceScore": 6,
     "relevanceTier": "secondary",
     "labels": [],
     "dedupeState": {
@@ -966,8 +982,8 @@
       ],
       "earliestPublishedAt": 1795511160000,
       "latestPublishedAt": 1795511160000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -1198,8 +1214,8 @@
       ],
       "earliestPublishedAt": 1795509600000,
       "latestPublishedAt": 1795509600000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -1371,8 +1387,8 @@
       ],
       "earliestPublishedAt": 1795509240000,
       "latestPublishedAt": 1795509240000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -1434,8 +1450,8 @@
       ],
       "earliestPublishedAt": 1795508700000,
       "latestPublishedAt": 1795508700000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -1998,8 +2014,8 @@
       ],
       "earliestPublishedAt": 1795504440000,
       "latestPublishedAt": 1795504440000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -2241,8 +2257,8 @@
       ],
       "earliestPublishedAt": 1795500120000,
       "latestPublishedAt": 1795500120000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -2272,7 +2288,23 @@
     "isOfficial": false,
     "relevanceScore": 11,
     "relevanceTier": "secondary",
-    "labels": []
+    "labels": [],
+    "dedupeState": {
+      "version": 1,
+      "urls": [
+        "https://www.koreadaily.com/article/20261123215528129"
+      ],
+      "stories": [
+        "news|news|제19대 뉴저지축구협회장에 송창진씨 당선|koreadaily.com|2026-11-24T05:56:00.000Z"
+      ],
+      "nearKeys": [
+        "news|news|제19대 뉴저지축구협회장에 송창진씨 당선|koreadaily.com"
+      ],
+      "earliestPublishedAt": 1795499760000,
+      "latestPublishedAt": 1795499760000,
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
+    }
   },
   {
     "id": "item_6e579ac19af0d7d2",
@@ -2324,8 +2356,8 @@
       ],
       "earliestPublishedAt": 1795497540000,
       "latestPublishedAt": 1795497540000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -2415,8 +2447,8 @@
       ],
       "earliestPublishedAt": 1795496400000,
       "latestPublishedAt": 1795496400000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -2459,8 +2491,8 @@
       ],
       "earliestPublishedAt": 1795495560000,
       "latestPublishedAt": 1795495560000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -2518,8 +2550,8 @@
       ],
       "earliestPublishedAt": 1795494840000,
       "latestPublishedAt": 1795531140000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -2587,8 +2619,8 @@
       ],
       "earliestPublishedAt": 1795494240000,
       "latestPublishedAt": 1795494240000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -2727,8 +2759,8 @@
       ],
       "earliestPublishedAt": 1795489680000,
       "latestPublishedAt": 1795489680000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   },
   {
@@ -2893,7 +2925,7 @@
     "id": "item_a6477e6ddba017f9",
     "type": "news",
     "title": "감사원, 시민구단 실지감사 착수…프로축구연맹 ‘운영 부실’ 사과",
-    "summary": "앞서 감사 원은 파주, 용인 등 시민구단 예비 감사 를 마친 데 이어 사단법인 대한 축구협회 와 전국 18개 시·도민 프로 축구 단의 전방위적인 공적 재원 집행 적정성 관련 실지 감사 를 실시하고 있다. 감사 원 행정·문화 감사 국...",
+    "summary": "이를 대한축구협회 와 전국 시·도민 프로 축구 단으로 확대, 공적 재원 집행 적정성 관련 실지감사에 착수한... ‘로스터 제도 ’를 새롭게 도입하기로 했다”며 “다만, 유소년 육성과 젊은 선수들의 출전 기회 보장을...",
     "url": "https://www.kyeonggi.com/article/20261124580069",
     "originalUrl": "https://www.kyeonggi.com/article/20261124580069",
     "publisher": "kyeonggi.com",
@@ -2902,7 +2934,7 @@
     "matchedKeywords": [
       "프로축구연맹",
       "감사",
-      "대한 축구협회"
+      "대한축구협회"
     ],
     "discoveryQueries": [
       "대한축구협회",
@@ -2935,8 +2967,8 @@
       ],
       "earliestPublishedAt": 1795482840000,
       "latestPublishedAt": 1795482840000,
-      "representativeCollectedAt": 1795789342965,
-      "latestCollectedAt": 1795789342965
+      "representativeCollectedAt": 1795820264123,
+      "latestCollectedAt": 1795820264123
     }
   }
 ]
